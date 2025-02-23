@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GlossaryExtract\**" />
+    <EmbeddedResource Remove="GlossaryExtract\**" />
+    <None Remove="GlossaryExtract\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Converted\NpcTalkItem.txt~RF28e086f2.TMP" />
+    <None Remove="Converted\NpcTalkItem.txt~RF2ce62622.TMP" />
+    <None Remove="Converted\NpcTalkItem.txt~RF2f3ea02e.TMP" />
+    <None Remove="Converted\NpcTalkItem.txt~RF3a939226.TMP" />
+    <None Remove="Converted\NpcTalkItem.txt~RF90139d1.TMP" />
+    <None Remove="Converted\NpcTalkItem.txt~RFe363f8a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Raw\Export\" />
+    <Folder Include="Raw\SplitDb\" />
+    <Folder Include="TestResults\Failed\" />
+  </ItemGroup>
+
+</Project>
