@@ -70,8 +70,8 @@ public class TranslationWorkflowTests
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
 
-        var sourceDirectory = $"{workingDirectory}/Mod";
-        var gameDirectory = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\下一站江湖Ⅱ_Data\\StreamingAssets\\Mod\\MyMod2025_02_23_12_16_41";
+        var sourceDirectory = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
+        var gameDirectory = $"G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\下一站江湖Ⅱ_Data\\StreamingAssets\\Mod\\{ModHelper.ContentFolder}";
         if (Directory.Exists(gameDirectory))
             Directory.Delete(gameDirectory, true);
 
