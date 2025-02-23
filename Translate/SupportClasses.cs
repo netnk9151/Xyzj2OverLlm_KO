@@ -9,39 +9,6 @@ public class TranslatedRaw(string raw)
     public string Trans { get; set; } = string.Empty;
 }
 
-public class StructuredGlossaryLine
-{
-    public string Criteria { get; set; } = string.Empty;
-    public string OriginalText { get; set; } = string.Empty;
-    public string TranslatedText { get; set; } = string.Empty;
-    public string TransliteratedText { get; set; } = string.Empty;
-    public string Context { get; set; } = string.Empty;
-
-}
-
-public class DataFormat
-{
-    public List<DataLine> Entries { get; set; } = [];
-}
-
-public class DataLine
-{
-    public string Raw { get; set; } = string.Empty;
-    public string Result { get; set; } = string.Empty;
-    public string Context { get; set; } = string.Empty;
-    public string Literal { get; set; } = string.Empty;
-
-    public DataLine()
-    {
-    }
-
-    public DataLine(string raw, string result)
-    {
-        Raw = raw;
-        Result= result;
-    }
-}
-
 public class TextFileToSplit
 {
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
@@ -93,7 +60,7 @@ public class TranslationSplit
 
 public class TranslationLine
 {
-    public int LineNum { get; set; } = 0;
+    public Int64 LineNum { get; set; } = 0;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Raw { get; set; } = string.Empty;

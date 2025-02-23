@@ -1,8 +1,4 @@
-﻿using System.Text.Json.Nodes;
-using System.Text.Json;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Text.Json.Schema;
+﻿using System.Text.RegularExpressions;
 
 namespace Translate.Tests;
 public class TranslationWorkflowTests
@@ -20,12 +16,6 @@ public class TranslationWorkflowTests
     {
         TranslationService.ExportTextAssetsToCustomFormat(workingDirectory);
     }
-
-    //[Fact]
-    //public async Task ExtractGlossary()
-    //{
-    //    await TranslationService.ExtractGlossaryAsync(workingDirectory);
-    //}
 
     [Fact]
     public async Task TranslateLinesBruteForce()
@@ -83,15 +73,7 @@ public class TranslationWorkflowTests
         return new Dictionary<string, string>()
         {
             // Manual
-            {  "接仙篇", "Chapter of Receiving Immortality" },
-            {  "奖励：", "Reward:" },
-            {  "进度：", "Progress:" },           
-            {  "迁识", "Transfer of Consciousness" },
-            {  "气血", "Lifeforce" },  
-            {  "姑娘", "Young lady" },
-            {  "-请便", "Excuse me" },
-            {  "{0}{1} 经验", "{0} {1} Experience" },
-            { "杂项事件对话", "Miscellaneous Events Dialogue" }, 
+            //{  "奖励：", "Reward:" },
         };
     }
 
@@ -120,23 +102,8 @@ public class TranslationWorkflowTests
         };
 
         var mistranslationCheckGlossary = new Dictionary<string, string>();
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Names.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Factions.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Locations.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.SpecialTermsSafe.Entries);
-        //Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.SpecialTermsUnsafe.Entries); //Not safe can be translated differently
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Titles.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Placeholder1WithTitles.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Placeholder2WithTitles.Entries);
-        Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.Placeholder1and2WithTitles.Entries);
 
         var hallucinationCheckGlossary = new Dictionary<string, string>();
-        Configuration.AddToDictionaryGlossary(hallucinationCheckGlossary, config.GameData.Names.Entries);
-        Configuration.AddToDictionaryGlossary(hallucinationCheckGlossary, config.GameData.Factions.Entries);
-        Configuration.AddToDictionaryGlossary(hallucinationCheckGlossary, config.GameData.Locations.Entries);
-        Configuration.AddToDictionaryGlossary(hallucinationCheckGlossary, config.GameData.SpecialTermsSafe.Entries);
-        //Configuration.AddToDictionaryGlossary(mistranslationCheckGlossary, config.GameData.SpecialTermsUnsafe.Entries); //Not safe can be translated differently
-        //Configuration.AddToDictionaryGlossary(hallucinationCheckGlossary, config.GameData.Titles.Entries); //Not safe because of multiple ways to get titles
 
         //var dupeNames = new Dictionary<string, (string key1, string key2)>();
         var dupeNames = mistranslationCheckGlossary

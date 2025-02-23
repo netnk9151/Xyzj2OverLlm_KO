@@ -24,34 +24,10 @@ public static class TranslationService
 
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [
-            new() { Path = "AchievementItem.txt", SplitIndexes = [1, 2, 12] },
-            new() { Path = "AreaItem.txt", SplitIndexes = [1] },
-            new() { Path = "BufferItem.txt", SplitIndexes = [1,2] },
-            new() { Path = "CharacterPropertyItem.txt", SplitIndexes = [5] },
-            new() { Path = "CreatePlayerQuestionItem.txt", SplitIndexes = [1] },
-            new() { Path = "DefaultSkillItem.txt", SplitIndexes = [1] },
-            new() { Path = "DefaultTalentItem.txt", SplitIndexes = [1] },
-            new() { Path = "EquipInventoryItem.txt", SplitIndexes = [1,3] },
-            new() { Path = "EventCubeItem.txt", SplitIndexes = [1] },
-            new() { Path = "HelpItem.txt", SplitIndexes = [3,4] },
-            new() { Path = "NicknameItem.txt", SplitIndexes = [1,2] },
-            new() { Path = "NormalBufferItem.txt", SplitIndexes = [1] },
-            new() { Path = "NormalInventoryItem.txt", SplitIndexes = [1,3] },
-            new() { Path = "NpcItem.txt", SplitIndexes = [1] },
-            //new() { Path = "NpcTalkItem.txt", SplitIndexes = [6] },
-            //new() { Path = "QuestItem.txt", SplitIndexes = [1,3] },
-            new() { Path = "ReforgeItem.txt", SplitIndexes = [3] },
-            new() { Path = "SkillNodeItem.txt", SplitIndexes = [1,2] },
-            new() { Path = "SkillTreeItem.txt", SplitIndexes = [1,3] },
-            new() { Path = "StringTableItem.txt", SplitIndexes = [1] },
-            new() { Path = "TeleporterItem.txt", SplitIndexes = [1] },
-            new() { Path = "TalentItem.txt", SplitIndexes = [1,2] },
-
-            new() { Path = "QuestItem.txt", SplitIndexes = [1,3] },
-            new() { Path = "NpcTalkItem.txt", SplitIndexes = [6] },
+            new() { Path = "achievement.txt", SplitIndexes = [] },
         ];
 
-    public static void WriteSplitFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
+    public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
     {
         if (string.IsNullOrEmpty(fileName) || !hasChinese)
             return;
@@ -85,7 +61,7 @@ public static class TranslationService
                 if (splits.Length == 2)
                 {
                     // Primary Write
-                    WriteSplitFile(outputPath, splitDbName, splitDbCount, hasChinese, currentSplitLines);
+                    WriteSplitDbFile(outputPath, splitDbName, splitDbCount, hasChinese, currentSplitLines);
                     splitDbName = splits[0];
                     splitDbCount = int.Parse(splits[1]);
                     hasChinese = false;
@@ -104,17 +80,58 @@ public static class TranslationService
         }
 
         //Trailing Write
-        WriteSplitFile(outputPath, splitDbName, splitDbCount, hasChinese, currentSplitLines);
+        WriteSplitDbFile(outputPath, splitDbName, splitDbCount, hasChinese, currentSplitLines);
     }
 
     public static void ExportTextAssetsToCustomFormat(string workingDirectory)
     {
         string inputPath = $"{workingDirectory}/Raw/SplitDb";
         string outputPath = $"{workingDirectory}/Raw/Export";
-        var serializer = Yaml.CreateSerializer();
 
         if (!Directory.Exists(outputPath))
             Directory.CreateDirectory(outputPath);
+
+        var serializer = Yaml.CreateSerializer();
+        var pattern = LineValidation.ChineseCharPattern;
+
+        var dir = new DirectoryInfo($"{workingDirectory}/Raw/SplitDb");
+        FileInfo[] files = dir.GetFiles();
+        foreach (FileInfo file in files)
+        {
+            var foundLines = new List<TranslationLine>();
+
+            var lines = File.ReadAllLines(file.FullName);
+            foreach (var line in lines)
+            {
+                var splits = line.Split("#");
+                var foundSplits = new List<TranslationSplit>();
+                
+                // Find Chinese
+                for (int i = 0; i < splits.Length; i++)
+                {
+                    if (Regex.IsMatch(splits[i], pattern))
+                    {
+                        foundSplits.Add(new TranslationSplit()
+                        {
+                            Split = i,
+                            Text = splits[i],
+                        });
+                    }
+                }
+
+                //The translation line
+                foundLines.Add(new TranslationLine()
+                {
+                    LineNum = Int64.Parse(splits[0]),
+                    Raw = line,
+                    Splits = foundSplits,
+                });
+            }
+
+            // Write the found lines
+            var yaml = serializer.Serialize(foundLines);
+            File.WriteAllText($"{outputPath}/{file.Name}", yaml);
+        }
     }
 
     public static async Task FillTranslationCacheAsync(string workingDirectory, int charsToCache, Dictionary<string, string> cache, LlmConfig config)
@@ -123,7 +140,7 @@ public static class TranslationService
         //foreach (var k in GetManualCorrections())
         //    cache.Add(k.Key, k.Value);
 
-        Glossary.AddGlossaryToCache(config, cache);
+        //Glossary.AddGlossaryToCache(config, cache);
 
         await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
@@ -479,7 +496,7 @@ public static class TranslationService
         //if (raw.Contains("<"))
         //    basePrompt.AppendLine(config.Prompts["DynamicMarkupPrompt"]);
 
-        basePrompt.AppendLine(Glossary.ConstructGlossaryPrompt(raw, config));
+        //basePrompt.AppendLine(Glossary.ConstructGlossaryPrompt(raw, config));
 
         // File Specific prompt
         if (outputFile.Contains("NpcItem.txt"))
@@ -528,160 +545,5 @@ public static class TranslationService
             var tempPath = Path.Combine(destDir, subdir.Name);
             CopyDirectory(subdir.FullName, tempPath);
         }
-    }
-
-    public static async Task<string> ExtractGlossaryItemAsync(LlmConfig config, HttpClient client, string input)
-    {
-        // Prime the Request
-        var basePrompt = config.Prompts["GlossaryBuildUpPrompt"];
-
-        List<object> messages =
-            [
-                LlmHelpers.GenerateSystemPrompt(basePrompt),
-                LlmHelpers.GenerateUserPrompt(input)
-            ];
-
-        //Generate Schema
-        if (!config.ModelParams!.ContainsKey("format"))
-        {
-            JsonSerializerOptions options = JsonSerializerOptions.Default;
-            JsonNode schema = options.GetJsonSchemaAsNode(typeof(StructuredGlossaryLine[]));
-            config.ModelParams!.Add("format", schema);
-        }
-
-        // Generate based on what would have been created
-        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
-
-        // Send correction & Get result
-        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
-        HttpResponseMessage response = await client.PostAsync(config.Url, content);
-        response.EnsureSuccessStatusCode();
-        string responseBody = await response.Content.ReadAsStringAsync();
-        using var jsonDoc = JsonDocument.Parse(responseBody);
-        var result = jsonDoc.RootElement
-            .GetProperty("message")!
-            .GetProperty("content")!
-            .GetString()
-            ?.Trim() ?? string.Empty;
-
-        return result;
-    }
-
-
-    public class GlossaryCapture : Dictionary<string, StructuredGlossaryLine>
-    {
-        public bool AddItem(StructuredGlossaryLine item)
-        {
-            // Find by Original Text - else add a new one in
-            if (!ContainsKey(item.OriginalText))
-            {
-                Add(item.OriginalText, item);
-                return true;
-            }
-
-            return false;
-        }
-    }
-
-    public class GlossaryOutput : Dictionary<string, GlossaryCapture>
-    {
-        public bool AddItem(StructuredGlossaryLine item)
-        {
-            var criteriaEntry = item.Criteria
-                .Replace('\\', '_')
-                .Replace('/', '_')
-                .ToLower();
-
-            if (!TryGetValue(criteriaEntry, out GlossaryCapture? newValue))
-            {
-                newValue = [];
-                Add(criteriaEntry, newValue);
-            }
-
-            return newValue.AddItem(item);
-        }
-    }
-
-    public static void WriteGlossaryOutput(string workingDirectory, GlossaryOutput glossary)
-    {
-        var serializer = Yaml.CreateSerializer();
-
-        foreach (var entry in glossary)
-        {
-            var outputFile = $"{workingDirectory}/GlossaryExtract/{entry.Key}.txt";
-            File.WriteAllText(outputFile, serializer.Serialize(entry.Value));
-        }
-    }
-
-    public static async Task ExtractGlossaryAsync(string workingDirectory)
-    {
-        await Task.CompletedTask;
-        throw new NotImplementedException($"It's too green at the moment - needs better prompts {workingDirectory}");
-
-        //var config = Configuration.GetConfiguration(workingDirectory);
-
-        //// Create an HttpClient instance
-        //using var client = new HttpClient();
-        //client.Timeout = TimeSpan.FromSeconds(300);
-
-        //if (config.ApiKeyRequired)
-        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", config.ApiKey);
-
-        //int incorrectLineCount = 0;
-        //int totalRecordsProcessed = 0;
-
-        //var outputGlossary = new GlossaryOutput();
-
-        //await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
-        //{
-        //    int recordsModded = 0;
-        //    int linesProcessed = 0;
-        //    int totalLines = fileLines.Count;
-
-        //    foreach (var line in fileLines)
-        //    {
-        //        foreach (var split in line.Splits)
-        //        {
-        //            if (!split.FlaggedForGlossaryExtraction)
-        //                continue;
-
-        //            var raw = LineValidation.PrepareRaw(split.Text);
-        //            var result = await ExtractGlossaryItemAsync(config, client, raw);
-
-        //            try
-        //            {
-        //                var foundEntries = JsonSerializer.Deserialize<StructuredGlossaryLine[]>(result);
-        //                if (foundEntries != null && foundEntries.Length > 0)
-        //                    foreach (var foundEntry in foundEntries)
-        //                        if (outputGlossary.AddItem(foundEntry))
-        //                            recordsModded++;
-
-        //                split.FlaggedForGlossaryExtraction = false;
-        //            }
-        //            catch
-        //            {
-        //                incorrectLineCount++;
-        //            }
-
-        //            recordsModded++;
-        //        }
-
-        //        // Each Line
-        //        linesProcessed++;
-        //        if (linesProcessed % 5 == 0)
-        //        {
-        //            Console.WriteLine($"Line: {linesProcessed} of {totalLines} File: {outputFile} Unprocessable: {incorrectLineCount} Processed: {totalRecordsProcessed}");
-        //            WriteGlossaryOutput(workingDirectory, outputGlossary);
-        //        }
-        //    }
-
-        //    //Each File
-        //    Console.WriteLine($"Line: {linesProcessed} of {totalLines} File: {outputFile} Unprocessable: {incorrectLineCount} Processed: {totalRecordsProcessed}");
-        //    totalRecordsProcessed += recordsModded;
-        //    await Task.CompletedTask;
-        //});
-
-        //WriteGlossaryOutput(workingDirectory, outputGlossary);
-        //Console.WriteLine("Done");
     }
 }

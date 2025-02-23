@@ -1,17 +1,8 @@
-﻿using Microsoft.VisualStudio.TestPlatform.Common;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel.Client;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.CompilerServices;
+﻿using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Schema;
-using System.Threading.Tasks;
-using YamlDotNet.Core;
 
 namespace Translate.Tests;
 public class PromptTuningTests
@@ -82,8 +73,8 @@ public class PromptTuningTests
             [
                 LlmHelpers.GenerateSystemPrompt(optimisePrompt),
                 LlmHelpers.GenerateUserPrompt(basePrompt.ToString())
-            ]; 
-        
+            ];
+
         // Generate based on what would have been created
         var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
 
@@ -113,7 +104,7 @@ public class PromptTuningTests
 
         // Prime the Request
 
-        List<object> messages = TranslationService.GenerateBaseMessages(config, "飞虹剑阵？那是甚么？很厉害吗？", 
+        List<object> messages = TranslationService.GenerateBaseMessages(config, "飞虹剑阵？那是甚么？很厉害吗？",
             string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. Also explain how and if the glossary was used. Also explain how to adjust the system prompt to correct the fact the resulting output is not in english?");
 
@@ -310,7 +301,7 @@ public class PromptTuningTests
         config.ModelParams.Add("format", schema);
 
         // Generate based on what would have been created
-        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);     
+        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
 
         // Send correction & Get result
         HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
@@ -325,17 +316,5 @@ public class PromptTuningTests
             ?.Trim() ?? string.Empty;
 
         File.WriteAllText($"{workingDirectory}/TestResults/4.FormatedResponse.json", result);
-    }
-
-    [Fact]
-    public async Task ExtractGlossaryItemTest()
-    {
-        var config = Configuration.GetConfiguration(workingDirectory);
-
-        // Create an HttpClient instance
-        using var client = new HttpClient();
-        client.Timeout = TimeSpan.FromSeconds(300);
-        var result = await TranslationService.ExtractGlossaryItemAsync(config, client, "经验值80000点，江湖声望，玄铁");
-        File.WriteAllText($"{workingDirectory}/TestResults/3.GlossaryResponse.json", result);
     }
 }
