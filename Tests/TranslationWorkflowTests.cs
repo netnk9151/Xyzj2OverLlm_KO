@@ -103,19 +103,6 @@ public class TranslationWorkflowTests
             //"阳",
         };
 
-        var mistranslationCheckGlossary = new Dictionary<string, string>();
-
-        var hallucinationCheckGlossary = new Dictionary<string, string>();
-
-        //var dupeNames = new Dictionary<string, (string key1, string key2)>();
-        var dupeNames = mistranslationCheckGlossary
-            .GroupBy(pair => pair.Value)
-            .Where(group => group.Count() > 1)
-            .ToDictionary(
-                group => group.Key,
-                group => group.Select(pair => pair.Key).ToList()
-            );
-
         await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             int recordsModded = 0;
@@ -125,14 +112,9 @@ public class TranslationWorkflowTests
                 {
                     // Reset all the retrans flags
                     if (resetFlag)
-                        split.ResetFlags();
+                        split.ResetFlags(false);
 
-                    // Manual Retrans trigger
-                    //if (line.LineNum > 0 && line.LineNum < 1000 && outputFile.Contains("NpcTalkItem.txt"))
-                    //    split.FlaggedForRetranslation = true
-
-
-                    if (CheckSplit(newGlossaryStrings, manual, split, outputFile, hallucinationCheckGlossary, mistranslationCheckGlossary, dupeNames, config))
+                    if (CheckSplit(newGlossaryStrings, manual, split, outputFile, config))
                         recordsModded++;
                 }
 
@@ -153,7 +135,7 @@ public class TranslationWorkflowTests
     }
 
     public static bool CheckSplit(List<string> newGlossaryStrings, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
-        Dictionary<string, string> hallucinationCheckGlossary, Dictionary<string, string> mistranslationCheckGlossary, Dictionary<string, List<string>> dupeNames, LlmConfig config)
+        LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
         bool modified = false;
@@ -172,14 +154,7 @@ public class TranslationWorkflowTests
             split.Translated = cleanedRaw;
             split.ResetFlags();
             return true;
-        }
-
-        //if (split.Text.Contains("Target") || split.Text.Contains("Location") || split.Text.Contains("Inventory"))
-        //{
-        //    Console.WriteLine($"New Glossary {outputFile} Replaces: \n{split.Translated}");
-        //    split.FlaggedForRetranslation = true;
-        //    return true;
-        //}
+        }      
 
         foreach (var glossary in newGlossaryStrings)
         {
@@ -209,13 +184,6 @@ public class TranslationWorkflowTests
         if (string.IsNullOrEmpty(split.Translated))
             return false;
 
-        // Context retrans too fricken big
-        //if (outputFile.Contains("NpcTalkItem.txt") && MatchesContextRetrans(split.Translated))
-        //{
-        //    split.FlaggedForRetranslation = true;
-        //    modified = true;
-        //}
-
         if (MatchesPinyin(split.Translated))
         {
             split.FlaggedForRetranslation = true;
@@ -226,8 +194,8 @@ public class TranslationWorkflowTests
         if (cleanWithGlossary)
         {
             // Glossary Clean up - this won't check our manual jobs
-            modified = CheckMistranslationGlossary(split, mistranslationCheckGlossary, modified);
-            modified = CheckHallucinationGlossary(split, hallucinationCheckGlossary, dupeNames, modified);
+            modified = CheckMistranslationGlossary(config, split, modified);
+            modified = CheckHallucinationGlossary(config,split, modified);
         }
 
         // Characters
@@ -267,16 +235,6 @@ public class TranslationWorkflowTests
             modified = true;
         }
 
-        //// Try and flag crazy shit
-        //if (!split.FlaggedForRetranslation
-        //    //&& ContainsGender(split.Translated))
-        //    && ContainsAnimalSounds(split.Translated))
-        //{
-        //    Console.WriteLine($"Contains whack {outputFile} \n{split.Translated}");
-        //    recordsModded++;
-        //    split.FlaggedForRetranslation = true;
-        //}        
-
         // Long NPC Names - this really should be 30
         if (outputFile.Contains("NpcItem.txt") && split.Translated.Length > 50)
         {
@@ -294,7 +252,7 @@ public class TranslationWorkflowTests
         }
 
         // Add . into Dialogue
-        if (outputFile.EndsWith("NpcTalkItem.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
+        if (outputFile.EndsWith("stringlang.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
         {
             Console.WriteLine($"Needed full stop:{outputFile} \n{split.Translated}");
             split.Translated += '.';
@@ -322,75 +280,66 @@ public class TranslationWorkflowTests
         return modified;
     }
 
-    private static bool CheckMistranslationGlossary(TranslationSplit split, Dictionary<string, string> glossary, bool modified)
+    private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified)
     {
         var preparedRaw = LineValidation.PrepareRaw(split.Text);
 
         if (split.Translated == null)
             return modified;
 
-        foreach (var item in glossary)
+        foreach (var item in config.GlossaryLines)
         {
-            if (preparedRaw.Contains(item.Key) && !split.Translated.Contains(item.Value, StringComparison.OrdinalIgnoreCase))
+            if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
             {
-                // Handle placeholders being annoying basically if it caught a {name_2} only when the text has {1} and {2}
-                if (split.Text.Contains("{name_1}{name_2}") && !item.Value.Contains("{name_1}"))
-                    continue;
+                var found = false;
+                foreach (var alternative in item.AllowedAlternatives)
+                {
+                    found = split.Translated.Contains(alternative, StringComparison.OrdinalIgnoreCase);
+                    if (found)
+                        break;
+                }
 
-                if (item.Key == "天外来客" && split.Translated.Contains("guests from beyond the skies", StringComparison.OrdinalIgnoreCase))
-                    continue;
-
-                if (item.Key == "村长家" && split.Translated.Contains("Village Chief Mei's house", StringComparison.OrdinalIgnoreCase))
-                    continue;
-
-                //Console.WriteLine($"Mistranslated:{outputFile}\n{item.Value}\n{split.Translated}");
-                split.FlaggedForRetranslation = true;
-                split.FlaggedGlossaryIn += $"{item.Value},{item.Key},";
-                modified = true;
+                if (!found)
+                {
+                    //Console.WriteLine($"Mistranslated:{outputFile}\n{item.Value}\n{split.Translated}");
+                    split.FlaggedForRetranslation = true;
+                    split.FlaggedMistranslation += $"{item.Result},{item.Raw},";
+                    modified = true;
+                }
             }
         }
 
         return modified; // Will be previous value - even if it didnt find anything
     }
 
-    private static bool CheckHallucinationGlossary(TranslationSplit split, Dictionary<string, string> glossary, Dictionary<string, List<string>> dupeNames, bool modified)
+    private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified)
     {
         var preparedRaw = LineValidation.PrepareRaw(split.Text);
 
         if (split.Translated == null)
             return modified;
 
-        foreach (var item in glossary)
+        foreach (var item in config.GlossaryLines)
         {
-            var wordPattern = $"\\b{item.Value}\\b";
+            var wordPattern = $"\\b{item.Result}\\b";
 
-            if (!preparedRaw.Contains(item.Key) && split.Translated.Contains(item.Value, StringComparison.OrdinalIgnoreCase))
+            if (!preparedRaw.Contains(item.Raw) && Regex.IsMatch(split.Translated, wordPattern, RegexOptions.IgnoreCase))
             {
-                //If we dont word match - ie matched He Family in the family
-                if (!Regex.IsMatch(split.Translated, wordPattern, RegexOptions.IgnoreCase))
-                    continue;
-
-                // Handle Quanpai (entire sect)
-                if (item.Value == "Qingcheng Sect" && split.Text.Contains("青城全派"))
-                    continue;
-
-                // If one of the dupes are in the raw
+                // Check for Alternatives
+                var dupes = config.GlossaryLines.Where(s => s.Result == item.Result && s.Raw != item.Raw);
                 bool found = false;
-                if (dupeNames.TryGetValue(item.Value, out List<string>? dupes))
+               
+                foreach (var dupe in dupes)
                 {
-                    foreach (var dupe in dupes)
-                    {
-                        found = split.Text.Contains(dupe);
-                        if (found)
-                            break;
-                    }
+                    found = split.Text.Contains(dupe.Result);
+                    if (found)
+                        break;
                 }
 
                 if (!found)
                 {
-                    //Console.WriteLine($"Hallucinated:{outputFile}\n{item.Value}\n{split.Translated}");
                     split.FlaggedForRetranslation = true;
-                    split.FlaggedGlossaryOut += $"{item.Value},{item.Key},";
+                    split.FlaggedHallucination += $"{item.Result},{item.Raw},";
                     modified = true;
                 }
             }

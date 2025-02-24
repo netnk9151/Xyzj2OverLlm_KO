@@ -1,5 +1,7 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using YamlDotNet.Serialization;
+using YamlDotNet.Serialization.NamingConventions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Translate;
@@ -18,8 +20,14 @@ public class LlmConfig
     public Dictionary<string, object>? ModelParams { get; set; }
 
     // Not serialised in Yaml
+    [YamlIgnore]
     public Dictionary<string, string> Prompts { get; set; } = [];
+
+    [YamlIgnore]
     public string? WorkingDirectory { get; set; }
+
+    [YamlIgnore]
+    public List<GlossaryLine> GlossaryLines { get; set; } = [];
 }
 
 public static class Configuration
@@ -31,7 +39,7 @@ public static class Configuration
 
         response.WorkingDirectory = workingDirectory;
         response.Prompts = CachePrompts(workingDirectory);
-        //response.GameData = LoadGameData(workingDirectory);
+        response.GlossaryLines = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/Glossary.yaml", Encoding.UTF8));
 
         return response;
     }

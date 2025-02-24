@@ -315,15 +315,10 @@ public static class TranslationService
 
                         if (string.IsNullOrEmpty(split.Translated) || forceRetranslation || (config.TranslateFlagged && split.FlaggedForRetranslation))
                         {
-                            var oldTranslated = split.Translated;
-
                             if (useTranslationCache && cacheHit)
                                 split.Translated = translationCache[split.Text];
                             else
-                                split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);
-
-                            if (oldTranslated != split.Translated)
-                                split.LastTranslatedOn = DateTime.Now;
+                                split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);                   
 
                             split.ResetFlags();
                             recordsProcessed++;
@@ -376,6 +371,8 @@ public static class TranslationService
 
         ModHelper.GenerateModConfig(workingDirectory);
         File.WriteAllLines($"{outputPath}/db1_Mod.txt", []);
+
+        await Task.CompletedTask;
     }
 
     public static async Task IterateThroughTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)
@@ -583,8 +580,7 @@ public static class TranslationService
         if (raw.Contains('{'))
             basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
 
-        //TODO: Glossary
-        //basePrompt.AppendLine(Glossary.ConstructGlossaryPrompt(raw, config));
+        basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines));
 
         basePrompt.AppendLine(additionalSystemPrompt);
 

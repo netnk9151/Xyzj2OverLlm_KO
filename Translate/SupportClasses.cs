@@ -32,12 +32,11 @@ public class TranslationSplit
     //public bool FlaggedForGlossaryExtraction { get; set; } = true;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string FlaggedGlossaryIn { get; set; } = string.Empty;
+    public string FlaggedMistranslation { get; set; } = string.Empty;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string FlaggedGlossaryOut { get; set; } = string.Empty;
+    public string FlaggedHallucination { get; set; } = string.Empty;
 
-    //public DateTimeOffset LastTranslated = DateTimeOffset.Now;
     public DateTime LastTranslatedOn = DateTime.Now;
 
     public TranslationSplit() { }
@@ -48,11 +47,14 @@ public class TranslationSplit
         Text = text;
     }
 
-    public void ResetFlags()
+    public void ResetFlags(bool translated = true)
     {
+        if (translated)
+            LastTranslatedOn = DateTime.Now;
+
         FlaggedForRetranslation = false;
-        FlaggedGlossaryIn = string.Empty;
-        FlaggedGlossaryOut = string.Empty;
+        FlaggedMistranslation = string.Empty;
+        FlaggedHallucination = string.Empty;
     }
 
     //public void ResetGlossaryFlags()
