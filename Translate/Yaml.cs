@@ -21,6 +21,7 @@ namespace Translate
         {
             return new DeserializerBuilder()
                 .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                .IgnoreUnmatchedProperties()
                 .Build();
         }
     }

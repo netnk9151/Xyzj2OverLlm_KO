@@ -37,6 +37,9 @@ public class TranslationSplit
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string FlaggedGlossaryOut { get; set; } = string.Empty;
 
+    //public DateTimeOffset LastTranslated = DateTimeOffset.Now;
+    public DateTime LastTranslatedOn = DateTime.Now;
+
     public TranslationSplit() { }
 
     public TranslationSplit(int split, string text)
@@ -60,7 +63,7 @@ public class TranslationSplit
 
 public class TranslationLine
 {
-    public Int64 LineNum { get; set; } = 0;
+    public long LineNum { get; set; } = 0;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Raw { get; set; } = string.Empty;

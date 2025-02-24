@@ -13,44 +13,43 @@ namespace Translate;
 public class LineValidation
 {
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
+    public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
 
     public static string PrepareRaw(string raw)
     {
-        raw = StripColorTags(raw)
+        //StripColorTags(raw)
+        raw = raw
             .Replace("…", "...")
             .Replace("？", "?")
-            .Replace("！", "!")
-            .Replace("Target", "{target}")
-            .Replace("Inventory", "{inventory}")
-            .Replace("Location", "{location}");
+            .Replace("！", "!");
 
         return raw;
     }
 
-    public static string CleanupNamesResult(string input)
-    {
-        var result = input;
-        string[] replacements = ["Elder Brother", "Senior Brother", "Senior", "Brother", "Young Master", "Young Hero"];
+    //public static string CleanupNamesResult(string input)
+    //{
+    //    var result = input;
+    //    string[] replacements = ["Elder Brother", "Senior Brother", "Senior", "Brother", "Young Master", "Young Hero"];
 
-        result = result
-            .Replace("{Name_1}", "{name_1}")
-            .Replace("{Name_2}", "{name_2}");
+    //    result = result
+    //        .Replace("{Name_1}", "{name_1}")
+    //        .Replace("{Name_2}", "{name_2}");
 
-        foreach (var title in replacements)
-        {
-            result = result
-                .Replace($"{{name_1}} {{name_2}} {title}", $"{title} {{name_1}} {{name_2}}")
-                .Replace($"{{name_1}} {{name_2}}, {title}", $"{title} {{name_1}} {{name_2}}");
+    //    foreach (var title in replacements)
+    //    {
+    //        result = result
+    //            .Replace($"{{name_1}} {{name_2}} {title}", $"{title} {{name_1}} {{name_2}}")
+    //            .Replace($"{{name_1}} {{name_2}}, {title}", $"{title} {{name_1}} {{name_2}}");
 
-            result = result
-                .Replace($"{{name_1}} {title}", $"{title} {{name_1}}")
-                .Replace($"{{name_1}}, {title}", $"{title} {{name_1}}")
-                .Replace($"{{name_2}} {title}", $"{title} {{name_2}}")
-                .Replace($"{{name_2}}, {title}", $"{title} {{name_2}}");
-        }
+    //        result = result
+    //            .Replace($"{{name_1}} {title}", $"{title} {{name_1}}")
+    //            .Replace($"{{name_1}}, {title}", $"{title} {{name_1}}")
+    //            .Replace($"{{name_2}} {title}", $"{title} {{name_2}}")
+    //            .Replace($"{{name_2}}, {title}", $"{title} {{name_2}}");
+    //    }
 
-        return result;
-    }
+    //    return result;
+    //}
 
     public static string PrepareResult(string llmResult)
     {
@@ -75,10 +74,7 @@ public class LineValidation
             if (result.StartsWith('\n'))
                 result = result[1..];
 
-            result = CleanupNamesResult(result)
-                .Replace("{target}", "Target")
-                .Replace("{location}", "Location")
-                .Replace("{inventory}", "Inventory");
+            //result = CleanupNamesResult(result);
 
             return result;
         }
@@ -143,54 +139,23 @@ public class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectColonSegementPrompt");
         }
 
+        // TODO: This aint working
         //Place holders - incase the model ditched them
-        if (raw.Contains("{0}") && !result.Contains("{0}"))
+        var matches = Regex.Matches(raw, PlaceholderMatchPattern);
+        foreach (Match match in matches)
         {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{0}");
-        }
-        if (raw.Contains("{1}") && !result.Contains("{1}"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{1}");
-        }
-        if (raw.Contains("{2}") && !result.Contains("{2}"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{2}");
-        }
-        if (raw.Contains("{3}") && !result.Contains("{3}"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{3}");
-        }
-        if (raw.Contains("{name_1}") && !result.Contains("{name_1}"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{name_1}");
-        }
-        if (raw.Contains("{name_2}") && !result.Contains("{name_2}"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "{name_2}");
+            if (!result.Contains(match.Value))
+            {
+                response = false;
+                correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", match.Value);
+            }
         }
 
-        if (raw.Contains("Target") && !result.Contains("Target"))
+        //TODO: This aint working
+        if (raw.Contains(@"\\n") && !result.Contains(@"\\n"))
         {
             response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "Target");
-        }
-
-        if (raw.Contains("Location") && !result.Contains("Location"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "Location");
-        }
-
-        if (raw.Contains("Inventory") && !result.Contains("Inventory"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "Inventory");
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", @"\\n");
         }
 
         // This can cause bad hallucinations if not being explicit on retries
@@ -215,68 +180,51 @@ public class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "<br>");
         }
 
-        if (result.Contains('\n'))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
-        }
+        //if (result.Contains('\n'))
+        //{
+        //    response = false;
+        //    correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
+        //}        
 
-        // It sometime can be in [] or {} or ()
-        if (result.Contains("name_1") && !raw.Contains("name_1"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "name_1");
-        }
-
-        if (result.Contains("name_2") && !raw.Contains("name_2"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "name_2");
-        }
-
-        var pattern = ChineseCharPattern;
-        if (Regex.IsMatch(result, pattern))
+        if (Regex.IsMatch(result, ChineseCharPattern))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectChinesePrompt");
         }
 
         // Dialog specific
-        //if (outputFile.EndsWith("NpcTalkItem.txt"))
+        // Added Brackets (Literation) where no brackets or widebrackets in raw
+        if (result.Contains('(') && !raw.Contains('(') && !raw.Contains('（'))
         {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectExplainationPrompt");
+        }
 
-            // Added Brackets (Literation) where no brackets or widebrackets in raw
-            if (result.Contains('(') && !raw.Contains('(') && !raw.Contains('（'))
-            {
-                response = false;
-                correctionPrompts.AddPromptWithValues(config, "CorrectExplainationPrompt");
-            }
+        ////Alternatives
+        //if (result.Contains('/') && !raw.Contains('/') && outputFile.EndsWith("NpcTalkItem.txt"))
+        //{
+        //    response = false;
+        //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "/");
+        //}
 
-            //Alternatives
-            if (result.Contains('/') && !raw.Contains('/') && outputFile.EndsWith("NpcTalkItem.txt"))
-            {
-                response = false;
-                correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "/");
-            }
+        //if (result.Contains('\\') && !raw.Contains('\\') && outputFile.EndsWith("NpcTalkItem.txt"))
+        //{
+        //    response = false;
+        //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
+        //}
 
-            if (result.Contains('\\') && !raw.Contains('\\') && outputFile.EndsWith("NpcTalkItem.txt"))
+        //TODO: This i doing wierd shit
+        if (result.Contains('<') && !result.Contains("<br>") && !result.Contains("<color"))
+        {
+            // Check markup
+            var markup = FindMarkup(raw);
+            if (markup.Count > 0)
             {
-                response = false;
-                correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
-            }
-
-            if (result.Contains('<') && !result.Contains("<br>") && !result.Contains("<color"))
-            {
-                // Check markup
-                var markup = FindMarkup(raw);
-                if (markup.Count > 0)
+                var resultMarkup = FindMarkup(result);
+                if (resultMarkup.Count != markup.Count)
                 {
-                    var resultMarkup = FindMarkup(result);
-                    if (resultMarkup.Count != markup.Count)
-                    {
-                        response = false;
-                        correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
-                    }
+                    response = false;
+                    correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
                 }
             }
         }

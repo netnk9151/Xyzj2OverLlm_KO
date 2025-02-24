@@ -19,12 +19,90 @@ namespace Translate;
 
 public static class TranslationService
 {
-    public const int BatchlessLog = 1000;
-    public const int BatchlessBuffer = 250;
+    public const int BatchlessLog = 25;
+    public const int BatchlessBuffer = 25;
 
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [
-            new() { Path = "achievement.txt", SplitIndexes = [] },
+            new() {Path = "achievement.txt", SplitIndexes = []},
+            //new() {Path = "ai_dialog.txt", SplitIndexes = []},
+            new() {Path = "born_points.txt", SplitIndexes = []},
+            new() {Path = "buildprototype.txt", SplitIndexes = []},
+            new() {Path = "cardinfo.txt", SplitIndexes = []},
+            new() {Path = "chuanwenprototype.txt", SplitIndexes = []},
+            new() {Path = "condition_group.txt", SplitIndexes = []},
+            new() {Path = "condition_show_anim.txt", SplitIndexes = []},
+            new() {Path = "custom_data.txt", SplitIndexes = []},
+            new() {Path = "dlcinfo.txt", SplitIndexes = []},
+            new() {Path = "emoji.txt", SplitIndexes = []},
+            new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
+            new() {Path = "fuben_prototype.txt", SplitIndexes = []},
+            new() {Path = "game_manual.txt", SplitIndexes = []},
+            new() {Path = "game_manual_clue.txt", SplitIndexes = []},
+            new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
+            new() {Path = "guanqiainfo.txt", SplitIndexes = []},
+            new() {Path = "horoscope.txt", SplitIndexes = []},
+            new() {Path = "identity.txt", SplitIndexes = []},
+            new() {Path = "item_base.txt", SplitIndexes = []},
+            new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
+            new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
+            new() {Path = "jueyinglou.txt", SplitIndexes = []},
+            new() {Path = "keylist.txt", SplitIndexes = []},
+            //new() {Path = "keywordfilter.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "loadingpicture.txt", SplitIndexes = []},
+            new() {Path = "loadingtips.txt", SplitIndexes = []},
+            new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
+            new() {Path = "mapinfo.txt", SplitIndexes = []},
+            new() {Path = "map_area.txt", SplitIndexes = []},
+            new() {Path = "map_area_shili.txt", SplitIndexes = []},
+            new() {Path = "map_area_title.txt", SplitIndexes = []},
+            new() {Path = "menpai.txt", SplitIndexes = []},
+            new() {Path = "menpaibuild.txt", SplitIndexes = []},
+            new() {Path = "menpaipaibie.txt", SplitIndexes = []},
+            new() {Path = "menpaipeifang.txt", SplitIndexes = []},
+            new() {Path = "menpaiquest.txt", SplitIndexes = []},
+            new() {Path = "menpairandom.txt", SplitIndexes = []},
+            new() {Path = "menpaisoldier.txt", SplitIndexes = []},
+            new() {Path = "menpaitalent.txt", SplitIndexes = []},
+            new() {Path = "mystique.txt", SplitIndexes = []},
+            new() {Path = "nandu.txt", SplitIndexes = []},
+            new() {Path = "npc_interact.txt", SplitIndexes = []},
+            new() {Path = "npc_prototype.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_container.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
+            new() {Path = "npc_team_info.txt", SplitIndexes = []},
+            new() {Path = "pve_data.txt", SplitIndexes = []},
+            new() {Path = "qinggong_node.txt", SplitIndexes = []},
+            new() {Path = "questjiemi.txt", SplitIndexes = []},
+            //new() {Path = "questprototype.txt", SplitIndexes = []},
+            new() {Path = "randomname.txt", SplitIndexes = []},
+            new() {Path = "randomnamenew.txt", SplitIndexes = []},
+            new() {Path = "randomquestion.txt", SplitIndexes = []},
+            new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
+            new() {Path = "spelleffect.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},            
+            new() {Path = "stunt_proto.txt", SplitIndexes = []},
+            new() {Path = "system_introduce.txt", SplitIndexes = []},
+            new() {Path = "talent_proto.txt", SplitIndexes = []},
+            new() {Path = "teleport_trans.txt", SplitIndexes = []},
+            new() {Path = "triggertip.txt", SplitIndexes = []},
+            new() {Path = "tujian.txt", SplitIndexes = []},
+            new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
+            new() {Path = "wordentrytitle.txt", SplitIndexes = []},
+            new() {Path = "wordentrytype.txt", SplitIndexes = []},
+            new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
+            new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
+
+            //Biggest one
+            new() {Path = "stringlang.txt", SplitIndexes = []},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -99,13 +177,20 @@ public static class TranslationService
         foreach (FileInfo file in files)
         {
             var foundLines = new List<TranslationLine>();
-
             var lines = File.ReadAllLines(file.FullName);
+            var lineIncrement = 0;
+
             foreach (var line in lines)
             {
+                lineIncrement++;
                 var splits = line.Split("#");
                 var foundSplits = new List<TranslationSplit>();
-                
+                long lineNum = 0;
+
+                // Default to line number when it doesnt have line number in split
+                if (!long.TryParse(splits[0], out lineNum))
+                    lineNum = lineIncrement;
+
                 // Find Chinese
                 for (int i = 0; i < splits.Length; i++)
                 {
@@ -122,7 +207,7 @@ public static class TranslationService
                 //The translation line
                 foundLines.Add(new TranslationLine()
                 {
-                    LineNum = Int64.Parse(splits[0]),
+                    LineNum = lineNum,
                     Raw = line,
                     Splits = foundSplits,
                 });
@@ -230,10 +315,15 @@ public static class TranslationService
 
                         if (string.IsNullOrEmpty(split.Translated) || forceRetranslation || (config.TranslateFlagged && split.FlaggedForRetranslation))
                         {
+                            var oldTranslated = split.Translated;
+
                             if (useTranslationCache && cacheHit)
                                 split.Translated = translationCache[split.Text];
                             else
                                 split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);
+
+                            if (oldTranslated != split.Translated)
+                                split.LastTranslatedOn = DateTime.Now;
 
                             split.ResetFlags();
                             recordsProcessed++;
@@ -493,14 +583,8 @@ public static class TranslationService
         if (raw.Contains('{'))
             basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
 
-        //if (raw.Contains("<"))
-        //    basePrompt.AppendLine(config.Prompts["DynamicMarkupPrompt"]);
-
+        //TODO: Glossary
         //basePrompt.AppendLine(Glossary.ConstructGlossaryPrompt(raw, config));
-
-        // File Specific prompt
-        if (outputFile.Contains("NpcItem.txt"))
-            basePrompt.AppendLine(config.Prompts["FileNpcItemPrompt"]);
 
         basePrompt.AppendLine(additionalSystemPrompt);
 

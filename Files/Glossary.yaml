@@ -1,0 +1,660 @@
+﻿
+# Terms
+- raw: 武侠
+  result: Wuxia
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 天书
+  result: Heavenly Scripture
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 武林
+  result: Wulin
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 江湖
+  result: Jianghu
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 轻功
+  result: Qinggong
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 内功
+  result: Neigong
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 马帮
+  result: Horse Gang
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 盐帮
+  result: Salt Gang
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 河图
+  result: River Map
+  context: Hetu is river map but can be part of Hetu Luoshu 
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 河出马图
+  result: Hetu Luoshu
+  checkForHallucination: true
+  checkForMistranslation: true
+
+# Sayings
+- raw: 阿弥陀佛
+  result: Amituofu
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 承让了
+  result: Thank you for letting me win
+  checkForHallucination: true
+  checkForMistranslation: true
+
+# Sounds
+- raw: 吼
+  result: Roar
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 咕
+  result: Cluck
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 呜呜呜
+  result: Wuwuwu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 呜呜
+  result: Wuwu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 呜...
+  result: Wu...
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 齁齁齁
+  result: Hohoho
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 齁齁
+  result: Hoho
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 齁...
+  result: Ho..
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 嘎嘎嘎
+  result: Gagaga
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 嘎嘎
+  result: Gaga
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 嘎...
+  result: Ga...
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 嘶…
+  result: Hiss
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 嘶嘶
+  result: Hiss
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咕咕咕
+  result: Gugugu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咕咕
+  result: Gugu
+  context: Can conflict with clucking
+  allowedAlternatives: 
+    - Clucking
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咕...
+  result: Gu...
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咯咯咯
+  result: Gegege
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咯咯
+  result: Gege
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 咯...
+  result: Ge...
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 吱吱吱
+  result: Zhizhizhi
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 吱吱
+  result: Zhizhi
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 吱...
+  result: Zhi...
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 唔吱
+  result: Wuzhi
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 吱喳
+  result: Zhizha
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 吱吱喳
+  result: Zhizhizha
+  checkForHallucination: false
+  checkForMistranslation: true
+
+# Weapons
+- raw: 刀
+  result: Blade
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 暗器
+  result: Hidden Weapon
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 槍
+  result: Spear
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 枪
+  result: Spear
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 枪棍
+  result: Spear and Staff
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 棍
+  result: Staff
+  context: More like club or cludgel or stick. Also used as part of other words
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 杖
+  result: Staff
+  context: More like walking stick or formal staff
+  checkForHallucination: false
+  checkForMistranslation: true
+
+# Arts
+- raw: 枪法
+  result: Spear Art
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 槍法
+  result: Spear Art
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 刀法
+  result: Blade Art
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 剑法
+  result: Sword Art
+  checkForHallucination: true
+  checkForMistranslation: true
+
+# Status
+- raw: 内伤
+  result: Internal Injury
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 外伤
+  result: External Injury
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 中毒
+  result: Poisoned
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 迷惑
+  result: Confusion
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 冰封
+  result: Frozen
+  checkForHallucination: true
+  checkForMistranslation: true
+
+# Items and Minerals
+- raw: 钱
+  result: Coin
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 玄铁
+  result: Dark Steel
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 黑铁
+  result: Dark Iron
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 寒铁
+  result: Cold Iron
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 镔铁
+  result: Refined Iron
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 乌金
+  result: Black Gold
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 熊掌
+  result: Bear Paw
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 豹胎
+  result: Leopard Fetus
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 黄连
+  result: Coptis root
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 槟榔
+  result: Betel nut
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 龙珠
+  result: Dragon ball
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 炼狱
+  result: Purgatory
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 千年灵芝
+  result: Thousand-year old Lingzhi
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 一条根
+  result: One Root
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 腹皮
+  result: Rhizome Bark
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 金不换
+  result: Priceless Gold
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 生姜
+  result: Raw Ginger
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 甘草
+  result: Licorice
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 续断
+  result: Teasel Root
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 茯苓
+  result: Poria
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 三七
+  result: Sanqi
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 软筋散
+  result: Tendon-Softening Powder
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 杜康酒
+  result: Dukang Wine
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 即墨老酒
+  result: Jimo Old Wine
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 竹叶青
+  result: Bamboo Leaf Tea
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 葡萄酒
+  result: Grape Wine
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 猴儿酒
+  result: Monkey Wine
+  checkForHallucination: true
+  checkForMistranslation: true
+# - raw: 杂粮酒
+#   result: Mixed Grains Wine 
+# - raw: 老窖杂粮
+#   result: Mixed Grains Liquor
+# - raw: 西岭春
+#   result: Xiling Spring Liquor
+# - raw: 剑南春
+#   result: Xiling Spring Liquor
+
+# People
+- raw: 枪士
+  result: Spearman
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 士兵枪
+  result: Spearman
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 枪兵
+  result: Spearman
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 狼蛮
+  result: Wolf Barbarian
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 纳西
+  result: Naxi
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 锦衣卫
+  result: Imperial Guard
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 禁军
+  result: Forbidden Army
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 讲经先生
+  result: Scripture Teacher
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 船工
+  result: Boatman
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 船夫
+  result: Boatman
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 缇骑
+  result: Official Riders
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 打更士兵
+  result: Nightwatch Soldier
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 鹿
+  result: Deer
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 虎
+  result: Tiger
+  context: Sometimes used as literal names
+  allowedAlternatives: 
+    - Hu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 僧侣
+  result: Monk
+  checkForHallucination: false
+  checkForMistranslation: true
+
+# Titles
+- raw: 大侠
+  result: Great Hero
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 少侠
+  result: Young Hero
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 前辈
+  result: Senior
+  context: A respectful term used to address or refer to someone older, more experienced, or who has achieved certain accomplishments before the speaker.
+  literal: Qian Bei
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 哥哥
+  result: Brother
+  context: Used to refer to or address one's own older brother, often with affection.
+  literal: Ge Ge
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 兄弟
+  result: Brother
+  context: A term that can refer to literal brothers by birth or metaphorically to close friends or comrades who share a bond similar to familial ties.
+  literal: Xiong Di
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 小兄弟
+  result: Little Brother
+  context: Used to address a younger male peer in a friendly, respectful manner.
+  literal: Xiao Xiong Di
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 师弟
+  result: Junior Brother
+  allowedAlternatives: 
+    - Younger Brother
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 弟弟
+  result: Younger Brother
+  context: Refers to one’s younger brother.
+  literal: Di Di
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 大哥
+  result: Senior Brother
+  context: A respectful term used among siblings for the older brother.
+  literal: Da Ge
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 师兄
+  result: Senior Brother
+  literal: Shixiong
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 阿兄
+  result: Elder Brother
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 师妹
+  result: Junior Sister
+  allowedAlternatives: 
+    - Younger Sister
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 妹妹
+  result: Younger Sister
+  allowedAlternatives: 
+    - Sister
+  context: Refers to one’s younger sister.
+  literal: Mei Mei
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 姐姐
+  result: Older Sister
+  allowedAlternatives: 
+    - Sister
+  context: Refers to one’s older sister.
+  literal: Jie Jie
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 大姐
+  result: Senior Sister
+  context: A respectful term used among siblings for the older brother.
+  literal: Da Jie
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 义姐
+  result: Sworn Sister
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 义兄
+  result: Sworn Brother
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 大郎
+  result: First Young Master
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 二郎
+  result: Second Young Master 
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 三郎
+  result: Third Young Master 
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 爹
+  result: Father
+  literal: Die
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 婆婆
+  result: Grandma
+  literal: Po Po
+  context: Conflicts with idiom moms and grandmas (fussing around)
+  allowedAlternatives: 
+    - Fussing
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 舅舅
+  result: Uncle
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 先生
+  result: Gentleman
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 公子
+  result: Young Lord
+  context: Often used to refer to the son of nobility, indicating both status and youth.
+  literal: Gong Zi
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 公主
+  result: Young Lady
+  context: The daughter of a king or nobleman, indicating royal status and nobility.
+  literal: Gong Zhu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 夫人
+  result: Lady
+  context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
+  literal: Fu Ren
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 大人
+  result: Lord
+  context: Used as a respectful address for man of noble status or of a high-ranking official.
+  literal: Da Ren
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 师傅
+  result: Master
+  context: Used for an experienced person in a particular skill or trade, similar to master craftsman or teacher.
+  literal: Shi Fu
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 姑娘
+  result: Miss  
+  context: A respectful yet informal address to young women, often implying youthfulness or elegance. Can also be used for Girl.
+  allowedAlternatives: 
+    - Girl
+  literal: Gu Niang
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 掌柜
+  result: Shopkeeper
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 大善人
+  result: Great Benefactor
+  checkForHallucination: false
+  checkForMistranslation: true
+
+- raw: 副帮主
+  result: Deputy Chief
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 锅头
+  result: Pot Head
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 大锅头
+  result: Great Pot Head
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 二锅头
+  result: Second Pot Head
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 寨主
+  result: Fort Master
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 二寨主
+  result: Second Fort Master
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 禅师
+  result: Zen Master
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 小沙弥
+  result: Junior Monk
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 知客僧
+  result: Welcoming Monk
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 庄主
+  result: Manor Master 
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 三庄主
+  result: Third Manor Master
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 二庄主
+  result: Second Manor Master 
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 刀客
+  result: Blade Master
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 大娘
+  result: Great Aunt
+  checkForHallucination: true
+  checkForMistranslation: true
+
+# Places
+- raw: 茶庄
+  result: Tea House
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 茶铺
+  result: Tea House
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 茶馆
+  result: Tea House
+  checkForHallucination: true
+  checkForMistranslation: true

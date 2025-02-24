@@ -1,29 +1,31 @@
 ﻿using System.Text.RegularExpressions;
 
 namespace Translate.Tests;
+
 public class TranslationWorkflowTests
 {
     const string workingDirectory = "../../../../Files";
 
-    [Fact]
+
+    [Fact(DisplayName = "1. SplitDbAssets")]
     public void SplitDbAssets()
     {
         TranslationService.SplitDbAssets(workingDirectory);
     }
 
-    [Fact]
+    [Fact(DisplayName = "2. ExportAssetsIntoTranslated")]
     public void ExportAssetsIntoTranslated()
     {
         TranslationService.ExportTextAssetsToCustomFormat(workingDirectory);
     }
 
-    [Fact]
+    [Fact(DisplayName = "5. TranslateLinesBruteForce")]
     public async Task TranslateLinesBruteForce()
     {
         await PerformTranslateLines(true);
     }
 
-    [Fact]
+    [Fact(DisplayName = "4. TranslateLines")]
     public async Task TranslateLines()
     {
         await PerformTranslateLines(false);
@@ -55,7 +57,7 @@ public class TranslationWorkflowTests
         await PackageFinalTranslation();
     }
 
-    [Fact]
+    [Fact(DisplayName = "6. PackageFinalTranslation")]
     public async Task PackageFinalTranslation()
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
@@ -77,12 +79,12 @@ public class TranslationWorkflowTests
         };
     }
 
-    [Fact]
+
+    [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
         await UpdateCurrentTranslationLines();
     }
-
 
     public static async Task<int> UpdateCurrentTranslationLines()
     {
@@ -128,7 +130,7 @@ public class TranslationWorkflowTests
                     // Manual Retrans trigger
                     //if (line.LineNum > 0 && line.LineNum < 1000 && outputFile.Contains("NpcTalkItem.txt"))
                     //    split.FlaggedForRetranslation = true
-                    
+
 
                     if (CheckSplit(newGlossaryStrings, manual, split, outputFile, hallucinationCheckGlossary, mistranslationCheckGlossary, dupeNames, config))
                         recordsModded++;
@@ -170,7 +172,7 @@ public class TranslationWorkflowTests
             split.Translated = cleanedRaw;
             split.ResetFlags();
             return true;
-        }        
+        }
 
         //if (split.Text.Contains("Target") || split.Text.Contains("Location") || split.Text.Contains("Inventory"))
         //{
@@ -370,7 +372,7 @@ public class TranslationWorkflowTests
 
                 // Handle Quanpai (entire sect)
                 if (item.Value == "Qingcheng Sect" && split.Text.Contains("青城全派"))
-                    continue;                
+                    continue;
 
                 // If one of the dupes are in the raw
                 bool found = false;
