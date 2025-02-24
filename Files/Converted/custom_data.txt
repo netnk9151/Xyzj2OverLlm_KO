@@ -7,15 +7,15 @@
     text: "悬红"
     translated: "The reward is posted"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3816511+08:00
     split: 2
     text: "悬赏悬红需要消耗的金钱"
     translated: "The amount of money needed to issue the reward notice"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
+    flaggedHallucination: ""
 - lineNum: 2
   raw: "2#悬红助战1#悬赏悬红助战等级1#121321|121322#"
   translated: ""
@@ -25,15 +25,15 @@
     text: "悬红助战1"
     translated: "Recruitment Bounty I"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3817034+08:00
     split: 2
     text: "悬赏悬红助战等级1"
     translated: "Rebels' Bounty Level 1"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 3
   raw: "3#悬红助战2#悬赏悬红助战等级2#121323|121324#"
   translated: ""
@@ -43,15 +43,15 @@
     text: "悬红助战2"
     translated: "Bounties Aiding Battle 2"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3817486+08:00
     split: 2
     text: "悬赏悬红助战等级2"
     translated: "Bounty Recruitment Level 2"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 4
   raw: "4#悬红助战3#悬赏悬红助战等级3#121325#"
   translated: ""
@@ -61,15 +61,15 @@
     text: "悬红助战3"
     translated: "Offering a Reward to Assist in Battle 3"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3817934+08:00
     split: 2
     text: "悬赏悬红助战等级3"
     translated: "Bounty Reward and Assistance Level 3"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 5
   raw: "5#双修秘药#双修可以使用的秘药及消耗数量#37766&1;37767&1;37768&1;37769&1#"
   translated: ""
@@ -79,15 +79,15 @@
     text: "双修秘药"
     translated: "Secret Dual Cultivation Elixir"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3818379+08:00
     split: 2
     text: "双修可以使用的秘药及消耗数量"
     translated: "Herbal concoctions suitable for mutual cultivation and their consumption quantities"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 6
   raw: "6#对峙距离#npc绿林劫镖发生对峙的距离#3#"
   translated: ""
@@ -97,15 +97,15 @@
     text: "对峙距离"
     translated: "Confrontation Distance"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3818827+08:00
     split: 2
     text: "npc绿林劫镖发生对峙的距离"
     translated: "The distance between the Green Forestesmen's ambush and the confrontation during the robbery"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 7
   raw: "7#对峙时间#npc对峙的持续时间(秒)#90#"
   translated: ""
@@ -115,15 +115,15 @@
     text: "对峙时间"
     translated: "Confrontation Duration"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3819277+08:00
     split: 2
     text: "npc对峙的持续时间(秒)"
     translated: "The duration of the NPC confrontation (Instantly)"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 8
   raw: "8#对峙玩家判定距离#npc劫镖对峙时玩家触发选择的距离#10#"
   translated: ""
@@ -133,15 +133,15 @@
     text: "对峙玩家判定距离"
     translated: "Player Confrontation Judgment Distance"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3819718+08:00
     split: 2
     text: "npc劫镖对峙时玩家触发选择的距离"
     translated: "Distance triggered by player choice during NPC's encounter with the bandits"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 9
   raw: "9#镖队npc组#大地图劫镖镖队npc(队长id|队员id&数量)#121361|121362&4#"
   translated: ""
@@ -151,15 +151,15 @@
     text: "镖队npc组"
     translated: "Escort Team Non-Player Characters Group"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3820168+08:00
     split: 2
     text: "大地图劫镖镖队npc(队长id|队员id&数量)"
     translated: "The Great Map Robbery Escort NPC (Team Leader ID | Team Member ID & Quantity)"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 10
   raw: "10#劫镖npc组#大地图劫镖绿林npc(队长id|队员id&数量)#121363|121364&4#"
   translated: ""
@@ -169,15 +169,15 @@
     text: "劫镖npc组"
     translated: "Robbery Escort NPC Team"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3820616+08:00
     split: 2
     text: "大地图劫镖绿林npc(队长id|队员id&数量)"
     translated: "Gang of Bandits Raiding the Grand Map in the Green Forest - Non-Player Characters (Team Leader ID | Team Member ID & Number of Members)"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: ""
+    flaggedHallucination: "Ga...,嘎...,"
 - lineNum: 11
   raw: "11#劫镖队生成范围#大地图劫镖在镖队附近生成npc劫镖绿林的范围#40#"
   translated: ""
@@ -187,15 +187,15 @@
     text: "劫镖队生成范围"
     translated: "Range of Robbery Escort Formation"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3821074+08:00
     split: 2
     text: "大地图劫镖在镖队附近生成npc劫镖绿林的范围"
     translated: "A large-scale heist occurs near the escort party, with NPCs involved in highway robbery emerging within the vicinity of the Green Forest bandit range"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 12
   raw: "12#地图修炼点技能#系统地图中,解锁显示修炼点条目对应的技能#9303#"
   translated: ""
@@ -205,12 +205,12 @@
     text: "地图修炼点技能"
     translated: "Map Training Skill"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.3821525+08:00
     split: 2
     text: "系统地图中,解锁显示修炼点条目对应的技能"
     translated: "In the system map, unlocking a training point entry reveals the corresponding skill"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""

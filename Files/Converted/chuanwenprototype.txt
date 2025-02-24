@@ -7,8 +7,8 @@
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
     translated: "According to various lumberjacks and hunters, ({R}) I have discovered some <color=green>{I}</color>, and perhaps, you brave individuals might want to hurry and find them"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 100002
   raw: "100002#1#9103#0###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   translated: ""
@@ -18,8 +18,8 @@
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
     translated: "According to reports from woodcutters and hunters, ({R}) It has been discovered that <color=green>{I}</color> are present, and the gentlemen heroes might consider rushing to find them"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 100003
   raw: "100003#1#9104#10001###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   translated: ""
@@ -29,8 +29,8 @@
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
     translated: "According to reports from various woodsmen and hunters, <color=green> ({R}) It seems there is <color=green>{I}</color>, and perhaps the noble warriors can hurry to find it"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 100004
   raw: "100004#1#5026#0###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   translated: ""
@@ -40,8 +40,8 @@
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
     translated: "According to reports from various woodsmen and hunters, <color=green> ({R}) It seems there is a <color=green>{I}</color>, and perhaps the honorable warriors can hurry to find it"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 200001
   raw: "200001#2#0#0#<color=green>{C}</color>成功获取了<color=green>{I}</color>。##0#少年出英雄，恰时<color=green>{A}</color>击败<color=green>{B}</color>，掉落了<color=green>{I}</color>。#0##"
   translated: ""
@@ -51,15 +51,15 @@
     text: "<color=green>{C}</color>成功获取了<color=green>{I}</color>。"
     translated: "<color=green>{C}</color> successfully obtained <color=green>{I}</color>"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0438636+08:00
     split: 7
     text: "少年出英雄，恰时<color=green>{A}</color>击败<color=green>{B}</color>，掉落了<color=green>{I}</color>。"
     translated: "A young hero emerges and, at just the right moment, {A} defeats {B}, causing {I} to drop"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: ""
+    flaggedHallucination: "Young Hero,少侠,"
 - lineNum: 200002
   raw: "200002#2#0#0###0#有传言称，在<color=green>{C}</color>身上看到了<color=green>{I}</color>，似乎可以前去查看一番。#1##"
   translated: ""
@@ -69,8 +69,8 @@
     text: "有传言称，在<color=green>{C}</color>身上看到了<color=green>{I}</color>，似乎可以前去查看一番。"
     translated: "There are rumors that one can see {I} in <color=green>{C}</color>, so it seems worth checking out"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 200003
   raw: "200003#2#0#0###0#有传言称，在<color=green>({R})</color>看到<color=green>{C}</color>夺取了<color=green>{D}</color>的<color=green>{I}</color>。#2##"
   translated: ""
@@ -80,8 +80,8 @@
     text: "有传言称，在<color=green>({R})</color>看到<color=green>{C}</color>夺取了<color=green>{D}</color>的<color=green>{I}</color>。"
     translated: "There are rumors that in <color=green>... ({R}) Seeing <color=green>{C}</color> seize <color=green>{D}</color>'s <color=green>{I}</color>"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 1000001
   raw: "1000001#4#0#0###0#本月弟子俸禄已经备好，完成每月考核任务的弟子可以进行领取了。#1#[势力]门派俸禄#"
   translated: ""
@@ -91,15 +91,15 @@
     text: "本月弟子俸禄已经备好，完成每月考核任务的弟子可以进行领取了。"
     translated: "This month's disciple stipend is ready, and those who have completed their monthly assessment tasks can now collect it"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0439658+08:00
     split: 9
     text: "[势力]门派俸禄"
     translated: "Clan Salary"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 2000001
   raw: "2000001#4#0#0###0#本月弟子已经准备好以武会友，广邀天下好手交战。#2#[势力]门派以武会友#"
   translated: ""
@@ -109,15 +109,15 @@
     text: "本月弟子已经准备好以武会友，广邀天下好手交战。"
     translated: "This month, our disciples are ready to gather for a martial meeting and invite the best warriors from across the land to compete"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0440119+08:00
     split: 9
     text: "[势力]门派以武会友"
     translated: "The martial sect gathers allies"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 3000001
   raw: "3000001#4#0#0###0#本月各大门派武学活动即将开始，请弟子到各大门派传功长老处踊跃参加。#3#[势力]武学活动#"
   translated: ""
@@ -126,16 +126,16 @@
     split: 7
     text: "本月各大门派武学活动即将开始，请弟子到各大门派传功长老处踊跃参加。"
     translated: "The martial arts activities for various sects are set to begin this month. Disciples are encouraged to participate enthusiastically at the training sites of the senior instructors in each major sect"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: ""
+    flaggedHallucination: "Senior,前辈,"
   - lastTranslatedOn: 2025-02-24T13:38:18.0440584+08:00
     split: 9
     text: "[势力]武学活动"
     translated: "Wuxia Activity"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: ""
+    flaggedHallucination: "Wuxia,武侠,Wu...,呜...,"
 - lineNum: 4000001
   raw: "4000001#4#0#0###0#本月各大门派学说活动即将开始，请弟子到各大门派传功长老处踊跃参加。#4#[势力]学说活动#"
   translated: ""
@@ -145,15 +145,15 @@
     text: "本月各大门派学说活动即将开始，请弟子到各大门派传功长老处踊跃参加。"
     translated: "The large-scale teaching activities of the various martial arts sects will begin this month. Disciples are encouraged to participate enthusiastically at the Longevity Masters' locations in each sect"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0441044+08:00
     split: 9
     text: "[势力]学说活动"
     translated: "Power Faction's Doctrinal Activities"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 5000001
   raw: "5000001#4#0#0###0#本月各大门派生活活动即将开始，请弟子到各大门派传功长老处踊跃参加。#5#[势力]生活活动#"
   translated: ""
@@ -163,15 +163,15 @@
     text: "本月各大门派生活活动即将开始，请弟子到各大门派传功长老处踊跃参加。"
     translated: "The life and activity events of various sects for this month are about to begin. Disciples are encouraged to participate actively at the Longevity Masters' training halls in each major sect"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0441892+08:00
     split: 9
     text: "[势力]生活活动"
     translated: "Power Influence Activities"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 6000001
   raw: "6000001#4#0#0###0#各大门派今年宗门大比即将开赛，请想要参加的弟子到各大门派事务总管处踊跃报名。#6#[势力]宗门大比#"
   translated: ""
@@ -181,15 +181,15 @@
     text: "各大门派今年宗门大比即将开赛，请想要参加的弟子到各大门派事务总管处踊跃报名。"
     translated: "The annual Clan Tournament among the major sects is set to begin this year. Disciples interested in participating are encouraged to register at their respective sect's administrative office"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0442636+08:00
     split: 9
     text: "[势力]宗门大比"
     translated: "The Clans' Grand Tournament"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 5000002
   raw: "5000002#4#0#0###0#本月各大门派技艺活动即将开始，请弟子到各大门派传功长老处踊跃参加。#5#[势力]技艺活动#"
   translated: ""
@@ -199,15 +199,15 @@
     text: "本月各大门派技艺活动即将开始，请弟子到各大门派传功长老处踊跃参加。"
     translated: "This month, the major martial arts technique events across various sects will be starting soon. Disciples are encouraged to actively participate by visiting the respective sect's transmission masters"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0443114+08:00
     split: 9
     text: "[势力]技艺活动"
     translated: "[Faction] Martial Arts Activities"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 7000001
   raw: "7000001#4#0#0###0#不夜京拍卖会已开始，感兴趣的侠士可前往不夜京寻找云烟参与。#7#[不夜京]拍卖会#"
   translated: ""
@@ -217,15 +217,15 @@
     text: "不夜京拍卖会已开始，感兴趣的侠士可前往不夜京寻找云烟参与。"
     translated: "The Yuanyue City Auction has begun. Interested martial artists can head to Yuanyue City to find Yunyan and participate"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0443569+08:00
     split: 9
     text: "[不夜京]拍卖会"
     translated: "A Nightless Capital Auction"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 7000002
   raw: "7000002#4#0#0###0#不夜京擂台赛已开始，感兴趣的侠士可前往不夜京寻找廿陆报名参与。#8#[不夜京]擂台赛#"
   translated: ""
@@ -235,12 +235,12 @@
     text: "不夜京擂台赛已开始，感兴趣的侠士可前往不夜京寻找廿陆报名参与。"
     translated: "The Buxie Kingdom Tossing Bell Tournament has begun. Those interested can head to the Buxie Kingdom to register at stations 28 and 35 to participate"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.0444028+08:00
     split: 9
     text: "[不夜京]擂台赛"
     translated: "Nonstop Capital City Arena Tournament"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""

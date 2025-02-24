@@ -7,8 +7,8 @@
     text: "BOSS点"
     translated: "Boss's Recommendation"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 2010
   raw: "2010#1144.34#421.93#1686.77#241.5#2#1#0#初始出生点#"
   translated: ""
@@ -18,8 +18,8 @@
     text: "初始出生点"
     translated: "Initial Point of Birth"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 2088
   raw: "2088#881.683#354.402#1315.48#0.0#0#1#0##"
   translated: ""
@@ -37,8 +37,8 @@
     text: "TO里世界心魔传送点"
     translated: "The Heart Demon Teleportation Point of the Inner World"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 10058
   raw: "10058#770.63#250.714#401.704#0.0#0#1#0#TO10080司青寒所在地#"
   translated: ""
@@ -47,9 +47,9 @@
     split: 8
     text: "TO10080司青寒所在地"
     translated: "The location where Brother Qinghan resides"
-    flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: ""
+    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
 - lineNum: 10084
   raw: "10084#1632.72#334.162#1658.57#0.0#0#1#0#TO明尊教#"
   translated: ""
@@ -59,8 +59,8 @@
     text: "TO明尊教"
     translated: "Tang Sanzang Reveres His Teacher"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 15040
   raw: "15040#1377.81#261.1#943.289#0.0#0#1#0#夏国大漠出生点#"
   translated: ""
@@ -70,8 +70,8 @@
     text: "夏国大漠出生点"
     translated: "Summer Country's Great Desert Outpost"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 200017
   raw: "200017#0.0#0.0#0.0#0.0#0#1#0##"
   translated: ""
@@ -129,8 +129,8 @@
     text: "战斗BOSS"
     translated: "Combat Boss"
     flaggedForRetranslation: false
-    flaggedGlossaryIn: ""
-    flaggedGlossaryOut: ""
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 200105
   raw: "200105#1366.72#223.025#1416.23#0.0#0#1#0##"
   translated: ""

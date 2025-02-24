@@ -278,8 +278,8 @@ public class LineValidation
                 .Replace("‘", "'");
 
             //Strip .'s
-            if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
-                result = result[..^1];
+            //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
+            //    result = result[..^1];
 
             result = LineValidation.RemoveDiacritics(result);
             result = LineValidation.ReplaceIncorrectLowercaseWords(result);

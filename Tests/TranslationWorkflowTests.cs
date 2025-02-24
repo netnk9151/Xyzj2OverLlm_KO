@@ -184,7 +184,7 @@ public class TranslationWorkflowTests
         if (string.IsNullOrEmpty(split.Translated))
             return false;
 
-        if (MatchesPinyin(split.Translated))
+        if (MatchesBadWords(split.Translated))
         {
             split.FlaggedForRetranslation = true;
             modified = true;
@@ -348,7 +348,7 @@ public class TranslationWorkflowTests
         return modified; // Will be previous value - even if it didnt find anything
     }
 
-    public static bool MatchesPinyin(string input)
+    public static bool MatchesBadWords(string input)
     {
         HashSet<string> words = new HashSet<string>
         {
@@ -356,7 +356,7 @@ public class TranslationWorkflowTests
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
             "niang", "fuck", "ich", "daren", "furen", "ein", "der", "ganzes", "Leben", "dort", "xiansheng",
-            "knight", "thay", "tien",
+            "knight", "thay", "tien", "div", "html",
             //"-in-law"
         };
 
