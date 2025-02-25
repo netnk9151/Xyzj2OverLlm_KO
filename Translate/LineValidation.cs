@@ -10,12 +10,12 @@ using System.Xml;
 
 namespace Translate;
 
-public class LineValidation
+public static class LineValidation
 {
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
     public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
 
-    public static string PrepareRaw(string raw)
+    public static string PrepareRaw(string raw, StringTokenReplacer tokenReplacer)
     {
         //StripColorTags(raw)
         raw = raw
@@ -23,7 +23,41 @@ public class LineValidation
             .Replace("？", "?")
             .Replace("！", "!");
 
+        raw = tokenReplacer.Replace(raw);
         return raw;
+    }
+
+    public static string PrepareResult(string llmResult, StringTokenReplacer tokenReplacer)
+    {
+        //llmResult = llmResult
+        //    .Replace("<p>", "")
+        //    .Replace("</p>", "")
+        //    .Replace("<Div>", "<div>")
+        //    .Replace("</Div>", "</div>")
+        //    .Replace("< Div >", "<div>", StringComparison.OrdinalIgnoreCase)
+        //    .Replace("< / Div >", "</div>", StringComparison.OrdinalIgnoreCase)
+        //    .Replace("< /Div >", "</div>", StringComparison.OrdinalIgnoreCase);
+
+
+        //if (llmResult.Contains("<div>"))
+        //{
+        //    var pattern = @"<div>(.*?)</div>";
+        //    var result = Regex.Match(llmResult, pattern, RegexOptions.Singleline).Groups[1].Value;
+
+        //    //Handle LLM adding line breaks in the div tag
+        //    if (result.EndsWith('\n'))
+        //        result = result[..^1];
+        //    if (result.StartsWith('\n'))
+        //        result = result[1..];
+
+        //    //result = CleanupNamesResult(result);
+
+        //    return result;
+        //}
+        //else
+
+        llmResult = tokenReplacer.Restore(llmResult);
+        return llmResult;
     }
 
     //public static string CleanupNamesResult(string input)
@@ -51,36 +85,7 @@ public class LineValidation
     //    return result;
     //}
 
-    public static string PrepareResult(string llmResult)
-    {
-        llmResult = llmResult
-            .Replace("<p>", "")
-            .Replace("</p>", "")
-            .Replace("<Div>", "<div>")
-            .Replace("</Div>", "</div>")
-            .Replace("< Div >", "<div>", StringComparison.OrdinalIgnoreCase)
-            .Replace("< / Div >", "</div>", StringComparison.OrdinalIgnoreCase)
-            .Replace("< /Div >", "</div>", StringComparison.OrdinalIgnoreCase);
 
-
-        if (llmResult.Contains("<div>"))
-        {
-            var pattern = @"<div>(.*?)</div>";
-            var result = Regex.Match(llmResult, pattern, RegexOptions.Singleline).Groups[1].Value;
-
-            //Handle LLM adding line breaks in the div tag
-            if (result.EndsWith('\n'))
-                result = result[..^1];
-            if (result.StartsWith('\n'))
-                result = result[1..];
-
-            //result = CleanupNamesResult(result);
-
-            return result;
-        }
-        else
-            return llmResult;
-    }
 
     public static ValidationResult CheckTransalationSuccessful(LlmConfig config, string raw, string result, string outputFile)
     {
@@ -213,7 +218,7 @@ public class LineValidation
         //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
         //}
 
-        //TODO: This i doing wierd shit
+        //TODO: This is doing wierd shit
         if (result.Contains('<') && !result.Contains("<br>") && !result.Contains("<color"))
         {
             // Check markup
@@ -258,19 +263,19 @@ public class LineValidation
                 result = result.Replace("“", "");
 
             if (result.Contains('”') && !raw.Contains('”'))
-                result = result.Replace("”", "");         
+                result = result.Replace("”", "");
 
             result = result
                 .Replace("…", "...")
                 .Replace("？", "?")
-                .Replace("！", "!")
-                .Replace("<p>", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("</p>", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("<div>", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("< div >", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("</div>", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("< /div >", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("< / div >", "", StringComparison.OrdinalIgnoreCase);
+                .Replace("！", "!");
+                //.Replace("<p>", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("</p>", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("<div>", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("< div >", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("</div>", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("< /div >", "", StringComparison.OrdinalIgnoreCase)
+                //.Replace("< / div >", "", StringComparison.OrdinalIgnoreCase);
 
             //Take out wide quotes
             result = result
@@ -494,5 +499,50 @@ public class LineValidation
         }
 
         return input;
+    }
+}
+
+/// <summary>
+/// Replace things we know cause issues with the LLM with straight tokens which it seems to handle ok. 
+/// TODO: This might be useful for markup like <color>
+/// </summary>
+public class StringTokenReplacer
+{
+    private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
+    private Dictionary<int, string> placeholderMap = new();
+
+    public string[] otherTokens = ["\\n", "{}"];
+
+    public string Replace(string input)
+    {
+        int index = 0;
+        placeholderMap.Clear();
+
+        string result = Regex.Replace(input, PlaceholderMatchPattern, match =>
+        {
+            placeholderMap.Add(index, match.Value);
+            return $"{{{index++}}}";
+        });
+
+        foreach (var token in otherTokens)
+        {
+            result = result.Replace(token, $"{{{index}}}");
+            placeholderMap.Add(index++, token);
+        }
+
+        return result;
+    }
+
+    public string Restore(string input)
+    {
+        return Regex.Replace(input, PlaceholderMatchPattern, match =>
+        {
+            if (int.TryParse(match.Value.Trim('{', '}'), out int index)
+                && placeholderMap.TryGetValue(index, out string? original))
+            {
+                return original;
+            }
+            return match.Value;
+        });
     }
 }

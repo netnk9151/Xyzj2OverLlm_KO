@@ -225,7 +225,12 @@ public static class TranslationService
         //foreach (var k in GetManualCorrections())
         //    cache.Add(k.Key, k.Value);
 
-        //Glossary.AddGlossaryToCache(config, cache);
+        // Add Glossary Lines to Cache
+        foreach (var line in config.GlossaryLines)
+        {
+            if (!cache.ContainsKey(line.Raw))
+                cache.Add(line.Raw, line.Result);
+        }
 
         await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
@@ -501,7 +506,8 @@ public static class TranslationService
             return result2;
 
         // Prepare the raw by stripping out anything the LLM can't support
-        var preparedRaw = LineValidation.PrepareRaw(raw);
+        var tokenReplacer = new StringTokenReplacer();
+        var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
 
         // Define the request payload
         List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile);
@@ -534,7 +540,7 @@ public static class TranslationService
                     .GetString()
                     ?.Trim() ?? string.Empty;
 
-                preparedResult = LineValidation.PrepareResult(llmResult);
+                preparedResult = LineValidation.PrepareResult(llmResult, tokenReplacer);
 
                 if (!config.SkipLineValidation)
                 {

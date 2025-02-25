@@ -273,8 +273,8 @@ public class PromptTuningTests
 
     private class StructuredTranslation
     {
-        public string Translated { get; set; }
-        public string Transliterated { get; set; }
+        public string Translated { get; set; } = string.Empty;
+        public string Transliterated { get; set; } = string.Empty;
     }
 
     [Fact]
@@ -298,7 +298,7 @@ public class PromptTuningTests
         //Generate Schema
         JsonSerializerOptions options = JsonSerializerOptions.Default;
         JsonNode schema = options.GetJsonSchemaAsNode(typeof(StructuredTranslation));
-        config.ModelParams.Add("format", schema);
+        config.ModelParams!.Add("format", schema);
 
         // Generate based on what would have been created
         var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);

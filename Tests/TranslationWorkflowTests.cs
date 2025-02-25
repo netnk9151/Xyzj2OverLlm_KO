@@ -146,7 +146,8 @@ public class TranslationWorkflowTests
         //////// Quick Validation here
 
         // If it is already translated or just special characters return it
-        var preparedRaw = LineValidation.PrepareRaw(split.Text);
+        var tokenReplacer = new StringTokenReplacer(); 
+        var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
         var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, outputFile);
         if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw)
         {
@@ -172,7 +173,7 @@ public class TranslationWorkflowTests
             if (split.Translated != value)
             {
                 Console.WriteLine($"Manually Translated {outputFile} \n{split.Text}\n{split.Translated}");
-                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, outputFile);
+                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value, tokenReplacer), split.Text, outputFile);
                 split.ResetFlags();
                 return true;
             }
@@ -282,7 +283,8 @@ public class TranslationWorkflowTests
 
     private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified)
     {
-        var preparedRaw = LineValidation.PrepareRaw(split.Text);
+        var tokenReplacer = new StringTokenReplacer();
+        var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
 
         if (split.Translated == null)
             return modified;
@@ -317,7 +319,8 @@ public class TranslationWorkflowTests
 
     private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified)
     {
-        var preparedRaw = LineValidation.PrepareRaw(split.Text);
+        var tokenReplacer = new StringTokenReplacer();
+        var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
 
         if (split.Translated == null)
             return modified;
