@@ -93,8 +93,12 @@ public class PromptTuningTests
         File.WriteAllText($"{workingDirectory}/TestResults/1.MinimisePrompt.txt", result);
     }
 
-    [Fact]
-    public async Task ExplainPrompt()
+    [Theory]
+    [InlineData(1, "完成奇遇任务《轻功高手》")]
+    [InlineData(2, "雄霸武林")]
+    [InlineData(3, "德高望重重，才广武林称。兼备风云志，胸怀揽星辰。")]
+    [InlineData(4, "于狂刀门贡献堂主处累积购买二十次")]
+    public async Task ExplainGlossaryPrompt(int index, string input)
     {
         var config = Configuration.GetConfiguration(workingDirectory);
 
@@ -104,9 +108,9 @@ public class PromptTuningTests
 
         // Prime the Request
 
-        List<object> messages = TranslationService.GenerateBaseMessages(config, "飞虹剑阵？那是甚么？很厉害吗？",
+        List<object> messages = TranslationService.GenerateBaseMessages(config, input,
             string.Empty,
-            "Explain your reasoning in a <think> tag at the end of the response. Also explain how and if the glossary was used. Also explain how to adjust the system prompt to correct the fact the resulting output is not in english?");
+            "Explain your reasoning in a <think> tag at the end of the response. Also explain how and if the glossary was used.");
 
         // Generate based on what would have been created
         var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
@@ -123,7 +127,7 @@ public class PromptTuningTests
             .GetString()
             ?.Trim() ?? string.Empty;
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainGlossaryPrompt{index}.txt", result);
     }
 
     [Fact]

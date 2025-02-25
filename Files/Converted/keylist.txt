@@ -553,9 +553,9 @@
     split: 7
     text: "武学"
     translated: "Wuxia"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 32
   raw: "32#4#系统#0#0#1#29#境界#"
   translated: ""
@@ -913,9 +913,9 @@
     split: 7
     text: "江湖游记"
     translated: "Wanderings of the Wulin"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wulin,武林,"
 - lineNum: 52
   raw: "52#4#系统#0#0#1#55#图鉴#"
   translated: ""

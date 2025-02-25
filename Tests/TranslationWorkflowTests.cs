@@ -235,13 +235,7 @@ public class TranslationWorkflowTests
             split.Translated = $"...{split.Translated}";
             modified = true;
         }
-
-        // Long NPC Names - this really should be 30
-        if (outputFile.Contains("NpcItem.txt") && split.Translated.Length > 50)
-        {
-            split.FlaggedForRetranslation = true;
-            modified = true;
-        }
+    
 
         // Trim line
         if (split.Translated.Trim().Length != split.Translated.Length)
@@ -249,7 +243,6 @@ public class TranslationWorkflowTests
             Console.WriteLine($"Needed Trimming:{outputFile} \n{split.Translated}");
             split.Translated = split.Translated.Trim();
             modified = true;
-            //Don't continue we still want other stuff to happen
         }
 
         // Add . into Dialogue
@@ -344,7 +337,7 @@ public class TranslationWorkflowTests
                
                 foreach (var dupe in dupes)
                 {
-                    found = split.Text.Contains(dupe.Result);
+                    found = split.Text.Contains(dupe.Raw);
                     if (found)
                         break;
                 }

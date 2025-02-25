@@ -919,8 +919,8 @@
     split: 1
     text: "枪意"
     translated: "The will to fight."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 826
   raw: "826#枪容#8#200#1#12#0#0#0#3#1#1#300826#1#"
@@ -930,8 +930,8 @@
     split: 1
     text: "枪容"
     translated: "Brother Qiang Rong"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 827
   raw: "827#枪形#8#201#1#12#0#0#0#4#1#1#300827#1#"
@@ -1810,8 +1810,8 @@
     split: 1
     text: "枪意"
     translated: "The will to fight."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 1826
   raw: "1826#枪容#8#1200#1#12#0#0#1#3#1#1#301826#1#"
@@ -1821,8 +1821,8 @@
     split: 1
     text: "枪容"
     translated: "Brother Qiang Rong"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 1827
   raw: "1827#枪形#8#1201#1#12#0#0#1#4#1#1#301827#1#"
@@ -2360,8 +2360,8 @@
     split: 1
     text: "寒气、中毒、灼伤持续时间"
     translated: "Duration of Frost, Poisoning, and Burns"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 10076
   raw: "10076#内伤层数增加#8#216#4#100500161#0##0#0#0#0#0#0#"
@@ -2371,8 +2371,8 @@
     split: 1
     text: "内伤层数增加"
     translated: "Increase in the layers of internal injuries."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Injury,内伤,"
     flaggedHallucination: ""
 - lineNum: 10077
   raw: "10077#受到中毒层数增加增加#8#207#4#101010#0##0#0#0#0#0#0#"
@@ -2382,8 +2382,8 @@
     split: 1
     text: "受到中毒层数增加增加"
     translated: "Infected by more layers of poison."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11001
   raw: "11001#气涌-冷却#10#1202#0#0#0#130800|130810|131100|131110#1#0#0#0#0#0#"
@@ -2921,9 +2921,9 @@
     split: 1
     text: "嵩室棍法"
     translated: "Yunmeng Sword Art"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
+    flaggedHallucination: "Sword Art,剑法,"
 - lineNum: 11055
   raw: "11055#嵩室棍法#10#0#0#120810#0#1200|1201#1#0#0#0#0#0#"
   translated: ""
@@ -2932,9 +2932,9 @@
     split: 1
     text: "嵩室棍法"
     translated: "Yunmeng Sword Art"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
+    flaggedHallucination: "Sword Art,剑法,"
 - lineNum: 11056
   raw: "11056#嵩室棍法#10#0#0#120820#0#1200|1201#1#0#0#0#0#0#"
   translated: ""
@@ -2943,9 +2943,9 @@
     split: 1
     text: "嵩室棍法"
     translated: "Yunmeng Sword Art"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
+    flaggedHallucination: "Sword Art,剑法,"
 - lineNum: 11057
   raw: "11057#明禅拈花指#10#0#0#130800#0#1200|1201#1#0#0#0#0#0#"
   translated: ""
@@ -3156,8 +3156,8 @@
     split: 1
     text: "中毒频率提升"
     translated: "Poisoning frequency has increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11077
   raw: "11077#中毒频率提升#8#1205#4#101010#0##1#0#0#0#0#0#"
@@ -3167,8 +3167,8 @@
     split: 1
     text: "中毒频率提升"
     translated: "Poisoning frequency has increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11078
   raw: "11078#中毒效果提升#8#1206#4#101010#0##1#0#0#0#0#0#"
@@ -3178,8 +3178,8 @@
     split: 1
     text: "中毒效果提升"
     translated: "Poison Effect Enhanced"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11079
   raw: "11079#断魂腿-冷却#8#1202#0#132210#0##1#0#0#0#0#0#"
@@ -4872,8 +4872,8 @@
     split: 1
     text: "冰封三尺"
     translated: "A heart of ice a foot thick."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
 - lineNum: 30121
   raw: "30121#冷刃冰心#10#0#0#111810#0#1200|1201#1#0#0#0#0#0#"
@@ -5796,8 +5796,8 @@
     split: 1
     text: "剪刀石头布"
     translated: "Rock, Paper, Scissors"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 30205
   raw: "30205#白日金蟾劲#10#0#0#132100#0#1200|1201#1#0#0#0#0#0#"

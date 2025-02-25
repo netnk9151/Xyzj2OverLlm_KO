@@ -322,8 +322,8 @@ public static class TranslationService
 
                     var cacheHit = translationCache.ContainsKey(split.Text);
 
-                    if (string.IsNullOrEmpty(split.Translated) 
-                        || forceRetranslation 
+                    if (string.IsNullOrEmpty(split.Translated)
+                        || forceRetranslation
                         || (config.TranslateFlagged && split.FlaggedForRetranslation))
                     {
                         if (useTranslationCache && cacheHit)
@@ -356,13 +356,20 @@ public static class TranslationService
                     // Skip first one - it should be ok
                     foreach (var split in splitDupes.Skip(1))
                     {
-                        split.Translated = firstSplit.Translated;
-                        split.ResetFlags();
-                        recordsProcessed++;
-                        totalRecordsProcessed++;
-                        bufferedRecords++;
+                        if (split.Translated != firstSplit.Translated
+                            || string.IsNullOrEmpty(split.Translated)
+                            || forceRetranslation
+                            || (config.TranslateFlagged && split.FlaggedForRetranslation))
+                        {
+
+                            split.Translated = firstSplit.Translated;
+                            split.ResetFlags();
+                            recordsProcessed++;
+                            totalRecordsProcessed++;
+                            bufferedRecords++;
+                        }
                     }
-                }               
+                }
 
                 logProcessed++;
 
@@ -607,10 +614,12 @@ public static class TranslationService
     {
         //Dynamically build prompt using whats in the raws
         var basePrompt = new StringBuilder(config.Prompts["BaseSystemPrompt"]);
+        basePrompt.AppendLine("");
 
         if (raw.Contains('{'))
             basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
 
+        basePrompt.AppendLine(config.Prompts["BaseGlossaryPrompt"]);
         basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines));
 
         basePrompt.AppendLine(additionalSystemPrompt);

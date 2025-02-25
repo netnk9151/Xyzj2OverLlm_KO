@@ -157,8 +157,8 @@
     split: 2
     text: "门派财源所需，需弟子到销售门派商品，探寻财源，初步增加门派金钱储备。"
     translated: "To support the sect's financial needs, disciples must sell our goods and seek out sources of wealth to initially increase the sect's monetary reserves."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 9
   raw: "9#才子寻觅#派遣弟子在村庄中寻觅有潜力的年轻人，通过简单测试选拔符合门派标准的弟子。#3#10#30#0#0|6|10#900#88#0#0#"
@@ -409,8 +409,8 @@
     split: 2
     text: "宗门附近的小镇上每月都会举行一次大型集市。派弟子前去销售宗门的各种周边商品，以增加宗门的金钱储备。"
     translated: "The local town near the martial arts sect holds a large market every month. Disciples are dispatched to sell various sect-related goods, in order to increase the sect's monetary reserves."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 112
   raw: "112#才子初试#宗门开放新一轮的弟子招募，需人手前去寻找有潜力的年轻人。通过简单的测试和观察，选择符合宗门基本标准的弟子。#3#10#30#0#0|6|10#900#88#0#0#"
@@ -1399,8 +1399,8 @@
     split: 2
     text: "一位神秘的商人出现在宗门门前，送上一份礼物，商人声称这是对宗门的感激之情，宗门在将这些宝贝加工后，以高价售出，获得了可观的金钱收入。"
     translated: "A mysterious merchant appeared at the front of the martial arts sect and presented a gift. The merchant claimed it was an expression of gratitude for the sect, which had processed these treasures into high-value items, earning substantial monetary income."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 515
   raw: "515#武林拍卖会上的意外发现#宗门的弟子在一次武林拍卖会上偶然发现了一件被忽视的古老藏品，原来是一幅失传已久的古画。这幅画被认定为珍品，最终以天价成交。宗门因此意外获得了巨额的拍卖收入。#5#1#1000#1#0|0|1043#900#100#0#0#"
@@ -1489,8 +1489,8 @@
     split: 2
     text: "宗门所在地的一座古刹因年久失修，急需大规模修缮，带来一定的钱财消耗。"
     translated: "The ancient temple located at the sect's headquarters has fallen into disrepair due to age and urgently requires major restoration, which will incur a significant expenditure of funds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 520
   raw: "520#宴请贵宾#宗门为了拉拢一位有影响力的江湖大侠，举办了一场盛大的宴会。虽然此举增加了宗门的声望，但同时也花费了大量的金钱，因为在宴会上，宗门需要款待贵宾，提供美酒佳肴、珍稀礼品，以及场地布置等。#5#1#1000#1#0|0|-904#900#100#0#0#"
@@ -1507,8 +1507,8 @@
     split: 2
     text: "宗门为了拉拢一位有影响力的江湖大侠，举办了一场盛大的宴会。虽然此举增加了宗门的声望，但同时也花费了大量的金钱，因为在宴会上，宗门需要款待贵宾，提供美酒佳肴、珍稀礼品，以及场地布置等。"
     translated: "The sect hosted a grand banquet to attract the attention of an influential Great Hero from the Jianghu. While this move increased the sect's prestige, it also incurred significant expenses as they had to entertain guests with fine wine and delicacies, rare gifts, and elaborate decorations for the event."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 521
   raw: "521#治理内部#宗门高层展开了一轮严格的内部治理，审查并修正了内部管理制度，以确保宗门的各项事务运转更加高效有序，从而提升了宗门的内部安定。#5#1#1000#1#0|1|2#900#100#0#0#"
@@ -1554,9 +1554,9 @@
     split: 1
     text: "江湖外交"
     translated: "Interstate diplomacy in the world of Wulin."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wulin,武林,"
   - lastTranslatedOn: 2025-02-24T17:24:01.0537552+08:00
     split: 2
     text: "宗门积极拓展外交渠道，加强了宗门在江湖中的地位与影响力，提升了宗门的整体安全稳定。"
@@ -2364,8 +2364,8 @@
     split: 1
     text: "武林争斗"
     translated: "The struggle within the martial world."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Wulin,武林,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:24:12.6532771+08:00
     split: 2

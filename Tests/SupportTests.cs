@@ -1,4 +1,6 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Text.Json;
+using System.Text;
+using System.Text.RegularExpressions;
 using Xunit.Sdk;
 
 namespace Translate.Tests;
@@ -15,6 +17,91 @@ public class SupportTests
         FileInfo[] files = dir.GetFiles();
         foreach (FileInfo file in files)
             Console.WriteLine($"new() {{Path = \"{file.Name}\", SplitIndexes = []}},");
+    }
+
+    [Fact]
+    public async Task GetSectsAndPlaces()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var sects = new List<string>();
+        var places = new List<string>();
+
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            if (outputFile.EndsWith("buildprototype.txt"))
+            {
+                foreach (var line in fileLines)
+                {
+                    foreach (var split in line.Splits)
+                    {
+                        if (split.Text.Contains('-'))
+                        {
+                            var splits = split.Text.Split('-');
+                            var sect = splits[0];
+                            var place = splits[1];
+
+                            if (!sects.Contains(sect))
+                                sects.Add(sect);
+
+                            if (!places.Contains(place))
+                                places.Add(place);
+                        }
+                    }
+                }
+            }
+
+            await Task.CompletedTask;
+        });
+
+        var glossary = new List<string>();
+        foreach(var sect in sects)
+        {
+            var trans = await QuickTranslate(config, sect);
+            glossary.Add($"- raw: {sect}");
+            glossary.Add($"  result: {trans}");
+            glossary.Add($"  checkForHallucination: true");
+            glossary.Add($"  checkForMistranslation: true");
+        }
+
+        glossary.Add("");
+
+        foreach (var place in places)
+        {
+            var trans = await QuickTranslate(config, place);
+            glossary.Add($"- raw: {place}");
+            glossary.Add($"  result: {trans}");
+            glossary.Add($"  checkForHallucination: true");
+            glossary.Add($"  checkForMistranslation: true");
+        }
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
+    }
+
+    public async Task<string> QuickTranslate(LlmConfig config, string input)
+    {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
+        // Prime the Request
+        List<object> messages = TranslationService.GenerateBaseMessages(config, input, string.Empty);
+
+        // Generate based on what would have been created
+        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
+
+        // Send correction & Get result
+        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
+        HttpResponseMessage response = await client.PostAsync(config.Url, content);
+        response.EnsureSuccessStatusCode();
+        string responseBody = await response.Content.ReadAsStringAsync();
+        using var jsonDoc = JsonDocument.Parse(responseBody);
+        var result = jsonDoc.RootElement
+            .GetProperty("message")!
+            .GetProperty("content")!
+            .GetString()
+            ?.Trim() ?? string.Empty;
+
+        return result;
     }
 
     [Fact]
@@ -65,6 +152,6 @@ public class SupportTests
         string restored = replacer.Restore(replaced);
         Console.WriteLine("Restored: " + restored);
 
-        Assert.Equal(original, restored);       
-    }    
+        Assert.Equal(original, restored);
+    }
 }

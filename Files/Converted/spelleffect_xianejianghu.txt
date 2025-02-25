@@ -2198,8 +2198,8 @@
     split: 1
     text: "难度1-金钱消耗减少"
     translated: "Difficulty 1 - Reduced Monetary Consumption"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 904
   raw: "904#难度1-自身受到伤害减少#1#10#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#50#0#0#0##0#1#0#0#0#0#0#0#0#904#0#0#0#0#0#904##4#0##0.0#0.0###"
@@ -2264,8 +2264,8 @@
     split: 1
     text: "难度2-金钱获得减少"
     translated: "Difficulty 2 - Reduced Money Gain"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 930
   raw: "930#难度2-目标#1#9#0#1#0#0#0###0##0#0#0#10000#0#0#0#0#0#0#25#0#0#0##0#1#0#0####0#0#930#0##0#0#0#930##5#0#931|932#0.0#0.0###"
@@ -2352,8 +2352,8 @@
     split: 1
     text: "难度-极难-金钱获得减少"
     translated: "Difficulty - Extremely Difficult - Money Gain Decreased"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 950
   raw: "950#难度-极难-目标#1#9#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#50#0#0#0##0#1#0#0####0#0#950#0##0#0#0#950##5#0#951|952#0.0#0.0###"
@@ -2440,8 +2440,8 @@
     split: 1
     text: "难度-地狱-金钱获得减少"
     translated: "Difficulty - Hell - Money obtained reduced"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 970
   raw: "970#难度-地狱-目标#1#9#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#100#0#0#0##0#1#0#0####0#0#970#0##0#0#0#970##5#0#971|972#0.0#0.0###"
@@ -3229,8 +3229,8 @@
     split: 1
     text: "刀一式伤害"
     translated: "A sword technique inflicting damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2011
   raw: "2011#刀一式击退#0#5#3#1#999#0#0###0##0#1.4#55.0#10000#0#0#0#1#1#1#30#150#0#0#0#0#30#30#100### #0#0#2011#1##0#0#0#2011#0#0#0##0.0#0.0###"
@@ -3262,8 +3262,8 @@
     split: 1
     text: "刀二式击退"
     translated: "Retreat using the Sword Form Two technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2030
   raw: "2030#刀三式伤害#0#1#3#1#999#0#sound_dao_hurt2###0##0#1.4#70.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#22#28#0####0#0#2030#1#sfx_hero_main_dao_hit#0#0#0#2030#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##0.0#0.0###"
@@ -3284,8 +3284,8 @@
     split: 1
     text: "刀三式击退"
     translated: "The Third Sword Technique Retracts"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2040
   raw: "2040#刀四式伤害#0#1#3#1#999#0#sound_dao_hurt3###0##0#1.5#180.0#10000#0#0#0#0#1#0#20#21#7#0#0#0#8#12#0####0#0#2040#1#sfx_hero_main_dao_hit#0#0#0#2040#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##0.0#0.0###"
@@ -3295,8 +3295,8 @@
     split: 1
     text: "刀四式伤害"
     translated: "Damage from the Fourth Sword Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2041
   raw: "2041#刀四式击退#0#5#3#1#999#0#0###0##0#1.5#180.0#10000#0#0#0#1#1#1#10#50#0#0#0#0#0#0#0### #0#0#2041#1##0#0#0#2041#0#0#0##0.0#0.0###"
@@ -3339,8 +3339,8 @@
     split: 1
     text: "刀四式伤害"
     translated: "Damage from the Fourth Sword Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2050
   raw: "2050#刀五式伤害#0#1#2#1#999#0#sound_dao_hurt1###0##0#2.5#1.5#10000#0#0#0#0#1#0#20#21#7#0#0#0#30#40#0####0#0#2050#1#sfx_hero_main_dao_hit#0#0#0#2050#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##0.0#0.0###"
@@ -3361,8 +3361,8 @@
     split: 1
     text: "刀五式击退"
     translated: "Five Sword Techniques for Retreating"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2140
   raw: "2140#刀变招第四下伤害#0#1#3#1#999#0#sound_dao_hurt2###0##0#1.5#65.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#13#20#0### #0#0#2140#1#sfx_hero_main_dao_hit#0#0#0#2140#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
@@ -3449,8 +3449,8 @@
     split: 1
     text: "刀一式_new_3击退"
     translated: "Three Strikes to Repel the Sword"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2420
   raw: "2420#刀二式_new_3伤害#0#1#0#0#999#0#sound_dao_hurt2###0##0#1.4#70.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#16#24#0####0#0#2420#1#sfx_hero_main_dao_hit#0#0#0#2420#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##1.5#0.0###"
@@ -3460,8 +3460,8 @@
     split: 1
     text: "刀二式_new_3伤害"
     translated: "Duo Er Shi New - Triple Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2421
   raw: "2421#刀二式_new_3击退#0#5#0#0#999#0####0##0#1.4#70.0#10000#0#0#0#1#1#1#30#150#0#0#0#0#30#30#100### #0#0#2421#1##0#0#0#2421#0#0#0##0.0#0.0###"
@@ -3493,8 +3493,8 @@
     split: 1
     text: "刀三式_new_3击退"
     translated: "The new third move of Swordplay Three can push back an opponent."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2440
   raw: "2440#刀四式_new_3伤害#0#1#0#0#999#0#sound_dao_hurt3###0##0#1.5#180.0#10000#0#0#0#0#1#0#20#21#7#0#0#0#28#48#0####0#0#2440#1#sfx_hero_main_dao_hit#0#0#0#2440#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##2.0#0.0###"
@@ -3504,8 +3504,8 @@
     split: 1
     text: "刀四式_new_3伤害"
     translated: "Sword Form IV - New: 3 Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2441
   raw: "2441#刀四式_new_3击退#0#5#0#0#999#0####0##0#1.5#180.0#10000#0#0#0#1#1#1#70#100#0#0#0#0#0#0#0### #0#0#2441#1##0#0#0#2441#0#0#0##0.0#0.0###"
@@ -3515,8 +3515,8 @@
     split: 1
     text: "刀四式_new_3击退"
     translated: "Parry with the Three Strikes of Sword Four."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2450
   raw: "2450#刀五式_new_3伤害#0#1#3#1#999#0#sound_dao_hurt3###0##0#1.6#90.0#10000#0#0#0#0#1#0#20#21#7#0#0#0#18#30#0####0#0#2450#1#sfx_hero_main_dao_hit#0#0#0#2450#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
@@ -3526,8 +3526,8 @@
     split: 1
     text: "刀五式_new_3伤害"
     translated: "Damage from the Duo Wu Shi Technique, Stage 3"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2451
   raw: "2451#刀五式_new_3击退#0#5#3#1#999#0####0##0#1.6#90.0#10000#0#0#0#1#1#1#50#200#0#0#0#0#10#10#0### #0#0#2451#1##0#0#0#2451#0#0#0##0.0#0.0###"
@@ -3537,8 +3537,8 @@
     split: 1
     text: "刀五式_new_3击退"
     translated: "Five Sword Techniques - New Third Move: Repel"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2452
   raw: "2452#刀五式_new_3伤害#0#1#0#0#999#0#sound_dao_hurt1###0##0#2.5#1.5#10000#0#0#0#0#1#0#20#21#7#0#0#0#18#30#0####0#0#2452#1#sfx_hero_main_dao_hit#0#0#0#2452#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
@@ -3559,8 +3559,8 @@
     split: 1
     text: "刀五式_new_3击退"
     translated: "Retreat in the face of Sword Five Style"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 2540
   raw: "2540#刀变招第四下伤害#0#1#3#0#999#0#sound_dao_hurt2###0##0#1.5#65.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#26#60#0### #0#0#2540#1#sfx_hero_main_dao_hit#0#0#0#2540#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
@@ -3812,8 +3812,8 @@
     split: 1
     text: "枪二式_new_3伤害"
     translated: "Triple Damage from Gunner's Second Style"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3421
   raw: "3421#枪二式_new_3击退#0#5#3#1#999#0#0###0##0#1.4#180.0#10000#0#0#0#1#1#1#40#100#0#20#20#0#10#10#0### #0#0#3421#1##0#0#0#3421#0#0#0##0.0#0.0###"
@@ -3834,8 +3834,8 @@
     split: 1
     text: "枪二式_new_3伤害2"
     translated: "Two-point damage for Gun Two Formation."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3430
   raw: "3430#枪三式_new_3伤害#0#1#3#1#999#0#sound_qiang_hurt3###0##0#1.5#180.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#18#3#0### #0#0#3430#1#sfx_hero_main_qiang_hit#0#0#0#3430#hurt_1|hurt_2&0|7000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##2.0#0.08###"
@@ -3867,8 +3867,8 @@
     split: 1
     text: "枪三式_new_3伤害3"
     translated: "Gun Style Three - Damage 3"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3440
   raw: "3440#枪四式_new_3伤害#0#1#3#1#999#0#sound_qiang_hurt1###0##0#1.3#135.0#10000#0#0#0#0#0#0#20#21#7#0#0#0#17#2#0### #0#0#3440#1#sfx_hero_main_qiang_hit#0#0#0#3440#hurt_1|hurt_2&0|7000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##3.0#0.033###"
@@ -3878,8 +3878,8 @@
     split: 1
     text: "枪四式_new_3伤害"
     translated: "Quarterstaff Fourth Technique - Damage from Three Wounds"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3441
   raw: "3441#枪四式_new_3击退#0#5#3#1#999#0#0###0##0#1.3#135.0#10000#0#0#0#1#1#1#20#100#0#20#20#0#10#10#0### #0#0#3441#1##0#0#0#3441#0#0#0##0.0#0.0###"
@@ -3889,8 +3889,8 @@
     split: 1
     text: "枪四式_new_3击退"
     translated: "Three Strikes, Parry Back!"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3442
   raw: "3442#枪四式_new_3击退4#0#5#3#1#999#0#0###0##0#1.8#90.0#10000#0#0#0#1#1#1#100#200#0#20#20#0#10#10#0### #0#0#3442#1##0#0#0#3442#0#0#0##0.0#0.0###"
@@ -3955,8 +3955,8 @@
     split: 1
     text: "枪变四式_new_3击退"
     translated: "Quang's Fourth Form: Thrice Repelled"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 3542
   raw: "3542#枪变四式_new_3击退5#0#5#3#1#999#0#0###0##0#1.7#180.0#10000#0#0#0#1#1#1#50#100#0#20#20#0#10#10#0### #0#0#3542#1##0#0#0#3542#0#0#0##0.0#0.0###"
@@ -4900,8 +4900,8 @@
     split: 33
     text: "门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。"
     translated: "A meticulously maintained abode exudes an air of rarity, a lifetime of diligence in one's own hands. For everything done, it requires more effort than others; cultivation and the perception of monetary costs increase by 30%, but also gain a 15% boost to damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10013
   raw: "10013#0#1#26#0#1#-1#0####0##0#0#0#10000#0#0#0#1#0#0#-10#1069#10000#0##0#1#0#0#勤能补拙#门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。##0#0#10013#0##0#0#0#10013##4#0#0#0.0#0.0###"
@@ -4918,8 +4918,8 @@
     split: 33
     text: "门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。"
     translated: "The mansion's appearance seems quite rare, and they hold it together through a lifetime of hard work. For anything they do, they must exert more effort than others. Their cultivation and insight increase expenses by 30%, but they gain a 15% bonus to damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10014
   raw: "10014#0#1#26#0#1#-1#0####0##0#0#0#10000#0#0#0#1#0#0#-10#1070#10000#0##0#1#0#0#勤能补拙#门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。##0#0#10014#0##0#0#0#10014##4#0#0#0.0#0.0###"
@@ -4936,8 +4936,8 @@
     split: 33
     text: "门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。"
     translated: "Creating an aura of mystery around your establishment, you take charge of your own toils in life. In everything you do, more effort is needed than others. Your cultivation and understanding consume 30% more resources, but you gain a 15% increase in damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10020
   raw: "10020#困苦一生-造成伤害减少#1#9#0#1#-1#0####0##0#0#0#10000#0#0#0#1#0#0#-5#0#0#0##0#1#0#0#以守为攻#求谋做事事难成，妻儿兄弟实难靠。孤立无助，攻击命中会比正常人低，但是却能意外获得20%免伤加成。#0#0#0#10020#0##0#0#0#10020##5#0#10021|10022|10023|10024#0.0#0.0###"
@@ -5053,8 +5053,8 @@
     split: 33
     text: "门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟金钱的消耗比正常增加30%，但是会获得伤害加15%的加成。"
     translated: "Mingtian yingdu si xiqi, yishijin lao zi ba chi. Zu shenme shi dou xuyao bi taer ren you geng duo de nuli, xiuzhi, gangwu jinqian de xiaofei bi zhengchang zengzhang 30%, dan shi huo de shanghaigai 15% de gain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10041
   raw: "10041#自力更生-感悟消耗增加#1#26#0#1#-1#0#0###0##0#0#0#10000#0#0#0#1#0#0#-30#1070#10000#0##0#1#0#0###0#0#0#10041#0##0#0#0#10041##4#0##0.0#0.0###"
@@ -5262,8 +5262,8 @@
     split: 1
     text: "小富小贵-金钱获得增加"
     translated: "Small Wealth, Small Honor - Increase in Monetary Gain"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.0105662+08:00
     split: 32
@@ -5532,8 +5532,8 @@
     split: 32
     text: "见钱眼开"
     translated: "When money is concerned, their eyes light up."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.0113515+08:00
     split: 33
@@ -5741,8 +5741,8 @@
     split: 33
     text: "为利为名终日劳，恩人无义反成怨。追名逐利导致了与周围人的反目，获取金钱增加50%，豪爽、修养、口才减少10。"
     translated: "Pursuing profits and reputation leads to resentment from those who once helped you. Chasing after name and profit results in hostility with others, increases money by 50%, but decreases magnanimity, refinement, and eloquence by 10%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10291
   raw: "10291#心慈性善-修为获得增加#1#24#0#1#-1#0#0###0##0#0#0#10000#0#0#0#1#0#0#20#1069#10000#0##0#1#0#0####0#0#10291#0##0#0#0#10291##4#0##0.0#0.0###"
@@ -6245,8 +6245,8 @@
     split: 1
     text: "福禄寿全-金钱增加"
     translated: "Fuluoshou Quan - Increase in Wealth"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.0132797+08:00
     split: 32
@@ -6695,8 +6695,8 @@
     split: 1
     text: "逍遥隆福-金钱获取增加"
     translated: "Shaoxiao Longfu - Increased Wealth Acquisition"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.0144411+08:00
     split: 32
@@ -6709,8 +6709,8 @@
     split: 33
     text: "富贵荣华极品隆，公侯卿相在其中。获得金钱、修为、感悟额外增加20%，伤害增加5%，受到伤害降低5%。"
     translated: "Riches, glory, and splendor are the epitome of greatness; among them are nobles and high officials. Gain an additional 20% in wealth, skill, and insight, with a 5% increase in damage inflicted and a 5% reduction in damage received."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10501
   raw: "10501#逍遥隆福-修为获取增加#1#24#0#1#-1#0#0###0##0#0#0#10000#0#0#0#1#0#0#20#1069#10000#0##0#1#0#0###0#0#0#10501#0##0#0#0#10501##4#0##0.0#0.0###"
@@ -6875,8 +6875,8 @@
     split: 1
     text: "天罚-金钱获取减少"
     translated: "Divine Punishment - Reduction in Monetary Acquisition"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10522
   raw: "10522#天罚-修为获取减少#1#24#0#1#-1#0#0###0##0#0#0#10000#0#0#0#1#0#0#-50#1069#10000#0##0#1#0#0####0#0#10522#0##0#0#0#10522##4#0##0.0#0.0###"
@@ -7492,8 +7492,8 @@
     split: 1
     text: "刀枪不入-外防增加"
     translated: "Unyielding as steel and impenetrable as a fortress, with enhanced defenses."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 10700
   raw: "10700#万法不侵-内防增加#1#4#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#30#1023#0#0##0#1#0#0#0#0#0#0#0#10630#0#0#0#0#0#10700##5#0##0.0#0.0###"
@@ -7580,8 +7580,8 @@
     split: 1
     text: "金钱获取增加"
     translated: "Increased income from obtaining money."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 10780
   raw: "10780#举人#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1048580#3600000#0#0#0#0#0#0#0#1293##0#1#0#0#0#0#0#0#0#10780#0#0#0#0#0#10780##5#0#10781#0.0#0.0###"
@@ -16101,8 +16101,8 @@
     split: 33
     text: "造成伤害时，附加自身阳属性*10%的额外伤害"
     translated: "Inflicts additional damage equal to 10% of the target's own Yang attribute when causing harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17550
   raw: "17550#炙心#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#2000#0#0#29##0#1#0#0#炙心#造成伤害时，附加自身阳属性*20%的额外伤害#buffnew_ziqidonglai#0#0#17550#3#0#0#0#0#17550##4#0#0#0.0#0.0###"
@@ -16126,8 +16126,8 @@
     split: 33
     text: "造成伤害时，附加自身阳属性*20%的额外伤害"
     translated: "When causing damage, add an additional 20% of your own Yang attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17560
   raw: "17560#燃神#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#29##0#1#0#0#燃神#造成伤害时，附加自身阳属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17560#4#0#0#0#0#17560##4#0#0#0.0#0.0###"
@@ -16151,8 +16151,8 @@
     split: 33
     text: "造成伤害时，附加自身阳属性*30%的额外伤害"
     translated: "When dealing damage, inflict an additional 30% of your own Yang attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17561
   raw: "17561#郭靖被动#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#29##0#1#0#0#燃神#造成伤害时，附加自身阳属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17561#4#0#0#0#0#17561##4#0#0#0.0#0.0###"
@@ -16176,8 +16176,8 @@
     split: 33
     text: "造成伤害时，附加自身阳属性*30%的额外伤害"
     translated: "When inflicting damage, add an additional 30% of your own Yang attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17562
   raw: "17562#九阴玄#1#15#0#1#5000#0#0#0#0#0#0#0#0#0#10000#4#10#0#0#0#0#0#0#0#111411##0#1#0#0#九阴玄#施展招式时触发暴击，自身内外攻获得增加15%，持续5秒#0#0#0#17562#0#0#0#0#0#17562##0#0#0#0.0#0.0###"
@@ -16401,8 +16401,8 @@
     split: 33
     text: "造成伤害时，附加自身刚属性*10%的额外伤害"
     translated: "When inflicting harm, additional damage equal to 10% of one's own Strength attribute is applied."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17571
   raw: "17571#无量心法-运功#1#23#0#1#30000#0#0#sfx_xinfa_106_chixu|Self_n#0#0#0#0#0#0#10000#0#0#0#1#0#0#30#0#0#0#1020|1021#0#1#0#0#无量#内外攻增加30%#0#0#0#13010600#0#0#0#0#0#13010600##0#0#0#0.0#0.0###"
@@ -16476,8 +16476,8 @@
     split: 33
     text: "造成伤害时，附加自身刚属性*20%的额外伤害"
     translated: "When causing damage, it additionally deals 20% of the user's Gang attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17590
   raw: "17590#罡劲#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#30##0#1#0#0#罡劲#造成伤害时，附加自身刚属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17590#4#0#0#0#0#17590##4#0#0#0.0#0.0###"
@@ -16501,8 +16501,8 @@
     split: 33
     text: "造成伤害时，附加自身刚属性*30%的额外伤害"
     translated: "When causing harm, add an additional 30% of one's own strength attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17600
   raw: "17600#寒气#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#1000#0#0#28##0#1#0#0#寒气#造成伤害时，附加自身阴属性*10%的额外伤害#buffnew_ziqidonglai#0#0#17600#2#0#0#0#0#17600##4#0#0#0.0#0.0###"
@@ -16526,8 +16526,8 @@
     split: 33
     text: "造成伤害时，附加自身阴属性*10%的额外伤害"
     translated: "When causing harm, add an additional 10% damage based on your own Yin attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17610
   raw: "17610#霜冻#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#2000#0#0#28##0#1#0#0#霜冻#造成伤害时，附加自身阴属性*20%的额外伤害#buffnew_ziqidonglai#0#0#17610#3#0#0#0#0#17610##4#0#0#0.0#0.0###"
@@ -16551,8 +16551,8 @@
     split: 33
     text: "造成伤害时，附加自身阴属性*20%的额外伤害"
     translated: "When dealing damage, inflict an additional 20% of your own Yin attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17620
   raw: "17620#冰脉#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#28##0#1#0#0#冰脉#造成伤害时，附加自身阴属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17620#4#0#0#0#0#17620##4#0#0#0.0#0.0###"
@@ -16576,8 +16576,8 @@
     split: 33
     text: "造成伤害时，附加自身阴属性*30%的额外伤害"
     translated: "When causing damage, add an additional 30% of your own Yin attribute as extra damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17630
   raw: "17630#幻雾#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#1000#0#0#31##0#1#0#0#幻雾#造成伤害时，附加自身柔属性*10%的额外伤害#buffnew_ziqidonglai#0#0#17630#2#0#0#0#0#17630##4#0#0#0.0#0.0###"
@@ -16601,8 +16601,8 @@
     split: 33
     text: "造成伤害时，附加自身柔属性*10%的额外伤害"
     translated: "When causing damage, add an additional 10% of one's own soft attribute to the harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17640
   raw: "17640#玄乙#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#2000#0#0#31##0#1#0#0#玄乙#造成伤害时，附加自身柔属性*20%的额外伤害#buffnew_ziqidonglai#0#0#17640#3#0#0#0#0#17640##4#0#0#0.0#0.0###"
@@ -16626,8 +16626,8 @@
     split: 33
     text: "造成伤害时，附加自身柔属性*20%的额外伤害"
     translated: "When causing harm, add an additional 20% of your own Soft attribute to the damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17650
   raw: "17650#真元#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#31##0#1#0#0#真元#造成伤害时，附加自身柔属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17650#4#0#0#0#0#17650##4#0#0#0.0#0.0###"
@@ -16676,8 +16676,8 @@
     split: 33
     text: "造成伤害时，附加自身毒属性*10%的额外伤害"
     translated: "Inflict additional damage equal to 10% of your own poison attribute on top of the harm caused."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17670
   raw: "17670#引毒#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#2000#0#0#32##0#1#0#0#引毒#造成伤害时，附加自身毒属性*20%的额外伤害#buffnew_ziqidonglai#0#0#17670#3#0#0#0#0#17670##4#0#0#0.0#0.0###"
@@ -16701,8 +16701,8 @@
     split: 33
     text: "造成伤害时，附加自身毒属性*20%的额外伤害"
     translated: "Inflict additional 20% damage as your own poison attribute when causing harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17680
   raw: "17680#血毒#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#32##0#1#0#0#血毒#造成伤害时，附加自身毒属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17680#4#0#0#0#0#17680##4#0#0#0.0#0.0###"
@@ -16726,8 +16726,8 @@
     split: 33
     text: "造成伤害时，附加自身毒属性*30%的额外伤害"
     translated: "Deal additional 30% of your own poison attribute as extra damage when causing harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 17690
   raw: "17690#炽焰#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#1#0#0#0#0#0#1115##0#1#0#0#炽焰#每次攻击，增加自身5点阳，可叠加，最高十层，持续10秒#buffnew_ziqidonglai#0#0#17690#2#0#0#0#0#17690##4#0#0#0.0#0.0###"
@@ -18484,8 +18484,8 @@
     split: 33
     text: "阳状态，该状态下会克制阴，会给处于阴状态目标有额外伤害，基础伤害克制"
     translated: "In a Yang state, this condition suppresses Yin and inflicts additional damage to targets in a Yin state. It provides basic damage suppression."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 20021
   raw: "20021#阳-触发#1#1#3#1#15000#1000#0#0##0##2#2.0#180.0#10000#0#0#0#2#1#1#5000#0#0#29##0#0#0#0#灼烧#每秒损失施加者阳属性*0.5的伤害，持续15秒。#newbuff_yang#0#0#20021#2##0#0#0#20021##0#0##0.0#0.0###"
@@ -18570,8 +18570,8 @@
     split: 33
     text: "阴状态，该状态下会克制柔，会给处于柔状态目标有额外伤害，基础伤害克制"
     translated: "In the Yin State, this condition suppresses Ru, dealing additional damage to targets in the Ru State. It inherently provides base damage control."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 20031
   raw: "20031#阴-触发#1#20#3#1#3000#0#0###0##2#2.0#180.0#10000#0#0#0#0#1#1#1#0#0#0##0#0#0#0#霜冻#霜冻状态，无法进行任何操作，持续3秒。#newbuff_yin#0#0#20031#2##0#0#0#20031##0#0##0.0#0.0###"
@@ -18631,8 +18631,8 @@
     split: 33
     text: "柔状态，该状态下会克制刚，会给处于刚状态目标有额外伤害，基础伤害克制"
     translated: "Yao State, in which Yin suppresses Yang. Targets in the Yang state receive additional damage. Base damage is suppressed."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 20041
   raw: "20041#柔-触发#1#12#0#1#6000#0#0###0##1#0#0#10000#0#0#0#1#1#1#7#0#0#0##0#0#0#0#化解#持续时间内免疫负面效果。#buffnew_cifeihun#0#0#20041#2##0#1#10#20041##0#0##0.0#0.0###"
@@ -18681,8 +18681,8 @@
     split: 33
     text: "刚状态，该状态下会克制毒，会给处于毒状态目标有额外伤害，基础伤害克制"
     translated: "In a stabilized state, this condition restrains poison effects. It also inflicts additional damage to targets affected by poison, with basic damage providing the restraint."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 20051
   raw: "20051#刚-触发#1#4#0#1#6000#0#0###0##1#0#0#10000#0#0#0#1#0#0#5#1076#0#0##0#0#0#0#爆伤#增加暴击几率5%，持续时间6秒，可叠加10层。#newbuff_gang#0#0#20051#2##0#1#10#20051##0#0##0.0#0.0###"
@@ -18756,8 +18756,8 @@
     split: 33
     text: "毒状态，该状态下会克制阳，会给处于阳状态目标有额外伤害，基础伤害克制"
     translated: "Poison Status: In this state, it suppresses yang energy. Targets in the yang state will receive additional damage, with a basic amount of damage being suppressed."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 20061
   raw: "20061#毒-触发#1#49#3#1#4000#0#0###0##2#2.0#180.0#10000#0#0#0#0#1#1#1#0#0#50##0#0#0#0#毒瘴#瘴气效果，持续时间内，减少50%治疗效果，减少10%内外攻，受到伤害增加15%。#newbuff_du#0#0#20061#2##0#0#0#20061##1#0#20062|20063#0.0#0.0###"
@@ -19478,8 +19478,8 @@
     split: 33
     text: "从炎鸿时期传承下来的旷世奇功，据说拥有掌控和驯服各种灵兽的力量。习得该宝典能够驯服壁虎。"
     translated: "A legendary technique from the Yanhong period, said to possess the power to control and tame various mystical beasts. Mastery of this tome allows one to tame geckos."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 31000
   raw: "31000#动若脱兔#1#4#11#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#51#21#0#0##0#1#0#0#动若脱兔#行步翩翩，神巧灵敏，其身如箭，敌难追及。战场之上，敌人之攻势难及其身，迅捷躲避，行云流水，踪迹难觅。提升51内攻，9闪避。#buffnew_xijing#0#0#31000#0#0#0#0#0#31000##1#0#31001#0.0#0.0###"
@@ -20801,8 +20801,8 @@
     split: 33
     text: "壁虎聪明绝顶，善感震荡之气息。纵使威胁逼近，其身法敏捷以应，化隐退又智解。攀越墙壁，夺目眼帘，超越凡俗。提升309真气，11身法，26化解。"
     translated: "Gecko is incredibly intelligent and adept at sensing the pulse of vibrations. Even when threats are imminent, its nimble movements allow it to respond swiftly, retreating with cunning stealth. It climbs walls with captivating grace that transcends the ordinary. Enhances 309 innate qi, elevates 11 movement techniques, and increases 26 evasive maneuvers."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 35301
   raw: "35301#固壁巧虎#1#4#11#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#11#10#0#0##0#1#0#0#固壁巧虎#0#0#0#0#35301#0#0#0#0#0#35301##0#0#0#0.0#0.0###"
@@ -22816,8 +22816,8 @@
     split: 33
     text: "浩星撼日刀秘籍中招式获得大幅度威力加成。"
     translated: "The techniques from the Haoheng Hanri Sword Manual, once acquired, provide a significant boost in power."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 50150
   raw: "50150#极阴之念#1#4#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#15#1028#0#0##0#1#0#0#极阴之念#极致的阴属性相互加成增加大幅的阴，同时增加伤害。#buffnew_ziqidonglai#0#0#50150#0#0#0#0#0#50150##5#0#50151#0.0#0.0###"
@@ -23700,8 +23700,8 @@
     split: 33
     text: "受伤时反击5%的伤害，自身内外防增加刀法*1"
     translated: "When injured, retaliate with 5% of the damage received; self's internal and external defense increases by Swordsmanship level."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 50451
   raw: "50451#百战往生#1#23#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#34#22|23#0#1#0#0#0#0#0#0#0#50451#0#0#0#0#0#50451##4#0#0#0.0#0.0###"
@@ -24063,8 +24063,8 @@
     split: 1
     text: "对刀伤害提升10%"
     translated: "Slash damage increased by 10%"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.0673382+08:00
     split: 32
@@ -24077,8 +24077,8 @@
     split: 33
     text: "对刀套路敌人伤害提升10%"
     translated: "Increases the damage of sword techniques against enemies by 10%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 60032
   raw: "60032#对刀伤害提升14%#1#30#0#1#0#0###2|60001#0##0#0#0#10000#0#0#0#1#0#2#6#0#0#0##0#1#0#0#如龙#对刀套路敌人伤害提升14%##0#0#60032#0##0#0#0#60032##4#0##0.0#0.0###"
@@ -24346,9 +24346,9 @@
     split: 1
     text: "剑侠"
     translated: "Wuxia"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:20:15.0680943+08:00
     split: 32
     text: "剑气"
@@ -27639,8 +27639,8 @@
     split: 33
     text: "中毒效果增加1%"
     translated: "Poison effect increased by 1%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 74160
   raw: "74160##1#31#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#50237#1#0#0##0#1#0#0#附骨#毒属性技能伤害提升2%##0#0#74160#0##0#2#0#74160##0#0##0.0#0.0###"
@@ -27711,8 +27711,8 @@
     split: 33
     text: "中毒效果增加2%"
     translated: "Poison effect increased by 2%"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 74200
   raw: "74200##1#15#0#1#0#0###0|32|1000|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#74201##0#1#0#0#蚀心#自身毒属性达到1000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少60(唯一生效)##0#0#74200#0##0#0#0#74200##0#0##0.0#0.0###"
@@ -27805,8 +27805,8 @@
     split: 33
     text: "中毒效果增加3%"
     translated: "Poison effect increased by 3%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 74250
   raw: "74250##1#15#0#1#0#0###0|32|1500|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#74251##0#1#0#0#蚀心#自身毒属性达到1500，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少90(唯一生效)##0#0#74250#0##0#0#0#74250##0#0##0.0#0.0###"
@@ -27899,8 +27899,8 @@
     split: 33
     text: "中毒效果增加4%"
     translated: "Poisoning effect increased by 4%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 74300
   raw: "74300##1#15#0#1#0#0###0|32|2000|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#74301##0#1#0#0#蚀心#自身毒属性达到2000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少120(唯一生效)##0#0#74300#0##0#0#0#74300##0#0##0.0#0.0###"
@@ -30416,9 +30416,9 @@
     split: 1
     text: "无痕-冻结"
     translated: "Traceless - Frozen"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Frozen,冰封,"
   - lastTranslatedOn: 2025-02-24T16:20:15.0851013+08:00
     split: 32
     text: "冻结"
@@ -32018,8 +32018,8 @@
     split: 33
     text: "持续时间内，每次受到毒属性攻击时候，有一定几率叠加2层中毒，1层腐毒。腐毒叠加到6层后，爆发施加者毒属性*5的伤害。"
     translated: "For the duration, each time you are hit by a poison-type attack, there is a chance to stack 2 layers of Poison and 1 layer of Necrotic. When 6 layers of Necrotic have been stacked, it will deal damage equal to five times the poison attribute of the attacker."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 104001
   raw: "104001#腐毒-伤害#1#1#3#1#6000#0####0##2#2.0#90.0#10000#0#0#0#0#0#0#0#0#0#0##50#0#0#100#中毒#中毒状态，每秒损失一定血量。#buffnew_zhenhan#0#0#104001#4##0#1#6#104001#0#0#0##0.0#0.0###"
@@ -32329,8 +32329,8 @@
     split: 33
     text: "效果持续时间内，免疫一切中毒效果，持续时间6秒。"
     translated: "During the effect's duration, immunity to all poisoning effects is granted for 6 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 106010
   raw: "106010#毒湮#1#30#0#1#10000#0#0###0##1#0#0#10000#0#0#0#2#0#1#10000#0#0#32##0#0#0#0#九心棠#持续时间内，每次伤害附加毒属性一定比例的的值为附加伤害，持续时间为6秒。#buffnew_baizhan#0#0#106010#4##0#0#0#106010#0#0#0##0.0#0.0###"
@@ -33962,8 +33962,8 @@
     split: 33
     text: "真元充盈，沸返盈天。当真气大于600点时候，所有技能内功威力提升10%。"
     translated: "When your innate energy reaches its peak, it returns to the heavens. When your vital essence exceeds 600 points, the power of all skills and internal cultivation increases by 10%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Neigong,内功,"
     flaggedHallucination: ""
 - lineNum: 109550
   raw: "109550#真气状态#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50013#1#0#1##1400#0#0#0#真元#真元充盈，沸返盈天。当真气大于1400点时候，所有技能内功威力提升15%。#buffnew_baizhan#0#0#109550#3##0#0#0#109550##4#0##0.0#0.0###"
@@ -34012,8 +34012,8 @@
     split: 33
     text: "真元充盈，沸返盈天。当真气大于2500点时候，所有技能内功威力提升20%。"
     translated: "When true essence is abundant, it surges back to fill the heavens. When the true energy exceeds 2,500 points, the power of all skills and internal cultivation increases by 20%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Neigong,内功,"
     flaggedHallucination: ""
 - lineNum: 109560
   raw: "109560#气血状态#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50015#1#0#0##2000#0#0#0#气血#玄关一窍，气血沸腾，当血量大于2000点时，所有技能外攻威力提升5%。#buffnew_baizhan#0#0#109560#1##0#0#0#109560##4#0##0.0#0.0###"
@@ -36845,8 +36845,8 @@
     split: 33
     text: "造成伤害时会额外附加自身精神*0.2的额外伤害"
     translated: "When causing damage, an additional 20% of the attacker's own mental energy is added to the harm inflicted."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 109950
   raw: "109950#雁行#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50089#1#0#1##900#1#0#0#雁行#引气归元，当角色的真气大于900时候，柔属性提升35。#newbuff_rou1#0#0#109950#4##0#0#0#109950##4#0##0.0#0.0###"
@@ -37278,8 +37278,8 @@
     split: 33
     text: "每次攻击都会附加内力*0.1的额外伤害，最多可叠加3层，持续时间6秒。"
     translated: "Each attack inflicts additional internal damage equal to 0.1 times the attacker's inner strength, stacking up to a maximum of three layers and lasting for six seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 110100
   raw: "110100#剑意#1#23#0#1#6000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#10#0#0#0#20|21#0#1#0#0#鹤抖翎#增加10点内外攻，可叠加，上限3层，持续6秒。#buffnew_ziqidonglai#0#0#110100#2#0#0#1#3#110100##0#0#0#0.0#0.0###"
@@ -37511,8 +37511,8 @@
     split: 33
     text: "刀中真意结合内力产生的特殊形态刀气"
     translated: "The special form of sword energy generated by the integration of true intention with internal force."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 120041
   raw: "120041#刀魂#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#30000#0#0#10##0#1#0#0#0#0#0#0#0#120041#0#0#0#0#0#120041##0#0#0#0.0#0.0###"
@@ -38947,8 +38947,8 @@
     split: 33
     text: "增加书诫*0.1轻功能力，同时增加书诫*2的最大轻功值。"
     translated: "Increase by 10% the Qi-gong skill power from a scroll curse and simultaneously double the maximum Qi-gong value affected by a scroll curse."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Qinggong,轻功,"
     flaggedHallucination: ""
 - lineNum: 170041
   raw: "170041#神行-轻功值增加#1#4#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#20000#89#0#44##0#0#0#0#0###0#0#170041#2##0#0#0#170041#0#4#0##0.0#0.0###"
@@ -38958,8 +38958,8 @@
     split: 1
     text: "神行-轻功值增加"
     translated: "Sneak Speed - Increase in lightness value"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Qinggong,轻功,"
     flaggedHallucination: ""
 - lineNum: 170050
   raw: "170050#浮光#1#31#0#1#-1#0#0###0##1#0#0#10000#0#0#0#1#1#1#50004#1#0#0##0#0#0#0#浮光#增加技能外功威力8%。#buffnew_qianggong#0#0#170050#4##0#0#0#170050#0#4#0##0.0#0.0###"
@@ -39889,8 +39889,8 @@
     split: 33
     text: "自身处于「毒炎」状态,如果自身处于「毒湮」，会触发一个技能，引爆目标的「中毒」，造成目标大量伤害并且制作毒域陷阱。"
     translated: "If one is in a Poison Flame state and transitions to a Poison Obliteration state, it will trigger a skill that detonates the target's poison, causing significant damage to the target and creating a poison trap field."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 190111
   raw: "190111#毒炎-引爆#0#17#3#1#0#0#0###0##0#2.0#60.0#10000#0#0#0#0#0#0#0#0#0#101010##1061#1#0#0####0#0#190111#0##0#0#0#190111##0#0##0.0#0.0###"
@@ -39972,8 +39972,8 @@
     split: 33
     text: "身上有「毒息」效果的角色，在被攻击的时候会给自身一层中毒，持续时间6秒，不可被叠加。"
     translated: "The character with the Poisonous Breath effect will inflict poison on themselves for 6 seconds whenever they are attacked, and this effect cannot be stacked."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 190121
   raw: "190121#中毒#1#1#0#1#10000#1000#0###0##2#0.0#0.0#10000#0#0#0#1#1#1#50#0#0#0##0#0#0#0#中毒#体内残余毒性，每秒损失释放者毒属性的生命值，可叠加，最多叠加10层，持续10秒。#buffnew_gelie#0#0#190121#2##0#0#0#190121#0#0#0##0.0#0.0###"
@@ -47796,8 +47796,8 @@
     split: 33
     text: "根据自身当前真气的50%造成额外伤害"
     translated: "Deal additional damage based on 50% of your current innate chi."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 198840
   raw: "198840#气转周身#1#12#0#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#7#0#0#0##0#1#0#0#气转周身#免疫减益效果#buffnew_baizhan#0#0#198840#3#0#0#0#0#198840##0#0#0#0.0#0.0###"
@@ -48026,8 +48026,8 @@
     split: 1
     text: "证道-加额外伤害"
     translated: "Prove Mastery - Inflict Additional Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 200040
   raw: "200040#无意#0#20#3#1#15000#0#0#sfx_buff_feijiancuihui#sfx_main_hero_3315030_trail#0#sfx_hero_main_11_hit#0#7.0#180.0#10000#0#0#0#1#1#0#700#120#650#0#103#5#0#0#0#无意#攻击时额外放出一把飞剑。#buffnew_ziqidonglai#0#0#200040#2##0#0#0#200040#0#0#0##0.0#0.0###"
@@ -48201,8 +48201,8 @@
     split: 33
     text: "50%几率附加1次额外伤害，额外伤害内外攻50"
     translated: "50% chance to inflict 1 additional hit of combined external and internal damage totaling 50."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 200101
   raw: "200101#剪刀石头布-伤害#0#1#2#1#0#0##0#0#0#0#0#1.0#1.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#50#100#0#0#0#0#0#200101#0#0#0#0#0#200101##0#0#0#0.0#0.0###"
@@ -48212,8 +48212,8 @@
     split: 1
     text: "剪刀石头布-伤害"
     translated: "Scissors, Paper, Rock - Harm"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 200110
   raw: "200110#梭哈#1#15#0#1#1000#0#0#0#0#0#0#0#0#0#10#1#1000#0#0#0#0#0#0#0#1173##0#1#0#0#梭哈#10%几率附加3次额外伤害，额外伤害内外攻威力50#buffnew_ziqidonglai#0#0#200110#0#0#0#0#0#200110##0#0#0#0.0#0.0###"
@@ -48237,8 +48237,8 @@
     split: 33
     text: "10%几率附加3次额外伤害，额外伤害内外攻威力50"
     translated: "10% chance to inflict 3 additional attacks, with each attack dealing an external and internal force damage of 50."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 200120
   raw: "200120#运势#1#15#0#1#1000#0#0#0#0#0#0#0#0#0#60#1#1000#0#0#0#0#0#0#0#1174##0#1#0#0#运势#60%几率附加2次额外伤害，额外伤害内外攻威力50#buffnew_ziqidonglai#0#0#200120#0#0#0#0#0#200120##0#0#0#0.0#0.0###"
@@ -48312,8 +48312,8 @@
     split: 33
     text: "有几率获得一定的金钱。"
     translated: "There is a chance to gain some money."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 200150
   raw: "200150#散财#0#10#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#1##0#1#0#0#散财#0#0#0#0#200150#0#0#0#0#0#200150##0#0#0#0.0#0.0###"
@@ -48839,8 +48839,8 @@
     split: 1
     text: "迅掌-金钱增加"
     translated: "Expedite Wealth Increase"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 200290
   raw: "200290#行云#1#22#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#0#0#0#0#200281&0#0#1#0#0#行云#增加窃取金钱的几率。#buffnew_qianggong#0#0#200290#0#0#0#0#0#200290##4#1181#0#0.0#0.0###"
@@ -48925,8 +48925,8 @@
     split: 33
     text: "根据自身持有金钱增加伤害。"
     translated: "Damage increases based on the amount of money you possess."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 200320
   raw: "200320#财神#1#24#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#100#1068#10#0##0#1#0#0#财神#获取金钱时小概率增加一倍#buffnew_yiqi#0#0#200320#0#0#0#0#0#200320##4#0#0#0.0#0.0###"
@@ -51736,8 +51736,8 @@
     split: 1
     text: "河图-飞剑"
     translated: "Flowing Blade"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "River Map,河图,"
     flaggedHallucination: ""
 - lineNum: 1031103
   raw: "1031103#河图-飞剑-伤害#0#1#3#1#0#0#sound_jian_hurt1#0#0#0#0#0#2.0#180.0#10000#0#0#0#6#0#0#25000#0#0#35##0#1#0#0#0#0#0#0#0#1031103#0##0#0#0#1031103#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -51783,8 +51783,8 @@
     split: 1
     text: "河图-飞剑"
     translated: "Flowing Blade"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "River Map,河图,"
     flaggedHallucination: ""
 - lineNum: 1032000
   raw: "1032000#海棠醉日-伤害#0#1#0#0#0#0#sound_jian_hurt1#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#42#42#100#0#0#0#0#0#1032000#0#sfx_hero_main_11_hit#0#0#0#1032000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -53745,8 +53745,8 @@
     split: 33
     text: "15秒内，目标施展招式会对自身造成受伤时附带自身阳属性*1的额外伤害效果；定身自身，8秒调息；减少自身20%内外防；减少自身20%内外攻。"
     translated: "Within 15 seconds, if the target uses a technique that causes self-inflicted injuries while dealing extra damage based on their own Yang attribute, they will be immobilized and must meditate for 8 seconds. Additionally, their internal and external defense is reduced by 20%, as well as their internal and external attack power."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1042005
   raw: "1042005#太极-易#1#15#0#0#15000#0#0#0#0#0#0#0#0#0#10000#16384#10#0#0#0#0#0#0#0#104202##0#1#0#0#0#0#0#0#0#1042005#0#0#0#0#0#1042005##0#0#0#0.0#0.0###"
@@ -53803,8 +53803,8 @@
     split: 33
     text: "受伤时附带自身阳属性*0.5的额外伤害效果"
     translated: "Inflicts additional damage equal to 50% of your own Yang attribute when injured."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1042020
   raw: "1042020#太极-易-刚#1#23#0#1#5000#0#0#0#0#0#0#2#0#0#10000#0#0#0#1#0#0#-20#0#0#0#1020|1021#0#1#0#0#内伤#内外攻减少20%#buffnew_duzang#0#0#1042020#0#0#0#0#0#1042020##0#0#0#0.0#0.0###"
@@ -55227,8 +55227,8 @@
     split: 33
     text: "施展招式时引爆自身护盾，对目标造成额外伤害"
     translated: "When executing the technique, Shi Shanzhuan detonates their own shield to inflict additional damage on the target."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1105100
   raw: "1105100#横月当空-伤害1#0#1#3#1#0#0#sound_dao_hurt3###0##0#1.5#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#11#50#100####0#0#1105100#0#sfx_hero_main_dao_hit#0#0#0#1105100#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##1.5#0.0###"
@@ -56000,8 +56000,8 @@
     split: 1
     text: "天梵引-刀气"
     translated: "Heavenly Vajra Technique - Sword Energy"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1109300
   raw: "1109300#辟万魔-减速#1#4#1#1#5000#0#0#0#0#0#0#2#2.0#180.0#10000#0#0#0#1#1#1#-30#1090#0#0##0#1#0#0#0#0#0#0#0#1109300#0#0#0#0#0#1109300##0#0#0#0.0#0.0###"
@@ -56224,8 +56224,8 @@
     split: 1
     text: "藏刀式-防御反击"
     translated: "Duelling Technique - Defense to Counterattack"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1604029+08:00
     split: 32
@@ -56249,8 +56249,8 @@
     split: 1
     text: "藏刀式-固守"
     translated: "Dagger Hold - Firm Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1604715+08:00
     split: 32
@@ -56274,8 +56274,8 @@
     split: 1
     text: "藏刀式-反伤"
     translated: "Counter-Damage Sword Form - The technique is designed to return harm inflicted upon the practitioner."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1605407+08:00
     split: 32
@@ -56335,8 +56335,8 @@
     split: 1
     text: "藏刀式-反击-击退"
     translated: "Retreat Slash - Counterattack - Push Back"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1111100
   raw: "1111100#烈风式-伤害#0#1#2#1#999#0#sound_dao_hurt2###0##0#3.5#2.0#10000#0#0#0#0#0#0#20#21#0#20#20#0#50#150#100### #0#0#1111100#1#sfx_hero_main_dao_hit#0#0#0#1111100#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#1#0##1.0#0.0###"
@@ -56819,8 +56819,8 @@
     split: 33
     text: "消耗一层刀魂，击晕目标2.5秒"
     translated: "Consume one layer of Sword Soul to knock out the target for 2.5 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1115108
   raw: "1115108#醉魂#1#16#3#1#2500#0#0#0#0#0#0#2#2.0#90.0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#醉魂#眩晕2.5秒#buffnew_hunluan#0#0#1115108#0#0#0#0#0#1115108##0#0#0#0.0#0.0###"
@@ -57193,8 +57193,8 @@
     split: 1
     text: "冰封三尺-伤害1"
     translated: "Icebound Three Feet - Damage 1"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
 - lineNum: 1118001
   raw: "1118001#冰封三尺-伤害2#0#1#3#1#0#0#sound_dao_hurt1#0#0#0#0#0#5.0#80.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#143#100#0#0#0#0#0#1118001#0#sfx_hero_main_dao_hit#0#0#0#1118001#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -57204,8 +57204,8 @@
     split: 1
     text: "冰封三尺-伤害2"
     translated: "Icebound Three Feet - Damage 2"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
 - lineNum: 1118002
   raw: "1118002#冰封三尺-伤害3#0#1#3#1#0#0#sound_dao_hurt1#0#0#0#0#0#8.5#80.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#203#100#0#0#0#0#0#1118002#0#sfx_hero_main_dao_hit#0#0#0#1118002#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -57226,8 +57226,8 @@
     split: 1
     text: "冰封三尺-伤害4"
     translated: "Ice Prison - Damage 4"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
 - lineNum: 1118004
   raw: "1118004#冰封三尺-位移#0#4#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#300#600#0#0##0#1#0#0#0#0#0#0#0#1118004#0#0#0#0#0#1118004##0#0#0#0.0#0.0###"
@@ -57270,8 +57270,8 @@
     split: 1
     text: "冰封三尺-定身"
     translated: "Three Feet of Ice - Immobilizing"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
 - lineNum: 1118008
   raw: "1118008#冰封三尺-黄云堆雪#1#9#0#1#1000#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#黄云堆雪#最后一式可对周围敌人附加3层寒气效果#0#0#0#1118008#0#0#0#0#0#1118008##0#0#0#0.0#0.0###"
@@ -57356,8 +57356,8 @@
     split: 33
     text: "造成伤害时根据目标身上蚀阴效果层数造成额外伤害"
     translated: "Inflict additional damage based on the number of layers of Erosion Damage effects present on the target when causing harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1118200
   raw: "1118200#冰心诀-冰魄#1#31#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50194#1#0#0##0#1#0#0#冰魄#施加的蚀阴层数上限增加8，每次伤害对周围目标施加蚀阴效果#buffnew_dongshang#0#0#1118200#0#0#0#0#0#1118200##0#0#0#0.0#0.0###"
@@ -58442,8 +58442,8 @@
     split: 1
     text: "沉棍锻武-伤害"
     translated: "Chen Gun Duanwu - Harm"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
 - lineNum: 1205001
   raw: "1205001#沉棍锻武-效果1#1#15#0#1#1333#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#0#0#0#0#1164##0#1#0#0#锻武#施展招式命中敌人时，提升自身20%阳属性，持续8秒#0#0#0#1205001#0#0#0#0#0#1205001##0#0#0#0.0#0.0###"
@@ -58478,8 +58478,8 @@
     split: 1
     text: "沉棍锻武-效果2"
     translated: "Chen Gun Duan Wu - Effect 2"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
 - lineNum: 1205003
   raw: "1205003#燃烧#0#13#0#1#5000#0#0#0#0#0#0#0#1.5#0#10000#0#0#0#3#0#2#1#1000#5#1252##0#0#0#0#燃烧#对身前1.5米，2米范围的目标每秒造成自身阳属性的伤害，持续5秒#0#0#0#1205003#0#0#0#0#0#1205003##0#0#0#0.0#0.0###"
@@ -58785,8 +58785,8 @@
     split: 33
     text: "最后一击会引爆敌人身上的蚀阴效果，根据蚀阴的层数造成额外伤害"
     translated: "The final blow will trigger the erosion effect on the enemy's body, causing additional damage based on the number of erosion layers."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1207100
   raw: "1207100#流殇七绝-伤害#0#1#3#1#0#0#sound_qiang_hurt1#0#0#0#0#0#2.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#12#90#100#0#0#0#0#0#1207100#0#sfx_hero_main_qiang_hit#0#0#0#1207100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -59422,8 +59422,8 @@
     split: 1
     text: "霸王枪-伤害1"
     translated: "Ba Wang Qiang - Damage 1"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 1214001
   raw: "1214001#霸王枪-伤害2#0#1#0#0#0#0#sound_qiang_hurt3#0#0#0#0#0#2.2#3.2#10000#0#0#0#0#0#0#20#21#0#0##0#270#10#100#0#0#0#0#0#1214001#0#sfx_hero_main_qiang_hit#0#0#0#1214001#hurt_qishen#0#0#0#0.0#0.0###"
@@ -59943,8 +59943,8 @@
     split: 1
     text: "齐眉棍法-棍影"
     translated: "Qimei Gunfa - Gunying"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1708629+08:00
     split: 32
@@ -59990,8 +59990,8 @@
     split: 1
     text: "齐眉棍法-风影"
     translated: "Zhi Mei Gun Fa - Feng Ying"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1709919+08:00
     split: 32
@@ -60015,8 +60015,8 @@
     split: 1
     text: "齐眉棍法-风影"
     translated: "Zhi Mei Gun Fa - Feng Ying"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
 - lineNum: 1218000
   raw: "1218000#涟漪无痕-后退#0#4#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#300#250#0#1##0#1#0#0#0#0#0#0#0#1218000#0#0#0#0#0#1218000##0#0#0#0.0#0.0###"
@@ -60895,8 +60895,8 @@
     split: 33
     text: "清除敌人身上蚀阴效果，根据蚀阴层数造成额外伤害"
     translated: "Clear the curse effect on the enemy, dealing additional damage based on the number of layers of the curse."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1304103
   raw: "1304103#冰冻#0#13#0#1#5000#0#0#0#0#0#0#0#1.0#0#10000#0#0#0#3#0#1#1#1000#5#1251##0#0#0#0#冰霜#对自身前方1米，1米半径区域的目标每秒造成自身阴属性的伤害，持续5秒#0#0#0#1304103#0#0#0#0#0#1304103##0#0#0#0.0#0.0###"
@@ -61858,8 +61858,8 @@
     split: 33
     text: "释放技能时，消耗自身30%当前真气，造成消耗的真气100%的额外伤害"
     translated: "When releasing the skill, consume 30% of your current Qi. Inflict additional damage equal to 100% of the consumed Qi."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1313003
   raw: "1313003#骤雨疾风-附伤#0#1#2#1#0#0#sound_quan_hurt3#0#0#0#0#0#5.0#1.5#10000#0#0#0#2#0#0#3000#0#0#3##0#1#0#0#0#0#0#0#0#1313003#0#0#0#0#0#1313003#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -62630,9 +62630,9 @@
   - lastTranslatedOn: 2025-02-24T17:36:17.4206777+08:00
     split: 33
     text: "内力缠手，对目标造成自身最大真气值*1.5的额外伤害，同时消耗目标40%当前真气值"
-    translated: "  \nInner Force Bind: Deals additional damage to the target equal to 1.5 times your maximum true qi, while also consuming 40% of the target's current true qi.  \n"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Inner Force Bind: Deals additional damage to the target equal to 1.5 times your maximum true qi, while also consuming 40% of the target's current true qi."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1314603
   raw: "1314603#双龙取水-卷涛#0#19#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#3#0#0#-4000#0#0#3##0#1#0#0#0#0#0#0#0#1314603#0#0#0#0#0#1314603##0#0#0#0.0#0.0###"
@@ -63731,8 +63731,8 @@
     split: 1
     text: "石头剪刀布"
     translated: "Rock, Paper, Scissors"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1320000
   raw: "1320000#乾坤一掷-伤害#0#1#0#0#0#0#sound_quan_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#40#40#100#0#0#0#0#0#1320000#0#sfx_hero_main_quan_hit#0#0#0#1320000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -63753,8 +63753,8 @@
     split: 1
     text: "乾坤一掷-消耗金钱"
     translated: "Stake everything on one throw—spend money freely."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 1321000
   raw: "1321000#明月玉蟾-伤害#0#1#0#0#0#0#sound_quan_hurt2###0##0#3.0#1.5#10000#0#0#0#0#0#0#20#21#0#0#0#0#0#420#100### #0#0#1321000#1#sfx_npc_quan_hit#0#0#0#1321000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
@@ -64091,8 +64091,8 @@
     split: 33
     text: "自身毒属性增加55，目标受到中毒频率增加100%，千毒拳冷却时间大幅缩减"
     translated: "Your own poison attribute increases by 55, the target experiences a 100% increase in poisoning frequency, and the Qian Du Quan cooldown time is significantly reduced."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 1323106
   raw: "1323106#蟾毒#1#31#0#1#20000#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50181#1#0#0##0#1#0#0#0#0#0#0#0#1323106#0#0#0#0#0#1323106##0#0#0#0.0#0.0###"
@@ -64149,8 +64149,8 @@
     split: 33
     text: "每击附带自身阳属性*1.5的额外伤害，每击附带灼阳效果。"
     translated: "Each strike deals additional damage equivalent to 1.5 times the wielder's own Yang attribute, and each strike also inflicts a scorching Yang effect."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1324010
   raw: "1324010#0#0#1#0#0#0#0#sound_quan_hurt2#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#15000#0#0#29##0#1#0#0#0#0#0#0#0#1324010#0#sfx_hero_main_quan_hit#0#0#0#1324010#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -65022,8 +65022,8 @@
     split: 33
     text: "欲毒人，先毒己，施展招式后10秒内，自身周围生成毒域，毒域对上方目标间隙造成伤害和中毒效果；命中目标或自身受伤时，对自身周围小范围目标造成中毒效果；自身毒属性增加30%；命中目标治疗效果减少100%，持续5秒"
     translated: "To poison others, one must first poison oneself. After executing a technique, within 10 seconds, a poisonous field is generated around the user, dealing damage and poisoning aerial targets in proximity; when hitting a target or sustaining self-inflicted injuries, it applies a poisoning effect to nearby smaller targets. Poison attribute increases by 30%; healing effects on hit targets are reduced by 100%, lasting for 5 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 1330002
   raw: "1330002#万径人踪灭-毒万里#1#15#0#1#10000#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#0#0#0#0#133002##0#1#0#0#0#0#0#0#0#1330002#0#0#0#0#0#1330002##0#0#0#0.0#0.0###"
@@ -65459,8 +65459,8 @@
     split: 33
     text: "周围敌人造成自身阴属性*2的额外伤害，并冰冻敌人"
     translated: "The enemies around will take additional damage equal to twice their own shadow attribute from themselves and become frozen."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1333005
   raw: "1333005#傲雪凌霜-寒冻#1#20#0#0#3000#0##sfx_main_hero_130530_bing##0##0#3.0#180.0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1333005#0##0#0#0#1333005##0#0##0.0#0.0###"
@@ -65827,8 +65827,8 @@
     split: 33
     text: "引爆自身周围目标鬼火效果，造成额外伤害"
     translated: "Ignites a Ghostfire effect around themselves, causing additional damage to nearby targets."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1336102
   raw: "1336102#焚魂引爆-跗骨#1#49#0#0#15000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#100##0#1#0#0#跗骨#目标在15秒内无法获得任何治疗效果##0#0#1336102#0##0#0#0#1336102##0#0##0.0#0.0###"
@@ -68419,8 +68419,8 @@
     split: 33
     text: "受伤时会根据化元层数受到额外伤害"
     translated: "During injury, additional damage will occur based on the number of Hua Yuan layers."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1517004
   raw: "1517004#弹指神功-御形#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#2#0#0#0#1517005##0#1#0#0#御形#战斗中，每次伤害使目标受伤提升3%，可叠加至10层#0#0#0#1517004#0#0#0#0#0#1517004##0#0#0#0.0#0.0###"
@@ -68570,8 +68570,8 @@
     split: 33
     text: "施展手掷类暗器时消耗额外165点真气，自身造成伤害增加12%持续5秒；手掷暗器：阴阳刺轮、透骨针、天女散花、花飞蝶舞、燕归巢、飞花摘叶、花谢花飞、穿心一刀、血滴子、血影相随、斩草除根"
     translated: "When using a hand-thrown type of hidden weapon, an additional 165 points of true energy are consumed, and the user's damage is increased by 12% for 5 seconds; hand-thrown hidden weapon.：Yin-yang slicing wheel, bone-penetrating needles, heavenly maiden's scattering flowers, flying butterflies dance, swallows return to the nest, plucking leaves as flowers fly, fallen blossoms take flight once more, piercing heart with a single cut, blood drops follow shadows, cutting down weeds and roots."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1520001
   raw: "1520001#凝神#1#9#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#0#0#0#0#0#1520001#0#0#0#0#0#1520001##0#0#0#0.0#0.0###"
@@ -69655,8 +69655,8 @@
     split: 1
     text: "穿心一刀-伤害"
     translated: "A stab to the heart - a fatal wound."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1600201
   raw: "1600201#穿心一刀-缓行#1#4#2#0#3000#0#0#0#0#0#0#2#7.0#1.0#10000#0#0#0#1#0#0#-10#1090#0#0##0#1#0#0#缓行#减少10%移动速度#0#0#0#1600201#0#0#0#0#0#1600201##0#0#0#0.0#0.0###"
@@ -70909,8 +70909,8 @@
     split: 33
     text: "阴加40%，阳刚招式威力降低70%，使用阳刚招式时造成内伤效果：内力减少50%"
     translated: "Increases Yin by 40%, reduces the power of Yang techniques by 70%, and causes internal injuries when using Yang techniques.：Inner strength reduced by 50%"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Injury,内伤,"
     flaggedHallucination: ""
 - lineNum: 1614101
   raw: "1614101#葵花神功-调息#1#31#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50199#2#0#0##0#1#0#0#0#0#0#0#0#1614101#0#0#0#0#0#1614101##0#0#0#0.0#0.0###"
@@ -71148,8 +71148,8 @@
     split: 33
     text: "命中目标时，如果目标身上有眩晕或定身效果，移除目标眩晕或定身效果，造成自身内力*15的额外伤害"
     translated: "When hitting the target, if the target is affected by dizziness or immobilization effects, remove those effects from the target and inflict an additional internal damage of 15 to yourself."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1618002
   raw: "1618002#寒冰针雨-寒意#0#10#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#2#0#0#0#16|20#0#1#0#0#0#0#0#0#0#1618002#0#0#0#0#0#1618002##0#0#0#0.0#0.0###"
@@ -71184,8 +71184,8 @@
     split: 33
     text: "命中目标时，如果目标身上有眩晕或定身效果，移除目标眩晕或定身效果，造成自身内力*15的额外伤害"
     translated: "When striking the target, if the target has a dizziness or immobilization effect, remove that effect from the target and inflict an additional 15 internal force damage to oneself."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1619000
   raw: "1619000#九寒天降-运功#1#30#0#1#30000#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#28##0#1#0#0#0#0#0#0#0#1619000#0#0#0#0#0#1619000##0#0#0#0.0#0.0###"
@@ -72555,8 +72555,8 @@
     split: 1
     text: "无量剑法-伤害"
     translated: "Wuliang Jianfa - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 13010200
   raw: "13010200#流星落-伤害#0#1#0#0#0#0#sound_dao_hurt1#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#188#188#100#0#0#0#0#0#13010200#0#sfx_npc_jian_hit#0#0#0#13010200#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -73091,8 +73091,8 @@
     split: 1
     text: "太初剑法·一式-伤害"
     translated: "Opening Move of Tai Chu Sword Method - Inflict Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 14510000
   raw: "14510000#纵横剑势-伤害#0#1#0#0#0#0#sound_jian_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#74#74#100#0#0#0#0#0#14510000#0#sfx_npc_jian_hit#0#0#0#14510000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -73146,8 +73146,8 @@
     split: 1
     text: "万剑法-伤害"
     translated: "Wan Jianfa - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 14510041
   raw: "14510041#万剑法-伤害#0#1#3#1#0#0#sound_jian_hurt2#0#0#0#0#0#3.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#77#77#100#0#0#0#0#0#14510041#0#sfx_npc_jian_hit#0#0#0#14510041#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -73157,8 +73157,8 @@
     split: 1
     text: "万剑法-伤害"
     translated: "Wan Jianfa - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 14510050
   raw: "14510050#剑气-伤害#0#1#0#0#0#0#sound_jian_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#134#134#100#0#0#0#0#0#14510050#0#sfx_npc_jian_hit#0#0#0#14510050#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -73501,8 +73501,8 @@
     split: 1
     text: "段氏枪法-伤害"
     translated: "Segmented damage from the Duan family's spear technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 16510001
   raw: "16510001#段氏枪法-威压#1#4#0#0#10000#0#0#0#0#0#0#2#0#0#10000#0#0#0#3#0#0#-200#22#0#22##0#1#0#0#威压#减少2%内外防，持续10秒，可叠加至20层#buffnew_ziqidonglai#0#0#16510001#0#0#0#1#20#16510001##1#0#16510002#0.0#0.0###"
@@ -73512,8 +73512,8 @@
     split: 1
     text: "段氏枪法-威压"
     translated: "Duan Shi Qingfa - Weiya"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.2093226+08:00
     split: 32
@@ -73537,8 +73537,8 @@
     split: 1
     text: "段氏枪法-威压"
     translated: "Duan Shi Qingfa - Weiya"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 16510100
   raw: "16510100#刺击-伤害#0#1#0#0#0#0#sound_jian_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#198#34#100#0#0#0#0#0#16510100#0#sfx_npc_qiang_hit#0#0#0#16510100#hurt_zhongji#0#0#0#0.0#0.0###"
@@ -73717,8 +73717,8 @@
     split: 33
     text: "对身上有威压的目标造成额外伤害"
     translated: "Inflict additional damage to targets with a strong aura on their body."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 16510400
   raw: "16510400#裂地-伤害#0#1#0#0#0#0#sound_jian_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#303#28#100#0#0#0#0#0#16510400#0#sfx_npc_qiang_hit#0#0#0#16510400#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -74864,9 +74864,9 @@
     split: 33
     text: "陷入冰冻状态。"
     translated: "Frozen solid."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Frozen,冰封,"
 - lineNum: 18561105
   raw: "18561105#寒气爆发-冻伤#1#29#0#1#6000#0#sound_jian_hurt2###0##2#0#0#10000#0#0#0#2#1#1#10000#0#0#21##0#0#0#0#冻伤#在持续时间内，每次被攻击会被附加自身内攻附加值的伤害。持续时间6秒，不可叠加。#buffnew_qiankun#0#0#18561105#2##0#0#0#18561105##0#0##0.0#0.0###"
   translated: ""
@@ -80096,8 +80096,8 @@
     split: 1
     text: "六合枪法-伤害"
     translated: "Six Harmonies Spear Technique - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 40010100
   raw: "40010100#破势枪-伤害#0#1#0#0#0#0#sound_qiang_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#288#0#100#0#0#0#0#0#40010100#0#sfx_npc_qiang_hit#0#0#0#40010100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -80165,8 +80165,8 @@
     split: 1
     text: "夺命枪-伤害"
     translated: "Damning Lance - Inflict Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear,枪,"
     flaggedHallucination: ""
 - lineNum: 40010400
   raw: "40010400#七阳落雨-伤害#0#1#0#0#0#0#sound_qiang_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#65#0#100#0#0#0#0#0#40010400#0#sfx_npc_qiang_hit#0#0#0#40010400#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -80187,8 +80187,8 @@
     split: 1
     text: "血河剑法-伤害"
     translated: "Hemorrhage Blade Technique - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 40020001
   raw: "40020001#血河剑法-位移#0#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#400#0#200#400##100#1#0#0#0#0#0#0#0#40020001#0#0#0#0#0#40020001##0#0#0#0.0#0.0###"
@@ -80628,8 +80628,8 @@
     split: 1
     text: "秉天剑法-伤害"
     translated: "Penetration of Heaven Sword Technique - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 40100100
   raw: "40100100#追星赶月-伤害#0#1#0#0#0#0#sound_jian_hurt2#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#63#63#100#0#0#0#0#0#40100100#0#sfx_npc_jian_hit#0#0#0#40100100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -81931,9 +81931,9 @@
     split: 1
     text: "江湖剑法-三连击-位移一"
     translated: "Wuxia Swordplay - Triple Strike - Displacement One"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Sword Art,剑法,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 100170001
   raw: "100170001#江湖剑法-三连击-位移二#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#100#320#0#0##0#1#0#0####0#0#100170001#0##0#0#0#100170001#0#0#0##10.0#0.0###"
   translated: ""
@@ -82008,9 +82008,9 @@
     split: 1
     text: "江湖剑法-格挡-反击"
     translated: "Wuxia swordplay - Parry and counterattack."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Sword Art,剑法,"
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:20:15.2324277+08:00
     split: 32
     text: "反击"
@@ -82044,8 +82044,8 @@
     split: 1
     text: "江湖剑法-格挡-反击-击退"
     translated: "Jianghu Swordsmanship - Deflection, Counterattack, and Repel"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 100200000
   raw: "100200000#反击-位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#100#150#0#0##0#1#0#0####0#0#100200000#0##0#0#0#100200000#0#0#0##0.0#0.0###"
@@ -82138,8 +82138,8 @@
     split: 33
     text: "使用刀术进行攻击的时候，有一定几率对周围2米目标额外造成一段伤害。"
     translated: "When attacking with swordsmanship, there is a chance to inflict additional damage on targets within 2 meters."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 100200021
   raw: "100200021#伤害#0#1#0#0#0#0#sound_dao_hurt2#0#0#0#0#1#2.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#50#0#0#0#0#0#0#100200021#0#sfx_npc_jian_hit#0#0#0#100200021#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -82185,8 +82185,8 @@
     split: 1
     text: "拔刀式-增伤"
     translated: "Enhanced Damage Backsword Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.2328925+08:00
     split: 32
@@ -82274,8 +82274,8 @@
     split: 33
     text: "所有刀系技能在每次造成伤害的时候增加佛学*0.2的伤害。"
     translated: "All swordsmanship skills increase damage by 0.2 times the amount of damage dealt each time they cause harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 100200070
   raw: "100200070#八方式#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#2#0#0#0#100200071##0#1#0#0#八方式#造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高7层#buffnew_ziqidonglai#0#0#100200070#0#0#0#0#0#100200070##4#0#0#0.0#0.0###"
@@ -82471,8 +82471,8 @@
     split: 1
     text: "霸刀势-减伤"
     translated: "Ba Dao Shi - Damage Reduction"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.2336811+08:00
     split: 32
@@ -83985,8 +83985,8 @@
     split: 33
     text: "自身对目标施加的内伤叠加上限层数+8"
     translated: "Self-inflicted internal injuries on the target add an additional 8 layers to their limit."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Injury,内伤,"
     flaggedHallucination: ""
 - lineNum: 100500180
   raw: "100500180#长生诀-天人合一#1#2#0#1#0#5000#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#30000#0#0#5##0#1#0#0#天人合一#天人合一：每5秒回复自身根骨*3气血，元气*3的真气；每次攻击时，回复自身5%已损失气血，调息15秒；自身获得的治疗效果增加25%；当自身血量低于5%且未死亡时，获得90%伤害减免，持续10秒，调息90秒#buffnew_yybjue#0#0#100500180#0#0#0#0#0#100500180##0#0#0#0.0#0.0###"
@@ -84560,8 +84560,8 @@
     split: 33
     text: "对目标造成伤害时附加一次外攻威力为85，内功威力为200的额外伤害，调息2秒"
     translated: "When targeting an opponent, deal additional damage equivalent to 85 points of external force and 200 points of Neigong power. Regain your composure over the course of 2 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 100600001
   raw: "100600001#伤心小箭#0#1#1#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#85#200#0#0#0#0#0#0#100600001#0#0#0#0#0#100600001##0#0#0#0.0#0.0###"
@@ -84831,8 +84831,8 @@
     split: 33
     text: "长兵武器造成伤害时附加佛学*0.5伤害，20%触发“朝天一棍”效果，对目标造成额外基于自身刚*0.5的伤害，并对周围敌人附加一层“撕骨裂”效果。"
     translated: "When long-range weapons cause damage, they deal an additional 0.5 Buddhism-style damage and have a 20% chance to trigger the Heavenward Strike effect, dealing extra damage based on half of their own strength to the target and applying a layer of Bone-Splitting effect to nearby enemies."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Staff,棍,"
     flaggedHallucination: ""
 - lineNum: 100600041
   raw: "100600041#朝天一棍#1#15#0#1#0#0#0#0#0#0#0#0#0#0#20#1#10#0#0#0#2#0#0#0#100600042##0#1#0#0#0#0#0#0#0#100600041#0#0#0#0#0#100600041##0#0#0#0.0#0.0###"
@@ -85431,9 +85431,9 @@
     split: 1
     text: "江湖刀法-格挡-反击-伤害"
     translated: "Wuxia Blade Technique - Parry - Counterattack - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Blade Art,刀法,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 110190001
   raw: "110190001#江湖刀法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.5#90.0#10000#0#0#0#1#1#1#100#200#0#0#0#0#10#10#0### #0#0#110190001#1##0#0#0#110190001#0#0#0##10.0#0.0###"
   translated: ""
@@ -85442,9 +85442,9 @@
     split: 1
     text: "江湖刀法-格挡-反击-击退"
     translated: "Wuxia blade technique - parry, counterattack, and retreat."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Blade Art,刀法,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 110200000
   raw: "110200000#反击-位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#90#150#0#0##0#1#0#0####0#0#110200000#0##0#0#0#110200000#0#0#0##0.0#0.0###"
   translated: ""
@@ -85654,9 +85654,9 @@
     split: 1
     text: "江湖拳法-格挡-反击-伤害"
     translated: "Wuxia Martial Arts - Block - Counterattack - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 120190001
   raw: "120190001#江湖拳法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.7#90.0#10000#0#0#0#1#1#1#100#300#0#0#0#0#10#10#0### #0#0#120190001#1##0#0#0#120190001#0#0#0##10.0#0.0###"
   translated: ""
@@ -85665,9 +85665,9 @@
     split: 1
     text: "江湖拳法-格挡-反击-击退"
     translated: "Wuxia Martial Arts - Block - Counterattack - Repel"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 120200000
   raw: "120200000#反击-位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#90#150#0#0##0#1#0#0####0#0#120200000#0##0#0#0#120200000#0#0#0##0.0#0.0###"
   translated: ""
@@ -85852,9 +85852,9 @@
     split: 1
     text: "江湖枪法-格挡-反击"
     translated: "Wuxia Spear Technique - Defense and Counterattack"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Spear Art,枪法,"
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:20:15.2437391+08:00
     split: 32
     text: "反击"
@@ -85877,9 +85877,9 @@
     split: 1
     text: "江湖枪法-格挡-反击-伤害"
     translated: "Wuxia Spear Technique - Block - Counterattack - Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Spear Art,枪法,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 130190001
   raw: "130190001#江湖枪法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.5#90.0#10000#0#0#0#1#1#1#110#200#0#0#0#0#10#10#0### #0#0#130190001#1##0#0#0#130190001#0#0#0##10.0#0.0###"
   translated: ""
@@ -85888,9 +85888,9 @@
     split: 1
     text: "江湖枪法-格挡-反击-击退"
     translated: "Wuxia Spear Techniques - Block and Counterattack - Repel"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Spear Art,枪法,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 130200000
   raw: "130200000#反击-位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#90#150#0#0##0#1#0#0####0#0#130200000#0##0#0#0#130200000#0#0#0##0.0#0.0###"
   translated: ""

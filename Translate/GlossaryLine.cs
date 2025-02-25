@@ -39,7 +39,7 @@ public class GlossaryLine
         }
 
         if (prompt.Length > 0)
-            return $"#### Glossary Items\n{prompt.ToString()}";
+            return $"##### Glossary Items\n{prompt.ToString()}";
         else
             return string.Empty;
     }
