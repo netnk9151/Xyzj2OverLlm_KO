@@ -13,26 +13,26 @@
     split: 2
     text: "完成进行烹饪、锻造、 炼丹时，100%额外获得2次道具"
     translated: "While cooking, forging, or refining elixirs, gain an additional 2 items with a 100% bonus"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1
   raw: "1#任务奖励金钱属性测试#任务完成时，金钱奖励额外提升100%#0#2#0|0|100#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1359647+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:19.4007650+08:00
     split: 1
     text: "任务奖励金钱属性测试"
-    translated: "Task Reward Currency Attribute Test"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Task Reward Money Attribute Testing"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1359860+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:19.8317581+08:00
     split: 2
     text: "任务完成时，金钱奖励额外提升100%"
-    translated: "Upon completion of the task, the monetary reward is increased by an additional 100%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Upon task completion, the monetary reward increases by an additional 100%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2
   raw: "2#进行打造消耗测试#进行打造时，金钱、矿石消耗减少50%#0#0#0|0,4|-50#"
@@ -45,12 +45,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1360356+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:20.3058003+08:00
     split: 2
     text: "进行打造时，金钱、矿石消耗减少50%"
-    translated: "During the crafting process, the consumption of money and ore is reduced by 50%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "During the forging process, the consumption of coins and ore is reduced by 50%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3
   raw: "3#打造属性测试#打造完成时，炼器，缝纫，巧手获得的成品外攻、耐久、锋锐、坚韧属性提升50%#0#1#2,3,4|1|-1,-2,-3,20|50#"
@@ -99,12 +99,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1361801+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:20.9668625+08:00
     split: 2
     text: "对寻找金银财宝有着天生的敏感度。任务完成时，金钱奖励额外提升6%。"
-    translated: "Has a natural sensitivity for finding gold and silver treasures. Upon task completion, the monetary reward is increased by an additional 6%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "They possess a natural sensitivity to finding gold and silver treasures. Upon completing the task, they receive an additional 6% monetary reward."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 102
   raw: "102#财运亨通#财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。#1#2#0|0|9#"
@@ -117,12 +117,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1362276+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:21.7736304+08:00
     split: 2
     text: "财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。"
-    translated: "Prosperity follows you, and while conducting business or completing tasks, you often receive more rewards than others. When a task is completed, the monetary reward increases by an additional 9%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Good fortune often accompanies financial endeavors or task completion, allowing one to earn more rewards than others. Upon completing a task, the monetary reward increases by an additional 9%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 103
   raw: "103#金币风水#你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。#2#2#0|0|12#"
@@ -135,12 +135,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1362754+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:22.6645273+08:00
     split: 2
     text: "你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。"
-    translated: "You have a unique insight into the Feng Shui of places, as if you can attract wealth from a past life. Upon task completion, there will be an additional 12% increase in money"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "You have unique insights into the feng shui of places, as if you could attract wealth in a past life. Upon completing the task, your financial gain increases by an additional 12%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 104
   raw: "104#锦鲤之运#你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。#3#2#0|0|15#"
@@ -153,12 +153,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1363236+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:23.4843560+08:00
     split: 2
     text: "你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。"
-    translated: "It seems like you're always favored by good fortune when it's needed. Upon completing the task, the monetary reward increases by an additional 15%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "You seem to always be blessed with good fortune when you need it. When tasks are completed, the monetary reward is increased by an additional 15%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 105
   raw: "105#财源滚滚#生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%#4#2#0|0|18#"
@@ -171,12 +171,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1363717+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:24.2896165+08:00
     split: 2
     text: "生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%"
-    translated: "Blessed with a natural affinity for wealth, they have a fatal attraction to money. Upon task completion, the monetary reward is increased by an additional 18%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Destined to be in tune with wealth, possessing a fatal attraction to money. Upon completing the task, the monetary reward is increased by an additional 18%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 201
   raw: "201#洞悉言语#精于解读各种言语暗示与隐喻，能够洞悉言下之意。任务完成时，安定额外提升6%。#0#2#0|1|6#"
@@ -387,12 +387,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1369564+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:25.1835881+08:00
     split: 2
     text: "名声如雷，行踪如影，江湖各方豪杰皆有耳闻。任务完成时，名声格外提升9%"
-    translated: "Renowned as loud as thunder, elusive as a shadow, the great heroes of all factions have heard of him. Upon completing his mission, his reputation is further enhanced by 9%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "Reputation spreads like thunder, movements as silent as shadows; every hero in the Jianghu has heard of them. Upon completing a task, their reputation increases by an additional 9%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 403
   raw: "403#名声卓著#一举一动皆引轰动，行事为江湖中人所允。任务完成时，名声格外提升12%#2#2#0|3|12#"
@@ -423,12 +423,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1370537+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:26.1791811+08:00
     split: 2
     text: "行事风格独特，侠名远播，为江湖人茶余饭后的谈资。任务完成时，名声格外提升15%"
-    translated: "With a distinctive style and a name that resonates far and wide, they are often the subject of conversation over tea or dinner in the world. Upon completing tasks, their fame is further enhanced by 15%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "His unique style of action has made his reputation far-reaching within the Jianghu, becoming a topic of conversation during tea and meals. Upon completing a task, his fame increases by an additional 15%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 405
   raw: "405#举世闻名#天下人尽皆知，豪杰英雄莫不以能与你相识为荣。任务完成时，名声格外提升18%#4#2#0|3|18#"
@@ -528,9 +528,9 @@
     split: 1
     text: "地灵人杰"
     translated: "Places of spiritual significance are home to great individuals"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1373462+08:00
     split: 2
     text: "好似能感应地脉的能量波动，总能找到蕴含宝藏的矿石。任务完成时，矿石格外收获18%"
@@ -729,12 +729,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1379265+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:27.0478654+08:00
     split: 2
     text: "虽有机会获得珍宝，却会因眼光的问题错失珍珠。任务完成时，金钱奖励减少6%"
-    translated: "While there is an opportunity to obtain treasures, a lack of attention may result in missing pearls. Upon task completion, the monetary reward will be reduced by 6%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Even if there is a chance to obtain treasures, you may miss pearls due to vision issues. Upon task completion, the monetary reward decreases by 6%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 802
   raw: "802#拂荣忘原#内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%#0#2#0|0|-9#"
@@ -747,12 +747,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1379733+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:27.8972684+08:00
     split: 2
     text: "内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%"
-    translated: "One's inner longing for gold, silver, and jewels often leads to forgetting one's true heart. Upon task completion, the monetary reward is reduced by 9%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "While yearning for wealth and precious gems internally, it's easy to lose sight of one's true intentions. Upon task completion, monetary rewards are reduced by 9%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 803
   raw: "803#捡豆丢瓜#看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%#0#2#0|0|-12#"
@@ -765,12 +765,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1380208+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:28.5236531+08:00
     split: 2
     text: "看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%"
-    translated: "Seeing something and wanting it immediately, but in the end getting nothing. Upon task completion, the monetary reward is reduced by 12%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "See something and want it, but in the end grab nothing. Upon task completion, monetary reward reduced by 12%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 804
   raw: "804#擅画之人#无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%#0#2#0|0|-15#"
@@ -783,12 +783,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1380677+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:29.3889919+08:00
     split: 2
     text: "无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%"
-    translated: "Nothing else, just skilled at painting a rosy picture, so the outcome was far below expectations. Upon task completion, the monetary reward decreased by 15%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "He had no other skills but excelling at painting pies, so the outcome was much less than expected. Upon task completion, the monetary reward is reduced by 15%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 805
   raw: "805#劳损内神#时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%#0#2#0|0|-18#"
@@ -801,12 +801,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1381148+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:30.0796273+08:00
     split: 2
     text: "时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%"
-    translated: "Frequent internal conflicts lead to irritability, which affects everyday tasks. When a task is completed, the monetary reward is reduced by 18%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Frequent internal conflict and irritability have begun to affect daily tasks. Upon task completion, the monetary reward is reduced by 18%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 851
   raw: "851#天煞孤星#出生便带不祥之兆，常被厄运缠身。任务完成时，获得安定减少6%#0#2#0|1|-6#"
@@ -841,9 +841,9 @@
     split: 2
     text: "福来祸至，常在欢喜时遭遇不幸。任务完成时，获得安定减少9%"
     translated: "Joy brings sorrow, and misfortune often strikes during times of happiness. Upon completing the task, you will gain a reduction in stability by 9%"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 853
   raw: "853#鸡飞蛋打#为一时鲁莽，反而失去更多。任务完成时，获得安定减少12%#0#2#0|1|-12#"
   translated: ""
@@ -852,16 +852,16 @@
     split: 1
     text: "鸡飞蛋打"
     translated: "A whole lot of noise, but no one gets hurt"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1382545+08:00
     split: 2
     text: "为一时鲁莽，反而失去更多。任务完成时，获得安定减少12%"
     translated: "Out of impulsiveness at the moment, losing even more in return. When the task is completed, gain stability reduced by 12%"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 854
   raw: "854#画虎类犬#外表看似完美，实则内里空虚。任务完成时，获得安定减少15%#0#2#0|1|-15#"
   translated: ""
@@ -895,9 +895,9 @@
     split: 2
     text: "虚幻之物安慰心灵，却难解现实困境。任务完成时，获得安定减少18%"
     translated: "Fantasies may soothe the soul, but they struggle to resolve real-life dilemmas. Upon task completion, gain an 18% reduction in anxiety"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 901
   raw: "901#夜下灯黑#繁忙之中容易忽略身边之人，关系疏远。任务完成时，获得繁荣减少6%#0#2#0|2|-6#"
   translated: ""
@@ -1003,9 +1003,9 @@
     split: 2
     text: "过度表现反而适得其反，影响他人观感。任务完成时，获得名声减少6%"
     translated: "Overdoing it can backfire and negatively impact how others perceive you. Upon task completion, reputation decreases by 6%"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 952
   raw: "952#虚伪失真#表里不一，容易失去他人的信任。任务完成时，获得名声减少9%#0#2#0|3|-9#"
   translated: ""
@@ -1093,9 +1093,9 @@
     split: 2
     text: "追求稀有矿石，反而错失更常见但有用的矿石。任务完成时，获得矿石减少6%"
     translated: "In the pursuit of rare minerals, they inadvertently miss out on more common but useful ones. Upon completion of the task, reduce mineral gains by 6%"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,Miss,姑娘,"
+    flaggedHallucination: ""
 - lineNum: 1002
   raw: "1002#弃精求粗#只重数量，不重品质，导致收获矿石可用之少。任务完成时，获得矿石减少9%#0#2#0|4|-9#"
   translated: ""
@@ -1165,9 +1165,9 @@
     split: 2
     text: "不能准确区分矿石品质，捡了次品却错失良玉。任务完成时，获得矿石减少18%"
     translated: "Unable to accurately distinguish the quality of minerals, ended up selecting a substandard one and missing out on the high-quality gem. At task completion, received an 18% reduction in minerals obtained"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 1051
   raw: "1051#草木不分#缺乏基本辨识草药的能力，常把珍贵药草当杂草。任务完成时，获得草药减少6%#0#2#0|5|-6#"
   translated: ""
@@ -1363,9 +1363,9 @@
     split: 2
     text: "调味技术高超，每道菜品都独具风味。完成烹饪时有5%几率多获得1次道具。"
     translated: "Master of flavor techniques, each dish boasts its own distinct taste. Upon completion of the cooking, there is a 5% chance to additionally receive one item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1152
   raw: "1152#食材鉴别#眼光毒辣，能选出最优质的食材。完成烹饪时有7%几率多获得1次道具。#1#1#6|0|7|1#"
   translated: ""
@@ -1388,20 +1388,20 @@
   raw: "1153#刀工一绝#刀工精湛，食材处理完美无缺。完成烹饪时有9%几率多获得1次道具。#2#1#6|0|9|1#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1396494+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:30.3001699+08:00
     split: 1
     text: "刀工一绝"
-    translated: "Their swordsmanship is unparalleled"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "A master of blade-making."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1396696+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:31.0210828+08:00
     split: 2
     text: "刀工精湛，食材处理完美无缺。完成烹饪时有9%几率多获得1次道具。"
-    translated: "The knife work is masterful, and the preparation of ingredients is flawless. When completing the cooking, there is a 9% chance to gain an additional item"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
-    flaggedHallucination: "Ga...,嘎...,"
+    translated: "The blade work is exquisite, and the handling of ingredients is flawless. Upon completing the cooking, there is a 9% chance to gain an additional item."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 1154
   raw: "1154#火候自如#对火候掌握精准，食物美味无比。完成烹饪时有11%几率多获得1次道具。#3#1#6|0|11|1#"
   translated: ""
@@ -1417,9 +1417,9 @@
     split: 2
     text: "对火候掌握精准，食物美味无比。完成烹饪时有11%几率多获得1次道具。"
     translated: "Mastering the heat level ensures the food is exceptionally delicious. Upon completion of cooking, there's an 11% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1155
   raw: "1155#烹饪大师#厨艺精湛，所制菜肴美味无比。完成烹饪时有13%几率多获得1次道具。#4#1#6|0|13|1#"
   translated: ""
@@ -1428,9 +1428,9 @@
     split: 1
     text: "烹饪大师"
     translated: "Culinary Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1397636+08:00
     split: 2
     text: "厨艺精湛，所制菜肴美味无比。完成烹饪时有13%几率多获得1次道具。"
@@ -1471,9 +1471,9 @@
     split: 2
     text: "对火候掌控极佳，烹出的菜肴滋味浓厚。完成烹饪时有7%几率多获得1次道具。"
     translated: "The control of cooking timing is excellent, resulting in dishes with rich flavors. Upon completing the cooking process, there's a 7% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1158
   raw: "1158#食材甄选#精心挑选上等食材，成品质量极佳。完成烹饪时有9%几率多获得1次道具。#2#1#6|0|9|1#"
   translated: ""
@@ -1597,9 +1597,9 @@
     split: 2
     text: "精通锻造技艺，打造出的装备品质优良。完成锻造时有11%几率多获得1次道具。"
     translated: "Master of forging techniques, the equipment crafted is of excellent quality. Upon completion of the forging process, there's an 11% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1205
   raw: "1205#火眼金睛#善于分辨矿石品质，打造出的武器省料坚固。完成锻造时有13%几率多获得1次道具。#4#1#2|0|13|1#"
   translated: ""
@@ -1633,9 +1633,9 @@
     split: 2
     text: "千锤百炼，打造出坚不可摧的器具。完成锻造时有5%几率多获得1次道具。"
     translated: "After thousands of hammers and hundreds of forges, a tool is crafted that cannot be broken. Upon completion of the forging, there is a 5% chance to gain an additional piece of equipment"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1207
   raw: "1207#炉火纯青#锻造技艺出神入化，所铸之物精美绝伦。完成锻造时有7%几率多获得1次道具。#1#1#2|0|7|1#"
   translated: ""
@@ -1644,16 +1644,16 @@
     split: 1
     text: "炉火纯青"
     translated: "Master of one's craft"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1403297+08:00
     split: 2
     text: "锻造技艺出神入化，所铸之物精美绝伦。完成锻造时有7%几率多获得1次道具。"
     translated: "The forging skills are so refined and exquisite that the crafted items are unparalleled in beauty. Upon completion of the forging, there is a 7% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1208
   raw: "1208#神工鬼斧#手艺精湛，打造出巧夺天工的作品。完成锻造时有9%几率多获得1次道具。#2#1#2|0|9|1#"
   translated: ""
@@ -1687,9 +1687,9 @@
     split: 2
     text: "掌握火候精准，锻造出的装备节约材料。完成锻造时有11%几率多获得1次道具。"
     translated: "Master the timing accurately, and forge equipment that saves materials. Upon completion of the forging process, there is an 11% chance to receive one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1210
   raw: "1210#神匠之手#锻造技艺出神入化，同样的材料却能做出大量成品。完成锻造时有13%几率多获得1次道具。#4#1#2|0|13|1#"
   translated: ""
@@ -1698,16 +1698,16 @@
     split: 1
     text: "神匠之手"
     translated: "The hand of a divine master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1404711+08:00
     split: 2
     text: "锻造技艺出神入化，同样的材料却能做出大量成品。完成锻造时有13%几率多获得1次道具。"
     translated: "The forging skill is so refined that it can produce a large number of finished products from the same materials. Upon completing the forging, there is a 13% chance to gain an extra item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1251
   raw: "1251#精心酿制#酿酒过程精益求精，成品品质卓越。完成酿酒时有5%几率多获得1次道具。#0#1#5|0|5|1#"
   translated: ""
@@ -1777,9 +1777,9 @@
     split: 2
     text: "酿酒技艺高超，酒香四溢。完成酿酒时有11%几率多获得1次道具。"
     translated: "Master of winemaking, with exquisite skills and an aroma that spreads far and wide. Upon completing the wine-making process, there is a 11% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1255
   raw: "1255#秘方传承#掌握独家秘方，酿出的酒风味独特。完成酿酒时有13%几率多获得1次道具。#4#1#5|0|13|1#"
   translated: ""
@@ -1813,9 +1813,9 @@
     split: 2
     text: "酿造技艺登峰造极，酒香馥郁。完成酿酒时有5%几率多获得1次道具。"
     translated: "The brewing techniques have reached an unprecedented peak, with the wine exuding a rich and fragrant aroma. Upon completing the brewing process, there is a 5% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1257
   raw: "1257#秘方独酿#精心选择原料，酿出上等美酒。完成酿酒时有7%几率多获得1次道具。#1#1#5|0|7|1#"
   translated: ""
@@ -1849,9 +1849,9 @@
     split: 2
     text: "精益求精，酿得酒质卓越。完成酿酒时有9%几率多获得1次道具。"
     translated: "Through continuous refinement and improvement, the quality of the wine is exceptional. Upon completing the winemaking process, there is a 9% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1259
   raw: "1259#精工妙酿#精心酿造，工艺精湛，成品绝伦。完成酿酒时有11%几率多获得1次道具。#3#1#5|0|11|1#"
   translated: ""
@@ -1903,9 +1903,9 @@
     split: 2
     text: "炼丹过程精益求精，成品丹药或有多产。完成炼丹时有5%几率多获得1次道具。"
     translated: "The process of refining elixirs is meticulous and precise. The finished elixir may sometimes yield multiple products. Upon completing the refinement, there's a 5% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1302
   raw: "1302#灵丹妙成#选材精良，炼出丹药事半功倍。完成炼丹时有7%几率多获得1次道具。#1#1#1|0|7|1#"
   translated: ""
@@ -1957,9 +1957,9 @@
     split: 2
     text: "炼丹技艺登峰造极，所炼丹药不计其数。完成炼丹时有11%几率多获得1次道具。"
     translated: "Master of alchemy with unparalleled skills, has refined countless elixirs. Upon completing the alchemical process, there is an 11% chance to obtain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1305
   raw: "1305#天材地宝#用天材地宝辅造，可事半功倍。完成炼丹时有13%几率多获得1次道具。#4#1#1|0|13|1#"
   translated: ""
@@ -2047,9 +2047,9 @@
     split: 2
     text: "细磨丹源之材，丹自炉皿器而出。完成炼丹时有11%几率多获得1次道具。"
     translated: "Fine-tuning the elixir's ingredients, the elixir emerges from the crucible. Upon completion of the alchemical process, there is an 11% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1310
   raw: "1310#丹炉圣火#掌控炉火精准，丹药产量倍增。完成炼丹时有13%几率多获得1次道具。#4#1#1|0|13|1#"
   translated: ""
@@ -2101,9 +2101,9 @@
     split: 2
     text: "掌握秘传针法，缝制的衣物耐用美观。完成缝纫时有7%几率多获得1次道具。"
     translated: "Master the secret acupuncture stitching technique, resulting in garments that are both durable and beautiful. Upon completing the sewing task, there is a 7% chance to receive an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1353
   raw: "1353#玲珑巧手#缝纫技艺高超，针线活精细无比。完成缝纫时有9%几率多获得1次道具。#2#1#4|0|9|1#"
   translated: ""
@@ -2137,9 +2137,9 @@
     split: 2
     text: "缝纫工艺巧夺天工，省料不省质。完成缝纫时有11%几率多获得1次道具。"
     translated: "The sewing craftsmanship is incredibly skillful, using fewer materials without compromising quality. There's an 11% chance to gain one additional item upon completion of the sewing task"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1355
   raw: "1355#天衣无缝#缝纫技艺出神入化，废料很少。完成缝纫时有13%几率多获得1次道具。#4#1#4|0|13|1#"
   translated: ""
@@ -2238,9 +2238,9 @@
     split: 1
     text: "天工巧匠"
     translated: "A master craftsman"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1426056+08:00
     split: 2
     text: "缝纫技艺巧夺天工，可达常人之不所及。完成缝纫时有13%几率多获得1次道具。"
@@ -2263,9 +2263,9 @@
     split: 2
     text: "手工精细，作品无不精致完美。完成巧手时有5%几率多获得1次道具。"
     translated: "Handcrafted with precision, every piece is exquisitely perfect. Upon completion, there's a 5% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1402
   raw: "1402#巧手神工#制作技艺如神，成品令人叹为观止。完成巧手时有7%几率多获得1次道具。#1#1#3|0|7|1#"
   translated: ""
@@ -2281,9 +2281,9 @@
     split: 2
     text: "制作技艺如神，成品令人叹为观止。完成巧手时有7%几率多获得1次道具。"
     translated: "Craftsmanship as divine, the finished product leaves one speechless. Upon completion with skilled hands, there's a 7% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1403
   raw: "1403#精雕细琢#每一件作品都精心雕琢，品质非凡。完成巧手时有9%几率多获得1次道具。#2#1#3|0|9|1#"
   translated: ""
@@ -2299,9 +2299,9 @@
     split: 2
     text: "每一件作品都精心雕琢，品质非凡。完成巧手时有9%几率多获得1次道具。"
     translated: "Every piece is meticulously crafted with exceptional quality. Upon completion, there's a 9% chance to gain one additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1404
   raw: "1404#鬼斧神工#手艺精妙，工艺巧夺天工。完成巧手时有11%几率多获得1次道具。#3#1#3|0|11|1#"
   translated: ""
@@ -2335,9 +2335,9 @@
     split: 2
     text: "手艺出神入化，所制之物堪称好钢用于刀刃之上。完成巧手时有13%几率多获得1次道具。"
     translated: "Craftsmanship is transcendent and transformative, making the created items worthy of being forged into the finest steel for blades. Upon completion with skilled hands, there is a 13% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1406
   raw: "1406#灵巧巧工#技艺高超，材料利用率高。完成巧手时有5%几率多获得1次道具。#0#1#3|0|5|1#"
   translated: ""
@@ -2353,9 +2353,9 @@
     split: 2
     text: "技艺高超，材料利用率高。完成巧手时有5%几率多获得1次道具。"
     translated: "Exceptionally skilled, with a high material utilization rate. Upon completion of the craftwork, there is a 5% chance to gain an additional item"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1407
   raw: "1407#材尽其用#材料利用充分，毫无浪费。完成巧手时有7%几率多获得1次道具。#1#1#3|0|7|1#"
   translated: ""
@@ -2407,9 +2407,9 @@
     split: 2
     text: "物料分毫不浪费，尽显巧手本领。完成巧手时有11%几率多获得1次道具。"
     translated: "Materials are used with no waste, showcasing exceptional craftsmanship. There is an 11% chance to gain an additional item upon completion of a masterwork"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1410
   raw: "1410#天工开物#巧妙构思，精打细算，用料精准事半功倍。完成巧手时有13%几率多获得1次道具。#4#1#3|0|13|1#"
   translated: ""
@@ -2439,12 +2439,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1431448+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:31.6892924+08:00
     split: 2
     text: "制作时精打细算，勤俭节约。制作道具时消耗金钱减少6%。"
-    translated: "During production, meticulous attention to detail and thrift are prioritized. When creating props, there is a 6% reduction in monetary expenditure"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "During production, attention to detail and frugality are emphasized. When creating props, the cost of coins is reduced by 6%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1452
   raw: "1452#物尽其用#善于利用材料，减少浪费。制作道具时消耗金钱减少9%。#1#0#0|0|-9#"
@@ -2457,12 +2457,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1431915+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:32.3552374+08:00
     split: 2
     text: "善于利用材料，减少浪费。制作道具时消耗金钱减少9%。"
-    translated: "Proficient in utilizing materials, minimizing waste. When crafting props, expenditure of money is reduced by 9%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Efficiently utilizing materials and reducing waste. When making props, the consumption of gold coins is reduced by 9%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1453
   raw: "1453#化繁为简#简化工艺流程，大幅节约开支。制作道具时消耗金钱减少12%。#2#0#0|0|-12#"
@@ -2475,12 +2475,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1432382+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:32.9741272+08:00
     split: 2
     text: "简化工艺流程，大幅节约开支。制作道具时消耗金钱减少12%。"
-    translated: "Simplify the manufacturing process to significantly reduce costs. During prop production, reduce expenses by 12%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Simplify the manufacturing process to significantly reduce expenses. The cost of money spent on props production has decreased by 12%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1454
   raw: "1454#精工细作#制作工艺精湛，用料省钱。制作道具时消耗金钱减少15%。#3#0#0|0|-15#"
@@ -2493,12 +2493,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1432840+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:33.5251804+08:00
     split: 2
     text: "制作工艺精湛，用料省钱。制作道具时消耗金钱减少15%。"
-    translated: "The craftsmanship is exquisite, and the materials are cost-effective. When making props, there's a 15% reduction in costs"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Masterful craftsmanship combined with cost-effective materials. When creating props, the expenditure is reduced by 15%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1455
   raw: "1455#极致节俭#极限节俭，用最少的钱制作最优质的道具。制作道具时消耗金钱减少18%。#4#0#0|0|-18#"
@@ -2511,12 +2511,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1433304+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:34.1873350+08:00
     split: 2
     text: "极限节俭，用最少的钱制作最优质的道具。制作道具时消耗金钱减少18%。"
-    translated: "Extreme frugality, creating the highest quality props with the least amount of money. When crafting props, reduce spending by 18%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Extreme frugality, creating the highest quality props with the least amount of coins. Reduces coin expenditure by 18% when crafting props."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1501
   raw: "1501#源省器懂#懂得器件之源，从原料上节省。制作道具时消耗矿石减少6%。#0#0#0|4|-6#"
@@ -2580,9 +2580,9 @@
     split: 1
     text: "山灵之苟"
     translated: "The Guile of Mount Spirit"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1435195+08:00
     split: 2
     text: "与山间矿石有所感应，知悉其材质左右。制作道具时消耗矿石减少15%。"
@@ -2709,12 +2709,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1438485+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:34.8264547+08:00
     split: 2
     text: "制作技艺拙劣，材料浪费严重。制作道具时消耗金钱增加6%。"
-    translated: "Craftsmanship is poor, leading to significant material waste. When making props, the cost of materials increases by 6%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Crafting skills are lacking, and materials are severely wasted. When creating props, the cost in gold increases by 6%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1602
   raw: "1602#粗制滥造#工艺粗糙，用料不当，常需返工。制作道具时消耗金钱增加9%。#0#0#0|0|9#"
@@ -2727,12 +2727,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1438953+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:35.5873547+08:00
     split: 2
     text: "工艺粗糙，用料不当，常需返工。制作道具时消耗金钱增加9%。"
-    translated: "The craftsmanship is crude, and materials are often inappropriate, frequently requiring rework. The production of props increases costs by 9%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "The craftsmanship is rough, and the materials are inappropriate, often requiring rework. When making props, there is an additional 9% increase in costs."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1603
   raw: "1603#拙手劣工#制作手艺低劣，花费倍增。制作道具时消耗金钱增加12%。#0#0#0|0|12#"
@@ -2745,12 +2745,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1439432+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:36.1643582+08:00
     split: 2
     text: "制作手艺低劣，花费倍增。制作道具时消耗金钱增加12%。"
-    translated: "Craftsmanship is subpar, doubling the costs. During prop production, monetary expenditure increases by 12%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Workmanship is poor, doubling the cost. When crafting props, the expenditure of gold increases by 12%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1604
   raw: "1604#不计成本#制作过程中毫无节制，成本激增。制作道具时消耗金钱增加15%。#0#0#0|0|15#"
@@ -2763,12 +2763,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1439901+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:36.7311020+08:00
     split: 2
     text: "制作过程中毫无节制，成本激增。制作道具时消耗金钱增加15%。"
-    translated: "The production process was completely unrestrained, leading to a significant increase in costs. During the prop-making stage, there was a 15% rise in expenditure"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "The production process lacked restraint, leading to a significant increase in costs. The expenditure on props alone increased by 15%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1605
   raw: "1605#损耗惊人#工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。#0#0#0|0|18#"
@@ -2781,12 +2781,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1440370+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:37.3684857+08:00
     split: 2
     text: "工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。"
-    translated: "Poor craftsmanship leads to excessive material waste. When making props, the cost of materials increases by 18%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Craftsmanship is subpar, and there's a significant waste of materials. The cost in making props increases by 18%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1651
   raw: "1651#耗材难控#制作技艺不精，原料大量浪费。制作道具时消耗矿石增加6%。#0#0#0|4|6#"
@@ -3213,12 +3213,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1452346+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:37.9530239+08:00
     split: 2
     text: "锻造出的装备必定携带枪容、枪形、武容、武形其中一条词条"
-    translated: "Equipment forged must necessarily carry one of the terms: Gun Capacity, Gun Shape, Martial Posture, or Martial Form"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Equipment forged must inherently include one of the attributes: spear aura, spear form, martial aura, or martial form."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10101
   raw: "10101#混元之力#锻造出的装备必定携带神力、剑技、剑魄、刀技其中一条词条#3#2#2|3|605243,605443,605453,9000200,9000201,9000202,9000300,9000301,9000302,9000500,9000501,9000502#"
@@ -3249,12 +3249,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1453622+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:38.5604525+08:00
     split: 2
     text: "锻造出的装备必定携带刀魄、枪技、枪魄、武技其中一条词条"
-    translated: "Equipment forged must necessarily carry one of the terms: Sword Spirit, Gun Technique, Gun Spirit, Martial Skill"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Spear,枪,"
+    translated: "Any equipment forged must carry one of the following attributes: Blade Soul, Spear Technique, Spear Soul, or Martial Skill."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10201
   raw: "10201#暗影之刃#锻造出的装备必定携带武魄、剑意、刀意、枪意其中一条词条#3#2#2|3|9001200,9001201,9001202,5232,5251,5270,6232,6251,6270,7232,7251,7270#"
@@ -3264,16 +3264,16 @@
     split: 1
     text: "暗影之刃"
     translated: "Blade of Shadows"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Blade,刀,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1454103+08:00
     split: 2
     text: "锻造出的装备必定携带武魄、剑意、刀意、枪意其中一条词条"
     translated: "Equipment forged must necessarily carry one of the terms: martial soul, sword essence, blade essence, or spear essence"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,"
+    flaggedHallucination: ""
 - lineNum: 10202
   raw: "10202#碎裂之力#锻造出的装备必定携带武意、攻威、伤威、破甲其中一条词条#3#2#2|3|8232,8251,8270,5217,5236,5255,5218,5237,5256,53100,53200,53300#"
   translated: ""
@@ -3289,9 +3289,9 @@
     split: 2
     text: "锻造出的装备必定携带武意、攻威、伤威、破甲其中一条词条"
     translated: "Equipment forged must necessarily carry one of the following attributes: Wu Yi, Attack Might, Injury Might, or Armor Break"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 10301
   raw: "10301#破魔之力#锻造出的装备必定携带透魔、铁骨、气魄、剑灭其中一条词条#3#2#2|3|33100,33200,33300,842407,842507,842607,842408,842508,842608,701102,701202,701302#"
   translated: ""
@@ -3321,12 +3321,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1455503+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:39.2161460+08:00
     split: 2
     text: "锻造出的装备必定携带刀灭、枪灭、武灭、剑却其中一条词条"
-    translated: "Equipment forged must necessarily carry one of the terms: Sword Seal, Gun Seal, Martial Seal, or Blade Seal"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Equipment forged must always carry one of the following attributes: Blade Annihilation, Spear Annihilation, Martial Arts Annihilation, or Sword Counter."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10401
   raw: "10401#冥火缠身#锻造出的装备必定携带刀却、枪却、武却、剑速其中一条词条#3#2#2|3|711103,711203,711303,721103,721203,721303,73700,73800,73900,9003605,9003606,9003607#"
@@ -3339,12 +3339,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1455967+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:39.7252125+08:00
     split: 2
     text: "锻造出的装备必定携带刀却、枪却、武却、剑速其中一条词条"
-    translated: "Equipment forged must possess one of the following attributes: Sword Attribute, Gun Attribute, Martial Skill Attribute, or Blade Speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Equipment forged must necessarily include one of the attributes: Blade, Spear, Martial Skill, or Sword Speed."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10402
   raw: "10402#雷动九天#锻造出的装备必定携带刀速、枪速、武速、恶意其中一条词条#3#2#2|3|9003700,9003701,9003702,9003800,9003801,9003802,9003900,9003901,9003902,5008000,5008100,5008200#"
@@ -3357,12 +3357,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1456442+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:40.3449811+08:00
     split: 2
     text: "锻造出的装备必定携带刀速、枪速、武速、恶意其中一条词条"
-    translated: "Equipment forged must necessarily carry one of the terms: Sword Speed, Gun Speed, Martial Arts Speed, or Malevolence"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Spear,枪,"
+    translated: "Forged equipment must necessarily carry one of the terms: blade speed, spear speed, martial arts speed, or malevolence."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11001
   raw: "11001#风云再起#锻造出的装备必定携带剑殇、刀殇、枪殇、武殇其中一条词条#3#2#2|3|8000100,8005100,8006900,7000200,8000400,8008900,8000700,8006100,8007800,8001000,8005700,8007500#"
@@ -3375,12 +3375,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1456910+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:40.9720867+08:00
     split: 2
     text: "锻造出的装备必定携带剑殇、刀殇、枪殇、武殇其中一条词条"
-    translated: "Equipment forged will inevitably carry one of the following attributes: Sword Tragedy, Blade Tragedy, Gun Tragedy, or Martial Arts Tragedy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Equipment forged in this way must include one of the following traits: Swordbane, Bladebane, Spearbane, or Martialbane."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11002
   raw: "11002#苍穹之力#锻造出的装备必定携带剑魂、刀魂、枪魂、武魂其中一条词条#4#2#2|3|13100,13200,13300,9000400,9000401,9000402,9000700,9000701,9000702,9001000,9001001,9001002#"
@@ -3393,12 +3393,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.1457379+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:41.5910528+08:00
     split: 2
     text: "锻造出的装备必定携带剑魂、刀魂、枪魂、武魂其中一条词条"
-    translated: "Any forged equipment will definitely carry one of the terms: Sword Soul, Blade Soul, Gun Soul, or Martial Soul"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Forged equipment must necessarily carry one of the following attributes: Sword Spirit, Blade Spirit, Spear Spirit, or Martial Spirit."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11003
   raw: "11003#金刚护甲#锻造出的装备必定携带神威、伤逝、神御、万籁其中一条词条#4#2#2|3|800202,800302,800402,73100,73200,73300,842506,842606,842706,9002502,9002503,9002504#"
@@ -3415,9 +3415,9 @@
     split: 2
     text: "锻造出的装备必定携带神威、伤逝、神御、万籁其中一条词条"
     translated: "The forged equipment is guaranteed to carry one of the attributes: Divine Aura, Wounding Fade, Divine Guard, or All-Hearing"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 11004
   raw: "11004#幻影之风#锻造出的装备必定携带寂灭、风转、阴殇、阳殇其中一条词条#4#2#2|3|9003001,9003002,9003003,9003500,9003501,9003502,5004300,5004400,5004500,5004700,5004800,5004900#"
   translated: ""
@@ -3487,9 +3487,9 @@
     split: 2
     text: "缝纫出的防具必定携带飞鸟、飞鸢、永恒、飞鹰、精意其中一条词条"
     translated: "Protective gear crafted through sewing must carry one of the terms: Flying Bird, Soaring Hawk, Eternity, Flying Eagle, or Spirit Intent"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 12001
   raw: "12001#玄黄之精#缝纫出的防具必定携带闪避、元气、根骨、筋骨其中一条词条#2#2#4|3|52815,52915,53015,806700,806800,806900,806701,806801,806901,808702,808802,808902#"
   translated: ""
@@ -3530,13 +3530,13 @@
   raw: "12005#玄铁精铸#缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条#2#2#4|3|806707,806807,806907,605229,605429,605629,605231,605431,605631,605233,605433,605633#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1460913+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:41.8389021+08:00
     split: 1
     text: "玄铁精铸"
-    translated: "Dark Iron Precision-Forging"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Dark Steel,玄铁,"
-    flaggedHallucination: "Dark Iron,黑铁,"
+    translated: "Dark steel, finely crafted."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1461110+08:00
     split: 2
     text: "缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条"
@@ -3558,10 +3558,10 @@
   - lastTranslatedOn: 2025-02-24T16:19:59.1461581+08:00
     split: 2
     text: "缝纫出的防具必定携带御心、化解、强体、冥思其中一条词条"
-    translated: "\nArmor crafted by sewing must carry at least one of the following abilities: Heart Guard, Resolve Dispeller, Body Strengthening, or Deep Thought.\n"
-    flaggedForRetranslation: true
+    translated: "Armor crafted by sewing must carry at least one of the following abilities: Heart Guard, Resolve Dispeller, Body Strengthening, or Deep Thought."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 12007
   raw: "12007#流沙之引#缝纫出的防具必定携带魄力、神心、圣心、五御其中一条词条#3#2#4|3|12304,12404,12504,12306,12406,12506,12307,12407,12507,95402,95403,95404#"
   translated: ""
@@ -3577,9 +3577,9 @@
     split: 2
     text: "缝纫出的防具必定携带魄力、神心、圣心、五御其中一条词条"
     translated: "Armor crafted through sewing must inherently include the attributes of Poh-li, Shen-hsin, Sheng-hsin, and one term from Wu-yu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 12008
   raw: "12008#玄铁护体#巧手出的饰品必定携带无限、剑心、刀体、神武其中一条词条#1#2#3|3|605227,605427,605627,610230,610330,610430,610231,610331,610431,630532,640132,640232#"
   translated: ""
@@ -3703,6 +3703,6 @@
     split: 2
     text: "巧手出的饰品必定携带神门词条"
     translated: "Jewelry crafted by skilled artisans will invariably carry the Divine Gate term"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""

@@ -9,12 +9,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:18.3816511+08:00
+  - lastTranslatedOn: 2025-02-24T16:47:42.1816861+08:00
     split: 2
     text: "悬赏悬红需要消耗的金钱"
-    translated: "The amount of money needed to issue the reward notice"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "The reward or bounty requires the expenditure of money."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2
   raw: "2#悬红助战1#悬赏悬红助战等级1#121321|121322#"
@@ -175,9 +175,9 @@
     split: 2
     text: "大地图劫镖绿林npc(队长id|队员id&数量)"
     translated: "Gang of Bandits Raiding the Grand Map in the Green Forest - Non-Player Characters (Team Leader ID | Team Member ID & Number of Members)"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 11
   raw: "11#劫镖队生成范围#大地图劫镖在镖队附近生成npc劫镖绿林的范围#40#"
   translated: ""

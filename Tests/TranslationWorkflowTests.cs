@@ -289,6 +289,9 @@ public class TranslationWorkflowTests
 
         foreach (var item in config.GlossaryLines)
         {
+            if (!item.CheckForMistranslation)
+                continue;
+
             if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
             {
                 var found = false;
@@ -323,8 +326,15 @@ public class TranslationWorkflowTests
         {
             var wordPattern = $"\\b{item.Result}\\b";
 
-            if (!preparedRaw.Contains(item.Raw) && Regex.IsMatch(split.Translated, wordPattern, RegexOptions.IgnoreCase))
+            if (!preparedRaw.Contains(item.Raw) && split.Translated.Contains(item.Result))
             {
+                if (!item.CheckForHallucination)
+                    continue;
+
+                // Regex matches on terms with ... match incorrectly
+                if (!Regex.IsMatch(split.Translated, wordPattern, RegexOptions.IgnoreCase))
+                    continue;
+
                 // Check for Alternatives
                 var dupes = config.GlossaryLines.Where(s => s.Result == item.Result && s.Raw != item.Raw);
                 bool found = false;

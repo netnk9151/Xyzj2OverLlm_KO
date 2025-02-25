@@ -93,19 +93,19 @@
   raw: "16#轻功#qinggong.mp4##60.0#0##0.0#获得轻功秘籍后，在轻功界面点击对应的轻功可查看学习轻功所需的条件，满足条件即可学习以及提升已学会的轻功等级。#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:30.1920264+08:00
+  - lastTranslatedOn: 2025-02-24T17:57:29.6888465+08:00
     split: 1
     text: "轻功"
-    translated: "Lightness Skill"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Qinggong"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:20:30.1920470+08:00
+  - lastTranslatedOn: 2025-02-24T17:57:30.7027228+08:00
     split: 8
     text: "获得轻功秘籍后，在轻功界面点击对应的轻功可查看学习轻功所需的条件，满足条件即可学习以及提升已学会的轻功等级。"
-    translated: "After obtaining the Kungfu manual, click on the corresponding Kungfu in the Kungfu interface to view the requirements for learning it. Once the conditions are met, you can learn and level up the Kungfu that has already been acquired"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "After obtaining the Qinggong manual, click on the corresponding Qinggong in the Qinggong interface to view the conditions required for learning Qinggong. Once the conditions are met, you can learn and improve the level of the already learned Qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 17
   raw: "17#炼药#lianyao.mp4##60.0#0##0.0#习得相关配方后与药炉互动可打开炼药界面，选中需要炼制的药品后所需材料和角色精力达到炼制要求后即可炼制。#"
@@ -129,13 +129,13 @@
   raw: "18#武学参悟#wuxueronghe.mp4##60.0#0##0.0#打开武学界面,点击参悟切换至参悟页面,在武学列表中选择想要参悟的武学,满足条件（足够的感悟以及修炼至化境）后,点击确定可参悟新的武学#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:30.1921262+08:00
+  - lastTranslatedOn: 2025-02-24T17:57:31.0396376+08:00
     split: 1
     text: "武学参悟"
-    translated: "Understanding Wuxia principles"
-    flaggedForRetranslation: true
+    translated: "Mastering martial arts through personal insight."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wuxia,武侠,Wu...,呜...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:30.1921467+08:00
     split: 8
     text: "打开武学界面,点击参悟切换至参悟页面,在武学列表中选择想要参悟的武学,满足条件（足够的感悟以及修炼至化境）后,点击确定可参悟新的武学"
@@ -187,9 +187,9 @@
     split: 1
     text: "雁行诀"
     translated: "The Art of Geese in Formation"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:30.1922923+08:00
     split: 8
     text: "部分轻功可以让你在树干上借力踏行，学会雁行诀后靠近树干双击空格即可上树。"
@@ -208,12 +208,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:20:30.1923396+08:00
+  - lastTranslatedOn: 2025-02-24T17:57:32.0010525+08:00
     split: 8
     text: "江湖上有很多地方都可以钓鱼，选择鱼竿与鱼饵后，使用空格控制鱼鳔保持在白色区域内一段时间即可成功。"
-    translated: "In the martial arts world, there are many places where you can fish. After choosing your fishing rod and bait, simply use the space bar to keep the fish's mouth within the white area for a while to achieve success"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "On the Jianghu, there are many places where you can fish. Once you've chosen your fishing rod and bait, simply use the spacebar to keep the bobber within the white area for a while, and you'll catch fish successfully."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 23
   raw: "23#锻造#duanzao.mp4##60.0#0##0.0#习得相关配方后与锻造台互动可打开锻造界面，选中需要锻造的装备后所需材料和角色精力达到炼制要求后即可炼制。可格外投入#"
@@ -262,12 +262,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:20:30.1924847+08:00
+  - lastTranslatedOn: 2025-02-24T17:57:32.3311686+08:00
     split: 8
     text: "查看自己的队伍成员，一起探索江湖世界。"
-    translated: "View your team members and explore the world of the martial arts together"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "View your team members and explore the world of Jianghu together."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 26
   raw: "26#解密推理#JieMi.mp4##60.0#0##0.0#根据已有线索推理破解事件真相#"

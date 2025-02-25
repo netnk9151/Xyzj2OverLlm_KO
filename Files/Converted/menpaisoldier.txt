@@ -259,9 +259,9 @@
     split: 6
     text: "解锁条件：宗门大殿等级达到7,消耗资金89640"
     translated: "Unlocking Conditions：Mansion Master Hall Level Reaches 7, Consumes Funds 89,640"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 125
   raw: "125#3#0#101225#0&120|8|9600#0#解锁条件：消耗资金9600#9600#816#17#594#74021#"
   translated: ""
@@ -354,12 +354,12 @@
   raw: "133#1#0#101233#0&120|8|9600;121|101#0#解锁条件：解锁刀卒，消耗资金9600#9600#816#18#651#74016#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1075788+08:00
+  - lastTranslatedOn: 2025-02-24T17:24:19.1378913+08:00
     split: 6
     text: "解锁条件：解锁刀卒，消耗资金9600"
-    translated: "Unlocking Conditions：Unlock Sword Foot Soldier, consumes 9600 funds"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Unlocking Condition：Unlock the Sword Soldier, costing 9,600 credits."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 134
   raw: "134#3#1#101234#0&120|8|24192;121|127#0#解锁条件：解锁拳士，消耗资金24192#24192#1554#32#1128#74027#"

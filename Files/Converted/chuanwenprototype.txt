@@ -57,9 +57,9 @@
     split: 7
     text: "少年出英雄，恰时<color=green>{A}</color>击败<color=green>{B}</color>，掉落了<color=green>{I}</color>。"
     translated: "A young hero emerges and, at just the right moment, {A} defeats {B}, causing {I} to drop"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Young Hero,少侠,"
+    flaggedHallucination: ""
 - lineNum: 200002
   raw: "200002#2#0#0###0#有传言称，在<color=green>{C}</color>身上看到了<color=green>{I}</color>，似乎可以前去查看一番。#1##"
   translated: ""
@@ -126,16 +126,16 @@
     split: 7
     text: "本月各大门派武学活动即将开始，请弟子到各大门派传功长老处踊跃参加。"
     translated: "The martial arts activities for various sects are set to begin this month. Disciples are encouraged to participate enthusiastically at the training sites of the senior instructors in each major sect"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Senior,前辈,"
-  - lastTranslatedOn: 2025-02-24T13:38:18.0440584+08:00
+    flaggedHallucination: ""
+  - lastTranslatedOn: 2025-02-24T16:45:31.1664210+08:00
     split: 9
     text: "[势力]武学活动"
-    translated: "Wuxia Activity"
-    flaggedForRetranslation: true
+    translated: "Martial Arts Faction Activities"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wuxia,武侠,Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 4000001
   raw: "4000001#4#0#0###0#本月各大门派学说活动即将开始，请弟子到各大门派传功长老处踊跃参加。#4#[势力]学说活动#"
   translated: ""

@@ -281,9 +281,9 @@
     split: 1
     text: "汤"
     translated: "Brother Tang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 27
   raw: "27#陶#1#0#"
   translated: ""
@@ -864,9 +864,9 @@
     split: 1
     text: "张"
     translated: "Uncle Zhang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 80
   raw: "80#孟#1#0#"
   translated: ""
@@ -1051,9 +1051,9 @@
     split: 1
     text: "家"
     translated: "Home"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 97
   raw: "97#崔#1#0#"
   translated: ""
@@ -1080,12 +1080,12 @@
   raw: "99#钱#1#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1284022+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:04.5581588+08:00
     split: 1
     text: "钱"
-    translated: "Money"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Coin"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100
   raw: "100#洪#1#0#"
@@ -1095,9 +1095,9 @@
     split: 1
     text: "洪"
     translated: "Hong"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 101
   raw: "101#左#1#0#"
   translated: ""
@@ -1315,9 +1315,9 @@
     split: 1
     text: "卫"
     translated: "Guard"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 121
   raw: "121#沈#1#0#"
   translated: ""
@@ -1436,9 +1436,9 @@
     split: 1
     text: "卓"
     translated: "Master Zhuo"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 132
   raw: "132#蒋#1#0#"
   translated: ""
@@ -1502,9 +1502,9 @@
     split: 1
     text: "翁"
     translated: "Uncle"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 138
   raw: "138#牧#1#0#"
   translated: ""
@@ -2554,10 +2554,10 @@
   raw: "233#骜#1#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1318455+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:04.7626760+08:00
     split: 1
     text: "骜"
-    translated: ""
+    translated: "Reckless"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2723,9 +2723,9 @@
     split: 1
     text: "莞"
     translated: "Guang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 250
   raw: "250#寒#1#0#"
   translated: ""
@@ -3493,9 +3493,9 @@
     split: 1
     text: "伯赏"
     translated: "Older Brother Shang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 320
   raw: "320#轩辕#1#0#"
   translated: ""
@@ -3625,9 +3625,9 @@
     split: 1
     text: "诸葛"
     translated: "Master Zhuge"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 332
   raw: "332#巫马#1#0#"
   translated: ""
@@ -3636,9 +3636,9 @@
     split: 1
     text: "巫马"
     translated: "Wu Ma"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 333
   raw: "333#阳佟#1#0#"
   translated: ""
@@ -3658,9 +3658,9 @@
     split: 1
     text: "太叔"
     translated: "Uncle"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 335
   raw: "335#东方#1#0#"
   translated: ""
@@ -3878,9 +3878,9 @@
     split: 1
     text: "公西"
     translated: "Master Gongxi"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 355
   raw: "355#谷粱#1#0#"
   translated: ""
@@ -4105,10 +4105,10 @@
   raw: "511#聪健#2#4#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1353040+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:05.2046970+08:00
     split: 1
     text: "聪健"
-    translated: ""
+    translated: "Cong Jian"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4340,9 +4340,9 @@
     split: 1
     text: "卿"
     translated: "You, my lord"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Lord,大人,"
+    flaggedHallucination: ""
 - lineNum: 533
   raw: "533#裘#2#4#"
   translated: ""
@@ -4670,9 +4670,9 @@
     split: 1
     text: "师"
     translated: "Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 563
   raw: "563#翼#2#4#"
   translated: ""
@@ -4747,9 +4747,9 @@
     split: 1
     text: "志泽"
     translated: "Zhi Ze"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Zhi...,吱...,"
+    flaggedHallucination: ""
 - lineNum: 570
   raw: "570#苑博#2#4#"
   translated: ""
@@ -4813,9 +4813,9 @@
     split: 1
     text: "南松"
     translated: "Master Nansong"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 576
   raw: "576#问旋#2#0#"
   translated: ""
@@ -4879,9 +4879,9 @@
     split: 1
     text: "芷烟"
     translated: "Zhiyan"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Zhi...,吱...,"
+    flaggedHallucination: ""
 - lineNum: 582
   raw: "582#渊思#2#8#"
   translated: ""
@@ -4967,9 +4967,9 @@
     split: 1
     text: "天磊"
     translated: "Brother Tian Lei"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 590
   raw: "590#夜白#2#0#"
   translated: ""
@@ -5187,9 +5187,9 @@
     split: 1
     text: "勒"
     translated: "Hold tight"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 610
   raw: "610#筮#2#0#"
   translated: ""
@@ -5249,10 +5249,10 @@
   raw: "615#嚣#2#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1386123+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:05.7867483+08:00
     split: 1
     text: "嚣"
-    translated: ""
+    translated: "Noisy, boisterous"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5451,9 +5451,9 @@
     split: 1
     text: "弘文"
     translated: "Brother Hong"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 634
   raw: "634#伟泽#2#4#"
   translated: ""
@@ -5594,9 +5594,9 @@
     split: 1
     text: "晓博"
     translated: "Master Xiaobo"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 647
   raw: "647#靖琪#2#4#"
   translated: ""
@@ -5627,9 +5627,9 @@
     split: 1
     text: "君浩"
     translated: "Lord Huo"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Lord,大人,"
+    flaggedHallucination: ""
 - lineNum: 650
   raw: "650#绍辉#2#4#"
   translated: ""
@@ -6386,9 +6386,9 @@
     split: 1
     text: "擎汉"
     translated: "Hold up Han"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 719
   raw: "719#千万#2#4#"
   translated: ""
@@ -6595,9 +6595,9 @@
     split: 1
     text: "老五"
     translated: "Older Brother Five"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 738
   raw: "738#老九#2#4#"
   translated: ""
@@ -6837,9 +6837,9 @@
     split: 1
     text: "鸿煊"
     translated: "Brother Hongxuan"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 760
   raw: "760#笑天#2#4#"
   translated: ""
@@ -6903,9 +6903,9 @@
     split: 1
     text: "鸿涛"
     translated: "Hong Tao"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 766
   raw: "766#孤风#2#4#"
   translated: ""
@@ -6921,13 +6921,13 @@
   raw: "767#青文#2#8#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1423820+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:05.9812821+08:00
     split: 1
     text: "青文"
-    translated: "Wuxia novel"
-    flaggedForRetranslation: true
+    translated: "Green text"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wuxia,武侠,Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 768
   raw: "768#盼秋#2#8#"
   translated: ""
@@ -7196,7 +7196,7 @@
   raw: "792#成败#2#4#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1430009+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:06.9637148+08:00
     split: 1
     text: "成败"
     translated: ""
@@ -7431,9 +7431,9 @@
     split: 1
     text: "士晋"
     translated: "Brother Jin"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 814
   raw: "814#铸海#2#0#"
   translated: ""
@@ -7464,9 +7464,9 @@
     split: 1
     text: "伯云"
     translated: "Uncle Yun"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 817
   raw: "817#老幺#2#4#"
   translated: ""
@@ -7772,9 +7772,9 @@
     split: 1
     text: "道天"
     translated: "Master Dao Tian"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 845
   raw: "845#剑愁#2#0#"
   translated: ""
@@ -7783,9 +7783,9 @@
     split: 1
     text: "剑愁"
     translated: "Blade's Sorrow"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Blade,刀,"
+    flaggedHallucination: ""
 - lineNum: 846
   raw: "846#千筹#2#0#"
   translated: ""
@@ -7926,9 +7926,9 @@
     split: 1
     text: "剑成"
     translated: "Master Swordsmith"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 859
   raw: "859#士萧#2#0#"
   translated: ""
@@ -8483,12 +8483,12 @@
   raw: "909#一刀#2#4#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1459182+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:07.1940376+08:00
     split: 1
     text: "一刀"
-    translated: "One stroke"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "A single stroke of the blade."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 910
   raw: "910#行天#2#0#"
@@ -8707,9 +8707,9 @@
     split: 1
     text: "剑身"
     translated: "Blade"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Blade,刀,"
+    flaggedHallucination: ""
 - lineNum: 930
   raw: "930#浩天#2#0#"
   translated: ""
@@ -8894,9 +8894,9 @@
     split: 1
     text: "纵横"
     translated: "Master of Strategy"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 947
   raw: "947#篆#2#0#"
   translated: ""
@@ -9477,9 +9477,9 @@
     split: 1
     text: "亦巧"
     translated: "How serendipitous!"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 1052
   raw: "1052#忆雪#2#8#"
   translated: ""
@@ -9928,9 +9928,9 @@
     split: 1
     text: "莞"
     translated: "Guang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 1093
   raw: "1093#宛#2#0#"
   translated: ""
@@ -10958,13 +10958,13 @@
   raw: "1186#寒凝#2#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1525936+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:07.4123443+08:00
     split: 1
     text: "寒凝"
-    translated: "Frozen chill"
-    flaggedForRetranslation: true
+    translated: "Chill-frozen."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 1187
   raw: "1187#寒梦#2#8#"
   translated: ""
@@ -11094,9 +11094,9 @@
     split: 1
     text: "谷蕊"
     translated: "Gurui"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 1199
   raw: "1199#谷兰#2#8#"
   translated: ""
@@ -11105,9 +11105,9 @@
     split: 1
     text: "谷兰"
     translated: "Gulan"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 1200
   raw: "1200#飞珍#2#8#"
   translated: ""
@@ -11182,9 +11182,9 @@
     split: 1
     text: "凡阳"
     translated: "Master Fan Yang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1207
   raw: "1207#凡旋#2#0#"
   translated: ""
@@ -11248,9 +11248,9 @@
     split: 1
     text: "尔柳"
     translated: "Brother Liu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 1213
   raw: "1213#尔芙#2#0#"
   translated: ""
@@ -12557,9 +12557,9 @@
     split: 1
     text: "山雁"
     translated: "Mountain Geese"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 1332
   raw: "1332#南莲#2#8#"
   translated: ""
@@ -12568,9 +12568,9 @@
     split: 1
     text: "南莲"
     translated: "Master Nan Lian"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1333
   raw: "1333#夜梅#2#0#"
   translated: ""
@@ -12953,9 +12953,9 @@
     split: 1
     text: "以冬"
     translated: "Wu Ling, who is also known as Brother Dong"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 1368
   raw: "1368#千凝#2#0#"
   translated: ""
@@ -13833,9 +13833,9 @@
     split: 1
     text: "怀蕊"
     translated: "Hold Yin"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 1448
   raw: "1448#萃#2#0#"
   translated: ""
@@ -14841,13 +14841,13 @@
   raw: "1539#冰蝶#2#8#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1619024+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:07.5932482+08:00
     split: 1
     text: "冰蝶"
-    translated: "Frozen Butterfly"
-    flaggedForRetranslation: true
+    translated: "Ice Butterfly"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 1540
   raw: "1540#孤丹#2#0#"
   translated: ""
@@ -15527,9 +15527,9 @@
     split: 1
     text: "金连"
     translated: "Master Jinlian"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1602
   raw: "1602#梦安#2#0#"
   translated: ""
@@ -16121,9 +16121,9 @@
     split: 1
     text: "高丽"
     translated: "Gaoli"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 1656
   raw: "1656#灭男#2#0#"
   translated: ""
@@ -16176,9 +16176,9 @@
     split: 1
     text: "可愁"
     translated: "How troubling!"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 1661
   raw: "1661#可燕#2#8#"
   translated: ""
@@ -16381,13 +16381,13 @@
   raw: "1679#冰香#2#8#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1654461+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:07.8048052+08:00
     split: 1
     text: "冰香"
     translated: "Frozen Fragrance"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 1680
   raw: "1680#凌香#2#8#"
   translated: ""
@@ -16649,9 +16649,9 @@
     split: 1
     text: "冷松"
     translated: "Lord Ling Song"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Lord,大人,"
+    flaggedHallucination: ""
 - lineNum: 1704
   raw: "1704#安雁#2#0#"
   translated: ""
@@ -17529,9 +17529,9 @@
     split: 1
     text: "梨愁"
     translated: "Brother Li is worried"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 1784
   raw: "1784#友琴#2#8#"
   translated: ""
@@ -18134,9 +18134,9 @@
     split: 1
     text: "芷蕾"
     translated: "Zhilei"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Zhi...,吱...,"
+    flaggedHallucination: ""
 - lineNum: 1839
   raw: "1839#谷冬#2#0#"
   translated: ""
@@ -18508,9 +18508,9 @@
     split: 1
     text: "老二"
     translated: "Younger Brother"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,Younger Brother,弟弟,"
+    flaggedHallucination: ""
 - lineNum: 1873
   raw: "1873#曼易#2#0#"
   translated: ""
@@ -18552,9 +18552,9 @@
     split: 1
     text: "谷秋"
     translated: "Guxiu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 1877
   raw: "1877#诗槐#2#0#"
   translated: ""
@@ -18860,9 +18860,9 @@
     split: 1
     text: "若枫"
     translated: "Roar, Autumn Leaf"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Roar,吼,"
+    flaggedHallucination: ""
 - lineNum: 1905
   raw: "1905#凝竹#2#0#"
   translated: ""
@@ -19179,9 +19179,9 @@
     split: 1
     text: "凡双"
     translated: "Brother Fan Shuang"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 1934
   raw: "1934#夜香#2#0#"
   translated: ""
@@ -19498,9 +19498,9 @@
     split: 1
     text: "岂愈"
     translated: "How could it possibly improve?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 1963
   raw: "1963#海雪#2#0#"
   translated: ""
@@ -20081,9 +20081,9 @@
     split: 1
     text: "善斓"
     translated: "Gentleman Lan"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gentleman,先生,"
+    flaggedHallucination: ""
 - lineNum: 2016
   raw: "2016#千雁#2#0#"
   translated: ""
@@ -20367,9 +20367,9 @@
     split: 1
     text: "谷云"
     translated: "Gusu Clouds"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 2042
   raw: "2042#以菱#2#0#"
   translated: ""
@@ -20418,12 +20418,12 @@
   raw: "2046#大娘#2#8#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1756964+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:07.8049225+08:00
     split: 1
     text: "大娘"
-    translated: "Auntie"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,"
+    translated: "Great Aunt"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2047
   raw: "2047#思枫#2#0#"
@@ -20473,13 +20473,13 @@
   raw: "2051#冰岚#2#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1758203+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:08.0024984+08:00
     split: 1
     text: "冰岚"
-    translated: "Frozen Mist"
-    flaggedForRetranslation: true
+    translated: "Ice Mist"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 2052
   raw: "2052#新晴#2#0#"
   translated: ""
@@ -20576,9 +20576,9 @@
     split: 1
     text: "芷蕊"
     translated: "Zhirui"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Zhi...,吱...,"
+    flaggedHallucination: ""
 - lineNum: 2061
   raw: "2061#寻真#2#0#"
   translated: ""
@@ -22380,9 +22380,9 @@
     split: 1
     text: "盼易"
     translated: "Hope it's easy"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 2225
   raw: "2225#听蓉#2#8#"
   translated: ""
@@ -22772,11 +22772,11 @@
   raw: "2260#三娘#2#8#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1810886+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:08.2039897+08:00
     split: 1
     text: "三娘"
-    translated: "San Niang"
-    flaggedForRetranslation: true
+    translated: "Third Sister"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2261
@@ -22787,9 +22787,9 @@
     split: 1
     text: "幺妹"
     translated: "Younger Sister"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Younger Sister,妹妹,"
+    flaggedHallucination: ""
 - lineNum: 2262
   raw: "2262#黎云#2#0#"
   translated: ""
@@ -23091,13 +23091,13 @@
   raw: "2289#冰菱#2#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:07.1829809+08:00
+  - lastTranslatedOn: 2025-02-24T17:28:08.4072626+08:00
     split: 1
     text: "冰菱"
-    translated: "Frozen Lotus"
-    flaggedForRetranslation: true
+    translated: "Bing Ling"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 2290
   raw: "2290#访曼#2#0#"
   translated: ""
@@ -23491,9 +23491,9 @@
     split: 1
     text: "之瑶"
     translated: "Zhiyao"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Zhi...,吱...,"
+    flaggedHallucination: ""
 - lineNum: 2326
   raw: "2326#夏寒#2#8#"
   translated: ""
@@ -23546,9 +23546,9 @@
     split: 1
     text: "问寒"
     translated: "How have you been?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 2331
   raw: "2331#访梦#2#8#"
   translated: ""
@@ -23832,9 +23832,9 @@
     split: 1
     text: "翠柏"
     translated: "Lady Jade Pine"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Lady,夫人,"
+    flaggedHallucination: ""
 - lineNum: 2357
   raw: "2357#翠安#2#0#"
   translated: ""
@@ -24195,9 +24195,9 @@
     split: 1
     text: "雁露"
     translated: "Geese Dew"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 2390
   raw: "2390#梦竹#2#8#"
   translated: ""
@@ -24338,9 +24338,9 @@
     split: 1
     text: "书雁"
     translated: "Book Geese"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 2403
   raw: "2403#曼雁#2#8#"
   translated: ""

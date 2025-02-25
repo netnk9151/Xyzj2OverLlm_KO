@@ -249,9 +249,9 @@
     split: 10
     text: "成为酒客"
     translated: "To become a tavern guest"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 73
   raw: "73#1#5#55#0#0#0#0#0#0&86#成为棋手#0#0###0#0##0#0#"
   translated: ""
@@ -1343,9 +1343,9 @@
     split: 10
     text: "切磋棍法"
     translated: "Testing and refining their staff techniques"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Staff,杖,"
+    flaggedHallucination: ""
 - lineNum: 5710
   raw: "5710#6187#1#9#0#0#0#0#0&27|6187|1#0&24|954905|1#切磋棍法#0#954905#0|34203|1##0#0#0#0#0#"
   translated: ""
@@ -1354,9 +1354,9 @@
     split: 10
     text: "切磋棍法"
     translated: "Testing and refining their staff techniques"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Staff,杖,"
+    flaggedHallucination: ""
 - lineNum: 5711
   raw: "5711#6188#1#9#0#0#0#0#0#0&24|954903|1#关外地貌#3380#0###0#0#0#0#0#"
   translated: ""
@@ -1409,9 +1409,9 @@
     split: 10
     text: "暗器大师"
     translated: "Master of Hidden Weapons"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 5717
   raw: "5717#6193#1#9#0#0#0#0#0&3|5012|1;24|954775|1#0&24|954774|1#暗器大师#0#954774#3926|0|4#0|5012|1#0#0#0#0#0#"
   translated: ""
@@ -1420,9 +1420,9 @@
     split: 10
     text: "暗器大师"
     translated: "Master of Hidden Weapons"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 5718
   raw: "5718#6194#1#9#0#0#0#0#0&30|954772|1#0&24|954769|1#藏书之谜#3382#0#3931|0|4##0#0#0#0#0#"
   translated: ""
@@ -1493,12 +1493,12 @@
   raw: "5724#6197#1#9#0#0#0#0#0&26|1|1|2|3384#0&26|1|2|2|3384#准备比试轻功#3384#0#3926|0|4##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5803412+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:09.7678656+08:00
     split: 10
     text: "准备比试轻功"
-    translated: "Prepare to test your lightness"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Prepared to compare qinggong abilities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5725
   raw: "5725#6198#1#9#0#0#0#0#0#0&24|954759|1#危险之地#3385#0###0#0#0#0#0#"
@@ -1790,23 +1790,23 @@
   raw: "5753#6231#1#9#0#0#0#0#0#0&27|6231|1#切磋剑法#3404#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5811310+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:09.9670463+08:00
     split: 10
     text: "切磋剑法"
-    translated: "Sharpening Swordsmanship"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Sword Art,剑法,"
+    translated: "Practice sword art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5754
   raw: "5754#6231#1#9#0#0#0#0#0&27|6231|1#0&24|954039|1#切磋剑法#0#954039#0|34014|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5811571+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:09.9670523+08:00
     split: 10
     text: "切磋剑法"
-    translated: "Sharpening Swordsmanship"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Sword Art,剑法,"
+    translated: "Practice sword art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5755
   raw: "5755#45388#1#9#0#0#0#0#0#0&24|954036|1;3|21006|1#峰顶怪人#0#954037###0#0#0#0#0#"
@@ -3210,24 +3210,24 @@
   raw: "1089001#1089#1#9#0#0#0#0#0&30|958053|1#0&24|960632|1#百里大哥可是有何麻烦事？#3841#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5836179+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:10.2948973+08:00
     split: 10
     text: "百里大哥可是有何麻烦事？"
-    translated: "What trouble is big brother Baidi in?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    translated: "What's the trouble that Master Baili has?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 1089002
   raw: "1089002#1089#1#9#0#0#0#0#0&27|31530|0;27|31531|0;27|31532|0#0&24|960612|1#百里大哥无需再担忧姑娘的事情了#0#960612#0|34415|1;0|92730|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5836437+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:10.7777037+08:00
     split: 10
     text: "百里大哥无需再担忧姑娘的事情了"
-    translated: "Brother Bai Li need not worry about the young lady's affairs anymore"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,Miss,姑娘,"
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,Young Lady,公主,Lady,夫人,"
+    translated: "Master Bai Li, there's no need for you to worry about the girl's matters anymore."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 1501003
   raw: "1501003#25118#4#46#0#0#0#修理#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -3324,9 +3324,9 @@
     split: 10
     text: "我应该怎么做才能保护云鹤村？"
     translated: "How should I act in order to protect Yun He Village?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 2006004
   raw: "2006004#2006#1#9#0#0#0#0#0&24|954189|1;27|20651|0#0&24|954184|1#我已将他剿灭#0#954184###0#0#0#0#0#"
   translated: ""
@@ -3380,9 +3380,9 @@
     split: 10
     text: "王铁大叔，今天天色不错啊"
     translated: "Uncle Wang Tie, the weather is quite nice today!"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 2025002
   raw: "2025002#2025#0#0#0#0#0#0#1&24|972278|1;24|972276|1;24|972274|1#0&24|972591|1#来论道吧！#1412#0###0#0#0#0#0#"
   translated: ""
@@ -3487,9 +3487,9 @@
     split: 10
     text: "伯子越相关"
     translated: "Brother Yu is related"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 2025014
   raw: "2025014#15056#1#9#0#0#0#0#0&24|954363|1;27|25938|0!;24|953540|0#1&24|953540|1;3|5055|1;3|45058|1#伯子越相关#0#954354###1#0#0#0#0#"
   translated: ""
@@ -3498,9 +3498,9 @@
     split: 10
     text: "伯子越相关"
     translated: "Brother Yu is related"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 2025016
   raw: "2025016#2025#1#9#0#0#0#0#0&24|954357|1;3|5055|1;3|45058|0;24|953540|0#1&24|954346|1;27|25938|0#伯子越相关：铸剑#3386#0###1#0#0#0#0#"
   translated: ""
@@ -3509,9 +3509,9 @@
     split: 10
     text: "伯子越相关：铸剑"
     translated: "Related to Brother Yue：Forge swords"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 2025019
   raw: "2025019#2025#4#20#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -3568,12 +3568,12 @@
   raw: "2027005#2027#1#21#600159#0#0#0#0&72|5401|5401001|1#0&79|0|600159|1|1#秘法：乌金玄汤卷#0#0###1#0#0#1#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5875459+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:10.7777334+08:00
     split: 10
     text: "秘法：乌金玄汤卷"
-    translated: "Arcane Method：Uijin Xuan Tang Scroll"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Black Gold,乌金,"
+    translated: "Ancient Secret Technique：The Black Gold Mystic Broth Scroll"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2027007
   raw: "2027007#2027#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -3884,12 +3884,12 @@
   raw: "5401003#5401#1#9#0#0#0#0#0&24|955041|1#0&24|955033|1#徐大哥，我有些事情找你#0#955033###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5884492+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:11.1587873+08:00
     split: 10
     text: "徐大哥，我有些事情找你"
-    translated: "Xu Dage, I need to talk to you about something"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "Xi Dage, I need to talk to you about something."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5411001
   raw: "5411001#5411#1#9#0#0#0#0#0#0&24|957692|1#听李承誉嘀咕#0#957692###0#0#0#0#0#"
@@ -3899,8 +3899,8 @@
     split: 10
     text: "听李承誉嘀咕"
     translated: "Listen to what Li Chengyu is mumbling"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Cluck,咕,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5411002
   raw: "5411002#5411#3#7#5#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -3914,12 +3914,12 @@
   raw: "5411004#5411#1#9#0#0#0#0#0&24|957692|1#0&24|971704|1#询问江湖醉的事情#0#970572###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5885255+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:11.5404369+08:00
     split: 10
     text: "询问江湖醉的事情"
-    translated: "Asking about the matters related to Jiang Hu Zui"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "Asking about the matters of Jianghu that concern intoxication."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5411006
   raw: "5411006#5411#1#21#600160#0#0#0#0&72|32028|32028001|1#0&79|0|600160|1|1#秘法：无相御风#0#0###1#0#0#1#0#"
@@ -4296,9 +4296,9 @@
     split: 10
     text: "守卫藏经阁"
     translated: "Guard of the Scripture Repository"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 6904010
   raw: "6904010#6904#1#9#0#0#0##1&24|934092|1#1&24|932378|1#击败白斩狂#20051#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -4362,9 +4362,9 @@
     split: 10
     text: "抢猹猹"
     translated: "Grabbing the tiger by its tail"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Tiger,虎,"
+    flaggedHallucination: ""
 - lineNum: 7030001
   raw: "7030001#7030#1#9#0#0#0#0###春夏秋冬#5811#0###0#0#0#0#0#"
   translated: ""
@@ -4483,9 +4483,9 @@
     split: 10
     text: "让他教自己钓鱼"
     translated: "Let him teach you how to fish"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 8801001
   raw: "8801001#88010#3#7#5#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -4703,9 +4703,9 @@
     split: 10
     text: "高僧遗嘱"
     translated: "High Monk's Testament"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Monk,僧侣,"
+    flaggedHallucination: ""
 - lineNum: 10143001
   raw: "10143001#10143#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -4753,9 +4753,9 @@
     split: 10
     text: "镖局危机"
     translated: "The Courier Guild's Crisis"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 15009001
   raw: "15009001#15009#1#21#401901#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -4820,9 +4820,9 @@
     split: 10
     text: "对弈一局"
     translated: "Play a game of Go"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 15061001
   raw: "15061001#15061#1#9#0#0#0#0#0&24|972622|1#1&24|988805|1;24|988803|1#对弈一局#1417#0###0#0#0#0#0#"
   translated: ""
@@ -4831,9 +4831,9 @@
     split: 10
     text: "对弈一局"
     translated: "Play a game of Go"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 15180001
   raw: "15180001#15180#1#21#325118#0#10000#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -4886,12 +4886,12 @@
   raw: "16522601#165226#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5908131+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:11.8707899+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 16522602
   raw: "16522602#165226#2#9#0#0#0#0#0&102#0&102!#参加剑术相关的活动#6521#0###0#0#0#0#0#"
@@ -4989,12 +4989,12 @@
   raw: "16522901#165229#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5912462+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:11.8708032+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 16522902
   raw: "16522902#165229#2#9#0#0#0#0#0&102#0&102!#参加剑术相关的活动#6521#0###0#0#0#0#0#"
@@ -6149,9 +6149,9 @@
     split: 10
     text: "我要怎么做？"
     translated: "How should I proceed?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 20454008
   raw: "20454008#20454#2#77#1#0#0#0##0&86#邀请同行#0#0###0#0#1&24|953767|1;24|953763|1#0##"
   translated: ""
@@ -6306,9 +6306,9 @@
     split: 10
     text: "老板，你说的特制礼香怎么制作？"
     translated: "Manager, how is this special ceremonial incense made?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 25192003
   raw: "25192003#25192#1#9#0#0#0#0#0&24|977726|1;3|37039|1#0&24|982332|1#拿出陈年沉香#1403#0#3916|0|4#0|37039|1#0#0#0#0#0#"
   translated: ""
@@ -6490,9 +6490,9 @@
     split: 10
     text: "秘法：逍遥子运睛"
     translated: "Ancient Secret Technique：The Master Xuanying squints his eyes"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 25222003
   raw: "25222003#25222#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -7031,9 +7031,9 @@
     split: 10
     text: "兄台可曾见过一位叫姜隐儿的小女孩？"
     translated: "Brother, have you ever seen a little girl named Jiang Yin'er?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 25732001
   raw: "25732001#25732#3#7#13#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -7080,9 +7080,9 @@
     split: 10
     text: "请问大师如何能够心安？"
     translated: "Please tell me, how can Master achieve inner peace?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30026002
   raw: "30026002#30026#1#9#0#0#0#0#0&24|988539|1#0&24|990393|1#请问大师如何能够心安？#0#957694###0#0#0#0#0#"
   translated: ""
@@ -7091,9 +7091,9 @@
     split: 10
     text: "请问大师如何能够心安？"
     translated: "How can the Master find peace of mind?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30027001
   raw: "30027001#30027#0#0#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -7332,9 +7332,9 @@
     split: 10
     text: "冯大叔，怎么一个人在这儿喝酒呢？"
     translated: "Uncle Feng, how come you're drinking alone here?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 30079002
   raw: "30079002#30079#1#9#0#0#0#0#0&24|988859|1#0&24|988850|1#刚才你说的酒叫什么名字？#0#957552###0#0#0#0#0#"
   translated: ""
@@ -7391,9 +7391,9 @@
     split: 10
     text: "伯子越相关"
     translated: "Brother Yu is related"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30079009
   raw: "30079009#30079#1#9#0#0#0#0#0&24|954351|1;3|25015|2;3|25016|2;24|953540|0#1&24|954342|1;27|25938|0#伯子越相关：酿酒#3388#0###1#0#0#0#0#"
   translated: ""
@@ -7402,9 +7402,9 @@
     split: 10
     text: "伯子越相关：酿酒"
     translated: "Brother Ziyue related：Brewing wine"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30081002
   raw: "30081002#30081#2#27#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -7517,9 +7517,9 @@
     split: 10
     text: "这位兄台收成如何？"
     translated: "How has your harvest been?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30100002
   raw: "30100002#30100#1#9#0#0#0#0#0&24|986194|1;3|37083|1#0&24|986180|1#拿出云鱼#0#986180#0|30002|1;0|54088|1#0|37083|1#0#0#0#0#0#"
   translated: ""
@@ -7539,9 +7539,9 @@
     split: 10
     text: "沈兄是想要什么鱼来着？"
     translated: "Is Brother Shen referring to a specific kind of fish?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30101001
   raw: "30101001#30101#3#7#22#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -7565,9 +7565,9 @@
     split: 10
     text: "如何才能告诉我？"
     translated: "How can I tell you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30101004
   raw: "30101004#30101#1#9#0#0#0#0#0&24|952974|1;3|37082|3#0&24|952966|1#现在可否告诉我了？#0#952966###0#0#0#0#0#"
   translated: ""
@@ -7657,9 +7657,9 @@
     split: 10
     text: "兄弟似乎是从军归来在寻良配？"
     translated: "It seems like Brother is returning from the army in search of a suitable match?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,"
+    flaggedHallucination: ""
 - lineNum: 30112001
   raw: "30112001#30112#1#9#0#0#0#0#0&3|37067|1#0&24|973522|1#拿出介绍信#0#973522##0|37067|1#0#0#0#0#0#"
   translated: ""
@@ -7686,13 +7686,13 @@
   raw: "30113001#30113#1#9#0#0#0#0#0&30|971960|1#0&24|986107|1#孔莹姑娘身上的味道是怎么来的？#0#957403###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5965721+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:12.2105482+08:00
     split: 10
     text: "孔莹姑娘身上的味道是怎么来的？"
-    translated: "How did the fragrance on Niang Nu Kong come to be?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
-    flaggedHallucination: "Ho..,齁...,"
+    translated: "How did the scent on Miss Kong Ying come about?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30113002
   raw: "30113002#30113#1#9#0#0#0#0#0&24|957403|1;3|37070|1#0&24|986107|1#孔莹姑娘试试这个香包是否有用#0#986107#0|37069|1##0#0#0#0#0#"
   translated: ""
@@ -7837,23 +7837,23 @@
   raw: "30121001#30121#1#9#0#0#0#0#0&30|971947|1#0&24|986018|1#祖传宝刀？被卖到哪去了？#0#957387###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5969322+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:12.4824856+08:00
     split: 10
     text: "祖传宝刀？被卖到哪去了？"
-    translated: "Where did our family heirloom sword get sold to?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "The ancestral family blade was sold to where?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30121002
   raw: "30121002#30121#1#9#0#0#0#0#0&30|971947|1;3|37074|1#0&24|986018|1#拿出祖传宝刀#1460#0##0|37074|1#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5969597+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:12.7133500+08:00
     split: 10
     text: "拿出祖传宝刀"
-    translated: "Bring out your ancestral sword"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Bring out the ancestral blade."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30121003
   raw: "30121003#30121#1#9#0#0#0#0#0&24|986018|1;3|18003|3#0&24|953204|1#百灵丹取回来了#1460#0#0|34317|1#0|18003|3#0#0#0#0#0#"
@@ -7918,9 +7918,9 @@
     split: 10
     text: "难道真没办法弄来糖人？"
     translated: "Is it really impossible to get a candied fruit?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 30130001
   raw: "30130001#30130#1#9#0#0#0#0#0&30|971934|1;3|37117|1#0&24|973427|1#拿出糖人#0#973427#3921|0|3:0|1806|1;0|37078|1#0|37117|1#0#0#0#0#0#"
   translated: ""
@@ -7936,12 +7936,12 @@
   raw: "30132001#30132#1#9#0#0#0#0#0&30|971945|1#0&24|985959|1#沈大娘你的竹条去哪了？#0#957382###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5972445+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:13.0406381+08:00
     split: 10
     text: "沈大娘你的竹条去哪了？"
-    translated: "Shen Nainiang, where did your bamboo stick go?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,"
+    translated: "Where did your bamboo cane go, Auntie Shen?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30132002
   raw: "30132002#30132#1#9#0#0#0#0#0&30|971945|1;3|37081|1#0&24|985959|1#拿出竹条#1475#0#0|37079|1;3916|0|5;0|94450|1#0|37081|1#0#0#0#0#0#"
@@ -7958,24 +7958,24 @@
   raw: "30134001#30134#1#9#0#0#0#0#0&30|971939|1#0&24|973471|1#武林趣闻是什么？#0#957378###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5972977+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:13.2710171+08:00
     split: 10
     text: "武林趣闻是什么？"
-    translated: "Wuxia anecdotes are interesting stories or tales from the martial arts world, often highlighting heroic deeds, skilled warriors, and intriguing events within that realm"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wulin,武林,"
-    flaggedHallucination: "Wuxia,武侠,Wu...,呜...,"
+    translated: "What are Wulin anecdotes?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30134002
   raw: "30134002#30134#1#9#0#0#0#0#0&30|971939|1;3|37078|1##拿出武林趣闻一#1476#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5973253+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:13.5863020+08:00
     split: 10
     text: "拿出武林趣闻一"
-    translated: "In ancient times, there was a notorious swordsman known as Xiao Long. One day, while wandering through the mountains, he stumbled upon an old hermit who claimed to be the greatest master of swordsmanship in the world. Intrigued, Xiao Long challenged him to a duel.\n\nThe hermit accepted and, with incredible speed and precision, defeated Xiao Long in just three strikes. However, rather than punishing him, the hermit revealed that he had intentionally let himself be beaten so that Xiao Long could recognize his own shortcomings and learn from them. This humbling experience inspired Xiao Long to devote years of his life to training under the hermit's guidance.\n\nYears later, Xiao Long became one of the most respected swordsmen in the world, always attributing his success to the lesson he learned from that unexpected defeat"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wulin,武林,"
-    flaggedHallucination: "Master,师傅,"
+    translated: "Share an entertaining anecdote from the martial world."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30134003
   raw: "30134003#30134#1#9#0#0#0#0#0&30|971939|1;3|37079|1##拿出武林趣闻二#1476#0###0#0#0#0#0#"
   translated: ""
@@ -7984,20 +7984,20 @@
     split: 10
     text: "拿出武林趣闻二"
     translated: "Bring out another piece of Wulin anecdote"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 30134004
   raw: "30134004#30134#1#9#0#0#0#0#0&30|971939|1;3|37080|1##拿出武林趣闻三#1476#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5973882+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:17.5771588+08:00
     split: 10
     text: "拿出武林趣闻三"
-    translated: "Here are three anecdotes from the martial world:\n\n1. An old master once taught that a true warrior's strength lies not in their fists, but in their heart and spirit.\n2. A famous duel was interrupted by a sudden storm; both fighters agreed to resume when the sun came out again, displaying mutual respect.\n3. In ancient times, a young disciple saved his teacher from bandits using clever tactics rather than brute force, earning great admiration"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wulin,武林,"
-    flaggedHallucination: "Master,师傅,"
+    translated: "Here are three interesting anecdotes from the martial arts world:\n\n1. In the early days of Wulin, a renowned swordsman once challenged his peers to a duel at dawn in a secluded mountain valley. Little did they know, he had secretly trained an eagle to swoop down and distract them during the fight. The eagle's intervention led to his unexpected victory, earning him the nickname The Hawk-eyed Swordsman.\n\n2. Another tale tells of a master who could communicate with animals. It was said that before a significant battle, he would consult with a wise old turtle to strategize his moves. His opponents were baffled by his uncanny ability to predict their actions and counter them effectively.\n\n3. Lastly, there's the story of a monk who was so dedicated to his training that he meditated atop a pillar for weeks at a time. Legend has it that during one such meditation, a dragon descended from the clouds to test his resolve. The monk remained undisturbed, earning him respect and admiration throughout Wulin."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30135001
   raw: "30135001#30135#1#9#0#0#0#0#0&24|973471|1#0&24|973453|1#这位兄台，在下有事请教#0#973453###0#0#0#0#0#"
   translated: ""
@@ -8006,9 +8006,9 @@
     split: 10
     text: "这位兄台，在下有事请教"
     translated: "I have a matter to inquire about, Brother. May I ask you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30135002
   raw: "30135002#30135#1#9#0#0#0#0#0&24|973467|1;3|17002|1;24|973453|1#0&24|973445|1#拿出香蕉#0#973445#0|37070|1#0|17002|1#0#0#0#0#0#"
   translated: ""
@@ -8039,9 +8039,9 @@
     split: 10
     text: "兄台，你很强吗？"
     translated: "Brother, are you very strong?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30135009
   raw: "30135009#30135#2#28#0#0#0##0&24|938340|1##战个痛快！#0#0###0#0#0#0#0#"
   translated: ""
@@ -8072,9 +8072,9 @@
     split: 10
     text: "阁下可是豫京食神李味道？"
     translated: "You must be the renowned culinary master from Yuejing, Li Weida?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30144002
   raw: "30144002#30144#1#9#0#0#0#0#0&24|986203|1;3|22003|1#0&24|986197|1#拿出麻婆豆腐#0#986197#0|64314|1#0|22003|1#0#0#0#0#0#"
   translated: ""
@@ -8226,9 +8226,9 @@
     split: 10
     text: "孙大叔你没事吧？"
     translated: "Are you okay, Uncle Sun?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 30164001
   raw: "30164001#30164#1#9#0#0#0#0#0&24|973336|1#0&24|973325|1#质问长天逸#1499#0###0#0#0#0#0#"
   translated: ""
@@ -8351,9 +8351,9 @@
     split: 10
     text: "姒丹兄弟别来无恙"
     translated: "Brother Si Dan, it's good to see you're well"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,"
+    flaggedHallucination: ""
 - lineNum: 30197001
   raw: "30197001#30197#1#9#0#0#0#0#1&24|976469|1;24|976467|1#0&24|976465|1#杜勾，近来如何？#2022#0###0#0#0#0#0#"
   translated: ""
@@ -8362,9 +8362,9 @@
     split: 10
     text: "杜勾，近来如何？"
     translated: "Master Du, how have you been lately?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30197002
   raw: "30197002#30197#1#9#0#0#0#0#0&24|976465|1#0&24|976453|1#你是……杜勾？#2023#0###0#0#0#0#0#"
   translated: ""
@@ -8384,9 +8384,9 @@
     split: 10
     text: "你还好吧？"
     translated: "How are you doing?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30209001
   raw: "30209001#30209#3#7#22#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -8399,13 +8399,13 @@
   raw: "30227001#30227#1#9#0#0#0#0#0&24|976057|1#0&24|976046|1#你可是教导虎子的先生？#2025#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5984460+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:17.9054445+08:00
     split: 10
     text: "你可是教导虎子的先生？"
-    translated: "Are you the master who taught Tiger Cub?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gentleman,先生,"
-    flaggedHallucination: "Master,师傅,"
+    translated: "Are you the gentleman who teaches the tiger cub?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30227002
   raw: "30227002#30227#1#9#0#0#0#0#0&24|976046|1#0&24|976011|1#在下来回答问题#2025#0###0#0#0#0#0#"
   translated: ""
@@ -8524,18 +8524,18 @@
     split: 10
     text: "虎子，让哥哥来指点你如何？"
     translated: "Hu Zi, let your brother show you the way?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30245001
   raw: "30245001#30245#1#9#0#0#0#0#0&30|957299|1#0&24|976270|1#大婶，您这是怎么了？#0#976270###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5987645+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:18.2300744+08:00
     split: 10
     text: "大婶，您这是怎么了？"
-    translated: "Html\nAuntie, what's wrong with you?\n"
-    flaggedForRetranslation: true
+    translated: "Auntie, what's wrong with you?"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30245002
@@ -8601,9 +8601,9 @@
     split: 10
     text: "我要怎么帮你？"
     translated: "How can I help you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30252004
   raw: "30252004#30252#1#9#0#0#0#0#0&27|30581|0;27|30582|0#0&24|953625|1#你们没事吧？#0#953625#3926|0|5;0|92710|1##0#0#0#0#0#"
   translated: ""
@@ -8634,9 +8634,9 @@
     split: 10
     text: "大师，我还是决定施舍一些"
     translated: "Master, I have decided to give some away"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30254002
   raw: "30254002#30254#1#9#0#0#0#0#0&24|975985|1#0&24|975981|1#你这人怎地在这里喝酒吃肉？#2044#0###0#0#0#0#0#"
   translated: ""
@@ -8711,9 +8711,9 @@
     split: 10
     text: "与耿才俊交谈"
     translated: "Speak with Geng Caijun"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 30273001
   raw: "30273001#30273#1#9#0#0#0#0#0&27|30267|0#0&24|976341|1#与卫天籁交谈#5078#0#3931|0|6##0#0#0#0#0#"
   translated: ""
@@ -8865,9 +8865,9 @@
     split: 10
     text: "柳大夫，我只寻到七株天麻"
     translated: "Master Liu, I have only found seven stalks of heavenly ginseng"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30296003
   raw: "30296003#30296#1#9#0#0#0#0#0&24|976223|1;3|37103|8#1&24|976217|1;24|976190|1#幸不辱命，八株天麻我带回来了#2066#0#0|95520|1#0|37103|8#0#0#0#0#0#"
   translated: ""
@@ -9015,13 +9015,13 @@
   raw: "30356011#30356#1#9#0#0#0#0#0&24|959469|1#0&24|959462|1#谭大人没在忙吧？#0#959462###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5999852+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:18.4652989+08:00
     split: 10
     text: "谭大人没在忙吧？"
-    translated: "Isn't Master Tan busy?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lord,大人,"
-    flaggedHallucination: "Master,师傅,"
+    translated: "Isn't Lord Tan busy?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30356012
   raw: "30356012#30356#1#9#0#0#0#0#0&3|37275|1#0&24|954916|1#机要文件#0#954916#7011|0|1#0|37275|1#0#0#0#0#0#"
   translated: ""
@@ -9052,9 +9052,9 @@
     split: 10
     text: "大叔，我应该去找谁？"
     translated: "Uncle, who should I go to?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 30358003
   raw: "30358003#30358#1#9#0#0#0#0#0&24|956960|1;3|37230|1#0&24|956935|1#拿出斧子#0#956935##0|37230|1#0#0#0#0#0#"
   translated: ""
@@ -9096,9 +9096,9 @@
     split: 10
     text: "怎么样？没伤着吧？"
     translated: "How are you doing? You didn't get hurt, did you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30373001
   raw: "30373001#30373#1#9#0#0#0#0#0&24|974270|1#0&24|956994|1#你说的贩卖梦山遗物的人在哪？#0#956994###0#0#0#0#0#"
   translated: ""
@@ -9140,9 +9140,9 @@
     split: 10
     text: "你出价多少？"
     translated: "How much are you bidding?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30373005
   raw: "30373005#30373#1#9#0#0#0#0#0&24|964532|1#0&24|964526|1#你说那人身处何方？#0#956992###0#0#0#0#0#"
   translated: ""
@@ -9162,9 +9162,9 @@
     split: 10
     text: "大师有何见解？"
     translated: "The master has any insights?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30382001
   raw: "30382001#30382#1#9#0#0#0#0#0&27|30622|0;27|30623|0;27|30624|0;27|30625|0#0&24|974219|1#你可无恙？#2376#0###0#0#0#0#0#"
   translated: ""
@@ -9331,9 +9331,9 @@
     split: 10
     text: "要怎么才能钓得上来？"
     translated: "How do I manage to catch it?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30418002
   raw: "30418002#30418#1#9#0#0#0#0#0&30|971643|1;3|37115|1;3|37116|1#0&24|953436|1#拿出胡杨木和狼背筋#0#953436#0|96020|1#0|37115|1&0|37116|1#0#0#0#0#0#"
   translated: ""
@@ -9460,9 +9460,9 @@
     split: 10
     text: "如何才能钓起凤尾鱼？"
     translated: "How can one catch a kingfish?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30446002
   raw: "30446002#30446#1#9#0#0#0#0#1&24|974558|1;24|974560|1#0&24|974555|1#沈兄没了干扰，收获如何#0#974556#0|1803|1##0#0#0#0#0#"
   translated: ""
@@ -9471,9 +9471,9 @@
     split: 10
     text: "沈兄没了干扰，收获如何"
     translated: "How has Brother Shen's harvest been now that there are no more disturbances?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 30456001
   raw: "30456001#30456#1#9#0#0#0#0#0&24|974569|1#1&24|974558|1;24|974560|1#这位兄台，可以不要再干扰钓鱼了吗？#2134#0###0#0#0#0#0#"
   translated: ""
@@ -9493,9 +9493,9 @@
     split: 10
     text: "对弈一局"
     translated: "Play a game of Go"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 30462001
   raw: "30462001#30462#1#9#0#0#0#0#0&30|956577|1#0&24|974499|1#我左右无事，便来帮忙讨一份喜气#0#974499###0#0#0#0#0#"
   translated: ""
@@ -9658,9 +9658,9 @@
     split: 10
     text: "你的父亲，可是名叫乌桢？"
     translated: "Your father, isn't his name Wu Zhen?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Father,爹,"
+    flaggedHallucination: ""
 - lineNum: 30476002
   raw: "30476002#30476#1#9#0#0#0#0#0&27|32287|0;24|974421|1#0&24|952197|1#程坤已死#0#952197#0|90630|1##0#0#0#0#0#"
   translated: ""
@@ -9687,41 +9687,41 @@
   raw: "30520003#30520#1#9#0#0#0#0#0#0&24|960058|1#万大哥，今儿天气可真不错啊#3834#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6015572+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:18.8352262+08:00
     split: 10
     text: "万大哥，今儿天气可真不错啊"
-    translated: "Wan Dage, the weather today is really nice!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "Wan, Senior Brother, the weather is really nice today."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520004
   raw: "30520004#30520#1#9#0#0#0#0#0&30|972556|1#0&24|973530|1#万大哥可曾见过什么可疑的人？#0#957655###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6015845+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:19.1362248+08:00
     split: 10
     text: "万大哥可曾见过什么可疑的人？"
-    translated: "Has Brother Wan ever encountered any suspicious individuals?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    translated: "Has Big Brother Wan ever seen any suspicious people?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 30520005
   raw: "30520005#30520#1#9#0#0#0#0#0&24|960058|1#0&24|959688|1#询问轻功的传闻#5046#0###0#0#0&18|1|68|1600|>#0#金钱＞1600#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6016117+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:19.4474857+08:00
     split: 10
     text: "询问轻功的传闻"
-    translated: "Ask about rumors concerning martial arts skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Ask about the rumors concerning qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6016329+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:19.7808070+08:00
     split: 19
     text: "金钱＞1600"
-    translated: "Money is greater than 1600"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Coins > 1,600"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520006
   raw: "30520006#30520#1#9#0#0#0#0#0&24|960058|1#0&24|957508|1#询问高手的传闻#5047#0###0#0#0&18|1|68|1600|>#0#金钱＞1600#"
@@ -9731,15 +9731,15 @@
     split: 10
     text: "询问高手的传闻"
     translated: "Asking about rumors of a master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
-  - lastTranslatedOn: 2025-02-24T16:19:59.6016813+08:00
+    flaggedHallucination: ""
+  - lastTranslatedOn: 2025-02-24T17:25:19.7808137+08:00
     split: 19
     text: "金钱＞1600"
-    translated: "Money is greater than 1600"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Coins > 1,600"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520007
   raw: "30520007#30520#1#9#0#0#0#0#0&24|960058|1#0&24|957507|1#询问宝箱的传闻#5048#0###0#0#0&18|1|68|1600|>#0#金钱＞1600#"
@@ -9752,12 +9752,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6017296+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:19.7808150+08:00
     split: 19
     text: "金钱＞1600"
-    translated: "Money is greater than 1600"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Coins > 1,600"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520008
   raw: "30520008#30520#1#9#0#0#0#0#0&24|960058|1#0&24|939821|1#询问关于宝物的传闻#5387#0###0#0#0&18|1|68|1600|>#0#金钱＞1600#"
@@ -9770,23 +9770,23 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6017769+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:19.8961042+08:00
     split: 19
     text: "金钱＞1600"
-    translated: "Money is greater than 1600"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Coins > 1,600"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520009
   raw: "30520009#30520#1#9#0#0#0#0##0&24|954375|1#询问百战刀圣传闻#3391#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6018037+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:20.4724394+08:00
     split: 10
     text: "询问百战刀圣传闻"
-    translated: "Asking about the rumors concerning Baizhan Daosheng, the Sword Saint of a Hundred Battles"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Seeking the legend of Bai Zhan Dao Sheng, the Sword Immortal who has fought a hundred battles."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520010
   raw: "30520010#30520#1#41#0#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -9800,30 +9800,30 @@
     split: 10
     text: "我的宝物怎么样了？"
     translated: "How is my treasure doing?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30520012
   raw: "30520012#30520#1#9#0#0#0#0#0&24|990380|1#0&24|949351|1#询问江湖人士的传闻#0#949351###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6018627+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:20.8120346+08:00
     split: 10
     text: "询问江湖人士的传闻"
-    translated: "Ask about rumors among martial artists"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "Ask about the rumors among people of the Jianghu."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520013
   raw: "30520013#30520#1#9#0#0#0#0#0&24|949351|1#0&24|949349|1#询问江湖人士的传闻#0#949349###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6018895+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:20.8120406+08:00
     split: 10
     text: "询问江湖人士的传闻"
-    translated: "Ask about rumors among martial artists"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "Ask about the rumors among people of the Jianghu."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520014
   raw: "30520014#30520#1#9#0#0#0#0#0&24|939812|1#0&24|939806|1#质问万事通#5390#0###0#0#0#0#0#"
@@ -9874,9 +9874,9 @@
     split: 10
     text: "我要如何才能了解七星棋盘的事情？"
     translated: "How can I learn about the Seven-Star Chessboard?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30530002
   raw: "30530002#30530#1#9#0#0#0#0#0&27|30528|1;27|30529|1#0&24|972081|1#我已击败棋奴棋侍#0#972081###0#0#0#0#0#"
   translated: ""
@@ -9922,9 +9922,9 @@
     split: 10
     text: "如何，我的功夫可堪入眼？"
     translated: "How do you find my martial skills, worthy of a closer look?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 30690002
   raw: "30690002#30690#1#21#600176#0#0#0#0#0#秘法：归一无根#0#0###0#0#0#0#0#"
   translated: ""
@@ -9970,9 +9970,9 @@
     split: 10
     text: "老爷子，可别来无恙？"
     translated: "Old Master, how have you been keeping?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 30797001
   raw: "30797001#30797#1#21#300001#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -10022,23 +10022,23 @@
   raw: "30834001#30834#1#9#0#0#0#0#0#0&27|30834|1#阁下很擅长使刀？#5326#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6023512+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:21.0826477+08:00
     split: 10
     text: "阁下很擅长使刀？"
-    translated: "Are you skilled at wielding a sword?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Are you skilled in wielding the blade, sir?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30834002
   raw: "30834002#30834#1#9#0#0#0#0#0&27|30834|1#0&24|950916|1#前辈，承让了#0#950916#0|54333|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6023778+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:21.3798193+08:00
     split: 10
     text: "前辈，承让了"
-    translated: "Senior, I concede"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Thank you for letting me win,承让了,"
+    translated: "Senior, thank you for letting me win."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30835001
   raw: "30835001#30835#1#9#0#0#0#0#0&24|970883|1;24|970881|1!#0#陈豪志已除#3975#0###0#0#0#0#0#"
@@ -10096,12 +10096,12 @@
   raw: "30944004#30944#1#9#0#0#0#0#0&27|30944|1;24|970798|1#0&24|970789|1#承让了#0#970789#0|1187|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6025329+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:21.6351745+08:00
     split: 10
     text: "承让了"
-    translated: "Withdrew gracefully"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Thank you for letting me win,承让了,"
+    translated: "Thank you for letting me win."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30944005
   raw: "30944005#30944#1#9#0#0#0#0#0&24|970798|1#0&27|30944|1;24|970798|1#方才想让我做什么？#0#970794###0#0#0#0#0#"
@@ -10181,9 +10181,9 @@
     split: 10
     text: "你的实力怎么……"
     translated: "Your strength, how could it possibly...?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31010001
   raw: "31010001#31010#1#9#0#0#0#0#0&24|969901|1#0&24|969897|1#询问轮轴的事情#3943#0###0#0#0#0#0#"
   translated: ""
@@ -10322,9 +10322,9 @@
     split: 10
     text: "兄台好久不见"
     translated: "It's been a long time, brother"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31022001
   raw: "31022001#31022#1#9#0#0#0#0#0&24|969456|1#0&24|969454|1#老板住店#3930#0###0#0#0#0#0#"
   translated: ""
@@ -10340,12 +10340,12 @@
   raw: "31022002#31022#1#9#0#0#0#0#0&24|969452|1#0&24|958302|1#要回钱财#3931#0#3916|0|3##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6043445+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:21.9008794+08:00
     split: 10
     text: "要回钱财"
-    translated: "Desire to recover lost wealth"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Seeking to reclaim one's wealth."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31022003
   raw: "31022003#31022#1#9#0#0#0#0#0&27|31033|0;27|31034|0;27|31035|0;27|31036|0;27|31037|0#0&24|969439|1#你这厮知道错了吗？#3935#0###0#0#0#0#0#"
@@ -10440,9 +10440,9 @@
     split: 10
     text: "询问澄谷槐的事情"
     translated: "Asking about matters concerning Brother Qingguxuai"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31029003
   raw: "31029003#31029#1#9#0#0#0#0#0&24|958300|1#0&24|969070|1#讨要玄门法#3922#0###0#0#0#0#0#"
   translated: ""
@@ -10524,12 +10524,12 @@
   raw: "31049001#31049#1#9#0#0#0#0#0&24|968997|1#0&24|968598|1#你可是镇军枪段泉？#0#968519###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6048039+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:22.3196653+08:00
     split: 10
     text: "你可是镇军枪段泉？"
-    translated: "Are you Zhang Junqiang, from the Du Quan faction?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,"
+    translated: "Are you the renowned spear officer, Zhenjun Qian?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31049002
   raw: "31049002#31049#1#9#0#0#0#0#0&24|968598|1#0#替翁城铭报仇#3915#0###0#0#0#0#0#"
@@ -10568,12 +10568,12 @@
   raw: "31060001#31060#1#9#0#0#0#0#1&24|968279|1;24|968264|1#0&24|968269|1#请教轻功#3912#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6049080+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:22.5791739+08:00
     split: 10
     text: "请教轻功"
-    translated: "Please teach me martial arts skills"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "May I learn qinggong?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31061001
   raw: "31061001#31061#1#9#0#0#0#0#0&30|968312|1#0#你怎地在此处诵读菩提经？#3939#0###0#0#0#0#0#"
@@ -10583,9 +10583,9 @@
     split: 10
     text: "你怎地在此处诵读菩提经？"
     translated: "How come you are reciting the Heart Sutra here?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31074001
   raw: "31074001#31074#1#21#350062#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -10598,9 +10598,9 @@
     split: 10
     text: "对弈"
     translated: "Engaging in a game of chess"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 31112002
   raw: "31112002#31112#1#9#0#0#0#0#0&3|37169|1#0&24|967767|1#拿出云弈棋盘#3905#0###0#0#0#0#0#"
   translated: ""
@@ -10727,9 +10727,9 @@
     split: 10
     text: "谷兄可安排妥当？"
     translated: "Has Brother Gu arranged everything properly?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31174002
   raw: "31174002#31174#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -10779,9 +10779,9 @@
     split: 10
     text: "询问开启书库的方式"
     translated: "Asking about how to open the library"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31176005
   raw: "31176005#31176#1#9#0#0#0#0#0&24|964612|1#1&24|964555|1;3|37170|5#现在总可以告诉我了吧#0#958087###0#0#0#0#0#"
   translated: ""
@@ -10801,9 +10801,9 @@
     split: 10
     text: "如何才能告诉我机杼天工板的事情"
     translated: "How can I be informed about the matter of Jihe Tian Gong Ban?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31217001
   raw: "31217001#31217#1#9#0#0#0#0#0&27|31837|0;27|31838|0;27|31839|0;27|31840|0#0&24|964746|1#询问陈浩轩#5081#0###0#0#0#0#0#"
   translated: ""
@@ -10838,13 +10838,13 @@
   raw: "31403001#31403#1#9#0#0#0#0#0&24|960679|1#0&24|960669|1#闻人前辈别来无恙#0#960669#0|37126|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6055288+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:23.0012125+08:00
     split: 10
     text: "闻人前辈别来无恙"
-    translated: "Uncle Wenren, glad to see you're well"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior,前辈,"
-    flaggedHallucination: "Uncle,舅舅,"
+    translated: "Hearing that Brother Wenren is well, it's good to see you."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 31418001
   raw: "31418001#31418#1#9#0#0#0#0#0&24|961169|1#0&24|958024|1#我们现在就出发吧#3869#0###0#0#0#0#0#"
   translated: ""
@@ -10972,20 +10972,20 @@
     split: 10
     text: "阁下请安心，我已将金块交给贝梧"
     translated: "Please be at ease, Master. I have already handed the gold bars over to Bei Wu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31626001
   raw: "31626001#31626#1#9#0#0#0#0#0&24|959980|1#1&24|959954|1;24|959959|1#有些问题想向先生请教#3823#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6058535+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:23.3447306+08:00
     split: 10
     text: "有些问题想向先生请教"
-    translated: "There are a few questions I'd like to ask Master"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gentleman,先生,"
-    flaggedHallucination: "Master,师傅,"
+    translated: "I have some questions I'd like to ask the gentleman."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 31627001
   raw: "31627001#31627#1#9#0#0#0#0#0#0&24|959980|1#淮陵美食实在珍品，我亦十分喜爱#0#959980###0#0#0#0#0#"
   translated: ""
@@ -11005,20 +11005,20 @@
     split: 10
     text: "我能帮阁下做什么？"
     translated: "How may I assist you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31627003
   raw: "31627003#31627#1#9#0#0#0#0#0&24|959971|1#0&24|959972|1#我可以帮你引开班先生#0#959972###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6059341+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:23.6135351+08:00
     split: 10
     text: "我可以帮你引开班先生"
-    translated: "I can help you distract Brother Han"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gentleman,先生,"
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    translated: "I can help you distract Brother Ban."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 31642001
   raw: "31642001#31642#1#9#0#0#0#0#0#0&27|31646|0;27|31647|0;27|31648|0#挑战九转金刚阵第一关#3818#0###0#0#0#0#0#"
   translated: ""
@@ -11027,9 +11027,9 @@
     split: 10
     text: "挑战九转金刚阵第一关"
     translated: "Face the challenge of passing through the first gate of the Jiuzhuan Jinguang Formation"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 31642002
   raw: "31642002#31642#1#9#0#0#0#0#0&27|31646|0;27|31647|0;27|31648|0#0&27|31649|0;27|31650|0;27|31651|0#挑战九转金刚阵第二关#5062#0###0#0#0#0#0#"
   translated: ""
@@ -11038,9 +11038,9 @@
     split: 10
     text: "挑战九转金刚阵第二关"
     translated: "Challenge the Second Stage of Jiu Zhuan Jin Gang Formation"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 31642003
   raw: "31642003#31642#1#9#0#0#0#0#0&27|31649|0;27|31650|0;27|31651|0#0&27|31645|0;27|31643|0;27|31644|0#挑战九转金刚阵第三关#5063#0###0#0#0#0#0#"
   translated: ""
@@ -11071,9 +11071,9 @@
     split: 10
     text: "永善大师，这是你要的豫京烤鸭"
     translated: "Master Yongshan, this is the Huaiyang-style roasted duck you wanted"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31657003
   raw: "31657003#31657#1#9#0#0#0#0#0&24|959837|1#0&24|959837|1;3|22011|1#永善大师，你需要什么来着？#0#953902###0#0#0#0#0#"
   translated: ""
@@ -11082,9 +11082,9 @@
     split: 10
     text: "永善大师，你需要什么来着？"
     translated: "Yongshan Master, what do you need?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31658001
   raw: "31658001#31658#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -11175,9 +11175,9 @@
     split: 10
     text: "我要如何帮你？"
     translated: "How can I help you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31696003
   raw: "31696003#31696#1#9#0#0#0#0#0&24|959508|1#0&24|959488|1#告知岳樊好消息#0#959488#0|1573|1;0|90640|1##0#0#0#0#0#"
   translated: ""
@@ -11197,9 +11197,9 @@
     split: 10
     text: "黄老板生意兴隆"
     translated: "Master Huang's business is thriving"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31703001
   raw: "31703001#31703#1#9#0#0#0#0#0&24|959462|1#0&24|959454|1#包老爷，我有几句话望你听上一听。#0#959454###0#0#0#0#0#"
   translated: ""
@@ -11208,9 +11208,9 @@
     split: 10
     text: "包老爷，我有几句话望你听上一听。"
     translated: "Master Bao, I have a few things I'd like for you to listen to"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31703002
   raw: "31703002#31703#1#9#0#0#0#0#0&24|959454|1;3|37190|1#0&24|959441|1#拿出五代龙砖#0#959441#0|34427|1;0|93120|1#0|37190|1#0#0#0#0#0#"
   translated: ""
@@ -11355,12 +11355,12 @@
   raw: "31745003#31745#1#9#0#0#0#0#0&26|1|1|2|5150#0&26|1|2|2|5150#比试轻功#5150#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6066475+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:23.8953299+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31746001
   raw: "31746001#31746#1#21#400501#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -11660,9 +11660,9 @@
     split: 10
     text: "你们近来可好？"
     translated: "How have you been lately?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31858001
   raw: "31858001#31858#1#9#0#0#0#0#0#0&24|957992|1#永为大师？#0#957992#0|1506|1##0#0#0#0#0#"
   translated: ""
@@ -11671,9 +11671,9 @@
     split: 10
     text: "永为大师？"
     translated: "Everlasting Master?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31860001
   raw: "31860001#31860#3#7#22#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -11723,9 +11723,9 @@
     split: 10
     text: "兄台守着这龙蛇寨作甚？"
     translated: "Brother, what are you guarding the Dragon Snake Camp for?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31862002
   raw: "31862002#31862#1#9#0#0#0#0#0&24|957971|1#0&24|957971|1;82|25004|1#宋知书兄台，我怎么为你报仇？#0#957958###0#0#0#0#0#"
   translated: ""
@@ -11734,9 +11734,9 @@
     split: 10
     text: "宋知书兄台，我怎么为你报仇？"
     translated: "Brother Song Zhi Shu, how can I avenge you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31862003
   raw: "31862003#31862#1#9#0#0#0#0#0&24|957971|1;82|25004|1#0&24|957966|1#山贼头目已死，阁下可以心安了。#0#957966#0|34436|1##0#0#0#0#0#"
   translated: ""
@@ -11784,9 +11784,9 @@
     split: 10
     text: "要怎样才能把晷针给我"
     translated: "How can I get your sundial pointer?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 31894002
   raw: "31894002#31894#1#9#0#0#0#0#0&24|958457|1#0&24|958449|1#这下可以交给我了吧#0#958449#0|37338|1##0#0#0#0#0#"
   translated: ""
@@ -11846,12 +11846,12 @@
   raw: "31899002#31899#1#9#0#0#0#0#0&24|958389|1#0&24|958376|1#好了，你们速去军营领钱吧#0#958376#0|93620|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6074854+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.2408035+08:00
     split: 10
     text: "好了，你们速去军营领钱吧"
-    translated: "Alright, go to the barracks quickly and get your money"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Alright, hurry to the military camp to collect your coins."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31956001
   raw: "31956001#31956#1#9#0#0#0#0#0&24|957049|1#0&24|957089|1#间真大师，你还好吧？#3507#0###0#0#0#0#0#"
@@ -11861,9 +11861,9 @@
     split: 10
     text: "间真大师，你还好吧？"
     translated: "Jian Zhen, Master, how are you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 31968001
   raw: "31968001#31968#1#9#0#0#0#0#0&30|956891|1#1&24|956886|1;24|956885|1#你这人，不要如此嚣张#3511#0###0#0#0#0#0#"
   translated: ""
@@ -11923,13 +11923,13 @@
   raw: "31977001#31977#1#9#0#0#0#0#0&30|956717|1#0&24|956707|1#姑娘心中可有什么烦恼？#2137#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6076681+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557151+08:00
     split: 10
     text: "姑娘心中可有什么烦恼？"
-    translated: "Is there anything troubling you, young lady?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
-    flaggedHallucination: "Young Lady,公主,Lady,夫人,"
+    translated: "Does the girl have any worries on her mind?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 31977002
   raw: "31977002#31977#1#9#0#0#0#0#0&24|956707|1#0&24|956704|1#他在哪？#0#956706###0#0#0#0#0#"
   translated: ""
@@ -11949,9 +11949,9 @@
     split: 10
     text: "兄台且慢，有什么事情想不开的？"
     translated: "My brother, please slow down. Is there something troubling you that you can't see clearly?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 31978002
   raw: "31978002#31978#1#9#0#0#0#0#0&24|956768|1#0&27|31979|1#是谁欺辱了你？#0#956758###0#0#0#0#0#"
   translated: ""
@@ -12134,9 +12134,9 @@
     split: 10
     text: "孟小姐有什么难言之隐？"
     translated: "Does Miss Meng have any matters that are difficult to discuss?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Miss,姑娘,"
+    flaggedHallucination: ""
 - lineNum: 32112002
   raw: "32112002#32112#1#9#0#0#0#0#0&24|955041|1#0&24|955033|1#我如何才能帮到你？#0#955025###0#0#0#0#0#"
   translated: ""
@@ -12145,9 +12145,9 @@
     split: 10
     text: "我如何才能帮到你？"
     translated: "How can I assist you?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 32112003
   raw: "32112003#32112#1#9#0#0#0#0#0&24|955033|1#0&24|955024|1#话已带到#0#955024###0#0#0#0#0#"
   translated: ""
@@ -12378,12 +12378,12 @@
   raw: "32218002#32218#1#9#0#0#0#0#0&26|1|1|2|5151#0&26|1|2|2|5151#比试轻功#5151#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6086862+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557459+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32219001
   raw: "32219001#32219#1#9#0#0#0#0#0#1&26|1|1|2|5152;26|1|2|2|5152#阁下在此作甚？#5152#0###0#0#0#0#0#"
@@ -12400,12 +12400,12 @@
   raw: "32219002#32219#1#9#0#0#0#0#0&26|1|1|2|5152#0&26|1|2|2|5152#比试轻功#5152#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6087390+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557474+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32220001
   raw: "32220001#32220#1#9#0#0#0#0#0#1&26|1|1|2|5153;26|1|2|2|5153#阁下在此作甚？#5153#0###0#0#0#0#0#"
@@ -12422,12 +12422,12 @@
   raw: "32220002#32220#1#9#0#0#0#0#0&26|1|1|2|5153#0&26|1|2|2|5153#比试轻功#5153#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6087924+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557479+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32221001
   raw: "32221001#32221#1#9#0#0#0#0#0#1&26|1|1|2|5154;26|1|2|2|5154#阁下在此作甚？#5154#0###0#0#0#0#0#"
@@ -12444,12 +12444,12 @@
   raw: "32221002#32221#1#9#0#0#0#0#0&26|1|1|2|5154#0&26|1|2|2|5154#比试轻功#5154#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6088441+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557482+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32222001
   raw: "32222001#32222#1#9#0#0#0#0#0#1&26|1|1|2|5155;26|1|2|2|5155#阁下在此作甚？#5155#0###0#0#0#0#0#"
@@ -12466,12 +12466,12 @@
   raw: "32222002#32222#1#9#0#0#0#0#0&26|1|1|2|5155#0&26|1|2|2|5155#比试轻功#5155#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6088966+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557484+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32223001
   raw: "32223001#32223#1#9#0#0#0#0#0#1&26|1|1|2|5156;26|1|2|2|5156#阁下在此作甚？#5156#0###0#0#0#0#0#"
@@ -12488,12 +12488,12 @@
   raw: "32223002#32223#1#9#0#0#0#0#0&26|1|1|2|5156#0&26|1|2|2|5156#比试轻功#5156#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6089490+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557492+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32224001
   raw: "32224001#32224#1#9#0#0#0#0#0#1&26|1|1|2|5157;26|1|2|2|5157#阁下在此作甚？#5157#0###0#0#0#0#0#"
@@ -12510,12 +12510,12 @@
   raw: "32224002#32224#1#9#0#0#0#0#0&26|1|1|2|5157#0&26|1|2|2|5157#比试轻功#5157#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6090011+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557495+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32225001
   raw: "32225001#32225#1#9#0#0#0#0#0#1&26|1|1|2|5158;26|1|2|2|5158#阁下在此作甚？#5158#0###0#0#0#0#0#"
@@ -12532,12 +12532,12 @@
   raw: "32225002#32225#1#9#0#0#0#0#0&26|1|1|2|5158#0&26|1|2|2|5158#比试轻功#5158#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6090613+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557497+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32226001
   raw: "32226001#32226#1#9#0#0#0#0#0#1&26|1|1|2|5159;26|1|2|2|5159#阁下在此作甚？#5159#0###0#0#0#0#0#"
@@ -12554,12 +12554,12 @@
   raw: "32226002#32226#1#9#0#0#0#0#0&26|1|1|2|5159#0&26|1|2|2|5159#比试轻功#5159#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6091134+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.5557500+08:00
     split: 10
     text: "比试轻功"
-    translated: "Competing in agility and speed"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Qinggong,轻功,"
+    translated: "Competing in qinggong."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32245001
   raw: "32245001#32245#2#27#0#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -12680,9 +12680,9 @@
     split: 10
     text: "老伯你怎么在这种地方？"
     translated: "How are you here in such a place, Uncle?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Uncle,舅舅,"
+    flaggedHallucination: ""
 - lineNum: 32391002
   raw: "32391002#32391#1#9#0#0#0#0#0&24|954637|1#0&24|954621|1#我需要怎么做？#0#954630###0#0#0#0#0#"
   translated: ""
@@ -12743,9 +12743,9 @@
     split: 10
     text: "我应当帮大师什么忙"
     translated: "What should I do to assist the Master?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 32441003
   raw: "32441003#32441#1#9#0#0#0#0#0&27|32442|1#0&24|954399|1#我已经教训过素曲了#0#954399###0#0#0#0#0#"
   translated: ""
@@ -12777,12 +12777,12 @@
   raw: "32550001#32550#1#9#0#0#0#0#0#0&24|954113|1#前辈你在此做什么？#0#954128###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6095732+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:24.8291959+08:00
     split: 10
     text: "前辈你在此做什么？"
-    translated: "What are you doing here, elder?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior,前辈,"
+    translated: "Senior, what are you doing here?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 32573001
   raw: "32573001#32573#2#27#0#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -12925,9 +12925,9 @@
     split: 10
     text: "大师在此做什么？"
     translated: "The master is here doing what?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 33225002
   raw: "33225002#33225#1#9#0#0#0#0#0&24|953041|1#0&24|953029|1#假发去哪找？#0#953034###0#0#0#0#0#"
   translated: ""
@@ -13159,9 +13159,9 @@
     split: 10
     text: "拿出黑金铁甲蟹"
     translated: "Take out the black gold iron crab armor"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Black Gold,乌金,"
+    flaggedHallucination: ""
 - lineNum: 33833001
   raw: "33833001#33833#1#9#0#0#0#0#0#1&3|14032|1;24|953170|1#阁下是谁，在这里做什么？#0#953174###0#0#0#0#0#"
   translated: ""
@@ -13225,9 +13225,9 @@
     split: 10
     text: "阁下让我去找谁？"
     translated: "Whom should I seek out, my lord?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Lord,大人,"
+    flaggedHallucination: ""
 - lineNum: 34150003
   raw: "34150003#34150#1#9#0#0#0#0#0&24|953136|1#0&24|953122|1#我回来了#5097#0#0|34442|1##0#0#0#0#0#"
   translated: ""
@@ -13265,12 +13265,12 @@
   raw: "34160001#34160#1#9#0#0#0#0#0&27|34161|0;27|34162|0;27|34163|0;27|34164|0;27|34165|0#0&24|953136|1#小艾姑娘，你没事吧？#0#953136###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6106795+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.2178858+08:00
     split: 10
     text: "小艾姑娘，你没事吧？"
-    translated: "Little Ai, are you alright?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
+    translated: "Miss Xiao Ai, are you okay?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 34167001
   raw: "34167001#34167#1#9#0#0#0#0#0#0&24|953096|1#你在这里做什么？#5098#0###0#0#0#0#0#"
@@ -13544,12 +13544,12 @@
   raw: "34430005#34430#1#21#30009#0#0#0#0&79|0|30008|1|1#0&79|0|30009|1|1#《江湖行》#0#0###0#0#0#1#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6112894+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.2179107+08:00
     split: 10
     text: "《江湖行》"
-    translated: "In Wandering Through the Martial World"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "The Way of the Wandering"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 34430006
   raw: "34430006#34430#1#21#30010#0#0#0#0&79|0|30009|1|1#0&79|0|30010|1|1#《无垢炼神》#0#0###0#0#0#1#0#"
@@ -13640,9 +13640,9 @@
     split: 10
     text: "小妙，最近出去游历一番如何？"
     translated: "Little Miao, how has your recent journey been?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 34773002
   raw: "34773002#34773#1#9#0#0#0#0#0&79|0|30023|1|1#0&24|951851|1#教导小妙修行#0#951851###0#0#0#0#0#"
   translated: ""
@@ -13963,9 +13963,9 @@
     split: 10
     text: "如何才能阅读这里的书籍"
     translated: "How can I read the books here?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 34798001
   raw: "34798001#34798#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -14035,9 +14035,9 @@
     split: 10
     text: "如何，我的武艺可堪入眼？"
     translated: "Is this how you view my martial skills, worthy of admiration?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 34826006
   raw: "34826006#34826#1#9#0#0#0#0#0&24|951310|1;3|34201|1#0&24|951301|1#纵横百花枪我拿回来了#0#951301#3926|0|5;0|93720|1##0#0#0#0#0#"
   translated: ""
@@ -14046,9 +14046,9 @@
     split: 10
     text: "纵横百花枪我拿回来了"
     translated: "I've retrieved the Hundred Flowers Spear"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,"
+    flaggedHallucination: ""
 - lineNum: 34826007
   raw: "34826007#34826#1#9#0#0#0#0#0&24|951310|1#0&24|951301|1#方才高兄说的贼人在哪去了？#0#951302###0#0#0#0#0#"
   translated: ""
@@ -14057,9 +14057,9 @@
     split: 10
     text: "方才高兄说的贼人在哪去了？"
     translated: "Where did the thief go after my esteemed older brother just mentioned them?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 34831001
   raw: "34831001#34831#2#28#0#0#0#0#0#0##0#0###0#0#0#0#0#"
   translated: ""
@@ -14129,12 +14129,12 @@
   raw: "35483004#35483#1#21#600169#0#0#0#0#0#秘术：覆土烧刀#0#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6126509+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.2179278+08:00
     split: 10
     text: "秘术：覆土烧刀"
-    translated: "Mystic Arts：Rebuilding earth, burning swords"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Mysterious Technique：Return to the earth, burn the blade."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 35483005
   raw: "35483005#35483#1#21#600173#0#0#0#0#0#秘法：肘底看锤#0#0###0#0#0#0#0#"
@@ -14508,9 +14508,9 @@
     split: 10
     text: "秘法：姜桂之性"
     translated: "Secret technique：Jiang Guizi's temperament"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 35533003
   raw: "35533003#35533#4#14#0#0#8#0#0#0##0#0###1#0#0#0#0#"
   translated: ""
@@ -16406,12 +16406,12 @@
   raw: "45262002#45262#1#9#0#0#0#0#0&1|1194001|1;1|1180006|1;1|1180007|1#1&1|1180008|1;1|1180008|2#刀剑归一#40187#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6160336+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.4552102+08:00
     split: 10
     text: "刀剑归一"
-    translated: "Unification of Swords and Daggers"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Blade and sword unite."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 45264001
   raw: "45264001#45264#1#21#350158#0#10000#0#0#0##0#0###0#0#0#0#0#"
@@ -16672,9 +16672,9 @@
     split: 10
     text: "请教兵狂"
     translated: "May I ask Brother Bing about his martial arts prowess?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 55021001
   raw: "55021001#55021#2#23#0#0#0###0##0#0###0#0#0#0#0#"
   translated: ""
@@ -17034,23 +17034,23 @@
   raw: "55523001#55523#1#9#0#0#0###0#糖葫芦棍？#0#933062###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6172233+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.7086628+08:00
     split: 10
     text: "糖葫芦棍？"
-    translated: "Do you mean candy cane stick or something similar?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Staff,棍,"
+    translated: "Sticky Rice Dumpling Staff?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 55523002
   raw: "55523002#55523#1#9#0#0#0##0&3|50635|3#0#换糖葫芦棍#0#933057#0|50636|1#0|50635|3#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6172505+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:25.9316654+08:00
     split: 10
     text: "换糖葫芦棍"
-    translated: "Swapped candy cane"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Staff,棍,"
+    translated: "Candy Sugar Doll Staff"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 55523003
   raw: "55523003#55523#3#7#22#0#0###0##0#0###0#0#0#0#0#"
@@ -17300,9 +17300,9 @@
     split: 10
     text: "对弈一局"
     translated: "Play a game of Go"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 55559001
   raw: "55559001#55559#1#9#0#0#0###0#推箱子#6632#0###0#0#0#0#0#"
   translated: ""
@@ -17594,12 +17594,12 @@
   raw: "75017002#75017#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6195577+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.2627621+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75017003
   raw: "75017003#75017#2#9#0#0#0#0#0&102#0&102!#参加搏击相关的活动#6522#0###0#0#0#0#0#"
@@ -17903,12 +17903,12 @@
   raw: "75026002#75026#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6202803+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.2627897+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75026003
   raw: "75026003#75026#2#9#0#0#0#0#0&102#0&102!#参加搏击相关的活动#6522#0###0#0#0#0#0#"
@@ -18179,12 +18179,12 @@
   raw: "75032002#75032#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6209330+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.2627978+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75032003
   raw: "75032003#75032#2#9#0#0#0#0#0&102#0&102!#参加搏击相关的活动#6522#0###0#0#0#0#0#"
@@ -18271,12 +18271,12 @@
   raw: "75035003#75035#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6211461+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.2628001+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75035004
   raw: "75035004#75035#2#9#0#0#0#0#0&102#0&102!#参加酿酒相关的活动#6544#0###0#0#0#0#0#"
@@ -18359,12 +18359,12 @@
   raw: "75038003#75038#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6213550+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.2628027+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75038004
   raw: "75038004#75038#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -18609,9 +18609,9 @@
     split: 10
     text: "如何加入重天门"
     translated: "How to join Zhongtianmen?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 75046009
   raw: "75046009#75046#2#63#0#0#0##0&102!#0&102#间隔一月方可切磋#0#0###0#0#0&108#0#0#"
   translated: ""
@@ -18818,12 +18818,12 @@
   raw: "75052003#75052#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥50;诡辞≥25#0#0###0#0#0&106|-1|>;18|1|34|50|>=;18|1|47|25|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6224457+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:26.9321518+08:00
     split: 10
     text: "宗门好感≥0;刀法≥50;诡辞≥25"
-    translated: "Temple Affinity ≥ 0; Swordsmanship ≥ 50; Witty Argumentation ≥ 25"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "The Sect's Affinity is ≥ 0; Blade Art proficiency is ≥ 50; Use of Rhetoric is ≥ 25."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75052004
   raw: "75052004#75052#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -18833,34 +18833,34 @@
   raw: "75052005#75052#2#60#1000005#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥110;诡辞≥55#0#0###8#0#0&103|24|>;18|1|34|110|>=;18|1|47|55|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6224782+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:27.4532359+08:00
     split: 10
     text: "宗门好感≥25;刀法≥110;诡辞≥55"
-    translated: "Temple Affinity ≥ 25; Swordsmanship ≥ 110; Persuasive Speech ≥ 55"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 110; Persuasive Speech ≥ 55"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75052006
   raw: "75052006#75052#2#60#1009001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥270;诡辞≥135#0#0###8#0#0&103|49|>;18|1|34|270|>=;18|1|47|135|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6225059+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:27.9928255+08:00
     split: 10
     text: "宗门好感≥50;刀法≥270;诡辞≥135"
-    translated: "Temple Affinity ≥ 50; Swordsmanship ≥ 270; Witty Persuasion ≥ 135"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 50; Blade Art ≥ 270; Evasive Rhetoric ≥ 135"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75052007
   raw: "75052007#75052#2#60#1010001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥640;诡辞≥320#0#0###8#0#0&103|74|>;18|1|34|640|>=;18|1|47|320|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6225326+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:28.5311725+08:00
     split: 10
     text: "宗门好感≥75;刀法≥640;诡辞≥320"
-    translated: "Gatehouse Affinity ≥ 75; Swordsmanship ≥ 640; Art of Persuasion ≥ 320"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple favorability ≥ 75; Blade Art ≥ 640; Witty Rhetoric ≥ 320"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75052008
   raw: "75052008#75052#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -18910,12 +18910,12 @@
   raw: "75053002#75053#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6226626+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:28.5311842+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75053004
   raw: "75053004#75053#2#9#0#0#0#0#0&102#0&102!#参加炼器相关的活动#6541#0###0#0#0#0#0#"
@@ -19252,12 +19252,12 @@
   raw: "75062004#75062#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6234682+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:28.5312107+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75062005
   raw: "75062005#75062#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -19381,12 +19381,12 @@
   raw: "75065004#75065#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6237734+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:28.5312165+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75065005
   raw: "75065005#75065#2#9#0#0#0#0#0&102#0&102!#参加酿酒相关的活动#6544#0###0#0#0#0#0#"
@@ -19414,13 +19414,13 @@
   raw: "75067003#75067#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥40;兵道≥20#0#0###0#0#0&106|-1|>;18|1|34|40|>=;18|1|45|20|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6238515+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:29.0486102+08:00
     split: 10
     text: "宗门好感≥0;刀法≥40;兵道≥20"
-    translated: "Guild Favor ≥ 0; Swordsmanship ≥ 40; Strategy and Tactics ≥ 20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
-    flaggedHallucination: "Gu...,咕...,"
+    translated: "Martial Sect Affinity ≥ 0; Blade Art ≥ 40; Military Strategy ≥ 20"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 75067004
   raw: "75067004#75067#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
   translated: ""
@@ -19429,34 +19429,34 @@
   raw: "75067005#75067#2#60#1000004#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥100;兵道≥50#0#0###8#0#0&103|24|>;18|1|34|100|>=;18|1|45|50|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6238835+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:29.5955513+08:00
     split: 10
     text: "宗门好感≥25;刀法≥100;兵道≥50"
-    translated: "Faction Affinity ≥ 25; Swordsmanship Skill Level ≥ 100; Martial Ways Skill Level ≥ 50"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 100; Martial Way ≥ 50"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75067006
   raw: "75067006#75067#2#60#1007001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥240;兵道≥120#0#0###8#0#0&103|49|>;18|1|34|240|>=;18|1|45|120|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6239114+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:30.0954786+08:00
     split: 10
     text: "宗门好感≥50;刀法≥240;兵道≥120"
-    translated: "Temple Affinity ≥ 50; Swordsmanship ≥ 240; Martial Way of Warlordism ≥ 120"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 50; Blade Art ≥ 240; Military Strategy ≥ 120"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75067007
   raw: "75067007#75067#2#60#1008001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥570;兵道≥285#0#0###8#0#0&103|74|>;18|1|34|570|>=;18|1|45|285|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6239382+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:30.5985745+08:00
     split: 10
     text: "宗门好感≥75;刀法≥570;兵道≥285"
-    translated: "Faction Affinity ≥ 75; Swordsmanship Skill Level ≥ 570; Military Strategy Skill Level ≥ 285"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 75; Blade Art ≥ 570; Way of War ≥ 285"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75067008
   raw: "75067008#75067#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -19510,12 +19510,12 @@
   raw: "75068004#75068#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6240758+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:30.5985860+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75068005
   raw: "75068005#75068#2#9#0#0#0#0#0&102#0&102!#参加缝纫相关的活动#6543#0###0#0#0#0#0#"
@@ -19543,12 +19543,12 @@
   raw: "75070003#75070#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥40;兵道≥20#0#0###0#0#0&106|-1|>;18|1|34|40|>=;18|1|45|20|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6241561+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:31.1135674+08:00
     split: 10
     text: "宗门好感≥0;刀法≥40;兵道≥20"
-    translated: "Martial sect affinity ≥ 0; Swordplay proficiency ≥ 40; Military tactics proficiency ≥ 20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Martial sect affinity ≥ 0; Blade Art ≥ 40; Military Tactics ≥ 20."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75070004
   raw: "75070004#75070#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -19558,34 +19558,34 @@
   raw: "75070005#75070#2#60#1000004#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥100;兵道≥50#0#0###8#0#0&103|24|>;18|1|34|100|>=;18|1|45|50|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6241890+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:31.6533476+08:00
     split: 10
     text: "宗门好感≥25;刀法≥100;兵道≥50"
-    translated: "Faction Affinity ≥ 25; Swordsmanship Skill ≥ 100; Military Strategy Skill ≥ 50"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Martial Sect Affinity ≥ 25; Blade Art ≥ 100; Strategy and Warfare ≥ 50"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75070006
   raw: "75070006#75070#2#60#1007001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥240;兵道≥120#0#0###8#0#0&103|49|>;18|1|34|240|>=;18|1|45|120|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6242168+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:32.1556197+08:00
     split: 10
     text: "宗门好感≥50;刀法≥240;兵道≥120"
-    translated: "Temple affinity ≥ 50; Swordplay skill ≥ 240; Martial Strategy skill ≥ 120"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Sect Affinity ≥ 50; Blade Art ≥ 240; Military Strategy ≥ 120"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75070007
   raw: "75070007#75070#2#60#1008001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥570;兵道≥285#0#0###8#0#0&103|74|>;18|1|34|570|>=;18|1|45|285|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6242449+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:32.8136650+08:00
     split: 10
     text: "宗门好感≥75;刀法≥570;兵道≥285"
-    translated: "Clan Favor ≥ 75; Swordsmanship ≥ 570; Martial Strategy ≥ 285"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 75; Blade Art ≥ 570; Martial Ways ≥ 285"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75070008
   raw: "75070008#75070#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -19639,12 +19639,12 @@
   raw: "75071004#75071#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6243847+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:32.8136838+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75071005
   raw: "75071005#75071#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -19797,12 +19797,12 @@
   raw: "75076003#75076#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥40;魔学≥20#0#0###0#0#0&106|-1|>;18|1|34|40|>=;18|1|48|20|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6247606+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:33.2954135+08:00
     split: 10
     text: "宗门好感≥0;刀法≥40;魔学≥20"
-    translated: "Faction reputation ≥ 0; Swordsmanship skill ≥ 40; Magic knowledge ≥ 20"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Clan Affinity ≥ 0; Blade Art ≥ 40; Demonology ≥ 20"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75076004
   raw: "75076004#75076#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -19812,34 +19812,34 @@
   raw: "75076005#75076#2#60#1000004#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥100;魔学≥50#0#0###8#0#0&103|24|>;18|1|34|100|>=;18|1|48|50|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6247929+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:33.8265107+08:00
     split: 10
     text: "宗门好感≥25;刀法≥100;魔学≥50"
-    translated: "Temple Affinity ≥ 25; Swordsmanship ≥ 100; Mystical Studies ≥ 50"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Martial Sect Affinity ≥ 25; Blade Art ≥ 100; Magic Studies ≥ 50;"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75076006
   raw: "75076006#75076#2#60#1007001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥240;魔学≥120#0#0###8#0#0&103|49|>;18|1|34|240|>=;18|1|48|120|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6248206+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:34.3377775+08:00
     split: 10
     text: "宗门好感≥50;刀法≥240;魔学≥120"
-    translated: "Clan Affinity ≥ 50; Swordsmanship ≥ 240; Mysticism ≥ 120"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 50; Blade Art ≥ 240; Demonology ≥ 120"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75076007
   raw: "75076007#75076#2#60#1008001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥570;魔学≥285#0#0###8#0#0&103|74|>;18|1|34|570|>=;18|1|48|285|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6248477+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:34.8241298+08:00
     split: 10
     text: "宗门好感≥75;刀法≥570;魔学≥285"
-    translated: "Temple Affinity ≥ 75; Swordsmanship ≥ 570; Arcane Studies ≥ 285"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Favor ≥ 75; Blade Art ≥ 570; Magic Studies ≥ 285."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75076008
   raw: "75076008#75076#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -19889,12 +19889,12 @@
   raw: "75077002#75077#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6249777+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:34.8241522+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75077003
   raw: "75077003#75077#2#9#0#0#0#0#0&102#0&102!#参加搏击相关的活动#6522#0###0#0#0#0#0#"
@@ -19974,9 +19974,9 @@
     split: 10
     text: "宗门好感≥75;搏击≥510;魔学≥255"
     translated: "Guild Affinity ≥ 75; Combat Skill ≥ 510; Magic Studies ≥ 255"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 75079008
   raw: "75079008#75079#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
   translated: ""
@@ -20099,9 +20099,9 @@
     split: 10
     text: "宗门好感≥50;长兵≥210;兵道≥105"
     translated: "Clan Favor ≥ 50; Long Spear ≥ 210; Way of the Spear ≥ 105"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,Spear,枪,"
+    flaggedHallucination: ""
 - lineNum: 75082007
   raw: "75082007#75082#2#60#1006001#0#0##0&102;104|3#0&86#宗门好感≥75;长兵≥510;兵道≥255#0#0###8#0#0&103|74|>;18|1|37|510|>=;18|1|45|255|>=#0#0#"
   translated: ""
@@ -20165,12 +20165,12 @@
   raw: "75083004#75083#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6256740+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:34.8241641+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75083005
   raw: "75083005#75083#2#9#0#0#0#0#0&102#0&102!#参加烹饪相关的活动#6545#0###0#0#0#0#0#"
@@ -20242,12 +20242,12 @@
   raw: "75086002#75086#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6258573+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:34.8241656+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75086005
   raw: "75086005#75086#2#9#0#0#0#0#0&102#0&102!#参加炼器相关的活动#6541#0###0#0#0#0#0#"
@@ -20275,12 +20275,12 @@
   raw: "75088003#75088#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥30;墨学≥15#0#0###0#0#0&106|-1|>;18|1|34|30|>=;18|1|46|15|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6260000+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:35.3487154+08:00
     split: 10
     text: "宗门好感≥0;刀法≥30;墨学≥15"
-    translated: "Temple Affinity ≥ 0; Swordplay Skill ≥ 30; Mokujuku Knowledge ≥ 15"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple affinity ≥ 0; Blade Art ≥ 30; Ink Studies ≥ 15."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75088004
   raw: "75088004#75088#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -20290,34 +20290,34 @@
   raw: "75088005#75088#2#60#1000002#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥80;墨学≥40#0#0###8#0#0&103|24|>;18|1|34|80|>=;18|1|46|40|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6260335+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:35.8857543+08:00
     split: 10
     text: "宗门好感≥25;刀法≥80;墨学≥40"
-    translated: "Faction Affinity ≥ 25; Swordsmanship ≥ 80; Literati Arts ≥ 40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 80; Scholarly Studies ≥ 40"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75088006
   raw: "75088006#75088#2#60#1003001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥190;墨学≥95#0#0###8#0#0&103|49|>;18|1|34|190|>=;18|1|46|95|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6260610+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:36.4229637+08:00
     split: 10
     text: "宗门好感≥50;刀法≥190;墨学≥95"
-    translated: "Martial Sect Affinity ≥ 50; Swordsmanship ≥ 190; Calligraphy Skill ≥ 95"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Guild Affinity ≥ 50; Blade Art ≥ 190; Calligraphy Skills ≥ 95"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75088007
   raw: "75088007#75088#2#60#1004001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥450;墨学≥225#0#0###8#0#0&103|74|>;18|1|34|450|>=;18|1|46|225|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6260886+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:36.9252031+08:00
     split: 10
     text: "宗门好感≥75;刀法≥450;墨学≥225"
-    translated: "Temple Affinity ≥ 75; Swordsmanship ≥ 450; Ink Studies ≥ 225"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Zongmen Goodwill ≥ 75; Blade Art ≥ 450; Mo Xue ≥ 225"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75088008
   raw: "75088008#75088#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -20378,12 +20378,12 @@
   raw: "75089003#75089#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6262493+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:36.9252145+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75089005
   raw: "75089005#75089#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -20639,12 +20639,12 @@
   raw: "75095003#75095#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6268724+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:36.9252320+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75095005
   raw: "75095005#75095#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -20827,9 +20827,9 @@
     split: 10
     text: "宗门好感≥50;剑术≥190;道学≥95"
     translated: "Guild Favor ≥ 50; Swordsmanship ≥ 190; Taoism ≥ 95"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 75100007
   raw: "75100007#75100#2#60#1004001#0#0##0&102;104|3#0&86#宗门好感≥75;剑术≥450;道学≥225#0#0###8#0#0&103|74|>;18|1|35|450|>=;18|1|42|225|>=#0#0#"
   translated: ""
@@ -20922,12 +20922,12 @@
   raw: "75104003#75104#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥30;墨学≥15#0#0###0#0#0&106|-1|>;18|1|34|30|>=;18|1|46|15|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6275423+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:37.4836894+08:00
     split: 10
     text: "宗门好感≥0;刀法≥30;墨学≥15"
-    translated: "Martial sect affinity ≥ 0; Swordsmanship skill level ≥ 30; Ink studies skill level ≥ 15"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Martial Sect Affinity ≥ 0; Blade Art ≥ 30; Scholarly Arts of the Brush ≥ 15"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75104004
   raw: "75104004#75104#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -20937,34 +20937,34 @@
   raw: "75104005#75104#2#60#1000002#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥80;墨学≥40#0#0###8#0#0&103|24|>;18|1|34|80|>=;18|1|46|40|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6275745+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:38.0115593+08:00
     split: 10
     text: "宗门好感≥25;刀法≥80;墨学≥40"
-    translated: "Temple Affinity ≥ 25; Swordsmanship ≥ 80; Study of Ink ≥ 40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 80; Ink Studies ≥ 40"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75104006
   raw: "75104006#75104#2#60#1003001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥190;墨学≥95#0#0###8#0#0&103|49|>;18|1|34|190|>=;18|1|46|95|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6276022+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:38.5466515+08:00
     split: 10
     text: "宗门好感≥50;刀法≥190;墨学≥95"
-    translated: "Guild Affinity ≥ 50; Swordsmanship ≥ 190; Calligraphy ≥ 95"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
-    flaggedHallucination: "Gu...,咕...,"
+    translated: "Clan Affinity ≥ 50; Blade Art ≥ 190; Literati Skills ≥ 95"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 75104007
   raw: "75104007#75104#2#60#1004001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥450;墨学≥225#0#0###8#0#0&103|74|>;18|1|34|450|>=;18|1|46|225|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6276290+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713204+08:00
     split: 10
     text: "宗门好感≥75;刀法≥450;墨学≥225"
-    translated: "Temple Affinity ≥ 75; Swordsmanship ≥ 450; Calligraphy Skill ≥ 225"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 75; Blade Art ≥ 450; Calligraphy Skill ≥ 225"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75104008
   raw: "75104008#75104#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -21014,12 +21014,12 @@
   raw: "75105002#75105#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6277588+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713322+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75105005
   raw: "75105005#75105#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -21058,12 +21058,12 @@
   raw: "75109002#75109#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6278636+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713348+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75109003
   raw: "75109003#75109#2#9#0#0#0#0#0&102#0&102!#参加搏击相关的活动#6522#0###0#0#0#0#0#"
@@ -21213,9 +21213,9 @@
     split: 10
     text: "宗门好感≥50;剑术≥190;诡辞≥95"
     translated: "Gatekeepers of the Sect must have at least 50 points in sect affinity, a swordsmanship skill level of no less than 190, and mastery of guile and rhetoric reaching at least 95"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 75111007
   raw: "75111007#75111#2#60#1004001#0#0##0&102;104|3#0&86#宗门好感≥75;剑术≥540;诡辞≥225#0#0###8#0#0&103|74|>;18|1|35|450|>=;18|1|47|225|>=#0#0#"
   translated: ""
@@ -21367,12 +21367,12 @@
   raw: "75115002#75115#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6287857+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713590+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75115005
   raw: "75115005#75115#2#9#0#0#0#0#0&102#0&102!#参加酿酒相关的活动#6544#0###0#0#0#0#0#"
@@ -21404,9 +21404,9 @@
     split: 10
     text: "教习武功"
     translated: "Master of martial arts"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 75117003
   raw: "75117003#75117#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;长兵≥35;兵道≥20#0#0###0#0#0&106|-1|>;18|1|37|40|>=;18|1|45|20|>=#0#0#"
   translated: ""
@@ -21507,12 +21507,12 @@
   raw: "75118004#75118#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6291148+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713660+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75118005
   raw: "75118005#75118#2#9#0#0#0#0#0&102#0&102!#参加炼器相关的活动#6541#0###0#0#0#0#0#"
@@ -21746,12 +21746,12 @@
   raw: "75124002#75124#2#9#0#0#0#0#0&102#0&102!#参加枪棍相关的活动#6523#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6296963+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.0713736+08:00
     split: 10
     text: "参加枪棍相关的活动"
-    translated: "Participate in activities related to gunplay and cudgels"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Spear,枪,Spear and Staff,枪棍,Staff,棍,"
+    translated: "Participate in spear and staff-related activities."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75124005
   raw: "75124005#75124#2#9#0#0#0#0#0&102#0&102!#参加酿酒相关的活动#6544#0###0#0#0#0#0#"
@@ -21878,12 +21878,12 @@
   raw: "75130003#75130#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥30;儒学≥15#0#0###0#0#0&106|-1|>;18|1|34|30|>=;18|1|44|15|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6300099+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:39.5993352+08:00
     split: 10
     text: "宗门好感≥0;刀法≥30;儒学≥15"
-    translated: "Temple Affinity ≥ 0; Swordsmanship ≥ 30; Confucianism ≥ 15"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 0; Blade Art ≥ 30; Confucianism ≥ 15"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75130004
   raw: "75130004#75130#2#59#5000139#0#0##0&102#0&86##0#0###0#0##0#0#"
@@ -21893,34 +21893,34 @@
   raw: "75130005#75130#2#60#1000002#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥80;儒学≥40#0#0###8#0#0&103|24|>;18|1|34|80|>=;18|1|44|40|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6300421+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:40.1198880+08:00
     split: 10
     text: "宗门好感≥25;刀法≥80;儒学≥40"
-    translated: "Martial Sect Affinity ≥ 25; Swordsmanship ≥ 80; Confucianism ≥ 40"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 80; Confucianism ≥ 40"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75130006
   raw: "75130006#75130#2#60#1003001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥190;儒学≥95#0#0###8#0#0&103|49|>;18|1|34|190|>=;18|1|44|95|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6300703+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:40.7790152+08:00
     split: 10
     text: "宗门好感≥50;刀法≥190;儒学≥95"
-    translated: "Temple Affinity ≥ 50; Swordsmanship ≥ 190; Confucianism ≥ 95"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Temple Affinity ≥ 50; Blade Art ≥ 190; Confucianism ≥ 95"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75130007
   raw: "75130007#75130#2#60#1004001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥450;儒学≥225#0#0###8#0#0&103|74|>;18|1|34|450|>=;18|1|44|225|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6300971+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:41.3155239+08:00
     split: 10
     text: "宗门好感≥75;刀法≥450;儒学≥225"
-    translated: "Temple Faction Affinity ≥ 75; Swordsmanship ≥ 450; Confucianism ≥ 225"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Sect Affinity ≥ 75; Blade Art ≥ 450; Confucianism ≥ 225"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75130008
   raw: "75130008#75130#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
@@ -21970,12 +21970,12 @@
   raw: "75131002#75131#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6302277+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:41.3155434+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75131005
   raw: "75131005#75131#2#9#0#0#0#0#0&102#0&102!#参加炼丹相关的活动#6540#0###0#0#0#0#0#"
@@ -22044,9 +22044,9 @@
     split: 10
     text: "宗门好感≥75;剑术≥570;诡辞≥285"
     translated: "To gain favor within the sect, one must achieve a minimum sect affinity of 75 and possess at least level 570 in Swordsmanship. Additionally, a skill level of 285 or higher in Persuasive Eloquence is required"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 75133008
   raw: "75133008#75133#2#62#0#0#0##0&102#0&86#拜入宗门;每年六月#0#0###8#0#0&107|6|6;102#0#0#"
   translated: ""
@@ -22353,12 +22353,12 @@
   raw: "75144003#75144#2#9#0#0#0#0#0&102#0&102!#参加刀法相关的活动#6520#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6311266+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:41.3155556+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75144004
   raw: "75144004#75144#2#9#0#0#0#0#0&102#0&102!#参加巧手相关的活动#6542#0###0#0#0#0#0#"
@@ -22682,9 +22682,9 @@
     split: 10
     text: "领取内门腰牌"
     translated: "Receive an Inner Gate Badge"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 75155010
   raw: "75155010#75155#1#9#0#0#0##0&89|10103|1#0&3|37982|1#领取关门腰牌#52803#0###0#0##0##"
   translated: ""
@@ -22803,9 +22803,9 @@
     split: 10
     text: "确认修行进度·药师殿"
     translated: "Confirm Progress in Cultivation · Medicine Master Hall"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 88035001
   raw: "88035001#88035#1#9#0#0#0#0#0&24|939404|1#0&24|939080|1#妙法堂修行#9059#0###0#0#0#0#0#"
   translated: ""
@@ -23133,9 +23133,9 @@
     split: 10
     text: "邀请司空入队"
     translated: "Invite Brother Si Kong to join the team"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 88258001
   raw: "88258001#88258#1#9#0#0#0#0#0&24|906114|1#0&24|900469|1#酒中奇缘#40252#0###0#0#0#0#0#"
   translated: ""
@@ -23288,19 +23288,19 @@
     split: 10
     text: "查看马老爷伤势"
     translated: "Check on Master Ma's injuries"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 90422001
   raw: "90422001#90422#1#9#0#0#0#0#0&24|950437|1#1&24|949347|1;24|950401|1#要钱#5344#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6334190+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:41.5031041+08:00
     split: 10
     text: "要钱"
-    translated: "Want money"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Need money."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 90422002
   raw: "90422002#90422#1#9#0#0#0#0#0&24|950437|1#1&24|949347|1;24|950401|1#要人#5357#0###0#0#0#0#0#"
@@ -23508,9 +23508,9 @@
     split: 19
     text: "完成杨家霸王枪"
     translated: "Master Yang's Tyrant Spear Technique"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 93027001
   raw: "93027001#93027#2#77#0#0#0###0&86#邀请同行#0#0###0#0#0&24|937236|1#0#完成杨家霸王枪#"
   translated: ""
@@ -23526,9 +23526,9 @@
     split: 19
     text: "完成杨家霸王枪"
     translated: "Master Yang's Tyrant Spear Technique"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 93030001
   raw: "93030001#93030#2#77#0#0#0###0&86#邀请同行#0#0###0#0#0&79|0|30023|1|1#0#等待小妙游历结束#"
   translated: ""
@@ -23566,9 +23566,9 @@
     split: 10
     text: "向常白歌讨教"
     translated: "Seek guidance from Brother Chang Baitiao"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 93826001
   raw: "93826001#93826#3#7#13#0#0###0##0#0###0#0#0#0#0#"
   translated: ""
@@ -24142,9 +24142,9 @@
     split: 10
     text: "成为匠者"
     translated: "To become a master artisan"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 121315002
   raw: "121315002#121315#1#9#0#0#0##0&89|7100|1;18|1|51|100|>=;18|1|52|80|>=;18|1|53|80|>=#0&89|7101|1#晋升融金#0#923852###0#0##0##"
   translated: ""
@@ -24186,9 +24186,9 @@
     split: 10
     text: "晋升锻刃"
     translated: "Ascend the Blade Forge"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Blade,刀,"
+    flaggedHallucination: ""
 - lineNum: 121315006
   raw: "121315006#121315#1#9#0#0#0##0&89|7104|1;18|1|51|650|>=;18|1|52|520|>=;18|1|53|520|>=#0&89|7105|1#晋升淬火#0#923825###0#0##0##"
   translated: ""
@@ -24219,9 +24219,9 @@
     split: 10
     text: "巧手利器"
     translated: "A master craftsman's tool"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 121315013
   raw: "121315013#121315#1#9#0#0#0##0&89|7103|1#0&3|37424|1#缝纫利器#0#919993#0|37424|1##0#0#0#0#0#"
   translated: ""
@@ -24241,9 +24241,9 @@
     split: 10
     text: "回锻利器"
     translated: "Refining the Blade"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Blade,刀,"
+    flaggedHallucination: ""
 - lineNum: 121315015
   raw: "121315015#121315#1#9#0#0#0##0&89|7105|1#0&3|37428|1#锤炼利器#0#919991#0|37428|1##0#0#0#0#0#"
   translated: ""
@@ -24285,9 +24285,9 @@
     split: 10
     text: "晋升奇匠"
     translated: "Ascend to Master Craftsman"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 121316004
   raw: "121316004#121316#1#9#0#0#0##0&89|7202|1;18|1|53|325|>=;18|1|54|260|>=;18|1|55|260|>=#0&89|7203|1#晋升妙手#0#923885###0#0##0##"
   translated: ""
@@ -24351,9 +24351,9 @@
     split: 10
     text: "如何成为杂家"
     translated: "To become a master in martial arts, one must dedicate countless hours to rigorous training, cultivate inner strength and discipline, and constantly challenge themselves to reach new heights. It is not merely about physical prowess but also involves a deep understanding of philosophy, strategy, and the spirit"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 121316012
   raw: "121316012#121316#1#9#0#0#0##0&18|1|55|25|<#1&24|920565|1;89|7200|1#学习烹饪#0#920565#0|60087|1;0|1057|1;0|29027|10##0#0##0##"
   translated: ""
@@ -24506,13 +24506,13 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6374384+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:41.9439980+08:00
     split: 19
     text: "刀剑拳棒任一达到50"
-    translated: "Any sword, saber, fist, or staff that reaches 50"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
-    flaggedHallucination: "Staff,棍,Staff,杖,"
+    translated: "Any blade, sword, fist, or stick reaching a level of 50."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 121319002
   raw: "121319002#121319#1#9#0#0#0##0&89|8100|1#0&89|8101|1#晋升草寇#0#913081###0#0#1&18|1|34|100|>=;18|1|35|100|>=;18|1|36|100|>=;18|1|37|100|>=#0#刀剑拳棒任一达到100#"
   translated: ""
@@ -24528,9 +24528,9 @@
     split: 19
     text: "刀剑拳棒任一达到100"
     translated: "Any sword, blade, fist, or staff that reaches 100"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Staff,棍,Staff,杖,"
+    flaggedHallucination: ""
 - lineNum: 121319003
   raw: "121319003#121319#1#9#0#0#0##0&89|8101|1#0&89|8102|1#晋升山贼#0#913077###0#0#1&18|1|34|200|>=;18|1|35|200|>=;18|1|36|200|>=;18|1|37|200|>=#0#刀剑拳棒任一达到200#"
   translated: ""
@@ -24546,9 +24546,9 @@
     split: 19
     text: "刀剑拳棒任一达到200"
     translated: "Any sword, blade, fist, or staff that reaches a level of 200 is acceptable"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Staff,棍,Staff,杖,"
+    flaggedHallucination: ""
 - lineNum: 121319004
   raw: "121319004#121319#1#9#0#0#0##0&89|8102|1#0&89|8103|1#晋升悍匪#0#913073###0#0#1&18|1|34|325|>=;18|1|35|325|>=;18|1|36|325|>=;18|1|37|325|>=#0#刀剑拳棒任一达到325#"
   translated: ""
@@ -24560,13 +24560,13 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6375831+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.3074487+08:00
     split: 19
     text: "刀剑拳棒任一达到325"
-    translated: "Any sword, saber, fist, or staff that reaches a power level of 325"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
-    flaggedHallucination: "Staff,棍,Staff,杖,"
+    translated: "A blade, sword, fist, or staff that reaches 325."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 121319005
   raw: "121319005#121319#1#9#0#0#0##0&89|8103|1#0&89|8104|1#晋升巨盗#0#913069###0#0#1&18|1|34|475|>=;18|1|35|475|>=;18|1|36|475|>=;18|1|37|475|>=#0#刀剑拳棒任一达到475#"
   translated: ""
@@ -24578,12 +24578,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6376313+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.7562003+08:00
     split: 19
     text: "刀剑拳棒任一达到475"
-    translated: "Any sword, saber, fist, or club that reaches level 475"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Blade, sword, fist, or staff—any one of them reaching 475."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 121319006
   raw: "121319006#121319#1#9#0#0#0##0&89|8104|1#0&89|8105|1#晋升贼王#0#913065###0#0#1&18|1|34|650|>=;18|1|35|650|>=;18|1|36|650|>=;18|1|37|650|>=#0#刀剑拳棒任一达到650#"
@@ -24600,9 +24600,9 @@
     split: 19
     text: "刀剑拳棒任一达到650"
     translated: "One's sword, blade, fist, or staff can reach 650"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Staff,棍,Staff,杖,"
+    flaggedHallucination: ""
 - lineNum: 121320001
   raw: "121320001#121320#1#9#0#0#0##0&18|1|47|50|>=#0&89|9300|1#成为相师#0#908248###0#0#1&18|1|42|50|>=;18|1|43|50|>=;18|1|44|50|>=;18|1|48|50|>=#0#道佛儒魔任一达到50#"
   translated: ""
@@ -24665,9 +24665,9 @@
     split: 10
     text: "晋升卜师"
     translated: "Ascend to Divination Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.6378746+08:00
     split: 19
     text: "道佛儒魔任一达到260"
@@ -24683,9 +24683,9 @@
     split: 10
     text: "晋升星师"
     translated: "Promotion to Star Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.6379231+08:00
     split: 19
     text: "道佛儒魔任一达到380"
@@ -31703,9 +31703,9 @@
     split: 10
     text: "不义之财"
     translated: "Ill-gotten gains"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 150332001
   raw: "150332001#150332#1#9#0#0#0##1&24|933930|1;24|935479|1#1&24|932211|1#共赏美味-结缘#15043#0###0#0##0##"
   translated: ""
@@ -31747,9 +31747,9 @@
     split: 10
     text: "寻师父-结缘"
     translated: "Seeking the Master - Fated Meeting"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150352001
   raw: "150352001#150345#1#9#0#0#0##1&24|933938|1#1&24|931964|1#并蒂莲-缘起#15050#0###0#0##0##"
   translated: ""
@@ -31765,12 +31765,12 @@
   raw: "150365001#150365#1#9#0#0#0###0#暗器研制#6602#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6560692+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.9676057+08:00
     split: 10
     text: "暗器研制"
-    translated: "Dark Artifacts Research"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hidden Weapon,暗器,"
+    translated: "Development of hidden weapons"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 150365003
   raw: "150365003#150365#1#9#0#0#0##1&24|930120|1#0#唐门如何晋升#0#927756###0#0#0#0#0#"
@@ -31780,9 +31780,9 @@
     split: 10
     text: "唐门如何晋升"
     translated: "How does the Tang Sect promote its members?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 150368001
   raw: "150368001#150368#1#9#0#0#0##1&24|928482|1#1&24|930216|1;24|940130|1#入门-初窥暗器之道#15087#0###0#0##0##"
   translated: ""
@@ -31813,9 +31813,9 @@
     split: 10
     text: "如何加入唐门"
     translated: "How to join the Tang Sect?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 150369001
   raw: "150369001#150369#1#9#0#0#0##0&3|71102|1;24|930101|1#1&24|930093|1#唐门-晋升内门#15090#0###0#0##0##"
   translated: ""
@@ -31868,9 +31868,9 @@
     split: 10
     text: "唐门-晋升门主"
     translated: "Tang Family - Ascend to Sect Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150385001
   raw: "150385001#150385#1#9#0#0#0#0#0&18|1|51|49|>;18|1|46|49|>;18|1|52|49|>#0&24|928482|1#机关师#15104#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -31879,9 +31879,9 @@
     split: 10
     text: "机关师"
     translated: "A master of mechanical devices"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150385002
   raw: "150385002#150385#1#9#0#0#0#0#0&18|1|51|79|>;18|1|46|99|>;18|1|52|79|>;24|928482|1#0&24|928397|1#机关·机匠#15105#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -31890,9 +31890,9 @@
     split: 10
     text: "机关·机匠"
     translated: "Engineer's Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150385003
   raw: "150385003#150385#1#9#0#0#0#0#0&18|1|51|159|>;18|1|46|199|>;18|1|52|159|>;24|928397|1#0&24|928377|1#机关·机师#15106#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -31941,12 +31941,12 @@
   raw: "150385007#150385#1#9#0#0#0###0#暗器研制#6602#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6564936+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.9676292+08:00
     split: 10
     text: "暗器研制"
-    translated: "Dark Artifacts Research"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hidden Weapon,暗器,"
+    translated: "Development of hidden weapons"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 150385011
   raw: "150385011#150385#1#9#0#0#0##0&24|928482|1#0&3|37410|1#千机匣#0#0#0|37410|1#0#0#0#0#0#0#"
@@ -31963,12 +31963,12 @@
   raw: "150388001#150388#1#9#0#0#0#0#0#0&24|927460|1#风神腿-聂少侠#15113#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6565457+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.9676300+08:00
     split: 10
     text: "风神腿-聂少侠"
-    translated: "Feathered Wind Leg - Nie Xiaoshuai"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Young Hero,少侠,"
+    translated: "The Wind God Leg - Nie, the Young Hero"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 150393001
   raw: "150393001#150393#1#9#0#0#0#0#0&18|1|47|120|>;24|942755|1#0&24|923094|1#婚前忧思#15130#0###0#0#0#0#0#"
@@ -32055,9 +32055,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150395002
   raw: "150395002#150395#1#9#0#0#0#0#0&24|922700|1;18|1|47|360|>;24|954276|1#1&24|922687|1#晋升关门#15137#0###0#0#0#0#0#"
   translated: ""
@@ -32165,9 +32165,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150395030
   raw: "150395030#150395#1#9#0#0#0##0&24|926838|1;24|940130|1#1&24|920794|1#入门双修府#15145#0###0#0##0##"
   translated: ""
@@ -32176,9 +32176,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150395040
   raw: "150395040#150395#1#9#0#0#0##0&24|922449|1#1&24|922445|1;24|940130|1#入门双修府#15131#0###0#0##0##"
   translated: ""
@@ -32187,9 +32187,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150395041
   raw: "150395041#150395#1#9#0#0#0##0&24|940130|1;24|938195|1#1&24|922445|1#入门双修府#15131#0###0#0##0##"
   translated: ""
@@ -32198,9 +32198,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150395042
   raw: "150395042#150395#1#9#0#0#0##0&24|940130|1;24|942755|1#1&24|922445|1#入门双修府#15131#0###0#0##0##"
   translated: ""
@@ -32209,9 +32209,9 @@
     split: 10
     text: "入门双修府"
     translated: "Enter the Dual Cultivation Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 150398001
   raw: "150398001#150398#1#9#0#0#0###1&24|922445|1;24|921283|1#如何加入双修府#0#923101###0#0##0##"
   translated: ""
@@ -32220,9 +32220,9 @@
     split: 10
     text: "如何加入双修府"
     translated: "How to join the Dual Cultivation Bureau?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 150398002
   raw: "150398002#150398#1#9#0#0#0#0#1&24|922930|1#1&24|922909|1#怡香往事#15135#0###0#0#0#0#0#"
   translated: ""
@@ -32429,9 +32429,9 @@
     split: 10
     text: "道士·天师"
     translated: "A Taoist; Celestial Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150446001
   raw: "150446001#150446#1#9#0#0#0##0&18|1|42|200|>;18|1|54|160|>;18|1|50|160|>;24|911751|1#1&24|911732|1#道士·法师#0#911732###0#0##0##"
   translated: ""
@@ -32451,9 +32451,9 @@
     split: 10
     text: "道士·玄师"
     translated: "Ancient Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150446003
   raw: "150446003#150446#1#9#0#0#0##0&18|1|42|650|>;18|1|54|520|>;18|1|50|520|>;24|911677|1#1&24|911658|1#道士·真君#15170#0###0#0##0##"
   translated: ""
@@ -32462,9 +32462,9 @@
     split: 10
     text: "道士·真君"
     translated: "A Daoist Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150446010
   raw: "150446010#150446#1#9#0#0#0##0&89|9100|1##关于论道#0#908521###0#0##0##"
   translated: ""
@@ -32528,9 +32528,9 @@
     split: 10
     text: "丹道利器"
     translated: "Alchemy's Master Tool"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150448001
   raw: "150448001#150448#1#9#0#0#0##0&24|911658|1#0&24|910919|1#侠护魔心#15171#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -32675,9 +32675,9 @@
     split: 10
     text: "如何加入黑沙寨？"
     translated: "How can I join Black Sand Garrison?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 150479001
   raw: "150479001#150479#2#9#0#0#0##0&102#0&102!#参加诡辞相关的活动#6525#0###0#0##0##"
   translated: ""
@@ -32704,12 +32704,12 @@
   raw: "150479003#150479#2#9#0#0#0##0&102#0&102!#参加刀法相关的活动#6520#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6584243+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:42.9676525+08:00
     split: 10
     text: "参加刀法相关的活动"
-    translated: "Participate in activities related to sword techniques"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Participate in activities related to blade art."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 150479004
   raw: "150479004#150479#2#9#0#0#0##0&102#0&102!#参加巧手相关的活动#6542#0###0#0##0##"
@@ -32807,9 +32807,9 @@
     split: 10
     text: "天师道印"
     translated: "The Seal of the Celestial Master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 150497001
   raw: "150497001#150497#1#9#0#0#0#0##1&24|908500|1#匪徒兄妹#15180#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -32851,9 +32851,9 @@
     split: 10
     text: "如何入门剑斋？"
     translated: "How to join the Sword Studio?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 150498005
   raw: "150498005#150498#1#9#0#0#0#0#0&18|1|35|240|>=;24|906582|1#0&24|906572|1#剑斋-晋升内门#15207#0###0#0#0#0#0#"
   translated: ""
@@ -32990,13 +32990,13 @@
   raw: "150541001#150541#1#9#0#0#0#0#0#1&24|901043|1#姑娘，手下留情#45095#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6591648+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:43.2050223+08:00
     split: 10
     text: "姑娘，手下留情"
-    translated: "Young lady, show some mercy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
-    flaggedHallucination: "Young Lady,公主,Lady,夫人,"
+    translated: "Miss, show some mercy."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 150546001
   raw: "150546001#150546#1#9#0#0#0#0#0#1&24|900680|1#一探究竟#15222#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33107,9 +33107,9 @@
     split: 19
     text: "完成任务玉沙告急或成为丐门掌门解锁完成任务玉沙告急或成为丐门掌门解锁"
     translated: "Complete the task to unlock Brother Yusha in distress or unlock becoming the leader of the Beggar Sect"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,"
+    flaggedHallucination: ""
 - lineNum: 155086011
   raw: "155086011#155086#1#9#0#0#0##0&103|99|>;72|155086|155086011|1#1&1|1128005|1;1|1128005|2#玉沙告急#52201#0###0#0##0##"
   translated: ""
@@ -33129,9 +33129,9 @@
     split: 10
     text: "丐门情报"
     translated: "Tiger Sect Intelligence"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Tiger,虎,"
+    flaggedHallucination: ""
 - lineNum: 155089001
   raw: "155089001#155089#1#9#0#0#0#0#0&103|49|>;24|931338|1#1&24|931336|1#晋升关门弟子#20062#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33250,9 +33250,9 @@
     split: 10
     text: "东厂如何晋升"
     translated: "How does one advance within the Eastern Depot?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 155125001
   raw: "155125001#155125#1#9#0#0#0#0#0&102;104|3#1&24|929245|1#拉近关系#20088#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33349,9 +33349,9 @@
     split: 10
     text: "晋升大夫"
     translated: "Be promoted to a senior doctor"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Senior,前辈,"
+    flaggedHallucination: ""
 - lineNum: 155155006
   raw: "155155006#155155#1#9#0#0#0#0#0&18|1|45|650|>=;18|1|62|520|>=;24|928186|1#1&24|928156|1#晋升贵胄#20115#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33415,9 +33415,9 @@
     split: 10
     text: "加入镖局"
     translated: "Join the Escorting Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 155179002
   raw: "155179002#155179#1#9#0#0#0#0#0&18|1|34|100|>=;18|1|45|80|>=;18|1|62|80|>=;24|924754|1#1&24|924740|1#晋升趟子手#20123#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33613,9 +33613,9 @@
     split: 10
     text: "莫靖师父，那件事是真的吗？"
     translated: "Master Mo Jing, is that thing true?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 155235001
   raw: "155235001#155235#1#9#0#0#0#0#0#1&24|913509|1#你在此处做什么？#20149#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33642,12 +33642,12 @@
   raw: "155243001#155243#1#9#0#0#0#0#0#1&24|913094|1#老前辈，你怎么了？#20152#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6607611+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:43.4422872+08:00
     split: 10
     text: "老前辈，你怎么了？"
-    translated: "Respected elder, what's wrong?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior,前辈,"
+    translated: "Senior, what's wrong?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 155245001
   raw: "155245001#155245#1#9#0#0#0#0#0&102;104|4#1&24|913181|1#历练#20153#0#0#0#0#0#0#0#0#"
@@ -33690,9 +33690,9 @@
     split: 10
     text: "婉儿的伤势如何？"
     translated: "How is Wan'er's condition?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 155273001
   raw: "155273001#155273#1#9#0#0#0#0#0#1&24|912068|1#朝天奇遇#20172#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33712,9 +33712,9 @@
     split: 10
     text: "成为和尚"
     translated: "To become a monk"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Monk,僧侣,"
+    flaggedHallucination: ""
 - lineNum: 155274002
   raw: "155274002#155274#1#9#0#0#0#0#0&18|1|43|325|>=;18|1|37|260|>=;24|911870|1#1&24|911860|1#成为禅师#20176#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33723,14 +33723,14 @@
     split: 10
     text: "成为禅师"
     translated: "Becoming a Zen master"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 155275001
   raw: "155275001#155275#1#9#0#0#0#0#0&18|1|43|100|>=;18|1|37|80|>=;24|911911|1#1&24|911902|1#成为沙弥#20174#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6609686+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:45.5914067+08:00
     split: 10
     text: "成为沙弥"
     translated: ""
@@ -33767,9 +33767,9 @@
     split: 10
     text: "成为圣僧"
     translated: "Attain the rank of Saint Monk"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Monk,僧侣,"
+    flaggedHallucination: ""
 - lineNum: 155280001
   raw: "155280001#155280#1#9#0#0#0#0#0#1&24|911209|1#爷爷，你怎么了？#20179#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33800,9 +33800,9 @@
     split: 10
     text: "加入十二连环坞"
     translated: "Join the Twelve Linked Holes Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 155285002
   raw: "155285002#155285#1#9#0#0#0#0#1&24|910452|1;24|940130|1#1&24|910453|1;24|910448|1#加入十二连环坞#20182#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33811,9 +33811,9 @@
     split: 10
     text: "加入十二连环坞"
     translated: "Join the Twelve Linked Holes Guild"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 155285003
   raw: "155285003#155285#1#9#0#0#0#0#0&103|24|>;24|910453|1#1&24|910430|1#晋升坞丁#20183#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -33866,9 +33866,9 @@
     split: 10
     text: "香主试炼"
     translated: "The Incense Master undergoes a trial"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 155299001
   raw: "155299001#155299#2#23#0#0#0#0#0#0#悬赏#0#0###0#0#0#0#0#"
   translated: ""
@@ -33965,34 +33965,34 @@
   raw: "155314001#155314#1#9#0#0#0#0#0&18|1|34|50|>=#1&24|908994|1#指点刀法·一#20189#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6615328+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:46.0167982+08:00
     split: 10
     text: "指点刀法·一"
-    translated: "Instructor Li begins his teachings on swordsmanship with a focus on the fundamental principles. He emphasizes precision, balance, and fluidity in each movement, highlighting how these elements must be integrated to master the art of the blade"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade Art,刀法,"
-    flaggedHallucination: "Ho..,齁...,Master,师傅,"
+    translated: "Master Zhu's instructions on blade art, part one:"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 155314002
   raw: "155314002#155314#1#9#0#0#0#0#0&18|1|34|200|>=;24|908991|1#1&24|908987|1#指点刀法·二#20190#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6615615+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:46.2895289+08:00
     split: 10
     text: "指点刀法·二"
-    translated: "Two Methods of Swordsmanship"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Master the blade art, part two."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 155314003
   raw: "155314003#155314#1#9#0#0#0#0#0&18|1|34|300|>=;24|908985|1#1&24|908981|1#指点刀法·三#20191#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6615881+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:46.9133350+08:00
     split: 10
     text: "指点刀法·三"
-    translated: "Guidance on Swordsmanship · Part Three"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
+    translated: "Mastering the blade art, part three."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 155315001
   raw: "155315001#155315#1#9#0#0#0#0#0&24|903559|1#0&24|900163|1#清影徘徊#40263#0###0#0#0#0#0#"
@@ -34097,13 +34097,13 @@
   raw: "155334001#155334#1#9#0#0#0#0#0#1&24|908013|1#姑娘何人？#20197#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6618496+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:47.1654742+08:00
     split: 10
     text: "姑娘何人？"
-    translated: "Who are you, young lady?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
-    flaggedHallucination: "Young Lady,公主,Lady,夫人,"
+    translated: "You are who, young lady?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 155336001
   raw: "155336001#155336#1#9#0#0#0#0#1&24|908013|1#1&24|907980|1#我打听些事情。#20198#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -34134,9 +34134,9 @@
     split: 10
     text: "军爷辛苦，我打听些事情"
     translated: "My apologies for troubling you, Elder Brother. I'm seeking some information"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Brother,哥哥,Brother,兄弟,Elder Brother,阿兄,"
+    flaggedHallucination: ""
 - lineNum: 155341001
   raw: "155341001#155341#1#9#0#0#0#0#1&24|908013|1#1&24|907911|1#老爷爷你们在这里做什么呢？#20200#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -34156,9 +34156,9 @@
     split: 10
     text: "老爷爷你的女儿长什么样呢？"
     translated: "How is your granddaughter looking?"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 155351001
   raw: "155351001#155351#1#9#0#0#0#0#1&24|907804|1#1&24|907783|1#南门函，又见面了。#20202#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -34369,9 +34369,9 @@
     split: 10
     text: "霜寒武林志"
     translated: "The Wulin Chronicle of Frosty Chill"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 165159001
   raw: "165159001#165159#1#9#0#0#0###1&1|1145001|1;1|1145001|2#猿神棋动#40153#0###0#0##0##"
   translated: ""
@@ -34420,12 +34420,12 @@
   raw: "165165004#165165#1#9#0#0#0#0#0&18|1|34|325|>=;18|1|37|325|>=;24|924834|1#1&24|924830|1#晋升武侠#40165#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6626344+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:47.4892584+08:00
     split: 10
     text: "晋升武侠"
-    translated: "Ascend to Martial Grandeur"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wuxia,武侠,"
+    translated: "Ascend to the realm of wuxia."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 165165005
   raw: "165165005#165165#1#9#0#0#0#0#0&18|1|34|475|>=;18|1|37|475|>=;24|924759|1#1&24|924812|1#晋升武宗#40166#0#0#0#0#0#0#0#0#"
@@ -34453,23 +34453,23 @@
   raw: "165178001#165178#1#9#0#0#0#0#0#0&24|923819|1#加入狂刀门#40168#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6627131+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:47.7300184+08:00
     split: 10
     text: "加入狂刀门"
-    translated: "Join the Kuan Dao Sect"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Join the Mad Blade Sect"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 165178002
   raw: "165178002#165178#1#9#0#0#0#0#1&24|923785|1;24|940130|1#0&24|923780|1#加入狂刀门#40169#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6627389+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:47.7300240+08:00
     split: 10
     text: "加入狂刀门"
-    translated: "Join the Kuan Dao Sect"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Join the Mad Blade Sect"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 165178003
   raw: "165178003#165178#1#9#0#0#0#0#0&1|1180004|1;103|74|>#1&24|923489|1#晋升亲传#40179#0###0#0#0#0#0#"
@@ -34497,12 +34497,12 @@
   raw: "165178005#165178#1#9#0#0#0#0#1&1|1180005|1#1&1|1180007|1;1|1180007|2#刀剑凌云怨#40186#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6628173+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:48.0767959+08:00
     split: 10
     text: "刀剑凌云怨"
-    translated: "Regret of Swordsmanship Among Clouds"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Blades that cleave the clouds, yet yearn."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 165186001
   raw: "165186001#165186#1#9#0#0#0#0#0&1|1180002|1;103|24|>#1&24|923745|1#晋升内门#40173#0###0#0#0#0#0#"
@@ -34578,9 +34578,9 @@
     split: 10
     text: "晋升酿酒大师"
     translated: "Appointed as Master Brewer"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 165245005
   raw: "165245005#165245#1#9#0#0#0#0#0&18|1|54|500|>=;18|1|62|500|>=;24|911965|1#1&24|911961|1#晋升酿酒宗师#40208#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -34600,9 +34600,9 @@
     split: 10
     text: "晋升酿酒宗匠"
     translated: "Appointed as Master Brewmaster"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 165251001
   raw: "165251001#165251#1#9#0#0#0#0#0#1&1|1210008|1;1|1210008|2#龙象遗响#40210#0###0#0#0#0#0#"
   translated: ""
@@ -34904,12 +34904,12 @@
   raw: "180052001#180052#1#9#0#0#0#0#0#0&24|912270|1#人如其刀#50065#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6638639+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:48.3137961+08:00
     split: 10
     text: "人如其刀"
-    translated: "As a person is to their sword"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "A person is like their blade."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 180055001
   raw: "180055001#180055#1#9#0#0#0###0&24|911605|1#意恍惚魄飞扬#50068#0###0#0##0##"
@@ -34948,12 +34948,12 @@
   raw: "180087001#180087#1#9#0#0#0#0#0&24|903025|1#0&24|899937|1#讨要工钱#50151#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6639705+08:00
+  - lastTranslatedOn: 2025-02-24T17:25:48.5443156+08:00
     split: 10
     text: "讨要工钱"
-    translated: "Claiming payment"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Claiming one's payment."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 180093001
   raw: "180093001#180093#1#9#0#0#0#0#0&24|899870|1#0&24|899869|1#恶霸真相#50156#0###0#0#0#0#0#"
@@ -35343,9 +35343,9 @@
     split: 10
     text: "入门拜师"
     translated: "Seeking a master to become an apprentice"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
 - lineNum: 1107001002
   raw: "1107001002#160010#1#9#0#0#0#0#0&103|24|>;24|939715|1#0&24|939714|1#找到失踪弟子#25022#0###0#0#0#0#0#"
   translated: ""
@@ -35431,6 +35431,6 @@
     split: 10
     text: "入门拜师"
     translated: "Seeking a master to become an apprentice"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""

@@ -2,13 +2,13 @@
   raw: "1#2#3#小兄弟等等！！###"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:18.3769014+08:00
+  - lastTranslatedOn: 2025-02-24T16:47:41.6711150+08:00
     split: 3
     text: "小兄弟等等！！"
-    translated: "Hey, brother! Wait a minute!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Little Brother,小兄弟,"
-    flaggedHallucination: "Brother,哥哥,"
+    translated: "Wait a minute, little brother!"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
+    flaggedHallucination: ""
 - lineNum: 2
   raw: "2#2#1|15#哎？小伙子！快过来！###"
   translated: ""
@@ -355,9 +355,9 @@
     split: 3
     text: "1|1|你们驻守了三个时辰后"
     translated: "You stayed on guard for three hours before..."
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 42
   raw: "42#1#35#1|1|###"
   translated: ""
@@ -473,9 +473,9 @@
     split: 3
     text: "1|1|你将狼皮交给了村长"
     translated: "You gave the wolf hide to the village chief"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
 - lineNum: 54
   raw: "54#1#41#1|1|看到你和月兰安然无恙，余婶松了口气。###"
   translated: ""

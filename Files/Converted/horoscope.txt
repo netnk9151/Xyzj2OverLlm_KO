@@ -303,9 +303,9 @@
     split: 1
     text: "辛卯"
     translated: "Year of the Fire Tiger"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Tiger,虎,"
+    flaggedHallucination: ""
 - lineNum: 29
   raw: "29#壬辰#1#29#10#0#0#"
   translated: ""
@@ -380,9 +380,9 @@
     split: 1
     text: "戊戌"
     translated: "The year Wushu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wu...,呜...,"
+    flaggedHallucination: ""
 - lineNum: 36
   raw: "36#己亥#1#36#9#0#0#"
   translated: ""
@@ -512,9 +512,9 @@
     split: 1
     text: "庚戌"
     translated: "The year of Geng Xu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ge...,咯...,"
+    flaggedHallucination: ""
 - lineNum: 48
   raw: "48#辛亥#1#48#17#0#0#"
   translated: ""
@@ -600,9 +600,9 @@
     split: 1
     text: "戊午"
     translated: "The year of Wuwu"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Wuwu,呜呜,"
+    flaggedHallucination: ""
 - lineNum: 56
   raw: "56#己未#1#56#6#0#0#"
   translated: ""
@@ -655,9 +655,9 @@
     split: 1
     text: "癸亥"
     translated: "The year Guhai in the Chinese sexagenary cycle"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
 - lineNum: 61
   raw: "61#正月#2#1#6#0#0#"
   translated: ""
@@ -1139,9 +1139,9 @@
     split: 1
     text: "丑时"
     translated: "Unlucky Hour"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 105
   raw: "105#寅时#4#3#7#0#0#"
   translated: ""
@@ -1249,9 +1249,9 @@
     split: 1
     text: "亥时"
     translated: "Eleventh hour"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
 - lineNum: 115
   raw: "115#0#5#0#21#男：短命非业谓大空，平生灾难事重重。\\n凶祸频临陷逆境，终世困苦背又躬。\\n女：无依无靠运不通，乌云盖月黑朦胧。\\n莫向故园栽花木，可来幽地种青松。#孤苦无援之命#"
   translated: ""
@@ -1292,12 +1292,12 @@
   raw: "117#0#5#0#23#男：此命推来骨格轻，求谋做事总难成。\\n妻儿兄弟实难靠，外出他乡作散人。\\n女：女命生来轻薄人，谋事营生靠自身。\\n骨肉之亲亦无靠，操心受累困苦门。#一世贫困之命#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:46.7681012+08:00
+  - lastTranslatedOn: 2025-02-24T17:10:31.1532521+08:00
     split: 5
     text: "男：此命推来骨格轻，求谋做事总难成。\\n妻儿兄弟实难靠，外出他乡作散人。\\n女：女命生来轻薄人，谋事营生靠自身。\\n骨肉之亲亦无靠，操心受累困苦门。"
-    translated: "Male：This fate was destined with a fragile constitution, making it difficult to achieve my ambitions. I couldn't rely on family—spouse or children, not even siblings. Stranded in foreign lands, I became an aimless wanderer：Women are fickle from birth, relying solely on themselves for schemes and livelihood. Even close family offers no support; they endure the pain and burdens of worry"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Brother,兄弟,"
+    translated: "Male：This fate decreed a frail frame, striving for plans to meet with failure.  \nFamily and kin are unreliable; abroad in foreign lands, I roam as an aimless wanderer.：A woman's life is born light and insubstantial. In pursuing her endeavors, she relies solely on herself. Even relatives cannot be depended upon; worrying brings burdens and a door to troubles."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7681263+08:00
     split: 6
@@ -1314,9 +1314,9 @@
     split: 5
     text: "男：此命推来福禄无，门庭困苦难繁荣。\\n亲戚朋友皆不靠，流落异乡孤老翁。\\n女：量小福浅口难糊，治家艰难多苦楚。\\n公婆儿女不亲爱，飘零在外当游姑。"
     translated: "A man：This fate brings no luck or fortune,  \nA humble gate struggles to thrive and prosper.  \nFriends and relatives offer no aid,  \nWandering alone in a strange land, an old man left to fend for himself.  \nAs for my daughter...：Little Feng's mouth is too small to make ends meet, and managing the household brings plenty of hardship. Parents-in-law and children don't treat me kindly; I wander alone like a roaming woman"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7681785+08:00
     split: 6
     text: "一生薄福之命"
@@ -1332,9 +1332,9 @@
     split: 5
     text: "男：此命推来祖业微，门庭营度似稀奇。\\n六亲骨肉如冰炭，一世勤劳自把持。\\n女：此女生来身命贱，生活拮据多苦凄。\\n娘家人情冷如冰，家徒四壁甚堪悲。"
     translated: "A man：This fate arrived, ancestral legacy now faint;  \nthe household's efforts seem remarkable.  \nKinship like ice and fire contrasts;  \nthrough life's toil, I hold myself in check：This young woman came into the world with a meager existence, leading a life of constant struggle and sorrow. Her family relations are as cold as ice, and her home is nothing more than four walls that can barely hold back tears"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7682308+08:00
     split: 6
     text: "衣食不周之命"
@@ -1350,9 +1350,9 @@
     split: 5
     text: "男：平生一路苦中求，独自营谋事不休。\\n离乡出门宜早计，晚年衣禄自无忧。\\n女：命中无财莫苦求，再次嫁夫带忧愁。\\n水深火热难言尽，老年两餐总该有。"
     translated: "Man：Through a life of hardships, I've toiled alone without rest.  \nLeaving home early for plans ensures peace in my later years, worries about sustenance and clothing will be none：Destiny has no wealth to be sought in vain, nor should you remarry and bring worries along. The hardships of deep waters and fierce fires are hard to express, but at least two meals a day must be had in old age"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7682816+08:00
     split: 6
     text: "心高命薄之命"
@@ -1368,9 +1368,9 @@
     split: 5
     text: "男：一生做事少商量，难靠他人自主张。\\n独马单枪空做去，早年晚岁总无长。\\n女：此格谋事单独强，能说能唱会主张。\\n心问口来口问心，晚景食禄一般样。"
     translated: "Male：One lives and acts with little consultation, hard to rely on others for independence.  \nRiding alone, wielding a single spear, all in vain; early or late years bring no growth.  \nWoman：This plot is strong when pursued alone, capable of articulating and leading the way.  \nHeart questions mouth, mouth questions heart; in old age, living off one's earnings is commonplace"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Spear,槍,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7683328+08:00
     split: 6
     text: "多谋少成之命"
@@ -1440,9 +1440,9 @@
     split: 5
     text: "男：忙忙碌碌把财求，何时云开见日头。\\n难得祖基家可立，中年衣食渐无忧。\\n女：早年行运在忙头，奔走四方事多忧。\\n费心劳神把家立，老年安生不发愁。"
     translated: "Man：Constantly hustling for wealth, when will the clouds part to see the sun?  \n    It's rare that the ancestral home can be established; once settled in middle age, worries about food and clothes gradually lessen：In my early years, I was busy making a living, traveling far and wide with many worries on my mind. Through hard work and dedication, I established a home for myself, and in old age, I enjoy peace without any concerns"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7685386+08:00
     split: 6
     text: "亲友有助，老年足用之命"
@@ -1494,9 +1494,9 @@
     split: 5
     text: "男：此命福气果如何，僧道门中衣禄多。\\n离祖出家方为妙，朝晚拜佛念弥陀。\\n女：金雀飞来站高枝，看破红尘不容易。\\n求名谋利空费力，东嫁西嫁两三次。"
     translated: "Male：This matter of fortune and destiny is as such: in the monk and Daoist communities, there are many who receive substantial livelihoods. To truly excel, one must leave home to become a renunciant. Morning and evening, offer prayers to Buddha, reciting Amitabha's name. As for women...：A golden bird alights on a high branch, piercing through the worldly dust with ease.  \nTo seek fame and wealth exhausts one's strength; to marry east or west happens two or three times"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Monk,僧侣,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7686920+08:00
     split: 6
     text: "财谷有余，贵人资助之命"
@@ -1566,9 +1566,9 @@
     split: 5
     text: "男：一身骨肉最清高，早入皇门姓氏标。\\n待到年将三十六，蓝衫脱去换红袍。\\n女：凤鸣岐山四方扬，女命逢此大吉昌。\\n走失夫君音信有，晚年衣禄财盈箱。"
     translated: "Man：A family of bone and flesh is most noble in lineage,  \nEntering the imperial gate with a distinguished surname early on.  \nBy the time one reaches thirty-six years old,  \nThe blue robe is shed for a red garment.  \nWoman：The phoenix sings on Mount Qishan, spreading its wings in all directions; a woman meeting this will find great fortune and prosperity. If her husband is missing but returns with news, she will have wealth and sustenance later in life"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7688976+08:00
     split: 6
     text: "财帛丰厚，子孙得福之命"
@@ -1692,9 +1692,9 @@
     split: 5
     text: "男：名利推来竟若何，前番辛苦后奔波。\\n命中难有男与女，骨肉扶持也不多。\\n女：女命终身挫折多，六亲相爱少相助。\\n命里子女都难养，一世操心苦奔波。"
     translated: "Man：Prosperity and fame come unexpectedly; how does one face the hustle that follows?  \nDestined to have neither husband nor wife, scant are the bones of kinship support：Women often face many setbacks throughout their lives, and familial love is scarce without much help. Their fate makes it difficult to raise children, leading to a lifetime of worries and relentless striving"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7692532+08:00
     split: 6
     text: "少年心酸，晚年富贵之命"
@@ -1710,9 +1710,9 @@
     split: 5
     text: "男：东西南北路路通，出姓移居更觉隆。\\n食禄无亏天数定，中年晚景一般同。\\n女：孤舟行水离沙滩，随亲出外早过家。\\n相夫教子中年旺，晚年三餐有鱼虾。"
     translated: "Male：The roads east, west, south, and north are all accessible; families changing surnames feel even more prominent.  \nLife spans are determined by fate without shortfall in sustenance; middle age to old age shares the same journey for everyone：A lone boat sails on the water, away from the shore.  \nLeaving home early in youth to support family abroad.  \nMid-life is prosperous with a good spouse and children raised well.  \nIn later years, every meal has fish and shrimp"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7693050+08:00
     split: 6
     text: "改姓移居，福禄双全之命"
@@ -1764,9 +1764,9 @@
     split: 5
     text: "男：此命推来福不轻，自成自立显门庭。\\n从来富贵人钦敬，使婢差奴过一生。\\n女：一世为人好名声，雨过天晴花更盛。\\n容貌靓丽惹人爱，生活丰裕百事成。"
     translated: "Man：This fate brings blessings not lightly, standing tall and establishing a grand home. Those who are wealthy and respected have always been admired by others throughout their lives, allowing maidservants to enjoy ease for a lifetime：Reputation is paramount, as a sunny day follows the rain and flowers bloom brighter. With beauty that captivates hearts and a prosperous life where everything succeeds"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7694570+08:00
     split: 6
     text: "交友多情有损，财禄厚重之命"
@@ -1836,9 +1836,9 @@
     split: 5
     text: "男：此格推来福禄宏，兴家立业在其中。\\n一生都是命安排，却是人间一富翁。\\n女：此命相貌眉目清，文武双全功名成。\\n一生衣禄皆无缺，可算世上积福人。"
     translated: "Man：This fortune came to Master Hong, who prospered and established his family within it.  \nAll of a man's life is preordained by fate, yet here stands a wealthy gentleman in this world.  \nShe：This person's fate and appearance are clear, with both literary and martial skills complete. Success in their career is assured.\nIn a lifetime of wealth and honor, they have no deficiencies. Truly, they can be counted as someone who has accumulated blessings in the world"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,Gentleman,先生,Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7696624+08:00
     split: 6
     text: "食用丰足，自创家业之命"
@@ -1854,9 +1854,9 @@
     split: 5
     text: "男：此命推来厚且清，诗书满腹看功成。\\n锦衣玉食自然好，正是人间有福人。\\n女：运开满腹好文章，当官经营都顺畅。\\n出行交易多得利，到处亨通姓名扬。"
     translated: "Man：This destiny, both abundant and clear,  \nFills the heart with poems and books to cheer.  \nWhen achievements are seen in full view,  \nGarments of brocade and meals of jade accrue.  \nIndeed, such fortune is rare in this world,  \nThe blessed ones among us are hereby unfurled：With a full belly of fine writings, running the office flows smoothly. In travel and trade, he gains much profit, his name is renowned everywhere"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7697136+08:00
     split: 6
     text: "满腹经纶，一生清闲之命"
@@ -1926,9 +1926,9 @@
     split: 5
     text: "男：平生食禄自然来，名利兼全福寿偕。\\n雁塔题名为贵客，紫袍玉带走金阶。\\n女：此命推来转悠悠，时运未来不强求。\\n结婚生子平常事，命里有时自然有。"
     translated: "Man：For my entire life, I've naturally earned my sustenance; with fame and fortune combined, both wealth and longevity accompany me.  \nAs a distinguished guest, my name is inscribed on the Scholar's Archway, ascending the steps of gold in royal purple robes adorned with jade sashes：This destiny comes and goes in its own time; we shouldn't force it.  \nMarriage and having children are everyday matters, which will happen naturally if they're meant to be"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Gu...,咕...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7699175+08:00
     split: 6
     text: "独创名利，富贵风流之命"
@@ -1962,9 +1962,9 @@
     split: 5
     text: "男：一朝金榜受皇恩，显祖荣宗立声名。\\n衣禄定然不欠缺，田园财帛更丰盈。\\n女：女命生性喜气和，谋望求财吉庆多。\\n口舌渐消疾病少，夫君走别归老窝。"
     translated: "Male：In one auspicious day, honored on the imperial list,  \nMy ancestors' glory and our family name are established.  \nClothing and stipend will surely be sufficient;  \nThe fields and wealth of silk shall be even more abundant.  \n\nFor my sister-in-law...：A woman's life is characterized by a cheerful nature, with many auspicious and prosperous desires fulfilled. Words of dispute gradually diminish, illnesses are rare; her husband travels away but returns to his old home in the end"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ho..,齁...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7700208+08:00
     split: 6
     text: "有财有势，为祖争光之命"
@@ -2016,9 +2016,9 @@
     split: 5
     text: "男：命主为官福禄长，得来富贵实非常。\\n名题雁塔登金榜，定中高科天下扬。\\n女：此命推来衣食优，当官不行把财求。\\n做事求谋有人助，夫贵子贤不须愁。"
     translated: "Male：The master has a destiny of being an official with great fortune and longevity, and his wealth is truly extraordinary.  \nHis name will be inscribed on the golden list at the Goose Pagoda, ensuring he excels in the highest scholarly ranks, bringing glory to all under heaven：Fate bestows abundance in food and clothing, but one cannot seek wealth through officialdom. In endeavors that require strategy, there are always those who will assist; thus, there is no need to worry if one's spouse is virtuous and the children wise"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Master,师傅,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7701764+08:00
     split: 6
     text: "高官显耀，多福多寿之上格命"
@@ -2106,9 +2106,9 @@
     split: 5
     text: "男：富贵由天莫苦求，万金家计不须谋。\\n如今不比前番事，祖业根基千古留。\\n女：女命早期多操劳，水底明月不可捞。\\n中年艰辛难获利，末运生活才见好。"
     translated: "Male：Prosperity and wealth are bestowed by heaven; do not fret in their pursuit.  \nThe vast family fortune need not be planned for.  \nCompared to past events, now is different;  \nthe ancestral legacy will endure forever：Early in a woman's life, she is often burdened with laborious tasks; the moonlight at the bottom of the water cannot be grasped. In middle age, hardships make it difficult to gain any benefit, and only in later years does one see an improvement in their livelihood"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.7704341+08:00
     split: 6
     text: "有权有势，人中龙凤之命"
@@ -2167,6 +2167,6 @@
     split: 6
     text: "显身扬名，洪福齐天之命"
     translated: "To reveal oneself and gain fame, receiving a decree of abundant blessings from all heavens"
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Ga...,嘎...,"
+    flaggedHallucination: ""
