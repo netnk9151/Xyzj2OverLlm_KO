@@ -57,9 +57,10 @@ public class SupportTests
         var glossary = new List<string>();
         foreach(var sect in sects)
         {
-            var trans = await QuickTranslate(config, sect);
+           // var trans = await QuickTranslate(config, sect);
             glossary.Add($"- raw: {sect}");
-            glossary.Add($"  result: {trans}");
+            glossary.Add($"  result: ");
+            //glossary.Add($"  result: {trans}");
             glossary.Add($"  checkForHallucination: true");
             glossary.Add($"  checkForMistranslation: true");
         }
@@ -68,9 +69,10 @@ public class SupportTests
 
         foreach (var place in places)
         {
-            var trans = await QuickTranslate(config, place);
+            //var trans = await QuickTranslate(config, place);
             glossary.Add($"- raw: {place}");
-            glossary.Add($"  result: {trans}");
+            glossary.Add($"  result: ");
+            //glossary.Add($"  result: {trans}");
             glossary.Add($"  checkForHallucination: true");
             glossary.Add($"  checkForMistranslation: true");
         }
