@@ -253,12 +253,12 @@ public class TranslationWorkflowTests
         }
 
         // Add . into Dialogue
-        if (outputFile.EndsWith("stringlang.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
-        {
-            Console.WriteLine($"Needed full stop:{outputFile} \n{split.Translated}");
-            split.Translated += '.';
-            modified = true;
-        }
+        //if (outputFile.EndsWith("stringlang.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
+        //{
+        //    Console.WriteLine($"Needed full stop:{outputFile} \n{split.Translated}");
+        //    split.Translated += '.';
+        //    modified = true;
+        //}
 
         // Clean up Diacritics
         var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, split.Text, outputFile);

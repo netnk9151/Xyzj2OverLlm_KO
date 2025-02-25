@@ -88,7 +88,7 @@ public static class TranslationService
             new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
             new() {Path = "spellprotype.txt", SplitIndexes = []},
             new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
-            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},            
+            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
             new() {Path = "stunt_proto.txt", SplitIndexes = []},
             new() {Path = "system_introduce.txt", SplitIndexes = []},
             new() {Path = "talent_proto.txt", SplitIndexes = []},
@@ -308,36 +308,61 @@ public static class TranslationService
                 // Use a slice of the list directly
                 var batch = fileLines.GetRange(i, batchRange);
 
-                // Process the batch in parallel
-                await Task.WhenAll(batch.Select(async line =>
+                // Get Unique splits incase the batch has the same entry multiple times (eg. NPC Names)
+                var uniqueSplits = batch.SelectMany(line => line.Splits)
+                        .GroupBy(split => split.Text)
+                        .Select(group => group.First())
+                        .ToList(); // Materialize to prevent multiple enumerations;
+
+                // Process the unique in parallel
+                await Task.WhenAll(uniqueSplits.Select(async split =>
                 {
-                    foreach (var split in line.Splits)
+                    if (string.IsNullOrEmpty(split.Text))
+                        return;
+
+                    var cacheHit = translationCache.ContainsKey(split.Text);
+
+                    if (string.IsNullOrEmpty(split.Translated) 
+                        || forceRetranslation 
+                        || (config.TranslateFlagged && split.FlaggedForRetranslation))
                     {
-                        if (string.IsNullOrEmpty(split.Text))
-                            continue;
+                        if (useTranslationCache && cacheHit)
+                            split.Translated = translationCache[split.Text];
+                        else
+                            split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);
 
-                        var cacheHit = translationCache.ContainsKey(split.Text);
-
-                        if (string.IsNullOrEmpty(split.Translated) || forceRetranslation || (config.TranslateFlagged && split.FlaggedForRetranslation))
-                        {
-                            if (useTranslationCache && cacheHit)
-                                split.Translated = translationCache[split.Text];
-                            else
-                                split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);                   
-
-                            split.ResetFlags();
-                            recordsProcessed++;
-                            totalRecordsProcessed++;
-                            bufferedRecords++;
-                        }
-
-                        if (string.IsNullOrEmpty(split.Translated))
-                            incorrectLineCount++;
-                        //Two translations could be doing this at the same time
-                        else if (!cacheHit && useTranslationCache && split.Text.Length <= charsToCache)
-                            translationCache.TryAdd(split.Text, split.Translated);
+                        split.ResetFlags();
+                        recordsProcessed++;
+                        totalRecordsProcessed++;
+                        bufferedRecords++;
                     }
+
+                    if (string.IsNullOrEmpty(split.Translated))
+                        incorrectLineCount++;
+                    //Two translations could be doing this at the same time
+                    else if (!cacheHit && useTranslationCache && split.Text.Length <= charsToCache)
+                        translationCache.TryAdd(split.Text, split.Translated);
                 }));
+
+                // Duplicates
+                var duplicates = batch.SelectMany(line => line.Splits)
+                    .GroupBy(split => split.Text)
+                    .Where(group => group.Count() > 1);
+
+                foreach (var splitDupes in duplicates)
+                {
+                    var firstSplit = splitDupes.First();
+
+                    // Skip first one - it should be ok
+                    foreach (var split in splitDupes.Skip(1))
+                    {
+                        split.Translated = firstSplit.Translated;
+                        split.ResetFlags();
+                        recordsProcessed++;
+                        totalRecordsProcessed++;
+                        bufferedRecords++;
+                    }
+                }               
 
                 logProcessed++;
 

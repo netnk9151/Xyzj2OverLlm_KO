@@ -156,11 +156,10 @@ public static class LineValidation
             }
         }
 
-        //TODO: This aint working
-        if (raw.Contains(@"\\n") && !result.Contains(@"\\n"))
+        if (raw.Contains("\\n") && !result.Contains("\\n"))
         {
             response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", @"\\n");
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
         // This can cause bad hallucinations if not being explicit on retries
