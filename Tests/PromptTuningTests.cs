@@ -210,7 +210,9 @@ public class PromptTuningTests
 
         var testLines = new List<TranslatedRaw> {
             new("前往乘风渡劫杀{E}（{IsCanFinish:0:1}/1)"),  
-            new("男：忙忙碌碌把财求，何时云开见日头。\\n难得祖基家可立，中年衣食渐无忧。\\n女：早年行运在忙头，奔走四方事多忧。\\n费心劳神把家立，老年安生不发愁。")
+            new("男：忙忙碌碌把财求，何时云开见日头。\\n难得祖基家可立，中年衣食渐无忧。\\n女：早年行运在忙头，奔走四方事多忧。\\n费心劳神把家立，老年安生不发愁。"),
+            new("押镖问询·二"),
+            new("九环刀"),
         };
 
         var results = new List<string>();

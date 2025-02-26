@@ -79,11 +79,30 @@ public class TranslationWorkflowTests
         };
     }
 
-
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
         await UpdateCurrentTranslationLines();
+    }
+
+    [Fact(DisplayName = "0. Reset All Flags")]
+    public async Task ResetAllFlags()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            int recordsModded = 0;
+
+            foreach (var line in fileLines)
+                foreach (var split in line.Splits)
+                    // Reset all the retrans flags
+                    split.ResetFlags(false);
+
+            var serializer = Yaml.CreateSerializer();
+            File.WriteAllText(outputFile, serializer.Serialize(fileLines));
+
+            await Task.CompletedTask;
+        });
     }
 
     public static async Task<int> UpdateCurrentTranslationLines()
@@ -181,9 +200,12 @@ public class TranslationWorkflowTests
             return false;
         }
 
-        // Skip Empty
-        if (string.IsNullOrEmpty(split.Translated))
-            return false;
+        // Skip Empty but flag so we can find them easily
+        if (string.IsNullOrEmpty(split.Translated) && string.IsNullOrEmpty(split.Text))
+        {
+            split.FlaggedForRetranslation = true;
+            return true;
+        }
 
         if (MatchesBadWords(split.Translated))
         {

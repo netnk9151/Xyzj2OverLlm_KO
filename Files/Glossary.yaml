@@ -45,6 +45,10 @@
   result: Hetu Luoshu
   checkForHallucination: true
   checkForMistranslation: true
+- raw: 江湖故事
+  result: Jianghu Tales
+  checkForHallucination: true
+  checkForMistranslation: true
 
 # Sayings
 - raw: 阿弥陀佛
@@ -167,6 +171,7 @@
   context: Dao is Blade or Cleaver or Knife
   allowedAlternatives: 
     - Knife
+    - Knives
     - Cleaver
     - Scissor
   checkForHallucination: false
@@ -886,7 +891,7 @@
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 齐军
-  result: Qí Army
+  result: Qi Army
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 遥雪峰
@@ -1057,10 +1062,6 @@
   result: Old Sage Mountain
   checkForHallucination: true
   checkForMistranslation: true
-- raw: 蓬莱村
-  result: Immortal Isle Village
-  checkForHallucination: true
-  checkForMistranslation: true
 - raw: 问剑道
   result: Sword Seeking Path
   checkForHallucination: true
@@ -1158,7 +1159,11 @@
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 枰栌
-  result: Ping Lu
+  result: Pinglu
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 淮陵
+  result: Huailing
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 化龙瀑
@@ -1177,10 +1182,6 @@
   result: Triumphant Cloud Mountain
   checkForHallucination: true
   checkForMistranslation: true
-- raw: 淮陵
-  result: Huai Ling
-  checkForHallucination: true
-  checkForMistranslation: true
 - raw: 飞鸿原
   result: Flying Swan Plain
   checkForHallucination: true
@@ -1191,6 +1192,10 @@
   checkForMistranslation: true
 - raw: 仙洲
   result: Immortal Isle
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 蓬莱村
+  result: Penglai Village
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 无涯岛

@@ -100,11 +100,16 @@ public static class LineValidation
             response = false;
 
         // Didnt translate at all and default response to prompt.
-        if (result.Contains("provide the text") 
+        if (result.Contains("provide the text")
+            || result.Contains("translates to")
             || result.Contains("'''") 
-            || result.Contains("<p") 
-            || result.Contains("<em") 
+            || result.Contains("<p")
+            || result.Contains("</p")
+            || result.Contains("<em")
+            || result.Contains("</em")
             || result.Contains("<|")
+            || result.Contains("<strong")
+            || result.Contains("</strong")
             //|| result.Contains("–")
             || result.Contains("\\U"))
             response = false;
