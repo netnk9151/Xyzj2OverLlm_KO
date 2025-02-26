@@ -204,13 +204,13 @@ public class TranslationWorkflowTests
             return true;
         }
 
-        //// Temp force retrans of splits because of changes in calcs
-        //foreach (var splitCharacters in TranslationService.SplitCharactersList)
-        //    if (preparedRaw.Contains(splitCharacters))
-        //    {
-        //        split.FlaggedForRetranslation = true;
-        //        return true;
-        //    }
+        // Temp force retrans of splits because of changes in calcs
+        foreach (var splitCharacters in TranslationService.SplitCharactersList)
+            if (preparedRaw.Contains(splitCharacters))
+            {
+                split.FlaggedForRetranslation = true;
+                return true;
+            }
 
         if (MatchesBadWords(split.Translated))
         {

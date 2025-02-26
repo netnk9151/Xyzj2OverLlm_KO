@@ -28,8 +28,8 @@
     split: 5
     text: "将私房钱出示给村长或村长夫人"
     translated: "Present your private savings to the village head or the lady of the village head."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 101
   raw: "101#13#1#2003#2#回去找六婶#0#0#0#0#0###0##0###0#0#0#0#0#101000#975003#2000|510001|8#2003&0#0#0#0#0#0#0#0#0#"
@@ -1084,8 +1084,8 @@
     split: 5
     text: "前往枰枦酒家"
     translated: "Head to Pengqian Restaurant."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tavern,酒家,"
     flaggedHallucination: ""
 - lineNum: 3601
   raw: "3601#19#1#899.9583,377.0618,1617.689,2#37#进入鸿月派#0##1063#####0##0###0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -1854,8 +1854,8 @@
     split: 5
     text: "前往永兴酒家"
     translated: "Head to Yongxing Restaurant."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tavern,酒家,"
     flaggedHallucination: ""
 - lineNum: 7201
   raw: "7201#1#1#985289#73#找报名人参加品酒大会#0##0###20052##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -3515,8 +3515,8 @@
     split: 5
     text: "击败刀芙"
     translated: "Defeat Dao Fu."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 53701
   raw: "53701#13#1#10031#538#和高枫芸谈话#0##1662#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -4703,9 +4703,9 @@
     split: 5
     text: "前往归云居酒家"
     translated: "Head to Guiyun Ju Tavern."
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Tavern,酒楼,"
+    flaggedHallucination: ""
 - lineNum: 153401
   raw: "153401#19#1#747.9056,234.9069,491.2253,1#1535#回到客栈#0##1253#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   translated: ""
@@ -9825,8 +9825,8 @@
     split: 5
     text: "前往永兴酒家"
     translated: "Head to Yongxing Restaurant."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tavern,酒家,"
     flaggedHallucination: ""
 - lineNum: 251001
   raw: "251001#1#1#998109#2511#完成第一轮品酒大会#0##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -11882,8 +11882,8 @@
     split: 5
     text: "向钱哥报道"
     translated: "Reporting to Brother Qian."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 315901
   raw: "315901#19#1#881.5725,232.8294,432.4822,6#3150#与钱玉闵视察#0##3452#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -11904,8 +11904,8 @@
     split: 5
     text: "跟随钱玉闵"
     translated: "Follow Qian Yumin."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 315903
   raw: "315903#19#1#986.2487,241.7154,458.6054,4#3150#袭击楚国残兵#0#315902#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -11937,8 +11937,8 @@
     split: 5
     text: "与钱玉闵交谈"
     translated: "Speaking to Qian Yumin."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 316201
   raw: "316201#19#1#1571.196,262.0005,1037.795,2#3153#解救林小婉#0##3422#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -15146,7 +15146,7 @@
     text: "花了大价钱赎回祖传宝刀，回去将此物交给林玲吧。"
     translated: "Spend a lot of money to retrieve the ancestral precious blade and take this item back to give it to Lin Ling."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Coin,钱,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
 - lineNum: 381005
   raw: "381005#20#1#0&24|986018|1#3810#林玲对失而复得大喜过望，决心传授拂笑手，<color=&&00ff00ff>跟上去瞧瞧。</color>#0##0#####0##0#看林玲展示拂笑手##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -16711,8 +16711,8 @@
     split: 5
     text: "质问李铭章之后，他无可奈何，打算用钱收买我们，他给的太多了，便同意了。"
     translated: "After questioning Li Mingzhang, they were at a loss and decided to try bribing us with money. The amount offered was too generous, so we agreed."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:46:37.9440569+08:00
     split: 16
@@ -16729,8 +16729,8 @@
     split: 5
     text: "质问李铭章之后，他无可奈何，打算用钱收买我们，他给的太多了，便同意了。"
     translated: "After questioning Li Mingzhang, they were at a loss and decided to try bribing us with money. The amount offered was too generous, so we agreed."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 385411
   raw: "385411#20#1#0&24|974640|1#3854#质问李铭章之后，他无可奈何，打算用钱收买我们，此事断然不行，<color=&&00ff00ff>我需要击败他们才是。</color>#0##0#####0##0#击败李铭章##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -16740,8 +16740,8 @@
     split: 5
     text: "质问李铭章之后，他无可奈何，打算用钱收买我们，此事断然不行，<color=&&00ff00ff>我需要击败他们才是。</color>"
     translated: "After questioning Li Mingzhang, he was at a loss and planned to bribe us with money. This is absolutely unacceptable; I need to defeat them."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1111053+08:00
     split: 16
@@ -16758,8 +16758,8 @@
     split: 5
     text: "质问李铭章之后，他无可奈何，打算用钱收买我们，此事断然不行，果然拒绝后将他们送进地府忏悔。"
     translated: "After questioning Li Mingzhang, he had no choice but to attempt to bribe us with money. This was absolutely unacceptable; indeed, after we rejected his offer, they were sent to the underworld to atone for their actions."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 385413
   raw: "385413#20#1#0&27|30430|1#3854##0##0#####0##0#质问陈威##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -17681,8 +17681,8 @@
     split: 5
     text: "在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"
     translated: "While traveling in Huailing, I encountered a swordsman who introduced himself as the famed Rihuo Dao Yan Qiao. He was challenging the local martial heroes of Huailing, and he appeared to be highly skilled in martial arts."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1148311+08:00
     split: 16
@@ -17797,8 +17797,8 @@
     split: 5
     text: "慈恩这厮骗吃骗喝，饶他不得，<color=&&00ff00ff>自当击败他给他一个教训拿回骗走的钱财。</color>"
     translated: "Ci'en is a scoundrel who cheats to eat and drink. We must not let him off the hook; <color=&&00ff00ff>we shall defeat him and teach him a lesson, retrieving the money he swindled away.</color>"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1151797+08:00
     split: 16
@@ -18276,8 +18276,8 @@
     split: 5
     text: "今日借了杜勾的钱并还清了，如果他真的能够洗心革面，那将是件好事。<color=&&00ff00ff>下次在京城遇到杜勾时，再问问他的近况，看看他是否有改变。</color>"
     translated: "Today I borrowed and repaid money to Du Gou. If he can truly reform, that would be a good thing. <color=&&00ff00ff>Next time we meet in the capital city, I'll ask about his recent situation and see if there have been any changes.</color>"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1164442+08:00
     split: 16
@@ -18305,8 +18305,8 @@
     split: 5
     text: "虽然杜勾还清了借款，甚至还赚了一些额外的钱，但赌博并非正当的方式。也不确定他是否能够听进劝诫的话。<color=&&00ff00ff>所以下次在京城遇到杜勾时，再做打算吧。</color>"
     translated: "Although Dou Gu has repaid the loan and even made some extra money, gambling is not a legitimate way. It's also uncertain whether he would listen to any advice. <color=&&00ff00ff>So, perhaps make plans for what to do next time you encounter Dou Gu in the capital.</color>"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1165217+08:00
     split: 16
@@ -18323,8 +18323,8 @@
     split: 5
     text: "虽然杜勾还清了借款，甚至还赚了一些额外的钱，但赌博并非正当的方式。也不确定他是否能够听进劝诫的话。所以下次在京城遇到杜勾时，再做打算吧。"
     translated: "Although Du Gou has repaid the loan and even made some extra money, gambling is not a legitimate way to earn. It's also uncertain if he will heed any advice. Let's think about what to do next time we encounter Du Gou in the capital."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 390605
   raw: "390605#20#1#1&24|976445|1;24|976443|1#3906#无论如何，要牢记赌博是一种成瘾行为，长期下去必然会导致输钱。应当时刻警醒自己，不要像他一样沾染赌瘾，避免陷入同样的困境。#0##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -18334,8 +18334,8 @@
     split: 5
     text: "无论如何，要牢记赌博是一种成瘾行为，长期下去必然会导致输钱。应当时刻警醒自己，不要像他一样沾染赌瘾，避免陷入同样的困境。"
     translated: "Regardless, it's important to remember that gambling is an addictive behavior and will inevitably lead to losing money in the long run. One should always be vigilant about themselves and avoid getting addicted like him, thereby preventing falling into a similar predicament."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 390701
   raw: "390701#20#1#0&30|971876|1#3907#<color=&&00ff00ff>虎子似乎有些问题需要向人请教，或许我可以给他提供一些解答和帮助。</color>#0##0#####0##0#解答虎子的疑问##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -25442,8 +25442,8 @@
     split: 5
     text: "击败段三刀"
     translated: "Defeat Duan San Dao."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 511901
   raw: "511901#16#1#165045|165046#5119#击败两人#0#0#40088#0#0###0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -30050,8 +30050,8 @@
     split: 5
     text: "前往山下小村钱家"
     translated: "Go to Qian family's small village at the foot of the mountain."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9102003
   raw: "9102003#13#1#88075#9102#问问大哥钱持见#938757#9102002#0#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -30072,8 +30072,8 @@
     split: 5
     text: "问问二弟钱持业"
     translated: "Ask Second Brother Qian Chiyi."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9102005
   raw: "9102005#13#1#88077#9102#问问三弟钱持念#938745#9102002#0#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -30083,8 +30083,8 @@
     split: 5
     text: "问问三弟钱持念"
     translated: "Ask Third Brother Qian Chiniang."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9102006
   raw: "9102006#13#1#88074#9102#和父亲钱守正交谈#938740#9102003|9102004|9102005#0#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -30094,8 +30094,8 @@
     split: 5
     text: "和父亲钱守正交谈"
     translated: "Speaking with Father Qian Shouzheng."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9102007
   raw: "9102007#13#1#88035#9102#与明心大师交谈#0#9102006#53014#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -36684,8 +36684,8 @@
     split: 5
     text: "击杀目标人物裴钱"
     translated: "Eliminate target character Pei Qian."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100511031
   raw: "100511031#13#1#205026#100512#回复关钰考核结果#0#100511021#50521#####0##0##0#0#0#0#0#0#0############"
@@ -37036,8 +37036,8 @@
     split: 5
     text: "击败段一刀以及两名赏金剑客"
     translated: "Defeat Duan Yidao and the two bounty swordsmen."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 101002011
   raw: "101002011#19#1#422.485,250.836,750.76,2#101003#与岳湘灵尝试进入麓山书院 #0##51003#####0##0##0#0#0#0#0#0#0############"
@@ -38015,8 +38015,8 @@
     split: 5
     text: "击败钱倩儿"
     translated: "Defeat Qian'er."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 101013401
   raw: "101013401#13#1#88288#1010134#与汪云清对话#0#0#0#0#0###0##0##0#0#0#0#0#0#101000#905799#3000|510001|8#88288&0#0#0#0#0#0#0#0#0#"
@@ -47897,8 +47897,8 @@
     split: 5
     text: "击败赵钱"
     translated: "Defeat Zhao Qian."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 200670091
   raw: "200670091#19#1#1383.415,252.4272,624.7098#20067#赵钱作乱#0#200670081#0#####0#0#0#0#0#0#0#0#0#0#101000##3000|921614|8#155194&0#1&1365.348&252.9073&628.9066&300.3917|155201&1365.891&252.9073&631.1999&240.6417|155234&1364.053&252.9073&630.4006&106.9999########"
@@ -47908,8 +47908,8 @@
     split: 5
     text: "赵钱作乱"
     translated: "Zhao Qian causes chaos."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 200670101
   raw: "200670101#13#1#155201#20067#与萧白对话#0#200670091#0#####0#0#0#0#0#0#0#0#0#0#101000#921611#3000|510001|8##155186&1364.365&252.9073&628.0654&345.1416########"

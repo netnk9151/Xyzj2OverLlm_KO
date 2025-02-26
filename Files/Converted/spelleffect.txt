@@ -18834,7 +18834,7 @@
     translated: "Poisoned State: In this state, it suppresses Yang. Targets in a Yang state will receive additional damage. The basic damage acts as a suppression."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
-    flaggedHallucination: "Poisoned,中毒,"
+    flaggedHallucination: ""
 - lineNum: 20061
   raw: "20061#毒-触发#1#49#3#1#4000#0#0###0##2#2.0#180.0#10000#0#0#0#0#1#1#1#0#0#50##0#0#0#0#毒瘴#瘴气效果，持续时间内，减少50%治疗效果，减少10%内外攻，受到伤害增加15%。#newbuff_du#0#0#20061#2##0#0#0#20061##1#0#20062|20063#0.0#0.0###0#"
   translated: ""
@@ -48854,8 +48854,8 @@
     split: 33
     text: "运功状态下，攻击时能够窃取一定金钱。"
     translated: "In a cultivation state, attacks can steal a certain amount of money."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 200281
   raw: "200281#迅掌-金钱增加#0#21#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#68#10#0#0##0#1#0#0#0#0#0#0#0#200281#0#0#0#0#0#200281##0#0#0#0.0#0.0###0#"
@@ -74886,9 +74886,9 @@
     split: 33
     text: "陷入冰冻状态。"
     translated: "Frozen solid."
-    flaggedForRetranslation: true
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Frozen,冰封,"
+    flaggedHallucination: ""
 - lineNum: 18561105
   raw: "18561105#寒气爆发-冻伤#1#29#0#1#6000#0#sound_jian_hurt2###0##2#0#0#10000#0#0#0#2#1#1#10000#0#0#21##0#0#0#0#冻伤#在持续时间内，每次被攻击会被附加自身内攻附加值的伤害。持续时间6秒，不可叠加。#buffnew_qiankun#0#0#18561105#2##0#0#0#18561105##0#0##0.0#0.0###0#"
   translated: ""
