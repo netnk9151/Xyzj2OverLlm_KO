@@ -78,33 +78,7 @@ public class SupportTests
         }
 
         File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
-    }
-
-    public async Task<string> QuickTranslate(LlmConfig config, string input)
-    {
-        using var client = new HttpClient();
-        client.Timeout = TimeSpan.FromSeconds(300);
-
-        // Prime the Request
-        List<object> messages = TranslationService.GenerateBaseMessages(config, input, string.Empty);
-
-        // Generate based on what would have been created
-        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
-
-        // Send correction & Get result
-        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
-        HttpResponseMessage response = await client.PostAsync(config.Url, content);
-        response.EnsureSuccessStatusCode();
-        string responseBody = await response.Content.ReadAsStringAsync();
-        using var jsonDoc = JsonDocument.Parse(responseBody);
-        var result = jsonDoc.RootElement
-            .GetProperty("message")!
-            .GetProperty("content")!
-            .GetString()
-            ?.Trim() ?? string.Empty;
-
-        return result;
-    }
+    }    
 
     [Fact]
     public async Task FindAllPlaceholders()

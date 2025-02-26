@@ -2363,9 +2363,9 @@
     split: 11
     text: "可以学习无暇的配方，并在特级药炉内自行炼制丹药。"
     translated: "You can learn Wuxia elixir formulas and independently refine medicinal pills in a top-level alchemy furnace."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:19:46.8564316+08:00
     split: 12
     text: "炼丹达到瓶颈时，习得特技金液羽衣便可晋为丹灵。"
@@ -2632,9 +2632,9 @@
     split: 11
     text: "可以学习无暇的配方，并在特级铸剑台上自行锻造兵器。"
     translated: "You can learn Wuxia formulas and forge weapons on your own at a Super Grade Swordsmithing Platform."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:19:46.8571905+08:00
     split: 12
     text: "炼器达到瓶颈时，习得特技霜雪龙泉便可晋为灵宝师。"
@@ -2901,9 +2901,9 @@
     split: 11
     text: "可以学习无暇的配方，并在特级天工台上自行打造饰品。"
     translated: "You can learn Wuxia crafting recipes and create accessories on your own at the Elite Tian Gong Workshop."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
   - lastTranslatedOn: 2025-02-24T16:19:46.8579491+08:00
     split: 12
     text: "巧手达到瓶颈时，习得特技纤云弄巧便可晋为天下无双。"
@@ -5623,8 +5623,8 @@
     split: 6
     text: "我自横刀向天笑，去留肝胆两昆仑。"
     translated: "I wield my sword and laugh at the heavens, ready to depart with heart and liver as two Kunluns."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.8658048+08:00
     split: 8
@@ -5701,8 +5701,8 @@
     split: 5
     text: "剑侠"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:46.8660291+08:00
     split: 6
@@ -6745,8 +6745,8 @@
     split: 8
     text: "官门身份一贯被江湖人蔑称为“朝廷鹰犬”，但是加入其中可是有实实在在的好处。若是想加入官门中最大的势力，东厂便是最好的去处。\\n但行好事，也问前程。\\n线索：提升兵道至50，酒量50。豫京寻知府(1551,440)以成为朝廷鹰犬。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 6901
   raw: "6901#4#69#朝廷鹰犬#1#师爷#官途乐事古来稀，清风明月伴朝衣。##在此道突破瓶颈。#6902#0#为行走江湖提供增益#提升身份解锁官门悬赏#45|62#"
@@ -7793,7 +7793,7 @@
     split: 8
     text: "心怀敬畏，细细品味酿酒的苦与甜。\\n若想成为酿酒师需提升酿酒、酒量至50后寻杜康先生。\\n线索：杜康先生（1475,455）"
     translated: "With a heart full of reverence, savor the bitterness and sweetness in crafting wine.\\nIf you wish to become a brewer, improve your brewing and alcohol tolerance skills to level 50 before seeking Master Du Kang.\\nClue/Lead:Gentleman Du Kang (1475,455)"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7301
@@ -8317,8 +8317,8 @@
     split: 8
     text: "绿林道，盗窃抢夺，聚义结寨，拦山开道，聚散如风。\\n若想成为绿林需提升自身刀剑拳棒任一至50后寻黑沙盗宗。\\n线索：黑沙盗宗(1326,1702)"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 8101
   raw: "8101#3#81#绿林#1#草寇#草寇初成名江湖，拦路劫财手段粗。##在此道突破瓶颈。#8102#0#为行走江湖提供增益#提升相关属性#34|35|36|37#"
@@ -8579,7 +8579,7 @@
     split: 8
     text: "柳家商会扩张至枰栌，江湖动荡暗潮涌动。此番扩张或许会牵动黑暗中的势力，传闻有心人可借此接触传说中的刺客组织。深入探查，或能窥见隐于刀锋黑影的杀机。\\n需要剑术达到50\\n线索：探查刺客组织（943，968）"
     translated: "The Liu Family Trade Association has expanded into Pinglu, and Jianghu is in turmoil with undercurrents of unrest. This expansion may stir the forces lurking in the shadows, with rumors suggesting that some individuals can use it to connect with a legendary assassin organization. Delving deeper might reveal the lethal schemes hidden within the dark silhouettes of blades.\\nYou need to reach a swordsmanship skill level of 50.\\nClue/Sleuth:Undercover Investigation of Assassin Guilds (943，968)"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 8301
@@ -9365,8 +9365,8 @@
     split: 8
     text: "书院一直备受楚国尊崇，虽因信念分裂砚溪山庄、麓山书院两家，但其影响力并未减弱，仍有不少人追随书院。所有书院弟子，无论身份，皆称书生。\\n若想成为书生，需儒学50及琴棋书画任一达到50后寻得稷下先生教导才行。\\n线索:稷下先生(312,412)"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 9001
   raw: "9001#2#90#书生#1#童生#君子坦荡，小人戚戚。##在此道突破瓶颈。#9002#0#为行走江湖提供增益#提升相关属性#44|58|59|60|61#"
@@ -9889,8 +9889,8 @@
     split: 8
     text: "初入佛门的僧人，被称为“和尚”，此时心志纯净，初学佛法。虽尚未通达高深佛理，但已开始接触戒律和禅定，逐渐体会佛法的智慧。和尚每日诵经修禅，磨炼心志，为日后深入修行铺路。\\n若想成为和尚需提升佛学至50，枪棍至50后寻觉尘。\\n线索：觉尘（1477,602）"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 9201
   raw: "9201#2#92#和尚#1#沙弥#沙弥诵经修戒律，初心不改佛前行。##在此道突破瓶颈。#9202#0#为行走江湖提供增益#提升相关属性#43|37#"
@@ -10151,8 +10151,8 @@
     split: 8
     text: "入门相师，对相术充满好奇，刚刚接触面相、手相等基础知识。此时技艺尚浅，更多的是学习各种相术的基本原理和简单的占卜方法。作为初学者，相师需具备细致观察和耐心，才能在相术的世界中不断进步。\\n若想成为相师需提升诡辞及佛道儒魔任一至50后寻相天奇人。\\n线索：相天奇人(8.699)"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 9301
   raw: "9301#2#93#相师#1#占士#占士初学窥天道，占星测命识乾坤。##在此道突破瓶颈。#9302#0#为行走江湖提供增益#提升相关属性#47|42|43|44|48#"
@@ -10413,8 +10413,8 @@
     split: 8
     text: "捕快为不夜京中特有的身份，由不夜京城主建立，又经由多年发展，与不夜京融为一体，成为不夜京不可分割的一部分，在不夜京中也有一定的地位。\\n若想成为捕快，需兵道、枪棒达到50后，寻不夜京缉拿总捕才行。\\n线索:不夜京缉拿总捕(1038,327)。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10101
   raw: "10101#4#101#捕快#1#壮班#水急客舟疾，山花拂面香。##需求兵道100枪棒80不夜京委托3#10102#0#为行走江湖提供增益#参与不夜京活动#45|37#"
@@ -10675,8 +10675,8 @@
     split: 8
     text: "镖师行走江湖,或运送贵重物品,或保人性命,习得一身武艺,行助人之事,安身护命,保家卫财,在行事上又各有手段,或武功高强,或八面玲珑,或登山越野,或另行水路。八仙过海各逞其能。\\n若想成为镖师,需刀法、兵道、酒量达到50后寻总镖头。\\n线索:总镖头(194,654)"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10201
   raw: "10201#4#102#镖师#1#趟子手#剑影刀光寒夜路，星辰为伴晓霜迎。##在此道突破瓶颈。#10202#0#为行走江湖提供增益#提升相关属性#34|45|62#"
@@ -10937,8 +10937,8 @@
     split: 8
     text: "江湖中武者多入过江之卿,可并不是人人都真正踏入了武者之道.\\n若想踏入武者之道,可刀剑拳棒皆达到50后，去寻苍山客。\\n线索:苍山客(1531,461)"
     translated: "In the world of martial artists, many have crossed the river to become a grandmaster, but not everyone truly walks the path of a martial artist.\\nIf you wish to embark on the path of a warrior, once your blade, sword, fist, and staff skills all reach level 50, seek out the guest at Cang Mountain.\\nClue/Lead:Blue Mountain Guest (1531,461)"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
     flaggedHallucination: ""
 - lineNum: 10301
   raw: "10301#4#103#武者#1#武徒#火炼赤金初见形，炉中烈焰铸新生。##在此道突破瓶颈。#10302#0#为行走江湖提供增益#提升相关属性#34|35|36|37#"

@@ -91,8 +91,6 @@ public class TranslationWorkflowTests
         var config = Configuration.GetConfiguration(workingDirectory);
         await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
-            int recordsModded = 0;
-
             foreach (var line in fileLines)
                 foreach (var split in line.Splits)
                     // Reset all the retrans flags
@@ -201,9 +199,10 @@ public class TranslationWorkflowTests
         }
 
         // Skip Empty but flag so we can find them easily
-        if (string.IsNullOrEmpty(split.Translated) && string.IsNullOrEmpty(split.Text))
+        if (string.IsNullOrEmpty(split.Translated) && !string.IsNullOrEmpty(split.Text))
         {
             split.FlaggedForRetranslation = true;
+            split.FlaggedMistranslation = "Failed"; //Easy search
             return true;
         }
 

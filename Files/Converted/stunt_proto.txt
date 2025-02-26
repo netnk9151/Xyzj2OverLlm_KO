@@ -159,8 +159,8 @@
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升刀万宗的伤害"
     translated: "Effectiveness:After equipping, increase the damage of Dao Wan Zong based on the proportion of attribute points to their maximum value."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:52:11.0690159+08:00
     split: 12
@@ -405,7 +405,7 @@
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升身法"
     translated: "Impact/Effectiveness：After equipping, enhance your martial arts skill based on the proportion of attribute points relative to their maximum values"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:52:20.6687002+08:00
@@ -672,7 +672,7 @@
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升长兵万宗的伤害"
     translated: "The results/effects：Upon equipping, based on the proportion of attribute points to their maximum values, enhance Wanzong's damage as a ranged weapon"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:52:36.4201324+08:00
@@ -754,8 +754,8 @@
     split: 12
     text: "线索：寻天下玄门之道达到闲云之上的羽士。据闻于(1503,456)处有此等高人前辈。"
     translated: "Clue:A fengshui master who has mastered the Dao of all hidden arts across the world and reached a level beyond ordinary clouds. It is said that... (1503,456) Here are individuals of such high caliber."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Senior,前辈,"
     flaggedHallucination: ""
 - lineNum: 4203
   raw: "4203#坐忘无我#0#离形去智，同于大通。清玉门前代长老所创，此人中年离群索居，悬棺羽化，去向不知。\\n效果：装备后提升元气#0#42#0##3#xueshi/daoxue11#18|1|42|450|>=#离形去智，同于大通。清玉门前代长老所创，此人中年离群索居，悬棺羽化，去向不知。\\n效果：装备后根据对应属性点数占最大值比例，提升元气#线索：寻天下玄门之道达到野鹤之上的羽士。据闻于(221,634)处有此等高人前辈。#xueshi/daoxue12#3#42|4##0#50#0#1000#0&15|1|0|1|>=#0#"
@@ -1128,7 +1128,7 @@
     split: 12
     text: "线索：寻天下书院之道达到大儒之上的夫子。据闻于(1499,437)处有此等高人前辈。"
     translated: "A lead/clue.：A sage who seeks the Way of the World's Academies to surpass even the greatest Confucian scholars. It is said that... (1499,437) There are indeed such esteemed seniors here."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4404
@@ -1392,8 +1392,8 @@
     split: 3
     text: "天下兼相爱则治，交相恶则乱。孙矩开创之法，希望弟子们能从中领悟墨门理念的真意。\\n效果：装备后提高轻功回复量"
     translated: "When all under heaven love each other, it is governed; when they hate each other, it is in chaos. Sun Ju's method of founding hopes that disciples can understand the true meaning of the Ink Gate philosophy from this. \\n effect:Increase lightness recovery after equipping gear."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Qinggong,轻功,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:46:04.0724823+08:00
     split: 11
@@ -1424,8 +1424,8 @@
     split: 3
     text: "孙矩之曾孙所创。提倡弟子们以及所有接受墨门理念之人不奢靡、不淫逸，不盘剥百姓，以此技引领弟子走向正途。\\n效果：装备后提升内息"
     translated: "Created by Sun Ju's great-grandson. It advocates that disciples and all those who embrace the principles of Momen should avoid extravagance, hedonism, and exploitation of the common people, leading them toward the right path with this technique. \\n effect:Enhance internal energy after equipping."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Ink Gate,墨门,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:47:32.1885692+08:00
     split: 11
@@ -1456,8 +1456,8 @@
     split: 3
     text: "人性如素丝，染于苍则苍，染于黄则黄，不教则不能明，墨门先代巨子所创，旨在教化百姓和愚昧弟子，使其明知明智。\\n效果：装备后减少轻功值消耗"
     translated: "Human nature is like white silk; it takes on the color of what it is dyed with. Without education, it cannot be enlightened. The Ink Gate was created by the great ancestor of a previous generation with the aim to educate and enlighten common people and ignorant disciples, enabling them to become aware and wise. \\n effect:Reduces lightness skill points consumption after equipping."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Qinggong,轻功,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:47:51.7044036+08:00
     split: 11
@@ -1488,15 +1488,15 @@
     split: 3
     text: "理不辨不明，墨门先代长老所创，借言辞之利寻万物之理。\\n效果：装备后提升轻功值"
     translated: "Do not differentiate between right and wrong, a creation of the Ink Gate founding elder, using the power of words to seek the principles of all things. \\n effect:Increase agility after equipping gear."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Qinggong,轻功,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:47:29.5524888+08:00
     split: 11
     text: "理不辨不明，墨门先代长老所创，借言辞之利寻万物之理。\\n效果：装备后根据对应属性点数占最大值比例，提升轻功值"
     translated: "It's not about discerning what is right or wrong, but about seeking the principles of all things through the artful use of words, a practice established by the ancient elders of Moumen. \\n effect:After equipping, enhance the qinggong value based on the proportion of attribute points that occupy the maximum value."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Ink Gate,墨门,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:53:11.5850489+08:00
     split: 12
@@ -2115,8 +2115,8 @@
     split: 11
     text: "清玉门长老所创。此法开创极早，后在丹君江常煦手中又再次改良，现已成为清玉门中较为常用的技法。\\n效果：装备后根据对应属性点数占最大值比例，提升容貌"
     translated: "This technique was created by the Elder of Qingyu Gate and is one of the earliest. It was later refined under the hands of Dajun Jiang Changxu, becoming a commonly used method within Qingyu Gate today. \\n effects:Enhance appearance based on the proportion of attribute points to the maximum value after equipping."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pure Jade Gate,清玉门,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:53:37.0389373+08:00
     split: 12
@@ -2179,7 +2179,7 @@
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升身法"
     translated: "Impact/Effectiveness：After equipping, enhance your martial arts skill based on the proportion of attribute points relative to their maximum values"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:53:41.7060090+08:00
@@ -2247,8 +2247,8 @@
     split: 3
     text: "炎鸿铸剑师弟子之一所创。炎鸿铸剑师一生收徒众多，他晚年时，炎鸿氏因伤病去世，铸剑师悲痛不已，再不开炉，其弟子日日钻研他所留下的记录，开创此技后，得铸剑师青眼，遂倾囊相授。\\n效果：装备后提升锻造的成功率"
     translated: "One of the disciples of Swordsmith Yan Hongzhu created this. Throughout his life, Swordsmith Yan had many apprentices. In his later years, when Yan died due to illness, Swordsmith Zhu was heartbroken and ceased forging. His disciples diligently studied the records he left behind every day until they developed this technique. Impressed by their work, Swordsmith Zhu bestowed upon them his teachings with great generosity. \\n effects:Increase forging success rate after equipping."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Junior Brother,师弟,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:47:35.5109262+08:00
     split: 11
@@ -3041,8 +3041,8 @@
     split: 12
     text: "线索：寻天下烹饪之道达到名厨之上的厨师。据闻于(204,670)处有此等高人前辈。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 5505
   raw: "5505#竹炉汤沸#0#楚地技法，世家所创，现在楚地酒肆酒坊多有流传。虽常言道君子远庖厨，但此家诸人不以为然，特立独行，现虽有后人，却是籍籍无名。\\n效果：装备后烹饪时有几率额外获得一次#0#55#0##5#shenghuo/pengren11#18|1|55|900|>=#楚地技法，世家所创，现在楚地酒肆酒坊多有流传。虽常言道君子远庖厨，但此家诸人不以为然。\\n效果：装备后根据对应属性点数占最大值比例，烹饪时有几率额外获得一次#线索：寻天下烹饪之道达到厨神的厨师。据闻于(1553,1021)处有此等高人前辈。#shenghuo/pengren12#2###353#100#0#1000#0&15|1|0|1|>=#0#"
@@ -3408,8 +3408,8 @@
     split: 11
     text: "传闻一砍柴人在山中见一石桌，上有粗糙石子所布残局，足足参悟三天，下山时却已沧海桑田。\\n效果：装备后根据对应属性点数占最大值比例，提升阴属性功法伤害"
     translated: "It is rumored that a woodcutter in the mountains came across a stone table with a crude board and remnants of a game, pondering it for three days. By the time he returned down the mountain, everything had changed completely—worlds turned upside down. \\n effect:Increase Yin attribute martial arts damage based on the percentage of maximum points occupied by corresponding attributes after equipping."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mulberry Field,桑田,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:54:34.6642790+08:00
     split: 12
@@ -4167,7 +4167,7 @@
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升出售道具给商店的售价"
     translated: "The results/effectiveness：After equipping, the selling price of items sold to shops is increased based on the percentage of attribute points relative to their maximum value"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:55:15.5615922+08:00
@@ -4288,8 +4288,8 @@
     split: 12
     text: "线索：提升兵道至50，酒量50。\\n豫京寻知府(1551,440)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 6901
   raw: "6901#朝廷·师爷#0#官途乐事古来稀，清风明月伴朝衣。\\n效果：解锁朝廷悬赏·抓捕#0#69#0##1#zhanshu/anqi11#18|1|45|100|>=#效果：解锁朝廷悬赏·抓捕#线索：提升兵道至100，酒量80。\\n豫京寻知府(1551,440)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928256|1#0#"
@@ -4320,7 +4320,7 @@
     split: 12
     text: "线索：提升兵道至100，酒量80。\\n豫京寻知府(1551,440)以晋级。"
     translated: "Clue/Lead:Enhance Martial Arts to 100, Alcohol Tolerance to 80.\\nSeeking the Prefect of the Yu Capital. (1551,440) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 6902
@@ -4352,7 +4352,7 @@
     split: 12
     text: "线索：提升兵道至200，酒量160。\\n豫京寻知府(1551,440)以晋级。"
     translated: "Clue/Lead:Enhance martial arts skill to 200, alcohol tolerance to 160.\\nSeeking knowledge in the Yu Capital. (1551,440) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 6903
@@ -4384,7 +4384,7 @@
     split: 12
     text: "线索：提升兵道至325，酒量260。\\n豫京寻知府(1551,440)以晋级。"
     translated: "Clue/clues:Enhance martial skills to 325, alcohol tolerance to 260. In Yu Capital, seek the prefectural governor for \\n. (1551,440) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 6904
@@ -4416,7 +4416,7 @@
     split: 12
     text: "线索：提升兵道至475，酒量380。\\n豫京寻知府(1551,440)以晋级。"
     translated: "Clue/Suspect/Lead:Increase martial skill to 475, alcohol tolerance to 380.\\nSeeking out the Prefect in the Yu Capital. (1551,440) Advance in rank"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 6905
@@ -4448,8 +4448,8 @@
     split: 12
     text: "线索：提升兵道至650，酒量520。\\n豫京寻知府(1551,440)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7000
   raw: "7000#机关师#0##0#70#0##0#zhanshu/anqi11####zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928456|1#0#"
@@ -4491,8 +4491,8 @@
     split: 12
     text: "线索：提升墨学至100，巧手、炼器各80。\\n唐门寻机关师(426,1580)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7002
   raw: "7002#机关·机师#0#流转齿轮惊世巧，风雷潜动藏于心。效果：解锁研发二阶暗器#0#70#0##2#zhanshu/anqi11#18|1|46|250|>=#效果：解锁二阶暗器学习#线索：提升墨学至200，巧手、炼器各160。\\n唐门寻机关师(426,1580)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928377|1#0#"
@@ -4523,7 +4523,7 @@
     split: 12
     text: "线索：提升墨学至200，巧手、炼器各160。\\n唐门寻机关师(426,1580)以晋级。"
     translated: "Clue/Lead:Increase Ink Art to 200, Craftsmanship and Metalworking both to 160.\\nTangmen seeks a trap designer. (426,1580) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7003
@@ -4587,8 +4587,8 @@
     split: 12
     text: "线索：提升墨学至475，巧手、炼器各380。\\n唐门寻机关师(426,1580)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7005
   raw: "7005#机关·天巧#0#天工巧手千秋传，木石生辉匠心连。效果：解锁研发五阶暗器#0#70#0##5#zhanshu/anqi11#18|1|46|900|>=#效果：解锁五阶暗器学习#线索：提升墨学至650，巧手、炼器各520。\\n唐门寻机关师(426,1580)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928318|1#0#"
@@ -4694,8 +4694,8 @@
     split: 12
     text: "线索：提升炼器至200，巧手、缝纫各160。\\n寻匠者导师(1225,446)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7103
   raw: "7103#匠者·铸兵#0#技艺日益精湛，已可独立锻造各类兵器。无论是刀剑还是长矛，匠者皆能将火与铁完美结合，打造出江湖所需的锋利武器，名声渐传四方。\\n效果：解锁更多秘法秘术的学习\\n可从匠者导师处获得随身缝纫制造道具#0#71#0##3#jiyi/cuidiao11#18|1|51|450|>=#效果：解锁更多秘法秘术的学习#线索：提升炼器至325，巧手、缝纫各260。\\n寻匠者导师(1225,446)以晋级。#jiyi/cuidiao12#0#0#0#0#0#0#1000#0&1|923837|1##"
@@ -4712,8 +4712,8 @@
     split: 3
     text: "技艺日益精湛，已可独立锻造各类兵器。无论是刀剑还是长矛，匠者皆能将火与铁完美结合，打造出江湖所需的锋利武器，名声渐传四方。\\n效果：解锁更多秘法秘术的学习\\n可从匠者导师处获得随身缝纫制造道具"
     translated: "Their skills have become increasingly refined, allowing them to independently forge a variety of weapons. Whether it's swords or spears, the artisans are able to perfectly combine fire and iron, crafting the sharp weapons needed in the Jianghu. Their reputation gradually spreads far and wide. \\n effect:Learn \\n to unlock more learning of secret techniques and magic. You can obtain the on-the-go sewing craft item from a Master Craftsman mentor."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:50:19.4525209+08:00
     split: 11
@@ -4726,7 +4726,7 @@
     split: 12
     text: "线索：提升炼器至325，巧手、缝纫各260。\\n寻匠者导师(1225,446)以晋级。"
     translated: "Clue/Lead:Enhance crafting to level 325, dexterity in crafting and sewing both at level 260. \\n seek a master artisan's guidance. (1225,446) Progress to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7104
@@ -4758,7 +4758,7 @@
     split: 12
     text: "线索：提升炼器至475，巧手、缝纫各380。\\n寻匠者导师(1225,446)以晋级。"
     translated: "Clue/Lead/Tail:Enhance crafting to level 475, dexterous hands and sewing each at 380. \\n Seek a master artisan for guidance. (1225,446) To advance or to be promoted."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7105
@@ -4790,7 +4790,7 @@
     split: 12
     text: "线索：提升炼器至650，巧手、缝纫各520。\\n寻匠者导师(1225,446)以晋级。"
     translated: "Clue/Lead:Enhance artifact crafting to level 650; dexterous hands and sewing each at level 520.\\nSeeker's Master or Guide (1225,446) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7200
@@ -4865,7 +4865,7 @@
     split: 12
     text: "线索：提升缝纫至200，烹饪、酿酒各160。\\n寻天工宗匠(1092,1463)以晋级。"
     translated: "Clue/Lead:Enhance sewing to 200, cooking and brewing each to 160. \\n seek the Tian Gong Guildmaster. (1092,1463) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7203
@@ -4897,8 +4897,8 @@
     split: 12
     text: "线索：提升缝纫至325，烹饪、酿酒各260。\\n寻天工宗匠(1092,1463)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7204
   raw: "7204#杂家·精工#0#百工之术皆入心间，器物之造犹如天工巧匠，所作之物无论是细如针线或广如田畴，皆精致无瑕。其技之精深，已为江湖名家，匠艺造诣深不可测。\\n效果：解锁更多秘法秘术的学习\\n可从天工宗匠处获得随身酿酒道具#0#72#0##4#shenghuo/qiaoshou11#18|1|53|700|>=#效果：解锁更多秘法秘术的学习#线索：提升缝纫至475，烹饪、酿酒各380。\\n寻天工宗匠(1092,1463)以晋级。#shenghuo/qiaoshou12#0#0#0#0#0#0#1000#0&1|923878|1##"
@@ -5011,8 +5011,8 @@
     split: 12
     text: "线索：提升酿酒、酒量至100。\\n寻杜康先生(1475,455)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7302
   raw: "7302#酿酒匠人#0#心境如水，技艺如刀，酿出独特风味，酒香随心而化。\\n效果：解锁更多秘法秘术的学习#0#73#0##2#shenghuo/qiaoshou11#18|1|54|200|>=#效果：解锁更多秘法秘术的学习#线索：提升酿酒、酒量至200。\\n寻杜康先生(1475,455)以晋级。#shenghuo/qiaoshou12#0###0#0#0#1000#0&1|911996|1##"
@@ -5043,8 +5043,8 @@
     split: 12
     text: "线索：提升酿酒、酒量至200。\\n寻杜康先生(1475,455)以晋级。"
     translated: "Clue/Lead:Enhance brewing and alcohol tolerance to 200. \\n seek Master Du Kang. (1475,455) Advance to the next level."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gentleman,先生,"
     flaggedHallucination: ""
 - lineNum: 7303
   raw: "7303#酿酒大师#0#超脱技艺，追寻心境，在岁月与沉淀中酿出传世之香。\\n效果：解锁更多秘法秘术的学习#0#73#0##3#shenghuo/qiaoshou11#18|1|54|350|>=#效果：解锁更多秘法秘术的学习#线索：提升酿酒、酒量至350。\\n寻杜康先生(1475,455)以晋级。#shenghuo/qiaoshou12#0###0#0#0#1000#0&1|911981|1##"
@@ -5075,8 +5075,8 @@
     split: 12
     text: "线索：提升酿酒、酒量至350。\\n寻杜康先生(1475,455)以晋级。"
     translated: "Clue/Lead:Increase brewing and alcohol tolerance to level 350.\\nSeeking Master Du Kang. (1475,455) To advance or to move up"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gentleman,先生,"
     flaggedHallucination: ""
 - lineNum: 7304
   raw: "7304#酿酒宗师#0#内心通达，观天地如酒道，以自在之心融合万物之香。\\n效果：解锁更多秘法秘术的学习#0#73#0##4#shenghuo/qiaoshou11#18|1|54|500|>=#效果：解锁更多秘法秘术的学习#线索：提升酿酒、酒量至500。\\n寻杜康先生(1475,455)以晋级。#shenghuo/qiaoshou12#0###0#0#0#1000#0&1|911961|1##"
@@ -5107,8 +5107,8 @@
     split: 12
     text: "线索：提升酿酒、酒量至500。\\n寻杜康先生(1475,455)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 7305
   raw: "7305#酿酒宗匠#0#心与酒合，超越凡尘，酿出至醇佳酿，传世留名，后人仰望。\\n效果：解锁更多秘法秘术的学习#0#73#0##5#shenghuo/qiaoshou11#18|1|54|650|>=#效果：解锁更多秘法秘术的学习#线索：提升酿酒、酒量至650。\\n寻杜康先生(1475,455)以晋级。#shenghuo/qiaoshou12#0###0#0#0#1000#0&1|911937|1##"
@@ -5139,8 +5139,8 @@
     split: 12
     text: "线索：提升酿酒、酒量至650。\\n寻杜康先生(1475,455)以晋级。"
     translated: "Clue/Lead:Enhance brewing and alcohol tolerance to 650.\\nSeeking Mr. Du Kang. (1475,455) Advance to the next level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gentleman,先生,"
     flaggedHallucination: ""
 - lineNum: 8000
   raw: "8000#歌伶#0##0#80#0##0#jiyi/qingyi11####jiyi/qingyi12#0#0#0#0#0#0#1000#0&1|923976|1#0#"
@@ -5214,7 +5214,7 @@
     split: 12
     text: "线索：提升魔学、琴艺至200，诡辞至160。\\n枰栌寻程蝶依(883,951)以晋级。"
     translated: "Clue/Lead/Thread:Increase magic and qin art to 200, guci to 160. Brother Pinglu seeks Chen Dieyi. \\n (883,951) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 8003
@@ -5378,8 +5378,8 @@
     split: 12
     text: "线索：提升自身刀剑拳棒任一至200。\\n寻黑沙盗宗(1326,1702)以晋级。"
     translated: "Clue/Lead:Enhance any one of your sword, staff, or fist skills to level 200. \\n, search for the Black Sand Bandit Sect. (1326,1702) Advance to the next level."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 8103
   raw: "8103#绿林·悍匪#0#悍匪之境，行事凶狠果断，胆识过人。此时已不再满足于小打小闹，开始劫取较大宗的财物，已然成为绿林中令人闻风丧胆的存在。\\n提升偷窃速度#0#81#0##3#zhanshu/anqi11#18|1|34|325|>=##线索：提升自身刀剑拳棒任一至325。\\n寻黑沙盗宗(1326,1702)以晋级。#zhanshu/anqi12#0###0#0#0#1000#0&1|913073|1##"
@@ -5428,8 +5428,8 @@
     split: 12
     text: "线索：提升自身刀剑拳棒任一至475。\\n寻黑沙盗宗(1326,1702)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 8105
   raw: "8105#绿林·贼王#0#达到绿林巅峰之境，技艺超群，行事诡秘。贼王者神出鬼没，几乎无人能知其踪迹，出手即夺豪财，来去无影无踪。\\n可偷窃获得最多物品，偷窃速度达到最快#0#81#0##5#zhanshu/anqi11#18|1|34|650|>=##线索：提升自身刀剑拳棒任一至650。\\n寻黑沙盗宗(1326,1702)以晋级。#zhanshu/anqi12#0###0#0#0#1000#0&1|913065|1##"
@@ -5453,8 +5453,8 @@
     split: 12
     text: "线索：提升自身刀剑拳棒任一至650。\\n寻黑沙盗宗(1326,1702)以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 8300
   raw: "8300#刺客·刺客#0##0#83#0##0#zhanshu/anqi11####zhanshu/anqi12#0###0#0#0#1000#0&1|921382|1##"
@@ -5795,7 +5795,7 @@
     split: 12
     text: "线索：提升垂钓至1000。\\n寻钓者（1064,1430）以晋级"
     translated: "Clue/Lead/Suspect:Enhance fishing to 1000. \\n Seeker of Fish. (1064,1430) To advance/promote."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 8500
@@ -6048,8 +6048,8 @@
     split: 12
     text: "线索：提升儒学至200，琴棋书画任一至160。\\n寻稷下先生(312,412)以晋级。"
     translated: "Clue/clues:Increase Confucian Studies to 200. Any one of Music, Chess, Calligraphy, or Painting may be increased to 160.\\nSeeking the Gentlemen of Ji Shi. (312,412) Advance to the next level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Gentleman,先生,"
     flaggedHallucination: ""
 - lineNum: 9003
   raw: "9003#书生·大儒#0#文章济世，字字珠玑，意在道义，心怀天下，以德服人，广受敬仰。\\n效果：依据身份主属性，降低冲击武学境界时消耗的感悟#0#90#0##3#xueshi/ruxue11#18|1|44|450|>=#效果：依据身份主属性，降低冲击武学境界时消耗的感悟#线索：提升儒学至325，琴棋书画任一至260。\\n寻稷下先生(312,412)以晋级。#xueshi/ruxue12#2###332#100#0#1000#0&1|922426|1#1#"
@@ -6080,7 +6080,7 @@
     split: 12
     text: "线索：提升儒学至325，琴棋书画任一至260。\\n寻稷下先生(312,412)以晋级。"
     translated: "Clue/Lead:Enhance Confucian Studies to level 325, and any of the Arts of Qin, Chess, Calligraphy, or Painting to level 260. \\n seeks a Gentleman from Jizi. (312,412) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9004
@@ -6144,7 +6144,7 @@
     split: 12
     text: "线索：提升儒学至650，琴棋书画任一至520。\\n寻稷下先生(312,412)以晋级。"
     translated: "Clue/Lead:Enhance Confucian Studies to level 650; increase proficiency in any one of Music, Chess, Calligraphy, or Painting to level 520.\\nSeeking a gentleman from Ji Shi. (312,412) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9100
@@ -6169,7 +6169,7 @@
     split: 12
     text: "线索：提升道学至50，炼丹、酿酒至50。\\n寻若愚（1193,513）以晋级。"
     translated: "Clue/Sleuth:Enhance Daoism to level 50, and refine alchemy and brewing to level 50. \\n seek the elusive Sage. (1193,513) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9101
@@ -6201,7 +6201,7 @@
     split: 12
     text: "线索：提升道学至100，炼丹、酿酒至80。\\n寻若愚（1193,513）以晋级。"
     translated: "Clue/Lead:Enhance Daoism to 100, alchemy and brewing to 80. \\n seek the Foolish Sage. (1193,513) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9102
@@ -6258,7 +6258,7 @@
     split: 11
     text: "效果：解锁更多炼丹配方和秘法秘术\\解锁太初剑宗,清玉门,御虚门论道"
     translated: "Effectiveness:Unlock more alchemical recipes and secret arts/spells. Unlock discussions on the Primordial Sword Sect, Pure Jade Gate, and Imperial Void Gate."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T20:10:24.9927551+08:00
@@ -6297,7 +6297,7 @@
     split: 12
     text: "线索：提升道学至475，炼丹、酿酒至380。\\n寻清玄道长（1193,513）以晋级。"
     translated: "Clue/Lead/Thread:Enhance Daoism to level 475, alchemy and brewing to level 380.\\nSeek Master Qing Xuan of the Way. (1193,513) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9105
@@ -6329,8 +6329,8 @@
     split: 12
     text: "线索：提升道学至650，炼丹、酿酒至520。\\n寻清玄道长（1193,513）以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 9200
   raw: "9200#和尚·和尚#0#初入佛门的僧人，被称为“和尚”，此时心志纯净，初学佛法。虽尚未通达高深佛理，但已开始接触戒律和禅定，逐渐体会佛法的智慧。和尚每日诵经修禅，磨炼心志，为日后深入修行铺路。#0#92#0##0#xueshi/ruxue11####xueshi/ruxue12#0###0#0#0#1000#0&1|911911|1##"
@@ -6379,7 +6379,7 @@
     split: 12
     text: "线索：提升佛学至100，枪棍至80。\\n寻慧明（1489,589）以晋级。"
     translated: "Clue/Lead/Tailpiece:Increase Buddhist studies to 100, and spear and staff skills to 80.\\nSeeking Wisdom from Hui Ming. (1489,589) Progress to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9202
@@ -6411,8 +6411,8 @@
     split: 12
     text: "线索：提升佛学至200，枪棍至160。\\n寻慧明（1489,589）以晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 9203
   raw: "9203#和尚·禅师#0#已具佛门威仪，佛法深厚，能以禅理开导众生，化解人间烦恼。#0#92#0##3#xueshi/ruxue11#18|1|43|325|>=#效果：未开放#线索：提升佛学至325，枪棍至260。\\n寻觉尘（1477,602）以晋级。#xueshi/ruxue12#0###0#0#0#1000#0&1|911840|1##"
@@ -6443,7 +6443,7 @@
     split: 12
     text: "线索：提升佛学至325，枪棍至260。\\n寻觉尘（1477,602）以晋级。"
     translated: "Clue/Lead:Increase Buddhism to 325, Spear and Staff to 260.\\nSeeking Awakening Dust. (1477,602) Advance to the next level"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9204
@@ -6475,7 +6475,7 @@
     split: 12
     text: "线索：提升佛学至475，枪棍至380。\\n寻慧明（1489,589）以晋级。"
     translated: "Clue/Lead:Enhance Buddhism to 475, spear and staff to 380. \\n seeks Hui Ming. (1489,589) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9205
@@ -6507,7 +6507,7 @@
     split: 12
     text: "线索：提升佛学至650，枪棍至520。\\n寻慈云（1488,589）以晋级。"
     translated: "Clue/Suspect:Enhance Buddhism to 650, spear and staff to 520. \\n seek the Benevolent Cloud. (1488,589) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9300
@@ -6589,7 +6589,7 @@
     split: 12
     text: "线索：提升诡辞至200，道佛儒魔任一至160。\\n寻相天奇人(8.699)以晋级。"
     translated: "Clue/Lead:Enhance Rhetoric to 200; Taoism, Buddhism, Confucianism, and Demonology, any one to 160. \\n Seek the Divine Prodigy. (8.699) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9303
@@ -6685,7 +6685,7 @@
     split: 12
     text: "线索：提升诡辞至650，道佛儒魔任一至520。\\n寻相天奇人(8.699)以晋级。"
     translated: "Clue/Lead:Enhance trickery to 650, and choose Confucianism, Buddhism, Taoism, or Demonology up to 520. \\n Seek the Celestial Wonders of Humanity. (8.699) Advance to the next level."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10100
@@ -6760,8 +6760,8 @@
     split: 12
     text: "线索：提升兵道至200，枪棒160。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10103
   raw: "10103#捕快·捕役#0#捕役百计解疑案，快马刀锋断正邪。\\n效果：解锁不夜京悬赏撤销#0#101#0##3#zhanshu/anqi11#18|1|45|450|>=#效果：解锁不夜京悬赏撤销#线索：提升兵道至325，枪棒260。\\n不夜京寻缉拿总捕(1038,327)处晋级。#zhanshu/anqi12#0###0#0#0#1000#0&1|924904|1##"
@@ -6792,7 +6792,7 @@
     split: 12
     text: "线索：提升兵道至325，枪棒260。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
     translated: "Clue/Lead:Enhance martial prowess to 325, spear and staff skills at 260. \\n is on a manhunt in the Evernight Capital. (1038,327) Promotion to Commander."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10104
@@ -6824,8 +6824,8 @@
     split: 12
     text: "线索：提升兵道至475，枪棒380。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10105
   raw: "10105#捕快·神捕#0#神捕一动苍生定，鬼神无踪破案中。\\n效果：解锁不夜京悬赏悬红助战#0#101#0##5#zhanshu/anqi11#18|1|45|900|>=#效果：解锁不夜京悬赏悬红助战#线索：提升兵道至650，枪棒520。\\n不夜京寻缉拿总捕(1038,327)处晋级。#zhanshu/anqi12#0###0#0#0#1000#0&1|924892|1##"
@@ -6856,8 +6856,8 @@
     split: 12
     text: "线索：提升兵道至650，枪棒520。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10200
   raw: "10200#镖师·镖徒#0#江湖风雨护镖行，匹马单枪赴远程。#0#102#0##0#zhanshu/anqi11####zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|924742|1##"
@@ -6906,8 +6906,8 @@
     split: 12
     text: "线索：提升刀法至100，兵道80，酒量80。\\n寻总镖头(194,654)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10202
   raw: "10202#镖师·镖师#0#山川险阻寻常事，匪盗奸邪几度征。\\n效果：依据兵道提升内防#0#102#0##2#zhanshu/anqi11#18|1|34|250|>=#效果：依据兵道提升内防#线索：提升刀法至200，兵道160，酒量160。\\n寻总镖头(194,654)处晋级。#zhanshu/anqi12#3#45|23##3016#40#0#1000#0&1|924694|1#1#"
@@ -6956,8 +6956,8 @@
     split: 3
     text: "使命在肩心似铁，功成归处笑谈生。\\n效果：依据刀法提升御心"
     translated: "Duty on my shoulders, heart like iron; upon completing my task, I'll laugh about it in retrospect. \\n effect:Enhance your inner resolve through the art of the blade."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade Art,刀法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:51:00.7968010+08:00
     split: 11
@@ -6970,8 +6970,8 @@
     split: 12
     text: "线索：提升刀法至325，兵道260，酒量260。\\n寻总镖头(194,654)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10204
   raw: "10204#镖师·镖头#0#剑胆琴心驱贼寇，青山绿水记行程。\\n效果：依据兵道提升化解#0#102#0##4#zhanshu/anqi11#18|1|34|700|>=#效果：依据兵道提升化解#线索：提升刀法至475，兵道380，酒量380。\\n寻总镖头(194,654)处晋级。#zhanshu/anqi12#3#45|27##3018#40#0#1000#0&1|924668|1#1#"
@@ -7034,8 +7034,8 @@
     split: 12
     text: "线索：提升刀法至650，兵道520，酒量520。\\n寻总镖头(194,654)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10300
   raw: "10300#武者·武者#0##0#103#0##0#zhanshu/anqi11####zhanshu/anqi12#0###0#0#0#1000#0&1|924876|1##"
@@ -7109,8 +7109,8 @@
     split: 12
     text: "线索：提升自身刀剑拳棒至200。\\n寻苍山客(1531,461)以晋级。"
     translated: "Clue/clues:Enhance your swordsmanship, martial arts skills, and proficiency with all weapons to level 200.\\nSeeking Guests of Cangshan (1531,461) Advance to the next level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 10303
   raw: "10303#武者·武侠#0#江湖侠义之心已成，武功大成。武侠行走江湖，不仅凭借刀剑锋芒，更以正义为剑，名扬四方。武侠以自身的力量守护弱小，兼具武艺与侠心，在江湖中建立威名，名动四海。\\n效果：冬练三九,增加修炼时获得的修为#0#103#0##3#zhanshu/anqi11#18|1|34|450|>=#效果：冬练三九,增加修炼时获得的修为#线索：提升自身刀剑拳棒至325。\\n寻苍山客(1531,461)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|924830|1##"

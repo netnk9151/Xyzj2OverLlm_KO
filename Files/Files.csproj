@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <Compile Remove="GlossaryExtract\**" />
+    <Compile Remove="TestResults\Failed\**" />
     <EmbeddedResource Remove="GlossaryExtract\**" />
+    <EmbeddedResource Remove="TestResults\Failed\**" />
     <None Remove="GlossaryExtract\**" />
+    <None Remove="TestResults\Failed\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,7 +27,6 @@
   <ItemGroup>
     <Folder Include="Raw\Export\" />
     <Folder Include="Raw\SplitDb\" />
-    <Folder Include="TestResults\Failed\" />
   </ItemGroup>
 
 </Project>

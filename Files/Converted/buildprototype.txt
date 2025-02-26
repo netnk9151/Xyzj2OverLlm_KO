@@ -182,8 +182,8 @@
     split: 1
     text: "桌凳"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 113
   raw: "113#杂物#3#-1#77023#GuanShang_13#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
@@ -1392,7 +1392,7 @@
     split: 1
     text: "鸿月门-据点"
     translated: "Grand Moon Sect Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1033
@@ -1436,7 +1436,7 @@
     split: 1
     text: "高家-据点"
     translated: "Gao Family Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1037
@@ -1601,7 +1601,7 @@
     split: 1
     text: "登天流-据点"
     translated: "Heavenly Ascent Sect Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1052
@@ -1876,7 +1876,7 @@
     split: 1
     text: "祈灵川-据点"
     translated: "Spirit Prayer River Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1077
@@ -1898,7 +1898,7 @@
     split: 1
     text: "胜景林-据点"
     translated: "Scenic Forest Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1079
@@ -1997,7 +1997,7 @@
     split: 1
     text: "崇吾涧-据点"
     translated: "Chongwu Valley Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1088
@@ -2063,7 +2063,7 @@
     split: 1
     text: "化龙瀑-据点"
     translated: "Transforming Dragon Waterfall Outpost"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1094
@@ -2162,8 +2162,8 @@
     split: 1
     text: "七十二福地-据点"
     translated: "Seventy-Two Blessed Lands - Outpost"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Seventy-Two Blessings,七十二福,"
     flaggedHallucination: ""
 - lineNum: 1103
   raw: "1103#桂宫道-据点#1#0#92203#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
@@ -3192,7 +3192,7 @@
     split: 1
     text: "枰栌-酒楼"
     translated: "Pinglu Tavern."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:07.9750758+08:00
@@ -3235,8 +3235,8 @@
     split: 20
     text: "仁心仁术，救死扶伤，枰栌百姓，健康有保障。"
     translated: "Compassion and skill, saving lives and aiding the injured, ensure that our people have health security."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Pinglu,枰栌,"
     flaggedHallucination: ""
 - lineNum: 4016
   raw: "4016#淮陵-码头#10#30#96054#KONG#77019#64#8#480##2#9#720#2#1#1##0#MaTou#淮水悠悠，码头繁忙，船只如梭，货运畅通无阻。#2#"
@@ -3246,7 +3246,7 @@
     split: 1
     text: "淮陵-码头"
     translated: "Huailing Port"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T16:32:55.0920002+08:00
@@ -3282,7 +3282,7 @@
     split: 1
     text: "淮陵-酒楼"
     translated: "Huailing Tavern"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T16:32:47.2799454+08:00
@@ -3372,7 +3372,7 @@
     split: 1
     text: "豫京-酒楼"
     translated: "Yu Capital Tavern"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T16:32:49.1210305+08:00
@@ -3444,7 +3444,7 @@
     split: 1
     text: "雁州-当铺"
     translated: "Yan Prefecture Pawnshop"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T16:32:52.8219348+08:00
@@ -3462,7 +3462,7 @@
     split: 1
     text: "雁州-酒楼"
     translated: "Yan Prefecture Tavern"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T16:32:48.3157572+08:00
@@ -3670,7 +3670,7 @@
     split: 1
     text: "楚军-珠宝坊"
     translated: "Jewelry Workshop of the Chu Army."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5016
@@ -4011,7 +4011,7 @@
     split: 1
     text: "高家-锯木厂"
     translated: "Gao Family Sawmill"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5047
@@ -4110,8 +4110,8 @@
     split: 1
     text: "桂宫道-农田"
     translated: "Osmanthus Palace Path - Crop Field"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Way of the Osmanthus Palace,桂宫道,"
     flaggedHallucination: ""
 - lineNum: 5056
   raw: "5056#桂宫道-铜矿场#10#34#96156#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
@@ -5221,7 +5221,7 @@
     split: 1
     text: "千霁峰-锯木厂"
     translated: "Thousand Clear Peak Sawmill."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5157
@@ -5804,7 +5804,7 @@
     split: 1
     text: "唐门-石料厂"
     translated: "Tangmen Stone Quarry"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5210
@@ -6167,8 +6167,8 @@
     split: 1
     text: "冼星堂-鱼塘"
     translated: "Xianxing Tang - Fish Pond"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Xian Star Hall,冼星堂,"
     flaggedHallucination: ""
 - lineNum: 5243
   raw: "5243#小石镇-锯木厂#10#34#96343#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"

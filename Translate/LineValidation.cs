@@ -27,6 +27,7 @@ public static class LineValidation
             .Replace("（", "(")
             .Replace("）", ")")
             .Replace("？", "?")
+            .Replace("、", ",")
             .Replace("！", "!");
 
         raw = tokenReplacer.Replace(raw);
@@ -126,11 +127,11 @@ public static class LineValidation
         }
 
         // Small source with 'and' is ususually an alternative
-        if (result.Contains(" and") && raw.Length < 3 && !result.Contains("Spear and Staff", StringComparison.OrdinalIgnoreCase))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "and");
-        }
+        //if (result.Contains(" and") && raw.Length < 3 && !result.Contains("Spear and Staff", StringComparison.OrdinalIgnoreCase))
+        //{
+        //    response = false;
+        //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "and");
+        //}
 
         // Small source with ';' is ususually an alternative
         if (result.Contains(';') && !raw.Contains(';') && raw.Length < 3)
@@ -199,11 +200,11 @@ public static class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "<br>");
         }
 
-        //if (result.Contains('\n'))
-        //{
-        //    response = false;
-        //    correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
-        //}        
+        if (result.Contains('\n') && !raw.Contains("\n"))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
+        }
 
         if (Regex.IsMatch(result, ChineseCharPattern))
         {

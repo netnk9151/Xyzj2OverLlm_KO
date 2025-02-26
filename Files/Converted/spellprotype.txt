@@ -254,7 +254,7 @@
     split: 2
     text: "技能测试-枯萎"
     translated: "The player enters a field of dead grass. Upon closer inspection, they realize it is actually an illusion created by the Wilt skill. This technique involves causing the grass to appear lifeless and withered, disorienting opponents who rely on natural cues"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 18
@@ -269,7 +269,7 @@
     split: 2
     text: "御剑-伤害"
     translated: "Wield the sword—inflict damage"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 51
@@ -692,7 +692,7 @@
     split: 2
     text: "剑招四式-新"
     translated: "New Four Techniques of Swordplay"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 125
@@ -714,7 +714,7 @@
     split: 2
     text: "剑变招四式-新"
     translated: "Four Techniques of Sword Transformation: New"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 135
@@ -725,7 +725,7 @@
     split: 2
     text: "剑变招五式-新"
     translated: "Five New Sword Techniques"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 141
@@ -895,8 +895,8 @@
     split: 2
     text: "刀法四式"
     translated: "Four Styles of Swordsmanship."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 205
   raw: "205#0#刀法五式#0#0#0#600#0#6#0#0#0#0#0#spell_25_go|25_s#sfx_main_hero_25&0&true&true#0#1#50#0#99#50#2050#2051#101000#0#0#0#0#0#0#0#333#333#333#0#0#0#0#0#0#0#0#sound_spell_205#0#4#0#0#0#0##0#0#0#0##0#0#-1#2#1.8#1.5#0#0#0#0#0#0#0###0#0#0#0.0#0#1#1#"
@@ -906,8 +906,8 @@
     split: 2
     text: "刀法五式"
     translated: "Five Styles of Swordsmanship."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 211
   raw: "211#0#刀变招一式#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0###0#0#0#0.0#0#1#1#"
@@ -983,8 +983,8 @@
     split: 2
     text: "刀法二式-新"
     translated: "Blade Technique Two - New"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 223
   raw: "223#0#刀法三式-新#0#0#0#429#0#6#0#0##0#0#spell_23n_go|23n_s#sfx_main_hero_23&0&true&true#0#1#0#0#55#30#2030#2031#0#0#0#0#0#0#0#0#333#333#0#0#0#0#0#0#0#0#0#sound_spell_203#0#4#0#0#0#11#0#0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0##0###0#0#0#0.0#0#1#1#"
@@ -994,8 +994,8 @@
     split: 2
     text: "刀法三式-新"
     translated: "New Three-Style Swordplay Techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 224
   raw: "224#0#刀法四式-新#0#0#0#660#0#6#0#0##0#0#spell_24n_go|24n_s#sfx_main_hero_24&0&true&true#0#1#0#10#80#40#2040#2041#2040#2042#2044#2043#0#0#0#0#99#99#264#264#429#429#0#0#0#0#0#sound_spell_204#0#4#0#0#0#11#0#0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0##0###0#0#0#0.0#0#1#1#"
@@ -1016,7 +1016,7 @@
     split: 2
     text: "刀法五式-新"
     translated: "The New Five Forms of Blade Art."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 234
@@ -1236,7 +1236,7 @@
     split: 2
     text: "长兵连招1-新"
     translated: "The new version of the long spear sequence starts"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 322
@@ -1247,7 +1247,7 @@
     split: 2
     text: "长兵连招2-新"
     translated: "Chang Bin's Linked Two New"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 323
@@ -1848,7 +1848,7 @@
     split: 2
     text: "血爆-触发技能"
     translated: "Trigger Blood Burst Skill"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1013
@@ -1859,7 +1859,7 @@
     split: 2
     text: "无物-触发技能"
     translated: "No Matter What—Trigger Skill"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1014
@@ -2475,7 +2475,7 @@
     split: 2
     text: "触发-护体真气"
     translated: "Activate Protective Qi"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1071
@@ -2607,7 +2607,7 @@
     split: 2
     text: "江东-怒气"
     translated: "Anger from Jiangdong"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1083
@@ -2640,7 +2640,7 @@
     split: 2
     text: "剑息斩-触发"
     translated: "The Sword Rests—Activation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1086
@@ -2684,7 +2684,7 @@
     split: 2
     text: "游刃-触发"
     translated: "Effortless mastery upon contact"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1090
@@ -2761,7 +2761,7 @@
     split: 2
     text: "衡阳声断-触发"
     translated: "Hengyang's voice echoed through the air, cutting sharply through silence"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1097
@@ -2783,7 +2783,7 @@
     split: 2
     text: "暗风如晦-触发"
     translated: "A shadowy wind rises, obscuring the light"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1099
@@ -2794,7 +2794,7 @@
     split: 2
     text: "刀气-触发"
     translated: "Blade Qi Activation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1100
@@ -2805,7 +2805,7 @@
     split: 2
     text: "疾风逐日-触发"
     translated: "The trigger for Chase the Wind, Pursue the Sun has been activated"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1101
@@ -2816,7 +2816,7 @@
     split: 2
     text: "猛虎式-触发"
     translated: "Invoke the Menghu Maneuver"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1102
@@ -2849,7 +2849,7 @@
     split: 2
     text: "涅槃-触发"
     translated: "Rebirth Activation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1105
@@ -2893,7 +2893,7 @@
     split: 2
     text: "重光-回血"
     translated: "Rebirth—Returning Blood"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1109
@@ -2915,7 +2915,7 @@
     split: 2
     text: "通武-增加内外攻"
     translated: "Increase both internal and external attacks in Tongwu"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1111
@@ -2926,7 +2926,7 @@
     split: 2
     text: "真武-增加内外攻"
     translated: "Enhance both internal and external offense"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1112
@@ -2948,7 +2948,7 @@
     split: 2
     text: "如山-减伤"
     translated: "Shan, reduce damage"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1114
@@ -2992,7 +2992,7 @@
     split: 2
     text: "九阳-触发"
     translated: "Touch the Nine Yang"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1118
@@ -3003,7 +3003,7 @@
     split: 2
     text: "流光-触发"
     translated: "Touch of Light"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1119
@@ -3025,7 +3025,7 @@
     split: 2
     text: "升元-触发"
     translated: "The moment Sheng Yuan's power surges forth"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1121
@@ -3036,7 +3036,7 @@
     split: 2
     text: "霜天-触发"
     translated: "When they touched, a chill swept through the frosty sky"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1122
@@ -3069,7 +3069,7 @@
     split: 2
     text: "上青-触发"
     translated: "Upon touching Shang Qing, an ancient talisman, a profound transformation occurs"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1125
@@ -3113,7 +3113,7 @@
     split: 2
     text: "饮鸠-触发"
     translated: "Drawing a swallow in one's palm"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1129
@@ -3212,7 +3212,7 @@
     split: 2
     text: "澎拜-触发"
     translated: "Peng Bai's invocation has been triggered"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1138
@@ -3278,7 +3278,7 @@
     split: 2
     text: "气涌-流血"
     translated: "The surge of energy erupts, accompanied by spurts of blood"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1144
@@ -3355,7 +3355,7 @@
     split: 2
     text: "通用-怒雷"
     translated: "General Thunderbolt Rage"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1151
@@ -3377,7 +3377,7 @@
     split: 2
     text: "通用-极寒"
     translated: "General Ice Chill"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1153
@@ -3388,7 +3388,7 @@
     split: 2
     text: "九曜-触发"
     translated: "The Nine Celestial Lights are activated"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1154
@@ -3410,7 +3410,7 @@
     split: 2
     text: "通用-寒气"
     translated: "Chill of Winter"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1156
@@ -3454,7 +3454,7 @@
     split: 2
     text: "江东-触发"
     translated: "When Jiangdong is triggered"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1160
@@ -3465,7 +3465,7 @@
     split: 2
     text: "连城-触发"
     translated: "Triggered by Liancheng"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1161
@@ -3487,7 +3487,7 @@
     split: 2
     text: "暴怒-触发"
     translated: "The trigger of fury"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1163
@@ -3531,7 +3531,7 @@
     split: 2
     text: "万象霜天-触发"
     translated: "The world is frozen in a blanket of frost under the celestial sky"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1167
@@ -3564,7 +3564,7 @@
     split: 2
     text: "断情-触发"
     translated: "The trigger for Duan Qing is when one's emotions are suddenly severed, causing a profound emotional upheaval or detachment"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1170
@@ -3586,7 +3586,7 @@
     split: 2
     text: "归宗-触发"
     translated: "Upon returning to their ancestral home, a profound change was triggered"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1172
@@ -3663,7 +3663,7 @@
     split: 2
     text: "魔狱-触发"
     translated: "The moment you step into the realm of demon prisons, every action triggers a series of unpredictable consequences. Each decision is like playing chess with fate itself, where one wrong move can alter your destiny forever"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1179
@@ -3685,7 +3685,7 @@
     split: 2
     text: "无惧-触发"
     translated: "Unfazed"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1181
@@ -3729,7 +3729,7 @@
     split: 2
     text: "劫气-触发"
     translated: "A surge of dark energy, triggered unexpectedly"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1185
@@ -3751,7 +3751,7 @@
     split: 2
     text: "封神-触发"
     translated: "In the Seal of the Gods, triggering involves a complex mechanism where divine seals are used to bind or release spiritual forces. The process requires precise rituals and incantations, often guided by ancient texts and celestial alignments"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1187
@@ -3762,7 +3762,7 @@
     split: 2
     text: "翦径-触发"
     translated: "Clearing a path—trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1188
@@ -3795,7 +3795,7 @@
     split: 2
     text: "去阳真诀-触发"
     translated: "Triggered by Qu Yang Zhen Jue. This technique is often used in martial arts to harness or manipulate a specific energy flow within the body, aiming to achieve heightened states of power and awareness"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1191
@@ -3806,7 +3806,7 @@
     split: 2
     text: "天魔解体-触发"
     translated: "The moment the Tianmo disintegrated, it triggered an event"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1192
@@ -3817,7 +3817,7 @@
     split: 2
     text: "正气诀-触发"
     translated: "In an instant, a wave of pure energy surged forth from their palms, resonating through the air. With each step they took, the ground seemed to tremble, as if responding to some ancient call"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1193
@@ -3828,7 +3828,7 @@
     split: 2
     text: "正气-触发"
     translated: "Positive energy triggers"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1194
@@ -3839,7 +3839,7 @@
     split: 2
     text: "清辉-触发"
     translated: "When touched, a burst of brilliance"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1195
@@ -3850,7 +3850,7 @@
     split: 2
     text: "正气浩然-触发"
     translated: "A surge of righteous energy fills the air, awakening dormant forces. This moment marks a turning point where ancient powers are stirred from their slumber, ready to shape destiny anew"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1196
@@ -3905,7 +3905,7 @@
     split: 2
     text: "无形-触发"
     translated: "Unseen Trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1201
@@ -3949,7 +3949,7 @@
     split: 2
     text: "通用-气盾"
     translated: "Universal Air Shield"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1205
@@ -3960,7 +3960,7 @@
     split: 2
     text: "人剑合一-触发"
     translated: "A person becomes one with their sword—triggered"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1206
@@ -3982,8 +3982,8 @@
     split: 2
     text: "拔刀式-触发"
     translated: "Draw Sword Technique - Activation Triggered."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1208
   raw: "1208#0#乱环式-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -4015,8 +4015,8 @@
     split: 2
     text: "霸刀势-减伤"
     translated: "Halve Damage - Sovereign Sword Style"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1211
   raw: "1211#0#八方藏刀诀-伤害#0#0#1#10#0#7#0#0#0#0#0#0#sfx_main_hero_110130&0&false&true#0#0#0#0#0#0#100200111#100200112#0#0#0#0#0#0#0#0#10#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -4081,7 +4081,7 @@
     split: 2
     text: "战意技-触发"
     translated: "Trigger the Combat Intention Technique"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1217
@@ -4125,7 +4125,7 @@
     split: 2
     text: "先天之炁-触发"
     translated: "Innate Qi Activation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1221
@@ -4136,7 +4136,7 @@
     split: 2
     text: "太初-触发"
     translated: "In the beginning, when the world was still forming, a single touch could unravel the fabric of reality itself"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1222
@@ -4488,7 +4488,7 @@
     split: 2
     text: "风起-伤害"
     translated: "When the wind rises, harm ensues"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1254
@@ -4532,7 +4532,7 @@
     split: 2
     text: "豪饮-触发"
     translated: "A grand feast triggers it"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1258
@@ -4631,7 +4631,7 @@
     split: 2
     text: "诸武齐登-游龙花枪"
     translated: "Various martial artists gather to practice the Flying Dragon Flower Spear"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1267
@@ -4763,7 +4763,7 @@
     split: 2
     text: "魔息-触发"
     translated: "Mystic Aura Activation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1279
@@ -4774,7 +4774,7 @@
     split: 2
     text: "寂灭-触发"
     translated: "The trigger for Silent Extinction is activated"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1280
@@ -4785,7 +4785,7 @@
     split: 2
     text: "魔身-触发"
     translated: "Morphing Trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1281
@@ -4884,7 +4884,7 @@
     split: 2
     text: "通用-流血"
     translated: "General Bleeding"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1290
@@ -4917,7 +4917,7 @@
     split: 2
     text: "六合-触发"
     translated: "Trigger of Lihe"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1293
@@ -5666,8 +5666,8 @@
     split: 4
     text: "从炎鸿时期传承下来的旷世奇功，据说拥有掌控和驯服各种灵兽的力量。习得该宝典能够驯服壁虎。"
     translated: "The legendary feat passed down from the Yan Hong period is said to possess the power to control and tame various spirit creatures. Mastery of this precious scripture enables one to tame geckos."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 3100
   raw: "3100#0#动若脱兔#0#行步翩翩，神巧灵敏，其身如箭，敌难追及。战场之上，敌人之攻势难及其身，迅捷躲避，行云流水，踪迹难觅。#13#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3100#3000#3#0#0#0#1#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -6152,8 +6152,8 @@
     split: 4
     text: "壁虎聪明绝顶，善感震荡之气息。纵使威胁逼近，其身法敏捷以应，化隐退又智解。攀越墙壁，夺目眼帘，超越凡俗。"
     translated: "The gecko is incredibly clever, sensitive to the vibrations of energy. Even when threats draw near, it moves with agility to respond, retreating and evading smartly. It climbs walls effortlessly, captures attention like a curtain display, surpassing the ordinary."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 3600
   raw: "3600#0#万兽秘技·月德#0#通过学习万兽山庄的秘技，使得宠物在释放动若脱兔时，额外提升主角自身15柔。#13#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#36000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0#0#1#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -7156,8 +7156,8 @@
     split: 4
     text: "千金一掷取人首级，自古财帛动人心；富贵逼人暗藏杀机，有钱能使鬼推磨"
     translated: "Thousand pieces of gold to bet for a severed head; since ancient times, money and silk have the power to move hearts. Wealth and status can drive people to hidden dangers, and with enough money, one can even make ghosts push the millstone."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1628453+08:00
     split: 11
@@ -7328,9 +7328,9 @@
     split: 2
     text: "江湖剑法"
     translated: "Wuxia sword art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 10001
   raw: "10001#0#江湖剑法#0##2#2013#0#2###0#0##spell_10001_go##0#0#180#2#0#0#60#0#0#0#0#0#0#0#0#0#924#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&1.33#0#0#0#0#0#4#2#-1#3#1.3#45.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -7339,9 +7339,9 @@
     split: 2
     text: "江湖剑法"
     translated: "Wuxia sword art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 10002
   raw: "10002#0#江湖剑法#0##5#1221#0#2###0#0##spell_10002_go##0#0#180#2#0#0#60#0#0#0#0#0#0#0#0#0#267#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&0.5#0#0#0#0#0#1#0#-1#2#1.7#1.2#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -7350,9 +7350,9 @@
     split: 2
     text: "江湖剑法"
     translated: "Wuxia sword art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 10003
   raw: "10003#0#江湖剑法#0##9#1914#0#2###0#0##spell_10003_go##0#0#180#2#0#0#60#0#0#0#0#0#0#0#0#0#1056#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&1.5#0#0#0#0#0#2#0#-1#3#1.2#80.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -7361,9 +7361,9 @@
     split: 2
     text: "江湖剑法"
     translated: "Wuxia sword art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 10004
   raw: "10004#0#江湖剑法#0##10#1782#0#2###0#0##spell_10004_go##0#0#180#2#0#0#60#0#0#0#0#0#0#0#0#0#466#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#4#0#-1#3#1.1#80.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -7372,9 +7372,9 @@
     split: 2
     text: "江湖剑法"
     translated: "Wuxia sword art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 10005
   raw: "10005#0#追魂#2#斜风细雨不须归。#11#900#0#5####0##spell_10002_go#0#0#0#180#2#0#0#100050000#60#0#0#0#0#0#0#0#0#233#333#0#0#0#0#0#0#0#0#0##60#3#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&0.5#0#0#233#332#0#1#0#-1#2#1.7#1.2#0#0#0#0#0##0###0#0#0#0.0#0#1#0#"
   translated: ""
@@ -8637,8 +8637,8 @@
     split: 2
     text: "乱惑"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1686212+08:00
     split: 4
@@ -8763,9 +8763,9 @@
     split: 2
     text: "江湖枪法"
     translated: "Wuxia spear art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 13001
   raw: "13001#0#江湖枪法#0##qiang35#1287#0#2###0#0##spell_13001_go##0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&0.833#0#0#0#0#0#2#0#-1#2#2.0#1.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -8774,9 +8774,9 @@
     split: 2
     text: "江湖枪法"
     translated: "Wuxia spear art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 13002
   raw: "13002#0#江湖枪法#0##qiang41#1485#0#2###0#0##spell_13002_go##0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#666#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#4#0#-1#2#1.0#1.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -8785,9 +8785,9 @@
     split: 2
     text: "江湖枪法"
     translated: "Wuxia spear art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 13003
   raw: "13003#0#江湖枪法#0##qiang42#1287#0#2###0#0##spell_13003_go##0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#297#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#1#0#-1#3#1.5#90.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -8796,9 +8796,9 @@
     split: 2
     text: "江湖枪法"
     translated: "Wuxia spear art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 13004
   raw: "13004#0#江湖枪法#0##qiang44#1617#0#2###0#0##spell_13004_go##0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#627#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#2#0#-1#2#1.3#1.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
   translated: ""
@@ -8807,9 +8807,9 @@
     split: 2
     text: "江湖枪法"
     translated: "Wuxia spear art."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,"
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 13005
   raw: "13005#0#银蛇刺喉#2#枪出缭乱，倏忽，银蛇刺喉，他者莫能相避。#qiang45#1287#0#5####0##spell_13001_go##0#0#180#0#0#0#130050000#0#0#0#0#0#0#0#0#0#429#0#0#0#0#0#0#0#0#0#0##130050010#3#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&0.833#0#0#429#529#0#2#0#-1#2#2.0#1.0#0#0#0#0#0##0###0#0#0#0.0#0#1#0#"
   translated: ""
@@ -11105,7 +11105,7 @@
     split: 2
     text: "沧海-触发"
     translated: "Upon touching the Cang Hai, a profound awakening occurs"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100420
@@ -12586,8 +12586,8 @@
     split: 4
     text: "每5次攻击会获得10%伤害加成，持续6秒，最多叠加3层。受到自身五行相克则触发丹青血，调息6秒；丹青血：2秒内伤害提升50%。"
     translated: "For every 5 attacks, gain a 10% damage boost that lasts for 6 seconds, with up to 3 layers of stacking. If hit by one's own elemental weakness, triggers Danqing Xue and requires a 6-second recovery; Danqing Xue:Damage from internal injuries increased by 50% within two seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Injury,内伤,"
     flaggedHallucination: ""
 - lineNum: 101700
   raw: "101700#0#天仙狂醉#11#应是天仙狂醉，乱把白云揉碎。剑势有如行云一般飘忽不定，一剑若中，内外皆伤，难以疗愈。#1170#1000#0#0###周围2.1米#0##spell_100011_go#sfx_main_hero_100011_1&0&false&true#0#2#0#0#0#81#1017000#0#0#0#0#0#0#0#0#0#533#0#0#0#0#0#0#0#0#0#0#sound_1_spell_100011_go#0#0#101700#15000#0#3##0#2#0#0#0#30#5#3#3#2.1#180.0#0#0#0#0#0#0#0###2#0#0#0.66#0#1#1#"
@@ -13559,7 +13559,7 @@
     split: 2
     text: "破岳-触发"
     translated: "Brother Yue's Trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 103000
@@ -13681,7 +13681,7 @@
     split: 2
     text: "河图-触发"
     translated: "The moment the River Map is triggered, it begins to unveil its secrets."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 103200
@@ -14083,7 +14083,7 @@
     split: 2
     text: "天上经·刚-运功"
     translated: "Heavenly Classic of Calmness: Concentration\n\nTo achieve true concentration, one must first still their mind as if it were the calm expanse of a clear sky. Only then can they harness the gentle force running through every fiber of their being, like rivers flowing in perfect harmony with nature's rhythm."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1844019+08:00
@@ -14659,8 +14659,8 @@
     split: 4
     text: "太乙金仙显神通，紫气东来见鸿蒙。借助剑诀中那一缕鸿蒙紫气，让真气携带上烈日气息。攻击时对目标造成灼阳效果。可引爆目标身上的灼阳效果，根据层数和自身阳属性造成额外伤害。"
     translated: "Taiyi Golden Immortal reveals their divine abilities as the purple qi arrives from the east, seeing into the primordial cosmos. By harnessing a strand of cosmic purple qi from the sword technique, they imbue their true energy with the essence of fierce sunlight. When attacking, it inflicts searing sun damage on the target. It can trigger an explosion of the burning sun effect present on the target's body, dealing additional damage based on depth and their own Yang attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1869857+08:00
     split: 11
@@ -14684,8 +14684,8 @@
     split: 4
     text: "剑意无双，气震八荒。出剑时剑如流星，无坚不摧。攻击时根据自身阳属性造成额外伤害。可燃烧对方经脉，让其全属性降低。"
     translated: "Unrivaled swordsmanship, with a presence that shakes the world. When drawing the sword, it slashes like a meteor, shattering all resistance. During an attack, based on one's own yang attribute, additional damage is inflicted. It can burn the opponent's meridians, reducing their overall attributes."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1870578+08:00
     split: 11
@@ -14709,8 +14709,8 @@
     split: 4
     text: "蚀骨锋寒凝霜刃，锋芒无声息自沉。造成一次附带吸血效果的额外伤害。"
     translated: "Erode bone with the chilling frost of the blade, its sharpness silent and self-dulling. Causes additional damage accompanied by a blood-sucking effect."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1871280+08:00
     split: 11
@@ -15990,8 +15990,8 @@
     split: 2
     text: "藏刀式-回血(测试用)"
     translated: "Cultivation Technique - Regeneration Bleeding (Test usage.)"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 111102
   raw: "111102#0#藏刀式-回气(测试用)#1##dao_1110#50#0#2###0#0####0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0##0#0#0#1#3##0#0#0#0##35#5#2#0#0.0#0.0#0#0#0#0#0#0#0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -16001,9 +16001,9 @@
     split: 2
     text: "藏刀式-回气(测试用)"
     translated: "Recoil Fang's Blade Technique or Backstep Recoil of the Hidden Blade. \n\nThis translation maintains the martial arts context, emphasizing the technique and its dynamic movement. The original phrase likely refers to a specific Wuxia-style swordplay move involving retraction or stepping back while using a concealed blade. (Test case.)"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
-    flaggedHallucination: ""
+    flaggedHallucination: "Wuxia,武侠,"
 - lineNum: 111103
   raw: "111103#0#藏刀式-反击#11#刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。#dao_1110#666#0#2#0#0##0#0#spell_110000_go#sfx_main_hero_110000&0&false&true#0#2#0#0#0#0#1111012#1111030#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#7#111103#15000#1#3##0#0#0#0##30#5#2#0#0.0#0.0#0#0#0#0#0##0###0#0#0#0.0#109820|109821|109822|109823|109824#1#1#"
   translated: ""
@@ -16012,7 +16012,7 @@
     split: 2
     text: "藏刀式-反击"
     translated: "Counterattack in the Hidden Blade Style"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1907729+08:00
@@ -16116,8 +16116,8 @@
     split: 2
     text: "藏刀诀"
     translated: "The Secret of Concealing the Sword."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1910624+08:00
     split: 4
@@ -16134,8 +16134,8 @@
     split: 2
     text: "藏刀诀运功"
     translated: "Concealing the Sword Secret Technique or Performing the Concealment of the Sword Secret Technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.1911135+08:00
     split: 4
@@ -16528,8 +16528,8 @@
     split: 2
     text: "冰封三尺"
     translated: "Three feet of ice."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:41:13.9058054+08:00
     split: 4
@@ -20984,7 +20984,7 @@
     split: 2
     text: "星蕴天机-运功"
     translated: "The cosmos conceals profound mysteries, as one hones their inner energy"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2061235+08:00
@@ -21383,7 +21383,7 @@
     split: 2
     text: "明王降世-运功"
     translated: "In this world, where many claim to be masters of the martial arts realm, only one holds true mastery. Brother Ming reigns supreme over all"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2072387+08:00
@@ -21866,8 +21866,8 @@
     split: 4
     text: "白凝落檐挂干枝，雪上加霜冻寒迟。命中目标时，若对方已被施加控制效果，则造成额外伤害。"
     translated: "White frost clings to the eaves, snow falls thickening the chill. When targeting at a crucial moment, if the opponent is already under a controlling effect, it inflicts additional damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2086016+08:00
     split: 11
@@ -22013,8 +22013,8 @@
     split: 4
     text: "鬼火引爆，残魂哀嚎，引爆自身周围目标的鬼火效果，造成额外伤害，目标一段时间内内无法获得任何治疗效果。"
     translated: "The Ghostfire explosion causes the souls of nearby targets to wail in agony. It triggers the Ghostfire effect on surrounding targets, dealing additional damage and preventing them from receiving any healing effects for a period of time."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2090149+08:00
     split: 11
@@ -22063,8 +22063,8 @@
     split: 4
     text: "噬魂之力，层层吞噬，对目标施加的鬼火层数大幅增加，并造成额外伤害。"
     translated: "Devouring Soul Force, layer upon layer of consumption, significantly increases the number of layers of ghost fire inflicted on the target and causes additional damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 133631
   raw: "133631#0#吞灵蚀魄-运功#0#运功，对目标造成的鬼火效果层数上限增加5层#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1336300#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#0#0##0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -22325,8 +22325,8 @@
     split: 4
     text: "寒穹圣拳印法成，降魔卫道正气盈。对有定身和蚀阴效果的敌人造成大量额外伤害。"
     translated: "The Sacred Finger Seal of the Cold Vault becomes perfected, with its righteous aura full of virtue for subduing demons and protecting the Way. It inflicts massive additional damage on enemies affected by immobilization or soul-erosion effects."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2099305+08:00
     split: 11
@@ -22462,7 +22462,7 @@
     split: 2
     text: "百战圣功-运功"
     translated: "With a hundred battles of divine prowess, engage in cultivating energy"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2103025+08:00
@@ -22797,7 +22797,7 @@
     split: 2
     text: "九阳-运功"
     translated: "Performing Nine Yang Qi Cultivation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2113316+08:00
@@ -23112,7 +23112,7 @@
     split: 2
     text: "无垢净体-运功"
     translated: "Purification of Body and Soul through Cultivation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2121417+08:00
@@ -23268,7 +23268,7 @@
     split: 2
     text: "秘典-神机"
     translated: "The Divine Mechanism Manual"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T17:41:44.7671075+08:00
@@ -23822,8 +23822,8 @@
     split: 4
     text: "地涛奔涌，雷声轰鸣。朝身前投掷数枚霹雳珠，命中后爆炸，向目标施加灼伤。若已被灼伤，则造成额外伤害。"
     translated: "The waves surged and roared, accompanied by thunderous sounds. He threw several Thunderbolt Orbs in front of him; upon impact, they exploded, inflicting burn damage to the target. If already burned, it would cause additional damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2140827+08:00
     split: 11
@@ -23872,8 +23872,8 @@
     split: 4
     text: "金芒寒气至，暴雨梨花飘。御使真气，灌注在金针内，以点破面。持续向周围释放金针，破除对手防御，造成额外伤害。"
     translated: "Golden rays of coldness descend, and a sudden rain of plum blossoms drifts. The imperial envoy channels true energy into the golden needle to pierce through the opponent's defenses, continuously releasing it in all directions around, breaking down their guard and inflicting additional damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2142290+08:00
     split: 11
@@ -24030,8 +24030,8 @@
     split: 4
     text: "壁虎断尾，蟾蜍泌毒。在原地留下一把毒砂，对自身施加效果，自身毒属性大幅提升。"
     translated: "The gecko severs its tail, and the toad secretes poison. On the spot, it leaves behind a handful of poisonous sand that it applies to itself, significantly boosting its own poison attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2146651+08:00
     split: 11
@@ -24059,8 +24059,8 @@
     split: 4
     text: "愁雾近云，天魔降世。使用套筒朝身前喷洒毒液，对命中目标施加多层中毒效果，持续造成毒属性伤害，降低移速。"
     translated: "Misty sorrows linger, as the demon descends from heaven. Using a pistol-like device to spray toxic liquid in front, it imposes multiple layers of poisoning on the target, continuously inflicting poison attribute damage and reducing movement speed."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2147427+08:00
     split: 11
@@ -24084,8 +24084,8 @@
     split: 4
     text: "触之即死，沾之辄尽。向目标投掷暗器造成中毒效果，对有负面效果的目标造成高额伤害。"
     translated: "Touch it and you die, come into contact with it and you're finished. When thrown at a target, the hidden weapon causes a poisoning effect. Targets suffering from negative effects receive substantial damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2148124+08:00
     split: 11
@@ -25171,8 +25171,8 @@
     split: 4
     text: "剑法如清泉流淌，韵味悠长，清新脱俗。敌"
     translated: "Swordplay flows like a spring stream, with an enduring charm that is refreshingly unique. When facing the enemy, it..."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2179151+08:00
     split: 11
@@ -25221,8 +25221,8 @@
     split: 4
     text: "剑法轻盈如流云，追逐月影，飘逸自然。"
     translated: "The swordplay is as light and graceful as drifting clouds, chasing after the moon's shadow with an effortless elegance."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2180569+08:00
     split: 11
@@ -25246,8 +25246,8 @@
     split: 4
     text: "剑法如竹影摇曳，剑光闪烁，给人一种宁静而深邃的美感。"
     translated: "The swordplay was like the swaying shadows of bamboo, with a flickering brilliance that evoked a sense of serene and profound beauty."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2181297+08:00
     split: 11
@@ -25736,8 +25736,8 @@
     split: 4
     text: "：刀法迅猛如雷，万钧之力凝聚于一刀之中，令人难以抵挡。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2203247+08:00
     split: 11
@@ -26880,7 +26880,7 @@
     split: 2
     text: "沧海-触发"
     translated: "Upon touching the Cang Hai, a profound awakening occurs"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 300720
@@ -33532,8 +33532,8 @@
     split: 4
     text: "如寒冰封锁的明月，冷峻而清远。剑光冰冷，每一剑都似月光穿透霜雪，显露出不染尘世的孤高。"
     translated: "Like the moon encased in frost, cold and distant. The swordlight is icy, each stroke as if the moon's light piercing through hoarfrost, revealing a solitude untainted by the world."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Frozen,冰封,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2430542+08:00
     split: 11
@@ -33704,7 +33704,7 @@
     split: 2
     text: "绝影寒光-运功"
     translated: "The Shadowless Moonbeam technique involves focusing one's chi to create an intangible presence, making it impossible for opponents to see or strike them accurately"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1354000
@@ -35385,8 +35385,8 @@
     split: 2
     text: "枪法二式"
     translated: "Spear Technique Form Two."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 1651002
   raw: "1651002#0#枪法三式#0#0#qiang13#1386#0#0#0#0#0#0#0#spell_1651002_go#sfx_main_hero_1651002&0&false&true#0#0#0#0#0#0#16510000#16510001#0#0#0#0#0#0#0#0#594#594#0#0#0#0#0#0#0#0#0#sound_spell_303_b#0#0#0#0#0#0#0#0#0#0#0##0#0#3#3#1.8#90.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -35396,8 +35396,8 @@
     split: 2
     text: "枪法三式"
     translated: "Three Styles of Spear Technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 1651010
   raw: "1651010#0#刺击#2#向前方持枪冲刺#qiang14#1287#0#0#0#0#0#0#0#spell_1651010_go#sfx_main_hero_1651010&0&true&true#0#0#0#0#0#0#16510100#16510101#0#0#0#0#0#0#0#0#633#433#0#0#0#0#0#0#0#0#0#sound_spell_1651010_go#0#0#0#0#0#0#0#0#0#0#0##0#0#3#2#2.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -37528,8 +37528,8 @@
     split: 4
     text: "造成伤害时会对身上有心法造成的寒气效果的目标附加额外伤害"
     translated: "When causing harm, it adds extra damage to the target affected by the chilling effect of any Qi Manipulation present on their body."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2557639+08:00
     split: 11
@@ -38469,7 +38469,7 @@
     split: 4
     text: "立刀积蓄力量后向前猛劈。"
     translated: "After accumulating strength, he/she lunged forward with a fierce slash of the blade."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3032030
@@ -38691,7 +38691,7 @@
     split: 2
     text: "气吞山河-运功"
     translated: "Masterfully channel one's qi to subsume mountains and rivers—mastery in cultivating energy"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3033050
@@ -39089,8 +39089,8 @@
     split: 2
     text: "枪法二式"
     translated: "Spear Technique Form Two."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2603675+08:00
     split: 11
@@ -39150,8 +39150,8 @@
     split: 4
     text: "枪法迅猛如流星，破军之势无可阻挡。"
     translated: "The spear technique was swift and fierce like a meteor, unstoppable in its power to shatter armies."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2605333+08:00
     split: 11
@@ -39200,8 +39200,8 @@
     split: 4
     text: "枪法稳重如山，如玄武镇海，力守中宫，无懈可击。"
     translated: "The spear technique is as steadfast as a mountain, like the Black Tortoise holding back the sea. It guards the central position unwaveringly and leaves no room for attack."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2606738+08:00
     split: 11
@@ -39243,8 +39243,8 @@
     split: 4
     text: "枪法矫健如龙出海，灵动迅疾，攻敌不备。"
     translated: "The spear technique is as supple and agile as a dragon emerging from the sea, swift and lively, striking opponents unawares."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2607930+08:00
     split: 11
@@ -39660,7 +39660,7 @@
     split: 2
     text: "刚五雷-运功"
     translated: "Just as the Five Thunderous Strikes align, he enters into deep meditation"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3085000
@@ -40220,7 +40220,7 @@
     split: 2
     text: "露华絮-运功"
     translated: "Practice cultivating qi"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3101000
@@ -40752,7 +40752,7 @@
     split: 2
     text: "林升雾起-运功"
     translated: "As the mist rose, Lin Sheng began to cultivate"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3102100
@@ -41103,7 +41103,7 @@
     split: 2
     text: "行刀沉雁-运功"
     translated: "Execute the Blade Subdues Swans technique to focus and harness your internal energy."
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3105100
@@ -41409,7 +41409,7 @@
     split: 4
     text: "艾里甫喝下来自西域的酒，接下来20秒对目标的伤害附加酒气，目标酒量过低则会被眩晕"
     translated: "<a name=Aerif's Brew></a>\nErfu drinks wine from the Western Regions. For the next 20 seconds, damage to his target is accompanied by intoxication; if the target has low tolerance for alcohol, they become dizzy"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3107030
@@ -41702,7 +41702,7 @@
     split: 2
     text: "血统-触发"
     translated: "Bloodline Trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3115100
@@ -41966,7 +41966,7 @@
     split: 2
     text: "血统-触发"
     translated: "Bloodline Trigger"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3156100
@@ -43182,8 +43182,8 @@
     split: 4
     text: "剑法如流星般迅捷，追月之势，一剑之下，敌人无处可逃。"
     translated: "The sword technique was as swift as a shooting star, with the pursuit of the moon's momentum, and under one strike, there was nowhere for the enemy to escape."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 3315033
   raw: "3315033#0#九转玄天剑#4#剑法经过九次转折，融入玄天之力，一剑出，天地变色。#14#1663#0#2#0#0#直线6米#0#0#spell_3098020_go#sfx_main_hero_3101010&0&true&true#0#0#0#0#0#0#30980021#0#0#0#0#0#0#0#0#0#1056#0#0#0#0#0#0#0#0#0#0#sound_spell_3098020_go#0#0#0#0#0#0#0#0#0#0#0##0#0#-1#2#6.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -43590,8 +43590,8 @@
     split: 2
     text: "小兵枪法一式"
     translated: "Small Soldier's Single Form of Spear Technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 3553001
   raw: "3553001#0#小兵枪法二式#0#0#qiang34#1122#0#2#0#0#0#0#0#spell_1651001_go#sfx_main_hero_1651001&0&false&false#0#0#0#0#0#0#104#0#0#0#0#0#0#0#0#0#231#0#0#0#0#0#0#0#0#0#0#sound_spell_302_b#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -43601,8 +43601,8 @@
     split: 2
     text: "小兵枪法二式"
     translated: "Junior Soldier's Spear Technique, Form Two."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 3553002
   raw: "3553002#0#小兵枪法三式#0#0#qiang35#1386#0#2#0#0#0#0#0#spell_1651002_go#sfx_main_hero_1651002&0&false&false#0#0#0#0#0#0#104#0#0#0#0#0#0#0#0#0#594#0#0#0#0#0#0#0#0#0#0#sound_spell_301_b#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -43612,8 +43612,8 @@
     split: 2
     text: "小兵枪法三式"
     translated: "Small Soldier's Three Styles of Spear Technique."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 3553010
   raw: "3553010#0#将军令#3#用兵如神，其疾如风，其徐如林，侵掠如火，不动如山#qiang12#2046#0#2#0#0#0#0#0#spell_1651030_go#sfx_xinfa_110&0&false&false#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#sound_spell_1651030_go#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -43792,8 +43792,8 @@
     split: 4
     text: "朝身前扇形范围的一次蓄力攻击，命中目标时，会根据目标身上的“沙尘”效果造成额外伤害"
     translated: "An attack that unleashes a charged energy in an arc-shaped area directly ahead, dealing additional damage based on the target's Sandstorm effect when it hits."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2750370+08:00
     split: 11
@@ -44712,8 +44712,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 4019001
   raw: "4019001#0#千变枪法#0##0#366#0#0#0#0#0#0#0#spell_3074005_go#sfx_main_hero_3074001&0&true&true#0#0#0#0#0#0#40190000#40190001#0#0#0#0#0#0#0#0#333#233#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -44723,8 +44723,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 4019002
   raw: "4019002#0#千变枪法#0##0#2499#0#0#0#0#0#0#0#spell_3074006_go#sfx_main_hero_3074002&0&true&true#0#0#0#0#0#0#40190000#40190001#0#0#0#0#0#0#0#0#766#666#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#3#2#2.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -44734,8 +44734,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
 - lineNum: 4019003
   raw: "4019003#0#千变枪法#0##qiang12#1518#0#2###1.9米240度#0##spell_3074000_go#sfx_main_hero_3074000&0&false&true##0#0#0#0#0#40190000#0#0#0#0#0#0#0#0#0#528#0#0#0#0#0#0#0#0#0#0#sound_spell_301_b##0#0#0#0#0##0#0#0#0##0#0#3#3#1.9#120.0#0#0#0#0#0##0###0#0#0#0.0#109820|109821|109822|109823|109824#1#0#"
@@ -44745,8 +44745,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2778537+08:00
     split: 11
@@ -44763,8 +44763,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2779021+08:00
     split: 11
@@ -44781,8 +44781,8 @@
     split: 2
     text: "千变枪法"
     translated: "Thousand Transformations Spear Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Spear Art,枪法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2779497+08:00
     split: 11
@@ -45156,8 +45156,8 @@
     split: 4
     text: "太乙金仙显神通，紫气东来见鸿蒙。借助剑诀中那一缕鸿蒙紫气，让真气携带上烈日气息。攻击时对目标造成灼阳效果。可引爆目标身上的灼阳效果，根据层数和自身阳属性造成额外伤害。"
     translated: "Taiyi Gold Immortal reveals divine abilities as the purple aura arrives from the east to witness Hongmeng. By harnessing a strand of Hongmeng's purple aura within the sword techniques, it infuses qi with the essence of a scorching sun. Upon attacking, it imposes a Scorching Sun effect on the target. This can also trigger an explosion of any existing Scorching Sun effects on the target, dealing additional damage based on their layer count and innate Yang attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2789698+08:00
     split: 11
@@ -46160,7 +46160,7 @@
     split: 2
     text: "通明"
     translated: "Illumination / Enlightenment"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2818069+08:00
@@ -46178,7 +46178,7 @@
     split: 2
     text: "通明"
     translated: "Illumination / Enlightenment"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2818553+08:00
@@ -46196,7 +46196,7 @@
     split: 2
     text: "通明"
     translated: "Illumination / Enlightenment"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2819035+08:00
@@ -46214,7 +46214,7 @@
     split: 2
     text: "通明"
     translated: "Illumination / Enlightenment"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2819515+08:00
@@ -46797,8 +46797,8 @@
     split: 4
     text: "对刀套路敌人伤害提升14%"
     translated: "Increase damage to enemies by 14% when using sword techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 5000069
   raw: "5000069#0#如龙#0#对刀套路敌人伤害提升18%#qiang566#0#1#1####0#####0#0#0#0#0#60002#60033#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#8#0#0#2#0##0#3#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0##0#3#0#0#0.0#0#1#0#"
@@ -47161,7 +47161,7 @@
     split: 2
     text: "锻骨-小"
     translated: "Forge your spirit, young one"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2846333+08:00
@@ -47215,7 +47215,7 @@
     split: 2
     text: "固本-小"
     translated: "Firm in roots, small in stature"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:22.2847754+08:00
@@ -49105,7 +49105,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001010
@@ -49134,7 +49134,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001020
@@ -49163,7 +49163,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001030
@@ -49192,7 +49192,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001040
@@ -49221,7 +49221,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001100
@@ -49250,7 +49250,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001110
@@ -49279,7 +49279,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001120
@@ -49308,7 +49308,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001130
@@ -49337,7 +49337,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001140
@@ -49366,7 +49366,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001200
@@ -49395,7 +49395,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001210
@@ -49424,7 +49424,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001220
@@ -49453,7 +49453,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001230
@@ -49482,7 +49482,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001240
@@ -49511,7 +49511,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001300
@@ -49540,7 +49540,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001310
@@ -49569,7 +49569,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001320
@@ -49598,7 +49598,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001330
@@ -49627,7 +49627,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001340
@@ -49656,7 +49656,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001400
@@ -49685,7 +49685,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001410
@@ -49714,7 +49714,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001420
@@ -49743,7 +49743,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001430
@@ -49772,7 +49772,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10001440
@@ -49801,7 +49801,7 @@
     split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Gong of Swallowing Heaven's Breath"
-    flaggedForRetranslation: false
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10010001
@@ -51241,8 +51241,8 @@
     split: 4
     text: "莫强求，断肠路远忘回头，只留相思愁。攻击附带额外伤害，对目标施加内伤效果，叠到一定层数时引爆，造成大量伤害和眩晕效果。"
     translated: "Don't strive for the unattainable; on this road of heartbreak, let go of the past, leaving only lingering sorrows. The attack inflicts additional external damage and applies an internal injury effect to the target. When stacked to a certain level, it explodes, causing substantial damage and inducing dizziness."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 10060001
   raw: "10060001#0#幻箭诀#0#箭伤如幽魂缠身，气血无从止息。撕骨裂效果中幅增强。#mi1601#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100600010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#5#0#0#0#2#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0.0#0#1#0#"
