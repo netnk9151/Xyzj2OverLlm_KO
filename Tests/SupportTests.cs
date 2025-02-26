@@ -135,14 +135,18 @@ public class SupportTests
     [InlineData("正有事找你，前些日子{}特意送来好礼，如今也该是回礼的日子了，你拿上此物交给{}事务总管，事成之后门中会奖励一枚不夜京承渝令。")]
     [InlineData("天随人愿，历经千辛万苦，终于在{0}发现了{1}，可谓福气满满。")]
     [InlineData("覆灭穆特前线的所有穆特族（{IsCanFinish:0:1}/1）")]
+    [InlineData("到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)")]
     static void StringTokenReplacer(string original)
     {
         var replacer = new StringTokenReplacer();
 
         string replaced = replacer.Replace(original);
-        Console.WriteLine("Replaced: " + replaced);
+        
 
         string restored = replacer.Restore(replaced);
+
+        Console.WriteLine("Original: " + original);
+        Console.WriteLine("Replaced: " + replaced);
         Console.WriteLine("Restored: " + restored);
 
         Assert.Equal(original, restored);

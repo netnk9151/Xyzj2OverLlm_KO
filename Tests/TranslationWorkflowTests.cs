@@ -130,7 +130,7 @@ public class TranslationWorkflowTests
                     if (resetFlag)
                         split.ResetFlags(false);
 
-                    if (CheckSplit(logLines, newGlossaryStrings, manual, split, outputFile, config))
+                    if (UpdateSplit(logLines, newGlossaryStrings, manual, split, outputFile, config))
                         recordsModded++;
                 }
 
@@ -151,7 +151,7 @@ public class TranslationWorkflowTests
         return totalRecordsModded;
     }
 
-    public static bool CheckSplit(List<string> logLines, List<string> newGlossaryStrings, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
+    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
         LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
@@ -205,12 +205,12 @@ public class TranslationWorkflowTests
         }
 
         // Temp force retrans of splits because of changes in calcs
-        foreach (var splitCharacters in TranslationService.SplitCharactersList)
-            if (preparedRaw.Contains(splitCharacters))
-            {
-                split.FlaggedForRetranslation = true;
-                return true;
-            }
+        //foreach (var splitCharacters in TranslationService.SplitCharactersList)
+        //    if (preparedRaw.Contains(splitCharacters))
+        //    {
+        //        split.FlaggedForRetranslation = true;
+        //        return true;
+        //    }
 
         if (MatchesBadWords(split.Translated))
         {

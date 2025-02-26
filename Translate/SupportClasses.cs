@@ -70,8 +70,8 @@ public class TranslationLine
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Raw { get; set; } = string.Empty;
 
-    [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string? Translated { get; set; }
+    [YamlIgnore]
+    public string Translated { get; set; } = string.Empty;
 
     public List<TranslationSplit> Splits { get; set; } = [];
 

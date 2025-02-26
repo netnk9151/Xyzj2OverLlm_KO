@@ -525,6 +525,11 @@ public static class TranslationService
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
 
+        // Brackets Split first - so it doesnt split stuff inside the brackets
+        //var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, outputFile);
+        //if (split2)
+        //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, outputFile, tokenReplacer);
+
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in SplitCharactersList)
         {
@@ -534,12 +539,7 @@ public static class TranslationService
             if (split)
                 return LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer);
         }
-
-        // Brackets Split
-        var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, outputFile);
-        if (split2)
-            return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, outputFile, tokenReplacer);
-
+ 
         // Define the request payload
         List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile);
 

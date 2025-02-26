@@ -599,10 +599,10 @@
   result: Uncle
   checkForHallucination: false
   checkForMistranslation: true
-- raw: 先生
-  result: Gentleman
-  checkForHallucination: false
-  checkForMistranslation: true
+# - raw: 先生
+#   result: Gentleman
+#   checkForHallucination: false
+#   checkForMistranslation: true
 - raw: 公子
   result: Young Lord
   context: Often used to refer to the son of nobility, indicating both status and youth.
@@ -873,7 +873,21 @@
   checkForHallucination: false
   checkForMistranslation: true
 
-# Factions
+# Names
+- raw: 钱玉闵
+  result: Qian Yumin
+  checkForHallucination: false
+  checkForMistranslation: true
+
+# Factions & Places
+- raw: 永兴
+  result: Yongxing
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 枰枦
+  result: Pingxia
+  checkForHallucination: false
+  checkForMistranslation: true
 - raw: 剑斋
   result: Sword Pavilion
   checkForHallucination: false

@@ -10,7 +10,7 @@ public class AssetBundleExporter
 {
     public static void ExportMonobehavioursWithText(string filePath, string exportPath)
     {
-
+        var exportedStrings = new List<string>();
         if (!File.Exists(filePath))
         {
             Console.WriteLine("AssetBundle not found: " + filePath);
@@ -39,9 +39,12 @@ public class AssetBundleExporter
                         var textValue = textField.GetValue(component) as string;
                         if (!string.IsNullOrEmpty(textValue))
                         {
-                            string exportFile = Path.Combine(exportPath, type.Name + ".txt");
-                            File.AppendAllText(exportFile, textValue + "\n");
-                            Console.WriteLine($"Exported text from {type.Name} to {exportFile}");
+                            //var name = GetContainerPath(gameObject);
+
+                            exportedStrings.Add($"{assetName}  =  {textValue}");
+
+                            //File.AppendAllText(exportFile, textValue + "\n");
+                            //Console.WriteLine($"Exported text from {type.Name} to {exportFile}");
                         }
                     }
                 }
@@ -49,6 +52,22 @@ public class AssetBundleExporter
         }
 
         bundle.Unload(false);
+
+        File.WriteAllLines($"{exportPath}/1.txt", exportedStrings);
+    }
+
+    private static string GetContainerPath(GameObject obj)
+    {
+        string path = obj.name;
+        Transform parentTransform = obj.transform.parent;
+
+        while (parentTransform != null)
+        {
+            path = parentTransform.name + "/" + path;
+            parentTransform = parentTransform.parent;
+        }
+
+        return "/" + path; // Starting with '/' for the root
     }
 }
 
