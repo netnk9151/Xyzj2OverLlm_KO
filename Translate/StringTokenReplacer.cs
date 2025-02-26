@@ -10,7 +10,7 @@ public class StringTokenReplacer
 {
     private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
     private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";
-    private const string NumericValue = @"[+-]?\d+(\.\d+)?";
+    private const string NumericValue = @"(?<!\{)[+-]?\d+(\.\d+)?";
     private Dictionary<int, string> placeholderMap = new();
 
     public string[] otherTokens = ["{}"];

@@ -1,4 +1,4 @@
 ﻿**Placeholders:**
-- Keep all placeholders like `{0}`, `{1}`, `{2}`, `{3}` unchanged.
-- Keep all text that starts with a '{' and ends with a '}' completely unchanged. 
-- Treat placeholders as objects based on context.
+- Maintain placeholders such as `{0}`, `{1}` without alteration.
+- Never remove placeholders from any text.
+- Interpret placeholders contextually, treating them as specific objects.

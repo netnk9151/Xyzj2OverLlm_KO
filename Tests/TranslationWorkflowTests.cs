@@ -21,7 +21,7 @@ public class TranslationWorkflowTests
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
-        await UpdateCurrentTranslationLines(true);
+        await UpdateCurrentTranslationLines(false);
     }
 
     [Fact(DisplayName = "4. TranslateLines")]
@@ -174,7 +174,7 @@ public class TranslationWorkflowTests
 
         foreach (var glossary in newGlossaryStrings)
         {
-            if (split.Text.Contains(glossary))
+            if (preparedRaw.Contains(glossary))
             {
                 logLines.Add($"New Glossary {outputFile} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
@@ -244,7 +244,7 @@ public class TranslationWorkflowTests
         //}
 
         if (preparedRaw.EndsWith("...")
-            && split.Text.Length < 15
+            && preparedRaw.Length < 15
             && !split.Translated.EndsWith("...")
             && !split.Translated.EndsWith("...?")
             && !split.Translated.EndsWith("...!")
@@ -281,7 +281,7 @@ public class TranslationWorkflowTests
         //}
 
         // Clean up Diacritics
-        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, split.Text, outputFile, tokenReplacer);
+        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, outputFile, tokenReplacer);
         if (cleanedUp != split.Translated)
         {
             logLines.Add($"Cleaned up {outputFile} \n{split.Translated}\n{cleanedUp}");
@@ -289,7 +289,7 @@ public class TranslationWorkflowTests
             modified = true;
         }
 
-        // Remove Invalid ones
+        // Remove Invalid ones -- Have to use final raw because translated is untokenised
         var result = LineValidation.CheckTransalationSuccessful(config, split.Text, split.Translated ?? string.Empty, outputFile);
         if (!result.Valid)
         {
@@ -363,7 +363,7 @@ public class TranslationWorkflowTests
                
                 foreach (var dupe in dupes)
                 {
-                    found = split.Text.Contains(dupe.Raw);
+                    found = preparedRaw.Contains(dupe.Raw);
                     if (found)
                         break;
                 }

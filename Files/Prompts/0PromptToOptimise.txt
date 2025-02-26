@@ -1,2 +1,4 @@
-﻿**Gender-Neutral Language:**  
-- Use gender-neutral language and pronouns ("they/them") by default, unless the text specifies otherwise. In translations, favor gender-neutral expressions while adhering to specific terms like "male" or "female" only when explicitly mentioned in the source material, translating them as per their direct meaning.
+﻿**Placeholders:**
+- Keep all placeholders like `{0}`, `{1}` unchanged.
+- Placeholders must never be removed.
+- Treat placeholders as objects based on context.
