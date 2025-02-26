@@ -25,12 +25,12 @@
 - lineNum: 2
   raw: "2#刚柔并济#0#1#0#0#1|1#0#100&0#1#10007#0#0#20&0#1#对对手单个角色造成自身{2&0}%最大辩力的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:15.9472070+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:12.3686099+08:00
     split: 1
     text: "刚柔并济"
-    translated: "Softness and firmness combined"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hard,刚,"
+    translated: "A harmonious balance of strength and gentleness."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T18:32:13.3626878+08:00
     split: 15
@@ -1955,12 +1955,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:01.2720110+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:10.9212650+08:00
     split: 15
     text: "将生命值设置为1%"
-    translated: "Set life points to 1%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Set health to 1%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4903
   raw: "4903#难知#0#0#0#0#0#0#100&0#1#10070#0#0#50&0#0#造成0.5倍利辞的伤害##0#0#0#4#0#0#0#0#0#0#"
@@ -2503,12 +2503,12 @@
 - lineNum: 10022
   raw: "10022#扣除自身辩力（伤害=当前生命）#0#0#0#0#0#0#100#0#0#0#0#0#0#目标=自身 伤害=辩力百分比##0#0#0#4#0#0#0#0#0#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:15.9540918+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:11.7317528+08:00
     split: 1
     text: "扣除自身辩力（伤害=当前生命）"
-    translated: "Subtract one's defensive prowess (damage equals current life points)"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Subtracting one's defensive power (damage equals current health)."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T13:05:53.5329324+08:00
     split: 15
@@ -2883,12 +2883,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9551117+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:11.3299504+08:00
     split: 15
     text: "目标=濒死者，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target = Dying Entity, Recovery = Current Life Points. Restoration Amount = Maximum Life Points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Target = Dying individuals; Recovery = Restore current health points. Amount restored = Maximum health value."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10101
   raw: "10101#对濒死者治疗（最大生命值）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=濒死者，恢复=当前生命值 回复量=最大生命值##0#0##12#0#0#0#0#0#1#"
@@ -2900,12 +2900,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T13:05:53.5329340+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:17.2415495+08:00
     split: 15
     text: "目标=濒死者，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target = Dying Entity, Recovery = Current Life Points. Restoration Amount = Maximum Life Points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Target = Dying individuals; Recovery = Restore current health points. Amount restored = Maximum health value."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10102
   raw: "10102#将自身血量设置为0#0#0#0#0#0#0#100#0#0#4#0#0#0#目标=自身，恢复=当前生命值 回复量=最大生命值##0#0##4#0#0#0#0#0#1#"
@@ -2917,12 +2917,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9552043+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:10.7425637+08:00
     split: 15
     text: "目标=自身，恢复=当前生命值 回复量=最大生命值"
-    translated: "Objective: Self, Restore: Current Life Points = Maximum Life Points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Target=self, restore=current health points. Recovery amount=maximal health points."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10103
   raw: "10103#对自身治疗（最大生命值）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身，恢复=当前生命值 回复量=最大生命值##0#0##4#0#0#0#0#0#1#"
@@ -2934,12 +2934,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T13:05:53.5329341+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:17.2415497+08:00
     split: 15
     text: "目标=自身，恢复=当前生命值 回复量=最大生命值"
-    translated: "Objective: Self, Restore: Current Life Points = Maximum Life Points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Health,生命,"
+    translated: "Target=self, restore=current health points. Recovery amount=maximal health points."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10110
   raw: "10110#增减自身利辞#0#0#0#0#0#0#100#0##0#3#0#0#目标=自身 增加=利辞力##0#3##4##0#0#0#0#1#"
@@ -3082,12 +3082,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:07.6717205+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:14.8040399+08:00
     split: 15
     text: "因循：受到伤害时增加一层，叠加到五层时对对手单个角色造成自身10%最大辩力的伤害。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100018
   raw: "100018#守黑#0#0#0#1#0#5#100#0#4902#0#0#0#0#守黑：论点持有者承受造成退场的攻击时将生命值设置为1%。##0#0#0|16&=&0&0#0#0#6#0#0#0#1#"
@@ -3150,12 +3150,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:06.4224776+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:15.2331251+08:00
     split: 15
     text: "无念：攻击时扣除自身5%最大辩力。"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Without regrets: Reduces own maximum defense by 5% upon attacking."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100113
   raw: "100113#常转#0#0#0#2#0#1#100#0#4909#2#0#0#0#常转：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。##0#0#0|6&=&0&0#0#0#2#0#0#0#1#"
@@ -3184,12 +3184,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:12.4954273+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:14.5359391+08:00
     split: 15
     text: "三谛：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100118
   raw: "100118#感化#0#0#0#2#0#0#100#0#0#0#0#0#0#感化：论点持有者攻击时层数增加一，达到三层后使论点持有者在下个回合无法行动。##0#0#0|16&=&0&0#0#0#99#4#4907#3#1#"
@@ -3201,12 +3201,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:08.4640337+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:16.6088077+08:00
     split: 15
     text: "感化：论点持有者攻击时层数增加一，达到三层后使论点持有者在下个回合无法行动。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100202
   raw: "100202#逾节#0#0#0#2#0#0#25#0#4910#0#0#0#0#逾节：受到攻击时有25%几率减少1行动力。##0#0#0|15&=&0&0#0#0#6#0#0#0#1#"
@@ -3218,12 +3218,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:09.3362640+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:14.9668342+08:00
     split: 15
     text: "逾节：受到攻击时有25%几率减少1行动力。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100203
   raw: "100203#守耻#0#0#0#1#0#0#100#0#0#0#0#-15#0#守耻：减少自身15%减伤。##0#0##0#4#6#0#0#0#1#"
@@ -3252,12 +3252,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:11.7274328+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:16.2833176+08:00
     split: 15
     text: "道生：减少自身15%利辞。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100214
   raw: "100214#有方#0#0#0#1#0#0#100#4#0#0#0#50#0#有方：下一次攻击，增伤提升50%，攻击后消失。##1#0##0#5#6#0#0#0#1#"
@@ -3354,12 +3354,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:07.8772743+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:17.2413501+08:00
     split: 15
     text: "年丰：持有岁稔论点角色（自身除外）攻击时攻击一次，造成0.5倍利辞的伤害。"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Year of Abundance: When holding the Centuries of Accumulation argument, attack once to deal damage amounting to 0.5 times your Wisdom. (Not applicable against yourself.)"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100314
   raw: "100314#百变#0#0#0#1#0#4#50#0#4914#0#0#0#0#百变：自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。##0#0#0|16&=&0&0|15&=&3&0#4#0#99#0#0#0#1#"
@@ -3371,10 +3371,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T18:32:08.0318962+08:00
+  - lastTranslatedOn: 2025-02-26T19:42:14.3329427+08:00
     split: 15
     text: "百变：自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""

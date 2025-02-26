@@ -21,12 +21,12 @@
 - lineNum: 3
   raw: "3#外攻#0#20#0#0#0#0#0#0#0#1#300003#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9273824+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789427+08:00
     split: 1
     text: "外攻"
-    translated: "Attacking from outside"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Attack,外攻,"
+    translated: "External Attack"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4
   raw: "4#内攻#0#21#0#0#0#0#0#0#0#1#300004#1#"
@@ -41,22 +41,22 @@
 - lineNum: 5
   raw: "5#外防#0#22#0#0#0#0#0#0#0#2#300005#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9274348+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789444+08:00
     split: 1
     text: "外防"
-    translated: "External defense"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "External Defence"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 6
   raw: "6#内防#0#23#0#0#0#0#0#0#0#2#300006#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9274610+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789449+08:00
     split: 1
     text: "内防"
-    translated: "Internal defense"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Internal Defence,内防,"
+    translated: "Internal Defence"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 7
   raw: "7#命中#0#74#0#0#0#0#0#0#0#1#300007#1#"
@@ -71,82 +71,82 @@
 - lineNum: 8
   raw: "8#闪避#0#75#0#0#0#0#0#0#0#2#300008#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9275123+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789455+08:00
     split: 1
     text: "闪避"
-    translated: "Evade"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Dodge,闪避,"
+    translated: "Dodge"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 9
   raw: "9#诛心#0#24#0#0#0#0#0#0#0#1#300009#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9275376+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789459+08:00
     split: 1
     text: "诛心"
-    translated: "Insidious"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mind break,诛心,"
+    translated: "Mind break"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10
   raw: "10#御心#0#25#0#0#0#0#0#0#0#2#300010#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9275633+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789464+08:00
     split: 1
     text: "御心"
-    translated: "Guided by heart"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Discipline,御心,"
+    translated: "Discipline"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11
   raw: "11#要害#0#26#0#0#0#0#0#0#0#1#300011#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9275892+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789467+08:00
     split: 1
     text: "要害"
-    translated: "Vital point"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Critical Hit,要害,"
+    translated: "Critical Hit"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 12
   raw: "12#化解#0#27#0#0#0#0#0#0#0#2#300012#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9276151+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789471+08:00
     split: 1
     text: "化解"
-    translated: "Resolve"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Counter,化解,"
+    translated: "Counter"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 13
   raw: "13#阴#0#28#0#0#0#0#0#2#3#3#300013#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9276407+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789475+08:00
     split: 1
     text: "阴"
-    translated: "Darkness"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yin,阴,"
+    translated: "Yin"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 14
   raw: "14#阳#0#29#0#0#0#0#0#2#3#3#300014#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9276654+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789477+08:00
     split: 1
     text: "阳"
-    translated: "Sunlight"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yang,阳,"
+    translated: "Yang"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 15
   raw: "15#刚#0#30#0#0#0#0#0#2#3#3#300015#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9276907+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789479+08:00
     split: 1
     text: "刚"
-    translated: "Just now"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hard,刚,"
+    translated: "Hard"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 16
   raw: "16#柔#0#31#0#0#0#0#0#2#3#3#300016#1#"
@@ -161,12 +161,12 @@
 - lineNum: 17
   raw: "17#毒#0#32#0#0#0#0#0#2#3#3#300017#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9277402+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789481+08:00
     split: 1
     text: "毒"
-    translated: "Toxins"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poison,毒,"
+    translated: "Poison"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 18
   raw: "18#精力#0#84#0#0#0#0#0#0#0#2#300019#1#"
@@ -181,82 +181,82 @@
 - lineNum: 19
   raw: "19#元气#0#4#0#0#0#0#0#0#0#2#300020#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9277901+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789489+08:00
     split: 1
     text: "元气"
-    translated: "Original vitality"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lifeforce,元气,"
+    translated: "Lifeforce"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 20
   raw: "20#根骨#0#5#0#0#0#0#0#0#0#2#300021#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9278155+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789491+08:00
     split: 1
     text: "根骨"
-    translated: "Physical constitution"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Potential,根骨,"
+    translated: "Potential"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 21
   raw: "21#筋骨#0#6#0#0#0#0#0#0#0#2#300022#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9278406+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789493+08:00
     split: 1
     text: "筋骨"
-    translated: "Bone structure"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Strength,筋骨,"
+    translated: "Strength"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 22
   raw: "22#内息#0#7#0#0#0#0#0#0#0#2#300023#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9278656+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789496+08:00
     split: 1
     text: "内息"
-    translated: "Inner energy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Inner Qi,内息,"
+    translated: "Inner Qi"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 23
   raw: "23#体魄#0#8#0#0#0#0#0#0#0#2#300024#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9278907+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789499+08:00
     split: 1
     text: "体魄"
-    translated: "Vital strength"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Constitution,体魄,"
+    translated: "Constitution"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 24
   raw: "24#精神#0#9#0#0#0#0#0#0#0#2#300025#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9279159+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789501+08:00
     split: 1
     text: "精神"
-    translated: "Spiritual"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Willpower,精神,"
+    translated: "Willpower"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 25
   raw: "25#身法#0#10#0#0#0#0#0#0#0#2#300026#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9279410+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789503+08:00
     split: 1
     text: "身法"
-    translated: "Stealth"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Agility,身法,"
+    translated: "Agility"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 26
   raw: "26#专注#0#11#0#0#0#0#0#0#0#2#300027#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9279660+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0789505+08:00
     split: 1
     text: "专注"
-    translated: "Concentrated"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Focus,专注,"
+    translated: "Focus"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 27
   raw: "27#飞鸟#0#89#0#0#0#0#0#0#0#2#300028#1#"
@@ -971,12 +971,12 @@
 - lineNum: 1003
   raw: "1003#外攻#0#1020#0#0#0#0#1#0#0#1#301003#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9297781+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295277+08:00
     split: 1
     text: "外攻"
-    translated: "Attacking from outside"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Attack,外攻,"
+    translated: "External Attack"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1004
   raw: "1004#内攻#0#1021#0#0#0#0#1#0#0#1#301004#1#"
@@ -991,22 +991,22 @@
 - lineNum: 1005
   raw: "1005#外防#0#1022#0#0#0#0#1#0#0#2#301005#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9298283+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295282+08:00
     split: 1
     text: "外防"
-    translated: "External defense"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "External Defence"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1006
   raw: "1006#内防#0#1023#0#0#0#0#1#0#0#2#301006#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9298535+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295284+08:00
     split: 1
     text: "内防"
-    translated: "Internal defense"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Internal Defence,内防,"
+    translated: "Internal Defence"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1007
   raw: "1007#命中#0#1074#0#0#0#0#1#0#0#1#301007#1#"
@@ -1021,82 +1021,82 @@
 - lineNum: 1008
   raw: "1008#闪避#0#1075#0#0#0#0#1#0#0#2#301008#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9299039+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295288+08:00
     split: 1
     text: "闪避"
-    translated: "Evade"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Dodge,闪避,"
+    translated: "Dodge"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1009
   raw: "1009#诛心#0#1024#0#0#0#0#1#0#0#1#301009#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9299286+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295289+08:00
     split: 1
     text: "诛心"
-    translated: "Insidious"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Mind break,诛心,"
+    translated: "Mind break"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1010
   raw: "1010#御心#0#1025#0#0#0#0#1#0#0#2#301010#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9299541+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295296+08:00
     split: 1
     text: "御心"
-    translated: "Guided by heart"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Discipline,御心,"
+    translated: "Discipline"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1011
   raw: "1011#要害#0#1026#0#0#0#0#1#0#0#1#301011#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9299791+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295298+08:00
     split: 1
     text: "要害"
-    translated: "Vital point"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Critical Hit,要害,"
+    translated: "Critical Hit"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1012
   raw: "1012#化解#0#1027#0#0#0#0#1#0#0#2#301012#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9300039+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295302+08:00
     split: 1
     text: "化解"
-    translated: "Resolve"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Counter,化解,"
+    translated: "Counter"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1013
   raw: "1013#阴#0#1028#0#0#0#0#1#2#3#3#301013#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9300290+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295303+08:00
     split: 1
     text: "阴"
-    translated: "Darkness"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yin,阴,"
+    translated: "Yin"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1014
   raw: "1014#阳#0#1029#0#0#0#0#1#2#3#3#301014#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9300537+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295304+08:00
     split: 1
     text: "阳"
-    translated: "Sunlight"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yang,阳,"
+    translated: "Yang"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1015
   raw: "1015#刚#0#1030#0#0#0#0#1#2#3#3#301015#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9300791+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295305+08:00
     split: 1
     text: "刚"
-    translated: "Just now"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hard,刚,"
+    translated: "Hard"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1016
   raw: "1016#柔#0#1031#0#0#0#0#1#2#3#3#301016#1#"
@@ -1111,12 +1111,12 @@
 - lineNum: 1017
   raw: "1017#毒#0#1032#0#0#0#0#1#2#3#3#301017#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9301292+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295308+08:00
     split: 1
     text: "毒"
-    translated: "Toxins"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poison,毒,"
+    translated: "Poison"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1018
   raw: "1018#精力#0#1084#0#0#0#0#1#0#0#2#301018#1#"
@@ -1131,82 +1131,82 @@
 - lineNum: 1019
   raw: "1019#元气#0#1004#0#0#0#0#1#0#0#2#301019#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9301792+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295313+08:00
     split: 1
     text: "元气"
-    translated: "Original vitality"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Lifeforce,元气,"
+    translated: "Lifeforce"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1020
   raw: "1020#根骨#0#1005#0#0#0#0#1#0#0#2#301020#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9302042+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295314+08:00
     split: 1
     text: "根骨"
-    translated: "Physical constitution"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Potential,根骨,"
+    translated: "Potential"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1021
   raw: "1021#筋骨#0#1006#0#0#0#0#1#0#0#2#301021#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9302291+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295315+08:00
     split: 1
     text: "筋骨"
-    translated: "Bone structure"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Strength,筋骨,"
+    translated: "Strength"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1022
   raw: "1022#内息#0#1007#0#0#0#0#1#0#0#2#301022#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9302542+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295318+08:00
     split: 1
     text: "内息"
-    translated: "Inner energy"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Inner Qi,内息,"
+    translated: "Inner Qi"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1023
   raw: "1023#体魄#0#1008#0#0#0#0#1#0#0#2#301023#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9302791+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295321+08:00
     split: 1
     text: "体魄"
-    translated: "Vital strength"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Constitution,体魄,"
+    translated: "Constitution"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1024
   raw: "1024#精神#0#1009#0#0#0#0#1#0#0#2#301024#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9303038+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295322+08:00
     split: 1
     text: "精神"
-    translated: "Spiritual"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Willpower,精神,"
+    translated: "Willpower"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1025
   raw: "1025#身法#0#1010#0#0#0#0#1#0#0#2#301025#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9303288+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295323+08:00
     split: 1
     text: "身法"
-    translated: "Stealth"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Agility,身法,"
+    translated: "Agility"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1026
   raw: "1026#专注#0#1011#0#0#0#0#1#0#0#2#301026#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9303538+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295324+08:00
     split: 1
     text: "专注"
-    translated: "Concentrated"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Focus,专注,"
+    translated: "Focus"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1027
   raw: "1027#飞鸟#0#1089#0#0#0#0#1#0#0#2#301027#1#"
@@ -1961,42 +1961,42 @@
 - lineNum: 1857
   raw: "1857#阴殇#10#0#3#1#0#1208|1209#1#5#1#1#301857#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9323439+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.2166059+08:00
     split: 1
     text: "阴殇"
-    translated: "Sorrowful Demise"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yin,阴,"
+    translated: "Yin Shang."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1858
   raw: "1858#阳殇#10#0#3#0#0#1208|1209#1#5#1#1#301858#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9323686+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:05.4475908+08:00
     split: 1
     text: "阳殇"
-    translated: "Sun's Fate"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yang,阳,"
+    translated: "Yang Shang"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1859
   raw: "1859#刚殇#10#0#3#3#0#1208|1209#1#5#1#1#301859#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9323939+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.7273339+08:00
     split: 1
     text: "刚殇"
-    translated: "Recent loss"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hard,刚,"
+    translated: "Hard Wound"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1860
   raw: "1860#柔殇#10#0#3#2#0#1208|1209#1#5#1#1#301860#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9324189+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.2951831+08:00
     split: 1
     text: "柔殇"
-    translated: "Ruoshang"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Soft,柔,"
+    translated: "Soft Sorrow"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1861
   raw: "1861#毒殇#10#0#3#4#0#1208|1209#1#5#1#1#301861#1#"
@@ -2011,11 +2011,11 @@
 - lineNum: 10001
   raw: "10001#气涌-冷却#10#202#0#0#0#130800|130810|131100|131110#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9324696+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0796924+08:00
     split: 1
     text: "气涌-冷却"
-    translated: "Flow of Qi - Cooling Down"
-    flaggedForRetranslation: true
+    translated: "Qi surging forth. - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10002
@@ -2141,12 +2141,12 @@
 - lineNum: 10075
   raw: "10075#寒气、中毒、灼伤持续时间#10#204#4#0#0#101010|101040|101050#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:51:52.3555201+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:06.3328122+08:00
     split: 1
     text: "寒气、中毒、灼伤持续时间"
-    translated: "Cold, poisoning, and burn duration."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,"
+    translated: "Chill, poison duration, burn duration."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10076
   raw: "10076#内伤层数增加#8#216#4#100500161#0##0#0#0#0#0#0#"
@@ -2171,11 +2171,11 @@
 - lineNum: 11001
   raw: "11001#气涌-冷却#10#1202#0#0#0#130800|130810|131100|131110#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9328889+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295393+08:00
     split: 1
     text: "气涌-冷却"
-    translated: "Flow of Qi - Cooling Down"
-    flaggedForRetranslation: true
+    translated: "Qi surging forth. - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11004
@@ -2864,51 +2864,51 @@
 - lineNum: 11076
   raw: "11076#中毒频率提升#8#205#4#101010#0##0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:51:52.8945727+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.4310012+08:00
     split: 1
     text: "中毒频率提升"
-    translated: "Poisoning frequency increased."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,"
+    translated: "Frequency of poisoning has increased."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11077
   raw: "11077#中毒频率提升#8#1205#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:51:53.0221020+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295440+08:00
     split: 1
     text: "中毒频率提升"
-    translated: "Poisoning frequency increased."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,"
+    translated: "Frequency of poisoning has increased."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11078
   raw: "11078#中毒效果提升#8#1206#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:51:53.0220822+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.5460492+08:00
     split: 1
     text: "中毒效果提升"
-    translated: "Enhanced poisoning effect."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,Poisoned,中毒,"
+    translated: "Enhanced Poisoning Effect"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11079
   raw: "11079#断魂腿-冷却#8#1202#0#132210#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9352712+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:08.9610803+08:00
     split: 1
     text: "断魂腿-冷却"
-    translated: "Duanhun Tui - Cooling"
-    flaggedForRetranslation: true
+    translated: ""
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11080
   raw: "11080#千针手-冷却#8#1202#0#132200#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9352962+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:08.0632240+08:00
     split: 1
     text: "千针手-冷却"
-    translated: "A thousand needles cooling"
-    flaggedForRetranslation: true
+    translated: "Thousand Needle Hand - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11081
@@ -3034,111 +3034,111 @@
 - lineNum: 11093
   raw: "11093#傲寒-冷却#8#1202#0#111800#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9356257+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.8599821+08:00
     split: 1
     text: "傲寒-冷却"
-    translated: "Defiance of Chill - Cool Down"
-    flaggedForRetranslation: true
+    translated: "Haughty Coldness - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11094
   raw: "11094#傲寒-冷却#8#1202#0#111810#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9356506+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0295444+08:00
     split: 1
     text: "傲寒-冷却"
-    translated: "Defiance of Chill - Cool Down"
-    flaggedForRetranslation: true
+    translated: "Haughty Coldness - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11095
   raw: "11095#大悲灭罪-冷却#8#1202#0#133810#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9356758+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.6054888+08:00
     split: 1
     text: "大悲灭罪-冷却"
-    translated: "Great Compassion Eradicates Sins - Cooling"
-    flaggedForRetranslation: true
+    translated: "Great Compassion Eradicates Sin - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11096
   raw: "11096#禅定-冷却#8#1202#0#133900#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9357014+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0293533+08:00
     split: 1
     text: "禅定-冷却"
-    translated: "Meditative Calm - Cooling"
-    flaggedForRetranslation: true
+    translated: "Meditative concentration. - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11097
   raw: "11097#霜影步-冷却#8#1202#0#133910#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9357265+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.7750469+08:00
     split: 1
     text: "霜影步-冷却"
-    translated: "Snow Shadow Step - Cooling"
-    flaggedForRetranslation: true
+    translated: "Stepping through frost. - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11098
   raw: "11098#梵音-冷却#8#1202#0#134000#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9357519+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:08.3907291+08:00
     split: 1
     text: "梵音-冷却"
-    translated: "Mantra of Cooling"
-    flaggedForRetranslation: true
+    translated: ""
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11099
   raw: "11099#霜华梵天-冷却#8#1202#0#134010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9357770+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:07.8486982+08:00
     split: 1
     text: "霜华梵天-冷却"
-    translated: "Frigid Radiance of Frosty Heaven"
-    flaggedForRetranslation: true
+    translated: "Frosty Splendor, Bodhisattva of Heaven - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11100
   raw: "11100#佛怒-冷却#8#1202#0#134100#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9358536+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.4917392+08:00
     split: 1
     text: "佛怒-冷却"
-    translated: "Tempering of Buddha's Wrath"
-    flaggedForRetranslation: true
+    translated: ""
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11101
   raw: "11101#圣拳印-冷却#8#1202#0#134110#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9358831+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.2826276+08:00
     split: 1
     text: "圣拳印-冷却"
-    translated: "Sacred Fist Mark - Cooling"
-    flaggedForRetranslation: true
+    translated: "Seal of the Holy Fist - Cooling down"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11102
   raw: "11102#破冰禅光-冷却#8#1202#0#134200#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9359159+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.6908398+08:00
     split: 1
     text: "破冰禅光-冷却"
-    translated: "Frostbreak Zen Light - Cooling"
-    flaggedForRetranslation: true
+    translated: "Breaking Ice Zen Light - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11103
   raw: "11103#大悲印-冷却#8#1202#0#133800#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9359417+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:09.9443784+08:00
     split: 1
     text: "大悲印-冷却"
-    translated: "Great Compassion Seal - Cooling"
-    flaggedForRetranslation: true
+    translated: "Great Compassion Seal - Cooling down."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11104
@@ -3204,21 +3204,21 @@
 - lineNum: 20006
   raw: "20006#特殊技能词条-减少秘诀荒芜冷却时间#13#101#0#0#0#0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9361241+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:07.7338738+08:00
     split: 1
     text: "特殊技能词条-减少秘诀荒芜冷却时间"
-    translated: "Special Skill Entry - Reduce Mystery Wasteland Cool Down Time"
-    flaggedForRetranslation: true
+    translated: "Special Ability Skill Entry - Reduce cooldown time of secret techniques."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 20007
   raw: "20007#特殊技能词条-增加秘诀无骨之地效果#13#102#0#0#0#0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9361498+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:08.2603375+08:00
     split: 1
     text: "特殊技能词条-增加秘诀无骨之地效果"
-    translated: "Special Skill Entry - Adds the effect of Boneless Place Secret Technique"
-    flaggedForRetranslation: true
+    translated: "Special Skill Descriptor - Increase the effect of No-Bone Secret Skill."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30000
@@ -4284,12 +4284,12 @@
 - lineNum: 30106
   raw: "30106#末路斜阳#10#0#0#111010#0#1200|1201#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9388805+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0802645+08:00
     split: 1
     text: "末路斜阳"
-    translated: "Sunset on one's last road"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Yang,阳,"
+    translated: "Slanting sun at life's end."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30107
   raw: "30107#藏刀式#10#0#0#111100#0#1200|1201#1#0#0#0#0#0#"
@@ -4424,12 +4424,12 @@
 - lineNum: 30120
   raw: "30120#冰封三尺#10#0#0#111800#0#1200|1201#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:51:53.0221821+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:04.0802686+08:00
     split: 1
     text: "冰封三尺"
-    translated: "Three feet of ice."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Frozen,冰封,Frozen,冰封,Frozen,冰封,Frozen,冰封,"
+    translated: "Frozen three feet thick."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30121
   raw: "30121#冷刃冰心#10#0#0#111810#0#1200|1201#1#0#0#0#0#0#"
@@ -5314,12 +5314,12 @@
 - lineNum: 30209
   raw: "30209#蟾毒爪#10#0#0#132310#0#1200|1201#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9414882+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.1794615+08:00
     split: 1
     text: "蟾毒爪"
-    translated: "Skull Venom Claw"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poison,毒,"
+    translated: "Toad's Poison Claw"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30210
   raw: "30210#孔雀翎舞#10#0#0#132400#0#1200|1201#1#0#0#0#0#0#"
@@ -5394,12 +5394,12 @@
 - lineNum: 30217
   raw: "30217#金刚伏魔#10#0#0#132710#0#1200|1201#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9416915+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0495870+08:00
     split: 1
     text: "金刚伏魔"
-    translated: "Subdue Demons Using Iron Strength"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Hard,刚,"
+    translated: "Invoking the Golden Vajra to subdue demons."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30218
   raw: "30218#龙象般若掌#10#0#0#132800#0#1200|1201#1#0#0#0#0#0#"
@@ -5584,12 +5584,12 @@
 - lineNum: 30236
   raw: "30236#毒肤#10#0#0#160510#0#1200|1201#1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:20:29.9421686+08:00
+  - lastTranslatedOn: 2025-02-26T22:40:10.0495931+08:00
     split: 1
     text: "毒肤"
     translated: "Toxic Skin"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poison,毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30237
   raw: "30237#天魔雨#10#0#0#160600#0#1200|1201#1#0#0#0#0#0#"

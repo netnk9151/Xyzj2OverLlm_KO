@@ -180,20 +180,24 @@
   checkForMistranslation: true
 - raw: 阴
   result: Yin
+  context: Commonly used in other translations
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 阳
   result: Yang
+  context: Commonly used in other translations
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 刚
   result: Hard
+  context: Commonly used in other translations
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 柔
   result: Soft
+  context: Commonly used in other translations
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 毒
   result: Poison
   context:

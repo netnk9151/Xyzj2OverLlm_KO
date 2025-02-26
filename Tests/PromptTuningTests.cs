@@ -163,6 +163,21 @@ public class PromptTuningTests
     }
 
     [Fact]
+    public async Task ExplainExplanationPrompt()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+        //var input = "好嘞，客官您慢走！";
+        var input = "幽影-剑意纵横";
+        var result = await QuickTranslate(config, input, string.Empty,
+            "Explain your reasoning in a <think> tag at the end of the response. " +
+            "Explain if/why you provided an explanation." +
+            "Also explain how to adjust the system prompt to correct it to make sure you do not provide this explanation." +
+            "Show an example prompt.");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainExplanationPrompt.txt", result);
+    }
+
+    [Fact]
     public async Task OptimiseCorrectTagPrompt()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
