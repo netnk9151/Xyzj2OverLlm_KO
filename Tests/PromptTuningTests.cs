@@ -33,7 +33,8 @@ public class PromptTuningTests
             //new("在<color=&&00ff00ff>武馆教头（枰栌）</color>处有概率获得"),
             //new("在对抗有优势火力的敌人时，兵家的常用战术是："),
             //new("阴、阳、刚、柔、毒各+{0:G}"),
-            new("{0&0}%几率对我方随机角色添加持续一轮次的随即论点。")
+            new("{0&0}%几率对我方随机角色添加持续一轮次的随即论点。"),
+            new("达成机杼墨师身份，在龙蛇寨附近完成机杼传承")
         };
 
         config.SkipLineValidation = true;
@@ -141,7 +142,8 @@ public class PromptTuningTests
     public async Task ExplainAlternativesPrompt()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
-        var input = "好嘞，客官您慢走！";
+        //var input = "好嘞，客官您慢走！";
+        var input = "完成菩提";
         var result = await QuickTranslate(config, input, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an alternative." +

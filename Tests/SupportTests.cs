@@ -20,6 +20,23 @@ public class SupportTests
     }
 
     [Fact]
+    public async Task CheckGlossaryForDuplicates()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var duplicates = config.GlossaryLines
+            .GroupBy(line => line.Raw)
+            .Where(group => group.Count() > 1);
+
+        Assert.Empty(duplicates);
+
+        var empty = config.GlossaryLines
+            .Where(l => string.IsNullOrEmpty(l.Result));
+
+        Assert.Empty(empty);
+    }
+
+    [Fact]
     public async Task GetSectsAndPlaces()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
