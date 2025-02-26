@@ -20,6 +20,12 @@ public static class LineValidation
         //StripColorTags(raw)
         raw = raw
             .Replace("…", "...")
+            .Replace("：", ":")
+            .Replace("：", ":")
+            .Replace("《", "'")
+            .Replace("》", "'")
+            .Replace("（", "(")
+            .Replace("）", ")")
             .Replace("？", "?")
             .Replace("！", "!");
 
@@ -85,8 +91,6 @@ public static class LineValidation
     //    return result;
     //}
 
-
-
     public static ValidationResult CheckTransalationSuccessful(LlmConfig config, string raw, string result, string outputFile)
     {
         var response = true;
@@ -101,7 +105,7 @@ public static class LineValidation
             || result.Contains("<p") 
             || result.Contains("<em") 
             || result.Contains("<|")
-            || result.Contains("–")
+            //|| result.Contains("–")
             || result.Contains("\\U"))
             response = false;
 
@@ -162,6 +166,12 @@ public static class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
+        if (raw.Contains("-") && !result.Contains("-"))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");
+        }
+
         // This can cause bad hallucinations if not being explicit on retries
         if (raw.Contains("<br>") && !result.Contains("<br>"))
         {
@@ -205,17 +215,17 @@ public static class LineValidation
         }
 
         ////Alternatives
-        //if (result.Contains('/') && !raw.Contains('/') && outputFile.EndsWith("NpcTalkItem.txt"))
-        //{
-        //    response = false;
-        //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "/");
-        //}
+        if (result.Contains('/') && !raw.Contains('/'))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "/");
+        }
 
-        //if (result.Contains('\\') && !raw.Contains('\\') && outputFile.EndsWith("NpcTalkItem.txt"))
-        //{
-        //    response = false;
-        //    correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
-        //}
+        if (result.Contains('\\') && !raw.Contains('\\'))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
+        }
 
         //TODO: This is doing wierd shit
         if (result.Contains('<') && !result.Contains("<br>") && !result.Contains("<color"))
@@ -267,6 +277,7 @@ public static class LineValidation
             result = result
                 .Replace("…", "...")
                 .Replace("？", "?")
+                .Replace(".:", ":")
                 .Replace("！", "!");
                 //.Replace("<p>", "", StringComparison.OrdinalIgnoreCase)
                 //.Replace("</p>", "", StringComparison.OrdinalIgnoreCase)
@@ -510,7 +521,7 @@ public class StringTokenReplacer
     private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
     private Dictionary<int, string> placeholderMap = new();
 
-    public string[] otherTokens = ["\\n", "{}"];
+    public string[] otherTokens = ["{}"];
 
     public string Replace(string input)
     {

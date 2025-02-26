@@ -147,10 +147,10 @@
   raw: "58#1#2#16#0#0#0#0#0#0&86#好感度≥5;情分值≥150#0#0###0#0#0&68|5;69|150|1#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5780119+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:08.5793584+08:00
     split: 10
     text: "好感度≥5;情分值≥150"
-    translated: "Loyalty Points ≥ 5; Affection Value ≥ 150"
+    translated: "Friendship Level ≥ 5; Affection Score ≥ 150"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -191,10 +191,10 @@
   raw: "62#1#2#4#0#0#0#0#0#0&86#好感度≥75;情分值≥3500#0#0###0#0#0&68|75;69|3500|1#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5781200+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:08.5793587+08:00
     split: 10
     text: "好感度≥75;情分值≥3500"
-    translated: "Friendship Level ≥ 75; Bond Value ≥ 3500"
+    translated: "Favorability ≥ 75%; Affection Value ≥ 3,500"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -307,10 +307,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.5783613+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:08.5793587+08:00
     split: 19
     text: "好感度≥75;情分值≥3500"
-    translated: "Affection Level ≥ 75; Loyalty Points ≥ 3,500"
+    translated: "Favorability ≥ 75%; Affection Value ≥ 3,500"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -390,10 +390,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.5785732+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:08.5793414+08:00
     split: 19
     text: "加入双修府解锁"
-    translated: "Unlock by joining the Dual Cultivation Bureau"
+    translated: "Unlock upon joining Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1592,10 +1592,10 @@
   raw: "5733#6214#1#9#0#0#0#0#0#0&24|954013|1#迦南遗迹问答#3397#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5806605+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:08.7957868+08:00
     split: 10
     text: "迦南遗迹问答"
-    translated: "Ancient Canaanite Ruins Q&A"
+    translated: "Question and Answer about Canaan Ruins."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3210,23 +3210,23 @@
   raw: "1089001#1089#1#9#0#0#0#0#0&30|958053|1#0&24|960632|1#百里大哥可是有何麻烦事？#3841#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:10.2948973+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.0142970+08:00
     split: 10
     text: "百里大哥可是有何麻烦事？"
-    translated: "What's the trouble that Master Baili has?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "What trouble does Senior Brother Baili have?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1089002
   raw: "1089002#1089#1#9#0#0#0#0#0&27|31530|0;27|31531|0;27|31532|0#0&24|960612|1#百里大哥无需再担忧姑娘的事情了#0#960612#0|34415|1;0|92730|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:10.7777037+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.3548952+08:00
     split: 10
     text: "百里大哥无需再担忧姑娘的事情了"
-    translated: "Master Bai Li, there's no need for you to worry about the girl's matters anymore."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "Big Brother Baidi no longer needs to worry about the girl's matters."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1501003
   raw: "1501003#25118#4#46#0#0#0#修理#0#0##0#0###0#0#0#0#0#"
@@ -3309,10 +3309,10 @@
   raw: "2006002#2006#1#9#0#0#0#0#0&72|2006|2006001|1#0&24|954189|1#保护云鹤村#5268#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5866882+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.6881213+08:00
     split: 10
     text: "保护云鹤村"
-    translated: "Protect Yun He Village"
+    translated: "Protect Cloud Crane Village."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3320,10 +3320,10 @@
   raw: "2006003#2006#1#9#0#0#0#0#0&24|954189|1#0&24|954189|1;27|20651|0#我应该怎么做才能保护云鹤村？#0#954185###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5867152+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.5610122+08:00
     split: 10
     text: "我应该怎么做才能保护云鹤村？"
-    translated: "How should I act in order to protect Yun He Village?"
+    translated: "How can I protect Cloud Crane Village?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3594,10 +3594,10 @@
   raw: "2028002#2028#1#9#0#0#0#0#0&24|959587|1#0&24|972469|1#村里可见过什么有趣的事吗？#0#957530###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5876399+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.8394501+08:00
     split: 10
     text: "村里可见过什么有趣的事吗？"
-    translated: "Have you seen anything interesting in the village?"
+    translated: "Have you ever seen anything interesting happen in the village?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3613,10 +3613,10 @@
   raw: "5030001#215030#1#9#0#0#0##0&18|1|44|100|>=#0&24|942204|1#加入砚溪山庄#51531#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5877315+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:09.8394348+08:00
     split: 10
     text: "加入砚溪山庄"
-    translated: "Join Yanyu Mountain Villa"
+    translated: "Join Ink Stream Mountain Villa."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3884,12 +3884,12 @@
   raw: "5401003#5401#1#9#0#0#0#0#0&24|955041|1#0&24|955033|1#徐大哥，我有些事情找你#0#955033###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:11.1587873+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:10.1489335+08:00
     split: 10
     text: "徐大哥，我有些事情找你"
-    translated: "Xi Dage, I need to talk to you about something."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "Xu Dage, I need to talk to you about something."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5411001
   raw: "5411001#5411#1#9#0#0#0#0#0#0&24|957692|1#听李承誉嘀咕#0#957692###0#0#0#0#0#"
@@ -7087,10 +7087,10 @@
   raw: "30026002#30026#1#9#0#0#0#0#0&24|988539|1#0&24|990393|1#请问大师如何能够心安？#0#957694###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5951367+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:10.1491328+08:00
     split: 10
     text: "请问大师如何能够心安？"
-    translated: "How can the Master find peace of mind?"
+    translated: "Please tell me, how can Master achieve inner peace?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7447,10 +7447,10 @@
   raw: "30092001#30092#1#9#0#0#0#0#0&30|973537|1#0&24|973557|1#你所说码头在哪？#0#957640###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5959407+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:10.3227310+08:00
     split: 10
     text: "你所说码头在哪？"
-    translated: "Where is the dock you are talking about?"
+    translated: "Where is the port you mentioned?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7936,12 +7936,12 @@
   raw: "30132001#30132#1#9#0#0#0#0#0&30|971945|1#0&24|985959|1#沈大娘你的竹条去哪了？#0#957382###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:13.0406381+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:14.3364989+08:00
     split: 10
     text: "沈大娘你的竹条去哪了？"
-    translated: "Where did your bamboo cane go, Auntie Shen?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,"
+    translated: "Where did your bamboo stick go, Shen Daniang?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30132002
   raw: "30132002#30132#1#9#0#0#0#0#0&30|971945|1;3|37081|1#0&24|985959|1#拿出竹条#1475#0#0|37079|1;3916|0|5;0|94450|1#0|37081|1#0#0#0#0#0#"
@@ -7969,12 +7969,12 @@
   raw: "30134002#30134#1#9#0#0#0#0#0&30|971939|1;3|37078|1##拿出武林趣闻一#1476#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:13.5863020+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:14.0016456+08:00
     split: 10
     text: "拿出武林趣闻一"
-    translated: "Share an entertaining anecdote from the martial world."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wulin,武林,"
+    translated: "Here's a wuxia-related anecdote for you:\n\nOnce, in the heart of Wulin, there was a legendary swordsman named Brother Ling. Known for his unmatched skill and chivalrous spirit, he often took on formidable opponents to uphold justice.\n\nOne evening, under the light of the crescent moon, Brother Ling encountered an old master claiming that no one could best him without using trickery or deceit. Intrigued by this boast, Brother Ling accepted the challenge.\n\nAs they dueled, the master attempted to use cunning tactics and illusions, but Brother Ling remained undeterred. With his keen perception and unwavering integrity, he saw through every deception. In a swift motion, he disarmed the master, who was humbled and asked for forgiveness.\n\nThe old master then declared that Brother Ling was not only an extraordinary swordsman but also possessed a noble heart. This encounter spread throughout Wulin, reinforcing the belief that true skill lies in both martial prowess and moral integrity."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30134003
   raw: "30134003#30134#1#9#0#0#0#0#0&30|971939|1;3|37079|1##拿出武林趣闻二#1476#0###0#0#0#0#0#"
@@ -8068,10 +8068,10 @@
   raw: "30144001#30144#1#9#0#0#0#0#0#0&24|986203|1#阁下可是豫京食神李味道？#0#986203###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5975774+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:14.6727810+08:00
     split: 10
     text: "阁下可是豫京食神李味道？"
-    translated: "You must be the renowned culinary master from Yuejing, Li Weida?"
+    translated: "Are you the gastronomic master of Yu Capital, Li Weidao?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8927,10 +8927,10 @@
   raw: "30356003#30356#1#9#0#0#0#0#0&30|957197|1#0&24|957188|1#黑沙寨之事#0#957190###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5997474+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:15.1478557+08:00
     split: 10
     text: "黑沙寨之事"
-    translated: "The matter of Heishazhai"
+    translated: "The matter of the Black Sand Stronghold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8982,10 +8982,10 @@
   raw: "30356008#30356#1#9#0#0#0#0#0&24|957190|1;3|37218|10#0&24|957188|1#拿出黑沙寨耳坠#0#957188#3926|0|5#0|37218|1#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.5999049+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:14.9483870+08:00
     split: 10
     text: "拿出黑沙寨耳坠"
-    translated: "Take out the earring from Black Sand Fortress"
+    translated: "Take out the ear pendant from Black Sand Stronghold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9676,10 +9676,10 @@
   raw: "30520001#30520#1#9#0#0#0#0#0&24|960058|1#0&24|960024|1#询问云鹤村的传闻#3833#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6015308+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:15.6187971+08:00
     split: 10
     text: "询问云鹤村的传闻"
-    translated: "Ask about the rumors of Yunhe Village"
+    translated: "Inquiring about the rumors surrounding Cloud Crane Village."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9698,12 +9698,12 @@
   raw: "30520004#30520#1#9#0#0#0#0#0&30|972556|1#0&24|973530|1#万大哥可曾见过什么可疑的人？#0#957655###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:19.1362248+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:15.3911606+08:00
     split: 10
     text: "万大哥可曾见过什么可疑的人？"
-    translated: "Has Big Brother Wan ever seen any suspicious people?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior Brother,大哥,"
+    translated: "Has Senior Brother Wan ever seen any suspicious people?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520005
   raw: "30520005#30520#1#9#0#0#0#0#0&24|960058|1#0&24|959688|1#询问轻功的传闻#5046#0###0#0#0&18|1|68|1600|>#0#金钱＞1600#"
@@ -9781,12 +9781,12 @@
   raw: "30520009#30520#1#9#0#0#0#0##0&24|954375|1#询问百战刀圣传闻#3391#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:20.4724394+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:16.1245977+08:00
     split: 10
     text: "询问百战刀圣传闻"
-    translated: "Seeking the legend of Bai Zhan Dao Sheng, the Sword Immortal who has fought a hundred battles."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Asking about the legend of the Hundred Battles Sword Saint."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 30520010
   raw: "30520010#30520#1#41#0#0#0#0#0#0##0#0###0#0#0#0#0#"
@@ -10085,10 +10085,10 @@
   raw: "30944003#30944#1#9#0#0#0#0#0#0&24|970798|1#你可是太初剑宗门人？#0#970798###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6024958+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:15.8636870+08:00
     split: 10
     text: "你可是太初剑宗门人？"
-    translated: "You're a disciple of Tai Chi Sword Sect?"
+    translated: "Are you a disciple of the Primordial Sword Sect?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -10340,12 +10340,12 @@
   raw: "31022002#31022#1#9#0#0#0#0#0&24|969452|1#0&24|958302|1#要回钱财#3931#0#3916|0|3##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:21.9008794+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:16.2812943+08:00
     split: 10
     text: "要回钱财"
-    translated: "Seeking to reclaim one's wealth."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Repaying debts."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31022003
   raw: "31022003#31022#1#9#0#0#0#0#0&27|31033|0;27|31034|0;27|31035|0;27|31036|0;27|31037|0#0&24|969439|1#你这厮知道错了吗？#3935#0###0#0#0#0#0#"
@@ -10838,12 +10838,12 @@
   raw: "31403001#31403#1#9#0#0#0#0#0&24|960679|1#0&24|960669|1#闻人前辈别来无恙#0#960669#0|37126|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:23.0012125+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:16.6279435+08:00
     split: 10
     text: "闻人前辈别来无恙"
-    translated: "Hearing that Brother Wenren is well, it's good to see you."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Senior,前辈,"
+    translated: "Senior Wenren, I am glad to see you in good health."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31418001
   raw: "31418001#31418#1#9#0#0#0#0#0&24|961169|1#0&24|958024|1#我们现在就出发吧#3869#0###0#0#0#0#0#"
@@ -10990,10 +10990,10 @@
   raw: "31627001#31627#1#9#0#0#0#0#0#0&24|959980|1#淮陵美食实在珍品，我亦十分喜爱#0#959980###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6058803+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.5178437+08:00
     split: 10
     text: "淮陵美食实在珍品，我亦十分喜爱"
-    translated: "The delicacies of Huailing are truly exquisite, and I also greatly enjoy them"
+    translated: "The delicacies of Huai Ling are truly exquisite, and I am very fond of them as well."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -11012,12 +11012,12 @@
   raw: "31627003#31627#1#9#0#0#0#0#0&24|959971|1#0&24|959972|1#我可以帮你引开班先生#0#959972###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:23.6135351+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:16.7944664+08:00
     split: 10
     text: "我可以帮你引开班先生"
-    translated: "I can help you distract Brother Ban."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Gentleman,先生,"
+    translated: "I can help distract Master Ban."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 31642001
   raw: "31642001#31642#1#9#0#0#0#0#0#0&27|31646|0;27|31647|0;27|31648|0#挑战九转金刚阵第一关#3818#0###0#0#0#0#0#"
@@ -11067,10 +11067,10 @@
   raw: "31657001#31657#1#9#0#0#0#0#0&24|959837|1;3|22011|1#0&24|959831|1#永善大师，这是你要的豫京烤鸭#0#959831#0|75007|1##0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6060695+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.0940491+08:00
     split: 10
     text: "永善大师，这是你要的豫京烤鸭"
-    translated: "Master Yongshan, this is the Huaiyang-style roasted duck you wanted"
+    translated: "Master Yongshan, this is the Yu Capital roast duck you wanted."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12855,10 +12855,10 @@
   raw: "33205001#33205#1#9#0#0#0#0#0#0&24|953711|1#墨门围星局#0#953711###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6096987+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943245+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13405,10 +13405,10 @@
   raw: "34178001#34178#1#9#0#0#0#0#0&24|986197|1#0&24|952978|1#你可听闻过皇帝至尊炒饭？#0#952978###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6110022+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943758+08:00
     split: 10
     text: "你可听闻过皇帝至尊炒饭？"
-    translated: "Have you ever heard of the Imperial Supreme Fried Rice?"
+    translated: "Have you heard of the Emperor's Supreme Fried Rice?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13416,10 +13416,10 @@
   raw: "34179001#34179#1#9#0#0#0#0#0&24|986197|1#0&24|952977|1#你可听闻过皇帝至尊炒饭？#0#952977###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6110283+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943759+08:00
     split: 10
     text: "你可听闻过皇帝至尊炒饭？"
-    translated: "Have you ever heard of the Emperor's Supreme Fried Rice?"
+    translated: "Have you heard of the Emperor's Supreme Fried Rice?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13544,12 +13544,12 @@
   raw: "34430005#34430#1#21#30009#0#0#0#0&79|0|30008|1|1#0&79|0|30009|1|1#《江湖行》#0#0###0#0#0#1#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:25.2179107+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943694+08:00
     split: 10
     text: "《江湖行》"
-    translated: "The Way of the Wandering"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,"
+    translated: "Jianghu Life or On the Road in the Jianghu"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 34430006
   raw: "34430006#34430#1#21#30010#0#0#0#0&79|0|30009|1|1#0&79|0|30010|1|1#《无垢炼神》#0#0###0#0#0#1#0#"
@@ -14300,10 +14300,10 @@
   raw: "35498005#35498#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6129881+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943946+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14435,10 +14435,10 @@
   raw: "35520004#35520#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6131800+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7943988+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14578,10 +14578,10 @@
   raw: "35554005#35554#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6134321+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7944011+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14653,10 +14653,10 @@
   raw: "35591007#35591#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6135428+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7944031+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14696,10 +14696,10 @@
   raw: "35609008#35609#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6136105+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7944042+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14767,10 +14767,10 @@
   raw: "36006006#36006#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6137136+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.7944043+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16657,10 +16657,10 @@
   raw: "55001001#55001#1#9#0#0#0###0#墨门传承#6509#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6163877+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.9300904+08:00
     split: 10
     text: "墨门传承"
-    translated: "Mysterious Sect Legacy"
+    translated: "Ink Gate Heritage"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16873,10 +16873,10 @@
   raw: "55430008#55430#5#9#0#0#0####墨门围星局#6550#0###0#0##0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6168785+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:17.9301243+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16888,10 +16888,10 @@
   raw: "55431008#55431#5#9#0#0#0####墨门围星局#6550#0###0#0##0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6169112+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752183+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16903,10 +16903,10 @@
   raw: "55432008#55432#5#9#0#0#0####墨门围星局#6550#0###0#0##0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6169430+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752183+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16918,10 +16918,10 @@
   raw: "55433008#55433#5#9#0#0#0####墨门围星局#6550#0###0#0##0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6169751+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752184+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17197,10 +17197,10 @@
   raw: "55547002#55547#1#9#0#0#0##1&24|923101|1;24|921272|1;24|922930|1#0#青楼经营#6624#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6175982+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752043+08:00
     split: 10
     text: "青楼经营"
-    translated: "Managing a teahouse or courtesan house"
+    translated: "Running a pleasure house."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17413,10 +17413,10 @@
   raw: "71427007#71427#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6191929+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752415+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17444,10 +17444,10 @@
   raw: "71439008#71439#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6192455+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.0752452+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -18484,12 +18484,12 @@
   raw: "75042002#75042#1#9#0#0#0###0#丐门商店？#0#930472###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6216517+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.2338252+08:00
     split: 10
     text: "丐门商店？"
-    translated: "Itinerant Sect's Store?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beggar Sect,丐门,"
+    translated: "Beggar Sect Shop?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 75042003
   raw: "75042003#75042#1#9#0#0#0##1&102;24|931385|1#1&102!;24|930455|1#领取烹饪工具#0#930460#0|37409|1##0#0#0#0#0#"
@@ -18605,10 +18605,10 @@
   raw: "75046001#75046#1#9#0#0#0###0&24|941637|1#如何加入重天门#0#940050###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6219388+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701417+08:00
     split: 10
     text: "如何加入重天门"
-    translated: "How to join Zhongtianmen?"
+    translated: "How do I join the Reign of Heaven Gate?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19226,10 +19226,10 @@
   raw: "75062001#75062#5#9#0#0#0###0#墨门围星局#6550#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6234099+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701881+08:00
     split: 10
     text: "墨门围星局"
-    translated: "Ink Sect Surrounds Stars Scheme"
+    translated: "Ink Gate Celestial Formation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19543,10 +19543,10 @@
   raw: "75070003#75070#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;刀法≥40;兵道≥20#0#0###0#0#0&106|-1|>;18|1|34|40|>=;18|1|45|20|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:31.1135674+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701975+08:00
     split: 10
     text: "宗门好感≥0;刀法≥40;兵道≥20"
-    translated: "Martial sect affinity ≥ 0; Blade Art ≥ 40; Military Tactics ≥ 20."
+    translated: "Martial Sect Affinity ≥ 0; Blade Art ≥ 40; Military Strategy ≥ 20"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19558,10 +19558,10 @@
   raw: "75070005#75070#2#60#1000004#0#0##0&102;104|1#0&86#宗门好感≥25;刀法≥100;兵道≥50#0#0###8#0#0&103|24|>;18|1|34|100|>=;18|1|45|50|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:31.6533476+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701976+08:00
     split: 10
     text: "宗门好感≥25;刀法≥100;兵道≥50"
-    translated: "Martial Sect Affinity ≥ 25; Blade Art ≥ 100; Strategy and Warfare ≥ 50"
+    translated: "Temple Affinity ≥ 25; Blade Art ≥ 100; Martial Way ≥ 50"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19569,10 +19569,10 @@
   raw: "75070006#75070#2#60#1007001#0#0##0&102;104|2#0&86#宗门好感≥50;刀法≥240;兵道≥120#0#0###8#0#0&103|49|>;18|1|34|240|>=;18|1|45|120|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:32.1556197+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701978+08:00
     split: 10
     text: "宗门好感≥50;刀法≥240;兵道≥120"
-    translated: "Sect Affinity ≥ 50; Blade Art ≥ 240; Military Strategy ≥ 120"
+    translated: "Temple Affinity ≥ 50; Blade Art ≥ 240; Military Strategy ≥ 120"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19580,10 +19580,10 @@
   raw: "75070007#75070#2#60#1008001#0#0##0&102;104|3#0&86#宗门好感≥75;刀法≥570;兵道≥285#0#0###8#0#0&103|74|>;18|1|34|570|>=;18|1|45|285|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:32.8136650+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.4701979+08:00
     split: 10
     text: "宗门好感≥75;刀法≥570;兵道≥285"
-    translated: "Temple Affinity ≥ 75; Blade Art ≥ 570; Martial Ways ≥ 285"
+    translated: "Temple Affinity ≥ 75; Blade Art ≥ 570; Way of War ≥ 285"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21183,10 +21183,10 @@
   raw: "75111003#75111#2#58#5000134#5000140#0###1&86;102#宗门好感≥0;剑术≥30;诡辞≥15#0#0###0#0#0&106|-1|>;18|1|35|30|>=;18|1|47|15|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6283166+08:00
+  - lastTranslatedOn: 2025-02-25T20:58:16.5092222+08:00
     split: 10
     text: "宗门好感≥0;剑术≥30;诡辞≥15"
-    translated: "Temple affiliation favorability ≥ 0; Swordsmanship ≥ 30; Persuasive Elocution ≥ 15"
+    translated: "Temple affinity ≥ 0; Swordsmanship ≥ 30; Art of Persuasion ≥ 15"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21198,10 +21198,10 @@
   raw: "75111005#75111#2#60#1000002#0#0##0&102;104|1#0&86#宗门好感≥25;剑术≥80;诡辞≥40#0#0###8#0#0&103|24|>;18|1|35|80|>=;18|1|47|40|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6283721+08:00
+  - lastTranslatedOn: 2025-02-25T20:58:16.5092225+08:00
     split: 10
     text: "宗门好感≥25;剑术≥80;诡辞≥40"
-    translated: "Temple Affinity ≥ 25; Swordsmanship ≥ 80; Art of Persuasion ≥ 40"
+    translated: "Cultivation Sect Affinity ≥ 25; Swordsmanship ≥ 80; Persuasive Speech ≥ 40"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21209,10 +21209,10 @@
   raw: "75111006#75111#2#60#1003001#0#0##0&102;104|2#0&86#宗门好感≥50;剑术≥190;诡辞≥95#0#0###8#0#0&103|49|>;18|1|35|190|>=;18|1|47|95|>=#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6284012+08:00
+  - lastTranslatedOn: 2025-02-25T20:58:16.5092226+08:00
     split: 10
     text: "宗门好感≥50;剑术≥190;诡辞≥95"
-    translated: "Gatekeepers of the Sect must have at least 50 points in sect affinity, a swordsmanship skill level of no less than 190, and mastery of guile and rhetoric reaching at least 95"
+    translated: "Temple Affinity ≥ 50; Swordsmanship ≥ 190; Persuasion ≥ 95"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22584,10 +22584,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6316763+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.7425219+08:00
     split: 19
     text: "完成更多不夜京悬赏解锁"
-    translated: "Unlock more rewards by completing more tasks in the Unending Capital"
+    translated: "Complete more missions in the Evernight Capital to unlock rewards."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22602,10 +22602,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6317250+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.7425453+08:00
     split: 19
     text: "完成更多不夜京悬赏解锁"
-    translated: "Complete more tasks to unlock additional Never Sleep in the Capital bounties"
+    translated: "Complete more missions in the Evernight Capital to unlock rewards."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22620,10 +22620,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6317909+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.7425454+08:00
     split: 19
     text: "完成更多不夜京悬赏解锁"
-    translated: "Unlock more rewards by completing more tasks in the Eternal Capital"
+    translated: "Complete more missions in the Evernight Capital to unlock rewards."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22638,10 +22638,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6318397+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.7425454+08:00
     split: 19
     text: "完成更多不夜京悬赏解锁"
-    translated: "Complete more tasks to unlock additional Eternal Capital bounties"
+    translated: "Complete more missions in the Evernight Capital to unlock rewards."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22656,10 +22656,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:59.6318885+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.7425454+08:00
     split: 19
     text: "完成更多不夜京悬赏解锁"
-    translated: "Unlock more rewards by completing more Non-Breaking Night bounty missions"
+    translated: "Complete more missions in the Evernight Capital to unlock rewards."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23295,12 +23295,12 @@
   raw: "90422001#90422#1#9#0#0#0#0#0&24|950437|1#1&24|949347|1;24|950401|1#要钱#5344#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:41.5031041+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:18.9702738+08:00
     split: 10
     text: "要钱"
-    translated: "Need money."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Needs money."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 90422002
   raw: "90422002#90422#1#9#0#0#0#0#0&24|950437|1#1&24|949347|1;24|950401|1#要人#5357#0###0#0#0#0#0#"
@@ -24488,10 +24488,10 @@
   raw: "121318011#121318#1#9#0#0#0##0&89|9000|1#0&24|913487|1#枰栌文会#52904#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6373911+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:19.0920085+08:00
     split: 10
     text: "枰栌文会"
-    translated: "The Wenchang Chess Association"
+    translated: "Pinglu Cultural Association"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31721,13 +31721,13 @@
   raw: "150343001#150343#1#9#0#0#0##1&24|932817|1#1&24|932748|1#援手丐帮-缘起#15037#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6559637+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:19.5672579+08:00
     split: 10
     text: "援手丐帮-缘起"
-    translated: "The Beggar Sect's Assistance - Origin"
-    flaggedForRetranslation: true
+    translated: "Assistance from the Beggar Faction - Origin"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
-    flaggedHallucination: "Beggar Sect,丐门,"
+    flaggedHallucination: ""
 - lineNum: 150344001
   raw: "150344001#150344#1#9#0#0#0##1&24|934318|1#1&24|932543|1#共赴剑庄-缘起#15038#0###0#0##0##"
   translated: ""
@@ -31776,10 +31776,10 @@
   raw: "150365003#150365#1#9#0#0#0##1&24|930120|1#0#唐门如何晋升#0#927756###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6560955+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:19.3307741+08:00
     split: 10
     text: "唐门如何晋升"
-    translated: "How does the Tang Sect promote its members?"
+    translated: "How does one get promoted in the Tangmen?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31809,10 +31809,10 @@
   raw: "150368003#150368#1#9#0#0#0###1&24|930205|1#如何加入唐门#0#927908###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6561753+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.0994430+08:00
     split: 10
     text: "如何加入唐门"
-    translated: "How to join the Tang Sect?"
+    translated: "How to join Tangmen?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31820,10 +31820,10 @@
   raw: "150369001#150369#1#9#0#0#0##0&3|71102|1;24|930101|1#1&24|930093|1#唐门-晋升内门#15090#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6562018+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:19.7724889+08:00
     split: 10
     text: "唐门-晋升内门"
-    translated: "Thang Mon - Ascension to Inner Sanctum"
+    translated: "Tangmen - Promotion to Inner Sect"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31864,10 +31864,10 @@
   raw: "150372001#150372#1#9#0#0#0##0&3|71401|1;24|929662|1#1&24|929872|1#唐门-晋升门主#15093#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6563085+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.3365639+08:00
     split: 10
     text: "唐门-晋升门主"
-    translated: "Tang Family - Ascend to Sect Master"
+    translated: "Tangmen - Promoted to Head of the Sect"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32051,10 +32051,10 @@
   raw: "150393055#150395#1#9#0#0#0##0&24|940130|1;1|107065|1#1&24|922445|1#入门双修府#15131#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6567558+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:19.9548742+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32161,10 +32161,10 @@
   raw: "150395025#150395#1#9#0#0#0##0&24|920798|1#1&24|920794|1;24|940130|1#入门双修府#15145#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6570521+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.3366197+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32172,10 +32172,10 @@
   raw: "150395030#150395#1#9#0#0#0##0&24|926838|1;24|940130|1#1&24|920794|1#入门双修府#15145#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6571040+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3733031+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32183,10 +32183,10 @@
   raw: "150395040#150395#1#9#0#0#0##0&24|922449|1#1&24|922445|1;24|940130|1#入门双修府#15131#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6571333+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3733031+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32194,10 +32194,10 @@
   raw: "150395041#150395#1#9#0#0#0##0&24|940130|1;24|938195|1#1&24|922445|1#入门双修府#15131#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6571599+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3733032+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32205,10 +32205,10 @@
   raw: "150395042#150395#1#9#0#0#0##0&24|940130|1;24|942755|1#1&24|922445|1#入门双修府#15131#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6571862+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3733032+08:00
     split: 10
     text: "入门双修府"
-    translated: "Enter the Dual Cultivation Guild"
+    translated: "Entering the Dual Cultivation Manor."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32216,10 +32216,10 @@
   raw: "150398001#150398#1#9#0#0#0###1&24|922445|1;24|921283|1#如何加入双修府#0#923101###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6572126+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.5547686+08:00
     split: 10
     text: "如何加入双修府"
-    translated: "How to join the Dual Cultivation Bureau?"
+    translated: "How to join the Dual Cultivation Manor?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32557,10 +32557,10 @@
   raw: "150459001#150459#1#9#0#0#0#0#1&24|910316|1#1&24|910311|1#加入黑沙寨#15172#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6580373+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.7182095+08:00
     split: 10
     text: "加入黑沙寨"
-    translated: "Join Black Sand Camp"
+    translated: "Join the Black Sand Stronghold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32568,10 +32568,10 @@
   raw: "150459002#150459#1#9#0#0#0#0#1&24|910305|1#1&24|910304|1#加入黑沙寨#15172#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6580641+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3733038+08:00
     split: 10
     text: "加入黑沙寨"
-    translated: "Join Black Sand Camp"
+    translated: "Join the Black Sand Stronghold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32579,10 +32579,10 @@
   raw: "150459003#150459#1#9#0#0#0#0#0&103|24|>;24|910270|1#1&24|910255|1#黑沙寨-内门晋升#15174#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6580899+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:20.9918832+08:00
     split: 10
     text: "黑沙寨-内门晋升"
-    translated: "Internal Promotion at Black Sand Fort"
+    translated: "Promotion to the Inner Gate of the Black Sand Stronghold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32627,10 +32627,10 @@
   raw: "150469001#150469#1#9#0#0#0#0#0&24|910183|1;103|49|>#1&24|910136|1#黑沙寨-关门晋升#15176#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6582070+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.3732783+08:00
     split: 10
     text: "黑沙寨-关门晋升"
-    translated: "Black Sand Outpost - Promotion Upon Entrance"
+    translated: "Black Sand Stronghold - Promotion upon Gate Closure"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32638,10 +32638,10 @@
   raw: "150469002#150469#1#9#0#0#0#0#0&24|910110|1;103|74|>#1&24|910087|1#黑沙寨-亲传晋升#15177#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6582347+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.1729770+08:00
     split: 10
     text: "黑沙寨-亲传晋升"
-    translated: "Heishazhai - Directly Passed Down Promotion"
+    translated: "Black Sand Stronghold - Direct Transmission Promotion"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32649,10 +32649,10 @@
   raw: "150469003#150469#1#9#0#0#0#0#0&24|909525|1;103|99|>#1&24|909519|1#黑沙寨-掌门晋升#15178#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6582622+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:22.1849844+08:00
     split: 10
     text: "黑沙寨-掌门晋升"
-    translated: "Hekesha Encampment - Promotion to Sect Leader"
+    translated: "Black Sand Stronghold - Headmaster Promotion"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32671,10 +32671,10 @@
   raw: "150478001#150478#1#9#0#0#0#0#0#1&24|908963|1;24|910382|1#如何加入黑沙寨？#0#908963#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6583157+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.6146924+08:00
     split: 10
     text: "如何加入黑沙寨？"
-    translated: "How can I join Black Sand Garrison?"
+    translated: "How can one join the Black Sand Stronghold?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32792,10 +32792,10 @@
   raw: "150492001#150492#1#9#0#0#0#0#1&24|929796|1#1&24|907588|1#唐门秘史#15192#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6586417+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.9957830+08:00
     split: 10
     text: "唐门秘史"
-    translated: "The Secret History of the Tang Sect"
+    translated: "The Secret History of Tangmen."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32825,10 +32825,10 @@
   raw: "150498001#150498#1#9#0#0#0#0#0&18|1|35|120|>=#0&24|906137|1#入门剑斋#15206#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6587234+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:22.4993136+08:00
     split: 10
     text: "入门剑斋"
-    translated: "Beginner's Sword Hall"
+    translated: "Joining the Sword Pavilion."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32836,10 +32836,10 @@
   raw: "150498003#150498#1#9#0#0#0#0#0&18|1|35|120|<#0&24|906624|1;24|906137|1#入门剑斋#15205#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6587514+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:23.3976193+08:00
     split: 10
     text: "入门剑斋"
-    translated: "Beginner's Sword Hall"
+    translated: "Joining the Sword Pavilion."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32847,10 +32847,10 @@
   raw: "150498004#150498#1#9#0#0#0#0#0#0&24|906593|1#如何入门剑斋？#0#906116###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6587789+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:21.8336773+08:00
     split: 10
     text: "如何入门剑斋？"
-    translated: "How to join the Sword Studio?"
+    translated: "How do I get started at the Sword Pavilion?"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32858,10 +32858,10 @@
   raw: "150498005#150498#1#9#0#0#0#0#0&18|1|35|240|>=;24|906582|1#0&24|906572|1#剑斋-晋升内门#15207#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6588055+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:23.2383160+08:00
     split: 10
     text: "剑斋-晋升内门"
-    translated: "The Sword Studio - Promotion to the Inner Chamber"
+    translated: "Sword Pavilion - Promotion to Inner Sanctum"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32869,10 +32869,10 @@
   raw: "150498006#150498#1#9#0#0#0#0#0&18|1|35|480|>=;24|906369|1#0&24|906351|1#剑斋-晋升亲传#15209#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6588329+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:22.8277165+08:00
     split: 10
     text: "剑斋-晋升亲传"
-    translated: "Shi Zhai - Promoted to Inherit Disciple"
+    translated: "Sword Pavilion - Succession through Personal Transmission"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32891,10 +32891,10 @@
   raw: "150498008#150498#1#9#0#0#0##1&24|906219|1;24|906188|1;24|906217|1#0&24|906176|1#剑斋掌门#15214#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6588875+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:23.3975945+08:00
     split: 10
     text: "剑斋掌门"
-    translated: "The Shaolin Temple Abbot"
+    translated: "Master of the Sword Pavilion."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32902,10 +32902,10 @@
   raw: "150498009#150498#1#9#0#0#0##0&18|1|35|120|>=;24|906139|1#0&24|906624|1#入门剑斋#15206#0###0#0##0##"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6589152+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:23.3976194+08:00
     split: 10
     text: "入门剑斋"
-    translated: "Beginner's Sword Hall"
+    translated: "Joining the Sword Pavilion."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32913,10 +32913,10 @@
   raw: "150505001#150505#1#9#0#0#0#0#0&18|1|35|360|>=;24|906406|1#0&24|906394|1#剑斋-晋升关门#15211#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6589416+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:22.3531221+08:00
     split: 10
     text: "剑斋-晋升关门"
-    translated: "Jianzhai - Promotion Ceremony"
+    translated: "Sword Pavilion - Promotion Gate Closure"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33125,12 +33125,12 @@
   raw: "155087001#155087#1#9#0#0#0#0#0#1&24|931419|1;24|931126|1#丐门情报#15075#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6595224+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:22.6261294+08:00
     split: 10
     text: "丐门情报"
-    translated: "Tiger Sect Intelligence"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beggar Sect,丐门,"
+    translated: "Beggar Sect Intelligence"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 155089001
   raw: "155089001#155089#1#9#0#0#0#0#0&103|49|>;24|931338|1#1&24|931336|1#晋升关门弟子#20062#0#0#0#0#0#0#0#0#"
@@ -33477,10 +33477,10 @@
   raw: "155185001#155185#1#9#0#0#0#0#1&24|926576|1;24|939292|1;24|954276|1;24|914391|1;1|107001|1#0&24|925003|1#解救绝剑门弟子#20128#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6603586+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:24.2391215+08:00
     split: 10
     text: "解救绝剑门弟子"
-    translated: "Rescue the disciples of Jue Jian Men"
+    translated: "Rescue the disciples of Sword Breaker Gate."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33543,10 +33543,10 @@
   raw: "155188001#155188#1#9#0#0#0#0#1&24|924948|1#1&24|924939|1#加入绝剑门#20119#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6605242+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:23.6882987+08:00
     split: 10
     text: "加入绝剑门"
-    translated: "Join the Jade Sword Sect"
+    translated: "Join the Sword Breaker Gate."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33554,10 +33554,10 @@
   raw: "155188002#155188#1#9#0#0#0#0#1&24|924926|1;24|940130|1#1&24|924932|1#加入绝剑门#20120#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6605506+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:24.5668864+08:00
     split: 10
     text: "加入绝剑门"
-    translated: "Join the Jade Sword Sect"
+    translated: "Join the Sword Breaker Gate."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33730,10 +33730,10 @@
   raw: "155275001#155275#1#9#0#0#0#0#0&18|1|43|100|>=;18|1|37|80|>=;24|911911|1#1&24|911902|1#成为沙弥#20174#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:45.5914067+08:00
+  - lastTranslatedOn: 2025-02-25T20:08:03.4452366+08:00
     split: 10
     text: "成为沙弥"
-    translated: ""
+    translated: "To become a sramanera."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33785,10 +33785,10 @@
   raw: "155284001#155284#1#9#0#0#0#0#1&24|939292|1;24|954276|1;24|926860|1;1|107025|1#0&24|910484|1#我想加入十二连环坞#20180#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6610993+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:24.9366163+08:00
     split: 10
     text: "我想加入十二连环坞"
-    translated: "I want to join the Twelve Linked Tunnels"
+    translated: "I want to join the Twelve-linked Fortress."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33796,10 +33796,10 @@
   raw: "155285001#155285#1#9#0#0#0#0#1&24|911209|1#1&24|910453|1;24|910448|1#加入十二连环坞#20181#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6611257+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.1004073+08:00
     split: 10
     text: "加入十二连环坞"
-    translated: "Join the Twelve Linked Holes Guild"
+    translated: "Join the Twelve-linked Fortress."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33807,10 +33807,10 @@
   raw: "155285002#155285#1#9#0#0#0#0#1&24|910452|1;24|940130|1#1&24|910453|1;24|910448|1#加入十二连环坞#20182#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6611520+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.1004254+08:00
     split: 10
     text: "加入十二连环坞"
-    translated: "Join the Twelve Linked Holes Guild"
+    translated: "Join the Twelve-linked Fortress."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34097,12 +34097,12 @@
   raw: "155334001#155334#1#9#0#0#0#0#0#1&24|908013|1#姑娘何人？#20197#0#0#0#0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:47.1654742+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:24.7366455+08:00
     split: 10
     text: "姑娘何人？"
-    translated: "You are who, young lady?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Miss,姑娘,"
+    translated: "Who are you, miss?"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 155336001
   raw: "155336001#155336#1#9#0#0#0#0#1&24|908013|1#1&24|907980|1#我打听些事情。#20198#0#0#0#0#0#0#0#0#"
@@ -34453,10 +34453,10 @@
   raw: "165178001#165178#1#9#0#0#0#0#0#0&24|923819|1#加入狂刀门#40168#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:47.7300184+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.2884995+08:00
     split: 10
     text: "加入狂刀门"
-    translated: "Join the Mad Blade Sect"
+    translated: "Join the Wild Blade Sect."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34464,10 +34464,10 @@
   raw: "165178002#165178#1#9#0#0#0#0#1&24|923785|1;24|940130|1#0&24|923780|1#加入狂刀门#40169#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:47.7300240+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.4700598+08:00
     split: 10
     text: "加入狂刀门"
-    translated: "Join the Mad Blade Sect"
+    translated: "Join the Wild Blade Sect."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34618,10 +34618,10 @@
   raw: "165262001#165262#1#9#0#0#0#0#0#0&24|910016|1#加入云川镖局#40212#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6631065+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.4700333+08:00
     split: 10
     text: "加入云川镖局"
-    translated: "Join the Yunchuan Escort Bureau"
+    translated: "Joining the Cloud River Escort Agency."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34629,10 +34629,10 @@
   raw: "165262002#165262#1#9#0#0#0#0#1&24|910003|1;24|940130|1#0&24|909999|1#加入云川镖局#40213#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6631328+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.4700603+08:00
     split: 10
     text: "加入云川镖局"
-    translated: "Join the Yunchuan Escort Bureau"
+    translated: "Joining the Cloud River Escort Agency."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34838,10 +34838,10 @@
   raw: "180018001#180018#1#9#0#0#0#0#0#0&24|920755|1#码头疑声#50023#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6636449+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.1006747+08:00
     split: 10
     text: "码头疑声"
-    translated: "Dockside Mysterious Voice"
+    translated: "Whisper from the port."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34948,12 +34948,12 @@
   raw: "180087001#180087#1#9#0#0#0#0#0&24|903025|1#0&24|899937|1#讨要工钱#50151#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T17:25:48.5443156+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.7967433+08:00
     split: 10
     text: "讨要工钱"
-    translated: "Claiming one's payment."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,"
+    translated: "Demanding payment."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 180093001
   raw: "180093001#180093#1#9#0#0#0#0#0&24|899870|1#0&24|899869|1#恶霸真相#50156#0###0#0#0#0#0#"
@@ -35047,10 +35047,10 @@
   raw: "180102001#180102#1#9#0#0#0#0#0#0&24|899485|1#询问加入齐军#50461#0###0#0#0#0#0#"
   translated: ""
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.6642451+08:00
+  - lastTranslatedOn: 2025-02-25T17:31:25.6699883+08:00
     split: 10
     text: "询问加入齐军"
-    translated: "Seeking to join the Qi army"
+    translated: "Inquire about joining the Qi Army."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

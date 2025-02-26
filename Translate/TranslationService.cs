@@ -453,6 +453,7 @@ public static class TranslationService
             }
 
             var result = builder.ToString();
+            result = LineValidation.CleanupLineBeforeSaving(result, raw, outputFile);
 
             return (true, result[..^testString.Length]);
         }
@@ -517,29 +518,30 @@ public static class TranslationService
             return string.Empty;
 
         var pattern = LineValidation.ChineseCharPattern;
+
         // If it is already translated or just special characters return it
         if (!Regex.IsMatch(raw, pattern))
             return raw;
 
-        // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would
-        var testStrings = new string[] { ":", "：", "<br>" };
-        foreach (var testString in testStrings)
-        {
-            var (split, result) = await SplitIfNeededAsync(testString, config, raw, client, outputFile);
-
-            // Because its recursive we want to bail out on the first successful one
-            if (split)
-                return result;
-        }
-
-        //Brackets
-        var (split2, result2) = await SplitBracketsIfNeededAsync(config, raw, client, outputFile);
-        if (split2)
-            return result2;
-
         // Prepare the raw by stripping out anything the LLM can't support
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
+
+        // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would
+        var testStrings = new string[] { ":", "<br>", "\\n" };
+        foreach (var testString in testStrings)
+        {
+            var (split, result) = await SplitIfNeededAsync(testString, config, preparedRaw, client, outputFile);
+
+            // Because its recursive we want to bail out on the first successful one
+            if (split)
+                return LineValidation.PrepareResult(result, tokenReplacer);
+        }
+
+        // Brackets Split
+        var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, outputFile);
+        if (split2)
+            return LineValidation.PrepareResult(result2, tokenReplacer);
 
         // Define the request payload
         List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile);

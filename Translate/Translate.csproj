@@ -10,4 +10,16 @@
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\Files\AssemblyReferences\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\Files\AssemblyReferences\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Files\AssemblyReferences\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

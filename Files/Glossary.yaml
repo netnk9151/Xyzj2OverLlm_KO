@@ -10,6 +10,8 @@
   checkForMistranslation: true
 - raw: 武林
   result: Wulin
+  allowedAlternatives: 
+    - Martial World
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 江湖
@@ -34,6 +36,8 @@
   checkForMistranslation: true
 - raw: 河图
   result: River Map
+  allowedAlternatives: 
+    - Hetu
   context: Hetu is river map but can be part of Hetu Luoshu 
   checkForHallucination: true
   checkForMistranslation: true
@@ -164,6 +168,7 @@
   allowedAlternatives: 
     - Knife
     - Cleaver
+    - Scissor
   checkForHallucination: false
   checkForMistranslation: true
 - raw: 暗器
@@ -406,6 +411,8 @@
   checkForMistranslation: true
 - raw: 鹿
   result: Deer
+  allowedAlternatives: 
+    - Lu
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 虎
@@ -558,6 +565,8 @@
 - raw: 公主
   result: Young Lady
   context: The daughter of a king or nobleman, indicating royal status and nobility.
+  allowedAlternatives: 
+    - Princess
   literal: Gong Zhu
   checkForHallucination: false
   checkForMistranslation: true
@@ -792,6 +801,10 @@
   checkForMistranslation: true
 
 # Factions
+- raw: 剑斋
+  result: Sword Pavilion
+  checkForHallucination: true
+  checkForMistranslation: true
 - raw: 不夜京
   result: Evernight Capital
   checkForHallucination: true
@@ -916,10 +929,6 @@
   result: Sword Breaker Gate
   checkForHallucination: true
   checkForMistranslation: true
-- raw: 鸿月门
-  result: Grand Moon Sect
-  checkForHallucination: true
-  checkForMistranslation: true
 - raw: 普贤门
   result: Universal Virtue Gate
   checkForHallucination: true
@@ -957,7 +966,7 @@
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 归墟剑宗
-  result: Return to Ruins Sword Sect
+  result: Return to Abyss Sword Sect
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 三十六洞
@@ -1014,10 +1023,6 @@
   checkForMistranslation: true
 - raw: 清风岗
   result: Clear Breeze Hill
-  checkForHallucination: true
-  checkForMistranslation: true
-- raw: 桃花坞
-  result: Peach Blossom Dock
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 九曜津
@@ -1176,7 +1181,8 @@
   result: Huai Ling
   checkForHallucination: true
   checkForMistranslation: true
-- raw: Flying Swan Plain
+- raw: 飞鸿原
+  result: Flying Swan Plain
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 寻星道
@@ -1207,15 +1213,43 @@
   result: Yan Prefecture
   checkForHallucination: true
   checkForMistranslation: true
-- raw: 冷香坞
-  result: Cold Fragrance Harbor
-  checkForHallucination: true
-  checkForMistranslation: true
 - raw: 穆特族
   result: Mu Te Tribe
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 七十二福
   result: Seventy-Two Blessings
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 泠香坞
+  result: Cold Fragrance Harbor
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 桃花坞
+  result: Peach Blossom Harbor
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 冷香坞
+  result: Cold Fragrance Harbor
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 紫阳山
+  result: Purple Sun Mountain
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 鸿月门
+  result: Grand Moon Sect
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 鸿月派
+  result: Grand Moon Sect
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 墟海剑
+  result: Abyssal Sea Sword
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 枰栌外城
+  result: Outer City of Pinglu
   checkForHallucination: true
   checkForMistranslation: true
