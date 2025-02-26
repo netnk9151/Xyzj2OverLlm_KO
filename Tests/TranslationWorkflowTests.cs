@@ -19,10 +19,10 @@ public class TranslationWorkflowTests
         TranslationService.ExportTextAssetsToCustomFormat(workingDirectory);
     }
 
-    [Fact(DisplayName = "5. TranslateLinesBruteForce")]
-    public async Task TranslateLinesBruteForce()
+    [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
+    public async Task ApplyRulesToCurrentTranslation()
     {
-        await PerformTranslateLines(true);
+        await UpdateCurrentTranslationLines(true);
     }
 
     [Fact(DisplayName = "4. TranslateLines")]
@@ -30,6 +30,12 @@ public class TranslationWorkflowTests
     {
         await PerformTranslateLines(false);
         await PackageFinalTranslation();
+    }
+
+    [Fact(DisplayName = "5. TranslateLinesBruteForce")]
+    public async Task TranslateLinesBruteForce()
+    {
+        await PerformTranslateLines(true);
     }
 
     private async Task PerformTranslateLines(bool keepCleaning)
@@ -77,12 +83,6 @@ public class TranslationWorkflowTests
             // Manual
             //{  "奖励：", "Reward:" },
         };
-    }
-
-    [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
-    public async Task ApplyRulesToCurrentTranslation()
-    {
-        await UpdateCurrentTranslationLines(true);
     }
 
     [Fact(DisplayName = "0. Reset All Flags")]

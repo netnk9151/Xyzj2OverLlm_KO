@@ -49,6 +49,10 @@
   result: Jianghu Tales
   checkForHallucination: true
   checkForMistranslation: true
+- raw: 祖传宝刀
+  result: Ancestral Treasure Blade
+  checkForHallucination: true
+  checkForMistranslation: true
 
 # Sayings
 - raw: 阿弥陀佛
@@ -214,6 +218,8 @@
   checkForMistranslation: true
 - raw: 刀法
   result: Blade Art
+  allowedAlternatives: 
+    - Knife Technique
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 剑法
@@ -1203,7 +1209,11 @@
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 七十二福地
-  result: Seventy-Two Blessed Lands
+  result: Seventy-Two Blessings Lands
+  checkForHallucination: true
+  checkForMistranslation: true
+- raw: 七十二福
+  result: Seventy-Two Blessings
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 桂宫道
@@ -1220,10 +1230,6 @@
   checkForMistranslation: true
 - raw: 穆特族
   result: Mu Te Tribe
-  checkForHallucination: true
-  checkForMistranslation: true
-- raw: 七十二福
-  result: Seventy-Two Blessings
   checkForHallucination: true
   checkForMistranslation: true
 - raw: 泠香坞
