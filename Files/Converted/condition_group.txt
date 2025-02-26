@@ -986,7 +986,7 @@
     text: "前往枰枦酒家"
     translated: "Head to Pengqian Restaurant."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Tavern,酒家,Pingxia,枰枦,Tavern,酒家,Pingxia,枰枦,Tavern,酒家,Pingxia,枰枦,"
+    flaggedMistranslation: "Tavern,酒家,Pingxia,枰枦,Tavern,酒家,Pingxia,枰枦,Tavern,酒家,Pingxia,枰枦,Tavern,酒家,Pingxia,枰枦,"
     flaggedHallucination: ""
 - lineNum: 3601
   raw: "3601#19#1#899.9583,377.0618,1617.689,2#37#进入鸿月派#0##1063#####0##0###0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -1686,7 +1686,7 @@
     text: "前往永兴酒家"
     translated: "Head to Yongxing Restaurant."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Tavern,酒家,Tavern,酒家,Tavern,酒家,"
+    flaggedMistranslation: "Tavern,酒家,Tavern,酒家,Tavern,酒家,Tavern,酒家,"
     flaggedHallucination: ""
 - lineNum: 7201
   raw: "7201#1#1#985289#73#找报名人参加品酒大会#0##0###20052##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -1816,7 +1816,7 @@
     text: "向徐大娘打探情况"
     translated: "To inquire about the situation from Auntie Xu."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
+    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
     flaggedHallucination: ""
 - lineNum: 7803
   raw: "7803#13#1#10149#79#向柳绪绪打探情况#0#7801#2530#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -1885,8 +1885,8 @@
     split: 5
     text: "与洛柔汇合"
     translated: "Converge with Luo Ruo"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 8201
   raw: "8201#19#1#748.311,235.007,494.431#83#前往客栈#0##2538#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -1965,8 +1965,8 @@
     split: 5
     text: "保护洛柔"
     translated: "Protect Luo Rou"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 8801
   raw: "8801#19#1#707.9487,224,481.6706#89#靠近六婶#0##2545#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -2015,8 +2015,8 @@
     split: 5
     text: "击败洛柔等人"
     translated: "Defeat Luo Rou and others"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 9001
   raw: "9001#13#1#15032#91#返回医馆#0##2549#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -3775,8 +3775,8 @@
     split: 5
     text: "与洛柔汇合"
     translated: "Converge with Luo Ruo"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 151101
   raw: "151101#13#1#10032#1512#前往客栈#998349##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -3875,8 +3875,8 @@
     split: 5
     text: "保护洛柔"
     translated: "Protect Luo Rou"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 151701
   raw: "151701#13#1#2003#1518#与六婶对话#998251##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -3915,8 +3915,8 @@
     split: 5
     text: "击败洛柔"
     translated: "Defeat Luo Rou"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 152001
   raw: "152001#19#1#1524.486,329.2578,1403.461#1521#旁观售卖会#993127##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -8933,7 +8933,7 @@
     text: "前往永兴酒家"
     translated: "Head to Yongxing Restaurant."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Tavern,酒家,Tavern,酒家,Tavern,酒家,"
+    flaggedMistranslation: "Tavern,酒家,Tavern,酒家,Tavern,酒家,Tavern,酒家,"
     flaggedHallucination: ""
 - lineNum: 251001
   raw: "251001#1#1#998109#2511#完成第一轮品酒大会#0##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -10133,7 +10133,7 @@
     text: "回到枰枦"
     translated: "Return to the Go board"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,"
+    flaggedMistranslation: "Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,"
     flaggedHallucination: ""
 - lineNum: 309201
   raw: "309201#19#1#901.765,253.5593,1007.852,2#3093#与陆峥交谈#968816##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -10813,7 +10813,7 @@
     text: "与钱玉闵视察"
     translated: "With Yuan Ming inspecting."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Qian Yumin,钱玉闵,Coin,钱,Qian Yumin,钱玉闵,Coin,钱,Qian Yumin,钱玉闵,"
+    flaggedMistranslation: "Coin,钱,Qian Yumin,钱玉闵,Coin,钱,Qian Yumin,钱玉闵,Coin,钱,Qian Yumin,钱玉闵,Coin,钱,Qian Yumin,钱玉闵,"
     flaggedHallucination: ""
 - lineNum: 315902
   raw: "315902#19#1#886.3116,231.3624,419.5358,1#3150#跟随钱玉闵#0#315901#1588#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12100,8 +12100,8 @@
     split: 16
     text: "替众人解毒"
     translated: "Save many lives by detoxifying them"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 371604
   raw: "371604#20#1#0&24|973713|1#3716##0#371603#0##37037|3###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12114,14 +12114,14 @@
     text: "幸好得知陀学智等人在<color=&&00ff00ff>村北门口的猪艚里藏了解毒丸。</color>"
     translated: "Fortunately, we learned that Brother Tu and the others hid antidote pills in a pigboat near the north gate of the village"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1020328+08:00
     split: 16
     text: "找到解毒丸"
     translated: "Finding the antidote pills"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 371606
   raw: "371606#20#1#0&24|978360|1#3716#幸好得知陀学智等人在村北门口的猪艚里藏了解毒丸。我急忙前往猪艚，并经过一番搜索，终于找到了解毒丸。现在，我需要迅速返回金光圃河边，帮助这些江湖人士解毒。#0#371605#0####37037|3#0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12130,8 +12130,8 @@
     split: 5
     text: "幸好得知陀学智等人在村北门口的猪艚里藏了解毒丸。我急忙前往猪艚，并经过一番搜索，终于找到了解毒丸。现在，我需要迅速返回金光圃河边，帮助这些江湖人士解毒。"
     translated: "Fortunately, I learned that Lu Xue Zhi and others had hidden the antidote pills in a pig cart near the northern gate of the village. I hurriedly went to the pig cart and, after searching for some time, finally found the antidote pills. Now, I need to quickly return to the banks of Jin Guang Pu River to help these people from the Jianghu community with the antidote."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 371607
   raw: "371607#20#1#0&24|973713|1#3716##0##0#####0##0#听众人交谈##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12150,8 +12150,8 @@
     split: 5
     text: "回到金光圃河边后，我成功地为众人解毒。他们感激地表达了谢意，并告诉他们此行的目的是为了追寻虞令羽的宝藏。他们还提到，在虞令羽的墓地上，他们曾看到一位姑娘正在祭拜。"
     translated: "Upon returning to the banks of Jin Guang Pu River, I successfully detoxified everyone. They gratefully expressed their thanks and explained that their journey was in pursuit of Yu Lingyu's treasure. They also mentioned seeing a girl offering prayers at Yu Lingyu's tomb"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 371701
   raw: "371701#20#1#0&24|990273|1#3717#路过云鹤村市集时，偶然听到乐鸿博等人喝醉后吹牛，无意中透露了他们从不夜京购得情报和钥匙的事情。我意识到这是一个宝贵的机会，如果想得到那把钥匙，<color=&&00ff00ff>可以与他们建立良好的关系求取，或者选择与他们决斗并夺取钥匙。</color>#0##0#####0##0#得到钥匙与情报##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12983,7 +12983,7 @@
     text: "为了化解他们的争端，<color=&&00ff00ff>我决定给展磐做一碗甜豆腐脑，</color>。希望通过甜美的味道能够平息他的愤怒与固执。"
     translated: "To resolve their dispute, <color=&&00ff00ff>I decided to make a bowl of sweet tofu with minced pork for Zhanpan,</color> hoping that the sweet taste could calm his anger and stubbornness"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1045032+08:00
     split: 16
@@ -12999,8 +12999,8 @@
     split: 5
     text: "为了化解他们的争端，我决定给展磐做一碗甜豆腐脑，希望通过甜美的味道能够平息他的愤怒与固执。"
     translated: "To resolve their dispute, I decided to make a bowl of sweet tofu pudding for Xuan Ban, hoping that the sweet flavor would calm his anger and stubbornness"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 380105
   raw: "380105#20#1#0&3|37062|1#3801#接着，<color=&&00ff00ff>我为匡何峰准备了一碗咸豆腐脑，</color>我希望通过这碗豆腐脑，让他明白甜与咸并非对立，而是一种相辅相成的美味。#0##0#####0##0#制作咸豆腐脑给匡和峰品尝##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13036,8 +13036,8 @@
     split: 5
     text: "然而，尽管我用心准备了豆腐脑，二人的固执仍未得以化解。他们依旧坚持自己的观点，争论不休，仿佛无法妥协。"
     translated: "However, despite my careful preparation of tofu brain dishes, their stubbornness remained unresolved. They continued to insist on their own viewpoints, arguing incessantly as if compromise was impossible"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 380201
   raw: "380201#20#1#0&24|986209|1#3802#在路边酒楼遇到一个”闹事”的男子，这个男子竟然就是传说中的豫京食神李味道，<color=&&00ff00ff>此人出现在枰栌说不定有什么要事。</color>#0##0#####0##0#找到李味道##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13285,8 +13285,8 @@
     split: 5
     text: "将云鱼交给沈悠之后，他迅速取出笔墨纸张，开始认真地记录云鱼的形态、特征和生态。他深感感激，将自己心血制作的枰栌钓竿赠予了我。这根钓竿经过他的精心打造，坚韧耐用，对钓鱼之道颇有裨益。"
     translated: "After handing over Yunyu to Shen You, he quickly took out his brush and paper and began diligently recording Yunyu's form, characteristics, and ecology. He felt deeply grateful and gifted me the Pinglu fishing rod he had crafted with great care. This rod, meticulously fashioned by him, was robust and durable, offering significant benefits for the art of fishing."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Toughness,坚韧,"
     flaggedHallucination: ""
 - lineNum: 380401
   raw: "380401#20#1#0&30|972371|1#3804#在枰栌城外丰江村经过时，<color=&&00ff00ff>我听到了村里的董良骏大夫在谈论枰栌城最近风靡的保健品金利来并表达了对其不好的看法。</color>#0##0#####0##0#向董良骏了解详情##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13512,7 +13512,7 @@
     text: "在路边听到关于邝风的消息，得知他刚从军队归来，正在寻找合适的伴侣。考虑到他的身材魁梧与牧心的喜好相符，<color=&&00ff00ff>我决定撮合他们。</color>"
     translated: "Hearing news about Guo Feng by the roadside, I learned that he had just returned from military service and was looking for a suitable partner. Considering his imposing physique matched Mu Xin's preferences, <color=&&00ff00ff>I decided to arrange a meeting between them.</color>"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1060847+08:00
     split: 16
@@ -13528,8 +13528,8 @@
     split: 5
     text: "在路边听到关于邝风的消息，得知他刚从军队归来，正在寻找合适的伴侣。考虑到他的身材魁梧与牧心的喜好相符，我决定撮合他们。之后，我去见了邝风，将牧心的情况告诉了他。果然，他们见面后彼此欣赏，似乎真的很合适！"
     translated: "I heard about Kuang Feng from the roadside, learning that he had just returned from the army and was in search of a suitable partner. Considering his robust physique matched Mu Xin's preferences, I decided to set them up. Afterwards, I went to see Kuang Feng and told him about Mu Xin. Indeed, after they met, they admired each other and seemed truly compatible!"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 380601
   raw: "380601#20#1#0&30|971960|1#3806#听闻孔莹被流云镖局的弟子说臭，我觉得她可能需要一些有香味的东西来改善这个问题。于是，<color=&&00ff00ff>我决定去找一些香包来帮助她。</color>#0##0#####0##0#向孔莹了解详情##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13782,7 +13782,7 @@
     text: "拿到祖传宝刀"
     translated: "Inherited the ancestral blade."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
 - lineNum: 381002
   raw: "381002#20#1#0&30|971947|1;3|37074|1#3810#枰栌城内的林玲，他的弟弟实在败家，连自家的祖传宝刀也敢抵押，实在不孝！若是有机会我定要帮她赎回。#0#381001#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13802,14 +13802,14 @@
     text: "花了大价钱赎回祖传宝刀，<color=&&00ff00ff>回去将此物交给林玲吧。</color>"
     translated: "Having spent a great deal of coin to reclaim the ancestral blade, return this item and give it to Lin Ling."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:46:29.4759626+08:00
     split: 16
     text: "交给林玲祖传宝刀"
     translated: "Pass on the ancestral precious blade to Lin Ling."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
 - lineNum: 381004
   raw: "381004#20#1#0&24|986018|1#3810#花了大价钱赎回祖传宝刀，回去将此物交给林玲吧。#0#381003#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -13819,7 +13819,7 @@
     text: "花了大价钱赎回祖传宝刀，回去将此物交给林玲吧。"
     translated: "Spend a lot of money to retrieve the ancestral precious blade and take this item back to give it to Lin Ling."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
 - lineNum: 381005
   raw: "381005#20#1#0&24|986018|1#3810#林玲对失而复得大喜过望，决心传授拂笑手，<color=&&00ff00ff>跟上去瞧瞧。</color>#0##0#####0##0#看林玲展示拂笑手##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -14031,7 +14031,7 @@
     text: "路过城西村时，遇到沈大娘正在收拾沈蛋，似乎是因为他将表姐家的衣服撕毁之事，沈蛋为了避免挨打，<color=&&00ff00ff>将竹条扔到了风车上面。</color>"
     translated: "While passing through Xi Village, I encountered Auntie Shen busy collecting eggs. It seemed to be related to an incident where Shendan had torn the clothes from his cousin's house. To avoid being beaten, <color=&&00ff00ff>Shendan threw the bamboo stick onto the windmill.</color>"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
+    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1075499+08:00
     split: 16
@@ -14048,7 +14048,7 @@
     text: "路过城西村时，遇到沈大娘正在收拾沈蛋，似乎是因为他将表姐家的衣服撕毁之事，沈蛋为了避免挨打，将竹条扔到了风车上面。"
     translated: "While passing through Xincheng Village, I encountered Shen Dajie gathering eggs. It seemed to be related to the incident where Shen Dan had torn up some clothes belonging to his cousin's family. To avoid being beaten, Shen Dan threw a bamboo stick onto a windmill."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
+    flaggedMistranslation: "Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,Great Aunt,大娘,"
     flaggedHallucination: ""
 - lineNum: 381403
   raw: "381403#20#1#0&24|971928|1#3814#顺利的在风车上找到了竹条，<color=&&00ff00ff>将它带回去交给沈大娘收拾沈蛋吧！</color>#0##0#####0##0#归还沈大娘竹条##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -16840,7 +16840,7 @@
     text: "邱甘身中歹人蛇毒，宇夏山需要用内力压制蛇毒扩散，<color=&&00ff00ff>击败司越取三个蛇胆回来。</color>"
     translated: "Yuxia Mountain requires using internal strength to suppress the snake venom that Dong Gan has been poisoned with by the evil men. <span style=color: #00FF00;>Defeat Si Yue and bring back three vials of snake gall.</span>"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Inner Power,内力,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T13:38:18.1167793+08:00
     split: 16
@@ -16856,8 +16856,8 @@
     split: 5
     text: "邱甘身中歹人蛇毒，宇夏山需要用内力压制蛇毒扩散，击败司越取三个蛇胆回来。"
     translated: "Qiu Gan has been poisoned by a bandit with snake venom. Yu Xia Shan must use inner strength to suppress the spread of the poison and defeat Si Yue to retrieve three pieces of snake gallbladder"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Power,内力,"
     flaggedHallucination: ""
 - lineNum: 390803
   raw: "390803#20#1#0&3|25016|3;24|976092|1#3908#好不容易取得蛇胆，<color=&&00ff00ff>现在将东西带回去交给宇夏山吧。</color>#0##0#####0##0#替邱甘解毒##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -16873,8 +16873,8 @@
     split: 16
     text: "替邱甘解毒"
     translated: "Help Quiao Gan detoxify"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 390804
   raw: "390804#20#1#0&24|976088|1#3908#好不容易取得蛇胆，将东西带回去交给宇夏山后，看来邱甘总算是得救了。#0#390803#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -17408,7 +17408,7 @@
     text: "在豫京城闲逛之余，正逢来到了驻扎在城外的军营，此处因为正在之前遭了地震召集了劳工正在修缮，本欲进去一观却被军士拦住，恰好此事听见附近传来一阵嘈杂声，凑过去一看，原来是豫京军营拖欠劳工的工钱。"
     translated: "While strolling around the Yu Capital, I encountered a military camp outside the city where laborers were repairing damage from a recent earthquake. Eager to take a closer look, I was stopped by a soldier. Nearby, I heard commotion and went over to investigate, discovering that the Yu Capital's military camp owed wages to the workers."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 391703
   raw: "391703#20#1#0&24|958419|1#3917#军士气急之下竟然还想动手，我不能坐视不理，决定采取行动。#0##0#####0##0#击败王侍卫等人##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -17894,7 +17894,7 @@
     text: "得到神女飞天图之后一观才发现此物果然巧夺天工，若是想要知道更多恐怕得找刑名了解了解。而在将神女飞天图拿给刑名观赏之后他如获至宝，不惜花大价钱将神女飞天图给买下，而我也乐见其成便答应了。"
     translated: "After obtaining the Flying Fairy Diagram, it became clear that this object was indeed marvelously crafted. To learn more, one would likely need to consult someone like Xinmei. When I showed the Flying Fairy Diagram to Xinmei for his observation, he valued it as if it were a precious treasure and didn't hesitate to spend a hefty sum to acquire it. Seeing things turn out this way pleased me, so I agreed."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 395201
   raw: "395201#20#1#0&24|964532|1#3952#刑名买下神女飞天图后托我们将<color=&&00ff00ff>神女飞天图送往忘尘客栈的堂文奇手中。</color>#0##0#####0##0#去找堂文奇##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -19230,8 +19230,8 @@
     split: 5
     text: "此事我然不能不管，决定帮助间真小师傅对抗官兵。在我的帮助下好不容易击败了官兵，正在他与桥山雁争论之时，有一位名叫寂真的老师傅走了出来化解了冲突"
     translated: "I cannot ignore this matter and have decided to help the young master confront the soldiers. With my assistance, we managed to defeat them with some difficulty. As he was arguing with Qiao Shan Yan at that moment, a master named Jizhen stepped out and defused the conflict"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 396605
   raw: "396605#20#1#0&24|956420|1#3966#此事我断然不能不管，<color=&&00ff00ff>决定帮助官兵对抗间真。</color>，#0##0#####0##0#击败间真##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -19257,8 +19257,8 @@
     split: 5
     text: "此事我断然不能不管，决定帮助官兵对抗间真。在我的帮助下好不容易击败了间真，正在他与桥山雁争论之时，有一位名叫寂真的老师傅走了出来化解了冲突。"
     translated: "I cannot afford to ignore this matter and have decided to assist the officials in their battle against the evil forces. With my help, they barely managed to defeat them. At the moment when they were arguing with Qiushan Yan, an old master named Jizhen appeared and resolved the conflict"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 396607
   raw: "396607#20#1#1&24|957172|1;24|957168|1#3966##0##0#####0##0#听众人说话##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -20780,7 +20780,7 @@
     text: "前往重天门山脚"
     translated: "Heading to the base of Heavenly Gate Mountain."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,"
+    flaggedMistranslation: "Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,"
     flaggedHallucination: ""
 - lineNum: 451003
   raw: "451003#19#1#383.9799,255.7581,1343.889#4510#前往重天门山门#0#451002#4085#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -20790,7 +20790,7 @@
     text: "前往重天门山门"
     translated: "Heading towards the entrance of Heavenly Gate Mountain."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,"
+    flaggedMistranslation: "Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,Reign of Heaven Gate,重天门,"
     flaggedHallucination: ""
 - lineNum: 451004
   raw: "451004#16#1#45802|45803|45804|45805#4510#打败重天门徒#0#451003#4086#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -20909,8 +20909,8 @@
     split: 5
     text: "击败洛柔"
     translated: "Defeat Luo Rou"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 451503
   raw: "451503#16#1#5511#4515#击败林一朝#0#451502#4098#####0##0###0#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -21449,8 +21449,8 @@
     split: 5
     text: "与灵均看夕阳"
     translated: "Watching the sunset with Ling Jun"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 505601
   raw: "505601#19#1#64.87512,223.9672,524.7591,1#5056#听村民谈话#939292#0#0#0#0###0##0##0#0#0#0#0#0#100115#0#0#0#68.6218&224.1393&521.8956&-16##0#0#0#0#0#0#"
@@ -22490,7 +22490,7 @@
     text: "到达九曜津城外树林"
     translated: "Arrived at the forest outside the city of Jiuyao Jun."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Nine Luminaries Crossing,九曜津,Nine Luminaries Crossing,九曜津,Nine Luminaries Crossing,九曜津,"
+    flaggedMistranslation: "Nine Luminaries Crossing,九曜津,Nine Luminaries Crossing,九曜津,Nine Luminaries Crossing,九曜津,Nine Luminaries Crossing,九曜津,"
     flaggedHallucination: ""
 - lineNum: 509603
   raw: "509603#13#1#155020#5096#与李剑白等人话#0#509602#40021#0#0###0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -23230,7 +23230,7 @@
     text: "前往枰枦"
     translated: "Head to Pingqian"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,"
+    flaggedMistranslation: "Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,Pingxia,枰枦,"
     flaggedHallucination: ""
 - lineNum: 511702
   raw: "511702#13#1#165025#5117#与莫允婧交谈#933952#511701#0#0#0###0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -32189,8 +32189,8 @@
     split: 5
     text: "上官鸿的阴谋"
     translated: "Shangguan Hong's plot"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 47016005
   raw: "47016005#16#1#6981#47016#联手击败上官鸿#0#47016004#0#0#0###0##0##0#0#0#0#0#0#101000#914626#3000|912|121#0#0#0#0#0#0#0#914598#45043#"
@@ -43011,8 +43011,8 @@
     split: 5
     text: "击败镖师王刚"
     translated: "Defeat the Escort Guard Wang Gang"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 200600041
   raw: "200600041#16#1#155184#20060#击败镖师杨青#924696#200600031#0#####0#0#0#0#0#0#0#0#0#0#0############"
@@ -45231,8 +45231,8 @@
     split: 5
     text: "调查紫阳山附近"
     translated: "Investigate the area around Purple Sun Mountain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 201210021
   raw: "201210021#13#1#155349#20121#调查紫阳山附近#907845#201210011#0#####0#0#0#0#0#0#0#0#0#0#0############"
@@ -45241,8 +45241,8 @@
     split: 5
     text: "调查紫阳山附近"
     translated: "Investigate the area around Purple Sun Mountain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 201210031
   raw: "201210031#19#1#1375.842,252.2141,700.5119#20121#思考说书人的说辞#907831#201210021#0#####0#0#0#0#0#0#0#0#0#0#0############"
@@ -45261,8 +45261,8 @@
     split: 5
     text: "调查紫阳山附近"
     translated: "Investigate the area around Purple Sun Mountain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 201210051
   raw: "201210051#13#1#155350#20121#与奇怪的老人对话#907826#201210041#0#####0#0#0#0#0#0#0#0#0#0#0############"

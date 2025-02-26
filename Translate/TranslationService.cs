@@ -99,11 +99,15 @@ public static class TranslationService
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
     {
-        if (string.IsNullOrEmpty(fileName) || !hasChinese)
+        if (string.IsNullOrEmpty(fileName))
             return;
 
         Console.WriteLine($"Writing Split {fileName}.. Should have..{shouldHave} Have..{lines.Count}");
-        File.WriteAllLines($"{outputDirectory}/{fileName}.txt", lines);
+
+        if (hasChinese)
+            File.WriteAllLines($"{outputDirectory}/{fileName}.txt", lines);
+        else
+            File.WriteAllLines($"{outputDirectory}/../Remaining/{fileName}.txt", lines);
     }
 
     public static void SplitDbAssets(string workingDirectory)

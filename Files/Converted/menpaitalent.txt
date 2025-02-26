@@ -30,7 +30,7 @@
     text: "任务完成时，金钱奖励额外提升100%"
     translated: "When the task is completed, there will be a 100% bonus increase in monetary rewards."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 2
   raw: "2#进行打造消耗测试#进行打造时，金钱、矿石消耗减少50%#0#0#0|0,4|-50#"
@@ -64,7 +64,7 @@
     text: "打造完成时，炼器，缝纫，巧手获得的成品外攻、耐久、锋锐、坚韧属性提升50%"
     translated: "Upon completion, the crafted item's offensive power, durability, sharpness, and resilience attributes are enhanced by 50%, provided it was made by a skilled artisan"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Toughness,坚韧,External Attack,外攻,"
     flaggedHallucination: ""
 - lineNum: 4
   raw: "4#打造词条测试#打造完成时，炼器，缝纫，巧手获得的成品必定获得词条#0#1#2,3,4|3|10101,12401#"
@@ -98,7 +98,7 @@
     text: "对寻找金银财宝有着天生的敏感度。任务完成时，金钱奖励额外提升6%。"
     translated: "Naturally attuned to finding treasures of gold and silver. The monetary reward increases by an additional 6% upon task completion."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 102
   raw: "102#财运亨通#财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。#1#2#0|0|9#"
@@ -115,7 +115,7 @@
     text: "财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。"
     translated: "Fortune favors the wealthy; in business or when completing tasks, they often receive more rewards than others. When a task is completed, the monetary reward increases by an additional 9%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 103
   raw: "103#金币风水#你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。#2#2#0|0|12#"
@@ -149,7 +149,7 @@
     text: "你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。"
     translated: "It seems you are often blessed with good fortune when it comes to wealth at crucial times. Upon task completion, an additional 15% increase in monetary reward is granted."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 105
   raw: "105#财源滚滚#生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%#4#2#0|0|18#"
@@ -217,7 +217,7 @@
     text: "拥有敏锐的洞察力，能够预见并化解小规模的内部矛盾。任务完成时，安定额外提升12%。"
     translated: "Possessing keen insight, capable of foreseeing and resolving small-scale internal conflicts. Upon task completion, an additional 12% increase in stability is achieved"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 204
   raw: "204#迹象追踪#擅长追踪微小的物理或行为迹象。任务完成时，安定额外提升15%。#3#2#0|1|15#"
@@ -251,7 +251,7 @@
     text: "洞察一切事物的本质，无论是人心还是自然现象，能够预见并化解所有可能的危机。任务完成时，安定额外提升18%。"
     translated: "Having the insight to understand the essence of all things, whether it's human nature or natural phenomena, allows one to foresee and mitigate any potential crises. Upon completion of the task, an additional 18% stability boost is awarded"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 301
   raw: "301#繁华似锦#身处之地总能繁荣昌盛，仿佛锦绣般灿烂辉煌。任务完成时，繁荣格外提升6%#0#2#0|2|6#"
@@ -302,7 +302,7 @@
     text: "拥有无尽的福运，福气持续不断地滋养自身。任务完成时，繁荣格外提升12%"
     translated: "Endowed with boundless fortune, prosperity continuously nourishes oneself. Upon completing the task, prosperity is further enhanced by 12%"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Luck,福气,"
     flaggedHallucination: ""
 - lineNum: 304
   raw: "304#聚宝生辉#天生有聚宝之力，所触之物皆能变得光辉灿烂。任务完成时，繁荣格外提升15%#3#2#0|2|15#"
@@ -693,7 +693,7 @@
     text: "虽有机会获得珍宝，却会因眼光的问题错失珍珠。任务完成时，金钱奖励减少6%"
     translated: "Although there was an opportunity to acquire a treasure, due to vision issues, the pearls were missed. Upon task completion, the monetary reward is reduced by 6%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 802
   raw: "802#拂荣忘原#内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%#0#2#0|0|-9#"
@@ -710,7 +710,7 @@
     text: "内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%"
     translated: "The heart yearns for gold, silver, and jewels, but this often leads to losing one's true self. When the task is completed, the monetary reward decreases by 9%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 803
   raw: "803#捡豆丢瓜#看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%#0#2#0|0|-12#"
@@ -727,7 +727,7 @@
     text: "看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%"
     translated: "Seeing something and wanting it, but ultimately getting nothing in the end. Upon task completion, the monetary reward is reduced by 12%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 804
   raw: "804#擅画之人#无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%#0#2#0|0|-15#"
@@ -744,7 +744,7 @@
     text: "无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%"
     translated: "There was nothing else; he merely excelled at drawing pies, so the outcome fell short of expectations. When the task was completed, the monetary reward decreased by 15%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 805
   raw: "805#劳损内神#时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%#0#2#0|0|-18#"
@@ -761,7 +761,7 @@
     text: "时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%"
     translated: "Frequent internal conflict and irritability have started to affect everyday tasks. Upon task completion, the monetary reward is reduced by 18%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 851
   raw: "851#天煞孤星#出生便带不祥之兆，常被厄运缠身。任务完成时，获得安定减少6%#0#2#0|1|-6#"
@@ -1305,7 +1305,7 @@
     text: "眼光毒辣，能选出最优质的食材。完成烹饪时有7%几率多获得1次道具。"
     translated: "With a piercing gaze, they can select the finest ingredients. Upon completing the cooking process, there is a 7% chance of obtaining an additional item"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 1153
   raw: "1153#刀工一绝#刀工精湛，食材处理完美无缺。完成烹饪时有9%几率多获得1次道具。#2#1#6|0|9|1#"
@@ -2631,7 +2631,7 @@
     text: "工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。"
     translated: "The craftsmanship is poor, and there is excessive waste of materials. The cost of making props increases by 18%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 1651
   raw: "1651#耗材难控#制作技艺不精，原料大量浪费。制作道具时消耗矿石增加6%。#0#0#0|4|6#"
@@ -2987,8 +2987,8 @@
     split: 2
     text: "锻造出的装备必定携带外攻、内攻、命中、诛心其中一条词条"
     translated: "Equipment forged will necessarily carry one of the attributes: external attack, internal attack, hit rate, or mind-cleaving"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 10002
   raw: "10002#七星连珠#锻造出的装备必定携带要害、武力、攻力、伤力其中一条词条#2#2#2|3|12218,12318,12418,12103,12203,12303,605444,605454,605644,605445,605455,605645#"
@@ -3004,8 +3004,8 @@
     split: 2
     text: "锻造出的装备必定携带要害、武力、攻力、伤力其中一条词条"
     translated: "Equipment forged must necessarily carry one of the attributes: Vulnerability, Might, Attack Power, or Damage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 10003
   raw: "10003#无极之力#锻造出的装备必定携带剑容、剑形、刀容、刀形其中一条词条#2#2#2|3|5152,5171,5190,5153,5172,5191,6152,6171,6190,6115,6134,6153#"
@@ -3218,8 +3218,8 @@
     split: 1
     text: "金刚护甲"
     translated: "Adamantine Armor"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:59.1457844+08:00
     split: 2
@@ -3259,8 +3259,8 @@
     split: 2
     text: "锻造出的装备必定携带刚殇、柔殇、毒殇其中一条词条"
     translated: "Equipment forged must carry the trait of either Iron Wound, Soft Wound, or Poison Wound"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 11006
   raw: "11006#无极之力#缝纫出的防具必定携带气血、真气、外防、内防其中一条词条#1#2#4|3|12807,12907,13007,13809,13909,14009,52312,52412,52512,72813,72913,73013#"
@@ -3276,8 +3276,8 @@
     split: 2
     text: "缝纫出的防具必定携带气血、真气、外防、内防其中一条词条"
     translated: "Garments crafted by sewing must necessarily carry one of the terms: vital essence, true energy, external defense, or internal defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 12000
   raw: "12000#淬火成钢#缝纫出的防具必定携带飞鸟、飞鸢、永恒、飞鹰、精意其中一条词条#1#2#4|3|600,12225,12325,12425,605226,605426,605626,605228,605428,605628,605232,605432,605632#"
@@ -3310,8 +3310,8 @@
     split: 2
     text: "缝纫出的防具必定携带闪避、元气、根骨、筋骨其中一条词条"
     translated: "Armor sewn from cloth must inherently carry one of the following attributes: Evasion, Vitality, Constitution, or Musculature"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,Potential,根骨,Strength,筋骨,Dodge,闪避,"
     flaggedHallucination: ""
 - lineNum: 12004
   raw: "12004#天雷地火#缝纫出的防具必定携带内息、体魄、精神、身法其中一条词条#2#2#4|3|808703,808803,808903,808704,808804,808904,808705,808805,808905,808706,808806,808906#"
@@ -3327,8 +3327,8 @@
     split: 2
     text: "缝纫出的防具必定携带内息、体魄、精神、身法其中一条词条"
     translated: "Jewelry crafted by sewing must inherently include one of the terms: inner energy, physical strength, spirit, or movement"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,Inner Qi,内息,Willpower,精神,Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 12005
   raw: "12005#玄铁精铸#缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条#2#2#4|3|806707,806807,806907,605229,605429,605629,605231,605431,605631,605233,605433,605633#"
@@ -3344,8 +3344,8 @@
     split: 2
     text: "缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条"
     translated: "Garments crafted by sewing must inherently carry one of the attributes: concentration, cunning, swiftness, or spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 12006
   raw: "12006#水影流转#缝纫出的防具必定携带御心、化解、强体、冥思其中一条词条#3#2#4|3|12117,12217,12317,12319,12419,12519,12301,12401,12501,12302,12402,12502#"
@@ -3361,8 +3361,8 @@
     split: 2
     text: "缝纫出的防具必定携带御心、化解、强体、冥思其中一条词条"
     translated: "Armor crafted by sewing must carry at least one of the following abilities: Heart Guard, Resolve Dispeller, Body Strengthening, or Deep Thought."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 12007
   raw: "12007#流沙之引#缝纫出的防具必定携带魄力、神心、圣心、五御其中一条词条#3#2#4|3|12304,12404,12504,12306,12406,12506,12307,12407,12507,95402,95403,95404#"

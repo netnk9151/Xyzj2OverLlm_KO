@@ -1,78 +1,78 @@
 - lineNum: 100001
   raw: "100001#1#0#0###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:18.0436728+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:14.2467374+08:00
     split: 7
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
-    translated: "According to various lumberjacks and hunters, ({R}) I have discovered some <color=green>{I}</color>, and perhaps, you brave individuals might want to hurry and find them"
-    flaggedForRetranslation: true
+    translated: "According to reports from hunters and woodcutters, <color=green>({R})</color> has discovered a <color=green>{I}</color>, so perhaps the gentlemen heroes might hurry to search for it."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100002
   raw: "100002#1#9103#0###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   splits:
-  - lastTranslatedOn: 2025-02-25T13:05:53.5609401+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:17.0682460+08:00
     split: 7
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
-    translated: "According to various lumberjacks and hunters, ({R}) I have discovered some <color=green>{I}</color>, and perhaps, you brave individuals might want to hurry and find them"
-    flaggedForRetranslation: true
+    translated: "According to reports from hunters and woodcutters, <color=green>({R})</color> has discovered a <color=green>{I}</color>, so perhaps the gentlemen heroes might hurry to search for it."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100003
   raw: "100003#1#9104#10001###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   splits:
-  - lastTranslatedOn: 2025-02-25T13:05:53.5609402+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:17.0682461+08:00
     split: 7
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
-    translated: "According to various lumberjacks and hunters, ({R}) I have discovered some <color=green>{I}</color>, and perhaps, you brave individuals might want to hurry and find them"
-    flaggedForRetranslation: true
+    translated: "According to reports from hunters and woodcutters, <color=green>({R})</color> has discovered a <color=green>{I}</color>, so perhaps the gentlemen heroes might hurry to search for it."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100004
   raw: "100004#1#5026#0###0#据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。#0##"
   splits:
-  - lastTranslatedOn: 2025-02-25T13:05:53.5609403+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:17.0682461+08:00
     split: 7
     text: "据各路樵夫猎人透露，<color=green>({R})</color>发现有<color=green>{I}</color>，各位侠士或许可以赶紧去寻找。"
-    translated: "According to various lumberjacks and hunters, ({R}) I have discovered some <color=green>{I}</color>, and perhaps, you brave individuals might want to hurry and find them"
-    flaggedForRetranslation: true
+    translated: "According to reports from hunters and woodcutters, <color=green>({R})</color> has discovered a <color=green>{I}</color>, so perhaps the gentlemen heroes might hurry to search for it."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 200001
   raw: "200001#2#0#0#<color=green>{C}</color>成功获取了<color=green>{I}</color>。##0#少年出英雄，恰时<color=green>{A}</color>击败<color=green>{B}</color>，掉落了<color=green>{I}</color>。#0##"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:18.0438422+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:15.9729878+08:00
     split: 4
     text: "<color=green>{C}</color>成功获取了<color=green>{I}</color>。"
-    translated: "<color=green>{C}</color> successfully obtained <color=green>{I}</color>"
-    flaggedForRetranslation: true
+    translated: "<color=green>{C}</color> successfully obtained <color=green>{I}</color>."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:18.0438636+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:17.0682198+08:00
     split: 7
     text: "少年出英雄，恰时<color=green>{A}</color>击败<color=green>{B}</color>，掉落了<color=green>{I}</color>。"
-    translated: "A young hero emerges and, at just the right moment, {A} defeats {B}, causing {I} to drop"
+    translated: ""
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 200002
   raw: "200002#2#0#0###0#有传言称，在<color=green>{C}</color>身上看到了<color=green>{I}</color>，似乎可以前去查看一番。#1##"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:18.0438904+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:16.6697059+08:00
     split: 7
     text: "有传言称，在<color=green>{C}</color>身上看到了<color=green>{I}</color>，似乎可以前去查看一番。"
-    translated: "There are rumors that one can see {I} in <color=green>{C}</color>, so it seems worth checking out"
-    flaggedForRetranslation: true
+    translated: "There are rumors that one can see <color=green>{I}</color> on the body of <color=green>{C}</color>, so it might be worth checking out."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 200003
   raw: "200003#2#0#0###0#有传言称，在<color=green>({R})</color>看到<color=green>{C}</color>夺取了<color=green>{D}</color>的<color=green>{I}</color>。#2##"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:18.0439173+08:00
+  - lastTranslatedOn: 2025-02-26T18:32:15.5619566+08:00
     split: 7
     text: "有传言称，在<color=green>({R})</color>看到<color=green>{C}</color>夺取了<color=green>{D}</color>的<color=green>{I}</color>。"
-    translated: "There are rumors that in <color=green>... ({R}) Seeing <color=green>{C}</color> seize <color=green>{D}</color>'s <color=green>{I}</color>"
-    flaggedForRetranslation: true
+    translated: "Rumors have it that in <color=green>({R})</color>, <color=green>{C}</color> seized the <color=green>{I}</color> of <color=green>{D}</color>."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1000001

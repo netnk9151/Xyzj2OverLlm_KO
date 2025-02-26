@@ -286,8 +286,8 @@
     split: 41
     text: "可在紫阳山贡献堂主处,外门弟子一栏购买"
     translated: "Can purchase from the External Disciples column at the Contribution Hall Master's location on Purple Sun Mountain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 1028
   raw: "1028#凝血丹配方#4#7#13#14#2568#99#0#1#0#0#peifang#1028#0#3028#0#3600#0#####0#0#0#0#0#0###all#0##0&89|9103#0##0#0#0#0#可在十陵阁贡献堂主处,外门弟子一栏购买#0#0#0#0#"
@@ -338,7 +338,7 @@
     text: "可在墟海剑宗贡献堂主处,内门弟子一栏购买"
     translated: "You can purchase from the Inner Sect Disciples section at the Contribution Hall Master of the Abyssal Sea Sect."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Abyssal Sea Sword,墟海剑,Abyssal Sea Sword,墟海剑,Abyssal Sea Sword,墟海剑,"
+    flaggedMistranslation: "Abyssal Sea Sword,墟海剑,Abyssal Sea Sword,墟海剑,Abyssal Sea Sword,墟海剑,Abyssal Sea Sword,墟海剑,"
     flaggedHallucination: ""
 - lineNum: 1031
   raw: "1031#生脉丹配方#4#7#13#14#2568#99#0#1#0#0#peifang#1031#0#3031#0#3600#0#####0#0#0#0#0#0###all#0##0&18|1|50|400|>=#0##0#0#0#0#可在昭月宗贡献堂主处关门弟子一栏概率买到#0#0#0#0#"
@@ -999,7 +999,7 @@
     text: "九环刀配方"
     translated: "Nine Rings Sword Formula"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1081
   raw: "1081#乱鸦配方#4#7#12#12#766#99#0#1#0#0#peifang#1081#0#3081#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|100|>=#0##0#0#0#0#砚溪山庄巡山弟子(442,278)处有机会获得#0#0#0#0#"
@@ -1708,7 +1708,7 @@
     text: "奚柔(1290,1013)处有机会获得|可在齐军贡献堂主处,关门弟子一栏购买"
     translated: "Xi Ruo (1290,1013) Available opportunity to purchase at the Contribution Hall Master of the Qi Army under the Exclusive Disciple section."
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 1126
   raw: "1126#天涯暮配方#4#7#14#16#11233#99#0#1#0#0#peifang#1126#0#3126#0#3600#0#####0#0#0#0#0#0####0##0&18|1|52|700|>=#0##0#0#0#0#九天神女(273,1516)处有机会获得|可在齐军贡献堂主处,亲传弟子一栏购买#0#0#0#0#"
@@ -2370,7 +2370,7 @@
     text: "齐明(1532,185)处有机会获得|可在遥雪峰贡献堂主处,亲传弟子一栏购买"
     translated: "Qi Ming (1532,185) There is an opportunity to obtain the item from the Contribute Hall Master at Distant Snow Peak in the Apprentice of the Master column."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Contribution Hall Master,贡献堂主,Contribution Hall Master,贡献堂主,Contribution Hall Master,贡献堂主,"
+    flaggedMistranslation: "Contribution Hall Master,贡献堂主,Contribution Hall Master,贡献堂主,Contribution Hall Master,贡献堂主,Contribution Hall Master,贡献堂主,"
     flaggedHallucination: ""
 - lineNum: 1167
   raw: "1167#精制青锋剑配方#4#7#10#10#160#99#0#1#0#0#peifang#1167#0#3167#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|100|>=#0##0#0#0#0#宝箱(1061,1402),洞窟宝箱(1087,1605),侍卫(822,783)处有机会获得#0#0#0#0#"
@@ -2838,7 +2838,7 @@
     text: "神兵山庄护法弟子(1252,734)处有机会获得|可在紫阳山贡献堂主处,外门弟子一栏购买"
     translated: "Protege of the Guardian at Divine Weapon Mountain Villa. (1252,734) There is an opportunity to acquire this at the Contribution Hall Master's location on Purple Sun Mountain in the column for outside disciples."
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 1197
   raw: "1197#从冬散配方#4#7#13#14#2568#99#0#1#0#0#peifang#1197#0#3197#0#3600#0#####0#0#0#0#0#0####0##0&18|1|50|400|>=#0##0#0#0#0#御虚门护法弟子(432,1237)处有机会获得|可在十陵阁贡献堂主处,内门弟子一栏购买#0#0#0#0#"
@@ -3876,7 +3876,7 @@
     text: "奚柔(1290,1013)处有机会获得|可在十二连环坞贡献堂主处,关门弟子一栏购买"
     translated: "Xi Ruo (1290,1013) Opportunity to acquire at the Contribution Hall Master of the Twelve-linked Fortress under the Disciple-in-Residence section."
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Soft,柔,"
     flaggedHallucination: ""
 - lineNum: 1263
   raw: "1263#桑葚酒配方#4#7#10#10#100#99#0#1#0#0#peifang#1263#0#3263#0#3600#0#####0#0#0#0#0#0####0##0&18|1|54|10|>=#0##0#0#0#0#0#0#0#0#0#"
@@ -4166,7 +4166,7 @@
     text: "寻清门试炼弟子(87,1047)处有机会获得"
     translated: "Seeker of the Clarity Gate trial disciple. (87,1047) There are opportunities to gain."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Seeking Clarity Gate,寻清门,Seeking Clarity Gate,寻清门,Seeking Clarity Gate,寻清门,"
+    flaggedMistranslation: "Seeking Clarity Gate,寻清门,Seeking Clarity Gate,寻清门,Seeking Clarity Gate,寻清门,Seeking Clarity Gate,寻清门,"
     flaggedHallucination: ""
 - lineNum: 1285
   raw: "1285#和玉酝配方#4#7#12#13#838#99#0#1#0#0#peifang#1285#0#3285#0#3600#0#####0#0#0#0#0#0####0##0&18|1|54|250|>=#0##0#0#0#0#太初剑宗试炼弟子(981,1344)处有机会获得#0#0#0#0#"
@@ -4745,8 +4745,8 @@
     split: 1
     text: "刚溧配方"
     translated: "Just a moment, preparing the prescription"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 1506
   raw: "1506#灵锦袈配方#4#7#14#10#391#99#0#1#0#0#peifang#1506#0#3506#0#3600#0#####0#0#0#0#0#0####0##0&18|1|53|10|>=#0##0#1#0#0#0#0#0#0#0#"
@@ -6512,8 +6512,8 @@
     split: 41
     text: "可在紫阳山贡献堂主处,外门弟子一栏购买"
     translated: "Can purchase from the External Disciples column at the Contribution Hall Master's location on Purple Sun Mountain."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 1806
   raw: "1806#斗剑寒霜丹配方#4#7#13#14#3208#99#0#1#0#0#peifang#1806#0#3806#0#3600#0#####0#0#0#0#0#0####0##0&18|1|50|400|>=#0##0#0#0#0#可在十陵阁贡献堂主处,内门弟子一栏购买#0#0#0#0#"
@@ -7311,8 +7311,8 @@
     split: 1
     text: "石刚金"
     translated: "Shi Gang Jin"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:23:23.8622648+08:00
     split: 41
@@ -15116,8 +15116,8 @@
     split: 1
     text: "刚火丹"
     translated: "Just reached the Red Lotus stage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:24:13.4553724+08:00
     split: 41
@@ -17564,8 +17564,8 @@
     split: 1
     text: "寒毒蜂"
     translated: "Frost Venom Bee"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:39:47.1154758+08:00
     split: 41
@@ -17785,8 +17785,8 @@
     split: 1
     text: "毒龙胆"
     translated: "Deadly Dragon's Blood"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:39:47.1154763+08:00
     split: 41
@@ -18057,8 +18057,8 @@
     split: 1
     text: "阳江香"
     translated: "Sunny Fragrant"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0015789+08:00
     split: 41
@@ -21627,8 +21627,8 @@
     split: 1
     text: "大厨的阳春面"
     translated: "Spring Festival Noodles by Master Chef"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0125011+08:00
     split: 41
@@ -23143,8 +23143,8 @@
     split: 1
     text: "蛇毒"
     translated: "Snake venom"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 25020
   raw: "25020#龟壳#3#1#12#12#98#99#0#1#0#0#new1_xuanguike#25020#0#27020#0#3600#0##34&3#11&1##0#0#0#0#0#0###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -27923,8 +27923,8 @@
     split: 1
     text: "抱阳剑谱"
     translated: "Hug the Sun Sword Manual"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T20:58:14.1622877+08:00
     split: 41
@@ -28552,7 +28552,7 @@
     text: "裂山刀谱"
     translated: "Title of a book or manuscript related to Lieshan Sword Techniques."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:39:53.9166401+08:00
     split: 41
@@ -28623,7 +28623,7 @@
     text: "狂刀绝剑门贡献堂主处可获得"
     translated: "Contribution Hall Master of the Sword Breaker Gate can be found here."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 34121
   raw: "34121#天刀八式#4#15#15#15#27418#99#0#1#0#0#miji10#34121#0#36121#0#3600#0#221#1###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#"
@@ -29285,8 +29285,8 @@
     split: 1
     text: "阴风诀"
     translated: "The Shadowy Wind Technique"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 34323
   raw: "34323#缠魂毒#4#15#13#13#10546#99#0#1#0#0#miji15#34323#0#36323#0#3600#0#423#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#"
@@ -29356,8 +29356,8 @@
     split: 1
     text: "大力金刚掌"
     translated: "Da Li Golden Iron Palm"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 34328
   raw: "34328#龙象般若#4#15#14#14#10546#99#0#1#0#0#miji10#34328#0#36328#0#3600#0#428#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#"
@@ -29404,7 +29404,7 @@
     text: "狂刀绝剑门贡献堂主处可获得"
     translated: "Contribution Hall Master of the Sword Breaker Gate can be found here."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 34332
   raw: "34332#排云掌#4#15#14#14#10546#99#0#1#0#0#miji10#34332#0#36332#0#3600#0#432#3###0#0#0#0#0#0####0###0##0#0#0#0#狂刀绝剑门贡献堂主处可获得#0#0#0#1#"
@@ -29421,7 +29421,7 @@
     text: "狂刀绝剑门贡献堂主处可获得"
     translated: "Contribution Hall Master of the Sword Breaker Gate can be found here."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 34333
   raw: "34333#天霜拳#4#15#14#14#10546#99#0#1#0#0#miji10#34333#0#36333#0#3600#0#433#3###0#0#0#0#0#0####0###0##0#0#0#0#狂刀绝剑门贡献堂主处可获得#0#0#0#1#"
@@ -29438,7 +29438,7 @@
     text: "狂刀绝剑门贡献堂主处可获得"
     translated: "Contribution Hall Master of the Sword Breaker Gate can be found here."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 34334
   raw: "34334#猿神拳法#4#15#14#14#10546#99#0#1#0#0#miji10#34334#0#36334#0#3600#0#434#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#"
@@ -31111,8 +31111,8 @@
     split: 1
     text: "金刚不坏神功"
     translated: "Indestructible Divine Skill"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 34515
   raw: "34515#五毒心法#4#15#12#12#10546#99#0#1#0#0#miji8#34515#0#36515#0#3600#0#515#4###0#0#0#0#0#0####0###0##0#0#0#0#重天门贡献堂主处可获得#0#0#0#0#"
@@ -31692,8 +31692,8 @@
     split: 1
     text: "三分吸元气"
     translated: "Three parts of absorbing vital energy"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 34906
   raw: "34906#去阳真决#4#15#12#12#6240#99#0#1#0#0#miji11#34906#0#36906#0#3600#0#906#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -31942,8 +31942,8 @@
     split: 1
     text: "内息激荡"
     translated: "The internal energy surges"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 36011
   raw: "36011#无影神纱#4#20#12#15#5426#99#0#1#0#0#miji14#150811#0#150838#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -32032,8 +32032,8 @@
     split: 1
     text: "金刚钵"
     translated: "A golden bowl"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 36020
   raw: "36020#秘气法#4#20#12#15#5426#99#0#1#0#0#miji14#150820#0#150847#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -32102,8 +32102,8 @@
     split: 1
     text: "万兽秘技·刚"
     translated: "Wanshou Secret Technique: Strength"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 36027
   raw: "36027#万兽秘技·毒#4#20#12#15#5426#99#0#1#0#0#miji14#150827#0#150854#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -32812,8 +32812,8 @@
     split: 1
     text: "解毒丸"
     translated: "Antidote Pill"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 37038
   raw: "37038#藏宝图#2#2#12#11#0#1#0#0#0#0#minghua#37038#0#39038#0#3600#0###100029##0#0#0#0#0#0###all#0###0##0#0#0#0#0#0#0#0#1#"
@@ -33183,7 +33183,7 @@
     text: "祖传宝刀"
     translated: "A hereditary treasure blade."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
+    flaggedMistranslation: "Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,Ancestral Treasure Blade,祖传宝刀,"
     flaggedHallucination: ""
 - lineNum: 37075
   raw: "37075#通行证#2#2#12#11#0#1#0#0#0#0#yaopai1#37075#0#39075#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -33223,7 +33223,7 @@
     text: "武林趣闻一"
     translated: "Martial Arts World Anecdote 1:"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Wulin,武林,Wulin,武林,Wulin,武林,"
+    flaggedMistranslation: "Wulin,武林,Wulin,武林,Wulin,武林,Wulin,武林,"
     flaggedHallucination: ""
 - lineNum: 37079
   raw: "37079#武林趣闻二#2#2#12#11#0#1#0#0#0#0#ditu#37079#0#39079#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -34966,8 +34966,8 @@
     split: 1
     text: "阳焱"
     translated: "Sun Blaze"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 37256
   raw: "37256#炎鸿氏铸剑#2#2#12#11#0#1#0#0#0#0#jian2#37256#0#39256#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -36486,8 +36486,8 @@
     split: 1
     text: "破阳剑"
     translated: "The Sword of Dusk"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 37409
   raw: "37409#箪食锅#2#7#15#16#0#1#0#0#0#6599#new_fotiaoqiang#37409#0#39409#0#0#0#0#0###0#0#0#0#0#0####0###0##0#0#0#0#加入丐门#0#0#0#0#"
@@ -40074,7 +40074,7 @@
     text: "神兵山庄无尚带"
     translated: "Unrivaled Mountaintop Residence of the Divine Weapon Clan."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Divine Weapon Mountain Villa,神兵山庄,Divine Weapon Mountain Villa,神兵山庄,Divine Weapon Mountain Villa,神兵山庄,"
+    flaggedMistranslation: "Divine Weapon Mountain Villa,神兵山庄,Divine Weapon Mountain Villa,神兵山庄,Divine Weapon Mountain Villa,神兵山庄,Divine Weapon Mountain Villa,神兵山庄,"
     flaggedHallucination: ""
 - lineNum: 38142
   raw: "38142#神兵山庄初尘履#1#4#1000#22#1575#1#0#1#0#0#xie4#38001142#0#40001142#0#3602#30008#####0#0#0#6002#2#4####0###0##0#0#0#0#0#0#2#0#1#"
@@ -42063,8 +42063,8 @@
     split: 1
     text: "紫阳宫初尘履"
     translated: "Purple Cloud Temple, First Dust"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 38341
   raw: "38341#紫阳宫行者履#1#4#1000#24#2756#1#0#1#0#0#xie7#38001341#0#40001341#0#3602#30008#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#"
@@ -43574,8 +43574,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0763182+08:00
     split: 41
@@ -44199,7 +44199,7 @@
     text: "普通的马刀"
     translated: "Ordinary cavalry saber."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 45050
   raw: "45050#粗铁剑（出生武器）#1#1#10#10#1080#1#0#1#0#0#jian2#45050#0#47050#3701#3601#30016#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#"
@@ -44664,8 +44664,8 @@
     split: 1
     text: "流光·重阳天"
     translated: "The Gathering of Autumn Light"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0794595+08:00
     split: 41
@@ -44733,7 +44733,7 @@
     text: "流光·云头刀"
     translated: "Flowing Light of the Cloud Top Sword"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0796514+08:00
     split: 41
@@ -45344,8 +45344,8 @@
     split: 1
     text: "渊银·重阳天"
     translated: "Yuanyin · Zhongyao Tian"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0814084+08:00
     split: 41
@@ -46024,8 +46024,8 @@
     split: 1
     text: "刺锋·重阳天"
     translated: "Swordpoint: Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0834031+08:00
     split: 41
@@ -46704,8 +46704,8 @@
     split: 1
     text: "碎铁·重阳天"
     translated: "Broken Steel — Day of Double Ninth"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.0863181+08:00
     split: 41
@@ -49118,8 +49118,8 @@
     split: 1
     text: "刚溧"
     translated: "Just Li"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 50505
   raw: "50505#灵锦袈#1#2#14#11#2754#1#0#1#0#0#ruanjia1#50505#0#52505#0#3601#30006#####0#0#0#80013#3#5####0###0##0#1#0#0#0#0#2#0#1#"
@@ -50401,8 +50401,8 @@
     split: 1
     text: "内力化剑"
     translated: "To transform internal energy into a sword"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Power,内力,"
     flaggedHallucination: ""
 - lineNum: 50634
   raw: "50634#炎拳#1#1#1000#16#31026#1#0#1#0#0#new_3760#50634#0#52634#1&3750|2&3987#3601#40004#####0#0#0#6005#4#7####0#65001|96&65023|96##0##0#0#0#0#0#0#1#0#1#"
@@ -50432,7 +50432,7 @@
     text: "包浆糖棍"
     translated: "Baojiang tanggun"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Staff,棍,Staff,棍,Staff,棍,"
+    flaggedMistranslation: "Staff,棍,Staff,棍,Staff,棍,Staff,棍,"
     flaggedHallucination: ""
 - lineNum: 50637
   raw: "50637#算命幡#1#1#14#12#4820#1#0#1#0#0#new_3780#50637#0#52637#3780#3601#40003#####0#0#0#80077#3#5####0###0##0#1#0#0#0#0#1#0#1#"
@@ -51621,8 +51621,8 @@
     split: 1
     text: "会阴·玄参·凡阶"
     translated: "Shadow Valley, Mystery Participant - Common Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 54124
   raw: "54124#会阴·玄参·黄阶#3#12#11#12#780#1#0#1#0#0#shuxin3#54124#0#56124#0#3600#0###5&10080#54071|2&54038|2#0#0#0#132#1#2####0###0##0#0#0#0#0#0#0#0#1#"
@@ -51671,8 +51671,8 @@
     split: 1
     text: "会阴·千寿·凡阶"
     translated: "Inauspicious, Thousand Years of Life, Common Step"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 54129
   raw: "54129#会阴·千寿·黄阶#3#12#11#12#780#1#0#1#0#0#shuxin3#54129#0#56129#0#3600#0###5&10080#54071|2&54038|2#0#0#0#337#1#2####0###0##0#0#0#0#0#0#0#0#1#"
@@ -51691,8 +51691,8 @@
     split: 1
     text: "会阴·千寿·玄阶"
     translated: "Mysterious Origin · Thousand Years of Life · Mysterious Path"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 54131
   raw: "54131#会阴·千寿·地阶#3#12#13#15#10546#1#0#1#0#0#miji9#54131#0#56131#0#3600#0###5&10080#54074|3&54041|3#0#0#0#339#2#3####0###0##0#0#0#0#0#0#0#0#1#"
@@ -51711,8 +51711,8 @@
     split: 1
     text: "会阴·千寿·天阶"
     translated: "Yongmen's Thousand Years of Longevity Step to Heaven"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 54133
   raw: "54133#会阴·雪蚕·凡阶#3#12#10#10#150#1#0#1#0#0#miji1#54133#0#56133#0#3600#0###5&10080#54069|1&54036|1#0#0#0#526#1#2####0###0##0#0#0#0#0#0#0#0#1#"
@@ -53521,8 +53521,8 @@
     split: 1
     text: "申脉·镇毒·凡阶"
     translated: "Silk Meridian · Venom Stabilizer · Common Grade"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 54314
   raw: "54314#申脉·镇毒·黄阶#3#12#11#12#780#1#0#1#0#0#shuxin3#54314#0#56314#0#3600#0###5&80080#54071|2&54038|2#0#0#0#737#1#2###3|3000&6|3000&8|4000&11|3000&12|3000&13|4000&23|3000&24|3000&28|4000&33|3000&1|1000&999|1000#0###0##0#0#0#0#0#0#0#0#1#"
@@ -53541,8 +53541,8 @@
     split: 1
     text: "申脉·镇毒·玄阶"
     translated: "Shen Mai: Detoxification • Mystical Stage"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 54316
   raw: "54316#申脉·镇毒·地阶#3#12#13#15#10546#1#0#1#0#0#miji9#54316#0#56316#0#3600#0###5&80080#54074|3&54041|3#0#0#0#739#2#3####0###0##0#0#0#0#0#0#0#0#1#"
@@ -55497,8 +55497,8 @@
     split: 1
     text: "刚玉锻石"
     translated: "Refine jade into stone"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T20:58:14.4693408+08:00
     split: 41
@@ -55815,8 +55815,8 @@
     split: 1
     text: "奇经八脉谱·卷一·内攻"
     translated: "Inner Attack · Volume One of the Diagram of the Eight Extraordinary Channels"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Attack,内攻,"
     flaggedHallucination: ""
 - lineNum: 54723
   raw: "54723#奇经八脉谱·卷二·内攻#3#12#10#11#300#1#0#1#0#0#shuxin3#54723#0#56723#0#3600#0##300##54070|1&54037|1#0#0#0#2031#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55845,8 +55845,8 @@
     split: 1
     text: "奇经八脉谱·卷四·内攻"
     translated: "Qi Jing Ba Mai Pu · Juan Si · Nei Gong"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Attack,内攻,"
     flaggedHallucination: ""
 - lineNum: 54726
   raw: "54726#奇经八脉谱·卷五·内攻#3#12#12#14#4056#1#0#1#0#0#miji8#54726#0#56726#0#3600#0##900##54073|3&54040|3#0#0#0#2033#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55855,8 +55855,8 @@
     split: 1
     text: "奇经八脉谱·卷五·内攻"
     translated: "The Fifth Scroll of the Diagrams of the Eight Extraordinary Vessels: Internal Offense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Attack,内攻,"
     flaggedHallucination: ""
 - lineNum: 54727
   raw: "54727#奇经八脉谱·卷六·内攻#3#12#13#15#10546#1#0#1#0#0#miji9#54727#0#56727#0#3600#0##1400##54074|3&54041|3#0#0#0#2034#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55865,8 +55865,8 @@
     split: 1
     text: "奇经八脉谱·卷六·内攻"
     translated: "Internal Offensive Techniques: The Meridian Chart - Volume Six"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Attack,内攻,"
     flaggedHallucination: ""
 - lineNum: 54728
   raw: "54728#奇经八脉谱·卷七·内攻#3#12#14#16#27418#1#0#1#0#0#miji15#54728#0#56728#0#3600#0##2000##54075|3&54042|3#0#0#0#2035#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55885,8 +55885,8 @@
     split: 1
     text: "奇经八脉谱·卷一·外防"
     translated: "The Eight Extraordinary Channels Spectrum - Volume One - External Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54730
   raw: "54730#奇经八脉谱·卷二·外防#3#12#10#11#300#1#0#1#0#0#shuxin3#54730#0#56730#0#3600#0##300##54070|1&54037|1#0#0#0#2041#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55895,8 +55895,8 @@
     split: 1
     text: "奇经八脉谱·卷二·外防"
     translated: "The Eight Extraordinary Channels Chart · Volume Two · External Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54731
   raw: "54731#奇经八脉谱·卷三·外防#3#12#11#12#780#1#0#1#0#0#miji2#54731#0#56731#0#3600#0##400##54071|2&54038|2#0#0#0#2042#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55905,8 +55905,8 @@
     split: 1
     text: "奇经八脉谱·卷三·外防"
     translated: "Volume Three of the Chart of the Eight Extraordinary Meridians: External Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54732
   raw: "54732#奇经八脉谱·卷四·外防#3#12#11#13#1560#1#0#1#0#0#miji7#54732#0#56732#0#3600#0##600##54072|2&54039|2#0#0#0#2042#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55925,8 +55925,8 @@
     split: 1
     text: "奇经八脉谱·卷五·外防"
     translated: "In the fifth scroll of The Diagrams of the Eight Extraordinary Meridians, we explore external defenses. These meridians, integral to our understanding of Qi flow and protection against external pathogens, highlight methods for maintaining balance and fortifying one's outer defenses"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54734
   raw: "54734#奇经八脉谱·卷六·外防#3#12#13#15#10546#1#0#1#0#0#miji9#54734#0#56734#0#3600#0##1400##54074|3&54041|3#0#0#0#2044#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55935,8 +55935,8 @@
     split: 1
     text: "奇经八脉谱·卷六·外防"
     translated: "The Sixth Scroll of the Map of the Eight Extraordinary Meridians: External Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54735
   raw: "54735#奇经八脉谱·卷七·外防#3#12#14#16#27418#1#0#1#0#0#miji15#54735#0#56735#0#3600#0##2000##54075|3&54042|3#0#0#0#2045#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55945,8 +55945,8 @@
     split: 1
     text: "奇经八脉谱·卷七·外防"
     translated: "The Seventh Scroll of the Eight Extraordinary Meridians · External Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 54736
   raw: "54736#奇经八脉谱·卷一·内防#3#12#10#10#150#1#0#1#0#0#miji1#54736#0#56736#0#3600#0##200##54069|1&54036|1#0#0#0#2051#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55955,8 +55955,8 @@
     split: 1
     text: "奇经八脉谱·卷一·内防"
     translated: "The Eight Extraordinary Meridians Chart - Volume One: Internal Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54737
   raw: "54737#奇经八脉谱·卷二·内防#3#12#10#11#300#1#0#1#0#0#shuxin3#54737#0#56737#0#3600#0##300##54070|1&54037|1#0#0#0#2051#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55965,8 +55965,8 @@
     split: 1
     text: "奇经八脉谱·卷二·内防"
     translated: "In the Internal Defense chapter of the Qi Jing Ba Mai Pu, Volume Two, it is described how the eight extraordinary meridians serve as conduits for internal protection and balance. These meridians are essential in maintaining health by regulating vital energy flows within the body, preventing illness from arising"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54738
   raw: "54738#奇经八脉谱·卷三·内防#3#12#11#12#780#1#0#1#0#0#miji2#54738#0#56738#0#3600#0##400##54071|2&54038|2#0#0#0#2052#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55975,8 +55975,8 @@
     split: 1
     text: "奇经八脉谱·卷三·内防"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Internal Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54739
   raw: "54739#奇经八脉谱·卷四·内防#3#12#11#13#1560#1#0#1#0#0#miji7#54739#0#56739#0#3600#0##600##54072|2&54039|2#0#0#0#2052#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -55985,8 +55985,8 @@
     split: 1
     text: "奇经八脉谱·卷四·内防"
     translated: "Intricate Patterns of the Eight Extraordinary Vessels · Volume Four · Inner Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54740
   raw: "54740#奇经八脉谱·卷五·内防#3#12#12#14#4056#1#0#1#0#0#miji8#54740#0#56740#0#3600#0##900##54073|3&54040|3#0#0#0#2053#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -55995,8 +55995,8 @@
     split: 1
     text: "奇经八脉谱·卷五·内防"
     translated: "Qi Jing Ba Mai Pu · Volume Five · Internal Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54741
   raw: "54741#奇经八脉谱·卷六·内防#3#12#13#15#10546#1#0#1#0#0#miji9#54741#0#56741#0#3600#0##1400##54074|3&54041|3#0#0#0#2054#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56005,8 +56005,8 @@
     split: 1
     text: "奇经八脉谱·卷六·内防"
     translated: "The Wuxing Eight Meridians Spectrum · Volume Six · Internal Defense"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54742
   raw: "54742#奇经八脉谱·卷七·内防#3#12#14#16#27418#1#0#1#0#0#miji15#54742#0#56742#0#3600#0##2000##54075|3&54042|3#0#0#0#2055#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56015,8 +56015,8 @@
     split: 1
     text: "奇经八脉谱·卷七·内防"
     translated: "The Eighth Scroll of the Chart of the Eight Extraordinary Meridians: Internal Protection"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 54743
   raw: "54743#奇经八脉谱·卷一·命中#3#12#10#10#150#1#0#1#0#0#miji1#54743#0#56743#0#3600#0##200##54069|1&54036|1#0#0#0#2061#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56095,8 +56095,8 @@
     split: 1
     text: "奇经八脉谱·卷一·闪避"
     translated: "The Meridians of the Eight Extraordinary Vessels · Volume One · Evasion"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Dodge,闪避,"
     flaggedHallucination: ""
 - lineNum: 54751
   raw: "54751#奇经八脉谱·卷二·闪避#3#12#10#11#300#1#0#1#0#0#shuxin3#54751#0#56751#0#3600#0##300##54070|1&54037|1#0#0#0#2071#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56115,8 +56115,8 @@
     split: 1
     text: "奇经八脉谱·卷三·闪避"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Evasion"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Dodge,闪避,"
     flaggedHallucination: ""
 - lineNum: 54753
   raw: "54753#奇经八脉谱·卷四·闪避#3#12#11#13#1560#1#0#1#0#0#miji7#54753#0#56753#0#3600#0##600##54072|2&54039|2#0#0#0#2072#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56155,8 +56155,8 @@
     split: 1
     text: "奇经八脉谱·卷七·闪避"
     translated: "Seven Strange Vessels Chart - Volume Seven: Evasion"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Dodge,闪避,"
     flaggedHallucination: ""
 - lineNum: 54757
   raw: "54757#奇经八脉谱·卷一·诛心#3#12#10#10#150#1#0#1#0#0#miji1#54757#0#56757#0#3600#0##200##54069|1&54036|1#0#0#0#2081#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56165,8 +56165,8 @@
     split: 1
     text: "奇经八脉谱·卷一·诛心"
     translated: "Intricate Map of the Eight Extraordinary Channels - Volume One: Annihilation of the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54758
   raw: "54758#奇经八脉谱·卷二·诛心#3#12#10#11#300#1#0#1#0#0#shuxin3#54758#0#56758#0#3600#0##300##54070|1&54037|1#0#0#0#2081#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56175,8 +56175,8 @@
     split: 1
     text: "奇经八脉谱·卷二·诛心"
     translated: "In this second volume of the Qi Jing Ba Mai Pu, titled Eliminating the Heart, we delve into the intricate web of the body's eight extraordinary meridians. These pathways are not just channels for physical energy but also serve as conduits for spiritual and emotional balance. The text explores techniques to harmonize these meridians, focusing on purifying the heart-mind to achieve a state of inner tranquility and enlightenment"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54759
   raw: "54759#奇经八脉谱·卷三·诛心#3#12#11#12#780#1#0#1#0#0#miji2#54759#0#56759#0#3600#0##400##54071|2&54038|2#0#0#0#2082#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56185,8 +56185,8 @@
     split: 1
     text: "奇经八脉谱·卷三·诛心"
     translated: "Qi Jing Ba Mai Pu · Volume Three: Annihilating the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54760
   raw: "54760#奇经八脉谱·卷四·诛心#3#12#11#13#1560#1#0#1#0#0#miji7#54760#0#56760#0#3600#0##600##54072|2&54039|2#0#0#0#2082#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56195,8 +56195,8 @@
     split: 1
     text: "奇经八脉谱·卷四·诛心"
     translated: "The Catalogue of the Eight Extraordinary Vessels - Volume Four: Annihilation of the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54761
   raw: "54761#奇经八脉谱·卷五·诛心#3#12#12#14#4056#1#0#1#0#0#miji8#54761#0#56761#0#3600#0##900##54073|3&54040|3#0#0#0#2083#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56205,8 +56205,8 @@
     split: 1
     text: "奇经八脉谱·卷五·诛心"
     translated: "The Five Volumes of the Eight Extraordinary Channels · Volume Five · Exorcising the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54762
   raw: "54762#奇经八脉谱·卷六·诛心#3#12#13#15#10546#1#0#1#0#0#miji9#54762#0#56762#0#3600#0##1400##54074|3&54041|3#0#0#0#2084#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56215,8 +56215,8 @@
     split: 1
     text: "奇经八脉谱·卷六·诛心"
     translated: "The Sixth Scroll of the Eight Extraordinary Meridians - The Slaying of the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54763
   raw: "54763#奇经八脉谱·卷七·诛心#3#12#14#16#27418#1#0#1#0#0#miji15#54763#0#56763#0#3600#0##2000##54075|3&54042|3#0#0#0#2085#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56225,8 +56225,8 @@
     split: 1
     text: "奇经八脉谱·卷七·诛心"
     translated: "The Qi Jing Ba Mai P'u · Volume Seven · Slay the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Mind break,诛心,"
     flaggedHallucination: ""
 - lineNum: 54764
   raw: "54764#奇经八脉谱·卷一·御心#3#12#10#10#150#1#0#1#0#0#miji1#54764#0#56764#0#3600#0##200##54069|1&54036|1#0#0#0#2091#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56235,8 +56235,8 @@
     split: 1
     text: "奇经八脉谱·卷一·御心"
     translated: "The Eight Extraordinary Vessels Map: Volume One · Govern the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54765
   raw: "54765#奇经八脉谱·卷二·御心#3#12#10#11#300#1#0#1#0#0#shuxin3#54765#0#56765#0#3600#0##300##54070|1&54037|1#0#0#0#2091#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56245,8 +56245,8 @@
     split: 1
     text: "奇经八脉谱·卷二·御心"
     translated: "The Eight Extraordinary Vessels Chart - Volume Two · Regulating the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54766
   raw: "54766#奇经八脉谱·卷三·御心#3#12#11#12#780#1#0#1#0#0#miji2#54766#0#56766#0#3600#0##400##54071|2&54038|2#0#0#0#2092#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56255,8 +56255,8 @@
     split: 1
     text: "奇经八脉谱·卷三·御心"
     translated: "In the third scroll of the Qi Jing Ba Mai Chart, it is said that The Emperor's Heart should be as still and serene as a mirror; it must remain free from all disturbances and external influences. Just like the moon reflects upon calm waters without ripples, so too should one's mind reflect truth with clarity."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54767
   raw: "54767#奇经八脉谱·卷四·御心#3#12#11#13#1560#1#0#1#0#0#miji7#54767#0#56767#0#3600#0##600##54072|2&54039|2#0#0#0#2092#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56265,8 +56265,8 @@
     split: 1
     text: "奇经八脉谱·卷四·御心"
     translated: "The Essence of the Eight Extraordinary Channels · Volume Four · Control Your Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54768
   raw: "54768#奇经八脉谱·卷五·御心#3#12#12#14#4056#1#0#1#0#0#miji8#54768#0#56768#0#3600#0##900##54073|3&54040|3#0#0#0#2093#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56275,8 +56275,8 @@
     split: 1
     text: "奇经八脉谱·卷五·御心"
     translated: "The Fifth Scroll of the Diagrams of the Extraordinary Vessels: Controlling the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54769
   raw: "54769#奇经八脉谱·卷六·御心#3#12#13#15#10546#1#0#1#0#0#miji9#54769#0#56769#0#3600#0##1400##54074|3&54041|3#0#0#0#2094#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56285,8 +56285,8 @@
     split: 1
     text: "奇经八脉谱·卷六·御心"
     translated: "Qi Jing Ba Mai Pu · Volume Six · Imperial Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54770
   raw: "54770#奇经八脉谱·卷七·御心#3#12#14#16#27418#1#0#1#0#0#miji15#54770#0#56770#0#3600#0##2000##54075|3&54042|3#0#0#0#2095#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56295,8 +56295,8 @@
     split: 1
     text: "奇经八脉谱·卷七·御心"
     translated: "The Qi Jing Ba Mai Chart - Volume Seven: Subduing the Heart"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Discipline,御心,"
     flaggedHallucination: ""
 - lineNum: 54771
   raw: "54771#奇经八脉谱·卷一·要害#3#12#10#10#150#1#0#1#0#0#miji1#54771#0#56771#0#3600#0##200##54069|1&54036|1#0#0#0#2101#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56305,8 +56305,8 @@
     split: 1
     text: "奇经八脉谱·卷一·要害"
     translated: "Meridians and Vessels Canon · Volume One · Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54772
   raw: "54772#奇经八脉谱·卷二·要害#3#12#10#11#300#1#0#1#0#0#shuxin3#54772#0#56772#0#3600#0##300##54070|1&54037|1#0#0#0#2101#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56315,8 +56315,8 @@
     split: 1
     text: "奇经八脉谱·卷二·要害"
     translated: "The Eight Extraordinary Channels Map · Volume Two · Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54773
   raw: "54773#奇经八脉谱·卷三·要害#3#12#11#12#780#1#0#1#0#0#miji2#54773#0#56773#0#3600#0##400##54071|2&54038|2#0#0#0#2102#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56325,8 +56325,8 @@
     split: 1
     text: "奇经八脉谱·卷三·要害"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Critical Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54774
   raw: "54774#奇经八脉谱·卷四·要害#3#12#11#13#1560#1#0#1#0#0#miji7#54774#0#56774#0#3600#0##600##54072|2&54039|2#0#0#0#2102#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56335,8 +56335,8 @@
     split: 1
     text: "奇经八脉谱·卷四·要害"
     translated: "The Chart of the Eight Extraordinary Vessels · Volume Four · Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54775
   raw: "54775#奇经八脉谱·卷五·要害#3#12#12#14#4056#1#0#1#0#0#miji8#54775#0#56775#0#3600#0##900##54073|3&54040|3#0#0#0#2103#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56345,8 +56345,8 @@
     split: 1
     text: "奇经八脉谱·卷五·要害"
     translated: "The Meridians of the Eight Extraordinary Vessels, Volume Five: Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54776
   raw: "54776#奇经八脉谱·卷六·要害#3#12#13#15#10546#1#0#1#0#0#miji9#54776#0#56776#0#3600#0##1400##54074|3&54041|3#0#0#0#2104#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56355,8 +56355,8 @@
     split: 1
     text: "奇经八脉谱·卷六·要害"
     translated: "Qi Jing Ba Mai Pu · Volume Six · Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54777
   raw: "54777#奇经八脉谱·卷七·要害#3#12#14#16#27418#1#0#1#0#0#miji15#54777#0#56777#0#3600#0##2000##54075|3&54042|3#0#0#0#2105#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56365,8 +56365,8 @@
     split: 1
     text: "奇经八脉谱·卷七·要害"
     translated: "The Qijing Balu Pian: Volume Seven - Vital Points"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
 - lineNum: 54778
   raw: "54778#奇经八脉谱·卷一·化解#3#12#10#10#150#1#0#1#0#0#miji1#54778#0#56778#0#3600#0##200##54069|1&54036|1#0#0#0#2111#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56375,8 +56375,8 @@
     split: 1
     text: "奇经八脉谱·卷一·化解"
     translated: "The Eight Extraordinary Vessels Chart - Volume One: Resolution"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54779
   raw: "54779#奇经八脉谱·卷二·化解#3#12#10#11#300#1#0#1#0#0#shuxin3#54779#0#56779#0#3600#0##300##54070|1&54037|1#0#0#0#2111#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56385,8 +56385,8 @@
     split: 1
     text: "奇经八脉谱·卷二·化解"
     translated: "The Eight Extraordinary Channels Map - Volume Two: Dissolving Obstructions"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54780
   raw: "54780#奇经八脉谱·卷三·化解#3#12#11#12#780#1#0#1#0#0#miji2#54780#0#56780#0#3600#0##400##54071|2&54038|2#0#0#0#2112#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56395,8 +56395,8 @@
     split: 1
     text: "奇经八脉谱·卷三·化解"
     translated: "The Eight Extraordinary Channels - Volume Three: Resolution"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54781
   raw: "54781#奇经八脉谱·卷四·化解#3#12#11#13#1560#1#0#1#0#0#miji7#54781#0#56781#0#3600#0##600##54072|2&54039|2#0#0#0#2112#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56405,8 +56405,8 @@
     split: 1
     text: "奇经八脉谱·卷四·化解"
     translated: "Eight Extraordinary Vessels Diagram · Volume Four · Resolution"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54782
   raw: "54782#奇经八脉谱·卷五·化解#3#12#12#14#4056#1#0#1#0#0#miji8#54782#0#56782#0#3600#0##900##54073|3&54040|3#0#0#0#2113#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56415,8 +56415,8 @@
     split: 1
     text: "奇经八脉谱·卷五·化解"
     translated: "Qi Jing Ba Mai Pu · Volume Five · Transmutation"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54783
   raw: "54783#奇经八脉谱·卷六·化解#3#12#13#15#10546#1#0#1#0#0#miji9#54783#0#56783#0#3600#0##1400##54074|3&54041|3#0#0#0#2114#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56425,8 +56425,8 @@
     split: 1
     text: "奇经八脉谱·卷六·化解"
     translated: "In Qi Jing Ba Mai Pu · Volume Six · Transformation, the essence of the eight extraordinary meridians is elucidated. This chapter delves into the transformative processes, emphasizing how these pathways can be harnessed to achieve balance and vitality within one's internal landscape"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54784
   raw: "54784#奇经八脉谱·卷七·化解#3#12#14#16#27418#1#0#1#0#0#miji15#54784#0#56784#0#3600#0##2000##54075|3&54042|3#0#0#0#2115#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56435,8 +56435,8 @@
     split: 1
     text: "奇经八脉谱·卷七·化解"
     translated: "The Seventh Scroll of the Chart of Eight Extraordinary Vessels: Dispelling"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 54785
   raw: "54785#奇经八脉谱·卷一·阴#3#12#10#10#150#1#0#1#0#0#miji1#54785#0#56785#0#3600#0##200##54069|1&54036|1#0#0#0#2121#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56585,8 +56585,8 @@
     split: 1
     text: "奇经八脉谱·卷一·刚"
     translated: "The First Volume of the Meridian Map of the Eight Extraordinary Channels"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 54800
   raw: "54800#奇经八脉谱·卷二·刚#3#12#10#11#300#1#0#1#0#0#shuxin3#54800#0#56800#0#3600#0##300##54070|1&54037|1#0#0#0#2141#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56595,8 +56595,8 @@
     split: 1
     text: "奇经八脉谱·卷二·刚"
     translated: "In the second scroll of The Diagrams of the Eight Extraordinary Channels, there is a focus on firmness. This section delves into the intricacies of how these channels contribute to the strength and resilience of the body, emphasizing their role in maintaining balance and vitality within the energy flow."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 54801
   raw: "54801#奇经八脉谱·卷三·刚#3#12#11#12#780#1#0#1#0#0#miji2#54801#0#56801#0#3600#0##400##54071|2&54038|2#0#0#0#2142#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56615,8 +56615,8 @@
     split: 1
     text: "奇经八脉谱·卷四·刚"
     translated: "The Eight Extraordinary Channels in the Book of Qi Jing Ba Mai Volume Four: Gang"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 54803
   raw: "54803#奇经八脉谱·卷五·刚#3#12#12#14#4056#1#0#1#0#0#miji8#54803#0#56803#0#3600#0##900##54073|3&54040|3#0#0#0#2143#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56625,8 +56625,8 @@
     split: 1
     text: "奇经八脉谱·卷五·刚"
     translated: "The Pictorial of the Eight Extraordinary Meridians, Volume Five: Yang"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 54804
   raw: "54804#奇经八脉谱·卷六·刚#3#12#13#15#10546#1#0#1#0#0#miji9#54804#0#56804#0#3600#0##1400##54074|3&54041|3#0#0#0#2144#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56635,8 +56635,8 @@
     split: 1
     text: "奇经八脉谱·卷六·刚"
     translated: "In the Sixth Scroll of the Qi Jing Ba Mai Pu, it discusses the Eight Extraordinary Channels, focusing on the robust and vigorous nature of these channels. These passages highlight the vital energy pathways that are essential for maintaining life force and ensuring health in accordance with traditional Chinese medicine principles"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 54805
   raw: "54805#奇经八脉谱·卷七·刚#3#12#14#16#27418#1#0#1#0#0#miji15#54805#0#56805#0#3600#0##2000##54075|3&54042|3#0#0#0#2145#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56795,8 +56795,8 @@
     split: 1
     text: "奇经八脉谱·卷一·元气"
     translated: "The Qi Jing Ba Mai Spectrum, Volume One - Yuan Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54821
   raw: "54821#奇经八脉谱·卷二·元气#3#12#10#11#300#1#0#1#0#0#shuxin3#54821#0#56821#0#3600#0##300##54070|1&54037|1#0#0#0#2171#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56805,8 +56805,8 @@
     split: 1
     text: "奇经八脉谱·卷二·元气"
     translated: "Qi Jing Ba Mai Pu · Volume Two · Yuan Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54822
   raw: "54822#奇经八脉谱·卷三·元气#3#12#11#12#780#1#0#1#0#0#miji2#54822#0#56822#0#3600#0##400##54071|2&54038|2#0#0#0#2172#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56815,8 +56815,8 @@
     split: 1
     text: "奇经八脉谱·卷三·元气"
     translated: "Chengqi Ba Mai Pu · Volume Three · Yuan Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54823
   raw: "54823#奇经八脉谱·卷四·元气#3#12#11#13#1560#1#0#1#0#0#miji7#54823#0#56823#0#3600#0##600##54072|2&54039|2#0#0#0#2172#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56825,8 +56825,8 @@
     split: 1
     text: "奇经八脉谱·卷四·元气"
     translated: "The Pattern of the Eight Extraordinary Meridians · Volume Four · Yuan Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54824
   raw: "54824#奇经八脉谱·卷五·元气#3#12#12#14#4056#1#0#1#0#0#miji8#54824#0#56824#0#3600#0##900##54073|3&54040|3#0#0#0#2173#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56835,8 +56835,8 @@
     split: 1
     text: "奇经八脉谱·卷五·元气"
     translated: "The Meridian Map of the Eight Extraordinary Vessels · Volume Five · Primordial Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54825
   raw: "54825#奇经八脉谱·卷六·元气#3#12#13#15#10546#1#0#1#0#0#miji9#54825#0#56825#0#3600#0##1400##54074|3&54041|3#0#0#0#2174#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56845,8 +56845,8 @@
     split: 1
     text: "奇经八脉谱·卷六·元气"
     translated: "The Six Visceral Channels of the Qi Spectrum · Volume Six · Primordial Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54826
   raw: "54826#奇经八脉谱·卷七·元气#3#12#14#16#27418#1#0#1#0#0#miji15#54826#0#56826#0#3600#0##2000##54075|3&54042|3#0#0#0#2175#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56855,8 +56855,8 @@
     split: 1
     text: "奇经八脉谱·卷七·元气"
     translated: "Qi Jing Ba Mai Pu · Volume Seven · Yuan Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Lifeforce,元气,"
     flaggedHallucination: ""
 - lineNum: 54827
   raw: "54827#奇经八脉谱·卷一·根骨#3#12#10#10#150#1#0#1#0#0#miji1#54827#0#56827#0#3600#0##200##54069|1&54036|1#0#0#0#2181#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56865,8 +56865,8 @@
     split: 1
     text: "奇经八脉谱·卷一·根骨"
     translated: "The Pattern of the Eight Extraordinary Meridians · Volume One · Essence Constitution"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54828
   raw: "54828#奇经八脉谱·卷二·根骨#3#12#10#11#300#1#0#1#0#0#shuxin3#54828#0#56828#0#3600#0##300##54070|1&54037|1#0#0#0#2181#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56875,8 +56875,8 @@
     split: 1
     text: "奇经八脉谱·卷二·根骨"
     translated: "Pulse Chart of the Eight Extraordinary Channels · Volume Two · Root and Bone Structure"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54829
   raw: "54829#奇经八脉谱·卷三·根骨#3#12#11#12#780#1#0#1#0#0#miji2#54829#0#56829#0#3600#0##400##54071|2&54038|2#0#0#0#2182#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56885,8 +56885,8 @@
     split: 1
     text: "奇经八脉谱·卷三·根骨"
     translated: "Root Bone Melody · Volume Three"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54830
   raw: "54830#奇经八脉谱·卷四·根骨#3#12#11#13#1560#1#0#1#0#0#miji7#54830#0#56830#0#3600#0##600##54072|2&54039|2#0#0#0#2182#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56895,8 +56895,8 @@
     split: 1
     text: "奇经八脉谱·卷四·根骨"
     translated: "The Eighth Chapter of the Qi Jing Ba Mai Atlas - Roots and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54831
   raw: "54831#奇经八脉谱·卷五·根骨#3#12#12#14#4056#1#0#1#0#0#miji8#54831#0#56831#0#3600#0##900##54073|3&54040|3#0#0#0#2183#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56905,8 +56905,8 @@
     split: 1
     text: "奇经八脉谱·卷五·根骨"
     translated: "Wondrous Meridian Chart · Volume Five · Bone Structure"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54832
   raw: "54832#奇经八脉谱·卷六·根骨#3#12#13#15#10546#1#0#1#0#0#miji9#54832#0#56832#0#3600#0##1400##54074|3&54041|3#0#0#0#2184#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56915,8 +56915,8 @@
     split: 1
     text: "奇经八脉谱·卷六·根骨"
     translated: "Qi Jing Ba Mai Pu · Volume Six · Constitutional Strength"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54833
   raw: "54833#奇经八脉谱·卷七·根骨#3#12#14#16#27418#1#0#1#0#0#miji15#54833#0#56833#0#3600#0##2000##54075|3&54042|3#0#0#0#2185#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56925,8 +56925,8 @@
     split: 1
     text: "奇经八脉谱·卷七·根骨"
     translated: "Root Constitution - Chapter Seven of the Qi Jing Ba Mai Pictorial"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Potential,根骨,"
     flaggedHallucination: ""
 - lineNum: 54834
   raw: "54834#奇经八脉谱·卷一·筋骨#3#12#10#10#150#1#0#1#0#0#miji1#54834#0#56834#0#3600#0##200##54069|1&54036|1#0#0#0#2191#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56935,8 +56935,8 @@
     split: 1
     text: "奇经八脉谱·卷一·筋骨"
     translated: "The Eight Extraordinary Channels Chart · Volume One · Muscles and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54835
   raw: "54835#奇经八脉谱·卷二·筋骨#3#12#10#11#300#1#0#1#0#0#shuxin3#54835#0#56835#0#3600#0##300##54070|1&54037|1#0#0#0#2191#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56945,8 +56945,8 @@
     split: 1
     text: "奇经八脉谱·卷二·筋骨"
     translated: "The Eight Extraordinary Channels Chart, Volume Two: Tendons and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54836
   raw: "54836#奇经八脉谱·卷三·筋骨#3#12#11#12#780#1#0#1#0#0#miji2#54836#0#56836#0#3600#0##400##54071|2&54038|2#0#0#0#2192#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56955,8 +56955,8 @@
     split: 1
     text: "奇经八脉谱·卷三·筋骨"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Tendons and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54837
   raw: "54837#奇经八脉谱·卷四·筋骨#3#12#11#13#1560#1#0#1#0#0#miji7#54837#0#56837#0#3600#0##600##54072|2&54039|2#0#0#0#2192#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -56965,8 +56965,8 @@
     split: 1
     text: "奇经八脉谱·卷四·筋骨"
     translated: "The Eight Extraordinary Channels Diagram - Volume Four: Muscles and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54838
   raw: "54838#奇经八脉谱·卷五·筋骨#3#12#12#14#4056#1#0#1#0#0#miji8#54838#0#56838#0#3600#0##900##54073|3&54040|3#0#0#0#2193#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56975,8 +56975,8 @@
     split: 1
     text: "奇经八脉谱·卷五·筋骨"
     translated: "Qi Jing Ba Mai Pu · Volume Five · Muscles and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54839
   raw: "54839#奇经八脉谱·卷六·筋骨#3#12#13#15#10546#1#0#1#0#0#miji9#54839#0#56839#0#3600#0##1400##54074|3&54041|3#0#0#0#2194#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56985,8 +56985,8 @@
     split: 1
     text: "奇经八脉谱·卷六·筋骨"
     translated: "Qi Jing Ba Mai Pu · Volume Six · Tendons and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54840
   raw: "54840#奇经八脉谱·卷七·筋骨#3#12#14#16#27418#1#0#1#0#0#miji15#54840#0#56840#0#3600#0##2000##54075|3&54042|3#0#0#0#2195#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -56995,8 +56995,8 @@
     split: 1
     text: "奇经八脉谱·卷七·筋骨"
     translated: "The Seventh Scroll of the Meridian Chart of the Extraordinary Channels · Muscles and Bones"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Strength,筋骨,"
     flaggedHallucination: ""
 - lineNum: 54841
   raw: "54841#奇经八脉谱·卷一·内息#3#12#10#10#150#1#0#1#0#0#miji1#54841#0#56841#0#3600#0##200##54069|1&54036|1#0#0#0#2201#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57005,8 +57005,8 @@
     split: 1
     text: "奇经八脉谱·卷一·内息"
     translated: "The Chart of Eight Extraordinary Channels · Volume One · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54842
   raw: "54842#奇经八脉谱·卷二·内息#3#12#10#11#300#1#0#1#0#0#shuxin3#54842#0#56842#0#3600#0##300##54070|1&54037|1#0#0#0#2201#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57015,8 +57015,8 @@
     split: 1
     text: "奇经八脉谱·卷二·内息"
     translated: "The Eight Extraordinary Channels Spectrum · Volume Two · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54843
   raw: "54843#奇经八脉谱·卷三·内息#3#12#11#12#780#1#0#1#0#0#miji2#54843#0#56843#0#3600#0##400##54071|2&54038|2#0#0#0#2202#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57025,8 +57025,8 @@
     split: 1
     text: "奇经八脉谱·卷三·内息"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54844
   raw: "54844#奇经八脉谱·卷四·内息#3#12#11#13#1560#1#0#1#0#0#miji7#54844#0#56844#0#3600#0##600##54072|2&54039|2#0#0#0#2202#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57035,8 +57035,8 @@
     split: 1
     text: "奇经八脉谱·卷四·内息"
     translated: "The Map of the Eight Extraordinary Vessels · Volume Four · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54845
   raw: "54845#奇经八脉谱·卷五·内息#3#12#12#14#4056#1#0#1#0#0#miji8#54845#0#56845#0#3600#0##900##54073|3&54040|3#0#0#0#2203#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57045,8 +57045,8 @@
     split: 1
     text: "奇经八脉谱·卷五·内息"
     translated: "The Mystical Chart of the Eight Extraordinary Channels · Volume Five · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54846
   raw: "54846#奇经八脉谱·卷六·内息#3#12#13#15#10546#1#0#1#0#0#miji9#54846#0#56846#0#3600#0##1400##54074|3&54041|3#0#0#0#2204#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57055,8 +57055,8 @@
     split: 1
     text: "奇经八脉谱·卷六·内息"
     translated: "The Meridians of the Eight Extraordinary Channels · Volume Six · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54847
   raw: "54847#奇经八脉谱·卷七·内息#3#12#14#16#27418#1#0#1#0#0#miji15#54847#0#56847#0#3600#0##2000##54075|3&54042|3#0#0#0#2205#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57065,8 +57065,8 @@
     split: 1
     text: "奇经八脉谱·卷七·内息"
     translated: "Qi Jing Ba Mai Pu · Volume Seven · Internal Qi"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Inner Qi,内息,"
     flaggedHallucination: ""
 - lineNum: 54848
   raw: "54848#奇经八脉谱·卷一·体魄#3#12#10#10#150#1#0#1#0#0#miji1#54848#0#56848#0#3600#0##200##54069|1&54036|1#0#0#0#2211#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57075,8 +57075,8 @@
     split: 1
     text: "奇经八脉谱·卷一·体魄"
     translated: "The Pictorial Chart of the Eight Extraordinary Meridians · Volume One · Physical Strength"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54849
   raw: "54849#奇经八脉谱·卷二·体魄#3#12#10#11#300#1#0#1#0#0#shuxin3#54849#0#56849#0#3600#0##300##54070|1&54037|1#0#0#0#2211#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57085,8 +57085,8 @@
     split: 1
     text: "奇经八脉谱·卷二·体魄"
     translated: "The Chart of the Eight Extraordinary Channels · Volume Two · Spirit and Corpse"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54850
   raw: "54850#奇经八脉谱·卷三·体魄#3#12#11#12#780#1#0#1#0#0#miji2#54850#0#56850#0#3600#0##400##54071|2&54038|2#0#0#0#2212#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57095,8 +57095,8 @@
     split: 1
     text: "奇经八脉谱·卷三·体魄"
     translated: "Qi Jing Ba Mai Pu · Volume Three · Corporeal Vitality"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54851
   raw: "54851#奇经八脉谱·卷四·体魄#3#12#11#13#1560#1#0#1#0#0#miji7#54851#0#56851#0#3600#0##600##54072|2&54039|2#0#0#0#2212#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57105,8 +57105,8 @@
     split: 1
     text: "奇经八脉谱·卷四·体魄"
     translated: "Qi Jing Ba Mai Pu · Volume Four · Body and Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54852
   raw: "54852#奇经八脉谱·卷五·体魄#3#12#12#14#4056#1#0#1#0#0#miji8#54852#0#56852#0#3600#0##900##54073|3&54040|3#0#0#0#2213#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57115,8 +57115,8 @@
     split: 1
     text: "奇经八脉谱·卷五·体魄"
     translated: "Meridian Chart of the Eight Extraordinary Channels - Volume Five · Body and Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54853
   raw: "54853#奇经八脉谱·卷六·体魄#3#12#13#15#10546#1#0#1#0#0#miji9#54853#0#56853#0#3600#0##1400##54074|3&54041|3#0#0#0#2214#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57125,8 +57125,8 @@
     split: 1
     text: "奇经八脉谱·卷六·体魄"
     translated: "The Sixth Scroll of the Meridian Chart: Corporeal Vitality"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54854
   raw: "54854#奇经八脉谱·卷七·体魄#3#12#14#16#27418#1#0#1#0#0#miji15#54854#0#56854#0#3600#0##2000##54075|3&54042|3#0#0#0#2215#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57135,8 +57135,8 @@
     split: 1
     text: "奇经八脉谱·卷七·体魄"
     translated: "Qi Jing Ba Mai Pu · Volume Seven · Body and Soul"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Constitution,体魄,"
     flaggedHallucination: ""
 - lineNum: 54855
   raw: "54855#奇经八脉谱·卷一·精神#3#12#10#10#150#1#0#1#0#0#miji1#54855#0#56855#0#3600#0##200##54069|1&54036|1#0#0#0#2221#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57145,8 +57145,8 @@
     split: 1
     text: "奇经八脉谱·卷一·精神"
     translated: "Qi Jing Ba Mai Pu · Volume One · Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54856
   raw: "54856#奇经八脉谱·卷二·精神#3#12#10#11#300#1#0#1#0#0#shuxin3#54856#0#56856#0#3600#0##300##54070|1&54037|1#0#0#0#2221#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57155,8 +57155,8 @@
     split: 1
     text: "奇经八脉谱·卷二·精神"
     translated: "In the second scroll of the Qi Jing Ba Mai Pu, we delve into the realm of spirit. This section explores how the eight extraordinary vessels interconnect with the spiritual aspects of one's being, emphasizing their profound influence on mental and emotional states. The ancient text offers insights into harmonizing these pathways to cultivate a balanced and enlightened mind"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54857
   raw: "54857#奇经八脉谱·卷三·精神#3#12#11#12#780#1#0#1#0#0#miji2#54857#0#56857#0#3600#0##400##54071|2&54038|2#0#0#0#2222#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57165,8 +57165,8 @@
     split: 1
     text: "奇经八脉谱·卷三·精神"
     translated: "Qijing Bamai Pu · Juan San · Jingxin"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54858
   raw: "54858#奇经八脉谱·卷四·精神#3#12#11#13#1560#1#0#1#0#0#miji7#54858#0#56858#0#3600#0##600##54072|2&54039|2#0#0#0#2222#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57175,8 +57175,8 @@
     split: 1
     text: "奇经八脉谱·卷四·精神"
     translated: "The fourth scroll of the Diagram of the Eight Extraordinary Meridians focuses on Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54859
   raw: "54859#奇经八脉谱·卷五·精神#3#12#12#14#4056#1#0#1#0#0#miji8#54859#0#56859#0#3600#0##900##54073|3&54040|3#0#0#0#2223#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57185,8 +57185,8 @@
     split: 1
     text: "奇经八脉谱·卷五·精神"
     translated: "Qi Jing Ba Mai Pu · Volume Five: Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54860
   raw: "54860#奇经八脉谱·卷六·精神#3#12#13#15#10546#1#0#1#0#0#miji9#54860#0#56860#0#3600#0##1400##54074|3&54041|3#0#0#0#2224#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57195,8 +57195,8 @@
     split: 1
     text: "奇经八脉谱·卷六·精神"
     translated: "The Sixth Scroll of the Chart of the Eight Extraordinary Meridians · Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54861
   raw: "54861#奇经八脉谱·卷七·精神#3#12#14#16#27418#1#0#1#0#0#miji15#54861#0#56861#0#3600#0##2000##54075|3&54042|3#0#0#0#2225#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57205,8 +57205,8 @@
     split: 1
     text: "奇经八脉谱·卷七·精神"
     translated: "Qi Jing Ba Mai Pu · Volume Seven: Spirit"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Willpower,精神,"
     flaggedHallucination: ""
 - lineNum: 54862
   raw: "54862#奇经八脉谱·卷一·身法#3#12#10#10#150#1#0#1#0#0#miji1#54862#0#56862#0#3600#0##200##54069|1&54036|1#0#0#0#2231#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57215,8 +57215,8 @@
     split: 1
     text: "奇经八脉谱·卷一·身法"
     translated: "The Eight Extraordinary Vessels Chart · Volume One · Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54863
   raw: "54863#奇经八脉谱·卷二·身法#3#12#10#11#300#1#0#1#0#0#shuxin3#54863#0#56863#0#3600#0##300##54070|1&54037|1#0#0#0#2231#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57225,8 +57225,8 @@
     split: 1
     text: "奇经八脉谱·卷二·身法"
     translated: "Wondrous Meridians Chart, Volume Two: Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54864
   raw: "54864#奇经八脉谱·卷三·身法#3#12#11#12#780#1#0#1#0#0#miji2#54864#0#56864#0#3600#0##400##54071|2&54038|2#0#0#0#2232#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57235,8 +57235,8 @@
     split: 1
     text: "奇经八脉谱·卷三·身法"
     translated: "The Eight Extraordinary Meridians: Volume Three - Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54865
   raw: "54865#奇经八脉谱·卷四·身法#3#12#11#13#1560#1#0#1#0#0#miji7#54865#0#56865#0#3600#0##600##54072|2&54039|2#0#0#0#2232#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57245,8 +57245,8 @@
     split: 1
     text: "奇经八脉谱·卷四·身法"
     translated: "Intricate Pathways of the Qi Jing Ba Mai · Volume Four · Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54866
   raw: "54866#奇经八脉谱·卷五·身法#3#12#12#14#4056#1#0#1#0#0#miji8#54866#0#56866#0#3600#0##900##54073|3&54040|3#0#0#0#2233#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57255,8 +57255,8 @@
     split: 1
     text: "奇经八脉谱·卷五·身法"
     translated: "The Eight Extraordinary Meridians Chart · Volume Five · Martial Arts Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54867
   raw: "54867#奇经八脉谱·卷六·身法#3#12#13#15#10546#1#0#1#0#0#miji9#54867#0#56867#0#3600#0##1400##54074|3&54041|3#0#0#0#2234#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57265,8 +57265,8 @@
     split: 1
     text: "奇经八脉谱·卷六·身法"
     translated: "The Eight Extraordinary Meridians Chart · Volume Six · Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54868
   raw: "54868#奇经八脉谱·卷七·身法#3#12#14#16#27418#1#0#1#0#0#miji15#54868#0#56868#0#3600#0##2000##54075|3&54042|3#0#0#0#2235#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57275,8 +57275,8 @@
     split: 1
     text: "奇经八脉谱·卷七·身法"
     translated: "Qijing Ba Mai Pu · Volume Seven · Body Techniques"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Agility,身法,"
     flaggedHallucination: ""
 - lineNum: 54869
   raw: "54869#奇经八脉谱·卷一·专注#3#12#10#10#150#1#0#1#0#0#miji1#54869#0#56869#0#3600#0##200##54069|1&54036|1#0#0#0#2241#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57285,8 +57285,8 @@
     split: 1
     text: "奇经八脉谱·卷一·专注"
     translated: "The Eight Extraordinary Vessels Diagram - Volume One: Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54870
   raw: "54870#奇经八脉谱·卷二·专注#3#12#10#11#300#1#0#1#0#0#shuxin3#54870#0#56870#0#3600#0##300##54070|1&54037|1#0#0#0#2241#1#2###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57295,8 +57295,8 @@
     split: 1
     text: "奇经八脉谱·卷二·专注"
     translated: "The Meridian Map of the Eight Extraordinary Channels - Volume Two - Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54871
   raw: "54871#奇经八脉谱·卷三·专注#3#12#11#12#780#1#0#1#0#0#miji2#54871#0#56871#0#3600#0##400##54071|2&54038|2#0#0#0#2242#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57305,8 +57305,8 @@
     split: 1
     text: "奇经八脉谱·卷三·专注"
     translated: "Qi Jing Ba Mai Pu · Volume Three: Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54872
   raw: "54872#奇经八脉谱·卷四·专注#3#12#11#13#1560#1#0#1#0#0#miji7#54872#0#56872#0#3600#0##600##54072|2&54039|2#0#0#0#2242#2#3###all#0###0##0#0#0#0#0#0#0#0#0#"
@@ -57315,8 +57315,8 @@
     split: 1
     text: "奇经八脉谱·卷四·专注"
     translated: "The Eighth Chapter of the Meridian Spectrum · Volume Four · Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54873
   raw: "54873#奇经八脉谱·卷五·专注#3#12#12#14#4056#1#0#1#0#0#miji8#54873#0#56873#0#3600#0##900##54073|3&54040|3#0#0#0#2243#3#4####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57335,8 +57335,8 @@
     split: 1
     text: "奇经八脉谱·卷六·专注"
     translated: "The Elixir of the Eight Extraordinary Channels · Volume Six · Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54875
   raw: "54875#奇经八脉谱·卷七·专注#3#12#14#16#27418#1#0#1#0#0#miji15#54875#0#56875#0#3600#0##2000##54075|3&54042|3#0#0#0#2245#4#5####0###0##0#0#0#0#0#0#0#0#0#"
@@ -57345,8 +57345,8 @@
     split: 1
     text: "奇经八脉谱·卷七·专注"
     translated: "The Seven Meridians of the Extraordinary Vessels · Volume Seven · Concentration"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Focus,专注,"
     flaggedHallucination: ""
 - lineNum: 54901
   raw: "54901#龙元#3#20#14#16#27418#99#0#1#0#0#new1_lhj#54901#0#56901#0#3600#0####MIJUAN#0#0#0#8701#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#"
@@ -57425,8 +57425,8 @@
     split: 1
     text: "玉蜂毒"
     translated: "Jade Bee Venom"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 54909
   raw: "54909#寒潭白鱼#3#20#14#16#27418#99#0#1#0#0#hetun#54909#0#56909#0#3600#0####MIJUAN#0#0#0#8709#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#"
@@ -60504,7 +60504,7 @@
     text: "秘法：阴雨晦冥"
     translated: "Mysterious Technique：It's a gloomy, overcast day with persistent rain"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 64015
   raw: "64015#秘法：若华为光#4#17#10#10#150#99#0#1#0#0#miji1#64015#0#66015#0#3600#0##2002###0#0#0#0#0#0####0##0&18|1|51|10|>=#0##0#0#0#0#0#0#0#0#0#"
@@ -60524,7 +60524,7 @@
     text: "秘法：沉潜刚克"
     translated: "Secret Art：With quiet perseverance, one overcomes challenges"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 64017
   raw: "64017#秘法：云浸潮涌#4#17#10#10#150#99#0#1#0#0#miji1#64017#0#66017#0#3600#0##2004###0#0#0#0#0#0####0##0&18|1|51|10|>=#0##0#0#0#0#0#0#0#0#0#"
@@ -60954,7 +60954,7 @@
     text: "秘术：丹华克毒卷"
     translated: "Secret Art：The Scroll of Venomous Lotus"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 64060
   raw: "64060#秘术：五毒护心诀#4#17#11#12#460#99#0#1#0#0#miji3#64060#0#66060#0#3600#0##107###0#0#0#0#0#0####0##0&18|1|50|250|>#0##0#0#0#0#0#0#0#0#0#"
@@ -60964,7 +60964,7 @@
     text: "秘术：五毒护心诀"
     translated: "Mystic Art：The Five Toxic Heart Techniques"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 64061
   raw: "64061#秘术：桂枝丹诀#4#17#11#12#460#99#0#1#0#0#miji3#64061#0#66061#0#3600#0##108###0#0#0#0#0#0####0##0&18|1|50|250|>#0##0#0#0#0#0#0#0#0#0#"
@@ -61144,7 +61144,7 @@
     text: "秘法：逢阳宁心"
     translated: "Secret Technique：Encounter the Sun, Inner Peace"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 64079
   raw: "64079#秘法：菩提切玉#4#17#10#10#150#99#0#1#0#0#miji1#64079#0#66079#0#3600#0##1003###0#0#0#0#0#0####0##0&18|1|50|10|>=#0##0#0#0#0#0#0#0#0#0#"
@@ -62964,7 +62964,7 @@
     text: "秘法：玄阳天阵"
     translated: "Arcane Technique：Dark Heaven's Formation"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 64261
   raw: "64261#秘法：极光赤炎#4#17#10#11#263#99#0#1#0#0#miji5#64261#0#66261#0#3600#0##2024###0#0#0#0#0#0####0##0&18|1|51|100|>#0##0#0#0#0#0#0#0#0#0#"
@@ -63604,7 +63604,7 @@
     text: "秘法：千雨破初阳"
     translated: "Secret Technique：Thousand Rains Breaks Dawn"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 64325
   raw: "64325#秘法：月读秘抄#4#17#11#12#575#99#0#1#0#0#miji4#64325#0#66325#0#3600#0##3021###0#0#0#0#0#0####0##0&89|7102#0##0#0#0#0#0#0#0#0#0#"
@@ -64563,8 +64563,8 @@
     split: 1
     text: "御兽宝典·毒虫卷·苍蛇篇"
     translated: "Empire Beast Chronicles · Venomous Creatures Volume · Blue Serpent Chapter"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 69202
   raw: "69202#御兽宝典·毒虫卷·虿尾篇#4#20#12#15#8681#99#0#1#0#0#miji14#69202#0#71202#0#3600#0#3025####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -64583,8 +64583,8 @@
     split: 1
     text: "御兽宝典·毒虫卷·百足篇"
     translated: "Imperial Bestiary · Venomous Insects Volume · Centipede Chapter"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poison,毒,"
     flaggedHallucination: ""
 - lineNum: 69205
   raw: "69205#御兽宝典·毒虫卷·墨龙篇#4#20#12#15#8681#99#0#1#0#0#miji14#69205#0#71205#0#3600#0#3027####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -64613,8 +64613,8 @@
     split: 1
     text: "刚柔并济"
     translated: "Softness and firmness combined"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 70003
   raw: "70003#与时迁移#4#22#10#10#100#99#0#1#0#0#miji1#70003#0#72003#0#0#0#0#3###0#0#0#0#0#0###all#0#0##0##0#0#0#0#0#0#0#0#1#"
@@ -65793,7 +65793,7 @@
     text: "用于暗器魂雨刀研究|唐门贡献商店出售"
     translated: "Used for researching the Secret Weapon Soul Rain Blade | Sold in the Tangmen Contribution Store."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Hidden Weapon,暗器,Hidden Weapon,暗器,Hidden Weapon,暗器,"
+    flaggedMistranslation: "Hidden Weapon,暗器,Hidden Weapon,暗器,Hidden Weapon,暗器,Hidden Weapon,暗器,"
     flaggedHallucination: ""
 - lineNum: 73202
   raw: "73202#赤金混铜#2#2#12#14#4117#1#0#0#0#0#yuyanshi#7320201#0#7320202#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#用于暗器金钱镖研究|唐门贡献商店出售#0#0#0#0#"
@@ -66381,8 +66381,8 @@
     split: 1
     text: "金刚钵"
     translated: "A golden bowl"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 75008
   raw: "75008#清辉钵#2#7#14#14#0#1#0#0#0#0#fanwan#75008#0#77008#0#3600#0#1#1500###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -67401,8 +67401,8 @@
     split: 1
     text: "刚溧鞣革"
     translated: "Just beginning to tan leather"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Hard,刚,"
     flaggedHallucination: ""
 - lineNum: 75505
   raw: "75505#灵锦布#3#1#12#10#63#99#0#1#0#0#bu_3#75505#0#77505#0#3600#0##10&2###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -68736,8 +68736,8 @@
     split: 1
     text: "流光·重阳天配方"
     translated: "Shifting Light · Mid-Autumn Sky Formula"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T17:25:04.3626104+08:00
     split: 41
@@ -68801,7 +68801,7 @@
     text: "流光·九环刀配方"
     translated: "Flowing Light Nine-ring Sword Formula"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 76015
   raw: "76015#流光·乱鸦配方#4#7#12#12#766#99#0#1#0#0#peifang#76015001#0#76015002#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|100|>=#0##0#0#0#0#破戒僧人(1421,623)处有机会获得#0#0#0#0#"
@@ -69304,8 +69304,8 @@
     split: 1
     text: "渊银·重阳天配方"
     translated: "Yuanyin's Reincarnation Elixir for Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-25T20:58:14.4697532+08:00
     split: 41
@@ -69872,8 +69872,8 @@
     split: 1
     text: "刺锋·重阳天配方"
     translated: "Crimson Blade Technique: Double Ninth Sky Recipe"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:40:13.2494716+08:00
     split: 41
@@ -70440,8 +70440,8 @@
     split: 1
     text: "碎铁·重阳天配方"
     translated: "Crush Iron · Rejuvenation Elixir of Double Ninth"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:40:13.2494718+08:00
     split: 41
@@ -72299,7 +72299,7 @@
     text: "伏魔刀谱"
     translated: "Demon Subduing Sword Manual"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 80122
   raw: "80122#《江湖记》#2#6#12#11#0#99#0#0#0#0#shuxin1#80122#0#3970201#0#3600#0#941009#80122###0#0#0#0#0#0####0###0##0#1#0#0#0#0#0#0#1#"
@@ -76788,8 +76788,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82010
   raw: "82010#天瀑#1#1#13#16#46539#1#0#1#0#0#jian10#45010#0#47010#3705#3601#40003#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#"
@@ -77858,8 +77858,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82210
   raw: "82210#天瀑#1#1#12#16#37231#1#0#1#0#0#jian10#45010#0#47010#3705#3601#40003#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#"
@@ -78858,8 +78858,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82310
   raw: "82310#天瀑#1#1#14#16#37231#1#0#1#0#0#jian10#45010#0#47010#3705#3601#40003#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#"
@@ -79858,8 +79858,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82410
   raw: "82410#天瀑#1#1#10#16#37231#1#0#1#0#0#jian10#45010#0#47010#3705#3601#40003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#"
@@ -80858,8 +80858,8 @@
     split: 1
     text: "重阳天"
     translated: "Double Ninth Festival"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82510
   raw: "82510#天瀑#1#1#11#16#37231#1#0#1#0#0#jian10#45010#0#47010#3705#3601#40003#####0#0#0#6005#2#3####0###0##0#0#0#0#0#0#1#0#1#"
@@ -81789,7 +81789,7 @@
     text: "屠龙刀"
     translated: "Dragon-Slaying Sword"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 82692
   raw: "82692#玉佛吊坠#1#6#13#21#1728#1#0#1#0#0#xianglian10#82692#0#84692#0#3604#30004#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#3#0#1#"
@@ -81818,8 +81818,8 @@
     split: 1
     text: "破阳剑"
     translated: "The Sword of Dusk"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 82695
   raw: "82695#雪饮狂刀#1#1#14#16#31026#1#0#1#0#0#new_3723#8269501#0#8269502#3737#3601#40004#####0#0#0#50193#5#7####0###0##0#0#0#0#0#0#1#0#0#"
@@ -82304,7 +82304,7 @@
     text: "冰封三尺"
     translated: "Three feet of ice."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Frozen,冰封,Frozen,冰封,Frozen,冰封,"
+    flaggedMistranslation: "Frozen,冰封,Frozen,冰封,Frozen,冰封,Frozen,冰封,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.1926237+08:00
     split: 41
@@ -82527,8 +82527,8 @@
     split: 1
     text: "己阳卷"
     translated: "Already a gentleman"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 85003
   raw: "85003#奉琴卷#4#21#13#14#5273#1#0#0#0#0#miji5#85003#0#87003#0#3600#0#34020#102020|10202030#12&10202030##0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#"
@@ -82597,8 +82597,8 @@
     split: 1
     text: "阴瘴蜂"
     translated: "Infernal Poison Bee"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 85010
   raw: "85010#人面蝶#3#16#14#16#13709#1#0#0#0#0#jiu2#85010#0#87010#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#"
@@ -83258,7 +83258,7 @@
     text: "日月神教衣服女： 皓阳绛裳"
     translated: "Riyue Shenjiao clothing for women:Radiant Sun, Crimson Robe"
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:54.1952705+08:00
     split: 41
@@ -84375,7 +84375,7 @@
     text: "化境卷·藏刀式"
     translated: "Refinement of Illusion Volume · Concealment Sword Technique"
     flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,"
+    flaggedMistranslation: "Blade,刀,Blade,刀,Blade,刀,Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 92320
   raw: "92320#化境卷·烈风式#4#21#11#13#6240#1#0#0#0#0#miji5#92320#0#592320#0#3600#0#34111#111110|11111030#12&11111030##0#0#0#0#0#0##70|1000&71|1000&35|1000&36|1000##0###0##0#1#1#0#0#0#0#0#0#"
@@ -84834,8 +84834,8 @@
     split: 1
     text: "化境卷·末路斜阳"
     translated: "The Final Chapter of Transformation: The Twilight Path"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yang,阳,"
     flaggedHallucination: ""
 - lineNum: 93430
   raw: "93430#化境卷·沧阳坠#4#21#13#15#10546#1#0#0#0#0#miji5#93430#0#593430#0#3600#0#34110#111030|11103030#12&11103030##0#0#0#0#0#0####0###0##0#1#0#0#0#0#0#0#0#"

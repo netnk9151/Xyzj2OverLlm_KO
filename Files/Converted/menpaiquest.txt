@@ -149,7 +149,7 @@
     text: "门派财源所需，需弟子到销售门派商品，探寻财源，初步增加门派金钱储备。"
     translated: "To fulfill the sect's financial needs, disciples must sell the sect's goods and seek out sources of income to initially increase the sect's monetary reserves."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 9
   raw: "9#才子寻觅#派遣弟子在村庄中寻觅有潜力的年轻人，通过简单测试选拔符合门派标准的弟子。#3#10#30#0#0|6|10#900#88#0#0#"
@@ -532,15 +532,15 @@
     split: 1
     text: "化解怨气"
     translated: "Resolve grudges"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:19:58.5565474+08:00
     split: 2
     text: "宗门外有流言蜚语，影响宗门形象，需找到源头，化解误解，稳固宗门内部。"
     translated: "There are rumors and gossip outside the sect that are affecting its image. It is necessary to find the source, dispel misunderstandings, and stabilize the internal situation of the sect"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 206
   raw: "206#利民之举#本地百姓因连年旱灾苦不堪言，门派决定开放山泉水供百姓取用。你需确保供水过程平安，助人为乐以树立门派正义形象。#1#30#80#1#0|3|487#900#68#0#0#"
@@ -1322,7 +1322,7 @@
     text: "一位神秘的商人出现在宗门门前，送上一份礼物，商人声称这是对宗门的感激之情，宗门在将这些宝贝加工后，以高价售出，获得了可观的金钱收入。"
     translated: "A mysterious merchant appeared at the gates of the sect and presented a gift, claiming it was an expression of gratitude for the sect. After processing these treasures, the sect sold them at high prices, earning substantial monetary income."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 515
   raw: "515#武林拍卖会上的意外发现#宗门的弟子在一次武林拍卖会上偶然发现了一件被忽视的古老藏品，原来是一幅失传已久的古画。这幅画被认定为珍品，最终以天价成交。宗门因此意外获得了巨额的拍卖收入。#5#1#1000#1#0|0|1043#900#100#0#0#"
@@ -1407,7 +1407,7 @@
     text: "宗门所在地的一座古刹因年久失修，急需大规模修缮，带来一定的钱财消耗。"
     translated: "The ancient temple, located at the sect's headquarters, has fallen into disrepair over the years and urgently requires extensive renovations, which will incur a significant financial cost."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,"
+    flaggedMistranslation: "Coin,钱,Coin,钱,Coin,钱,Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 520
   raw: "520#宴请贵宾#宗门为了拉拢一位有影响力的江湖大侠，举办了一场盛大的宴会。虽然此举增加了宗门的声望，但同时也花费了大量的金钱，因为在宴会上，宗门需要款待贵宾，提供美酒佳肴、珍稀礼品，以及场地布置等。#5#1#1000#1#0|0|-904#900#100#0#0#"
@@ -1424,7 +1424,7 @@
     text: "宗门为了拉拢一位有影响力的江湖大侠，举办了一场盛大的宴会。虽然此举增加了宗门的声望，但同时也花费了大量的金钱，因为在宴会上，宗门需要款待贵宾，提供美酒佳肴、珍稀礼品，以及场地布置等。"
     translated: "The sect hosted a grand banquet to court an influential figure from the Jianghu. Although this move enhanced the sect's reputation, it also incurred significant expenses as they had to entertain distinguished guests with fine wine and delicacies, rare gifts, and elaborate venue arrangements."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Coin,钱,Great Hero,大侠,Coin,钱,Great Hero,大侠,Coin,钱,Great Hero,大侠,"
+    flaggedMistranslation: "Coin,钱,Great Hero,大侠,Coin,钱,Great Hero,大侠,Coin,钱,Great Hero,大侠,Coin,钱,Great Hero,大侠,"
     flaggedHallucination: ""
 - lineNum: 521
   raw: "521#治理内部#宗门高层展开了一轮严格的内部治理，审查并修正了内部管理制度，以确保宗门的各项事务运转更加高效有序，从而提升了宗门的内部安定。#5#1#1000#1#0|1|2#900#100#0#0#"
@@ -1848,8 +1848,8 @@
     split: 2
     text: "宗门致力于武林和平，主张和解与友谊，化解纷争，赢得武林同道的尊重和赞誉，声誉日隆。"
     translated: "The martial sect is dedicated to peace in the Wulin, advocating for reconciliation and friendship. It aims to resolve conflicts and earn the respect and praise of fellow martial artists, with its reputation growing day by day."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Counter,化解,"
     flaggedHallucination: ""
 - lineNum: 546
   raw: "546#失信于人#宗门违背诺言，言而无信，使得武林中的声望有所下降。#5#1#1000#1#0|3|-29#900#100#0#0#"
@@ -1916,8 +1916,8 @@
     split: 2
     text: "某些宗门弟子商量的计谋败露，暴露出宗门的阴暗面，使得宗门信誉受到质疑。"
     translated: "Some disciples from a certain sect's conspiracy was exposed, revealing the dark side of the sect and causing its credibility to be questioned"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Yin,阴,"
     flaggedHallucination: ""
 - lineNum: 550
   raw: "550#内斗分裂#宗门内部发生激烈的权力斗争和派系对立，导致宗门声誉受损，外界对其信任度降低。#5#1#1000#1#0|3|-126#900#100#0#0#"

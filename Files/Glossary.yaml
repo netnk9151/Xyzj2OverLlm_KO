@@ -18,14 +18,6 @@
   result: Jianghu
   checkForHallucination: false
   checkForMistranslation: true
-- raw: 轻功
-  result: Qinggong
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 内功
-  result: Neigong
-  checkForHallucination: false
-  checkForMistranslation: true
 - raw: 马帮
   result: Horse Gang
   checkForHallucination: false
@@ -84,6 +76,164 @@
   result: Learn the secret method
   checkForHallucination: false
   checkForMistranslation: true  
+
+# Stats
+- raw: 商道
+  result: Commerce
+  context: Way of Business
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 豪爽
+  result: Generosity
+  checkForHallucination: false
+  checkForMistranslation: true 
+- raw: 福气
+  result: Luck
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 容貌
+  result: Beauty
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 口才
+  result: Eloquence
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 胆识
+  result: Courage
+  context: Courage and Insight
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 修养
+  result: Cultivation
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 坚韧
+  result: Toughness
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 元气
+  result: Lifeforce
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 根骨
+  result: Potential
+  context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 筋骨
+  result: Strength
+  context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
+  checkForHallucination: false
+  checkForMistranslation: true 
+- raw: 体魄
+  result: Constitution
+  context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 轻功
+  result: Qinggong
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 内功
+  result: Neigong
+  context: Neigong refers to the practice of cultivating internal energy through breathing techniques, meditation, and specialized training. It enhances endurance, strength, and resilience. Examples include Qi cultivation and techniques like Taichi or Qigong.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 内攻
+  result: Internal Attack
+  context: refers to offensive techniques that use neigong to damage an opponent’s internal organs or disrupt their Qi flow.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 内力
+  result: Inner Power
+  context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
+  checkForHallucination: false
+  checkForMistranslation: true  
+- raw: 外防
+  result: External Defence
+  context: Defense against physical attacks (e.g., armor-like body techniques, blocking).
+- raw: 内防
+  result: Internal Defence
+  context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
+  checkForHallucination: false
+  checkForMistranslation: true    
+- raw: 内息
+  result: Inner Qi
+  context:  It represents the circulation of Qi within the body, closely tied to breathing techniques and cultivation. 
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 精神
+  result: Willpower
+  context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 身法
+  result: Agility
+  context: refers to a practitioner’s movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 专注
+  result: Focus
+  context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 阴
+  result: Yin
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 阳
+  result: Yang
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 刚
+  result: Hard
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 柔
+  result: Soft
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 毒
+  result: Poison
+  context:
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 生命
+  result: Health
+  context:
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 闪避
+  result: Dodge
+  context:
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 御心
+  result: Discipline
+  context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 诛心
+  result: Mind break
+  context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 要害
+  result: Critical Hit
+  context: refers to critical or vital points of the body that, if struck, can cause significant damage or even death. In martial arts, it refers to vital areas like the head, neck, or heart. In gaming, it could be used to represent weak spots or critical hit zones that deal more damage when targeted.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 化解
+  result: Counter
+  context: refers to the act of neutralizing, resolving, or dissolving an opponent's attack, often through a defensive or counter technique.
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 外攻
+  result: External Attack
+  context: refers to offensive techniques that rely on external strength and power, typically involving physical force or direct strikes.
+  checkForHallucination: false
+  checkForMistranslation: true
 
 # Sayings
 - raw: 阿弥陀佛
