@@ -17,8 +17,11 @@ public static class LineValidation
 
     public static string PrepareRaw(string raw, StringTokenReplacer tokenReplacer)
     {
+        // Clean up the Raw string before using
+
         //StripColorTags(raw)
         raw = raw
+            //.Replace("。", ".") //Hold off on this one for now
             .Replace("…", "...")
             .Replace("：", ":")
             .Replace("：", ":")
@@ -28,69 +31,83 @@ public static class LineValidation
             .Replace("）", ")")
             .Replace("？", "?")
             .Replace("、", ",")
-            .Replace("！", "!");
+            .Replace("！", "!");            
 
         raw = tokenReplacer.Replace(raw);
         return raw;
     }
 
-    public static string PrepareResult(string llmResult, StringTokenReplacer tokenReplacer)
+    public static string PrepareResult(string llmResult)
     {
-        //llmResult = llmResult
-        //    .Replace("<p>", "")
-        //    .Replace("</p>", "")
-        //    .Replace("<Div>", "<div>")
-        //    .Replace("</Div>", "</div>")
-        //    .Replace("< Div >", "<div>", StringComparison.OrdinalIgnoreCase)
-        //    .Replace("< / Div >", "</div>", StringComparison.OrdinalIgnoreCase)
-        //    .Replace("< /Div >", "</div>", StringComparison.OrdinalIgnoreCase);
-
-
-        //if (llmResult.Contains("<div>"))
-        //{
-        //    var pattern = @"<div>(.*?)</div>";
-        //    var result = Regex.Match(llmResult, pattern, RegexOptions.Singleline).Groups[1].Value;
-
-        //    //Handle LLM adding line breaks in the div tag
-        //    if (result.EndsWith('\n'))
-        //        result = result[..^1];
-        //    if (result.StartsWith('\n'))
-        //        result = result[1..];
-
-        //    //result = CleanupNamesResult(result);
-
-        //    return result;
-        //}
-        //else
-
-        llmResult = tokenReplacer.Restore(llmResult);
+        // Fix up anything we know the LLM has messed up but can autocorrect before validation
         return llmResult;
     }
 
-    //public static string CleanupNamesResult(string input)
-    //{
-    //    var result = input;
-    //    string[] replacements = ["Elder Brother", "Senior Brother", "Senior", "Brother", "Young Master", "Young Hero"];
+    public static string CleanupLineBeforeSaving(string input, string raw, string outputFile, StringTokenReplacer tokenReplacer)
+    {
+        //Finalise line before saving out
+        var result = input.Trim();
 
-    //    result = result
-    //        .Replace("{Name_1}", "{name_1}")
-    //        .Replace("{Name_2}", "{name_2}");
+        if (!string.IsNullOrEmpty(result))
+        {
+            if (result.Contains('\"') && !raw.Contains('\"'))
+                result = result.Replace("\"", "");
 
-    //    foreach (var title in replacements)
-    //    {
-    //        result = result
-    //            .Replace($"{{name_1}} {{name_2}} {title}", $"{title} {{name_1}} {{name_2}}")
-    //            .Replace($"{{name_1}} {{name_2}}, {title}", $"{title} {{name_1}} {{name_2}}");
+            if (result.Contains('[') && !raw.Contains('['))
+                result = result.Replace("[", "");
 
-    //        result = result
-    //            .Replace($"{{name_1}} {title}", $"{title} {{name_1}}")
-    //            .Replace($"{{name_1}}, {title}", $"{title} {{name_1}}")
-    //            .Replace($"{{name_2}} {title}", $"{title} {{name_2}}")
-    //            .Replace($"{{name_2}}, {title}", $"{title} {{name_2}}");
-    //    }
+            if (result.Contains(']') && !raw.Contains(']'))
+                result = result.Replace("]", "");
 
-    //    return result;
-    //}
+            if (result.Contains('`') && !raw.Contains('`'))
+                result = result.Replace("`", "'");
+
+            // Take out wide quotes
+            if (result.Contains('“') && !raw.Contains('“'))
+                result = result.Replace("“", "");
+
+            if (result.Contains('”') && !raw.Contains('”'))
+                result = result.Replace("”", "");
+
+            result = result
+                .Replace("…", "...")
+                .Replace("？", "?")
+                .Replace(".:", ":")
+                .Replace("！", "!");
+
+            //Take out wide quotes
+            result = result
+                .Replace("’", "'")
+                .Replace("‘", "'");
+
+            //Strip .'s
+            //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
+            //    result = result[..^1];
+
+            result = LineValidation.RemoveDiacritics(result);
+            result = LineValidation.ReplaceIncorrectLowercaseWords(result);
+
+            result = LineValidation.EncaseColorsForWholeLines(raw, result);
+            result = LineValidation.EncaseSquareBracketsForWholeLines(raw, result);
+
+            if (string.IsNullOrEmpty(result))
+            {
+                Console.WriteLine($"Something Bad happened somewhere: {raw}\n{result}");
+                return result;
+            }
+
+            if (result.StartsWith("'") && result.EndsWith("'"))
+                if (result.Length > 3)
+                    result = result[1..^1];
+
+            if (Char.IsLower(result[0]) && raw != result)
+                result = Char.ToUpper(result[0]) + result[1..];
+        }
+
+        result = tokenReplacer.Restore(result);
+
+        return result;
+    }
 
     public static ValidationResult CheckTransalationSuccessful(LlmConfig config, string raw, string result, string outputFile)
     {
@@ -254,75 +271,6 @@ public static class LineValidation
             Valid = response,
             CorrectionPrompt = correctionPrompts.ToString(),
         };
-    }
-
-    public static string CleanupLineBeforeSaving(string input, string raw, string outputFile)
-    {
-        var result = input.Trim();
-        if (!string.IsNullOrEmpty(result))
-        {
-            if (result.Contains('\"') && !raw.Contains('\"'))
-                result = result.Replace("\"", "");
-
-            if (result.Contains('[') && !raw.Contains('['))
-                result = result.Replace("[", "");
-
-            if (result.Contains(']') && !raw.Contains(']'))
-                result = result.Replace("]", "");
-
-            if (result.Contains('`') && !raw.Contains('`'))
-                result = result.Replace("`", "'");
-
-            // Take out wide quotes
-            if (result.Contains('“') && !raw.Contains('“'))
-                result = result.Replace("“", "");
-
-            if (result.Contains('”') && !raw.Contains('”'))
-                result = result.Replace("”", "");
-
-            result = result
-                .Replace("…", "...")
-                .Replace("？", "?")
-                .Replace(".:", ":")
-                .Replace("！", "!");
-                //.Replace("<p>", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("</p>", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("<div>", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("< div >", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("</div>", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("< /div >", "", StringComparison.OrdinalIgnoreCase)
-                //.Replace("< / div >", "", StringComparison.OrdinalIgnoreCase);
-
-            //Take out wide quotes
-            result = result
-                .Replace("’", "'")
-                .Replace("‘", "'");
-
-            //Strip .'s
-            //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
-            //    result = result[..^1];
-
-            result = LineValidation.RemoveDiacritics(result);
-            result = LineValidation.ReplaceIncorrectLowercaseWords(result);
-
-            result = LineValidation.EncaseColorsForWholeLines(raw, result);
-            result = LineValidation.EncaseSquareBracketsForWholeLines(raw, result);
-
-            if (string.IsNullOrEmpty(result))
-            {
-                Console.WriteLine($"Something Bad happened somewhere: {raw}\n{result}");
-                return result;
-            }
-
-            if (result.StartsWith("'") && result.EndsWith("'"))
-                if (result.Length > 3)
-                    result = result[1..^1];
-
-            if (Char.IsLower(result[0]) && raw != result)
-                result = Char.ToUpper(result[0]) + result[1..];
-        }
-
-        return result;
     }
 
     public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)

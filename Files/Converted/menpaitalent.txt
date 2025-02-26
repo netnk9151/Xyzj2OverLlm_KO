@@ -24,15 +24,15 @@
     split: 1
     text: "任务奖励金钱属性测试"
     translated: "Task reward money attribute test."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T10:41:10.0674601+08:00
     split: 2
     text: "任务完成时，金钱奖励额外提升100%"
     translated: "When the task is completed, there will be a 100% bonus increase in monetary rewards."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 2
   raw: "2#进行打造消耗测试#进行打造时，金钱、矿石消耗减少50%#0#0#0|0,4|-50#"
@@ -103,8 +103,8 @@
     split: 2
     text: "对寻找金银财宝有着天生的敏感度。任务完成时，金钱奖励额外提升6%。"
     translated: "Naturally attuned to finding treasures of gold and silver. The monetary reward increases by an additional 6% upon task completion."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 102
   raw: "102#财运亨通#财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。#1#2#0|0|9#"
@@ -121,8 +121,8 @@
     split: 2
     text: "财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。"
     translated: "Fortune favors the wealthy; in business or when completing tasks, they often receive more rewards than others. When a task is completed, the monetary reward increases by an additional 9%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 103
   raw: "103#金币风水#你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。#2#2#0|0|12#"
@@ -139,8 +139,8 @@
     split: 2
     text: "你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。"
     translated: "You have unique insights into feng shui for places, as if you could attract wealth from a previous life. When the task is completed, there's an additional 12% increase in money."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 104
   raw: "104#锦鲤之运#你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。#3#2#0|0|15#"
@@ -157,8 +157,8 @@
     split: 2
     text: "你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。"
     translated: "It seems you are often blessed with good fortune when it comes to wealth at crucial times. Upon task completion, an additional 15% increase in monetary reward is granted."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 105
   raw: "105#财源滚滚#生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%#4#2#0|0|18#"
@@ -175,8 +175,8 @@
     split: 2
     text: "生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%"
     translated: "Blessed with an affinity for wealth from birth, they have a fatal attraction to money. Upon task completion, monetary rewards are increased by an additional 18%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 201
   raw: "201#洞悉言语#精于解读各种言语暗示与隐喻，能够洞悉言下之意。任务完成时，安定额外提升6%。#0#2#0|1|6#"
@@ -733,8 +733,8 @@
     split: 2
     text: "虽有机会获得珍宝，却会因眼光的问题错失珍珠。任务完成时，金钱奖励减少6%"
     translated: "Although there was an opportunity to acquire a treasure, due to vision issues, the pearls were missed. Upon task completion, the monetary reward is reduced by 6%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 802
   raw: "802#拂荣忘原#内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%#0#2#0|0|-9#"
@@ -751,8 +751,8 @@
     split: 2
     text: "内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%"
     translated: "The heart yearns for gold, silver, and jewels, but this often leads to losing one's true self. When the task is completed, the monetary reward decreases by 9%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 803
   raw: "803#捡豆丢瓜#看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%#0#2#0|0|-12#"
@@ -769,8 +769,8 @@
     split: 2
     text: "看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%"
     translated: "Seeing something and wanting it, but ultimately getting nothing in the end. Upon task completion, the monetary reward is reduced by 12%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 804
   raw: "804#擅画之人#无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%#0#2#0|0|-15#"
@@ -787,8 +787,8 @@
     split: 2
     text: "无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%"
     translated: "There was nothing else; he merely excelled at drawing pies, so the outcome fell short of expectations. When the task was completed, the monetary reward decreased by 15%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 805
   raw: "805#劳损内神#时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%#0#2#0|0|-18#"
@@ -805,8 +805,8 @@
     split: 2
     text: "时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%"
     translated: "Frequent internal conflict and irritability have started to affect everyday tasks. Upon task completion, the monetary reward is reduced by 18%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 851
   raw: "851#天煞孤星#出生便带不祥之兆，常被厄运缠身。任务完成时，获得安定减少6%#0#2#0|1|-6#"
@@ -2767,8 +2767,8 @@
     split: 2
     text: "制作过程中毫无节制，成本激增。制作道具时消耗金钱增加15%。"
     translated: "During production, there was no restraint, leading to a significant increase in costs. When making props, the expenditure of money increased by 15%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 1605
   raw: "1605#损耗惊人#工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。#0#0#0|0|18#"
@@ -2785,8 +2785,8 @@
     split: 2
     text: "工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。"
     translated: "The craftsmanship is poor, and there is excessive waste of materials. The cost of making props increases by 18%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Coin,钱,"
     flaggedHallucination: ""
 - lineNum: 1651
   raw: "1651#耗材难控#制作技艺不精，原料大量浪费。制作道具时消耗矿石增加6%。#0#0#0|4|6#"

@@ -1,19 +1,8 @@
-﻿using System;
-using System.Diagnostics;
-using System.Dynamic;
-using System.Globalization;
+﻿using System.Diagnostics;
 using System.Net.Http.Headers;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
-using System.Text.Json.Nodes;
-using System.Text.Json.Schema;
 using System.Text.RegularExpressions;
-using System.Xml.Schema;
-using YamlDotNet.Serialization;
-using YamlDotNet.Serialization.NamingConventions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Translate;
 
@@ -22,87 +11,90 @@ public static class TranslationService
     public const int BatchlessLog = 25;
     public const int BatchlessBuffer = 25;
 
+    // "。" doesnt work like u think it would   
+    public static string[] SplitCharactersList = [":", "<br>", "\\n", "-"];
+
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [
             new() {Path = "achievement.txt", SplitIndexes = []},
             //new() {Path = "ai_dialog.txt", SplitIndexes = []},
             new() {Path = "born_points.txt", SplitIndexes = []},
             new() {Path = "buildprototype.txt", SplitIndexes = []},
-            //new() {Path = "cardinfo.txt", SplitIndexes = []},
-            //new() {Path = "chuanwenprototype.txt", SplitIndexes = []},
-            //new() {Path = "condition_group.txt", SplitIndexes = []},
-            //new() {Path = "condition_show_anim.txt", SplitIndexes = []},
-            //new() {Path = "custom_data.txt", SplitIndexes = []},
-            //new() {Path = "dlcinfo.txt", SplitIndexes = []},
-            //new() {Path = "emoji.txt", SplitIndexes = []},
-            //new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
-            //new() {Path = "fuben_prototype.txt", SplitIndexes = []},
-            //new() {Path = "game_manual.txt", SplitIndexes = []},
-            //new() {Path = "game_manual_clue.txt", SplitIndexes = []},
-            //new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
-            //new() {Path = "guanqiainfo.txt", SplitIndexes = []},
-            //new() {Path = "horoscope.txt", SplitIndexes = []},
-            //new() {Path = "identity.txt", SplitIndexes = []},
-            //new() {Path = "item_base.txt", SplitIndexes = []},
-            //new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
-            //new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
-            //new() {Path = "jueyinglou.txt", SplitIndexes = []},
-            //new() {Path = "keylist.txt", SplitIndexes = []},
-            ////new() {Path = "keywordfilter.txt", SplitIndexes = []},
-            ////new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
-            ////new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "loadingpicture.txt", SplitIndexes = []},
-            //new() {Path = "loadingtips.txt", SplitIndexes = []},
-            //new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
-            //new() {Path = "mapinfo.txt", SplitIndexes = []},
-            //new() {Path = "map_area.txt", SplitIndexes = []},
-            //new() {Path = "map_area_shili.txt", SplitIndexes = []},
-            //new() {Path = "map_area_title.txt", SplitIndexes = []},
-            //new() {Path = "menpai.txt", SplitIndexes = []},
-            //new() {Path = "menpaibuild.txt", SplitIndexes = []},
-            //new() {Path = "menpaipaibie.txt", SplitIndexes = []},
-            //new() {Path = "menpaipeifang.txt", SplitIndexes = []},
-            //new() {Path = "menpaiquest.txt", SplitIndexes = []},
-            //new() {Path = "menpairandom.txt", SplitIndexes = []},
-            //new() {Path = "menpaisoldier.txt", SplitIndexes = []},
-            //new() {Path = "menpaitalent.txt", SplitIndexes = []},
-            //new() {Path = "mystique.txt", SplitIndexes = []},
-            //new() {Path = "nandu.txt", SplitIndexes = []},
-            //new() {Path = "npc_interact.txt", SplitIndexes = []},
-            //new() {Path = "npc_prototype.txt", SplitIndexes = []},
-            //new() {Path = "npc_spell_container.txt", SplitIndexes = []},
-            //new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
-            //new() {Path = "npc_team_info.txt", SplitIndexes = []},
-            //new() {Path = "pve_data.txt", SplitIndexes = []},
-            //new() {Path = "qinggong_node.txt", SplitIndexes = []},
-            //new() {Path = "questjiemi.txt", SplitIndexes = []},
-            ////new() {Path = "questprototype.txt", SplitIndexes = []},
-            //new() {Path = "randomname.txt", SplitIndexes = []},
-            //new() {Path = "randomnamenew.txt", SplitIndexes = []},
-            //new() {Path = "randomquestion.txt", SplitIndexes = []},
-            //new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "stunt_proto.txt", SplitIndexes = []},
-            //new() {Path = "system_introduce.txt", SplitIndexes = []},
-            //new() {Path = "talent_proto.txt", SplitIndexes = []},
-            //new() {Path = "teleport_trans.txt", SplitIndexes = []},
-            //new() {Path = "triggertip.txt", SplitIndexes = []},
-            //new() {Path = "tujian.txt", SplitIndexes = []},
-            //new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
-            //new() {Path = "wordentrytitle.txt", SplitIndexes = []},
-            //new() {Path = "wordentrytype.txt", SplitIndexes = []},
-            //new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
-            //new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
+            new() {Path = "cardinfo.txt", SplitIndexes = []},
+            new() {Path = "chuanwenprototype.txt", SplitIndexes = []},
+            new() {Path = "condition_group.txt", SplitIndexes = []},
+            new() {Path = "condition_show_anim.txt", SplitIndexes = []},
+            new() {Path = "custom_data.txt", SplitIndexes = []},
+            new() {Path = "dlcinfo.txt", SplitIndexes = []},
+            new() {Path = "emoji.txt", SplitIndexes = []},
+            new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
+            new() {Path = "fuben_prototype.txt", SplitIndexes = []},
+            new() {Path = "game_manual.txt", SplitIndexes = []},
+            new() {Path = "game_manual_clue.txt", SplitIndexes = []},
+            new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
+            new() {Path = "guanqiainfo.txt", SplitIndexes = []},
+            new() {Path = "horoscope.txt", SplitIndexes = []},
+            new() {Path = "identity.txt", SplitIndexes = []},
+            new() {Path = "item_base.txt", SplitIndexes = []},
+            new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
+            new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
+            new() {Path = "jueyinglou.txt", SplitIndexes = []},
+            new() {Path = "keylist.txt", SplitIndexes = []},
+            //new() {Path = "keywordfilter.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "loadingpicture.txt", SplitIndexes = []},
+            new() {Path = "loadingtips.txt", SplitIndexes = []},
+            new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
+            new() {Path = "mapinfo.txt", SplitIndexes = []},
+            new() {Path = "map_area.txt", SplitIndexes = []},
+            new() {Path = "map_area_shili.txt", SplitIndexes = []},
+            new() {Path = "map_area_title.txt", SplitIndexes = []},
+            new() {Path = "menpai.txt", SplitIndexes = []},
+            new() {Path = "menpaibuild.txt", SplitIndexes = []},
+            new() {Path = "menpaipaibie.txt", SplitIndexes = []},
+            new() {Path = "menpaipeifang.txt", SplitIndexes = []},
+            new() {Path = "menpaiquest.txt", SplitIndexes = []},
+            new() {Path = "menpairandom.txt", SplitIndexes = []},
+            new() {Path = "menpaisoldier.txt", SplitIndexes = []},
+            new() {Path = "menpaitalent.txt", SplitIndexes = []},
+            new() {Path = "mystique.txt", SplitIndexes = []},
+            new() {Path = "nandu.txt", SplitIndexes = []},
+            new() {Path = "npc_interact.txt", SplitIndexes = []},
+            new() {Path = "npc_prototype.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_container.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
+            new() {Path = "npc_team_info.txt", SplitIndexes = []},
+            new() {Path = "pve_data.txt", SplitIndexes = []},
+            new() {Path = "qinggong_node.txt", SplitIndexes = []},
+            new() {Path = "questjiemi.txt", SplitIndexes = []},
+            //new() {Path = "questprototype.txt", SplitIndexes = []},
+            new() {Path = "randomname.txt", SplitIndexes = []},
+            new() {Path = "randomnamenew.txt", SplitIndexes = []},
+            new() {Path = "randomquestion.txt", SplitIndexes = []},
+            new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
+            new() {Path = "spelleffect.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "stunt_proto.txt", SplitIndexes = []},
+            new() {Path = "system_introduce.txt", SplitIndexes = []},
+            new() {Path = "talent_proto.txt", SplitIndexes = []},
+            new() {Path = "teleport_trans.txt", SplitIndexes = []},
+            new() {Path = "triggertip.txt", SplitIndexes = []},
+            new() {Path = "tujian.txt", SplitIndexes = []},
+            new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
+            new() {Path = "wordentrytitle.txt", SplitIndexes = []},
+            new() {Path = "wordentrytype.txt", SplitIndexes = []},
+            new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
+            new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
 
-            ////Biggest one
-            //new() {Path = "stringlang.txt", SplitIndexes = []},
+            //Biggest one
+            new() {Path = "stringlang.txt", SplitIndexes = []},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -310,9 +302,9 @@ public static class TranslationService
 
                 // Get Unique splits incase the batch has the same entry multiple times (eg. NPC Names)
                 var uniqueSplits = batch.SelectMany(line => line.Splits)
-                        .GroupBy(split => split.Text)
-                        .Select(group => group.First())
-                        .ToList(); // Materialize to prevent multiple enumerations;
+                    .GroupBy(split => split.Text)
+                    .Select(group => group.First())
+                    .ToList(); // Materialize to prevent multiple enumerations;
 
                 // Process the unique in parallel
                 await Task.WhenAll(uniqueSplits.Select(async split =>
@@ -395,16 +387,11 @@ public static class TranslationService
     {
         string inputPath = $"{workingDirectory}/Converted";
         string outputPath = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
-        //string failedPath = $"{workingDirectory}/TestResults/Failed";
 
         if (Directory.Exists(outputPath))
             Directory.Delete(outputPath, true);
 
-        //if (Directory.Exists(failedPath))
-        //    Directory.Delete(failedPath, true);
-
         Directory.CreateDirectory(outputPath);
-        //Directory.CreateDirectory(failedPath);
 
         ModHelper.GenerateModConfig(workingDirectory);
         File.WriteAllLines($"{outputPath}/db1_Mod.txt", []);
@@ -433,12 +420,21 @@ public static class TranslationService
         }
     }
 
-    public static async Task<(bool split, string result)> SplitIfNeededAsync(string testString, LlmConfig config, string raw, HttpClient client, string outputFile)
+    public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, string outputFile)
     {
-        if (raw.Contains(testString))
+        if (raw.Contains(splitCharacters))
         {
-            var splits = raw.Split(testString);
+            var splits = raw.Split(splitCharacters);
             var builder = new StringBuilder();
+
+            var suffix = string.Empty;
+
+            if (splitCharacters == "-")
+                suffix = " - ";
+            else if (splitCharacters == ":")
+                suffix = ": ";
+            else
+                suffix = splitCharacters;
 
             foreach (var split in splits)
             {
@@ -448,14 +444,16 @@ public static class TranslationService
                 if (string.IsNullOrEmpty(trans))
                     return (true, string.Empty);
 
-                builder.Append(trans);
-                builder.Append(testString);
+                builder.Append($"{trans}{suffix}");             
             }
 
             var result = builder.ToString();
-            result = LineValidation.CleanupLineBeforeSaving(result, raw, outputFile);
 
-            return (true, result[..^testString.Length]);
+            // Remove the very last suffix that was added
+            if (splits.Length > 1)
+                return (true, result[..^suffix.Length]);
+            else
+                return (true, result);
         }
 
         return (false, string.Empty);
@@ -527,21 +525,20 @@ public static class TranslationService
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
 
-        // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would
-        var testStrings = new string[] { ":", "<br>", "\\n" };
-        foreach (var testString in testStrings)
+        // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
+        foreach (var splitCharacters in SplitCharactersList)
         {
-            var (split, result) = await SplitIfNeededAsync(testString, config, preparedRaw, client, outputFile);
+            var (split, result) = await SplitIfNeededAsync(splitCharacters, config, preparedRaw, client, outputFile);
 
             // Because its recursive we want to bail out on the first successful one
             if (split)
-                return LineValidation.PrepareResult(result, tokenReplacer);
+                return LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer);
         }
 
         // Brackets Split
         var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, outputFile);
         if (split2)
-            return LineValidation.PrepareResult(result2, tokenReplacer);
+            return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, outputFile, tokenReplacer);
 
         // Define the request payload
         List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile);
@@ -574,7 +571,7 @@ public static class TranslationService
                     .GetString()
                     ?.Trim() ?? string.Empty;
 
-                preparedResult = LineValidation.PrepareResult(llmResult, tokenReplacer);
+                preparedResult = LineValidation.PrepareResult(llmResult);
 
                 if (!config.SkipLineValidation)
                 {
@@ -597,7 +594,7 @@ public static class TranslationService
                 retryCount++;
             }
 
-            return translationValid ? LineValidation.CleanupLineBeforeSaving(preparedResult, raw, outputFile) : string.Empty;
+            return translationValid ? LineValidation.CleanupLineBeforeSaving(preparedResult, raw, outputFile, tokenReplacer) : string.Empty;
         }
         catch (HttpRequestException e)
         {

@@ -6,7 +6,6 @@ public class TranslationWorkflowTests
 {
     const string workingDirectory = "../../../../Files";
 
-
     [Fact(DisplayName = "1. SplitDbAssets")]
     public void SplitDbAssets()
     {
@@ -32,7 +31,7 @@ public class TranslationWorkflowTests
         await PackageFinalTranslation();
     }
 
-    [Fact(DisplayName = "5. TranslateLinesBruteForce")]
+    [Fact(DisplayName = "0. TranslateLinesBruteForce")]
     public async Task TranslateLinesBruteForce()
     {
         await PerformTranslateLines(true);
@@ -164,7 +163,7 @@ public class TranslationWorkflowTests
         // If it is already translated or just special characters return it
         var tokenReplacer = new StringTokenReplacer(); 
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
-        var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, outputFile);
+        var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, outputFile, tokenReplacer);
         if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw)
         {
             logLines.Add($"Already Translated {outputFile} \n{split.Translated}");
@@ -189,7 +188,7 @@ public class TranslationWorkflowTests
             if (split.Translated != value)
             {
                 logLines.Add($"Manually Translated {outputFile} \n{split.Text}\n{split.Translated}");
-                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value, tokenReplacer), split.Text, outputFile);
+                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, outputFile, tokenReplacer);
                 split.ResetFlags();
                 return true;
             }
@@ -198,12 +197,20 @@ public class TranslationWorkflowTests
         }
 
         // Skip Empty but flag so we can find them easily
-        if (string.IsNullOrEmpty(split.Translated) && !string.IsNullOrEmpty(split.Text))
+        if (string.IsNullOrEmpty(split.Translated) && !string.IsNullOrEmpty(preparedRaw))
         {
             split.FlaggedForRetranslation = true;
             split.FlaggedMistranslation = "Failed"; //Easy search
             return true;
         }
+
+        // Temp force retrans of splits because of changes in calcs
+        //foreach (var splitCharacters in TranslationService.SplitCharactersList)
+        //    if (preparedRaw.Contains(splitCharacters))
+        //    {
+        //        split.FlaggedForRetranslation = true;
+        //        return true;
+        //    }
 
         if (MatchesBadWords(split.Translated))
         {
@@ -274,7 +281,7 @@ public class TranslationWorkflowTests
         //}
 
         // Clean up Diacritics
-        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, split.Text, outputFile);
+        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, split.Text, outputFile, tokenReplacer);
         if (cleanedUp != split.Translated)
         {
             logLines.Add($"Cleaned up {outputFile} \n{split.Translated}\n{cleanedUp}");

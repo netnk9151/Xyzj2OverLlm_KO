@@ -684,10 +684,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T10:32:56.9939059+08:00
+  - lastTranslatedOn: 2025-02-26T12:18:06.5734806+08:00
     split: 15
     text: "{0&0}%几率对我方随机角色添加持续一轮次的随即论点。"
-    translated: ""
+    translated: "{0&0}% chance to add a random argument to our side that lasts for one round."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3224,11 +3224,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9555865+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:45.1826667+08:00
     split: 15
     text: "迁移：提升自身20%增伤。"
-    translated: "Relocation：Enhance self by 20% increased damage"
-    flaggedForRetranslation: false
+    translated: "Relocate: Increase personal damage output by 20%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100006
@@ -3242,11 +3242,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9556321+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:55.4375352+08:00
     split: 15
     text: "因循：受到伤害时增加一层，叠加到五层时对对手单个角色造成自身10%最大辩力的伤害。"
-    translated: "Following old habits：When harmed, gain an additional layer. Once stacked to five layers, deal damage equal to 10% of your maximum persuasion power to a single enemy character"
-    flaggedForRetranslation: false
+    translated: "Following along passively: When damaged, gain an additional layer. Once stacked to five layers, deal damage to a single opponent equal to 10% of your own maximum Resolve."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100018
@@ -3260,11 +3260,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9556792+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:36.0270083+08:00
     split: 15
     text: "守黑：论点持有者承受造成退场的攻击时将生命值设置为1%。"
-    translated: "Guard the darkness：When a Debater is attacked in such a way that would cause them to be eliminated, their life points are set to 1%"
-    flaggedForRetranslation: false
+    translated: "Guardian of Shadows: When a debate participant who holds the point of view receives attacks that would result in being knocked out, their life points are set to 1%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100022
@@ -3278,11 +3278,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9557259+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:37.3417307+08:00
     split: 15
     text: "易行：减少自身15%增伤。"
-    translated: "Walking with ease：Reduce self-inflicted damage by 15%"
-    flaggedForRetranslation: false
+    translated: "Wander freely: Reduce personal increased damage by 15%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100023
@@ -3296,11 +3296,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9557714+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:36.4123356+08:00
     split: 15
     text: "难知：提升自身15%减伤。"
-    translated: "Hard to say：Increase personal damage reduction by 15%"
-    flaggedForRetranslation: false
+    translated: "Difficult to know: Enhance self by 15% damage reduction."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100026
@@ -3314,11 +3314,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9558178+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:52.6634458+08:00
     split: 15
     text: "无念：攻击时扣除自身5%最大辩力。"
-    translated: "Without attachment：During an attack, deduct 5% of your maximum defense power from yourself"
-    flaggedForRetranslation: false
+    translated: "No Regret: Reduces their own maximum defense by 5% while attacking."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100113
@@ -3332,11 +3332,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9558644+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:37.0042112+08:00
     split: 15
     text: "常转：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "Always changing：At the start of your turn, attack yourself once and take damage equal to 0.5 times your Attack value"
-    flaggedForRetranslation: false
+    translated: "Constantly wandering: At the start of your turn, attack yourself once and take damage equal to 0.5 times the attacker's attack value."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100116
@@ -3350,11 +3350,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9559114+08:00
+  - lastTranslatedOn: 2025-02-26T12:34:02.6907661+08:00
     split: 15
     text: "三谛：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "The Three Truths：At the start of each round, inflict an attack on yourself and take damage equal to 1.5 times the argument's value"
-    flaggedForRetranslation: false
+    translated: "Threefold Truths: At the start of your turn, attack yourself once and take damage equal to 0.5 times the Attacker's Crit value."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100118
@@ -3368,11 +3368,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9559588+08:00
+  - lastTranslatedOn: 2025-02-26T12:34:07.0878177+08:00
     split: 15
     text: "感化：论点持有者攻击时层数增加一，达到三层后使论点持有者在下个回合无法行动。"
-    translated: "Reform：When the debater attacks, their layer count increases by one. Once reaching three layers, the debater is unable to act in the next turn"
-    flaggedForRetranslation: false
+    translated: "Reformative influence: When the argument holder attacks, their layer count increases by one. Upon reaching three layers, they are unable to act in the next turn."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100202
@@ -3386,11 +3386,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9560080+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:49.1305716+08:00
     split: 15
     text: "逾节：受到攻击时有25%几率减少1行动力。"
-    translated: "Exceeding one's limit：When attacked, there is a 25% chance to lose 1 action point"
-    flaggedForRetranslation: false
+    translated: "Exceeding limits: When attacked, there's a 25% chance to reduce action power by 1."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100203
@@ -3404,11 +3404,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9560548+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:44.5665252+08:00
     split: 15
     text: "守耻：减少自身15%减伤。"
-    translated: "Uphold Honor：Reduce incoming damage by 15% to oneself"
-    flaggedForRetranslation: false
+    translated: "Uphold one's honor: Reduce personal damage taken by 15%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100213
@@ -3422,11 +3422,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9561027+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:51.8326776+08:00
     split: 15
     text: "道生：减少自身15%利辞。"
-    translated: "Dao sheng：Reduce one's own effectiveness by 15%"
-    flaggedForRetranslation: false
+    translated: "Dao generates: Reduce self-damage by 15%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100214
@@ -3440,11 +3440,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9561497+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:47.4451085+08:00
     split: 15
     text: "有方：下一次攻击，增伤提升50%，攻击后消失。"
-    translated: "It has a method：Next attack deals 50% increased damage and disappears after the attack"
-    flaggedForRetranslation: false
+    translated: "There's a solution: Next attack increases damage by 50% and vanishes afterward."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100224
@@ -3458,11 +3458,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9561984+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:42.0391265+08:00
     split: 15
     text: "仁心：被攻击时回复自身5%最大辩力的辩力。"
-    translated: "Compassion：When attacked, gain 5% of your maximum Defense Power as Defense Power"
-    flaggedForRetranslation: false
+    translated: "Compassionate heart: When attacked, regain 5% of your maximum Defense Power in Defense."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100228
@@ -3476,11 +3476,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9562459+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:40.3666870+08:00
     split: 15
     text: "春暖：被攻击时回复自身5%最大辩力的辩力。"
-    translated: "Spring warmth：When attacked, restore 5% of your maximum defense power to your own defense power"
-    flaggedForRetranslation: false
+    translated: "Spring warmth: When attacked, recover 5% of your maximum defense power."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100302
@@ -3494,11 +3494,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9562926+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:52.8274028+08:00
     split: 15
     text: "寓兵：提升自身30%利辞。"
-    translated: "Residence of Soldiers：Boost personal profit by 30%"
-    flaggedForRetranslation: false
+    translated: "Train within, fight without: Increase personal efficiency by 30%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100303
@@ -3512,11 +3512,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9563384+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:40.7477648+08:00
     split: 15
     text: "岁稔：提升自身30%利辞。"
-    translated: "With advancing years：Enhance personal efficacy by 30%"
-    flaggedForRetranslation: false
+    translated: "Of ripe years: Enhance your personal efficiency by 30%."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100304
@@ -3530,11 +3530,11 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9563864+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:46.3253240+08:00
     split: 15
     text: "年丰：持有岁稔论点角色（自身除外）攻击时攻击一次，造成0.5倍利辞的伤害。"
-    translated: "In a year of abundance：When holding the Yuren Lundiao item (excluding self), attack an enemy character once and deal damage equal to 1.5 times their current health"
-    flaggedForRetranslation: false
+    translated: "Bountiful Year: Holding a position based on years of experience. (Everyone except oneself.) Inflict 1 attack, dealing damage equal to half of your current HP."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100314
@@ -3548,10 +3548,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T13:38:15.9564341+08:00
+  - lastTranslatedOn: 2025-02-26T12:33:46.9814835+08:00
     split: 15
     text: "百变：自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。"
-    translated: "Shape-shifter：When self-attacking, there is a 50% chance to increase one's own Defense by 50% and reduce the maximum Defense of all allied teammates by 20%"
-    flaggedForRetranslation: false
+    translated: "A hundred transformations: When using self-attack, there is a 50% chance to increase your own strength by 50% and deduct 20% of the maximum defense power from all allies."
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
