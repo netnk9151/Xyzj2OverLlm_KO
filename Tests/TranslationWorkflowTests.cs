@@ -42,17 +42,12 @@ public class TranslationWorkflowTests
         if (keepCleaning)
         {
             int remaining = await UpdateCurrentTranslationLines(false);
-            int lastRemaining = remaining;
             int iterations = 0;
             while (remaining > 0 && iterations < 10)
             {
                 await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
                 remaining = await UpdateCurrentTranslationLines(false);
                 iterations++;
-
-                // We've hit our brute force limit
-                if (lastRemaining == remaining)
-                    break;
             }
         }
         else

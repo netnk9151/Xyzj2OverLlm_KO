@@ -653,6 +653,16 @@
   result: Monk
   checkForHallucination: false
   checkForMistranslation: true
+- raw: 侠客
+  result: Wanderer
+  # allowedAlternatives: 
+  #   - Martial Artist
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 江湖侠客
+  result: Jianghu Wanderer
+  checkForHallucination: false
+  checkForMistranslation: false
 
 # Titles
 - raw: 大侠
@@ -799,12 +809,16 @@
   checkForMistranslation: true
 - raw: 夫人
   result: Lady
+  allowedAlternatives: 
+    - Wife
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
   checkForHallucination: false
   checkForMistranslation: true
 - raw: 大人
   result: Lord
+  allowedAlternatives: 
+    - Husband
   context: Used as a respectful address for man of noble status or of a high-ranking official.
   literal: Da Ren
   checkForHallucination: false
@@ -890,6 +904,8 @@
   checkForMistranslation: true
 - raw: 大娘
   result: Great Aunt
+  allowedAlternatives:
+    - Aunt
   checkForHallucination: false
   checkForMistranslation: true
 
@@ -1510,5 +1526,9 @@
   checkForMistranslation: true
 - raw: 墟海剑
   result: Abyssal Sea Sword
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 烈火刀
+  result: Blazing Blade
   checkForHallucination: false
   checkForMistranslation: true

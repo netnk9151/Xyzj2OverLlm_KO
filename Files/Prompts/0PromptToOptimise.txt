@@ -1,4 +1,3 @@
-﻿**Placeholders:**
-- Keep all placeholders like `{0}`, `{1}` unchanged.
-- Placeholders must never be removed.
-- Treat placeholders as objects based on context.
+﻿** Formatting Tags **
+- Return output inside a <div> tag
+- Keep all formatting tags, such as `<color>`, unchanged in the translation. Ensure these tags appear in the final output.

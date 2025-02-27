@@ -269,6 +269,7 @@ public static class LineValidation
         return new ValidationResult
         {
             Valid = response,
+            Result = result,
             CorrectionPrompt = correctionPrompts.ToString(),
         };
     }
@@ -276,55 +277,6 @@ public static class LineValidation
     public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)
     {
         return string.Format(config.Prompts["BaseCorrectionPrompt"], raw, result, validationResult.CorrectionPrompt); ;
-    }
-
-    public static (Dictionary<string, string> mappings, string stripped) StripHtml(string raw)
-    {
-        // Dictionary to store mappings from placeholders to actual HTML tags.
-        var tagMappings = new Dictionary<string, string>();
-
-        // Regex pattern to match opening and closing tags separately
-        var openTagPattern = @"<([a-zA-Z0-9]+)(?:\s[^>]*)?>";
-        var closeTagPattern = @"</([a-zA-Z0-9]+)>";
-
-        // Use a counter for unique placeholder IDs
-        var openCounter = 0;
-        var closeCounter = 0;
-
-        // MatchEvaluator delegate to replace each opening tag with its placeholder
-        string openEvaluator(Match match)
-        {
-            var tagName = match.Groups[1].Value; // Capture the tag name
-            var placeholder = $"<TagID_{openCounter}_Open>";
-
-            // Map the actual HTML tag to this placeholder
-            tagMappings.Add(placeholder, match.Value);
-
-            openCounter++;
-            return placeholder;
-        }
-
-        // MatchEvaluator delegate to replace each closing tag with its placeholder
-        string closeEvaluator(Match match)
-        {
-            var tagName = match.Groups[1].Value; // Capture the tag name
-            var placeholder = $"<TagID_{closeCounter}_Closed>";
-
-            // Map the actual HTML tag to this placeholder
-            tagMappings.Add(placeholder, match.Value);
-
-            closeCounter++;
-            return placeholder;
-        }
-
-        // Replace opening tags with placeholders
-        var processedText = Regex.Replace(raw, openTagPattern, openEvaluator);
-
-        // Replace closing tags with placeholders
-        processedText = Regex.Replace(processedText, closeTagPattern, closeEvaluator);
-
-        return (tagMappings, raw);
-
     }
 
     public static List<string> FindMarkup(string input)
@@ -370,30 +322,6 @@ public static class LineValidation
         string replacement = "<mark style=\"color: $1;\">$2</mark>";
 
         // Replace <color> tags with <font> tags
-        string result = Regex.Replace(input, pattern, replacement, RegexOptions.Singleline | RegexOptions.IgnoreCase);
-
-        return result;
-    }
-
-    public static string ConvertPlaceholderTagsToColorTags(string input)
-    {
-        // Regex to match <font> tags and capture their contents and attributes
-        string pattern = @"<mark style=\""color: (#[0-9A-Fa-f]{6});\"">(.*?)<\/mark>";
-        string replacement = "<color=$1>$2</color>";
-
-        // Replace <font> tags with <color> tags
-        string result = Regex.Replace(input, pattern, replacement, RegexOptions.Singleline | RegexOptions.IgnoreCase);
-
-        return result;
-    }
-
-    public static string StripColorTags(string input)
-    {
-        // Regex to match <color> tags and capture their contents
-        string pattern = @"<color=(#[0-9A-Fa-f]{6})>(.*?)<\/color>";
-        string replacement = "$2"; // Keep only the contents within the <color> tags
-
-        // Remove <color> tags and keep contents
         string result = Regex.Replace(input, pattern, replacement, RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         return result;

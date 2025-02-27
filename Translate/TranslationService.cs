@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -23,75 +24,75 @@ public static class TranslationService
             new() {Path = "cardinfo.txt", SplitIndexes = []},
             new() {Path = "chuanwenprototype.txt", SplitIndexes = []},
             new() {Path = "condition_group.txt", SplitIndexes = []},
-            //new() {Path = "condition_show_anim.txt", SplitIndexes = []},
-            //new() {Path = "custom_data.txt", SplitIndexes = []},
-            //new() {Path = "dlcinfo.txt", SplitIndexes = []},
-            //new() {Path = "emoji.txt", SplitIndexes = []},
-            //new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
-            //new() {Path = "fuben_prototype.txt", SplitIndexes = []},
-            //new() {Path = "game_manual.txt", SplitIndexes = []},
-            //new() {Path = "game_manual_clue.txt", SplitIndexes = []},
-            //new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
-            //new() {Path = "guanqiainfo.txt", SplitIndexes = []},
-            //new() {Path = "horoscope.txt", SplitIndexes = []},
-            //new() {Path = "identity.txt", SplitIndexes = []},
-            //new() {Path = "item_base.txt", SplitIndexes = []},
-            //new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
-            //new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
-            //new() {Path = "jueyinglou.txt", SplitIndexes = []},
-            //new() {Path = "keylist.txt", SplitIndexes = []},
-            ////new() {Path = "keywordfilter.txt", SplitIndexes = []},
-            ////new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
-            ////new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "loadingpicture.txt", SplitIndexes = []},
-            //new() {Path = "loadingtips.txt", SplitIndexes = []},
-            //new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
-            //new() {Path = "mapinfo.txt", SplitIndexes = []},
-            //new() {Path = "map_area.txt", SplitIndexes = []},
-            //new() {Path = "map_area_shili.txt", SplitIndexes = []},
-            //new() {Path = "map_area_title.txt", SplitIndexes = []},
-            //new() {Path = "menpai.txt", SplitIndexes = []},
-            //new() {Path = "menpaibuild.txt", SplitIndexes = []},
-            //new() {Path = "menpaipaibie.txt", SplitIndexes = []},
-            //new() {Path = "menpaipeifang.txt", SplitIndexes = []},
-            //new() {Path = "menpaiquest.txt", SplitIndexes = []},
-            //new() {Path = "menpairandom.txt", SplitIndexes = []},
-            //new() {Path = "menpaisoldier.txt", SplitIndexes = []},
-            //new() {Path = "menpaitalent.txt", SplitIndexes = []},
-            //new() {Path = "mystique.txt", SplitIndexes = []},
-            //new() {Path = "nandu.txt", SplitIndexes = []},
-            //new() {Path = "npc_interact.txt", SplitIndexes = []},
-            //new() {Path = "npc_prototype.txt", SplitIndexes = []},
-            //new() {Path = "npc_spell_container.txt", SplitIndexes = []},
-            //new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
-            //new() {Path = "npc_team_info.txt", SplitIndexes = []},
-            //new() {Path = "pve_data.txt", SplitIndexes = []},
-            //new() {Path = "qinggong_node.txt", SplitIndexes = []},
-            //new() {Path = "questjiemi.txt", SplitIndexes = []},
-            ////new() {Path = "questprototype.txt", SplitIndexes = []},
-            //new() {Path = "randomname.txt", SplitIndexes = []},
-            //new() {Path = "randomnamenew.txt", SplitIndexes = []},
-            //new() {Path = "randomquestion.txt", SplitIndexes = []},
-            //new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
-            //new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
-            //new() {Path = "stunt_proto.txt", SplitIndexes = []},
-            //new() {Path = "system_introduce.txt", SplitIndexes = []},
-            //new() {Path = "talent_proto.txt", SplitIndexes = []},
-            //new() {Path = "teleport_trans.txt", SplitIndexes = []},
-            //new() {Path = "triggertip.txt", SplitIndexes = []},
-            //new() {Path = "tujian.txt", SplitIndexes = []},
-            //new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
-            //new() {Path = "wordentrytitle.txt", SplitIndexes = []},
-            //new() {Path = "wordentrytype.txt", SplitIndexes = []},
-            //new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
-            //new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
+            new() {Path = "condition_show_anim.txt", SplitIndexes = []},
+            new() {Path = "custom_data.txt", SplitIndexes = []},
+            new() {Path = "dlcinfo.txt", SplitIndexes = []},
+            new() {Path = "emoji.txt", SplitIndexes = []},
+            new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
+            new() {Path = "fuben_prototype.txt", SplitIndexes = []},
+            new() {Path = "game_manual.txt", SplitIndexes = []},
+            new() {Path = "game_manual_clue.txt", SplitIndexes = []},
+            new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
+            new() {Path = "guanqiainfo.txt", SplitIndexes = []},
+            new() {Path = "horoscope.txt", SplitIndexes = []},
+            new() {Path = "identity.txt", SplitIndexes = []},
+            new() {Path = "item_base.txt", SplitIndexes = []},
+            new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
+            new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
+            new() {Path = "jueyinglou.txt", SplitIndexes = []},
+            new() {Path = "keylist.txt", SplitIndexes = []},
+            //new() {Path = "keywordfilter.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
+            //new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "loadingpicture.txt", SplitIndexes = []},
+            new() {Path = "loadingtips.txt", SplitIndexes = []},
+            new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
+            new() {Path = "mapinfo.txt", SplitIndexes = []},
+            new() {Path = "map_area.txt", SplitIndexes = []},
+            new() {Path = "map_area_shili.txt", SplitIndexes = []},
+            new() {Path = "map_area_title.txt", SplitIndexes = []},
+            new() {Path = "menpai.txt", SplitIndexes = []},
+            new() {Path = "menpaibuild.txt", SplitIndexes = []},
+            new() {Path = "menpaipaibie.txt", SplitIndexes = []},
+            new() {Path = "menpaipeifang.txt", SplitIndexes = []},
+            new() {Path = "menpaiquest.txt", SplitIndexes = []},
+            new() {Path = "menpairandom.txt", SplitIndexes = []},
+            new() {Path = "menpaisoldier.txt", SplitIndexes = []},
+            new() {Path = "menpaitalent.txt", SplitIndexes = []},
+            new() {Path = "mystique.txt", SplitIndexes = []},
+            new() {Path = "nandu.txt", SplitIndexes = []},
+            new() {Path = "npc_interact.txt", SplitIndexes = []},
+            new() {Path = "npc_prototype.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_container.txt", SplitIndexes = []},
+            new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
+            new() {Path = "npc_team_info.txt", SplitIndexes = []},
+            new() {Path = "pve_data.txt", SplitIndexes = []},
+            new() {Path = "qinggong_node.txt", SplitIndexes = []},
+            new() {Path = "questjiemi.txt", SplitIndexes = []},
+            //new() {Path = "questprototype.txt", SplitIndexes = []},
+            new() {Path = "randomname.txt", SplitIndexes = []},
+            new() {Path = "randomnamenew.txt", SplitIndexes = []},
+            new() {Path = "randomquestion.txt", SplitIndexes = []},
+            new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
+            new() {Path = "spelleffect.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
+            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
+            new() {Path = "stunt_proto.txt", SplitIndexes = []},
+            new() {Path = "system_introduce.txt", SplitIndexes = []},
+            new() {Path = "talent_proto.txt", SplitIndexes = []},
+            new() {Path = "teleport_trans.txt", SplitIndexes = []},
+            new() {Path = "triggertip.txt", SplitIndexes = []},
+            new() {Path = "tujian.txt", SplitIndexes = []},
+            new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
+            new() {Path = "wordentrytitle.txt", SplitIndexes = []},
+            new() {Path = "wordentrytype.txt", SplitIndexes = []},
+            new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
+            new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
 
             ////Biggest one
             //new() {Path = "stringlang.txt", SplitIndexes = []},
@@ -325,7 +326,10 @@ public static class TranslationService
                         if (useTranslationCache && cacheHit)
                             split.Translated = translationCache[split.Text];
                         else
-                            split.Translated = await TranslateSplitAsync(config, split.Text, client, outputFile);
+                        {
+                            var result = await TranslateSplitAsync(config, split.Text, client, outputFile);
+                            split.Translated = result.Valid ? result.Result : string.Empty;
+                        }
 
                         split.ResetFlags();
                         recordsProcessed++;
@@ -445,10 +449,10 @@ public static class TranslationService
                 var trans = await TranslateSplitAsync(config, split, client, outputFile);
 
                 // If one fails we have to kill the lot
-                if (string.IsNullOrEmpty(trans))
+                if (!trans.Valid)
                     return (true, string.Empty);
 
-                builder.Append($"{trans}{suffix}");             
+                builder.Append($"{trans.Result}{suffix}");             
             }
 
             var result = builder.ToString();
@@ -480,30 +484,30 @@ public static class TranslationService
                 if (!string.IsNullOrEmpty(outsideStart))
                 {
                     var trans = await TranslateSplitAsync(config, outsideStart, client, outputFile);
-                    output += trans;
+                    output += trans.Result;
 
                     // If one fails we have to kill the lot
-                    if (string.IsNullOrEmpty(trans))
+                    if (!trans.Valid)
                         return (true, string.Empty);
                 }
 
                 if (!string.IsNullOrEmpty(inside))
                 {
                     var trans = await TranslateSplitAsync(config, inside, client, outputFile);
-                    output += $" ({trans}) ";
+                    output += $" ({trans.Result}) ";
 
                     // If one fails we have to kill the lot
-                    if (string.IsNullOrEmpty(trans))
+                    if (!trans.Valid)
                         return (true, string.Empty);
                 }
 
                 if (!string.IsNullOrEmpty(outsideEnd))
                 {
                     var trans = await TranslateSplitAsync(config, outsideEnd, client, outputFile);
-                    output += trans;
+                    output += trans.Result;
 
                     // If one fails we have to kill the lot
-                    if (string.IsNullOrEmpty(trans))
+                    if (!trans.Valid)
                         return (true, string.Empty);
                 }
             }
@@ -514,16 +518,16 @@ public static class TranslationService
         return (false, string.Empty);
     }
 
-    public static async Task<string> TranslateSplitAsync(LlmConfig config, string? raw, HttpClient client, string outputFile)
+    public static async Task<ValidationResult> TranslateSplitAsync(LlmConfig config, string? raw, HttpClient client, string outputFile, string additionalPrompts = "")
     {
         if (string.IsNullOrEmpty(raw))
-            return string.Empty;
+            return new ValidationResult(string.Empty);
 
         var pattern = LineValidation.ChineseCharPattern;
 
         // If it is already translated or just special characters return it
         if (!Regex.IsMatch(raw, pattern))
-            return raw;
+            return new ValidationResult(true, raw);
 
         // Prepare the raw by stripping out anything the LLM can't support
         var tokenReplacer = new StringTokenReplacer();
@@ -534,6 +538,7 @@ public static class TranslationService
         //if (split2)
         //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, outputFile, tokenReplacer);
 
+        // TODO: We really should move this segementation to the object model itself and split it at export time
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in SplitCharactersList)
         {
@@ -541,69 +546,44 @@ public static class TranslationService
 
             // Because its recursive we want to bail out on the first successful one
             if (split)
-                return LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer);
+                return new ValidationResult(LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer));
         }
  
         // Define the request payload
-        List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile);
+        List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile, additionalPrompts);
 
         try
         {
-            var translationValid = false;
             var retryCount = 0;
             var preparedResult = string.Empty;
+            var validationResult = new ValidationResult();
 
-            while (!translationValid && retryCount < (config.RetryCount ?? 1))
+            while (!validationResult.Valid && retryCount < (config.RetryCount ?? 1))
             {
-                // Create an HttpContent object
-                var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
-                HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
-
-                // Make the POST request
-                HttpResponseMessage response = await client.PostAsync(config.Url, content);
-
-                // Ensure the response was successful
-                response.EnsureSuccessStatusCode();
-
-                // Read and display the response content
-                string responseBody = await response.Content.ReadAsStringAsync();
-
-                using var jsonDoc = JsonDocument.Parse(responseBody);
-                var llmResult = jsonDoc.RootElement
-                    .GetProperty("message")!
-                    .GetProperty("content")!
-                    .GetString()
-                    ?.Trim() ?? string.Empty;
-
+                var llmResult = await TranslateMessagesAsync(client, config, messages);
                 preparedResult = LineValidation.PrepareResult(llmResult);
+                validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, outputFile);
+                validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, outputFile, tokenReplacer);
 
-                if (!config.SkipLineValidation)
+                // Append history of failures
+                if (!validationResult.Valid && config.CorrectionPromptsEnabled)
                 {
-                    var validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, outputFile);
-                    translationValid = validationResult.Valid;
+                    var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
 
-                    // Append history of failures
-                    if (!translationValid && config.CorrectionPromptsEnabled)
-                    {
-                        var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
-
-                        // Regenerate base messages so we dont hit token limit by constantly appending retry history
-                        messages = GenerateBaseMessages(config, preparedRaw, outputFile);
-                        AddCorrectionMessages(messages, llmResult, correctionPrompt);
-                    }
+                    // Regenerate base messages so we dont hit token limit by constantly appending retry history
+                    messages = GenerateBaseMessages(config, preparedRaw, outputFile);
+                    AddCorrectionMessages(messages, llmResult, correctionPrompt);
                 }
-                else
-                    translationValid = true;
 
                 retryCount++;
             }
 
-            return translationValid ? LineValidation.CleanupLineBeforeSaving(preparedResult, raw, outputFile, tokenReplacer) : string.Empty;
+            return validationResult;
         }
         catch (HttpRequestException e)
         {
             Console.WriteLine($"Request error: {e.Message}");
-            return string.Empty;
+            return new ValidationResult(string.Empty);
         }
     }
 
@@ -618,6 +598,9 @@ public static class TranslationService
         //Dynamically build prompt using whats in the raws
         var basePrompt = new StringBuilder(config.Prompts["BaseSystemPrompt"]);
         basePrompt.AppendLine("");
+
+        if (raw.Contains("<color"))
+            basePrompt.AppendLine(config.Prompts["DynamicColorPrompt"]);
 
         if (raw.Contains('{'))
             basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
@@ -668,5 +651,31 @@ public static class TranslationService
             var tempPath = Path.Combine(destDir, subdir.Name);
             CopyDirectory(subdir.FullName, tempPath);
         }
+    }
+
+    public static async Task<string> TranslateInputAsync(HttpClient client, LlmConfig config, string input, string outputFile = "", string additionalPrompt = "")
+    {
+        List<object> messages = TranslationService.GenerateBaseMessages(config, input, outputFile, additionalPrompt);
+        return await TranslateMessagesAsync(client, config, messages);
+    }
+
+    public static async Task<string> TranslateMessagesAsync(HttpClient client, LlmConfig config, List<object> messages)
+    {
+        // Generate based on what would have been created
+        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
+
+        // Send correction & Get result
+        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
+        HttpResponseMessage response = await client.PostAsync(config.Url, content);
+        response.EnsureSuccessStatusCode();
+        string responseBody = await response.Content.ReadAsStringAsync();
+        using var jsonDoc = JsonDocument.Parse(responseBody);
+        var result = jsonDoc.RootElement
+            .GetProperty("message")!
+            .GetProperty("content")!
+            .GetString()
+            ?.Trim() ?? string.Empty;
+
+        return result;
     }
 }

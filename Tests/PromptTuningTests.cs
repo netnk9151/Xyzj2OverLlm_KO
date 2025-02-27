@@ -39,8 +39,10 @@ public class PromptTuningTests
             //new("击败目标点{GetZhiYingTargetPos}的{E} \\n {NeedKillNpcItemsCount}/{N})"),
             //new("各家学说，各抒己见，两两之间，总有克制。\\n强克制：对目标伤害提升0.5倍。被强克制：对目标伤害降低0.5倍。\\n强克制关系：道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制：对目标伤害提升0.25倍。被弱克制：对目标伤害降低0.25倍。\\n弱克制关系：道学→儒学→墨学；佛学→魔学→农学。"),
             //new("为人心性最聪明，经营求财命不穷。善于经商，同时因为过多钻研商道导致心眼狭小，商道+50，豪爽-50。"),
-            //new("到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)"),
-            new("幸好得知陀学智等人在<color=&&00ff00ff>村北门口的猪艚里藏了解毒丸。</color>"),
+            new("到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)"),
+            new("在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"),
+            new("在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"),
+            new("在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"),
         };
 
         config.SkipLineValidation = true;
@@ -63,11 +65,7 @@ public class PromptTuningTests
             // Process the batch in parallel
             await Task.WhenAll(batch.Select(async line =>
             {
-                var tokenReplacer = new StringTokenReplacer();
-                var preparedRaw = LineValidation.PrepareRaw(line.Raw, tokenReplacer);
-                var result = await TranslationService.TranslateSplitAsync(config, preparedRaw, client, string.Empty);
-                line.Trans = LineValidation.CleanupLineBeforeSaving(result, preparedRaw, string.Empty, tokenReplacer);
-
+                line.ValidationResult = await TranslationService.TranslateSplitAsync(config, line.Raw, client, string.Empty);
                 recordsProcessed++;
             }));
 
@@ -77,10 +75,7 @@ public class PromptTuningTests
         }
 
         foreach (var line in testLines)
-        {
-            var valid = LineValidation.CheckTransalationSuccessful(config, line.Raw, line.Trans, string.Empty);
-            results.Add($"From: {line.Raw}\nTo: {line.Trans}\nValid={valid.Valid}\n{valid.CorrectionPrompt}\n");
-        }
+            results.Add($"From: {line.Raw}\nTo: {line.ValidationResult.Result}\nValid={line.ValidationResult.Valid}\n{line.ValidationResult.CorrectionPrompt}\n");
 
         File.WriteAllLines($"{workingDirectory}/TestResults/0.PromptTest.txt", results);
     }
@@ -89,11 +84,9 @@ public class PromptTuningTests
     [Fact(DisplayName = "2. Optimise Provided Prompt")]
     public async Task OptimiseProvidedPrompt()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
-
-        // Create an HttpClient instance
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
+        var config = Configuration.GetConfiguration(workingDirectory);
 
         // Prime the Request
 
@@ -107,7 +100,7 @@ public class PromptTuningTests
             ];
 
         // Generate based on what would have been created
-        var result = await QuickTranslateWithCustomMessages(config, messages);
+        var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
 
         File.WriteAllText($"{workingDirectory}/TestResults/1.MinimisePrompt.txt", result);
     }
@@ -117,70 +110,101 @@ public class PromptTuningTests
     [InlineData(2, "雄霸武林")]
     [InlineData(3, "德高望重重，才广武林称。兼备风云志，胸怀揽星辰。")]
     [InlineData(4, "于狂刀门贡献堂主处累积购买二十次")]
+    [InlineData(5, "路过城西村时，遇到沈大娘正在收拾沈蛋，似乎是因为他将表姐家的衣服撕毁之事，沈蛋为了避免挨打，将竹条扔到了风车上面。")]
     public async Task ExplainGlossaryPrompt(int index, string input)
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
-        var result = await QuickTranslate(config, input, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. Also explain how and if the glossary was used.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainGlossaryPrompt{index}.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainGlossaryPrompt{index}.txt", result.Result);
     }
 
     [Fact]
     public async Task ExplainPrompt2()
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         var input = "豆花嫂希望你能为她丈夫带来虎鞭，至于用途应该不难猜？";
-        var result = await QuickTranslate(config, input, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ? was removed. Also explain how to adjust the system prompt to correct it to make sure the '?' was not removed and context is retained.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt2.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt2.txt", result.Result);
     }
 
     [Fact]
     public async Task ExplainPrompt3()
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         var input = "若果有此意，叫八戒伐几棵树来，沙僧寻些草来，我做木匠，就在这里搭个窝铺，你与她圆房成事，我们大家散了，却不是件事业？何必又跋涉，取什经去！";
-        var result = await QuickTranslate(config, input, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ! was removed. Also explain how to adjust the system prompt to correct it to make sure the '!' was not removed and context is retained. Show an example prompt.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt3.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt3.txt", result.Result);
     }
 
     [Fact]
     public async Task ExplainAlternativesPrompt()
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         //var input = "好嘞，客官您慢走！";
         var input = "完成菩提";
-        var result = await QuickTranslate(config, input, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an alternative." +
             "Also explain how to adjust the system prompt to correct it to make sure you do not provide this alternative." +
             "Show an example prompt.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainAltPrompt.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainAltPrompt.txt", result.Result);
     }
 
     [Fact]
     public async Task ExplainExplanationPrompt()
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
         var config = Configuration.GetConfiguration(workingDirectory);
         //var input = "好嘞，客官您慢走！";
         var input = "幽影-剑意纵横";
-        var result = await QuickTranslate(config, input, string.Empty,
+
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an explanation." +
             "Also explain how to adjust the system prompt to correct it to make sure you do not provide this explanation." +
             "Show an example prompt.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainExplanationPrompt.txt", result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainExplanationPrompt.txt", result.Result);
+    }
+
+    [Fact]
+    public async Task ExplainColorPrompt()
+    {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
+        var config = Configuration.GetConfiguration(workingDirectory);
+        var input = "在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。";
+
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,            
+            "Explain your reasinging in a <explain> tag, why is there no <color> tag in the final result." +
+            "Show in a <prompt> tag, An updated system prompt to ensure the <color> tag is included in the final result.");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainColorPrompt.txt", result.Result);
     }
 
     [Fact]
     public async Task OptimiseCorrectTagPrompt()
     {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
 
         // Prime the Request
@@ -196,60 +220,11 @@ public class PromptTuningTests
         // Add what the correction prompt would have been
         TranslationService.AddCorrectionMessages(messages, origResult, correctionPrompt);
 
-        var result = await QuickTranslateWithCustomMessages(config, messages);
+        var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
 
         // Calculate output of test
         var validationResult = LineValidation.CheckTransalationSuccessful(config, raw, result, string.Empty);
         var lines = $"Valid:{validationResult.Valid}\nRaw:{raw}\nResult:{result}";
         File.WriteAllText($"{workingDirectory}/TestResults/OptimiseCorrectTag.txt", lines);
-    }
-
-    public async Task<string> QuickTranslate(LlmConfig config, string input, string outputFile = "", string additionalPrompt = "")
-    {
-        using var client = new HttpClient();
-        client.Timeout = TimeSpan.FromSeconds(300);
-
-        // Prime the Request
-        List<object> messages = TranslationService.GenerateBaseMessages(config, input, outputFile, additionalPrompt);
-
-        // Generate based on what would have been created
-        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
-
-        // Send correction & Get result
-        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
-        HttpResponseMessage response = await client.PostAsync(config.Url, content);
-        response.EnsureSuccessStatusCode();
-        string responseBody = await response.Content.ReadAsStringAsync();
-        using var jsonDoc = JsonDocument.Parse(responseBody);
-        var result = jsonDoc.RootElement
-            .GetProperty("message")!
-            .GetProperty("content")!
-            .GetString()
-            ?.Trim() ?? string.Empty;
-
-        return result;
-    }
-
-    public async Task<string> QuickTranslateWithCustomMessages(LlmConfig config, List<object> messages)
-    {
-        using var client = new HttpClient();
-        client.Timeout = TimeSpan.FromSeconds(300);
-
-        // Generate based on what would have been created
-        var requestData = LlmHelpers.GenerateLlmRequestData(config, messages);
-
-        // Send correction & Get result
-        HttpContent content = new StringContent(requestData, Encoding.UTF8, "application/json");
-        HttpResponseMessage response = await client.PostAsync(config.Url, content);
-        response.EnsureSuccessStatusCode();
-        string responseBody = await response.Content.ReadAsStringAsync();
-        using var jsonDoc = JsonDocument.Parse(responseBody);
-        var result = jsonDoc.RootElement
-            .GetProperty("message")!
-            .GetProperty("content")!
-            .GetString()
-            ?.Trim() ?? string.Empty;
-
-        return result;
-    }
+    }   
 }

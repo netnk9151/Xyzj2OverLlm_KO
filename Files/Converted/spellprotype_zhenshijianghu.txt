@@ -177,20 +177,20 @@
 - lineNum: 50
   raw: "50#0#御剑-伤害#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#110052#0#0#0#0#0#0#0#0#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:24.9382177+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5938201+08:00
     split: 2
     text: "御剑-伤害"
-    translated: ""
+    translated: "Wield a sword by imperial command. - Harm."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 51
   raw: "51#0#养剑术-飞剑#0#温养剑器，使得剑器和自己有感应，攻击命中目标有一定几率放出一把飞剑，飞剑带伤害和剑气。#2#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100100022#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:22.6586477+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5938209+08:00
     split: 2
     text: "养剑术-飞剑"
-    translated: ""
+    translated: "The art of sword-fostering. - Flying Sword"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -671,10 +671,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:23:27.8976873+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:13.8731782+08:00
     split: 11
     text: "身前1.4米180度，2段；直线1.8米，1段"
-    translated: ""
+    translated: "Straight line: 1.8 meters, 1 segments; arc of a circle: radius of 1.4 meters, degree of 180°, length of 2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -762,22 +762,22 @@
 - lineNum: 204
   raw: "204#0#刀法四式#0#0#0#765#0#6#0#0#0#0#0#spell_24_go|24_s#sfx_main_hero_24&0&true&true#0#1#50#0#99#40#2040#2041#2040#2042#2040#2043#0#0#0#0#132#132#333#333#533#533#0#0#0#0#0#sound_spell_204#0#4#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795236+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4608349+08:00
     split: 2
     text: "刀法四式"
-    translated: "Four Sword Techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Four Sword Techniques"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 205
   raw: "205#0#刀法五式#0#0#0#600#0#6#0#0#0#0#0#spell_25_go|25_s#sfx_main_hero_25&0&true&true#0#1#50#0#99#50#2050#2051#101000#0#0#0#0#0#0#0#333#333#333#0#0#0#0#0#0#0#0#sound_spell_205#0#4#0#0#0#0#0#0#0#0#0#0#0#0#-1#2#1.8#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795242+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4608354+08:00
     split: 2
     text: "刀法五式"
-    translated: "Five Blade Techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Five Forms of Swordplay"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 211
   raw: "211#0#刀变招一式#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -842,62 +842,62 @@
 - lineNum: 222
   raw: "222#0#刀法二式-新#0#0#0#363#0#6#0#0#0#0#0#spell_22n_go|22n_s#sfx_main_hero_22&0&true&true#0#1#0#0#30#20#2020#2021#0#0#0#0#0#0#0#0#165#165#0#0#0#0#0#0#0#0#0#sound_spell_202#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795262+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:00.5725806+08:00
     split: 2
     text: "刀法二式-新"
-    translated: "Second Blade Form. - New."
+    translated: "Blade Art Second Form - New."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 223
   raw: "223#0#刀法三式-新#0#0#0#429#0#6#0#0#0#0#0#spell_23n_go|23n_s#sfx_main_hero_23&0&true&true#0#1#0#0#55#30#2030#2031#0#0#0#0#0#0#0#0#333#333#0#0#0#0#0#0#0#0#0#sound_spell_203#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795265+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:00.5725809+08:00
     split: 2
     text: "刀法三式-新"
-    translated: "Three Techniques of the Sword. - New"
+    translated: "Three Styles of Blade Art. - New."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 224
   raw: "224#0#刀法四式-新#0#0#0#660#0#6#0#0#0#0#0#spell_24n_go|24n_s#sfx_main_hero_24&0&true&true#0#1#0#10#80#40#2040#2041#2040#2042#2044#2043#0#0#0#0#99#99#264#264#429#429#0#0#0#0#0#sound_spell_204#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795268+08:00
+  - lastTranslatedOn: 2025-02-27T18:18:45.3390334+08:00
     split: 2
     text: "刀法四式-新"
-    translated: "Four Techniques of the Blade. - New."
+    translated: "Four Blade Arts Techniques. - New."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 225
   raw: "225#0#刀法五式-新#0#0#0#660#0#6#0#0#0#0#0#spell_25n_go|25n_s#sfx_main_hero_25&0&true&true#0#1#0#5#24#50#2050#2051#101000#0#0#0#0#0#0#0#170#170#170#0#0#0#0#0#0#0#0#sound_spell_205#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#2#1.8#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795272+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4608379+08:00
     split: 2
     text: "刀法五式-新"
-    translated: "Five Techniques of the Sword Style. - New."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Five Sword Techniques - New."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 234
   raw: "234#0#刀变招四式-新#0#0#0#462#0#6#0#0#0#0#0#spell_24n_1_go|24n_1_s#sfx_main_hero_24_1&0&true&true#0#1#0#14#87#40#2140#2141#2143#2142#0#0#0#0#0#0#165#165#429#429#0#0#0#0#0#0#0#sound_spell_214#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795276+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945130+08:00
     split: 2
     text: "刀变招四式-新"
-    translated: "Four Sword Formations. - New."
+    translated: "Four Techniques of the Blade Transformation - New."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 235
   raw: "235#0#刀变招五式-新#0#0#0#726#0#6#0#0#0#0#0#spell_25n_1_go|25n_1_s#sfx_main_hero_25_1&0&true&true#0#1#0#0#55#50#2150#2151#101030#0#0#0#0#0#0#0#429#429#429#0#0#0#0#0#0#0#0#sound_spell_215#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795279+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4608386+08:00
     split: 2
     text: "刀变招五式-新"
-    translated: "The Five Techniques of Sword Transformation. - New."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Five Sword Forms of Transformation - New."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 241
   raw: "241#0#刀法一式_new_3#0#0#0#300#0#6#0#0#0#0#0#spell_21n3_go|21n3_s#sfx_main_hero_21_new&0&true&true#0#1#0#10#45#10#2410#2411#0#0#0#0#0#0#0#0#132#132#0#0#0#0#0#0#0#0#0#sound_spell_201#0#4#200#0#0#11#0#0#0#0#0#0#0#0#-1#3#1.6#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -912,50 +912,50 @@
 - lineNum: 242
   raw: "242#0#刀法二式_new_3#0#0#0#366#0#6#0#0#0#0#0#spell_22n3_go|22n3_s#sfx_main_hero_22_new&0&true&true#0#1#0#0#30#20#2420#2421#0#0#0#0#0#0#0#0#132#132#0#0#0#0#0#0#0#0#0#sound_spell_202#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#3#1.6#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795287+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:25.8295390+08:00
     split: 2
     text: "刀法二式_new_3"
-    translated: "New Blade Technique Two: 3"
+    translated: "Knife Technique Two Form - New 3"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 243
   raw: "243#0#刀法三式_new_3#0#0#0#566#0#6#0#0#0#0#0#spell_23n3_go|23n3_s#sfx_main_hero_23_new&0&true&true#0#1#0#0#55#30#2430#2430#2431#2431#0#0#0#0#0#0#66#333#66#333#0#0#0#0#0#0#0#sound_spell_203_new#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#3#1.6#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795290+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:25.8295393+08:00
     split: 2
     text: "刀法三式_new_3"
-    translated: "The New Three Techniques of the Sword Method by 3."
+    translated: "Blade Art Three Techniques: New 3"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 244
   raw: "244#0#刀法四式_new_3#0#0#0#366#0#6#0#0#0#0#0#spell_24n3_go|24n3_s#sfx_main_hero_24_new&0&true&true#0#1#0#10#80#40#2440#2441#0#0#0#0#0#0#0#0#198#198#0#0#0#0#0#0#0#0#0#sound_spell_204_new#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#2#1.8#1.2#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795293+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:25.8295396+08:00
     split: 2
     text: "刀法四式_new_3"
-    translated: "New 3 Four-Style Sword Technique"
+    translated: "Blade Art Four Styles, New 3"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 245
   raw: "245#0#刀法五式_new_3#0#0#0#966#0#6#0#0#0#0#0#spell_25n3_go|25n3_s#sfx_main_hero_25_new&0&true&true#0#1#0#5#24#50#2450#2451#101000#2452#2453#0#0#0#0#0#165#165#500#500#500#0#0#0#0#0#0#sound_spell_205_new#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#3#1.8#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5795297+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4608401+08:00
     split: 2
     text: "刀法五式_new_3"
-    translated: "Five Styles of the Sword Technique - New 3"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Five Form Blade Techniques, 3."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade Art,刀法,"
     flaggedHallucination: ""
 - lineNum: 254
   raw: "254#0#刀变招四式_new_3#0#0#0#400#0#6#0#0#0#0#0#spell_24n3_1_go|24n3_1_s#sfx_main_hero_24_1_new&0&true&true#0#1#0#14#87#40#2540#2541#0#0#0#0#0#0#0#0#231#231#0#0#0#0#0#0#0#0#0#sound_spell_206_new#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#2#1.9#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:13.5644217+08:00
+  - lastTranslatedOn: 2025-02-27T17:29:58.0361665+08:00
     split: 2
     text: "刀变招四式_new_3"
-    translated: "The Four Sword Techniques of the New 3"
+    translated: "The Four Variations of the Blade Technique, New 3"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1599,10 +1599,10 @@
 - lineNum: 1009
   raw: "1009#0#化用-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#120021#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:25.3055274+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945874+08:00
     split: 2
     text: "化用-触发技能"
-    translated: ""
+    translated: "Utilize transformation. - Activate ability skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1649,10 +1649,10 @@
 - lineNum: 1014
   raw: "1014#0#归一-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#104020#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:23.9232165+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945888+08:00
     split: 2
     text: "归一-触发技能"
-    translated: ""
+    translated: "Unification. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1699,20 +1699,20 @@
 - lineNum: 1019
   raw: "1019#0#太极-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190001#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:27.4588143+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945897+08:00
     split: 2
     text: "太极-触发技能"
-    translated: ""
+    translated: "Tai Chi - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1020
   raw: "1020#0#两仪-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190011#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:26.9651028+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945899+08:00
     split: 2
     text: "两仪-触发技能"
-    translated: ""
+    translated: "The Two Modes - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1739,10 +1739,10 @@
 - lineNum: 1023
   raw: "1023#0#命门-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190011#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:26.8001898+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945905+08:00
     split: 2
     text: "命门-触发技能"
-    translated: ""
+    translated: "Dantian - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1809,10 +1809,10 @@
 - lineNum: 1030
   raw: "1030#0#内劲-触发技能#0#0#jian12#200#0#2#0#0#0#0#0#0#0#0#2#0#0#0#0#104011#0#0#0#0#0#0#0#0#0#5#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:28.0368503+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945916+08:00
     split: 2
     text: "内劲-触发技能"
-    translated: ""
+    translated: "Internal power. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1839,20 +1839,20 @@
 - lineNum: 1033
   raw: "1033#0#缓和-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#109881#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:31.1436644+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945922+08:00
     split: 2
     text: "缓和-触发技能"
-    translated: ""
+    translated: "Moderate. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1034
   raw: "1034#0#饱食-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#12000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1034#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:23.7807692+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5945924+08:00
     split: 2
     text: "饱食-触发技能"
-    translated: ""
+    translated: "Well-fed. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1939,20 +1939,20 @@
 - lineNum: 1044
   raw: "1044#0#藏刀式-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100200021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1044#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5801554+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:25.8302125+08:00
     split: 2
     text: "藏刀式-触发技能"
-    translated: "Hidden Sword Technique - Trigger Skill"
+    translated: "Clasping Blade Form - Activate ability skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1045
   raw: "1045#0#气劲-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100300021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1045#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:28.3151848+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:15.2197392+08:00
     split: 2
     text: "气劲-触发技能"
-    translated: ""
+    translated: "Energy force - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1979,10 +1979,10 @@
 - lineNum: 1048
   raw: "1048#0#刀法精要-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100200011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1048#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5801804+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:34.0844631+08:00
     split: 2
     text: "刀法精要-触发技能"
-    translated: "Essentials of Blade Technique - Trigger skill"
+    translated: "Essentials of the Blade Art - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2019,10 +2019,10 @@
 - lineNum: 1052
   raw: "1052#0#刀劲-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#101030#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1052#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:26.4961932+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:25.8302143+08:00
     split: 2
     text: "刀劲-触发技能"
-    translated: ""
+    translated: "Blade force. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2039,10 +2039,10 @@
 - lineNum: 1054
   raw: "1054#0#炎云-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190062#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1054#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:38.5332483+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946526+08:00
     split: 2
     text: "炎云-引爆-触发技能"
-    translated: ""
+    translated: "Yan Yun - Detonate. - Trigger Skill"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2069,10 +2069,10 @@
 - lineNum: 1057
   raw: "1057#0#云烟-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190072#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1057#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:38.6516321+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946531+08:00
     split: 2
     text: "云烟-引爆-触发技能"
-    translated: ""
+    translated: "Misty Clouds - Detonate. - Triggered skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2089,10 +2089,10 @@
 - lineNum: 1059
   raw: "1059#0#巨门-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190092#190093#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1059#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:32.3038832+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946533+08:00
     split: 2
     text: "巨门-引爆-触发技能"
-    translated: ""
+    translated: "Great Tower Gate - Detonate. - Trigger skill."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2259,10 +2259,10 @@
 - lineNum: 1076
   raw: "1076#0#通用-触发真气护盾#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#107000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:26.1903531+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946567+08:00
     split: 2
     text: "通用-触发真气护盾"
-    translated: ""
+    translated: "Universal. - Trigger the true qi shield."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2319,10 +2319,10 @@
 - lineNum: 1082
   raw: "1082#0#江东-怒气#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#197392#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:31.9649187+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946578+08:00
     split: 2
     text: "江东-怒气"
-    translated: ""
+    translated: "East of the Yangtze River region. - Anger"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2339,10 +2339,10 @@
 - lineNum: 1084
   raw: "1084#0#剑息斩-伤害#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#180093#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:37.1330063+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946584+08:00
     split: 2
     text: "剑息斩-伤害"
-    translated: ""
+    translated: "Cutting Sword's Rest - Harm."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2379,12 +2379,12 @@
 - lineNum: 1088
   raw: "1088#0#心诀-墨守攻-#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196232#196233#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:39.1477425+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.7773731+08:00
     split: 2
     text: "心诀-墨守攻-"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 1089
   raw: "1089#0#游刃-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#1103003#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -2489,10 +2489,10 @@
 - lineNum: 1099
   raw: "1099#0#刀气-触发#0#0#jian12#10#0#7#0#0#0#0#0#0#sfx_main_hero_110130&0&true&true#0#2#0#0#0#0#1109201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5804485+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946937+08:00
     split: 2
     text: "刀气-触发"
-    translated: "Sword aura. - Triggered."
+    translated: "Blade energy. - Triggered."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2549,10 +2549,10 @@
 - lineNum: 1105
   raw: "1105#0#折梅落霜-寒气#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#5.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:39.3098156+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946945+08:00
     split: 2
     text: "折梅落霜-寒气"
-    translated: ""
+    translated: "Che mei luo shuang. - Cold chill"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2779,10 +2779,10 @@
 - lineNum: 1128
   raw: "1128#0#饮鸠-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17821#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:38.3881695+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5946988+08:00
     split: 2
     text: "饮鸠-触发"
-    translated: ""
+    translated: "Drinking a dove. - Triggered"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3049,10 +3049,10 @@
 - lineNum: 1155
   raw: "1155#0#通用-寒气#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:30.6889041+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947042+08:00
     split: 2
     text: "通用-寒气"
-    translated: ""
+    translated: "Universal. - Chilling cold."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3079,10 +3079,10 @@
 - lineNum: 1158
   raw: "1158#0#恪命-冰爆#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100801#100802#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:28.5858922+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947048+08:00
     split: 2
     text: "恪命-冰爆"
-    translated: ""
+    translated: "Comply diligently. - Frost Shatter"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3129,20 +3129,20 @@
 - lineNum: 1163
   raw: "1163#0#通用-法相#0#0#1#10#0#7#0#0#0#0#0#0#sfx_buff_nulei&0&true&true|sfx_buff_zhuore&0&true&true|sfx_buff_hanqi&0&true&true#0#0#0#0#0#0#101040#100810#180050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:34.5945058+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947053+08:00
     split: 2
     text: "通用-法相"
-    translated: ""
+    translated: "Universal. - Dharma Protector"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1164
   raw: "1164#0#沉棍锻武-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1205002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5806056+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947055+08:00
     split: 2
     text: "沉棍锻武-触发"
-    translated: "Training in Iron Cudgel Techniques - Triggered"
+    translated: "Meditative staff training. - Triggered"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3309,10 +3309,10 @@
 - lineNum: 1181
   raw: "1181#0#迅掌-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200281#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:32.5001659+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947076+08:00
     split: 2
     text: "迅掌-触发"
-    translated: ""
+    translated: "Rapid Fist Technique - Trigger"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3419,20 +3419,20 @@
 - lineNum: 1192
   raw: "1192#0#正气诀-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#107560#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:30.2191793+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947096+08:00
     split: 2
     text: "正气诀-触发"
-    translated: ""
+    translated: "Correct Qi Method - Trigger"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1193
   raw: "1193#0#正气-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109030#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:30.8493298+08:00
+  - lastTranslatedOn: 2025-02-27T17:43:26.6712817+08:00
     split: 2
     text: "正气-触发"
-    translated: ""
+    translated: "Upright virtue. - Triggered."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3569,12 +3569,12 @@
 - lineNum: 1207
   raw: "1207#0#拔刀式-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100200031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5807926+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:25.4621507+08:00
     split: 2
     text: "拔刀式-触发"
-    translated: "Drawing the sword technique. - Triggered."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Sword-drawing technique. - Trigger"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 1208
   raw: "1208#0#乱环式-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -3599,20 +3599,20 @@
 - lineNum: 1210
   raw: "1210#0#霸刀势-减伤#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200103#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5807940+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:34.0846291+08:00
     split: 2
     text: "霸刀势-减伤"
-    translated: "Swordsmanship of the Overlord's Style - Damage reduction."
+    translated: "The might of the sovereign's blade. - Pain reduction."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1211
   raw: "1211#0#八方藏刀诀-伤害#0#0#1#10#0#7#0#0#0#0#0#0#sfx_main_hero_110130&0&false&true#0#0#0#0#0#0#100200111#100200112#0#0#0#0#0#0#0#0#10#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:22:58.5807945+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947379+08:00
     split: 2
     text: "八方藏刀诀-伤害"
-    translated: "The Eight Directions Conceal the Sword Technique. - Harm"
+    translated: "Eight Directions Concealed Blade Technique - Harm."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3719,10 +3719,10 @@
 - lineNum: 1222
   raw: "1222#0#太始-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196421#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:29.1819034+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947404+08:00
     split: 2
     text: "太始-触发"
-    translated: ""
+    translated: "Taishi - Triggered."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4029,10 +4029,10 @@
 - lineNum: 1253
   raw: "1253#0#风起-伤害#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197631#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1253#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:38.7815864+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947480+08:00
     split: 2
     text: "风起-伤害"
-    translated: ""
+    translated: "The Wind Rises - Harm"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4349,10 +4349,10 @@
 - lineNum: 1285
   raw: "1285#0#风残-伤害#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1105002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:39.6422133+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:06.5947554+08:00
     split: 2
     text: "风残-伤害"
-    translated: ""
+    translated: "Feng can - Harm."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5327,12 +5327,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:23:44.3218468+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:26.6943787+08:00
     split: 4
     text: "从炎鸿时期传承下来的旷世奇功，据说拥有掌控和驯服各种灵兽的力量。习得该宝典能够驯服壁虎。"
-    translated: "The legendary feat passed down from the Yanhong era is said to possess the power to control and tame various mystical beasts. Those who master this tome can tame geckos."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The ancient and extraordinary technique passed down from the Yan Hong period is said to possess the power to control and tame various mystical beasts. Mastery of this scripture allows one to tame geckos."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 3100
   raw: "3100#0#动若脱兔#0#行步翩翩，神巧灵敏，其身如箭，敌难追及。战场之上，敌人之攻势难及其身，迅捷躲避，行云流水，踪迹难觅。#13#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3100#3000#3#0#0#0#1#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -5786,12 +5786,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:23:45.2877620+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:27.9166448+08:00
     split: 4
     text: "壁虎聪明绝顶，善感震荡之气息。纵使威胁逼近，其身法敏捷以应，化隐退又智解。攀越墙壁，夺目眼帘，超越凡俗。"
-    translated: "The gecko is incredibly intelligent, adept at sensing the vibrations in its surroundings. Even when threats draw near, its agility allows it to respond swiftly by hiding or cleverly evading. It scales walls with ease and captivates onlookers, transcending the ordinary."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The gecko is exceptionally clever and adept at sensing the vibrations of qi. Even when threats draw near, its agility allows it to respond swiftly, disappearing ingeniously again with its cunning resolution. It scales walls so gracefully that it captivates onlookers, surpassing the ordinary."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
 - lineNum: 3600
   raw: "3600#0#万兽秘技·月德#0#通过学习万兽山庄的秘技，使得宠物在释放动若脱兔时，额外提升主角自身15柔。#13#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#36000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0#0#1#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -7800,10 +7800,10 @@
 - lineNum: 12015
   raw: "12015#0#江湖拳法-二连击#0#0#quan43#1300#0#2#0#0#0#0#0#spell_12015_go#sfx_main_hero_12015&0&false#0#0#180#2#0#0#120150000#120150001#0#0#0#0#0#0#0#0#300#700#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0#0#0#0#0#0#4#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:39.8270074+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:16.0429781+08:00
     split: 2
     text: "江湖拳法-二连击"
-    translated: "Wuxia martial arts. - Double-hit."
+    translated: "Jianghu martial arts. - Double hit."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8047,10 +8047,10 @@
 - lineNum: 12220
   raw: "12220#0#乱惑#11#通玄达妙，灵秘不杂。知悉掌法，通透拳路，两相结合，得天下奇招。#quan21#1617#0#2#0#0#0#0#0#spell_12022_go#sfx_main_hero_12022&0&false#0#0#180#2#0#0#90#90#0#0#0#0#0#0#0#0#231#759#0#0#0#0#0#0#0#0#0#0#0#0#12022#7000#3#0#0#0#0#0#0#0#45#15#-1#2#2.5#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:21.7883837+08:00
+  - lastTranslatedOn: 2025-02-27T17:30:04.4378238+08:00
     split: 2
     text: "乱惑"
-    translated: ""
+    translated: "Disorientation."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8166,50 +8166,50 @@
 - lineNum: 13000
   raw: "13000#0#江湖枪法#0#0#qiang34#1287#0#2#0#0#0#0#0#spell_13000_go#0#0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&0.666#0#0#0#0#0#4#0#-1#3#1.5#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:23:39.8270872+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:16.0430184+08:00
     split: 2
     text: "江湖枪法"
-    translated: "Jianghu spear techniques."
+    translated: "Spear art of the Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 13001
   raw: "13001#0#江湖枪法#0#0#qiang35#1287#0#2#0#0#0#0#0#spell_13001_go#0#0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&0.833#0#0#0#0#0#2#0#-1#2#2.0#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.7016195+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0102386+08:00
     split: 2
     text: "江湖枪法"
-    translated: "Jianghu spear techniques."
+    translated: "Spear art of the Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 13002
   raw: "13002#0#江湖枪法#0#0#qiang41#1485#0#2#0#0#0#0#0#spell_13002_go#0#0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#666#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#4#0#-1#2#1.0#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.7016195+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0102387+08:00
     split: 2
     text: "江湖枪法"
-    translated: "Jianghu spear techniques."
+    translated: "Spear art of the Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 13003
   raw: "13003#0#江湖枪法#0#0#qiang42#1287#0#2#0#0#0#0#0#spell_13003_go#0#0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#297#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#1#0#-1#3#1.5#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.7016196+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0102387+08:00
     split: 2
     text: "江湖枪法"
-    translated: "Jianghu spear techniques."
+    translated: "Spear art of the Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 13004
   raw: "13004#0#江湖枪法#0#0#qiang44#1617#0#2#0#0#0#0#0#spell_13004_go#0#0#0#180#0#0#0#80#0#0#0#0#0#0#0#0#0#627#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#Yellow-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#2#0#-1#2#1.3#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.7016196+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0102388+08:00
     split: 2
     text: "江湖枪法"
-    translated: "Jianghu spear techniques."
+    translated: "Spear art of the Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -10490,10 +10490,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:23.9205166+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:24.4445992+08:00
     split: 11
     text: "前方2米60度扇形/身前2米直线"
-    translated: ""
+    translated: "Forward 2 meters, fan-shaped 60 degrees; front 2 meters straight line."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -11289,10 +11289,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:38.2600605+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:28.4456843+08:00
     split: 4
     text: "招式变化多端，行迹诡谲。身法多变，精妙异常；行过无痕，难缚其踪。"
-    translated: "The techniques are varied and unpredictable, with movements that are agile and exceedingly skillful. They leave no trace behind, making it difficult to track their path."
+    translated: "The techniques are endlessly varied, and the movements are elusive. Their agility is remarkably versatile; they move without leaving a trace, making it difficult to track them."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12057,10 +12057,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:57.9104528+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:26.7267167+08:00
     split: 4
     text: "秋水明落日，流光灭远山。机杼剑法，一招出势，以敌方内力哺自身。"
-    translated: "Autumn waters reflect the setting sun, while the fading light vanishes into distant mountains. In the art of swordsmanship, a single move is executed with such power that it draws upon the enemy's inner strength to bolster its own might."
+    translated: "Autumn waters reflect the setting sun, and fleeting light fades into distant mountains. In this sword art technique, with a single move executed, it uses the opponent's inner power to nourish oneself."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12511,10 +12511,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:43.5467843+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:46.1683096+08:00
     split: 4
     text: "机杼剑法，看似威力并不强，但是柔中带刚，出剑迅猛无比，但是要发挥出此招核心威力还需要更加深入研究。"
-    translated: "The Loom Blade Technique appears to lack overwhelming power at first glance, but it embodies softness with an underlying strength. Its strikes are incredibly swift and powerful. However, fully unleashing the core potency of this technique requires further in-depth study."
+    translated: "The Jiuzhe Sword Art may appear to lack formidable power at first glance, but it embodies a softness with an underlying hardness. Its strikes are incredibly swift and intense, yet fully unleashing the core strength of this technique requires more in-depth study."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12606,10 +12606,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:51.0971950+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.0614098+08:00
     split: 4
     text: "是非成败转头空,青山依旧在,几度夕阳红"
-    translated: ""
+    translated: "Right or wrong, success or failure may change in an instant; the green mountains are still there, as the setting sun colors them again and again."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13124,10 +13124,10 @@
 - lineNum: 103631
   raw: "103631#0#天上经·阴-运功#0#阴属性提升18%，攻击时附加自身阴属性*1.5的伤害#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1036300#1036301#0#0#0#0#0#0#0#0#333#333#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##4#0#0#0.0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:25:55.4814194+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0106111+08:00
     split: 2
     text: "天上经·阴-运功"
-    translated: ""
+    translated: "Tian Shang Jing · Yin - Cultivate qi."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13284,10 +13284,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:29.1147037+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:37.9894571+08:00
     split: 4
     text: "剑法阴阳相济，一剑分阴阳，阴柔中带刚，刚猛中蕴柔，敌人难以捉摸其变化。打断自身其他技能强制释放，施展招式期间免疫所有控制效果，将受到伤害全部返还给对方"
-    translated: "The sword technique harmonizes Yin and Yang, dividing a single stroke into both elements. It blends softness with hardness within Yin and conceals softness in its fierceness. The enemy finds it difficult to predict its transformations. When activated, it forcibly releases other personal skills. During the execution of this technique, immunity is granted against all control effects, and any damage received is entirely reflected back onto the opponent."
+    translated: "The sword art harmonizes Yin and Yang, with a single stroke dividing them—Yin softness contains hardness, while strength holds an essence of gentleness. The enemy finds it difficult to predict its changes. It forcibly releases other skills when used and becomes immune to all control effects during the casting of techniques, returning any damage received entirely to the opponent."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13753,12 +13753,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:30.2698713+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:29.8121507+08:00
     split: 4
     text: "剑意无双，气震八荒。出剑时剑如流星，无坚不摧。攻击时根据自身阳属性造成额外伤害。可燃烧对方经脉，让其全属性降低。"
-    translated: "Unrivaled Sword Intent, with Qi that echoes across the eight wilds. When unsheathing the sword, it appears as a meteor, shattering anything in its path. During an attack, additional damage is inflicted based on one's own Yang attribute. It can burn the opponent's meridians, reducing all their attributes."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Sword intent unparalleled, aura shakes the eight corners of the world. When drawing the sword, it flashes like a meteor, shattering all obstacles. During an attack, it inflicts additional damage based on one's own Yang attribute. It can burn the opponent's meridians, reducing their overall attributes."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:24:24.8729020+08:00
     split: 11
@@ -13777,10 +13777,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:27.6801178+08:00
+  - lastTranslatedOn: 2025-02-27T17:55:50.9616638+08:00
     split: 4
     text: "蚀骨锋寒凝霜刃，锋芒无声息自沉。造成一次附带吸血效果的额外伤害。"
-    translated: "Bone-Eroding Frost, the blade is still as silent and cold as frost. It inflicts additional damage with a secondary bloodsucking effect."
+    translated: "Bone-Eroding Frostbite Blade, a blade so sharp and chilling that it silences its edge on its own. It causes additional damage with an accompanying bloodsucking effect from an external injury."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14350,10 +14350,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:49.9173979+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:40.7915612+08:00
     split: 11
     text: "身前1.5/1.9米180度扇形"
-    translated: ""
+    translated: "A 1.5/1.9 meter 180-degree fan shape in front."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14961,12 +14961,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:24:51.9285233+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:28.5042296+08:00
     split: 4
     text: "创造一个护盾保护自身并提高自身内外攻，同时降低自身内外防持续一段时间。"
-    translated: "Create a shield to protect oneself and enhance one's own offensive capabilities, both internal and external, while simultaneously reducing one's own defensive capabilities, both internal and external, for a period of time."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Create a shield to protect oneself and enhance both internal and external attack, while simultaneously reducing internal and external defense for a duration."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 111100
   raw: "111100#0#藏刀式#11#藏刀所在留馀刃，怀璧终身不见瑕。藏锋不露，而挡万钧之势，刀出惊鸿，是谓奇袭。#dao_1110#835#0#2#0#0#自身#0#0#spell_11018_go#sfx_main_hero_11018&0&true&true#0#0#0#0#0#36#1111000#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#sound_spell_111100#0#2#0#12000#1#3#0#0#0#0#0#0#30#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.3#0#1#0#"
@@ -14995,10 +14995,10 @@
 - lineNum: 111101
   raw: "111101#0#藏刀式-回血(测试用)#1#0#dao_1110#50#0#2#0#0#0#0#0#0#0#0#2#0#0#0#0#206#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#3#0#0#0#0#0#0#32#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:25:55.6290274+08:00
+  - lastTranslatedOn: 2025-02-27T18:07:37.1598404+08:00
     split: 2
     text: "藏刀式-回血(测试用)"
-    translated: "Cantonese Swordplay Style - Regenerate Blood (Test)"
+    translated: "Hidden Blade Technique - Replenish Blood (Test Version)"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15015,10 +15015,10 @@
 - lineNum: 111103
   raw: "111103#0#藏刀式-反击#11#刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。#dao_1110#666#0#2#0#0#0#0#0#spell_110000_go#sfx_main_hero_110000&0&false&true#0#2#0#0#0#0#1111012#1111030#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#7#111103#15000#1#3#0#0#0#0#0#0#30#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.8735905+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:32.7360615+08:00
     split: 2
     text: "藏刀式-反击"
-    translated: "Cantonese Swordplay Style - Counterattack."
+    translated: "Cangdao Style - Counterattack."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15114,10 +15114,10 @@
 - lineNum: 111150
   raw: "111150#0#藏刀诀#11#陷敌深入乱环中，四两能拨千斤动。刚劲不露，巧藏其中，借力而动，势如破竹。#dao_1115#2112#2#2#0#0#0#0#0#spell_103_go#sfx_xinfa_101&0&true&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#111150#90000#1#4#0#0#0#0#0#0#0#0#2#0#0.0#0.0#1|2101&2|2102&3|2111&4|2116#111151#500#9252#0#0#0#0##0#55#0#0.0#73010|73020|73030#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.8735938+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:41.0702832+08:00
     split: 2
     text: "藏刀诀"
-    translated: "Secret Technique of the Hidden Sword"
+    translated: "Dao of Concealing the Sword"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15131,17 +15131,17 @@
 - lineNum: 111151
   raw: "111151#0#藏刀诀运功#1#提升柔属性18点，攻击目标有30%几率触发一次威力为30的普通外攻伤害，持续时间30秒。#dao_1115#2112#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#196030#0#0#0#0#0#0#0#0#0#2112#0#0#0#0#0#0#0#0#0#0#0#0#0#0#12000#1#0#0#0#0#0#0#0#35#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:24:24.8736457+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:25.0108380+08:00
     split: 2
     text: "藏刀诀运功"
-    translated: "Dagger Secret Activation Technique"
+    translated: "Cleaver Secret Channeling the Qi"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:01.6783049+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:39.0686766+08:00
     split: 4
     text: "提升柔属性18点，攻击目标有30%几率触发一次威力为30的普通外攻伤害，持续时间30秒。"
-    translated: "Increase the soft attribute by 18 points, granting a 30% chance to trigger an attack on the target that deals normal external damage with power 30, lasting for 30 seconds."
+    translated: "Enhance the soft attribute by 18 points, granting a 30% chance to trigger normal external attack damage with power of 30 when attacking the target. The effect lasts for 30 seconds."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15467,10 +15467,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:07.8581993+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:32.0564870+08:00
     split: 4
     text: "月落留影，月下独步。身法飘忽，影如鬼魅。月下留痕，敌难捉摸。月影之中，一招致命，直取要害。"
-    translated: "The moon descends, leaving its reflection behind. Alone beneath the moonlight, they move with elusive agility, their shadow like a ghost. The trace left under the moon is hard for enemies to catch. Within the moon's glow, one decisive strike targets the critical point."
+    translated: "The moon descends, leaving its silhouette; in the moonlight, a lone figure strides. With agility that drifts and flutters like a ghostly shadow, it leaves traces beneath the moon. In the shadows of the moon, an enemy cannot be grasped or understood. Within those moonlit shadows lies a decisive strike, aiming straight for the critical hit."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15643,10 +15643,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:10.8012542+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:42.2069331+08:00
     split: 4
     text: "刀以殉道，一往而无前。消耗生命值，在接下来一段时间内，造成伤害时根据刀法附加刀气伤害。在接下来一段时间内，获得伤害减免效果，损失的生命值越多，减免越高。"
-    translated: "To devote one's life to the blade, moving forward relentlessly. Spend health points for a certain period; when dealing damage within this time, add sword energy damage according to the blade technique. During this time, gain damage mitigation effects, with greater health loss resulting in higher reduction."
+    translated: "Sacrifice the blade for martyrdom, unwaveringly advancing. Consume health points to gain a temporary effect where damage dealt incorporates extra daoqi damage based on your blade art. During this period, also receive an increase in damage mitigation proportional to the amount of health lost."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15885,10 +15885,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:52.7081758+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:32.2864486+08:00
     split: 11
     text: "身前1.5米180度扇形/2米直线"
-    translated: ""
+    translated: "A fan-shaped area within 1.5 meters in front, covering a sector of 180 degrees, or a straight line extending up to 2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16083,10 +16083,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:55.6291609+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.0615273+08:00
     split: 11
     text: "身前1.5米180度扇形/2米直线"
-    translated: ""
+    translated: "A fan-shaped area within 1.5 meters in front, covering a sector of 180 degrees, or a straight line extending up to 2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16107,10 +16107,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:54.0850159+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:31.5217432+08:00
     split: 11
     text: "身前2.2米180度扇形/直线5米"
-    translated: ""
+    translated: "A fan-shaped or straight line extending 5 meters, centered on 2.2 meters ahead of 180."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16725,12 +16725,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:28.2037959+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:30.3906813+08:00
     split: 4
     text: "心法运功，自身内外攻和内外防互相加成"
-    translated: "Mind cultivation and internal energy work enhance the synergy between external attack, external defense, internal attack, and internal defense."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The internal arts of qi cultivation enhance the synergy between one's own external attack, internal attack, external defense, and internal defense."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 120900
   raw: "120900#0#云开万道#11#云开万道，一举皓月动四方，烽烟枪鸣，千钧势来辟重山。#qiang_1090#2475#0#0#0#0#身前5米直线#0#0#spell_140160_go#sfx_main_hero_140160&0&false&true#0#0#0#0#0#410#1209000#1209000#1209000#1209001#0#0#0#0#0#41086#300#567#867#1533#0#0#0#0#0#1533#0#sound_spell_140160_go#0#0#0#30000#2#3#0#0#4#0#0#0#32#5#-1#2#5.0#1.2#0#0#0#0#0#0#0#0##4#0#0#1.68#0#1#0#"
@@ -17434,12 +17434,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:23.4986252+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:33.0101924+08:00
     split: 4
     text: "幽光微现锋自凝，生机流转力无痕。命中一定次数后回复自身血量，并造成一次额外伤害。"
-    translated: "Glowing faintly, the blade sharpens its focus, channeling life force without leaving a trace. After being activated a certain number of times, it restores the user's own health and inflicts an additional hit."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The faint glow flickers and the weapon's sharpness solidifies, with life force flowing without leaving a trace. After striking a certain number of times, it restores its own blood and deals additional damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 121911
   raw: "121911#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1219110#1219111#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#2.4#90.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#"
@@ -18646,10 +18646,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:55.0128345+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:42.4519652+08:00
     split: 4
     text: "心法运功，消耗自身10%当前生命值，增加自身10%内外攻。"
-    translated: "Chi Kung technique, consuming 10% of the user's current health, increases their external and internal attacks by 10%."
+    translated: "Qi Techniques, consuming 10% of the practitioner's current health, increase their internal and external attacks by 10%."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19105,10 +19105,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:43.9719790+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:36.3302824+08:00
     split: 4
     text: "双龙出海，卷浪取水，势如怒涛卷海。第二段攻击会对目标额外造成外攻威力为300的伤害。"
-    translated: "With both dragons setting sail, swirling waves scoop up water; their power rivals that of an enraged tide sweeping the sea. The second phase of the attack will inflict additional external damage equivalent to 300 on the target."
+    translated: "When the two dragons go to sea, they gather waves to draw water, like a tidal wave engulfing the ocean. The second attack will deal additional damage to the target equivalent to 300 External Attack power."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20690,12 +20690,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:03.7539391+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:33.8193345+08:00
     split: 4
     text: "鬼火引爆，残魂哀嚎，引爆自身周围目标的鬼火效果，造成额外伤害，目标一段时间内内无法获得任何治疗效果。"
-    translated: "Phantom flame detonates, leaving wailing spirits; it triggers a phantom flame effect on targets within its vicinity, causing additional damage. The affected target cannot receive any healing effects for a period of time."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The ghost fire explodes, and the wailing of the restless souls causes additional damage to surrounding targets. The affected targets cannot receive any healing effects for a period of time."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8106001+08:00
     split: 11
@@ -20738,10 +20738,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:15.3969389+08:00
+  - lastTranslatedOn: 2025-02-27T17:43:40.3170181+08:00
     split: 4
     text: "噬魂之力，层层吞噬，对目标施加的鬼火层数大幅增加，并造成额外伤害。"
-    translated: "The Soul Devouring Power, layer upon layer, significantly increases the number of layers of hellfire applied to the target and inflicts additional damage."
+    translated: "The Soul-Consuming Force intensifies, layer upon layer devouring the target by significantly increasing the number of layers of ghostfire and inflicting additional external injury."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20987,12 +20987,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:00.6424668+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:34.6525882+08:00
     split: 4
     text: "寒穹圣拳印法成，降魔卫道正气盈。对有定身和蚀阴效果的敌人造成大量额外伤害。"
-    translated: "With the completion of the Cold Sky Divine Fist Seal Technique, evil is banished and the righteous energy fills the air. It inflicts substantial additional damage on enemies affected by binding or yin-corrosion effects."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The Cold Sky Holy Fist Technique is perfected, with the righteous energy abundant and evil subdued. It inflicts significant additional damage on enemies affected by immobilization or yin erosion effects."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:27:48.3691979+08:00
     split: 11
@@ -21218,10 +21218,10 @@
 - lineNum: 150301
   raw: "150301#0#心法-运功#0#持续时间内，内力增加100，最大真气增加20%#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#198110#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#150301#0#0#0#0#0#3#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##3#0#0#0.0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:47.8980185+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.2323008+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21252,10 +21252,10 @@
 - lineNum: 150401
   raw: "150401#0#心法-运功#0#持续时间内，内力增加60，最大真气增加5%#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#198090#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#150401#0#0#0#0#0#2#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0.0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691992+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301619+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21615,12 +21615,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:41.7351110+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:42.7012891+08:00
     split: 4
     text: "自身要害提升50%，内外防降低50%，每施展五次招式使得自身陷入醉酒：眩晕3秒；"
-    translated: "Self-critical hit increased by 50%, external and internal defense reduced by 50%. Using five techniques will cause self to become intoxicated: Dizzy 3 seconds;"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Boost critical hit chance by 50%, reduce external and internal defense by 50%. After casting five techniques, the character becomes intoxicated: Dizzy for 3 seconds;"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 151302
   raw: "151302#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1513020#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -21726,12 +21726,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:21.7895402+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:38.3129293+08:00
     split: 4
     text: "消耗自身410真气值，提升自身40%内外防"
-    translated: "Consume personal 410 qi points to increase self by 40% in both internal and external defense."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Consume your own 410 Chi points to enhance both internal and external defense by 40%."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 151602
   raw: "151602#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1516002#1516004#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#"
@@ -21844,17 +21844,17 @@
 - lineNum: 152000
   raw: "152000#0#秘典-凝神#0#虚幻迷离，凝神无极。战斗中，使用手掷类暗器造成额外伤害。#xinfa1200#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1520000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#5#0#0#3316#3#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0#10|80#3#0#0#0.0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:42.0685446+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.2324176+08:00
     split: 2
     text: "秘典-凝神"
-    translated: ""
+    translated: "Tome of Secrets - Focus your mind."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:02.4418339+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.9633430+08:00
     split: 4
     text: "虚幻迷离，凝神无极。战斗中，使用手掷类暗器造成额外伤害。"
-    translated: "Ethereal and perplexing, reaching a state of unwavering concentration. During combat, using hand-thrown hidden weapons inflicts additional damage."
+    translated: "Mystical and illusory, with an unwavering mind. During battle, using hand-thrown hidden weapons causes additional external injury."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -21901,10 +21901,10 @@
 - lineNum: 152101
   raw: "152101#0#0#0#运功后，自身恢复效果增强20%，每秒流逝2%最大生命值，增加伤害25%，内外攻增加阳刚之和*0.5；#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1521000#1521001#1521002#1521003#1521004#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:02.1089753+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:50.6823324+08:00
     split: 4
     text: "运功后，自身恢复效果增强20%，每秒流逝2%最大生命值，增加伤害25%，内外攻增加阳刚之和*0.5；"
-    translated: "After performing internal alchemy, the self-recovery effect is enhanced by 20%, with a maximum health drain of 2% per second. It increases damage dealt by 25%, and both external and internal attacks increase by Yang hardness times *0.5."
+    translated: "After meditating, self-recovery effect is enhanced by 20%, losing 2% of maximum health per second; damage increased by 25%; increases both internal and external attack strength by Yang Gang multiplied by *0.5."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22374,12 +22374,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:40.4798071+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:36.2322017+08:00
     split: 4
     text: "地涛奔涌，雷声轰鸣。朝身前投掷数枚霹雳珠，命中后爆炸，向目标施加灼伤。若已被灼伤，则造成额外伤害。"
-    translated: "The waves roared and crashed, accompanied by thunderous booms. He hurled several Thunderbolt Beads forward; upon impact, they exploded, inflicting burning damage on the target. If the target was already suffering from burns, it caused additional harm."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The waves surged forward, and the thunder roared. He hurled several Thunderbolts before him, which exploded upon impact, inflicting burn damage to his target. If already burned, it causes additional harm."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8124896+08:00
     split: 11
@@ -22446,10 +22446,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:12.5945816+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:54.7268769+08:00
     split: 4
     text: "花落归无迹，似是故人来。纵身后退，持续向身前释放金针，中幅提升自身内攻、外攻。"
-    translated: "The flowers fall without trace, as if an old friend has come. Leaping back, they continuously release golden needles towards their front, significantly enhancing both internal and external attacks."
+    translated: "Flowers fall without a trace, as if an old friend has come. He leaps back and continues to release golden needles toward his front, enhancing both his internal attack and external attack significantly."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22572,12 +22572,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:59.3375340+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:40.1490774+08:00
     split: 4
     text: "壁虎断尾，蟾蜍泌毒。在原地留下一把毒砂，对自身施加效果，自身毒属性大幅提升。"
-    translated: "Geckos sever their tails, and toads exude poison. At the location, they leave behind a handful of toxic sand that affects themselves, greatly enhancing their own poison attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The gecko loses its tail and the toad secretes poison. It leaves behind a handful of toxic sand on site, applying effects to itself, significantly enhancing its own poisonous attributes."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8126436+08:00
     split: 11
@@ -22599,12 +22599,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:54.8618796+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:39.2985582+08:00
     split: 4
     text: "愁雾近云，天魔降世。使用套筒朝身前喷洒毒液，对命中目标施加多层中毒效果，持续造成毒属性伤害，降低移速。"
-    translated: "Fog of sorrow near the clouds, a demon descends from heaven. Utilizing a pistol-like device to spray poisonous liquid at the target ahead, it imposes multiple layers of poison effects upon impact. This results in continuous poison attribute damage and reduces movement speed."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Fog of worry thickens, demons descend from the heavens. Using a tube-like device to spray venomous liquid at the target, imposing multiple layers of poisoning effects that continuously cause poison attribute damage and reduce speed."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8126670+08:00
     split: 11
@@ -22671,10 +22671,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:20:26.5308986+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:55.4894369+08:00
     split: 4
     text: "听说西方有一侠客甚善此道。用丝线捆绑物品，丢向目标。"
-    translated: "It is said that there is a Western swordsman who excels at this skill. He uses silk thread to bind objects and then throws them toward the target"
+    translated: "I've heard there's a wanderer in the West who is quite skilled in this art. He uses silk thread to bind objects and tosses them at the target."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22722,12 +22722,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:41.4309592+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:42.4793697+08:00
     split: 4
     text: "大鹏乘风起，扶摇直上九万里。使用机括暗器，向前方射出大量羽刃，对生命值低的目标施加虚弱，降低移速、内外防、治疗效果。"
-    translated: "Great Peng rides the wind and ascends directly to ninety thousand leagues. Using a mechanical hidden weapon, it shoots out numerous feather blades toward targets in front, applying weakness to those with low life points by reducing their movement speed, internal and external defense, and healing effects."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Great Peng rides the wind and soars straight up to ninety thousand miles. Using mechanical hidden weapons, it launches a barrage of feather blades at targets in front with low health points, inflicting weakness that reduces movement speed, external defense, internal defense, and healing effectiveness."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8127656+08:00
     split: 11
@@ -22938,10 +22938,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:46.9473760+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:51.6151655+08:00
     split: 4
     text: "暴雨梨花飘，向前方射出大量暗器，可引爆目标身上中毒效果。"
-    translated: "Heavy rain and falling petals, he shoots a barrage of hidden weapons toward the front. These can trigger an explosion that activates any poison effects on the target's body."
+    translated: "Heavy rain and falling plum blossoms drift by, as a barrage of hidden weapons is shot forward, potentially detonating the poisoned effect on the target."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23013,12 +23013,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:39.5802696+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:37.8212494+08:00
     split: 4
     text: "九道寒芒自天而降，飞针疾若雷霆。释放九道冰寒飞针，命中受控制敌人时造成额外伤害"
-    translated: "Nine icy beams descended from the heavens, like darts striking with the ferocity of thunder. Upon releasing nine frigid ice needles, any controlled enemy struck will suffer additional damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Nine icy beams descend from the heavens like a thunderbolt, releasing nine ice-cold needles that strike at lightning speed. When targeting and controlling an enemy, these needles inflict additional damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8129035+08:00
     split: 11
@@ -23125,10 +23125,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:43.1479702+08:00
+  - lastTranslatedOn: 2025-02-27T16:11:45.2327131+08:00
     split: 11
     text: "身前4米180度"
-    translated: ""
+    translated: "Within 4 meters before reaching 180."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23237,10 +23237,10 @@
 - lineNum: 190101
   raw: "190101#0#心法-运功#0#损失200金钱，伤害提升10%。#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200550#200551#0#0#0#0#0#0#0#0#300#300#0#0#0#0#0#0#0#0#0#0#0#0#190101#0#0#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691992+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301621+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23271,10 +23271,10 @@
 - lineNum: 190201
   raw: "190201#0#心法-运功#0#永久扣除100生命值上限以此换取短时间内全面大幅度增加战斗属性.#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200530#200532#0#0#0#0#0#0#0#0#300#300#0#0#0#0#0#0#0#0#0#0#0#0#190201#0#0#0#0#0#2#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691993+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301621+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23305,10 +23305,10 @@
 - lineNum: 190301
   raw: "190301#0#心法-运功#0#持续时间内，毒增加120。#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#198490#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#190301#0#0#0#0#0#3#0#0#0#0#0#4#0#0.0#0.0#0#0#0#0#0#0#0#0##3#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691993+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301622+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23339,10 +23339,10 @@
 - lineNum: 190401
   raw: "190401#0#心法-运功#0#心法运功，运行周天调息自身，回复一定血量。#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#190401#0#0#0#0#0#2#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691994+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301622+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23373,10 +23373,10 @@
 - lineNum: 190501
   raw: "190501#0#心法-运功#0#心法运功，运行周天调息自身，持续恢复自身真气#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200560#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#190501#0#0#0#0#0#2#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691994+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301623+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23407,10 +23407,10 @@
 - lineNum: 190601
   raw: "190601#0#心法-运功#0#使用后受到伤害增加100%，对附近敌人造成自身已损失生命值的伤害，并将回复生命值#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200540#200542#200543#0#0#0#0#0#0#0#300#300#300#0#0#0#0#0#0#0#0#0#0#0#190601#0#0#0#0#0#2#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.3691994+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301623+08:00
     split: 2
     text: "心法-运功"
-    translated: ""
+    translated: "Mind Cultivation Technique - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23506,10 +23506,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:34.9491072+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:49.7073379+08:00
     split: 4
     text: "剑法如清风徐来，剑意淡雅，令人心旷神怡。"
-    translated: "The swordsmanship flows like a gentle breeze, exuding elegance and serenity that uplifts the spirit."
+    translated: "The sword art flows like a gentle breeze, with its elegant and subtle intent that lifts the spirit and calms the mind."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23554,10 +23554,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:26:37.7339422+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:56.1406319+08:00
     split: 4
     text: "剑法如流云般飘逸，又如瀑布般磅礴，威力惊人。"
-    translated: "The swordsmanship is as graceful and flowing as clouds, yet as powerful and majestic as a waterfall, with astonishing force."
+    translated: "The sword art was as graceful and flowing as drifting clouds, yet as powerful and majestic as a waterfall, with astonishing force."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23650,12 +23650,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:03.9039631+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:41.2786926+08:00
     split: 4
     text: "剑法如清泉流淌，韵味悠长，清新脱俗。敌"
-    translated: "Swordplay flows like a crystal-clear stream, with an enduring charm that is refreshingly transcendent. The adversary..."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Swordplay flows like a spring, with an enduring charm that is fresh and refined. The enemy's..."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8133127+08:00
     split: 11
@@ -23698,10 +23698,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:04.2896291+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:03.6278195+08:00
     split: 4
     text: "剑法轻盈如流云，追逐月影，飘逸自然。"
-    translated: "The swordplay was as light and graceful as drifting clouds, chasing the moon's reflection, effortlessly elegant."
+    translated: "The sword art was as light as drifting clouds, chasing the shadows of the moon, graceful and natural."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23722,10 +23722,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:08.7196355+08:00
+  - lastTranslatedOn: 2025-02-27T16:59:55.3571844+08:00
     split: 4
     text: "剑法如竹影摇曳，剑光闪烁，给人一种宁静而深邃的美感。"
-    translated: "The swordplay resembles the swaying shadows of bamboo, with flickering blade light that evokes a sense of serene and profound beauty."
+    translated: "The sword art is like the swaying shadows of bamboo, with flashes of blade light that evoke a sense of serene and profound beauty."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -24191,12 +24191,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:25:55.8140641+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:33.0117031+08:00
     split: 4
     text: "：刀法迅猛如雷，万钧之力凝聚于一刀之中，令人难以抵挡。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:25:55.8140646+08:00
     split: 11
@@ -24239,12 +24239,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:06.3016011+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:40.7866339+08:00
     split: 4
     text: "剑出如龙吟，威势破空，直击敌人要害。"
-    translated: "The sword unfurled like a dragon's roar, its presence tearing through the air and striking directly at the enemy's vital point."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The sword came out like a dragon's roar, with formidable force that shattered the air and struck directly at the enemy's vital point."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:27:04.9485095+08:00
     split: 11
@@ -24400,12 +24400,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:11.5988159+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:35.2071869+08:00
     split: 4
     text: "精准无比，犹如百步穿杨，枪枪命中要害。"
-    translated: "His aim was incredibly precise, as if he could shoot through a hundred layers of silk, hitting the critical spot with every spear thrust."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Precision unmatched, like hitting the bullseye from a hundred paces; every spear strikes at a vital point."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Critical Hit,要害,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:27:48.3692051+08:00
     split: 11
@@ -24479,10 +24479,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:44.8281329+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:10.7561223+08:00
     split: 11
     text: "前方2米60度扇形/身前2米直线"
-    translated: ""
+    translated: "A 2-meter straight line in front; a fan-shaped area extending 60 degrees over 2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -25082,10 +25082,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:43.7021767+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4300371+08:00
     split: 11
     text: "身前1.8米270度扇形/周围1.8米"
-    translated: ""
+    translated: "A fan-shaped area extending 1.8 meters in front and 270 degrees, or a circular area within 1.8 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -25359,10 +25359,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:48.3692111+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.4301678+08:00
     split: 11
     text: "前方2米60度扇形/身前2米直线"
-    translated: ""
+    translated: "A 2-meter straight line in front; a fan-shaped area extending 60 degrees over 2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28281,10 +28281,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:46.9130614+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:07.8805411+08:00
     split: 11
     text: "身前2.2米180度扇形/直线5米"
-    translated: ""
+    translated: "Within 2.2 meters in front, sweep a fan-shaped or straight line of 180 degrees extending for 5 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29099,10 +29099,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:46.2388604+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:08.4897502+08:00
     split: 11
     text: "身前1.1/1.4米160扇形"
-    translated: ""
+    translated: "A fan-shaped area of 160 meters in radius within 1.1 or 1.4 meters from the front."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29400,10 +29400,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:40.9235289+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:12.0140147+08:00
     split: 11
     text: "身前3.5米60度扇形"
-    translated: ""
+    translated: "A fan-shaped area of 60 meters in front of 3.5."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29465,10 +29465,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:40.6505885+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:19.2560440+08:00
     split: 11
     text: "身前1.2米80度扇形"
-    translated: ""
+    translated: "A semicircular sweep of 80 degrees in front of you at 1.2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29835,10 +29835,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:49.9920850+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5190404+08:00
     split: 11
     text: "身前1.2米80度扇形"
-    translated: ""
+    translated: "A semicircular sweep of 80 degrees in front of you at 1.2 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30742,10 +30742,10 @@
 - lineNum: 1051051
   raw: "1051051#0#少林秘法-运功#0#0#0#1100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:47.6027882+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.5942255+08:00
     split: 2
     text: "少林秘法-运功"
-    translated: ""
+    translated: "Shaolin Secret Techniques - Qi cultivation."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31287,10 +31287,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:20.4260972+08:00
+  - lastTranslatedOn: 2025-02-27T16:40:58.4052842+08:00
     split: 4
     text: "笔走龙蛇，剑雕风月，出招凌厉，直击要害"
-    translated: "Pen strokes like dragons and snakes, blade carves wind and moon; his moves are fierce and strike directly at the critical point."
+    translated: "The pen dances like dragons and snakes; the sword carves out wind and moon. With fierce strikes, it lands critical hits directly on vital spots."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31634,10 +31634,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:35.8603967+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:02.6183543+08:00
     split: 4
     text: "如寒冰封锁的明月，冷峻而清远。剑光冰冷，每一剑都似月光穿透霜雪，显露出不染尘世的孤高。"
-    translated: "Like the moon encased in frost, cold and distant. The blade's gleam is icy; each strike seems like moonlight piercing through frost, revealing a purity untouched by worldly dust."
+    translated: "Like the frozen moon sealed by icy cold, it is stern and distant. The blade's chill gleam, each stroke akin to moonlight piercing through frost and snow, revealing a purity untouched by the world—a lofty solitude."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31798,10 +31798,10 @@
 - lineNum: 1301151
   raw: "1301151#0#绝影寒光-运功#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:47.3025697+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.5943428+08:00
     split: 2
     text: "绝影寒光-运功"
-    translated: ""
+    translated: "Fleeting Shadows of Cold Light - Cultivate energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31986,10 +31986,10 @@
 - lineNum: 1354051
   raw: "1354051#0#太初真式-运功#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:46.8946254+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.5943480+08:00
     split: 2
     text: "太初真式-运功"
-    translated: ""
+    translated: "The Primordial True Form - Cultivate energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32215,10 +32215,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:08.9785723+08:00
+  - lastTranslatedOn: 2025-02-27T17:56:10.9873794+08:00
     split: 4
     text: "剑法华丽如凤凰舞动，每一剑都充满了优雅与力量，仿佛凤凰在九天之上翱翔，震撼天地。"
-    translated: "The swordplay is as elegant as a phoenix in flight, each strike brimming with grace and power, as if the phoenix were soaring above the Nine Heavens, awe-inspiring to heaven and earth."
+    translated: "The sword art was as elegant as a phoenix dancing, with each stroke brimming with grace and strength. It seemed as if the phoenix soared above the nine heavens, awe-inspiring the earth and sky."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33014,12 +33014,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:38.7615520+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:43.7704185+08:00
     split: 4
     text: "运行心法，自身攻击无视目标内外防，附带破盾效果"
-    translated: "Activate martial art technique; self-targeted attack ignores the target's external defense and includes a shield-breaking effect."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Activate Martial Arts Technique, allowing self-inflicted attacks to ignore the target's external defenses and also grant a shield-breaking effect."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 1555051
   raw: "1555051#0#神铸心法-运功#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#35520042#15550500#0#0#0#0#0#0#0#0#500#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -33154,10 +33154,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:06.1312209+08:00
+  - lastTranslatedOn: 2025-02-27T18:19:06.9025874+08:00
     split: 4
     text: "刀法如流星般迅捷，追魂夺命，一击必杀。"
-    translated: "The blade technique is swift as a shooting star, soul-stealing and life-taking. Each strike is lethal."
+    translated: "The blade art is as swift as a meteor, pursuing spirits and snatching lives; every strike is lethal."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33400,10 +33400,10 @@
 - lineNum: 1651001
   raw: "1651001#0#枪法二式#0#0#qiang12#1122#0#0#0#0#0#0#0#spell_1651001_go#sfx_main_hero_1651001&0&false&true#0#0#0#0#0#0#16510000#16510001#0#0#0#0#0#0#0#0#231#231#0#0#0#0#0#0#0#0#0#sound_spell_302_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.8#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:27:48.5496393+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:01.0889988+08:00
     split: 2
     text: "枪法二式"
-    translated: "Second Style of Spear Technique."
+    translated: "Spear Art Form Two."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33803,12 +33803,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:55.1203488+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:44.5293832+08:00
     split: 4
     text: "杨恒在与敌人的战斗中，每次攻击会增加自身的内外防，持续20秒，每命中一次，叠加一层"
-    translated: "In combat against enemies, Yang Hong increases his own internal and external defense with each attack. This effect lasts for 20 seconds, stacking an additional layer with every successful hit."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Yang Hong, in battles against enemies, increases his own internal and external defense with each attack for 20 seconds. Each hit stacks an additional layer."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 1701050
   raw: "1701050#0#横断无双#2#跃向5米内的目标猛击，招式命中敌人内外防降低60%，持续10秒，并造成眩晕效果#dao32#1617#0#0#0#0#0#0#0#spell_1701010_go#sfx_yangheng_1701010&0&true&true#0#0#0#0#0#0#17010100#17010103#17010500#17010101#0#0#0#0#0#0#759#333#759#759#0#0#0#0#0#0#0#sound_spell_1701010_go#0#0#0#0#0#0#0#0#2#0#0#0#0#0#3#3#1.8#60.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
@@ -33820,12 +33820,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:10.6573116+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:45.5090690+08:00
     split: 4
     text: "跃向5米内的目标猛击，招式命中敌人内外防降低60%，持续10秒，并造成眩晕效果"
-    translated: "Leap into the 5 meter range and strike the target powerfully, reducing the enemy's internal and external defense by 60%, lasting for 10 seconds, while also causing a dizziness effect."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Leap towards a target within 5 meters and deliver a fierce strike. The technique reduces the enemy's external and internal defense by 60%, lasting for 10 seconds, and also causes dizziness."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 1701060
   raw: "1701060#0#横扫千军#6#向面前3米内目标持续120度的五次横扫，增加内防*1的内攻，外防*1的外攻，持续15秒#dao33#2442#0#0#0#0#0#0#0#spell_1701020_go#sfx_yangheng_1701020&0&false&true#0#0#0#0#0#0#17010200#17010200#17010200#17010200#17010200#17010600#0#0#0#0#396#726#1000#1254#1584#0#0#0#0#0#0#sound_spell_1701020_go#0#0#0#0#0#0#0#0#2#0#0#0#0#0#3#3#3.0#70.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
@@ -33837,10 +33837,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:27:57.3936346+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:17.0674407+08:00
     split: 4
     text: "向面前3米内目标持续120度的五次横扫，增加内防*1的内攻，外防*1的外攻，持续15秒"
-    translated: "Perform a sweeping motion across the target within 3 meters in front, for a duration of 120 seconds, five times. Increase internal attack by *1 Internal Attack and external defense by *1 External Defense, while decreasing external attack by *1 External Attack for 15 seconds."
+    translated: "Swing across the target within 3 meters for five consecutive sweeps over a duration of 120 seconds, increasing internal attack by *1 Internal Defence and external attack by *1 External Defence, lasting for 15 seconds."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33854,12 +33854,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:49.9921021+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:45.5092423+08:00
     split: 4
     text: "杨恒在与敌人的战斗中，每次攻击会增加自身的内外防，持续20秒，每命中一次，叠加一层"
-    translated: "In combat against enemies, Yang Hong increases his own internal and external defense with each attack. This effect lasts for 20 seconds, stacking an additional layer with every successful hit."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Yang Hong, in battles against enemies, increases his own internal and external defense with each attack for 20 seconds. Each hit stacks an additional layer."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 1701071
   raw: "1701071#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#17010701#17010702#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
@@ -34054,10 +34054,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:14.2298026+08:00
+  - lastTranslatedOn: 2025-02-27T16:41:03.2949756+08:00
     split: 4
     text: "拳法威猛，能够破开空气，直取敌人要害。"
-    translated: "The martial arts technique is powerful, capable of breaking through the air to strike directly at an opponent's critical points."
+    translated: "The martial arts techniques are powerful, capable of breaking through the air to strike directly at an opponent's critical hit."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -35391,10 +35391,10 @@
 - lineNum: 2102051
   raw: "2102051#0#雪河心法-运功#0#运行心法，使得自身攻击附带寒气效果，减少目标百分比移动速度，并且每秒损失0.5%最大血量#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#21020500#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:47.9406747+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:11.5948313+08:00
     split: 2
     text: "雪河心法-运功"
-    translated: ""
+    translated: "Snow River Heart Method - Cultivate Qi."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -36885,10 +36885,10 @@
 - lineNum: 3074001
   raw: "3074001#0#枪法二式#0#0#qiang12#1518#0#2#0#0#1.9米180度#0#0#spell_3074001_go#sfx_main_hero_3074001&0&false#0#0#0#0#0#0#30740000#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#sound_spell_302_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:49.9921009+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:06.2448389+08:00
     split: 2
     text: "枪法二式"
-    translated: "Second Style of Spear Technique."
+    translated: "Spear Art Form Two."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -37032,10 +37032,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:06.9310887+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:33.0373286+08:00
     split: 4
     text: "枪法矫健如龙出海，灵动迅疾，攻敌不备。"
-    translated: "The spear technique was supple and elegant like a dragon emerging from the sea, agile and swift, striking an unprepared enemy."
+    translated: "His spear art was as lithe and graceful as a dragon emerging from the sea, nimble and swift. He attacked when his foes were unprepared."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -37523,10 +37523,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:43.7630709+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:20.0055207+08:00
     split: 11
     text: "身前1.5米、2米、2.5米、3米半径1米圆形"
-    translated: ""
+    translated: "At 1.5 meters ahead, 2 meters, 2.5 meters, and 3 meters with a radius of 1 meters circular."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39155,10 +39155,10 @@
 - lineNum: 3107051
   raw: "3107051#0#黄沙心法-运功#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:40.3273415+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5191844+08:00
     split: 2
     text: "黄沙心法-运功"
-    translated: ""
+    translated: "Huangsha Heart Method - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39175,10 +39175,10 @@
 - lineNum: 3107061
   raw: "3107061#0#黄沙心法-运功#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237755+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:43.7805060+08:00
     split: 2
     text: "黄沙心法-运功"
-    translated: ""
+    translated: "Huangsha Heart Method - Cultivating energy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39760,10 +39760,10 @@
 - lineNum: 3159021
   raw: "3159021#0#道韵生风-太极#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31590210#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:44.5075476+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5191913+08:00
     split: 2
     text: "道韵生风-太极"
-    translated: ""
+    translated: "The Way's rhythm stirs the wind. - Tai Chi"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39954,10 +39954,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:43.3312295+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5191950+08:00
     split: 11
     text: "身前1.2米180度"
-    translated: ""
+    translated: "A distance of 1.2 meters from a 180-degree angle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -40053,12 +40053,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:54.9382133+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:50.8511787+08:00
     split: 4
     text: "阎法禅师以佛法之力，释放出净化之波，对敌人造成伤害，两段伤害都命中时会清空目标内外防，持续20秒"
-    translated: "Zen Master Yan Fa releases a cleansing wave using the power of Buddhism, causing damage to enemies. If both segments of damage hit, it clears the target's internal and external defenses for 20 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Zen Master Yenan Fazang, with the power of Buddhism, releases a cleansing wave that harms enemies. When both segments hit the target, it clears their internal and external defenses for 20 seconds."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:28:50.1618562+08:00
     split: 11
@@ -40737,12 +40737,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:12.4342703+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:46.3123107+08:00
     split: 4
     text: "剑法如流星般迅捷，追月之势，一剑之下，敌人无处可逃。"
-    translated: "The sword technique was as swift as a shooting star, with the pursuit of the moon in its movement; under a single strike, there was no escape for the enemy."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The swordplay was as swift as a shooting star, with the momentum of pursuing the moon; in one strike, there was nowhere for the enemy to escape."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 3315033
   raw: "3315033#0#九转玄天剑#4#剑法经过九次转折，融入玄天之力，一剑出，天地变色。#14#1663#0#2#0#0#直线6米#0#0#spell_3098020_go#sfx_main_hero_3101010&0&true&true#0#0#0#0#0#0#30980021#0#0#0#0#0#0#0#0#0#1056#0#0#0#0#0#0#0#0#0#0#sound_spell_3098020_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#2#6.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -41039,12 +41039,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:57.8113183+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:53.3418503+08:00
     split: 4
     text: "激发自身内力，增加自身伤害并且在对敌人造成伤害时破除敌人护盾以及部分外防。"
-    translated: "Unleash one's inner power to increase personal damage output, and simultaneously break through an enemy's shield and partially negate their external defense when dealing damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Unleash one's inner power to increase personal damage and, when inflicting harm on an enemy, shatter the enemy's shield as well as partially break their external defense."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:29:45.8237715+08:00
     split: 11
@@ -41120,20 +41120,20 @@
 - lineNum: 3553000
   raw: "3553000#0#小兵枪法一式#0#0#qiang12#1452#0#2#0#0#0#0#0#spell_1651000_go#sfx_main_hero_1651000&0&false&false#0#0#0#0#0#0#104#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#sound_spell_301_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:50.1620666+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:06.6527233+08:00
     split: 2
     text: "小兵枪法一式"
-    translated: "Little Soldier's Spear Technique, First Form"
+    translated: "Xiao Bing Spear Art, Form One."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3553001
   raw: "3553001#0#小兵枪法二式#0#0#qiang34#1122#0#2#0#0#0#0#0#spell_1651001_go#sfx_main_hero_1651001&0&false&false#0#0#0#0#0#0#104#0#0#0#0#0#0#0#0#0#231#0#0#0#0#0#0#0#0#0#0#sound_spell_302_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:50.1620675+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:06.6527240+08:00
     split: 2
     text: "小兵枪法二式"
-    translated: "Beginner's Spear Technique, Second Form"
+    translated: "Small Soldier's Spear Art, Second Form."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -41310,12 +41310,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:27.6209639+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:54.7518259+08:00
     split: 4
     text: "朝身前扇形范围的一次蓄力攻击，命中目标时，会根据目标身上的“沙尘”效果造成额外伤害"
-    translated: "A sweeping force attack in a fan-shaped range ahead of the body, which deals additional damage based on the Sandstorm effect present on the target upon hitting."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Launch a stored-force attack targeting an area in front of you, shaped like a fan. If the target is affected by the Sand and Dust effect, it will take additional damage upon being hit."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:29:45.8237748+08:00
     split: 11
@@ -41878,12 +41878,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:27.9584325+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:46.6656978+08:00
     split: 4
     text: "追踪目标，命中时减少目标一定比例内外防"
-    translated: "Track target, and upon hitting, reduce the target's external defense by a certain percentage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Track target, reduce target's external defense by a certain percentage upon hitting."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:28:50.1622237+08:00
     split: 11
@@ -42161,40 +42161,40 @@
 - lineNum: 4019000
   raw: "4019000#0#千变枪法#0#0#0#567#0#0#0#0#0#0#0#spell_3074004_go#sfx_main_hero_3074000&0&true&true#0#0#0#0#0#0#40190000#40190001#0#0#0#0#0#0#0#0#500#400#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#120.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:28:50.1622543+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:33.0378608+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4019001
   raw: "4019001#0#千变枪法#0#0#0#366#0#0#0#0#0#0#0#spell_3074005_go#sfx_main_hero_3074001&0&true&true#0#0#0#0#0#0#40190000#40190001#0#0#0#0#0#0#0#0#333#233#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237835+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:50.1782493+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4019002
   raw: "4019002#0#千变枪法#0#0#0#2499#0#0#0#0#0#0#0#spell_3074006_go#sfx_main_hero_3074002&0&true&true#0#0#0#0#0#0#40190000#40190001#0#0#0#0#0#0#0#0#766#666#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#2#2.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237835+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:50.1782494+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4019003
   raw: "4019003#0#千变枪法#0#0#qiang12#1518#0#2#0#0#1.9米240度#0#0#spell_3074000_go#sfx_main_hero_3074000&0&false&true#0#0#0#0#0#0#40190000#0#0#0#0#0#0#0#0#0#528#0#0#0#0#0#0#0#0#0#0#sound_spell_301_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#120.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237836+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:50.1782494+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42208,10 +42208,10 @@
 - lineNum: 4019004
   raw: "4019004#0#千变枪法#0#0#qiang12#1518#0#2#0#0#1.9米180度#0#0#spell_3074001_go#sfx_main_hero_3074001&0&false&true#0#0#0#0#0#0#40190000#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#sound_spell_302_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237836+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:50.1782494+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42225,10 +42225,10 @@
 - lineNum: 4019005
   raw: "4019005#0#千变枪法#0#0#qiang12#2442#0#2#0#0#直线2米#0#0#spell_3074002_go#sfx_main_hero_3074002&0&false&true#0#0#0#0#0#0#40190000#0#0#0#0#0#0#0#0#0#766#0#0#0#0#0#0#0#0#0#0#sound_spell_3074002_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#2#2.0#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.8237837+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:50.1782495+08:00
     split: 2
     text: "千变枪法"
-    translated: "A Thousand Transformations Spear Technique"
+    translated: "Thousand Transformations Spear Art"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42578,12 +42578,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:59.4995241+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:49.3952309+08:00
     split: 4
     text: "太乙金仙显神通，紫气东来见鸿蒙。借助剑诀中那一缕鸿蒙紫气，让真气携带上烈日气息。攻击时对目标造成灼阳效果。可引爆目标身上的灼阳效果，根据层数和自身阳属性造成额外伤害。"
-    translated: "Taiyi Jixian manifests his divine abilities as the purple qi comes from the east, revealing the primordial void. By harnessing a strand of this primordial purple qi through sword techniques, he infuses his true energy with the essence of the sun's rays. Upon attacking, it causes a scorching Yang effect on the target. It can also trigger an explosion of the target's existing scorching Yang effect, dealing additional damage based on their layers and inherent Yang attribute."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Tai Yi Golden Immortal displays their divine prowess as the purple qi descends from the east, revealing the primordial void. By harnessing a strand of this primordial void's purple qi from within his sword technique, he infuses his true energy with the essence of fierce sunlight. Upon attacking, it causes a scorching yang effect on the target. This can trigger an explosion of the yang effect already present on the target, resulting in additional damage based on their layer and personal yang attribute."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-26T22:28:50.1623899+08:00
     split: 11
@@ -43020,10 +43020,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:11.0348770+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:30.6408837+08:00
     split: 4
     text: "剑法灵活如游龙，迅速变换方向，出其不意攻击敌人。"
-    translated: "The swordplay was as fluid as a dragon gliding through the air, swiftly changing direction to launch unexpected attacks against the enemy."
+    translated: "The sword art is as agile as a flying dragon, swiftly changing direction to launch unexpected attacks on the enemy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43291,10 +43291,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:43.1498528+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:42.2911936+08:00
     split: 11
     text: "身前2米/2.3米180度/3.5米60度扇形"
-    translated: ""
+    translated: "A fan-shaped area extending 2 meters to 2.3 meters at 180 degrees and from 3.5 meters to 60 degrees."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43459,10 +43459,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:41.2326945+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:41.5689408+08:00
     split: 11
     text: "身前1.1/1.4米160扇形"
-    translated: ""
+    translated: "A 160-meter semicircular area in front of you, extending from 1.1 to 1.4 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43684,10 +43684,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:08.6542052+08:00
+  - lastTranslatedOn: 2025-02-27T16:41:21.3441648+08:00
     split: 4
     text: "造成暴击内外攻增加12%，持续5秒"
-    translated: "Causes a critical hit to increase external and internal attack by 12% for 5 seconds."
+    translated: "Causes critical hit external attack to increase by 12% for 5 seconds."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44109,10 +44109,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:23.3621087+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:40.0219623+08:00
     split: 4
     text: "对刀套路敌人伤害提升6%"
-    translated: "Increase damage to enemies by 6% with the sword techniques."
+    translated: "Increase damage to enemies by 6% with blade techniques."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44126,12 +44126,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:15.9457340+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:51.5021044+08:00
     split: 4
     text: "对刀套路敌人伤害提升10%"
-    translated: "Increase enemy damage by 10% with sword techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Enhance enemy damage by 10% for sword techniques."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 5000068
   raw: "5000068#0#如龙#0#对刀套路敌人伤害提升14%#qiang566#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#60002#60032#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#2#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#0#0#"
@@ -44143,12 +44143,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:00.9793296+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:51.2137223+08:00
     split: 4
     text: "对刀套路敌人伤害提升14%"
-    translated: "Increase damage to enemies by 14% with sword techniques."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Increase the damage dealt to opponents by 14% with sword skills."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 5000069
   raw: "5000069#0#如龙#0#对刀套路敌人伤害提升18%#qiang566#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#60002#60033#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#2#0#0#0#3#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0#0#3#0#0#0#0#0#0#"
@@ -44160,12 +44160,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:05.2780505+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:55.0867231+08:00
     split: 4
     text: "对刀套路敌人伤害提升18%"
-    translated: "Enhances enemy damage taken from sword techniques by 18%."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Increase enemy damage by 18% with sword techniques."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
 - lineNum: 5000070
   raw: "5000070#0#显露#0#化解+59#quan570#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#60120#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#3#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -44313,10 +44313,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:24.2676349+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:42.8837066+08:00
     split: 4
     text: "释放技能后，6秒内增加20%自身内外防"
-    translated: "After activating the skill, increase self's internal and external defense by 20% for the next 6 seconds."
+    translated: "Upon using the skill, increase self internal and external defence by 20% for 6 seconds."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44554,10 +44554,10 @@
 - lineNum: 10000050
   raw: "10000050#0#强体-小#0#有护体绝技傍身。#quan22#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:29:45.7187472+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5198426+08:00
     split: 2
     text: "强体-小"
-    translated: ""
+    translated: "Strong physique. - Little one."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44697,10 +44697,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:50.1636665+08:00
+  - lastTranslatedOn: 2025-02-27T17:16:33.0380554+08:00
     split: 4
     text: "外防+10"
-    translated: "External Defense +10"
+    translated: "External Defence +10"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44731,10 +44731,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:50.1636672+08:00
+  - lastTranslatedOn: 2025-02-27T18:19:07.4160623+08:00
     split: 4
     text: "外防+35"
-    translated: "External Defense +35"
+    translated: "External Defence +35"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44748,12 +44748,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:44.3371275+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:52.5381091+08:00
     split: 4
     text: "外防+50，有1%的几率免疫当前一次外攻伤害"
-    translated: "External Defense +50, with a 1% chance to be immune to the current instance of external attack damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "External Defense +50, with a 1% chance to be immune to the next external attack damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000134
   raw: "10000134#0#铁骨#0#外防+70，有5%的几率免疫当前一次外攻伤害#14#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -44765,10 +44765,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:19.4952256+08:00
+  - lastTranslatedOn: 2025-02-27T16:41:12.6539936+08:00
     split: 4
     text: "外防+70，有5%的几率免疫当前一次外攻伤害"
-    translated: "External Defense +70, with a 5% chance to be immune to the next external attack damage."
+    translated: "External Defence +70, with a 5% chance to be immune to the next External Attack damage."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44782,10 +44782,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:50.1637442+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5199274+08:00
     split: 4
     text: "内防+10"
-    translated: "Internal Defense +10"
+    translated: "Internal Defence +10"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44799,10 +44799,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:50.1637445+08:00
+  - lastTranslatedOn: 2025-02-27T18:19:07.4161186+08:00
     split: 4
     text: "内防+20"
-    translated: "Internal Defense +20"
+    translated: "Internal defence +20"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44816,10 +44816,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:28:50.1637450+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:21.5199283+08:00
     split: 4
     text: "内防+35"
-    translated: "Internal Defense +35"
+    translated: "Internal Defence +35"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -44833,12 +44833,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:13.6709877+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:49.8994674+08:00
     split: 4
     text: "内防+50，有1%的几率免疫当前一次内攻伤害"
-    translated: "Internal Defense +50, with a 1% chance to be immune to the next internal attack damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Internal Defense +50, with a 1% chance to be immune to the current internal attack damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 10000144
   raw: "10000144#0#气御#0#内防+70，有5%的几率免疫当前一次内攻伤害#14#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -44850,12 +44850,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:25.6100987+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:53.8437028+08:00
     split: 4
     text: "内防+70，有5%的几率免疫当前一次内攻伤害"
-    translated: "Internal Defense +70, with a 5% chance to be immune to the current instance of internal attack damage."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Internal Defense +70, has a 5% chance to be immune to the next internal attack damage."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 10000150
   raw: "10000150#0#集中#0#命中+10#22#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45598,12 +45598,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:14.7387213+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:56.4253644+08:00
     split: 4
     text: "刚+50，造成刚属性伤害时有1%的几率使目标内外防减少10%,持续5s"
-    translated: "Hard +50, dealing hard attribute damage has a 1% chance to reduce the target's internal and external defense by 10% for 5 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "When +50 Hard hits, there is a 1% chance to reduce the target's internal and external defense by 10% for 5 seconds."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000234
   raw: "10000234#0#通刚#0#刚+70，造成刚属性伤害时有5%的几率使目标内外防减少10%,持续5s#20#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45615,12 +45615,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:26.6788973+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:57.2031251+08:00
     split: 4
     text: "刚+70，造成刚属性伤害时有5%的几率使目标内外防减少10%,持续5s"
-    translated: "Hard +70, when causing hard attribute damage, has a 5% chance to reduce the target's internal and external defense by 10% for 5 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Hard +70, when dealing Hard attribute damage, has a 5% chance to reduce the target's internal and external defense by 10%, lasting for 5s."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000240
   raw: "10000240#0#通柔#0#柔+10#20#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45683,10 +45683,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:42.6174611+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:35.6191245+08:00
     split: 4
     text: "柔+50，受到伤害时有1%的几率化解当前伤害"
-    translated: ""
+    translated: "Soft +50, has a 1% chance to counter current damage when harmed."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -45887,12 +45887,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:34.9320320+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:47.2035113+08:00
     split: 4
     text: "攻击附加破体效果，减少目标1%的外防，持续10s"
-    translated: "Attacks inflict a disabling effect, reducing the target's external defense by 1%, lasting for 10 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Attack adds a debilitating effect, reducing the target's external defense by 1%, lasting for 10s."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000271
   raw: "10000271#0#破体#0#攻击附加破体效果，减少目标2%的外防，持续10s#quan21#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45904,12 +45904,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:32.2040094+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:52.0350200+08:00
     split: 4
     text: "攻击附加破体效果，减少目标2%的外防，持续10s"
-    translated: "Attack adds a disable effect, reducing the target's external defense by 2%, lasting for 10s."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Inflict a disabling effect, reducing the target's external defense by 2%, lasting for 10s."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000272
   raw: "10000272#0#破体#0#攻击附加破体效果，减少目标5%的外防，持续10s#quan21#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45921,12 +45921,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:34.5016479+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:58.2971451+08:00
     split: 4
     text: "攻击附加破体效果，减少目标5%的外防，持续10s"
-    translated: "Attack adds a body-breaking effect, reducing the target's external defense by 5%, lasting for 10 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The attack adds a debuff that reduces the target's external defense by 5%, lasting for 10 seconds."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000273
   raw: "10000273#0#破体#0#攻击附加破体效果，减少目标8%的外防，持续10s#quan21#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45938,12 +45938,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:37.2524086+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:55.6677351+08:00
     split: 4
     text: "攻击附加破体效果，减少目标8%的外防，持续10s"
-    translated: "The attack adds a body-breaking effect, reducing the target's external defense by 8%, lasting for 10 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Inflicts a body-breaking effect, reducing the target's external defense by 8%, lasting for 10 seconds."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000274
   raw: "10000274#0#破体#0#攻击附加破体效果，减少目标12%的外防，持续10s#quan21#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45955,12 +45955,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:33.7536895+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:57.7599066+08:00
     split: 4
     text: "攻击附加破体效果，减少目标12%的外防，持续10s"
-    translated: "Attack adds a debuff effect that reduces the target's external defense by 12%, lasting for 10 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The attack adds a body-breaking effect, reducing the target's external defense by 12%, lasting for 10s."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10000280
   raw: "10000280#0#破障#0#攻击附加破气效果，减少目标1%的内防，持续10s#15#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -45972,10 +45972,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:38.3311054+08:00
+  - lastTranslatedOn: 2025-02-27T17:43:55.0335875+08:00
     split: 4
     text: "攻击附加破气效果，减少目标1%的内防，持续10s"
-    translated: "The attack adds a disruptive energy effect, reducing the target's internal defense by 1%, lasting for 10s."
+    translated: "Inflict a Qi disruption effect, reducing the target's internal defence by 1%, lasting for 10s."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -45989,10 +45989,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:36.2024725+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:39.7662128+08:00
     split: 4
     text: "攻击附加破气效果，减少目标2%的内防，持续10s"
-    translated: "Inflicts an attack that causes a disruptive effect, reducing the target's internal defense by 2%, lasting for 10s."
+    translated: "Attack inflicts a disrupt Qi effect, reducing the target's internal defence by 2%, lasting for 10s."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -46006,10 +46006,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:33.3027269+08:00
+  - lastTranslatedOn: 2025-02-27T18:08:03.7435645+08:00
     split: 4
     text: "攻击附加破气效果，减少目标5%的内防，持续10s"
-    translated: "The attack adds a disruption effect, reducing the target's internal defense by 5%, lasting for 10s."
+    translated: "Inflicts a disruption effect, reducing the target's internal defence by 5%, lasting for 10s."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -46040,12 +46040,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:39.7659176+08:00
+  - lastTranslatedOn: 2025-02-27T18:29:58.9429343+08:00
     split: 4
     text: "攻击附加破气效果，减少目标12%的内防，持续10s"
-    translated: "Attack adds a Disrupt Qi effect, reducing the target's internal defense by 12%, lasting for 10 seconds."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Attack adds a pierce Qi effect, reducing the target's internal defense by 12%, lasting for 10 seconds."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 10000290
   raw: "10000290#0#弹伤#0#被攻击时，反弹所受伤害的1%给攻击者#67#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#"
@@ -47021,12 +47021,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:50.7793694+08:00
+  - lastTranslatedOn: 2025-02-27T18:30:01.2292609+08:00
     split: 4
     text: "剑法如棋局，每一着皆深藏机锋。一招一式，犹如对弈中的布局，层层推进，步步为营。"
-    translated: "Swordsmanship is like a chess game, with each move hiding intricate strategies. Each stroke and posture resembles the tactics of a strategic play, advancing layer by layer and planning step by step."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Swordsmanship is like a game of chess, with every move harboring hidden intricacies. Each technique unfolds as if in strategic formation on the board, advancing layer by layer and step by careful step."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Sword Art,剑法,"
     flaggedHallucination: ""
 - lineNum: 10010004
   raw: "10010004#0#书剑式#0#以文会武，以剑载道。此式将书法之势融入剑法，笔走龙蛇，剑随心动，书中自有黄金屋，剑下能定乾坤。#74#10#1#2#0#0#0#0#0#0#0#0#0#0#0#0#0#100100040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#0#0#0#0#3#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##3#0#0#0#0#0#0#"
@@ -47208,10 +47208,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:50.0953136+08:00
+  - lastTranslatedOn: 2025-02-27T17:56:32.1436325+08:00
     split: 4
     text: "将围棋之智与武道之力巧妙融合。剑出如落子星位，直击要害。剑守则如星幕流转，轻易将敌人杀势化解，一招一式皆如下棋般精妙，总能寻得最优的应对之策，使对手陷入被动。"
-    translated: "Blend the wisdom of Go with the power of martial arts. When attacking, the sword strikes like falling stars to critical points, striking directly at vital spots. In defense, it moves like a flowing starry sky, effortlessly countering and neutralizing opponents' deadly intents. Each move is as precise as making a play in a game of Go, always finding the optimal counter-strategy, leaving the opponent on the defensive."
+    translated: "Integrate the wisdom of Go with the art of martial skills. When attacking, the sword is like a falling star on the board, striking directly at the critical hit. In defense, it flows like a shifting constellation, easily countering an opponent's attack. Each move and technique are as intricate as playing chess, always finding the best response strategy to force the opponent into a passive position."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47361,10 +47361,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:53.2760041+08:00
+  - lastTranslatedOn: 2025-02-27T17:00:22.8552992+08:00
     split: 4
     text: "刀法八变，无穷无尽。八方为界，刀光密布，防不胜防。"
-    translated: "The Eight Variations of the Sword Technique are limitless and unending. In all eight directions, a dense array of swordlight is deployed, making it impossible to guard against."
+    translated: "The Eight Transformations of the Blade art are boundless and endless. In every direction, the sheen of blades is densely spread, leaving no means to guard against them."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47480,10 +47480,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:57.7443136+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:55.0130569+08:00
     split: 4
     text: "以柔克刚，以静制动，卸之若无物，轻松化解万钧之力。"
-    translated: "To overcome hardness with softness, to control motion with stillness—discharge the force as if it were nothing and effortlessly neutralize a tremendous power."
+    translated: "To overcome strength with softness, to master movement with stillness, to deflect as if nothing at all, effortlessly countering a force of thousands of tons."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47735,10 +47735,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:01.5699494+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:54.2412829+08:00
     split: 4
     text: "枪法玄妙，真意自中流露，一枪出，已决胜负。"
-    translated: "The spear technique is mysterious and profound, revealing its true essence intuitively. With a single thrust of the spear, victory or defeat is determined."
+    translated: "The spear art is mysterious and profound, with its true essence revealed upon its release. With just one strike, the outcome is decided."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47837,10 +47837,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:52.6363416+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:46.0821822+08:00
     split: 4
     text: "力透地心，震颤四野，内力撼动大地，仿佛能够裂开坚石，崩断山脉。似雷霆万钧，引动地脉之力。"
-    translated: "Power radiating through the earth, causing the surroundings to tremble violently. The inner force shakes the ground as if capable of splitting solid rock and shattering mountain ranges. It is akin to thunderous might, summoning the energy of the earth's veins."
+    translated: "His inner power surged through the earth, causing tremors across the land. The force of his internal strength shook the ground as if it could split solid rock and break mountains. Like a thunderous force, he summoned the power of the earth's veins."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48024,10 +48024,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:04.8566330+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:46.9799390+08:00
     split: 4
     text: "承禹王之遗智，掌水之妙用。以天地之力，驭水成章，化解繁劫。"
-    translated: "Inheriting King Chengyu's wisdom and mastering the art of water, utilizing the power of heaven and earth to control water into harmony, resolving countless disasters."
+    translated: "Inheriting the wisdom of King Yu, master of the subtle use of water. Harnessing the power of heaven and earth to command the waters into form, countering the complex calamities."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48228,12 +48228,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:13.2386726+08:00
+  - lastTranslatedOn: 2025-02-27T18:30:02.5978702+08:00
     split: 4
     text: "于生死间游走，枯时气息若无，荣时生机延绵不绝。根据最大真气值增加内外防，受伤时回复真气值。生命垂危时消耗自身真气值恢复生命。"
-    translated: "Navigating between life and death, at times appearing devoid of vitality, yet when flourishing, vigor stretches on endlessly. Based on the maximum Qi value, increases internal and external defense; upon taking damage, restores Qi value. When life is critically endangered, expends one's own Qi to recover health."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Navigating the line between life and death, they appear devoid of vitality at their weakest moments, yet teem with boundless vigor when flourishing. They increase their internal and external defenses according to their maximum Qi value, recovering Qi when injured. At the brink of death, they expend their own Qi to restore health."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 10050024
   raw: "10050024#0#蜈蚣气#0#百足之虫，死而不僵。#xinfa_1007#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100500240#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#4#0#0#0#1#0#0#0#0#0#4#0#0.0#0.0#0#0#0#0#0#0#0#0##1#0#0#0#0#0#0#"
@@ -48330,12 +48330,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:29:56.3462916+08:00
+  - lastTranslatedOn: 2025-02-27T18:30:00.2657604+08:00
     split: 4
     text: "莫强求，断肠路远忘回头，只留相思愁。攻击附带额外伤害，对目标施加内伤效果，叠到一定层数时引爆，造成大量伤害和眩晕效果。"
-    translated: "Don't overreach; on the distant path of broken-heartedness, forget to look back, leaving only sorrowful longing. The attack deals additional external damage and inflicts internal injury effects on the target. When these layers accumulate to a certain level, they explode, causing massive damage and disorienting effects."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Don't be overly ambitious; on the long path of heartbreak, only lingering sorrows remain. The attack deals additional external damage and inflicts an internal injury effect on the target. When stacked to a certain level, it explodes, causing significant damage and a disorienting effect."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 10060001
   raw: "10060001#0#幻箭诀#0#箭伤如幽魂缠身，气血无从止息。撕骨裂效果中幅增强。#mi1601#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100600010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#5#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##2#0#0#0#0#0#0#"
@@ -49087,10 +49087,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:01.9785755+08:00
+  - lastTranslatedOn: 2025-02-27T17:44:08.6051021+08:00
     split: 4
     text: "剑法灵活如游龙，迅速变换方向，出其不意攻击敌人。"
-    translated: "The swordplay was as fluid as a swimming dragon, swiftly changing directions and attacking the enemy from unexpected angles."
+    translated: "The sword art is as flexible as a dragon leaping through the clouds, swiftly changing direction and launching unexpected attacks on the enemy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -49286,10 +49286,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:13.8290311+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:49.4888485+08:00
     split: 11
     text: "身前1.2米80度扇形"
-    translated: ""
+    translated: "A fan-shaped area extending 1.2 meters in front of 80."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -49382,10 +49382,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T22:30:13.5299997+08:00
+  - lastTranslatedOn: 2025-02-27T16:12:55.5001244+08:00
     split: 11
     text: "身前180度1.5米/2.5米"
-    translated: ""
+    translated: "Ahead of you by 180 degrees, 1.5 meters / 2.5 meters."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

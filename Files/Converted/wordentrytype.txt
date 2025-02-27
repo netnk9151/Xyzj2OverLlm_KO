@@ -2141,10 +2141,10 @@
 - lineNum: 10075
   raw: "10075#寒气、中毒、灼伤持续时间#10#204#4#0#0#101010|101040|101050#0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:06.3328122+08:00
+  - lastTranslatedOn: 2025-02-27T16:19:10.8392977+08:00
     split: 1
     text: "寒气、中毒、灼伤持续时间"
-    translated: "Chill, poison duration, burn duration."
+    translated: "Chill, poisoned, and burn duration."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2864,40 +2864,40 @@
 - lineNum: 11076
   raw: "11076#中毒频率提升#8#205#4#101010#0##0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:04.4310012+08:00
+  - lastTranslatedOn: 2025-02-27T18:31:04.0863977+08:00
     split: 1
     text: "中毒频率提升"
-    translated: "Frequency of poisoning has increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Increase in poisoning frequency."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11077
   raw: "11077#中毒频率提升#8#1205#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:10.0295440+08:00
+  - lastTranslatedOn: 2025-02-27T18:31:04.2321232+08:00
     split: 1
     text: "中毒频率提升"
-    translated: "Frequency of poisoning has increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Increase in poisoning frequency."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11078
   raw: "11078#中毒效果提升#8#1206#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:04.5460492+08:00
+  - lastTranslatedOn: 2025-02-27T18:31:04.2318442+08:00
     split: 1
     text: "中毒效果提升"
-    translated: "Enhanced Poisoning Effect"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Enhanced poisoning effect."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11079
   raw: "11079#断魂腿-冷却#8#1202#0#132210#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:08.9610803+08:00
+  - lastTranslatedOn: 2025-02-27T16:19:12.2308443+08:00
     split: 1
     text: "断魂腿-冷却"
-    translated: ""
+    translated: "Deadly Leg Kick or Leg that Breaks Spirits. - Cooling down."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3084,10 +3084,10 @@
 - lineNum: 11098
   raw: "11098#梵音-冷却#8#1202#0#134000#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:08.3907291+08:00
+  - lastTranslatedOn: 2025-02-27T16:19:11.9897598+08:00
     split: 1
     text: "梵音-冷却"
-    translated: ""
+    translated: "Chant of the gods. - Cooling down"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3104,10 +3104,10 @@
 - lineNum: 11100
   raw: "11100#佛怒-冷却#8#1202#0#134100#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:09.4917392+08:00
+  - lastTranslatedOn: 2025-02-27T16:19:12.1107237+08:00
     split: 1
     text: "佛怒-冷却"
-    translated: ""
+    translated: "Wrath of Buddha - Cooling down."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

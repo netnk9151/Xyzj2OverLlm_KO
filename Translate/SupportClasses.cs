@@ -6,7 +6,7 @@ namespace Translate;
 public class TranslatedRaw(string raw)
 {
     public string Raw { get; set; } = raw;
-    public string Trans { get; set; } = string.Empty;
+    public ValidationResult ValidationResult { get; set; } = new ValidationResult();
 }
 
 public class TextFileToSplit
@@ -87,5 +87,21 @@ public class TranslationLine
 public class ValidationResult
 {
     public bool Valid;
+    public string Result = string.Empty;
     public string CorrectionPrompt = string.Empty;
+
+    public ValidationResult() { 
+    }
+
+    public ValidationResult(bool valid, string result)
+    {
+        Valid = valid;
+        Result = result;
+    }
+
+    public ValidationResult(string result)
+    {
+        Valid = !string.IsNullOrEmpty(result);
+        Result = result;
+    }
 }

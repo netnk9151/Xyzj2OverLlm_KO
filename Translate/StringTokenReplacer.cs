@@ -9,16 +9,21 @@ namespace Translate;
 public class StringTokenReplacer
 {
     private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
-    private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";
-    private const string NumericValue = @"(?<!\{)[+-]?\d+(\.\d+)?";
+    private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";  
+    private const string NumericValueMatchPattern = @"(?<![\{=])[+-]?\d+(\.\d+)?";
+    private const string ColorStartMatchPattern = @"<color=[^>]+>";
+    //private const string ColorEndMatchPattern = @"</color>";
     private Dictionary<int, string> placeholderMap = new();
+    private Dictionary<string, string> colorMap = new();
 
     public string[] otherTokens = ["{}"];
 
     public string Replace(string input)
     {
         int index = 0;
+        int colorIndex = 0;
         placeholderMap.Clear();
+        colorMap.Clear();
 
         string result = Regex.Replace(input, PlaceholderMatchPattern, match =>
         {
@@ -32,7 +37,17 @@ public class StringTokenReplacer
             return $"{{{index++}}}";
         });
 
-        result = Regex.Replace(result, NumericValue, match =>
+        //Pull out color tags into different dictionary
+        // Do not need </color> because we use same one
+        result = Regex.Replace(result, ColorStartMatchPattern, match =>
+        {
+            string replacement = $"<color={colorIndex++}>";
+            colorMap.Add(replacement, match.Value);
+            return replacement;
+        });
+
+        // Picks up all digits - be careful it doesnt pick it up out of special tags or markup for game
+        result = Regex.Replace(result, NumericValueMatchPattern, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
@@ -49,7 +64,7 @@ public class StringTokenReplacer
 
     public string Restore(string input)
     {
-        return Regex.Replace(input, PlaceholderMatchPattern, match =>
+        var result = Regex.Replace(input, PlaceholderMatchPattern, match =>
         {
             if (int.TryParse(match.Value.Trim('{', '}'), out int index)
                 && placeholderMap.TryGetValue(index, out string? original))
@@ -58,5 +73,11 @@ public class StringTokenReplacer
             }
             return match.Value;
         });
+
+        foreach (var color in colorMap) {
+            result = result.Replace(color.Key, color.Value);
+        }
+
+        return result;
     }
 }
