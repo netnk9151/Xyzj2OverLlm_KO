@@ -21,7 +21,7 @@ public class TranslationWorkflowTests
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
-        await UpdateCurrentTranslationLines(false);
+        await UpdateCurrentTranslationLines(true);
     }
 
     [Fact(DisplayName = "4. TranslateLines")]
