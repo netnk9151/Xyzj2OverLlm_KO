@@ -95,7 +95,7 @@ public static class TranslationService
             new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
 
             ////Biggest one
-            //new() {Path = "stringlang.txt", SplitIndexes = []},
+            new() {Path = "stringlang.txt", SplitIndexes = []},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)

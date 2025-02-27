@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translate.Tests", "Tests\Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{32D9748B-F166-4423-9D0E-369ED01E13EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishPatch", "EnglishPatch\EnglishPatch.csproj", "{ACCC78D5-F957-4C2C-9EAE-82FCDE0ACD1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{32D9748B-F166-4423-9D0E-369ED01E13EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D9748B-F166-4423-9D0E-369ED01E13EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32D9748B-F166-4423-9D0E-369ED01E13EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCC78D5-F957-4C2C-9EAE-82FCDE0ACD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCC78D5-F957-4C2C-9EAE-82FCDE0ACD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCC78D5-F957-4C2C-9EAE-82FCDE0ACD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCC78D5-F957-4C2C-9EAE-82FCDE0ACD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
