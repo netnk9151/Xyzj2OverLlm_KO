@@ -59,7 +59,7 @@
     - complete the weaving skills
     - learning weaving skills
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 完成言家
   result: Complete for the Yan Family
   checkForHallucination: false
@@ -82,28 +82,28 @@
   result: Commerce
   context: Way of Business
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 豪爽
   result: Generosity
   checkForHallucination: false
-  checkForMistranslation: true 
+  checkForMistranslation: false 
 - raw: 福气
   result: Luck
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 容貌
   result: Beauty
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 口才
   result: Eloquence
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 胆识
   result: Courage
   context: Courage and Insight
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 修养
   result: Cultivation
   checkForHallucination: false
@@ -111,26 +111,71 @@
 - raw: 坚韧
   result: Toughness
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 元气
   result: Lifeforce
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 根骨
   result: Potential
   context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
   checkForHallucination: false
-  checkForMistranslation: true  
+  checkForMistranslation: false  
 - raw: 筋骨
   result: Strength
   context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
   checkForHallucination: false
-  checkForMistranslation: true 
+  checkForMistranslation: false 
 - raw: 体魄
   result: Constitution
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
+- raw: 阴
+  result: Yin
+  context: Commonly used in other translations
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 阳
+  result: Yang
+  context: Commonly used in other translations
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 刚
+  result: Hard
+  context: Commonly used in other translations
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 柔
+  result: Soft
+  context: Commonly used in other translations
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 毒
+  result: Poison
+  context:
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 生命
+  result: Health
+  context:
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 闪避
+  result: Dodge
+  context:
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 御心
+  result: Discipline
+  context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
+  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 诛心
+  result: Mind break
+  context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
+  checkForHallucination: false
+  checkForMistranslation: false
 - raw: 轻功
   result: Qinggong
   checkForHallucination: false
@@ -176,51 +221,6 @@
 - raw: 专注
   result: Focus
   context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 阴
-  result: Yin
-  context: Commonly used in other translations
-  checkForHallucination: false
-  checkForMistranslation: false
-- raw: 阳
-  result: Yang
-  context: Commonly used in other translations
-  checkForHallucination: false
-  checkForMistranslation: false
-- raw: 刚
-  result: Hard
-  context: Commonly used in other translations
-  checkForHallucination: false
-  checkForMistranslation: false
-- raw: 柔
-  result: Soft
-  context: Commonly used in other translations
-  checkForHallucination: false
-  checkForMistranslation: false
-- raw: 毒
-  result: Poison
-  context:
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 生命
-  result: Health
-  context:
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 闪避
-  result: Dodge
-  context:
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 御心
-  result: Discipline
-  context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
-  checkForHallucination: false
-  checkForMistranslation: true
-- raw: 诛心
-  result: Mind break
-  context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
   checkForHallucination: false
   checkForMistranslation: true
 - raw: 要害
