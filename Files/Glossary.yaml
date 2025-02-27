@@ -467,10 +467,9 @@
   result: Coin
   allowedAlternatives: 
     - Qian
-    - Money
-    - Savings
+    - Money 
   checkForHallucination: false
-  checkForMistranslation: true
+  checkForMistranslation: false
 - raw: 玄铁
   result: Dark Steel
   checkForHallucination: false
@@ -1122,7 +1121,7 @@
   checkForHallucination: false
   checkForMistranslation: true
 - raw: 重天门
-  result: Reign of Heaven Gate
+  result: Profound Celestial Sect
   checkForHallucination: false
   checkForMistranslation: true
 - raw: 云潇山庄
