@@ -101,10 +101,10 @@
 - lineNum: 11
   raw: "11#要害#0#26#0#0#0#0#0#0#0#1#300011#1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:04.0789467+08:00
+  - lastTranslatedOn: 2025-02-28T20:51:01.5882042+08:00
     split: 1
     text: "要害"
-    translated: "Critical Hit"
+    translated: "Vital Point"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1051,10 +1051,10 @@
 - lineNum: 1011
   raw: "1011#要害#0#1026#0#0#0#0#1#0#0#1#301011#1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T22:40:10.0295298+08:00
+  - lastTranslatedOn: 2025-02-28T20:51:01.8383239+08:00
     split: 1
     text: "要害"
-    translated: "Critical Hit"
+    translated: "Vital Point"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2864,32 +2864,32 @@
 - lineNum: 11076
   raw: "11076#中毒频率提升#8#205#4#101010#0##0#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-28T17:09:07.8779147+08:00
+  - lastTranslatedOn: 2025-02-28T22:23:02.2827592+08:00
     split: 1
     text: "中毒频率提升"
     translated: "Frequency of poisoning increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11077
   raw: "11077#中毒频率提升#8#1205#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-28T17:09:07.8780801+08:00
+  - lastTranslatedOn: 2025-02-28T22:23:02.2829341+08:00
     split: 1
     text: "中毒频率提升"
     translated: "Frequency of poisoning increased."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11078
   raw: "11078#中毒效果提升#8#1206#4#101010#0##1#0#0#0#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-28T17:09:07.7509004+08:00
+  - lastTranslatedOn: 2025-02-28T22:23:02.1727504+08:00
     split: 1
     text: "中毒效果提升"
-    translated: "Enhanced poisoning effect."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Enhanced Toxicity Effect"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 11079
   raw: "11079#断魂腿-冷却#8#1202#0#132210#0##1#0#0#0#0#0#"
