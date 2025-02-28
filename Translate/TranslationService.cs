@@ -17,85 +17,86 @@ public static class TranslationService
 
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [
-            new() {Path = "achievement.txt", SplitIndexes = []},
-            //new() {Path = "ai_dialog.txt", SplitIndexes = []},
-            new() {Path = "born_points.txt", SplitIndexes = []},
-            new() {Path = "buildprototype.txt", SplitIndexes = []},
-            new() {Path = "cardinfo.txt", SplitIndexes = []},
-            new() {Path = "chuanwenprototype.txt", SplitIndexes = []},
-            new() {Path = "condition_group.txt", SplitIndexes = []},
-            new() {Path = "condition_show_anim.txt", SplitIndexes = []},
-            new() {Path = "custom_data.txt", SplitIndexes = []},
-            new() {Path = "dlcinfo.txt", SplitIndexes = []},
-            new() {Path = "emoji.txt", SplitIndexes = []},
-            new() {Path = "entrust_event_prototype.txt", SplitIndexes = []},
-            new() {Path = "fuben_prototype.txt", SplitIndexes = []},
-            new() {Path = "game_manual.txt", SplitIndexes = []},
-            new() {Path = "game_manual_clue.txt", SplitIndexes = []},
-            new() {Path = "guanqiaenemy.txt", SplitIndexes = []},
-            new() {Path = "guanqiainfo.txt", SplitIndexes = []},
-            new() {Path = "horoscope.txt", SplitIndexes = []},
-            new() {Path = "identity.txt", SplitIndexes = []},
-            new() {Path = "item_base.txt", SplitIndexes = []},
-            new() {Path = "item_base_xianejianghu.txt", SplitIndexes = []},
-            new() {Path = "item_base_zhenshijianghu.txt", SplitIndexes = []},
-            new() {Path = "item_ma_prototype.txt", SplitIndexes = []},
-            new() {Path = "jingmai_node_pos.txt", SplitIndexes = []},
-            new() {Path = "jueyinglou.txt", SplitIndexes = []},
-            new() {Path = "keylist.txt", SplitIndexes = []},
-            //new() {Path = "keywordfilter.txt", SplitIndexes = []},
-            //new() {Path = "living_assemblyskill.txt", SplitIndexes = []},
-            //new() {Path = "living_assemblyskill_zhenshijianghu.txt", SplitIndexes = []},
-            new() {Path = "loadingpicture.txt", SplitIndexes = []},
-            new() {Path = "loadingtips.txt", SplitIndexes = []},
-            new() {Path = "makerplayer_prototype.txt", SplitIndexes = []},
-            new() {Path = "mapinfo.txt", SplitIndexes = []},
-            new() {Path = "map_area.txt", SplitIndexes = []},
-            new() {Path = "map_area_shili.txt", SplitIndexes = []},
-            new() {Path = "map_area_title.txt", SplitIndexes = []},
-            new() {Path = "menpai.txt", SplitIndexes = []},
-            new() {Path = "menpaibuild.txt", SplitIndexes = []},
-            new() {Path = "menpaipaibie.txt", SplitIndexes = []},
-            new() {Path = "menpaipeifang.txt", SplitIndexes = []},
-            new() {Path = "menpaiquest.txt", SplitIndexes = []},
-            new() {Path = "menpairandom.txt", SplitIndexes = []},
-            new() {Path = "menpaisoldier.txt", SplitIndexes = []},
-            new() {Path = "menpaitalent.txt", SplitIndexes = []},
-            new() {Path = "mystique.txt", SplitIndexes = []},
-            new() {Path = "nandu.txt", SplitIndexes = []},
-            new() {Path = "npc_interact.txt", SplitIndexes = []},
-            new() {Path = "npc_prototype.txt", SplitIndexes = []},
-            new() {Path = "npc_spell_container.txt", SplitIndexes = []},
-            new() {Path = "npc_spell_dynamic_name.txt", SplitIndexes = []},
-            new() {Path = "npc_team_info.txt", SplitIndexes = []},
-            new() {Path = "pve_data.txt", SplitIndexes = []},
-            new() {Path = "qinggong_node.txt", SplitIndexes = []},
-            new() {Path = "questjiemi.txt", SplitIndexes = []},
-            //new() {Path = "questprototype.txt", SplitIndexes = []},
-            new() {Path = "randomname.txt", SplitIndexes = []},
-            new() {Path = "randomnamenew.txt", SplitIndexes = []},
-            new() {Path = "randomquestion.txt", SplitIndexes = []},
-            new() {Path = "shangcheng_prototype.txt", SplitIndexes = []},
-            new() {Path = "spelleffect.txt", SplitIndexes = []},
-            new() {Path = "spelleffect_xianejianghu.txt", SplitIndexes = []},
-            new() {Path = "spelleffect_zhenshijianghu.txt", SplitIndexes = []},
-            new() {Path = "spellprotype.txt", SplitIndexes = []},
-            new() {Path = "spellprotype_xianejianghu.txt", SplitIndexes = []},
-            new() {Path = "spellprotype_zhenshijianghu.txt", SplitIndexes = []},
-            new() {Path = "stunt_proto.txt", SplitIndexes = []},
-            new() {Path = "system_introduce.txt", SplitIndexes = []},
-            new() {Path = "talent_proto.txt", SplitIndexes = []},
-            new() {Path = "teleport_trans.txt", SplitIndexes = []},
-            new() {Path = "triggertip.txt", SplitIndexes = []},
-            new() {Path = "tujian.txt", SplitIndexes = []},
-            new() {Path = "wordentryrandomtype.txt", SplitIndexes = []},
-            new() {Path = "wordentrytitle.txt", SplitIndexes = []},
-            new() {Path = "wordentrytype.txt", SplitIndexes = []},
-            new() {Path = "xunwen_prototype.txt", SplitIndexes = []},
-            new() {Path = "yingdao_prototype.txt", SplitIndexes = []},
+            //new() {Path = "ai_dialog.txt"},
+            //new() {Path = "keywordfilter.txt"},
+            //new() {Path = "living_assemblyskill.txt"},
+            //new() {Path = "living_assemblyskill_zhenshijianghu.txt"},
+            //new() {Path = "questprototype.txt"},
+
+            new() {Path = "achievement.txt", Output = true},
+            new() {Path = "born_points.txt", Output = true},
+            new() {Path = "buildprototype.txt", Output = false},
+            new() {Path = "cardinfo.txt", Output = true},
+            new() {Path = "chuanwenprototype.txt", Output = true},
+            new() {Path = "condition_group.txt", Output = true},
+            new() {Path = "condition_show_anim.txt", Output = false},
+            new() {Path = "custom_data.txt", Output = true},
+            new() {Path = "dlcinfo.txt", Output = true },
+            new() {Path = "emoji.txt", Output = true},
+            new() {Path = "entrust_event_prototype.txt", Output = false},
+            new() {Path = "fuben_prototype.txt", Output = false},
+            new() {Path = "game_manual.txt", Output = false},
+            new() {Path = "game_manual_clue.txt", Output = false},
+            new() {Path = "guanqiaenemy.txt", Output = false},
+            new() {Path = "guanqiainfo.txt", Output = false},
+            new() {Path = "horoscope.txt", Output = false},
+            new() {Path = "identity.txt", Output = false},
+            new() {Path = "item_base.txt", Output = false},
+            new() {Path = "item_base_xianejianghu.txt", Output = false},
+            new() {Path = "item_base_zhenshijianghu.txt", Output = false},
+            new() {Path = "item_ma_prototype.txt", Output = false},
+            new() {Path = "jingmai_node_pos.txt", Output = false},
+            new() {Path = "jueyinglou.txt", Output = false},
+            new() {Path = "keylist.txt", Output = false},          
+            new() {Path = "loadingpicture.txt", Output = false},
+            new() {Path = "loadingtips.txt", Output = false},
+            new() {Path = "makerplayer_prototype.txt", Output = false},
+            new() {Path = "mapinfo.txt", Output = false},
+            new() {Path = "map_area.txt", Output = false},
+            new() {Path = "map_area_shili.txt", Output = false},
+            new() {Path = "map_area_title.txt", Output = false},
+            new() {Path = "menpai.txt", Output = false},
+            new() {Path = "menpaibuild.txt", Output = false},
+            new() {Path = "menpaipaibie.txt", Output = false},
+            new() {Path = "menpaipeifang.txt", Output = false},
+            new() {Path = "menpaiquest.txt", Output = false},
+            new() {Path = "menpairandom.txt", Output = false},
+            new() {Path = "menpaisoldier.txt", Output = false},
+            new() {Path = "menpaitalent.txt", Output = false},
+            new() {Path = "mystique.txt", Output = false},
+            new() {Path = "nandu.txt", Output = false},
+            new() {Path = "npc_interact.txt", Output = false},
+            new() {Path = "npc_prototype.txt", Output = false},
+            new() {Path = "npc_spell_container.txt", Output = false},
+            new() {Path = "npc_spell_dynamic_name.txt", Output = false},
+            new() {Path = "npc_team_info.txt", Output = false},
+            new() {Path = "pve_data.txt", Output = false},
+            new() {Path = "qinggong_node.txt", Output = false},
+            new() {Path = "questjiemi.txt", Output = false},
+            new() {Path = "randomname.txt", Output = false},
+            new() {Path = "randomnamenew.txt", Output = false},
+            new() {Path = "randomquestion.txt", Output = false},
+            new() {Path = "shangcheng_prototype.txt", Output = false},
+            new() {Path = "spelleffect.txt", Output = false},
+            new() {Path = "spelleffect_xianejianghu.txt", Output = false},
+            new() {Path = "spelleffect_zhenshijianghu.txt", Output = false},
+            new() {Path = "spellprotype.txt", Output = false},
+            new() {Path = "spellprotype_xianejianghu.txt", Output = false},
+            new() {Path = "spellprotype_zhenshijianghu.txt", Output = false},
+            new() {Path = "stunt_proto.txt", Output = false},
+            new() {Path = "system_introduce.txt", Output = false},
+            new() {Path = "talent_proto.txt", Output = false},
+            new() {Path = "teleport_trans.txt", Output = false},
+            new() {Path = "triggertip.txt", Output = false},
+            new() {Path = "tujian.txt", Output = false},
+            new() {Path = "wordentryrandomtype.txt", Output = false},
+            new() {Path = "wordentrytitle.txt", Output = false},
+            new() {Path = "wordentrytype.txt", Output = false},
+            new() {Path = "xunwen_prototype.txt", Output = false},
+            new() {Path = "yingdao_prototype.txt", Output = false},
 
             ////Biggest one
-            new() {Path = "stringlang.txt", SplitIndexes = []},
+            new() {Path = "stringlang.txt", Output = false},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -104,6 +105,19 @@ public static class TranslationService
             return;
 
         Console.WriteLine($"Writing Split {fileName}.. Should have..{shouldHave} Have..{lines.Count}");
+
+        //new() {Path = "ai_dialog.txt"},
+        //new() {Path = "keywordfilter.txt"},
+        //new() {Path = "living_assemblyskill.txt"},
+        //new() {Path = "living_assemblyskill_zhenshijianghu.txt"},
+        //new() {Path = "questprototype.txt"},
+
+        if (fileName == "ai_dialog" 
+            || fileName == "keywordfilter"
+            || fileName == "living_assemblyskill"
+            || fileName == "living_assemblyskill_zhenshijianghu"
+            || fileName == "questprototype")
+            hasChinese = false;
 
         if (hasChinese)
             File.WriteAllLines($"{outputDirectory}/{fileName}.txt", lines);
@@ -418,14 +432,19 @@ public static class TranslationService
 
                 foreach (var split in line.Splits)
                 {
-                    //Check line to be extra safe
-                    if (split.Translated.Contains("#")
-                        || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
+                    if (!textFileToTranslate.Output)
+                    {
                         failed = true;
-                    //else if (!string.IsNullOrEmpty(split.Translated))
-                    //    splits[split.Split] = split.Translated;
-                    ////If it was already blank its all good
-                    //else if (!string.IsNullOrEmpty(split.Text))
+                        break;
+                    }
+
+                    //Check line to be extra safe
+                    if (split.Translated.Contains("#") || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
+                        failed = true;
+                    else if (!string.IsNullOrEmpty(split.Translated))
+                        splits[split.Split] = split.Translated;
+                    //If it was already blank its all good
+                    else if (!string.IsNullOrEmpty(split.Text))
                         failed = true;
                 }
 
@@ -439,6 +458,8 @@ public static class TranslationService
                     failedLines.Add(line.Raw);
                 }
             }
+
+            File.WriteAllLines($"{outputDbPath}/Formatted/{Path.GetFileNameWithoutExtension(outputFile)}.txt", outputLines);
 
             finalDb.Add($"{Path.GetFileNameWithoutExtension(outputFile)}|{fileLines.Count}");
             finalDb.AddRange(outputLines);

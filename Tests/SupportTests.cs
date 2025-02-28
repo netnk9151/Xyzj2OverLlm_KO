@@ -16,11 +16,11 @@ public class SupportTests
         var dir = new DirectoryInfo($"{workingDirectory}/Raw/SplitDb");
         FileInfo[] files = dir.GetFiles();
         foreach (FileInfo file in files)
-            Console.WriteLine($"new() {{Path = \"{file.Name}\", SplitIndexes = []}},");
+            Console.WriteLine($"new() {{Path = \"{file.Name}\", 1}},");
     }
 
     [Fact]
-    public async Task CheckGlossaryForDuplicates()
+    public void CheckGlossaryForDuplicates()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
 

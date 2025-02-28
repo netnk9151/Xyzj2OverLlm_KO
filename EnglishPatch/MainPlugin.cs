@@ -6,8 +6,12 @@ using SweetPotato;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+using TriangleNet;
 using UnityEngine;
 
 namespace EnglishPatch;
@@ -16,50 +20,201 @@ namespace EnglishPatch;
 public class MainPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
-  
+
     private void Awake()
     {
         Logger = base.Logger;
 
         // Plugin startup logic
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
-
         Harmony.CreateAndPatchAll(typeof(MainPlugin));
-        //Harmony.CreateAndPatchAll(typeof(TextAssetPatch));
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
     }
-    
+
     public void OnDestroy()
     {
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is destroyed!");
     }
 
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.DataMgr), "Init")]
+    [HarmonyPrefix, HarmonyPatch(typeof(DataMgr), "Init")]
     public static bool Init()
     {
         Logger.LogWarning($"Hooked Init!");
         return true;
     }
 
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.DataMgr), "LoadDB")]
-    public static bool LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
+    [HarmonyPrefix, HarmonyPatch(typeof(DataMgr), "LoadDB")]
+    public static bool Prefix_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
     {
         Logger.LogWarning($"Hooked LoadDB!");
-        var resourcesFolder = Path.Combine(Environment.CurrentDirectory, "resources");
-        Logger.LogInfo($"Resources Folder: {resourcesFolder}");
+        var resourcesFolder = Path.Combine(Environment.CurrentDirectory, "BepInEx/resources");
+        var resourcesFolder2 = Path.Combine(Environment.CurrentDirectory, "resources"); //Autotranslator messes with this
+        var dbFile = $"{resourcesFolder}/db1.txt";
+        var dbFile2 = $"{resourcesFolder2}/db1.txt";
 
-        //Logger.LogWarning($"Current Db File: {AppGame.Instance?.dbVersionFilePath}");
-
-        var dbFile = $"{resourcesFolder}/Db1.txt";
-        Logger.LogInfo($"New Db file: {resourcesFolder}");
         if (File.Exists(dbFile))
         {
             AppGame.Instance.dbVersionFilePath = dbFile;
-            Logger.LogWarning($"Loading modded file!!");
+            Logger.LogInfo($"Loading Translated Assets file: {dbFile}");
+        }
+        if (File.Exists(dbFile2))
+        {
+            AppGame.Instance.dbVersionFilePath = dbFile2;
+            Logger.LogInfo($"Loading Translated Assets file: {dbFile2}");
         }
 
-        // Return true to let the original LoadDB execute
+        // Old Code
+        //OldLoadDbCode(__instance, m_dic_csv);
+        //Logger.LogWarning("All good!");
+
+        //Return true to let the original LoadDB execute
         return true;
+    }
+
+    private static void OldLoadDbCode(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
+    {
+        var bs = DataMgr.ReadFileToBytes(AppGame.Instance.dbVersionFilePath);
+        var stopwatch = Stopwatch.StartNew();
+        if (AppGame.Instance.m_LoadDBUseTask)
+        {
+            Dictionary<string, List<string[]>> dictionary = new Dictionary<string, List<string[]>>();
+            string[] array = Encoding.UTF8.GetString(bs).Split('\n');
+            for (int i = 0; i < array.Length; i++)
+            {
+                string text = array[i];
+                string[] array2 = text.TrimEnd('\r').Split('|');
+                if (array2.Length == 2)
+                {
+                    string key = array2[0];
+                    int num = int.Parse(array2[1]);
+                    dictionary[key] = new List<string[]>();
+                    for (int j = 0; j < num; j++)
+                    {
+                        string text2 = array[i + 1 + j];
+                        dictionary[key].Add(text2.Split('#'));
+                    }
+
+                    i += num;
+                }
+                else
+                {
+                    UnityEngine.Debug.LogErrorFormat(i + " " + text);
+                }
+            }
+
+            List<Task> list = new List<Task>();
+            foreach (KeyValuePair<string, List<string[]>> item in dictionary)
+            {
+                string tableName = item.Key;
+                Logger.LogWarning($"TableName: {tableName}");
+                List<string[]> lists = item.Value;
+                list.Add(Task.Run(delegate
+                {
+                    if (m_dic_csv.TryGetValue(tableName, out var value2))
+                    {
+                        foreach (string[] item2 in lists)
+                        {
+                            try
+                            {
+                                value2(item2);
+                            }
+                            catch (Exception message)
+                            {
+                                UnityEngine.Debug.LogError(message);
+                            }
+                        }
+                    }
+                }));
+            }
+
+            Task.WaitAll(list.ToArray());
+            UnityEngine.Debug.LogFormat($"loaddb sb1 process cost {stopwatch.ElapsedMilliseconds}ms totalDataCount: {array.Length}");
+        }
+        else
+        {
+            var stopwatch2 = Stopwatch.StartNew();
+            string str;
+            while (__instance.ReadCsvLine(ref bs, out str))
+            {
+                string[] array3 = str.Split('|');
+                if (array3.Length != 2)
+                {
+                    break;
+                }
+
+                long usedsizeMemory = TestManagedHeap.GetUsedsizeMemory();
+                int result = 0;
+                int.TryParse(array3[1], out result);
+                string text3 = array3[0];
+                if (!m_dic_csv.TryGetValue(text3, out var value) || result == 0)
+                {
+                    for (int k = 0; k < result; k++)
+                    {
+                        __instance.ReadCsvLine(ref bs, out var _);
+                    }
+
+                    continue;
+                }
+
+                try
+                {
+                    Logger.LogWarning($"I think tableName: {text3}");
+                    if (text3.Equals(ItemPrototype.GetTableName()) && !RoleBagDataModel.m_bSetAllItemBaseData)
+                    {
+                        RoleBagDataModel.m_AllItemBase = new List<Item>();
+                    }
+
+                    for (int l = 0; l < result; l++)
+                    {
+                        if (__instance.ReadCsvLine(ref bs, out var str3))
+                        {
+                            string[] array4 = str3.Split('#');
+                            value(array4);
+                        }
+                        else
+                        {
+                            UnityEngine.Debug.LogError("DB sometime somethin");
+                        }
+                    }
+
+                    if (text3.Equals(ItemPrototype.GetTableName()) && !RoleBagDataModel.m_bSetAllItemBaseData)
+                    {
+                        RoleBagDataModel.m_bSetAllItemBaseData = true;
+                    }
+                }
+                catch (Exception exception)
+                {
+                    UnityEngine.Debug.LogException(exception);
+                    UnityEngine.Debug.LogError("table name:" + array3[0] + " DB Loaded");
+                }
+
+                if (text3.Equals(Stringlang.GetTableName()))
+                {
+                    Stringlang.Clear();
+                }
+
+                if (text3.Equals(NpcAttriDynamic.GetTableName()))
+                {
+                    NpcAttriDynamic.Clear();
+                }
+
+                long num2 = TestManagedHeap.GetUsedsizeMemory() - usedsizeMemory;
+                //if (num2 > 1048576)
+                //{
+                UnityEngine.Debug.Log("load table:" + array3[0] + "   Memory:" + (float)num2 * 1f / 1024f / 1024f + "M");
+                //}
+            }
+
+            GC.Collect(0, GCCollectionMode.Optimized);
+            UnityEngine.Debug.LogFormat("loaddb sb1 cost {0}ms", stopwatch2.ElapsedMilliseconds);
+            stopwatch2.Restart();
+        }
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(DataMgr), "LoadDB")]
+    public static void Post_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
+    {
+        Logger.LogWarning($"Translated Assets Loaded!");
     }
 
     //[HarmonyPostfix, HarmonyPatch(typeof(ResourceManager), nameof(ResourceManager.PreLoadAssetBundle))]
