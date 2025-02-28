@@ -1154,10 +1154,10 @@
 - lineNum: 248
   raw: "248#外防无视测试#1#34#0#1#10000#0#0###0##1#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0###buffnew_dianxue#0#0#248#0##0#0#0#248##0#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:27.4229957+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:25.9307113+08:00
     split: 1
     text: "外防无视测试"
-    translated: "External defense ignored testing."
+    translated: "External defense ignored in testing."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -1174,7 +1174,7 @@
 - lineNum: 250
   raw: "250#内外防无视测试#1#36#0#1#10000#0#0###0##1#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0###buffnew_baoji#0#0#250#0##0#0#0#250##0#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:27.4229965+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:25.9307120+08:00
     split: 1
     text: "内外防无视测试"
     translated: "Internal and external defense ignored test."
@@ -3044,12 +3044,12 @@
 - lineNum: 2031
   raw: "2031#刀三式击退#0#5#3#1#999#0#0###0##0#1.4#70.0#10000#0#0#0#1#1#1#30#150#0#0#0#0#30#30#100### #0#0#2031#1##0#0#0#2031#0#0#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:27.4230284+08:00
+  - lastTranslatedOn: 2025-02-27T23:18:56.3852623+08:00
     split: 1
     text: "刀三式击退"
-    translated: "Triad of Sword Techniques to Repel"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Knife Third Form Defensive Technique"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2040
   raw: "2040#刀四式伤害#0#1#3#1#999#0#sound_dao_hurt3###0##0#1.5#180.0#10000#0#0#0#0#1#0#20#21#7#0#0#0#8#12#0####0#0#2040#1#sfx_hero_main_dao_hit#0#0#0#2040#hurt_1|hurt_2&0|7000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##0.0#0.0###"
@@ -3114,10 +3114,10 @@
 - lineNum: 2051
   raw: "2051#刀五式击退#0#5#2#1#999#0#0###0##0#2.5#1.5#10000#0#0#0#1#1#1#100#200#0#0#0#0#10#10#0### #0#0#2051#1##0#0#0#2051#0#0#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:27.4230292+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:25.9307358+08:00
     split: 1
     text: "刀五式击退"
-    translated: "Deflect with the Five Sword Techniques."
+    translated: "Five Sword Techniques for Repelling Attacks."
     flaggedForRetranslation: true
     flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
@@ -5665,10 +5665,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:29.3623390+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:26.6090073+08:00
     split: 33
     text: "有文有武显精神，读书必定显亲宗。内力深厚，内防增加10%，内攻增加10%。"
-    translated: "Having both literary and martial skills showcases one's willpower; studying ensures the honor of one's family. With deep inner power, internal defense increases by 10%, and internal attack increases by 10%."
+    translated: "One who is both scholarly and martial demonstrates true willpower; studying diligently enhances one's lineage. Deep inner power increases internal defense by 10%, while increasing internal attack by 10%."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -5733,12 +5733,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:28.3715567+08:00
+  - lastTranslatedOn: 2025-02-27T22:36:42.1025852+08:00
     split: 33
     text: "脱离苦难显威风，家大业大谁能及。横练外功，外攻增加10%，外防增加10%。"
-    translated: "Escape from suffering and show your strength, who can rival when family and business are great. Practice external skills extensively, increasing external attack by 10%, and enhancing external defense by 10%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Escaping hardship to display strength, with a large family and great business—none can surpass them. Practicing external skills enhances External Attack by 10%, and increases External Defence by 10%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 10431
   raw: "10431#能征善战-外防增加#1#4#0#1#-1#0#0###0##0#0#0#10000#0#0#0#1#0#0#10#1022#0#0##0#1#0#0###0#0#0#10431#0##0#0#0#10431##4#0##0.0#0.0###"
@@ -12672,12 +12672,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:32.1724856+08:00
+  - lastTranslatedOn: 2025-02-27T22:36:43.8695490+08:00
     split: 33
     text: "造成伤害时使目标内外防减少20%,持续10秒"
-    translated: "Causes damage and reduces the target's internal and external defense by 20% for 10 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Causes damage and reduces the target's internal and external defence by 20% for 10 seconds."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 15050
   raw: "15050#破防#1#23#0#0#10000#0#0#0#0#0#0#2#0#0#10000#0#0#0#1#0#0#-50#0#0#0#1022|1023#0#1#0#0#破防#造成伤害时使目标内外防减少50%,持续10秒#buffnew_pojia#0#0#15050#0#0#0#0#0#15050##1#0#0#0.0#0.0###"
@@ -12696,7 +12696,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:29.9006366+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:27.3118202+08:00
     split: 33
     text: "造成伤害时使目标内外防减少50%,持续10秒"
     translated: "Causes damage and reduces the target's internal and external defense by 50% for 10 seconds."
@@ -15126,10 +15126,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:31.6442686+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:26.9528187+08:00
     split: 33
     text: "造成伤害时，附加自身阳属性*10%的额外伤害"
-    translated: "When causing damage, inflict additional harm equal to your own Yang attribute by *10%."
+    translated: "When causing harm, inflict additional damage equal to one's own Yin attribute *10%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15150,10 +15150,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:30.3594533+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:27.6472129+08:00
     split: 33
     text: "造成伤害时，附加自身阳属性*20%的额外伤害"
-    translated: "When inflicting damage, add an additional 20% of your own Yang attribute as extra damage."
+    translated: "When causing harm, inflict additional damage of 20% based on the target's own Yang attribute."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15174,10 +15174,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:31.2216869+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:28.3586159+08:00
     split: 33
     text: "造成伤害时，附加自身阳属性*30%的额外伤害"
-    translated: "When causing harm, add an additional 30% of your own Yang attribute damage."
+    translated: "When causing damage, inflict additional 30% of your own Yang attribute as extra damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15198,10 +15198,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:37.9840271+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:32.5085805+08:00
     split: 33
     text: "造成伤害时，附加自身阳属性*30%的额外伤害"
-    translated: "When causing harm, add an additional 30% of your own Yang attribute damage."
+    translated: "When causing damage, inflict additional 30% of your own Yang attribute as extra damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15390,10 +15390,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:37.9838387+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:32.5084598+08:00
     split: 33
     text: "造成伤害10%几率触发：持续五秒，无视100%外防内防。"
-    translated: "Causes a 10% chance to trigger damage: Lasts five seconds, ignoring 100% external and internal defense."
+    translated: "Causes a 10% chance to trigger damage: Lasts for five seconds, ignoring 100% of external and internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
@@ -15462,10 +15462,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:33.6063303+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:30.6799852+08:00
     split: 33
     text: "造成会心伤害时，3秒内无视目标20%内外防御，吸血20%"
-    translated: "When causing critical hit damage, ignore the target's 20% of external and internal defense for 3 seconds, and drain 20% health."
+    translated: "When inflicting critical damage, ignores the target's 20% internal and external defense for 3 seconds and drains 20% of their health."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -15486,10 +15486,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:34.0503385+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:31.6138899+08:00
     split: 33
     text: "造成伤害时，附加自身刚属性*20%的额外伤害"
-    translated: "When causing damage, add an additional 20% of your own hard attribute to the damage."
+    translated: "When causing damage, add an additional 20% of your own hardness attribute to the damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15510,10 +15510,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:30.8045490+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:32.2368798+08:00
     split: 33
     text: "造成伤害时，附加自身刚属性*30%的额外伤害"
-    translated: "When causing damage, inflict additional 30% of the attacker's own hard attribute as extra damage."
+    translated: "When causing damage, inflict additional damage equal to 30% of your own hard attribute."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15534,10 +15534,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:32.6846053+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:29.8391378+08:00
     split: 33
     text: "造成伤害时，附加自身阴属性*10%的额外伤害"
-    translated: "When causing damage, add an additional 10% of the target's own Yin attribute as extra damage."
+    translated: "When causing harm, apply an additional 10% of your own Yin attribute as extra damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15558,10 +15558,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:34.5342373+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:28.6776711+08:00
     split: 33
     text: "造成伤害时，附加自身阴属性*20%的额外伤害"
-    translated: "When causing harm, an additional 20% of your own Yin attribute is added to the damage."
+    translated: "When causing damage, add an additional 20% of your own Yin attribute as extra damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15582,10 +15582,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:36.2706352+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:29.5440302+08:00
     split: 33
     text: "造成伤害时，附加自身阴属性*30%的额外伤害"
-    translated: "When inflicting damage, add an additional 30% of one's own Yin attribute."
+    translated: "When causing harm, inflict additional damage equivalent to *30% of your own Yin attribute."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15606,10 +15606,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:35.8195792+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:29.0267819+08:00
     split: 33
     text: "造成伤害时，附加自身柔属性*10%的额外伤害"
-    translated: "When causing damage, add an additional 10% of the target's soft attribute as extra damage."
+    translated: "When causing damage, an additional 10% of the target's soft attribute is added to the damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15630,12 +15630,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:34.9951772+08:00
+  - lastTranslatedOn: 2025-02-27T22:50:53.9746595+08:00
     split: 33
     text: "造成伤害时，附加自身柔属性*20%的额外伤害"
-    translated: "When causing damage, add an additional 20% of your own soft attribute as extra damage."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "When inflicting damage, add an additional 20% of your own soft attribute to the external injury."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 17650
   raw: "17650#真元#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#3000#0#0#31##0#1#0#0#真元#造成伤害时，附加自身柔属性*30%的额外伤害#buffnew_ziqidonglai#0#0#17650#4#0#0#0#0#17650##4#0#0#0.0#0.0###"
@@ -15654,12 +15654,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:35.3963487+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:30.1852152+08:00
     split: 33
     text: "造成伤害时，附加自身柔属性*30%的额外伤害"
-    translated: "When inflicting harm, add an additional 30% of one's own soft attribute damage."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "When inflicting damage, add an additional 30% of your own Soft attribute to the external injury."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 17660
   raw: "17660#枯木#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#1000#0#0#32##0#1#0#0#枯木#造成伤害时，附加自身毒属性*10%的额外伤害#buffnew_ziqidonglai#0#0#17660#2#0#0#0#0#17660##4#0#0#0.0#0.0###"
@@ -15678,10 +15678,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:36.6645297+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:31.2944162+08:00
     split: 33
     text: "造成伤害时，附加自身毒属性*10%的额外伤害"
-    translated: "When causing damage, add an additional 10% of personal poison attribute damage."
+    translated: "When causing harm, add an additional 10% of your own poison attribute damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15702,10 +15702,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:37.1727598+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:31.9326397+08:00
     split: 33
     text: "造成伤害时，附加自身毒属性*20%的额外伤害"
-    translated: "When causing damage, inflict additional poison damage equal to *20% of the target's own poison attribute."
+    translated: "When causing damage, add an additional 20% of your own poison attribute to the damage."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -15726,10 +15726,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:37.6360118+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:31.0300027+08:00
     split: 33
     text: "造成伤害时，附加自身毒属性*30%的额外伤害"
-    translated: "When causing harm, additional damage equal to *30% of one's own poison attribute is inflicted."
+    translated: "When causing damage, inflict additional damage based on the attacker's own poison attribute of *30%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -17412,10 +17412,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:42.4065205+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:33.0182437+08:00
     split: 33
     text: "阳状态，该状态下会克制阴，会给处于阴状态目标有额外伤害，基础伤害克制"
-    translated: "In the Yang state, this condition suppresses Yin and inflicts additional damage on targets in the Yin state. It provides a basic damage suppression effect."
+    translated: "In a Yang state, this condition suppresses Yin and inflicts additional damage to targets in a Yin state. The base damage is also enhanced."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -17552,10 +17552,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:39.9982669+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.3550468+08:00
     split: 33
     text: "柔状态，该状态下会克制刚，会给处于刚状态目标有额外伤害，基础伤害克制"
-    translated: "Rough State: In this state, it restrains Hard, dealing additional damage to targets in the Hard state. Basic damage is restrained."
+    translated: "In the soft state, this condition restrains hardness and inflicts additional damage on targets in a hard state. It provides base damage restraint."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -17600,10 +17600,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:39.3305664+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:39.8942251+08:00
     split: 33
     text: "刚状态，该状态下会克制毒，会给处于毒状态目标有额外伤害，基础伤害克制"
-    translated: "In the hardened state, this condition will suppress poison and deal additional damage to targets in a poisoned state. It provides basic damage suppression."
+    translated: "In the hardened state, this condition will suppress poison and deal additional damage to targets in a poisoned state. The base damage is resistance-based."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -17672,10 +17672,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:40.6600356+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:38.6477268+08:00
     split: 33
     text: "毒状态，该状态下会克制阳，会给处于阳状态目标有额外伤害，基础伤害克制"
-    translated: "Poisoned State: In this state, it suppresses Yang. Targets in the Yang state receive additional damage; base damage suppression is effective."
+    translated: "In a poison state, this condition suppresses Yang and inflicts additional damage to targets in the Yang state. The base damage provides suppression."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -18364,10 +18364,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:46.0455668+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:35.0575393+08:00
     split: 33
     text: "从炎鸿时期传承下来的旷世奇功，据说拥有掌控和驯服各种灵兽的力量。习得该宝典能够驯服壁虎。"
-    translated: "The legendary art passed down from the Yan Hong era is said to possess the power to control and tame various mystical creatures. By mastering this tome, one can tame geckos."
+    translated: "The legendary technique from the Yan Hong period, passed down through generations, is said to possess the power to control and tame various spirit animals. Mastering this tome allows one to tame geckos."
     flaggedForRetranslation: true
     flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
@@ -18634,10 +18634,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3629571+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:38.1713415+08:00
     split: 33
     text: "豕形庞圆，体魄强健，犹如山川壮阔。其具备刚毅的守战能力，能够顽强抵御敌人的进攻。提升116外防，116内防。"
-    translated: "Pig-shaped and robust, their constitution is strong like expansive mountains and rivers. They possess a tenacious ability to defend and withstand attacks, resiliently repelling enemy assaults. Enhance 116 external defense, 116 internal defense."
+    translated: "The form is robust and round, like a large boar, with a constitution that is strong as the vastness of mountains and rivers. It possesses tenacious defensive capabilities, able to resist enemy attacks vigorously. Enhance 116 external defense, and boost 116 internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
@@ -19624,10 +19624,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:43.8517912+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:34.0635568+08:00
     split: 33
     text: "壁虎聪明绝顶，善感震荡之气息。纵使威胁逼近，其身法敏捷以应，化隐退又智解。攀越墙壁，夺目眼帘，超越凡俗。提升309真气，11身法，26化解。"
-    translated: "Geckos are exceptionally clever, adept at sensing vibrations. Even when a threat approaches, they respond with agile movements to evade and escape wisely. They scale walls in breathtaking fashion, surpassing the ordinary. Enhance 309 true energy, 11 agility, and 26 counter techniques."
+    translated: "Geckos are exceptionally smart and sensitive to vibrations. Even when threats approach, their agility allows them to respond with ease, withdrawing cleverly or countering swiftly. They scale walls, capturing attention and surpassing the ordinary. Enhance 309 true energy, 11 agility, and 26 counter."
     flaggedForRetranslation: true
     flaggedMistranslation: "Tiger,虎,"
     flaggedHallucination: ""
@@ -22227,12 +22227,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:44.8539508+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:35.8518956+08:00
     split: 33
     text: "弓背霞明剑照霜，秋风走马出咸阳。自身内外攻，内外防大幅增加。"
-    translated: "The bow's backdrop shines with sunrise, the sword gleams like frost. Autumn winds sweep across as the horse gallops out of Xianyang. With internal and external offense, both internal and external defense increase significantly."
+    translated: "Bows gleam with morning mists, swords shimmer like frost; autumn winds and galloping horses set out from Xianyang. The ability for internal and external attack has grown significantly, as well as the defense against both internal and external threats."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,External Attack,外攻,"
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 50400
   raw: "50400#融会贯通#1#23#0#1#0#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#8#0#0#0#26|74#0#1#0#0#融会贯通#命中加8，要害加8#buffnew_ziqidonglai#0#0#50400#0#0#0#0#0#50400##4#0#0#0.0#0.0###"
@@ -22381,12 +22381,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:46.7516789+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:37.2566866+08:00
     split: 33
     text: "受伤时反击5%的伤害，自身内外防增加刀法*1"
-    translated: "When injured, retaliate with 5% of the damage taken and increase both internal and external defense by Dao Fa times 1."
+    translated: "When injured, counterattack 5% of the damage and increase your internal and external defense by blade art * 1."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,Blade Art,刀法,"
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 50451
   raw: "50451#百战往生#1#23#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#34#22|23#0#1#0#0#0#0#0#0#0#50451#0#0#0#0#0#50451##4#0#0#0.0#0.0###"
@@ -22739,10 +22739,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:45.1847156+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:39.2264124+08:00
     split: 33
     text: "对刀套路敌人伤害提升10%"
-    translated: "Increase damage to enemies by 10% with sword techniques."
+    translated: "Increases enemy damage by 10% when using the sword techniques."
     flaggedForRetranslation: true
     flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
@@ -22787,10 +22787,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:47.4834316+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:39.4202366+08:00
     split: 33
     text: "对刀套路敌人伤害提升18%"
-    translated: "Increase enemy damage by 18% with sword techniques."
+    translated: "Increase enemy damage by 18% for the sword routine."
     flaggedForRetranslation: true
     flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
@@ -22941,10 +22941,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:50.2514472+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:36.8324378+08:00
     split: 33
     text: "释放技能后，6秒内增加20%自身内外防"
-    translated: "After activating the skill, increase self external and internal defense by 20% for 6 seconds."
+    translated: "Upon releasing the skill, increase self external and internal defense by 20% for 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -24948,12 +24948,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:48.3763656+08:00
+  - lastTranslatedOn: 2025-02-27T23:31:43.9367728+08:00
     split: 33
     text: "命中目标目标内外防减少1.2%(唯一生效)"
-    translated: "Hits target, reducing both internal and external defense by 1.2% (unique effect)."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Hits reduce target's external defence by 1.2% (exclusive effect)."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 72071
   raw: "72071##1#4#1#1#10000#0####0##0#0#0#10000#0#0#0#3#0#0#-120#22#0#22##0#1#0#0####0#0#72071#0##0#0#0#72071##1#0#72072#0.0#0.0###"
@@ -25079,10 +25079,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:47.9934187+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:38.9857964+08:00
     split: 33
     text: "命中目标目标内外防减少1.8%(唯一生效)"
-    translated: "Aims at target; reduces the target's internal and external defense by 1.8% (only one is effective)."
+    translated: "Hit target to reduce its internal and external defense by 1.8% (only one effect active)."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -25153,10 +25153,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:48.8066441+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:34.3618571+08:00
     split: 33
     text: "命中目标目标内外防减少2.2%(唯一生效)"
-    translated: "Hit target, reducing target's external defense by 2.2% (only one effect is active)."
+    translated: "Hit Target, Reduce Target's Internal and External Defense by 2.2% (Unique Effect)"
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -25244,12 +25244,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:47.2007687+08:00
+  - lastTranslatedOn: 2025-02-27T23:05:22.7412311+08:00
     split: 33
     text: "命中目标目标内外防减少2.8%(唯一生效)"
-    translated: "Hit Target: Reduce both internal and external defense of the target by 2.8% (unique effect)."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Aim at target to reduce external defence of target by 2.8% (unique effect)."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 72241
   raw: "72241##1#4#1#1#10000#0####0##0#0#0#10000#0#0#0#3#0#0#-280#22#0#22##0#1#0#0####0#0#72241#0##0#0#0#72241##1#0#72242#0.0#0.0###"
@@ -26086,7 +26086,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3634467+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6067461+08:00
     split: 33
     text: "中毒效果增加1%"
     translated: "Poison effect increased by 1%."
@@ -26154,7 +26154,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3634480+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6067474+08:00
     split: 33
     text: "中毒效果增加2%"
     translated: "Poison effect increased by 2%."
@@ -26171,10 +26171,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:52.4115025+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:41.7464161+08:00
     split: 33
     text: "自身毒属性达到1000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少60(唯一生效)"
-    translated: "The character's Poison attribute reaches 1000, and when attacking a target, the target's External Attack, Internal Defense, External Defense, Mind Break, Discipline, and Accuracy are reduced by 60 (only one effect takes place)."
+    translated: "The entity's poison attribute reaches 1000, and upon attacking a target, the target's external attack, external defense, mind break, discipline, and hit rate are reduced by 60 (only one effect is active)."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -26242,10 +26242,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3635902+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6074463+08:00
     split: 33
     text: "中毒效果增加3%"
-    translated: "Poisoning effect increased by 3%."
+    translated: "Poison effect increased by 3%."
     flaggedForRetranslation: true
     flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
@@ -26259,10 +26259,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:54.2965716+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:44.3781730+08:00
     split: 33
     text: "自身毒属性达到1500，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少90(唯一生效)"
-    translated: "When your own poison attribute reaches 1500, upon attacking a target, the target's internal and external attack, internal and external defense, mind break, discipline, and accuracy are reduced by 90 (this is the only effect that takes place)."
+    translated: "When their own Poison attribute reaches 1500, when attacking a target, the target's internal and external attack, internal and external defense, mind break, discipline, and hit rate are reduced by 90 (only one effect takes place)."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -26330,7 +26330,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3636594+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6075676+08:00
     split: 33
     text: "中毒效果增加4%"
     translated: "Poison effect increased by 4%."
@@ -26347,10 +26347,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:55.2219905+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:42.4622412+08:00
     split: 33
     text: "自身毒属性达到2000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少120(唯一生效)"
-    translated: "When their own poison attribute reaches 2000, upon attacking a target, the target's external attack, external defense, mind break, discipline, and hit rate are reduced by 120 (only one effect takes place)."
+    translated: "When your own poison attribute reaches 2000, while attacking a target, the target's external attack and defense, internal attack and defense, mind break, discipline, and hit chance are reduced by 120 (only one effect takes place)."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -26489,7 +26489,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3637347+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6076162+08:00
     split: 33
     text: "内外防增加2%"
     translated: "Internal and external defense increased by 2%."
@@ -26574,7 +26574,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3637366+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6076179+08:00
     split: 33
     text: "内外防增加3%"
     translated: "Internal and external defense increased by 3%."
@@ -26659,7 +26659,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:51.3637379+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6076193+08:00
     split: 33
     text: "内外防增加4%"
     translated: "Internal and external defense increased by 4%."
@@ -27343,10 +27343,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:56.8429605+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:45.6761918+08:00
     split: 33
     text: "效果持续时间范围内所有伤害都会无视目标40%的内外防御，持续2秒。"
-    translated: "During the effect's duration, all damage will ignore the target's 40% of internal and external defense for 2 seconds."
+    translated: "All damage within the effect's duration will ignore the target's 40% of both internal and external defense, lasting for 2 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -27521,10 +27521,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:53.1265342+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:46.1320548+08:00
     split: 33
     text: "持续时间内，每次攻击可以提高自身内外攻，一段时间后自身受到内伤效果。"
-    translated: "For a certain duration, each attack boosts the user's external and internal attack power. After some time, the user will suffer from an internal injury effect."
+    translated: "For the duration, each attack increases your own external and internal attack strength. After some time, you will suffer from internal injury effects."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Attack,外攻,"
     flaggedHallucination: ""
@@ -27609,12 +27609,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:57.2864843+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:44.8043619+08:00
     split: 33
     text: "内外防、内外攻降低30%，持续8秒"
-    translated: "Internal and external defense and attack reduced by 30%, lasting 8 seconds."
+    translated: "Internal and external defense, as well as internal and external attack, reduced by 30%, lasting for 8 seconds."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,External Attack,外攻,"
+    flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 100330
   raw: "100330#飞练#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#飞涟式#0#0#0#0#100330#0#0#0#0#0#100330##0#0#0#0.0#0.0###"
@@ -28075,20 +28075,20 @@
 - lineNum: 100511
   raw: "100511#莲绽佛光-提升内防#1#4#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#0#500#23#0#0##0#1#0#0#0#0#0#0#0#100511#0#0#0#0#0#100511##4#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:51.3639514+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6077618+08:00
     split: 1
     text: "莲绽佛光-提升内防"
-    translated: "A lotus blooms in Buddha's light. - Enhance internal defense."
+    translated: "Lotus Unfolding as Buddha's Light - Enhance internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 100512
   raw: "100512#莲绽佛光-提升外防#1#4#0#1#-1#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#500#22#0#0##0#1#0#0#0#0#0#0#0#100512#0#0#0#0#0#100512##4#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:51.3639518+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6077622+08:00
     split: 1
     text: "莲绽佛光-提升外防"
-    translated: "Lotus blooms with Buddha's light. - Enhance external defense."
+    translated: "Lotus blooms emit Buddha's light. - Enhance external defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -29119,12 +29119,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:56.2451927+08:00
+  - lastTranslatedOn: 2025-02-27T23:19:23.3396257+08:00
     split: 33
     text: "内外攻、内外防减少施加者阴属性*3，五行属性减少施加者阴属性*0.1的效果，持续15秒"
-    translated: "Internal and external attack, internal and external defense reduce the Yin attribute of the afflicted by *3, and the Five Elements attribute reduces the Yin attribute of the afflicted by *0.1. The effect lasts for 15 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Internal and External Attack, Internal and External Defence reduce the effect of the caster's Yin attribute by *3* and their elemental attributes by Yin attribute *0.1* for 15 seconds."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100811
   raw: "100811#极寒-五行减少#1#23#3#1#15000#0#0#0#0#0#0#2#2.0#180.0#10000#0#0#0#2#0#0#-1000#0#0#28#29|30|31|32#0#1#0#0#0#0#0#0#0#100811#0#0#0#0#0#100811##0#0#0#0.0#0.0###"
@@ -29697,10 +29697,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:59.1897120+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:48.9383062+08:00
     split: 33
     text: "削减目标身上100点内外防御，额外附加目标身上御风途层数*100，持续8秒。"
-    translated: "Reduce the target's 100 points of external and internal defense, additionally granting the target windward layers multiplied by 100. This effect lasts for 8 seconds."
+    translated: "Reduce the target's 100 points of internal and external defense, additionally granting them wind warding layers multiplied by 100. This effect lasts for 8 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -30545,10 +30545,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:01.8140836+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:47.3176354+08:00
     split: 33
     text: "效果持续时间内，免疫一切中毒效果，持续时间6秒。"
-    translated: "During the effect's duration, immunity to all poison effects is granted; this lasts for 6 seconds."
+    translated: "During the effect's duration, immune to all poison effects for 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
@@ -31565,7 +31565,7 @@
 - lineNum: 109102
   raw: "109102#炁-真气#1#4#0#1#20000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#3#1001#0#0##0#1#0#0#0#0#0#0#0#109102#0#0#0#1#10#109102##0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:09.7689403+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:52.4345179+08:00
     split: 1
     text: "炁-真气"
     translated: ""
@@ -32361,10 +32361,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:24:59.9341056+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:47.0275129+08:00
     split: 33
     text: "玄关一窍，气血沸腾，当血量大于2000点时，提升外防110。"
-    translated: "When the Qi and blood surge through the Xuan Gate opening, if your blood quantity exceeds 2000 points, external defense is increased by 110."
+    translated: "When the main entrance is opened, blood surges with excitement. When blood volume exceeds 2000 points, enhance external defense by 110."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -32409,12 +32409,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:03.5612270+08:00
+  - lastTranslatedOn: 2025-02-27T21:52:06.1884451+08:00
     split: 33
     text: "玄关一窍，气血沸腾，当血量大于11000点时，提升外防380。"
-    translated: "When the gate of the heart is opened, blood boils within; when blood quantity exceeds 11000 points, external defense increases by 380."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "When the blood quantity exceeds 11000 points, it causes the Qi and Blood to surge in the Xuan Gate, enhancing External Defence by 380."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 109615
   raw: "109615#加物防#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50026#1#0#0##20000#0#0#0#金甲#玄关一窍，气血沸腾，当血量大于20000点时，提升外防700。#buffnew_baizhan#0#0#109615#3##0#0#0#109615##4#0##0.0#0.0###"
@@ -32433,17 +32433,17 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:04.7471289+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:47.8107997+08:00
     split: 33
     text: "玄关一窍，气血沸腾，当血量大于20000点时，提升外防700。"
-    translated: "When the blood quantity exceeds 20000 points, an enhancement of external defense by 700 is triggered through the opening at Xuan Gate."
+    translated: "When the Qi and blood in the gate of mystery are surging, and blood quantity exceeds 20000 points, external defense is increased by 700."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 109620
   raw: "109620#加内防#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50027#1#0#1##400#0#0#0#浩气#真元充盈，沸返盈天。当真气大于400点时候，提升内防110。#buffnew_baizhan#0#0#109620#1##0#0#0#109620##4#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:24:51.3645415+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:40.6079663+08:00
     split: 1
     text: "加内防"
     translated: "Enhance internal defense."
@@ -32457,17 +32457,17 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:00.6079725+08:00
+  - lastTranslatedOn: 2025-02-27T23:31:51.1024340+08:00
     split: 33
     text: "真元充盈，沸返盈天。当真气大于400点时候，提升内防110。"
-    translated: "Mystic energy overflowing, returning to the skies. When the mystic energy exceeds 400 points, internal defense is enhanced by 110."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Internal Defence,内防,"
+    translated: "Qi is abundant, filling the heavens in return. When your internal energy exceeds 400 points, increase your Internal Defence by 110."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 109625
   raw: "109625#加内防#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50028#1#0#1##1200#0#0#0#浩气#真元充盈，沸返盈天。当真气大于1200点时候，提升内防205。#buffnew_baizhan#0#0#109625#2##0#0#0#109625##4#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:09.7691198+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:52.4346309+08:00
     split: 1
     text: "加内防"
     translated: "Enhance internal defense."
@@ -32491,7 +32491,7 @@
 - lineNum: 109630
   raw: "109630#加内防#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50029#1#0#1##2800#0#0#0#浩气#真元充盈，沸返盈天。当真气大于2800点时候，提升内防380。#buffnew_baizhan#0#0#109630#3##0#0#0#109630##4#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:09.7691200+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:52.4346310+08:00
     split: 1
     text: "加内防"
     translated: "Enhance internal defense."
@@ -32515,7 +32515,7 @@
 - lineNum: 109635
   raw: "109635#加内防#1#41#0#1#-1#0#0###0##1#0#0#10000#0#0#0#2#1#1#50030#1#0#1##5000#0#0#0#浩气#真元充盈，沸返盈天。当真气大于5000点时候，提升内防700。#buffnew_baizhan#0#0#109635#3##0#0#0#109635##4#0##0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:09.7691201+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:52.4346310+08:00
     split: 1
     text: "加内防"
     translated: "Enhance internal defense."
@@ -32529,10 +32529,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:01.2724886+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:48.3790473+08:00
     split: 33
     text: "真元充盈，沸返盈天。当真气大于5000点时候，提升内防700。"
-    translated: "When the true essence is abundant and surges to fill the sky, when the true energy exceeds 5000 points, internal defense increases by 700."
+    translated: "With the cultivation of true essence reaching its zenith, it floods the heavens. When one's inner energy surpasses 5000 points, the internal defense is enhanced by 700."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -34863,10 +34863,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:02.8934783+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:45.2119958+08:00
     split: 33
     text: "造成伤害时会额外附加自身精神*0.2的额外伤害"
-    translated: "When causing damage, it additionally inflicts extra damage equal to the user's own *0.2 willpower."
+    translated: "When causing damage, it will additionally inflict an extra amount of damage equal to the wielder's willpower *0.2."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -35041,10 +35041,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:02.3419948+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:46.5664210+08:00
     split: 33
     text: "持续时间内，所造成伤害无视30%内外防，持续时间6秒。"
-    translated: "During its duration, the inflicted damage ignores 30% of both internal and external defense for 6 seconds."
+    translated: "During this duration, the damage inflicted ignores 30% of both internal and external defense, lasting for 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -35065,10 +35065,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:04.0565754+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:41.0289400+08:00
     split: 33
     text: "持续时间内，所造成伤害无视40%内外防，持续时间6秒。"
-    translated: "During its duration, the inflicted damage ignores 40% of external and internal defense for 6 seconds."
+    translated: "For its duration, the damage inflicted ignores 40% of both external and internal defense for 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -35277,10 +35277,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:05.3956683+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:43.6160393+08:00
     split: 33
     text: "每次攻击都会附加内力*0.1的额外伤害，最多可叠加3层，持续时间6秒。"
-    translated: "Each attack deals additional *0.1* Inner Power damage, stacking up to 3 layers, lasting for 6 seconds."
+    translated: "Each attack adds an extra *0.1 Inner Power damage, stacking up to a maximum of 3 layers for a duration of 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -36644,10 +36644,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:11.7904101+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:54.1625833+08:00
     split: 33
     text: "当生命大于50%的时候，每40秒触发一次持续时间为10秒的内外防御提升50%。"
-    translated: "When health exceeds 50%, every 40 seconds, an internal and external defense enhancement of 50% is triggered for a duration of 10 seconds."
+    translated: "When health exceeds 50%, a defense boost of 50% for both internal and external defenses is triggered every 40 seconds, lasting for 10 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -37840,10 +37840,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:12.7567812+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:53.6052250+08:00
     split: 33
     text: "身上有「毒息」效果的角色，在被攻击的时候会给自身一层中毒，持续时间6秒，不可被叠加。"
-    translated: "Characters with the Poison Aura effect will poison themselves when attacked, lasting for 6 seconds and cannot be stacked."
+    translated: "Characters with the Toxic Aura effect will poison themselves for 6 seconds when attacked. This effect cannot be stacked."
     flaggedForRetranslation: true
     flaggedMistranslation: "Poisoned,中毒,"
     flaggedHallucination: ""
@@ -40952,10 +40952,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:14.0342488+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:53.1416547+08:00
     split: 33
     text: "创造一个护盾保护自身并提高自身内外攻，同时降低自身内外防持续一段时间。"
-    translated: "Create a shield to protect oneself and enhance both internal and external attack, while simultaneously reducing both internal and external defense for a period of time."
+    translated: "Create a shield to protect oneself and enhance both internal and external attack, while simultaneously reducing internal and external defense for a duration."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -42480,10 +42480,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:11.0134020+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:54.7705343+08:00
     split: 33
     text: "每次攻击会减少目标10%的内外防，持续6秒"
-    translated: "Each attack reduces the target's internal and external defense by 10%, lasting for 6 seconds."
+    translated: "Each attack reduces the target's 10% internal and external defense, lasting for 6 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -43144,20 +43144,20 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:12.1695283+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:54.4260281+08:00
     split: 33
     text: "根骨+20，外攻、外防增加5%"
-    translated: "Root Essence +20, External Attack and External Defense increase by 5%."
+    translated: "Potential +20, with external attack and defense increased by 5%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
 - lineNum: 198021
   raw: "198021#0#1#23#0#1#30000#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#5#0#0#0#1020|1022#0#1#0#0#0#根骨+20，外攻、外防增加5%#0#0#0#198021#0#0#0#0#0#198021##0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:14.0344333+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:54.7706454+08:00
     split: 33
     text: "根骨+20，外攻、外防增加5%"
-    translated: "Root Essence +20, External Attack and External Defense increase by 5%."
+    translated: "Potential +20, with external attack and defense increased by 5%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -43832,12 +43832,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:13.3869199+08:00
+  - lastTranslatedOn: 2025-02-27T22:07:37.6643999+08:00
     split: 33
     text: "黄河远上白云间，一片孤城万仞山，外防+10"
-    translated: "The Yellow River stretches far above among the white clouds, a solitary city surrounded by mountains as high as ten thousand feet; external defense +10."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Up in the clouds, where the Yellow River flows far away, stands a solitary city atop a mountain of ten thousand feet; external defence +10."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 198250
   raw: "198250#强筋#1#4#0#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#20#22#0#0##0#1#0#0#强筋#黄河远上白云间，一片孤城万仞山，外防+20#buffnew_baizhan#0#0#198250#2#0#0#0#0#198250##0#0#0#0.0#0.0###"
@@ -44840,10 +44840,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:23.5791280+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:00.2156200+08:00
     split: 33
     text: "对佛学深入了解，提升佛学*0.2的内防。"
-    translated: "Deeply understand Buddhism to enhance Buddhism's *0.2 internal defense."
+    translated: "Deepen understanding of Buddhism to enhance Buddhist *0.2* internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -44864,10 +44864,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:24.3201921+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:55.0724772+08:00
     split: 33
     text: "对佛学深入了解，提升佛学*0.4的内防。"
-    translated: "Deeply understand Buddhism to enhance the internal defense of your *0.4."
+    translated: "Deepen your understanding of Buddhism and enhance the internal defense capabilities of Buddhist 0.4."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -44888,10 +44888,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:14.9695218+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:01.6526630+08:00
     split: 33
     text: "对佛学深入了解，提升佛学*0.8的内防。"
-    translated: "Gain a deep understanding of Buddhism to enhance Buddhist *0.8* internal defense."
+    translated: "Deep understanding of Buddhism, enhancing the Buddhist *0.8's internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -45248,10 +45248,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:17.8411249+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:56.7930068+08:00
     split: 33
     text: "根据自身当前真气的50%造成额外伤害"
-    translated: "Inflict additional damage based on 50% of your current true qi."
+    translated: "Inflicts additional damage based on 50% of current qi."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -48585,10 +48585,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:16.3840951+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:58.3347449+08:00
     split: 33
     text: "造成会心伤害时，3秒内无视目标20%内外防御，吸血20%"
-    translated: "When inflicting critical damage, ignores the target's 20% external and internal defense for 3 seconds, and drains 20% of their health."
+    translated: "Causes critical damage, ignoring the target's 20% external and internal defense for 3 seconds and drains 20% health."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -49250,10 +49250,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:17.4335753+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:01.1032331+08:00
     split: 33
     text: "根据自身剑术破除目标大量内外防、御心、化解；同时破除目标防御效果、护盾效果；目标治疗效果失效"
-    translated: "Based on their martial arts skills, they negate the target's numerous internal and external defenses, discipline, and counters. Simultaneously, they nullify the target's defensive effects and shields; the target's healing effects become ineffective."
+    translated: "Using their own swordsmanship to break through the target's numerous external defenses, discipline, and counters; simultaneously nullifying the target's defensive and shield effects, rendering the target's healing effects ineffective."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -49331,10 +49331,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:15.6740354+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:57.2437206+08:00
     split: 33
     text: "施加者每1阳属性减少受击者内外防1点，持续15秒"
-    translated: "The caster reduces the target's Yang attribute by 1 points to their internal and external defense every 1, lasting for 15 seconds."
+    translated: "The caster reduces the target's internal and external defense by 1 Yang attribute points every 1, lasting for 15 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -50379,10 +50379,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:22.9092366+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:59.0927552+08:00
     split: 33
     text: "剑玄效果存在时，攻击目标减少目标自身道学*1的内外防"
-    translated: "While the effect of Jianxuan is active, the target's attacks reduce by a portion equivalent to the target's own Dao School *1 internal and external defense."
+    translated: "When Jianxuan's effect is active, the attack reduces the target's own Daoju *1 of internal and external defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -50403,10 +50403,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:21.4258856+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:57.8916447+08:00
     split: 33
     text: "减少目标施加者道学*1的内外防"
-    translated: "Reduce the target's internal and external defense from the Daoist master *1."
+    translated: "Reduce the target's internal and external defense exerted by Daoist *1."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -50842,10 +50842,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:19.2818971+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:56.5615056+08:00
     split: 33
     text: "15秒内，目标施展招式会对自身造成受伤时附带自身阳属性*1的额外伤害效果；定身自身，8秒调息；减少自身20%内外防；减少自身20%内外攻。"
-    translated: "Within 15 seconds, when the target uses a technique that inflicts damage on themselves, it will deal additional damage equal to their Yang attribute *1; immobilize oneself; rest for 8 seconds; reduce internal and external defense by 20%; reduce internal and external attack by 20%."
+    translated: "Within 15 seconds, if the target uses a technique that causes self-inflicted injury while activating this effect, an additional damage of their own Yang attribute *1 is inflicted; immobilize oneself and recover for 8 seconds; reduce one's external defense by 20%; reduce one's external attack by 20%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,External Injury,外伤,"
     flaggedHallucination: ""
@@ -50896,10 +50896,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:19.7847672+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:58.6255268+08:00
     split: 33
     text: "受伤时附带自身阳属性*0.5的额外伤害效果"
-    translated: "When injured, it deals additional damage based on the *0.5* attribute of one's own Yang."
+    translated: "While injured, inflicts additional damage equivalent to your own Yang attribute *0.5."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -50968,7 +50968,7 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:14.0356099+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:54.7712527+08:00
     split: 33
     text: "内外防减少20%"
     translated: "Internal and external defense reduced by 20%."
@@ -51600,10 +51600,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:21.0240804+08:00
+  - lastTranslatedOn: 2025-02-27T23:43:57.6074099+08:00
     split: 33
     text: "自身内外防减少50%，内外攻增加30%。"
-    translated: "Self's internal and external defense reduced by 50%, with internal and external attack increased by 30%."
+    translated: "Reduces self's external defense by 50%, while increasing internal and external attack by 30%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -53258,12 +53258,12 @@
 - lineNum: 1111003
   raw: "1111003#藏刀式-减伤#1#10#0#1#2000#0##0#0#0#0#0#0#0#10000#0#0#0#0#0#0#30#0#0#0##0#1#0#0#固守#防御招架期间，减少自身所受30%的伤害。#buffnew_baoji#0#0#1111003#1#0#0#0#0#1111003##0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:24.3205529+08:00
+  - lastTranslatedOn: 2025-02-27T21:52:25.2080782+08:00
     split: 1
     text: "藏刀式-减伤"
-    translated: "Hidden Sword Technique - Damage reduction."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "Hidden Blade Technique - Pain reduction."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.1606093+08:00
     split: 32
@@ -54218,10 +54218,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:25.8670583+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:03.3728302+08:00
     split: 33
     text: "寒气侵蚀经脉，最后一式可减少目标内防自身阴属性*1"
-    translated: "Cold energy invades the meridians; the final move can reduce the target's internal defense and its own Yin attribute by *1."
+    translated: "The chilling qi invades the meridians, and with the final technique, it can reduce the target's internal defense against their own Yin attribute by *1."
     flaggedForRetranslation: true
     flaggedMistranslation: "Internal Defence,内防,"
     flaggedHallucination: ""
@@ -54252,10 +54252,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:29.5288568+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:02.1166900+08:00
     split: 33
     text: "造成伤害时根据目标身上蚀阴效果层数造成额外伤害"
-    translated: "Deal additional damage based on the number of layers of Erode Yin effect present on the target when causing harm."
+    translated: "Inflict additional damage based on the number of layers of Corrosive Yin effect present on the target at the time of harm."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -55588,10 +55588,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:28.9399888+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:03.9066850+08:00
     split: 33
     text: "最后一击会引爆敌人身上的蚀阴效果，根据蚀阴的层数造成额外伤害"
-    translated: "The final blow will trigger the enemy's Corrosive Yin effect, dealing additional damage based on the number of Corrosive Yin layers."
+    translated: "The final blow will trigger the Corrosive Yin effect on the enemy's body, causing additional damage based on the number of layers of Corrosive Yin."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -57566,10 +57566,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:26.4171433+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:04.2872965+08:00
     split: 33
     text: "清除敌人身上蚀阴效果，根据蚀阴层数造成额外伤害"
-    translated: "Remove the Yin-corrosion effect from enemies and deal additional damage based on the number of layers of Yin corrosion."
+    translated: "Remove the corrupt yin effect from enemies and deal additional damage based on the number of layers of yin corruption."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -58404,10 +58404,10 @@
 - lineNum: 1312001
   raw: "1312001#催心劫-内外防减少#1#23#2#1#10000#0#0#0#0#0#0#2#7.0#1.5#10000#0#0#0#2#0#0#-3000#0#0#7#1022|1023#0#1#0#0#摧心#持续十秒，损失施加者内力*0.3的百分比的内外防#buffnew_ziqidonglai#0#0#1312001#0#0#0#0#0#1312001##0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:24.3210634+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:01.6533679+08:00
     split: 1
     text: "催心劫-内外防减少"
-    translated: "Heart-Quickening Crisis - Reduction in both external and internal defense."
+    translated: "Heart-Piercing Calamity - Reduction in both internal and external defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -59183,10 +59183,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:27.3508561+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:02.8299052+08:00
     split: 33
     text: "内力缠手，对目标造成自身最大真气值*1.5的额外伤害，同时消耗目标40%当前真气值"
-    translated: "Inner Power Ensnarement: Deals additional damage to the target equal to the user's maximum true Qi value * 1.5, and simultaneously drains 40% of the target's current Qi."
+    translated: "Inner Power Envelopes the Hands, dealing additional damage to the target equal to the user's maximum true Qi value of *1.5, and simultaneously depleting 40% of the target's current Qi."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -59573,10 +59573,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:28.2788904+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:05.0427558+08:00
     split: 33
     text: "消耗自身所有真鳞效果，摧毁敌人护盾效果，削弱目标560点内外防御、御心和化解效果，持续10秒"
-    translated: "Consume all of your own True Scales effects to destroy the target's shield effects and reduce their internal and external defense, discipline, and counter effects by 560 points for 10 seconds."
+    translated: "Consume all of your own True Scales effects, destroy the target's shield effect, weaken the target's external defense, discipline, and counter effects by 560 points within range, lasting for 10 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -60479,12 +60479,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:31.6426952+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:06.6175055+08:00
     split: 33
     text: "引爆目标身上中毒效果造成自身毒属性*0.5的伤害，目标中毒层数越高，伤害越高；目标内外攻、内外防降低15%"
-    translated: "Detonating the target's poisoned effect deals self-damage based on their own poison attribute by *0.5. The higher the number of poison layers on the target, the greater the damage; the target's internal and external attack, as well as internal and external defense, decrease by 15%."
+    translated: "Detonating the target's poison effect causes self-inflicted damage based on the poison attribute of *0.5; the higher the number of poison layers on the target, the greater the damage. The target's internal and external attack, as well as internal and external defense, are reduced by 15%."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    flaggedMistranslation: "External Defence,外防,Poisoned,中毒,"
     flaggedHallucination: ""
 - lineNum: 1323006
   raw: "1323006#蛛毒#1#23#0#0#15000#0#0#0#0#0#0#2#0#0#10000#0#0#0#1#0#0#-15#0#0#0#1020|1021|1022|1023#0#1#0#0#蛛毒#内外攻、内外防降低15%，持续15秒#buffnew_yijingduangu#0#0#1323006#0#0#0#0#0#1323006##0#0#0#0.0#0.0###"
@@ -60503,10 +60503,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:32.8870074+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:05.6502019+08:00
     split: 33
     text: "内外攻、内外防降低15%，持续15秒"
-    translated: "Internal and external attack, internal and external defense reduced by 15%, lasting for 15 seconds."
+    translated: "Internal and external attack and defense reduced by 15%, lasting for 15 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -61066,12 +61066,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:32.1109393+08:00
+  - lastTranslatedOn: 2025-02-27T21:37:00.0645351+08:00
     split: 33
     text: "造成伤害时，无视目标40%外防，持续6秒"
-    translated: "Causes damage, ignoring 40% of the target's external defense for 6 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Causes damage, ignoring the target's 40% External Defence for 6 seconds."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1328004
   raw: "1328004#龙象般若掌-伤害2#0#1#3#1#0#0#sound_quan_hurt2#0#0#0#0#0#1.8#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#80#0#100#0#0#0#0#0#1328004#0#sfx_hero_main_quan_hit#0#0#0#1328004#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -61822,10 +61822,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:39.2359463+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:06.9239487+08:00
     split: 33
     text: "周围敌人造成自身阴属性*2的额外伤害，并冰冻敌人"
-    translated: "Enemies around suffer additional *2* damage to their yin attribute from the attacker, and are frozen."
+    translated: "Enemies around deal additional *2* Yin attribute damage to themselves and freeze the enemy."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -62002,10 +62002,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:33.5414616+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:07.8001865+08:00
     split: 33
     text: "摧破目标外防，每次攻击可减少目标3%外攻防御，共四次"
-    translated: "Break through the target's external defense, reducing its external attack and defense by 3% per hit for a total of four hits."
+    translated: "Break through the target's external defense, reducing its external attack and defense by 3% per hit, for a total of four hits."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -64180,10 +64180,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:39.4634424+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:10.4625531+08:00
     split: 33
     text: "自身要害提升50%，内外防降低50%，每施展五次招式使得自身陷入醉酒：眩晕3秒"
-    translated: "Self-critical hit enhancement 50%, external and internal defense reduction 50%. After casting five techniques, self falls into inebriation: Dizzy for 3 seconds."
+    translated: "Self-critical hit damage increased by 50%, external and internal defense decreased by 50%. After casting five techniques, self-induced drunkenness occurs: Dizzy for 3 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -65412,12 +65412,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:35.8868444+08:00
+  - lastTranslatedOn: 2025-02-27T22:51:39.2644228+08:00
     split: 33
     text: "道家讲究阴阳调和，当前内外攻提升自身道学*0.4，内外防提升道学*0.8点。"
-    translated: "In Daoism, the harmony of Yin and Yang is emphasized. Currently, enhancing Internal and External Attack improves one's Dao studies by *0.4, while improving Internal and External Defense increases Dao studies by *0.8 points."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Daoism emphasizes the harmony of Yin and Yang. Currently, boosting External Attack increases one's Dao expertise by *0.4, while boosting External Defence enhances it by *0.8 points."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1528002
   raw: "1528002#无名心法-阳平#1#23#0#1#0#0####0##0#0#0#10000#0#0#0#2#0#0#8000#0#0#42#22|23#0#1#0#0####0#0#1528002#0##0#0#0#1528002##0#0##0.0#0.0###"
@@ -65574,10 +65574,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:40.2925206+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:11.3720611+08:00
     split: 33
     text: "获得自身佛法*1的御心、内外防"
-    translated: "Gaining self-discipline in one's *1* teachings for internal and external defense."
+    translated: "Achieving self-discipline of the Dharma *1, internally and externally."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -65730,10 +65730,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:36.7884194+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:08.6382153+08:00
     split: 33
     text: "攻击降低目标内外防15%，持续5秒"
-    translated: "Attack reduces target's external defense by 15%, lasting for 5 seconds."
+    translated: "Attack reduces target's internal and external defense by 15%, lasting for 5 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -65760,12 +65760,12 @@
 - lineNum: 1600200
   raw: "1600200#穿心一刀-伤害#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#20#183#100#0#0#0#0#0#1600200#0#0#0#0#0#1600200#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:30.2151211+08:00
+  - lastTranslatedOn: 2025-02-27T22:07:51.9800010+08:00
     split: 1
     text: "穿心一刀-伤害"
-    translated: "A heart-piercing slash. - Harm."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade,刀,"
+    translated: "A blade that pierces the heart. - Harm"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1600201
   raw: "1600201#穿心一刀-缓行#1#4#2#0#3000#0#0#0#0#0#0#2#7.0#1.0#10000#0#0#0#1#0#0#-10#1090#0#0##0#1#0#0#缓行#减少10%移动速度#0#0#0#1600201#0#0#0#0#0#1600201##0#0#0#0.0#0.0###"
@@ -66534,10 +66534,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:38.6974270+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:10.3099818+08:00
     split: 33
     text: "命中目标后目标血量低于30%则触发虚弱效果。移动速度减少20%，内外防降低25%，治疗效果降低100%"
-    translated: "After hitting the target, if their health is below 30%, a debilitation effect is triggered. Movement speed decreases by 20%, both internal and external defense decrease by 25%, and healing effects are reduced by 100%."
+    translated: "When the target's health drops below 30%, it triggers a weakened effect. Movement speed is reduced by 20%, external and internal defense are lowered by 25%, and healing effects decrease by 100%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -66657,12 +66657,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:32.3742817+08:00
+  - lastTranslatedOn: 2025-02-27T21:52:33.1912521+08:00
     split: 33
     text: "无视目标12%内外防御"
-    translated: "Ignore external defense within 12% of the target."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Ignore target 12% external defence."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1611003
   raw: "1611003#阴阳密录-相济#1#15#0#1#1600#0#0#0#0#0#0#0#0#0#20#1#2000#0#0#0#0#0#0#0#161101##0#1#0#0#相济#命中目标后有20%几率重置冷却时间#0#0#0#1611003#0#0#0#0#0#1611003##0#0#0#0.0#0.0###"
@@ -66867,10 +66867,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:34.8474767+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:07.3480417+08:00
     split: 33
     text: "移动速度减少20%，内外防降低25%，治疗效果降低100%"
-    translated: "Movement speed reduced by 20%, external and internal defense lowered by 25%, healing effect decreased by 100%."
+    translated: "Movement speed reduced by 20%, external and internal defense lowered by 25%, healing effectiveness decreased by 100%."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -67151,12 +67151,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:37.5907089+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:09.5892671+08:00
     split: 33
     text: "命中目标时，如果目标身上有眩晕或定身效果，移除目标眩晕或定身效果，造成自身内力*15的额外伤害"
-    translated: "When hitting the target, if the target is affected by disorientation or immobilization effects, remove those effects from the target and take additional internal power damage equal to *15."
+    translated: "Upon hitting the target, if the target is affected by dizziness or immobilization effects, remove the target's dizziness or immobilization effects and inflict additional inner power damage on yourself equal to *15."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Inner Power,内力,External Injury,外伤,"
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1618002
   raw: "1618002#寒冰针雨-寒意#0#10#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#2#0#0#0#16|20#0#1#0#0#0#0#0#0#0#1618002#0#0#0#0#0#1618002##0#0#0#0.0#0.0###"
@@ -67185,12 +67185,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:40.2926917+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:11.3721604+08:00
     split: 33
     text: "命中目标时，如果目标身上有眩晕或定身效果，移除目标眩晕或定身效果，造成自身内力*15的额外伤害"
-    translated: "When hitting the target, if the target is affected by disorientation or immobilization effects, remove those effects from the target and take additional internal power damage equal to *15."
+    translated: "Upon hitting the target, if the target is affected by dizziness or immobilization effects, remove the target's dizziness or immobilization effects and inflict additional inner power damage on yourself equal to *15."
     flaggedForRetranslation: true
-    flaggedMistranslation: "Inner Power,内力,External Injury,外伤,"
+    flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
 - lineNum: 1619000
   raw: "1619000#九寒天降-运功#1#30#0#1#30000#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#28##0#1#0#0#0#0#0#0#0#1619000#0#0#0#0#0#1619000##0#0#0#0.0#0.0###"
@@ -69351,12 +69351,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:41.2773380+08:00
+  - lastTranslatedOn: 2025-02-27T22:37:44.6095005+08:00
     split: 33
     text: "减少2%内外防，持续10秒，可叠加至20层"
-    translated: "Reduce 2% Internal and External Defense, lasting 10 seconds, can stack up to 20 layers."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Reduce internal and external defence by 2%, lasting for 10 seconds, stackable up to 20 layers."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 16510002
   raw: "16510002#段氏枪法-威压#1#4#0#0#10000#0#0#0#0#0#0#2#0#0#10000#0#0#0#3#0#0#-200#23#0#23##0#1#0#0#0#0#0#0#0#16510002#0#0#0#1#20#16510002##0#0#0#0.0#0.0###"
@@ -69531,10 +69531,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:42.3915735+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:11.9965509+08:00
     split: 33
     text: "对身上有威压的目标造成额外伤害"
-    translated: "Inflict additional damage on targets that exert pressure."
+    translated: "Deal additional damage to targets under pressure."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Injury,外伤,"
     flaggedHallucination: ""
@@ -69790,10 +69790,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:43.0885415+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:11.6471397+08:00
     split: 33
     text: "内外防降低30%，持续10秒"
-    translated: "Internal and external defense reduced by 30%, lasting for 10 seconds."
+    translated: "External defense reduced by 30%, lasting for 10 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -69834,10 +69834,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:43.7878315+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:12.5385742+08:00
     split: 33
     text: "增加内防*0.2的内攻，外防*0.2的外攻，持续15秒"
-    translated: "Increase internal attack by *0.2 for internal defense, increase external attack by *0.2 for external defense, lasting 15 seconds."
+    translated: "Increase internal attack by *0.2* for internal defense, and increase external attack by *0.2* for external defense, lasting 15 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
@@ -69868,10 +69868,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:42.1040217+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.3453861+08:00
     split: 33
     text: "每次攻击增加自身20内外防，持续10秒，可叠加，上限30层"
-    translated: "Each attack increases the defender's internal and external defense by 20, lasting for 10 seconds. This effect can stack, up to a maximum of 30 layers."
+    translated: "Each attack increases the character's own external and internal defense by 20, lasting for 10 seconds, with stacking allowed. The maximum limit is 30 layers."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -69926,10 +69926,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:44.1514502+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.6138364+08:00
     split: 33
     text: "内外防降低30%，持续10秒"
-    translated: "Internal and external defense reduced by 30%, lasting for 10 seconds."
+    translated: "External defense reduced by 30%, lasting for 10 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -69950,10 +69950,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:44.1514509+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.6138369+08:00
     split: 33
     text: "增加内防*0.2的内攻，外防*0.2的外攻，持续15秒"
-    translated: "Increase internal attack by *0.2 for internal defense, increase external attack by *0.2 for external defense, lasting 15 seconds."
+    translated: "Increase internal attack by *0.2* for internal defense, and increase external attack by *0.2* for external defense, lasting 15 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
@@ -69984,10 +69984,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:44.1514514+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.6138372+08:00
     split: 33
     text: "每次攻击增加自身20内外防，持续10秒，可叠加，上限30层"
-    translated: "Each attack increases the defender's internal and external defense by 20, lasting for 10 seconds. This effect can stack, up to a maximum of 30 layers."
+    translated: "Each attack increases the character's own external and internal defense by 20, lasting for 10 seconds, with stacking allowed. The maximum limit is 30 layers."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -72249,12 +72249,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:44.1513064+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.6137534+08:00
     split: 33
     text: "造成伤害10%几率触发：持续五秒，无视100%外防内防。"
-    translated: "Causes a 10% chance to trigger damage: Lasts for five seconds, ignoring 100% external and internal defence."
+    translated: "Causes 10% chance to trigger damage: Lasts for five seconds, ignoring 100% of external and internal defense."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 30340403
   raw: "30340403#怒火#1#31#0#1#5000#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#50114#1#0#0##0#1#0#0#怒火#持续五秒，无视50%外防内防。#buffnew_pojia#0#0#30340403#0#0#0#0#0#30340403##0#0#0#0.0#0.0###"
@@ -72273,12 +72273,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:40.6872318+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:12.7945801+08:00
     split: 33
     text: "持续五秒，无视50%外防内防。"
-    translated: "Lasts for five seconds, ignoring 50% external and internal defence."
+    translated: "Lasts for five seconds, ignoring 50% external and internal defense."
     flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    flaggedMistranslation: "External Defence,外防,Internal Defence,内防,"
     flaggedHallucination: ""
 - lineNum: 30340500
   raw: "30340500#蛟龙错-伤害#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#189#189#100#0#0#0#0#0#30340500#0#0#0#0#0#30340500#hurt_xiqu#0#0#0#0.0#0.0###"
@@ -73865,10 +73865,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:45.7013432+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:15.0458790+08:00
     split: 33
     text: "两段伤害都命中时会清空目标内外防，持续20秒"
-    translated: "When both damage segments hit, they will clear the target's external and internal defense, lasting for 20 seconds."
+    translated: "When both damage segments hit, they will clear the target's internal and external defenses, lasting for 20 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -75043,12 +75043,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:45.1816593+08:00
+  - lastTranslatedOn: 2025-02-27T21:52:39.0618754+08:00
     split: 33
     text: "伤害增加20%，破除目标30%外防和护盾效果"
-    translated: "Increase damage by 20%, and negate the target's 30% of external defense and shield effects."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Defence,外防,"
+    translated: "Damage increased by 20%. Negates target's 30% external defence and shield effects."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 35520042
   raw: "35520042#九霄揽月-破盾#1#15#0#1#60000#0#0#0#0#0#0#1#0#0#10000#1#0#0#0#0#2#0#0#0#35520044##0#1#0#0#0#0#0#0#0#35520042#0#0#0#0#0#35520042##0#0#0#0.0#0.0###"
@@ -75244,10 +75244,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:44.6697845+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.9571143+08:00
     split: 33
     text: "内外防提升2%，可叠加，上限50层"
-    translated: "External Defense enhancement increases by 2%, stackable, with a maximum of 50 layers."
+    translated: "Internal and external defense increased by 2%, stackable, maximum of 50 layers."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -77366,10 +77366,10 @@
 - lineNum: 100200031
   raw: "100200031#拔刀式-增伤#1#9#0#1#5000#0##0#0#0#0#1#0#0#10000#0#0#0#1#0#0#2#0#0#0##0#1#0#0#增伤#提升自己2%的伤害可叠加，持续5秒，上限10层。#buffnew_ziqidonglai#0#0#100200031#0#0#0#1#10#100200031##0#0#0#0.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:44.1520863+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:13.6141882+08:00
     split: 1
     text: "拔刀式-增伤"
-    translated: "Sword drawing technique. - Increased damage."
+    translated: "Sword-drawing technique. - Enhance Damage"
     flaggedForRetranslation: true
     flaggedMistranslation: "Blade,刀,"
     flaggedHallucination: ""
@@ -78344,10 +78344,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:51.5964930+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:14.6594647+08:00
     split: 33
     text: "在使用枪造成伤害时，会让目标受到卸甲效果，该效果最多叠加10层，每层减少枪棍*0.1的外防。"
-    translated: "When causing damage with a spear, the target will be affected by the dismounting effect. This effect can stack up to 10 layers, with each layer reducing external defense against spear and staff by *0.1."
+    translated: "When causing damage with a spear, the target will receive an effect that reduces their armor. This effect can stack up to 10 layers, with each layer reducing external defense against spear and staff by *0.1."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -78624,10 +78624,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:46.5150939+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:15.6951861+08:00
     split: 33
     text: "造成伤害时会无视敌方的35%内外防御"
-    translated: "Causes damage while ignoring 35% of the target's internal and external defense."
+    translated: "Causes damage while ignoring the target's 35% external and internal defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -79181,10 +79181,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:50.5868076+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:17.9920391+08:00
     split: 33
     text: "自身最大真气增加20%，获得70%以真气抵挡伤害效果；获得30%的反伤效果；当自身真气低于10%时，获得三层凝元效果（自身内力*10），调息30秒；免疫一切持续性伤害效果；获得10%内外防加成"
-    translated: "Increases own maximum true qi by 20%; gains 70% damage absorption effect using qi; receives a 30% counter-damage effect. When own qi is below 10%, achieves the three-layering essence effect (own inner power * 10), regenerates qi for 30 seconds. Immune to all continuous damage effects; gains 10% bonus in internal and external defense."
+    translated: "Self true qi increases by 20%, gaining a 70% damage mitigation effect using true qi; gains a 30% counter-damage effect. When own true qi falls below 10%, gain the Three Layers of Concentrated Essence effect (own inner power * 10), meditate for 30 seconds; immune to all continuous damage effects; gains an additional 10% boost in internal and external defense."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -79255,10 +79255,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:46.1109131+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:15.4292975+08:00
     split: 33
     text: "获得5%内外防加成和10%反伤效果"
-    translated: "Obtain 5% internal and external defense bonuses and 10% damage reflection effect."
+    translated: "Obtain a 5% boost in internal and external defense, along with a 10% counter-damage effect."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -79357,10 +79357,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:47.8969825+08:00
+  - lastTranslatedOn: 2025-02-27T23:44:16.6464772+08:00
     split: 33
     text: "增加自身最大真气*0.6的内外防，每次受伤恢复自身50真气值，当自身生命值低于10%时，损失50%当前真气恢复自身20%的生命值，调息120秒"
-    translated: "Increase maximum internal and external defense by 0.6 units of true energy. Recover 50 units of true energy each time an injury is sustained. When health falls below 10%, lose 50% of current true energy to recover 20% of health, requiring 120 seconds for recovery."
+    translated: "Increase maximum innate and external defense true energy by *0.6. On taking damage, recover 50 true energy points; when life force is below 10%, lose 50% of current true energy to restore 20% of life force, and engage in meditation for 120 seconds."
     flaggedForRetranslation: true
     flaggedMistranslation: "External Defence,外防,"
     flaggedHallucination: ""
@@ -79611,12 +79611,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-27T18:25:48.7235745+08:00
+  - lastTranslatedOn: 2025-02-27T23:06:07.1716203+08:00
     split: 33
     text: "对目标造成伤害时附加一次外攻威力为85，内功威力为200的额外伤害，调息2秒"
-    translated: "When inflicting damage on the target, add an additional external attack power of 85 and internal cultivation power of 200, with a recovery time of 2 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Neigong,内功,External Injury,外伤,"
+    translated: "When dealing damage to the target, add additional external injury damage with an external attack power of 85, and internal energy damage with a neigong power of 200. Recover breath for 2 seconds."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 100600001
   raw: "100600001#伤心小箭#0#1#1#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#85#200#0#0#0#0#0#0#100600001#0#0#0#0#0#100600001##0#0#0#0.0#0.0###"
@@ -80420,12 +80420,12 @@
 - lineNum: 110190000
   raw: "110190000#江湖刀法-格挡-反击-伤害#0#1#3#1#999#0#sound_dao_hurt2###0##0#1.7#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#15#5#0### #0#0#110190000#1#sfx_npc_dao_hit#0#0#0#110190000#hurt_zhongji#0#0##10.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:58.7684012+08:00
+  - lastTranslatedOn: 2025-02-27T22:23:12.2787152+08:00
     split: 1
     text: "江湖刀法-格挡-反击-伤害"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Blade Arts of the Jianghu. - Block - Counterattack. - Harm."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 110190001
   raw: "110190001#江湖刀法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.5#90.0#10000#0#0#0#1#1#1#100#200#0#0#0#0#10#10#0### #0#0#110190001#1##0#0#0#110190001#0#0#0##10.0#0.0###"
@@ -80634,12 +80634,12 @@
 - lineNum: 120190001
   raw: "120190001#江湖拳法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.7#90.0#10000#0#0#0#1#1#1#100#300#0#0#0#0#10#10#0### #0#0#120190001#1##0#0#0#120190001#0#0#0##10.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:58.9873519+08:00
+  - lastTranslatedOn: 2025-02-27T21:37:17.0806643+08:00
     split: 1
     text: "江湖拳法-格挡-反击-击退"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wuxia martial arts of the Jianghu. - Parry - Counterattack. - Repel"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 120200000
   raw: "120200000#反击-位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#90#150#0#0##0#1#0#0####0#0#120200000#0##0#0#0#120200000#0#0#0##0.0#0.0###"
@@ -80804,12 +80804,12 @@
 - lineNum: 130180000
   raw: "130180000#江湖枪法-格挡-反击#1#32#0#1#1000#0#0###0##1#0#0#10000#0#0#0#1#1#1#0#0#0#13019##0#0#0#0#反击#在受到攻击时会释放反击技能#buffnew_ziqidonglai#0#0#130180000#0##0#0#0#130180000#0#0#0##10.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:58.6441829+08:00
+  - lastTranslatedOn: 2025-02-27T22:08:07.2932346+08:00
     split: 1
     text: "江湖枪法-格挡-反击"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jianghu Spear Art - Parry - Counterattack."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-24T16:20:15.2437391+08:00
     split: 32
@@ -80828,12 +80828,12 @@
 - lineNum: 130190000
   raw: "130190000#江湖枪法-格挡-反击-伤害#0#1#3#1#999#0#sound_qiang_hurt2###0##0#2.0#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#40#40#0### #0#0#130190000#1#sfx_npc_qiang_hit#0#0#0#130190000#hurt_zhongji#0#0##10.0#0.0###"
   splits:
-  - lastTranslatedOn: 2025-02-27T18:25:58.8725579+08:00
+  - lastTranslatedOn: 2025-02-27T23:32:25.4980775+08:00
     split: 1
     text: "江湖枪法-格挡-反击-伤害"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jianghu Spear Art - Parry - Counterattack. - Harm."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 130190001
   raw: "130190001#江湖枪法-格挡-反击-击退#0#5#3#1#999#0#0###0##0#1.5#90.0#10000#0#0#0#1#1#1#110#200#0#0#0#0#10#10#0### #0#0#130190001#1##0#0#0#130190001#0#0#0##10.0#0.0###"
