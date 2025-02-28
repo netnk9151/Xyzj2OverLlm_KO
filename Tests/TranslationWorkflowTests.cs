@@ -64,10 +64,14 @@ public class TranslationWorkflowTests
 
         var sourceDirectory = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
         var gameDirectory = $"G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\下一站江湖Ⅱ_Data\\StreamingAssets\\Mod\\{ModHelper.ContentFolder}";
+        var resourceDirectory = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\BepInEx\\resources";
+
         if (Directory.Exists(gameDirectory))
             Directory.Delete(gameDirectory, true);
 
         TranslationService.CopyDirectory(sourceDirectory, gameDirectory);
+
+        File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
     }
 
     public static Dictionary<string, string> GetManualCorrections()

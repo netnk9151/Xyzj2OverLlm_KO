@@ -7,24 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="GlossaryExtract\**" />
-    <Compile Remove="TestResults\Failed\**" />
-    <EmbeddedResource Remove="GlossaryExtract\**" />
-    <EmbeddedResource Remove="TestResults\Failed\**" />
-    <None Remove="GlossaryExtract\**" />
-    <None Remove="TestResults\Failed\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Converted\NpcTalkItem.txt~RF28e086f2.TMP" />
-    <None Remove="Converted\NpcTalkItem.txt~RF2ce62622.TMP" />
-    <None Remove="Converted\NpcTalkItem.txt~RF2f3ea02e.TMP" />
-    <None Remove="Converted\NpcTalkItem.txt~RF3a939226.TMP" />
-    <None Remove="Converted\NpcTalkItem.txt~RF90139d1.TMP" />
-    <None Remove="Converted\NpcTalkItem.txt~RFe363f8a.TMP" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Raw\Export\" />
     <Folder Include="Raw\Assets\" />
     <Folder Include="Raw\Remaining\" />

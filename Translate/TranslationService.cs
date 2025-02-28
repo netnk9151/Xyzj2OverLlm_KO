@@ -395,16 +395,75 @@ public static class TranslationService
     {
         string inputPath = $"{workingDirectory}/Converted";
         string outputPath = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
+        string outputDbPath = $"{workingDirectory}/Mod/";
 
         if (Directory.Exists(outputPath))
             Directory.Delete(outputPath, true);
 
         Directory.CreateDirectory(outputPath);
 
-        ModHelper.GenerateModConfig(workingDirectory);
-        File.WriteAllLines($"{outputPath}/db1.txt", []);
+        var finalDb = new List<string>();
+        var passedCount = 0;
+        var failedCount = 0;
 
-        await Task.CompletedTask;
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var failedLines = new List<string>();
+            var outputLines = new List<string>();
+
+            foreach (var line in fileLines)
+            {
+                var splits = line.Raw.Split('#');
+                var failed = false;
+
+                foreach (var split in line.Splits)
+                {
+                    //Check line to be extra safe
+                    if (split.Translated.Contains("#")
+                        || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
+                        failed = true;
+                    //else if (!string.IsNullOrEmpty(split.Translated))
+                    //    splits[split.Split] = split.Translated;
+                    ////If it was already blank its all good
+                    //else if (!string.IsNullOrEmpty(split.Text))
+                        failed = true;
+                }
+
+                line.Translated = string.Join('#', splits);
+
+                if (!failed)
+                    outputLines.Add(line.Translated);
+                else
+                {
+                    outputLines.Add(line.Raw);
+                    failedLines.Add(line.Raw);
+                }
+            }
+
+            finalDb.Add($"{Path.GetFileNameWithoutExtension(outputFile)}|{fileLines.Count}");
+            finalDb.AddRange(outputLines);
+
+            passedCount += outputLines.Count;
+            failedCount += failedLines.Count;
+
+            await Task.CompletedTask;
+        });
+
+        var dir = new DirectoryInfo($"{workingDirectory}/Raw/Remaining");
+        FileInfo[] files = dir.GetFiles();
+        foreach (FileInfo file in files)
+        {
+            var fileLines = File.ReadAllLines(file.FullName);
+
+            finalDb.Add($"{Path.GetFileNameWithoutExtension(file.Name)}|{fileLines.Length}");
+            finalDb.AddRange(fileLines);
+        }
+
+        Console.WriteLine($"Passed: {passedCount}");
+        Console.WriteLine($"Failed: {failedCount}");
+
+        ModHelper.GenerateModConfig(workingDirectory);
+        File.WriteAllLines($"{outputDbPath}/db1.txt", finalDb);
     }
 
     public static async Task IterateThroughTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)

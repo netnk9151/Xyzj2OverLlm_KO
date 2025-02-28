@@ -55,7 +55,7 @@ public class MainPlugin : BaseUnityPlugin
         if (File.Exists(dbFile))
         {
             AppGame.Instance.dbVersionFilePath = dbFile;
-            Logger.LogWarning($"Loading modded file!");
+            Logger.LogWarning($"Loading modded file!!");
         }
 
         // Return true to let the original LoadDB execute
