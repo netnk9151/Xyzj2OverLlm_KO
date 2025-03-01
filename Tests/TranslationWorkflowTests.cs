@@ -337,7 +337,7 @@ public class TranslationWorkflowTests
 
         foreach (var item in config.GlossaryLines)
         {
-            if (!item.CheckForMistranslation)
+            if (!item.CheckForBadTranslation)
                 continue;
 
             if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
@@ -376,7 +376,7 @@ public class TranslationWorkflowTests
 
             if (!preparedRaw.Contains(item.Raw) && split.Translated.Contains(item.Result))
             {
-                if (!item.CheckForHallucination)
+                if (!item.CheckForMisusedTranslation)
                     continue;
 
                 // Regex matches on terms with ... match incorrectly

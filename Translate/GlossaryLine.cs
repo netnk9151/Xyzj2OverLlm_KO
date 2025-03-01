@@ -8,15 +8,15 @@ public class GlossaryLine
     public string Raw { get; set; } = string.Empty;
     public string Result { get; set; } = string.Empty;
 
-    [YamlMember("AllowedAlts")]
+    [YamlMember(Alias = "allowalt")]
     public List<string> AllowedAlternatives { get; set; } = [];
     public string Transliteration { get; set; } = string.Empty;
     public string Context { get; set; } = string.Empty;
 
-    [YamlMember("Hallu")]
-    public bool CheckForHallucination { get; set; } = false;
-    [YamlMember("Mistrans")]
-    public bool CheckForMistranslation { get; set; } = true;
+    [YamlMember(Alias = "misuse")]
+    public bool CheckForMisusedTranslation { get; set; } = false;
+    [YamlMember(Alias = "badtrans")]
+    public bool CheckForBadTranslation { get; set; } = true;
 
     public GlossaryLine()
     {

@@ -22,7 +22,10 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("研发"),
+            new("外功："),
+            new("实力："),
+            new("轻功："),
+            //new("研发"),
             //new("御心："),
             //new("王铁(1000，1000)"),
             //new("品质:  人阶-超一流武学"),

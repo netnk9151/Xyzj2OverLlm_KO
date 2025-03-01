@@ -2,524 +2,686 @@
 # Terms
 - raw: 武侠
   result: Wuxia
-  checkForMistranslation: true
+  badtrans: true
 - raw: 天书
   result: Heavenly Scripture
-  checkForMistranslation: true
+  badtrans: true
 - raw: 八卦
   result: Bagua
-  checkForMistranslation: true  
+  badtrans: true  
 - raw: 武林
   result: Wulin
-  allowedAlternatives: 
+  allowalt: 
     - Martial World
-  checkForMistranslation: true
+  badtrans: true
 - raw: 江湖
   result: Jianghu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 马帮
   result: Horse Gang
-  checkForMistranslation: true
+  badtrans: true
 - raw: 盐帮
   result: Salt Gang
-  checkForMistranslation: true
+  badtrans: true
 - raw: 河图
   result: River Map
-  allowedAlternatives: 
+  allowalt: 
     - Hetu
   context: Hetu is river map but can be part of Hetu Luoshu 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 河出马图
   result: Hetu Luoshu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 江湖故事
   result: Jianghu Tales
-  checkForMistranslation: true
+  badtrans: true
 - raw: 祖传宝刀
   result: Ancestral Treasure Blade
-  checkForMistranslation: true
+  badtrans: true
 - raw: 完成菩提
   result: Attain Enlightenment
-  checkForMistranslation: true
+  badtrans: true
 - raw: 完成书院
   result: Complete the Academy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 完成机杼
   result: Attain Weaving Skills
-  allowedAlternatives: 
+  allowalt: 
     - complete the weaving skills
     - learning weaving skills
-  checkForMistranslation: false
+  badtrans: false
 - raw: 完成言家
   result: Complete for the Yan Family
-  checkForMistranslation: true
+  badtrans: true
 - raw: 完成农家
   result: Complete for the Farm Family
-  checkForMistranslation: true
+  badtrans: true
 - raw: 学会秘术
   result: Learn the secret arts
-  checkForMistranslation: true
+  badtrans: true
 - raw: 学会秘法
   result: Learn the secret method
-  checkForMistranslation: true  
-- raw: 国
-  result: Kingdom
-  checkForMistranslation: true  
+  badtrans: true  
+# - raw: 国
+#   result: Kingdom
+#   badtrans: true  
+- raw: 门派
+  result: Sect
+  badtrans: false
+  context: Refers to a school or faction, especially in martial arts or cultivation settings, often with a specific philosophy or technique.
+  transliteration: Ménpài
+- raw: 门派背景
+  result: Sect Background
+  badtrans: false
+  context: Refers to the history, origin, or cultural background of a particular sect, often detailing its philosophies, teachings, or important events.
+  transliteration: Ménpài Bèijǐng
+- raw: 流派
+  result: Style
+  allowedAlt:
+    - School
+  badtrans: false
+  context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
+  transliteration: Liúpài
 
 # Prefabs 
 - raw: 斩
   result: Slash
-  checkForMistranslation: false
+  badtrans: false
 - raw: 子
   result: Child
-  checkForMistranslation: false
+  badtrans: false
 - raw: 人阶
   result: Social Rank
-  checkForMistranslation: true
+  badtrans: true
 - raw: 等级
   result: Rank
-  checkForMistranslation: true
+  badtrans: true
 - raw: 研发
   result: Development
-  checkForMistranslation: true
+  badtrans: true
 - raw: 打造
   result: Forge
-  checkForMistranslation: true
+  badtrans: true
 - raw: 套路
   result: Technique
-  checkForMistranslation: true
+  badtrans: true
 - raw: 学说
   result: Theory
-  checkForMistranslation: true
+  badtrans: true
 - raw: 精力
   result: Energy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 要求
   result: Requirement
-  checkForMistranslation: true
+  badtrans: true
 - raw: 悟性
   result: Comprehension
-  checkForMistranslation: true
+  badtrans: true
 - raw: 太阳穴
   result: Temples
-  checkForMistranslation: false
+  badtrans: false
 - raw: 争斗
   result: Conflict
-  allowedAlternatives:
+  allowalt:
     - Struggle
     - Fight
-  checkForMistranslation: true
+  badtrans: true
 - raw: 势力
   result: Faction
-  checkForMistranslation: true  
+  badtrans: true  
+- raw: 威力
+  result: Authority
+  badtrans: true
+- raw: 收益
+  result: Earnings
+  allowalt:
+    - Profit
+  badtrans: true
+  context: Refers to the gain or income obtained from an activity or investment.
+- raw: 辞退
+  result: Dismiss
+  allowalt: 
+    - Terminate
+  badtrans: true
+  context: The act of firing or letting go of an employee or individual from a position.
+- raw: 穿戴
+  result: Wear
+  allowalt:
+    - Dress
+  badtrans: true
+  context: Refers to the act of dressing or the attire one wears.
+- raw: 结交
+  result: Befriend
+  badtrans: true
+  context: The act of forming friendships or building relationships with others.
+- raw: 境界
+  result: Realm
+  badtrans: true
+  context: Refers to a level or state of development, often used in spiritual or martial arts contexts to describe one's achievements or status.
+- raw: 商曲
+  result: Melody
+  allowedalt:
+    - Shang Melody
+    - Song
+  badtrans: true
+  context: Refers to a type of traditional Chinese music, often associated with a specific melody or song from the Shang dynasty.
+- raw: 一舵
+  result: First Rudder
+  badtrans: true
+  context: Could refer to a metaphorical or literal position of leadership, typically used in maritime or leadership contexts.
+- raw: 好感
+  result: Favor
+  badtrans: true
+  context: Refers to positive feelings or affection towards someone or something, often used in interpersonal contexts to describe initial attraction or goodwill.
+- raw: 亲人
+  result: Relatives
+  allowedAlt:
+    - Family
+  badtrans: true
+  context: Refers to close family members or relatives, typically those who are blood-related.
+  transliteration: Qīnrén
+- raw: 技艺
+  result: Skill
+  allowedAlt: 
+    - Craftsmanship
+  badtrans: true
+  context: Refers to a person's expertise or mastery in a particular skill, often used in the context of art, craft, or technical abilities.
+  transliteration: Jìyì
+- raw: 传记一
+  result: Biography I
+  badtrans: false
+  context: Likely refers to the first volume or part of a biography, a written account of someone's life.
+  transliteration: Zhuànjì Yī
+- raw: 玄机
+  result: Secret Art
+  badtrans: true
+  context: Refers to mysterious or hidden principles, often in martial arts, cultivation, or philosophy, that govern certain natural or supernatural phenomena.
+  transliteration: Xuánjī
+- raw: 武\n器
+  result: Martial\nWeapon
+
+# Solar Calendar
+- raw: 立春
+  result: Start of Spring
+  badtrans: true
+- raw: 雨水
+  result: Rain Water
+  badtrans: true
+- raw: 惊蛰
+  result: Awakening of Insects
+  badtrans: true
+- raw: 春分
+  result: Spring Equinox
+  badtrans: true
+- raw: 清明
+  result: Qingming
+  badtrans: true
+  context: A solar term in the Chinese calendar, also associated with the Tomb-Sweeping Festival where people honor their ancestors.
+- raw: 谷雨
+  result: Grain Rain
+  badtrans: true
+- raw: 立夏
+  result: Start of Summer
+  badtrans: true
+- raw: 小满
+  result: Grain Full
+  badtrans: true
+- raw: 芒种
+  result: Grain in Ear
+  badtrans: true
+- raw: 夏至
+  result: Summer Solstice
+  badtrans: true
+- raw: 小暑
+  result: Minor Heat
+  badtrans: true
+- raw: 大暑
+  result: Major Heat
+  badtrans: true
+- raw: 立秋
+  result: Start of Autumn
+  badtrans: true
+- raw: 处暑
+  result: End of Heat
+  badtrans: true
+- raw: 白露
+  result: White Dew
+  badtrans: true
+- raw: 秋分
+  result: Autumn Equinox
+  badtrans: true
+- raw: 寒露
+  result: Cold Dew
+  badtrans: true
+- raw: 霜降
+  result: Frost's Descent
+  badtrans: true
+- raw: 立冬
+  result: Start of Winter
+  badtrans: true
+- raw: 小雪
+  result: Minor Snow
+  badtrans: true
+- raw: 大雪
+  result: Major Snow
+  badtrans: true
+- raw: 冬至
+  result: Winter Solstice
+  badtrans: true
+- raw: 小寒
+  result: Minor Cold
+  badtrans: true
+- raw: 大寒
+  result: Major Cold
+  badtrans: true
 
 # Stats
 - raw: 商道
   result: Commerce
   context: Way of Business
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 豪爽
   result: Generosity
-  checkForMistranslation: false 
+  badtrans: false 
 - raw: 福气
   result: Luck
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 容貌
   result: Beauty
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 口才
   result: Eloquence
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 胆识
   result: Courage
   context: Courage and Insight
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 修养
   result: Cultivation
-  checkForMistranslation: true  
+  badtrans: true  
 - raw: 坚韧
   result: Toughness
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 元气
   result: Yuanqi
   context: Lifeforce 
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 真气
   result: Zhenqi
   context: True Qi / True Energy
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 根骨
   result: Potential
   context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
-  checkForMistranslation: false  
+  badtrans: false  
 - raw: 筋骨
   result: Strength
   context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
-  checkForMistranslation: false 
+  badtrans: false 
 - raw: 体魄
   result: Constitution
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
-  checkForMistranslation: false
+  badtrans: false
 - raw: 太阴
   result: Great Yin
-  checkForMistranslation: false
+  badtrans: false
 - raw: 太阳
   result: Great Yang
   context: Conflicts with temples
-  checkForMistranslation: false
+  badtrans: false
 - raw: 阴
   result: Yin
   context: Commonly used in other translations
-  checkForMistranslation: false
+  badtrans: false
 - raw: 阳
   result: Yang
   context: Commonly used in other translations
-  checkForMistranslation: false
+  badtrans: false
 - raw: 刚
   result: Hard
   context: Commonly used in other translations
-  checkForMistranslation: false
+  badtrans: false
 - raw: 柔
   result: Soft
   context: Commonly used in other translations
-  checkForMistranslation: false
+  badtrans: false
 - raw: 毒
   result: Poison
   context:
-  checkForMistranslation: false
+  badtrans: false
 - raw: 生命
   result: Health
   context:
-  checkForMistranslation: false
+  badtrans: false
 - raw: 闪避
   result: Dodge
   context:
-  checkForMistranslation: false
+  badtrans: false
 - raw: 御心
   result: Discipline
   context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
-  checkForMistranslation: false
+  badtrans: false
 - raw: 诛心
   result: Mind Attack
   context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 轻功
   result: Qinggong
-  checkForMistranslation: true
+  badtrans: true
 - raw: 内功
   result: Neigong
   context: Neigong refers to the practice of cultivating internal energy through breathing techniques, meditation, and specialized training. It enhances endurance, strength, and resilience. Examples include Qi cultivation and techniques like Taichi or Qigong.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 外功
   result: Waigong
   context: External Martial Arts
-  checkForMistranslation: true
+  badtrans: true
 - raw: 内攻
   result: Internal Attack
   context: refers to offensive techniques that use neigong to damage an opponent’s internal organs or disrupt their Qi flow.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 内力
   result: Inner Power
   context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
-  checkForMistranslation: true  
+  badtrans: true  
 - raw: 外防
   result: External Defence
   context: Defense against physical attacks (e.g., armor-like body techniques, blocking).
 - raw: 内防
   result: Internal Defence
   context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
-  checkForMistranslation: true    
+  badtrans: true    
 - raw: 内息
   result: Inner Qi
   context:  It represents the circulation of Qi within the body, closely tied to breathing techniques and cultivation. 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 精神
   result: Willpower
   context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 身法
   result: Agility
   context: refers to a practitioner’s movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 专注
   result: Focus
   context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 要害
   result: Vital Point
   context: refers to critical or vital points of the body that, if struck, can cause significant damage or even death. In martial arts, it refers to vital areas like the head, neck, or heart. In gaming, it could be used to represent weak spots or critical hit zones that deal more damage when targeted.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 化解
   result: Counter
   context: refers to the act of neutralizing, resolving, or dissolving an opponent's attack, often through a defensive or counter technique.
-  checkForMistranslation: true
+  badtrans: true
 - raw: 外攻
   result: External Attack
   context: refers to offensive techniques that rely on external strength and power, typically involving physical force or direct strikes.
-  checkForMistranslation: true
+  badtrans: true
 
 # Sayings
 - raw: 阿弥陀佛
   result: Amituofu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 承让了
   result: Thank you for letting me win
-  checkForMistranslation: true
+  badtrans: true
 
 # Sounds
 - raw: 吼
   result: Roar
-  checkForMistranslation: false
+  badtrans: false
 - raw: 咕
   result: Cluck
-  checkForMistranslation: false
+  badtrans: false
 - raw: 呜呜呜
   result: Wuwuwu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 呜呜
   result: Wuwu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 呜...
   result: Wu...
-  checkForMistranslation: true
+  badtrans: true
 - raw: 齁齁齁
   result: Hohoho
-  checkForMistranslation: true
+  badtrans: true
 - raw: 齁齁
   result: Hoho
-  checkForMistranslation: true
+  badtrans: true
 - raw: 齁...
   result: Ho..
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嘎嘎嘎
   result: Gagaga
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嘎嘎
   result: Gaga
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嘎...
   result: Ga...
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嘶…
   result: Hiss
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嘶嘶
   result: Hiss
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咕咕咕
   result: Gugugu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咕咕
   result: Gugu
   context: Can conflict with clucking
-  allowedAlternatives: 
+  allowalt: 
     - Clucking
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咕...
   result: Gu...
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咯咯咯
   result: Gegege
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咯咯
   result: Gege
-  checkForMistranslation: true
+  badtrans: true
 - raw: 咯...
   result: Ge...
-  checkForMistranslation: true
+  badtrans: true
 - raw: 吱吱吱
   result: Zhizhizhi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 吱吱
   result: Zhizhi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 吱...
   result: Zhi...
-  checkForMistranslation: true
+  badtrans: true
 - raw: 唔吱
   result: Wuzhi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 吱喳
   result: Zhizha
-  checkForMistranslation: true
+  badtrans: true
 - raw: 吱吱喳
   result: Zhizhizha
-  checkForMistranslation: true
+  badtrans: true
 
 # Skills / Recipes
 - raw: 桂枝丹诀
   result: Guizhi Elixir Formula
-  checkForMistranslation: true
+  badtrans: true
 - raw: 青日百酿诀
   result: Azure Sun Hundred Brews Formula
-  checkForMistranslation: true
+  badtrans: true
 
 - raw: 钟灵化谷
   result: Spiritual Essence Transforming into the Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 金石为开
   result: Even metal and stone can be opened
-  checkForMistranslation: true
+  badtrans: true
 - raw: 金浮羽火
   result: Golden Floating Feather Fire
-  checkForMistranslation: true
+  badtrans: true
 - raw: 明光三梭谱
   result: Three Shuttles Weave Bright Light
-  checkForMistranslation: true
+  badtrans: true
 
 # Weapons
 - raw: 刀
   result: Blade
   context: Dao is Blade or Cleaver or Knife
-  allowedAlternatives: 
+  allowalt: 
     - Knife
     - Knives
     - Cleaver
     - Scissor
     - Dao
-  checkForMistranslation: true
+  badtrans: true
 - raw: 暗器
   result: Hidden Weapon
-  checkForMistranslation: true
+  badtrans: true
 - raw: 槍
   result: Spear
-  checkForMistranslation: true
+  badtrans: true
 - raw: 枪
   result: Spear
-  checkForMistranslation: true
+  badtrans: true
 - raw: 枪棍
   result: Spear and Staff
-  checkForMistranslation: true
+  badtrans: true
 - raw: 棍
   result: Staff
   context: More like club or cludgel or stick. Also used as part of other words
-  checkForMistranslation: true
+  badtrans: true
 - raw: 杖
   result: Staff
   context: More like walking stick or formal staff
-  checkForMistranslation: true
+  badtrans: true
 
 # Arts
 - raw: 枪法
   result: Spear Art
-  checkForMistranslation: true
+  badtrans: true
 - raw: 槍法
   result: Spear Art
-  checkForMistranslation: true
+  badtrans: true
 - raw: 刀法
   result: Blade Art
-  allowedAlternatives: 
+  allowalt: 
     - Knife Technique
-  checkForMistranslation: true
+  badtrans: true
 - raw: 剑法
   result: Sword Art
-  checkForMistranslation: true
+  badtrans: true
 
 # Status
 - raw: 内伤
   result: Internal Injury
-  checkForMistranslation: true
+  badtrans: true
 - raw: 外伤
   result: External Injury
-  checkForMistranslation: true
+  badtrans: true
 - raw: 中毒
   result: Poisoned
-  checkForMistranslation: true
+  badtrans: true
 - raw: 迷惑
   result: Confusion
-  checkForMistranslation: true
+  badtrans: true
 - raw: 冰封
   result: Frozen
-  checkForMistranslation: true
+  badtrans: true
 
 # Items and Minerals
 - raw: 钱
   result: Coin
-  allowedAlternatives: 
+  allowalt: 
     - Qian
     - Money 
-  checkForMistranslation: false
+  badtrans: false
 - raw: 玄铁
   result: Dark Steel
-  checkForMistranslation: true
+  badtrans: true
 - raw: 黑铁
   result: Dark Iron
-  checkForMistranslation: true
+  badtrans: true
 - raw: 寒铁
   result: Cold Iron
-  checkForMistranslation: true
+  badtrans: true
 - raw: 镔铁
   result: Refined Iron
-  checkForMistranslation: true
+  badtrans: true
 - raw: 黑金
   result: Black Gold
-  checkForMistranslation: true
+  badtrans: true
 - raw: 乌金
   result: Black Gold
-  checkForMistranslation: true
+  badtrans: true
 - raw: 熊掌
   result: Bear Paw
-  checkForMistranslation: true
+  badtrans: true
 - raw: 豹胎
   result: Leopard Fetus
-  checkForMistranslation: true
+  badtrans: true
 - raw: 黄连
   result: Coptis root
-  checkForMistranslation: true
+  badtrans: true
 - raw: 槟榔
   result: Betel nut
-  checkForMistranslation: true
+  badtrans: true
 - raw: 龙珠
   result: Dragon ball
-  checkForMistranslation: true
+  badtrans: true
 - raw: 炼狱
   result: Purgatory
-  checkForMistranslation: true
+  badtrans: true
 - raw: 千年灵芝
   result: Thousand-year old Lingzhi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 一条根
   result: One Root
-  checkForMistranslation: true
+  badtrans: true
 - raw: 腹皮
   result: Rhizome Bark
-  checkForMistranslation: true
+  badtrans: true
 - raw: 金不换
   result: Priceless Gold
-  checkForMistranslation: true
+  badtrans: true
 - raw: 生姜
   result: Raw Ginger
-  checkForMistranslation: true
+  badtrans: true
 - raw: 甘草
   result: Licorice
-  checkForMistranslation: true
+  badtrans: true
 - raw: 续断
   result: Teasel Root
-  checkForMistranslation: true
+  badtrans: true
 - raw: 茯苓
   result: Poria
-  checkForMistranslation: true
+  badtrans: true
 - raw: 三七
   result: Sanqi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 软筋散
   result: Tendon-Softening Powder
-  checkForMistranslation: true
+  badtrans: true
 - raw: 杜康酒
   result: Dukang Wine
-  checkForMistranslation: true
+  badtrans: true
 - raw: 即墨老酒
   result: Jimo Old Wine
-  checkForMistranslation: true
+  badtrans: true
 - raw: 竹叶青
   result: Bamboo Leaf Tea
-  checkForMistranslation: true
+  badtrans: true
 - raw: 葡萄酒
   result: Grape Wine
-  checkForMistranslation: true
+  badtrans: true
 - raw: 猴儿酒
   result: Monkey Wine
-  checkForMistranslation: true
+  badtrans: true
 # - raw: 杂粮酒
 #   result: Mixed Grains Wine 
 # - raw: 老窖杂粮
@@ -532,735 +694,762 @@
 # People
 - raw: 枪士
   result: Spearman
-  checkForMistranslation: true
+  badtrans: true
 - raw: 士兵枪
   result: Spearman
-  checkForMistranslation: true
+  badtrans: true
 - raw: 枪兵
   result: Spearman
-  checkForMistranslation: true
+  badtrans: true
 - raw: 狼蛮
   result: Wolf Barbarian
-  checkForMistranslation: true
+  badtrans: true
 - raw: 纳西
   result: Naxi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 锦衣卫
   result: Imperial Guard
-  checkForMistranslation: true
+  badtrans: true
 - raw: 禁军
   result: Forbidden Army
-  checkForMistranslation: true
+  badtrans: true
 - raw: 讲经先生
   result: Scripture Teacher
-  checkForMistranslation: true
+  badtrans: true
 - raw: 船工
   result: Boatman
-  checkForMistranslation: true
+  badtrans: true
 - raw: 船夫
   result: Boatman
-  checkForMistranslation: true
+  badtrans: true
 - raw: 缇骑
   result: Official Riders
-  checkForMistranslation: true
+  badtrans: true
 - raw: 打更士兵
   result: Nightwatch Soldier
-  checkForMistranslation: true
+  badtrans: true
 - raw: 鹿
   result: Deer
-  allowedAlternatives: 
+  allowalt: 
     - Lu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 虎
   result: Tiger
   context: Sometimes used as literal names
-  allowedAlternatives: 
+  allowalt: 
     - Hu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 僧侣
   result: Monk
-  checkForMistranslation: true
+  badtrans: true
 - raw: 侠客
   result: Wanderer
-  # allowedAlternatives: 
+  # allowalt: 
   #   - Martial Artist
-  checkForMistranslation: true
+  badtrans: true
 - raw: 江湖侠客
   result: Jianghu Wanderer
-  checkForMistranslation: false
+  badtrans: false
 
 # Titles
 - raw: 掌门
   result: Sect Leader
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大侠
   result: Great Hero
-  checkForMistranslation: true
+  badtrans: true
 - raw: 少侠
   result: Young Hero
-  checkForMistranslation: true
+  badtrans: true
 - raw: 前辈
   result: Senior
   context: A respectful term used to address or refer to someone older, more experienced, or who has achieved certain accomplishments before the speaker.
   literal: Qian Bei
-  checkForMistranslation: true
+  badtrans: true
 - raw: 哥哥
   result: Brother
   context: Used to refer to or address one's own older brother, often with affection.
   literal: Ge Ge
-  checkForMistranslation: true
+  badtrans: true
 - raw: 兄弟
   result: Brother
   context: A term that can refer to literal brothers by birth or metaphorically to close friends or comrades who share a bond similar to familial ties.
   literal: Xiong Di
-  checkForMistranslation: true
+  badtrans: true
 - raw: 小兄弟
   result: Little Brother
   context: Used to address a younger male peer in a friendly, respectful manner.
   literal: Xiao Xiong Di
-  checkForMistranslation: true
+  badtrans: true
 - raw: 师弟
   result: Junior Brother
-  allowedAlternatives: 
+  allowalt: 
     - Younger Brother
-  checkForMistranslation: true
+  badtrans: true
 - raw: 弟弟
   result: Younger Brother
   context: Refers to one’s younger brother.
   literal: Di Di
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大哥
   result: Senior Brother
   context: A respectful term used among siblings for the older brother.
   literal: Da Ge
-  checkForMistranslation: true
+  badtrans: true
 - raw: 师兄
   result: Senior Brother
   literal: Shixiong
-  checkForMistranslation: true
+  badtrans: true
 - raw: 阿兄
   result: Elder Brother
-  checkForMistranslation: true
+  badtrans: true
 - raw: 师妹
   result: Junior Sister
-  allowedAlternatives: 
+  allowalt: 
     - Younger Sister
-  checkForMistranslation: true
+  badtrans: true
 - raw: 妹妹
   result: Younger Sister
-  allowedAlternatives: 
+  allowalt: 
     - Sister
   context: Refers to one’s younger sister.
   literal: Mei Mei
-  checkForMistranslation: true
+  badtrans: true
 - raw: 姐姐
   result: Older Sister
-  allowedAlternatives: 
+  allowalt: 
     - Sister
   context: Refers to one’s older sister.
   literal: Jie Jie
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大姐
   result: Senior Sister
   context: A respectful term used among siblings for the older brother.
   literal: Da Jie
-  checkForMistranslation: true
+  badtrans: true
 - raw: 义姐
   result: Sworn Sister
-  checkForMistranslation: true
+  badtrans: true
 - raw: 义兄
   result: Sworn Brother
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大郎
   result: First Young Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 二郎
   result: Second Young Master 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 三郎
   result: Third Young Master 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 爹
   result: Father
   literal: Die
-  checkForMistranslation: false
+  badtrans: false
 - raw: 婆婆
   result: Grandma
   literal: Po Po
   context: Conflicts with idiom moms and grandmas (fussing around)
-  allowedAlternatives: 
+  allowalt: 
     - Fussing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 舅舅
   result: Uncle
-  checkForMistranslation: true
+  badtrans: true
 # - raw: 先生
 #   result: Gentleman
 #   
-#   checkForMistranslation: true
+#   badtrans: true
 - raw: 公子
   result: Young Lord
   context: Often used to refer to the son of nobility, indicating both status and youth.
   literal: Gong Zi
-  checkForMistranslation: true
+  badtrans: true
 - raw: 公主
   result: Young Lady
   context: The daughter of a king or nobleman, indicating royal status and nobility.
-  allowedAlternatives: 
+  allowalt: 
     - Princess
   literal: Gong Zhu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 夫人
   result: Lady
-  allowedAlternatives: 
+  allowalt: 
     - Wife
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大人
   result: Lord
-  allowedAlternatives: 
+  allowalt: 
     - Husband
   context: Used as a respectful address for man of noble status or of a high-ranking official.
   literal: Da Ren
-  checkForMistranslation: true
+  badtrans: true
 - raw: 师傅
   result: Master
   context: Used for an experienced person in a particular skill or trade, similar to master craftsman or teacher.
   literal: Shi Fu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 姑娘
   result: Miss  
   context: A respectful yet informal address to young women, often implying youthfulness or elegance. Can also be used for Girl.
-  allowedAlternatives: 
+  allowalt: 
     - Girl
   literal: Gu Niang
-  checkForMistranslation: true
+  badtrans: true
 - raw: 掌柜
   result: Shopkeeper
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大善人
   result: Great Benefactor
-  checkForMistranslation: true
+  badtrans: true
 - raw: 贡献堂主
   result: Contribution Hall Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 副帮主
   result: Deputy Chief
-  checkForMistranslation: true
+  badtrans: true
 - raw: 锅头
   result: Pot Head
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大锅头
   result: Great Pot Head
-  checkForMistranslation: true
+  badtrans: true
 - raw: 二锅头
   result: Second Pot Head
-  checkForMistranslation: true
+  badtrans: true
 - raw: 寨主
   result: Fort Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 二寨主
   result: Second Fort Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 禅师
   result: Zen Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 小沙弥
   result: Junior Monk
-  checkForMistranslation: true
+  badtrans: true
 - raw: 知客僧
   result: Welcoming Monk
-  checkForMistranslation: true
+  badtrans: true
 - raw: 庄主
   result: Manor Master 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 三庄主
   result: Third Manor Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 二庄主
   result: Second Manor Master 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 刀客
   result: Blade Master
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大娘
   result: Great Aunt
-  allowedAlternatives:
+  allowalt:
     - Aunt
-  checkForMistranslation: true
+  badtrans: true
 
 # Places
 - raw: 茶庄
   result: Tea Estate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 茶铺
   result: Tea Shop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 茶馆
   result: Tea House
-  checkForMistranslation: true
+  badtrans: true
 - raw: 据点
   result: Outpost
-  checkForMistranslation: true
+  badtrans: true
 - raw: 码头
   result: Port
-  checkForMistranslation: true
+  badtrans: true
 - raw: 酒楼
   result: Tavern
-  checkForMistranslation: true
+  badtrans: true
 - raw: 酒家
   result: Tavern
-  checkForMistranslation: true
+  badtrans: true
 - raw: 酒馆
   result: Tavern
-  checkForMistranslation: true
+  badtrans: true
 - raw: 酒坊
   result: Winery
-  checkForMistranslation: true
+  badtrans: true
 - raw: 青楼
   result: Pleasure House
-  checkForMistranslation: true
+  badtrans: true
 - raw: 医馆
   result: Medical Pavilion
-  checkForMistranslation: true
+  badtrans: true
 - raw: 当铺
   result: Pawnshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 鱼塘
   result: Fish pond
-  checkForMistranslation: true
+  badtrans: true
 - raw: 锯木厂
   result: Sawmill
-  checkForMistranslation: true
+  badtrans: true
 - raw: 石料厂
   result: Stone Quarry
-  checkForMistranslation: true
+  badtrans: true
 - raw: 盐场
   result: Salt Farm
-  checkForMistranslation: true
+  badtrans: true
 - raw: 香料场
   result: Spice Farm
-  checkForMistranslation: true
+  badtrans: true
 - raw: 牧场
   result: Pasture
-  checkForMistranslation: true
+  badtrans: true
 - raw: 煤场
   result: Coal Yard
-  checkForMistranslation: true
+  badtrans: true
 - raw: 铜矿场
   result: Copper Mine
-  checkForMistranslation: true
+  badtrans: true
 - raw: 铁矿场
   result: Iron Mine
-  checkForMistranslation: true
+  badtrans: true
 - raw: 瓷器窑
   result: Pottery Kiln
-  checkForMistranslation: true
+  badtrans: true
 - raw: 茶叶园
   result: Tea Garden
-  checkForMistranslation: true
+  badtrans: true
 - raw: 草药园
   result: Herb Garden
-  checkForMistranslation: true
+  badtrans: true
 - raw: 人参园
   result: Ginseng Garden
-  checkForMistranslation: true
+  badtrans: true
 - raw: 农田
   result: Crop Field
-  checkForMistranslation: true
+  badtrans: true
 - raw: 麻田
   result: Hemp Field
-  checkForMistranslation: true
+  badtrans: true
 - raw: 棉花田
   result: Cotton Field
-  checkForMistranslation: true
+  badtrans: true
 - raw: 桑田
   result: Mulberry Field
-  checkForMistranslation: true
+  badtrans: true
 - raw: 炼丹坊
   result: Alchemical Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 胭脂坊
   result: Cosmetic Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 珠宝坊
   result: Jewelry Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 丝坊
   result: Silk Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 染坊
   result: Dyeing Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 冶炼工坊
   result: Metalworking Workshop
-  checkForMistranslation: true
+  badtrans: true
 - raw: 赌坊
   result: Gambling Den
-  checkForMistranslation: true
+  badtrans: true
 - raw: 外城
   result: Outer City
-  checkForMistranslation: true
+  badtrans: true
 
 # Family
 - raw: 言家
   result: Yan Family
-  checkForMistranslation: true
+  badtrans: true
 - raw: 高家
   result: Gao Family
-  checkForMistranslation: true
+  badtrans: true
 
 # Names
 - raw: 钱玉闵
   result: Qian Yumin
-  checkForMistranslation: true
+  badtrans: true
 - raw: 王铁
   result: Wang Tie
-  checkForMistranslation: true
+  badtrans: true
 
 # Factions & Places
 - raw: 永兴
   result: Yongxing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 枰枦
   result: Pingxia
-  checkForMistranslation: true
+  badtrans: true
 - raw: 剑斋
   result: Sword Pavilion
-  checkForMistranslation: true
+  badtrans: true
 - raw: 不夜京
   result: Evernight Capital
-  checkForMistranslation: true
+  badtrans: true
 - raw: 太初剑宗
   result: Primordial Sword 
-  checkForMistranslation: true
+  badtrans: true
 - raw: 嵩室山
   result: Songshi Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 砚溪山庄
   result: Ink Stream Mountain Villa
-  checkForMistranslation: true
+  badtrans: true
 - raw: 清玉门
   result: Pure Jade Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 大雪山
   result: Great Snow Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 麓山书院
   result: Mount Lu Academy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 昭月宗
   result: Bright Moon Clan
-  checkForMistranslation: true
+  badtrans: true
 - raw: 穆特前线
   result: Mu Te Frontline
-  checkForMistranslation: true
+  badtrans: true
 - raw: 狂刀门
   result: Wild Blade Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 丐门
   result: Beggar Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 捭阖谷
   result: Baihe Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 重天门
   result: Profound Celestial Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 云潇山庄
   result: Cloudy Breeze Mountain Villa
-  checkForMistranslation: true
+  badtrans: true
 - raw: 神兵山庄
   result: Divine Weapon Mountain Villa
-  checkForMistranslation: true
+  badtrans: true
 - raw: 御虚门
   result: Imperial Void Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 凌云宗
   result: Soaring Clouds Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 墨门
   result: Ink Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 长旌军
   result: Long Standard Army
-  checkForMistranslation: true
+  badtrans: true
 - raw: 楚军
   result: Chu Army
-  checkForMistranslation: true
+  badtrans: true
 - raw: 齐军
   result: Qi Army
-  checkForMistranslation: true
+  badtrans: true
 - raw: 遥雪峰
   result: Distant Snow Peak
-  checkForMistranslation: true
+  badtrans: true
 - raw: 溯海派
   result: River's Source Faction
-  checkForMistranslation: true
+  badtrans: true
 - raw: 十二连环坞
   result: Twelve-linked Fortress
-  checkForMistranslation: true
+  badtrans: true
 - raw: 骆家军
   result: Luo Family Army
-  checkForMistranslation: true
+  badtrans: true
 - raw: 黑沙寨
   result: Black Sand Stronghold
-  checkForMistranslation: true
+  badtrans: true
 - raw: 拂松门
   result: Pine Brushing Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 岭花谷
   result: Ridge Flower Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 千山学斋
   result: Thousand Mountain Academy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 望尘客栈
   result: Whispering Dust Inn
-  checkForMistranslation: true
+  badtrans: true
 - raw: 绝剑门
   result: Sword Breaker Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 普贤门
   result: Universal Virtue Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 十陵阁
   result: Ten Tombs Pavilion
-  checkForMistranslation: true
+  badtrans: true
 - raw: 流云镖局
   result: Flowing Cloud Escort Agency
-  checkForMistranslation: true
+  badtrans: true
 - raw: 爻光谷
   result: Light of Divination Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 福兴镖局
   result: Great Prosperity Escort Agency
-  checkForMistranslation: true
+  badtrans: true
 - raw: 云川镖局
   result: Cloud River Escort Agency
-  checkForMistranslation: true
+  badtrans: true
 - raw: 鸿源学舍
   result: Hongyuan Academy
-  checkForMistranslation: true
+  badtrans: true
 - raw: 冼星堂
   result: Xian Star Hall
-  checkForMistranslation: true
+  badtrans: true
 - raw: 归墟剑宗
   result: Return to Abyss Sword Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 三十六洞
   result: Thirty-Six Caves
-  checkForMistranslation: true
+  badtrans: true
 - raw: 寻清门
   result: Seeking Clarity Gate
-  checkForMistranslation: true
+  badtrans: true
 - raw: 唐门
   result: Tangmen
-  checkForMistranslation: true
+  badtrans: true
 - raw: 东厂
   result: Eastern Depot
-  checkForMistranslation: true
+  badtrans: true
 - raw: 双修府
   result: Dual Cultivation Manor
-  checkForMistranslation: true
+  badtrans: true
 - raw: 龙首渡
   result: Dragon's Head Crossing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 誓盟碑
   result:  Oath Alliance Monument
-  checkForMistranslation: true
+  badtrans: true
 - raw: 四圣峰
   result: Four Sacred Peaks
-  checkForMistranslation: true
+  badtrans: true
 - raw: 登天流
   result: Heavenly Ascent Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 云鹤村
   result: Cloud Crane Village
-  checkForMistranslation: true
+  badtrans: true
 - raw: 菩提山
   result: Enlightenment Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 瑶华原
   result: Jade Blossom Field
-  checkForMistranslation: true
+  badtrans: true
 - raw: 乘风渡
   result: Wind Rider Crossing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 清风岗
   result: Clear Breeze Hill
-  checkForMistranslation: true
+  badtrans: true
 - raw: 九曜津
   result: Nine Luminaries Crossing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 不周岭
   result: Unbroken Ridge
-  checkForMistranslation: true
+  badtrans: true
 - raw: 西域王庭
   result: Western Region Royal Court
-  checkForMistranslation: true
+  badtrans: true
 - raw: 坠龙坡
   result: Falling Dragon Slope
-  checkForMistranslation: true
+  badtrans: true
 - raw: 天上山
   result: Heavenly Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 合纵道
   result: Alliance Path
-  checkForMistranslation: true
+  badtrans: true
 - raw: 连横隘
   result: United Front Pass
-  checkForMistranslation: true
+  badtrans: true
 - raw: 老君山
   result: Old Sage Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 问剑道
   result: Sword Seeking Path
-  checkForMistranslation: true
+  badtrans: true
 - raw: 钓龙湖
   result: Dragon Fishing Lake
-  checkForMistranslation: true
+  badtrans: true
 - raw: 迦南遗址
   result: Canaanite Ruins
-  checkForMistranslation: true
+  badtrans: true
 - raw: 星陨荒
   result: Starfall Wasteland
-  checkForMistranslation: true
+  badtrans: true
 - raw: 落雁湖
   result: Falling Geese Lake
-  checkForMistranslation: true
+  badtrans: true
 - raw: 王府
   result: Royal Residence
-  checkForMistranslation: true
+  badtrans: true
 - raw: 聚灵川
   result: Spirit Gathering River
-  checkForMistranslation: true
+  badtrans: true
 - raw: 东海镇
   result: Eastern Sea Town
-  checkForMistranslation: true
+  badtrans: true
 - raw: 祈灵川
   result: Spirit Prayer River
-  checkForMistranslation: true
+  badtrans: true
 - raw: 合气岛
   result: Qi Harmony Island
-  checkForMistranslation: true
+  badtrans: true
 - raw: 胜景林
   result: Scenic Forest
-  checkForMistranslation: true
+  badtrans: true
 - raw: 玉沙关
   result: Jade Sand Pass
-  checkForMistranslation: true
+  badtrans: true
 - raw: 天门山
   result: Heavenly Gate Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 伊宁镇
   result: Yining Town
-  checkForMistranslation: true
+  badtrans: true
 - raw: 连麓山
   result: Connected Ridge Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 盘山道
   result: Winding Mountain Road
-  checkForMistranslation: true
+  badtrans: true
 - raw: 谷外秘径
   result: Secret Path Beyond the Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 桃隐村
   result: Hidden Peach Village
-  checkForMistranslation: true
+  badtrans: true
 - raw: 贪狼道
   result: Greedy Wolf Path
-  checkForMistranslation: true
+  badtrans: true
 - raw: 崇吾涧
   result: Chongwu Valley
-  checkForMistranslation: true
+  badtrans: true
 - raw: 千霁峰
   result: Thousand Clear Peak
-  checkForMistranslation: true
+  badtrans: true
 - raw: 文昌湖
   result: Wenchang Lake
-  checkForMistranslation: true
+  badtrans: true
 - raw: 法华村
   result: Dharma Blossom Village
-  checkForMistranslation: true
+  badtrans: true
 - raw: 小石镇
   result: Little Stone Town
-  checkForMistranslation: true
+  badtrans: true
 - raw: 枰栌
   result: Pinglu
-  checkForMistranslation: true
+  badtrans: true
 - raw: 淮陵
   result: Huailing
-  checkForMistranslation: true
+  badtrans: true
 - raw: 化龙瀑
   result: Transforming Dragon Waterfall
-  checkForMistranslation: true
+  badtrans: true
 - raw: 求缘树
   result: Tree of Destiny
-  checkForMistranslation: true
+  badtrans: true
 - raw: 落凤原
   result: Fallen Phoenix Plain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 胜云山
   result: Triumphant Cloud Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 飞鸿原
   result: Flying Swan Plain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 寻星道
   result: Star Seeking Path
-  checkForMistranslation: true
+  badtrans: true
 - raw: 仙洲
   result: Immortal Isle
-  checkForMistranslation: true
+  badtrans: true
 - raw: 蓬莱村
   result: Penglai Village
-  checkForMistranslation: true
+  badtrans: true
 - raw: 无涯岛
   result: Boundless Island
-  checkForMistranslation: true
+  badtrans: true
 - raw: 七十二福地
   result: Seventy-Two Blessings Lands
-  checkForMistranslation: true
+  badtrans: true
 - raw: 七十二福
   result: Seventy-Two Blessings
-  checkForMistranslation: true
+  badtrans: true
 - raw: 桂宫道
   result: Way of the Osmanthus Palace
-  checkForMistranslation: true
+  badtrans: true
 - raw: 豫京
   result: Yu Capital
-  checkForMistranslation: true
+  badtrans: true
 - raw: 雁州
   result: Yan Prefecture
-  checkForMistranslation: true
+  badtrans: true
 - raw: 穆特族
   result: Mu Te Tribe
-  checkForMistranslation: true
+  badtrans: true
 - raw: 泠香坞
   result: Cold Fragrance Harbor
-  checkForMistranslation: true
+  badtrans: true
 - raw: 桃花坞
   result: Peach Blossom Harbor
-  checkForMistranslation: true
+  badtrans: true
 - raw: 冷香坞
   result: Cold Fragrance Harbor
-  checkForMistranslation: true
+  badtrans: true
 - raw: 紫阳山
   result: Purple Sun Mountain
-  checkForMistranslation: true
+  badtrans: true
 - raw: 鸿月门
   result: Grand Moon Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 鸿月派
   result: Grand Moon Sect
-  checkForMistranslation: true
+  badtrans: true
 - raw: 墟海剑
   result: Abyssal Sea Sword
-  checkForMistranslation: true
+  badtrans: true
 - raw: 烈火刀
   result: Blazing Blade
-  checkForMistranslation: true
+  badtrans: true
+
+# Kingdoms
 - raw: 燕国
   result: Yan Kingdom
+  badtrans: true
+- raw: 齐国
+  result: Qi Kingdom
+  badtrans: true
+- raw: 楚国
+  result: Chu Kingdom
+  badtrans: true
+- raw: 晋国
+  result: Jin Kingdom
+  badtrans: true
+- raw: 夏国
+  result: Xia Kingdom
+  badtrans: true
+- raw: 周国
+  result: Zhou Kingdom
+  badtrans: true
+- raw: 罗刹国
+  result: Rakshasa Kingdom
+
+# Martial Arts
+- raw: 太极心法
+  result: Tai Chi Heart Method
+  badtrans: true
+  context: Refers to the core philosophy and techniques of Tai Chi, emphasizing inner balance, breathing, and spiritual cultivation in addition to physical movements.
+  transliteration: Tàijí Xīnfǎ
