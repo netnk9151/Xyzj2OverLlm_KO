@@ -14,7 +14,7 @@ public class TextFileToSplit
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string? Path { get; set; }
 
-    public bool Output { get; set; }
+    public bool Output { get; set; } = false;
 }
 
 public class TranslationSplit
