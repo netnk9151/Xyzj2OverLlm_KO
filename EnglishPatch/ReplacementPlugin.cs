@@ -97,6 +97,10 @@ public class TextReplacerPlugin : BaseUnityPlugin
                     if (textField != null && textField.FieldType == typeof(string))
                     {
                         var textValue = textField.GetValue(component) as string;
+
+                        if (string.IsNullOrEmpty(textValue))
+                            continue; 
+
                         if (Replacements.ContainsKey(textValue))
                             textField.SetValue(component, Replacements[textValue]);
                     }

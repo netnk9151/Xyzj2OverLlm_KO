@@ -136,6 +136,7 @@
   allowalt: 
     - Power
     - Influence
+    - Faction
   badtrans: true  
 - raw: 威力
   result: Power
@@ -209,6 +210,10 @@
   transliteration: Xuánjī
 - raw: 武\n器
   result: Martial\nWeapon
+  badtrans: true
+- raw: 劫数
+  result: Calamity
+  badtrans: true
 
 # Settings
 - raw: 高级
@@ -824,28 +829,38 @@
   result: Junior Brother
   allowalt: 
     - Younger Brother
+    - Brother
   badtrans: true
 - raw: 弟弟
   result: Younger Brother
   context: Refers to one's younger brother.
   literal: Di Di
+  allowalt: 
+    - Brother
   badtrans: true
 - raw: 大哥
   result: Senior Brother
   context: A respectful term used among siblings for the older brother.
+  allowalt: 
+    - Brother
   literal: Da Ge
   badtrans: true
 - raw: 师兄
   result: Senior Brother
+  allowalt: 
+    - Brother
   literal: Shixiong
   badtrans: true
 - raw: 阿兄
   result: Elder Brother
+  allowalt: 
+    - Brother
   badtrans: true
 - raw: 师妹
   result: Junior Sister
   allowalt: 
     - Younger Sister
+    - Sister
   badtrans: true
 - raw: 妹妹
   result: Younger Sister
@@ -864,22 +879,32 @@
 - raw: 大姐
   result: Senior Sister
   context: A respectful term used among siblings for the older brother.
+  allowalt: 
+    - Sister
   literal: Da Jie
   badtrans: true
 - raw: 义姐
   result: Sworn Sister
+  allowalt: 
+    - Brother
   badtrans: true
 - raw: 义兄
   result: Sworn Brother
+  allowalt: 
+    - Brother
   badtrans: true
 - raw: 大郎
   result: First Young Master
+  allowalt: 
+    - Dalang
   badtrans: true
 - raw: 二郎
   result: Second Young Master 
+    - Erlang
   badtrans: true
 - raw: 三郎
   result: Third Young Master 
+    - Sanlang
   badtrans: true
 - raw: 爹
   result: Father
@@ -1118,6 +1143,181 @@
   badtrans: true
 - raw: 王铁
   result: Wang Tie
+  badtrans: true
+- raw: 三儿
+  result: San'er
+  badtrans: true
+- raw: 昕儿
+  result: Xin'er  
+  badtrans: true
+
+- raw: 袁婉君
+  result: Yuan Wanjun
+  badtrans: true
+- raw: 江玄隐
+  result: Jiang Xuanyin
+  badtrans: true
+- raw: 司青寒
+  result: Sikong Qinghan 
+  badtrans: true
+- raw: 空慧
+  result: Kong Hui
+  badtrans: true
+- raw: 惠通
+  result: Huitong
+  badtrans: true
+- raw: 司空摘星
+  result: Sikong Zhexing
+  badtrans: true
+- raw: 张源
+  result: Zhang Yuan
+  badtrans: true
+- raw: 崔振炀
+  result: Cui Zhenyang
+  badtrans: true
+- raw: 谷夫人
+  result: Lady Gu
+  badtrans: true
+- raw: 康十三
+  result: Kang Shisan
+  badtrans: true
+- raw: 赵逸云
+  result: Zhao Yiyun
+  badtrans: true
+- raw: 沈清乾
+  result: Shen Qingqian
+  badtrans: true
+- raw: 宋妇人
+  result: Lady Song
+  badtrans: true
+- raw: 杨云护
+  result: Yang Yunhu
+  badtrans: true
+- raw: 陆可儿
+  result: Lu Ke'er
+  badtrans: true
+- raw: 唐三秋
+  result: Tang Sanqiu
+  badtrans: true
+- raw: 唐三冬
+  result: Tang Sandong
+  badtrans: true
+- raw: 唐农琳
+  result: Tang Nonglin
+  badtrans: true
+- raw: 唐儒
+  result: Tang Ru
+  badtrans: true
+- raw: 唐虎
+  result: Tang Hu
+  badtrans: true
+- raw: 聂少侠
+  result: Young Hero Nie
+  badtrans: true
+- raw: 小翠
+  result: Xiao Cui
+  badtrans: true
+- raw: 花如是
+  result: Hua Rushi
+  badtrans: true
+- raw: 熊桧
+  result: Xiong Gui
+  badtrans: true
+- raw: 花霖
+  result: Hua Lin
+  badtrans: true
+- raw: 秋茸
+  result: Qiu Rong
+  badtrans: true
+- raw: 春翡
+  result: Chun Fei
+  badtrans: true
+- raw: 霍将军
+  result: General Huo
+  badtrans: true
+- raw: 胡神医
+  result: Divine Doctor Hu
+  badtrans: true
+- raw: 洪素
+  result: Hong Su
+  badtrans: true
+- raw: 张星星
+  result: Zhang Xingxing
+  badtrans: true
+- raw: 张随感
+  result: Zhang Suigan
+  badtrans: true
+- raw: 景玦
+  result: Jing Jue
+  badtrans: true
+- raw: 洪珏
+  result: Hong Jue
+  badtrans: true
+- raw: 罗富贵
+  result: Luo Fuguai
+  badtrans: true
+- raw: 李治顺
+  result: Li Zhishun
+  badtrans: true
+- raw: 吴不用
+  result: Wu Buyong
+  badtrans: true
+- raw: 文姣
+  result: Wen Jiao
+  badtrans: true
+- raw: 碧玉
+  result: Green Jade
+  badtrans: true
+- raw: 崔琛
+  result: Cui Chen
+  badtrans: true
+- raw: 吴小福
+  result: Wu Xiaofu
+  badtrans: true
+- raw: 普贤老者
+  result: Elder Puxian
+  badtrans: true
+- raw: 陆川
+  result: Lu Chuan
+  badtrans: true
+- raw: 温姣
+  result: Wen Jiao
+  badtrans: true
+- raw: 童莅
+  result: Tong Li
+  badtrans: true
+- raw: 缪贝
+  result: Miao Bei
+  badtrans: true
+- raw: 杨澄
+  result: Yang Cheng
+  badtrans: true
+- raw: 郭树昭
+  result: Guo Shuzhao
+  badtrans: true
+- raw: 江常煦
+  result: Jiang Changxu
+  badtrans: true
+- raw: 路德茗
+  result: Lu Deming
+  badtrans: true
+- raw: 洪金
+  result: Hong Jin
+  badtrans: true
+- raw: 郭大侠
+  result: Great Hero Guo
+  badtrans: true
+- raw: 萧正德
+  result: Xiao Zhengde
+  badtrans: true
+- raw: 蓉儿
+  result: Yong'er
+  badtrans: true
+- raw: 唐儒
+  result: Tang Ru
+  badtrans: true
+- raw: 缪贝
+  result: Miao Bei
   badtrans: true
 
 # Factions & Places

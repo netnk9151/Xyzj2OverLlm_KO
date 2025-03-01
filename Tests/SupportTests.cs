@@ -95,7 +95,51 @@ public class SupportTests
         }
 
         File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
-    }    
+    }
+
+    [Fact]
+    public async Task GetNames()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var sects = new List<string>();
+
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            if (outputFile.EndsWith("condition_group.txt"))
+            {
+                foreach (var line in fileLines)
+                {
+                    foreach (var split in line.Splits)
+                    {
+                        if (split.Text.StartsWith("对话"))
+                        {
+                            var text = split.Text.Replace("对话", "");
+
+                            if (!sects.Contains(text))
+                                sects.Add(text);
+                        }
+                    }
+                }
+            }
+
+            await Task.CompletedTask;
+        });
+
+        var client = new HttpClient();
+        var glossary = new List<string>();
+        foreach (var sect in sects)
+        {
+            var trans = await TranslationService.TranslateInputAsync(client, config, sect, "", "All provided text are names");
+            trans = LineValidation.CleanupLineBeforeSaving(trans, sect, "", new StringTokenReplacer());
+            glossary.Add($"- raw: {sect}");
+            //glossary.Add($"  result: ");
+            glossary.Add($"  result: {trans}");
+            glossary.Add($"  badtrans: true");
+        }
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
+    }
 
     [Fact]
     public async Task FindAllPlaceholders()
