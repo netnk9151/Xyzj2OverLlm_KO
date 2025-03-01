@@ -1,10 +1,12 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.IO.Compression;
+using System.Text.RegularExpressions;
 
 namespace Translate.Tests;
 
 public class TranslationWorkflowTests
 {
     const string workingDirectory = "../../../../Files";
+    const string gameFolder = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\";
 
     [Fact(DisplayName = "1. SplitDbAssets")]
     public void SplitDbAssets()
@@ -74,16 +76,35 @@ public class TranslationWorkflowTests
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
 
         var sourceDirectory = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
-        var gameDirectory = $"G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\下一站江湖Ⅱ_Data\\StreamingAssets\\Mod\\{ModHelper.ContentFolder}";
-        var resourceDirectory = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\BepInEx\\resources";
+        var modDirectory = $"{gameFolder}/下一站江湖Ⅱ_Data/StreamingAssets/Mod/{ModHelper.ContentFolder}";
+        var resourceDirectory = $"{gameFolder}/BepInEx/resources";
 
-        if (Directory.Exists(gameDirectory))
-            Directory.Delete(gameDirectory, true);
+        if (Directory.Exists(modDirectory))
+            Directory.Delete(modDirectory, true);
 
-        TranslationService.CopyDirectory(sourceDirectory, gameDirectory);
+        TranslationService.CopyDirectory(sourceDirectory, modDirectory);
 
         File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
         File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{resourceDirectory}/dumpedPrefabText.txt", true);
+
+        await PackageRelease();
+    }
+
+    [Fact(DisplayName = "7. Pack Release")]
+    public async Task PackageRelease()
+    {
+        var version = ModHelper.CalculateVersionNumber();
+
+        string releaseFolder = $"{gameFolder}/ReleaseFolder";
+
+        File.Copy($"{workingDirectory}/Mod/db1.txt", $"{releaseFolder}/BepInEx/resources/db1.txt", true);
+        File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{releaseFolder}/BepInEx/resources/dumpedPrefabText.txt", true);
+        File.Copy($"{gameFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", $"{releaseFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", true);
+        File.Copy($"{gameFolder}/BepInEx/Translation/en/Text/resizer.txt", $"{releaseFolder}/BepInEx/Translation/en/Text/resizer.txt", true);
+
+        ZipFile.CreateFromDirectory($"{releaseFolder}/BepInEx", $"{releaseFolder}/EnglishPatch-{version}.zip");
+
+        await Task.CompletedTask;
     }
 
     public static Dictionary<string, string> GetManualCorrections()

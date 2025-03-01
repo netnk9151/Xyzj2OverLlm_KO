@@ -200,6 +200,13 @@
 - raw: 武\n器
   result: Martial\nWeapon
 
+# Settings
+- raw: 高级
+  result: Advanced
+  badtrans: true
+  context: Refers to a higher level or rank, often used to describe expertise, position, or status in various fields, such as skills, education, or titles.
+  transliteration: Gāojí
+
 # Solar Calendar
 - raw: 立春
   result: Start of Spring

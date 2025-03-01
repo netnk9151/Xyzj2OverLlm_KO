@@ -2,6 +2,9 @@
 using BepInEx.Logging;
 using HarmonyLib;
 using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using TMPro;
@@ -13,6 +16,7 @@ namespace EnglishPatch;
 public class TextReplacerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
+    internal static Dictionary<string, string> Replacements = [];
 
     private void Awake()
     {
@@ -20,6 +24,29 @@ public class TextReplacerPlugin : BaseUnityPlugin
         Logger.LogWarning("Text Replacer plugin is starting...");
         Harmony.CreateAndPatchAll(typeof(PrefabTextPatch));
         Logger.LogWarning("Text Replacer plugin patching complete!");
+
+
+        Logger.LogWarning("Loading Prefab Replacements...");
+        var resourcesFolder = Path.Combine(Environment.CurrentDirectory, "BepInEx/resources");
+        var resourcesFolder2 = Path.Combine(Environment.CurrentDirectory, "resources"); //Autotranslator messes with this
+        var dbFile = $"{resourcesFolder}/dumpedPrefabText.txt";
+        var dbFile2 = $"{resourcesFolder2}/dumpedPrefabText.txt";
+
+        string[] lines = [];
+
+        if (File.Exists(dbFile))
+            lines = File.ReadAllLines(dbFile);
+
+        if (File.Exists(dbFile2))
+            lines = File.ReadAllLines(dbFile2);
+
+        for (int i = 0; i < lines.Length; i = i + 2)
+        {
+            var raw = lines[i].Replace("- raw: ", "").Replace("\\n", "\n") ; //Do not trim some of these have spacing
+            var result = lines[i + 1].Replace("result: ", "").Replace("\\n", "\n");
+
+            Replacements.Add(raw, result);
+        }
     }
 
     [HarmonyPatch(typeof(UnityEngine.Object))]
@@ -55,21 +82,23 @@ public class TextReplacerPlugin : BaseUnityPlugin
             {
                 if (__result.name.Contains("LoginView"))
                     return;
+                // Need to figure out how to ignore buttons here - causes grief
 
-                foreach (var textComponent in gameObject.GetComponentsInChildren<TextMeshProUGUI>(true))
-                {                
-                    var text = textComponent.text;
-                    if (string.IsNullOrEmpty(text))
-                        return;
+                foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
+                {
+                    var response = string.Empty;
 
-                    if (Regex.IsMatch(text, MainPlugin.ChineseCharPattern))
+                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+                    // Try mistyped property
+                    if (textField == null)
+                        textField = component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+                    if (textField != null && textField.FieldType == typeof(string))
                     {
-                        //Logger.LogWarning($"Replaced {__result.name}");
-                        //if (!__result.name.Contains("SettingView"))
-                        //    return;
-
-                        //Logger.LogWarning($"Replaced {text}");
-                        textComponent.text = "New Updated Text"; // Modify as needed
+                        var textValue = textField.GetValue(component) as string;
+                        if (Replacements.ContainsKey(textValue))
+                            textField.SetValue(component, Replacements[textValue]);
                     }
                 }
             }

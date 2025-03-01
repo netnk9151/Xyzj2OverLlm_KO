@@ -21,11 +21,13 @@ public static class ModHelper
 {
     public const string ContentFolder = "LashEnglishPatch";
 
+    public static string CalculateVersionNumber() => DateTime.Now.ToString("yyyy.MM.dd.HH.mm");
+
     public static void GenerateModConfig(string workingDirectory)
     {
         var config = new ModConfigFile()
         {
-            ChangeNote = $"Version: {DateTime.Now.ToString("yyyy.MM.dd.HH.mm")}",
+            ChangeNote = $"Version: {CalculateVersionNumber()}",
         };
 
         var outputFile = $"{workingDirectory}/Mod/{ContentFolder}/workshop.json";
