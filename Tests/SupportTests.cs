@@ -137,10 +137,14 @@ public class SupportTests
     [InlineData("I.覆灭穆特前线的所有穆特族（{IsCanFinish:0:1}/1）")]
     [InlineData("J.到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)")]
     [InlineData("K.在淮陵游456玩之际，<color=&&00ff00ff>遇到{0}一123位自</color>，我观其似乎武艺高强。")]
+    [InlineData("L.王铁(1000，1000)")]
+    
     static void StringTokenReplacer(string original)
     {
         var replacer = new StringTokenReplacer();
 
+        //Want string cleaned up
+        original = LineValidation.PrepareRaw(original, null);
         string replaced = replacer.Replace(original);
         
 

@@ -15,7 +15,7 @@ public static class LineValidation
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
     public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
 
-    public static string PrepareRaw(string raw, StringTokenReplacer tokenReplacer)
+    public static string PrepareRaw(string raw, StringTokenReplacer? tokenReplacer)
     {
         // Clean up the Raw string before using
 
@@ -31,9 +31,13 @@ public static class LineValidation
             .Replace("）", ")")
             .Replace("？", "?")
             .Replace("、", ",")
-            .Replace("！", "!");            
+            .Replace("，", ",")
+            .Replace("！", "!");
 
-        raw = tokenReplacer.Replace(raw);
+        //For testing
+        if (tokenReplacer != null)
+            raw = tokenReplacer.Replace(raw);
+
         return raw;
     }
 
@@ -73,6 +77,7 @@ public static class LineValidation
                 .Replace("…", "...")
                 .Replace("？", "?")
                 .Replace(".:", ":")
+                .Replace(". -", " -")
                 .Replace("！", "!");
 
             //Take out wide quotes
@@ -133,11 +138,11 @@ public static class LineValidation
             response = false;
 
         // 99% chance its gone crazy with hallucinations
-        if (result.Length > 50 && raw.Length < 4)
+        if (result.Length > 50 && raw.Length <= 4)
             response = false;
 
         // Small source with 'or' is ususually an alternative
-        if ((result.Contains(" or") || result.Contains("(or")) && raw.Length < 3)
+        if ((result.Contains(" or") || result.Contains("(or")) && raw.Length <= 4)
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "or");

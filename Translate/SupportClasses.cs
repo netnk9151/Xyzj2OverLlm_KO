@@ -15,6 +15,8 @@ public class TextFileToSplit
     public string? Path { get; set; }
 
     public bool Output { get; set; } = false;
+
+    public bool PrefabAsset { get; set; } = false;
 }
 
 public class TranslationSplit

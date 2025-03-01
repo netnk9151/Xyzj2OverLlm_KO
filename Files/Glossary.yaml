@@ -76,6 +76,14 @@
   result: Learn the secret method
   checkForHallucination: false
   checkForMistranslation: true  
+- raw: 人阶
+  result: Social Rank
+  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 研发
+  result: Development
+  checkForHallucination: false
+  checkForMistranslation: true
 
 # Stats
 - raw: 商道
@@ -1074,6 +1082,10 @@
   result: Qian Yumin
   checkForHallucination: false
   checkForMistranslation: true
+- raw: 王铁
+  result: Wang Tie
+  checkForHallucination: false
+  checkForMistranslation: true
 
 # Factions & Places
 - raw: 永兴
@@ -1532,3 +1544,4 @@
   result: Blazing Blade
   checkForHallucination: false
   checkForMistranslation: true
+

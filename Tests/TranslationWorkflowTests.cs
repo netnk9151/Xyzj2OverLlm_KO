@@ -18,6 +18,12 @@ public class TranslationWorkflowTests
         TranslationService.ExportTextAssetsToCustomFormat(workingDirectory);
     }
 
+    [Fact(DisplayName = "2. ExportDumpedIntoTranslated")]
+    public void ExportDumpedIntoTranslated()
+    {
+        TranslationService.ExportDumpedPrefabToCustomFormat(workingDirectory);
+    }
+
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
@@ -28,7 +34,12 @@ public class TranslationWorkflowTests
     public async Task TranslateLines()
     {
         await PerformTranslateLines(false);
-        await PackageFinalTranslation();
+    }
+
+    [Fact(DisplayName = "5. TranslateDumpedPrefabText")]
+    public async Task TranslateDumpedPrefabText()
+    {
+        //TODO:
     }
 
     [Fact(DisplayName = "0. TranslateLinesBruteForce")]
@@ -72,6 +83,7 @@ public class TranslationWorkflowTests
         TranslationService.CopyDirectory(sourceDirectory, gameDirectory);
 
         File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
+        File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{resourceDirectory}/dumpedPrefabText.txt", true);
     }
 
     public static Dictionary<string, string> GetManualCorrections()
@@ -118,6 +130,11 @@ public class TranslationWorkflowTests
             //"阳",
         };
 
+        var badRegexes = new List<string>
+        {
+            //@"\(.*，.*\)" //Put back for big files
+        };
+
         await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             int recordsModded = 0;
@@ -129,7 +146,7 @@ public class TranslationWorkflowTests
                     if (resetFlag)
                         split.ResetFlags(false);
 
-                    if (UpdateSplit(logLines, newGlossaryStrings, manual, split, outputFile, config))
+                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, outputFile, config))
                         recordsModded++;
                 }
 
@@ -150,7 +167,7 @@ public class TranslationWorkflowTests
         return totalRecordsModded;
     }
 
-    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
+    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
         LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
@@ -176,6 +193,16 @@ public class TranslationWorkflowTests
             if (preparedRaw.Contains(glossary))
             {
                 logLines.Add($"New Glossary {outputFile} Replaces: \n{split.Translated}");
+                split.FlaggedForRetranslation = true;
+                return true;
+            }
+        }
+
+        foreach (var badRegex in badRegexes)
+        {
+            if (Regex.IsMatch(split.Text, badRegex))
+            {
+                logLines.Add($"Bad Regex {outputFile} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
                 return true;
             }
