@@ -6,7 +6,7 @@
 6#Internal Defence#0#23#0#0#0#0#0#0#0#2#300006#1#
 7#Fate#0#74#0#0#0#0#0#0#0#1#300007#1#
 8#Dodge#0#75#0#0#0#0#0#0#0#2#300008#1#
-9#Mind break#0#24#0#0#0#0#0#0#0#1#300009#1#
+9#Mind Attack#0#24#0#0#0#0#0#0#0#1#300009#1#
 10#Discipline#0#25#0#0#0#0#0#0#0#2#300010#1#
 11#Vital Point#0#26#0#0#0#0#0#0#0#1#300011#1#
 12#Counter#0#27#0#0#0#0#0#0#0#2#300012#1#
@@ -101,7 +101,7 @@
 1006#Internal Defence#0#1023#0#0#0#0#1#0#0#2#301006#1#
 1007#Fate#0#1074#0#0#0#0#1#0#0#1#301007#1#
 1008#Dodge#0#1075#0#0#0#0#1#0#0#2#301008#1#
-1009#Mind break#0#1024#0#0#0#0#1#0#0#1#301009#1#
+1009#Mind Attack#0#1024#0#0#0#0#1#0#0#1#301009#1#
 1010#Discipline#0#1025#0#0#0#0#1#0#0#2#301010#1#
 1011#Vital Point#0#1026#0#0#0#0#1#0#0#1#301011#1#
 1012#Counter#0#1027#0#0#0#0#1#0#0#2#301012#1#
@@ -199,7 +199,7 @@
 1859#Hard Wound#10#0#3#3#0#1208|1209#1#5#1#1#301859#1#
 1860#Soft Sorrow#10#0#3#2#0#1208|1209#1#5#1#1#301860#1#
 1861#Poisonous Fate#10#0#3#4#0#1208|1209#1#5#1#1#301861#1#
-10001#Qi surging forth. - Cooling down.#10#202#0#0#0#130800|130810|131100|131110#0#0#0#0#0#0#
+10001#Qi surging forth - Cooling down.#10#202#0#0#0#130800|130810|131100|131110#0#0#0#0#0#0#
 10002#Number of blood layers increased#8#216#4#101000#0#0#0#0#0#0#0#0#
 10003#Shield layers increased#8#207#4#107000#0#0#0#0#0#0#0#0#
 10004#The compounding of Taiyuan Style#8#207#4#1102200#0#0#0#0#0#0#0#0#
@@ -215,24 +215,24 @@
 10075#Chill, poisoned, and burn duration.#10#204#4#0#0#101010|101040|101050#0#0#0#0#0#0#
 10076#Number of layers of internal injury increased.#8#216#4#100500161#0##0#0#0#0#0#0#
 10077#Poisoned by increased layers of poison.#8#207#4#101010#0##0#0#0#0#0#0#
-11001#Qi surging forth. - Cooling down.#10#1202#0#0#0#130800|130810|131100|131110#1#0#0#0#0#0#
+11001#Qi surging forth - Cooling down.#10#1202#0#0#0#130800|130810|131100|131110#1#0#0#0#0#0#
 11004#The compounding of Taiyuan Style#8#1207#4#1102200#0#0#1#0#0#0#0#0#
 11005#Shield effect increased#8#1206#4#107000#0#0#1#0#0#0#0#0#
 11007#Burning frequency increased#8#1205#4#101040#0#0#1#0#0#0#0#0#
 11008#The chill deepens#8#1216#4#101050#0#0#1#0#0#0#0#0#
 11009#Cold chills are becoming more frequent#8#1205#4#101050#0##1#0#0#0#0#0#
 11011#Increased Blood Effect#8#1206#4#101000#0##1#0#0#0#0#0#
-11013#The sword's Daoist power#10#0#0#100500#0#1200|1201#1#0#0#0#0#0#
-11014#The sword's Daoist power#10#0#0#100510#0#1200|1201#1#0#0#0#0#0#
-11015#The sword's Daoist power#10#0#0#100520#0#1200|1201#1#0#0#0#0#0#
-11016#Squall's slanting rain enhances the sword's power#10#0#0#100700#0#1200|1201#1#0#0#0#0#0#
-11017#Squall's slanting rain enhances the sword's power#10#0#0#100710#0#1200|1201#1#0#0#0#0#0#
-11018#Reversing Wind, Snow Return Blade - its power#10#0#0#100900#0#1200|1201#1#0#0#0#0#0#
-11019#Reversing Wind, Snow Return Blade - its power#10#0#0#100910#0#1200|1201#1#0#0#0#0#0#
-11020#The power to save ten thousand lives through righteous law#10#0#0#130300#0#1200|1201#1#0#0#0#0#0#
-11021#The power to save ten thousand lives through righteous law#10#0#0#130310#0#1200|1201#1#0#0#0#0#0#
-11022#Harmonious Star Shaking Sun Blade - the power of this blade is so immense that it can shake the sun.#10#0#0#110400#0#1200|1201#1#0#0#0#0#0#
-11023#Harmonious Star Shaking Sun Blade - the power of this blade is so immense that it can shake the sun.#10#0#0#110410#0#1200|1201#1#0#0#0#0#0#
+11013#The power of Daoist swordsmanship.#10#0#0#100500#0#1200|1201#1#0#0#0#0#0#
+11014#The power of Daoist swordsmanship.#10#0#0#100510#0#1200|1201#1#0#0#0#0#0#
+11015#The power of Daoist swordsmanship.#10#0#0#100520#0#1200|1201#1#0#0#0#0#0#
+11016#Diagonal wind, fine rain; the sword's authority.#10#0#0#100700#0#1200|1201#1#0#0#0#0#0#
+11017#Diagonal wind, fine rain; the sword's authority.#10#0#0#100710#0#1200|1201#1#0#0#0#0#0#
+11018#The Feng Hui Xue Sword wields formidable power.#10#0#0#100900#0#1200|1201#1#0#0#0#0#0#
+11019#The Feng Hui Xue Sword wields formidable power.#10#0#0#100910#0#1200|1201#1#0#0#0#0#0#
+11020#Enduring the Law to Save All Beings: Authority#10#0#0#130300#0#1200|1201#1#0#0#0#0#0#
+11021#Enduring the Law to Save All Beings: Authority#10#0#0#130310#0#1200|1201#1#0#0#0#0#0#
+11022#The power of the Heavenly Sun Shaking Sword.#10#0#0#110400#0#1200|1201#1#0#0#0#0#0#
+11023#The power of the Heavenly Sun Shaking Sword.#10#0#0#110410#0#1200|1201#1#0#0#0#0#0#
 11024#World Conqueror's Sword#10#0#0#101100#0#1200|1201#1#0#0#0#0#0#
 11025#World Conqueror's Sword#10#0#0#101110#0#1200|1201#1#0#0#0#0#0#
 11026#World Conqueror's Sword#10#0#0#101120#0#1200|1201#1#0#0#0#0#0#
@@ -285,10 +285,10 @@
 11073#Beixue feng ru hui#10#0#0#110710#0#1200|1201#1#0#0#0#0#0#
 11074#Shield Duration#0#0#0#0#0##0#0#0#0#0#0#
 11075##0#0#0#0#0##0#0#0#0#0#0#
-11076#Increased frequency of poisoning.#8#205#4#101010#0##0#0#0#0#0#0#
-11077#Increased frequency of poisoning.#8#1205#4#101010#0##1#0#0#0#0#0#
+11076#Frequency of poisoning incidents increased.#8#205#4#101010#0##0#0#0#0#0#0#
+11077#Frequency of poisoning incidents increased.#8#1205#4#101010#0##1#0#0#0#0#0#
 11078#Enhanced Poison Effectiveness#8#1206#4#101010#0##1#0#0#0#0#0#
-11079#Deadly Leg Kick or Leg that Breaks Spirits. - Cooling down.#8#1202#0#132210#0##1#0#0#0#0#0#
+11079#Deadly Leg Kick or Leg that Breaks Spirits - Cooling down.#8#1202#0#132210#0##1#0#0#0#0#0#
 11080#Thousand Needle Hand - Cooling down.#8#1202#0#132200#0##1#0#0#0#0#0#
 11081#The Nine Swords Cool Down#8#1202#0#103400#0##1#0#0#0#0#0#
 11082#Dragon Elephant Shield Effect Increased#8#1206#4#1328101#0##1#0#0#0#0#0#
@@ -305,9 +305,9 @@
 11093#Haughty Coldness - Cooling down.#8#1202#0#111800#0##1#0#0#0#0#0#
 11094#Haughty Coldness - Cooling down.#8#1202#0#111810#0##1#0#0#0#0#0#
 11095#Great Compassion Eradicates Sin - Cooling down.#8#1202#0#133810#0##1#0#0#0#0#0#
-11096#Meditative concentration. - Cooling down.#8#1202#0#133900#0##1#0#0#0#0#0#
-11097#Stepping through frost. - Cooling down.#8#1202#0#133910#0##1#0#0#0#0#0#
-11098#Chant of the gods. - Cooling down#8#1202#0#134000#0##1#0#0#0#0#0#
+11096#Meditative concentration - Cooling down.#8#1202#0#133900#0##1#0#0#0#0#0#
+11097#Stepping through frost - Cooling down.#8#1202#0#133910#0##1#0#0#0#0#0#
+11098#Chant of the gods - Cooling down#8#1202#0#134000#0##1#0#0#0#0#0#
 11099#Frosty Splendor, Bodhisattva of Heaven - Cooling down.#8#1202#0#134010#0##1#0#0#0#0#0#
 11100#Wrath of Buddha - Cooling down.#8#1202#0#134100#0##1#0#0#0#0#0#
 11101#Seal of the Holy Fist - Cooling down#8#1202#0#134110#0##1#0#0#0#0#0#
@@ -346,12 +346,12 @@
 30022#Chasing after the wind and riding on the waves#10#0#0#101000#0#1200|1201#1#0#0#0#0#0#
 30023#Waves of wrath crashing down#10#0#0#101010#0#1200|1201#1#0#0#0#0#0#
 30024#The Nine Transmutations of Heaven and Earth#10#0#0#101100#0#1200|1201#1#0#0#0#0#0#
-30025#Unpredictable as gods or ghosts#10#0#0#101110#0#1200|1201#1#0#0#0#0#0#
+30025#Unpredictable as gods and ghosts.#10#0#0#101110#0#1200|1201#1#0#0#0#0#0#
 30026#As stars in the river sway#10#0#0#101120#0#1200|1201#1#0#0#0#0#0#
 30027#Cattle Gold Cattle#10#0#0#101200#0#1200|1201#1#0#0#0#0#0#
 30028#Star Day Horse#10#0#0#101210#0#1200|1201#1#0#0#0#0#0#
 30029#Doumu xie#10#0#0#101220#0#1200|1201#1#0#0#0#0#0#
-30030#The leaves are scattered at an angle, casting shadows#10#0#0#101300#0#1200|1201#1#0#0#0#0#0#
+30030#Slanting shadows interlace.#10#0#0#101300#0#1200|1201#1#0#0#0#0#0#
 30031#Traverse the Autumn River#10#0#0#101310#0#1200|1201#1#0#0#0#0#0#
 30032#Parting clouds to see the sun#10#0#0#101400#0#1200|1201#1#0#0#0#0#0#
 30033#Clouds steam and mists swirl#10#0#0#101410#0#1200|1201#1#0#0#0#0#0#
@@ -426,7 +426,7 @@
 30102#The aftermath of fierce winds and rain#10#0#0#110820#0#1200|1201#1#0#0#0#0#0#
 30103#Exorcising ghosts and subduing evil spirits#10#0#0#110900#0#1200|1201#1#0#0#0#0#0#
 30104#Esteemed Family of Ming De#10#0#0#110910#0#1200|1201#1#0#0#0#0#0#
-30105#The wind is howling fiercely, and the rain is pouring down hard#10#0#0#111000#0#1200|1201#1#0#0#0#0#0#
+30105#Blustering wind and pelting rain.#10#0#0#111000#0#1200|1201#1#0#0#0#0#0#
 30106#Slanting sun at life's end.#10#0#0#111010#0#1200|1201#1#0#0#0#0#0#
 30107#Blade Storage Technique#10#0#0#111100#0#1200|1201#1#0#0#0#0#0#
 30108#Fiery Wind Style#10#0#0#111110#0#1200|1201#1#0#0#0#0#0#
@@ -447,9 +447,9 @@
 30123#The King's Blow#10#0#0#120010#0#1200|1201#1#0#0#0#0#0#
 30124#Climbing to the clouds#10#0#0#120020#0#1200|1201#1#0#0#0#0#0#
 30125#Silver Snake Stabs at Throat#10#0#0#120100#0#1200|1201#1#0#0#0#0#0#
-30126#Flourishing and interweaving like a thousand flowers#10#0#0#120110#0#1200|1201#1#0#0#0#0#0#
+30126#Flourishing amidst a hundred flowers.#10#0#0#120110#0#1200|1201#1#0#0#0#0#0#
 30127#Dispelling delusions#10#0#0#120200#0#1200|1201#1#0#0#0#0#0#
-30128#When the hammer strikes, it will illuminate both sun and moon#10#0#0#120210#0#1200|1201#1#0#0#0#0#0#
+30128#Days and months in a mortar.#10#0#0#120210#0#1200|1201#1#0#0#0#0#0#
 30129#Fei Hong strikes the waterfall#10#0#0#120300#0#1200|1201#1#0#0#0#0#0#
 30130#Confront challenges head-on#10#0#0#120310#0#1200|1201#1#0#0#0#0#0#
 30131#Toppling of Ten Thousand Armies#10#0#0#120400#0#1200|1201#1#0#0#0#0#0#
@@ -489,7 +489,7 @@
 30165#The Deathly Palm#10#0#0#130110#0#1200|1201#1#0#0#0#0#0#
 30166#Shocked Martial Artist#10#0#0#130200#0#1200|1201#1#0#0#0#0#0#
 30167#Return Wind#10#0#0#130210#0#1200|1201#1#0#0#0#0#0#
-30168#Maintain balance in actions and keep a steady heart#10#0#0#130300#0#1200|1201#1#0#0#0#0#0#
+30168#Maintain a steady mind while upholding justice.#10#0#0#130300#0#1200|1201#1#0#0#0#0#0#
 30169#Carrying a torch against the wind#10#0#0#130310#0#1200|1201#1#0#0#0#0#0#
 30170#Chop cherry, frost falls#10#0#0#130400#0#1200|1201#1#0#0#0#0#0#
 30171#Snow drifts through the clouds#10#0#0#130410#0#1200|1201#1#0#0#0#0#0#
@@ -500,7 +500,7 @@
 30176#Roaming freely#10#0#0#130600#0#1200|1201#1#0#0#0#0#0#
 30177#Worldly Truth#10#0#0#130610#0#1200|1201#1#0#0#0#0#0#
 30178#Harmony in purity, simplicity of heart#10#0#0#130620#0#1200|1201#1#0#0#0#0#0#
-30179#In the blink of an eye, stars shift in their positions#10#0#0#130700#0#1200|1201#1#0#0#0#0#0#
+30179#Stars shift and turn; fortunes change.#10#0#0#130700#0#1200|1201#1#0#0#0#0#0#
 30180#Heaven and earth shall return to chaos#10#0#0#130710#0#1200|1201#1#0#0#0#0#0#
 30181#Picking out flowers in a bustling garden#10#0#0#130800#0#1200|1201#1#0#0#0#0#0#
 30182#For the common people#10#0#0#130810#0#1200|1201#1#0#0#0#0#0#
@@ -535,9 +535,9 @@
 30211#Fiery Plumage, Blazing Flame#10#0#0#132410#0#1200|1201#1#0#0#0#0#0#
 30212#Dragon's Claw Pounce#10#0#0#132500#0#1200|1201#1#0#0#0#0#0#
 30213#Black Tiger Climbs the Mountain#10#0#0#132510#0#1200|1201#1#0#0#0#0#0#
-30214#Visiting the Holy Mountains to Pay Respect to Buddha#10#0#0#132600#0#1200|1201#1#0#0#0#0#0#
+30214#Pilgrimage to Lingshan to worship Buddha.#10#0#0#132600#0#1200|1201#1#0#0#0#0#0#
 30215#The Ganges flows into the sea#10#0#0#132610#0#1200|1201#1#0#0#0#0#0#
-30216#They pressed down with a force equivalent to a thousand pounds#10#0#0#132700#0#1200|1201#1#0#0#0#0#0#
+30216#Exerting a thousand pounds of force.#10#0#0#132700#0#1200|1201#1#0#0#0#0#0#
 30217#Invoking the Golden Vajra to subdue demons.#10#0#0#132710#0#1200|1201#1#0#0#0#0#0#
 30218#The Dragon Elephant Pratyekabuddha Palm#10#0#0#132800#0#1200|1201#1#0#0#0#0#0#
 30219#Tai Chi Quan#10#0#0#132900#0#1200|1201#1#0#0#0#0#0#
@@ -551,7 +551,7 @@
 30227#The Yin-Yang Piercing Wheel#10#0#0#160100#0#1200|1201#1#0#0#0#0#0#
 30228#Lei Zhenzi#10#0#0#160110#0#1200|1201#1#0#0#0#0#0#
 30229#Piercing Bone Needle#10#0#0#160120#0#1200|1201#1#0#0#0#0#0#
-30230#In a realm where divine women scatter flowers, creating beauty in every corner#10#0#0#160200#0#1200|1201#1#0#0#0#0#0#
+30230#Scatter Blossoms of the Celestial Maidens.#10#0#0#160200#0#1200|1201#1#0#0#0#0#0#
 30231#Blooming flowers dance with fluttering butterflies#10#0#0#160210#0#1200|1201#1#0#0#0#0#0#
 30232#Thunder Jade#10#0#0#160300#0#1200|1201#1#0#0#0#0#0#
 30233#Xiedizi#10#0#0#160400#0#1200|1201#1#0#0#0#0#0#
@@ -577,7 +577,7 @@
 30253#Drinking blood#10#0#0#112200#0#1200|1201#1#0#0#0#0#0#
 30254#Quench Life#10#0#0#111900#0#1200|1201#1#0#0#0#0#0#
 30255#Brandish a blade#10#0#0#111910#0#1200|1201#1#0#0#0#0#0#
-30256#The legendary archer was said to have a three-segmented flying needle technique#10#0#0#161600#0#1200|1201#1#0#0#0#0#0#
+30256#Three-needle dart.#10#0#0#161600#0#1200|1201#1#0#0#0#0#0#
 30257#Ice Soul Needles, Rain#10#0#0#161700#0#1200|1201#1#0#0#0#0#0#
 30258#Ice needles rain#10#0#0#161800#0#1200|1201#1#0#0#0#0#0#
 30259#Winds sweep through the remnants of a tower#10#0#0#133110#0#1200|1201#1#0#0#0#0#0#

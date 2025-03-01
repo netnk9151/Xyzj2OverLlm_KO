@@ -140,20 +140,20 @@
 - lineNum: 10
   raw: "10#test传话 好感最高#1#60#0#5300041#5300032#5300044###0&32|1|5300042###1001##0##0#0#3#1|5300042#0##0##0##0#0#0##0#0#0###0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.2534335+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:37.0581017+08:00
     split: 1
     text: "test传话 好感最高"
-    translated: "Message Delivery Test - Highest Affection"
+    translated: "Message test: Favor highest."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11
   raw: "11#test传话 好感最低#1#60#0#5300001#5300032#5300004###0&32|2|5300002###1001##0##0#0#2#2|5300002#0##0##0##0#0#0##0#0#0###0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.2535918+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:37.7802642+08:00
     split: 1
     text: "test传话 好感最低"
-    translated: "Convey message: Lowest affinity"
+    translated: "Test message with favor at the lowest level."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -203,7 +203,7 @@
   - lastTranslatedOn: 2025-02-26T19:49:49.9585477+08:00
     split: 1
     text: "test107随机事件委托-背包有某道具"
-    translated: "Test 107 random event delegation. - The backpack contains a certain item."
+    translated: "Test 107 random event delegation - The backpack contains a certain item."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -330,10 +330,10 @@
 - lineNum: 120
   raw: "120#好友仇敌#1#0#0#0#0#0######0##0##2163#0#8##2##0##1000000##0#0#0##0#0#0###0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.2564401+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:36.7294699+08:00
     split: 1
     text: "好友仇敌"
-    translated: "Friend or foe"
+    translated: "Friends and enemies."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -462,10 +462,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:47:37.3695201+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:37.9914974+08:00
     split: 34
     text: "境界瓶1虚任务"
-    translated: "Vessel 1 Metaphysical Task"
+    translated: "Realm Bottle 1 Feigned Quest"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -479,10 +479,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:47:38.9038171+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:37.2888692+08:00
     split: 34
     text: "境界瓶2虚任务"
-    translated: "Virtual Boundary Bottle Task 2"
+    translated: "Realm bottle 2 empty task"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -523,34 +523,34 @@
 - lineNum: 210
   raw: "210#境界瓶颈5#0#0#0#0#0#0####11##0#0#0#0#0#0#113#311|312|313#3#0#0##0##0#0#0##0#0#0#境界瓶5虚任务##0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T19:47:39.3677219+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:36.9007477+08:00
     split: 1
     text: "境界瓶颈5"
-    translated: "Stagnation at Stage 5"
+    translated: "Realm bottleneck 5"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:47:40.6332347+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:36.7730423+08:00
     split: 34
     text: "境界瓶5虚任务"
-    translated: "Boundary Pot 5 Fake Quest"
+    translated: "Vessel of the Realm 5, a phantom task."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 211
   raw: "211#境界瓶颈6#0#0#0#0#0#0####12##0#0#0#0#0#0#113#321|322|323#3#0#0##0##0#0#0##0#0#0#境界瓶6虚任务##0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T19:47:38.4844187+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:37.5682494+08:00
     split: 1
     text: "境界瓶颈6"
-    translated: "Stagnation of Proficiency 6"
+    translated: "Realm bottleneck 6"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:47:37.9455581+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:38.6068457+08:00
     split: 34
     text: "境界瓶6虚任务"
-    translated: "Voyage Pot 6 Phantom Task"
+    translated: "Vessel of Realm, 6, a phantom task."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1126,10 +1126,10 @@
 - lineNum: 293
   raw: "293#境界3传话#0#0#0#952655#952650#952651######0#7001|2&7002|2#0#0#0#0#24#952653#0#0#0##0##0#0#0##0#0#0#与{E}交谈（{IsCanFinish:0:1}/1）#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-26T19:47:46.0960851+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:38.7503998+08:00
     split: 1
     text: "境界3传话"
-    translated: "Level 3 Whispering Technique"
+    translated: "Realm 3 Messenger"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2937,10 +2937,10 @@
 - lineNum: 100101
   raw: "100101#采集矿石#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9013|1#1##0#城中的铁匠需要换一把工具，因此需要往采集一些后山的矿石，故颁此令征一块{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#采集矿石#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3034808+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:36.9249339+08:00
     split: 1
     text: "采集矿石"
-    translated: "Collecting ore"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2965,10 +2965,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3040017+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:36.9249645+08:00
     split: 37
     text: "采集矿石"
-    translated: "Collecting ore"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3058,10 +3058,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:48:09.2680186+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:39.8882273+08:00
     split: 24
     text: "嘿嘿，一位冤大头竟要花大价钱要打造一把材质普通的兵器，且让我先收三块所需的{I}来，这次一定要狠狠赚上一笔差价！"
-    translated: "Ha ha, a wealthy person wants to commission an ordinary weapon for a high price and asks me to take three pieces of the needed {I} upfront. This time I'll definitely make a hefty profit margin!"
+    translated: "Hee hee, a big loser is willing to pay top dollar for forging an ordinary weapon, and I'm asking you to give me three pieces of the required {I} first. This time, I'll definitely make a hefty profit!"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3507,10 +3507,10 @@
 - lineNum: 100158
   raw: "100158#好书成痴#0#0#0#0#0#0######0#8005|1&8011|1&8013|2#0##0#0#107#9021|3#1##0#人生可以没有好酒好肉，但不可不读好书，鄙人阅书无数，求书若渴，便想寻些珍奇书卷，故颁此令征三本{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#好书成痴#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3142022+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:40.0588020+08:00
     split: 1
     text: "好书成痴"
-    translated: "Books so captivating they make one lose themselves in reading"
+    translated: "Being obsessed with a good book."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3535,10 +3535,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3147384+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:40.1644178+08:00
     split: 37
     text: "好书成痴"
-    translated: "Books so captivating they make one lose themselves in reading"
+    translated: "Being obsessed with a good book."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4571,10 +4571,10 @@
 - lineNum: 100451
   raw: "100451#答友之礼#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9024|1#1##0#交友数年，他帮衬我良多，今日想寻一枚{I}送他，也不知道合不合他心意。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#答友之礼#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3375682+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:40.3258559+08:00
     split: 1
     text: "答友之礼"
-    translated: "To honor a reply from a fellow. This phrase often implies recognizing and appreciating the effort or kindness of someone who has responded to one's question or request"
+    translated: "The courtesy of a respondent."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4599,10 +4599,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3381074+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.6220472+08:00
     split: 37
     text: "答友之礼"
-    translated: "To honor a reply from a fellow. This phrase often implies recognizing and appreciating the effort or kindness of someone who has responded to one's question or request"
+    translated: "The courtesy of a respondent."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4616,10 +4616,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:48:06.0393699+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.2676601+08:00
     split: 24
     text: "想打造一对首饰，让我与我的金兰之交得以各存一只，以证我二人情谊。听闻{I}是个好东西，故颁此令征两个{I}。"
-    translated: "I wish to craft a pair of jewelry pieces so that I and my sworn brother can each keep one, as proof of our deep bond. I've heard that {I} is an excellent material for this purpose, hence I issue this order to commission two {I}."
+    translated: "I wish to forge a pair of jewelry so that I and my sworn brother can each have one as proof of our friendship. It is said that {I} is a good thing, hence this order is issued to procure two {I}."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5255,10 +5255,10 @@
 - lineNum: 100553
   raw: "100553#粉白黛绿#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9017|2#1##0#服装商近来发现动物羽毛对衣物有很好的装饰作用，故颁此令征两份{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#粉白黛绿#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3506710+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.4432817+08:00
     split: 1
     text: "粉白黛绿"
-    translated: "Face powdered white, eyebrows blackened, lips colored red"
+    translated: "Pink, white, and green."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5283,10 +5283,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3511982+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.6220485+08:00
     split: 37
     text: "粉白黛绿"
-    translated: "Face powdered white, eyebrows blackened, lips colored red"
+    translated: "Pink, white, and green."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5407,10 +5407,10 @@
 - lineNum: 100557
   raw: "100557#旁搜博采#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9017|3#1##0#在下素日里就爱收藏一些奇珍异宝，故颁此令征三份{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#旁搜博采#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3534070+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.6220136+08:00
     split: 1
     text: "旁搜博采"
-    translated: "Seeking out and gathering information from all available sources"
+    translated: "Scour widely and select carefully."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5435,10 +5435,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3539299+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:41.6220488+08:00
     split: 37
     text: "旁搜博采"
-    translated: "Seeking out and gathering information from all available sources"
+    translated: "Scour widely and select carefully."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5635,10 +5635,10 @@
 - lineNum: 100605
   raw: "100605#饱食暖衣#0#0#0#0#0#0######0#8005|1&8011|1&8013|2#0##0#0#107#9016|5#1##0#村长念及村民辛苦劳累，想自掏腰包买些布匹赠予村民，故颁此令征五匹{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#饱食暖衣#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3575383+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.0041165+08:00
     split: 1
     text: "饱食暖衣"
-    translated: "Fulfilling one's basic needs of having enough to eat and wear"
+    translated: "Full bellies, warm clothes."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5663,10 +5663,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3580292+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1502086+08:00
     split: 37
     text: "饱食暖衣"
-    translated: "Fulfilling one's basic needs of having enough to eat and wear"
+    translated: "Full bellies, warm clothes."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5711,10 +5711,10 @@
 - lineNum: 100607
   raw: "100607#扇枕温席#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9016|2#1##0#在下远离家乡父母多年，一朝回乡，望携衣物孝顺父母，故颁此令征两匹{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#扇枕温席#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3588232+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:42.0508488+08:00
     split: 1
     text: "扇枕温席"
-    translated: "Like lying on a bed of silk pillows, surrounded by warmth"
+    translated: "Fan pillow, warm bedding."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5739,10 +5739,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3593165+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1502090+08:00
     split: 37
     text: "扇枕温席"
-    translated: "Like lying on a bed of silk pillows, surrounded by warmth"
+    translated: "Fan pillow, warm bedding."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5787,10 +5787,10 @@
 - lineNum: 100609
   raw: "100609#冬裘夏葛#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9016|3#1##0#服装店近来研制出了一款夏日清凉之衣，但材料难得，故颁此令征三匹{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#冬裘夏葛#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3601338+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:43.8409952+08:00
     split: 1
     text: "冬裘夏葛"
-    translated: "Wearing a winter coat in summer or cotton clothes in winter"
+    translated: "Woolen coats in winter, linen clothes in summer."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5815,10 +5815,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3606299+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1502092+08:00
     split: 37
     text: "冬裘夏葛"
-    translated: "Wearing a winter coat in summer or cotton clothes in winter"
+    translated: "Woolen coats in winter, linen clothes in summer."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6357,10 +6357,10 @@
 - lineNum: 100707
   raw: "100707#三星在户#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9023|1#1##0#我将要与一将士皆为婚约，想为其准备一份礼物，故悬赏一件{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#三星在户#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3701241+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:43.5860228+08:00
     split: 1
     text: "三星在户"
-    translated: "Within three generations, a family's reputation is established"
+    translated: "Three stars in the home."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6385,10 +6385,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3706098+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1502103+08:00
     split: 37
     text: "三星在户"
-    translated: "Within three generations, a family's reputation is established"
+    translated: "Three stars in the home."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6585,10 +6585,10 @@
 - lineNum: 100755
   raw: "100755#栽赃嫁祸#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9022|5#1##0#只需给一批武器小做手脚，就能栽赃那个奸商，拖其下水指日可待，特颁此令征五把{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#栽赃嫁祸#0##94|20&91|20#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3742520+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1501740+08:00
     split: 1
     text: "栽赃嫁祸"
-    translated: "Setting up a false charge or framing someone"
+    translated: "Frame up and shift blame."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6613,10 +6613,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3747449+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.1502108+08:00
     split: 37
     text: "栽赃嫁祸"
-    translated: "Setting up a false charge or framing someone"
+    translated: "Frame up and shift blame."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6972,10 +6972,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:49:52.9361547+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:43.1978697+08:00
     split: 24
     text: "掌门之子周岁在即，我欲赶礼，几经挑选，选中{I}，苦于无法出宗门，特设此令，收集五份{I}以作周岁之礼。"
-    translated: "Master's son Zhou is about to turn one year old, and I wish to present a gift. After careful selection, I chose {I}, but am unable to leave the sect. Therefore, I issue this order: collect five copies of {I} to serve as the birthday gift."
+    translated: "Sect Leader's child Zhou is about to celebrate a birthday. I wish to give a gift in time and have chosen {I} after much deliberation. However, unable to leave the sect, I issue this order: collect five copies of {I} to serve as a birthday present."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7383,10 +7383,10 @@
 - lineNum: 101002
   raw: "101002#行侠仗义#0#0#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#{E}作恶多端，视人命如草芥！三国界内有不少平民被他所害，现颁此令请高手为民除害！#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0#行侠仗义#0##94|40&91|40#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3885138+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.3792841+08:00
     split: 1
     text: "行侠仗义"
-    translated: "Championing righteousness and aiding others without regard for one's own interests"
+    translated: "Championing righteousness and aiding others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7411,20 +7411,20 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3890357+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.3793111+08:00
     split: 37
     text: "行侠仗义"
-    translated: "Championing righteousness and aiding others without regard for one's own interests"
+    translated: "Championing righteousness and aiding others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 101003
   raw: "101003#行侠仗义#0#0#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#北地有一恶霸名为{E}，烧杀抢掠，无恶不作！现以重赏金颁布此令请有志之士除暴安良！#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0#行侠仗义#0##94|40&91|40#0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.3891970+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.3793111+08:00
     split: 1
     text: "行侠仗义"
-    translated: "Championing righteousness and aiding others without regard for one's own interests"
+    translated: "Championing righteousness and aiding others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7449,10 +7449,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.3897067+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.3793112+08:00
     split: 37
     text: "行侠仗义"
-    translated: "Championing righteousness and aiding others without regard for one's own interests"
+    translated: "Championing righteousness and aiding others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9678,10 +9678,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.4254961+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:45.0091688+08:00
     split: 37
     text: "代为扫墓"
-    translated: "Attend the grave-sweeping ceremony on behalf of someone else"
+    translated: "To sweep one's grave in their stead."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9936,10 +9936,10 @@
 - lineNum: 220111
   raw: "220111#缝纫（大雪山）#1#1200#0#950153#950143#950144######0#7001|2&7006|1#0##0#0#11#53|1#0##0##20##0#0#0##0#0#0#{WaitLifeSkillUseAttritypeName}｛WaitLifeSkillUseAttritypeCount}次（{HaveWaitLifeSkillUseAttritypeCount}/{WaitLifeSkillUseAttritypeCount})#回禀{A}#1#缝纫心得#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4276189+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:44.5615256+08:00
     split: 1
     text: "缝纫（大雪山）"
-    translated: "Embroidery (on the Great Snow Mountain)"
+    translated: "Tailoring (Great Snow Mountain)"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -10763,10 +10763,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.4333892+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:45.5362152+08:00
     split: 37
     text: "走马上任"
-    translated: "Appointed to office swiftly, like a horse galloping into position"
+    translated: "Appointed to a position while riding past."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15467,10 +15467,10 @@
 - lineNum: 325076
   raw: "325076#送回旧物#1#1200#0#5430435#5430444#5430443######0#7001|2&7004|2#0##0#0#26#0|1|5430440|20405|37194#0##0##0##0#0#0##0#0#0#将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4551494+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:45.6773331+08:00
     split: 1
     text: "送回旧物"
-    translated: "Return it to its original owner"
+    translated: "Return the old item."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15779,10 +15779,10 @@
 - lineNum: 325097
   raw: "325097#与人过招#1#1200#0#5430535#5430542#5430541######0#7001|2&7006|1#0##0#0#28#1|0#0##0##0##0#0#0##0#0#0#与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4562298+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:37.4120574+08:00
     split: 1
     text: "与人过招"
-    translated: "Engaging in a confrontation or showdown with others"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -15875,10 +15875,10 @@
 - lineNum: 325101
   raw: "325101#与人过招#1#1200#0#5430567#5430571#5430570######0#7001|2&7006|1#0##0#0#28#1|0#0##0##0##0#0#0##0#0#0#与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4565578+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:37.4120878+08:00
     split: 1
     text: "与人过招"
-    translated: "Engaging in a confrontation or showdown with others"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16427,10 +16427,10 @@
 - lineNum: 325137
   raw: "325137#机关秘法#1#1200#0#5430727#5430731#5430730######0#7001|2&7002|2#0##0#0#25#8018|5|0#0##0##0##0#0#0##0#0#0#获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})#将{I}交给{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4584913+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:46.5805951+08:00
     split: 1
     text: "机关秘法"
-    translated: "Secret techniques of an organization"
+    translated: "Secret techniques of the martial sect."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16547,10 +16547,10 @@
 - lineNum: 325145
   raw: "325145#强硬之辈#1#1200#0#5430765#5430769#5430768######0#7001|2&7006|1#0##0#0#28#1|2|20402#0##0##0##0#0#0##0#0#0#与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4589213+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:37.5522746+08:00
     split: 1
     text: "强硬之辈"
-    translated: "One of a tough or forceful kind"
+    translated: "Tough-minded individuals."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16619,10 +16619,10 @@
 - lineNum: 325148
   raw: "325148#心有牵挂#1#1200#0#5430782#5430788#5430787######0#7001|2&7005|1#0##0#0#27##0##0##0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1）#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4591714+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.0266850+08:00
     split: 1
     text: "心有牵挂"
-    translated: "Heartfelt concern or lingering attachment"
+    translated: "Preoccupied with thoughts."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16907,10 +16907,10 @@
 - lineNum: 325168
   raw: "325168#勤学苦修#1#1200#0#5430876#5430880#5430879######0#7001|2&7008|1#0##0#0#29#7010|1#0##0##0##0#0#0##0#0#0#阅读｛I}｛N}次（{WaitEntrustTargetItemMatchCount}/{N})#回禀{E}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4600852+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:46.4169772+08:00
     split: 1
     text: "勤学苦修"
-    translated: "Devoting oneself to diligent study and hard practice"
+    translated: "Diligent study and hard practice."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17099,10 +17099,10 @@
 - lineNum: 325181
   raw: "325181#意外之伤#1#1200#0#5430931#5430934#5430933######0#7001|2&7002|2#0##0#0#25#7003|5|0#0##0##0##0#0#0##0#0#0#获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})#将{I}交给{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4606768+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:46.2406594+08:00
     split: 1
     text: "意外之伤"
-    translated: "An unforeseen misfortune or a fatal flaw"
+    translated: "An unexpected injury."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17363,10 +17363,10 @@
 - lineNum: 325195
   raw: "325195#行侠仗义#1#1200#0#5431013#5431018#5431017###0&41|20426###0#7011|1#0##0#0#7#20426#0##0##0##0#0#0##0#0#0#击败目标点{m_WaitEntrustKillNpcOriginSwapointId}处的敌人（{WaitEntrustTargetItemMatchCount}/{WaitEntrustKillNpcSwapointIdCount}）#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4615012+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:46.1133853+08:00
     split: 1
     text: "行侠仗义"
-    translated: "Championing righteousness and aiding others without regard for one's own interests"
+    translated: "Championing righteousness and aiding others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17699,10 +17699,10 @@
 - lineNum: 325220
   raw: "325220#鬼祟之人#1#1200#0#5431120#5431126#5431125###0&41|20430###0#7011|1#0##0#0#7#20430#0##0##0##0#0#0##0#0#0#击败目标点{m_WaitEntrustKillNpcOriginSwapointId}处的敌人（{WaitEntrustTargetItemMatchCount}/{WaitEntrustKillNpcSwapointIdCount}）#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4625584+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.3276253+08:00
     split: 1
     text: "鬼祟之人"
-    translated: "A sly or elusive person"
+    translated: "A shadowy figure."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -18227,10 +18227,10 @@
 - lineNum: 325246
   raw: "325246#走火入魔#1#1200#0#5431279#5431284#5431283######0#7001|2&7002|2#0##0#0#25#8010|8|0#0##0##0##0#0#0##0#0#0#获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})#将{I}交给{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4642534+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.1900332+08:00
     split: 1
     text: "走火入魔"
-    translated: "Undergoing a spiritual or mental breakdown"
+    translated: "Possessed by a demon."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22801,10 +22801,10 @@
 - lineNum: 360005
   raw: "360005#拜访大雪山#1#1200#0#952156#952149#952147##65006|30####0#7001|2&7006|1#0##0#0#24#952153|75025#0##0##0##0#0#0##0#0#0#与{E}交谈（{IsCanFinish:0:1}/1）#回禀{A}#1#拜访大雪山#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:39:21.9031422+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.4768455+08:00
     split: 1
     text: "拜访大雪山"
-    translated: "Visit the Great Snow Mountain."
+    translated: "Visit Great Snow Mountain."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22822,10 +22822,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T16:39:26.1348250+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.4768711+08:00
     split: 37
     text: "拜访大雪山"
-    translated: "Visit the Great Snow Mountain."
+    translated: "Visit Great Snow Mountain."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -25177,10 +25177,10 @@
 - lineNum: 375007
   raw: "375007#扰人清修#0#1200#0#5470021#5470023#5470022######0#7001|2&7006|1#0##0#0#28#1|0#0##0##0##0#0#0##0#0#0#与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4873289+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:47.6895232+08:00
     split: 1
     text: "扰人清修"
-    translated: "Disturb someone's reclusive pursuit of self-cultivation"
+    translated: "Disturb someone in their meditative practice."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -25969,10 +25969,10 @@
 - lineNum: 375047
   raw: "375047#贪狼切磋#0#1200#0#5470175#5470177#5470176######0#7001|2&7006|1#0##0#0#28#1|1#0##0##0##0#0#0##0#0#0#与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)#回禀{A}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4896226+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:37.8012322+08:00
     split: 1
     text: "贪狼切磋"
-    translated: "Competing in a test of skill or prowess"
+    translated: "Clashing of Talents between Tian Lang and Others."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -27628,7 +27628,7 @@
   - lastTranslatedOn: 2025-02-26T19:53:28.4212314+08:00
     split: 1
     text: "连鹭属性-种植"
-    translated: "Reed Bird Attribute. - Planting"
+    translated: "Reed Bird Attribute - Planting"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -27724,7 +27724,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:41.5269776+08:00
     split: 1
     text: "千霁属性-打猎"
-    translated: "Qian Ji's attributes. - Hunting."
+    translated: "Qian Ji's attributes - Hunting."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28012,7 +28012,7 @@
   - lastTranslatedOn: 2025-02-26T19:53:12.1473687+08:00
     split: 1
     text: "捭阖属性-农学"
-    translated: "Expand and contract attribute. - Agronomy"
+    translated: "Expand and contract attribute - Agronomy"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28300,7 +28300,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:37.8742901+08:00
     split: 1
     text: "连横属性-炼丹"
-    translated: "Lian Heng attributes. - Alchemy."
+    translated: "Lian Heng attributes - Alchemy."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28417,7 +28417,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:42.6361977+08:00
     split: 1
     text: "雁州寻物-宝物"
-    translated: "Seeking items in Yan Prefecture. - Treasure"
+    translated: "Seeking items in Yan Prefecture - Treasure"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28479,7 +28479,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:43.6513373+08:00
     split: 1
     text: "雁州寻物-美食"
-    translated: "Seeking Objects in Yan Prefecture. - Culinary delights."
+    translated: "Seeking Objects in Yan Prefecture - Culinary delights."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28507,10 +28507,10 @@
 - lineNum: 380007
   raw: "380007#望尘除敌#0#0#0#0#0#0#0#0#0#0##0#8001|1&8011|1&8012|1#0#0#0#0#102#1#1##0#客栈附近有似乎有不速之客，欲对客栈不轨。特寻侠士将{E}除去，解我客栈忧患。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.4972836+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:48.6326258+08:00
     split: 1
     text: "望尘除敌"
-    translated: "Extinguish enemies as dust vanishes into the horizon"
+    translated: "Vanquish one's enemies as if they were dust."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28603,7 +28603,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:46.0950268+08:00
     split: 1
     text: "望尘寻物-酿酒材料"
-    translated: "Chasing after a fleeting shadow. - Fermentation ingredients."
+    translated: "Chasing after a fleeting shadow - Fermentation ingredients."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28634,7 +28634,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:43.7334784+08:00
     split: 1
     text: "望尘寻物-食材"
-    translated: "Chasing after ephemeral hopes. - Ingredients."
+    translated: "Chasing after ephemeral hopes - Ingredients."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28665,7 +28665,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:54.4798606+08:00
     split: 1
     text: "昭月寻物-丹药"
-    translated: "Zhaoyue seeks something. - Elixir Herb"
+    translated: "Zhaoyue seeks something - Elixir Herb"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28727,7 +28727,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:08.8825948+08:00
     split: 1
     text: "昭月寻物-防具"
-    translated: "Zhaoyue seeks something. - Armor"
+    translated: "Zhaoyue seeks something - Armor"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29099,7 +29099,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:41.6860207+08:00
     split: 1
     text: "穆特切磋-胜"
-    translated: "Mute discusses tactics. - Victory."
+    translated: "Mute discusses tactics - Victory."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29130,7 +29130,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:38.0668863+08:00
     split: 1
     text: "雁门关锄奸-初"
-    translated: "Clearing bandits at Yanmen Pass. - Beginnings."
+    translated: "Clearing bandits at Yanmen Pass - Beginnings."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29161,7 +29161,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:52.2203597+08:00
     split: 1
     text: "雁门关平乱-初"
-    translated: "Yanmen Guan in turmoil. - Begin."
+    translated: "Yanmen Guan in turmoil - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29223,7 +29223,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:42.7073868+08:00
     split: 1
     text: "雁门关夺回情报-初"
-    translated: "Reclaimed intelligence from Yanmen Pass. - Begin."
+    translated: "Reclaimed intelligence from Yanmen Pass - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29254,7 +29254,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:27.5932768+08:00
     split: 1
     text: "雁门关寻物-初"
-    translated: "Seeking items at Yanmen Pass. - Begin."
+    translated: "Seeking items at Yanmen Pass - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29285,7 +29285,7 @@
   - lastTranslatedOn: 2025-02-27T14:06:36.6666647+08:00
     split: 1
     text: "雁门关平乱-中"
-    translated: "Yanmen Guan, turmoil abates. - Middle."
+    translated: "Yanmen Guan, turmoil abates - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29316,7 +29316,7 @@
   - lastTranslatedOn: 2025-02-27T14:01:03.2780173+08:00
     split: 1
     text: "雁门关夺取情报-中"
-    translated: "Acquire intelligence at Yanmen Pass. - Middle."
+    translated: "Acquire intelligence at Yanmen Pass - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29347,7 +29347,7 @@
   - lastTranslatedOn: 2025-02-27T16:20:13.9020759+08:00
     split: 1
     text: "雁门关夺回情报-中"
-    translated: "Yanmen Guan recovers intelligence. - Middle."
+    translated: "Yanmen Guan recovers intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29378,7 +29378,7 @@
   - lastTranslatedOn: 2025-02-27T14:04:55.7817325+08:00
     split: 1
     text: "雁门关锄奸-中"
-    translated: "Yanmenguan chujian. - Middle."
+    translated: "Yanmenguan chujian - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29409,7 +29409,7 @@
   - lastTranslatedOn: 2025-02-27T13:58:36.4314317+08:00
     split: 1
     text: "雁门关寻物-中"
-    translated: "Guan of Yanmen Pass seeks a treasure. - Middle."
+    translated: "Guan of Yanmen Pass seeks a treasure - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29471,7 +29471,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:00.3532934+08:00
     split: 1
     text: "雁门关平乱-高"
-    translated: "Yanmen Guan, chaos spreads. - Tall."
+    translated: "Yanmen Guan, chaos spreads - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29502,7 +29502,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:00.9945763+08:00
     split: 1
     text: "雁门关夺取情报-高"
-    translated: "Capture intelligence at Yanmen Pass. - Tall."
+    translated: "Capture intelligence at Yanmen Pass - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29533,7 +29533,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:01.1466857+08:00
     split: 1
     text: "雁门关寻物-高"
-    translated: "Seeking items at Yanmen Pass. - Tall."
+    translated: "Seeking items at Yanmen Pass - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29564,7 +29564,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:13.5697075+08:00
     split: 1
     text: "雁门关寻药-高"
-    translated: "Seeking medicine at Yanmen Pass. - Tall."
+    translated: "Seeking medicine at Yanmen Pass - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29595,7 +29595,7 @@
   - lastTranslatedOn: 2025-02-27T13:37:38.6365430+08:00
     split: 1
     text: "雁州锄奸-中"
-    translated: "Exposing traitors in Yan Prefecture. - Middle."
+    translated: "Exposing traitors in Yan Prefecture - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29626,7 +29626,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:01.7133271+08:00
     split: 1
     text: "雁州平乱-中"
-    translated: "Peace has been restored to Yan Prefecture. - Central."
+    translated: "Peace has been restored to Yan Prefecture - Central."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29657,7 +29657,7 @@
   - lastTranslatedOn: 2025-02-27T17:57:52.5850341+08:00
     split: 1
     text: "雁州切磋-中"
-    translated: "Engaging in discussions and exchanges at Yan Prefecture. - Middle."
+    translated: "Engaging in discussions and exchanges at Yan Prefecture - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29688,7 +29688,7 @@
   - lastTranslatedOn: 2025-02-27T14:02:06.0616998+08:00
     split: 1
     text: "雁州夺回情报-中"
-    translated: "Yan Prefecture retrieves intelligence. - Middle."
+    translated: "Yan Prefecture retrieves intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29719,7 +29719,7 @@
   - lastTranslatedOn: 2025-02-27T14:10:03.8079343+08:00
     split: 1
     text: "雁州寻丹药-中"
-    translated: "Seeking elixir of immortality in Yan Prefecture. - Middle."
+    translated: "Seeking elixir of immortality in Yan Prefecture - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29781,7 +29781,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:08.2193751+08:00
     split: 1
     text: "雁州平乱-高"
-    translated: "Yan Prefecture has been pacified. - Tall."
+    translated: "Yan Prefecture has been pacified - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29812,14 +29812,14 @@
   - lastTranslatedOn: 2025-02-27T13:34:06.6331473+08:00
     split: 1
     text: "雁州切磋-高"
-    translated: "Competitive training in Yan Prefecture. - Tall."
+    translated: "Competitive training in Yan Prefecture - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:53:14.0368712+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:49.7513484+08:00
     split: 24
     text: "本人多年习武，现已至瓶颈而不得突破。特寻武艺高强者与我切磋助我突破境界，事成者定有重谢——{E}。"
-    translated: "Having practiced martial arts for many years, I have now reached a plateau and cannot make further progress. Therefore, I am seeking someone with superior martial skills to spar with me in order to help me break through this barrier. If successful, I will surely offer substantial gratitude—{E}."
+    translated: "I have practiced martial arts for many years and have now reached a plateau that I cannot overcome. Therefore, I seek someone skilled in martial arts to spar with me so as to help me break through this realm. Should I succeed, there will be a substantial reward—{E}."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29843,7 +29843,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:36.0437384+08:00
     split: 1
     text: "雁州夺取情报-高"
-    translated: "Intelligence acquired from Yan Prefecture. - Tall."
+    translated: "Intelligence acquired from Yan Prefecture - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29874,7 +29874,7 @@
   - lastTranslatedOn: 2025-02-27T13:40:49.2715067+08:00
     split: 1
     text: "雁州寻矿石-高"
-    translated: "Yan Prefecture searching for ore. - Tall."
+    translated: "Yan Prefecture searching for ore - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29936,7 +29936,7 @@
   - lastTranslatedOn: 2025-02-27T15:31:17.2584764+08:00
     split: 1
     text: "客栈切磋-中"
-    translated: "Inn sparring session. - Middle."
+    translated: "Inn sparring session - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -29967,7 +29967,7 @@
   - lastTranslatedOn: 2025-02-27T13:54:01.1104243+08:00
     split: 1
     text: "客栈平乱-中"
-    translated: "The inn returns to peace. - Middle."
+    translated: "The inn returns to peace - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30277,7 +30277,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:19.3640328+08:00
     split: 1
     text: "不周锄奸-初"
-    translated: "Exposing and rooting out villains. - Begin."
+    translated: "Exposing and rooting out villains - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30308,7 +30308,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:31.0586978+08:00
     split: 1
     text: "不周切磋-初"
-    translated: "Engage in mutual discussion and refinement. - Beginnings."
+    translated: "Engage in mutual discussion and refinement - Beginnings."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30339,7 +30339,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:52.3531849+08:00
     split: 1
     text: "不周平乱-初"
-    translated: "Chaos without a pattern or disorderly chaos. This phrase suggests a state of complete disorder where no discernible structure or order exists. It conveys a sense of overwhelming and unpredictable confusion. - Begin."
+    translated: "Chaos without a pattern or disorderly chaos. This phrase suggests a state of complete disorder where no discernible structure or order exists. It conveys a sense of overwhelming and unpredictable confusion - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30370,7 +30370,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:15.5633414+08:00
     split: 1
     text: "不周夺取情报-初"
-    translated: "Bu Zhou steals the intelligence. - Beginnings."
+    translated: "Bu Zhou steals the intelligence - Beginnings."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30401,7 +30401,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:14.1744721+08:00
     split: 1
     text: "不周夺回情报-初"
-    translated: "Bu Zhou retrieves the intelligence. - Beginnings."
+    translated: "Bu Zhou retrieves the intelligence - Beginnings."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30432,7 +30432,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:57.5118819+08:00
     split: 1
     text: "不周寻物-初"
-    translated: "Inquire into rare or unusual items. - Firstly."
+    translated: "Inquire into rare or unusual items - Firstly."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30463,7 +30463,7 @@
   - lastTranslatedOn: 2025-02-27T13:49:37.0346287+08:00
     split: 1
     text: "不周锄奸-中"
-    translated: "Exposing hidden conspiracies. - Middle."
+    translated: "Exposing hidden conspiracies - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30494,7 +30494,7 @@
   - lastTranslatedOn: 2025-02-27T13:49:28.3160558+08:00
     split: 1
     text: "不周切磋-中"
-    translated: "Frequent discussion and exchange of ideas. - Middle."
+    translated: "Frequent discussion and exchange of ideas - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30525,7 +30525,7 @@
   - lastTranslatedOn: 2025-02-27T14:08:10.5461607+08:00
     split: 1
     text: "不周平乱-中"
-    translated: "Chaos without a clear pattern. - Middle."
+    translated: "Chaos without a clear pattern - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30556,7 +30556,7 @@
   - lastTranslatedOn: 2025-02-27T13:46:17.0943029+08:00
     split: 1
     text: "不周夺取情报-中"
-    translated: "Bu Zhou seizes intelligence. - Middle."
+    translated: "Bu Zhou seizes intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30587,7 +30587,7 @@
   - lastTranslatedOn: 2025-02-27T17:57:54.2217667+08:00
     split: 1
     text: "不周夺回情报-中"
-    translated: "Buzhou retrieves the intelligence. - Middle."
+    translated: "Buzhou retrieves the intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30618,7 +30618,7 @@
   - lastTranslatedOn: 2025-02-27T13:58:00.0872685+08:00
     split: 1
     text: "不周寻物-中"
-    translated: "Seeking something elusive. - Middle."
+    translated: "Seeking something elusive - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30649,7 +30649,7 @@
   - lastTranslatedOn: 2025-02-27T07:48:04.1353439+08:00
     split: 1
     text: "不周锄奸-高"
-    translated: "Expose hidden villains. - Tall."
+    translated: "Expose hidden villains - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30680,7 +30680,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:33.9263386+08:00
     split: 1
     text: "不周切磋-高"
-    translated: "Mutual polishing. - Tall."
+    translated: "Mutual polishing - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30711,7 +30711,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:29.6700909+08:00
     split: 1
     text: "不周平乱-高"
-    translated: "Chaotic world of Bu Zhouping. - Tall."
+    translated: "Chaotic world of Bu Zhouping - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30742,7 +30742,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:22.8064284+08:00
     split: 1
     text: "不周夺取情报-高"
-    translated: "Bu Zhou seizes intelligence. - Tall."
+    translated: "Bu Zhou seizes intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30773,7 +30773,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:22.7883473+08:00
     split: 1
     text: "不周夺回情报-高"
-    translated: "Bu Zhou recovers the intelligence. - Tall."
+    translated: "Bu Zhou recovers the intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30804,7 +30804,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:23.8780898+08:00
     split: 1
     text: "不周寻物-高"
-    translated: "Seeking something elusive. - Tall."
+    translated: "Seeking something elusive - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30835,7 +30835,7 @@
   - lastTranslatedOn: 2025-02-27T13:48:54.9429497+08:00
     split: 1
     text: "昭月锄奸-中"
-    translated: "Purge under the moonlight. - Middle."
+    translated: "Purge under the moonlight - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30866,7 +30866,7 @@
   - lastTranslatedOn: 2025-02-27T13:41:43.8101083+08:00
     split: 1
     text: "昭月切磋-中"
-    translated: "Practice together through mutual challenge. - Middle."
+    translated: "Practice together through mutual challenge - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30897,7 +30897,7 @@
   - lastTranslatedOn: 2025-02-27T13:59:20.3288714+08:00
     split: 1
     text: "昭月平乱-中"
-    translated: "Bring Peace to Zhao Yue. - Central."
+    translated: "Bring Peace to Zhao Yue - Central."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30928,7 +30928,7 @@
   - lastTranslatedOn: 2025-02-27T14:04:43.3724342+08:00
     split: 1
     text: "昭月夺取情报-中"
-    translated: "Zhaoyue acquires intelligence. - Middle."
+    translated: "Zhaoyue acquires intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30959,7 +30959,7 @@
   - lastTranslatedOn: 2025-02-27T13:47:02.2879620+08:00
     split: 1
     text: "昭月夺回情报-中"
-    translated: "Zhaoyue retrieves the intelligence. - Middle."
+    translated: "Zhaoyue retrieves the intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30990,7 +30990,7 @@
   - lastTranslatedOn: 2025-02-27T13:58:08.8909518+08:00
     split: 1
     text: "昭月寻物-中"
-    translated: "Zhaoyue seeks treasures. - Middle."
+    translated: "Zhaoyue seeks treasures - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31021,7 +31021,7 @@
   - lastTranslatedOn: 2025-02-27T13:37:17.8847875+08:00
     split: 1
     text: "昭月锄奸-高"
-    translated: "Expose villains by moonlight. - Tall."
+    translated: "Expose villains by moonlight - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31052,7 +31052,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:03.2191787+08:00
     split: 1
     text: "昭月切磋-高"
-    translated: "Rival in skill under the moonlight. - Tall."
+    translated: "Rival in skill under the moonlight - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31114,7 +31114,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:33.9633955+08:00
     split: 1
     text: "昭月夺取情报-高"
-    translated: "Zhaoyue seizes the intelligence. - High"
+    translated: "Zhaoyue seizes the intelligence - High"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31145,7 +31145,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:52.2862589+08:00
     split: 1
     text: "昭月夺回情报-高"
-    translated: "Zhao Yue recovers the intelligence. - High"
+    translated: "Zhao Yue recovers the intelligence - High"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31176,7 +31176,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:36.5052512+08:00
     split: 1
     text: "昭月寻物-高"
-    translated: "Zhaoyue searches for the item. - High"
+    translated: "Zhaoyue searches for the item - High"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31269,7 +31269,7 @@
   - lastTranslatedOn: 2025-02-27T14:04:50.3916431+08:00
     split: 1
     text: "黑沙平乱-中"
-    translated: "Clear up the disorder at Heisha Plain. - Middle."
+    translated: "Clear up the disorder at Heisha Plain - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31300,7 +31300,7 @@
   - lastTranslatedOn: 2025-02-27T13:50:39.7029987+08:00
     split: 1
     text: "黑沙夺取情报-中"
-    translated: "Black Sand acquires intelligence. - Middle."
+    translated: "Black Sand acquires intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31331,7 +31331,7 @@
   - lastTranslatedOn: 2025-02-27T18:09:56.8802288+08:00
     split: 1
     text: "黑沙夺回情报-中"
-    translated: "Black Sand Recovers Intelligence. - Middle."
+    translated: "Black Sand Recovers Intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31455,7 +31455,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:41.5964220+08:00
     split: 1
     text: "黑沙平乱-高"
-    translated: "Quell chaos in Black Sand Plains. - Tall"
+    translated: "Quell chaos in Black Sand Plains - Tall"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31486,7 +31486,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:20.7683374+08:00
     split: 1
     text: "黑沙夺取情报-高"
-    translated: "Black Sand retrieves intelligence. - Tall."
+    translated: "Black Sand retrieves intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31517,7 +31517,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:31.0055474+08:00
     split: 1
     text: "黑沙夺回情报-高"
-    translated: "Black Sand Recovers Intelligence Information. - Tall."
+    translated: "Black Sand Recovers Intelligence Information - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31579,7 +31579,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:48.9119574+08:00
     split: 1
     text: "伊宁锄奸-初"
-    translated: "Yining clears up plots. - Begin."
+    translated: "Yining clears up plots - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31610,7 +31610,7 @@
   - lastTranslatedOn: 2025-02-26T19:54:42.7615524+08:00
     split: 1
     text: "伊宁切磋-初"
-    translated: "Engaging in sparring in Yining. - Begin."
+    translated: "Engaging in sparring in Yining - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31641,7 +31641,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:55.8223216+08:00
     split: 1
     text: "伊宁平乱-初"
-    translated: "Subdueing Yining's Rebellion. - At first."
+    translated: "Subdueing Yining's Rebellion - At first."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31672,7 +31672,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:13.6382337+08:00
     split: 1
     text: "伊宁夺取情报-初"
-    translated: "Yining seized the intelligence. - Begin."
+    translated: "Yining seized the intelligence - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31703,7 +31703,7 @@
   - lastTranslatedOn: 2025-02-27T07:48:02.4910966+08:00
     split: 1
     text: "伊宁夺回情报-初"
-    translated: "Yining recovers the intelligence. - Begin."
+    translated: "Yining recovers the intelligence - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31734,7 +31734,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:29.2350809+08:00
     split: 1
     text: "伊宁寻物-初"
-    translated: "Yining searches for something. - Begin."
+    translated: "Yining searches for something - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31765,7 +31765,7 @@
   - lastTranslatedOn: 2025-02-27T14:04:51.8648809+08:00
     split: 1
     text: "伊宁锄奸-中"
-    translated: "Yining eradicates bandits. - Middle."
+    translated: "Yining eradicates bandits - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31827,7 +31827,7 @@
   - lastTranslatedOn: 2025-02-27T14:01:36.7010856+08:00
     split: 1
     text: "伊宁平乱-中"
-    translated: "Yining quells the rebellion. - Middle."
+    translated: "Yining quells the rebellion - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31858,7 +31858,7 @@
   - lastTranslatedOn: 2025-02-27T13:54:57.7833243+08:00
     split: 1
     text: "伊宁夺取情报-中"
-    translated: "Yining captures intelligence. - Middle."
+    translated: "Yining captures intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31889,7 +31889,7 @@
   - lastTranslatedOn: 2025-02-27T13:38:30.0504227+08:00
     split: 1
     text: "伊宁夺回情报-中"
-    translated: "Yining recovers intelligence. - Central."
+    translated: "Yining recovers intelligence - Central."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31920,7 +31920,7 @@
   - lastTranslatedOn: 2025-02-27T14:05:47.6787485+08:00
     split: 1
     text: "伊宁寻物-中"
-    translated: "Yining seeks an item. - Middle."
+    translated: "Yining seeks an item - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31951,7 +31951,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:45.9088979+08:00
     split: 1
     text: "伊宁锄奸-高"
-    translated: "Yining sweeps away evil. - Tall."
+    translated: "Yining sweeps away evil - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31982,7 +31982,7 @@
   - lastTranslatedOn: 2025-02-27T13:38:47.7158944+08:00
     split: 1
     text: "伊宁切磋-高"
-    translated: "I'ning qiecuo. - Tall."
+    translated: "I'ning qiecuo - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32013,7 +32013,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:04.5293258+08:00
     split: 1
     text: "伊宁平乱-高"
-    translated: "Yining quells the turmoil. - Tall."
+    translated: "Yining quells the turmoil - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32044,7 +32044,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:02.7392977+08:00
     split: 1
     text: "伊宁夺取情报-高"
-    translated: "Yining secures intelligence. - Tall."
+    translated: "Yining secures intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32075,7 +32075,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:09.1621944+08:00
     split: 1
     text: "伊宁夺回情报-高"
-    translated: "Yining Recovers Intelligence. - Tall."
+    translated: "Yining Recovers Intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32106,7 +32106,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:32.4217527+08:00
     split: 1
     text: "伊宁寻物-高"
-    translated: "Yining seeks something. - Tall"
+    translated: "Yining seeks something - Tall"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32137,7 +32137,7 @@
   - lastTranslatedOn: 2025-02-27T14:01:55.0330690+08:00
     split: 1
     text: "穆特锄奸-中"
-    translated: "Mu Detu uncovers plots. - Middle."
+    translated: "Mu Detu uncovers plots - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32168,7 +32168,7 @@
   - lastTranslatedOn: 2025-02-27T14:02:34.6734372+08:00
     split: 1
     text: "穆特切磋-中"
-    translated: "Mute discusses strategy. - Middle."
+    translated: "Mute discusses strategy - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32199,7 +32199,7 @@
   - lastTranslatedOn: 2025-02-27T13:48:43.2777849+08:00
     split: 1
     text: "穆特平乱-中"
-    translated: "Mu Teping lan. - Middle."
+    translated: "Mu Teping lan - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32230,7 +32230,7 @@
   - lastTranslatedOn: 2025-02-27T13:58:45.7367460+08:00
     split: 1
     text: "穆特夺取情报-中"
-    translated: "Mu te duoqu qingbao. - Middle."
+    translated: "Mu te duoqu qingbao - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32261,7 +32261,7 @@
   - lastTranslatedOn: 2025-02-27T13:38:02.7623365+08:00
     split: 1
     text: "穆特夺回情报-中"
-    translated: "Mu te duo hui qing bao. - Middle."
+    translated: "Mu te duo hui qing bao - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32323,7 +32323,7 @@
   - lastTranslatedOn: 2025-02-27T13:39:33.1089381+08:00
     split: 1
     text: "穆特锄奸-高"
-    translated: "Mu Te chu jian. - Tall."
+    translated: "Mu Te chu jian - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32354,7 +32354,7 @@
   - lastTranslatedOn: 2025-02-27T13:41:55.4914789+08:00
     split: 1
     text: "穆特切磋-高"
-    translated: "Mute Qiechuo. - Tall."
+    translated: "Mute Qiechuo - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32385,7 +32385,7 @@
   - lastTranslatedOn: 2025-02-27T07:48:43.7854377+08:00
     split: 1
     text: "穆特平乱-高"
-    translated: "Mu Teping luan. - High."
+    translated: "Mu Teping luan - High."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32416,7 +32416,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:25.9611813+08:00
     split: 1
     text: "穆特夺取情报-高"
-    translated: "Muduo seizes intelligence. - Tall."
+    translated: "Muduo seizes intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32447,7 +32447,7 @@
   - lastTranslatedOn: 2025-02-27T07:48:30.0021294+08:00
     split: 1
     text: "穆特夺回情报-高"
-    translated: "Mu te duohui qingbao. - Tall."
+    translated: "Mu te duohui qingbao - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32509,7 +32509,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:06.2187861+08:00
     split: 1
     text: "西域锄奸-初"
-    translated: "Expel Spies from the Western Regions. - Begin"
+    translated: "Expel Spies from the Western Regions - Begin"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32540,7 +32540,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:14.3401104+08:00
     split: 1
     text: "西域切磋-初"
-    translated: "Clash in the Western Regions. - First."
+    translated: "Clash in the Western Regions - First."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32571,7 +32571,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:06.1283670+08:00
     split: 1
     text: "西域平乱-初"
-    translated: "Subdue unrest in the Western Regions. - Begin."
+    translated: "Subdue unrest in the Western Regions - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32602,7 +32602,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:15.3526940+08:00
     split: 1
     text: "西域夺取情报-初"
-    translated: "Intelligence Acquisition in the Western Regions. - Initially."
+    translated: "Intelligence Acquisition in the Western Regions - Initially."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32633,7 +32633,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:16.3747485+08:00
     split: 1
     text: "西域夺回情报-初"
-    translated: "Recovered intelligence from the Western Regions. - First."
+    translated: "Recovered intelligence from the Western Regions - First."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32664,7 +32664,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:06.1822205+08:00
     split: 1
     text: "西域寻物-初"
-    translated: "Seeking artifacts in the Western Regions. - Begin."
+    translated: "Seeking artifacts in the Western Regions - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32695,7 +32695,7 @@
   - lastTranslatedOn: 2025-02-27T13:41:50.3892396+08:00
     split: 1
     text: "西域锄奸-中"
-    translated: "Exposing Spies in the Western Regions. - Middle."
+    translated: "Exposing Spies in the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32726,7 +32726,7 @@
   - lastTranslatedOn: 2025-02-27T16:44:41.3885205+08:00
     split: 1
     text: "西域切磋-中"
-    translated: "Clash in the Western Regions. - Middle."
+    translated: "Clash in the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32757,7 +32757,7 @@
   - lastTranslatedOn: 2025-02-27T13:57:49.8344661+08:00
     split: 1
     text: "西域平乱-中"
-    translated: "Subdue Turmoil in the Western Regions. - Middle."
+    translated: "Subdue Turmoil in the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32788,7 +32788,7 @@
   - lastTranslatedOn: 2025-02-27T13:41:46.4526604+08:00
     split: 1
     text: "西域夺取情报-中"
-    translated: "Intelligence acquisition in the Western Regions. - Middle."
+    translated: "Intelligence acquisition in the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32819,7 +32819,7 @@
   - lastTranslatedOn: 2025-02-27T13:50:15.4561643+08:00
     split: 1
     text: "西域夺回情报-中"
-    translated: "Recover intelligence from the Western Regions. - Middle."
+    translated: "Recover intelligence from the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32850,7 +32850,7 @@
   - lastTranslatedOn: 2025-02-27T13:53:42.3667191+08:00
     split: 1
     text: "西域寻物-中"
-    translated: "Seeking Rare Items in the Western Regions. - Middle."
+    translated: "Seeking Rare Items in the Western Regions - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32943,7 +32943,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:28.2775541+08:00
     split: 1
     text: "西域平乱-高"
-    translated: "Quelling the Turmoil of the Western Regions. - Tall."
+    translated: "Quelling the Turmoil of the Western Regions - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32974,7 +32974,7 @@
   - lastTranslatedOn: 2025-02-27T13:34:42.8609879+08:00
     split: 1
     text: "西域夺取情报-高"
-    translated: "Intelligence Gathering in the Western Regions. - Tall."
+    translated: "Intelligence Gathering in the Western Regions - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33005,7 +33005,7 @@
   - lastTranslatedOn: 2025-02-27T07:47:42.8909657+08:00
     split: 1
     text: "西域夺回情报-高"
-    translated: "Recover intelligence from the Western Regions. - Tall."
+    translated: "Recover intelligence from the Western Regions - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33036,7 +33036,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:20.6843504+08:00
     split: 1
     text: "西域寻物-高"
-    translated: "Seeking Treasures in the Western Regions. - Tall."
+    translated: "Seeking Treasures in the Western Regions - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33067,7 +33067,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:08.6614714+08:00
     split: 1
     text: "冼星锄奸-初"
-    translated: "Xian Xingchu exposes traitors. - Initially."
+    translated: "Xian Xingchu exposes traitors - Initially."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33098,7 +33098,7 @@
   - lastTranslatedOn: 2025-02-26T19:56:31.2706034+08:00
     split: 1
     text: "冼星切磋-初"
-    translated: "Xian Xing engages in a sparring session. - Initially."
+    translated: "Xian Xing engages in a sparring session - Initially."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33160,7 +33160,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:19.6846510+08:00
     split: 1
     text: "冼星夺取情报-初"
-    translated: "Xian Xingduo acquires intelligence. - At first."
+    translated: "Xian Xingduo acquires intelligence - At first."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33191,7 +33191,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:23.2429467+08:00
     split: 1
     text: "冼星夺回情报-初"
-    translated: "Xian Xingduo recovers the intelligence. - Begin."
+    translated: "Xian Xingduo recovers the intelligence - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33222,7 +33222,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:13.0779217+08:00
     split: 1
     text: "冼星寻物-初"
-    translated: "Xian Xingyun searches for items. - Begin."
+    translated: "Xian Xingyun searches for items - Begin."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33253,7 +33253,7 @@
   - lastTranslatedOn: 2025-02-27T14:07:41.0049712+08:00
     split: 1
     text: "冼星锄奸-中"
-    translated: "Xian Xingzu exposes traitors. - Middle."
+    translated: "Xian Xingzu exposes traitors - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33284,7 +33284,7 @@
   - lastTranslatedOn: 2025-02-27T13:47:34.4919880+08:00
     split: 1
     text: "冼星切磋-中"
-    translated: "Xian Xingchuo sparring. - Middle."
+    translated: "Xian Xingchuo sparring - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33315,7 +33315,7 @@
   - lastTranslatedOn: 2025-02-27T13:46:12.6292788+08:00
     split: 1
     text: "冼星平乱-中"
-    translated: "Xian Xingping was chaotic. - Middle."
+    translated: "Xian Xingping was chaotic - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33346,7 +33346,7 @@
   - lastTranslatedOn: 2025-02-27T13:46:44.7647952+08:00
     split: 1
     text: "冼星夺取情报-中"
-    translated: "Xian Xingduo acquired the intelligence. - Middle."
+    translated: "Xian Xingduo acquired the intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33377,7 +33377,7 @@
   - lastTranslatedOn: 2025-02-27T13:54:29.4549868+08:00
     split: 1
     text: "冼星夺回情报-中"
-    translated: "Xian Xingduo retrieves the intelligence. - Middle."
+    translated: "Xian Xingduo retrieves the intelligence - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33408,7 +33408,7 @@
   - lastTranslatedOn: 2025-02-27T13:54:45.1951478+08:00
     split: 1
     text: "冼星寻物-中"
-    translated: "Xian Xingxun searches. - Middle."
+    translated: "Xian Xingxun searches - Middle."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33439,7 +33439,7 @@
   - lastTranslatedOn: 2025-02-27T07:48:35.8034824+08:00
     split: 1
     text: "冼星锄奸-高"
-    translated: "Xian Xingchu exposes traitors. - Tall"
+    translated: "Xian Xingchu exposes traitors - Tall"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33470,7 +33470,7 @@
   - lastTranslatedOn: 2025-02-27T13:38:46.9936203+08:00
     split: 1
     text: "冼星切磋-高"
-    translated: "Xian Xingchuo engaged in sparring. - Tall."
+    translated: "Xian Xingchuo engaged in sparring - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33501,7 +33501,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:26.7374951+08:00
     split: 1
     text: "冼星平乱-高"
-    translated: "Xian Xingping was in chaos. - High"
+    translated: "Xian Xingping was in chaos - High"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33532,7 +33532,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:26.8102105+08:00
     split: 1
     text: "冼星夺取情报-高"
-    translated: "Xian Xingnu took possession of the intelligence. - Tall."
+    translated: "Xian Xingnu took possession of the intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33563,7 +33563,7 @@
   - lastTranslatedOn: 2025-02-26T19:55:25.4257460+08:00
     split: 1
     text: "冼星夺回情报-高"
-    translated: "Xian Xingduo retrieved the intelligence. - Tall."
+    translated: "Xian Xingduo retrieved the intelligence - Tall."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -33594,7 +33594,7 @@
   - lastTranslatedOn: 2025-02-27T13:37:30.9060247+08:00
     split: 1
     text: "冼星寻物-高"
-    translated: "Xian Xingyun searches for objects. - Tall"
+    translated: "Xian Xingyun searches for objects - Tall"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38009,10 +38009,10 @@
 - lineNum: 420004
   raw: "420004#鬼祟之人#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#附近有百姓来报，最近林中有名为{E}的人作乱，望有人能前去阻止。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5290218+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:49.7516727+08:00
     split: 1
     text: "鬼祟之人"
-    translated: "A sly or elusive person"
+    translated: "A shadowy figure."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38102,10 +38102,10 @@
 - lineNum: 420007
   raw: "420007#欺师灭祖#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#{E}那丫头，竟为了一个外人连往日情谊都不顾，竟敢对师父出手！我派容不得这等欺师灭祖之人，见此令请前去除掉此人。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5293068+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:50.2765903+08:00
     split: 1
     text: "欺师灭祖"
-    translated: "Defying one's teacher and destroying one's ancestral lineage"
+    translated: "Disobey one's teacher and destroy one's ancestors."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38660,10 +38660,10 @@
 - lineNum: 420026
   raw: "420026#搅事之人#1#1200#0#0#0#0######0#8004|1&8011|1&8013|1#0##0#0#106#0#1##0#{E}此人竟敢暗中潜入我派偷窃情报，望能有侠士将我派情报夺回。#0##0#0#0##0#0#0#夺回{E}身上的{I}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5313639+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:49.8831976+08:00
     split: 1
     text: "搅事之人"
-    translated: "A person who causes trouble or creates a disturbance"
+    translated: "Troublemaker."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38698,10 +38698,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T19:53:18.4157383+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.2749597+08:00
     split: 24
     text: "书院在楚国立足多年，绝非一朝一夕可替代，唯有知己知彼才能战胜。现向江湖广征二十本{I}。"
-    translated: "The academy has been established in Chu State for many years, and it is not something that can be replaced overnight. Only by knowing one's friends and foes can victory be achieved. We are now calling upon the Jianghu to collect twenty copies of {I}."
+    translated: "The academy has been established in the Chu Kingdom for many years and cannot be replaced overnight. Only by knowing oneself and knowing others can one achieve victory. We are now widely soliciting twenty copies of {I} from all corners of Jianghu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38722,10 +38722,10 @@
 - lineNum: 420028
   raw: "420028#维护城内#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#听闻{E}曾来淮陵城中作乱，若能有门人或侠士前去处置此人，必有重赏。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5315555+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:50.0262280+08:00
     split: 1
     text: "维护城内"
-    translated: "Maintain order within the city"
+    translated: "Maintain within the city."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -38970,10 +38970,10 @@
 - lineNum: 420036
   raw: "420036#鬼祟之人#1#1200#0#0#0#0######0#8004|1&8011|1&8013|1#0##0#0#106#1#1##0#{E}这人身上携带了对我军极为重要的情报，若能有人夺下提供给我军，将有重赏。#0##0#0#0##0#0#0#夺取{E}身上的{I}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5323128+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.2749935+08:00
     split: 1
     text: "鬼祟之人"
-    translated: "A sly or elusive person"
+    translated: "A shadowy figure."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39714,10 +39714,10 @@
 - lineNum: 420060
   raw: "420060#检举揭发#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#{E}虽曾是我门中人，但却私受贿赂，败坏门中风气。若有门人或侠士遇见此人，望能将其处置。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5346666+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.9439538+08:00
     split: 1
     text: "检举揭发"
-    translated: "Expose misconduct or corruption by making it public"
+    translated: "Whistleblowing."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39838,10 +39838,10 @@
 - lineNum: 420064
   raw: "420064#走火入魔#1#1200#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#8010|20#1##0#师兄近日心神不宁，似有走火入魔之兆，现在急需二十个{I}助他稳定心神。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5350477+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.5021870+08:00
     split: 1
     text: "走火入魔"
-    translated: "Undergoing a spiritual or mental breakdown"
+    translated: "Possessed by a demon."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -40320,10 +40320,10 @@
 - lineNum: 420080
   raw: "420080#侵扰之人#1#1200#0#0#0#0######0#8003|1&8011|1&8012|1#0##0#0#105#20437#1##0#海岸附近又有海寇作祟，若有门人或侠士得空，望能迅速前去料理。#0##0#0#0##0#0#0#击败目标点{GetZhiYingTargetPos}的{E}（{NeedKillNpcItemsCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5365194+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.6525754+08:00
     split: 1
     text: "侵扰之人"
-    translated: "Those who harass or trouble others"
+    translated: "The person causing trouble."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -40630,10 +40630,10 @@
 - lineNum: 420090
   raw: "420090#侵扰之人#1#1200#0#0#0#0######0#8003|1&8011|1&8012|1#0##0#0#105#20439#1##0#海岸附近又来了批不自量力的废物，有门人或侠士感兴趣可前去处置。#0##0#0#0##0#0#0#击败目标点{GetZhiYingTargetPos}的{E}（{NeedKillNpcItemsCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5374741+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.9439827+08:00
     split: 1
     text: "侵扰之人"
-    translated: "Those who harass or trouble others"
+    translated: "The person causing trouble."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -40926,10 +40926,10 @@
 - lineNum: 420100
   raw: "420100#寻衅滋事#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#{E}在岛上四处寻衅滋事，暗伤了多位侠士。我派不会袖手旁观，若有门人或侠士料理此人，我派必有重赏。#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5396181+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:38.2859639+08:00
     split: 1
     text: "寻衅滋事"
-    translated: "Seeking trouble or inciting disturbances"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -41167,10 +41167,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-01T00:07:56.4058314+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:52.9076347+08:00
     split: 24
     text: "过段日子师弟师妹们要出门游历，想为他们准备些丹药，特在此求十颗{I}。"
-    translated: "After some days, my junior brothers and sisters will be traveling, so I'm preparing some elixirs for them. Therefore, I am requesting ten of the {I} in particular."
+    translated: "After a few days, my junior brothers and sisters are going on a trip, so I want to prepare some elixirs for them. Therefore, I am particularly seeking ten of {I}."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -41439,10 +41439,10 @@
 - lineNum: 430012
   raw: "430012#灵丹妙药#1#1200#0#0#0#0##65003|3####0#8005|1&8011|1&8013|1#0##0#0#107#8012|3#1##0#有些丹药在关键时候有妙用，故求三颗{I}以备不时之需。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5411429+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:52.1006211+08:00
     split: 1
     text: "灵丹妙药"
-    translated: "A miraculous elixir or wonder drug"
+    translated: "Wondrous elixir."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -41966,10 +41966,10 @@
 - lineNum: 430029
   raw: "430029#欺师灭祖#1#1200#0#0#0#0##65010|3####0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#师门不幸，逆徒忘恩负义，背弃师门，现悬赏{E}性命！#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5428325+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:51.9442025+08:00
     split: 1
     text: "欺师灭祖"
-    translated: "Defying one's teacher and destroying one's ancestral lineage"
+    translated: "Disobey one's teacher and destroy one's ancestors."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42183,10 +42183,10 @@
 - lineNum: 430036
   raw: "430036#杂而有序#1#1200#0#0#0#0##65027|2####0#8005|1&8011|1&8013|1#0##0#0#107#8061|5#1##0#宗门内缺些杂物，在此征求五份{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5434919+08:00
+  - lastTranslatedOn: 2025-03-01T18:34:38.4136406+08:00
     split: 1
     text: "杂而有序"
-    translated: "Chaotic yet orderly"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42865,10 +42865,10 @@
 - lineNum: 430058
   raw: "430058#皮货毛料#1#1200#0#0#0#0##65003|3####0#8005|1&8011|1&8013|1#0##0#0#107#8054|3#1##0#在下近来在准备一件华丽衣裳，需要{I}少许，故在此悬赏三份。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5455616+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:53.8954242+08:00
     split: 1
     text: "皮货毛料"
-    translated: "Low-quality goods or cheap merchandise"
+    translated: "Fur and fabric goods."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43082,10 +43082,10 @@
 - lineNum: 430065
   raw: "430065#伤筋动骨#1#1200#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#8007|10#1##0#身处刀光剑影之处不免受伤，需随身携带伤药，故在此征集十份{I}。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5462235+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:54.0426886+08:00
     split: 1
     text: "伤筋动骨"
-    translated: "It's a laborious task that strains your muscles and bones"
+    translated: "Strain muscles and bones."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43237,10 +43237,10 @@
 - lineNum: 430070
   raw: "430070#灵丹妙药#1#1200#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#8010|3#1##0#近日功力未有增进，在此悬赏{I}三枚，助我突破！#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5467422+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:53.5211972+08:00
     split: 1
     text: "灵丹妙药"
-    translated: "A miraculous elixir or wonder drug"
+    translated: "Wondrous elixir."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -43299,10 +43299,10 @@
 - lineNum: 430072
   raw: "430072#鼠窃狗偷#1#1200#0#0#0#0######0#8001|1&8011|1&8012|1#0##0#0#102#1#1##0#我收藏许久的绝世兵器被小人{E}偷走，我找不到他的踪迹，便在此悬赏他的性命，若有能完成者，我有好礼相赠！#0##0#0#0##0#0#0#劫杀{E}（{IsCanFinish:0:1}/1)#回禀{AA}#0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:42.5469299+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:53.7441906+08:00
     split: 1
     text: "鼠窃狗偷"
-    translated: "The mouse steals while pretending to be a thief, or like a dog stealing under the guise of thievery"
+    translated: "Rat steals, dog pilfers."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -53747,10 +53747,10 @@
 - lineNum: 700012
   raw: "700012#枰栌醉生#0#0#0#0#0#0##54073|3####0#7001|2&7002|2#0##0#0#107#3088|1#1#蒙长生#0#枰栌有一名茶醉生，老夫甚是喜欢，最近远游唯恐归来醉生售空，只好求人帮我先买一瓶回来。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#1#枰栌醉生#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:56:54.7210911+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:54.2764331+08:00
     split: 1
     text: "枰栌醉生"
-    translated: "Pinglu, living life in a state of blissful intoxication."
+    translated: "Drunk living in a world of Pinglu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -53782,10 +53782,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T16:56:58.3635421+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:54.2764713+08:00
     split: 37
     text: "枰栌醉生"
-    translated: "Pinglu, living life in a state of blissful intoxication."
+    translated: "Drunk living in a world of Pinglu."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -64226,10 +64226,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T20:00:37.7632020+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:55.1179843+08:00
     split: 24
     text: "吾宗门商道需拓展，你需前往江湖各大商贾之地，以诚信为本，结交盟友，你需要找到他，签订文书，以振宗门商运。"
-    translated: "Our family's commercial endeavors need to expand. You must travel to the major trading hubs of Jianghu, building relationships based on integrity. Seek out him to sign agreements and revitalize our family's commerce."
+    translated: "Our clan's commercial interests need to expand. You must travel to major trade hubs in the Jianghu and befriend merchants with sincerity as your foundation. Find him and draft an agreement to bolster our clan's commerce."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -64378,10 +64378,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-24T16:19:42.6171370+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:55.6437511+08:00
     split: 24
     text: "宗门技艺需精进，你需缝纫五次，研究防具，以壮宗门实力。"
-    translated: "The techniques of the sect require refinement; you must sew five times and study armor to strengthen our sect's power"
+    translated: "The martial arts of the sect require further refinement. You must practice sewing five times and study armor to strengthen the sect's power."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -64682,10 +64682,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T20:00:52.8647650+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:55.6437845+08:00
     split: 24
     text: "吾宗门商道需拓展，你需前往江湖各大商贾之地，以诚信为本，结交盟友，你需要找到他，签订文书，以振宗门商运。"
-    translated: "Our family's commercial endeavors need to expand. You must travel to the major trading hubs of Jianghu, building relationships based on integrity. Seek out him to sign agreements and revitalize our family's commerce."
+    translated: "Our clan's commercial interests need to expand. You must travel to major trade hubs in the Jianghu and befriend merchants with sincerity as your foundation. Find him and draft an agreement to bolster our clan's commerce."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65062,10 +65062,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T20:00:52.8647650+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:55.6437846+08:00
     split: 24
     text: "吾宗门商道需拓展，你需前往江湖各大商贾之地，以诚信为本，结交盟友，你需要找到他，签订文书，以振宗门商运。"
-    translated: "Our family's commercial endeavors need to expand. You must travel to the major trading hubs of Jianghu, building relationships based on integrity. Seek out him to sign agreements and revitalize our family's commerce."
+    translated: "Our clan's commercial interests need to expand. You must travel to major trade hubs in the Jianghu and befriend merchants with sincerity as your foundation. Find him and draft an agreement to bolster our clan's commerce."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65442,10 +65442,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-26T20:00:52.8647651+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:57.1895495+08:00
     split: 24
     text: "吾宗门商道需拓展，你需前往江湖各大商贾之地，以诚信为本，结交盟友，你需要找到他，签订文书，以振宗门商运。"
-    translated: "Our family's commercial endeavors need to expand. You must travel to the major trading hubs of Jianghu, building relationships based on integrity. Seek out him to sign agreements and revitalize our family's commerce."
+    translated: "Our family's commerce needs to be expanded. You must travel to the major commercial hubs in the Jianghu and form alliances with integrity at heart. Seek out him, sign documents, and revitalize our family's business operations."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65739,10 +65739,10 @@
 - lineNum: 5000003
   raw: "5000003#小石镇高级运镖#0#0#0#0#0#0##65035|5##0&24|941740|1;24|941710|1!##0#8001|1&8011|1&8012|1#0##50558#0#108##1##0#前往小石镇运送神秘镖物#0##0#0#0##0#0#0#运送镖车（不要距离镖车超过十米）#运送镖车#0#小石镇高级运镖#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:42:39.5194573+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:56.3078788+08:00
     split: 1
     text: "小石镇高级运镖"
-    translated: "Senior Courier of Little Stone Town"
+    translated: "Advanced Long-Distance Couriers of Little Stone Town."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65767,10 +65767,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T16:42:51.1293353+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:57.1895793+08:00
     split: 37
     text: "小石镇高级运镖"
-    translated: "Senior Courier of Little Stone Town"
+    translated: "Advanced Long-Distance Couriers of Little Stone Town."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65891,10 +65891,10 @@
 - lineNum: 5000007
   raw: "5000007#蓬莱村高级运镖#0#0#0#0#0#0##65035|5##0&24|941740|1;24|941710|1!##0#8001|1&8011|1&8012|1#0##50562#0#108##1##0#前往蓬莱村运送神秘镖物#0##0#0#0##0#0#0#运送镖车（不要距离镖车超过十米）#运送镖车#0#蓬莱村高级运镖#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T17:10:00.9226516+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:56.0692949+08:00
     split: 1
     text: "蓬莱村高级运镖"
-    translated: "Senior Courier of Penglai Village"
+    translated: "Penglai Village advanced long-distance courier service."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -65919,10 +65919,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T17:10:10.8444994+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:57.1895797+08:00
     split: 37
     text: "蓬莱村高级运镖"
-    translated: "Senior Courier of Penglai Village"
+    translated: "Penglai Village advanced long-distance courier service."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -66043,10 +66043,10 @@
 - lineNum: 5000011
   raw: "5000011#龙首渡高级运镖#0#0#0#0#0#0##65035|5##0&24|941740|1;24|941710|1!##0#8001|1&8011|1&8012|1#0##50566#0#108##1##0#前往龙首渡运送神秘镖物#0##0#0#0##0#0#0#运送镖车（不要距离镖车超过十米）#运送镖车#0#龙首渡高级运镖#0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:42:42.4587813+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:55.8462695+08:00
     split: 1
     text: "龙首渡高级运镖"
-    translated: "High-level escort at Dragon's Head Crossing."
+    translated: "Advanced Dragon's Head Crossing Courier Service."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -66071,10 +66071,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-02-25T16:42:51.1293365+08:00
+  - lastTranslatedOn: 2025-03-01T17:13:57.1895801+08:00
     split: 37
     text: "龙首渡高级运镖"
-    translated: "High-level escort at Dragon's Head Crossing."
+    translated: "Advanced Dragon's Head Crossing Courier Service."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

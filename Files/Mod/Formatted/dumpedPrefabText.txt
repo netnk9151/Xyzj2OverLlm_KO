@@ -153,7 +153,7 @@
 - raw: 无效果
   result: No effect.
 - raw: <color=#3AD67C>道生一，一生二，二生三，三生万物；提升玄机的速度增加+2(4)</color>
-  result: <color=#3AD67C>Tao gives rise to one, one gives rise to two, two give rise to three, and three give rise to all things. Enhance the speed of uncovering mysteries by +2 (4).</color>
+  result: <color=#3AD67C>The Dao gives birth to one; one begets two; two begets three; and three begets the myriad things. Enhancing the speed of Secret Art increases by +2 (4).</color>
 - raw: 吸血
   result: Vampirism.
 - raw: 丢弃
@@ -383,7 +383,7 @@
 - raw: 外攻威力：
   result: External attack power:
 - raw: 内攻威力：
-  result: Internal Attack Power:
+  result: Internal attack power:
 - raw: 对敌方造成50点伤害，并击退50米距离。并且攻击敌方灵魂，使敌人丢失60点真气
   result: Inflict 50 points of damage on the enemy and knock them back 50 meters. Additionally, attack the enemy's soul to cause them to lose 60 points of true qi.
 - raw: 技能范围：
@@ -471,7 +471,7 @@
 - raw: 妖月宗
   result: Yao Yue Zong
 - raw: 好感度：
-  result: Affinity Level:
+  result: Favorability rating:
 - raw: 门派善用兵器：
   result: The sect skillfully wields weapons:
 - raw: 刀，枪
@@ -529,7 +529,7 @@
 - raw: 打坐完成可获得     
   result: Upon completing meditation, one may obtain gains.
 - raw: <color=#CCA46C>修为</color> 10000      <color=#CCA46C>外功</color> 16
-  result: Fate 10000, External Skill 16
+  result: <color=#CCA46C>Faith</color> 10000      <color=#CCA46C>Waigong</color> 16
 - raw: 此物可用于打造无心
   result: This item can be used to forge a Heartless Sword.
 - raw: 江湖霸业。开宗立派
@@ -593,7 +593,7 @@
 - raw: 委  托
   result: Entrustment
 - raw: 当前打造成功率
-  result: Current success rate in forging.
+  result: Current forging success rate.
 - raw: 基础材料：
   result: Basic materials:
 - raw: 产出品质概率
@@ -619,7 +619,7 @@
 - raw: 锻 造
   result: Forging
 - raw: 打造成功率及品质：与材料的等级以及提供的坚韧值有关\n坚韧值：基础材料计算100%坚韧值，辅助材料计算80%坚韧值
-  result: Success rate and quality of forging: Related to the rank of the material and the toughness value provided.\nToughness value: Base material calculates 100% toughness value; auxiliary material calculates 80% toughness value.
+  result: Forging Success Rate and Quality: Related to the rank of the material and the provided toughness value.\nToughness value: Base material calculates 100% toughness value; auxiliary material calculates 80% toughness value.
 - raw: （最大能承受的坚韧值：400）
   result: (Maximum tolerable toughness value): 400)
 - raw: 秘术：\n徒手画帖
@@ -641,7 +641,7 @@
 - raw: 云鹤村的这个器械为<color=#3ad67c>初级</color>，所能承受的坚韧值不够高，<color=#8F1D22>无法放入过多的材料</color>。许多大城和以锻造出名的门派里有更高级的器械，不过那需要<color=#3ad67c>更高等级的身份</color>才能使用。
   result: The equipment from Cloud Crane Village is at a <color=#3ad67c>basic</color> level and cannot withstand very high toughness values. Therefore, it's not possible to insert too many materials into it. Many larger cities and martial arts schools renowned for forging have more advanced equipment, but using those requires a <color=#3ad67c>higher rank of status</color>.
 - raw: 云鹤村的这个器械为<color=#3ad67c>初级</color>，所能承受的坚韧值不够高，<color=#2EDFA3>无法放入过多的材料</color>。许多大城和以锻造出名的门派里有更高级的器械，不过那需要<color=#3ad67c>更高等级的身份</color>才能使用。
-  result: The equipment in Cloud Crane Village is of a <color=#3ad67c>basic rank</color>, which means it cannot withstand very high toughness values and <color=#2EDFA3>cannot hold too many materials</color>. Many large cities and renowned forging clans have higher-ranked equipment, but these require a <color=#3ad67c>higher status level</color> to use.
+  result: The device in Cloud Crane Village is a <color=#3ad67c>beginner</color> level one, so it cannot withstand high toughness values and <color=#2EDFA3>cannot hold many materials</color>. Many larger cities and renowned sects for forging have more advanced devices, but they require a <color=#3ad67c>higher rank of status</color> to use.
 - raw: 操作时可以使用<color=#3ad67c>秘术</color>，秘法会带来额外的效果。使用秘术需要<color=#3ad67c>消耗额外的金钱</color>。
   result: During operation, you can use <color=#3ad67c>mysterious arts</color>, which will bring additional effects. Using mysterious arts requires <color=#3ad67c>extra expenditure of money</color>.
 - raw: 操作时也可以使用<color=#3ad67c>秘法</color>，秘法会带来额外的效果。使用时需要<color=#3ad67c>消耗特殊的材料</color>，务必备齐了。
@@ -1075,7 +1075,7 @@
 - raw: 加速播放
   result: Fast-forward playback.
 - raw: 一朝花开傍柳,寻香误觅亭侯,纵饮朝霞半日晖,风雨着不透;一任宫长骁瘦,台高冰泪难流,锦书送罢蓦回首,无余岁可偷.昨夜雨疏风骤,浓睡不消残酒,试问卷帘人,却道海棠依旧,知否,知否,应是绿肥红瘦一朝花开傍柳,寻香误觅亭侯,纵饮朝霞半日晖,风雨着不透;一任宫长骁瘦,台高冰泪难流,锦书送罢蓦回首,无余岁可偷.昨夜雨疏风骤,浓睡不消残酒,试问卷帘人,却道海棠依旧,知否,知否,应是绿肥红瘦一朝花开傍柳,寻香误觅亭侯,纵饮朝霞半日晖,风雨着不透;一任宫长骁瘦,台高冰泪难流,锦书送罢蓦回首,无余岁可偷.昨夜雨疏风骤,浓睡不消残酒,试问卷帘人,却道海棠依旧,知否,知否,应是绿肥红瘦一朝花开傍柳,寻香误觅亭侯,纵饮朝霞半日晖,风雨着不透;一任宫长骁瘦,台高冰泪难流,锦书送罢蓦回首,无余岁可偷.昨夜雨疏风骤,浓睡不消残酒,试问卷帘人,却道海棠依旧,知否,知否,应是绿肥红瘦一朝花开傍柳,寻香误觅亭侯,纵饮朝霞半日晖,风雨着不透;一任宫长骁瘦,台高冰泪难流,锦书送罢蓦回首,无余岁可偷.昨夜雨疏风骤,浓睡不消残酒,试问卷帘人,却道海棠依旧,知否,知否,应是绿肥红瘦
-  result: 
+  result: One day the flower blooms by the willow; in search of fragrance, I mistakenly find the pavilion lord. I indulge in drinking morning dew for half a day's brilliance; rain and wind penetrate not at all. Let the imperial concubine grow thin and gaunt; as high as the terrace, tears frozen refuse to flow. After sending off the brocade letter and suddenly turning back, no more years can be stolen. Last night, sparse rain and sudden gusts of wind; heavy sleep did not dissipate remaining wine. I ask the curtain-drawn person: they say the peach blossom is unchanged as before. Do you know? Do you know? It must be lush greens withered to red one day the flower blooms by the willow; in search of fragrance, I mistakenly find the pavilion lord. I indulge in drinking morning dew for half a day's brilliance; rain and wind penetrate not at all. Let the imperial concubine grow thin and gaunt; as high as the terrace, tears frozen refuse to flow. After sending off the brocade letter and suddenly turning back, no more years can be stolen. Last night, sparse rain and sudden gusts of wind; heavy sleep did not dissipate remaining wine. I ask the curtain-drawn person: they say the peach blossom is unchanged as before. Do you know? Do you know? It must be lush greens withered to red one day the flower blooms by the willow; in search of fragrance, I mistakenly find the pavilion lord. I indulge in drinking morning dew for half a day's brilliance; rain and wind penetrate not at all. Let the imperial concubine grow thin and gaunt; as high as the terrace, tears frozen refuse to flow. After sending off the brocade letter and suddenly turning back, no more years can be stolen. Last night, sparse rain and sudden gusts of wind; heavy sleep did not dissipate remaining wine. I ask the curtain-drawn person: they say the peach blossom is unchanged as before. Do you know? Do you know? It must be lush greens withered to red one day the flower blooms by the willow; in search of fragrance, I mistakenly find the pavilion lord. I indulge in drinking morning dew for half a day's brilliance; rain and wind penetrate not at all. Let the imperial concubine grow thin and gaunt; as high as the terrace, tears frozen refuse to flow. After sending off the brocade letter and suddenly turning back, no more years can be stolen. Last night, sparse rain and sudden gusts of wind; heavy sleep did not dissipate remaining wine. I ask the curtain-drawn person: they say the peach blossom is unchanged as before. Do you know? Do you know? It must be lush greens withered to red
 - raw: 出品人
   result: Producer
 - raw: 彭新龙
@@ -1151,7 +1151,7 @@
 - raw: 白色
   result: White.
 - raw: 击杀山贼首领掉落，去大雪山做任务获得。击杀山贼首领掉落，去大雪山做任务获得。
-  result: Killing the bandit leader yields a reward; obtain it by completing tasks in Great Snow Mountain. Killing the bandit leader yields a reward; obtain it by completing tasks in Great Snow Mountain.
+  result: Defeat the bandit chief to obtain a drop; complete the task at Great Snow Mountain to acquire it. Defeat the bandit chief to obtain a drop; complete the task at Great Snow Mountain to acquire it.
 - raw: 前往
   result: Proceed.
 - raw: 更新
@@ -1531,7 +1531,7 @@
 - raw: [先天天赋]
   result: [Inborn Talent]
 - raw: (提示:该天赋为身份固有天赋，不可更改)
-  result: Prompt: This talent is a natural endowment of one's status; it cannot be altered.
+  result: (Prompt): This talent is an innate ability tied to one's status; it cannot be changed.
 - raw: 哈哈哈哈哈哈哈 
   result: Hahahaahaha.
 - raw: 请从以下3种天赋中选择1种后天天赋
@@ -1553,7 +1553,7 @@
 - raw: 11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊11a a啊啊
   result: 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah 11 Ah, ah
 - raw: 玄机：
-  result: Mystical principle:
+  result: Secret Art:
 - raw: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
   result: Ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah.
 - raw: 啊啊啊啊 
@@ -1625,7 +1625,7 @@
 - raw: 开始整合
   result: Begin integration.
 - raw: (基于已有线索进行梳理，便于得出结论)
-  result: (Sort through existing clues to facilitate drawing a conclusion.)
+  result: (Base conclusions on existing clues for better understanding.)
 - raw: 开始推论
   result: Begin to deduce.
 - raw: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
@@ -1923,11 +1923,11 @@
 - raw: 九阳神功
   result: Nine Yin Divine Skill
 - raw: 内功威力：15                                外功威力：1011\n招式范围：前方2m\n前式：云光倒影
-  result: Neigong authority: 15 external power force: 1011\nRange of techniques: Straight ahead 2 meters.\nTraditional style: Cloudy light reflected.
+  result: 
 - raw: 清除点血状态
   result: Clear bleeding status.
 - raw: 招式属性(学习后可获得一些属性加成，无法洗练。)
-  result: Technique Attributes (After learning, some attribute bonuses can be obtained; they cannot be refined.)
+  result: Technique attributes (upon learning, some attribute bonuses are obtained; cannot be refined).
 - raw: 学习后可获得一些属性加成，无法洗练。
   result: Attributes gained after learning cannot be refined.
 - raw: 力量 +10
@@ -1937,7 +1937,7 @@
 - raw: 流血：流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值
   result: Bloodshed: Bleeding status, lose 10 health per second; less severe bleeding status, lose 10 health per second. Bleeding status, lose 10 health per second; less severe bleeding status, lose 10 health per second. Bleeding status, lose 10 health per second; less severe bleeding status, lose 10 health per second.
 - raw: 词条(可额外获得的一些特殊效果或者属性，可洗练。)
-  result: Entry (additional special effects or attributes that can be acquired; they are refinable).
+  result: Entry (Some special effects or attributes that can be acquired additionally; may be refined.)
 - raw: 可额外获得的一些特殊效果或者属性，可洗练。
   result: Additional special effects or attributes that can be refined.
 - raw: 力量+100
@@ -2427,7 +2427,7 @@
 - raw: 材料：
   result: Materials:
 - raw: 打造需要消耗一定的素材方可进行打造，可添加
-  result: Forging requires a certain amount of materials to proceed. You may add additional details or options here.
+  result: Forging requires a certain amount of materials to proceed. You can add more materials as needed.
 - raw: \n\n     一些特殊素材用以提升打造装备的成功率和完美率。
   result: \n\nSome special materials are used to enhance the success rate and perfection rate of forging equipment.
 - raw: 炼制
@@ -2509,7 +2509,7 @@
 - raw: 适龄提示
   result: Age-appropriate content warning.
 - raw:        1、本游戏是一款单机武侠游戏，采用付费买断制盈利，不需要联网就可以进行游戏，为贯彻落实防沉送相关政策，故本游戏仅适用于年满18周岁及以上年龄的用户，实名认证为未成年人的用户不能进行游戏，但家长仍可在了解游戏内容的前提下，指导并监督已满16周岁但未满18周岁的青少年适度体验，引导其正确认识游戏中的武侠精神和传统文化，同时避免过度沉迷。\n\n\n       2、本游戏以传统武侠文化为题材背景，围绕主角为了寻找身世，行侠仗义的剧情展开。游戏内人物、场景、道具设计等创作融入了中国传统民俗文化元素，有助于玩家了解认识中国传统文化。\n\n\n      3、根据《中华人民共和国未成年人保护法(2020修订)》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》《关于开展文娱领域综合治理工作的通知》等要求，本游戏实行严格的实名认证制度。未成年人用户将无法进行游戏登录和充值操作。\n\n\n      4、本游戏适合18周岁及以上、对武侠文化有浓厚兴趣的成年玩家。游戏中丰富的剧情、精彩的玩法和深度的文化内涵将为您带来沉浸式的武侠体验。同时，我们也提醒广大玩家合理安排游戏时间，享受健康的游戏生活。
-  result: 1, this game is a single-player Wuxia game that operates on a pay-to-own model for profit. It can be played offline without the need to connect to the internet. In accordance with policies related to preventing addiction, this game is suitable only for users aged 18 years and above. Users identified as minors through real-name verification cannot play, but parents are allowed to guide and supervise teenagers aged between 16 and 18 years old in moderate gameplay, helping them understand the Wuxia spirit and traditional culture presented in the game, while also avoiding excessive immersion.\n\n\n2, this game is set against the backdrop of traditional Wuxia culture. It revolves around the protagonist's quest to uncover their origins while upholding the values of righteousness and justice. The design of characters, scenes, and props within the game incorporates elements of Chinese traditional folk culture, aiding players in understanding and appreciating China's traditional culture.\n\n\n3, in accordance with the 'Law of the People's Republic of China on the Protection of Minors (Revised 2020)', the 'Notice on Further Strengthening Management to Effectively Prevent Minors from Becoming Addicted to Online Games', and the 'Notice on Carrying Out Comprehensive Governance Work in the Entertainment Sector', this game implements a strict real-name authentication system. Minor users will not be able to log into the game or make payments.\n\n\n4, this game is suitable for players aged 18 and above who have a keen interest in Wuxia culture. The rich storyline, exciting gameplay, and deep cultural content will provide you with an immersive Wuxia experience. We also remind all players to arrange their gaming time reasonably and enjoy a healthy gaming life.
+  result: 1, this is a single-player Wuxia game that uses a paid purchase model for revenue. It does not require an internet connection to play. In order to implement policies related to preventing addiction, the game is only suitable for users aged 18 years and older. Users identified as minors through real-name authentication cannot play; however, parents can guide and supervise their children who are aged between 16 and 18 years old after understanding the content of the game. They should encourage their children to experience it moderately, helping them to recognize the spirit of Wuxia and traditional culture within the game while avoiding excessive addiction.\n\n\n2, this game is set against a traditional Wuxia cultural backdrop and revolves around the protagonist's quest to uncover their origins while engaging in acts of chivalry. The creation of characters, scenes, and items within the game incorporates elements of Chinese traditional folk culture, aiding players in understanding and recognizing Chinese traditional culture.\n\n\n3, in accordance with the requirements of the Law of the People's Republic of China on the Protection of Minors (amended in 2020), Notice on Further Strengthening Management and Effectively Preventing Minors from Becoming Addicted to Online Games, and Notice on Carrying Out Comprehensive Governance Work in the Entertainment Industry, this game implements a strict real-name authentication system. Minor users will not be able to log into or recharge for the game.\n\n\n4, this game is suitable for players aged 18 and above who have a strong interest in Wuxia culture. The rich storyline, captivating gameplay, and deep cultural themes will provide you with an immersive Wuxia experience. We also remind all players to manage their gaming time reasonably and enjoy a healthy gaming life.
 - raw: 当前版本:1.00
   result: Current version: 1.00
 - raw: 利辞
@@ -2517,7 +2517,7 @@
 - raw: 辩力
   result: Debate skill.
 - raw: 玄机
-  result: The subtle principle.
+  result: Secret Art
 - raw: 全神贯注
   result: Fully focused.
 - raw: 强力
@@ -2553,7 +2553,7 @@
 - raw: 提示
   result: Prompt.
 - raw: 各家学说，各抒己见，两两之间，总有克制。\n\n强克制：对目标伤害提升0.3倍。被强克制：对目标伤害降低0.3倍。\n强克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机。\n弱克制：对目标伤害提升0.15倍。被弱克制：对目标伤害降低0.15倍。\n弱克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机\n每个角色的每个技能每个回合只能使用一次。\n当角色辩力≤0时则退场，当我方全部角色退场时论辩失败，当对手全部角色退场时论辩胜利。\n胜利后根据与对手的好感获得对手角色论、对手言技。
-  result: Each household has its own theory; everyone expresses their own views. Among them all, there is always some form of restraint or balance.\n\nConquer through self-restraint: Enhances target damage by 0.3 times. Vulnerable to being countered: Target damage reduced by 0.3 times.\nDominant-submissive relationship: Xuan Ji → Nong Shi → Pu Yi → Shu Jie → Ji Miao → Tian Yan → Xuan Ji.\nOvercome weakness: Increases damage to the target by 0.15 times. Is weakly resisted: Reduces damage to the target by 0.15 times.\nWeaker control relationship: Mysterious Mechanism → Agricultural Knowledge → Bodhisattva Wisdom → Literary Oath → Ingenious Machine → Divine Speech → Mysterious Mechanism\nEach character can use each skill only once per round.\nWhen a character's debate strength is less than or equal to 0, they are removed from the scene. If all friendly characters are removed, the debate fails. If all opponent characters are removed, the debate is won.\nAfter victory, gain your opponent's role arguments and skills based on the favor you have with them.
+  result: Different schools of thought each express their own views, and there's always a counterbalance between any two.\n\nSelf-control: Target damage increased by 0.3 times. Strongly constrained: Reduces target damage by 0.3 times.\nDominant-submissive relationship: Secret Art → Agricultural Wisdom → Bodhisattva Virtue → Scripted Commandments → Ingenious Mechanism → Divine Speech → Secret Art.\nOvercome weakness: Increases damage to target by 0.15 times. Vulnerable to weak attacks: Reduces damage to the target by 0.15 times.\nWeaker control relationship: Xuanji → Nongshi → Puyi → Shujie → Jimiao → Tianyan → Xuanji\nEach character can only use each skill once per turn.\nWhen a character's argumentative force is less than or equal to 0, they retreat. If all characters on our side have retreated, the debate fails. If all characters of the opponent have retreated, we win the debate.\nAfter victory, you receive your opponent's character and abilities based on the level of favor they have with you.
 - raw: 思考模式
   result: Thinking pattern.
 - raw: 半月斩
@@ -3077,7 +3077,7 @@
 - raw: 藏红花
   result: Safflower.
 - raw: 高级弟子
-  result: Senior Disciple
+  result: Advanced Disciple
 - raw: 总价
   result: Total price.
 - raw: 我的货币
@@ -3189,7 +3189,7 @@
 - raw: 剑士
   result: Swordsman
 - raw: 外功  4520
-  result: External skills 4520
+  result: External Kung Fu - 4520
 - raw: 内功  4520
   result: Neigong 4520
 - raw: 外防  4520
@@ -3493,7 +3493,7 @@
 - raw: 江湖武林之中群雄乱起，豪杰并出，你将面临各个强者生存下去
   result: In the martial world of Wulin and Jianghu, many formidable figures have risen. As a hero among them, you will face the challenge of survival against various powerful adversaries.
 - raw: (适合职业玩家，熟悉游戏的玩法和操作，同时对自身操作也十分自信)
-  result: (Suitable for professional players who are familiar with game strategies and operations, as well as having great confidence in their own gameplay.)
+  result: Suitable for professional players who are familiar with the game mechanics and operations, as well as being very confident in their own skills.
 - raw: 敌人难度极强，修为感悟金钱获得极少，提升艰难。
   result: The enemies are extremely difficult, and with the limited understanding of money gained from them, advancement is challenging.
 - raw: <color=#f3f3f3>险恶江湖：</color>此难度下各项属性数值成长曲线较高，成型
@@ -3633,7 +3633,7 @@
 - raw: 一代宗师一代宗师一代宗师一代宗师一代宗师一代宗师
   result: Sage of a Generation, Sage of a Generation, Sage of a Generation, Sage of a Generation, Sage of a Generation, Sage of a Generation.
 - raw: 高级
-  result: Senior.
+  result: Advanced
 - raw: 阴：
   result: Yin:
 - raw: 阳：
@@ -3743,7 +3743,7 @@
 - raw: 学习
   result: Learning
 - raw: 学习轻功需要达到对应的条件，轻功分为初级、高级2个阶段，消耗相应的道具材料可以提升轻功的等级,改变轻功的表现形式和实际效果。轻功值可通过完成对应的任务或学习轻功获得，不同的轻功在不同的地形上有明显的优势。
-  result: To learn Qinggong, certain conditions must be met. Qinggong is divided into three levels: beginner, intermediate, and advanced 2. The appropriate materials can enhance the level of Qinggong, altering both its form and actual effects. Qinggong points can be obtained by completing specific tasks or learning Qinggong itself. Different types of Qinggong exhibit distinct advantages in various terrains.
+  result: To learn Qinggong, certain conditions must be met. Qinggong is divided into initial and advanced 2 stages. The corresponding props and materials can be consumed to enhance the level of Qinggong, altering its appearance and actual effects. Qinggong value can be obtained through completing relevant tasks or studying Qinggong. Different Qinggongs have obvious advantages in various terrains.
 - raw: 轻功达成
   result: Mastery of qinggong achieved.
 - raw: 该轻功为所有轻功的基础轻功,施展后每秒消耗一定的真气可以大幅提升人物的移动速度。
@@ -3807,7 +3807,7 @@
 - raw: 辞退
   result: Dismiss
 - raw: 江湖打赏或人员收益
-  result: Wuxia donations or personnel earnings.
+  result: Donations or earnings from Jianghu activities.
 - raw: 当前人员收益
   result: Current Personnel Profitability
 - raw: <color=#da914e>3000</color> / 50000(最大值)
@@ -4197,7 +4197,7 @@
 - raw: 如何激活经脉：\n1、满足修为和前置经脉点位条件即可进行激活操作。\n2、激活有一定概率可获得附加属性。\n3、激活后可针对附加属性进行洗练，以获得更适合自己的属性。\n辅助道具：\n1、在激活或洗练的时候，可以添加辅助素材，包含道具、丹药、密卷和心法。\n2、辅助素材均可在激活经脉的时候提升成功率。\n3、其中道具和丹药没有多余的效果，密卷可覆盖激活或洗练时的附加属性，心法可在激活或洗练时添加特殊属性。
   result: How to activate the meridians: \n1, you can perform the activation operation once you meet the requirements for cultivation level and previous meridian point conditions.\n2, activating has a chance to obtain additional attributes.\n3, upon activation, allows for refining additional attributes to acquire ones more suitable for oneself.\nAuxiliary tools: \n1, when activated or refined, can include auxiliary materials such as items, pills, secret scrolls, and internal methods.\n2, all auxiliary materials can increase the success rate during the activation of the meridians.\n3, where the items and elixirs have no additional effects; the secret scrolls can cover added attributes during activation or refinement, while the martial arts can add special attributes during these processes.
 - raw: 内功威力：15                             外功威力：1011\n招式范围：前方2m\n前式：云光倒影
-  result: Neigong authority: 15 external power strength: 1011\nRange of techniques: Ahead 2 meters.\nTraditional style: Cloud reflections on water.
+  result: Neigong authority: 15 external skill authority: 1011\nRange of techniques: Ahead 2 meters.\nTraditional style: Clouds cast reflections.
 - raw: 杂纪
   result: Miscellaneous Records
 - raw: 入场：对所有场上目标造成一点伤害。
@@ -4297,7 +4297,7 @@
 - raw: 命中
   result: Fated to meet.
 - raw: 该装备锤炼等级已满
-  result: The equipment's refinement level has been maxed out.
+  result: The equipment's forging rank is already at its maximum.
 - raw: 锤炼需要消耗以下材料
   result: Forging requires the following materials.
 - raw: 斩斩斩斩
@@ -4463,7 +4463,7 @@
 - raw: 外攻：
   result: External attack:
 - raw: 外防：
-  result: External Defense:
+  result: External Defence:
 - raw: 内攻：
   result: Internal Attack:
 - raw: 内防：

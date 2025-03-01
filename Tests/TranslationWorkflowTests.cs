@@ -38,12 +38,6 @@ public class TranslationWorkflowTests
         await PerformTranslateLines(false);
     }
 
-    [Fact(DisplayName = "5. TranslateDumpedPrefabText")]
-    public async Task TranslateDumpedPrefabText()
-    {
-        //TODO:
-    }
-
     [Fact(DisplayName = "0. TranslateLinesBruteForce")]
     public async Task TranslateLinesBruteForce()
     {
