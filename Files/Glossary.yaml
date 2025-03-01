@@ -61,7 +61,7 @@
   badtrans: true
 - raw: 学会秘法
   result: Learn the secret method
-  badtrans: true  
+  badtrans: true    
 # - raw: 国
 #   result: Kingdom
 #   badtrans: true  
@@ -77,7 +77,7 @@
   transliteration: Ménpài Bèijǐng
 - raw: 流派
   result: Style
-  allowedAlt:
+  allowalt:
     - School
   badtrans: false
   context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
@@ -101,12 +101,16 @@
   badtrans: true
 - raw: 打造
   result: Forge
+  allowalt:
+    - Forging
   badtrans: true
 - raw: 套路
   result: Technique
   badtrans: true
 - raw: 学说
   result: Theory
+  allowalt: 
+    - Thought
   badtrans: true
 - raw: 精力
   result: Energy
@@ -125,12 +129,17 @@
   allowalt:
     - Struggle
     - Fight
+    - Battle
   badtrans: true
 - raw: 势力
   result: Faction
+  allowalt: 
+    - Force
   badtrans: true  
 - raw: 威力
-  result: Authority
+  result: Power
+  allowalt:    
+    - Might
   badtrans: true
 - raw: 收益
   result: Earnings
@@ -160,7 +169,7 @@
   context: Refers to a level or state of development, often used in spiritual or martial arts contexts to describe one's achievements or status.
 - raw: 商曲
   result: Melody
-  allowedalt:
+  allowalt:
     - Shang Melody
     - Song
   badtrans: true
@@ -175,14 +184,14 @@
   context: Refers to positive feelings or affection towards someone or something, often used in interpersonal contexts to describe initial attraction or goodwill.
 - raw: 亲人
   result: Relatives
-  allowedAlt:
+  allowalt:
     - Family
   badtrans: true
   context: Refers to close family members or relatives, typically those who are blood-related.
   transliteration: Qīnrén
 - raw: 技艺
   result: Skill
-  allowedAlt: 
+  allowalt: 
     - Craftsmanship
   badtrans: true
   context: Refers to a person's expertise or mastery in a particular skill, often used in the context of art, craft, or technical abilities.
@@ -213,6 +222,8 @@
   badtrans: true
 - raw: 雨水
   result: Rain Water
+  allowalt: 
+    - Rain
   badtrans: true
 - raw: 惊蛰
   result: Awakening of Insects
@@ -221,9 +232,9 @@
   result: Spring Equinox
   badtrans: true
 - raw: 清明
-  result: Qingming
+  result: Clear
   badtrans: true
-  context: A solar term in the Chinese calendar, also associated with the Tomb-Sweeping Festival where people honor their ancestors.
+  context: A solar term in the Chinese calendar, also associated with the Tomb-Sweeping Festival where people honor their ancestors. Pure Brightness  
 - raw: 谷雨
   result: Grain Rain
   badtrans: true
@@ -240,10 +251,10 @@
   result: Summer Solstice
   badtrans: true
 - raw: 小暑
-  result: Minor Heat
+  result: Little Heat
   badtrans: true
 - raw: 大暑
-  result: Major Heat
+  result: Great Heat
   badtrans: true
 - raw: 立秋
   result: Start of Autumn
@@ -267,19 +278,19 @@
   result: Start of Winter
   badtrans: true
 - raw: 小雪
-  result: Minor Snow
+  result: Little Snow
   badtrans: true
 - raw: 大雪
-  result: Major Snow
+  result: Great Snow
   badtrans: true
 - raw: 冬至
   result: Winter Solstice
   badtrans: true
 - raw: 小寒
-  result: Minor Cold
+  result: Little Cold
   badtrans: true
 - raw: 大寒
-  result: Major Cold
+  result: Great Cold
   badtrans: true
 
 # Stats
@@ -404,6 +415,8 @@
   badtrans: true
 - raw: 精神
   result: Willpower
+  allowalt:
+    - Spirit
   context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
   badtrans: true
 - raw: 身法
@@ -412,6 +425,8 @@
   badtrans: true
 - raw: 专注
   result: Focus
+  allowalt:
+    - Concentration
   context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
   badtrans: true
 - raw: 要害
@@ -1122,6 +1137,9 @@
 - raw: 昭月宗
   result: Bright Moon Clan
   badtrans: true
+- raw: 穆特
+  result: Mu Te
+  badtrans: true
 - raw: 穆特前线
   result: Mu Te Frontline
   badtrans: true
@@ -1457,13 +1475,6 @@
 - raw: 罗刹国
   result: Rakshasa Kingdom
 
-# Martial Arts
-- raw: 太极心法
-  result: Tai Chi Heart Method
-  badtrans: true
-  context: Refers to the core philosophy and techniques of Tai Chi, emphasizing inner balance, breathing, and spiritual cultivation in addition to physical movements.
-  transliteration: Tàijí Xīnfǎ
-
 # Horoscope - 60-year Chinese sexagenary cycle
 - raw: 甲子
   result: Wood Rat
@@ -1645,3 +1656,29 @@
 - raw: 癸亥
   result: Water Pig
   badtrans: true
+
+# Quests
+- raw: 集结势力  
+  result: Gather Power  
+  badtrans: true
+- raw: 相忘江湖
+  result: Forget each other in the Jianghu
+  badtrans: true
+- raw: 身世之谜  
+  result: Mystery of One's Origins  
+  badtrans: true
+
+# Martial Arts
+- raw: 太极心法
+  result: Tai Chi Heart Method
+  badtrans: true
+  context: Refers to the core philosophy and techniques of Tai Chi, emphasizing inner balance, breathing, and spiritual cultivation in addition to physical movements.
+  transliteration: Tàijí Xīnfǎ
+- raw: 乙草惊蛰  
+  result: Yi Grass stirs the awakening of insects
+  badtrans: true
+  transliteration: Yǐ cǎo jīngzhé  
+- raw: 虎步生风  
+  result: The tiger’s stride brings forth wind
+  badtrans: true
+  transliteration: Hǔ bù shēng fēng  
