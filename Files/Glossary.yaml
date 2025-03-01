@@ -132,9 +132,10 @@
     - Battle
   badtrans: true
 - raw: 势力
-  result: Faction
+  result: Force
   allowalt: 
-    - Force
+    - Power
+    - Influence
   badtrans: true  
 - raw: 威力
   result: Power
@@ -381,7 +382,7 @@
   badtrans: false
 - raw: 诛心
   result: Mind Attack
-  context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
+  context: refers to a strategy or technique aimed at breaking an opponent's willpower, confidence, or mental stability rather than physically harming them.
   badtrans: true
 - raw: 轻功
   result: Qinggong
@@ -396,7 +397,7 @@
   badtrans: true
 - raw: 内攻
   result: Internal Attack
-  context: refers to offensive techniques that use neigong to damage an opponent’s internal organs or disrupt their Qi flow.
+  context: refers to offensive techniques that use neigong to damage an opponent's internal organs or disrupt their Qi flow.
   badtrans: true
 - raw: 内力
   result: Inner Power
@@ -421,7 +422,7 @@
   badtrans: true
 - raw: 身法
   result: Agility
-  context: refers to a practitioner’s movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
+  context: refers to a practitioner's movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
   badtrans: true
 - raw: 专注
   result: Focus
@@ -594,6 +595,9 @@
   result: Blade Art
   allowalt: 
     - Knife Technique
+  badtrans: true
+- raw: 刀式
+  result: Blade Form
   badtrans: true
 - raw: 剑法
   result: Sword Art
@@ -810,7 +814,7 @@
   badtrans: true
 - raw: 弟弟
   result: Younger Brother
-  context: Refers to one’s younger brother.
+  context: Refers to one's younger brother.
   literal: Di Di
   badtrans: true
 - raw: 大哥
@@ -834,14 +838,14 @@
   result: Younger Sister
   allowalt: 
     - Sister
-  context: Refers to one’s younger sister.
+  context: Refers to one's younger sister.
   literal: Mei Mei
   badtrans: true
 - raw: 姐姐
   result: Older Sister
   allowalt: 
     - Sister
-  context: Refers to one’s older sister.
+  context: Refers to one's older sister.
   literal: Jie Jie
   badtrans: true
 - raw: 大姐
@@ -1673,12 +1677,13 @@
   result: Tai Chi Heart Method
   badtrans: true
   context: Refers to the core philosophy and techniques of Tai Chi, emphasizing inner balance, breathing, and spiritual cultivation in addition to physical movements.
-  transliteration: Tàijí Xīnfǎ
 - raw: 乙草惊蛰  
   result: Yi Grass stirs the awakening of insects
   badtrans: true
-  transliteration: Yǐ cǎo jīngzhé  
 - raw: 虎步生风  
-  result: The tiger’s stride brings forth wind
+  result: The tiger's stride brings forth wind
   badtrans: true
-  transliteration: Hǔ bù shēng fēng  
+- raw: 朝露清明卷  
+  result: Morning dew clears as the bright scroll unfolds  
+  badtrans: true
+  
