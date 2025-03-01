@@ -392,7 +392,7 @@
   context: Neigong refers to the practice of cultivating internal energy through breathing techniques, meditation, and specialized training. It enhances endurance, strength, and resilience. Examples include Qi cultivation and techniques like Taichi or Qigong.
   badtrans: true
 - raw: 外功
-  result: Waigong
+  result: External Skill
   context: External Martial Arts
   badtrans: true
 - raw: 内攻
@@ -404,10 +404,10 @@
   context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
   badtrans: true  
 - raw: 外防
-  result: External Defence
+  result: External Defense
   context: Defense against physical attacks (e.g., armor-like body techniques, blocking).
 - raw: 内防
-  result: Internal Defence
+  result: Internal Defense
   context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
   badtrans: true    
 - raw: 内息
@@ -587,20 +587,31 @@
 # Arts
 - raw: 枪法
   result: Spear Art
+  allowalt: 
+    - Spear Technique
   badtrans: true
 - raw: 槍法
   result: Spear Art
+  allowalt: 
+    - Spear Technique
   badtrans: true
 - raw: 刀法
   result: Blade Art
   allowalt: 
     - Knife Technique
+    - Blade Technique
   badtrans: true
 - raw: 刀式
   result: Blade Form
+  allowalt:
+    - Blade Technique
+    - Blade Style
   badtrans: true
 - raw: 剑法
   result: Sword Art
+  allowalt: 
+    - Sword Technique
+    - Swordsmanship
   badtrans: true
 
 # Status
@@ -612,6 +623,8 @@
   badtrans: true
 - raw: 中毒
   result: Poisoned
+  allowalt:
+    - Poisoning
   badtrans: true
 - raw: 迷惑
   result: Confusion
@@ -1686,4 +1699,8 @@
 - raw: 朝露清明卷  
   result: Morning dew clears as the bright scroll unfolds  
   badtrans: true
+- raw: 藏刀式  
+  result: Hidden Blade Technique
+  transliteration: Cáng dāo shì  
+
   

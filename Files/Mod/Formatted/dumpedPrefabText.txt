@@ -75,7 +75,7 @@
 - raw: 此物吸收天地发的大大大大苏打大大大苏打大撒啊擦擦
   result: This object absorbs great amounts of soda from heaven and earth, releasing them widely.
 - raw: 外功：
-  result: 
+  result: External Skill:
 - raw: 内功：
   result: Neigong:
 - raw: 范围：
@@ -143,7 +143,7 @@
 - raw: 装备属性
   result: Equipment attributes.
 - raw: 外功
-  result: Waigong
+  result: External Skill
 - raw: 坚韧
   result: Toughness
 - raw: 锋锐
@@ -369,7 +369,7 @@
 - raw: 对敌方造成50点伤害，并击退50米距离。并且攻击对方灵魂，使敌人丢失60点真气
   result: Deal 50 points of damage to the opponent and knock them back 50 meters. Additionally, attack their soul, causing the enemy to lose 60 points of true energy.
 - raw: 外功伤害  +2000
-  result: Waigong damage to +2000.
+  result: External Skill Damage to +2000.
 - raw: 内攻伤害  +2000
   result: Internal Attack Damage to +2000.
 - raw: 技能冷却   3秒
@@ -529,7 +529,7 @@
 - raw: 打坐完成可获得     
   result: Upon completing meditation, one may obtain gains.
 - raw: <color=#CCA46C>修为</color> 10000      <color=#CCA46C>外功</color> 16
-  result: <color=#CCA46C>Faith</color> 10000      <color=#CCA46C>Waigong</color> 16
+  result: <color=#CCA46C>Cultivation level</color> 10000, <color=#CCA46C>External skill</color> 16.
 - raw: 此物可用于打造无心
   result: This item can be used to forge a Heartless Sword.
 - raw: 江湖霸业。开宗立派
@@ -1379,9 +1379,9 @@
 - raw: 内功
   result: Neigong
 - raw: 外防
-  result: External Defence
+  result: External Defense
 - raw: 内防
-  result: Internal Defence
+  result: Internal Defense
 - raw: 元气
   result: Lifeforce
 - raw: 根骨
@@ -1769,7 +1769,7 @@
 - raw: 基本信息
   result: Basic Information
 - raw: 实力：
-  result: 
+  result: Power:
 - raw: 特质
   result: Attribute
 - raw: 对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对
@@ -1923,7 +1923,7 @@
 - raw: 九阳神功
   result: Nine Yin Divine Skill
 - raw: 内功威力：15                                外功威力：1011\n招式范围：前方2m\n前式：云光倒影
-  result: Inner power might: The external power of 15: 1011\nRange of techniques: Ahead 2 meters.\nTraditional style: Cloud reflections shimmering.
+  result: The power of internal cultivation: 15 External Skill Power: 1011\nTechnique Range: Ahead 2 meters.\nTraditional style: Clouds reflected in the light.
 - raw: 清除点血状态
   result: Clear bleeding status.
 - raw: 招式属性(学习后可获得一些属性加成，无法洗练。)
@@ -1995,7 +1995,7 @@
 - raw: 学习条件
   result: Learning conditions.
 - raw: 轻功：
-  result: 
+  result: Qinggong:
 - raw: 《就上云霄》
   result: Ascend to the clouds.
 - raw: 该轻功已达到最高境界
@@ -3193,9 +3193,9 @@
 - raw: 内功  4520
   result: Neigong 4520
 - raw: 外防  4520
-  result: External Defence 4520
+  result: External Defense 4520
 - raw: 内防  4520
-  result: Internal Defence 4520
+  result: Internal Defense 4520
 - raw: 秘技
   result: Secret Technique
 - raw: 千山雪
@@ -3309,7 +3309,7 @@
 - raw: 当前俸禄
   result: Current stipend.
 - raw: 执行势力
-  result: 
+  result: Exerting force.
 - raw: 作业目标
   result: Work Objectives
 - raw: 距离下次设施扩建
@@ -3455,7 +3455,7 @@
 - raw: 一段：
   result: A section:
 - raw: 每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢
-  result: 
+  result: Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores per second.
 - raw: 佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒
   result: Buddha blocks Buddha, water fees for electricity and water fees for electricity; yes, Dr. Francis does it, Dr. Francis does it, Dr. Francis does it, Dr. Francis does it.
 - raw: 非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬
@@ -4197,7 +4197,7 @@
 - raw: 如何激活经脉：\n1、满足修为和前置经脉点位条件即可进行激活操作。\n2、激活有一定概率可获得附加属性。\n3、激活后可针对附加属性进行洗练，以获得更适合自己的属性。\n辅助道具：\n1、在激活或洗练的时候，可以添加辅助素材，包含道具、丹药、密卷和心法。\n2、辅助素材均可在激活经脉的时候提升成功率。\n3、其中道具和丹药没有多余的效果，密卷可覆盖激活或洗练时的附加属性，心法可在激活或洗练时添加特殊属性。
   result: How to activate the meridians: \n1, you can perform the activation operation once you meet the requirements for cultivation level and previous meridian point conditions.\n2, activating has a chance to obtain additional attributes.\n3, upon activation, allows for refining additional attributes to acquire ones more suitable for oneself.\nAuxiliary tools: \n1, when activated or refined, can include auxiliary materials such as items, pills, secret scrolls, and internal methods.\n2, all auxiliary materials can increase the success rate during the activation of the meridians.\n3, where the items and elixirs have no additional effects; the secret scrolls can cover added attributes during activation or refinement, while the martial arts can add special attributes during these processes.
 - raw: 内功威力：15                             外功威力：1011\n招式范围：前方2m\n前式：云光倒影
-  result: 
+  result: Inner power might: External skill power of 15: 1011\nRange of techniques: Ahead 2 meters.\nTraditional style: Cloudy radiance reflected.
 - raw: 杂纪
   result: Miscellaneous Records
 - raw: 入场：对所有场上目标造成一点伤害。
@@ -4415,7 +4415,7 @@
 - raw: 悬红
   result: Placing a bounty.
 - raw: 今有刁民封南荻杀害周家满门，且依仗背后长生堂势力拒捕，特此广招天下豪杰，若能将此刁民捉拿归案，衙门定有重赏！
-  result: There are ruffians who have murdered the entire Zhou family and now rely on the backing of the Changsheng Tang to evade capture. We hereby call upon heroes from across the land: anyone who captures these villains will be rewarded handsomely by the magistrate's office!
+  result: A villainous bandit named Diao Min Feng has massacred the entire Zhou family and is evading capture by relying on the protection of Longsheng Tang's influence. We hereby call upon heroes from across the land to apprehend this rascal. The authorities will offer a substantial reward for his capture!
 - raw: 释放技能：
   result: Release Skill:
 - raw: 16进8
@@ -4445,11 +4445,11 @@
 - raw: 外攻:
   result: External attack:
 - raw: 外防:
-  result: External defence:
+  result: External Defense:
 - raw: 内攻:
   result: Internal attack:
 - raw: 内防:
-  result: Internal Defence:
+  result: Internal Defense:
 - raw: 姓名：沈雁弓
   result: Name: Shen Yangong
 - raw: 称号：风雪人间客
@@ -4463,11 +4463,11 @@
 - raw: 外攻：
   result: External attack:
 - raw: 外防：
-  result: External Defence:
+  result: External Defense:
 - raw: 内攻：
   result: Internal Attack:
 - raw: 内防：
-  result: Internal Defence:
+  result: Internal Defense:
 - raw: 命中：
   result: Fated encounter:
 - raw: 闪避：

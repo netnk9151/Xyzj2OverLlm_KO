@@ -22,7 +22,7 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("外功："),
+            //new("外功："),
             new("实力："),
             new("轻功："),
             //new("研发"),
@@ -51,6 +51,9 @@ public class PromptTuningTests
             ////new("在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"),
             //new("在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。"),
         };
+
+        var cache = new Dictionary<string, string>();
+        await TranslationService.FillTranslationCacheAsync(workingDirectory, 10, cache, config);
 
         config.SkipLineValidation = true;
 
@@ -118,13 +121,15 @@ public class PromptTuningTests
     [InlineData(3, "德高望重重，才广武林称。兼备风云志，胸怀揽星辰。")]
     [InlineData(4, "于狂刀门贡献堂主处累积购买二十次")]
     [InlineData(5, "路过城西村时，遇到沈大娘正在收拾沈蛋，似乎是因为他将表姐家的衣服撕毁之事，沈蛋为了避免挨打，将竹条扔到了风车上面。")]
+    [InlineData(6, "实力")]
     public async Task ExplainGlossaryPrompt(int index, string input)
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
-            "Explain your reasoning in a <think> tag at the end of the response. Also explain how and if the glossary was used.");
+            "Explain in a <think> why the glossary was or was not used. " +
+            "How do I update the system prompt to make sure it uses the glossary in this case.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainGlossaryPrompt{index}.txt", result.Result);
     }
@@ -163,7 +168,8 @@ public class PromptTuningTests
         var config = Configuration.GetConfiguration(workingDirectory);
         //var input = "好嘞，客官您慢走！";
         //var input = "完成菩提";
-        var input = "人阶";
+        //var input = "人阶";
+        var input = "实力";
         var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an alternative." +           

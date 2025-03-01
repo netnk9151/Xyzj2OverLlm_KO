@@ -28,6 +28,9 @@ public class LlmConfig
 
     [YamlIgnore]
     public List<GlossaryLine> GlossaryLines { get; set; } = [];
+
+    [YamlIgnore]
+    public Dictionary<string, string> TranslationCache { get; set; } = [];
 }
 
 public static class Configuration

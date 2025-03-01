@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
+using System.Diagnostics.Metrics;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -312,18 +313,32 @@ public static class TranslationService
                 foreach (var split in line.Splits)
                 {
                     if (string.IsNullOrEmpty(split.Translated) || split.FlaggedForRetranslation)
-                        continue;
+                        continue;                    
 
                     if (split.Text.Length <= charsToCache && !cache.ContainsKey(split.Text))
                         cache.Add(split.Text, split.Translated);
+
+                    //// EXPERIMENTAL: Add in splits to cache
+                    //var splitsTranslated = CalculateSubSplits(split.Translated);
+                    //var splitsRaw = CalculateSubSplits(split.Text);
+                    //if (splitsTranslated.foundSplit
+                    //    && splitsRaw.foundSplit
+                    //    && splitsRaw.splits.Count == splitsTranslated.splits.Count)
+                    //{
+                    //    for (int i = 0; i < splitsTranslated.splits.Count; i++)
+                    //        cache.Add(splitsRaw.splits[i], splitsTranslated.splits[i]);
+                    //}
                 }
             }
 
             await Task.CompletedTask;
         });
+
+        //Add it to config to make it easier to use
+        config.TranslationCache = cache;
     }
 
-    public static async Task TranslateViaLlmAsync(string workingDirectory, bool forceRetranslation, bool useTranslationCache = true)
+    public static async Task TranslateViaLlmAsync(string workingDirectory, bool forceRetranslation)
     {
         string inputPath = $"{workingDirectory}/Raw/Export";
         string outputPath = $"{workingDirectory}/Converted";
@@ -337,8 +352,7 @@ public static class TranslationService
         // Translation Cache - for smaller translations that tend to hallucinate
         var translationCache = new Dictionary<string, string>();
         var charsToCache = 10;
-        if (useTranslationCache)
-            await FillTranslationCacheAsync(workingDirectory, charsToCache, translationCache, config);
+        await FillTranslationCacheAsync(workingDirectory, charsToCache, translationCache, config);
 
         // Create an HttpClient instance
         using var client = new HttpClient();
@@ -399,7 +413,7 @@ public static class TranslationService
                         || forceRetranslation
                         || (config.TranslateFlagged && split.FlaggedForRetranslation))
                     {
-                        if (useTranslationCache && cacheHit)
+                        if (cacheHit)
                             split.Translated = translationCache[split.Text];
                         else
                         {
@@ -416,7 +430,7 @@ public static class TranslationService
                     if (string.IsNullOrEmpty(split.Translated))
                         incorrectLineCount++;
                     //Two translations could be doing this at the same time
-                    else if (!cacheHit && useTranslationCache && split.Text.Length <= charsToCache)
+                    else if (!cacheHit && split.Text.Length <= charsToCache)
                         translationCache.TryAdd(split.Text, split.Translated);
                 }));
 
@@ -503,7 +517,7 @@ public static class TranslationService
                 var failed = false;
 
                 foreach (var split in line.Splits)
-                {                  
+                {
                     if (!textFileToTranslate.Output)
                     {
                         failed = true;
@@ -582,6 +596,40 @@ public static class TranslationService
             if (performActionAsync != null)
                 await performActionAsync(outputFile, textFileToTranslate, fileLines);
         }
+    }
+
+
+    public static (bool foundSplit, List<string> splits) CalculateSubSplits(string origSplit)
+    {
+        var response = new List<string>();
+        bool foundSplit = false;
+
+        foreach (var splitCharacters in SplitCharactersList)
+        {
+            if (origSplit.Contains(splitCharacters))
+            {
+                foundSplit = true;
+                var newSplits = origSplit.Split(splitCharacters);
+
+                foreach (var newSplit in newSplits)
+                {
+                    if (!string.IsNullOrEmpty(newSplit))
+                    {
+                        var subSplits = CalculateSubSplits(newSplit);
+                        if (subSplits.foundSplit)
+                            response.AddRange(subSplits.splits);
+                        else
+                            response.Add(newSplit);
+                    }
+                }
+
+                // Break after processing one split character type
+                // Because recursion would have got the rest
+                return (foundSplit, response);
+            }
+        }
+
+        return (foundSplit, response);
     }
 
     public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, string outputFile)
@@ -704,6 +752,10 @@ public static class TranslationService
             if (split)
                 return new ValidationResult(LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer));
         }
+
+        var cacheHit = config.TranslationCache.ContainsKey(preparedRaw);
+        if (cacheHit)
+            return new ValidationResult(LineValidation.CleanupLineBeforeSaving(config.TranslationCache[preparedRaw], preparedRaw, outputFile, tokenReplacer));
 
         // Define the request payload
         List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile, additionalPrompts);

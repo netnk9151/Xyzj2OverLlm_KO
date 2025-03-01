@@ -425,12 +425,11 @@ public class TranslationWorkflowTests
     {
         HashSet<string> words = new HashSet<string>
         {
-            "hiu", "guniang", "tut", "thut", "oi", "avo", "porqe", "obrigado",
+            "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado",
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
-            "niang", "fuck", "ich", "daren", "furen", "ein", "der", "ganzes", "Leben", "dort", "xiansheng",
+            "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort",
             "knight", "thay", "tien", "div", "html",
-            //"-in-law"
         };
 
         string pattern = $@"\b({string.Join("|", words)})\b";
