@@ -2,206 +2,225 @@
 # Terms
 - raw: 武侠
   result: Wuxia
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 天书
   result: Heavenly Scripture
-  checkForHallucination: false
   checkForMistranslation: true
+- raw: 八卦
+  result: Bagua
+  checkForMistranslation: true  
 - raw: 武林
   result: Wulin
   allowedAlternatives: 
     - Martial World
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 江湖
   result: Jianghu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 马帮
   result: Horse Gang
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 盐帮
   result: Salt Gang
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 河图
   result: River Map
   allowedAlternatives: 
     - Hetu
   context: Hetu is river map but can be part of Hetu Luoshu 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 河出马图
   result: Hetu Luoshu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 江湖故事
   result: Jianghu Tales
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 祖传宝刀
   result: Ancestral Treasure Blade
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 完成菩提
   result: Attain Enlightenment
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 完成书院
   result: Complete the Academy
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 完成机杼
   result: Attain Weaving Skills
   allowedAlternatives: 
     - complete the weaving skills
     - learning weaving skills
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 完成言家
   result: Complete for the Yan Family
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 完成农家
   result: Complete for the Farm Family
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 学会秘术
   result: Learn the secret arts
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 学会秘法
   result: Learn the secret method
-  checkForHallucination: false
   checkForMistranslation: true  
+- raw: 国
+  result: Kingdom
+  checkForMistranslation: true  
+
+# Prefabs 
+- raw: 斩
+  result: Slash
+  checkForMistranslation: false
+- raw: 子
+  result: Child
+  checkForMistranslation: false
 - raw: 人阶
   result: Social Rank
-  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 等级
+  result: Rank
   checkForMistranslation: true
 - raw: 研发
   result: Development
-  checkForHallucination: false
   checkForMistranslation: true
+- raw: 打造
+  result: Forge
+  checkForMistranslation: true
+- raw: 套路
+  result: Technique
+  checkForMistranslation: true
+- raw: 学说
+  result: Theory
+  checkForMistranslation: true
+- raw: 精力
+  result: Energy
+  checkForMistranslation: true
+- raw: 要求
+  result: Requirement
+  checkForMistranslation: true
+- raw: 悟性
+  result: Comprehension
+  checkForMistranslation: true
+- raw: 太阳穴
+  result: Temples
+  checkForMistranslation: false
+- raw: 争斗
+  result: Conflict
+  allowedAlternatives:
+    - Struggle
+    - Fight
+  checkForMistranslation: true
+- raw: 势力
+  result: Faction
+  checkForMistranslation: true  
 
 # Stats
 - raw: 商道
   result: Commerce
   context: Way of Business
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 豪爽
   result: Generosity
-  checkForHallucination: false
   checkForMistranslation: false 
 - raw: 福气
   result: Luck
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 容貌
   result: Beauty
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 口才
   result: Eloquence
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 胆识
   result: Courage
   context: Courage and Insight
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 修养
   result: Cultivation
-  checkForHallucination: false
   checkForMistranslation: true  
 - raw: 坚韧
   result: Toughness
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 元气
-  result: Lifeforce
-  checkForHallucination: false
+  result: Yuanqi
+  context: Lifeforce 
+  checkForMistranslation: false  
+- raw: 真气
+  result: Zhenqi
+  context: True Qi / True Energy
   checkForMistranslation: false  
 - raw: 根骨
   result: Potential
   context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
-  checkForHallucination: false
   checkForMistranslation: false  
 - raw: 筋骨
   result: Strength
   context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
-  checkForHallucination: false
   checkForMistranslation: false 
 - raw: 体魄
   result: Constitution
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
-  checkForHallucination: false
+  checkForMistranslation: false
+- raw: 太阴
+  result: Great Yin
+  checkForMistranslation: false
+- raw: 太阳
+  result: Great Yang
+  context: Conflicts with temples
   checkForMistranslation: false
 - raw: 阴
   result: Yin
   context: Commonly used in other translations
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 阳
   result: Yang
   context: Commonly used in other translations
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 刚
   result: Hard
   context: Commonly used in other translations
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 柔
   result: Soft
   context: Commonly used in other translations
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 毒
   result: Poison
   context:
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 生命
   result: Health
   context:
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 闪避
   result: Dodge
   context:
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 御心
   result: Discipline
   context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 诛心
-  result: Mind break
+  result: Mind Attack
   context: refers to a strategy or technique aimed at breaking an opponent’s willpower, confidence, or mental stability rather than physically harming them.
-  checkForHallucination: false
-  checkForMistranslation: false
+  checkForMistranslation: true
 - raw: 轻功
   result: Qinggong
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 内功
   result: Neigong
   context: Neigong refers to the practice of cultivating internal energy through breathing techniques, meditation, and specialized training. It enhances endurance, strength, and resilience. Examples include Qi cultivation and techniques like Taichi or Qigong.
-  checkForHallucination: false
+  checkForMistranslation: true
+- raw: 外功
+  result: Waigong
+  context: External Martial Arts
   checkForMistranslation: true
 - raw: 内攻
   result: Internal Attack
   context: refers to offensive techniques that use neigong to damage an opponent’s internal organs or disrupt their Qi flow.
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 内力
   result: Inner Power
   context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
-  checkForHallucination: false
   checkForMistranslation: true  
 - raw: 外防
   result: External Defence
@@ -209,184 +228,143 @@
 - raw: 内防
   result: Internal Defence
   context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
-  checkForHallucination: false
   checkForMistranslation: true    
 - raw: 内息
   result: Inner Qi
   context:  It represents the circulation of Qi within the body, closely tied to breathing techniques and cultivation. 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 精神
   result: Willpower
   context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 身法
   result: Agility
   context: refers to a practitioner’s movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 专注
   result: Focus
   context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 要害
   result: Vital Point
   context: refers to critical or vital points of the body that, if struck, can cause significant damage or even death. In martial arts, it refers to vital areas like the head, neck, or heart. In gaming, it could be used to represent weak spots or critical hit zones that deal more damage when targeted.
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 化解
   result: Counter
   context: refers to the act of neutralizing, resolving, or dissolving an opponent's attack, often through a defensive or counter technique.
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 外攻
   result: External Attack
   context: refers to offensive techniques that rely on external strength and power, typically involving physical force or direct strikes.
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Sayings
 - raw: 阿弥陀佛
   result: Amituofu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 承让了
   result: Thank you for letting me win
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Sounds
 - raw: 吼
   result: Roar
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 咕
   result: Cluck
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 呜呜呜
   result: Wuwuwu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 呜呜
   result: Wuwu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 呜...
   result: Wu...
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 齁齁齁
   result: Hohoho
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 齁齁
   result: Hoho
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 齁...
   result: Ho..
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 嘎嘎嘎
   result: Gagaga
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 嘎嘎
   result: Gaga
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 嘎...
   result: Ga...
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 嘶…
   result: Hiss
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 嘶嘶
   result: Hiss
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咕咕咕
   result: Gugugu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咕咕
   result: Gugu
   context: Can conflict with clucking
   allowedAlternatives: 
     - Clucking
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咕...
   result: Gu...
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咯咯咯
   result: Gegege
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咯咯
   result: Gege
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 咯...
   result: Ge...
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 吱吱吱
   result: Zhizhizhi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 吱吱
   result: Zhizhi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 吱...
   result: Zhi...
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 唔吱
   result: Wuzhi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 吱喳
   result: Zhizha
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 吱吱喳
   result: Zhizhizha
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Skills / Recipes
 - raw: 桂枝丹诀
   result: Guizhi Elixir Formula
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 青日百酿诀
   result: Azure Sun Hundred Brews Formula
-  checkForHallucination: false
   checkForMistranslation: true
 
 - raw: 钟灵化谷
   result: Spiritual Essence Transforming into the Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 金石为开
   result: Even metal and stone can be opened
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 金浮羽火
   result: Golden Floating Feather Fire
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 明光三梭谱
   result: Three Shuttles Weave Bright Light
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Weapons
@@ -399,75 +377,59 @@
     - Cleaver
     - Scissor
     - Dao
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 暗器
   result: Hidden Weapon
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 槍
   result: Spear
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 枪
   result: Spear
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 枪棍
   result: Spear and Staff
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 棍
   result: Staff
   context: More like club or cludgel or stick. Also used as part of other words
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 杖
   result: Staff
   context: More like walking stick or formal staff
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Arts
 - raw: 枪法
   result: Spear Art
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 槍法
   result: Spear Art
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 刀法
   result: Blade Art
   allowedAlternatives: 
     - Knife Technique
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 剑法
   result: Sword Art
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Status
 - raw: 内伤
   result: Internal Injury
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 外伤
   result: External Injury
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 中毒
   result: Poisoned
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 迷惑
   result: Confusion
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 冰封
   result: Frozen
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Items and Minerals
@@ -476,115 +438,87 @@
   allowedAlternatives: 
     - Qian
     - Money 
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 玄铁
   result: Dark Steel
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 黑铁
   result: Dark Iron
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 寒铁
   result: Cold Iron
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 镔铁
   result: Refined Iron
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 黑金
   result: Black Gold
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 乌金
   result: Black Gold
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 熊掌
   result: Bear Paw
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 豹胎
   result: Leopard Fetus
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 黄连
   result: Coptis root
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 槟榔
   result: Betel nut
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 龙珠
   result: Dragon ball
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 炼狱
   result: Purgatory
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 千年灵芝
   result: Thousand-year old Lingzhi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 一条根
   result: One Root
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 腹皮
   result: Rhizome Bark
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 金不换
   result: Priceless Gold
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 生姜
   result: Raw Ginger
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 甘草
   result: Licorice
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 续断
   result: Teasel Root
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 茯苓
   result: Poria
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 三七
   result: Sanqi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 软筋散
   result: Tendon-Softening Powder
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 杜康酒
   result: Dukang Wine
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 即墨老酒
   result: Jimo Old Wine
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 竹叶青
   result: Bamboo Leaf Tea
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 葡萄酒
   result: Grape Wine
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 猴儿酒
   result: Monkey Wine
-  checkForHallucination: false
   checkForMistranslation: true
 # - raw: 杂粮酒
 #   result: Mixed Grains Wine 
@@ -598,145 +532,119 @@
 # People
 - raw: 枪士
   result: Spearman
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 士兵枪
   result: Spearman
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 枪兵
   result: Spearman
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 狼蛮
   result: Wolf Barbarian
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 纳西
   result: Naxi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 锦衣卫
   result: Imperial Guard
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 禁军
   result: Forbidden Army
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 讲经先生
   result: Scripture Teacher
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 船工
   result: Boatman
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 船夫
   result: Boatman
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 缇骑
   result: Official Riders
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 打更士兵
   result: Nightwatch Soldier
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 鹿
   result: Deer
   allowedAlternatives: 
     - Lu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 虎
   result: Tiger
   context: Sometimes used as literal names
   allowedAlternatives: 
     - Hu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 僧侣
   result: Monk
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 侠客
   result: Wanderer
   # allowedAlternatives: 
   #   - Martial Artist
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 江湖侠客
   result: Jianghu Wanderer
-  checkForHallucination: false
   checkForMistranslation: false
 
 # Titles
+- raw: 掌门
+  result: Sect Leader
+  checkForMistranslation: true
 - raw: 大侠
   result: Great Hero
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 少侠
   result: Young Hero
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 前辈
   result: Senior
   context: A respectful term used to address or refer to someone older, more experienced, or who has achieved certain accomplishments before the speaker.
   literal: Qian Bei
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 哥哥
   result: Brother
   context: Used to refer to or address one's own older brother, often with affection.
   literal: Ge Ge
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 兄弟
   result: Brother
   context: A term that can refer to literal brothers by birth or metaphorically to close friends or comrades who share a bond similar to familial ties.
   literal: Xiong Di
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 小兄弟
   result: Little Brother
   context: Used to address a younger male peer in a friendly, respectful manner.
   literal: Xiao Xiong Di
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 师弟
   result: Junior Brother
   allowedAlternatives: 
     - Younger Brother
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 弟弟
   result: Younger Brother
   context: Refers to one’s younger brother.
   literal: Di Di
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大哥
   result: Senior Brother
   context: A respectful term used among siblings for the older brother.
   literal: Da Ge
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 师兄
   result: Senior Brother
   literal: Shixiong
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 阿兄
   result: Elder Brother
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 师妹
   result: Junior Sister
   allowedAlternatives: 
     - Younger Sister
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 妹妹
   result: Younger Sister
@@ -744,7 +652,6 @@
     - Sister
   context: Refers to one’s younger sister.
   literal: Mei Mei
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 姐姐
   result: Older Sister
@@ -752,38 +659,30 @@
     - Sister
   context: Refers to one’s older sister.
   literal: Jie Jie
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大姐
   result: Senior Sister
   context: A respectful term used among siblings for the older brother.
   literal: Da Jie
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 义姐
   result: Sworn Sister
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 义兄
   result: Sworn Brother
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大郎
   result: First Young Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 二郎
   result: Second Young Master 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 三郎
   result: Third Young Master 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 爹
   result: Father
   literal: Die
-  checkForHallucination: false
   checkForMistranslation: false
 - raw: 婆婆
   result: Grandma
@@ -791,21 +690,18 @@
   context: Conflicts with idiom moms and grandmas (fussing around)
   allowedAlternatives: 
     - Fussing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 舅舅
   result: Uncle
-  checkForHallucination: false
   checkForMistranslation: true
 # - raw: 先生
 #   result: Gentleman
-#   checkForHallucination: false
+#   
 #   checkForMistranslation: true
 - raw: 公子
   result: Young Lord
   context: Often used to refer to the son of nobility, indicating both status and youth.
   literal: Gong Zi
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 公主
   result: Young Lady
@@ -813,7 +709,6 @@
   allowedAlternatives: 
     - Princess
   literal: Gong Zhu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 夫人
   result: Lady
@@ -821,7 +716,6 @@
     - Wife
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大人
   result: Lord
@@ -829,13 +723,11 @@
     - Husband
   context: Used as a respectful address for man of noble status or of a high-ranking official.
   literal: Da Ren
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 师傅
   result: Master
   context: Used for an experienced person in a particular skill or trade, similar to master craftsman or teacher.
   literal: Shi Fu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 姑娘
   result: Miss  
@@ -843,705 +735,532 @@
   allowedAlternatives: 
     - Girl
   literal: Gu Niang
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 掌柜
   result: Shopkeeper
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大善人
   result: Great Benefactor
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 贡献堂主
   result: Contribution Hall Master
-  checkForHallucination: false
   checkForMistranslation: true
-
 - raw: 副帮主
   result: Deputy Chief
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 锅头
   result: Pot Head
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大锅头
   result: Great Pot Head
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 二锅头
   result: Second Pot Head
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 寨主
   result: Fort Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 二寨主
   result: Second Fort Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 禅师
   result: Zen Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 小沙弥
   result: Junior Monk
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 知客僧
   result: Welcoming Monk
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 庄主
   result: Manor Master 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 三庄主
   result: Third Manor Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 二庄主
   result: Second Manor Master 
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 刀客
   result: Blade Master
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大娘
   result: Great Aunt
   allowedAlternatives:
     - Aunt
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Places
 - raw: 茶庄
   result: Tea Estate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 茶铺
   result: Tea Shop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 茶馆
   result: Tea House
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 据点
   result: Outpost
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 码头
   result: Port
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 酒楼
   result: Tavern
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 酒家
   result: Tavern
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 酒馆
   result: Tavern
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 酒坊
   result: Winery
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 青楼
   result: Pleasure House
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 医馆
   result: Medical Pavilion
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 当铺
   result: Pawnshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 鱼塘
   result: Fish pond
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 锯木厂
   result: Sawmill
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 石料厂
   result: Stone Quarry
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 盐场
   result: Salt Farm
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 香料场
   result: Spice Farm
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 牧场
   result: Pasture
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 煤场
   result: Coal Yard
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 铜矿场
   result: Copper Mine
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 铁矿场
   result: Iron Mine
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 瓷器窑
   result: Pottery Kiln
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 茶叶园
   result: Tea Garden
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 草药园
   result: Herb Garden
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 人参园
   result: Ginseng Garden
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 农田
   result: Crop Field
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 麻田
   result: Hemp Field
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 棉花田
   result: Cotton Field
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 桑田
   result: Mulberry Field
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 炼丹坊
   result: Alchemical Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 胭脂坊
   result: Cosmetic Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 珠宝坊
   result: Jewelry Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 丝坊
   result: Silk Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 染坊
   result: Dyeing Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 冶炼工坊
   result: Metalworking Workshop
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 赌坊
   result: Gambling Den
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 外城
   result: Outer City
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Family
 - raw: 言家
   result: Yan Family
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 高家
   result: Gao Family
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Names
 - raw: 钱玉闵
   result: Qian Yumin
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 王铁
   result: Wang Tie
-  checkForHallucination: false
   checkForMistranslation: true
 
 # Factions & Places
 - raw: 永兴
   result: Yongxing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 枰枦
   result: Pingxia
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 剑斋
   result: Sword Pavilion
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 不夜京
   result: Evernight Capital
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 太初剑宗
-  result: Primordial Sword Sect
-  checkForHallucination: false
+  result: Primordial Sword 
   checkForMistranslation: true
 - raw: 嵩室山
   result: Songshi Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 砚溪山庄
   result: Ink Stream Mountain Villa
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 清玉门
   result: Pure Jade Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 大雪山
   result: Great Snow Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 麓山书院
   result: Mount Lu Academy
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 昭月宗
   result: Bright Moon Clan
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 穆特前线
   result: Mu Te Frontline
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 狂刀门
   result: Wild Blade Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 丐门
   result: Beggar Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 捭阖谷
   result: Baihe Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 重天门
   result: Profound Celestial Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 云潇山庄
   result: Cloudy Breeze Mountain Villa
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 神兵山庄
   result: Divine Weapon Mountain Villa
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 御虚门
   result: Imperial Void Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 凌云宗
   result: Soaring Clouds Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 墨门
   result: Ink Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 长旌军
   result: Long Standard Army
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 楚军
   result: Chu Army
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 齐军
   result: Qi Army
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 遥雪峰
   result: Distant Snow Peak
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 溯海派
   result: River's Source Faction
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 十二连环坞
   result: Twelve-linked Fortress
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 骆家军
   result: Luo Family Army
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 黑沙寨
   result: Black Sand Stronghold
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 拂松门
   result: Pine Brushing Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 岭花谷
   result: Ridge Flower Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 千山学斋
   result: Thousand Mountain Academy
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 望尘客栈
   result: Whispering Dust Inn
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 绝剑门
   result: Sword Breaker Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 普贤门
   result: Universal Virtue Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 十陵阁
   result: Ten Tombs Pavilion
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 流云镖局
   result: Flowing Cloud Escort Agency
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 爻光谷
   result: Light of Divination Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 福兴镖局
   result: Great Prosperity Escort Agency
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 云川镖局
   result: Cloud River Escort Agency
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 鸿源学舍
   result: Hongyuan Academy
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 冼星堂
   result: Xian Star Hall
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 归墟剑宗
   result: Return to Abyss Sword Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 三十六洞
   result: Thirty-Six Caves
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 寻清门
   result: Seeking Clarity Gate
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 唐门
   result: Tangmen
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 东厂
   result: Eastern Depot
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 双修府
   result: Dual Cultivation Manor
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 龙首渡
   result: Dragon's Head Crossing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 誓盟碑
   result:  Oath Alliance Monument
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 四圣峰
   result: Four Sacred Peaks
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 登天流
   result: Heavenly Ascent Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 云鹤村
   result: Cloud Crane Village
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 菩提山
   result: Enlightenment Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 瑶华原
   result: Jade Blossom Field
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 乘风渡
   result: Wind Rider Crossing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 清风岗
   result: Clear Breeze Hill
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 九曜津
   result: Nine Luminaries Crossing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 不周岭
   result: Unbroken Ridge
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 西域王庭
   result: Western Region Royal Court
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 坠龙坡
   result: Falling Dragon Slope
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 天上山
   result: Heavenly Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 合纵道
   result: Alliance Path
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 连横隘
   result: United Front Pass
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 老君山
   result: Old Sage Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 问剑道
   result: Sword Seeking Path
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 钓龙湖
   result: Dragon Fishing Lake
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 迦南遗址
   result: Canaanite Ruins
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 星陨荒
   result: Starfall Wasteland
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 落雁湖
   result: Falling Geese Lake
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 王府
   result: Royal Residence
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 聚灵川
   result: Spirit Gathering River
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 东海镇
   result: Eastern Sea Town
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 祈灵川
   result: Spirit Prayer River
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 合气岛
   result: Qi Harmony Island
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 胜景林
   result: Scenic Forest
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 玉沙关
   result: Jade Sand Pass
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 天门山
   result: Heavenly Gate Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 伊宁镇
   result: Yining Town
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 连麓山
   result: Connected Ridge Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 盘山道
   result: Winding Mountain Road
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 谷外秘径
   result: Secret Path Beyond the Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 桃隐村
   result: Hidden Peach Village
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 贪狼道
   result: Greedy Wolf Path
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 崇吾涧
   result: Chongwu Valley
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 千霁峰
   result: Thousand Clear Peak
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 文昌湖
   result: Wenchang Lake
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 法华村
   result: Dharma Blossom Village
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 小石镇
   result: Little Stone Town
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 枰栌
   result: Pinglu
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 淮陵
   result: Huailing
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 化龙瀑
   result: Transforming Dragon Waterfall
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 求缘树
   result: Tree of Destiny
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 落凤原
   result: Fallen Phoenix Plain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 胜云山
   result: Triumphant Cloud Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 飞鸿原
   result: Flying Swan Plain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 寻星道
   result: Star Seeking Path
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 仙洲
   result: Immortal Isle
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 蓬莱村
   result: Penglai Village
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 无涯岛
   result: Boundless Island
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 七十二福地
   result: Seventy-Two Blessings Lands
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 七十二福
   result: Seventy-Two Blessings
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 桂宫道
   result: Way of the Osmanthus Palace
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 豫京
   result: Yu Capital
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 雁州
   result: Yan Prefecture
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 穆特族
   result: Mu Te Tribe
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 泠香坞
   result: Cold Fragrance Harbor
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 桃花坞
   result: Peach Blossom Harbor
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 冷香坞
   result: Cold Fragrance Harbor
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 紫阳山
   result: Purple Sun Mountain
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 鸿月门
   result: Grand Moon Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 鸿月派
   result: Grand Moon Sect
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 墟海剑
   result: Abyssal Sea Sword
-  checkForHallucination: false
   checkForMistranslation: true
 - raw: 烈火刀
   result: Blazing Blade
-  checkForHallucination: false
   checkForMistranslation: true
-
+- raw: 燕国
+  result: Yan Kingdom

@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using YamlDotNet.Serialization;
 
 namespace Translate;
 
@@ -6,10 +7,15 @@ public class GlossaryLine
 {
     public string Raw { get; set; } = string.Empty;
     public string Result { get; set; } = string.Empty;
+
+    [YamlMember("AllowedAlts")]
     public List<string> AllowedAlternatives { get; set; } = [];
     public string Transliteration { get; set; } = string.Empty;
     public string Context { get; set; } = string.Empty;
-    public bool CheckForHallucination { get; set; } = true;
+
+    [YamlMember("Hallu")]
+    public bool CheckForHallucination { get; set; } = false;
+    [YamlMember("Mistrans")]
     public bool CheckForMistranslation { get; set; } = true;
 
     public GlossaryLine()

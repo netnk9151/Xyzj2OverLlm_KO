@@ -156,4 +156,45 @@ public class SupportTests
 
         Assert.Equal(original, restored);
     }
+
+    [Fact]
+    public async Task FindAllFailingTranslations()
+    {
+        //var failures = new List<string>();
+        var pattern = LineValidation.ChineseCharPattern;
+
+        var forTheGlossary = new List<string>();
+
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            foreach (var line in fileLines)
+            {
+                foreach (var split in line.Splits)
+                {
+                    if (string.IsNullOrEmpty(split.Text))
+                        continue;
+
+                    // If it is already translated or just special characters return it
+                    if (!Regex.IsMatch(split.Text, pattern))
+                        continue;
+
+                    if (!string.IsNullOrEmpty(split.Text) && string.IsNullOrEmpty(split.Translated))
+                    {
+                        //failures.Add($"Invalid {textFileToTranslate.Path}:\n{split.Text}");
+
+                        if (split.Text.Length < 6)
+                            if (!forTheGlossary.Contains(split.Text))
+                                forTheGlossary.Add(split.Text);
+                    }
+                }
+            }
+
+            await Task.CompletedTask;
+        });
+
+        //File.WriteAllLines($"{workingDirectory}/TestResults/FailingTranslations.txt", failures);
+        File.WriteAllLines($"{workingDirectory}/TestResults/ForManualTrans.txt", forTheGlossary);
+
+        //await TranslateFailedLinesForManualTranslation();
+    }
 }
