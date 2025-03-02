@@ -11,27 +11,33 @@ using XUnity.ResourceRedirector;
 
 namespace EnglishPatch
 {
-    [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.SpriteReplacer", "Replace Sprites in game", MyPluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.SpriteReplacer", "SpriteReplacer", MyPluginInfo.PLUGIN_VERSION)]
     [BepInDependency("gravydevsupreme.xunity.resourceredirector")]
     public class SpriteReplacerPlugin : BaseUnityPlugin
     {
         // Internal variables
         internal static new ManualLogSource Logger;
-        private Dictionary<string, byte[]> cachedReplacements = new Dictionary<string, byte[]>();
-        private string spritesPath;
+        private Dictionary<string, byte[]> _cachedReplacements = [];
+        private List<string> _cachedSpriteNames = [];
+        private string _spritesPath;
 
         private ConfigEntry<string> _logWhenAssetContains;
+        private ConfigEntry<bool> _onlyUseSpriteName;
 
         private void Awake()
         {
             Logger = base.Logger;
-            spritesPath = Path.Combine(Paths.BepInExRootPath, "sprites");
+            _spritesPath = Path.Combine(Paths.BepInExRootPath, "sprites");
 
             _logWhenAssetContains = Config.Bind("General",
-                        "LogWhenAssetContains",
-                        "loginviewnew",
-                        "Log in the console when any part of the assetname or path includes the value provided");
+                "LogWhenAssetContains",
+                "loginviewnew",
+                "Log in the console when any part of the assetname or path includes the value provided");
 
+            _onlyUseSpriteName = Config.Bind("General",
+                "OnlyUseSpriteName",
+                false,
+                "Instead of using full sprite path - just use sprite name instead. EXPERIMENTAL!");
 
             // Cache all textures from the replacement folder
             CacheReplacementTextures();
@@ -45,40 +51,45 @@ namespace EnglishPatch
                 action: OnAssetLoaded);
 
             Logger.LogWarning("Sprite Replacer plugin patching complete!");
-            Logger.LogInfo($"Watching for replacement sprites in: {spritesPath}");
+            Logger.LogInfo($"Watching for replacement sprites in: {_spritesPath}");
         }
 
         private void CacheReplacementTextures()
         {
-            if (!Directory.Exists(spritesPath))
+            if (!Directory.Exists(_spritesPath))
             {
-                Logger.LogWarning($"Replacement directory does not exist: {spritesPath}");
+                Logger.LogWarning($"Replacement directory does not exist: {_spritesPath}");
                 return;
             }
 
             // Get all PNG and JPG files in the replacement directory
-            string[] imageFiles = Directory.GetFiles(spritesPath, "*.*", SearchOption.AllDirectories)
+            var imageFiles = Directory.GetFiles(_spritesPath, "*.*", SearchOption.AllDirectories)
                 .ToArray();
 
             Logger.LogInfo($"Found {imageFiles.Length} potential replacement sprites");
 
-            foreach (string imagePath in imageFiles)
+            foreach (var imagePath in imageFiles)
             {
                 try
                 {
                     // Get relative path for key
-                    string relativePath = imagePath.Substring(spritesPath.Length + 1);
+                    var relativePath = imagePath.Substring(_spritesPath.Length + 1);
+
+                    // Cache completed sprite names so we can log when they match
+                    var spriteName = Path.GetFileNameWithoutExtension(relativePath);
+                    if (!_cachedSpriteNames.Contains(spriteName))
+                        _cachedSpriteNames.Add(spriteName);
 
                     // Load texture
-                    byte[] fileData = File.ReadAllBytes(imagePath);
+                    var fileData = File.ReadAllBytes(imagePath);
 
                     // Remove file extension for easier matching
-                    string keyName = FilePathToKey(relativePath);
-                    cachedReplacements.Add(keyName, fileData);
+                    var keyName = FilePathToKey(relativePath);
+                    _cachedReplacements.Add(keyName, fileData);
 
                     if (keyName.Contains(_logWhenAssetContains.Value))
                         Logger.LogInfo($"Cached replacement sprite: {keyName}");
-                    
+
                 }
                 catch (Exception ex)
                 {
@@ -86,7 +97,7 @@ namespace EnglishPatch
                 }
             }
 
-            Logger.LogInfo($"Successfully cached {cachedReplacements.Count} replacement sprites");           
+            Logger.LogInfo($"Successfully cached {_cachedReplacements.Count} replacement sprites");
         }
 
         private string FilePathToKey(string filePath)
@@ -96,67 +107,82 @@ namespace EnglishPatch
             var directory = Path.GetFileName(Path.GetDirectoryName(filePath));
             var fileName = Path.GetFileNameWithoutExtension(filePath);
 
-            string result = !string.IsNullOrEmpty(directory) ? Path.Combine(directory, fileName) : fileName;
+            var result = string.Empty;
+
+            if (_onlyUseSpriteName.Value)
+                result = fileName;
+            else
+                result = !string.IsNullOrEmpty(directory) ? Path.Combine(directory, fileName) : fileName;
+
             result = result.Replace("\\", "/")
                 .ToLower();
 
             return result;
         }
 
-        private string PrepareAssetPath(string path, string assetName = "")
+        private string PrepareSpriteKey(string assetName, string spriteName)
         {
-            if (assetName != "")
-                path = $"{path}/{assetName}";
+            var output = string.Empty;
 
-            path = path
+            if (_onlyUseSpriteName.Value)
+                output = spriteName;
+            else
+                output = $"{assetName}/{spriteName}";
+
+            output = output
                 .Replace("\\", "/")
                 .ToLower();
 
-            // This is hang over from direct asset paths because we didnt include the Asset/ beginning
-            if (path.StartsWith("assets/"))
-                path = path[..^7];
-
-            return path;
+            return output;
         }
 
         public void OnAssetLoaded(AssetLoadedContext context)
         {
-            string assetName = context.Asset?.name;
+            string parentAssetName = context.Asset?.name;
             string assetPath = context.Parameters?.Name ?? string.Empty;
             string type = context.Parameters?.Type.ToString();
             string loadType = context.Parameters?.LoadType.ToString();
-            string fullPath = PrepareAssetPath(assetPath);
 
-            if (fullPath.Contains(_logWhenAssetContains.Value) || assetName.Contains(_logWhenAssetContains.Value))
-                Logger.LogInfo($"Loaded Asset: {assetName}  Path: {assetPath} Type: {type}  LoadType: {loadType}");
+            if (_cachedSpriteNames.Contains(parentAssetName))
+                Logger.LogError($"Loaded Matched Asset with no replacer: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
 
             if (context.Asset is GameObject prefab)
             {
                 var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();
 
+                // Log game objects to make it easier to find
+                if (allChildren.Length > 0)
+                    Logger.LogInfo($"Loaded Game Object: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
+
                 foreach (var child in allChildren)
                 {
-                    if (child.sprite != null)
-                    {
-                        string spritePath = PrepareAssetPath(assetName, child.sprite.name);
-
-                        if (spritePath.Contains(_logWhenAssetContains.Value))
-                            Logger.LogWarning($"Found Sprite Path: {spritePath}");                        
-
-                        if (cachedReplacements.TryGetValue(spritePath, out var replacementTexture))
-                        {                           
-                            child.sprite.texture.LoadImage(replacementTexture, false);
-
-                            if (spritePath.Contains(_logWhenAssetContains.Value))
-                                Logger.LogWarning($"Replaced sprite: {spritePath}");
-                        }
-                    }
+                    ReplaceSpriteInAsset(parentAssetName, child);
                 }
             }
             // Texture2D might need to come back into play for non-prefab textures but its unlikely they are used in game 
             // Needs more testing
             //else if ((context.Asset is Texture2D))
             //    Logger.LogError($"{fullPath} is a Texture2D but we disabled replacement.");
+        }
+
+        private void ReplaceSpriteInAsset(string parentAssetName, UnityEngine.UI.Image child)
+        {
+            var shouldMatch = _cachedSpriteNames.Contains(child.name) || _cachedSpriteNames.Contains(child.sprite?.name);
+
+            if (child.sprite != null)
+            {
+                var spriteKey = PrepareSpriteKey(parentAssetName, child.sprite.name);
+
+                if (_cachedReplacements.TryGetValue(spriteKey, out var replacementTexture))
+                {
+                    child.sprite.texture.LoadImage(replacementTexture, false);
+
+                    if (spriteKey.Contains(_logWhenAssetContains.Value))
+                        Logger.LogWarning($"Replaced sprite: {spriteKey}");
+                }
+                else if (shouldMatch)
+                    Logger.LogError($"Did not match SpriteKey: {spriteKey}");
+            }
         }
 
         //private void ProcessTexture(AssetLoadedContext context, string fullPath)

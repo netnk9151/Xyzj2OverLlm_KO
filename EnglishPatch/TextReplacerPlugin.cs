@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace EnglishPatch;
 
-[BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextReplacer", "MonoBehavior Text Replacer", MyPluginInfo.PLUGIN_VERSION)]
+[BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextReplacer", "TextReplacer", MyPluginInfo.PLUGIN_VERSION)]
 public class TextReplacerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
@@ -51,7 +51,47 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
     [HarmonyPatch(typeof(UnityEngine.Object))]
     public static class PrefabTextPatch
-    {       
+    {
+        //Patch Instantiate(Object)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object) })]
+        [HarmonyPostfix]
+        static void ObjectPostfix1(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
+        // Patch Instantiate(GameObject, Transform)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Transform) })]
+        [HarmonyPostfix]
+        static void ObjectPostfix2(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
+        // Patch Instantiate(GameObject, Transform, bool)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Transform), typeof(bool) })]
+        [HarmonyPostfix]
+        static void ObjectPostfix3(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
+        // Patch Instantiate(GameObject, Transform, bool)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion) })]
+        [HarmonyPostfix]
+        static void ObjectPostfix4(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
+        // Patch Instantiate(GameObject, Transform, bool)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion), typeof(Transform) })]
+        [HarmonyPostfix]
+        static void ObjectPostfix5(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
         // Patch Instantiate(GameObject)
         [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject) })]
         [HarmonyPostfix]
@@ -76,6 +116,22 @@ public class TextReplacerPlugin : BaseUnityPlugin
             UpdateText(__result);
         }
 
+        // Patch Instantiate(GameObject, Transform, bool)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Vector3), typeof(Quaternion) })]
+        [HarmonyPostfix]
+        static void Postfix4(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
+        // Patch Instantiate(GameObject, Transform, bool)
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Vector3), typeof(Quaternion), typeof(Transform) })]
+        [HarmonyPostfix]
+        static void Postfix5(ref UnityEngine.Object __result)
+        {
+            UpdateText(__result);
+        }
+
         private static void UpdateText(UnityEngine.Object __result)
         {
             if (__result is GameObject gameObject)
@@ -83,6 +139,8 @@ public class TextReplacerPlugin : BaseUnityPlugin
                 if (__result.name.Contains("LoginView"))
                     return;
                 // Need to figure out how to ignore buttons here - causes grief
+                //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
+
 
                 foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
                 {

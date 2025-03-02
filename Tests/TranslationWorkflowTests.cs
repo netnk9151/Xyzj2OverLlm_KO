@@ -90,7 +90,7 @@ public class TranslationWorkflowTests
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
 
-        var sourceDirectory = $@"H:\xzyj2-sprites";
+        var sourceDirectory = $@"H:\xzyj2-sprites/completed";
         var spritesDirectory = $"{gameFolder}/BepInEx/sprites";
 
         if (Directory.Exists(spritesDirectory))

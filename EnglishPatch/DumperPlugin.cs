@@ -15,7 +15,7 @@ namespace EnglishPatch;
 /// <summary>
 /// Used to get hardcoded strings out of prefabs so we can translate them
 /// </summary>
-[BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.Dumper", "MonoBehavior Text Dumper", MyPluginInfo.PLUGIN_VERSION)]
+[BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.Dumper", "TextDumper", MyPluginInfo.PLUGIN_VERSION)]
 public class DumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
