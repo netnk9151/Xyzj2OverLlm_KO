@@ -8,6 +8,9 @@
   badtrans: true
 - raw: 八卦
   result: Bagua
+  allowalt:
+    - Gossip
+    - Rumors
   badtrans: true  
 - raw: 武林
   result: Wulin
@@ -117,7 +120,7 @@
   badtrans: true
 - raw: 要求
   result: Requirement
-  badtrans: true
+  badtrans: false
 - raw: 悟性
   result: Comprehension
   badtrans: true
@@ -161,10 +164,6 @@
     - Dress
   badtrans: true
   context: Refers to the act of dressing or the attire one wears.
-- raw: 结交
-  result: Befriend
-  badtrans: true
-  context: The act of forming friendships or building relationships with others.
 - raw: 境界
   result: Realm
   badtrans: true
@@ -195,14 +194,9 @@
   result: Skill
   allowalt: 
     - Craftsmanship
-  badtrans: true
+  badtrans: false
   context: Refers to a person's expertise or mastery in a particular skill, often used in the context of art, craft, or technical abilities.
   transliteration: Jìyì
-- raw: 传记一
-  result: Biography I
-  badtrans: false
-  context: Likely refers to the first volume or part of a biography, a written account of someone's life.
-  transliteration: Zhuànjì Yī
 - raw: 玄机
   result: Secret Art
   badtrans: true
@@ -214,6 +208,15 @@
 - raw: 劫数
   result: Calamity
   badtrans: true
+- raw: 传记一
+  result: Biography I
+  badtrans: false
+  context: Likely refers to the first volume or part of a biography, a written account of someone's life.
+  transliteration: Zhuànjì Yī
+- raw: 结交
+  result: Befriend
+  badtrans: false
+  context: The act of forming friendships or building relationships with others.
 
 # Settings
 - raw: 高级
@@ -270,6 +273,8 @@
   badtrans: true
 - raw: 白露
   result: White Dew
+  allowalt: 
+    - Bailu  #Name
   badtrans: true
 - raw: 秋分
   result: Autumn Equinox
@@ -543,6 +548,12 @@
 - raw: 青日百酿诀
   result: Azure Sun Hundred Brews Formula
   badtrans: true
+- raw: 伏火百草诀
+  result: Hidden Fire Hundred Herb Formula
+  badtrans: false
+  direct: The Hidden Fire Hundred Herbs Secret
+  literal: Fú Huǒ Bǎi Cǎo Jué
+
 
 - raw: 钟灵化谷
   result: Spiritual Essence Transforming into the Valley
@@ -566,6 +577,7 @@
     - Knives
     - Cleaver
     - Scissor
+    - Saber
     - Dao
   badtrans: true
 - raw: 暗器
@@ -645,6 +657,9 @@
     - Qian
     - Money 
   badtrans: false
+- raw: 铁矿石  
+  result: Iron Ore  
+  badtrans: false
 - raw: 玄铁
   result: Dark Steel
   badtrans: true
@@ -704,6 +719,8 @@
   badtrans: true
 - raw: 茯苓
   result: Poria
+  allowalt: 
+    - Fuling
   badtrans: true
 - raw: 三七
   result: Sanqi
@@ -782,6 +799,7 @@
   context: Sometimes used as literal names
   allowalt: 
     - Hu
+    - Gecko #Wall Tiger
   badtrans: true
 - raw: 僧侣
   result: Monk
@@ -900,10 +918,12 @@
   badtrans: true
 - raw: 二郎
   result: Second Young Master 
+  allowalt: 
     - Erlang
   badtrans: true
 - raw: 三郎
   result: Third Young Master 
+  allowalt: 
     - Sanlang
   badtrans: true
 - raw: 爹
@@ -1150,6 +1170,50 @@
 - raw: 昕儿
   result: Xin'er  
   badtrans: true
+- raw: 胡有汉
+  result: Hu Youhan  
+  literal: Hu Youhan  
+  badtrans: true  
+- raw: 师瑶碧  
+  result: Shi Yaobi  
+  direct: Shi Yaobi  
+  literal: Shī Yáobì  
+  badtrans: true  
+- raw: 厉独苏  
+  result: Li Dusu  
+  direct: Li Dusu  
+  literal: Lì Dú Sū  
+  badtrans: true  
+- raw: 江风伯  
+  result: Jiang Fengbo  
+  direct: Jiang Fengbo  
+  literal: Jiāng Fēngbó  
+  badtrans: true  
+- raw: 叶湄双  
+  result: Ye Meishuang  
+  direct: Ye Meishuang  
+  literal: Yè Míshuāng  
+  badtrans: true  
+- raw: 师连浮  
+  result: Shi Lianfu  
+  direct: Shi Lianfu  
+  literal: Shī Liánfú  
+  badtrans: true  
+- raw: 绘岭
+  result: Hui Ling
+  badtrans: false
+  direct: Hui Ling
+  literal: Huì Lǐng
+- raw: 简嶂
+  result: Jian Zhang
+  badtrans: false
+  direct: Jian Zhang
+  literal: Jiǎn Zhàng
+- raw: 吕如贺
+  result: Lu Ruhe
+  badtrans: false
+  direct: Lü Ruhe
+  literal: Lü Ruhe
 
 - raw: 袁婉君
   result: Yuan Wanjun
@@ -1266,7 +1330,9 @@
   result: Wen Jiao
   badtrans: true
 - raw: 碧玉
-  result: Green Jade
+  result: Biyu
+  allowalt:
+    - Green Jade # Literal Translation
   badtrans: true
 - raw: 崔琛
   result: Cui Chen
@@ -1643,13 +1709,10 @@
   result: Mu Te Tribe
   badtrans: true
 - raw: 泠香坞
-  result: Cold Fragrance Harbor
+  result: Cold Fragrance Cove
   badtrans: true
 - raw: 桃花坞
-  result: Peach Blossom Harbor
-  badtrans: true
-- raw: 冷香坞
-  result: Cold Fragrance Harbor
+  result: Peach Blossom Cove
   badtrans: true
 - raw: 紫阳山
   result: Purple Sun Mountain
@@ -1669,6 +1732,16 @@
 - raw: 绝影楼
   result: Shadowless Tower
   badtrans: true
+- raw: 神兵庄  
+  result: Divine Weapon Villa  
+  direct: Divine Weapon Villa  
+  literal: Shén bīng zhuāng  
+  badtrans: true  
+- raw: 丹道  
+  result: Elixir Way  
+  direct: Pill Dao  
+  literal: Dān dào  
+  badtrans: true  
 
 # Kingdoms
 - raw: 燕国
@@ -1691,6 +1764,12 @@
   badtrans: true
 - raw: 罗刹国
   result: Rakshasa Kingdom
+- raw: 邶国
+  result: Bei Kingdom
+  badtrans: false
+  direct: Bei Kingdom
+  literal: Bèi Guó
+
 
 # Horoscope - 60-year Chinese sexagenary cycle
 - raw: 甲子

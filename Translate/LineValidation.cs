@@ -23,6 +23,7 @@ public static class LineValidation
         raw = raw
             //.Replace("。", ".") //Hold off on this one for now
             .Replace("…", "...")
+            .Replace("·", ":")
             .Replace("：", ":")
             .Replace("：", ":")
             .Replace("《", "'")
