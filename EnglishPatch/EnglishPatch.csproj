@@ -37,6 +37,12 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\下一站江湖Ⅱ_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="XUnity.ResourceRedirector">
+      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\plugins\XUnity.ResourceRedirector\XUnity.ResourceRedirector.dll</HintPath>
+    </Reference>
+    <Reference Include="XUnity.ResourceRedirector.BepInEx">
+      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\plugins\XUnity.ResourceRedirector\XUnity.ResourceRedirector.BepInEx.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">

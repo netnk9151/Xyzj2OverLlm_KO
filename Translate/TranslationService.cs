@@ -412,7 +412,7 @@ public static class TranslationService
                             split.Translated = translationCache[split.Text];
                         else
                         {
-                            var result = await TranslateSplitAsync(config, split.Text, client, outputFile);
+                            var result = await TranslateSplitAsync(config, split.Text, client, textFileToTranslate.Path);
                             split.Translated = result.Valid ? result.Result : string.Empty;
                         }
 
@@ -627,7 +627,7 @@ public static class TranslationService
         return (foundSplit, response);
     }
 
-    public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, string outputFile)
+    public static async Task<(bool split, string result)> SplitIfNeededAsync(string splitCharacters, LlmConfig config, string raw, HttpClient client, string fileName)
     {
         if (raw.Contains(splitCharacters))
         {
@@ -645,7 +645,7 @@ public static class TranslationService
 
             foreach (var split in splits)
             {
-                var trans = await TranslateSplitAsync(config, split, client, outputFile);
+                var trans = await TranslateSplitAsync(config, split, client, fileName);
 
                 // If one fails we have to kill the lot
                 if (!trans.Valid)
@@ -666,7 +666,7 @@ public static class TranslationService
         return (false, string.Empty);
     }
 
-    public static async Task<(bool split, string result)> SplitBracketsIfNeededAsync(LlmConfig config, string raw, HttpClient client, string outputFile)
+    public static async Task<(bool split, string result)> SplitBracketsIfNeededAsync(LlmConfig config, string raw, HttpClient client, string fileName)
     {
         if (raw.Contains('('))
         {
@@ -682,7 +682,7 @@ public static class TranslationService
 
                 if (!string.IsNullOrEmpty(outsideStart))
                 {
-                    var trans = await TranslateSplitAsync(config, outsideStart, client, outputFile);
+                    var trans = await TranslateSplitAsync(config, outsideStart, client, fileName);
                     output += trans.Result;
 
                     // If one fails we have to kill the lot
@@ -692,7 +692,7 @@ public static class TranslationService
 
                 if (!string.IsNullOrEmpty(inside))
                 {
-                    var trans = await TranslateSplitAsync(config, inside, client, outputFile);
+                    var trans = await TranslateSplitAsync(config, inside, client, fileName);
                     output += $" ({trans.Result}) ";
 
                     // If one fails we have to kill the lot
@@ -702,7 +702,7 @@ public static class TranslationService
 
                 if (!string.IsNullOrEmpty(outsideEnd))
                 {
-                    var trans = await TranslateSplitAsync(config, outsideEnd, client, outputFile);
+                    var trans = await TranslateSplitAsync(config, outsideEnd, client, fileName);
                     output += trans.Result;
 
                     // If one fails we have to kill the lot
@@ -717,7 +717,7 @@ public static class TranslationService
         return (false, string.Empty);
     }
 
-    public static async Task<ValidationResult> TranslateSplitAsync(LlmConfig config, string? raw, HttpClient client, string outputFile, string additionalPrompts = "")
+    public static async Task<ValidationResult> TranslateSplitAsync(LlmConfig config, string? raw, HttpClient client, string fileName, string additionalPrompts = "")
     {
         if (string.IsNullOrEmpty(raw))
             return new ValidationResult(true, string.Empty); //Is ok because raw was empty
@@ -733,27 +733,27 @@ public static class TranslationService
         var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
 
         // Brackets Split first - so it doesnt split stuff inside the brackets
-        //var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, outputFile);
+        //var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, fileName);
         //if (split2)
-        //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, outputFile, tokenReplacer);
+        //    return LineValidation.CleanupLineBeforeSaving(result2, preparedRaw, fileName, tokenReplacer);
 
         // TODO: We really should move this segementation to the object model itself and split it at export time
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
         foreach (var splitCharacters in SplitCharactersList)
         {
-            var (split, result) = await SplitIfNeededAsync(splitCharacters, config, preparedRaw, client, outputFile);
+            var (split, result) = await SplitIfNeededAsync(splitCharacters, config, preparedRaw, client, fileName);
 
             // Because its recursive we want to bail out on the first successful one
             if (split)
-                return new ValidationResult(LineValidation.CleanupLineBeforeSaving(result, preparedRaw, outputFile, tokenReplacer));
+                return new ValidationResult(LineValidation.CleanupLineBeforeSaving(result, preparedRaw, fileName, tokenReplacer));
         }
 
         var cacheHit = config.TranslationCache.ContainsKey(preparedRaw);
         if (cacheHit)
-            return new ValidationResult(LineValidation.CleanupLineBeforeSaving(config.TranslationCache[preparedRaw], preparedRaw, outputFile, tokenReplacer));
+            return new ValidationResult(LineValidation.CleanupLineBeforeSaving(config.TranslationCache[preparedRaw], preparedRaw, fileName, tokenReplacer));
 
         // Define the request payload
-        List<object> messages = GenerateBaseMessages(config, preparedRaw, outputFile, additionalPrompts);
+        List<object> messages = GenerateBaseMessages(config, preparedRaw, fileName, additionalPrompts);
 
         try
         {
@@ -765,8 +765,8 @@ public static class TranslationService
             {
                 var llmResult = await TranslateMessagesAsync(client, config, messages);
                 preparedResult = LineValidation.PrepareResult(llmResult);
-                validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, outputFile);
-                validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, outputFile, tokenReplacer);
+                validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, fileName);
+                validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, fileName, tokenReplacer);
 
                 // Append history of failures
                 if (!validationResult.Valid && config.CorrectionPromptsEnabled)
@@ -774,7 +774,7 @@ public static class TranslationService
                     var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, validationResult, preparedRaw, llmResult);
 
                     // Regenerate base messages so we dont hit token limit by constantly appending retry history
-                    messages = GenerateBaseMessages(config, preparedRaw, outputFile);
+                    messages = GenerateBaseMessages(config, preparedRaw, fileName);
                     AddCorrectionMessages(messages, llmResult, correctionPrompt);
                 }
 
@@ -796,7 +796,7 @@ public static class TranslationService
         messages.Add(LlmHelpers.GenerateUserPrompt(correctionPrompt));
     }
 
-    public static List<object> GenerateBaseMessages(LlmConfig config, string raw, string outputFile, string additionalSystemPrompt = "")
+    public static List<object> GenerateBaseMessages(LlmConfig config, string raw, string fileName, string additionalSystemPrompt = "")
     {
         //Dynamically build prompt using whats in the raws
         var basePrompt = new StringBuilder(config.Prompts["BaseSystemPrompt"]);
@@ -809,7 +809,7 @@ public static class TranslationService
             basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
 
         basePrompt.AppendLine(config.Prompts["BaseGlossaryPrompt"]);
-        basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines));
+        basePrompt.AppendLine(GlossaryLine.AppendPromptsFor(raw, config.GlossaryLines, fileName));
 
         basePrompt.AppendLine(additionalSystemPrompt);
 
@@ -851,14 +851,17 @@ public static class TranslationService
         DirectoryInfo[] dirs = dir.GetDirectories();
         foreach (DirectoryInfo subdir in dirs)
         {
+            if (subdir.Name == ".git" || subdir.Name == ".vs")
+                continue;
+
             var tempPath = Path.Combine(destDir, subdir.Name);
             CopyDirectory(subdir.FullName, tempPath);
         }
     }
 
-    public static async Task<string> TranslateInputAsync(HttpClient client, LlmConfig config, string input, string outputFile = "", string additionalPrompt = "")
+    public static async Task<string> TranslateInputAsync(HttpClient client, LlmConfig config, string input, string fileName = "", string additionalPrompt = "")
     {
-        List<object> messages = TranslationService.GenerateBaseMessages(config, input, outputFile, additionalPrompt);
+        List<object> messages = TranslationService.GenerateBaseMessages(config, input, fileName, additionalPrompt);
         return await TranslateMessagesAsync(client, config, messages);
     }
 

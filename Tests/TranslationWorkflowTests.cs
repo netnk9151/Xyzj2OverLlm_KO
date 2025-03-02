@@ -1,5 +1,6 @@
 ﻿using System.IO.Compression;
 using System.Text.RegularExpressions;
+using Xunit.Abstractions;
 
 namespace Translate.Tests;
 
@@ -82,6 +83,20 @@ public class TranslationWorkflowTests
         File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{resourceDirectory}/dumpedPrefabText.txt", true);
 
         await PackageRelease();
+    }
+
+    [Fact(DisplayName = "6. Copy Sprites")]
+    public async Task CopySprites()
+    {
+        await TranslationService.PackageFinalTranslationAsync(workingDirectory);
+
+        var sourceDirectory = $@"H:\xzyj2-sprites";
+        var spritesDirectory = $"{gameFolder}/BepInEx/sprites";
+
+        if (Directory.Exists(spritesDirectory))
+            Directory.Delete(spritesDirectory, true);
+
+        TranslationService.CopyDirectory(sourceDirectory, spritesDirectory);
     }
 
     [Fact(DisplayName = "7. Pack Release")]
@@ -264,8 +279,8 @@ public class TranslationWorkflowTests
         if (cleanWithGlossary)
         {
             // Glossary Clean up - this won't check our manual jobs
-            modified = CheckMistranslationGlossary(config, split, modified);
-            modified = CheckHallucinationGlossary(config,split, modified);
+            modified = CheckMistranslationGlossary(config, split, modified, outputFile);
+            modified = CheckHallucinationGlossary(config, split, modified, outputFile);
         }
 
         // Characters
@@ -343,7 +358,7 @@ public class TranslationWorkflowTests
         return modified;
     }
 
-    private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified)
+    private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified, string outputFile)
     {
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
@@ -354,6 +369,13 @@ public class TranslationWorkflowTests
         foreach (var item in config.GlossaryLines)
         {
             if (!item.CheckForBadTranslation)
+                continue;
+
+            //TODO: Test
+            //Exclusions and Targetted Glossary
+            if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(outputFile))
+                continue;
+            else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(outputFile))
                 continue;
 
             if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
@@ -378,7 +400,7 @@ public class TranslationWorkflowTests
         return modified; // Will be previous value - even if it didnt find anything
     }
 
-    private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified)
+    private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified, string outputFile)
     {
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
@@ -393,6 +415,12 @@ public class TranslationWorkflowTests
             if (!preparedRaw.Contains(item.Raw) && split.Translated.Contains(item.Result))
             {
                 if (!item.CheckForMisusedTranslation)
+                    continue;
+
+                //Exclusions and Targetted Glossary
+                if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(outputFile))
+                    continue;
+                else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(outputFile))
                     continue;
 
                 // Regex matches on terms with ... match incorrectly

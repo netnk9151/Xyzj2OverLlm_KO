@@ -12,7 +12,7 @@ public class TranslatedRaw(string raw)
 public class TextFileToSplit
 {
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string? Path { get; set; }
+    public string Path { get; set; } = string.Empty;
 
     public bool Output { get; set; } = false;
 

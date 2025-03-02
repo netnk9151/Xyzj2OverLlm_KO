@@ -3,8 +3,8 @@
 2#Conduct forge consumption testing.#During forging, the consumption of money and ore is reduced by 50%.#0#0#0|0,4|-50#
 3#Forge Attribute Test#When forging is completed, the products obtained through crafting, sewing, and skilled hands have their external attack, durability, sharpness, and toughness attributes increased by 50%.#0#1#2,3,4|1|-1,-2,-3,20|50#
 4#Forge entry test#When forging, sewing, or using skilled hands to create an item, the resulting product will undoubtedly obtain a specific term.#0#1#2,3,4|3|10101,12401#
-101#Treasure-hunting sense of smell#Naturally sensitive to the search for gold, silver, and treasures. Upon task completion, receive an additional bonus of 6% in monetary rewards.#0#2#0|0|6#
-102#Prosperity in wealth#Financial fortune is often present, and during business ventures or task completion, one frequently receives greater rewards than others. Upon completing a task, the monetary reward increases by an additional 9%.#1#2#0|0|9#
+101#Treasure-hunting sense of smell#Naturally sensitive to the search for gold and silver treasures. Upon task completion, the monetary reward is increased by an additional 6%.#0#2#0|0|6#
+102#Prosperity in wealth#Fortune favors the wealthy; in business or completing tasks, they often receive more rewards than others. Upon task completion, the monetary reward is additionally increased by 9%.#1#2#0|0|9#
 103#The art of wealth alchemy#You have a unique insight into the feng shui of places, as if you could attract wealth from past lives. Upon task completion, money increases by an additional 12%.#2#2#0|0|12#
 104#The fortune of the Carp in Brocade#It seems you're often favored by fortune when it comes to wealth. Upon task completion, the amount of money increases by an additional 15%.#3#2#0|0|15#
 105#Money flows in like a river#Born with a natural affinity for money, possessing an irresistible attraction to wealth. Upon task completion, the monetary reward is additionally increased by 18%.#4#2#0|0|18#
@@ -38,11 +38,11 @@
 703#Discerning spirit in a foreign land#Skilled at recognizing talent, and able to win over people with sincerity. Upon task completion, the number increases by an additional 12%.#2#2#0|6|12#
 704#Invite and employ talents#Skilled at discovering and recruiting talent from all directions, the underlings produce outstanding individuals. Upon task completion, numbers are increased by an additional 15%.#3#2#0|6|15#
 705#Uniting talent to form a collective#Charismatic enough to effortlessly gather heroes from across the land. Upon task completion, numbers increase by an additional 18%.#4#2#0|6|18#
-801#Admired as a precious jewel atop the realm#Although there is an opportunity to obtain a treasure, due to vision issues, pearls may be missed. Upon task completion, the monetary reward decreases by 6%.#0#2#0|0|-6#
-802#Forgetting one's roots.#Desiring gold and jewels from within often leads to forgetting one's true nature. Upon task completion, the monetary reward is reduced by 9%.#0#2#0|0|-9#
-803#Pick up beans, drop melons#Seeing what you want and wanting it all, but ending up with nothing. At task completion, the monetary reward is reduced by 12%.#0#2#0|0|-12#
-804#Artist#The only thing they're good at is painting pies, so the outcome fell short of expectations. Upon task completion, the monetary reward decreased by 15%.#0#2#0|0|-15#
-805#Strain on inner vitality#Internal conflicts often lead to irritability, affecting daily activities. Upon task completion, the monetary reward is reduced by 18%.#0#2#0|0|-18#
+801#Admired as a precious jewel atop the realm#Although there is an opportunity to obtain a treasure, you may miss the pearl due to vision issues. Upon task completion, the monetary reward decreases by 6%.#0#2#0|0|-6#
+802#Forgetting one's roots.#Yearning for gold, silver, and jewels in the heart makes one easily forget their true nature. When tasks are completed, the monetary reward is reduced by 9%.#0#2#0|0|-9#
+803#Pick up beans, drop melons#See what you want and try to get it all; in the end, you catch nothing. When completing the task, the monetary reward is reduced by 12%.#0#2#0|0|-12#
+804#Artist#He has no other skills but is good at painting pies, so the result was far below expectations. When the task was completed, the monetary reward decreased by 15%.#0#2#0|0|-15#
+805#Strain on inner vitality#Frequent internal conflicts and irritability affect daily tasks. Upon task completion, the monetary reward is reduced by 18%.#0#2#0|0|-18#
 851#Star of Lonely Destiny#Born under ominous signs and often plagued by misfortune, when the task is completed, obtain a reduction in stability by 6%.#0#2#0|1|-6#
 852#Fortune and misfortune are intertwined#Fortune turns to misfortune, often encountering unhappiness in times of joy. Upon task completion, obtain a reduction of stability by 9%.#0#2#0|1|-9#
 853#A whole lot of noise, but no one gets hurt#Acting rashly for a moment ends up costing more. Upon task completion, stability decreases by 12%.#0#2#0|1|-12#
@@ -151,8 +151,8 @@
 1601#Excessive wastefulness#Crafting skills are subpar, resulting in significant waste of materials. When crafting props, the expenditure of money increases by 6%.#0#0#0|0|6#
 1602#Clumsily made#Craftsmanship is rough, materials are improperly used, often requiring rework. During prop production, the consumption of money increases by 9%.#0#0#0|0|9#
 1603#Clumsy, poor workmanship#Poor craftsmanship, costs double. When crafting items, the expenditure of money increases by 12%.#0#0#0|0|12#
-1604#Without regard to cost#During the production process, there was a lack of restraint, leading to a significant increase in costs. The cost of producing props increased by 15%.#0#0#0|0|15#
-1605#Shocking losses#Crafting quality is poor, resulting in excessive material waste. When creating props, the cost increases by 18%.#0#0#0|0|18#
+1604#Without regard to cost#During the production process, there was a lack of restraint, leading to a significant increase in costs. The expenditure on props increased by 15%.#0#0#0|0|15#
+1605#Shocking losses#Craftsmanship is poor, resulting in significant material waste. The cost of making props increases by 18%.#0#0#0|0|18#
 1651#Materials are difficult to control#Crafting skill is lacking, resulting in excessive material waste. The consumption of ore increases by 6% when crafting items.#0#0#0|4|6#
 1652#Thoughtless and careless#Careless with tasks, causing a 9% increase in resource consumption when crafting items. Crafting an item consumes additional minerals increased by 9%.#0#0#0|4|9#
 1653#My work was botched due to clumsiness#During production, frequent mistakes are made, and material usage significantly increases. The crafting of props increases the consumption of ore by 12%.#0#0#0|4|12#

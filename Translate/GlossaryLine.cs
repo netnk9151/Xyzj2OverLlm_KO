@@ -18,6 +18,12 @@ public class GlossaryLine
     [YamlMember(Alias = "badtrans")]
     public bool CheckForBadTranslation { get; set; } = true;
 
+    [YamlMember(Alias = "only")]
+    public List<string> OnlyOutputFiles { get; set; } = [];
+
+    [YamlMember(Alias = "exclude")]
+    public List<string> ExcludeOutputFiles { get; set; } = [];
+
     public GlossaryLine()
     {
     }
@@ -28,12 +34,19 @@ public class GlossaryLine
         Result = result;
     }
 
-    public static string AppendPromptsFor(string raw, List<GlossaryLine> glossaryLines)
+    public static string AppendPromptsFor(string raw, List<GlossaryLine> glossaryLines, string outputFile)
     {
         var prompt = new StringBuilder();
 
         foreach (var line in glossaryLines)
         {
+            //TODO: Test
+            //Exclusions and Targetted Glossary
+            if (line.OnlyOutputFiles.Count > 0 && !line.OnlyOutputFiles.Contains(outputFile))
+                continue;
+            else if (line.ExcludeOutputFiles.Count > 0 && line.ExcludeOutputFiles.Contains(outputFile))
+                continue;
+
             if (raw.Contains(line.Raw))
             {
                 prompt.Append($"- {line.Raw}: {line.Result}\n");

@@ -1,5 +1,4 @@
-﻿
-# Terms
+﻿# Terms
 - raw: 武侠
   result: Wuxia
   badtrans: true
@@ -85,6 +84,421 @@
   badtrans: false
   context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
   transliteration: Liúpài
+
+# Unknown
+- raw: 万宗
+  result: Myriad Skills
+  badtrans: true
+  literal: Wàn zōng
+
+# Special Days
+- raw: 初一
+  result: New Year's Day
+  badtrans: true
+  direct: First day of the lunar new year
+  literal: Chū yī
+
+# Numbers - we want this to be targeted
+- raw: 一
+  result: 1
+  badtrans: true
+  direct: 1
+  literal: Yī
+  only: 
+    - horoscope.txt
+- raw: 二
+  result: 2
+  badtrans: true
+  direct: 2
+  literal: Èr
+  only: 
+    - horoscope.txt
+- raw: 三
+  result: 3
+  badtrans: true
+  direct: 3
+  literal: Sān
+  only: 
+    - horoscope.txt
+- raw: 四
+  result: 4
+  badtrans: true
+  direct: 4
+  literal: Sì
+  only: 
+    - horoscope.txt
+- raw: 五
+  result: 5
+  badtrans: true
+  direct: 5
+  literal: Wǔ
+  only: 
+    - horoscope.txt
+- raw: 六
+  result: 6
+  badtrans: true
+  direct: 6
+  literal: Liù
+  only: 
+    - horoscope.txt
+- raw: 七
+  result: 7
+  badtrans: true
+  direct: 7
+  literal: Qī
+  only: 
+    - horoscope.txt
+- raw: 八
+  result: 8
+  badtrans: true
+  direct: 8
+  literal: Bā
+  only: 
+    - horoscope.txt
+- raw: 九
+  result: 9
+  badtrans: true
+  direct: 9
+  literal: Jiǔ
+  only: 
+    - horoscope.txt
+- raw: 十
+  result: 10
+  badtrans: true
+  direct: 10
+  literal: Shí
+  only: 
+    - horoscope.txt
+- raw: 十一
+  result: 11
+  badtrans: true
+  direct: 11
+  literal: Shí yī
+  only: 
+    - horoscope.txt
+- raw: 十二
+  result: 12
+  badtrans: true
+  direct: 12
+  literal: Shí èr
+  only: 
+    - horoscope.txt
+- raw: 十三
+  result: 13
+  badtrans: true
+  direct: 13
+  literal: Shí sān
+  only: 
+    - horoscope.txt
+- raw: 十四
+  result: 14
+  badtrans: true
+  direct: 14
+  literal: Shí sì
+  only: 
+    - horoscope.txt
+- raw: 十五
+  result: 15
+  badtrans: true
+  direct: 15
+  literal: Shí wǔ
+  only: 
+    - horoscope.txt
+- raw: 十六
+  result: 16
+  badtrans: true
+  direct: 16
+  literal: Shí liù
+  only: 
+    - horoscope.txt
+- raw: 十七
+  result: 17
+  badtrans: true
+  direct: 17
+  literal: Shí qī
+  only: 
+    - horoscope.txt
+- raw: 十八
+  result: 18
+  badtrans: true
+  direct: 18
+  literal: Shí bā
+  only: 
+    - horoscope.txt
+- raw: 十九
+  result: 19
+  badtrans: true
+  direct: 19
+  literal: Shí jiǔ
+  only: 
+    - horoscope.txt
+- raw: 二十
+  result: 20
+  badtrans: true
+  direct: 20
+  literal: Èr shí
+  only: 
+    - horoscope.txt
+- raw: 二十一
+  result: 21
+  badtrans: true
+  direct: 21
+  literal: Èr shí yī
+  only: 
+    - horoscope.txt
+- raw: 二十二
+  result: 22
+  badtrans: true
+  direct: 22
+  literal: Èr shí èr
+  only: 
+    - horoscope.txt
+- raw: 二十三
+  result: 23
+  badtrans: true
+  direct: 23
+  literal: Èr shí sān
+  only: 
+    - horoscope.txt
+- raw: 二十四
+  result: 24
+  badtrans: true
+  direct: 24
+  literal: Èr shí sì
+  only: 
+    - horoscope.txt
+- raw: 二十五
+  result: 25
+  badtrans: true
+  direct: 25
+  literal: Èr shí wǔ
+  only: 
+    - horoscope.txt
+- raw: 二十六
+  result: 26
+  badtrans: true
+  direct: 26
+  literal: Èr shí liù
+  only: 
+    - horoscope.txt
+- raw: 二十七
+  result: 27
+  badtrans: true
+  direct: 27
+  literal: Èr shí qī
+  only: 
+    - horoscope.txt
+- raw: 二十八
+  result: 28
+  badtrans: true
+  direct: 28
+  literal: Èr shí bā
+  only: 
+    - horoscope.txt
+- raw: 二十九
+  result: 29
+  badtrans: true
+  direct: 29
+  literal: Èr shí jiǔ
+  only: 
+    - horoscope.txt
+- raw: 三十
+  result: 30
+  badtrans: true
+  direct: 30
+  literal: Sān shí
+  only: 
+    - horoscope.txt
+- raw: 三十一
+  result: 31
+  badtrans: true
+  direct: 31
+  only: 
+    - horoscope.txt
+- raw: 正月
+  result: Jan
+  badtrans: true
+  direct: January
+  literal: Zhēng yuè
+  only: 
+    - horoscope.txt
+- raw: 二月
+  result: Feb
+  badtrans: true
+  direct: February
+  literal: Èr yuè
+  only: 
+    - horoscope.txt
+- raw: 三月
+  result: Mar
+  badtrans: true
+  direct: March
+  literal: Sān yuè
+  only: 
+    - horoscope.txt
+- raw: 四月
+  result: Apr
+  badtrans: true
+  direct: April
+  literal: Sì yuè
+  only: 
+    - horoscope.txt
+- raw: 五月
+  result: May
+  badtrans: true
+  direct: May
+  literal: Wǔ yuè
+  only: 
+    - horoscope.txt
+- raw: 六月
+  result: Jun
+  badtrans: true
+  direct: June
+  literal: Liù yuè
+  only: 
+    - horoscope.txt
+- raw: 七月
+  result: Jul
+  badtrans: true
+  direct: July
+  literal: Qī yuè
+  only: 
+    - horoscope.txt
+- raw: 八月
+  result: Aug
+  badtrans: true
+  direct: August
+  literal: Bā yuè
+  only: 
+    - horoscope.txt
+- raw: 九月
+  result: Sep
+  badtrans: true
+  direct: September
+  literal: Jiǔ yuè
+  only: 
+    - horoscope.txt
+- raw: 十月
+  result: Oct
+  badtrans: true
+  direct: October
+  literal: Shí yuè
+  only: 
+    - horoscope.txt
+- raw: 十一月
+  result: Nov
+  badtrans: true
+  direct: November
+  literal: Shí yī yuè
+  only: 
+    - horoscope.txt
+- raw: 十二月
+  result: Dec
+  badtrans: true
+  direct: December
+  literal: Shí èr yuè
+  only: 
+    - horoscope.txt
+- raw: 腊月
+  result: Dec
+  badtrans: true
+  direct: December
+  literal: Là yuè
+  only: 
+    - horoscope.txt
+ 
+# Months
+- raw: 正月
+  result: January
+  badtrans: true
+  direct: January
+  literal: Zhēng yuè
+  exclude: 
+    - horoscope.txt
+- raw: 二月
+  result: February
+  badtrans: true
+  direct: February
+  literal: Èr yuè
+  exclude: 
+    - horoscope.txt
+- raw: 三月
+  result: March
+  badtrans: true
+  direct: March
+  literal: Sān yuè
+  exclude: 
+    - horoscope.txt
+- raw: 四月
+  result: April
+  badtrans: true
+  direct: April
+  literal: Sì yuè
+  exclude: 
+    - horoscope.txt
+- raw: 五月
+  result: May
+  badtrans: true
+  direct: May
+  literal: Wǔ yuè
+  exclude: 
+    - horoscope.txt
+- raw: 六月
+  result: June
+  badtrans: true
+  direct: June
+  literal: Liù yuè
+  exclude: 
+    - horoscope.txt
+- raw: 七月
+  result: July
+  badtrans: true
+  direct: July
+  literal: Qī yuè
+  exclude: 
+    - horoscope.txt
+- raw: 八月
+  result: August
+  badtrans: true
+  direct: August
+  literal: Bā yuè
+  exclude: 
+    - horoscope.txt
+- raw: 九月
+  result: September
+  badtrans: true
+  direct: September
+  literal: Jiǔ yuè
+  exclude: 
+    - horoscope.txt
+- raw: 十月
+  result: October
+  badtrans: true
+  direct: October
+  literal: Shí yuè
+  exclude: 
+    - horoscope.txt
+- raw: 十一月
+  result: November
+  badtrans: true
+  direct: November
+  literal: Shí yī yuè
+  exclude: 
+    - horoscope.txt
+- raw: 十二月
+  result: December
+  badtrans: true
+  direct: December
+  literal: Shí èr yuè
+  exclude: 
+    - horoscope.txt
+- raw: 腊月
+  result: December
+  badtrans: true
+  direct: December
+  literal: Là yuè
+  exclude: 
+    - horoscope.txt
 
 # Prefabs 
 - raw: 斩
@@ -550,7 +964,7 @@
   badtrans: true
 - raw: 伏火百草诀
   result: Hidden Fire Hundred Herb Formula
-  badtrans: false
+  badtrans: true
   direct: The Hidden Fire Hundred Herbs Secret
   literal: Fú Huǒ Bǎi Cǎo Jué
 
@@ -656,10 +1070,10 @@
   allowalt: 
     - Qian
     - Money 
-  badtrans: false
+  badtrans: true
 - raw: 铁矿石  
   result: Iron Ore  
-  badtrans: false
+  badtrans: true
 - raw: 玄铁
   result: Dark Steel
   badtrans: true
@@ -1201,17 +1615,17 @@
   badtrans: true  
 - raw: 绘岭
   result: Hui Ling
-  badtrans: false
+  badtrans: true
   direct: Hui Ling
   literal: Huì Lǐng
 - raw: 简嶂
   result: Jian Zhang
-  badtrans: false
+  badtrans: true
   direct: Jian Zhang
   literal: Jiǎn Zhàng
 - raw: 吕如贺
   result: Lu Ruhe
-  badtrans: false
+  badtrans: true
   direct: Lü Ruhe
   literal: Lü Ruhe
 
@@ -1739,6 +2153,8 @@
   badtrans: true  
 - raw: 丹道  
   result: Elixir Way  
+  allowAlt:
+    Elixir Technique
   direct: Pill Dao  
   literal: Dān dào  
   badtrans: true  
@@ -1766,7 +2182,7 @@
   result: Rakshasa Kingdom
 - raw: 邶国
   result: Bei Kingdom
-  badtrans: false
+  badtrans: true
   direct: Bei Kingdom
   literal: Bèi Guó
 
@@ -1981,9 +2397,3 @@
 - raw: 藏刀式  
   result: Hidden Blade Technique
   transliteration: Cáng dāo shì  
-
-# Unknown
-- raw: 万宗
-  result: Myriad Skills
-  badtrans: true
-  literal: Wàn zōng
