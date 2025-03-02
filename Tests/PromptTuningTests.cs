@@ -22,7 +22,9 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("劫数：                 <color=#2EDFA3>[大限将至]</color>"),
+            new("完成奇遇任务《江海图志·枰栌》"),
+            new("万宗"),
+            //new("劫数：                 <color=#2EDFA3>[大限将至]</color>"),
             //new("外功："),
             //new("实力："),
             //new("轻功："),

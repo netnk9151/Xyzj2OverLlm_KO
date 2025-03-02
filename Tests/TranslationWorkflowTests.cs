@@ -147,6 +147,7 @@ public class TranslationWorkflowTests
 
         var badRegexes = new List<string>
         {
+            //"·", //Figure out split before doing this
             //@"\(.*，.*\)" //Put back for big files
         };
 
