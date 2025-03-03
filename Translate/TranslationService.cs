@@ -31,9 +31,9 @@ public static class TranslationService
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
-                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, ForceTitleCase = true},
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
             new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
-                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, ForceTitleCase = true},
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
 
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},

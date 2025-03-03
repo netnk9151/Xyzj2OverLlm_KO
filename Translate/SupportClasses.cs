@@ -28,7 +28,7 @@ public class TextFileToSplit
 
     public bool RemoveNumbers { get; set; } = false;
 
-    public bool ForceTitleCase { get; set; } = false;
+    public bool NameCleanupRoutines { get; set; } = false;
 }
 
 public class TranslationSplit

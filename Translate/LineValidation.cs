@@ -95,10 +95,10 @@ public static class LineValidation
             if (textFile.RemoveNumbers)
                 result = RemoveNumbers(result);
 
-            if (textFile.ForceTitleCase)
+            if (textFile.NameCleanupRoutines)
             {
-                TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
-                result = textInfo.ToTitleCase(result);
+                result.Replace(" ", "");
+                result = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(result);
             }
 
             result = RemoveDiacritics(result);

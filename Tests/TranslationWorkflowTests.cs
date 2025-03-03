@@ -152,7 +152,7 @@ public class TranslationWorkflowTests
 
 
         string[] fullFileRetrans = [
-            "horoscope.txt",
+            //"horoscope.txt",
             //"randomname.txt",
             //"randomnamenew.txt"
             ];
@@ -191,8 +191,8 @@ public class TranslationWorkflowTests
                         continue;
                     }
 
-                    //if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, textFile, config))
-                    //    recordsModded++;
+                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, textFile, config))
+                        recordsModded++;
                 }
 
             totalRecordsModded += recordsModded;
