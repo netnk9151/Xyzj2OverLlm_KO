@@ -1,5 +1,8 @@
-﻿**Task:** Transliterate Chinese text into Pinyin without spaces.
+﻿**Task:** Transliterate Chinese text into continuous Pinyin.
 
-1. **Transliteration:** Convert the given Chinese characters to their Pinyin equivalents.
-2. **Formatting:** Remove spaces between Pinyin syllables.
-3. **Verification:** Ensure accuracy and return the final result.
+**Transliteration Process:**
+- Convert each Chinese character to its corresponding Pinyin.
+- Remove spaces between syllables for a seamless sequence.
+
+**Verification:**
+- Ensure the conversion is accurate and return the final result with no numbers included.

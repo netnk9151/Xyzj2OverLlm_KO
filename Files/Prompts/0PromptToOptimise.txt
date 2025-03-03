@@ -1,3 +1,5 @@
-﻿- **Numbers**: Convert words like "one," "two," "three" into numeric form (1, 2, 3).
-- **Months**: Translate month names to abbreviations (Jan, Feb, Mar).
-- **Chinese Calendar days**: Translate Chinese calendar days into their numerical equivalents. For example, convert "初五" to "5th." 
+﻿**Task:** Transliterate Chinese text into Pinyin without spaces.
+
+**Transliteration:** Convert the given Chinese characters to their Pinyin equivalents.
+**Formatting:** Remove spaces between Pinyin syllables.
+**Verification:** Ensure accuracy and return the final result.
