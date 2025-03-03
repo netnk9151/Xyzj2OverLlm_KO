@@ -122,6 +122,24 @@ public class PromptTuningTests
         File.WriteAllText($"{workingDirectory}/TestResults/1.MinimisePrompt.txt", result);
     }
 
+    [Fact]
+    public async Task NamePromptTest()
+    {
+        var textFile = DefaultTestTextFile();
+
+        textFile.EnableBasePrompts = false;
+        textFile.EnableGlossary = false;
+        textFile.AdditionalPromptName = "FileRandomNamePrompt";
+
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+        var config = Configuration.GetConfiguration(workingDirectory);
+        var input = "白亦";
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, textFile);
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.NamePromptTest.txt", result.Result);
+    }
+
     [Theory]
     [InlineData(1, "完成奇遇任务《轻功高手》")]
     [InlineData(2, "雄霸武林")]

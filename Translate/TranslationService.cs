@@ -29,9 +29,9 @@ public static class TranslationService
 
             new() {Path = "dumpedPrefabText.txt", ExternalAsset = true},
 
-            new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt.txt"},
-            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt.txt", EnableGlossary = false, EnableBasePrompts = false},
-            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt.txt", EnableGlossary = false, EnableBasePrompts = false},
+            new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
+            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", EnableGlossary = false, EnableBasePrompts = false},
+            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", EnableGlossary = false, EnableBasePrompts = false},
 
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},
@@ -814,7 +814,7 @@ public static class TranslationService
         }
 
         if (!string.IsNullOrEmpty(splitFile.AdditionalPromptName))
-            basePrompt.AppendLine(config.Prompts["CustomPromptName"]);
+            basePrompt.AppendLine(config.Prompts[splitFile.AdditionalPromptName]);
 
         basePrompt.AppendLine(additionalSystemPrompt);
 
