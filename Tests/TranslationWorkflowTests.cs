@@ -120,6 +120,8 @@ public class TranslationWorkflowTests
         foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
             File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{releaseFolder}/BepInEx/resources/{file.Path}", true);
 
+        TranslationService.CopyDirectory($"{gameFolder}/BepInEx/sprites", $"{releaseFolder}/BepInEx/sprites");
+
         ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
 
         await Task.CompletedTask;
