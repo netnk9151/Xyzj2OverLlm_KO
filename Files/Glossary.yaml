@@ -317,14 +317,14 @@
     - horoscope.txt
 - raw: 正月
   result: Jan
-  badtrans: true
+  badtrans: true # Conflicts with Nov but dont want to alt it
   direct: January
   literal: Zhēng yuè
   only: 
     - horoscope.txt
 - raw: 二月
   result: Feb
-  badtrans: true
+  badtrans: true # Conflicts with december but dont want to alt it
   direct: February
   literal: Èr yuè
   only: 
@@ -410,14 +410,14 @@
 # Months
 - raw: 正月
   result: January
-  badtrans: true
+  badtrans: true # Conflicts with Nov but dont want to alt it
   direct: January
   literal: Zhēng yuè
   exclude: 
     - horoscope.txt
 - raw: 二月
   result: February
-  badtrans: true
+  badtrans: true  # Conflicts with Dec but dont want to alt it
   direct: February
   literal: Èr yuè
   exclude: 
@@ -501,6 +501,11 @@
     - horoscope.txt
 
 # Prefabs 
+- raw: 堪武
+  result: Martial Capability
+  badtrans: true
+  direct: Capable of martial arts
+  literal: Kanwu
 - raw: 斩
   result: Slash
   badtrans: false
@@ -656,6 +661,9 @@
   badtrans: true
 - raw: 清明
   result: Clear
+  allowalt:
+    - Bright
+    - Clarity
   badtrans: true
   context: A solar term in the Chinese calendar, also associated with the Tomb-Sweeping Festival where people honor their ancestors. Pure Brightness  
 - raw: 谷雨
@@ -1051,6 +1059,8 @@
   badtrans: true
 - raw: 外伤
   result: External Injury
+  allowalt: 
+    - Extra Damage # For situations like 额外伤害
   badtrans: true
 - raw: 中毒
   result: Poisoned
@@ -1070,7 +1080,7 @@
   allowalt: 
     - Qian
     - Money 
-  badtrans: true
+  badtrans: false
 - raw: 铁矿石  
   result: Iron Ore  
   badtrans: true
@@ -2153,8 +2163,8 @@
   badtrans: true  
 - raw: 丹道  
   result: Elixir Way  
-  allowAlt:
-    Elixir Technique
+  allowalt:
+    - Elixir Technique
   direct: Pill Dao  
   literal: Dān dào  
   badtrans: true  

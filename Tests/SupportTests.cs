@@ -9,6 +9,11 @@ public class SupportTests
 {
     const string workingDirectory = "../../../../Files";
 
+    public static TextFileToSplit DefaultTestTextFile() => new TextFileToSplit()
+    {
+        Path = "",
+    };
+
     [Fact]
     public void GenerateTextToFiles()
     {
@@ -130,8 +135,8 @@ public class SupportTests
         var glossary = new List<string>();
         foreach (var sect in sects)
         {
-            var trans = await TranslationService.TranslateInputAsync(client, config, sect, "", "All provided text are names");
-            trans = LineValidation.CleanupLineBeforeSaving(trans, sect, "", new StringTokenReplacer());
+            var trans = await TranslationService.TranslateInputAsync(client, config, sect, DefaultTestTextFile(), "All provided text are names");
+            trans = LineValidation.CleanupLineBeforeSaving(trans, sect, DefaultTestTextFile(), new StringTokenReplacer());
             glossary.Add($"- raw: {sect}");
             //glossary.Add($"  result: ");
             glossary.Add($"  result: {trans}");

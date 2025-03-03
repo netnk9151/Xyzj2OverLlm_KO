@@ -150,6 +150,13 @@ public class TranslationWorkflowTests
         var manual = GetManualCorrections();
         var logLines = new List<string>();
 
+
+        string[] fullFileRetrans = [
+            "horoscope.txt",
+            "randomname.txt",
+            "randomnamenew.txt"
+            ];
+
         //Use this when we've changed a glossary value that doesnt check hallucination
         var newGlossaryStrings = new List<string>
         {
@@ -166,7 +173,7 @@ public class TranslationWorkflowTests
             //@"\(.*，.*\)" //Put back for big files
         };
 
-        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
         {
             int recordsModded = 0;
 
@@ -177,7 +184,14 @@ public class TranslationWorkflowTests
                     if (resetFlag)
                         split.ResetFlags(false);
 
-                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, outputFile, config))
+                    if (fullFileRetrans.Contains(textFile.Path))
+                    {
+                        split.FlaggedForRetranslation = true;
+                        recordsModded++;
+                        continue;
+                    }
+
+                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, textFile, config))
                         recordsModded++;
                 }
 
@@ -198,7 +212,7 @@ public class TranslationWorkflowTests
         return totalRecordsModded;
     }
 
-    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, Dictionary<string, string> manual, TranslationSplit split, string outputFile,
+    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, Dictionary<string, string> manual, TranslationSplit split, TextFileToSplit textFile,
         LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
@@ -208,22 +222,22 @@ public class TranslationWorkflowTests
         //////// Quick Validation here
 
         // If it is already translated or just special characters return it
-        var tokenReplacer = new StringTokenReplacer(); 
+        var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
-        var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, outputFile, tokenReplacer);
+        var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, textFile, tokenReplacer);
         if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw)
         {
-            logLines.Add($"Already Translated {outputFile} \n{split.Translated}");
+            logLines.Add($"Already Translated {textFile.Path} \n{split.Translated}");
             split.Translated = cleanedRaw;
             split.ResetFlags();
             return true;
-        }      
+        }
 
         foreach (var glossary in newGlossaryStrings)
         {
             if (preparedRaw.Contains(glossary))
             {
-                logLines.Add($"New Glossary {outputFile} Replaces: \n{split.Translated}");
+                logLines.Add($"New Glossary {textFile.Path} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
                 return true;
             }
@@ -233,7 +247,7 @@ public class TranslationWorkflowTests
         {
             if (Regex.IsMatch(split.Text, badRegex))
             {
-                logLines.Add($"Bad Regex {outputFile} Replaces: \n{split.Translated}");
+                logLines.Add($"Bad Regex {textFile.Path} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
                 return true;
             }
@@ -244,8 +258,8 @@ public class TranslationWorkflowTests
         {
             if (split.Translated != value)
             {
-                logLines.Add($"Manually Translated {outputFile} \n{split.Text}\n{split.Translated}");
-                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, outputFile, tokenReplacer);
+                logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
+                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, textFile, tokenReplacer);
                 split.ResetFlags();
                 return true;
             }
@@ -279,8 +293,8 @@ public class TranslationWorkflowTests
         if (cleanWithGlossary)
         {
             // Glossary Clean up - this won't check our manual jobs
-            modified = CheckMistranslationGlossary(config, split, modified, outputFile);
-            modified = CheckHallucinationGlossary(config, split, modified, outputFile);
+            modified = CheckMistranslationGlossary(config, split, modified, textFile);
+            modified = CheckHallucinationGlossary(config, split, modified, textFile);
         }
 
         // Characters
@@ -308,23 +322,23 @@ public class TranslationWorkflowTests
             && !split.Translated.EndsWith("...!!")
             && !split.Translated.EndsWith("...?!"))
         {
-            logLines.Add($"Missing ... {outputFile} Replaces: \n{split.Translated}");
+            logLines.Add($"Missing ... {textFile.Path} Replaces: \n{split.Translated}");
             split.FlaggedForRetranslation = true;
             modified = true;
         }
 
         if (preparedRaw.StartsWith("...") && !split.Translated.StartsWith("..."))
         {
-            logLines.Add($"Missing ... {outputFile} Replaces: \n{split.Translated}");
+            logLines.Add($"Missing ... {textFile.Path} Replaces: \n{split.Translated}");
             split.Translated = $"...{split.Translated}";
             modified = true;
         }
-    
+
 
         // Trim line
         if (split.Translated.Trim().Length != split.Translated.Length)
         {
-            logLines.Add($"Needed Trimming:{outputFile} \n{split.Translated}");
+            logLines.Add($"Needed Trimming:{textFile.Path} \n{split.Translated}");
             split.Translated = split.Translated.Trim();
             modified = true;
         }
@@ -332,25 +346,25 @@ public class TranslationWorkflowTests
         // Add . into Dialogue
         //if (outputFile.EndsWith("stringlang.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
         //{
-        //    logLines.Add($"Needed full stop:{outputFile} \n{split.Translated}");
+        //    logLines.Add($"Needed full stop:{textFile.Path} \n{split.Translated}");
         //    split.Translated += '.';
         //    modified = true;
         //}
 
         // Clean up Diacritics
-        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, outputFile, tokenReplacer);
+        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, textFile, tokenReplacer);
         if (cleanedUp != split.Translated)
         {
-            logLines.Add($"Cleaned up {outputFile} \n{split.Translated}\n{cleanedUp}");
+            logLines.Add($"Cleaned up {textFile.Path} \n{split.Translated}\n{cleanedUp}");
             split.Translated = cleanedUp;
             modified = true;
         }
 
         // Remove Invalid ones -- Have to use final raw because translated is untokenised
-        var result = LineValidation.CheckTransalationSuccessful(config, split.Text, split.Translated ?? string.Empty, outputFile);
+        var result = LineValidation.CheckTransalationSuccessful(config, split.Text, split.Translated ?? string.Empty, textFile);
         if (!result.Valid)
         {
-            logLines.Add($"Invalid {outputFile} Failures:{result.CorrectionPrompt}\n{split.Translated}");
+            logLines.Add($"Invalid {textFile.Path} Failures:{result.CorrectionPrompt}\n{split.Translated}");
             split.FlaggedForRetranslation = true;
             modified = true;
         }
@@ -358,8 +372,11 @@ public class TranslationWorkflowTests
         return modified;
     }
 
-    private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified, string outputFile)
+    private static bool CheckMistranslationGlossary(LlmConfig config, TranslationSplit split, bool modified, TextFileToSplit textFile)
     {
+        if (!textFile.EnableGlossary)
+            return modified;
+
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
 
@@ -371,11 +388,10 @@ public class TranslationWorkflowTests
             if (!item.CheckForBadTranslation)
                 continue;
 
-            //TODO: Test
             //Exclusions and Targetted Glossary
-            if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(outputFile))
+            if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(textFile.Path))
                 continue;
-            else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(outputFile))
+            else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(textFile.Path))
                 continue;
 
             if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
@@ -389,7 +405,7 @@ public class TranslationWorkflowTests
                 }
 
                 if (!found)
-                {                    
+                {
                     split.FlaggedForRetranslation = true;
                     split.FlaggedMistranslation += $"{item.Result},{item.Raw},";
                     modified = true;
@@ -400,8 +416,11 @@ public class TranslationWorkflowTests
         return modified; // Will be previous value - even if it didnt find anything
     }
 
-    private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified, string outputFile)
+    private static bool CheckHallucinationGlossary(LlmConfig config, TranslationSplit split, bool modified, TextFileToSplit textFile)
     {
+        if (!textFile.EnableGlossary)
+            return modified;
+
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
 
@@ -418,9 +437,9 @@ public class TranslationWorkflowTests
                     continue;
 
                 //Exclusions and Targetted Glossary
-                if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(outputFile))
+                if (item.OnlyOutputFiles.Count > 0 && !item.OnlyOutputFiles.Contains(textFile.Path))
                     continue;
-                else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(outputFile))
+                else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(textFile.Path))
                     continue;
 
                 // Regex matches on terms with ... match incorrectly
@@ -430,7 +449,7 @@ public class TranslationWorkflowTests
                 // Check for Alternatives
                 var dupes = config.GlossaryLines.Where(s => s.Result == item.Result && s.Raw != item.Raw);
                 bool found = false;
-               
+
                 foreach (var dupe in dupes)
                 {
                     found = preparedRaw.Contains(dupe.Raw);

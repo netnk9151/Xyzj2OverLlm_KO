@@ -14,9 +14,18 @@ public class TextFileToSplit
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Path { get; set; } = string.Empty;
 
-    public bool Output { get; set; } = false;
+    public bool PackageOutput { get; set; } = true;
 
-    public bool PrefabAsset { get; set; } = false;
+    public bool ExternalAsset { get; set; } = false;
+
+    public bool IsMainDialogueAsset { get; set; } = false;
+
+    public bool EnableGlossary { get; set; } = true;
+
+    public string AdditionalPromptName { get; set; } = string.Empty;
+
+    public bool EnableBasePrompts { get; set; } = true;
+
 }
 
 public class TranslationSplit

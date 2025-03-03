@@ -48,7 +48,7 @@ public static class LineValidation
         return llmResult;
     }
 
-    public static string CleanupLineBeforeSaving(string input, string raw, string outputFile, StringTokenReplacer tokenReplacer)
+    public static string CleanupLineBeforeSaving(string input, string raw, TextFileToSplit textFile, StringTokenReplacer tokenReplacer)
     {
         //Finalise line before saving out
         var result = input.Trim();
@@ -115,7 +115,7 @@ public static class LineValidation
         return result;
     }
 
-    public static ValidationResult CheckTransalationSuccessful(LlmConfig config, string raw, string result, string outputFile)
+    public static ValidationResult CheckTransalationSuccessful(LlmConfig config, string raw, string result, TextFileToSplit textFile)
     {
         var response = true;
         var correctionPrompts = new StringBuilder();

@@ -7,7 +7,11 @@ using System.Text.Json.Schema;
 namespace Translate.Tests;
 public class PromptTuningTests
 {
-    const string workingDirectory = "../../../../Files";    
+    const string workingDirectory = "../../../../Files";
+    public static TextFileToSplit DefaultTestTextFile() => new TextFileToSplit()
+    {
+        Path = "",
+    };
 
     [Fact(DisplayName = "1. Test Current Prompts")]
     public async Task TestPrompt()
@@ -78,7 +82,7 @@ public class PromptTuningTests
             // Process the batch in parallel
             await Task.WhenAll(batch.Select(async line =>
             {
-                line.ValidationResult = await TranslationService.TranslateSplitAsync(config, line.Raw, client, string.Empty);
+                line.ValidationResult = await TranslationService.TranslateSplitAsync(config, line.Raw, client, DefaultTestTextFile());
                 recordsProcessed++;
             }));
 
@@ -130,7 +134,7 @@ public class PromptTuningTests
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain in a <think> why the glossary was or was not used. " +
             "How do I update the system prompt to make sure it uses the glossary in this case.");
 
@@ -144,7 +148,7 @@ public class PromptTuningTests
         client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         var input = "豆花嫂希望你能为她丈夫带来虎鞭，至于用途应该不难猜？";
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ? was removed. Also explain how to adjust the system prompt to correct it to make sure the '?' was not removed and context is retained.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt2.txt", result.Result);
@@ -157,7 +161,7 @@ public class PromptTuningTests
         client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
         var input = "若果有此意，叫八戒伐几棵树来，沙僧寻些草来，我做木匠，就在这里搭个窝铺，你与她圆房成事，我们大家散了，却不是件事业？何必又跋涉，取什经去！";
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. Also explain why the ! was removed. Also explain how to adjust the system prompt to correct it to make sure the '!' was not removed and context is retained. Show an example prompt.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainPrompt3.txt", result.Result);
@@ -173,7 +177,7 @@ public class PromptTuningTests
         //var input = "完成菩提";
         //var input = "人阶";
         var input = "实力";
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an alternative." +           
             "Show where to update my current system prompt to stop the alternative and just give me one answer.");
@@ -191,7 +195,7 @@ public class PromptTuningTests
         //var input = "好嘞，客官您慢走！";
         var input = "幽影-剑意纵横";
 
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
             "Explain your reasoning in a <think> tag at the end of the response. " +
             "Explain if/why you provided an explanation." +
             "Also explain how to adjust the system prompt to correct it to make sure you do not provide this explanation." +
@@ -209,7 +213,7 @@ public class PromptTuningTests
         var config = Configuration.GetConfiguration(workingDirectory);
         var input = "在淮陵游玩之际，<color=&&00ff00ff>遇到一位自称烈火刀阎巧的侠客正在挑战淮陵豪侠</color>，我观其似乎武艺高强。";
 
-        var result = await TranslationService.TranslateSplitAsync(config, input, client, string.Empty,            
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),            
             "Explain your reasinging in a <explain> tag, why is there no <color> tag in the final result." +
             "Show in a <prompt> tag, An updated system prompt to ensure the <color> tag is included in the final result.");
 
@@ -219,6 +223,8 @@ public class PromptTuningTests
     [Fact]
     public async Task OptimiseCorrectTagPrompt()
     {
+        var textFile = DefaultTestTextFile();
+
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
         var config = Configuration.GetConfiguration(workingDirectory);
@@ -226,8 +232,8 @@ public class PromptTuningTests
         // Prime the Request
         var raw = "<color=#FF0000>炼狱</color>";
         var origResult = "Hellforge";
-        var origValidationResult = LineValidation.CheckTransalationSuccessful(config, raw, origResult, string.Empty);
-        List<object> messages = TranslationService.GenerateBaseMessages(config, raw, string.Empty);
+        var origValidationResult = LineValidation.CheckTransalationSuccessful(config, raw, origResult, textFile);
+        List<object> messages = TranslationService.GenerateBaseMessages(config, raw, textFile);
 
         // Tweak Correction Prompt here
         var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, origValidationResult, raw, origResult);
@@ -239,7 +245,7 @@ public class PromptTuningTests
         var result = await TranslationService.TranslateMessagesAsync(client, config, messages);
 
         // Calculate output of test
-        var validationResult = LineValidation.CheckTransalationSuccessful(config, raw, result, string.Empty);
+        var validationResult = LineValidation.CheckTransalationSuccessful(config, raw, result, textFile);
         var lines = $"Valid:{validationResult.Valid}\nRaw:{raw}\nResult:{result}";
         File.WriteAllText($"{workingDirectory}/TestResults/OptimiseCorrectTag.txt", lines);
     }   
