@@ -97,7 +97,9 @@ public static class LineValidation
 
             if (textFile.NameCleanupRoutines)
             {
-                result.Replace(" ", "");
+                result = result.Replace(" ", "")
+                    .Replace(".", "");
+
                 result = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(result);
             }
 
@@ -281,6 +283,13 @@ public static class LineValidation
                     correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
                 }
             }
+        }
+
+        if (textFile.NameCleanupRoutines)
+        {
+            if ((raw.Length == 1 && result.Length > 5)
+                || (raw.Length == 1 && result.Length > 10))
+                response = false;
         }
 
         return new ValidationResult

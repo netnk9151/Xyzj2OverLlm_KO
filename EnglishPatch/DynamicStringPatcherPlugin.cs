@@ -19,12 +19,14 @@ namespace EnglishPatch;
 public class DynamicStringPatcherPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
-    private Dictionary<string, Dictionary<string, StringPatchData>> patchesByType;
+    private Harmony _harmony;
+    private Dictionary<string, Dictionary<string, StringPatchData>> _patchesByType;
 
     private void Awake()
     {
         Logger = base.Logger;
-        patchesByType = new Dictionary<string, Dictionary<string, StringPatchData>>();
+        _patchesByType = new Dictionary<string, Dictionary<string, StringPatchData>>();
+        _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
         Logger.LogInfo("Dynamic String Patcher loading...");
 
@@ -157,22 +159,22 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                             continue;
 
                         // Group patches by type and method
-                        if (!patchesByType.ContainsKey(typeName))
+                        if (!_patchesByType.ContainsKey(typeName))
                         {
-                            patchesByType[typeName] = new Dictionary<string, StringPatchData>();
+                            _patchesByType[typeName] = new Dictionary<string, StringPatchData>();
                         }
 
                         string methodKey = methodName;
-                        if (!patchesByType[typeName].ContainsKey(methodKey))
+                        if (!_patchesByType[typeName].ContainsKey(methodKey))
                         {
-                            patchesByType[typeName][methodKey] = new StringPatchData
+                            _patchesByType[typeName][methodKey] = new StringPatchData
                             {
                                 MethodName = methodName,
                                 StringReplacements = new List<StringReplacement>()
                             };
                         }
 
-                        patchesByType[typeName][methodKey].StringReplacements.Add(new StringReplacement
+                        _patchesByType[typeName][methodKey].StringReplacements.Add(new StringReplacement
                         {
                             ILOffset = ilOffset,
                             OriginalString = originalString,
@@ -242,7 +244,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         Logger.LogInfo("Applying string patches...");
 
         // Iterate through each type
-        foreach (var typeEntry in patchesByType)
+        foreach (var typeEntry in _patchesByType)
         {
             string typeName = typeEntry.Key;
             var methodPatches = typeEntry.Value;
@@ -284,7 +286,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                     }
 
                     // Apply the patch
-                    harmony.Patch(targetMethod,
+                    _harmony.Patch(targetMethod,
                         transpiler: new HarmonyMethod(transpiler));
 
                     Logger.LogInfo($"Successfully patched: {typeName}.{methodName}");
@@ -314,7 +316,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             BindingFlags.Public | BindingFlags.Static);
     }
 
-    private class StringReference
+    public class StringReference
     {
         public string TypeName { get; set; }
         public string MethodName { get; set; }
@@ -322,13 +324,13 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         public int ILOffset { get; set; }
     }
 
-    private class StringPatchData
+    public class StringPatchData
     {
         public string MethodName { get; set; }
         public List<StringReplacement> StringReplacements { get; set; }
     }
 
-    private class StringReplacement
+    public class StringReplacement
     {
         public int ILOffset { get; set; }
         public string OriginalString { get; set; }
@@ -357,13 +359,13 @@ public static class StringPatcherTranspiler
             // Look for the string literal at the specified IL offset or by value
             for (int i = 0; i < codes.Count; i++)
             {
-                if (codes[i].opcode == OpCodes.Ldstr &&
-                    codes[i].operand.ToString() == replacement.OriginalString)
-                {
-                    // Replace with the translated string
-                    codes[i].operand = replacement.TranslatedString;
-                    break;
-                }
+                //if (codes[i].opcode == OpCodes.Ldstr &&
+                //    codes[i].operand.ToString() == replacement.OriginalString)
+                //{
+                //    // Replace with the translated string
+                //    codes[i].operand = replacement.TranslatedString;
+                //    break;
+                //}
             }
         }
 
