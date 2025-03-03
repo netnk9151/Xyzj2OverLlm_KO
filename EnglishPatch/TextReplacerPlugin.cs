@@ -52,6 +52,40 @@ public class TextReplacerPlugin : BaseUnityPlugin
     [HarmonyPatch(typeof(UnityEngine.Object))]
     public static class PrefabTextPatch
     {
+        private static void UpdateText(UnityEngine.Object __result)
+        {
+            if (__result is GameObject gameObject)
+            {
+                //if (__result.name.Contains("LoginView"))
+                //    return;
+                // Need to figure out how to ignore buttons here - causes grief
+                //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
+
+
+                foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
+                {
+                    var response = string.Empty;
+
+                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+                    // Try mistyped property
+                    if (textField == null)
+                        textField = component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+                    if (textField != null && textField.FieldType == typeof(string))
+                    {
+                        var textValue = textField.GetValue(component) as string;
+
+                        if (string.IsNullOrEmpty(textValue))
+                            continue;
+
+                        if (Replacements.ContainsKey(textValue))
+                            textField.SetValue(component, Replacements[textValue]);
+                    }
+                }
+            }
+        }
+
         //Patch Instantiate(Object)
         [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object) })]
         [HarmonyPostfix]
@@ -130,41 +164,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         static void Postfix5(ref UnityEngine.Object __result)
         {
             UpdateText(__result);
-        }
-
-        private static void UpdateText(UnityEngine.Object __result)
-        {
-            if (__result is GameObject gameObject)
-            {
-                if (__result.name.Contains("LoginView"))
-                    return;
-                // Need to figure out how to ignore buttons here - causes grief
-                //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
-
-
-                foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
-                {
-                    var response = string.Empty;
-
-                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-
-                    // Try mistyped property
-                    if (textField == null)
-                        textField = component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-
-                    if (textField != null && textField.FieldType == typeof(string))
-                    {
-                        var textValue = textField.GetValue(component) as string;
-
-                        if (string.IsNullOrEmpty(textValue))
-                            continue;
-
-                        if (Replacements.ContainsKey(textValue))
-                            textField.SetValue(component, Replacements[textValue]);
-                    }
-                }
-            }
-        }
+        }        
 
         //[HarmonyPrefix, HarmonyPatch(typeof(TMP_Text), "text", MethodType.Setter)]
         //public static bool TextSetter(string value, TMP_Text __instance)

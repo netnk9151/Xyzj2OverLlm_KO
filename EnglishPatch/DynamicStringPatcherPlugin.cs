@@ -2,6 +2,7 @@
 using BepInEx.Logging;
 using EnglishPatch.Contracts;
 using HarmonyLib;
+using Mono.Cecil;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -64,9 +65,11 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         try
         {
+            Logger.LogInfo("Applying string patches...");
+
             foreach (var typeContract in groupedContracts)
             {
-                Logger.LogInfo("Applying string patches...");                
+                           
 
                 // Get the type
                 Type targetType = null;
@@ -90,9 +93,33 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
                     try
                     {
-                        // Find the method to patch
-                        var targetMethod = targetType.GetMethod(methodContract.Method,
-                            BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+                        // Find the method using AccessTools
+                        MethodInfo targetMethod = null;
+
+                        // Get all methods with this name
+                        var methodsWithName = AccessTools.GetDeclaredMethods(targetType)
+                            .Where(m => m.Name == methodContract.Method)
+                            .ToList();
+
+                        if (methodsWithName.Count == 1)
+                        {
+                            // Only one method with this name, use it
+                            targetMethod = methodsWithName[0];
+                        }
+                        else
+                        {
+                            // Multiple methods with this name, find the one with the right IL
+                            foreach (var method in methodsWithName)
+                            {
+                                // Check if this method contains our target string at the right offset
+                                // You'll need to implement this using Mono.Cecil to analyze the IL
+                                if (HasStringAtOffset(method, methodContract.Contracts[0].ILOffset, methodContract.Contracts[0].Raw))
+                                {
+                                    targetMethod = method;
+                                    break;
+                                }
+                            }
+                        }
 
                         if (targetMethod == null)
                         {
@@ -109,16 +136,15 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                     {
                         Logger.LogError($"Error patching {typeContract.Type}.{methodContract.Method}: {ex.Message}");
                     }
-                }
-
-
-                Logger.LogInfo("All patches applied");
+                }               
             }
         }
         catch (Exception ex)
         {
             Logger.LogError($"Error loading translations: {ex.Message}");
         }
+
+        Logger.LogInfo("All patches applied");
     }
 
     private MethodInfo CreateTranspilerMethod(List<DynamicStringContract> contractsToApply)
@@ -134,6 +160,34 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         return typeof(StringPatcherTranspiler).GetMethod("Transpiler",
             BindingFlags.Public | BindingFlags.Static);
+    }
+
+    private bool HasStringAtOffset(MethodInfo methodInfo, long offset, string expectedString)
+    {
+        try
+        {
+            // Get the assembly where the method is defined
+            string assemblyPath = methodInfo.Module.Assembly.Location;
+            var assembly = AssemblyDefinition.ReadAssembly(assemblyPath);
+
+            // Find the method definition in Cecil
+            var typeDef = assembly.MainModule.GetType(methodInfo.DeclaringType.FullName);
+            var methodDef = typeDef.Methods.FirstOrDefault(m => m.Name == methodInfo.Name);
+
+            if (methodDef == null || !methodDef.HasBody)
+                return false;
+
+            // Check if there's a string at the right offset
+            return methodDef.Body.Instructions.Any(i =>
+                i.Offset == offset &&
+                i.OpCode == Mono.Cecil.Cil.OpCodes.Ldstr &&
+                i.Operand as string == expectedString);
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError($"Error checking IL: {ex.Message}");
+            return false;
+        }
     }
 }
 

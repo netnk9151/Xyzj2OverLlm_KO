@@ -88,7 +88,7 @@ public class TranslationWorkflowTests
         foreach(var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
             File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{resourceDirectory}/{file.Path}", true);
 
-        await PackageRelease();
+        //await PackageRelease();
     }
 
     [Fact(DisplayName = "6. Copy Sprites")]
@@ -120,7 +120,10 @@ public class TranslationWorkflowTests
         foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
             File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{releaseFolder}/BepInEx/resources/{file.Path}", true);
 
-        TranslationService.CopyDirectory($"{gameFolder}/BepInEx/sprites", $"{releaseFolder}/BepInEx/sprites");
+        var spritesDirectory = $"{releaseFolder}/BepInEx/sprites";
+        if (Directory.Exists(spritesDirectory))
+            Directory.Delete(spritesDirectory, true);
+        TranslationService.CopyDirectory($"{gameFolder}/BepInEx/sprites", spritesDirectory);
 
         ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
 

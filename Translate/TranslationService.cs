@@ -29,7 +29,7 @@ public static class TranslationService
             //new() {Path = "born_points.txt", Output = true},
 
             new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText},
-            //new() {Path = "dynamicStringsV2.txt", TextFileType = TextFileType.DynamicStrings},
+            new() {Path = "dynamicStringsV2.txt", TextFileType = TextFileType.DynamicStrings},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
@@ -576,33 +576,7 @@ public static class TranslationService
             }
             else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
             {
-                //foreach (var line in fileLines)
-                //{
-                //    if (line.Splits.Count() != 1)
-                //    {
-                //        failedLines.Add(line.Raw);
-                //        continue;
-                //    }
-
-                //    var lineRaw = line.Raw;
-                //    var lineTrans = line.Splits[0].Translated
-                //        .Replace("\"", "") // Unescape - easier to deal with
-                //        .Replace(",", "，"); // Wide quote to avoid splitting problems
-
-                //    //Encase string
-                //    if (!string.IsNullOrEmpty(lineTrans))
-                //        lineTrans = $"{lineTrans}";
-
-                //    //Unescaped linebreaks
-                //    if (Regex.IsMatch(lineTrans, @"(?<!\\)\n"))
-                //        failedLines.Add(line.Raw);
-                //    if (!string.IsNullOrEmpty(lineTrans))
-                //        //get rid for last two escapes and replace unescaped
-                //        outputLines.Add($"{line.Raw[..^2]}{lineTrans}");
-                //    //If it was already blank its all good
-                //    else if (!string.IsNullOrEmpty(line.Splits[0].Text))
-                //        failedLines.Add(line.Raw);
-                //}
+       
 
                 var serializer = Yaml.CreateSerializer();
                 var contracts = new List<DynamicStringContract>();
@@ -627,14 +601,17 @@ public static class TranslationService
                         continue;
                     }
 
-                    contracts.Add(new DynamicStringContract()
+                    var contract = new DynamicStringContract()
                     {
                         Type = splits[0],
                         Method = splits[1],
                         ILOffset = long.Parse(splits[2]),
                         Raw = splits[3],
                         Translation = lineTrans,
-                    });
+                    };
+
+                    if(IsSafeContract(contract))
+                        contracts.Add(contract);
                 }
 
                 File.WriteAllText($"{outputDbPath}/Formatted/{textFileToTranslate.Path}", serializer.Serialize(contracts));
@@ -712,6 +689,42 @@ public static class TranslationService
 
         ModHelper.GenerateModConfig(workingDirectory);
         File.WriteAllLines($"{outputDbPath}/db1.txt", finalDb);
+    }
+
+
+    public static bool IsSafeContract(DynamicStringContract contract)
+    {
+        string[] skipTypes = [
+            "Automat", 
+            "CustomDataInfo", 
+            "SpawnPointPrototype", 
+            "SystemIntroduce",
+            "DownloadView",
+            "PlayerStateComponent",
+            "DataManager",
+            "FashionComponent",
+            "BuildEntity",
+            "GmManager",
+            "AIDialogView",
+            "EndingView",
+            "UploadFile",
+            ];
+        string[] skipMethods = [
+            "CheckTapAnti",
+            "CheckDBVersionAndDownloadFromServer",
+            "IsSaveableNow",
+            "LoadCSV",
+            ];
+
+        if (skipTypes.Contains(contract.Type))
+            return false;
+        if (skipMethods.Contains(contract.Method))
+            return false;
+
+        if (!contract.Type.StartsWith("Sweet"))
+            return false;
+
+        return true;
     }
 
     public static async Task IterateThroughTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)

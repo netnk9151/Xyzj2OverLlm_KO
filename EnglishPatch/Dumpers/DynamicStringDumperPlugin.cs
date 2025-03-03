@@ -1,17 +1,13 @@
-﻿using System;
+﻿using BepInEx;
+using BepInEx.Logging;
+using EnglishPatch.Contracts;
+using Mono.Cecil;
+using Mono.Cecil.Cil;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using HarmonyLib;
-using BepInEx;
-using BepInEx.Logging;
-using Mono.Cecil;
-using Mono.Cecil.Cil;
 using System.Text.RegularExpressions;
-using EnglishPatch.Contracts;
-using System.Runtime.CompilerServices;
 
 namespace EnglishPatch.Dumpers;
 
