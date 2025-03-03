@@ -26,6 +26,12 @@ public class TranslationWorkflowTests
         TranslationService.ExportDumpedPrefabToCustomFormat(workingDirectory);
     }
 
+    [Fact(DisplayName = "2. ExportDumpedDyanmicIntoTranslated")]
+    public void ExportDumpedDyanmicIntoTranslated()
+    {
+        TranslationService.ExportDynamicStringsToCustomFormat(workingDirectory);
+    }
+
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {
@@ -79,7 +85,8 @@ public class TranslationWorkflowTests
         TranslationService.CopyDirectory(sourceDirectory, modDirectory);
 
         File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
-        File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{resourceDirectory}/dumpedPrefabText.txt", true);
+        foreach(var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
+            File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{resourceDirectory}/{file.Path}", true);
 
         await PackageRelease();
     }
@@ -103,14 +110,17 @@ public class TranslationWorkflowTests
     {
         var version = ModHelper.CalculateVersionNumber();
 
-        string releaseFolder = $"{gameFolder}/ReleaseFolder";
+        string releaseFolder = $"{gameFolder}/ReleaseFolder/Files";
 
         File.Copy($"{workingDirectory}/Mod/db1.txt", $"{releaseFolder}/BepInEx/resources/db1.txt", true);
         File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{releaseFolder}/BepInEx/resources/dumpedPrefabText.txt", true);
         File.Copy($"{gameFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", $"{releaseFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", true);
         File.Copy($"{gameFolder}/BepInEx/Translation/en/Text/resizer.txt", $"{releaseFolder}/BepInEx/Translation/en/Text/resizer.txt", true);
 
-        ZipFile.CreateFromDirectory($"{releaseFolder}/BepInEx", $"{releaseFolder}/EnglishPatch-{version}.zip");
+        foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
+            File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{releaseFolder}/BepInEx/resources/{file.Path}", true);
+
+        ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
 
         await Task.CompletedTask;
     }

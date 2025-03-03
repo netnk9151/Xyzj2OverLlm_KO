@@ -42,7 +42,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
         for (int i = 0; i < lines.Length; i = i + 2)
         {
-            var raw = lines[i].Replace("- raw: ", "").Replace("\\n", "\n") ; //Do not trim some of these have spacing
+            var raw = lines[i].Replace("- raw: ", "").Replace("\\n", "\n"); //Do not trim some of these have spacing
             var result = lines[i + 1].Replace("result: ", "").Replace("\\n", "\n");
 
             Replacements.Add(raw, result);
@@ -157,7 +157,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
                         var textValue = textField.GetValue(component) as string;
 
                         if (string.IsNullOrEmpty(textValue))
-                            continue; 
+                            continue;
 
                         if (Replacements.ContainsKey(textValue))
                             textField.SetValue(component, Replacements[textValue]);

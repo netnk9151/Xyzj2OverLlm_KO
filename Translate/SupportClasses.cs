@@ -9,6 +9,14 @@ public class TranslatedRaw(string raw)
     public ValidationResult ValidationResult { get; set; } = new ValidationResult();
 }
 
+public enum TextFileType
+{
+    RegularDb,
+    PrefabText,
+    DynamicStrings,
+    DynamicStringsV2
+}
+
 public class TextFileToSplit
 {
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
@@ -16,7 +24,7 @@ public class TextFileToSplit
 
     public bool PackageOutput { get; set; } = true;
 
-    public bool ExternalAsset { get; set; } = false;
+    public TextFileType TextFileType { get; set; } = TextFileType.RegularDb;
 
     public bool IsMainDialogueAsset { get; set; } = false;
 

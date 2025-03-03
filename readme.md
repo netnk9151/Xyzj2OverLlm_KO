@@ -1,8 +1,8 @@
 # Journey to Jianghu 2 English Patch
 
 Install guide:
-1. Extract the [Pre-requesites](https://github.com/joshfreitas1984/Xyzj2OverLlm/releases/download/2025.03.01.16.41.zip/Install-Prerequisites-Into-Game-Folder.zip) into your game folder
-2. Extract the [Latest Release](https://github.com/joshfreitas1984/Xyzj2OverLlm/releases) into your `<Game Folder>/BepInEx` folder
+1. Extract the [Pre-requesites](https://github.com/joshfreitas1984/Xyzj2OverLlm/releases/download/2025.03.01.16.41.zip/Install-Prerequisites-Into-Game-Folder.zip) into your `<Game Folder>`
+2. Extract the [Latest Release](https://github.com/joshfreitas1984/Xyzj2OverLlm/releases) into your `<Game Folder>` folder
 
 ## Pre-requesites
 The pre-reqs contains:

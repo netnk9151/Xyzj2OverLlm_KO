@@ -1,14 +1,13 @@
-﻿using System;
+﻿using BepInEx;
+using BepInEx.Logging;
+using EnglishPatch.Contracts;
+using HarmonyLib;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using HarmonyLib;
-using BepInEx;
-using BepInEx.Logging;
-using Mono.Cecil;
-using Mono.Cecil.Cil;
+using System.Reflection.Emit;
 
 namespace EnglishPatch;
 
@@ -20,176 +19,101 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
     private Harmony _harmony;
-    private Dictionary<string, Dictionary<string, StringPatchData>> _patchesByType;
 
     private void Awake()
     {
         Logger = base.Logger;
-        _patchesByType = new Dictionary<string, Dictionary<string, StringPatchData>>();
         _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
         Logger.LogInfo("Dynamic String Patcher loading...");
 
         // Load translations from CSV
-        string translationFilePath = Path.Combine(Paths.PluginPath, "translations.csv");
-        if (File.Exists(translationFilePath))
-        {
-            LoadTranslationsAndApplyPatches(translationFilePath);
-        }
+        var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
+        var filePath = Path.Combine(resourcePath, "dynamicStringsV2.txt");
+
+        if (File.Exists(filePath))
+            LoadTranslationsAndApplyPatches(filePath);
         else
-        {
-            Logger.LogWarning($"Translation file not found at: {translationFilePath}");
-            // Generate a template with current strings
-            ExportStringTemplate(Path.Combine(Paths.PluginPath, "translation_template.csv"));
-        }
-    }
-
-    private void ExportStringTemplate(string outputPath)
-    {
-        Logger.LogInfo("Generating translation template...");
-
-        try
-        {
-            string gamePath = Paths.GameRootPath;
-            string assemblyPath = Path.Combine(gamePath, "Assembly-CSharp.dll");
-
-            var stringReferences = new List<StringReference>();
-            var assembly = AssemblyDefinition.ReadAssembly(assemblyPath);
-
-            foreach (var module in assembly.Modules)
-            {
-                foreach (var type in module.Types)
-                {
-                    ProcessType(type, stringReferences);
-                }
-            }
-
-            using (var writer = new StreamWriter(outputPath, false, Encoding.UTF8))
-            {
-                // Write header
-                writer.WriteLine("Type,Method,IL Offset,Original String,Translation");
-
-                // Write data
-                foreach (var reference in stringReferences)
-                {
-                    // Escape quotes in the string value
-                    string escapedValue = reference.StringValue.Replace("\"", "\"\"");
-
-                    writer.WriteLine(
-                        $"{reference.TypeName},{reference.MethodName},{reference.ILOffset},\"{escapedValue}\",\"\"");
-                }
-            }
-
-            Logger.LogInfo($"Translation template generated at: {outputPath}");
-            Logger.LogInfo("Fill in the Translation column and rename to 'translations.csv'");
-        }
-        catch (Exception ex)
-        {
-            Logger.LogError($"Error generating template: {ex.Message}");
-        }
-    }
-
-    private void ProcessType(TypeDefinition type, List<StringReference> stringReferences)
-    {
-        // Process nested types
-        foreach (var nestedType in type.NestedTypes)
-        {
-            ProcessType(nestedType, stringReferences);
-        }
-
-        // Process methods
-        foreach (var method in type.Methods)
-        {
-            if (!method.HasBody)
-                continue;
-
-            foreach (var instruction in method.Body.Instructions)
-            {
-                // Look for string load operations
-                if (instruction.OpCode == OpCodes.Ldstr && instruction.Operand is string stringValue)
-                {
-                    // Skip empty strings and strings with just whitespace
-                    if (string.IsNullOrWhiteSpace(stringValue))
-                        continue;
-
-                    // Skip very short strings (optional)
-                    if (stringValue.Length < 2)
-                        continue;
-
-                    // Add to our list
-                    stringReferences.Add(new StringReference
-                    {
-                        TypeName = type.FullName,
-                        MethodName = method.Name,
-                        StringValue = stringValue,
-                        ILOffset = instruction.Offset
-                    });
-                }
-            }
-        }
-    }
+            Logger.LogWarning($"Translation file not found at: {resourcePath}");
+    } 
 
     private void LoadTranslationsAndApplyPatches(string filePath)
     {
         Logger.LogInfo($"Loading translations from: {filePath}");
-        int count = 0;
+        
+        var deserializer = Yaml.CreateDeserializer();
+        var lines = File.ReadAllText(filePath);
+        var contracts = deserializer.Deserialize<List<DynamicStringContract>>(lines);
+
+        var groupedContracts = contracts
+            .Where(c => c.Translation != c.Raw)
+            .GroupBy(c => c.Type)
+            .Select(typeGroup => new
+            {
+                Type = typeGroup.Key,
+                Methods = typeGroup
+                    .GroupBy(c => c.Method)
+                    .Select(methodGroup => new
+                    {
+                        Method = methodGroup.Key,
+                        Contracts = methodGroup.ToList()
+                    })
+                    .ToList()
+            })
+            .ToList();
 
         try
         {
-            using (var reader = new StreamReader(filePath, Encoding.UTF8))
+            foreach (var typeContract in groupedContracts)
             {
-                // Skip header
-                reader.ReadLine();
+                Logger.LogInfo("Applying string patches...");                
 
-                while (!reader.EndOfStream)
+                // Get the type
+                Type targetType = null;
+                foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
                 {
-                    string line = reader.ReadLine();
-                    var data = ParseCsvLine(line);
+                    targetType = assembly.GetType(typeContract.Type);
+                    if (targetType != null)
+                        break;
+                }
 
-                    if (data.Count >= 5 && !string.IsNullOrWhiteSpace(data[4]))
+                if (targetType == null)
+                {
+                    Logger.LogError($"Could not find type: {typeContract.Type}");
+                    continue;
+                }
+
+                foreach (var methodContract in typeContract.Methods)
+                {
+                    // Create a dynamic transpiler method
+                    var transpiler = CreateTranspilerMethod(methodContract.Contracts);
+
+                    try
                     {
-                        string typeName = data[0];
-                        string methodName = data[1];
-                        int ilOffset = int.Parse(data[2]);
-                        string originalString = data[3];
-                        string translation = data[4];
+                        // Find the method to patch
+                        var targetMethod = targetType.GetMethod(methodContract.Method,
+                            BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
 
-                        // Skip if translation is empty or same as original
-                        if (string.IsNullOrWhiteSpace(translation) || translation == originalString)
+                        if (targetMethod == null)
+                        {
+                            Logger.LogError($"Could not find method: {typeContract.Type}.{methodContract.Method}");
                             continue;
-
-                        // Group patches by type and method
-                        if (!_patchesByType.ContainsKey(typeName))
-                        {
-                            _patchesByType[typeName] = new Dictionary<string, StringPatchData>();
                         }
 
-                        string methodKey = methodName;
-                        if (!_patchesByType[typeName].ContainsKey(methodKey))
-                        {
-                            _patchesByType[typeName][methodKey] = new StringPatchData
-                            {
-                                MethodName = methodName,
-                                StringReplacements = new List<StringReplacement>()
-                            };
-                        }
+                        // Apply the patch
+                        _harmony.Patch(targetMethod, transpiler: new HarmonyMethod(transpiler));
 
-                        _patchesByType[typeName][methodKey].StringReplacements.Add(new StringReplacement
-                        {
-                            ILOffset = ilOffset,
-                            OriginalString = originalString,
-                            TranslatedString = translation
-                        });
-
-                        count++;
+                        Logger.LogDebug($"Successfully patched: {typeContract.Type}.{methodContract.Method}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.LogError($"Error patching {typeContract.Type}.{methodContract.Method}: {ex.Message}");
                     }
                 }
+
+
+                Logger.LogInfo("All patches applied");
             }
-
-            Logger.LogInfo($"Loaded {count} translations");
-
-            // Apply patches for each type and method
-            ApplyPatches();
         }
         catch (Exception ex)
         {
@@ -197,111 +121,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         }
     }
 
-    private List<string> ParseCsvLine(string line)
-    {
-        var result = new List<string>();
-        StringBuilder field = new StringBuilder();
-        bool inQuotes = false;
-
-        for (int i = 0; i < line.Length; i++)
-        {
-            char c = line[i];
-
-            if (c == '"')
-            {
-                if (inQuotes && i + 1 < line.Length && line[i + 1] == '"')
-                {
-                    // Escaped quote
-                    field.Append('"');
-                    i++;
-                }
-                else
-                {
-                    // Toggle quote mode
-                    inQuotes = !inQuotes;
-                }
-            }
-            else if (c == ',' && !inQuotes)
-            {
-                // End of field
-                result.Add(field.ToString());
-                field.Clear();
-            }
-            else
-            {
-                field.Append(c);
-            }
-        }
-
-        // Add the last field
-        result.Add(field.ToString());
-
-        return result;
-    }
-
-    private void ApplyPatches()
-    {
-        Logger.LogInfo("Applying string patches...");
-
-        // Iterate through each type
-        foreach (var typeEntry in _patchesByType)
-        {
-            string typeName = typeEntry.Key;
-            var methodPatches = typeEntry.Value;
-
-            // Get the type
-            Type targetType = null;
-            foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-            {
-                targetType = assembly.GetType(typeName);
-                if (targetType != null)
-                    break;
-            }
-
-            if (targetType == null)
-            {
-                Logger.LogWarning($"Could not find type: {typeName}");
-                continue;
-            }
-
-            // Apply patches for each method in this type
-            foreach (var methodEntry in methodPatches)
-            {
-                string methodName = methodEntry.Key;
-                var patchData = methodEntry.Value;
-
-                // Create a dynamic transpiler method
-                MethodInfo transpiler = CreateTranspilerMethod(patchData);
-
-                try
-                {
-                    // Find the method to patch
-                    MethodInfo targetMethod = targetType.GetMethod(patchData.MethodName,
-                        BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
-
-                    if (targetMethod == null)
-                    {
-                        Logger.LogWarning($"Could not find method: {typeName}.{methodName}");
-                        continue;
-                    }
-
-                    // Apply the patch
-                    _harmony.Patch(targetMethod,
-                        transpiler: new HarmonyMethod(transpiler));
-
-                    Logger.LogInfo($"Successfully patched: {typeName}.{methodName}");
-                }
-                catch (Exception ex)
-                {
-                    Logger.LogError($"Error patching {typeName}.{methodName}: {ex.Message}");
-                }
-            }
-        }
-
-        Logger.LogInfo("All patches applied");
-    }
-
-    private MethodInfo CreateTranspilerMethod(StringPatchData patchData)
+    private MethodInfo CreateTranspilerMethod(List<DynamicStringContract> contractsToApply)
     {
         // This is where the dynamic transpiler would be created
         // For simplicity, we'll create a static method that can handle multiple string replacements
@@ -310,31 +130,10 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         // to create a method at runtime. For this example, we'll use a static method.
 
         // Store the patch data in a static field so our transpiler can access it
-        StringPatcherTranspiler.CurrentPatchData = patchData;
+        StringPatcherTranspiler.ContractsToApply = contractsToApply;
 
         return typeof(StringPatcherTranspiler).GetMethod("Transpiler",
             BindingFlags.Public | BindingFlags.Static);
-    }
-
-    public class StringReference
-    {
-        public string TypeName { get; set; }
-        public string MethodName { get; set; }
-        public string StringValue { get; set; }
-        public int ILOffset { get; set; }
-    }
-
-    public class StringPatchData
-    {
-        public string MethodName { get; set; }
-        public List<StringReplacement> StringReplacements { get; set; }
-    }
-
-    public class StringReplacement
-    {
-        public int ILOffset { get; set; }
-        public string OriginalString { get; set; }
-        public string TranslatedString { get; set; }
     }
 }
 
@@ -342,7 +141,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 public static class StringPatcherTranspiler
 {
     // Static field to hold the current patch data
-    public static DynamicStringPatcherPlugin.StringPatchData CurrentPatchData { get; set; }
+    public static List<DynamicStringContract> ContractsToApply { get; set; }
 
     // Transpiler method that will be used for the Harmony patch
     public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -350,22 +149,22 @@ public static class StringPatcherTranspiler
         var codes = new List<CodeInstruction>(instructions);
 
         // If no patch data, return original instructions
-        if (CurrentPatchData == null || CurrentPatchData.StringReplacements == null)
+        if (ContractsToApply == null || ContractsToApply == null)
             return codes;
 
         // Process all string replacements
-        foreach (var replacement in CurrentPatchData.StringReplacements)
+        foreach (var replacement in ContractsToApply)
         {
             // Look for the string literal at the specified IL offset or by value
             for (int i = 0; i < codes.Count; i++)
             {
-                //if (codes[i].opcode == OpCodes.Ldstr &&
-                //    codes[i].operand.ToString() == replacement.OriginalString)
-                //{
-                //    // Replace with the translated string
-                //    codes[i].operand = replacement.TranslatedString;
-                //    break;
-                //}
+                if (codes[i].opcode == OpCodes.Ldstr &&
+                    codes[i].operand.ToString() == replacement.Raw)
+                {
+                    // Replace with the translated string
+                    codes[i].operand = replacement.Translation;
+                    break;
+                }
             }
         }
 

@@ -10,13 +10,13 @@ using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch;
+namespace EnglishPatch.Dumpers;
 
 /// <summary>
 /// Used to get hardcoded strings out of prefabs so we can translate them
 /// </summary>
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.Dumper", "TextDumper", MyPluginInfo.PLUGIN_VERSION)]
-public class DumperPlugin : BaseUnityPlugin
+public class TextDumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
@@ -40,10 +40,10 @@ public class DumperPlugin : BaseUnityPlugin
         {
             var asset = bundle.LoadAsset(assetName);
             if (asset is GameObject gameObject)
-                foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
+                foreach (var component in gameObject.GetComponentsInChildren<Component>(true))
                 {
                     var text = GetValidTextProperty(component);
-                    
+
                     if (string.IsNullOrEmpty(text))
                         continue;
 

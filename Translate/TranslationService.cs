@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using EnglishPatch.Contracts;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Net.Http.Headers;
@@ -27,7 +28,8 @@ public static class TranslationService
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
 
-            new() {Path = "dumpedPrefabText.txt", ExternalAsset = true},
+            new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText},
+            //new() {Path = "dynamicStringsV2.txt", TextFileType = TextFileType.DynamicStrings},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
@@ -35,75 +37,75 @@ public static class TranslationService
             new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
                 EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
 
-            //new() {Path = "achievement.txt", PackageOutput = true},
-            //new() {Path = "buildprototype.txt", PackageOutput = true},
-            //new() {Path = "cardinfo.txt", PackageOutput = true},
-            //new() {Path = "chuanwenprototype.txt", PackageOutput = true},
-            //new() {Path = "condition_group.txt", PackageOutput = true},
-            //new() {Path = "condition_show_anim.txt", PackageOutput = true},
-            //new() {Path = "dlcinfo.txt", PackageOutput = true },
-            //new() {Path = "emoji.txt", PackageOutput = true},
-            //new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
-            //new() {Path = "fuben_prototype.txt", PackageOutput = true},
-            //new() {Path = "game_manual.txt", PackageOutput = true},
-            //new() {Path = "game_manual_clue.txt", PackageOutput = true},
-            //new() {Path = "guanqiaenemy.txt", PackageOutput = true},
-            //new() {Path = "guanqiainfo.txt", PackageOutput = true},
-            //new() {Path = "identity.txt", PackageOutput = true},
-            //new() {Path = "item_base.txt", PackageOutput = true},
-            //new() {Path = "item_base_xianejianghu.txt", PackageOutput = true},
-            //new() {Path = "item_base_zhenshijianghu.txt", PackageOutput = true},
-            //new() {Path = "item_ma_prototype.txt", PackageOutput = true},
-            //new() {Path = "jingmai_node_pos.txt", PackageOutput = true},
-            //new() {Path = "jueyinglou.txt", PackageOutput = true},
-            //new() {Path = "keylist.txt", PackageOutput = true},
-            //new() {Path = "loadingpicture.txt", PackageOutput = true},
-            //new() {Path = "loadingtips.txt", PackageOutput = true},
-            //new() {Path = "makerplayer_prototype.txt", PackageOutput = true},
-            //new() {Path = "mapinfo.txt", PackageOutput = true},
-            //new() {Path = "map_area.txt", PackageOutput = true},
-            //new() {Path = "map_area_shili.txt", PackageOutput = true},
-            //new() {Path = "map_area_title.txt", PackageOutput = true},
-            //new() {Path = "menpai.txt", PackageOutput = true},
-            //new() {Path = "menpaibuild.txt", PackageOutput = true},
-            //new() {Path = "menpaipaibie.txt", PackageOutput = true},
-            //new() {Path = "menpaipeifang.txt", PackageOutput = true},
-            //new() {Path = "menpaiquest.txt", PackageOutput = true},
-            //new() {Path = "menpairandom.txt", PackageOutput = true},
-            //new() {Path = "menpaisoldier.txt", PackageOutput = true},
-            //new() {Path = "menpaitalent.txt", PackageOutput = true},
-            //new() {Path = "mystique.txt", PackageOutput = true},
-            //new() {Path = "nandu.txt", PackageOutput = true},
-            //new() {Path = "npc_interact.txt", PackageOutput = true},
-            //new() {Path = "npc_prototype.txt", PackageOutput = true},
-            //new() {Path = "npc_spell_container.txt", PackageOutput = true},
-            //new() {Path = "npc_spell_dynamic_name.txt", PackageOutput = true},
-            //new() {Path = "npc_team_info.txt", PackageOutput = true},
-            //new() {Path = "pve_data.txt", PackageOutput = true},
-            //new() {Path = "qinggong_node.txt", PackageOutput = true},
-            //new() {Path = "questjiemi.txt", PackageOutput = true},
-            //new() {Path = "randomquestion.txt", PackageOutput = true},
-            //new() {Path = "shangcheng_prototype.txt", PackageOutput = true},
-            //new() {Path = "spelleffect.txt", PackageOutput = true},
-            //new() {Path = "spelleffect_xianejianghu.txt", PackageOutput = true},
-            //new() {Path = "spelleffect_zhenshijianghu.txt", PackageOutput = true},
-            //new() {Path = "spellprotype.txt", PackageOutput = true},
-            //new() {Path = "spellprotype_xianejianghu.txt", PackageOutput = true},
-            //new() {Path = "spellprotype_zhenshijianghu.txt", PackageOutput = true},
-            //new() {Path = "stunt_proto.txt", PackageOutput = true},
-            //new() {Path = "system_introduce.txt", PackageOutput = true},
-            //new() {Path = "talent_proto.txt", PackageOutput = true},
-            //new() {Path = "teleport_trans.txt", PackageOutput = true},
-            //new() {Path = "triggertip.txt", PackageOutput = true},
-            //new() {Path = "tujian.txt", PackageOutput = true},
-            //new() {Path = "wordentryrandomtype.txt", PackageOutput = true},
-            //new() {Path = "wordentrytitle.txt", PackageOutput = true},
-            //new() {Path = "wordentrytype.txt", PackageOutput = true},
-            //new() {Path = "xunwen_prototype.txt", PackageOutput = true},
-            //new() {Path = "yingdao_prototype.txt", PackageOutput = true},
+            new() {Path = "achievement.txt", PackageOutput = true},
+            new() {Path = "buildprototype.txt", PackageOutput = true},
+            new() {Path = "cardinfo.txt", PackageOutput = true},
+            new() {Path = "chuanwenprototype.txt", PackageOutput = true},
+            new() {Path = "condition_group.txt", PackageOutput = true},
+            new() {Path = "condition_show_anim.txt", PackageOutput = true},
+            new() {Path = "dlcinfo.txt", PackageOutput = true },
+            new() {Path = "emoji.txt", PackageOutput = true},
+            new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
+            new() {Path = "fuben_prototype.txt", PackageOutput = true},
+            new() {Path = "game_manual.txt", PackageOutput = true},
+            new() {Path = "game_manual_clue.txt", PackageOutput = true},
+            new() {Path = "guanqiaenemy.txt", PackageOutput = true},
+            new() {Path = "guanqiainfo.txt", PackageOutput = true},
+            new() {Path = "identity.txt", PackageOutput = true},
+            new() {Path = "item_base.txt", PackageOutput = true},
+            new() {Path = "item_base_xianejianghu.txt", PackageOutput = true},
+            new() {Path = "item_base_zhenshijianghu.txt", PackageOutput = true},
+            new() {Path = "item_ma_prototype.txt", PackageOutput = true},
+            new() {Path = "jingmai_node_pos.txt", PackageOutput = true},
+            new() {Path = "jueyinglou.txt", PackageOutput = true},
+            new() {Path = "keylist.txt", PackageOutput = true},
+            new() {Path = "loadingpicture.txt", PackageOutput = true},
+            new() {Path = "loadingtips.txt", PackageOutput = true},
+            new() {Path = "makerplayer_prototype.txt", PackageOutput = true},
+            new() {Path = "mapinfo.txt", PackageOutput = true},
+            new() {Path = "map_area.txt", PackageOutput = true},
+            new() {Path = "map_area_shili.txt", PackageOutput = true},
+            new() {Path = "map_area_title.txt", PackageOutput = true},
+            new() {Path = "menpai.txt", PackageOutput = true},
+            new() {Path = "menpaibuild.txt", PackageOutput = true},
+            new() {Path = "menpaipaibie.txt", PackageOutput = true},
+            new() {Path = "menpaipeifang.txt", PackageOutput = true},
+            new() {Path = "menpaiquest.txt", PackageOutput = true},
+            new() {Path = "menpairandom.txt", PackageOutput = true},
+            new() {Path = "menpaisoldier.txt", PackageOutput = true},
+            new() {Path = "menpaitalent.txt", PackageOutput = true},
+            new() {Path = "mystique.txt", PackageOutput = true},
+            new() {Path = "nandu.txt", PackageOutput = true},
+            new() {Path = "npc_interact.txt", PackageOutput = true},
+            new() {Path = "npc_prototype.txt", PackageOutput = true},
+            new() {Path = "npc_spell_container.txt", PackageOutput = true},
+            new() {Path = "npc_spell_dynamic_name.txt", PackageOutput = true},
+            new() {Path = "npc_team_info.txt", PackageOutput = true},
+            new() {Path = "pve_data.txt", PackageOutput = true},
+            new() {Path = "qinggong_node.txt", PackageOutput = true},
+            new() {Path = "questjiemi.txt", PackageOutput = true},
+            new() {Path = "randomquestion.txt", PackageOutput = true},
+            new() {Path = "shangcheng_prototype.txt", PackageOutput = true},
+            new() {Path = "spelleffect.txt", PackageOutput = true},
+            new() {Path = "spelleffect_xianejianghu.txt", PackageOutput = true},
+            new() {Path = "spelleffect_zhenshijianghu.txt", PackageOutput = true},
+            new() {Path = "spellprotype.txt", PackageOutput = true},
+            new() {Path = "spellprotype_xianejianghu.txt", PackageOutput = true},
+            new() {Path = "spellprotype_zhenshijianghu.txt", PackageOutput = true},
+            new() {Path = "stunt_proto.txt", PackageOutput = true},
+            new() {Path = "system_introduce.txt", PackageOutput = true},
+            new() {Path = "talent_proto.txt", PackageOutput = true},
+            new() {Path = "teleport_trans.txt", PackageOutput = true},
+            new() {Path = "triggertip.txt", PackageOutput = true},
+            new() {Path = "tujian.txt", PackageOutput = true},
+            new() {Path = "wordentryrandomtype.txt", PackageOutput = true},
+            new() {Path = "wordentrytitle.txt", PackageOutput = true},
+            new() {Path = "wordentrytype.txt", PackageOutput = true},
+            new() {Path = "xunwen_prototype.txt", PackageOutput = true},
+            new() {Path = "yingdao_prototype.txt", PackageOutput = true},
 
-            ////Biggest one
-            //new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true},
+            //Biggest one
+            new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -272,6 +274,70 @@ public static class TranslationService
                         {
                             Split = i,
                             Text = splits[i],
+                        });
+                    }
+                }
+
+                //The translation line
+                foundLines.Add(new TranslationLine()
+                {
+                    LineNum = lineNum,
+                    Raw = line,
+                    Splits = foundSplits,
+                });
+            }
+
+            // Write the found lines
+            var yaml = serializer.Serialize(foundLines);
+            File.WriteAllText($"{outputPath}/{file.Name}", yaml);
+        }
+    }
+
+    public static void ExportDynamicStringsToCustomFormat(string workingDirectory)
+    {
+        string inputPath = $"{workingDirectory}/Raw/DynamicStrings";
+        string outputPath = $"{workingDirectory}/Raw/Export";
+
+        if (!Directory.Exists(outputPath))
+            Directory.CreateDirectory(outputPath);
+
+        var serializer = Yaml.CreateSerializer();
+        var pattern = LineValidation.ChineseCharPattern;
+
+        var dir = new DirectoryInfo(inputPath);
+        FileInfo[] files = dir.GetFiles();
+        foreach (FileInfo file in files)
+        {
+            var foundLines = new List<TranslationLine>();
+            var lines = File.ReadAllLines(file.FullName);
+            var lineIncrement = 0;
+
+            foreach (var line in lines)
+            {
+                lineIncrement++;
+                var splits = line.Split(",");
+                var foundSplits = new List<TranslationSplit>();
+                long lineNum = 0;
+
+                // Default to line number when it doesnt have line number in split
+                if (!long.TryParse(splits[0], out lineNum))
+                    lineNum = lineIncrement;
+
+                // Find Chinese
+                for (int i = 0; i < splits.Length; i++)
+                {
+                    if (Regex.IsMatch(splits[i], pattern))
+                    {
+                        var cleaned = splits[i];
+                        if (cleaned.StartsWith("\""))
+                            cleaned = cleaned[1..];
+                        if (cleaned.EndsWith("\""))
+                            cleaned = cleaned[..^1];
+
+                        foundSplits.Add(new TranslationSplit()
+                        {
+                            Split = i,
+                            Text = cleaned,
                         });
                     }
                 }
@@ -500,58 +566,130 @@ public static class TranslationService
             var failedLines = new List<string>();
             var outputLines = new List<string>();
 
-            foreach (var line in fileLines)
+            if (textFileToTranslate.TextFileType == TextFileType.PrefabText)
             {
-                // Prefabs handled differently
-                if (textFileToTranslate.ExternalAsset)
+                foreach (var line in fileLines)
                 {
                     foreach (var split in line.Splits)
                         outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
-
-                    continue;
                 }
+            }
+            else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
+            {
+                //foreach (var line in fileLines)
+                //{
+                //    if (line.Splits.Count() != 1)
+                //    {
+                //        failedLines.Add(line.Raw);
+                //        continue;
+                //    }
 
-                // Regular DB handling
-                var splits = line.Raw.Split('#');
-                var failed = false;
+                //    var lineRaw = line.Raw;
+                //    var lineTrans = line.Splits[0].Translated
+                //        .Replace("\"", "") // Unescape - easier to deal with
+                //        .Replace(",", "，"); // Wide quote to avoid splitting problems
 
-                foreach (var split in line.Splits)
+                //    //Encase string
+                //    if (!string.IsNullOrEmpty(lineTrans))
+                //        lineTrans = $"{lineTrans}";
+
+                //    //Unescaped linebreaks
+                //    if (Regex.IsMatch(lineTrans, @"(?<!\\)\n"))
+                //        failedLines.Add(line.Raw);
+                //    if (!string.IsNullOrEmpty(lineTrans))
+                //        //get rid for last two escapes and replace unescaped
+                //        outputLines.Add($"{line.Raw[..^2]}{lineTrans}");
+                //    //If it was already blank its all good
+                //    else if (!string.IsNullOrEmpty(line.Splits[0].Text))
+                //        failedLines.Add(line.Raw);
+                //}
+
+                var serializer = Yaml.CreateSerializer();
+                var contracts = new List<DynamicStringContract>();
+
+                foreach (var line in fileLines)
                 {
-                    if (!textFileToTranslate.PackageOutput)
+                    if (line.Splits.Count() != 1)
                     {
-                        failed = true;
-                        break;
+                        failedCount++;
+                        continue;
                     }
 
-                    //Check line to be extra safe
-                    if (split.Translated.Contains("#") || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
-                        failed = true;
-                    else if (!string.IsNullOrEmpty(split.Translated))
-                        splits[split.Split] = split.Translated;
-                    //If it was already blank its all good
-                    else if (!string.IsNullOrEmpty(split.Text))
-                        failed = true;
+                    var lineRaw = line.Raw;
+                    var splits = lineRaw.Split(",");
+
+                    var lineTrans = line.Splits[0].Translated
+                        .Replace("，", ","); // Replace Wide quotes back
+                  
+                    if (splits.Length != 5 || string.IsNullOrEmpty(lineTrans))
+                    {
+                        failedCount++;
+                        continue;
+                    }
+
+                    contracts.Add(new DynamicStringContract()
+                    {
+                        Type = splits[0],
+                        Method = splits[1],
+                        ILOffset = long.Parse(splits[2]),
+                        Raw = splits[3],
+                        Translation = lineTrans,
+                    });
                 }
 
-                line.Translated = string.Join('#', splits);
+                File.WriteAllText($"{outputDbPath}/Formatted/{textFileToTranslate.Path}", serializer.Serialize(contracts));
+                passedCount += contracts.Count;
 
-                if (!failed)
-                    outputLines.Add(line.Translated);
-                else
+                await Task.CompletedTask;
+                return;
+            }
+            else // TextFileType.RegularDb
+            {
+
+                foreach (var line in fileLines)
                 {
-                    outputLines.Add(line.Raw);
-                    failedLines.Add(line.Raw);
+                    // Regular DB handling
+                    var splits = line.Raw.Split('#');
+                    var failed = false;
+
+                    foreach (var split in line.Splits)
+                    {
+                        if (!textFileToTranslate.PackageOutput)
+                        {
+                            failed = true;
+                            break;
+                        }
+
+                        //Check line to be extra safe
+                        if (split.Translated.Contains("#") || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
+                            failed = true;
+                        else if (!string.IsNullOrEmpty(split.Translated))
+                            splits[split.Split] = split.Translated;
+                        //If it was already blank its all good
+                        else if (!string.IsNullOrEmpty(split.Text))
+                            failed = true;
+                    }
+
+                    line.Translated = string.Join('#', splits);
+
+                    if (!failed)
+                        outputLines.Add(line.Translated);
+                    else
+                    {
+                        outputLines.Add(line.Raw);
+                        failedLines.Add(line.Raw);
+                    }
                 }
             }
 
             // Do not want to package prefabs into main db
-            if (!textFileToTranslate.ExternalAsset)
+            if (textFileToTranslate.TextFileType == TextFileType.RegularDb)
             {
                 finalDb.Add($"{Path.GetFileNameWithoutExtension(outputFile)}|{fileLines.Count}");
                 finalDb.AddRange(outputLines);
             }
 
-            File.WriteAllLines($"{outputDbPath}/Formatted/{Path.GetFileNameWithoutExtension(outputFile)}.txt", outputLines);
+            File.WriteAllLines($"{outputDbPath}/Formatted/{textFileToTranslate.Path}", outputLines);
 
             passedCount += outputLines.Count;
             failedCount += failedLines.Count;

@@ -51,21 +51,16 @@ public class MainPlugin : BaseUnityPlugin
     public static bool Prefix_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
     {
         Logger.LogWarning($"Hooked LoadDB!");
-        var resourcesFolder = Path.Combine(Environment.CurrentDirectory, "BepInEx/resources");
-        var resourcesFolder2 = Path.Combine(Environment.CurrentDirectory, "resources"); //Autotranslator messes with this
+        var resourcesFolder = Path.Combine(Paths.BepInExRootPath, "resources");
         var dbFile = $"{resourcesFolder}/db1.txt";
-        var dbFile2 = $"{resourcesFolder2}/db1.txt";
 
         if (File.Exists(dbFile))
         {
             AppGame.Instance.dbVersionFilePath = dbFile;
             Logger.LogInfo($"Loading Translated Assets file: {dbFile}");
         }
-        if (File.Exists(dbFile2))
-        {
-            AppGame.Instance.dbVersionFilePath = dbFile2;
-            Logger.LogInfo($"Loading Translated Assets file: {dbFile2}");
-        }
+        else
+            Logger.LogFatal($"Failed to load Translated Assets file: {dbFile}");
 
         // Old Code
         //OriginalLoadDbCode(__instance, m_dic_csv);
@@ -221,5 +216,5 @@ public class MainPlugin : BaseUnityPlugin
         }
     }
 
-      
+
 }
