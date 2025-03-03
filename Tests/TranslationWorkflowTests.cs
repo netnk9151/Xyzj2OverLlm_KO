@@ -1,6 +1,5 @@
 ﻿using System.IO.Compression;
 using System.Text.RegularExpressions;
-using Xunit.Abstractions;
 
 namespace Translate.Tests;
 

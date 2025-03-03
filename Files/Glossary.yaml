@@ -91,6 +91,105 @@
   badtrans: true
   literal: Wàn zōng
 
+# Time
+- raw: 子时
+  result: Zi Hour
+  badtrans: true
+  direct: "11:00 PM - 1:00 AM"
+  literal: zi shi
+  only:
+    - horoscope.txt
+
+- raw: 丑时
+  result: Chou Hour
+  badtrans: true
+  direct: "1:00 AM - 3:00 AM"
+  literal: chou shi
+  only:
+    - horoscope.txt
+
+- raw: 寅时
+  result: Yin Hour
+  badtrans: true
+  direct: "3:00 AM - 5:00 AM"
+  literal: yin shi
+  only:
+    - horoscope.txt
+
+- raw: 卯时
+  result: Mao Hour
+  badtrans: true
+  direct: "5:00 AM - 7:00 AM"
+  literal: mao shi
+  only:
+    - horoscope.txt
+
+- raw: 辰时
+  result: Chen Hour
+  badtrans: true
+  direct: "7:00 AM - 9:00 AM"
+  literal: chen shi
+  only:
+    - horoscope.txt
+
+- raw: 巳时
+  result: Si Hour
+  badtrans: true
+  direct: "9:00 AM - 11:00 AM"
+  literal: si shi
+  only:
+    - horoscope.txt
+
+- raw: 午时
+  result: Wu Hour
+  badtrans: true
+  direct: "11:00 AM - 1:00 PM"
+  literal: wu shi
+  only:
+    - horoscope.txt
+
+- raw: 未时
+  result: Wei Hour
+  badtrans: true
+  direct: "1:00 PM - 3:00 PM"
+  literal: wei shi
+  only:
+    - horoscope.txt
+
+- raw: 申时
+  result: Shen Hour
+  badtrans: true
+  direct: "3:00 PM - 5:00 PM"
+  literal: shen shi
+  only:
+    - horoscope.txt
+
+- raw: 酉时
+  result: You Hour
+  badtrans: true
+  direct: "5:00 PM - 7:00 PM"
+  literal: you shi
+  only:
+    - horoscope.txt
+
+- raw: 戌时
+  result: Xu Hour
+  badtrans: true
+  direct: "7:00 PM - 9:00 PM"
+  literal: xu shi
+  only:
+    - horoscope.txt
+
+- raw: 亥时
+  result: Hai Hour
+  badtrans: true
+  direct: "9:00 PM - 11:00 PM"
+  literal: hai shi
+  only:
+    - horoscope.txt
+
+
+
 # Prefabs 
 - raw: 堪武
   result: Martial Capability

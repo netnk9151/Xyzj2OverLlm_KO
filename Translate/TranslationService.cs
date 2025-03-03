@@ -30,9 +30,9 @@ public static class TranslationService
             new() {Path = "dumpedPrefabText.txt", ExternalAsset = true},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
-            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
+            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
                 EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
-            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
+            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
                 EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
 
             //new() {Path = "achievement.txt", PackageOutput = true},
@@ -111,7 +111,7 @@ public static class TranslationService
         if (string.IsNullOrEmpty(fileName))
             return;
 
-        Console.WriteLine($"Writing Split {fileName}.. Should have..{shouldHave} Have..{lines.Count}");       
+        Console.WriteLine($"Writing Split {fileName}.. Should have..{shouldHave} Have..{lines.Count}");
 
         if (fileName == "ai_dialog"
             || fileName == "keywordfilter"
@@ -311,7 +311,7 @@ public static class TranslationService
                 foreach (var split in line.Splits)
                 {
                     if (string.IsNullOrEmpty(split.Translated) || split.FlaggedForRetranslation)
-                        continue;                    
+                        continue;
 
                     if (split.Text.Length <= charsToCache && !cache.ContainsKey(split.Text))
                         cache.Add(split.Text, split.Translated);
@@ -411,6 +411,8 @@ public static class TranslationService
                         || forceRetranslation
                         || (config.TranslateFlagged && split.FlaggedForRetranslation))
                     {
+                        var original = split.Translated;
+
                         if (cacheHit)
                             split.Translated = translationCache[split.Text];
                         else
@@ -419,7 +421,7 @@ public static class TranslationService
                             split.Translated = result.Valid ? result.Result : string.Empty;
                         }
 
-                        split.ResetFlags();
+                        split.ResetFlags(split.Translated != original);
                         recordsProcessed++;
                         totalRecordsProcessed++;
                         bufferedRecords++;
@@ -449,7 +451,6 @@ public static class TranslationService
                             || forceRetranslation
                             || (config.TranslateFlagged && split.FlaggedForRetranslation))
                         {
-
                             split.Translated = firstSplit.Translated;
                             split.ResetFlags();
                             recordsProcessed++;
