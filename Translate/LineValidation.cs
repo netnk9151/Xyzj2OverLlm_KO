@@ -55,6 +55,8 @@ public static class LineValidation
 
         if (!string.IsNullOrEmpty(result))
         {
+          
+
             if (result.Contains('\"') && !raw.Contains('\"'))
                 result = result.Replace("\"", "");
 
@@ -90,11 +92,20 @@ public static class LineValidation
             //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
             //    result = result[..^1];
 
-            result = LineValidation.RemoveDiacritics(result);
-            result = LineValidation.ReplaceIncorrectLowercaseWords(result);
+            if (textFile.RemoveNumbers)
+                result = RemoveNumbers(result);
 
-            result = LineValidation.EncaseColorsForWholeLines(raw, result);
-            result = LineValidation.EncaseSquareBracketsForWholeLines(raw, result);
+            if (textFile.ForceTitleCase)
+            {
+                TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+                result = textInfo.ToTitleCase(result);
+            }
+
+            result = RemoveDiacritics(result);
+            result = ReplaceIncorrectLowercaseWords(result);
+
+            result = EncaseColorsForWholeLines(raw, result);
+            result = EncaseSquareBracketsForWholeLines(raw, result);
 
             if (string.IsNullOrEmpty(result))
             {
@@ -121,7 +132,7 @@ public static class LineValidation
         var correctionPrompts = new StringBuilder();
 
         if (string.IsNullOrEmpty(raw))
-            response = false;
+            response = false;        
 
         // Didnt translate at all and default response to prompt.
         if (result.Contains("provide the text")
@@ -398,4 +409,14 @@ public static class LineValidation
 
         return input;
     }
+
+    public static string RemoveNumbers(string input)
+    {
+        if (string.IsNullOrEmpty(input))
+            return input;
+
+        // Remove all digits from the string
+        return Regex.Replace(input, @"\d", "");
+    }
+
 }

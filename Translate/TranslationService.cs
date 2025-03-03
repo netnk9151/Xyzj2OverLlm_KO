@@ -30,8 +30,10 @@ public static class TranslationService
             new() {Path = "dumpedPrefabText.txt", ExternalAsset = true},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
-            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", EnableGlossary = false, EnableBasePrompts = false},
-            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", EnableGlossary = false, EnableBasePrompts = false},
+            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, ForceTitleCase = true},
+            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt", 
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, ForceTitleCase = true},
 
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},

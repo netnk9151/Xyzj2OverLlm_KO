@@ -152,9 +152,9 @@ public class TranslationWorkflowTests
 
 
         string[] fullFileRetrans = [
-            //"horoscope.txt",
-            "randomname.txt",
-            "randomnamenew.txt"
+            "horoscope.txt",
+            //"randomname.txt",
+            //"randomnamenew.txt"
             ];
 
         //Use this when we've changed a glossary value that doesnt check hallucination

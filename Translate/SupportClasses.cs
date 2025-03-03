@@ -26,6 +26,9 @@ public class TextFileToSplit
 
     public bool EnableBasePrompts { get; set; } = true;
 
+    public bool RemoveNumbers { get; set; } = false;
+
+    public bool ForceTitleCase { get; set; } = false;
 }
 
 public class TranslationSplit
