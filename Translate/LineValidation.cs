@@ -287,8 +287,9 @@ public static class LineValidation
 
         if (textFile.NameCleanupRoutines)
         {
-            if ((raw.Length == 1 && result.Length > 5)
-                || (raw.Length == 1 && result.Length > 10))
+            if ((raw.Length == 1 && result.Length > 6)
+                || (raw.Length == 2 && result.Length > 12)
+                || (raw.Length == 3 && result.Length > 17))
                 response = false;
         }
 
