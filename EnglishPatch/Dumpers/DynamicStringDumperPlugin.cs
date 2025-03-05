@@ -123,7 +123,6 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
                         Raw = stringValue,
                         ILOffset = instruction.Offset,
                         Parameters = method.Parameters.Select(p => p.ParameterType.FullName).ToArray(),
-                        //ReturnType = method.ReturnType.FullName,
                     });
                 }
             }

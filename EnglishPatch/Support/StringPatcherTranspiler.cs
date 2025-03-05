@@ -1,6 +1,5 @@
 ﻿using EnglishPatch.Contracts;
 using HarmonyLib;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -14,37 +13,31 @@ public class StringPatcherTranspiler
 
     public static IEnumerable<CodeInstruction> ReplaceWithTranspiler(IEnumerable<CodeInstruction> instructions)
     {
-        var skippedOps = new List<CodeInstruction>();
         var codes = instructions.ToList();
 
-        //var contracts = _contractsToApply;
-        var contracts = ContractsToApply;
-
-        if (!contracts.Any())
-            return codes;
-
-        foreach (var replacement in contracts)
+        foreach (var replacement in ContractsToApply)
         {
+            bool foundReplacement = false;
+
             for (int i = 0; i < codes.Count; i++)
             {
-                try
+                if (codes[i].opcode == OpCodes.Ldstr &&
+                    codes[i].operand is string operandStr)
                 {
-                    if (codes[i].opcode == OpCodes.Ldstr &&
-                        codes[i].operand is string operandStr)
+                    // Replace with the translated string
+                    if (operandStr == replacement.Raw)
                     {
-                        // Replace with the translated string
-                        if (operandStr == replacement.Raw)
-                            codes[i] = new CodeInstruction(OpCodes.Ldstr, replacement.Translation);
-                        else
-                            skippedOps.Add(codes[i]);
+                        codes[i] = new CodeInstruction(OpCodes.Ldstr, replacement.Translation);
+                        foundReplacement = true;
+
+                        //if (codes[i].operand is string operandStr2)
+                        //    DynamicStringPatcherPlugin.Logger.LogInfo($"Changed: {replacement.Type}.{replacement.Method}  [{operandStr}] -> [{operandStr2}]");
                     }
                 }
-                catch
-                {
-                    // Skip this instruction if there's a problem
-                    skippedOps.Add(codes[i]);
-                }
             }
+
+            if (!foundReplacement)
+                DynamicStringPatcherPlugin.Logger.LogError($"Skipped Contract: {replacement.Type}.{replacement.Method}.{replacement.Raw}.{replacement.Translation}");
         }
 
         return codes;

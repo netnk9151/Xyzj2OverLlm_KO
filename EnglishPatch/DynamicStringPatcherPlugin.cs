@@ -73,117 +73,113 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
     {
         Logger.LogInfo($"Loading translations from: {filePath}");
 
-        try
+        var badContractErrors = new List<string>();
+
+        var deserializer = Yaml.CreateDeserializer();
+        var lines = File.ReadAllText(filePath);
+        var contracts = deserializer.Deserialize<List<DynamicStringContract>>(lines);
+
+        // This is bad because on overloaded functions the addresses will be different
+        // we need to match the addresses and the method before grouping
+        var groupedContracts = GroupedDynamicStringContracts(contracts);
+
+        Logger.LogInfo("Applying string patches...");
+
+        int successCount = 0;
+        int skipCount = 0;
+        int errorCount = 0;
+
+        foreach (var contract in groupedContracts)
         {
-            var deserializer = Yaml.CreateDeserializer();
-            var lines = File.ReadAllText(filePath);
-            var contracts = deserializer.Deserialize<List<DynamicStringContract>>(lines);
+            // Get the type
+            var targetType = GetTargetType(contract);
 
-            // This is bad because on overloaded functions the addresses will be different
-            // we need to match the addresses and the method before grouping
-            var groupedContracts = GroupedDynamicStringContracts(contracts);
-
-            Logger.LogInfo("Applying string patches...");
-
-            int successCount = 0;
-            int skipCount = 0;
-            int errorCount = 0;
-
-            foreach (var contract in groupedContracts)
+            if (targetType == null)
             {
-                // Get the type
-                var targetType = GetTargetType(contract);
+                Logger.LogError($"Could not find type: {contract.Type}");
+                skipCount += contract.Contracts.Length;
+                continue;
+            }
+            //SweetPotato.AttriManager
+            try
+            {
+                // Find the method using different approaches based on the method type
+                MethodBase targetMethod = null;
 
-                if (targetType == null)
+                // Special case for static constructors
+                if (contract.Method == ".cctor")
                 {
-                    Logger.LogError($"Could not find type: {contract.Type}");
-                    skipCount += contract.Contracts.Length;
-                    continue;
-                }
-
-                try
-                {                    
-                    // Find the method using different approaches based on the method type
-                    MethodBase targetMethod = null;
-
-                    // Special case for static constructors
-                    if (contract.Method == ".cctor")
-                    {
-                        targetMethod = AccessTools.GetDeclaredConstructors(targetType)
-                            .FirstOrDefault(m => m.IsStatic);
-
-                        if (targetMethod == null)
-                        {
-                            Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
-                            skipCount++;
-                            continue;
-                        }
-                    }
-                    else if (contract.Method == ".ctor")
-                    {
-                        // For instance constructors, try to find the one with matching strings
-                        var constructors = AccessTools.GetDeclaredConstructors(targetType)
-                            .Where(m => !m.IsStatic)
-                            .ToList();
-
-                        foreach (var method in constructors)
-                        {
-                            if (HasMatchingParameters(contract.Parameters, method))
-                            {
-                                targetMethod = method;
-                                break;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        // Regular methods
-                        var methods = AccessTools.GetDeclaredMethods(targetType)
-                            .Where(m => m.Name == contract.Method)
-                            .ToList();
-
-                        foreach (var method in methods)
-                        {
-                            if (HasMatchingParameters(contract.Parameters, method))
-                            {
-                                targetMethod = method;
-                                break;
-                            }
-                        }
-                    }
+                    targetMethod = AccessTools.GetDeclaredConstructors(targetType)
+                        .FirstOrDefault(m => m.IsStatic);
 
                     if (targetMethod == null)
                     {
-                        Logger.LogError($"Could not find method: {contract.Type}.{contract.Method}");
+                        Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
                         skipCount++;
                         continue;
                     }
-
-                    // Apply the patch
-                    _harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
-                    
-
-                    successCount++;
-
-                    Logger.LogInfo($"Successfully patched: {contract.Type}.{contract.Method}");
                 }
-                catch (Exception ex)
+                else if (contract.Method == ".ctor")
                 {
-                    errorCount++;
-                    Logger.LogError($"Error patching {contract.Type}.{contract.Method}: {ex.Message}");
+                    // For instance constructors, try to find the one with matching strings
+                    var constructors = AccessTools.GetDeclaredConstructors(targetType)
+                        .Where(m => !m.IsStatic)
+                        .ToList();
 
-                    // More detailed logging for debugging
-                    Logger.LogDebug($"Exception details: {ex}");
+                    foreach (var method in constructors)
+                    {
+                        if (HasMatchingParameters(contract.Parameters, method))
+                        {
+                            targetMethod = method;
+                            break;
+                        }
+                    }
                 }
-            }
+                else
+                {
+                    // Regular methods
+                    var methods = AccessTools.GetDeclaredMethods(targetType)
+                        .Where(m => m.Name == contract.Method)
+                        .ToList();
 
-            Logger.LogWarning($"Patching summary: {successCount} successful, {skipCount} skipped, {errorCount} errors");
+                    foreach (var method in methods)
+                    {
+                        if (HasMatchingParameters(contract.Parameters, method))
+                        {
+                            targetMethod = method;
+                            break;
+                        }
+                    }
+                }
+
+                if (targetMethod == null)
+                {
+                    Logger.LogError($"Could not find method: {contract.Type}.{contract.Method}");
+                    skipCount++;
+                    continue;
+                }
+
+                // Apply the patch
+                _harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
+
+
+                successCount++;
+
+                Logger.LogInfo($"Successfully patched: {contract.Type}.{contract.Method}");
+            }
+            catch (Exception ex)
+            {
+                errorCount++;
+                //badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
+                badContractErrors.Add($"{contract.Type} {contract.Method}");
+            }
         }
-        catch (Exception ex)
-        {
-            Logger.LogError($"Error loading translations: {ex.Message}");
-            Logger.LogDebug($"Exception details: {ex}");
-        }
+
+        Logger.LogWarning($"Patching summary: {successCount} successful, {skipCount} skipped, {errorCount} errors");
+
+        //Batch errors until the end
+        foreach (var error in badContractErrors)
+            Logger.LogError(error);
     }
 
     private Type GetTargetType(GroupedDynamicStringContracts typeContract)
@@ -325,5 +321,5 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         }
 
         return methodDef;
-    }    
+    }
 }

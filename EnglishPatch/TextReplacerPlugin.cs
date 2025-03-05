@@ -61,7 +61,6 @@ public class TextReplacerPlugin : BaseUnityPlugin
                 // Need to figure out how to ignore buttons here - causes grief
                 //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
 
-
                 foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
                 {
                     var response = string.Empty;

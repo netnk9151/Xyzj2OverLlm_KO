@@ -8,11 +8,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using TMPro;
 using TriangleNet;
 using UnityEngine;
+using static MouseSimulator;
 
 namespace EnglishPatch;
 
@@ -74,6 +77,29 @@ public class MainPlugin : BaseUnityPlugin
     public static void Post_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
     {
         Logger.LogWarning($"Translated Assets Loaded!");
+    }
+
+    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, int index, RectTransform rect)
+    {
+        var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
+
+        Logger.LogWarning($"Hooked OnButtonClick! [{text}]");
+
+        Logger.LogInfo($"Actual Text Hex: {string.Join(" ", text.Select(c => ((int)c).ToString("X2")))}");
+        Logger.LogInfo($"Switch Case Hex: {string.Join(" ", "A new Jianghu.".Select(c => ((int)c).ToString("X2")))}");
+
+        switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
+        {
+            case "新的江湖":
+                Logger.LogWarning($"Old Text");
+                break;
+            case "A new Jianghu.":
+                Logger.LogWarning($"New Text");
+                break;
+        }   
+
+        return true;
     }
 
     private static void OriginalLoadDbCode(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)

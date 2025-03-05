@@ -756,12 +756,14 @@ public static class TranslationService
             "AIDialogView",
             "EndingView",
             "UploadFile",
+            "DataMgr"
             ];
         string[] skipMethods = [
             "CheckTapAnti",
             "CheckDBVersionAndDownloadFromServer",
             "IsSaveableNow",
             "LoadCSV",
+            "LoadDB",
             ];
 
         if (skipTypes.Contains(contract.Type))
