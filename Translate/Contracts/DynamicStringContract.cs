@@ -19,4 +19,7 @@ public class DynamicStringContract
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Translation { get; set; } = string.Empty;
+
+    [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
+    public string[] Parameters { get; set; } = [];
 }

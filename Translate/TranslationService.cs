@@ -29,7 +29,7 @@ public static class TranslationService
             //new() {Path = "born_points.txt", Output = true},
 
             new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText},
-            new() {Path = "dynamicStringsV2.txt", TextFileType = TextFileType.DynamicStrings},
+            new() {Path = "dynamicStringsV3.txt", TextFileType = TextFileType.DynamicStrings},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
@@ -571,13 +571,14 @@ public static class TranslationService
                 foreach (var line in fileLines)
                 {
                     foreach (var split in line.Splits)
-                        outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
+                        if (!split.FlaggedForRetranslation && !(string.IsNullOrEmpty(split.Translated)))
+                            outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
+                        else
+                            failedCount++;
                 }
             }
             else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
-            {
-       
-
+            {       
                 var serializer = Yaml.CreateSerializer();
                 var contracts = new List<DynamicStringContract>();
 
@@ -594,12 +595,14 @@ public static class TranslationService
 
                     var lineTrans = line.Splits[0].Translated
                         .Replace("，", ","); // Replace Wide quotes back
-                  
-                    if (splits.Length != 5 || string.IsNullOrEmpty(lineTrans))
+
+                    if (splits.Length != 5 || string.IsNullOrEmpty(lineTrans) || line.Splits[0].FlaggedForRetranslation)
                     {
                         failedCount++;
                         continue;
                     }
+
+                    string[] parameters = PrepareMethodParameters(splits[4]);
 
                     var contract = new DynamicStringContract()
                     {
@@ -608,9 +611,10 @@ public static class TranslationService
                         ILOffset = long.Parse(splits[2]),
                         Raw = splits[3],
                         Translation = lineTrans,
+                        Parameters = parameters
                     };
 
-                    if(IsSafeContract(contract))
+                    if (IsSafeContract(contract))
                         contracts.Add(contract);
                 }
 
@@ -631,7 +635,7 @@ public static class TranslationService
 
                     foreach (var split in line.Splits)
                     {
-                        if (!textFileToTranslate.PackageOutput)
+                        if (!textFileToTranslate.PackageOutput || split.FlaggedForRetranslation)
                         {
                             failed = true;
                             break;
@@ -691,6 +695,50 @@ public static class TranslationService
         File.WriteAllLines($"{outputDbPath}/db1.txt", finalDb);
     }
 
+    public static string[] PrepareMethodParameters(string split)
+    {
+        var rawParameters = split[1..^1] //Remove square brackets
+            .Replace("，", ","); // Replace Wide quotes back
+
+        string splitPattern = @",(?![^\[\]{}<>]*[\]\}>])";
+        string replacement = "，";  // Change to whatever you want
+
+        // Replace for generics because split regex is flakey
+        rawParameters = ReplaceCommasInBrackets(rawParameters, replacement);
+        
+        var parameters = Regex.Split(rawParameters, splitPattern ) ?? [];
+
+        // Replace back for generics
+        for(int i = 0; i < parameters.Length; i++)
+        {
+            parameters[i] = parameters[i].Replace(replacement, ",");
+        }
+
+        //parameters = parameters.Where(p => !string.IsNullOrEmpty(p)).ToArray(); -- Serialises wierd
+        return parameters;
+    }
+
+    static string ReplaceCommasInBrackets(string input, string replacement)
+    {
+        StringBuilder output = new StringBuilder();
+        int depth = 0;
+
+        foreach (char c in input)
+        {
+            if (c == '<' || c == '[' || c == '{')
+                depth++;  // Entering a bracketed section
+
+            if (c == '>' || c == ']' || c == '}')
+                depth--;  // Exiting a bracketed section
+
+            if (c == ',' && depth > 0)
+                output.Append(replacement);  // Replace ',' only inside brackets
+            else
+                output.Append(c);
+        }
+
+        return output.ToString();
+    }
 
     public static bool IsSafeContract(DynamicStringContract contract)
     {

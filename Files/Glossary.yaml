@@ -443,10 +443,16 @@
 - raw: 坚韧
   result: Toughness
   badtrans: false  
-- raw: 元气
-  result: Yuanqi
-  context: Lifeforce 
-  badtrans: false  
+- raw: 元气  
+  result: Yuanqi  
+  badtrans: true  
+  direct: Primordial energy  
+  literal: Yuanqi  
+- raw: 气血  
+  result: Lifeforce  
+  badtrans: true  
+  direct: Qi and blood  
+  literal: Qixue  
 - raw: 真气
   result: Zhenqi
   context: True Qi / True Energy
@@ -455,10 +461,16 @@
   result: Potential
   context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
   badtrans: false  
+- raw: 力道  
+  result: Strength  
+  badtrans: true  
+  direct: Strength path  
+  literal: Lidao  
 - raw: 筋骨
-  result: Strength
+  result: Jingu
   context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
   badtrans: false 
+  literal: Jingu  
 - raw: 体魄
   result: Constitution
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.

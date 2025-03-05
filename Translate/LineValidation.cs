@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -229,6 +230,18 @@ public static class LineValidation
         //    correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
         //}                
 
+        // Some raws dont have both because they are dynamic strings
+        // Color invalidation - if it has a start tag but no end tag
+        if (result.Contains("<color") && raw.Contains("</color>") && !result.Contains("</color>"))
+        {
+            response = false;
+        }
+        // Color invalidation - if it has a end tag but no start tag
+        if (result.Contains("</color") && raw.Contains("<color") && !result.Contains("<color"))
+        {
+            response = false;
+        }
+
         // Random additions
         if (result.Contains("<br>") && !raw.Contains("<br>"))
         {
@@ -270,7 +283,8 @@ public static class LineValidation
         }
 
         //TODO: This is doing wierd shit
-        if (result.Contains('<') && !result.Contains("<br>") && !result.Contains("<color"))
+        if (result.Contains('<') && !result.Contains("<br>") 
+            && !result.Contains("<color") && !result.Contains("</color"))
         {
             // Check markup
             var markup = FindMarkup(raw);

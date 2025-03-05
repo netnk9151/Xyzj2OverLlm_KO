@@ -22,12 +22,12 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
-        Logger.LogError("Dynamic String Dumper loading...");
 
         //Disable Dumper for non devs
         // Load translations from CSV
+        //Logger.LogError("Dynamic String Dumper loading...");
         //var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        //var dumpFilePath = Path.Combine(resourcePath, "dynamicstrings-dump.txt");
+        //var dumpFilePath = Path.Combine(resourcePath, "dynamicstringsv3-dump.txt");
 
         //// Generate a template with current strings
         //if (!File.Exists(dumpFilePath))
@@ -66,7 +66,11 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
 
             var lines = new List<string>();
             foreach (var contract in contracts)
-                lines.Add($"{CleanForCsv(contract.Type)},{CleanForCsv(contract.Method)},{CleanForCsv(contract.ILOffset.ToString())},{CleanForCsv(contract.Raw)},");
+            {
+                var parameters = CleanForCsv($"[{string.Join(",", contract.Parameters)}]");
+
+                lines.Add($"{CleanForCsv(contract.Type)},{CleanForCsv(contract.Method)},{CleanForCsv(contract.ILOffset.ToString())},{CleanForCsv(contract.Raw)},{parameters}");
+            }
 
             File.WriteAllLines(outputPath, lines);
 
@@ -117,7 +121,9 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
                         Type = type.FullName,
                         Method = method.Name,
                         Raw = stringValue,
-                        ILOffset = instruction.Offset
+                        ILOffset = instruction.Offset,
+                        Parameters = method.Parameters.Select(p => p.ParameterType.FullName).ToArray(),
+                        //ReturnType = method.ReturnType.FullName,
                     });
                 }
             }

@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using Xunit.Sdk;
+using System.Security.Cryptography;
 
 namespace Translate.Tests;
 
@@ -245,5 +246,19 @@ public class SupportTests
         File.WriteAllLines($"{workingDirectory}/TestResults/ForManualTrans.txt", forTheGlossary);
 
         //await TranslateFailedLinesForManualTranslation();
+    }
+
+    [Theory]
+    [InlineData("[SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]", 1)]
+    [InlineData("[System.Collections.Generic.Dictionary`2<System.Int64>，SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]", 2)]
+    public void TestParameterSplitRegex(string rawParameters, int index)
+    {
+        var serializer = Yaml.CreateSerializer();
+        var parameters = TranslationService.PrepareMethodParameters(rawParameters);
+        var output = serializer.Serialize(parameters);
+
+        string outputFile = $"{workingDirectory}/TestResults/TestParameterSplitRegex{index}.yaml";
+        File.WriteAllText(outputFile, output);
+        File.AppendAllLines(outputFile, [rawParameters]);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using EnglishPatch.Contracts;
+using EnglishPatch.Support;
 using HarmonyLib;
 using Mono.Cecil;
 using System;
@@ -8,7 +9,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Reflection.Emit;
 
 namespace EnglishPatch;
 
@@ -20,6 +20,9 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
     private Harmony _harmony;
+    private Dictionary<string, AssemblyDefinition> _cachedAssemblies = [];
+    private Dictionary<string, Type> _cachedTypes = [];
+
 
     private void Awake()
     {
@@ -30,198 +33,297 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         // Load translations from CSV
         var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        var filePath = Path.Combine(resourcePath, "dynamicStringsV2.txt");
+        var filePath = Path.Combine(resourcePath, "dynamicStringsV3.txt");
 
         if (File.Exists(filePath))
             LoadTranslationsAndApplyPatches(filePath);
         else
             Logger.LogWarning($"Translation file not found at: {resourcePath}");
-    } 
+    }
 
-    private void LoadTranslationsAndApplyPatches(string filePath)
+
+    public static List<GroupedDynamicStringContracts> GroupedDynamicStringContracts(List<DynamicStringContract> contracts)
     {
-        Logger.LogInfo($"Loading translations from: {filePath}");
-        
-        var deserializer = Yaml.CreateDeserializer();
-        var lines = File.ReadAllText(filePath);
-        var contracts = deserializer.Deserialize<List<DynamicStringContract>>(lines);
+        if (contracts == null || contracts.Count == 0)
+        {
+            return new List<GroupedDynamicStringContracts>(); // Return an empty list if no contracts are given
+        }
 
-        var groupedContracts = contracts
-            .Where(c => c.Translation != c.Raw)
-            .GroupBy(c => c.Type)
-            .Select(typeGroup => new
+        return contracts
+            .GroupBy(c => (c.Type, c.Method, GetParametersKey(c.Parameters)))
+            .OrderBy(g => g.Key.Type)
+            .ThenBy(g => g.Key.Method)
+            .ThenBy(g => g.Key.Item3) // GetParametersKey result
+            .Select(group => new GroupedDynamicStringContracts
             {
-                Type = typeGroup.Key,
-                Methods = typeGroup
-                    .GroupBy(c => c.Method)
-                    .Select(methodGroup => new
-                    {
-                        Method = methodGroup.Key,
-                        Contracts = methodGroup.ToList()
-                    })
-                    .ToList()
+                Type = group.Key.Type,
+                Method = group.Key.Method,
+                Parameters = group.First().Parameters,
+                Contracts = group.ToArray()
             })
             .ToList();
+    }
+
+    public static string GetParametersKey(string[] parameters)
+    {
+        return string.Join(",", parameters);
+    }
+
+    public void LoadTranslationsAndApplyPatches(string filePath)
+    {
+        Logger.LogInfo($"Loading translations from: {filePath}");
 
         try
         {
+            var deserializer = Yaml.CreateDeserializer();
+            var lines = File.ReadAllText(filePath);
+            var contracts = deserializer.Deserialize<List<DynamicStringContract>>(lines);
+
+            // This is bad because on overloaded functions the addresses will be different
+            // we need to match the addresses and the method before grouping
+            var groupedContracts = GroupedDynamicStringContracts(contracts);
+
             Logger.LogInfo("Applying string patches...");
 
-            foreach (var typeContract in groupedContracts)
-            {
-                           
+            int successCount = 0;
+            int skipCount = 0;
+            int errorCount = 0;
 
+            foreach (var contract in groupedContracts)
+            {
                 // Get the type
-                Type targetType = null;
-                foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-                {
-                    targetType = assembly.GetType(typeContract.Type);
-                    if (targetType != null)
-                        break;
-                }
+                var targetType = GetTargetType(contract);
 
                 if (targetType == null)
                 {
-                    Logger.LogError($"Could not find type: {typeContract.Type}");
+                    Logger.LogError($"Could not find type: {contract.Type}");
+                    skipCount += contract.Contracts.Length;
                     continue;
                 }
 
-                foreach (var methodContract in typeContract.Methods)
-                {
-                    // Create a dynamic transpiler method
-                    var transpiler = CreateTranspilerMethod(methodContract.Contracts);
+                try
+                {                    
+                    // Find the method using different approaches based on the method type
+                    MethodBase targetMethod = null;
 
-                    try
+                    // Special case for static constructors
+                    if (contract.Method == ".cctor")
                     {
-                        // Find the method using AccessTools
-                        MethodInfo targetMethod = null;
-
-                        // Get all methods with this name
-                        var methodsWithName = AccessTools.GetDeclaredMethods(targetType)
-                            .Where(m => m.Name == methodContract.Method)
-                            .ToList();
-
-                        if (methodsWithName.Count == 1)
-                        {
-                            // Only one method with this name, use it
-                            targetMethod = methodsWithName[0];
-                        }
-                        else
-                        {
-                            // Multiple methods with this name, find the one with the right IL
-                            foreach (var method in methodsWithName)
-                            {
-                                // Check if this method contains our target string at the right offset
-                                // You'll need to implement this using Mono.Cecil to analyze the IL
-                                if (HasStringAtOffset(method, methodContract.Contracts[0].ILOffset, methodContract.Contracts[0].Raw))
-                                {
-                                    targetMethod = method;
-                                    break;
-                                }
-                            }
-                        }
+                        targetMethod = AccessTools.GetDeclaredConstructors(targetType)
+                            .FirstOrDefault(m => m.IsStatic);
 
                         if (targetMethod == null)
                         {
-                            Logger.LogError($"Could not find method: {typeContract.Type}.{methodContract.Method}");
+                            Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
+                            skipCount++;
                             continue;
                         }
-
-                        // Apply the patch
-                        _harmony.Patch(targetMethod, transpiler: new HarmonyMethod(transpiler));
-
-                        Logger.LogDebug($"Successfully patched: {typeContract.Type}.{methodContract.Method}");
                     }
-                    catch (Exception ex)
+                    else if (contract.Method == ".ctor")
                     {
-                        Logger.LogError($"Error patching {typeContract.Type}.{methodContract.Method}: {ex.Message}");
+                        // For instance constructors, try to find the one with matching strings
+                        var constructors = AccessTools.GetDeclaredConstructors(targetType)
+                            .Where(m => !m.IsStatic)
+                            .ToList();
+
+                        foreach (var method in constructors)
+                        {
+                            if (HasMatchingParameters(contract.Parameters, method))
+                            {
+                                targetMethod = method;
+                                break;
+                            }
+                        }
                     }
-                }               
+                    else
+                    {
+                        // Regular methods
+                        var methods = AccessTools.GetDeclaredMethods(targetType)
+                            .Where(m => m.Name == contract.Method)
+                            .ToList();
+
+                        foreach (var method in methods)
+                        {
+                            if (HasMatchingParameters(contract.Parameters, method))
+                            {
+                                targetMethod = method;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (targetMethod == null)
+                    {
+                        Logger.LogError($"Could not find method: {contract.Type}.{contract.Method}");
+                        skipCount++;
+                        continue;
+                    }
+
+                    // Apply the patch
+                    _harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
+                    
+
+                    successCount++;
+
+                    Logger.LogInfo($"Successfully patched: {contract.Type}.{contract.Method}");
+                }
+                catch (Exception ex)
+                {
+                    errorCount++;
+                    Logger.LogError($"Error patching {contract.Type}.{contract.Method}: {ex.Message}");
+
+                    // More detailed logging for debugging
+                    Logger.LogDebug($"Exception details: {ex}");
+                }
             }
+
+            Logger.LogWarning($"Patching summary: {successCount} successful, {skipCount} skipped, {errorCount} errors");
         }
         catch (Exception ex)
         {
             Logger.LogError($"Error loading translations: {ex.Message}");
-        }
-
-        Logger.LogInfo("All patches applied");
-    }
-
-    private MethodInfo CreateTranspilerMethod(List<DynamicStringContract> contractsToApply)
-    {
-        // This is where the dynamic transpiler would be created
-        // For simplicity, we'll create a static method that can handle multiple string replacements
-
-        // In a real implementation, you would use a technique like DynamicMethod or reflection
-        // to create a method at runtime. For this example, we'll use a static method.
-
-        // Store the patch data in a static field so our transpiler can access it
-        StringPatcherTranspiler.ContractsToApply = contractsToApply;
-
-        return typeof(StringPatcherTranspiler).GetMethod("Transpiler",
-            BindingFlags.Public | BindingFlags.Static);
-    }
-
-    private bool HasStringAtOffset(MethodInfo methodInfo, long offset, string expectedString)
-    {
-        try
-        {
-            // Get the assembly where the method is defined
-            string assemblyPath = methodInfo.Module.Assembly.Location;
-            var assembly = AssemblyDefinition.ReadAssembly(assemblyPath);
-
-            // Find the method definition in Cecil
-            var typeDef = assembly.MainModule.GetType(methodInfo.DeclaringType.FullName);
-            var methodDef = typeDef.Methods.FirstOrDefault(m => m.Name == methodInfo.Name);
-
-            if (methodDef == null || !methodDef.HasBody)
-                return false;
-
-            // Check if there's a string at the right offset
-            return methodDef.Body.Instructions.Any(i =>
-                i.Offset == offset &&
-                i.OpCode == Mono.Cecil.Cil.OpCodes.Ldstr &&
-                i.Operand as string == expectedString);
-        }
-        catch (Exception ex)
-        {
-            Logger.LogError($"Error checking IL: {ex.Message}");
-            return false;
+            Logger.LogDebug($"Exception details: {ex}");
         }
     }
-}
 
-// Static class to hold the transpiler method
-public static class StringPatcherTranspiler
-{
-    // Static field to hold the current patch data
-    public static List<DynamicStringContract> ContractsToApply { get; set; }
-
-    // Transpiler method that will be used for the Harmony patch
-    public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+    private Type GetTargetType(GroupedDynamicStringContracts typeContract)
     {
-        var codes = new List<CodeInstruction>(instructions);
-
-        // If no patch data, return original instructions
-        if (ContractsToApply == null || ContractsToApply == null)
-            return codes;
-
-        // Process all string replacements
-        foreach (var replacement in ContractsToApply)
+        if (!_cachedTypes.TryGetValue(typeContract.Type, out var targetType))
         {
-            // Look for the string literal at the specified IL offset or by value
-            for (int i = 0; i < codes.Count; i++)
+            foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
-                if (codes[i].opcode == OpCodes.Ldstr &&
-                    codes[i].operand.ToString() == replacement.Raw)
+                targetType = assembly.GetType(typeContract.Type);
+                if (targetType != null)
+                    break;
+            }
+        }
+
+        return targetType;
+    }
+
+    private AssemblyDefinition GetAssemblyDefinition(string assemblyLocation)
+    {
+        if (!_cachedAssemblies.TryGetValue(assemblyLocation, out var definition))
+        {
+            definition = AssemblyDefinition.ReadAssembly(assemblyLocation);
+            _cachedAssemblies[assemblyLocation] = definition;
+        }
+        return definition;
+    }
+
+    private bool HasMatchingParameters(string[] originalParameters, MethodBase methodBase)
+    {
+        bool match = true;
+        var methodParameters = methodBase.GetParameters().Select(p => p.ParameterType).ToArray();
+        var methodParameters2 = methodBase.GetParameters().Select(p => p.ParameterType.ToString()).ToArray();
+
+        // Remove empty parameters from deserialization
+        originalParameters = originalParameters.Where(o => !string.IsNullOrWhiteSpace(o)).ToArray();
+
+        if (originalParameters.Length == methodParameters.Length)
+        {
+            for (int i = 0; i < methodParameters.Length; i++)
+            {
+                // Check if the original parameter matches the method parameter
+                if (!IsParameterMatch(originalParameters[i], methodParameters[i]))
                 {
-                    // Replace with the translated string
-                    codes[i].operand = replacement.Translation;
+                    match = false;
                     break;
                 }
             }
         }
+        else
+            match = false;
 
-        return codes;
+        //Logger.LogWarning($"Attempting to match method: {methodBase.Name}");
+        //Logger.LogWarning($"Original Parameter Length: {originalParameters.Length} Method: {methodParameters.Length}");
+        //Logger.LogWarning($"Original Parameters: {string.Join(", ", originalParameters)}");
+        //Logger.LogWarning($"Method Parameters: {string.Join(", ", methodParameters2)}");
+        //Logger.LogWarning(match);
+        return match;
     }
+
+    private bool IsParameterMatch(string originalParamType, Type methodParamType)
+    {
+        // Direct full name match
+        if (originalParamType == methodParamType.FullName)
+            return true;
+
+        // Match simple name
+        if (originalParamType == methodParamType.Name)
+            return true;
+
+        // Handle generic types
+        if (methodParamType.IsGenericType)
+        {
+            // Compare base generic type name
+            var genericTypeName = methodParamType.GetGenericTypeDefinition().Name;
+            if (originalParamType.Contains(genericTypeName))
+                return true;
+
+            // Check generic type arguments
+            var genericArgs = methodParamType.GetGenericArguments();
+            var originalGenericParts = originalParamType.Split('`');
+
+            if (originalGenericParts.Length > 1)
+            {
+                // Check if base type matches and number of generic arguments match
+                if (originalGenericParts[0] == genericTypeName &&
+                    genericArgs.Length == int.Parse(originalGenericParts[1]))
+                    return true;
+            }
+        }
+
+        // Additional fallback for partial matches
+        return originalParamType.EndsWith(methodParamType.Name);
+    }
+
+    private MethodDefinition GetMethodDefinition(MethodBase methodBase)
+    {
+        var assembly = GetAssemblyDefinition(methodBase.Module.Assembly.Location);
+        // Find the method definition in Cecil
+        var typeDef = assembly.MainModule.GetType(methodBase.DeclaringType.FullName);
+        if (typeDef == null)
+        {
+            Logger.LogWarning($"Could not find type definition: {methodBase.DeclaringType.FullName}");
+            return null;
+        }
+
+        // Find the method by name and parameters
+        MethodDefinition methodDef = null;
+        var candidateMethods = typeDef.Methods.Where(m => m.Name == methodBase.Name).ToList();
+
+        if (candidateMethods.Count == 1)
+        {
+            methodDef = candidateMethods[0];
+        }
+        else if (candidateMethods.Count > 1)
+        {
+            // Match by parameter count and types
+            var paramTypes = methodBase.GetParameters().Select(p => p.ParameterType.FullName).ToArray();
+            foreach (var method in candidateMethods)
+            {
+                if (method.Parameters.Count == paramTypes.Length)
+                {
+                    bool match = true;
+                    for (int i = 0; i < paramTypes.Length; i++)
+                    {
+                        if (method.Parameters[i].ParameterType.FullName != paramTypes[i])
+                        {
+                            match = false;
+                            break;
+                        }
+                    }
+
+                    if (match)
+                    {
+                        methodDef = method;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return methodDef;
+    }    
 }
