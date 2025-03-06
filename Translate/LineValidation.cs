@@ -457,15 +457,15 @@ public static partial class LineValidation
         var fullStop = '.';
 
         // Check if there's only one sentence (one full stop at the end)
-        if (input.Count(c => c == fullStop) == 1 && input.Trim().EndsWith(fullStop))
+        if (input.Count(c => c == fullStop) == 1 && input.TrimEnd().EndsWith(fullStop))
         {
             // Count words
             var words = input.TrimEnd(fullStop).
                 Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-            if (words.Length < 4)
+            if (words.Length <= 4)
             {
-                return input.TrimEnd(fullStop); // Remove full stop
+                return input.Replace(fullStop.ToString(), string.Empty); // Remove full stop leaving spaces
             }
         }
 

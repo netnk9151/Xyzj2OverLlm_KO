@@ -268,7 +268,8 @@ public class SupportTests
     [InlineData("This is a longer test.", "This is a longer test.")] // Four words, should keep full stop
     [InlineData("No full stop here", "No full stop here")] // No full stop, should remain unchanged
     [InlineData("Multiple. Sentences here.", "Multiple. Sentences here.")] // Multiple sentences, should remain unchanged
-    [InlineData("  Spaces before and after.  ", "  Spaces before and after")] // Leading/trailing spaces, should remove full stop
+    [InlineData("  Spaces before and after.  ", "  Spaces before and after  ")] // Leading/trailing spaces, should remove full stop
+    [InlineData("Spaces before and after.  ", "Spaces before and after  ")] // trailing spaces, should remove full stop
     public void RemoveFullStop_Tests(string input, string expected)
     {
         string result = LineValidation.RemoveFullStop("", input);
