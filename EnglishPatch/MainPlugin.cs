@@ -103,6 +103,15 @@ public class MainPlugin : BaseUnityPlugin
         }
     }
 
+    [HarmonyPostfix, HarmonyPatch(typeof(AttriPart), "Awake")]
+    public static void Postfix_AttriPart_Awake(AttriPart __instance)
+    {
+        Logger.LogInfo($"Identified AttriPart: {__instance?.GetType()}");
+
+        var str = AttriPart.AttriTipDic[AttriType.Rou];
+        Logger.LogWarning($"AttriTipDic: {str}");
+    }
+
     [HarmonyPostfix, HarmonyPatch(typeof(Form), "Awake")]
     public static void Postfix_Form_Awake(Form __instance)
     {

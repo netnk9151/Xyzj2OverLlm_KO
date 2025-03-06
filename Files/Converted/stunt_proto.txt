@@ -475,14 +475,14 @@
   - lastTranslatedOn: 2025-03-06T08:08:41.9473828+08:00
     split: 3
     text: "本为闲散之人所创，经各路江湖人士之手日渐成熟之技艺。效果：装备后提升搏击万宗的伤害"
-    translated: "Originally created by idle individuals, this skill has gradually become refined through the hands of people from various Jianghu paths. The effect is..: Increase damage to combat myriad skills after equipping."
+    translated: "Originally created by idle individuals, this skill has gradually become refined through the hands of people from various Jianghu paths. The effect is: Increase damage to combat myriad skills after equipping."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:08:37.5992599+08:00
+  - lastTranslatedOn: 2025-03-06T08:33:47.3292941+08:00
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升搏击万宗的伤害"
-    translated: "Effectiveness: After equipping, increase the damage of martial arts skills based on the proportion of corresponding attribute points to their maximum value."
+    translated: "Effectiveness: After equipping, increase the damage of Combat Myriad Skills based on the percentage of attribute points relative to their maximum value."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -685,10 +685,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:08:40.8541693+08:00
+  - lastTranslatedOn: 2025-03-06T08:33:48.3197429+08:00
     split: 11
     text: "且放白鹿青崖间，玄门仙师白闻清所创，旨在将其于玄门道途化生的万千感悟凝作水滴来推动后世的洪流。\\n效果：装备后根据对应属性点数占最大值比例，提升真气上限"
-    translated: ""
+    translated: "Let the white deer roam between the green cliffs, created by Xuanmen Immortal Bai Wenqing. It aims to distill the myriad insights from its path on the Xuanmen Dao into droplets of water to propel future generations forward.\\nEffectiveness: After equipping, increase the True Qi cap based on the proportion of attribute points relative to their maximum values."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -809,12 +809,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-04T12:17:14.1812368+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:03.2733083+08:00
     split: 11
     text: "其境澄明，莹然内观，我心无心，湛然外鉴。一道人遇稚子问道，留此十六字和一卷特技翩然而去，后有人猜测此人或为玉阳真人。\\n效果：装备后根据对应属性点数占最大值比例，掉落时得到高等级物品的概率增加"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-27T17:17:18.4165383+08:00
     split: 12
@@ -1572,10 +1572,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:08:46.6737500+08:00
+  - lastTranslatedOn: 2025-03-06T08:33:48.8219852+08:00
     split: 11
     text: "效果：装备后根据对应属性点数占最大值比例，提升诡辞"
-    translated: ""
+    translated: "Effectiveness: After equipping, increase deception based on the percentage of attribute points that take the maximum value."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2947,19 +2947,19 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:05.3216064+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:06.1524349+08:00
     split: 3
     text: "楚地技法，世家所创，现在楚地酒肆酒坊多有流传。虽常言道君子远庖厨，但此家诸人不以为然，特立独行，现虽有后人，却是籍籍无名。\\n效果：装备后烹饪时有几率额外获得一次"
-    translated: "The Chu-style technique, created by a prominent family in the Chu region, is now widely disseminated among Chu taverns and wineries. Although it is often said that gentlemen keep far from kitchens, this particular family does not agree with such an adage; they stand apart and follow their own path. Even though there are descendants today, they remain largely unknown.\\nEffectiveness: Upon equipping it, there's a chance to receive one additional cooking attempt."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "The Chu region martial arts technique, originally developed by a prominent family, is now widely practiced in the Chu area's taverns and wineries. Although it is often said that gentlemen should avoid kitchens, this family does not agree with such notions; they are known for their distinctive practices. Today, while there are successors to these techniques, they remain largely uncelebrated and obscure.\\nEffectiveness: Upon equipping, there is a chance to gain one additional cooking attempt."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Winery,酒坊,"
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:06.3102720+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:06.7013163+08:00
     split: 11
     text: "楚地技法，世家所创，现在楚地酒肆酒坊多有流传。虽常言道君子远庖厨，但此家诸人不以为然。\\n效果：装备后根据对应属性点数占最大值比例，烹饪时有几率额外获得一次"
-    translated: "Chu-style brewing techniques, originally developed by a renowned family, are now widely practiced in Chu region taverns and wineries. Although it's often said that gentlemen keep away from kitchens, the people of this household do not agree with such notions.\\nEffectiveness: Once equipped, based on the proportion of attribute points relative to their maximum value, there is a chance to receive an extra attempt during cooking."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Chuji fahua, created by a renowned family of Chu, is now widely circulated among the taverns and wineries in Chu. Although it is often said that gentlemen stay away from kitchens, this household does not agree with such a view.\\nEffectiveness: After equipping, based on the proportion of attribute points to their maximum value, there is a chance to receive an additional turn while cooking."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Winery,酒坊,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-27T16:16:45.0140584+08:00
     split: 12
@@ -2988,10 +2988,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:04.7758851+08:00
+  - lastTranslatedOn: 2025-03-06T08:33:53.9387189+08:00
     split: 3
     text: "麓山书院宋延鹤所创，焚香抚琴乃是风雅之事，也是君子之风， 传言宋延鹤抚琴，能使仙鹤停驻。\\n效果：装备后提升真气回复量"
-    translated: ""
+    translated: "Mount Lu Academy was founded by Song Yanhe. Burning incense and playing the qin are considered elegant pursuits, embodying the spirit of a gentleman. It is said that when Song Yanhe played the qin, he could make immortal cranes come to rest.\\nEffectiveness: Increase recovery rate of True Qi after equipping."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3215,10 +3215,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:04.5224314+08:00
+  - lastTranslatedOn: 2025-03-06T08:44:47.3515093+08:00
     split: 3
     text: "本为闲散之人所创，经各路江湖人士之手日渐成熟之技艺。效果：装备后提升冲击武学境界时获得高级属性的几率,几率受到棋艺熟练度影响"
-    translated: "Originally created by laypeople, this technique has gradually become more refined through the hands of various people from all walks of life. The effects are remarkable: Upon equipping and raising the impact martial realm level, the chance to obtain advanced attributes is influenced by your proficiency in chess art."
+    translated: "Originally created by casual practitioners, this skill has been refined over time through the efforts of various individuals from all walks of Jianghu. The results are impressive: Upon equipping and advancing in martial arts realm upon impact, the likelihood of obtaining advanced attributes is influenced by one's proficiency in chess art."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4133,12 +4133,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:24.1316464+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:12.6577229+08:00
     split: 12
     text: "线索：提升兵道至50，酒量50。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial skills to level 50, alcohol tolerance at 50.\\nIn Yu Capital, it was discovered that Prefect (1551,440) had been promoted."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Clue: Enhance martial arts to level 50, alcohol tolerance 50.\\nIn the Yu Capital, it has been discovered that Prefect (1551,440) has advanced in rank."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Art of War,兵道,"
     flaggedHallucination: ""
 - lineNum: 6901
   raw: "6901#朝廷·师爷#0#官途乐事古来稀，清风明月伴朝衣。\\n效果：解锁朝廷悬赏·抓捕#0#69#0##1#zhanshu/anqi11#18|1|45|100|>=#效果：解锁朝廷悬赏·抓捕#线索：提升兵道至100，酒量80。\\n豫京寻知府(1551,440)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928256|1#0#"
@@ -4164,10 +4164,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:20.4554463+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:12.2873012+08:00
     split: 12
     text: "线索：提升兵道至100，酒量80。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial arts skills to level 100, with alcohol tolerance at 80.\\nIn the Yu Capital, it was learned that Prefect (1551,440) has been promoted."
+    translated: "Clue: Enhance the art of war to 100, alcohol tolerance to 80.\\nIn the Yu Capital, it was learned that Prefect (1551,440) had been promoted."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4195,12 +4195,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:22.8567340+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:13.0100962+08:00
     split: 12
     text: "线索：提升兵道至200，酒量160。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial arts proficiency to level 200, alcohol tolerance at 160.\\nThe people of Yu Capital have learned that Prefect (1551,440) has been promoted."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Clue: Enhance martial arts proficiency to level 200, and increase alcohol tolerance to 160.\\nThe search for Prefect (1551,440) in the Yu Capital culminated in his promotion."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Art of War,兵道,"
     flaggedHallucination: ""
 - lineNum: 6903
   raw: "6903#朝廷·官员#0#闲来把酒论时事，兴至吟诗对夕晖。\\n效果：解锁朝廷悬赏·抄家#0#69#0##3#zhanshu/anqi11#18|1|45|450|>=#效果：解锁朝廷悬赏·抄家#线索：提升兵道至325，酒量260。\\n豫京寻知府(1551,440)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928189|1#0#"
@@ -4226,10 +4226,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:22.2359549+08:00
+  - lastTranslatedOn: 2025-03-06T08:44:55.5644098+08:00
     split: 12
     text: "线索：提升兵道至325，酒量260。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial arts skill to level 325, alcohol tolerance 260.\\nIn Yu Capital, it was discovered that Prefect (1551,440) had been promoted."
+    translated: "Clue: Enhance your art of war to 325, alcohol tolerance 260.\\nIn the Yu Capital, it is known that Prefect (1551,440) has been promoted."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4257,12 +4257,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:23.7961257+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:13.3503155+08:00
     split: 12
     text: "线索：提升兵道至475，酒量380。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial arts to 475, alcohol tolerance to 380.\\nIn Yu Capital, it was known that Prefect (1551,440) had been promoted."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Clue: Enhance martial prowess to 475, alcohol tolerance at 380.\\nIn Yu Capital, it was learned that Prefect (1551,440) had advanced in rank."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Art of War,兵道,"
     flaggedHallucination: ""
 - lineNum: 6905
   raw: "6905#朝廷·贵胃#0#一入宫门深似海，鱼鳞尽褪龙烧尾。\\n效果：解锁朝廷悬赏·抓捕妖人(未开放)#0#69#0##5#zhanshu/anqi11#18|1|45|900|>=#效果：自宫可以修炼终极武功(东厂)#线索：提升兵道至650，酒量520。\\n豫京寻知府(1551,440)以晋级。#zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928156|1#0#"
@@ -4288,12 +4288,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:23.1926243+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:13.6350664+08:00
     split: 12
     text: "线索：提升兵道至650，酒量520。\\n豫京寻知府(1551,440)以晋级。"
-    translated: "Clue: Enhance martial arts proficiency to level 650 and increase alcohol tolerance to level 520.\\nIn the Yu Capital, they sought to inform Prefect (1551,440) of their promotion."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Clue: Enhance martial prowess to 650, with an alcohol tolerance of 520.\\nIn search of Prefect (1551,440) in Yuzhou to promote."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Art of War,兵道,Yu Capital,豫京,"
     flaggedHallucination: ""
 - lineNum: 7000
   raw: "7000#机关师#0##0#70#0##0#zhanshu/anqi11####zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|928456|1#0#"
@@ -5058,10 +5058,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:26.9917150+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:03.1220289+08:00
     split: 12
     text: "线索：提升魔学、琴艺至325，诡辞至260。\\n枰栌寻程蝶依(883,951)以晋级。"
-    translated: ""
+    translated: "Clue: Enhance the dark arts to level 325, zither art to level 260.\\nPinglu seeks out Chen Ge Yi (883,951) to advance."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5110,8 +5110,8 @@
     split: 3
     text: "鸣岚飘渺云烟聚，琴声如梦随风远。效果：降低琴魅成功所需完成度，根据琴艺属性，提升获得的NPC好感。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-03-06T08:09:28.0443584+08:00
     split: 11
@@ -5346,19 +5346,19 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:31.1704681+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:15.6920951+08:00
     split: 3
     text: "身法如流光掠影，快如闪电，精准无比。此阶刺客一击即中，手法凌厉，出手便如流星划过，留不下任何痕迹。\\n解锁刺客委托系统“素书坊”，允许接取中级任务。(未开放)\\n效果：依据道学提升命中"
-    translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Their agility is like fleeting light and shadows, swift as lightning, and incredibly precise. At this stage, the assassin strikes true with a single hit; their technique is fierce, their movements are like a shooting star passing by, leaving no trace behind.\\nUnlock the assassin contract system Sushufang, allowing acceptance of intermediate tasks. (Not yet available)\\nEffectiveness: Enhance accuracy in accordance with Taoist principles."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Taoism,道学,"
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:31.6185886+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:15.3726839+08:00
     split: 11
     text: "效果：依据道学提升命中\\n解锁刺客委托系统“素书坊”，允许接取中级任务。(未开放)"
-    translated: "Effectiveness: Enhance accuracy based on Daoism.\\nUnlock the Assassin's Commission System Sushufang, allowing acceptance of intermediate-level tasks. (Currently Closed)"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Effectiveness: Enhance hit points through the principles of Daoism.\\nUnlock the Assassin's Commission System Su Shufang, allowing you to accept intermediate-level tasks (currently closed)."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Taoism,道学,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-02-27T16:42:49.5859898+08:00
     split: 12
@@ -5377,17 +5377,17 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:32.0075758+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:15.9243958+08:00
     split: 3
     text: "江湖传言，黑煞者，必如阴影而生，似冥府使者般夺人性命。极少有人见过黑煞真容，他们是死亡的象征，来去皆无踪。\\n提高”素书坊“委托出现频率。(未开放)\\n效果：依据道学提升闪避"
-    translated: "Jianghu rumors claim that the Black Slaughters come into existence like shadows and take lives much like emissaries from the netherworld. Very few have ever seen their true faces; they are symbols of death, appearing and disappearing without a trace.\\nIncrease the frequency of Susu Fang assignments appearing (currently closed).\\nEffectiveness: Improve evasiveness through Taoist cultivation."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "Rumors from the Jianghu speak of the Black Assassins as beings born like shadows and resembling messengers from the Underworld in their taking of lives. Few have ever seen their true form; they are symbols of death, vanishing without a trace both coming and going.\\nIncrease the frequency of commissioned appearances at Sushufang (not open to the public).\\nEffectiveness: Enhance evasiveness through Taoist cultivation."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Taoism,道学,"
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:30.5813199+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:05.6235305+08:00
     split: 11
     text: "效果：依据道学提升闪避\\n提高”素书坊“委托出现频率。(未开放)"
-    translated: "Effectiveness: Enhance dodging through Daoist practice.\\nIncrease the frequency of commission appearances at Suxu Fang. (Not open yet)"
+    translated: "Effectiveness: Enhance evasiveness through the study of Taoism.\\nIncrease the frequency of commission appearances for Susu Fang. (Not open yet)"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5415,10 +5415,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:31.0436998+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:06.2355767+08:00
     split: 11
     text: "效果：依据墨学提升诛心\\n解锁刺客委托系统“素书坊”，允许接取高级任务。(未开放)"
-    translated: "Effectiveness: Enhance Mind Attack according to Mohist principles.\\nUnlock the Assassin's Commission System Sushufang, allowing acceptance of advanced missions. (Currently Unavailable)"
+    translated: "Effectiveness: Enhance mind attack based on Mohism.\\nUnlock the assassin's commission system Su Shu Fang, allowing the acceptance of advanced tasks. (Currently closed)"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5449,10 +5449,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:29.7635284+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:05.7746165+08:00
     split: 3
     text: "曾闻一奇人，于渭水边，无饵直钩，离水三尺。或有人言，答曰，愿者上钩。\\n效果：依据垂钓提升命中"
-    translated: ""
+    translated: "It was said that there once lived a strange person by the Wei River. Without bait on his hook and standing three feet from the water, when people spoke of it, he replied, He who wishes may take the hook.\\nEffectiveness: Enhance accuracy through fishing."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -5965,12 +5965,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:54.9103255+08:00
+  - lastTranslatedOn: 2025-03-06T08:53:18.1061294+08:00
     split: 3
     text: "表示入门后，初步踏上修行之路的道士，专注于基础的道学修为。\\n效果：解锁更多炼丹配方和秘法秘术\\n解锁归墟剑宗,寻清门论道"
-    translated: "This refers to a novice Daoist priest who has begun their journey of cultivation, focusing on the foundational aspects of Taoist practice.\\nEffectiveness: Unlock more alchemy formulas and secret techniques.\\nUnlocking the Return to Abyss Sword Sect, Discussing the Teachings of the Seeking Clarity Gate."
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    translated: "A novice Daoist who has begun their path of cultivation, focusing on the foundational aspects of Daoist practice.\\nEffectiveness: Unlock more alchemy recipes and secret arts and techniques.\\nUnlocking the Secrets of the Return to Abyss Sword Sect and Discourses on the Seeking Clarity Gate."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Taoism,道学,"
     flaggedHallucination: ""
   - lastTranslatedOn: 2025-03-06T08:09:54.1286344+08:00
     split: 11
@@ -6103,10 +6103,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:51.2341514+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:10.3951254+08:00
     split: 12
     text: "线索：提升道学至650，炼丹、酿酒至520。\\n寻清玄道长（1193,513）以晋级。"
-    translated: ""
+    translated: "Clue: Elevate Taoism to level 650, alchemy to level 520.\\nSeek out Master Qing Xuandao (1193,513) to advance in rank."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6182,10 +6182,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:46.0855076+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:10.6421160+08:00
     split: 12
     text: "线索：提升佛学至200，枪棍至160。\\n寻慧明（1489,589）以晋级。"
-    translated: ""
+    translated: "Clue: Enhance Buddhism to 200, and spear & staff to 160.\\nSeek out Huiming (1489,589) to advance in rank."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6213,10 +6213,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:48.0252085+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:10.9436202+08:00
     split: 12
     text: "线索：提升佛学至325，枪棍至260。\\n寻觉尘（1477,602）以晋级。"
-    translated: "Clue: Enhance Buddhism to 325, spear and staff to 260.\\nSeek out the Dust of Awakening (1477,602) to ascend in rank."
+    translated: "Clue: Enhance Buddhism to 325, and spear & staff to 260.\\nTo attain clarity in dust (1477,602) and progress to a higher level."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6488,10 +6488,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:46.4435562+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:11.7086060+08:00
     split: 12
     text: "线索：提升兵道至100，枪棒80。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
-    translated: ""
+    translated: "Clue: Enhance martial prowess in the Art of War to level 100, and improve spear and staff skills to level 80.\\nThe Chief Capture Bureau of the Evernight Capital was promoted to a higher rank under (1038,327)."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6519,10 +6519,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:46.7549477+08:00
+  - lastTranslatedOn: 2025-03-06T08:44:59.5365136+08:00
     split: 12
     text: "线索：提升兵道至200，枪棒160。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
-    translated: ""
+    translated: "Clue: Enhance the Art of War to level 200, spear and staff techniques 160.\\nThe Capturing Bureau of the Evernight Capital has been promoted to (1038,327)."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6550,10 +6550,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:52.5418107+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:12.6416677+08:00
     split: 12
     text: "线索：提升兵道至325，枪棒260。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
-    translated: ""
+    translated: "Clue: Enhance the art of war to 325, spear and staff to 260.\\nThe Evernight Capital's Chief Pursuer and Arrest Bureau of (1038,327) has been promoted."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6581,10 +6581,10 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T08:09:49.4650194+08:00
+  - lastTranslatedOn: 2025-03-06T08:34:11.3533975+08:00
     split: 12
     text: "线索：提升兵道至475，枪棒380。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
-    translated: "Clue: Elevate Wudao to 475, spear and staff 380.\\nThe Headquarters for the Apprehension of Fugitives in the Evernight Capital (1038,327) is promoted."
+    translated: "Clue: Enhance the art of war to level 475, spear and staff to level 380.\\nThe Catching and Arresting Bureau of Evernight Capital has been promoted to the position of (1038,327)."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -6616,8 +6616,8 @@
     split: 12
     text: "线索：提升兵道至650，枪棒520。\\n不夜京寻缉拿总捕(1038,327)处晋级。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 10200
   raw: "10200#镖师·镖徒#0#江湖风雨护镖行，匹马单枪赴远程。#0#102#0##0#zhanshu/anqi11####zhanshu/anqi12#0#0#0#0#0#0#1000#0&1|924742|1##"
