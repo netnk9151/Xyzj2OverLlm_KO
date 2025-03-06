@@ -110,7 +110,7 @@ public static partial class LineValidation
             result = EncaseSquareBracketsForWholeLines(raw, result);
 
 
-            if (!textFile.RemoveExtraFullStop)
+            if (textFile.RemoveExtraFullStop)
                 result = RemoveFullStop(raw, result);
 
             if (string.IsNullOrEmpty(result))
