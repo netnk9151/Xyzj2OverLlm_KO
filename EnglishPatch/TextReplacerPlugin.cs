@@ -56,9 +56,11 @@ public class TextReplacerPlugin : BaseUnityPlugin
         {
             if (__result is GameObject gameObject)
             {
-                //if (__result.name.Contains("LoginView"))
-                //    return;
-                // Need to figure out how to ignore buttons here - causes grief
+                // For whatever reason IL replacementn ot working here
+                if (__result.name.Contains("LoginView"))
+                    return;
+
+                //TODO: Need to figure out how to ignore buttons here - causes grief
                 //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
 
                 foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))

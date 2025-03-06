@@ -162,16 +162,14 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                 // Apply the patch
                 _harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
 
-
                 successCount++;
-
-                Logger.LogInfo($"Successfully patched: {contract.Type}.{contract.Method}");
+                Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");
             }
             catch (Exception ex)
             {
                 errorCount++;
                 //badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
-                badContractErrors.Add($"{contract.Type} {contract.Method}");
+                badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
             }
         }
 

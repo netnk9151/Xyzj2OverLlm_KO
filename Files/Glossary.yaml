@@ -85,11 +85,28 @@
   context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
   transliteration: Liúpài
 
-# Unknown
+# Menu
 - raw: 万宗
   result: Myriad Skills
   badtrans: true
   literal: Wàn zōng
+
+# Dates
+- raw: 年  
+  result: Year 
+  badtrans: false  
+  direct: Year  
+  literal: Nian 
+- raw: 月  
+  result: Month 
+  badtrans: false  
+  direct: Month  
+  literal: Yue
+- raw: 日
+  result: Day 
+  badtrans: false  
+  direct: Day  
+  literal: Ri
 
 # Time
 - raw: 子时
@@ -416,23 +433,165 @@
   result: Great Cold
   badtrans: true
 
-# Stats
-- raw: 商道
-  result: Commerce
-  context: Way of Business
+
+# Arts & Skills
+- raw: 福气
+  result: Luck
+  badtrans: false  
+- raw: 农学  
+  result: Agriculture 
+  badtrans: true  
+  direct: Agricultural Science  
+  literal: Nongxue 
+- raw: 墨学  
+  result: Mohism  
+  badtrans: true  
+  direct: Mohist Philosophy  
+  literal: Moxue  
+- raw: 容貌
+  result: Beauty
+  badtrans: false  
+- raw: 坚韧
+  result: Toughness
   badtrans: false  
 - raw: 豪爽
   result: Generosity
   badtrans: false 
-- raw: 福气
-  result: Luck
+- raw: 炼丹  
+  result: Alchemy  
   badtrans: false  
-- raw: 容貌
-  result: Beauty
+  direct: Refining Elixirs  
+  literal: Liandan  
+- raw: 琴艺  
+  result: Zither Art 
+  badtrans: true  
+  direct: Zither Art  
+  literal: Qinyi  
+- raw: 琴艺  
+  result: Zither Art 
+  badtrans: true  
+  direct: Zither Art  
+  literal: Qinyi  
+- raw: 棋艺  
+  result: Chess Art  
+  badtrans: true  
+  direct: Board Game Art  
+  literal: Qiyi  
+- raw: 垂钓  
+  result: Fishing  
+  badtrans: false  
+  direct: Angling  
+  literal: Chuidiao
+- raw: 酒量  
+  result: Alcohol Tolerance  
+  badtrans: false  
+  direct: Drinking Capacity  
+  literal: Jiuliang  
+- raw: 道学  
+  result: Taoism  
+  badtrans: true  
+  direct: Taoist Studies  
+  literal: Daoxue 
+- raw: 诡辞  
+  result: Deception  
+  badtrans: false  
+  direct: Deceptive Speech  
+  literal: Guici  
+- raw: 兵道  
+  result: Art of War 
+  badtrans: true  
+  direct: Art of War  
+  literal: Bingdao  
+- raw: 搏击  
+  result: Combat  
+  badtrans: false  
+  direct: Struggle and Fight  
+  literal: Boji
+- raw: 魔学  
+  result: Dark Arts  
+  badtrans: true  
+  direct: Demon Studies  
+  literal: Moxue  
+- raw: 商道
+  result: Commerce
+  context: Way of Business
   badtrans: false  
 - raw: 口才
   result: Eloquence
   badtrans: false  
+
+# Weapons
+- raw: 刀
+  result: Blade
+  context: Dao is Blade or Cleaver or Knife
+  allowalt: 
+    - Knife
+    - Knives
+    - Cleaver
+    - Scissor
+    - Saber
+    - Dao
+  badtrans: true
+- raw: 暗器
+  result: Hidden Weapon
+  badtrans: true
+- raw: 槍
+  result: Spear
+  badtrans: true
+- raw: 枪
+  result: Spear
+  badtrans: true
+- raw: 枪棍
+  result: Spear & Staff
+  badtrans: true
+- raw: 棍
+  result: Staff
+  context: More like club or cludgel or stick. Also used as part of other words
+  badtrans: true
+- raw: 杖
+  result: Staff
+  context: More like walking stick or formal staff
+  badtrans: true
+
+# Arts
+- raw: 枪法
+  result: Spear Art
+  allowalt: 
+    - Spear Technique
+  badtrans: true
+- raw: 槍法
+  result: Spear Art
+  allowalt: 
+    - Spear Technique
+  badtrans: true
+- raw: 刀法
+  result: Blade Art
+  allowalt: 
+    - Knife Technique
+    - Blade Technique
+  badtrans: true
+- raw: 刀式
+  result: Blade Form
+  allowalt:
+    - Blade Technique
+    - Blade Style
+  badtrans: true
+- raw: 剑法
+  result: Sword Art
+  allowalt: 
+    - Sword Technique
+    - Swordsmanship
+  badtrans: true
+- raw: 剑术  
+  result: Swordsmanship  
+  allowalt: 
+    - Sword Technique
+    - Swordsmanship
+  badtrans: true  
+  direct: Sword Technique  
+  literal: Jianshu  
+
+# Stats
 - raw: 胆识
   result: Courage
   context: Courage and Insight
@@ -440,11 +599,8 @@
 - raw: 修养
   result: Cultivation
   badtrans: true  
-- raw: 坚韧
-  result: Toughness
-  badtrans: false  
 - raw: 元气  
-  result: Yuanqi  
+  result: Vitality  
   badtrans: true  
   direct: Primordial energy  
   literal: Yuanqi  
@@ -454,20 +610,21 @@
   direct: Qi and blood  
   literal: Qixue  
 - raw: 真气
-  result: Zhenqi
+  result: True Qi
+  badtrans: true 
   context: True Qi / True Energy
-  badtrans: false  
+  literal: Zhenqi  
 - raw: 根骨
   result: Potential
   context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
   badtrans: false  
 - raw: 力道  
   result: Strength  
-  badtrans: true  
+  badtrans: false  
   direct: Strength path  
   literal: Lidao  
 - raw: 筋骨
-  result: Jingu
+  result: Muscle & Bone
   context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
   badtrans: false 
   literal: Jingu  
@@ -528,54 +685,55 @@
 - raw: 外功
   result: External Skill
   context: External Martial Arts
-  badtrans: true
+  badtrans: false
 - raw: 内攻
   result: Internal Attack
   context: refers to offensive techniques that use neigong to damage an opponent's internal organs or disrupt their Qi flow.
-  badtrans: true
+  badtrans: false
 - raw: 内力
   result: Inner Power
   context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
-  badtrans: true  
+  badtrans: false  
 - raw: 外防
   result: External Defense
   context: Defense against physical attacks (e.g., armor-like body techniques, blocking).
+  badtrans: false 
 - raw: 内防
   result: Internal Defense
   context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
-  badtrans: true    
+  badtrans: false    
 - raw: 内息
   result: Inner Qi
   context:  It represents the circulation of Qi within the body, closely tied to breathing techniques and cultivation. 
-  badtrans: true
+  badtrans: false
 - raw: 精神
   result: Willpower
   allowalt:
     - Spirit
   context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
-  badtrans: true
+  badtrans: false
 - raw: 身法
   result: Agility
   context: refers to a practitioner's movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
-  badtrans: true
+  badtrans: false
 - raw: 专注
   result: Focus
   allowalt:
     - Concentration
   context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
-  badtrans: true
+  badtrans: false
 - raw: 要害
   result: Vital Point
   context: refers to critical or vital points of the body that, if struck, can cause significant damage or even death. In martial arts, it refers to vital areas like the head, neck, or heart. In gaming, it could be used to represent weak spots or critical hit zones that deal more damage when targeted.
-  badtrans: true
+  badtrans: false
 - raw: 化解
   result: Counter
   context: refers to the act of neutralizing, resolving, or dissolving an opponent's attack, often through a defensive or counter technique.
-  badtrans: true
+  badtrans: false
 - raw: 外攻
   result: External Attack
   context: refers to offensive techniques that rely on external strength and power, typically involving physical force or direct strikes.
-  badtrans: true
+  badtrans: false
 
 # Sayings
 - raw: 阿弥陀佛
@@ -677,8 +835,6 @@
   badtrans: true
   direct: The Hidden Fire Hundred Herbs Secret
   literal: Fú Huǒ Bǎi Cǎo Jué
-
-
 - raw: 钟灵化谷
   result: Spiritual Essence Transforming into the Valley
   badtrans: true
@@ -690,69 +846,6 @@
   badtrans: true
 - raw: 明光三梭谱
   result: Three Shuttles Weave Bright Light
-  badtrans: true
-
-# Weapons
-- raw: 刀
-  result: Blade
-  context: Dao is Blade or Cleaver or Knife
-  allowalt: 
-    - Knife
-    - Knives
-    - Cleaver
-    - Scissor
-    - Saber
-    - Dao
-  badtrans: true
-- raw: 暗器
-  result: Hidden Weapon
-  badtrans: true
-- raw: 槍
-  result: Spear
-  badtrans: true
-- raw: 枪
-  result: Spear
-  badtrans: true
-- raw: 枪棍
-  result: Spear and Staff
-  badtrans: true
-- raw: 棍
-  result: Staff
-  context: More like club or cludgel or stick. Also used as part of other words
-  badtrans: true
-- raw: 杖
-  result: Staff
-  context: More like walking stick or formal staff
-  badtrans: true
-
-# Arts
-- raw: 枪法
-  result: Spear Art
-  allowalt: 
-    - Spear Technique
-  badtrans: true
-- raw: 槍法
-  result: Spear Art
-  allowalt: 
-    - Spear Technique
-  badtrans: true
-- raw: 刀法
-  result: Blade Art
-  allowalt: 
-    - Knife Technique
-    - Blade Technique
-  badtrans: true
-- raw: 刀式
-  result: Blade Form
-  allowalt:
-    - Blade Technique
-    - Blade Style
-  badtrans: true
-- raw: 剑法
-  result: Sword Art
-  allowalt: 
-    - Sword Technique
-    - Swordsmanship
   badtrans: true
 
 # Status
@@ -1340,7 +1433,6 @@
   badtrans: true
   direct: Lü Ruhe
   literal: Lü Ruhe
-
 - raw: 袁婉君
   result: Yuan Wanjun
   badtrans: true
@@ -1511,6 +1603,63 @@
 - raw: 缪贝
   result: Miao Bei
   badtrans: true
+
+# Bosses
+- raw: 艾里甫  
+  result: Alif  
+  badtrans: true  
+  direct: Alif  
+  literal: Ailifu  
+- raw: 巩致  
+  result: Gong Zhi  
+  badtrans: true  
+  direct: Gongzhi  
+  literal: Gongzhi  
+- raw: 盛瑞渊  
+  result: Sheng Ruiyuan  
+  badtrans: true  
+  direct: Sheng Ruiyuan  
+  literal: Sheng Ruiyuan  
+- raw: 常贤  
+  result: Chang Xian  
+  badtrans: true  
+  direct: Chang Xian  
+  literal: Chang Xian  
+- raw: 何藉  
+  result: He Jie  
+  badtrans: true  
+  direct: He Jie  
+  literal: He Jie
+- raw: 祝青柏  
+  result: Zhu Qingbai  
+  badtrans: true  
+  direct: Zhu Qingbai  
+  literal: Zhu Qingbai  
+- raw: 骆阳  
+  result: Luo Yang  
+  badtrans: true  
+  direct: Luo Yang  
+  literal: Luo Yang  
+- raw: 骆破虏  
+  result: Luo Polu  
+  badtrans: true  
+  direct: Luo Polu  
+  literal: Luo Polu  
+- raw: 秦一  
+  result: Qin Yi  
+  badtrans: true  
+  direct: Qin Yi  
+  literal: Qin Yi
+- raw: 刘青  
+  result: Liu Qing  
+  badtrans: true  
+  direct: Liu Qing  
+  literal: Liu Qing  
+
+# NPC Prototype
+
+
+
 
 # Factions & Places
 - raw: 永兴
@@ -2109,26 +2258,3 @@
 - raw: 藏刀式  
   result: Hidden Blade Technique
   transliteration: Cáng dāo shì  
-
-# Potential Skills
-# 福气=Fortune
-# 农学=Agriculture
-# 墨学=Calligraphy
-# 容貌=Appearance
-# 坚韧=Perseverance
-# 豪爽=Straightforward
-# 炼丹=Alchemy
-# 琴艺=Piano
-# 棋艺=Chess
-# 垂钓=Fishing
-# 酒量=Alcohol Tolerance
-# 道学=Taoism
-# 诡辞=Tactics
-# 兵道=Military Arts
-# 枪棍=Spear & Staff
-# 搏击=Combat Technique
-# 剑术=Sword Technique
-# 刀法=Blade Technique
-# 魔学=Demonology
-# 商道=Business
-# 口才=Persuasion

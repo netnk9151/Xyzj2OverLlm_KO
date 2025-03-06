@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using TMPro;
 using TriangleNet;
 using UnityEngine;
+using UnityEngine.UI;
 using static MouseSimulator;
 
 namespace EnglishPatch;
@@ -43,15 +44,9 @@ public class MainPlugin : BaseUnityPlugin
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is destroyed!");
     }
 
-    [HarmonyPrefix, HarmonyPatch(typeof(DataMgr), "Init")]
-    public static bool Init()
-    {
-        Logger.LogWarning($"Hooked Init!");
-        return true;
-    }
-
+    // Replace assets with translated assets
     [HarmonyPrefix, HarmonyPatch(typeof(DataMgr), "LoadDB")]
-    public static bool Prefix_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
+    public static bool Prefix_DataMgr_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
     {
         Logger.LogWarning($"Hooked LoadDB!");
         var resourcesFolder = Path.Combine(Paths.BepInExRootPath, "resources");
@@ -74,32 +69,44 @@ public class MainPlugin : BaseUnityPlugin
     }
 
     [HarmonyPostfix, HarmonyPatch(typeof(DataMgr), "LoadDB")]
-    public static void Post_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
+    public static void Postfix_DataMgr_LoadDB(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
     {
         Logger.LogWarning($"Translated Assets Loaded!");
     }
 
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
-    public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, int index, RectTransform rect)
+    //Remove Name Restrictions
+    [HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.InstantiateViewNewNew_mobile), "Awake")]
+    public static void Postfix_InstantiateViewNewNew_mobile_Awake(InstantiateViewNewNew_mobile __instance)
     {
-        var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
+        Logger.LogWarning("Postfix_InstantiateViewNewNew_mobile_Awake");
 
-        Logger.LogWarning($"Hooked OnButtonClick! [{text}]");
+        var nameInput = AccessTools.Field(typeof(InstantiateViewNewNew_mobile), "m_nameinput").GetValue(__instance) as TMP_InputField;
+        var nextButton = AccessTools.Field(typeof(InstantiateViewNewNew_mobile), "m_NextBuBtn").GetValue(__instance) as Button;
 
-        Logger.LogInfo($"Actual Text Hex: {string.Join(" ", text.Select(c => ((int)c).ToString("X2")))}");
-        Logger.LogInfo($"Switch Case Hex: {string.Join(" ", "A new Jianghu.".Select(c => ((int)c).ToString("X2")))}");
+        Logger.LogWarning($"Hooked InstantiateViewNewNew Awake! {nameInput} {nextButton}");
 
-        switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
+        if (nameInput != null && nextButton != null)
         {
-            case "新的江湖":
-                Logger.LogWarning($"Old Text");
-                break;
-            case "A new Jianghu.":
-                Logger.LogWarning($"New Text");
-                break;
-        }   
+            nameInput.onValueChanged.RemoveAllListeners();
+            nameInput.onValueChanged.AddListener((string newStr) =>
+            {
+                // Always allow the name, removing keyword restrictions
+                nextButton.interactable = Tools.IsStrAvailable(newStr);
+            });
 
-        return true;
+            nameInput.onEndEdit.RemoveAllListeners();
+            nameInput.onEndEdit.AddListener((string newStr) =>
+            {
+                // Always allow the name, removing keyword restrictions
+                nextButton.interactable = Tools.IsStrAvailable(newStr);
+            });
+        }
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(Form), "Awake")]
+    public static void Postfix_Form_Awake(Form __instance)
+    {
+        Logger.LogInfo($"Identified Form: {__instance.GetType()}");
     }
 
     private static void OriginalLoadDbCode(DataMgr __instance, Dictionary<string, CsvLoader.CsvCreateFunc> m_dic_csv)
@@ -241,6 +248,4 @@ public class MainPlugin : BaseUnityPlugin
             stopwatch2.Restart();
         }
     }
-
-
 }
