@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
+using System.IO.Pipelines;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -11,7 +12,7 @@ using System.Xml;
 
 namespace Translate;
 
-public static class LineValidation
+public static partial class LineValidation
 {
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
     public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
@@ -56,8 +57,6 @@ public static class LineValidation
 
         if (!string.IsNullOrEmpty(result))
         {
-          
-
             if (result.Contains('\"') && !raw.Contains('\"'))
                 result = result.Replace("\"", "");
 
@@ -110,13 +109,17 @@ public static class LineValidation
             result = EncaseColorsForWholeLines(raw, result);
             result = EncaseSquareBracketsForWholeLines(raw, result);
 
+
+            if (!textFile.RemoveExtraFullStop)
+                result = RemoveFullStop(raw, result);
+
             if (string.IsNullOrEmpty(result))
             {
                 Console.WriteLine($"Something Bad happened somewhere: {raw}\n{result}");
                 return result;
             }
 
-            if (result.StartsWith("'") && result.EndsWith("'"))
+            if (result.StartsWith('\'') && result.EndsWith('\''))
                 if (result.Length > 3)
                     result = result[1..^1];
 
@@ -193,7 +196,7 @@ public static class LineValidation
 
         // TODO: This aint working
         //Place holders - incase the model ditched them
-        var matches = Regex.Matches(raw, PlaceholderMatchPattern);
+        var matches = PlaceholderPatternRegex().Matches(raw);
         foreach (Match match in matches)
         {
             if (!result.Contains(match.Value))
@@ -209,7 +212,7 @@ public static class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
-        if (raw.Contains("-") && !result.Contains("-"))
+        if (raw.Contains('-')  && !result.Contains('-'))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");
@@ -249,7 +252,7 @@ public static class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "<br>");
         }
 
-        if (result.Contains('\n') && !raw.Contains("\n"))
+        if (result.Contains('\n') && !raw.Contains('\n'))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
@@ -443,4 +446,32 @@ public static class LineValidation
         return Regex.Replace(input, @"\d", "");
     }
 
+    public static string RemoveFullStop(string raw, string input)
+    {
+        if (string.IsNullOrWhiteSpace(input)) 
+            return input;
+
+        if (raw.Contains(' '))
+            return input;
+
+        var fullStop = '.';
+
+        // Check if there's only one sentence (one full stop at the end)
+        if (input.Count(c => c == fullStop) == 1 && input.Trim().EndsWith(fullStop))
+        {
+            // Count words
+            var words = input.TrimEnd(fullStop).
+                Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            if (words.Length < 4)
+            {
+                return input.TrimEnd(fullStop); // Remove full stop
+            }
+        }
+
+        return input;
+    }
+
+    [GeneratedRegex(PlaceholderMatchPattern)]
+    private static partial Regex PlaceholderPatternRegex();
 }

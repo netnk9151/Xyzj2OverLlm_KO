@@ -15,7 +15,7 @@ public static class TranslationService
     public const int BatchlessBuffer = 25;
 
     // "。" doesnt work like u think it would   
-    public static string[] SplitCharactersList = [":", "<br>", "\\n", "-"];
+    public static string[] SplitCharactersList() => [":", "<br>", "\\n", "-"];
 
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [
@@ -105,7 +105,7 @@ public static class TranslationService
             new() {Path = "yingdao_prototype.txt", PackageOutput = true},
 
             //Biggest one
-            new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true},
+            new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true, RemoveExtraFullStop = false},
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -134,7 +134,6 @@ public static class TranslationService
     {
         string inputPath = $"{workingDirectory}/Raw/DB";
         string outputPath = $"{workingDirectory}/Raw/SplitDb";
-        var serializer = Yaml.CreateSerializer();
 
         if (!Directory.Exists(outputPath))
             Directory.CreateDirectory(outputPath);
@@ -149,7 +148,7 @@ public static class TranslationService
         foreach (var line in lines)
         {
             // New File Split
-            if (line.Contains("|") && !line.Contains("#"))
+            if (line.Contains('|') && !line.Contains('#'))
             {
                 var splits = line.Split('|');
                 if (splits.Length == 2)
@@ -159,7 +158,7 @@ public static class TranslationService
                     splitDbName = splits[0];
                     splitDbCount = int.Parse(splits[1]);
                     hasChinese = false;
-                    currentSplitLines = new List<string>();
+                    currentSplitLines = [];
                     Console.WriteLine($"Starting New Split: {splitDbName}...");
                     continue;
                 }
@@ -179,7 +178,6 @@ public static class TranslationService
 
     public static void ExportTextAssetsToCustomFormat(string workingDirectory)
     {
-        string inputPath = $"{workingDirectory}/Raw/SplitDb";
         string outputPath = $"{workingDirectory}/Raw/Export";
 
         if (!Directory.Exists(outputPath))
@@ -201,10 +199,9 @@ public static class TranslationService
                 lineIncrement++;
                 var splits = line.Split("#");
                 var foundSplits = new List<TranslationSplit>();
-                long lineNum = 0;
 
                 // Default to line number when it doesnt have line number in split
-                if (!long.TryParse(splits[0], out lineNum))
+                if (!long.TryParse(splits[0], out long lineNum))
                     lineNum = lineIncrement;
 
                 // Find Chinese
@@ -259,10 +256,9 @@ public static class TranslationService
                 lineIncrement++;
                 var splits = new string[] { line };
                 var foundSplits = new List<TranslationSplit>();
-                long lineNum = 0;
 
                 // Default to line number when it doesnt have line number in split
-                if (!long.TryParse(splits[0], out lineNum))
+                if (!long.TryParse(splits[0], out long lineNum))
                     lineNum = lineIncrement;
 
                 // Find Chinese
@@ -317,10 +313,9 @@ public static class TranslationService
                 lineIncrement++;
                 var splits = line.Split(",");
                 var foundSplits = new List<TranslationSplit>();
-                long lineNum = 0;
 
                 // Default to line number when it doesnt have line number in split
-                if (!long.TryParse(splits[0], out lineNum))
+                if (!long.TryParse(splits[0], out long lineNum))
                     lineNum = lineIncrement;
 
                 // Find Chinese
@@ -329,9 +324,9 @@ public static class TranslationService
                     if (Regex.IsMatch(splits[i], pattern))
                     {
                         var cleaned = splits[i];
-                        if (cleaned.StartsWith("\""))
+                        if (cleaned.StartsWith('\"'))
                             cleaned = cleaned[1..];
-                        if (cleaned.EndsWith("\""))
+                        if (cleaned.EndsWith('\"'))
                             cleaned = cleaned[..^1];
 
                         foundSplits.Add(new TranslationSplit()
@@ -584,7 +579,7 @@ public static class TranslationService
 
                 foreach (var line in fileLines)
                 {
-                    if (line.Splits.Count() != 1)
+                    if (line.Splits.Count != 1)
                     {
                         failedCount++;
                         continue;
@@ -642,7 +637,7 @@ public static class TranslationService
                         }
 
                         //Check line to be extra safe
-                        if (split.Translated.Contains("#") || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
+                        if (split.Translated.Contains('#') || Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
                             failed = true;
                         else if (!string.IsNullOrEmpty(split.Translated))
                             splits[split.Split] = split.Translated;
@@ -720,7 +715,7 @@ public static class TranslationService
 
     static string ReplaceCommasInBrackets(string input, string replacement)
     {
-        StringBuilder output = new StringBuilder();
+        var output = new StringBuilder();
         int depth = 0;
 
         foreach (char c in input)
@@ -776,7 +771,6 @@ public static class TranslationService
             "VirtualGrid",
             "WaveController",
 
-            
             // Looks like modding ui
             "EditNpcData",
             "EditorDataPanel",
@@ -784,8 +778,6 @@ public static class TranslationService
             "EditTeleData",
             "MapAreaEditor",
             "ModSpace",
-
-
             ];
         string[] skipMethods = [
             "CheckTapAnti",
@@ -793,7 +785,8 @@ public static class TranslationService
             "IsSaveableNow",
             "LoadCSV",
             "LoadDB",
-            "OnButtonClick" //Bad stuff happens here
+            "CreateFromCsvRow",
+            "OnButtonClick", //Bad stuff happens here
             ];
 
         string[] skipCombos = [
@@ -995,6 +988,7 @@ public static class TranslationService
             "SweetPotato.NpcEntity.get_SectNameAll_NOS",
             "SweetPotato.NpcEntity.Init",
             "SweetPotato.NpcEntity.InitNpcAtt",
+            "SweetPotato.NpcEntity InitNpcSpell",
             "SweetPotato.NpcEntity.LearnPeifang",
             "SweetPotato.NpcSpellDynamic.GetInfo",
             "SweetPotato.NpcSpellDynamic.Init",
@@ -1125,7 +1119,7 @@ public static class TranslationService
         var response = new List<string>();
         bool foundSplit = false;
 
-        foreach (var splitCharacters in SplitCharactersList)
+        foreach (var splitCharacters in SplitCharactersList())
         {
             if (origSplit.Contains(splitCharacters))
             {
@@ -1160,7 +1154,7 @@ public static class TranslationService
             var splits = raw.Split(splitCharacters);
             var builder = new StringBuilder();
 
-            var suffix = string.Empty;
+            string suffix;
 
             if (splitCharacters == "-")
                 suffix = " - ";
@@ -1265,7 +1259,7 @@ public static class TranslationService
 
         // TODO: We really should move this segementation to the object model itself and split it at export time
         // We do segementation here since saves context window by splitting // "。" doesnt work like u think it would        
-        foreach (var splitCharacters in SplitCharactersList)
+        foreach (var splitCharacters in SplitCharactersList())
         {
             var (split, result) = await SplitIfNeededAsync(splitCharacters, config, preparedRaw, client, textFile);
 

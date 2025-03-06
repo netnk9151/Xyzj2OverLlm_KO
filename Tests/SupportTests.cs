@@ -10,7 +10,7 @@ public class SupportTests
 {
     const string workingDirectory = "../../../../Files";
 
-    public static TextFileToSplit DefaultTestTextFile() => new TextFileToSplit()
+    public static TextFileToSplit DefaultTestTextFile() => new()
     {
         Path = "",
     };
@@ -189,7 +189,7 @@ public class SupportTests
     [InlineData("K.在淮陵游456玩之际，<color=&&00ff00ff>遇到{0}一123位自</color>，我观其似乎武艺高强。")]
     [InlineData("L.王铁(1000，1000)")]
     
-    static void StringTokenReplacer(string original)
+    public static void StringTokenReplacer(string original)
     {
         var replacer = new StringTokenReplacer();
 
@@ -260,5 +260,18 @@ public class SupportTests
         string outputFile = $"{workingDirectory}/TestResults/TestParameterSplitRegex{index}.yaml";
         File.WriteAllText(outputFile, output);
         File.AppendAllLines(outputFile, [rawParameters]);
+    }
+
+    [Theory]
+    [InlineData("Hello.", "Hello")] // Single word, should remove full stop
+    [InlineData("This is a test.", "This is a test")] // Three words, should remove full stop
+    [InlineData("This is a longer test.", "This is a longer test.")] // Four words, should keep full stop
+    [InlineData("No full stop here", "No full stop here")] // No full stop, should remain unchanged
+    [InlineData("Multiple. Sentences here.", "Multiple. Sentences here.")] // Multiple sentences, should remain unchanged
+    [InlineData("  Spaces before and after.  ", "  Spaces before and after")] // Leading/trailing spaces, should remove full stop
+    public void RemoveFullStop_Tests(string input, string expected)
+    {
+        string result = LineValidation.RemoveFullStop("", input);
+        Assert.Equal(expected, result);
     }
 }

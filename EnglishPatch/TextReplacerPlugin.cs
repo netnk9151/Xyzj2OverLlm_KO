@@ -3,11 +3,8 @@ using BepInEx.Logging;
 using HarmonyLib;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.IO;
 using System.Reflection;
-using System.Text.RegularExpressions;
-using TMPro;
 using UnityEngine;
 
 namespace EnglishPatch;
@@ -40,7 +37,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         if (File.Exists(dbFile2))
             lines = File.ReadAllLines(dbFile2);
 
-        for (int i = 0; i < lines.Length; i = i + 2)
+        for (int i = 0; i < lines.Length; i += 2)
         {
             var raw = lines[i].Replace("- raw: ", "").Replace("\\n", "\n"); //Do not trim some of these have spacing
             var result = lines[i + 1].Replace("result: ", "").Replace("\\n", "\n");
@@ -56,7 +53,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         {
             if (__result is GameObject gameObject)
             {
-                // For whatever reason IL replacementn ot working here
+                // For whatever reason IL replacement not working on the switch statement
                 if (__result.name.Contains("LoginView"))
                     return;
 
@@ -65,13 +62,8 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
                 foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
                 {
-                    var response = string.Empty;
-
-                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-
-                    // Try mistyped property
-                    if (textField == null)
-                        textField = component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance) 
+                        ?? component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
                     if (textField != null && textField.FieldType == typeof(string))
                     {
@@ -88,7 +80,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         //Patch Instantiate(Object)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object)])]
         [HarmonyPostfix]
         static void ObjectPostfix1(ref UnityEngine.Object __result)
         {
@@ -96,7 +88,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Transform) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Transform)])]
         [HarmonyPostfix]
         static void ObjectPostfix2(ref UnityEngine.Object __result)
         {
@@ -104,7 +96,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Transform), typeof(bool) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Transform), typeof(bool)])]
         [HarmonyPostfix]
         static void ObjectPostfix3(ref UnityEngine.Object __result)
         {
@@ -112,7 +104,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion)])]
         [HarmonyPostfix]
         static void ObjectPostfix4(ref UnityEngine.Object __result)
         {
@@ -120,7 +112,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion), typeof(Transform) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion), typeof(Transform)])]
         [HarmonyPostfix]
         static void ObjectPostfix5(ref UnityEngine.Object __result)
         {
@@ -128,7 +120,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject)])]
         [HarmonyPostfix]
         static void Postfix1(ref UnityEngine.Object __result)
         {
@@ -136,7 +128,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Transform) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Transform)])]
         [HarmonyPostfix]
         static void Postfix2(ref UnityEngine.Object __result)
         {
@@ -144,7 +136,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Transform), typeof(bool) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Transform), typeof(bool)])]
         [HarmonyPostfix]
         static void Postfix3(ref UnityEngine.Object __result)
         {
@@ -152,7 +144,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Vector3), typeof(Quaternion) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Vector3), typeof(Quaternion)])]
         [HarmonyPostfix]
         static void Postfix4(ref UnityEngine.Object __result)
         {
@@ -160,7 +152,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
         }
 
         // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), new Type[] { typeof(GameObject), typeof(Vector3), typeof(Quaternion), typeof(Transform) })]
+        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Vector3), typeof(Quaternion), typeof(Transform)])]
         [HarmonyPostfix]
         static void Postfix5(ref UnityEngine.Object __result)
         {

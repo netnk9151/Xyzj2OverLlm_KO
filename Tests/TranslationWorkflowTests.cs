@@ -85,7 +85,7 @@ public class TranslationWorkflowTests
         TranslationService.CopyDirectory(sourceDirectory, modDirectory);
 
         File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
-        foreach(var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
+        foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
             File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{resourceDirectory}/{file.Path}", true);
 
         //await PackageRelease();
@@ -132,11 +132,10 @@ public class TranslationWorkflowTests
 
     public static Dictionary<string, string> GetManualCorrections()
     {
-        return new Dictionary<string, string>()
-        {
-            // Manual
-            //{  "奖励：", "Reward:" },
-        };
+        return [
+                // Manual
+                //{  "奖励：", "Reward:" },
+            ];
     }
 
     [Fact(DisplayName = "0. Reset All Flags")]
@@ -485,14 +484,14 @@ public class TranslationWorkflowTests
 
     public static bool MatchesBadWords(string input)
     {
-        HashSet<string> words = new HashSet<string>
-        {
+        HashSet<string> words =
+        [
             "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado",
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
             "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort",
             "knight", "thay", "tien", "div", "html",
-        };
+        ];
 
         string pattern = $@"\b({string.Join("|", words)})\b";
 

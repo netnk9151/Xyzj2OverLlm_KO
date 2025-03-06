@@ -5,6 +5,7 @@ using EnglishPatch.Support;
 using HarmonyLib;
 using Mono.Cecil;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,8 +21,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
     private Harmony _harmony;
-    private Dictionary<string, AssemblyDefinition> _cachedAssemblies = [];
-    private Dictionary<string, Type> _cachedTypes = [];
+    private readonly Dictionary<string, Type> _cachedTypes = [];
 
 
     private void Awake()
@@ -46,7 +46,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
     {
         if (contracts == null || contracts.Count == 0)
         {
-            return new List<GroupedDynamicStringContracts>(); // Return an empty list if no contracts are given
+            return []; // Return an empty list if no contracts are given
         }
 
         return contracts
@@ -59,7 +59,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                 Type = group.Key.Type,
                 Method = group.Key.Method,
                 Parameters = group.First().Parameters,
-                Contracts = group.ToArray()
+                Contracts = [.. group]
             })
             .ToList();
     }
@@ -85,6 +85,9 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         Logger.LogInfo("Applying string patches...");
 
+        // Initialize the runtime string interceptor
+        //RuntimeStringInterceptor.Initialize(groupedContracts, _harmony);
+
         int successCount = 0;
         int skipCount = 0;
         int errorCount = 0;
@@ -100,7 +103,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                 skipCount += contract.Contracts.Length;
                 continue;
             }
-            //SweetPotato.AttriManager
+
             try
             {
                 // Find the method using different approaches based on the method type
@@ -109,15 +112,38 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                 // Special case for static constructors
                 if (contract.Method == ".cctor")
                 {
-                    targetMethod = AccessTools.GetDeclaredConstructors(targetType)
-                        .FirstOrDefault(m => m.IsStatic);
-
-                    if (targetMethod == null)
+                    // Replace static object values that match
+                    // Because static constructor would have been called before IL Patch
+                    foreach (var fieldInfo in targetType.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
                     {
-                        Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
-                        skipCount++;
-                        continue;
+                        var value = fieldInfo.GetValue(null);
+                        if (value == null)
+                            continue;
+
+                        // If its a string replace it straight out
+                        if (value is string originalValue)
+                        {
+                            string newValue = ReplaceStringIfMatches(originalValue, contract.Contracts);
+                            if (originalValue != newValue)
+                                fieldInfo.SetValue(null, newValue);
+                        }
+                        else
+                        {
+                            ProcessComplexTypeValue(value, contract.Contracts);
+                        }
                     }
+
+                    continue; //They need to be patched via fields above
+
+                    //targetMethod = AccessTools.GetDeclaredConstructors(targetType)
+                    //    .FirstOrDefault(m => m.IsStatic);
+
+                    //if (targetMethod == null)
+                    //{
+                    //    Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
+                    //    skipCount++;
+                    //    continue;
+                    //}
                 }
                 else if (contract.Method == ".ctor")
                 {
@@ -160,7 +186,8 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                 }
 
                 // Apply the patch
-                _harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
+                //_harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts, targetMethod));
+                _harmony.Patch(targetMethod, transpiler: DynmicStringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
 
                 successCount++;
                 Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");
@@ -168,8 +195,8 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             catch (Exception ex)
             {
                 errorCount++;
-                //badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
-                badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
+                badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
+                //badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
             }
         }
 
@@ -193,16 +220,6 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         }
 
         return targetType;
-    }
-
-    private AssemblyDefinition GetAssemblyDefinition(string assemblyLocation)
-    {
-        if (!_cachedAssemblies.TryGetValue(assemblyLocation, out var definition))
-        {
-            definition = AssemblyDefinition.ReadAssembly(assemblyLocation);
-            _cachedAssemblies[assemblyLocation] = definition;
-        }
-        return definition;
     }
 
     private bool HasMatchingParameters(string[] originalParameters, MethodBase methodBase)
@@ -272,52 +289,312 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         return originalParamType.EndsWith(methodParamType.Name);
     }
 
-    private MethodDefinition GetMethodDefinition(MethodBase methodBase)
+    private string ReplaceStringIfMatches(string value, DynamicStringContract[] contracts)
     {
-        var assembly = GetAssemblyDefinition(methodBase.Module.Assembly.Location);
-        // Find the method definition in Cecil
-        var typeDef = assembly.MainModule.GetType(methodBase.DeclaringType.FullName);
-        if (typeDef == null)
-        {
-            Logger.LogWarning($"Could not find type definition: {methodBase.DeclaringType.FullName}");
-            return null;
-        }
+        if (string.IsNullOrEmpty(value)) return value;
 
-        // Find the method by name and parameters
-        MethodDefinition methodDef = null;
-        var candidateMethods = typeDef.Methods.Where(m => m.Name == methodBase.Name).ToList();
+        foreach (var contract in contracts)
+        {
+            DynmicStringPatcherTranspiler.PrepareDynamicString(contract.Raw, out string preparedRaw, out string preparedRaw2);
+            DynmicStringPatcherTranspiler.PrepareDynamicString(contract.Translation, out string preparedTrans, out string preparedTrans2);
 
-        if (candidateMethods.Count == 1)
-        {
-            methodDef = candidateMethods[0];
-        }
-        else if (candidateMethods.Count > 1)
-        {
-            // Match by parameter count and types
-            var paramTypes = methodBase.GetParameters().Select(p => p.ParameterType.FullName).ToArray();
-            foreach (var method in candidateMethods)
+            if (value == preparedRaw)
             {
-                if (method.Parameters.Count == paramTypes.Length)
+                return preparedTrans;
+            }
+            else if (value == preparedRaw2)
+            {
+                return preparedTrans2;
+            }
+        }
+
+        return value;
+    }
+
+    //###
+    private void ProcessGenericCollection(object collection, DynamicStringContract[] contracts)
+    {
+        if (collection == null) return;
+
+        Type collectionType = collection.GetType();
+
+        // Handle dictionaries with reflection regardless of key/value types
+        if (IsDictionaryType(collectionType))
+        {
+            ProcessDictionary(collection, contracts);
+        }
+        // Handle list-like collections
+        else if (IsListType(collectionType))
+        {
+            ProcessList(collection, contracts);
+        }
+        // Handle other generic types that might contain strings
+        else
+        {
+            // Process properties of the generic object
+            foreach (var prop in collectionType.GetProperties(BindingFlags.Instance | BindingFlags.Public))
+            {
+                try
                 {
-                    bool match = true;
-                    for (int i = 0; i < paramTypes.Length; i++)
+                    object propValue = prop.GetValue(collection);
+                    if (propValue is string stringValue && prop.CanWrite)
                     {
-                        if (method.Parameters[i].ParameterType.FullName != paramTypes[i])
+                        string newValue = ReplaceStringIfMatches(stringValue, contracts);
+                        if (stringValue != newValue)
                         {
-                            match = false;
-                            break;
+                            prop.SetValue(collection, newValue);
                         }
                     }
-
-                    if (match)
+                    else if (propValue != null)
                     {
-                        methodDef = method;
-                        break;
+                        // Recursively process complex property values
+                        ProcessComplexTypeValue(propValue, contracts);
+                    }
+                }
+                catch
+                {
+                    // Skip properties that throw exceptions
+                }
+            }
+        }
+    }
+
+    private bool IsDictionaryType(Type type)
+    {
+        if (type.IsGenericType)
+        {
+            Type genericTypeDef = type.GetGenericTypeDefinition();
+            return genericTypeDef == typeof(Dictionary<,>) ||
+                   genericTypeDef == typeof(IDictionary<,>) ||
+                   type.GetInterfaces().Any(i => i.IsGenericType &&
+                                             i.GetGenericTypeDefinition() == typeof(IDictionary<,>));
+        }
+        return false;
+    }
+
+    private bool IsListType(Type type)
+    {
+        if (type.IsGenericType)
+        {
+            Type genericTypeDef = type.GetGenericTypeDefinition();
+            return genericTypeDef == typeof(List<>) ||
+                   genericTypeDef == typeof(IList<>) ||
+                   genericTypeDef == typeof(ICollection<>) ||
+                   type.GetInterfaces().Any(i => i.IsGenericType &&
+                                            (i.GetGenericTypeDefinition() == typeof(IList<>) ||
+                                             i.GetGenericTypeDefinition() == typeof(ICollection<>)));
+        }
+        return false;
+    }
+
+    private void ProcessDictionary(object dictionary, DynamicStringContract[] contracts)
+    {
+        // Get the generic parameters of the dictionary
+        Type dictType = dictionary.GetType();
+        Type[] genericArgs = dictType.GetGenericArguments();
+        Type keyType = genericArgs[0];
+        //Type valueType = genericArgs[1];
+
+        // Get dictionary entries
+        var entriesProperty = dictType.GetProperty("Keys");
+        var keys = (IEnumerable)entriesProperty.GetValue(dictionary);
+        var keysToProcess = new List<object>();
+
+        // Get the keys and check if we need to replace any
+        foreach (var key in keys)
+        {
+            keysToProcess.Add(key);
+        }
+
+        // Dynamically invoke item getter and setter
+        var itemProperty = dictType.GetProperty("Item");
+
+        // Process each key and value
+        foreach (var key in keysToProcess)
+        {
+            // Process the key if it's a string
+            object processedKey = key;
+            if (key is string keyString)
+            {
+                processedKey = ReplaceStringIfMatches(keyString, contracts);
+            }
+
+            // Get the value
+            object value = itemProperty.GetValue(dictionary, [key]);
+            bool valueChanged = false;
+            object processedValue = value;
+
+            // Process the value based on its type
+            if (value is string valueString)
+            {
+                string newValue = ReplaceStringIfMatches(valueString, contracts);
+                if (newValue != valueString)
+                {
+                    processedValue = newValue;
+                    valueChanged = true;
+                }
+            }
+            else if (value != null)
+            {
+                // Recursively process the value if it's a complex type
+                ProcessComplexTypeValue(value, contracts);
+            }
+
+            // If the key changed, we need to remove the old key and add a new entry
+            if (!key.Equals(processedKey))
+            {
+                // Remove old entry
+                var removeMethod = dictType.GetMethod("Remove", [keyType]);
+                removeMethod.Invoke(dictionary, [key]);
+
+                // Add new entry
+                itemProperty.SetValue(dictionary, processedValue, [processedKey]);
+            }
+            // If only the value changed, just update it
+            else if (valueChanged)
+            {
+                itemProperty.SetValue(dictionary, processedValue, [key]);
+            }
+        }
+    }
+
+    private void ProcessList(object list, DynamicStringContract[] contracts)
+    {
+        // Get the generic parameter of the list
+        Type listType = list.GetType();
+        Type[] genericArgs = listType.GetGenericArguments();
+        Type elementType = genericArgs[0];
+
+        // If elements are strings, process them directly
+        if (elementType == typeof(string))
+        {
+            var countProperty = listType.GetProperty("Count");
+            int count = (int)countProperty.GetValue(list);
+            var indexerProperty = listType.GetProperty("Item");
+
+            for (int i = 0; i < count; i++)
+            {
+                string value = (string)indexerProperty.GetValue(list, [i]);
+                string newValue = ReplaceStringIfMatches(value, contracts);
+
+                if (value != newValue)
+                {
+                    indexerProperty.SetValue(list, newValue, [i]);
+                }
+            }
+        }
+        // Otherwise, process each element recursively
+        else
+        {
+            // Get IEnumerator to loop through the list
+            var getEnumeratorMethod = listType.GetMethod("GetEnumerator");
+            var enumerator = getEnumeratorMethod.Invoke(list, null);
+            var enumeratorType = enumerator.GetType();
+            var moveNextMethod = enumeratorType.GetMethod("MoveNext");
+            var currentProperty = enumeratorType.GetProperty("Current");
+
+            while ((bool)moveNextMethod.Invoke(enumerator, null))
+            {
+                var element = currentProperty.GetValue(enumerator);
+                if (element != null)
+                {
+                    ProcessComplexTypeValue(element, contracts);
+                }
+            }
+        }
+    }
+
+    private void ProcessComplexTypeValue(object value, DynamicStringContract[] contracts)
+    {
+        Type valueType = value.GetType();
+
+        // Handle arrays
+        if (valueType.IsArray)
+        {
+            Type elementType = valueType.GetElementType();
+            Array array = (Array)value;
+
+            // If the element is an arr
+            if (elementType == typeof(string))
+            {
+                // Process string array
+                for (int i = 0; i < array.Length; i++)
+                {
+                    string originalValue = (string)array.GetValue(i);
+                    string newValue = ReplaceStringIfMatches(originalValue, contracts);
+
+                    if (originalValue != newValue)
+                        array.SetValue(newValue, i);
+                }
+            }
+            else
+            {
+                // Process array of complex types
+                for (int i = 0; i < array.Length; i++)
+                {
+                    object element = array.GetValue(i);
+                    if (element != null)
+                        ProcessComplexTypeValue(element, contracts);
+                }
+            }
+        }
+        // Handle generic collections
+        else if (valueType.IsGenericType)
+        {
+            ProcessGenericCollection(value, contracts);
+        }
+        // Handle other complex types
+        else if (!valueType.IsPrimitive && !valueType.IsEnum)
+        {
+            // Process regular fields and properties
+            foreach (var field in valueType.GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+            {
+                try
+                {
+                    var fieldValue = field.GetValue(value);
+                    if (fieldValue is string stringValue)
+                    {
+                        string oginalValue = ReplaceStringIfMatches(stringValue, contracts);
+                        if (stringValue != oginalValue)
+                            field.SetValue(value, oginalValue);
+                    }
+                    else if (fieldValue != null)
+                    {
+                        ProcessComplexTypeValue(fieldValue, contracts);
+                    }
+                }
+                catch
+                {
+                    // Skip fields that throw exceptions
+                }
+            }
+
+            foreach (var prop in valueType.GetProperties(BindingFlags.Instance | BindingFlags.Public))
+            {
+                if (prop.CanRead && prop.CanWrite)
+                {
+                    try
+                    {
+                        object propValue = prop.GetValue(value);
+                        if (propValue is string stringValue)
+                        {
+                            string newValue = ReplaceStringIfMatches(stringValue, contracts);
+                            if (stringValue != newValue)
+                            {
+                                prop.SetValue(value, newValue);
+                            }
+                        }
+                        else if (propValue != null)
+                        {
+                            ProcessComplexTypeValue(propValue, contracts);
+                        }
+                    }
+                    catch
+                    {
+                        // Skip properties that throw exceptions
                     }
                 }
             }
         }
-
-        return methodDef;
     }
 }
