@@ -213,10 +213,12 @@
   direct: Status  
   literal: Shen fen  
 - raw: 好感  
-  result: Affection  
+  result: Affinity
+  # allowalt:
+  #   - Affinity
   badtrans: false  
   direct: Good Feeling  
-  literal: Hao gan  
+  literal: Hao gan   
 
 # Time
 - raw: 秒  
@@ -433,10 +435,6 @@
   result: First Rudder
   badtrans: true
   context: Could refer to a metaphorical or literal position of leadership, typically used in maritime or leadership contexts.
-- raw: 好感
-  result: Affection
-  badtrans: true
-  context: Refers to positive feelings or affection towards someone or something, often used in interpersonal contexts to describe initial attraction or goodwill.
 - raw: 亲人
   result: Relatives
   allowalt:
@@ -683,6 +681,25 @@
 - raw: 口才
   result: Eloquence
   badtrans: false  
+- raw: 佛学  
+  result: Buddhism
+  allowalt:
+    - Buddhist
+  badtrans: true  
+  direct: Buddhism  
+  literal: Fo xue
+- raw: 儒学  
+  result: Confucianism  
+  badtrans: true  
+  direct: Confucian Studies  
+  literal: Ru xue  
+- raw: 宗门好感  
+  result: Sect Affinity  
+  badtrans: true  
+  direct: Sect Liking  
+  literal: Zong men hao gan  
+
+
 
 # Weapons
 - raw: 刀
@@ -908,6 +925,9 @@
 - raw: 承让了
   result: I respectfully concede
   badtrans: true
+- raw: 柔茹刚吐
+  result: Softly embracing, firmly releasing
+  badtrans: true
 
 # Sounds
 - raw: 吼
@@ -1030,6 +1050,8 @@
   badtrans: true
 - raw: 迷惑
   result: Confusion
+  alt:
+    - Confuse
   badtrans: true
 - raw: 冰封
   result: Frozen
