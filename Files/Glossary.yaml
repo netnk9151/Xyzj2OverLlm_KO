@@ -20,7 +20,7 @@
   result: Wulin
   allowalt: 
     - Martial World
-  badtrans: true
+  badtrans: false
 - raw: 江湖
   result: Jianghu
   badtrans: true
@@ -244,6 +244,17 @@
   badtrans: false
   direct: Shuru neirong
   literal: Shuru neirong
+- raw: <商贩>
+  result: <Merchant>
+  badtrans: false
+  direct: Shangfan
+  literal: Shangfan
+- raw: 阶
+  result: Step
+  badtrans: false
+  direct: Jie
+  literal: Jie
+
 
 # Dodgy
 - raw: "{{赏}}{0}"  
@@ -653,24 +664,24 @@
   literal: Liandan  
 - raw: 琴艺  
   result: Zither Art 
-  badtrans: true  
+  badtrans: false  
   direct: Zither Art  
   literal: Qinyi  
 - raw: 琴艺  
   result: Zither Art 
-  badtrans: true  
+  badtrans: false  
   direct: Zither Art  
   literal: Qinyi  
 - raw: 棋艺  
   result: Chess Art  
-  badtrans: true  
+  badtrans: false  
   direct: Board Game Art  
   literal: Qiyi  
 - raw: 垂钓  
   result: Fishing
   allowalt: 
     - Fish
-  badtrans: true  
+  badtrans: false  
   direct: Angling  
   literal: Chuidiao
 - raw: 酿酒  
@@ -689,7 +700,7 @@
     - Skilled craftsmanship
     - Skillful 
     - Weaver
-  badtrans: true  
+  badtrans: false  
   direct: Clever Hands  
   literal: Qiao shou  
 - raw: 炼器  
@@ -781,7 +792,7 @@
     - Saber
     - Dao
     - Scabbard 
-  badtrans: true
+  badtrans: false
 - raw: 暗器
   result: Hidden Weapon
   badtrans: true
@@ -822,25 +833,25 @@
   allowalt: 
     - Knife Technique
     - Blade Technique
-  badtrans: true
+  badtrans: false
 - raw: 刀式
   result: Blade Form
   allowalt:
     - Blade Technique
     - Blade Style
-  badtrans: true
+  badtrans: false
 - raw: 剑法
   result: Sword Art
   allowalt: 
     - Sword Technique
     - Swordsmanship
-  badtrans: true
+  badtrans: false
 - raw: 剑术  
   result: Swordsmanship  
   allowalt: 
     - Sword Technique
     - Swordsmanship
-  badtrans: true  
+  badtrans: false  
   direct: Sword Technique  
   literal: Jianshu  
 
@@ -1114,6 +1125,7 @@
   result: Internal Injury
   allowalt:  
     - Internal Injuries
+    - Wound
   badtrans: true
 - raw: 外伤
   result: External Injury
@@ -1121,13 +1133,13 @@
     - Extra Damage # For situations like 额外伤害
     - Damage
     - External Injuries
-  badtrans: true
+  badtrans: false
 - raw: 中毒
   result: Poisoned
   allowalt:
     - Poisoning
     - Poison effect
-  badtrans: true
+  badtrans: false
 - raw: 迷惑
   result: Confusion
   allowalt:
@@ -1136,7 +1148,7 @@
   badtrans: false
 - raw: 冰封
   result: Frozen
-  badtrans: true
+  badtrans: false
 
 # Items and Minerals
 - raw: 钱
@@ -1222,7 +1234,7 @@
   badtrans: true
 - raw: 三七
   result: Sanqi
-  badtrans: true
+  badtrans: false
 - raw: 软筋散
   result: Tendon-Softening Powder
   badtrans: true

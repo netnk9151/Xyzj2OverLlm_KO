@@ -20291,20 +20291,20 @@
 - lineNum: 2030
   raw: "MainViewQuestItem,SetMapAreaEvent,6,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:04.4059522+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3192831+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{Limit}}"
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2031
   raw: "MainViewQuestItem,SetMapAreaEvent,56,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2525356+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3192889+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{Limit}}"
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -26281,10 +26281,10 @@
 - lineNum: 2629
   raw: "PaiBieQuestItem,SetData,169,{随机},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2526725+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3594571+08:00
     split: 3
     text: "{随机}"
-    translated: "{Random}"
+    translated: "{随机}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32591,20 +32591,20 @@
 - lineNum: 3260
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetQiyuQuest,70,{{奇}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2528851+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3990589+08:00
     split: 3
     text: "{{奇}}{0}"
-    translated: "{{Unusual}}"
+    translated: "{{奇}}{奇}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3261
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetJieMiQuest,69,{{谜}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2528853+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3990646+08:00
     split: 3
     text: "{{谜}}{0}"
-    translated: "{{Mystery}}"
+    translated: "{{谜}}{谜}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32631,10 +32631,10 @@
 - lineNum: 3264
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetXuanShangQuest,116,{{赏}},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:06.1432218+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3991821+08:00
     split: 3
     text: "{{赏}}"
-    translated: "The text provided contains a placeholder '{赏}' without any additional content or context to translate. As per the guidelines, placeholders should not be altered or removed. If you provide more information or context surrounding this placeholder, I can assist further with translation and interpretation."
+    translated: "{{赏}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32651,20 +32651,20 @@
 - lineNum: 3266
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,18,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2530728+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3992408+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{Limit}}"
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3267
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,63,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:06.2919717+08:00
+  - lastTranslatedOn: 2025-03-08T04:49:58.3992458+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{Limit}}"
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34104,7 +34104,7 @@
   - lastTranslatedOn: 2025-03-08T04:47:06.2918823+08:00
     split: 3
     text: "guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败"
-    translated: "Guid: {0},npcSpellDynamic: {0},slot: {1}'s equipment failed"
+    translated: "Guid: {0},npcSpellDynamic: {0},slot: {0}'s equipment failed"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39274,7 +39274,7 @@
   - lastTranslatedOn: 2025-03-04T18:40:53.4757862+08:00
     split: 3
     text: "随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误"
-    translated: ""
+    translated: "The randomly assigned character with guid {0} and protoGuid {1} has been placed in the 'Evernight Capital' sect, error."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -45304,7 +45304,7 @@
   - lastTranslatedOn: 2025-03-07T21:57:51.9122026+08:00
     split: 3
     text: "<商贩>"
-    translated: ""
+    translated: "<Merchant>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48904,7 +48904,7 @@
   - lastTranslatedOn: 2025-03-04T18:40:53.4780401+08:00
     split: 3
     text: "阶"
-    translated: ""
+    translated: "Step"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
