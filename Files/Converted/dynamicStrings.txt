@@ -20044,7 +20044,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:48.6168569+08:00
     split: 3
     text: "主"
-    translated: "Master Chief"
+    translated: "Main"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20054,7 +20054,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:49.2156639+08:00
     split: 3
     text: "主"
-    translated: "Master Chief"
+    translated: "Main"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20291,20 +20291,20 @@
 - lineNum: 2030
   raw: "MainViewQuestItem,SetMapAreaEvent,6,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:19.0919220+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:04.4059522+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "It appears you've provided a placeholder format. Without additional context or content between '{限}' and '{0}', it's not possible to translate this string into English. Please provide more details or specific Chinese text for translation."
+    translated: "{{Limit}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2031
   raw: "MainViewQuestItem,SetMapAreaEvent,56,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:20.2496364+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2525356+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "It appears you've provided a placeholder format. Without additional context or content between '{限}' and '{0}', it's not possible to translate this string into English. Please provide more details or specific Chinese text for translation."
+    translated: "{{Limit}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20351,10 +20351,10 @@
 - lineNum: 2036
   raw: "MapFuBenDetailPanel,Refresh,1278,配方 - ,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4716675+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:04.5010013+08:00
     split: 3
     text: "配方 - "
-    translated: ""
+    translated: "Formula -"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23221,10 +23221,10 @@
 - lineNum: 2323
   raw: "StaffSlot,OnSelected,51,当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:19.9707299+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2524166+08:00
     split: 3
     text: "当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>"
-    translated: "Current position in office: <color=#{0}>{1}</color>, profit enhancement: <color=#a8a8a8>{2} times</color><color=#a8a8a8> expected earnings</color>"
+    translated: "Current position held: <color=#{0}>{1}</color>, profit enhancement: <color=#a8a8a8>x{2}</color> <color=#a8a8a8>estimated profit</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -26281,10 +26281,10 @@
 - lineNum: 2629
   raw: "PaiBieQuestItem,SetData,169,{随机},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:23.9065828+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2526725+08:00
     split: 3
     text: "{随机}"
-    translated: ""
+    translated: "{Random}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30581,10 +30581,10 @@
 - lineNum: 3059
   raw: "QuestPrototypeLineItemSlot2,SetDataInfo,20,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4738783+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2528654+08:00
     split: 3
     text: "输入内容"
-    translated: ""
+    translated: "Input content"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31381,20 +31381,20 @@
 - lineNum: 3139
   raw: "ModSpace.DataGroupItemSlot,Rename,60,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:32.1807623+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.2919672+08:00
     split: 3
     text: "输入内容"
-    translated: ""
+    translated: "Input content"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3140
   raw: "ModSpace.DataGroupItemSlot,Rename,96,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:32.1807626+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.2919673+08:00
     split: 3
     text: "输入内容"
-    translated: ""
+    translated: "Input content"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32011,10 +32011,10 @@
 - lineNum: 3202
   raw: "ModSpace.ReflectInputGridStyleSlot,<RefreshField>b__21_11,20,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:32.1807627+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.2919674+08:00
     split: 3
     text: "输入内容"
-    translated: ""
+    translated: "Input content"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32591,20 +32591,20 @@
 - lineNum: 3260
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetQiyuQuest,70,{{奇}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:29.3446681+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2528851+08:00
     split: 3
     text: "{{奇}}{0}"
-    translated: "As the provided text consists solely of placeholders without any additional context or content to translate, I cannot render a specific English translation. If you can provide more information or context regarding what {{奇}} and {0} represent or include the full sentence they are part of, I'd be glad to assist with an accurate translation."
+    translated: "{{Unusual}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3261
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetJieMiQuest,69,{{谜}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:31.1877227+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2528853+08:00
     split: 3
     text: "{{谜}}{0}"
-    translated: "The provided text appears to be a placeholder template rather than actual Chinese content that can be translated into English. It contains '{谜}' and '{0}', which are placeholders meant to be replaced with specific information in context. Without additional context or replacement for these placeholders, there is no meaningful translation possible. If you provide the intended replacements for '{谜}' and '{0}', I would be able to assist further by generating a relevant English text based on that input."
+    translated: "{{Mystery}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32631,10 +32631,10 @@
 - lineNum: 3264
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetXuanShangQuest,116,{{赏}},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:23.9075278+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.1432218+08:00
     split: 3
     text: "{{赏}}"
-    translated: "{{Reward}}"
+    translated: "The text provided contains a placeholder '{赏}' without any additional content or context to translate. As per the guidelines, placeholders should not be altered or removed. If you provide more information or context surrounding this placeholder, I can assist further with translation and interpretation."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32651,20 +32651,20 @@
 - lineNum: 3266
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,18,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:23.9075291+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:05.2530728+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "It appears you've provided a placeholder format. Without additional context or content between '{限}' and '{0}', it's not possible to translate this string into English. Please provide more details or specific Chinese text for translation."
+    translated: "{{Limit}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3267
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,63,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:32.1807665+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.2919717+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "It appears you've provided a placeholder format. Without additional context or content between '{限}' and '{0}', it's not possible to translate this string into English. Please provide more details or specific Chinese text for translation."
+    translated: "{{Limit}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34101,10 +34101,10 @@
 - lineNum: 3411
   raw: "SweetPotato.NpcSpellDynamic,CreateVirtualSpellPrototype,747,guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败,[SweetPotato.NpcEntity，SweetPotato.NpcSpellDynamic，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:25.4543584+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.2918823+08:00
     split: 3
     text: "guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败"
-    translated: "Guid: {0},npcSpellDynamic: {0},slot: {1} equipment failure"
+    translated: "Guid: {0},npcSpellDynamic: {0},slot: {1}'s equipment failed"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -35931,10 +35931,10 @@
 - lineNum: 3594
   raw: "SweetPotato.Tools,.cctor,989,中毒值,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:13:32.3074491+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:06.4251268+08:00
     split: 3
     text: "中毒值"
-    translated: "Poison value"
+    translated: "Toxin level"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48931,7 +48931,7 @@
 - lineNum: 4894
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTip,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:14:01.5252787+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:34.1328766+08:00
     split: 3
     text: "阶"
     translated: ""
@@ -49001,7 +49001,7 @@
 - lineNum: 4901
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,227,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:14:01.5252790+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:34.1328771+08:00
     split: 3
     text: "阶"
     translated: ""
@@ -49031,7 +49031,7 @@
 - lineNum: 4904
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:14:01.5252791+08:00
+  - lastTranslatedOn: 2025-03-08T04:47:34.1328772+08:00
     split: 3
     text: "阶"
     translated: ""

@@ -9,7 +9,7 @@
   badtrans: true
 - raw: 天书
   result: Heavenly Scripture
-  badtrans: true
+  badtrans: false
 - raw: 八卦
   result: Bagua
   allowalt:
@@ -234,28 +234,46 @@
   badtrans: false
   direct: Xiulian
   literal: Xiulian
+- raw: 配方
+  result: Formula
+  badtrans: false
+  direct: Peifang
+  literal: Peifang
+- raw: 输入内容
+  result: Input content
+  badtrans: false
+  direct: Shuru neirong
+  literal: Shuru neirong
 
 # Dodgy
-- raw: "{{赏}}"  
+- raw: "{{赏}}{0}"  
   result: "{{Reward}}"
   badtrans: true  
   direct: Appreciate  
   literal: Shang
-- raw: "{{限}}"
+- raw: "{{限}}{0}"
   result: "{{Limit}}"
   badtrans: true
   direct: Xian
   literal: Xian
-- raw: "{{奇}}"
+- raw: "{{奇}}{0}"
   result: "{{Unusual}}"
   badtrans: true
   direct: Qi
   literal: Qi
-- raw: "{{谜}}"
+- raw: "{{谜}}{0}"
   result: "{{Mystery}}"
   badtrans: true
   direct: Mi
   literal: Mi
+- raw: "{随机}"
+  result: "{Random}"
+  badtrans: true
+  direct: Suiji
+  literal: Suiji
+
+
+
 
 
 # Time
@@ -403,7 +421,7 @@
   result: Forge
   allowalt:
     - Forging
-  badtrans: true
+  badtrans: false
 - raw: 套路
   result: Technique
   badtrans: true
@@ -411,7 +429,7 @@
   result: Theory
   allowalt: 
     - Thought
-  badtrans: true
+  badtrans: false
 - raw: 精力
   result: Energy
   badtrans: true
@@ -482,7 +500,7 @@
   result: Relatives
   allowalt:
     - Family
-  badtrans: true
+  badtrans: false
   context: Refers to close family members or relatives, typically those who are blood-related.
   transliteration: Qīnrén
 - raw: 技艺
@@ -977,7 +995,8 @@
 - raw: 承让了
   result: I respectfully concede
   allowalt: 
-    - Respectfully concede
+    - respectfully concede
+    - graciously concede
   badtrans: true
 - raw: 柔茹刚吐
   result: Softness devours hardness and spits it out.
@@ -1134,6 +1153,11 @@
   badtrans: true  
   direct: Copper Mineral  
   literal: Tong kuang shi  
+- raw: 金属矿石
+  result: Metallic ore
+  badtrans: true
+  direct: Jinshu kuangshi
+  literal: Jinshu kuangshi
 - raw: 玄铁
   result: Dark Steel
   badtrans: true
@@ -1288,7 +1312,7 @@
   result: Wanderer
   # allowalt: 
   #   - Martial Artist
-  badtrans: true
+  badtrans: false
 - raw: 江湖侠客
   result: Jianghu Wanderer
   badtrans: false
@@ -1309,6 +1333,8 @@
   badtrans: true
 - raw: 前辈
   result: Senior
+  allowalt:
+    - Elder
   context: A respectful term used to address or refer to someone older, more experienced, or who has achieved certain accomplishments before the speaker.
   literal: Qian Bei
   badtrans: true
@@ -1466,7 +1492,7 @@
     - Girl
     - Daughter
   literal: Gu Niang
-  badtrans: true
+  badtrans: false
 - raw: 掌柜
   result: Shopkeeper
   badtrans: true
@@ -2320,183 +2346,303 @@
 - raw: 甲子
   result: Wood Rat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙丑
   result: Wood Ox
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙寅
   result: Fire Tiger
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁卯
   result: Fire Rabbit
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊辰
   result: Earth Dragon
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己巳
   result: Earth Snake
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚午
   result: Metal Horse
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛未
   result: Metal Goat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬申
   result: Water Monkey
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸酉
   result: Water Rooster
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 甲戌
   result: Wood Dog
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙亥
   result: Wood Pig
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙子
   result: Fire Rat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁丑
   result: Fire Ox
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊寅
   result: Earth Tiger
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己卯
   result: Earth Rabbit
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚辰
   result: Metal Dragon
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛巳
   result: Metal Snake
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬午
   result: Water Horse
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸未
   result: Water Goat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 甲申
   result: Wood Monkey
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙酉
   result: Wood Rooster
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙戌
   result: Fire Dog
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁亥
   result: Fire Pig
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊子
   result: Earth Rat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己丑
   result: Earth Ox
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚寅
   result: Metal Tiger
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛卯
   result: Metal Rabbit
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬辰
   result: Water Dragon
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸巳
   result: Water Snake
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 甲午
   result: Wood Horse
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙未
   result: Wood Goat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙申
   result: Fire Monkey
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁酉
   result: Fire Rooster
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊戌
   result: Earth Dog
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己亥
   result: Earth Pig
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚子
   result: Metal Rat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛丑
   result: Metal Ox
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬寅
   result: Water Tiger
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸卯
   result: Water Rabbit
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 甲辰
   result: Wood Dragon
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙巳
   result: Wood Snake
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙午
   result: Fire Horse
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁未
   result: Fire Goat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊申
   result: Earth Monkey
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己酉
   result: Earth Rooster
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚戌
   result: Metal Dog
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛亥
   result: Metal Pig
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬子
   result: Water Rat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸丑
   result: Water Ox
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 甲寅
   result: Wood Tiger
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 乙卯
   result: Wood Rabbit
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丙辰
   result: Fire Dragon
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 丁巳
   result: Fire Snake
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 戊午
   result: Earth Horse
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 己未
   result: Earth Goat
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 庚申
   result: Metal Monkey
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 辛酉
   result: Metal Rooster
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 壬戌
   result: Water Dog
   badtrans: true
+  only:
+    - horoscope.txt
 - raw: 癸亥
   result: Water Pig
   badtrans: true
+  only:
+    - horoscope.txt
 
 # Quests
 - raw: 集结势力  
