@@ -485,8 +485,8 @@
     split: 0
     text: "<color=#b7a57d>打造说明：</color>指针滑动时，在不同颜色区域按下锤炼按钮可增加对应的灵感值，灵感值影响打造完成时领悟到的属性点数。"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 50
   raw: "打造数量"
@@ -531,10 +531,10 @@
 - lineNum: 54
   raw: "<color=#ab9b5b>金色：</color>20%           <color=#a58055>黄色：</color>15%           灰色：10%"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:41.0275595+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:05.3145512+08:00
     split: 0
     text: "<color=#ab9b5b>金色：</color>20%           <color=#a58055>黄色：</color>15%           灰色：10%"
-    translated: ""
+    translated: "<color=#ab9b5b>Gold-colored: </color>20% <color=#a58055>Yellow: </color> 15% Grey color: 10%"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -1145,8 +1145,8 @@
     split: 0
     text: "<color=#ffffff>获得:</color> 天山六阳掌×1"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 116
   raw: "获得："
@@ -1451,10 +1451,10 @@
 - lineNum: 146
   raw: "恭喜少侠已经认识到<color=#3ad67c>自身实力</color>了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:42.6937022+08:00
+  - lastTranslatedOn: 2025-03-07T21:56:57.2486409+08:00
     split: 0
     text: "恭喜少侠已经认识到<color=#3ad67c>自身实力</color>了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-    translated: ""
+    translated: "Congratulations, young hero. You have recognized your <color=#3ad67c>inner strength</color>. Please click the <color=#3ad67c>complete guidance</color> button to exit."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8575,10 +8575,10 @@
 - lineNum: 864
   raw: "<color=#3ad67c>鼠标悬浮</color>可查看当前的攻体心法为经脉附加的<color=#3ad67c>随机效果</color>组，激活或洗练之后可<color=#3ad67c>随机抽取其中一个</color>效果附加。请<color=#3ad67c>鼠标左键</color>选中该心法。"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:51.0886180+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:11.2370488+08:00
     split: 0
     text: "<color=#3ad67c>鼠标悬浮</color>可查看当前的攻体心法为经脉附加的<color=#3ad67c>随机效果</color>组，激活或洗练之后可<color=#3ad67c>随机抽取其中一个</color>效果附加。请<color=#3ad67c>鼠标左键</color>选中该心法。"
-    translated: ""
+    translated: "<color=#3ad67c>Hover over the mouse</color> to view the current attack posture as a group of <color=#3ad67c>random effects</color> added to the meridians. After activating or refining, you can <color=#3ad67c>randomly select one effect</color> to attach. Please <color=#3ad67c>left-click with the mouse</color> to select this technique."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8635,10 +8635,10 @@
 - lineNum: 870
   raw: "<color=#3ad67c>激活经脉点位</color>后，并且<color=#3ad67c>配置攻体心法</color>获得真力值后，就可进行<color=#3ad67c>周天运行</color>。点击<color=#3ad67c>运行周天</color>按钮进入到运行界面。"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:53.8542939+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:12.4374327+08:00
     split: 0
     text: "<color=#3ad67c>激活经脉点位</color>后，并且<color=#3ad67c>配置攻体心法</color>获得真力值后，就可进行<color=#3ad67c>周天运行</color>。点击<color=#3ad67c>运行周天</color>按钮进入到运行界面。"
-    translated: ""
+    translated: "After <color=#3ad67c>activating the meridian points</color>, and obtaining true power value by configuring <color=#3ad67c>offensive internal techniques</color>, you can perform <color=#3ad67c>circuit of Heaven operation</color>. Click on the <color=#3ad67c>Run Circuit of Heaven</color> button to enter the operating interface."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8655,10 +8655,10 @@
 - lineNum: 872
   raw: "当<color=#3ad67c>点击一个经脉点</color>后，在<color=#3ad67c>屏幕左侧</color>会显示有关于<color=#3ad67c>流经此点的所有周天运行循环</color>，可帮助少侠自行选择。同时，在<color=#3ad67c>点击第二个</color>点位后，则会<color=#3ad67c>扣除对应连线的周天运行真力值</color>。那么，请点击<color=#3ad67c>第二个</color>经脉点位进行运行连线。"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:55.2340275+08:00
+  - lastTranslatedOn: 2025-03-07T21:57:00.7377645+08:00
     split: 0
     text: "当<color=#3ad67c>点击一个经脉点</color>后，在<color=#3ad67c>屏幕左侧</color>会显示有关于<color=#3ad67c>流经此点的所有周天运行循环</color>，可帮助少侠自行选择。同时，在<color=#3ad67c>点击第二个</color>点位后，则会<color=#3ad67c>扣除对应连线的周天运行真力值</color>。那么，请点击<color=#3ad67c>第二个</color>经脉点位进行运行连线。"
-    translated: ""
+    translated: "When a <color=#3ad67c>martial meridian point</color> is clicked, the <color=#3ad67c>screen on the left side</color> will display information about all <color=#3ad67c>taiji cycles that flow through this point</color>, helping the Young Hero to make a choice. Additionally, when the <color=#3ad67c>second point</color> is clicked, it will <color=#3ad67c>consume the taiji cycle energy value corresponding to the connection</color>. Please click on the <color=#3ad67c>second martial meridian point</color> to perform the connection."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8695,10 +8695,10 @@
 - lineNum: 876
   raw: "恭喜少侠已经掌握了<color=#3ad67c>经脉的运行之道</color>。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:55.7012982+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:14.7213787+08:00
     split: 0
     text: "恭喜少侠已经掌握了<color=#3ad67c>经脉的运行之道</color>。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-    translated: ""
+    translated: "Congratulations, young hero, on mastering the <color=#3ad67c>way of the meridians' flow</color>. Please click the <color=#3ad67c>Complete Guidance</color> button to exit."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9279,8 +9279,8 @@
     split: 0
     text: "<color=#969696>消耗：</color><color=#f0f0f0>感悟1000</color>"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 935
   raw: "需求武学dfsdfsrfdsfdsfdsfdf"
@@ -9445,10 +9445,10 @@
 - lineNum: 951
   raw: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:57.9025641+08:00
+  - lastTranslatedOn: 2025-03-07T21:57:03.2920682+08:00
     split: 0
     text: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
-    translated: ""
+    translated: "<color=#E7BF87>Honorable Courage, Swordheart: </color><color=#b46049>......</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9479,16 +9479,16 @@
     split: 0
     text: "<color=#E7BF87>北冥玄拳：</color><color=#b46049>......</color>"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 955
   raw: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:59.8787313+08:00
+  - lastTranslatedOn: 2025-03-07T22:13:53.9097652+08:00
     split: 0
     text: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
-    translated: ""
+    translated: "<color=#E7BF87>Myriad Illusions, Infinite Devices: </color><color=#b46049>......</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9505,52 +9505,52 @@
 - lineNum: 957
   raw: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:35:59.4781252+08:00
+  - lastTranslatedOn: 2025-03-08T00:13:57.5315766+08:00
     split: 0
     text: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
-    translated: "<color=#E7BF87>Heroic Courage, Heart of a Sword: <color=#FF9971>Upon switching to the <color=#FF9971>sword</color> technique, increase the Mind Attack attribute by 10% within 5 seconds. Upon attacking a target, recover 5% of Health.</color>"
-    flaggedForRetranslation: false
+    translated: "<color=#E7BF87>Daring Heart, Sword Mind: </color><color=#FF9971>Upon switching to the <color=#FF9971>sword</color> technique within 5 seconds, increase the <color=#FF9971>Mind Attack</color> attribute by 10%. When attacking a target, recover 5% of health.</color>"
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 958
   raw: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:36:02.1158350+08:00
+  - lastTranslatedOn: 2025-03-08T00:13:58.2990300+08:00
     split: 0
     text: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
-    translated: ""
-    flaggedForRetranslation: false
+    translated: "<color=#E7BF87>Blade's Heart Under the Blade's Edge: <color=#FF9971>After switching to the <color=#FF9971>blade</color> technique, increase internal attack by 10% within 5 seconds and gain 5% counter-damage.</color>"
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 959
   raw: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:36:03.4480400+08:00
+  - lastTranslatedOn: 2025-03-08T00:13:55.9124537+08:00
     split: 0
     text: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
-    translated: "<color=#E7BF87>Dancing Dragon Flower Spear: <color=#FF9971>Switch to <color=#FF9971>spear</color> technique for the next 5 seconds and increase external attack attribute by 10%. Gain a shield at maximum lifeforce value of 5%.</color>"
-    flaggedForRetranslation: false
+    translated: "<color=#E7BF87>Dragon-Swallowing Spear Technique: </color><color=#FF9971>After switching to the <color=#FF9971>spear</color> technique for 5 seconds, increase external attack attributes by 10%, and gain a shield up to 5% of maximum lifeforce.</color>"
+    flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 960
   raw: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:36:01.0884524+08:00
+  - lastTranslatedOn: 2025-03-07T23:51:51.2209967+08:00
     split: 0
     text: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 961
   raw: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:36:01.2505423+08:00
+  - lastTranslatedOn: 2025-03-08T00:13:56.0899916+08:00
     split: 0
     text: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
     translated: ""
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 962
   raw: "保存"
@@ -10105,10 +10105,10 @@
 - lineNum: 1017
   raw: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
   splits:
-  - lastTranslatedOn: 2025-03-07T20:36:03.8849403+08:00
+  - lastTranslatedOn: 2025-03-07T22:21:20.0791188+08:00
     split: 0
     text: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
-    translated: ""
+    translated: "<color=#f0f0f0>Strength requirement: </color> <color=#FFDA5A>60</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -10645,11 +10645,11 @@
 - lineNum: 1071
   raw: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:07:12.0014130+08:00
+  - lastTranslatedOn: 2025-03-07T22:21:21.7535057+08:00
     split: 0
     text: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
-    translated: "This is the equipment currently equipped by the character, and you can open the desired type of equipment to view by clicking. Now please click on the armor to view your own armor and change it."
-    flaggedForRetranslation: true
+    translated: "This is the equipment <color=#3ad67c>currently equipped by the character</color>. You can open and view different types of equipment by clicking. Please click on <color=#3ad67c>armor</color> to see your available armor and <color=#3ad67c>change</color> it."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1072
@@ -12945,11 +12945,11 @@
 - lineNum: 1301
   raw: "<color=#3ad67c>选中</color>当前角色后便可协力加入论辩。"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:08:14.8239646+08:00
+  - lastTranslatedOn: 2025-03-07T21:57:08.4345731+08:00
     split: 0
     text: "<color=#3ad67c>选中</color>当前角色后便可协力加入论辩。"
-    translated: "Once you have selected the current role, you can collaborate to join the debate."
-    flaggedForRetranslation: true
+    translated: "Once you have <color=#3ad67c>selected</color> your current role, you can join in to argue together."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1302
@@ -13998,11 +13998,11 @@
 - lineNum: 1407
   raw: "劫数：                 <color=#2EDFA3>[大限将至]</color>"
   splits:
-  - lastTranslatedOn: 2025-03-01T23:24:47.4861257+08:00
+  - lastTranslatedOn: 2025-03-07T22:02:22.8208152+08:00
     split: 0
     text: "劫数：                 <color=#2EDFA3>[大限将至]</color>"
-    translated: "Calamity: [color=0][The End Is Near][/color]"
-    flaggedForRetranslation: true
+    translated: "Calamity: <color=#2EDFA3>[The Time Is Near]</color>"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1408
@@ -14598,12 +14598,12 @@
 - lineNum: 1467
   raw: "简单简单"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:08:58.0277857+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:22.0192580+08:00
     split: 0
     text: "简单简单"
-    translated: "Simply put"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Easy,简单,"
+    translated: "Easy easy"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1468
   raw: "敌人"
@@ -15038,12 +15038,12 @@
 - lineNum: 1511
   raw: "兵道"
   splits:
-  - lastTranslatedOn: 2025-03-06T08:28:01.2980500+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:22.0193359+08:00
     split: 0
     text: "兵道"
-    translated: "Art of War"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Martial Prowess,兵道,"
+    translated: "Martial Prowess"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1512
   raw: "决定"
@@ -17518,22 +17518,22 @@
 - lineNum: 1759
   raw: "<color=#f3f3f3>险恶江湖：</color>此难度下各项属性数值成长曲线较高，成型"
   splits:
-  - lastTranslatedOn: 2025-03-07T12:09:57.1410407+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:22.5527297+08:00
     split: 0
     text: "<color=#f3f3f3>险恶江湖：</color>此难度下各项属性数值成长曲线较高，成型"
-    translated: "Dangerous Jianghu: At this difficulty level, the growth curves for various attributes are significantly higher; they mature quickly."
+    translated: ""
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 1760
   raw: "通关后天赋值"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:10:16.4151031+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:22.2955340+08:00
     split: 0
     text: "通关后天赋值"
-    translated: "Tongguan hou tiantu zhi"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Talent points,天赋值,"
+    translated: "Talent Points After Completion"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1761
   raw: "罗德罗德罗德罗罗德罗德罗德罗"
@@ -18918,11 +18918,11 @@
 - lineNum: 1899
   raw: "<color=#f0c36b>淡墨</color>王春\\n"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:48:35.4015062+08:00
+  - lastTranslatedOn: 2025-03-07T21:57:09.4378845+08:00
     split: 0
     text: "<color=#f0c36b>淡墨</color>王春\\n"
-    translated: "<Dusky Ink><color=#f0c36b>Wang Chun</color></Dusky Ink>\\n"
-    flaggedForRetranslation: true
+    translated: "<color=#f0c36b>Dan Mo</color> Wang Chun\\n"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1900
@@ -19178,10 +19178,10 @@
 - lineNum: 1925
   raw: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:11:04.8864220+08:00
+  - lastTranslatedOn: 2025-03-08T00:14:01.0321630+08:00
     split: 0
     text: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
-    translated: "Current position held: Headliner, increased earnings bonus: <color=#a8a8a8>2 times</color> <color=#a8a8a8>estimated earnings</color>"
+    translated: "Current Position Held: <color=#f1c36b>Headliner,</color> profit bonus: <color=#a8a8a8>x2</color> <color=#a8a8a8>Projected Profit</color>"
     flaggedForRetranslation: true
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19208,21 +19208,21 @@
 - lineNum: 1928
   raw: "<color=#e7c383>人物每日</color><color=#a0a0a0>预计收益</color>   = （0.2倍技艺总数值）铜钱/日，其中"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:11:03.9551009+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:25.5729695+08:00
     split: 0
     text: "<color=#e7c383>人物每日</color><color=#a0a0a0>预计收益</color>   = （0.2倍技艺总数值）铜钱/日，其中"
-    translated: "Character Daily Estimated Earnings = (Total Skill Value x 0.2) copper coins per day, including:"
+    translated: ""
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 1929
   raw: "<color=#9b7d59>头牌</color> （2倍<color=#a0a0a0>预计收益</color>）铜钱/天"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:10:54.1967882+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:24.0963150+08:00
     split: 0
     text: "<color=#9b7d59>头牌</color> （2倍<color=#a0a0a0>预计收益</color>）铜钱/天"
-    translated: "Top Pick (x2 Estimated Daily Profit in Copper Coins)"
-    flaggedForRetranslation: true
+    translated: "<color=#9b7d59>Top Prize</color> (x2 <color=#a0a0a0>Estimated Earnings</color>): Copper Coins per Day"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1930
@@ -19238,11 +19238,11 @@
 - lineNum: 1931
   raw: "<color=#9b7d59>伶魁</color> （1.3倍<color=#a0a0a0>预计收益</color>）铜钱/天"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:11:00.8087291+08:00
+  - lastTranslatedOn: 2025-03-07T22:02:24.2082283+08:00
     split: 0
     text: "<color=#9b7d59>伶魁</color> （1.3倍<color=#a0a0a0>预计收益</color>）铜钱/天"
-    translated: "Ling Kui (x 1.3 times expected profit) copper coins/day."
-    flaggedForRetranslation: true
+    translated: "<color=#9b7d59>Li Qing</color> (x1.3<color=#a0a0a0>estimated earnings</color>) copper coins/day"
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1932
@@ -19258,12 +19258,12 @@
 - lineNum: 1933
   raw: "任务截止时间：靖康三二六年十二月二十四日\\n交接人：<u>哈哈哈</u>"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:51:34.8608772+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:26.6595745+08:00
     split: 0
     text: "任务截止时间：靖康三二六年十二月二十四日\\n交接人：<u>哈哈哈</u>"
-    translated: "Deadline for the task completion: February 24, 1126, in the Jiankang era.\\nPerson in charge of handover: Hahaha."
+    translated: ""
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 1934
   raw: "干掉村头王大妈"
@@ -20348,12 +20348,12 @@
 - lineNum: 2042
   raw: "<size=26>已持有:</size><size=30> 0</size>"
   splits:
-  - lastTranslatedOn: 2025-03-01T13:22:00.2775531+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:27.1643361+08:00
     split: 0
     text: "<size=26>已持有:</size><size=30> 0</size>"
-    translated: "<size=2 6> has been acquired: </size><size=30> 0</size>"
+    translated: ""
     flaggedForRetranslation: true
-    flaggedMistranslation: ""
+    flaggedMistranslation: "Failed"
     flaggedHallucination: ""
 - lineNum: 2043
   raw: "批量购买"
@@ -21648,11 +21648,11 @@
 - lineNum: 2172
   raw: "据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:12:00.2339199+08:00
+  - lastTranslatedOn: 2025-03-07T21:55:31.2668534+08:00
     split: 0
     text: "据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。据邢泰所言，他娘亲留下的<color=red>手镯</color>在<color=red>云鹤村内</color>遭小偷所窃。"
-    translated: "According to Xing Tai, the bracelet left by his mother was stolen by a thief in Cloud Crane Village. According to Xing Tai, the bracelet left by his mother was stolen by a thief in Cloud Crane Village. According to Xing Tai, the bracelet left by his mother was stolen by a thief in Cloud Crane Village. According to Xing Tai, the bracelet left by his mother was stolen by a thief in Cloud Crane Village."
-    flaggedForRetranslation: true
+    translated: "According to Xing Tai, the <color=red>bangle</color> left by his mother was stolen by a thief in <color=red>Cloud Crane Village</color>. According to Xing Tai, the <color=red>bangle</color> left by his mother was stolen by a thief in <color=red>Cloud Crane Village</color>. According to Xing Tai, the <color=red>bangle</color> left by his mother was stolen by a thief in <color=red>Cloud Crane Village</color>. According to Xing Tai, the <color=red>bangle</color> left by his mother was stolen by a thief in <color=red>Cloud Crane Village</color>."
+    flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2173

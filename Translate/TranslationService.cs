@@ -934,8 +934,8 @@ public static class TranslationService
                 if (rawTags.Count > 0)
                 {
                     var prompt = string.Format(config.Prompts["DynamicTagPrompt"], string.Join("\n", rawTags));
-                    Console.WriteLine(raw);
-                    Console.WriteLine(prompt);
+                    //Console.WriteLine(raw);
+                    //Console.WriteLine(prompt);
                     basePrompt.AppendLine(prompt);
                 }
             }

@@ -80,6 +80,10 @@ public static partial class LineValidation
             if (result.Contains('”') && !raw.Contains('”'))
                 result = result.Replace("”", "");
 
+            // Take out wierd ** being added
+            if (result.Contains("**") && !raw.Contains("**"))
+                result = result.Replace("**", "");
+
             result = result
                 .Replace("…", "...")
                 .Replace("？", "?")

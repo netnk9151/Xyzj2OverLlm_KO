@@ -27643,8 +27643,8 @@
     split: 33
     text: "中毒效果增加1%"
     translated: "Poison effect increased by 1%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74160
   raw: "74160#0#1#31#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50237#1#0#0##0#1#0#0#附骨#毒属性技能伤害提升2%#0#0#0#74160#0#0#0#2#0#74160##0#0#0#0.0#0.0##0#"
@@ -27799,8 +27799,8 @@
     split: 33
     text: "中毒效果增加3%"
     translated: "Poison effect increased by 3%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74250
   raw: "74250#0#1#15#0#1#0#0#0#0#0|32|1500|0#0#0#0#0#0#10000#1#1000#0#0#0#2#0#0#0#74251##0#1#0#0#蚀心#自身毒属性达到1500，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少90(唯一生效)#0#0#0#74250#0#0#0#0#0#74250##0#0#0#0.0#0.0##0#"
@@ -27883,12 +27883,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-03T12:55:30.4241544+08:00
+  - lastTranslatedOn: 2025-03-07T21:58:53.7937026+08:00
     split: 33
     text: "中毒效果增加4%"
-    translated: "Poison effect increased by 4%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    translated: "Poisoning effect increased by 4%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74300
   raw: "74300#0#1#15#0#1#0#0#0#0#0|32|2000|0#0#0#0#0#0#10000#1#1000#0#0#0#2#0#0#0#74301##0#1#0#0#蚀心#自身毒属性达到2000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少120(唯一生效)#0#0#0#74300#0#0#0#0#0#74300##0#0#0#0.0#0.0##0#"
@@ -31693,12 +31693,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:22.5217025+08:00
+  - lastTranslatedOn: 2025-03-08T00:15:10.3973605+08:00
     split: 33
     text: "乘胜追击，不留余地；对有中毒效果的目标造成20%额外伤害"
-    translated: "Seize the momentum and leave no room for retreat; deal an additional 20% damage to targets with a poisoning effect."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Pursue the enemy aggressively, leaving no room for escape; inflicting an additional 20% damage on targets affected by poisoning."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 82150
   raw: "82150#毒伤加剧#1#30#0#1#0#0#0#0#2|101010#0#0#0#0#0#10000#0#0#0#1#0#2#30#0#0#0##0#1#0#0#毒伤加剧#乘胜追击，不留余地；对有中毒效果的目标造成30%额外伤害#0#0#0#82150#0#0#0#0#0#82150##0#0#0#0.0#0.0###"
@@ -44729,12 +44729,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:23.0787246+08:00
+  - lastTranslatedOn: 2025-03-08T00:15:10.9208491+08:00
     split: 33
     text: "每次攻击都会附加内力3%的额外伤害，最多可叠加3层，持续时间6秒。"
-    translated: "Each attack adds an additional 3% Inner Power damage, with up to 3 layers of stacking, lasting for 6 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Each attack deals an additional 3% Inner Power damage and can stack up to 3 layers, lasting for 6 seconds."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 110100
   raw: "110100#剑意#1#23#0#1#6000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#10#0#0#0#20|21#0#1#0#0#鹤抖翎#增加10点内外攻，可叠加，上限3层，持续6秒。#buffnew_ziqidonglai#0#0#110100#2#0#0#1#3#110100##0#0#0#0.0#0.0##0#"
@@ -47974,12 +47974,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T18:12:31.8828282+08:00
+  - lastTranslatedOn: 2025-03-07T21:58:56.2455352+08:00
     split: 33
     text: "每10次攻击会对身前2米180扇形敌人触发一次破浪击伤害并附加无赦，调息6秒。无赦：引爆目标身上的伤口直接造成一次枪棍*1的伤害，目标身上每层撕骨裂会使伤害增加1倍。"
-    translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each 10 attack triggers a devastating wave impact on enemies within a 2 meter fan-shaped area in front of the user and applies Undying for 180. Recompose for 6 seconds. Undying: Explosive targeting of the injury directly causes a spear and staff damage amounting to *1, with each layer of tearing bone increasing the damage by 1 times."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 196045
   raw: "196045#破浪击-伤害#0#1#3#1#0#0#sound_jian_hurt3#0#0#0#0#0#2.0#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#50#0#0#0#0#0#0#196045#0#0#0#0#0#196045#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0##0#"
@@ -60280,12 +60280,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:32.7699416+08:00
+  - lastTranslatedOn: 2025-03-07T22:15:05.7653379+08:00
     split: 33
     text: "15秒内，目标施展招式会对自身造成受伤时附带自身阳属性*1的额外伤害效果；定身自身，8秒调息；减少自身20%内外防；减少自身20%内外攻。"
-    translated: "Within 15 seconds, the target will inflict additional self-damage equal to their own Yang attribute multiplied by *1* when they activate a technique that harms themselves; immobilize themselves; take 8 seconds to recover breath; reduce their internal and external defense by 20%; and decrease their internal and external attack by 20%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Within 15 seconds, when the target casts a technique that causes self-injury, it will additionally deal extra damage to itself equivalent to its Yang attribute * 1; immobilize themselves; rest for 8 seconds; reduce their internal and external defense by 20%; and reduce their internal and external attack by 20%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1042005
   raw: "1042005#太极-易#1#15#0#0#15000#0#0#0#0#0#0#0#0#0#10000#16384#10#0#0#0#0#0#0#0#104202##0#1#0#0#0#0#0#0#0#1042005#0#0#0#0#0#1042005##0#0#0#0.0#0.0##0#"
@@ -67910,12 +67910,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:33.3242098+08:00
+  - lastTranslatedOn: 2025-03-08T00:15:11.4559566+08:00
     split: 33
     text: "释放技能时，消耗自身30%当前真气，造成消耗的真气100%的额外伤害"
-    translated: "When using the skill, consume 30% of your current True Qi; inflict additional damage equal to 100% of the consumed True Qi."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "When releasing the skill, consume 30% of your current True Qi and inflict extra damage equivalent to 100% of the consumed True Qi."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1313003
   raw: "1313003#骤雨疾风-附伤#0#1#2#1#0#0#sound_quan_hurt3#0#0#0#0#0#5.0#1.5#10000#0#0#0#2#0#0#3000#0#0#3##0#1#0#0#0#0#0#0#0#1313003#0#0#0#0#0#1313003#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0##0#"
@@ -71260,12 +71260,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:33.7264358+08:00
+  - lastTranslatedOn: 2025-03-07T22:03:40.6234506+08:00
     split: 33
     text: "周围敌人造成自身阴属性*2的额外伤害，并冰冻敌人"
-    translated: "Enemies around take additional damage equal to their own Yin attribute by *2* and are frozen."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Enemies within range deal extra damage to themselves due to their Yin attribute of *2* and freeze the enemy."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1333005
   raw: "1333005#傲雪凌霜-寒冻#1#20#0#0#3000#0#0#sfx_main_hero_130530_bing#0#0#0#0#3.0#180.0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#0#0#0#0#0#1333005#0#0#0#0#0#1333005##0#0#0#0.0#0.0##0#"

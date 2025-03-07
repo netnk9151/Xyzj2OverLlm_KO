@@ -26090,8 +26090,8 @@
     split: 33
     text: "中毒效果增加1%"
     translated: "Poison effect increased by 1%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74160
   raw: "74160##1#31#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#50237#1#0#0##0#1#0#0#附骨#毒属性技能伤害提升2%##0#0#74160#0##0#2#0#74160##0#0##0.0#0.0###"
@@ -26246,8 +26246,8 @@
     split: 33
     text: "中毒效果增加3%"
     translated: "Poison effect increased by 3%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74250
   raw: "74250##1#15#0#1#0#0###0|32|1500|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#74251##0#1#0#0#蚀心#自身毒属性达到1500，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少90(唯一生效)##0#0#74250#0##0#0#0#74250##0#0##0.0#0.0###"
@@ -26330,12 +26330,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-03T12:55:23.1961689+08:00
+  - lastTranslatedOn: 2025-03-07T21:58:50.6807067+08:00
     split: 33
     text: "中毒效果增加4%"
-    translated: "Poison effect increased by 4%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    translated: "Poisoning effect increased by 4%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74300
   raw: "74300##1#15#0#1#0#0###0|32|2000|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#74301##0#1#0#0#蚀心#自身毒属性达到2000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少120(唯一生效)##0#0#74300#0##0#0#0#74300##0#0##0.0#0.0###"
@@ -31943,12 +31943,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:18.8850247+08:00
+  - lastTranslatedOn: 2025-03-07T21:58:51.2181953+08:00
     split: 33
     text: "周天运行，每5秒恢复根骨*3.5的生命和元气*3.5的真气。"
-    translated: "As the heavens turn each day, every 5 seconds, recover 3.5% of your health and restore 3.5% of your true Qi."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Vitality,元气,"
+    translated: "The heavens move in cycles; every 5 seconds, 3.5 vitality is restored to health and 3.5 true qi is recovered."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 109516
   raw: "109516#恢复-真气恢复#1#3#0#1#-1#5000#0###0##1#0#0#10000#0#0#0#2#1#1#35000#0#0#4##0#0#0#0#0###0#0#109516#3##0#0#0#109516##4#0##0.0#0.0###"
@@ -50842,12 +50842,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:20.2896071+08:00
+  - lastTranslatedOn: 2025-03-07T22:03:36.5155141+08:00
     split: 33
     text: "15秒内，目标施展招式会对自身造成受伤时附带自身阳属性*1的额外伤害效果；定身自身，8秒调息；减少自身20%内外防；减少自身20%内外攻。"
-    translated: "Within 15 seconds, the target will suffer additional self-inflicted damage amounting to their own Yang attribute multiplied by *1* if they execute a technique that harms themselves; immobilize oneself and meditate for 8 seconds; reduce one's internal and external defense by 20%; and decrease one's internal and external attack by 20%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Within 15 seconds, when the target performs a technique that causes self-inflicted injury, it will additionally inflict extra damage equivalent to its own Yang attribute by *1; immobilize itself; meditate for 8 seconds; reduce its internal and external defense by 20%; reduce its internal and external attack by 20%."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1042005
   raw: "1042005#太极-易#1#15#0#0#15000#0#0#0#0#0#0#0#0#0#10000#16384#10#0#0#0#0#0#0#0#104202##0#1#0#0#0#0#0#0#0#1042005#0#0#0#0#0#1042005##0#0#0#0.0#0.0###"
@@ -58472,12 +58472,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:20.8466292+08:00
+  - lastTranslatedOn: 2025-03-07T21:58:53.0055064+08:00
     split: 33
     text: "释放技能时，消耗自身30%当前真气，造成消耗的真气100%的额外伤害"
-    translated: "Upon skill activation, consumes 30% of current True Qi; causes additional damage equal to 100% of the consumed True Qi."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "When releasing the skill, consume 30% of your current True Qi; deal extra damage equal to 100% of the consumed True Qi."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1313003
   raw: "1313003#骤雨疾风-附伤#0#1#2#1#0#0#sound_quan_hurt3#0#0#0#0#0#5.0#1.5#10000#0#0#0#2#0#0#3000#0#0#3##0#1#0#0#0#0#0#0#0#1313003#0#0#0#0#0#1313003#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
@@ -61822,12 +61822,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-07T12:15:21.2601237+08:00
+  - lastTranslatedOn: 2025-03-08T00:15:09.4812441+08:00
     split: 33
     text: "周围敌人造成自身阴属性*2的额外伤害，并冰冻敌人"
-    translated: "Enemies surrounding them inflict additional Yin damage of *2* to themselves and freeze the enemies."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "Enemies around deal additional Yin attribute damage of *2* to themselves and freeze the enemies."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 1333005
   raw: "1333005#傲雪凌霜-寒冻#1#20#0#0#3000#0##sfx_main_hero_130530_bing##0##0#3.0#180.0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1333005#0##0#0#0#1333005##0#0##0.0#0.0###"
