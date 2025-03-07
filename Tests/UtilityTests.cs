@@ -106,7 +106,7 @@ public class UtilityTests
     [InlineData("<button disabled>Click</button>", "<button disabled>Click</button>", true)]
     public void HtmlTagValidator_ValidateTags_Tests(string raw, string translated, bool expected, bool allowMissingColors = false)
     {
-        bool result = HtmlTagValidator.ValidateTags(raw, translated, allowMissingColors);
+        bool result = HtmlTagHelpers.ValidateTags(raw, translated, allowMissingColors);
 
         Assert.Equal(expected, result);
     }
@@ -123,7 +123,7 @@ public class UtilityTests
     public void TrimHtmlTag_ShouldTrimExtraSpaces(string input, string expected)
     {
         // Act
-        string result = HtmlTagValidator.TrimHtmlTagsInContent(input);
+        string result = HtmlTagHelpers.TrimHtmlTagsInContent(input);
 
         // Assert
         Assert.Equal(expected, result);
@@ -139,9 +139,28 @@ public class UtilityTests
     public void ExtractTagsListWithAttributes_ShouldExtractCorrectTags(string input, string ignore, params string[] expectedTags)
     {
         // Act
-        var result = HtmlTagValidator.ExtractTagsListWithAttributes(input, ignore);
+        var result = HtmlTagHelpers.ExtractTagsListWithAttributes(input, ignore);
 
         // Assert
         Assert.Equal(expectedTags, result);
+    }
+
+    [Theory]
+    [InlineData("<color=#b8b8b8>性别:", true, "<color=#b8b8b8>", "性别:")] // Should match
+    [InlineData("<color=123456>", true, "<color=123456>", "")] // Should match (even if the color value is just numbers)
+    [InlineData("<color=#ff5733>SomeText", true, "<color=#ff5733>", "SomeText")] // Should match
+    [InlineData("<color=#b8b8b8>Test</color>", false)] // Should not match (contains </color>)
+    [InlineData("<color=#123456>Valid Color</color>", false)] // Should not match (contains </color>)
+    [InlineData("<color=#aaa>SomeText</color> and more", false)] // Should not match (contains </color>)
+    [InlineData("<color=#abc>Test content</color>", false)] // Should not match (contains </color>)
+    [InlineData("Not a color tag", false)] // Should not match (not a color tag)    
+    [InlineData("性别<color=123456>", false)] // Doesnt start with color
+    public void MatchColorTagTests(string input, bool expected, string expectedStart = "", string expectedEnd = "")
+    {
+        // Assert if the result matches the expected value
+        bool result = ColorTagHelpers.StartsWithHalfColorTag(input, out string start, out string end);
+        Assert.Equal(expected, result);
+        Assert.Equal(expectedStart, start);
+        Assert.Equal(expectedEnd, end);
     }
 }

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Net.Http.Headers;
+using System.Runtime;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
@@ -868,6 +869,18 @@ public static class TranslationService
                 return new ValidationResult(LineValidation.CleanupLineBeforeSaving(result, preparedRaw, textFile, tokenReplacer));
         }
 
+        if (ColorTagHelpers.StartsWithHalfColorTag(preparedRaw, out string start, out string end))
+        {
+            var startResult = await TranslateSplitAsync(config, start, client, textFile);
+            var endResult = await TranslateSplitAsync(config, end, client, textFile);
+            var combinedResult = $"{startResult.Result}{endResult.Result}";
+
+            if (!config.SkipLineValidation && (!startResult.Valid || !endResult.Valid))
+                return new ValidationResult(false, string.Empty);
+            else
+                return new ValidationResult(LineValidation.CleanupLineBeforeSaving($"{combinedResult}", preparedRaw, textFile, tokenReplacer));
+        }
+
         var cacheHit = config.TranslationCache.ContainsKey(preparedRaw);
         if (cacheHit)
             return new ValidationResult(LineValidation.CleanupLineBeforeSaving(config.TranslationCache[preparedRaw], preparedRaw, textFile, tokenReplacer));
@@ -932,7 +945,7 @@ public static class TranslationService
 
             if (raw.Contains("<"))
             {
-                var rawTags = HtmlTagValidator.ExtractTagsListWithAttributes(raw, "color");
+                var rawTags = HtmlTagHelpers.ExtractTagsListWithAttributes(raw, "color");
                 if (rawTags.Count > 0)
                 {
                     var prompt = string.Format(config.Prompts["DynamicTagPrompt"], string.Join("\n", rawTags));

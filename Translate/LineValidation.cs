@@ -29,6 +29,8 @@ public static partial class LineValidation
             //.Replace("·", ":") // Need a way to do split better or it kills to many lines
             .Replace("：", ":")
             .Replace("：", ":")
+            .Replace("「", "'")
+            .Replace("」", "'")
             .Replace("《", "'")
             .Replace("》", "'")
             .Replace("（", "(")
@@ -294,7 +296,7 @@ public static partial class LineValidation
         }
 
         if (raw.Contains('<'))
-            response &= HtmlTagValidator.ValidateTags(raw, result, textFile.AllowMissingColorTags);
+            response &= HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags);
 
         //TODO: This is doing wierd shit
         //if (result.Contains('<') && !result.Contains("<br>") 

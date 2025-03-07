@@ -219,6 +219,12 @@
   badtrans: false  
   direct: Good Feeling  
   literal: Hao gan   
+- raw: 情分
+  result: Affection
+  badtrans: true
+  direct: Qingfen
+  literal: Qingfen
+
 
 # Time
 - raw: 秒  
@@ -352,7 +358,9 @@
   badtrans: true
 - raw: 等级
   result: Rank
-  badtrans: true
+  allowalt:
+    - Level
+  badtrans: false
 - raw: 研发
   result: Development
   badtrans: true
@@ -690,6 +698,8 @@
   literal: Fo xue
 - raw: 儒学  
   result: Confucianism  
+  allowalt:
+    - Confucian
   badtrans: true  
   direct: Confucian Studies  
   literal: Ru xue  
@@ -926,8 +936,10 @@
   result: I respectfully concede
   badtrans: true
 - raw: 柔茹刚吐
-  result: Softly embracing, firmly releasing
+  result: Softness devours hardness and spits it out.
   badtrans: true
+  direct: Rouru gang tu
+  literal: Rouru gang tu
 
 # Sounds
 - raw: 吼
@@ -1042,11 +1054,13 @@
   result: External Injury
   allowalt: 
     - Extra Damage # For situations like 额外伤害
+    - Damage
   badtrans: true
 - raw: 中毒
   result: Poisoned
   allowalt:
     - Poisoning
+    - Poison effect
   badtrans: true
 - raw: 迷惑
   result: Confusion
@@ -1481,6 +1495,8 @@
   badtrans: true
 - raw: 酒坊
   result: Winery
+  allowalt:
+    - Wineries
   badtrans: true
 - raw: 青楼
   result: Pleasure House
