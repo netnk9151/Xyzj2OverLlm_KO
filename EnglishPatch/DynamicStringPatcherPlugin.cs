@@ -187,7 +187,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
                 // Apply the patch
                 //_harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts, targetMethod));
-                _harmony.Patch(targetMethod, transpiler: DynmicStringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts));
+                _harmony.Patch(targetMethod, transpiler: DynamicStringTranspiler.CreateTranspilerMethod(contract.Contracts));
 
                 successCount++;
                 Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");
@@ -195,8 +195,8 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             catch (Exception ex)
             {
                 errorCount++;
-                badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
-                //badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
+                //badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
+                badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
             }
         }
 
@@ -295,14 +295,15 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         foreach (var contract in contracts)
         {
-            DynmicStringPatcherTranspiler.PrepareDynamicString(contract.Raw, out string preparedRaw, out string preparedRaw2);
-            DynmicStringPatcherTranspiler.PrepareDynamicString(contract.Translation, out string preparedTrans, out string preparedTrans2);
+            DynamicStringTranspiler.PrepareDynamicString(contract.Raw, out string preparedRaw, out string preparedRaw2);
+            DynamicStringTranspiler.PrepareDynamicString(contract.Translation, out string preparedTrans, out string preparedTrans2);
 
             if (value == preparedRaw)
             {
                 return preparedTrans;
             }
-            else if (value == preparedRaw2)
+            else if (value == preparedRaw2 
+                || DynamicStringTranspiler.StripCommas(value) == DynamicStringTranspiler.StripCommas(preparedRaw))
             {
                 return preparedTrans2;
             }

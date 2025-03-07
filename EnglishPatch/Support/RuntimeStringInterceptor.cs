@@ -47,11 +47,13 @@ public static class RuntimeStringInterceptor
         {
             if (!string.IsNullOrEmpty(stringContract.Raw) && !string.IsNullOrEmpty(stringContract.Translation))
             {
-                DynmicStringPatcherTranspiler.PrepareDynamicString(stringContract.Raw, out string preparedRaw, out string preparedRaw2);
-                DynmicStringPatcherTranspiler.PrepareDynamicString(stringContract.Translation, out string preparedTrans, out string preparedTrans2);
-
+                DynamicStringTranspiler.PrepareDynamicString(stringContract.Raw, out string preparedRaw, out string preparedRaw2);
+                DynamicStringTranspiler.PrepareDynamicString(stringContract.Translation, out string preparedTrans, out string preparedTrans2);
+                var stripped = DynamicStringTranspiler.StripCommas(stringContract.Raw);
+                
                 typeReplacements[preparedRaw] = preparedTrans;
                 typeReplacements[preparedRaw2] = preparedTrans2;
+                typeReplacements[stripped] = preparedTrans2; //TODO: Not Implemented
             }
         }
     }

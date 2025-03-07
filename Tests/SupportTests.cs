@@ -3,6 +3,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Xunit.Sdk;
 using System.Security.Cryptography;
+using Translate.Support;
 
 namespace Translate.Tests;
 
@@ -254,7 +255,7 @@ public class SupportTests
     public void TestParameterSplitRegex(string rawParameters, int index)
     {
         var serializer = Yaml.CreateSerializer();
-        var parameters = TranslationService.PrepareMethodParameters(rawParameters);
+        var parameters = DynamicStringSupport.PrepareMethodParameters(rawParameters);
         var output = serializer.Serialize(parameters);
 
         string outputFile = $"{workingDirectory}/TestResults/TestParameterSplitRegex{index}.yaml";

@@ -85,6 +85,17 @@
   context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
   transliteration: Liúpài
 
+# Difficulties
+- raw: 爽文江湖 
+  result: Light Jianghu
+  badtrans: true
+- raw: 爽文江湖 
+  result: Dangerous Jianghu
+  badtrans: true
+- raw: 爽文江湖 
+  result: Authentic Jianghu
+  badtrans: true
+ 
 # Menu
 - raw: 万宗
   result: Myriad Skills
@@ -545,6 +556,8 @@
   badtrans: true
 - raw: 枪棍
   result: Spear & Staff
+  allowalt: 
+    - Spear and Staff
   badtrans: true
 - raw: 棍
   result: Staff
