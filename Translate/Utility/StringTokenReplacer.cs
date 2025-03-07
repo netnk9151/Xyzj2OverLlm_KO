@@ -12,6 +12,9 @@ public class StringTokenReplacer
     private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";
     private const string NumericValueMatchPattern = @"(?<![\{=])[+-]?\d+(\.\d+)?";
     private const string ColorStartMatchPattern = @"<color=[^>]+>";
+    private const string KeyPressMatchPattern = @"<\w+\s+>";
+    private const string KeyPressNoSpaceMatchPattern = @"<\w+\s+>";
+
     //private const string ColorEndMatchPattern = @"</color>";
     private Dictionary<int, string> placeholderMap = new();
     private Dictionary<string, string> colorMap = new();
@@ -46,12 +49,19 @@ public class StringTokenReplacer
             return replacement;
         });
 
+        //Key Press
+        result = Regex.Replace(result, KeyPressMatchPattern, match =>
+        {
+            placeholderMap.Add(index, match.Value.Replace(" ", "")); //Safe because only spaces right
+            return $"{{{index++}}}";
+        });
+
         // Picks up all digits - be careful it doesnt pick it up out of special tags or markup for game
         result = Regex.Replace(result, NumericValueMatchPattern, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
-        });
+        });        
 
         foreach (var token in otherTokens)
         {

@@ -34,8 +34,11 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("完成奇遇任务《江海图志·枰栌》"),
-            new("万宗"),
+            new("通关后天赋值"),
+            new("操作:地面上双击并长按<w >施放 "),
+            new("操作 靠近竹子然后双击<space     > 施放 "),
+            //new("完成奇遇任务《江海图志·枰栌》"),
+            //new("万宗"),
             //new("劫数：                 <color=#2EDFA3>[大限将至]</color>"),
             //new("外功："),
             //new("实力："),
@@ -228,6 +231,40 @@ public class PromptTuningTests
             "Show an example prompt.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainExplanationPrompt.txt", result.Result);
+    }
+
+    [Fact]
+    public async Task ExplainNotEnglishPrompt()
+    {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
+        var config = Configuration.GetConfiguration(workingDirectory);
+        var input = "通关后天赋值";
+
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
+            "Explain your reasinging in a <explain> tag, why is the result is not in english." +
+            "Show in a <prompt> tag, An updated system prompt that would have translated this to english.");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainNotEnglishPrompt.txt", result.Result);
+    }
+
+    [Fact]
+    public async Task ExplainMissingMarkupPrompt()
+    {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
+        var config = Configuration.GetConfiguration(workingDirectory);
+        var input = "操作 地面上双击并长按<w >施放 ";
+
+        var prompts = TranslationService.GenerateBaseMessages(config, input, DefaultTestTextFile());
+
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
+            "Explain your reasinging in a <explain> tag, why the <w  > tag is missing." +
+            "Show in a <prompt> tag, An updated system prompt that would have translated this to english.");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainMissingMarkupPrompt.txt", result.Result);
     }
 
     [Fact]

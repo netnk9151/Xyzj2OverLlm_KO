@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.Drawing;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -30,8 +31,8 @@ public static class TranslationService
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
 
-            new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText},
-            new() {Path = "dynamicStringsV3.txt", TextFileType = TextFileType.DynamicStrings},
+            new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
+            new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
 
             new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
@@ -926,6 +927,15 @@ public static class TranslationService
 
             if (raw.Contains("<color"))
                 basePrompt.AppendLine(config.Prompts["DynamicColorPrompt"]);
+            
+            if (raw.Contains("<"))
+            {
+                var rawTags = HtmlTagValidator.ExtractTagsListWithAttributes(raw, "color");
+                var prompt = string.Format(config.Prompts["DynamicTagPrompt"], string.Join("\n", rawTags));
+                Console.WriteLine(raw);
+                Console.WriteLine(prompt);
+                basePrompt.AppendLine(prompt);
+            }
 
             if (raw.Contains('{'))
                 basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);

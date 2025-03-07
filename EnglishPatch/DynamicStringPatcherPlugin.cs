@@ -33,7 +33,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         // Load translations from CSV
         var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        var filePath = Path.Combine(resourcePath, "dynamicStringsV3.txt");
+        var filePath = Path.Combine(resourcePath, "dynamicStrings.txt");
 
         if (File.Exists(filePath))
             LoadTranslationsAndApplyPatches(filePath);

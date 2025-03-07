@@ -63,12 +63,11 @@ public class TranslationWorkflowTests
                 remaining = await UpdateCurrentTranslationLines(false);
                 iterations++;
             }
+
+            await PackageFinalTranslation();
         }
         else
             await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
-
-
-        await PackageFinalTranslation();
     }
 
     [Fact(DisplayName = "6. PackageFinalTranslation")]
@@ -97,7 +96,7 @@ public class TranslationWorkflowTests
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
 
-        var sourceDirectory = $@"H:\xzyj2-sprites/completed";
+        var sourceDirectory = $@"G:\xzyj2-sprites/completed";
         var spritesDirectory = $"{gameFolder}/BepInEx/sprites";
 
         if (Directory.Exists(spritesDirectory))
@@ -374,7 +373,7 @@ public class TranslationWorkflowTests
             modified = true;
         }
 
-        // Remove Invalid ones -- Have to use final raw because translated is untokenised
+        // Remove Invalid ones -- Have to use pure raw because translated is untokenised
         var result = LineValidation.CheckTransalationSuccessful(config, split.Text, split.Translated ?? string.Empty, textFile);
         if (!result.Valid)
         {
@@ -491,7 +490,7 @@ public class TranslationWorkflowTests
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
             "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort",
-            "knight", "thay", "tien", "div", "html",
+            "knight", "thay", "tien", "div", "html", "tiantu",
         ];
 
         string pattern = $@"\b({string.Join("|", words)})\b";

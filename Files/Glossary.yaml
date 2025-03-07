@@ -1,4 +1,9 @@
 ﻿# Terms
+- raw: 双击
+  result: Double-tap
+  badtrans: true  
+  direct: Double-click  
+  literal: Shuangji  
 - raw: 武侠
   result: Wuxia
   badtrans: true
@@ -89,12 +94,81 @@
 - raw: 爽文江湖
   result: Light Jianghu
   badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
 - raw: 险恶江湖
   result: Dangerous Jianghu
   badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
 - raw: 真实江湖
   result: Authentic Jianghu
   badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 江湖小卒  
+  result: Jianghu Novice  
+  badtrans: true  
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 武林新秀  
+  result: Rising Star 
+  badtrans: true  
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 武道宗师  
+  result: Grandmaster
+  badtrans: true  
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 盖世霸主  
+  result: World Conqueror
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 独步天下
+  result: Unrivaled
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 简单
+  result: Easy
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 标准
+  result: Normal
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 困难
+  result: Hard
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 极难
+  result: Extreme
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
+- raw: 地狱
+  result: Hell
+  badtrans: true
+  only:
+    - dynamicStrings.txt
+    - dumpedPrefabText.txt
  
 # Menu
 - raw: 万宗
@@ -216,9 +290,12 @@
   only:
     - horoscope.txt
 
-
-
 # Prefabs 
+- raw: 天赋值  
+  result: Talent points  
+  badtrans: true  
+  direct: Talent points  
+  literal: Tianfuzhi  
 - raw: 堪武
   result: Martial Capability
   badtrans: true
@@ -501,8 +578,10 @@
   direct: Drinking Capacity  
   literal: Jiuliang  
 - raw: 道学  
-  result: Taoism  
-  badtrans: true  
+  result: Taoism 
+  allowalt:
+    - Toaist Scripture
+  badtrans: false  
   direct: Taoist Studies  
   literal: Daoxue 
 - raw: 诡辞  
@@ -511,7 +590,7 @@
   direct: Deceptive Speech  
   literal: Guici  
 - raw: 兵道  
-  result: Art of War 
+  result: Martial Prowess 
   badtrans: true  
   direct: Art of War  
   literal: Bingdao  

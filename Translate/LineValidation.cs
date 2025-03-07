@@ -38,6 +38,9 @@ public static partial class LineValidation
             .Replace("，", ",")
             .Replace("！", "!");
 
+        //if (raw.Contains("<"))
+        //    raw = HtmlTagValidator.TrimHtmlTagsInContent(raw);
+
         //For testing
         if (tokenReplacer != null)
             raw = tokenReplacer.Replace(raw);
@@ -287,7 +290,7 @@ public static partial class LineValidation
         }
 
         if (raw.Contains('<'))
-            response &= HtmlTagValidator.ValidateTags(raw, result, textFile.IsMainDialogueAsset);
+            response &= HtmlTagValidator.ValidateTags(raw, result, textFile.AllowMissingColorTags);
 
         //TODO: This is doing wierd shit
         //if (result.Contains('<') && !result.Contains("<br>") 

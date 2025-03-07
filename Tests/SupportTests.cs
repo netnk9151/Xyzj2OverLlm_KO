@@ -296,4 +296,38 @@ public class SupportTests
 
         Assert.Equal(expected, result);
     }
+
+    [Theory]
+    [InlineData("<w   >", "<w>")]
+    [InlineData("<div   class=\"example\">", "<div class=\"example\">")]
+    [InlineData("<input    type=\"text\" value=\"hello\">", "<input type=\"text\" value=\"hello\">")]
+    [InlineData("<p     >", "<p>")]
+    [InlineData("<   h1>", "<h1>")]
+    [InlineData("<   span   >", "<span>")]
+    [InlineData("asdaf   <  br  />   sadasd", "asdaf   <br/>   sadasd")]
+    [InlineData("<  img src=\"image.jpg\"   />", "<img src=\"image.jpg\"/>")]
+    public void TrimHtmlTag_ShouldTrimExtraSpaces(string input, string expected)
+    {
+        // Act
+        string result = HtmlTagValidator.TrimHtmlTagsInContent(input);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
+
+    [Theory]
+    [InlineData("<div class='test'>Content</div><p>Text</p>", "p", "<div class='test'>")]
+    [InlineData("<div><span>Text</span><p>Text</p></div>", "p", "<div>", "<span>")]
+    [InlineData("<img src='image.jpg' alt='image'><a href='url.com'>Link</a>", "a", "<img src='image.jpg' alt='image'>")]
+    [InlineData("No tags here!", "div")]
+    [InlineData("", "div")]
+    [InlineData("??<color=0>+{0}</color> <tag>assd</tag>", "color", "<tag>")]
+    public void ExtractTagsListWithAttributes_ShouldExtractCorrectTags(string input, string ignore, params string[] expectedTags)
+    {
+        // Act
+        var result = HtmlTagValidator.ExtractTagsListWithAttributes(input, ignore);
+
+        // Assert
+        Assert.Equal(expectedTags, result);
+    }
 }

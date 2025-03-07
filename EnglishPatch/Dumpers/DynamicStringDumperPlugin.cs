@@ -27,7 +27,7 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
         // Load translations from CSV
         //Logger.LogError("Dynamic String Dumper loading...");
         //var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        //var dumpFilePath = Path.Combine(resourcePath, "dynamicstringsv3-dump.txt");
+        //var dumpFilePath = Path.Combine(resourcePath, "dynamicStrings-dump.txt");
 
         //// Generate a template with current strings
         //if (!File.Exists(dumpFilePath))
