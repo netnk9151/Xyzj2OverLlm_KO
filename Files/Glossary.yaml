@@ -190,11 +190,6 @@
   badtrans: true  
   direct: Decreasing Sequence  
   literal: Jiang xu
-- raw: "{{赏}}"  
-  result: "{{Reward}}"
-  badtrans: true  
-  direct: Appreciate  
-  literal: Shang
 - raw: 兴趣  
   result: Interest  
   allowalt:
@@ -224,6 +219,43 @@
   badtrans: true
   direct: Qingfen
   literal: Qingfen
+- raw: 过火
+  result: Excessive
+  badtrans: false
+  direct: Guohuo
+  literal: Guohuo
+- raw: 领悟
+  result: Comprehend
+  badtrans: false
+  direct: Lingwu
+  literal: Lingwu
+- raw: 修炼
+  result: Cultivate
+  badtrans: false
+  direct: Xiulian
+  literal: Xiulian
+
+# Dodgy
+- raw: "{{赏}}"  
+  result: "{{Reward}}"
+  badtrans: true  
+  direct: Appreciate  
+  literal: Shang
+- raw: "{{限}}"
+  result: "{{Limit}}"
+  badtrans: true
+  direct: Xian
+  literal: Xian
+- raw: "{{奇}}"
+  result: "{{Unusual}}"
+  badtrans: true
+  direct: Qi
+  literal: Qi
+- raw: "{{谜}}"
+  result: "{{Mystery}}"
+  badtrans: true
+  direct: Mi
+  literal: Mi
 
 
 # Time
