@@ -352,36 +352,6 @@ public static partial class LineValidation
         return markupTags;
     }
 
-    public static List<string> FindPlaceholders(string input)
-    {
-        var placeholders = new List<string>();
-
-        if (input == null)
-            return placeholders;
-
-        // Regular expression to match placeholders in the format {number}
-        string pattern = "\\{.+\\}";
-        MatchCollection matches = Regex.Matches(input, pattern);
-
-        // Add each match to the list of placeholders
-        foreach (Match match in matches)
-            placeholders.Add(match.Value);
-
-        return placeholders;
-    }
-
-    public static string ConvertColorTagsToPlaceholderTags(string input)
-    {
-        // Regex to match <color> tags and capture their contents and attributes
-        string pattern = @"<color=(#[0-9A-Fa-f]{6})>(.*?)<\/color>";
-        string replacement = "<mark style=\"color: $1;\">$2</mark>";
-
-        // Replace <color> tags with <font> tags
-        string result = Regex.Replace(input, pattern, replacement, RegexOptions.Singleline | RegexOptions.IgnoreCase);
-
-        return result;
-    }
-
     public static string EncaseColorsForWholeLines(string raw, string translated)
     {
         var pattern = @"(<[^>]+>).*(</[^>]+>)";

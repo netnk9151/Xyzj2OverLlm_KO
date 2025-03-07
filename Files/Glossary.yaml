@@ -89,6 +89,11 @@
   badtrans: false
   context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
   transliteration: Liúpài
+- raw: 败北失利  
+  result: Defeat and Loss  
+  badtrans: false
+  direct: Loss and Failure  
+  literal: Bai bei shi li  
 
 # Difficulties
 - raw: 爽文江湖
@@ -185,6 +190,33 @@
   badtrans: true  
   direct: Decreasing Sequence  
   literal: Jiang xu
+- raw: "{{赏}}"  
+  result: "{{Reward}}"
+  badtrans: true  
+  direct: Appreciate  
+  literal: Shang
+- raw: 兴趣  
+  result: Interest  
+  allowalt:
+    - Hobby
+  badtrans: false  
+  direct: Hobby  
+  literal: Xing qu  
+- raw: 性别  
+  result: Gender  
+  badtrans: false  
+  direct: Sex  
+  literal: Xing bie  
+- raw: 身份  
+  result: Identity  
+  badtrans: false 
+  direct: Status  
+  literal: Shen fen  
+- raw: 好感  
+  result: Affection  
+  badtrans: false  
+  direct: Good Feeling  
+  literal: Hao gan  
 
 # Time
 - raw: 秒  
@@ -218,7 +250,6 @@
   literal: zi shi
   only:
     - horoscope.txt
-
 - raw: 丑时
   result: Chou Hour
   badtrans: true
@@ -226,7 +257,6 @@
   literal: chou shi
   only:
     - horoscope.txt
-
 - raw: 寅时
   result: Yin Hour
   badtrans: true
@@ -234,7 +264,6 @@
   literal: yin shi
   only:
     - horoscope.txt
-
 - raw: 卯时
   result: Mao Hour
   badtrans: true
@@ -242,7 +271,6 @@
   literal: mao shi
   only:
     - horoscope.txt
-
 - raw: 辰时
   result: Chen Hour
   badtrans: true
@@ -250,7 +278,6 @@
   literal: chen shi
   only:
     - horoscope.txt
-
 - raw: 巳时
   result: Si Hour
   badtrans: true
@@ -258,7 +285,6 @@
   literal: si shi
   only:
     - horoscope.txt
-
 - raw: 午时
   result: Wu Hour
   badtrans: true
@@ -266,7 +292,6 @@
   literal: wu shi
   only:
     - horoscope.txt
-
 - raw: 未时
   result: Wei Hour
   badtrans: true
@@ -274,7 +299,6 @@
   literal: wei shi
   only:
     - horoscope.txt
-
 - raw: 申时
   result: Shen Hour
   badtrans: true
@@ -282,7 +306,6 @@
   literal: shen shi
   only:
     - horoscope.txt
-
 - raw: 酉时
   result: You Hour
   badtrans: true
@@ -290,7 +313,6 @@
   literal: you shi
   only:
     - horoscope.txt
-
 - raw: 戌时
   result: Xu Hour
   badtrans: true
@@ -298,7 +320,6 @@
   literal: xu shi
   only:
     - horoscope.txt
-
 - raw: 亥时
   result: Hai Hour
   badtrans: true
@@ -413,7 +434,7 @@
   badtrans: true
   context: Could refer to a metaphorical or literal position of leadership, typically used in maritime or leadership contexts.
 - raw: 好感
-  result: Affinity
+  result: Affection
   badtrans: true
   context: Refers to positive feelings or affection towards someone or something, often used in interpersonal contexts to describe initial attraction or goodwill.
 - raw: 亲人
@@ -603,6 +624,7 @@
   allowalt:
     - Skilled craftsmanship
     - Skillful 
+    - Weaver
   badtrans: true  
   direct: Clever Hands  
   literal: Qiao shou  
@@ -610,6 +632,7 @@
   result: Refining 
   allowalt:
     - refinement
+    - Refiner
   badtrans: true  
   direct: Refining Equipment  
   literal: Lian qi  
@@ -1022,6 +1045,11 @@
 - raw: 铁矿石  
   result: Iron Ore  
   badtrans: true
+- raw: 铜矿石  
+  result: Copper Ore  
+  badtrans: true  
+  direct: Copper Mineral  
+  literal: Tong kuang shi  
 - raw: 玄铁
   result: Dark Steel
   badtrans: true
@@ -1113,6 +1141,12 @@
 #   result: Xiling Spring Liquor
 # - raw: 剑南春
 #   result: Xiling Spring Liquor
+- raw: 屠龙刀  
+  result: Dragon Slayer Blade  
+  badtrans: true  
+  direct: Dragon Killing Knife  
+  literal: Tu long dao  
+
 
 # People
 - raw: 枪士

@@ -768,7 +768,7 @@ public static class TranslationService
                 var trans = await TranslateSplitAsync(config, split, client, textFile);
 
                 // If one fails we have to kill the lot
-                if (!trans.Valid)
+                if (!trans.Valid && !config.SkipLineValidation)
                     return (true, string.Empty);
 
                 builder.Append($"{trans.Result}{suffix}");
@@ -806,7 +806,7 @@ public static class TranslationService
                     output += trans.Result;
 
                     // If one fails we have to kill the lot
-                    if (!trans.Valid)
+                    if (!trans.Valid && !config.SkipLineValidation)
                         return (true, string.Empty);
                 }
 
@@ -816,7 +816,7 @@ public static class TranslationService
                     output += $" ({trans.Result}) ";
 
                     // If one fails we have to kill the lot
-                    if (!trans.Valid)
+                    if (!trans.Valid && !config.SkipLineValidation)
                         return (true, string.Empty);
                 }
 
@@ -826,7 +826,7 @@ public static class TranslationService
                     output += trans.Result;
 
                     // If one fails we have to kill the lot
-                    if (!trans.Valid)
+                    if (!trans.Valid && !config.SkipLineValidation)
                         return (true, string.Empty);
                 }
             }
@@ -927,7 +927,9 @@ public static class TranslationService
 
             if (raw.Contains("<color"))
                 basePrompt.AppendLine(config.Prompts["DynamicColorPrompt"]);
-            
+            else if (raw.Contains("</color>"))
+                basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
+
             if (raw.Contains("<"))
             {
                 var rawTags = HtmlTagValidator.ExtractTagsListWithAttributes(raw, "color");

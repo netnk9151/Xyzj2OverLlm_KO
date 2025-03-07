@@ -140,20 +140,20 @@
 - lineNum: 10
   raw: "10#test传话 好感最高#1#60#0#5300041#5300032#5300044###0&32|1|5300042###1001##0##0#0#3#1|5300042#0##0##0##0#0#0##0#0#0###0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:51:33.4800081+08:00
+  - lastTranslatedOn: 2025-03-08T01:53:35.2450664+08:00
     split: 1
     text: "test传话 好感最高"
-    translated: "Test message: Affinity highest."
+    translated: "Message relayed: Maximum affection."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 11
   raw: "11#test传话 好感最低#1#60#0#5300001#5300032#5300004###0&32|2|5300002###1001##0##0#0#2#2|5300002#0##0##0##0#0#0##0#0#0###0##0###0#0#"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:51:34.7206719+08:00
+  - lastTranslatedOn: 2025-03-08T01:53:35.0932795+08:00
     split: 1
     text: "test传话 好感最低"
-    translated: "Test message: Lowest affinity."
+    translated: "Message Relay: Minimum Affection"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

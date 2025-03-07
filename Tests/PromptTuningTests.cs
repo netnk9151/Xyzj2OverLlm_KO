@@ -25,6 +25,8 @@ public class PromptTuningTests
     public async Task TestPrompt()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
+        config.SkipLineValidation = true;
+        config.RetryCount = 1;
 
         // Create an HttpClient instance
         using var client = new HttpClient();
@@ -34,9 +36,10 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("通关后天赋值"),
-            new("操作:地面上双击并长按<w >施放 "),
+            //new("通关后天赋值"),
+            //new("操作:地面上双击并长按<w >施放 "),
             new("操作 靠近竹子然后双击<space     > 施放 "),
+            new("<color=#b7a57d>打造说明：</color>指针滑动时，在不同颜色区域按下锤炼按钮可增加对应的灵感值，灵感值影响打造完成时领悟到的属性点数。"),
             //new("完成奇遇任务《江海图志·枰栌》"),
             //new("万宗"),
             //new("劫数：                 <color=#2EDFA3>[大限将至]</color>"),
@@ -71,9 +74,7 @@ public class PromptTuningTests
         };
 
         var cache = new Dictionary<string, string>();
-        await TranslationService.FillTranslationCacheAsync(workingDirectory, 10, cache, config);
-
-        config.SkipLineValidation = true;
+        await TranslationService.FillTranslationCacheAsync(workingDirectory, 10, cache, config);       
 
         var results = new List<string>();
         var totalLines = testLines.Count;
