@@ -2361,10 +2361,10 @@
 - lineNum: 237
   raw: "好感度："
   splits:
-  - lastTranslatedOn: 2025-03-01T17:11:10.5527760+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:08.6805539+08:00
     split: 0
     text: "好感度："
-    translated: "Favorability rating:"
+    translated: "Affinity level:"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2471,10 +2471,10 @@
 - lineNum: 248
   raw: "好感：陌路不识"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:35:55.3707923+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:03.6635355+08:00
     split: 0
     text: "好感：陌路不识"
-    translated: "Favor: Strangers on a path, unknown to each other."
+    translated: "Affinity: A stranger on unfamiliar roads."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8755,10 +8755,10 @@
 - lineNum: 882
   raw: "好感度：-23"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:22.5383990+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:13.0975930+08:00
     split: 0
     text: "好感度：-23"
-    translated: "Favorability rating: -23"
+    translated: "Affinity level: -23"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9505,30 +9505,30 @@
 - lineNum: 957
   raw: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:32:55.5437240+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:17.5130530+08:00
     split: 0
     text: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
-    translated: "<color=#E7BF87>Chivalrous Courage, Heart of a Blade: </color><color=#FF9971>Switch to <color=#FF9971>sword</color> technique for 5 seconds and increase <color=#FF9971>mind attack</color> attribute by 10%. While attacking a target, recover 5% of your health.</color>"
+    translated: "<color=#E7BF87>Heroic Bravery, Sword of Heart: </color><color=#FF9971>Switch to the <color=#FF9971>sword</color> technique and gain a 10% increase in mind attack attribute within 5 seconds. While attacking an opponent, recover 5% of health.</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 958
   raw: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:32:53.0443381+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:18.2989981+08:00
     split: 0
     text: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
-    translated: "<color=#E7BF87>Blade Beneath the Heart: <color=#FF9971>Switching to the <color=#FF9971>knife</color> technique grants a 5-second boost of 10% to internal attack attributes and 5% counter-damage.</color>"
+    translated: "<color=#E7BF87>The Heart Beneath the Blade: <color=#FF9971>After switching to the <color=#FF9971>knife</color> technique for 5 seconds, increase internal attack by 10% and gain 5% counter-damage.</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 959
   raw: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:32:54.0065728+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:16.2111510+08:00
     split: 0
     text: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
-    translated: "<color=#E7BF87>Dancing Dragon Flower Spear: </color><color=#FF9971>After switching to the <color=#FF9971>spear</color> technique for 5 seconds, enhance external attack attribute by 10%, and gain a shield at 5% of maximum lifeforce.</color>"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12795,10 +12795,10 @@
 - lineNum: 1286
   raw: "各家学说，各抒己见，两两之间，总有克制。\\n\\n强克制：对目标伤害提升0.3倍。被强克制：对目标伤害降低0.3倍。\\n强克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机。\\n弱克制：对目标伤害提升0.15倍。被弱克制：对目标伤害降低0.15倍。\\n弱克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机\\n每个角色的每个技能每个回合只能使用一次。\\n当角色辩力≤0时则退场，当我方全部角色退场时论辩失败，当对手全部角色退场时论辩胜利。\\n胜利后根据与对手的好感获得对手角色论、对手言技。"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:11:54.2487362+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:24.6936577+08:00
     split: 0
     text: "各家学说，各抒己见，两两之间，总有克制。\\n\\n强克制：对目标伤害提升0.3倍。被强克制：对目标伤害降低0.3倍。\\n强克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机。\\n弱克制：对目标伤害提升0.15倍。被弱克制：对目标伤害降低0.15倍。\\n弱克制关系：玄机→农识→菩义→书戒→机妙→天言→玄机\\n每个角色的每个技能每个回合只能使用一次。\\n当角色辩力≤0时则退场，当我方全部角色退场时论辩失败，当对手全部角色退场时论辩胜利。\\n胜利后根据与对手的好感获得对手角色论、对手言技。"
-    translated: "Different schools of thought each express their own views, and there's always a counterbalance between any two.\\n\\nSelf-control: Target damage increased by 0.3 times. Strongly constrained: Reduces target damage by 0.3 times.\\nDominant-submissive relationship: Secret Art → Agricultural Wisdom → Bodhisattva Virtue → Scripted Commandments → Ingenious Mechanism → Divine Speech → Secret Art.\\nOvercome weakness: Increases damage to target by 0.15 times. Vulnerable to weak attacks: Reduces damage to the target by 0.15 times.\\nWeaker control relationship: Xuanji → Nongshi → Puyi → Shujie → Jimiao → Tianyan → Xuanji\\nEach character can only use each skill once per turn.\\nWhen a character's argumentative force is less than or equal to 0, they retreat. If all characters on our side have retreated, the debate fails. If all characters of the opponent have retreated, we win the debate.\\nAfter victory, you receive your opponent's character and abilities based on the level of favor they have with you."
+    translated: "The various schools of thought each express their own views; between any two, there is always a counterbalance.\\n\\nExert strong self-control: Damage to target increased by 0.3 times. Overpowered: Reduces target damage by 0.3 times.\\nDominant-submissive relationship: Secret Art → Agricultural Wisdom → Altruistic Virtue → Book of Discipline → Ingenious Mechanism → Divine Expression → Secret Art.\\nOvercome weakness through self-control: Increases damage to target by 0.15 times. Vulnerable to counterattack: Reduces target damage by 0.15 times.\\nWeaker dominance relationship: Secret Art → Farming Insight → Compassionate Wisdom → Literary Vows → Ingenious Mechanism → Heavenly Expression → Secret Art\\nEach character's skills can only be used once per turn.\\nWhen a character's debate strength is less than or equal to 0, they are dismissed from the field. If all of our side's characters are dismissed, we lose the debate. If all of the opponent's characters are dismissed, we win the debate.\\nAfter winning, gain the opponent's argument and technique based on your affinity with them."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13055,10 +13055,10 @@
 - lineNum: 1312
   raw: "好感"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:42.2925214+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:18.2994916+08:00
     split: 0
     text: "好感"
-    translated: "Favor"
+    translated: "Affinity"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14188,10 +14188,10 @@
 - lineNum: 1426
   raw: "好感度>=50情分值>=1000"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:42.8547532+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:19.2211147+08:00
     split: 0
     text: "好感度>=50情分值>=1000"
-    translated: "Favor rating ≥ 5 for 0; Affection score ≥ 1 for 000."
+    translated: "Affinity >= 50, Relationship Value >= 1000"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14268,10 +14268,10 @@
 - lineNum: 1434
   raw: "好感：2(+5)"
   splits:
-  - lastTranslatedOn: 2025-03-01T13:21:40.1149022+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:18.2997136+08:00
     split: 0
     text: "好感：2(+5)"
-    translated: "Favorable impression: 2(+5)"
+    translated: "Affinity: 2(+5)"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14488,10 +14488,10 @@
 - lineNum: 1456
   raw: "解锁此挂牌格，需要达到以下条件：\\r\\n与云烟好感度达到{haoganvalue}/{needHaoGan}\\r\\n不夜京贡献值{buyejingpoint}/{needbuyejingpoint}"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:43.9123509+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:20.0707596+08:00
     split: 0
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与云烟好感度达到{haoganvalue}/{needHaoGan}\\r\\n不夜京贡献值{buyejingpoint}/{needbuyejingpoint}"
-    translated: "To unlock this mounted plaque, the following conditions must be met:: \\r\\nFavor with Yunyan has reached {haoganvalue}/{needHaoGan}.\\nEvernight Capital contribution value {buyejingpoint}/{needbuyejingpoint}."
+    translated: "Unlock this bulletin board by meeting the following conditions:: \\r\\nAffinity with Yunyan reached {haoganvalue}/{needHaoGan}.\\nEvernight Capital Contribution Value {buyejingpoint}/{needbuyejingpoint}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -17838,10 +17838,10 @@
 - lineNum: 1791
   raw: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:47.5985191+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:27.6212691+08:00
     split: 0
     text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
-    translated: "To view the backpack, you need to increase your favor with this character.\\nEven a person of high martial skill can directly discern reality from illusion."
+    translated: "To view the backpack, you need to increase your affinity with this character.\\nThose skilled in martial arts can directly discern reality from illusion."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -18448,10 +18448,10 @@
 - lineNum: 1852
   raw: "两派好感达到"
   splits:
-  - lastTranslatedOn: 2025-03-01T14:36:49.4830738+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:26.7041353+08:00
     split: 0
     text: "两派好感达到"
-    translated: "Faction favor reached"
+    translated: "Two factions' affinity has reached."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -18468,10 +18468,10 @@
 - lineNum: 1854
   raw: "每个任务固定提升<color=#FFCB70>5%</color>对应派系的好感度。两派好感度呈动态平衡，当一派的好感度提升时，另一派会降低相应好感度。好感度达到特定值时可兑换相应物品。任务与物品随时间刷新。"
   splits:
-  - lastTranslatedOn: 2025-03-01T11:10:35.1306217+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:26.5194230+08:00
     split: 0
     text: "每个任务固定提升<color=#FFCB70>5%</color>对应派系的好感度。两派好感度呈动态平衡，当一派的好感度提升时，另一派会降低相应好感度。好感度达到特定值时可兑换相应物品。任务与物品随时间刷新。"
-    translated: "Each task increases the corresponding faction's favorability by a fixed <color=#FFCB70>5%</color>. The two factions' favorabilities are dynamically balanced, so when one faction's favorability rises, the other faction's favorability decreases accordingly. Once favorability reaches a certain value, it can be exchanged for specific items. Tasks and items refresh over time."
+    translated: "Each task consistently boosts the affinity of the corresponding faction by <color=#FFCB70>5%</color>. The affinities between the two factions are dynamically balanced; when one faction's affinity increases, the other faction's decreases correspondingly. Once a certain level of affinity is reached, it can be exchanged for specific items. Tasks and items refresh over time."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19178,10 +19178,10 @@
 - lineNum: 1925
   raw: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:32:58.6039281+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:29.3153242+08:00
     split: 0
     text: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
-    translated: "Current position of service: <color=#f1c36b>A-headline performer,</color> earnings bonus: <color=#a8a8a8>2 times</color><color=#a8a8a8> estimated earnings</color>"
+    translated: "Current position held: <color=#f1c36b>Headliner</color>, profit bonus: <color=#a8a8a8>2 times</color><color=#a8a8a8> estimated earnings</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20348,10 +20348,10 @@
 - lineNum: 2042
   raw: "<size=26>已持有:</size><size=30> 0</size>"
   splits:
-  - lastTranslatedOn: 2025-03-07T21:55:27.1643361+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:29.8962888+08:00
     split: 0
     text: "<size=26>已持有:</size><size=30> 0</size>"
-    translated: ""
+    translated: "<size=26>Held: </size><size=30> 0</size>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

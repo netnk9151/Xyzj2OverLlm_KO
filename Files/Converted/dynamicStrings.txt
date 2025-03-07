@@ -231,10 +231,10 @@
 - lineNum: 24
   raw: "AutomatManager,Script_ShowMenpaiHaogan,65,少侠你和本门派好感度为:,[AutomatScript，CallFunc]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:52:33.4187436+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:31.2284068+08:00
     split: 3
     text: "少侠你和本门派好感度为:"
-    translated: "Young Hero, your favor with this sect is at:"
+    translated: "Young Hero, your affinity with our sect is at..:"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2691,10 +2691,10 @@
 - lineNum: 270
   raw: "TuJianEnhanceItemSlot,OnReset,242,好感度:,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:52:52.8487265+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:30.9792135+08:00
     split: 3
     text: "好感度:"
-    translated: "Favorability level:"
+    translated: "Affinity level:"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3351,20 +3351,20 @@
 - lineNum: 336
   raw: "DaTingView,.cctor,473,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4681777+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:30.2095327+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 337
   raw: "DaTingView,.cctor,484,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4681796+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:30.2095331+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4211,20 +4211,20 @@
 - lineNum: 422
   raw: "BagTip,.cctor,17,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:02.4680975+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9012133+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 423
   raw: "BagTip,.cctor,28,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:02.4680976+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9012137+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4621,10 +4621,10 @@
 - lineNum: 463
   raw: "PopInfoTip,ShowInformation,606,<color=#b8b8b8>好感：</color>{0},[System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-07T22:21:26.9277614+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.1577177+08:00
     split: 3
     text: "<color=#b8b8b8>好感：</color>{0}"
-    translated: "Favor <color=#b8b8b8>: </color>{0}"
+    translated: ""
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -4761,7 +4761,7 @@
 - lineNum: 477
   raw: "PopInfoTip,ShowInformation,180,<color=#b8b8b8>兴趣：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:02.4680992+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9012153+08:00
     split: 3
     text: "<color=#b8b8b8>兴趣：</color>{0}"
     translated: ""
@@ -4801,7 +4801,7 @@
 - lineNum: 481
   raw: "PopInfoTip,ShowInformation,284,<color=#b8b8b8>性别：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:02.4680988+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9012149+08:00
     split: 3
     text: "<color=#b8b8b8>性别：</color>{0}"
     translated: ""
@@ -4911,7 +4911,7 @@
 - lineNum: 492
   raw: "PopInfoTip,SetShenfenText,167,<color=#b8b8b8>身份：</color>{0},[System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:02.4680991+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9012152+08:00
     split: 3
     text: "<color=#b8b8b8>身份：</color>{0}"
     translated: ""
@@ -5111,10 +5111,10 @@
 - lineNum: 512
   raw: "ComString,.cctor,50,巧手谱,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:04.8439383+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:33.4649719+08:00
     split: 3
     text: "巧手谱"
-    translated: "Artisan's Compendium"
+    translated: "Skilled Hands Compendium"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -7161,20 +7161,20 @@
 - lineNum: 717
   raw: "MaterialSelectView,.cctor,386,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4689172+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9016007+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 718
   raw: "MaterialSelectView,.cctor,397,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4689191+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:32.9016017+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -8421,10 +8421,10 @@
 - lineNum: 843
   raw: "InteractSlot,OnReset,1489,墨学问答,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:05.4462658+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:33.6012299+08:00
     split: 3
     text: "墨学问答"
-    translated: "Mohist Question and Answer"
+    translated: "Mohist Question and Answer Session"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9651,10 +9651,10 @@
 - lineNum: 966
   raw: "AttriPart,.cctor,415,低于一定好感度时，增加好感度时会有额外好感。,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:53:39.3135001+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:33.3239423+08:00
     split: 3
     text: "低于一定好感度时，增加好感度时会有额外好感。"
-    translated: "When your favorability level is below a certain threshold, increasing it will yield additional favor."
+    translated: "When affinity is below a certain level, increasing it will grant additional affinity."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -11361,10 +11361,10 @@
 - lineNum: 1137
   raw: "PlayerStatusUI,PlayerData,829,劫数：                 <color=#COCOCO>[大限已至]</color>,[]"
   splits:
-  - lastTranslatedOn: 2025-03-07T21:55:39.1589864+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.0823935+08:00
     split: 3
     text: "劫数：                 <color=#COCOCO>[大限已至]</color>"
-    translated: ""
+    translated: "Calamity: <color=#COCOCO>[The deadline has arrived.]</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -11611,10 +11611,10 @@
 - lineNum: 1162
   raw: "MenPaiChuZhengPanel,OnSelectNpc,240,已达到最大人数，请先空余职位,[MenPaiChuZhengNpcPrefab]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:09.1231578+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:34.9005652+08:00
     split: 3
     text: "已达到最大人数，请先空余职位"
-    translated: "Maximum number of people reached; please wait for available positions."
+    translated: "The maximum number of people has been reached; please wait for an available position."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -12881,7 +12881,7 @@
 - lineNum: 1289
   raw: "RoleInformation,ShowInformation,654,<color=#b8b8b8>好感：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962463+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124501+08:00
     split: 3
     text: "<color=#b8b8b8>好感：</color>{0}"
     translated: ""
@@ -12901,7 +12901,7 @@
 - lineNum: 1291
   raw: "RoleInformation,ShowInformation,743,<color=#b8b8b8>精力：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962471+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124514+08:00
     split: 3
     text: "<color=#b8b8b8>精力：</color>{0}"
     translated: ""
@@ -12911,7 +12911,7 @@
 - lineNum: 1292
   raw: "RoleInformation,ShowInformation,770,<color=#b8b8b8>身份：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962466+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124509+08:00
     split: 3
     text: "<color=#b8b8b8>身份：</color>{0}"
     translated: ""
@@ -12931,7 +12931,7 @@
 - lineNum: 1294
   raw: "RoleInformation,ShowInformation,867,<color=#b8b8b8>势力：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962475+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124517+08:00
     split: 3
     text: "<color=#b8b8b8>势力：</color>{0}"
     translated: ""
@@ -12981,7 +12981,7 @@
 - lineNum: 1299
   raw: "RoleInformation,ShowInformation,966,<color=#b8b8b8>性别：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962473+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124516+08:00
     split: 3
     text: "<color=#b8b8b8>性别：</color>{0}"
     translated: ""
@@ -13011,7 +13011,7 @@
 - lineNum: 1302
   raw: "RoleInformation,ShowInformation,1019,<color=#b8b8b8>好感：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962464+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124506+08:00
     split: 3
     text: "<color=#b8b8b8>好感：</color>{0}"
     translated: ""
@@ -13031,7 +13031,7 @@
 - lineNum: 1304
   raw: "RoleInformation,ShowInformation,1108,<color=#b8b8b8>精力：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962472+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124515+08:00
     split: 3
     text: "<color=#b8b8b8>精力：</color>{0}"
     translated: ""
@@ -13041,7 +13041,7 @@
 - lineNum: 1305
   raw: "RoleInformation,ShowInformation,1154,<color=#b8b8b8>身份：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962466+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124510+08:00
     split: 3
     text: "<color=#b8b8b8>身份：</color>{0}"
     translated: ""
@@ -13061,7 +13061,7 @@
 - lineNum: 1307
   raw: "RoleInformation,ShowInformation,1247,<color=#b8b8b8>势力：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962476+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124518+08:00
     split: 3
     text: "<color=#b8b8b8>势力：</color>{0}"
     translated: ""
@@ -13111,7 +13111,7 @@
 - lineNum: 1312
   raw: "RoleInformation,ShowInformation,1400,<color=#b8b8b8>性别：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962474+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124516+08:00
     split: 3
     text: "<color=#b8b8b8>性别：</color>{0}"
     translated: ""
@@ -13151,7 +13151,7 @@
 - lineNum: 1316
   raw: "RoleInformation,ShowInformation,1617,<color=#b8b8b8>兴趣：</color>{0},[System.Int64，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962481+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124523+08:00
     split: 3
     text: "<color=#b8b8b8>兴趣：</color>{0}"
     translated: ""
@@ -13301,7 +13301,7 @@
 - lineNum: 1331
   raw: "RoleInformation,ShowInformation,203,<color=#b8b8b8>兴趣：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962482+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124524+08:00
     split: 3
     text: "<color=#b8b8b8>兴趣：</color>{0}"
     translated: ""
@@ -13341,7 +13341,7 @@
 - lineNum: 1335
   raw: "RoleInformation,ShowInformation,307,<color=#b8b8b8>性别：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962474+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124517+08:00
     split: 3
     text: "<color=#b8b8b8>性别：</color>{0}"
     translated: ""
@@ -13391,7 +13391,7 @@
 - lineNum: 1340
   raw: "RoleInformation,SetShenfenText,183,<color=#b8b8b8>身份：</color>{0},[System.Int64]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:10.2962467+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.6124510+08:00
     split: 3
     text: "<color=#b8b8b8>身份：</color>{0}"
     translated: ""
@@ -14471,10 +14471,10 @@
 - lineNum: 1448
   raw: "PresentItemSlot,OnReset,489,好感：{0}(+{1}),[SweetPotato.Item]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:24.9411973+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:33.8240104+08:00
     split: 3
     text: "好感：{0}(+{1})"
-    translated: "Favor: {0}(+{1})"
+    translated: "Affinity: {0}(+{1})"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -19241,10 +19241,10 @@
 - lineNum: 1925
   raw: "MailView,OnRefresh,223,好感,[ShaiXuanType，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:44.7191347+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:36.8775772+08:00
     split: 3
     text: "好感"
-    translated: "Favor"
+    translated: "Affinity"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -20291,20 +20291,20 @@
 - lineNum: 2030
   raw: "MainViewQuestItem,SetMapAreaEvent,6,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:14.4810162+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.3906349+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: ""
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2031
   raw: "MainViewQuestItem,SetMapAreaEvent,56,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:16.1526752+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.3906412+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: ""
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -22221,30 +22221,30 @@
 - lineNum: 2223
   raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,54,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4},[UnityEngine.EventSystems.PointerEventData]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:58.4083495+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:40.9670556+08:00
     split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}"
-    translated: "Unlocking this hanged plaque requires meeting the following conditions:: \\r\\nFavor with {0} reaches {1}/{2}.\\nEvernight Capital contribution value {3}/{4}."
+    translated: "Unlock this pinned scroll by meeting the following conditions:: \\r\\nAffinity with {0} has reached {1}/{2}.\\nEvernight Capital Contribution Value {3}/{4}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2224
   raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,248,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:59.0391446+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.3079536+08:00
     split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8}"
-    translated: "Unlocking this placard grid requires meeting the following conditions:: \\r\\nFavorability towards {0} reached {1}/{2}.\\nEvernight Capital contribution value {3}/{4}\\nSpend Copper Coins {5}/{6}\\nSpend {7}/{8} Dragon Horn Tickets."
+    translated: "Unlock this bulletin board by meeting the following conditions:: \\r\\nAffinity with {0} reached {1}/{2}.\\nEvernight Capital Contribution Value {3}/{4}\\nSpent copper qian {5}/{6}\\nSpend Dragon Horn Command {7}/{8}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2225
   raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,520,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:59.0391664+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.3080247+08:00
     split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8}"
-    translated: "Unlocking this placard grid requires meeting the following conditions:: \\r\\nFavorability towards {0} reached {1}/{2}.\\nEvernight Capital contribution value {3}/{4}\\nSpend Copper Coins {5}/{6}\\nSpend {7}/{8} Dragon Horn Tickets."
+    translated: "Unlock this bulletin board by meeting the following conditions:: \\r\\nAffinity with {0} reached {1}/{2}.\\nEvernight Capital Contribution Value {3}/{4}\\nSpent copper qian {5}/{6}\\nSpend Dragon Horn Command {7}/{8}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23221,10 +23221,10 @@
 - lineNum: 2323
   raw: "StaffSlot,OnSelected,51,当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:16.1526176+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.0717490+08:00
     split: 3
     text: "当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>"
-    translated: "Current position held: <color=#{0}>{1}</color>, profit bonus: <color=#a8a8a8>{2} times</color> <color=#a8a8a8>estimated earnings</color>"
+    translated: "Current position held: <color=#{0}>{1}</color>, profit bonus: <color=#a8a8a8>{2} times</color><color=#a8a8a8> estimated earnings</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23891,20 +23891,20 @@
 - lineNum: 2390
   raw: "RepairView,.cctor,17,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4724193+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:37.4614759+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2391
   raw: "RepairView,.cctor,28,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4724212+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:37.4614765+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -24621,20 +24621,20 @@
 - lineNum: 2463
   raw: "ShopStoreViewNew,.cctor,375,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:16.1526827+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.3080285+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2464
   raw: "ShopStoreViewNew,.cctor,386,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:16.1526828+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.3080287+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -26281,10 +26281,10 @@
 - lineNum: 2629
   raw: "PaiBieQuestItem,SetData,169,{随机},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:17.5276391+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4244394+08:00
     split: 3
     text: "{随机}"
-    translated: ""
+    translated: "{随机}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -27471,20 +27471,20 @@
 - lineNum: 2748
   raw: "EntrustManager,DoEventAcceptPreAction,409,找不到好感度最高的npc npcId:{0},[EntrustEventPrototype]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:23.7761180+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:44.1081300+08:00
     split: 3
     text: "找不到好感度最高的npc npcId:{0}"
-    translated: "Cannot find NPC with the highest favor, NPC ID: {0}"
+    translated: "Cannot find NPC with the highest affinity, NPC ID: {0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2749
   raw: "EntrustManager,DoEventAcceptPreAction,517,找不到好感度最低的npc npcId:{0},[EntrustEventPrototype]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:22.0453354+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.6039502+08:00
     split: 3
     text: "找不到好感度最低的npc npcId:{0}"
-    translated: "Can't find the NPC with the lowest favor level; NPC ID not found: {0}"
+    translated: "Unable to find NPC with the lowest affinity level, NPC ID: {0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -28731,20 +28731,20 @@
 - lineNum: 2874
   raw: "XuanShangManager,FinishedXuanShangQuest,265,好感度+5,[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:33.1121351+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.8699018+08:00
     split: 3
     text: "好感度+5"
-    translated: "Favor level +5"
+    translated: "Affinity Level +5"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2875
   raw: "XuanShangManager,FinishedXuanShangQuest,371,好感度-5,[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:33.1121354+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:43.7518379+08:00
     split: 3
     text: "好感度-5"
-    translated: "Favor level -5"
+    translated: "Affinity -5"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30131,10 +30131,10 @@
 - lineNum: 3014
   raw: "RelationShipManager,SetHaoGanValue,498,与{0}好感{1}{2}：{3}</color>,[System.Int64，System.Int64，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:50.0646532+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:44.4002443+08:00
     split: 3
     text: "与{0}好感{1}{2}：{3}</color>"
-    translated: "Favor with {0} increased by {1}. {2}: {3}</color>"
+    translated: "Affinity with {0}: {1} {2}: {3}</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -30171,20 +30171,20 @@
 - lineNum: 3018
   raw: "RelationShipManager,ModifyHaoganValue,728,与{0}好感{1}{2}：{3}</color>,[System.Int64，System.Int64，System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:53.4977254+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:45.6093174+08:00
     split: 3
     text: "与{0}好感{1}{2}：{3}</color>"
-    translated: "Favor with {0} increased by {1}. {2}: {3}</color>"
+    translated: "Affinity with {0}: {1} {2}: {3}</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3019
   raw: "RelationShipManager,TransferNpcHaoganByRandom,14,生成随机npc好感不要传入主角！,[System.Int32，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:55:51.2506095+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:44.6292106+08:00
     split: 3
     text: "生成随机npc好感不要传入主角！"
-    translated: "Generate random NPC favor without including the main character."
+    translated: "Generate random NPC affinity without passing in the protagonist."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -31381,7 +31381,7 @@
 - lineNum: 3139
   raw: "ModSpace.DataGroupItemSlot,Rename,60,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:25.8044031+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:45.6093195+08:00
     split: 3
     text: "输入内容"
     translated: ""
@@ -31391,7 +31391,7 @@
 - lineNum: 3140
   raw: "ModSpace.DataGroupItemSlot,Rename,96,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:25.8044032+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:45.6093196+08:00
     split: 3
     text: "输入内容"
     translated: ""
@@ -32011,7 +32011,7 @@
 - lineNum: 3202
   raw: "ModSpace.ReflectInputGridStyleSlot,<RefreshField>b__21_11,20,输入内容,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:25.8044033+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:45.6093197+08:00
     split: 3
     text: "输入内容"
     translated: ""
@@ -32591,20 +32591,20 @@
 - lineNum: 3260
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetQiyuQuest,70,{{奇}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:24.2814665+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4619061+08:00
     split: 3
     text: "{{奇}}{0}"
-    translated: "It appears you've provided a template or placeholder format rather than a complete Chinese string to translate. If you have specific Chinese text that needs translating, please provide it so I can assist accurately. The placeholders '{奇}' and '{0}' should be replaced with the appropriate content as needed in your application. Let me know if there's anything else!"
+    translated: "{{奇}}{奇}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3261
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetJieMiQuest,69,{{谜}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:21.7717912+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4619125+08:00
     split: 3
     text: "{{谜}}{0}"
-    translated: "I'm unable to provide a translation without additional context or content in Chinese. Please provide the specific Chinese string you would like translated, along with any relevant details that might help clarify its meaning. Remember not to include placeholders like '{谜}', '{0}' in your request; focus on the actual text content."
+    translated: "{{谜}}{谜}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32631,10 +32631,10 @@
 - lineNum: 3264
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetXuanShangQuest,116,{{赏}},[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:23.0281213+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4620201+08:00
     split: 3
     text: "{{赏}}"
-    translated: "The text you provided contains a placeholder '{{赏}}'. Without additional context or information to replace this placeholder, it remains unchanged in the translation. If there's more surrounding text or details that need translation, please provide them for further assistance."
+    translated: "{{赏}}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32651,20 +32651,20 @@
 - lineNum: 3266
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,18,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:25.8043179+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4620729+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "This is a placeholder expression using '{限}' and '{0}'. Without additional context, it's not possible to provide a specific English translation as these placeholders are meant to be replaced by specific content in their intended use. If you can provide the replacement text or further details about what '{限}' and '{0}' represent, I'd be happy to help with a more accurate translation."
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3267
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,63,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:25.8044072+08:00
+  - lastTranslatedOn: 2025-03-08T00:49:26.4620778+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "This is a placeholder expression using '{限}' and '{0}'. Without additional context, it's not possible to provide a specific English translation as these placeholders are meant to be replaced by specific content in their intended use. If you can provide the replacement text or further details about what '{限}' and '{0}' represent, I'd be happy to help with a more accurate translation."
+    translated: "{{限}}{限}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34101,10 +34101,10 @@
 - lineNum: 3411
   raw: "SweetPotato.NpcSpellDynamic,CreateVirtualSpellPrototype,747,guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败,[SweetPotato.NpcEntity，SweetPotato.NpcSpellDynamic，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:24.4259046+08:00
+  - lastTranslatedOn: 2025-03-08T00:50:45.2256406+08:00
     split: 3
     text: "guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败"
-    translated: "Guid: {0},npcSpellDynamic: {0},slot: Equipment failure: {1}"
+    translated: "Guid: {0},npcSpellDynamic: {0},slot: {1} equipment failed"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -35931,10 +35931,10 @@
 - lineNum: 3594
   raw: "SweetPotato.Tools,.cctor,989,中毒值,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:26.1181917+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:22.1866994+08:00
     split: 3
     text: "中毒值"
-    translated: "Poison value"
+    translated: "Poison Level"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -42761,10 +42761,10 @@
 - lineNum: 4277
   raw: "SweetPotato.JueYingLouView,DoCurBuSu,2434,好感度：,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:19.6735010+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:28.5307436+08:00
     split: 3
     text: "好感度："
-    translated: "Favorability rating:"
+    translated: "Affinity level:"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -45881,20 +45881,20 @@
 - lineNum: 4589
   raw: "SweetPotato.MenPaiManager,NpcAddMenPaiHaoGan,283,势力[{0}]好感度{1}{2}，当前好感:{3},[System.Int64，System.Int32，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:27.8165578+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:29.5913527+08:00
     split: 3
     text: "势力[{0}]好感度{1}{2}，当前好感:{3}"
-    translated: "Influence [{0}] favorability level {1}{2}, current favorability: {3}"
+    translated: "Influence [ {0} ] affinity level {1}{2}, current affinity: {3}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4590
   raw: "SweetPotato.MenPaiManager,NpcAddMenPaiHaoGan,348,势力[{0}]好感度{1}{2}，当前好感:{3},[System.Int64，System.Int32，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:30.1416057+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2179696+08:00
     split: 3
     text: "势力[{0}]好感度{1}{2}，当前好感:{3}"
-    translated: "Influence [{0}] favorability level {1}{2}, current favorability: {3}"
+    translated: "Influence [ {0} ] affinity level {1}{2}, current affinity: {3}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -45961,30 +45961,30 @@
 - lineNum: 4597
   raw: "SweetPotato.MenPaiManager,OnFinishXuanShangQuest,161,完成了门派悬赏任务 加好感,[XuanShangQuest]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:27.4403279+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:30.1991782+08:00
     split: 3
     text: "完成了门派悬赏任务 加好感"
-    translated: "Completed the sect bounty task, increased favor."
+    translated: "Completed the sect bounty task, gained affinity."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4598
   raw: "SweetPotato.MenPaiManager,OnNpcDead,78,你击败了人他的门派的好友门派要减好感,[SweetPotato.UnitController，SweetPotato.UnitController]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:28.9676647+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:28.9768473+08:00
     split: 3
     text: "你击败了人他的门派的好友门派要减好感"
-    translated: "Defeating his sect's friends will decrease the sect's favor."
+    translated: "Defeat his sect's friend, and the sect will lose affinity."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 4599
   raw: "SweetPotato.MenPaiManager,OnNpcDead,124,你击败了人他的门派的敌对门派要加好感,[SweetPotato.UnitController，SweetPotato.UnitController]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:28.2052999+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:29.8634451+08:00
     split: 3
     text: "你击败了人他的门派的敌对门派要加好感"
-    translated: "By defeating their rival sect, you will increase your favor."
+    translated: "By defeating his sect's rival sect, affinity will increase."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48151,10 +48151,10 @@
 - lineNum: 4816
   raw: "SweetPotato.SomeBoneManager,ChangeUnitSocialData,30,和{0}好感度增加{1},[System.Int32，SweetPotato.SomeDataType，System.Int32，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:50.3129839+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:30.9344980+08:00
     split: 3
     text: "和{0}好感度增加{1}"
-    translated: "Favor towards {0} has increased by {1}."
+    translated: "Affinity with {0} increased by {1}."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48931,7 +48931,7 @@
 - lineNum: 4894
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTip,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:43.8885329+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2179754+08:00
     split: 3
     text: "阶"
     translated: ""
@@ -49001,7 +49001,7 @@
 - lineNum: 4901
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,227,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:43.8885330+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2179755+08:00
     split: 3
     text: "阶"
     translated: ""
@@ -49031,7 +49031,7 @@
 - lineNum: 4904
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:33:43.8885331+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2179755+08:00
     split: 3
     text: "阶"
     translated: ""
@@ -50011,20 +50011,20 @@
 - lineNum: 5002
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,452,升序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4783205+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2180102+08:00
     split: 3
     text: "升序"
-    translated: ""
+    translated: "Ascending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 5003
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,463,降序,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4783229+08:00
+  - lastTranslatedOn: 2025-03-08T00:51:32.2180105+08:00
     split: 3
     text: "降序"
-    translated: ""
+    translated: "Descending Order"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

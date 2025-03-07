@@ -413,7 +413,7 @@
   badtrans: true
   context: Could refer to a metaphorical or literal position of leadership, typically used in maritime or leadership contexts.
 - raw: 好感
-  result: Favor
+  result: Affinity
   badtrans: true
   context: Refers to positive feelings or affection towards someone or something, often used in interpersonal contexts to describe initial attraction or goodwill.
 - raw: 亲人
@@ -594,13 +594,15 @@
   allowalt:
     - Winemaking
     - Brew
+    - winemaker 
   badtrans: true  
   direct: Wine making  
   literal: Niang jiu  
 - raw: 巧手  
   result: Skilled Hands  
-  allowedalt:
-    - Skilled Craftsmanship
+  allowalt:
+    - Skilled craftsmanship
+    - Skillful 
   badtrans: true  
   direct: Clever Hands  
   literal: Qiao shou  
