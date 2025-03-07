@@ -10,7 +10,7 @@ public class StringTokenReplacer
 {
     private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
     private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";
-    private const string NumericValueMatchPattern = @"(?<![\{=])[+-]?\d+(\.\d+)?";
+    private const string NumericValueMatchPattern = @"(?<![{<]|color=|<[^>]*)(?:[+-]?(?:\d+\.\d*|\.\d+|\d+))(?![}>])";
     private const string ColorStartMatchPattern = @"<color=[^>]+>";
     private const string KeyPressMatchPattern = @"<\w+\s+>";
     private const string KeyPressNoSpaceMatchPattern = @"<\w+\s+>";

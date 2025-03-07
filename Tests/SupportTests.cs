@@ -145,7 +145,6 @@ public class SupportTests
             glossary.Add($"  result: {trans}");
             glossary.Add($"  badtrans: true");
         }
-
         File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
     }
 
@@ -178,20 +177,38 @@ public class SupportTests
     }
 
     [Theory]
-    [InlineData("A.Hello name, welcome to place!")]
-    [InlineData("B.Hello {name}, welcome to {place}!")]
-    [InlineData("C.与{E}交谈（{IsCanFinish:0:1}/1)")]
-    [InlineData("D.击败目标点{GetZhiYingTargetPos}的{E}（{NeedKillNpcItemsCount}/{N})")]
-    [InlineData("E.击败目标点{GetZhiYingTargetPos}的{E} \\n {NeedKillNpcItemsCount}/{N})")]
-    [InlineData("F.各家学说，各抒己见，两两之间，总有克制。\\n强克制：对目标伤害提升0.5倍。被强克制：对目标伤害降低0.5倍。\\n强克制关系：道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制：对目标伤害提升0.25倍。被弱克制：对目标伤害降低0.25倍。\\n弱克制关系：道学→儒学→墨学；佛学→魔学→农学。")]
-    [InlineData("G.正有事找你，前些日子{}特意送来好礼，如今也该是回礼的日子了，你拿上此物交给{}事务总管，事成之后门中会奖励一枚不夜京承渝令。")]
-    [InlineData("H.天随人愿，历经千辛万苦，终于在{0}发现了{1}，可谓福气满满。")]
-    [InlineData("I.覆灭穆特前线的所有穆特族（{IsCanFinish:0:1}/1）")]
-    [InlineData("J.到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)")]
-    [InlineData("K.在淮陵游456玩之际，<color=&&00ff00ff>遇到{0}一123位自</color>，我观其似乎武艺高强。")]
-    [InlineData("L.王铁(1000，1000)")]
-    
-    public static void StringTokenReplacer(string original)
+    [InlineData("A.Hello name, welcome to place!", 
+            "A.Hello name, welcome to place!")]
+    [InlineData("B.Hello {name}, welcome to {place}!", 
+            "B.Hello {0}, welcome to {1}!")]
+    [InlineData("C.与{E}as（{IsCanFinish:0:1}/1)",
+            "C.与{0}as({1}/{2})")]
+    [InlineData("D.击败目标点{GetZhiYingTargetPos}的{E}（{NeedKillNpcItemsCount}/{N})", 
+            "D.击败目标点{0}的{1}({2}/{3})")]
+    [InlineData("E.击败目标点{GetZhiYingTargetPos}的{E} \\n {NeedKillNpcItemsCount}/{N})",
+        "E.击败目标点{0}的{1} \\n {2}/{3})")]
+    [InlineData("F.各家学说，各抒己见，两两之间，总有克制。\\n强克制：对目标伤害提升0.5倍。被强克制：对目标伤害降低0.5倍。\\n强克制关系：道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制：对目标伤害提升0.25倍。被弱克制：对目标伤害降低0.25倍。\\n弱克制关系：道学→儒学→墨学；佛学→魔学→农学。",
+        "F.各家学说,各抒己见,两两之间,总有克制。\\n强克制:对目标伤害提升{0}倍。被强克制:对目标伤害降低{1}倍。\\n强克制关系:道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制:对目标伤害提升{2}倍。被弱克制:对目标伤害降低{3}倍。\\n弱克制关系:道学→儒学→墨学；佛学→魔学→农学。")]
+    [InlineData("G.正有事找你，前些日子{}特意送来好礼，如今也该是回礼的日子了，你拿上此物交给{}事务总管，事成之后门中会奖励一枚不夜京承渝令。",
+            "G.正有事找你,前些日子{0}特意送来好礼,如今也该是回礼的日子了,你拿上此物交给{0}事务总管,事成之后门中会奖励一枚不夜京承渝令。")]
+    [InlineData("H.天随人愿，历经千辛万苦，终于在{1}发现了{0}，可谓福气满满。",
+            "H.天随人愿,历经千辛万苦,终于在{0}发现了{1},可谓福气满满。")]
+    [InlineData("I.覆灭穆特前线的所有穆特族（{IsCanFinish:0:1}/1）",
+            "I.覆灭穆特前线的所有穆特族({0}/{1})")]
+    [InlineData("J.到达目标点{GetZhiYingTargetPos}({IsCanFinish:0:1}/3)",
+        "J.到达目标点{0}({1}/{2})")]
+    [InlineData("K.在淮陵游456玩之际，<color=&&00ff00ff>遇到{0}一123位自</color>，我观其似乎武艺高强。",
+        "K.在淮陵游{1}玩之际,<color=0>遇到{0}一{2}位自</color>,我观其似乎武艺高强。")]
+    [InlineData("L.王铁(1000，1000)",
+        "L.王铁{0}")]
+    [InlineData("M.<size=36>5</size><size=32>人</size>",
+        "M.<size=36>{0}</size><size=32>人</size>")]
+    [InlineData("N.<color=36>10</color><size=24>人</fontsize>22.11 +14 -11",
+        "N.<color=0>{0}</color><size=24>人</fontsize>{1} {2} {3}")]
+    [InlineData("O.<fontsize=24.12>abc</fontsize>",
+        "O.<fontsize=24.12>abc</fontsize>")]
+
+    public static void StringTokenReplacer(string original, string expectedToken)
     {
         var replacer = new StringTokenReplacer();
 
@@ -207,6 +224,7 @@ public class SupportTests
         Console.WriteLine("Restored: " + restored);
 
         Assert.Equal(original, restored);
+        Assert.Equal(expectedToken, replaced);
     }
 
     [Fact]
