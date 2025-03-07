@@ -257,31 +257,31 @@
 
 
 # Dodgy
-- raw: "{{赏}}{0}"  
-  result: "{{Reward}}"
-  badtrans: true  
-  direct: Appreciate  
-  literal: Shang
-- raw: "{{限}}{0}"
-  result: "{{Limit}}"
-  badtrans: true
-  direct: Xian
-  literal: Xian
-- raw: "{{奇}}{0}"
-  result: "{{Unusual}}"
-  badtrans: true
-  direct: Qi
-  literal: Qi
-- raw: "{{谜}}{0}"
-  result: "{{Mystery}}"
-  badtrans: true
-  direct: Mi
-  literal: Mi
-- raw: "{随机}"
-  result: "{Random}"
-  badtrans: true
-  direct: Suiji
-  literal: Suiji
+# - raw: "{{赏}}{0}"  
+#   result: "{{Reward}}"
+#   badtrans: true  
+#   direct: Appreciate  
+#   literal: Shang
+# - raw: "{{限}}{0}"
+#   result: "{{Limit}}"
+#   badtrans: true
+#   direct: Xian
+#   literal: Xian
+# - raw: "{{奇}}{0}"
+#   result: "{{Unusual}}"
+#   badtrans: true
+#   direct: Qi
+#   literal: Qi
+# - raw: "{{谜}}{0}"
+#   result: "{{Mystery}}"
+#   badtrans: true
+#   direct: Mi
+#   literal: Mi
+# - raw: "{随机}"
+#   result: "{Random}"
+#   badtrans: true
+#   direct: Suiji
+#   literal: Suiji
 
 
 

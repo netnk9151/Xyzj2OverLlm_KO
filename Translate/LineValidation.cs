@@ -16,6 +16,7 @@ namespace Translate;
 public static partial class LineValidation
 {
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
+    public const string ChinesePlaceholderPattern = @"\{[a-zA-Z]*\s*\p{IsCJKUnifiedIdeographs}+\}";
     public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
 
     public static string PrepareRaw(string raw, StringTokenReplacer? tokenReplacer)
@@ -268,7 +269,7 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
         }
 
-        if (Regex.IsMatch(result, ChineseCharPattern))
+        if (Regex.IsMatch(result, ChineseCharPattern) && !Regex.IsMatch(result, ChinesePlaceholderPattern))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectChinesePrompt");

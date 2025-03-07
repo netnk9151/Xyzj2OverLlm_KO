@@ -36,7 +36,8 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>")
+            new("{{限}}{0}"),
+            //new("当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>")
             //new("<color=#b8b8b8>性别：</color>{0}"),
             //new("经脉点位由外而内分层级打通。五脏开窍不区分层级，但需打通所有经脉点。打通经脉点和五脏开窍会消耗一定的修为值。|经脉点属性分为固灵属性，附灵属性，暗灵属性。其中固灵属性激活点位时可获得；附灵属性，除大经脉点位激活拥有外，其余点位必须使用密卷激活才可附加上；暗灵属性必须使用带有效果的心法攻体激活时才会附加上。|五脏属性分为经脉属性和经脉技能。其中属性激活时可获得，也可通过密卷激活附加上；技能只能使用带有效果的心法攻体激活时才会附加上。"),
             //new("通关后天赋值"),

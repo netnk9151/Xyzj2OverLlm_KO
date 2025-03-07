@@ -853,6 +853,10 @@ public static class TranslationService
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(raw, tokenReplacer);
 
+        // If it is already translated or just special characters return it
+        if (!Regex.IsMatch(preparedRaw, pattern))
+            return new ValidationResult(true, LineValidation.CleanupLineBeforeSaving(preparedRaw, preparedRaw, textFile, tokenReplacer));
+
         // Brackets Split first - so it doesnt split stuff inside the brackets
         //var (split2, result2) = await SplitBracketsIfNeededAsync(config, preparedRaw, client, fileName);
         //if (split2)

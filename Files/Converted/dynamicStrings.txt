@@ -20291,20 +20291,20 @@
 - lineNum: 2030
   raw: "MainViewQuestItem,SetMapAreaEvent,6,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3192831+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.6489886+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{限}}{限}"
+    translated: "{{限}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 2031
   raw: "MainViewQuestItem,SetMapAreaEvent,56,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3192889+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.6489942+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{限}}{限}"
+    translated: "{{限}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23221,10 +23221,10 @@
 - lineNum: 2323
   raw: "StaffSlot,OnSelected,51,当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:05.2524166+08:00
+  - lastTranslatedOn: 2025-03-08T06:08:49.3176980+08:00
     split: 3
     text: "当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>"
-    translated: "Current position held: <color=#{0}>{1}</color>, profit enhancement: <color=#a8a8a8>x{2}</color> <color=#a8a8a8>estimated profit</color>"
+    translated: "Current position: <color=#{0}>{1}</color>, earnings multiplier: <color=#a8a8a8>{2} times</color><color=#a8a8a8> expected earnings</color>"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32591,20 +32591,20 @@
 - lineNum: 3260
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetQiyuQuest,70,{{奇}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3990589+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.7189320+08:00
     split: 3
     text: "{{奇}}{0}"
-    translated: "{{奇}}{奇}"
+    translated: "{{奇}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3261
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetJieMiQuest,69,{{谜}}{0},[SweetPotato.QuestLog]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3990646+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.7189374+08:00
     split: 3
     text: "{{谜}}{0}"
-    translated: "{{谜}}{谜}"
+    translated: "{{谜}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -32651,20 +32651,20 @@
 - lineNum: 3266
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,18,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3992408+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.7191342+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{限}}{限}"
+    translated: "{{限}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3267
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetMapAreaEvent,63,{{限}}{0},[MapAreaEvent]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:49:58.3992458+08:00
+  - lastTranslatedOn: 2025-03-08T06:07:03.7191385+08:00
     split: 3
     text: "{{限}}{0}"
-    translated: "{{限}}{限}"
+    translated: "{{限}}{0}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -34101,10 +34101,10 @@
 - lineNum: 3411
   raw: "SweetPotato.NpcSpellDynamic,CreateVirtualSpellPrototype,747,guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败,[SweetPotato.NpcEntity，SweetPotato.NpcSpellDynamic，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:06.2918823+08:00
+  - lastTranslatedOn: 2025-03-08T06:08:49.4959803+08:00
     split: 3
     text: "guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败"
-    translated: "Guid: {0},npcSpellDynamic: {0},slot: {0}'s equipment failed"
+    translated: "Guid: {0},npcSpellDynamic: {0},slot: {1} equipment failure"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -39271,10 +39271,10 @@
 - lineNum: 3928
   raw: "SweetPotato.NpcEntity,Init,670,随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:40:53.4757862+08:00
+  - lastTranslatedOn: 2025-03-08T06:09:12.5793994+08:00
     split: 3
     text: "随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误"
-    translated: "The randomly assigned character with guid {0} and protoGuid {1} has been placed in the 'Evernight Capital' sect, error."
+    translated: "The randomly assigned character with guid:{0} and protoGuid:{1} has been placed in the 'Evernight Capital' sect, error."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -48931,10 +48931,10 @@
 - lineNum: 4894
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTip,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:34.1328766+08:00
+  - lastTranslatedOn: 2025-03-08T05:47:45.1356883+08:00
     split: 3
     text: "阶"
-    translated: ""
+    translated: "Step"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -49001,10 +49001,10 @@
 - lineNum: 4901
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,227,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:34.1328771+08:00
+  - lastTranslatedOn: 2025-03-08T05:47:45.1356886+08:00
     split: 3
     text: "阶"
-    translated: ""
+    translated: "Step"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -49031,10 +49031,10 @@
 - lineNum: 4904
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTipByXSY,ShowItemTip,301,阶,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-08T04:47:34.1328772+08:00
+  - lastTranslatedOn: 2025-03-08T05:47:45.1356887+08:00
     split: 3
     text: "阶"
-    translated: ""
+    translated: "Step"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""

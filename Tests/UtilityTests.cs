@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Translate.Support;
 using Translate.Utility;
@@ -162,5 +163,27 @@ public class UtilityTests
         Assert.Equal(expected, result);
         Assert.Equal(expectedStart, start);
         Assert.Equal(expectedEnd, end);
+    }
+
+    [Theory]
+    [InlineData("{Hello你好}", true)]   // Test with both English and CJK characters
+    [InlineData("{Hello 你好}", true)]   // Test with both English and CJK characters
+    [InlineData("{你好}", true)]         // Test with only CJK characters
+    [InlineData("{Hello}", false)]      // Test with only English characters (should fail)
+    [InlineData("{Hello123}", false)]   // Test with English characters and numbers (should fail)
+    [InlineData("{ }", false)]          // Test with empty curly braces (should fail)
+    [InlineData("{}", false)]          // Test with empty curly braces (should fail)
+    [InlineData("{0}", false)]          // Test with number
+    [InlineData("{0 }", false)]          
+    [InlineData("{A }", false)]          
+    [InlineData("{你好 }", false)]          
+    public void TestChinesePlaceholderPattern(string input, bool expectedResult)
+    {
+        // Compile the regex
+        var regex = new Regex(LineValidation.ChinesePlaceholderPattern);
+
+        // Check if the input matches the pattern and assert the result
+        var result = regex.IsMatch(input);
+        Assert.Equal(expectedResult, result);
     }
 }
