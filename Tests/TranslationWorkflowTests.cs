@@ -1,5 +1,6 @@
 ﻿using System.IO.Compression;
 using System.Text.RegularExpressions;
+using Translate.Utility;
 
 namespace Translate.Tests;
 

@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
+using Translate.Utility;
 
 namespace Translate;
 
@@ -285,22 +286,25 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
         }
 
+        if (raw.Contains('<'))
+            response &= HtmlTagValidator.ValidateTags(raw, result, textFile.IsMainDialogueAsset);
+
         //TODO: This is doing wierd shit
-        if (result.Contains('<') && !result.Contains("<br>") 
-            && !result.Contains("<color") && !result.Contains("</color"))
-        {
-            // Check markup
-            var markup = FindMarkup(raw);
-            if (markup.Count > 0)
-            {
-                var resultMarkup = FindMarkup(result);
-                if (resultMarkup.Count != markup.Count)
-                {
-                    response = false;
-                    correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
-                }
-            }
-        }
+        //if (result.Contains('<') && !result.Contains("<br>") 
+        //    && !result.Contains("<color") && !result.Contains("</color"))
+        //{
+        //    // Check markup
+        //    var markup = FindMarkup(raw);
+        //    if (markup.Count > 0)
+        //    {
+        //        var resultMarkup = FindMarkup(result);
+        //        if (resultMarkup.Count != markup.Count)
+        //        {
+        //            response = false;
+        //            correctionPrompts.AddPromptWithValues(config, "CorrectTagPrompt");
+        //        }
+        //    }
+        //}
 
         if (textFile.NameCleanupRoutines)
         {

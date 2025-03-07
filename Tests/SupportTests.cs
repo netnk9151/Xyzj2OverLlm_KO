@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using Xunit.Sdk;
 using System.Security.Cryptography;
 using Translate.Support;
+using Translate.Utility;
 
 namespace Translate.Tests;
 
@@ -274,6 +275,25 @@ public class SupportTests
     public void RemoveFullStop_Tests(string input, string expected)
     {
         string result = LineValidation.RemoveFullStop("", input);
+        Assert.Equal(expected, result);
+    }
+
+    [Theory]
+    [InlineData("<size=30>可分配点数<color=#ff0000>不足</color></size>", "<size=3>0 Allocatable Points <color=#ff0000>Insufficient</color></size>", false)]
+    [InlineData("<size=30>可分配点数<color=#ff0000>不足</color></size>", "<size=30> Allocatable Points <color=#ff0000>Insufficient</color></size>", true)]
+    [InlineData("<size=30>可分配点数<color=#ff0000>不足</color></size>", "<size=30> Allocatable Points Insufficient</size>", true, true)]
+    [InlineData("<size=30>可分配点数<color=#ff0000>不足</color></size>", "<size=30> Allocatable Points Insufficient</size>", false, false)]
+    [InlineData("<b>Hello</b>", "<b>Bonjour</b>", true)]
+    [InlineData("<i>Test</i>", "<b>Test</b>", false)]
+    [InlineData("<p class='text'>Paragraph</p>", "<p class='text'>Paragraphe</p>", true)]
+    [InlineData("<div id='main'><span>Text</span></div>", "<div id='main'><span>Texte</span></div>", true)]
+    [InlineData("<div class='container'><span>Text</span></div>", "<div class='content'><span>Texte</span></div>", false)]
+    [InlineData("<span style='color:red;'>Text</span>", "<span style='color:blue;'>Text</span>", false)]
+    [InlineData("<button disabled>Click</button>", "<button disabled>Click</button>", true)]
+    public void HtmlTagValidator_ValidateTags_Tests(string raw, string translated, bool expected, bool allowMissingColors = false)
+    {
+        bool result = HtmlTagValidator.ValidateTags(raw, translated, allowMissingColors);
+
         Assert.Equal(expected, result);
     }
 }

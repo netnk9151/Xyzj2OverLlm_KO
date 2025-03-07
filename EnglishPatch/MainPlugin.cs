@@ -5,19 +5,12 @@ using HarmonyLib;
 using SweetPotato;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TMPro;
-using TriangleNet;
-using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
-using static MouseSimulator;
 
 namespace EnglishPatch;
 
@@ -43,28 +36,6 @@ public class MainPlugin : BaseUnityPlugin
     public void OnDestroy()
     {
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is destroyed!");
-    }
-
-    [HarmonyPrefix, HarmonyPatch(typeof(MessageBox), nameof(MessageBox.Show))]
-    public static bool Prefix_MessageBox_Show(MessageBox __instance, string txt, UnityAction call, bool confirmBtnOnly, string confirmBtxTex, string cancleBtnTxt, UnityAction cancelAtion)
-    {
-        Logger.LogWarning("Hooked MessageBox!");
-
-        //SweetPotato.InstantiateViewNewNew
-        //MessageBox.
-
-        return true;
-    }
-
-    [HarmonyPostfix, HarmonyPatch(typeof(MessageBox), nameof(MessageBox.Show))]
-    public static void Prefix_MessageBox_Show(MessageBox __instance)
-    {
-        Logger.LogWarning("Hooked Postfix MessageBox!");
-
-        var txtContent = AccessTools.Field(typeof(MessageBox), "txtContent").GetValue(__instance) as TextMeshProUGUI;
-        Logger.LogWarning($"Text: {txtContent?.text} Size = {txtContent?.fontSize}");
-        //SweetPotato.InstantiateViewNewNew
-        //MessageBox.
     }
 
     // Replace assets with translated assets
@@ -96,6 +67,23 @@ public class MainPlugin : BaseUnityPlugin
     {
         Logger.LogWarning($"Translated Assets Loaded!");
     }
+
+    [HarmonyPrefix, HarmonyPatch(typeof(MessageBox), nameof(MessageBox.Show))]
+    public static bool Prefix_MessageBox_Show()
+    {
+        Logger.LogWarning("Hooked MessageBox!");
+
+        return true;
+    }
+
+    //[HarmonyPostfix, HarmonyPatch(typeof(MessageBox), nameof(MessageBox.Show))]
+    //public static void Postfix_MessageBox_Show(MessageBox __instance)
+    //{
+    //    Logger.LogWarning("Hooked Postfix MessageBox!");
+
+    //    var txtContent = AccessTools.Field(typeof(MessageBox), "txtContent").GetValue(__instance) as TextMeshProUGUI;
+    //    Logger.LogWarning($"Text: {txtContent?.text} Size = {txtContent?.fontSize}");
+    //}
 
     //Remove Name Restrictions
     [HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.InstantiateViewNewNew_mobile), "Awake")]

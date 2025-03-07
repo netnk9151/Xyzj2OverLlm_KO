@@ -17483,12 +17483,12 @@
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
-  - lastTranslatedOn: 2025-03-06T18:11:48.1188946+08:00
+  - lastTranslatedOn: 2025-03-07T12:15:08.4045318+08:00
     split: 33
     text: "阳状态，该状态下会克制阴，会给处于阴状态目标有额外伤害，基础伤害克制"
-    translated: "In a Yang state, this condition suppresses Yin and inflicts additional damage on targets in a Yin state, providing basic damage suppression."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "External Injury,外伤,"
+    translated: "In the Yang state, this condition suppresses Yin and deals additional damage to targets in the Yin state. It also provides basic damage suppression."
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 20021
   raw: "20021#阳-触发#1#1#3#1#15000#1000#0#0##0##2#2.0#180.0#10000#0#0#0#2#1#1#10000#0#0#29##0#0#0#0#灼烧#每秒损失施加者阳属性*1的伤害，持续15秒。#newbuff_yang#0#0#20021#2##0#0#0#20021##0#0##0.0#0.0###0#"
@@ -26161,8 +26161,8 @@
     split: 33
     text: "中毒效果增加1%"
     translated: "Poison effect increased by 1%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74160
   raw: "74160#0#1#31#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50237#1#0#0##0#1#0#0#附骨#毒属性技能伤害提升2%#0#0#0#74160#0#0#0#2#0#74160##0#0#0#0.0#0.0###0#"
@@ -26317,8 +26317,8 @@
     split: 33
     text: "中毒效果增加3%"
     translated: "Poison effect increased by 3%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74250
   raw: "74250#0#1#15#0#1#0#0#0#0#0|32|1500|0#0#0#0#0#0#10000#1#1000#0#0#0#2#0#0#0#74251##0#1#0#0#蚀心#自身毒属性达到1500，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少90(唯一生效)#0#0#0#74250#0#0#0#0#0#74250##0#0#0#0.0#0.0###0#"
@@ -26405,8 +26405,8 @@
     split: 33
     text: "中毒效果增加4%"
     translated: "Poison effect increased by 4%."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Poisoned,中毒,"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 74300
   raw: "74300#0#1#15#0#1#0#0#0#0#0|32|2000|0#0#0#0#0#0#10000#1#1000#0#0#0#2#0#0#0#74301##0#1#0#0#蚀心#自身毒属性达到2000，攻击目标时，目标内外攻、内外防、诛心、御心、命中减少120(唯一生效)#0#0#0#74300#0#0#0#0#0#74300##0#0#0#0.0#0.0###0#"
@@ -38549,8 +38549,8 @@
     split: 33
     text: "每10次攻击会对身前2米180扇形敌人触发一次破浪击伤害并附加无赦，调息6秒。无赦：引爆目标身上的伤口直接造成一次枪棍*1的伤害，目标身上每层撕骨裂会使伤害增加1倍。"
     translated: ""
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    flaggedForRetranslation: false
+    flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 196045
   raw: "196045#破浪击-伤害#0#1#3#1#0#0#sound_jian_hurt3#0#0#0#0#0#2.0#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#50#0#0#0#0#0#0#196045#0#0#0#0#0#196045#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###0#"

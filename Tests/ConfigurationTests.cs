@@ -1,4 +1,5 @@
-﻿using YamlDotNet.Serialization;
+﻿using Translate.Utility;
+using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace Translate.Tests;
