@@ -121,7 +121,7 @@
     - dynamicStrings.txt
     - dumpedPrefabText.txt
 - raw: 武林新秀  
-  result: Rising Star 
+  result: Wulin Rising Star 
   badtrans: true  
   only:
     - dynamicStrings.txt
@@ -139,7 +139,7 @@
     - dynamicStrings.txt
     - dumpedPrefabText.txt
 - raw: 独步天下
-  result: Unrivaled
+  result: Unrivaled in the World
   badtrans: true
   only:
     - dynamicStrings.txt
@@ -363,6 +363,9 @@
   badtrans: false
 - raw: 研发
   result: Development
+  allowalt:
+    - Research
+    - Develop
   badtrans: true
 - raw: 打造
   result: Forge
@@ -574,11 +577,13 @@
   badtrans: false  
 - raw: 农学  
   result: Agriculture 
-  badtrans: true  
+  badtrans: false  
   direct: Agricultural Science  
   literal: Nongxue 
 - raw: 墨学  
   result: Mohism  
+  allowalt:
+      - Mohist
   badtrans: true  
   direct: Mohist Philosophy  
   literal: Moxue  
@@ -612,7 +617,9 @@
   direct: Board Game Art  
   literal: Qiyi  
 - raw: 垂钓  
-  result: Fishing  
+  result: Fishing
+  allowalt: 
+    - Fish
   badtrans: true  
   direct: Angling  
   literal: Chuidiao
@@ -622,6 +629,7 @@
     - Winemaking
     - Brew
     - winemaker 
+    - fermentation
   badtrans: true  
   direct: Wine making  
   literal: Niang jiu  
@@ -722,6 +730,7 @@
     - Scissor
     - Saber
     - Dao
+    - Scabbard 
   badtrans: true
 - raw: 暗器
   result: Hidden Weapon
@@ -736,15 +745,16 @@
   result: Spear & Staff
   allowalt: 
     - Spear and Staff
+    - Spear   
   badtrans: true
 - raw: 棍
   result: Staff
   context: More like club or cludgel or stick. Also used as part of other words
-  badtrans: true
+  badtrans: false
 - raw: 杖
   result: Staff
   context: More like walking stick or formal staff
-  badtrans: true
+  badtrans: false
 
 # Arts
 - raw: 枪法
@@ -799,8 +809,8 @@
   literal: Yuanqi  
 - raw: 气血  
   result: Lifeforce  
-  badtrans: true  
-  direct: Qi and blood  
+  badtrans: false 
+  direct: Qi and Blood  
   literal: Qixue  
 - raw: 真气
   result: True Qi
@@ -934,6 +944,8 @@
   badtrans: true
 - raw: 承让了
   result: I respectfully concede
+  allowalt: 
+    - Respectfully concede
   badtrans: true
 - raw: 柔茹刚吐
   result: Softness devours hardness and spits it out.
@@ -956,7 +968,7 @@
   badtrans: true
 - raw: 呜...
   result: Wu...
-  badtrans: true
+  badtrans: false
 - raw: 齁齁齁
   result: Hohoho
   badtrans: true
@@ -965,7 +977,7 @@
   badtrans: true
 - raw: 齁...
   result: Ho..
-  badtrans: true
+  badtrans: false
 - raw: 嘎嘎嘎
   result: Gagaga
   badtrans: true
@@ -974,7 +986,7 @@
   badtrans: true
 - raw: 嘎...
   result: Ga...
-  badtrans: true
+  badtrans: false
 - raw: 嘶…
   result: Hiss
   badtrans: true
@@ -992,7 +1004,7 @@
   badtrans: true
 - raw: 咕...
   result: Gu...
-  badtrans: true
+  badtrans: false
 - raw: 咯咯咯
   result: Gegege
   badtrans: true
@@ -1001,7 +1013,7 @@
   badtrans: true
 - raw: 咯...
   result: Ge...
-  badtrans: true
+  badtrans: false
 - raw: 吱吱吱
   result: Zhizhizhi
   badtrans: true
@@ -1010,7 +1022,7 @@
   badtrans: true
 - raw: 吱...
   result: Zhi...
-  badtrans: true
+  badtrans: false
 - raw: 唔吱
   result: Wuzhi
   badtrans: true
@@ -1049,12 +1061,15 @@
 # Status
 - raw: 内伤
   result: Internal Injury
+  allowalt:  
+    - Internal Injuries
   badtrans: true
 - raw: 外伤
   result: External Injury
   allowalt: 
     - Extra Damage # For situations like 额外伤害
     - Damage
+    - External Injuries
   badtrans: true
 - raw: 中毒
   result: Poisoned
@@ -1064,9 +1079,10 @@
   badtrans: true
 - raw: 迷惑
   result: Confusion
-  alt:
+  allowalt:
     - Confuse
-  badtrans: true
+    - mesmerizing
+  badtrans: false
 - raw: 冰封
   result: Frozen
   badtrans: true
@@ -1225,14 +1241,14 @@
   result: Deer
   allowalt: 
     - Lu
-  badtrans: true
+  badtrans: false
 - raw: 虎
   result: Tiger
   context: Sometimes used as literal names
   allowalt: 
     - Hu
     - Gecko #Wall Tiger
-  badtrans: true
+  badtrans: false
 - raw: 僧侣
   result: Monk
   badtrans: true
@@ -1251,9 +1267,13 @@
   badtrans: true
 - raw: 大侠
   result: Great Hero
+  allowalt:
+    - Hero
   badtrans: true
 - raw: 少侠
   result: Young Hero
+  allowalt:
+    - Hero
   badtrans: true
 - raw: 前辈
   result: Senior
@@ -1401,7 +1421,7 @@
     - Husband
   context: Used as a respectful address for man of noble status or of a high-ranking official.
   literal: Da Ren
-  badtrans: true
+  badtrans: false
 - raw: 师傅
   result: Master
   context: Used for an experienced person in a particular skill or trade, similar to master craftsman or teacher.
@@ -1412,6 +1432,7 @@
   context: A respectful yet informal address to young women, often implying youthfulness or elegance. Can also be used for Girl.
   allowalt: 
     - Girl
+    - Daughter
   literal: Gu Niang
   badtrans: true
 - raw: 掌柜
