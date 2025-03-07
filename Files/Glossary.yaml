@@ -175,6 +175,16 @@
   result: Myriad Skills
   badtrans: true
   literal: Wàn zōng
+- raw: 升序  
+  result: Ascending Order  
+  badtrans: true  
+  direct: Increasing Sequence  
+  literal: Sheng xu  
+- raw: 降序  
+  result: Descending Order  
+  badtrans: true  
+  direct: Decreasing Sequence  
+  literal: Jiang xu
 
 # Time
 - raw: 秒  
@@ -576,9 +586,39 @@
   literal: Qiyi  
 - raw: 垂钓  
   result: Fishing  
-  badtrans: false  
+  badtrans: true  
   direct: Angling  
   literal: Chuidiao
+- raw: 酿酒  
+  result: Brewing  
+  allowalt:
+    - Winemaking
+    - Brew
+  badtrans: true  
+  direct: Wine making  
+  literal: Niang jiu  
+- raw: 巧手  
+  result: Skilled Hands  
+  allowedalt:
+    - Skilled Craftsmanship
+  badtrans: true  
+  direct: Clever Hands  
+  literal: Qiao shou  
+- raw: 炼器  
+  result: Refining 
+  allowalt:
+    - refinement
+  badtrans: true  
+  direct: Refining Equipment  
+  literal: Lian qi  
+- raw: 画道  
+  result: Painting
+  allowalt:
+    - Art of Painting
+    - Painting Way
+  badtrans: true  
+  direct: Painting Way  
+  literal: Hua dao  
 - raw: 酒量  
   result: Alcohol Tolerance  
   badtrans: false  
@@ -603,7 +643,7 @@
   literal: Bingdao  
 - raw: 搏击  
   result: Combat  
-  badtrans: false  
+  badtrans: true  
   direct: Struggle and Fight  
   literal: Boji
 - raw: 魔学  
