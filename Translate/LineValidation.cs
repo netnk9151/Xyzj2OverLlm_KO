@@ -155,6 +155,7 @@ public static partial class LineValidation
         if (result.Contains("provide the text")
             || result.Contains("Certainly! Please provide the Chinese strings")
             || result.Contains("translates to")
+            || result.Contains("also known as") // TODO Verify if this is a problem
             || result.Contains("'''") 
             || result.Contains("<p")
             || result.Contains("</p")

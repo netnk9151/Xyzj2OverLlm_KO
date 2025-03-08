@@ -49,6 +49,12 @@
   direct: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
   literal: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
 
+- raw: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误 " 
+  result: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error.  "
+  badtrans: true  
+  direct: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+  literal: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+
 - raw: "{E}丹道博大精深，我炼丹十次，只觉其中需胆大心细，对于药材比例的理解更要专注，差之毫厘谬以千里！"
   result: "{E} The art of alchemy is profound. After refining elixirs ten times, I realize it requires both boldness and meticulousness. Understanding the correct proportions of materials demands even more focus. A small mistake could lead to a huge difference!"
   badtrans: true

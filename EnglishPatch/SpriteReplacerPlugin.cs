@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
+using EnglishPatch.Support;
 using Mono.Cecil;
 using System;
 using System.Collections.Generic;
@@ -148,7 +149,7 @@ namespace EnglishPatch
 
             if (context.Asset is GameObject prefab)
             {
-                var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();
+                var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();                
 
                 // Log game objects to make it easier to find
                 if (allChildren.Length > 0)
@@ -169,8 +170,12 @@ namespace EnglishPatch
         {
             var shouldMatch = _cachedSpriteNames.Contains(child.name) || _cachedSpriteNames.Contains(child.sprite?.name);
 
+            var spritePath = ObjectHelper.GetPath(child);
+
             if (child.sprite != null)
             {
+                //Logger.LogInfo($"Sprite found: {spritePath}");
+
                 var spriteKey = PrepareSpriteKey(parentAssetName, child.sprite.name);
 
                 if (_cachedReplacements.TryGetValue(spriteKey, out var replacementTexture))
@@ -183,6 +188,8 @@ namespace EnglishPatch
                 else if (shouldMatch)
                     Logger.LogError($"Did not match SpriteKey: {spriteKey}");
             }
+            //else
+                //Logger.LogInfo($"No Sprite: {spritePath}");
         }
 
         //private void ProcessTexture(AssetLoadedContext context, string fullPath)
