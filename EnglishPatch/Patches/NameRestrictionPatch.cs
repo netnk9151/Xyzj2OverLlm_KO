@@ -64,4 +64,31 @@ public static class NameRestrictionPatch
         }
     }
 
+    [HarmonyPostfix, HarmonyPatch(typeof(FaceSetView), "Awake")]
+    public static void Postfix_FaceSetView_Awake(FaceSetView __instance)
+    {
+        MainPlugin.Logger.LogWarning("Postfix_InstantiateViewNewNew_mobile_Awake");
+
+        var nameInput = AccessTools.Field(typeof(FaceSetView), "m_InputField").GetValue(__instance) as TMP_InputField;
+        var nextButton = AccessTools.Field(typeof(FaceSetView), "btn_Input").GetValue(__instance) as Button;
+
+        MainPlugin.Logger.LogWarning($"Hooked FaceSetView Awake! {nameInput} {nextButton}");
+
+        if (nameInput != null && nextButton != null)
+        {
+            nameInput.onValueChanged.RemoveAllListeners();
+            nameInput.onValueChanged.AddListener((string newStr) =>
+            {
+                // Always allow the name, removing keyword restrictions
+                nextButton.interactable = Tools.IsStrAvailable(newStr);
+            });
+
+            nameInput.onEndEdit.RemoveAllListeners();
+            nameInput.onEndEdit.AddListener((string newStr) =>
+            {
+                // Always allow the name, removing keyword restrictions
+                nextButton.interactable = Tools.IsStrAvailable(newStr);
+            });
+        }
+    }
 }

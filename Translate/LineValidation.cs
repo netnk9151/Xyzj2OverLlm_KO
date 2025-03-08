@@ -153,6 +153,7 @@ public static partial class LineValidation
 
         // Didnt translate at all and default response to prompt.
         if (result.Contains("provide the text")
+            || result.Contains("Certainly! Please provide the Chinese strings")
             || result.Contains("translates to")
             || result.Contains("'''") 
             || result.Contains("<p")
