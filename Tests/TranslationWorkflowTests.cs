@@ -273,7 +273,7 @@ public class TranslationWorkflowTests
             if (split.Translated != value)
             {
                 logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
-                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, textFile, tokenReplacer);
+                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, textFile, new StringTokenReplacer());
                 split.ResetFlags();
                 return true;
             }
@@ -365,8 +365,8 @@ public class TranslationWorkflowTests
         //    modified = true;
         //}
 
-        // Clean up Diacritics
-        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, textFile, tokenReplacer);
+        // Clean up Diacritics -- Use a new tokenizer because the translated isnt generated off the prep raw
+        var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, textFile, new StringTokenReplacer());
         if (cleanedUp != split.Translated)
         {
             logLines.Add($"Cleaned up {textFile.Path} \n{split.Translated}\n{cleanedUp}");

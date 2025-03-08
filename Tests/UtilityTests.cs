@@ -44,6 +44,7 @@ public class UtilityTests
        "N.<color=0>{0}</color><size=24>人</fontsize>{1} {2} {3}")]
     [InlineData("O.<fontsize=24.12>abc</fontsize>",
        "O.<fontsize=24.12>abc</fontsize>")]
+    [InlineData("{{限}}{0}", "{{0}}{1}")]
 
     public static void StringTokenReplacer(string original, string expectedToken)
     {
@@ -52,8 +53,6 @@ public class UtilityTests
         //Want string cleaned up
         original = LineValidation.PrepareRaw(original, null);
         string replaced = replacer.Replace(original);
-
-
         string restored = replacer.Restore(replaced);
 
         Console.WriteLine("Original: " + original);

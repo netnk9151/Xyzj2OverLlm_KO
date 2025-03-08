@@ -65,8 +65,11 @@ public class StringTokenReplacer
 
         foreach (var token in otherTokens)
         {
-            result = result.Replace(token, $"{{{index}}}");
-            placeholderMap.Add(index++, token);
+            if (result.Contains(token))
+            {
+                result = result.Replace(token, $"{{{index}}}");
+                placeholderMap.Add(index++, token);
+            }
         }
 
         return result;
