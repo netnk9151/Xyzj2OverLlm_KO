@@ -359,8 +359,8 @@ public static class TranslationService
     public static async Task FillTranslationCacheAsync(string workingDirectory, int charsToCache, Dictionary<string, string> cache, LlmConfig config)
     {
         // Add Manual adjustments 
-        //foreach (var k in GetManualCorrections())
-        //    cache.Add(k.Key, k.Value);
+        foreach (var k in config.ManualTranslations)
+            cache.Add(k.Raw, k.Result);
 
         // Add Glossary Lines to Cache
         foreach (var line in config.GlossaryLines)

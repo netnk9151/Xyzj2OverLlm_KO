@@ -32,6 +32,9 @@ public class LlmConfig
     public List<GlossaryLine> GlossaryLines { get; set; } = [];
 
     [YamlIgnore]
+    public List<GlossaryLine> ManualTranslations { get; set; } = [];
+
+    [YamlIgnore]
     public Dictionary<string, string> TranslationCache { get; set; } = [];
 }
 
@@ -45,6 +48,7 @@ public static class Configuration
         response.WorkingDirectory = workingDirectory;
         response.Prompts = CachePrompts(workingDirectory);
         response.GlossaryLines = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/Glossary.yaml", Encoding.UTF8));
+        response.ManualTranslations = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/ManualTranslations.yaml", Encoding.UTF8));
 
         return response;
     }

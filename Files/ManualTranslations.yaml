@@ -1,0 +1,75 @@
+﻿
+# Skills
+- raw: <color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>
+  result: <color=#E7BF87>Northern Abyss Fist:</color><color=#DADBD5> After switching to the <color=#FF9971>Fist</color> style, increase Critical Attribute by 10% for 5 seconds and reduce damage taken by 5%.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Bei Ming Xuan Quan:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Quan</color> taolu hou 5 miao nei tisheng 10% Yaohai shuxing, jianshao 5% suo shou shanghai.</color>
+  literal: <color=#E7BF87>Bei Ming Xuan Quan:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Quan</color> taolu hou 5 miao nei tisheng 10% Yaohai shuxing, jianshao 5% suo shou shanghai.</color>
+
+- raw: <color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>
+  result: <color=#E7BF87>Soaring Dragon Spear:</color><color=#DADBD5> After switching to the <color=#FF9971>Spear</color> style, increase External Attack attribute by 10% for 5 seconds and gain a shield equal to 5% of max HP.</color>
+  badtrans: true
+  direct: <color=#E7BF87>You Long Hua Qiang:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Qiang</color> taolu hou 5 miao nei tisheng 10% Wai Gong shuxing, huode qixue zuidazhi 5% de hudun.</color>
+  literal: <color=#E7BF87>You Long Hua Qiang:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Qiang</color> taolu hou 5 miao nei tisheng 10% Wai Gong shuxing, huode qixue zuidazhi 5% de hudun.</color>
+
+- raw: <color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>
+  result: <color=#E7BF87>Blade’s Resolute Heart:</color><color=#DADBD5> After switching to the <color=#FF9971>Blade</color> style, increase Internal Attack attribute by 10% for 5 seconds and gain 5% damage reflection.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Ren Xia Dao Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Dao</color> taolu hou 5 miao nei tisheng 10% Nei Gong shuxing, huode 5% fanshang.</color>
+  literal: <color=#E7BF87>Ren Xia Dao Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Dao</color> taolu hou 5 miao nei tisheng 10% Nei Gong shuxing, huode 5% fanshang.</color>
+
+- raw: <color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>
+  result: <color=#E7BF87>Heroic Sword Heart:</color><color=#DADBD5> After switching to the <color=#FF9971>Sword</color> style, increase Heart-Piercing attribute by 10% for 5 seconds and restore 5% of damage dealt as health when attacking a target.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Xia Dan Jian Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Jian</color> taolu hou 5 miao nei tisheng 10% Zhuxin shuxing, zai gongji mubiao shi huifu shanghai 5% de shengmingzhi.</color>
+  literal: <color=#E7BF87>Xia Dan Jian Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Jian</color> taolu hou 5 miao nei tisheng 10% Zhuxin shuxing, zai gongji mubiao shi huifu shanghai 5% de shengmingzhi.</color>
+
+- raw: <color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>
+  result: <color=#E7BF87>Thousand Phantom Arsenal:</color><color=#DADBD5> After switching to the <color=#FF9971>Hidden Weapon</color> style, increase Critical Attribute by 10% for 2 seconds, restore 1% True Qi, and increase damage dealt by 5%.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Qian Huan Wan Qi:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>An Qi</color> taolu hou 2 miao nei tisheng 10% Yaohai, huifu 1% Zhen Qi bing tisheng 5% zaoche shanghai.</color>
+  literal: <color=#E7BF87>Qian Huan Wan Qi:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>An Qi</color> taolu hou 2 miao nei tisheng 10% Yaohai, huifu 1% Zhen Qi bing tisheng 5% zaoche shanghai.</color>
+
+- raw: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
+  result: "Current Position: <color=#f1c36b>Top Performer</color>, Earnings Bonus: <color=#da914b>2x</color><color=#a8a8a8>Estimated Earnings</color>"
+  badtrans: true
+  direct: "Dangqian ren zhiwei: <color=#f1c36b>Toupai</color>, shouyi jiacheng: <color=#da914b>2 bei</color><color=#a8a8a8>Yuji shouyi</color>"
+  literal: "Dangqian ren zhiwei: <color=#f1c36b>Toupai</color>, shouyi jiacheng: <color=#da914b>2 bei</color><color=#a8a8a8>Yuji shouyi</color>"
+
+- raw: "当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>"
+  result: "Current Position: <color=#{0}>{1}</color>, Earnings Bonus: <color=#da914b>{2}x</color><color=#a8a8a8>Estimated Earnings</color>"
+  badtrans: true
+  direct: "Dangqian ren zhiwei: <color=#{0}>{1}</color>, shouyi jiacheng: <color=#da914b>{2} bei</color><color=#a8a8a8>Yuji shouyi</color>"
+  literal: "Dangqian ren zhiwei: <color=#{0}>{1}</color>, shouyi jiacheng: <color=#da914b>{2} bei</color><color=#a8a8a8>Yuji shouyi</color>"
+
+  # Prototypes & Debugging
+- raw: "随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误"
+  result: "The randomly assigned character with guid:{0} and protoGuid:{1} has been placed in the 'Evernight Capital' sect, error."
+  badtrans: true
+  direct: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
+  literal: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
+
+- raw: "{E}丹道博大精深，我炼丹十次，只觉其中需胆大心细，对于药材比例的理解更要专注，差之毫厘谬以千里！"
+  result: "{E} The art of alchemy is profound. After refining elixirs ten times, I realize it requires both boldness and meticulousness. Understanding the correct proportions of materials demands even more focus. A small mistake could lead to a huge difference!"
+  badtrans: true
+  direct: "{E} Dan dao bodajingshen, wo liandan shici, zhi jue qizhong xu dan da xin xi, dui yu yao cai bili de lijie geng yao zhuanzhu, cha zhi haoli miu yi qianli!"
+  literal: "{E} Dan dao bodajingshen, wo liandan shici, zhi jue qizhong xu dan da xin xi, dui yu yao cai bili de lijie geng yao zhuanzhu, cha zhi haoli miu yi qianli!"
+
+- raw: 意外收到了{1}赠送的{0}，令我颇为惊喜。
+  result: I was pleasantly surprised to unexpectedly receive {0} gifted by {1}.
+  badtrans: true
+  direct: Yiwai shoudao le {1} zengsong de {0}, ling wo pō wéi jīngxǐ.
+  literal: Yiwai shoudao le {1} zengsong de {0}, ling wo pō wéi jīngxǐ.
+
+- raw: "{P}少侠慢走，往后{P}少侠便是我麓山书院上宾，还请{P}日后有空可来做客。"
+  result: "Young hero {P}, please take care, and in the future, {P} will be an esteemed guest at my Mount Lu Academy. Please feel free to visit when you have time."
+  badtrans: true
+  direct: "{P} Shaoxia manzou, wanghou {P} Shaoxia bian shi wo Lushan shuyuan shangbin, hai qing {P} rihou you kong ke lai zuo ke."
+  literal: "{P} Shaoxia manzou, wanghou {P} Shaoxia bian shi wo Lushan shuyuan shangbin, hai qing {P} rihou you kong ke lai zuo ke."
+
+- raw: "{P}是吧，你的实力我认可，功夫是杀人技，高手过招，既分胜负，也决生死，我两只有一个能活，你可做好准备了？"
+  result: "{P}, right? I acknowledge your strength. Kung fu is a deadly skill, and when masters fight, there's not only a winner and a loser, but also life and death. Only one of us can live. Are you ready for this?"
+  badtrans: true
+  direct: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
+  literal: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
+

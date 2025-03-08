@@ -130,14 +130,6 @@ public class TranslationWorkflowTests
         await Task.CompletedTask;
     }
 
-    public static Dictionary<string, string> GetManualCorrections()
-    {
-        return [
-                // Manual
-                //{  "奖励：", "Reward:" },
-            ];
-    }
-
     [Fact(DisplayName = "0. Reset All Flags")]
     public async Task ResetAllFlags()
     {
@@ -160,7 +152,6 @@ public class TranslationWorkflowTests
     {
         var config = Configuration.GetConfiguration(workingDirectory);
         var totalRecordsModded = 0;
-        var manual = GetManualCorrections();
         var logLines = new List<string>();
 
 
@@ -204,7 +195,7 @@ public class TranslationWorkflowTests
                         continue;
                     }
 
-                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, manual, split, textFile, config))
+                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, split, textFile, config))
                         recordsModded++;
                 }
 
@@ -225,7 +216,7 @@ public class TranslationWorkflowTests
         return totalRecordsModded;
     }
 
-    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, Dictionary<string, string> manual, TranslationSplit split, TextFileToSplit textFile,
+    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, TranslationSplit split, TextFileToSplit textFile,
         LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
@@ -267,18 +258,22 @@ public class TranslationWorkflowTests
             }
         }
 
-        // Add Manual Translations in that are missing        
-        if (manual.TryGetValue(preparedRaw, out string? value))
-        {
-            if (split.Translated != value)
-            {
-                logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
-                split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(value), split.Text, textFile, new StringTokenReplacer());
-                split.ResetFlags();
-                return true;
-            }
+        // Add Manual Translations in that are missing
 
-            return false;
+        foreach (var manual in config.ManualTranslations)
+        {
+            if (split.Text == manual.Raw)
+            {
+                if (split.Translated != manual.Result)
+                {
+                    logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
+                    split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(manual.Result), split.Text, textFile, new StringTokenReplacer());
+                    split.ResetFlags();
+                    return true;
+                }
+
+                return false;
+            }
         }
 
         // Skip Empty but flag so we can find them easily
