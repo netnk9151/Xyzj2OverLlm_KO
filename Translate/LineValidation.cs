@@ -171,7 +171,9 @@ public static partial class LineValidation
             response = false;
 
         // Small source with 'or' is ususually an alternative
-        if ((result.Contains(" or") || result.Contains("(or")) && raw.Length <= 4)
+        if ((result.Contains(" or") || result.Contains("(or")) 
+            && raw.Length <= 4 
+            && !result.Contains("ore", StringComparison.OrdinalIgnoreCase)) //Handle edge case
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "or");

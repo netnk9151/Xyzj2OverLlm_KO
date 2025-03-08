@@ -238,10 +238,11 @@ public class TranslationWorkflowTests
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
         var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, textFile, tokenReplacer);
-        if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw)
+        var preparedResultRaw = LineValidation.CleanupLineBeforeSaving(preparedRaw, preparedRaw, textFile, tokenReplacer);
+        if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw && split.Translated != preparedResultRaw)
         {
             logLines.Add($"Already Translated {textFile.Path} \n{split.Translated}");
-            split.Translated = cleanedRaw;
+            split.Translated = preparedResultRaw;
             split.ResetFlags();
             return true;
         }
