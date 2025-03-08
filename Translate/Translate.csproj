@@ -10,4 +10,8 @@
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SharedAssembly\SharedAssembly.csproj" />
+  </ItemGroup>
+
 </Project>

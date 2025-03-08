@@ -1,13 +1,14 @@
 ﻿using System.Text.RegularExpressions;
 using System.Text;
 using EnglishPatch.Contracts;
+using System.Linq;
 
 namespace Translate.Support;
 
 public class DynamicStringSupport
 {
 
-    public static bool IsSafeContract(DynamicStringContract contract)
+    public static bool IsSafeContract(DynamicStringContract contract, bool skipCombos = false)
     {
         string[] skipTypes = [
             // Game Components
@@ -70,7 +71,7 @@ public class DynamicStringSupport
          ];
 
         // TODO: Figure out why these dont patch
-        string[] skipCombos = [
+        string[] skipCombinations = [
             "AnqiResearchView.RefreshCailiaoAndBtn",
             "AnqiResearchView.RefreshCondition",
             "ArtistryView.ConsultComplete",
@@ -225,6 +226,7 @@ public class DynamicStringSupport
             "SweetPotato.JingMaiEditManager.CreateOrWashWordEntry",
             "SweetPotato.LianZhao_node.CreateFromCsvRow",
             "SweetPotato.LoginViewNew/<AsyncSetLoadVirtualCamera>d__31.MoveNext",
+            "SweetPotato.MiniGames.GeZi1.GeZiGame.InitGame",
             "SweetPotato.MenPaiEntity.NpcGetCurMonthGongZi",
             "SweetPotato.MenPaiManager.OnNpcDead",
             "SweetPotato.MiJiPage.Load",
@@ -316,11 +318,9 @@ public class DynamicStringSupport
         if (skipMethods.Contains(contract.Method))
             return false;
 
-        if (skipCombos.Contains(combo))
+        // These are used purely for hiding stuff we dont know what it does yet
+        if (!skipCombos && skipCombinations.Contains(combo))
             return false;
-
-        //if (!contract.Type.StartsWith("Sweet"))
-        //    return false;
 
         return true;
     }

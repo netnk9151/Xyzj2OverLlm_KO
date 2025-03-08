@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using Translate.Support;
 
 namespace EnglishPatch;
 
@@ -50,6 +51,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         }
 
         return contracts
+            .Where(c => DynamicStringSupport.IsSafeContract(c))
             .GroupBy(c => (c.Type, c.Method, GetParametersKey(c.Parameters)))
             .OrderBy(g => g.Key.Type)
             .ThenBy(g => g.Key.Method)
@@ -195,8 +197,8 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             catch (Exception ex)
             {
                 errorCount++;
-                //badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
-                badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
+                badContractErrors.Add($"Error patching {contract.Type} {contract.Method}\n{ex}");
+                //badContractErrors.Add($"\"{contract.Type}.{contract.Method}\",");
             }
         }
 

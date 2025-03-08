@@ -1,7 +1,7 @@
 ﻿using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace EnglishPatch.Contracts;
+namespace EnglishPatch.Support;
 
 public class Yaml
 {

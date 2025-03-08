@@ -613,7 +613,7 @@ public static class TranslationService
                         Parameters = parameters
                     };
 
-                    if (DynamicStringSupport.IsSafeContract(contract))
+                    if (DynamicStringSupport.IsSafeContract(contract, false))
                         contracts.Add(contract);
                 }
 

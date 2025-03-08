@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using CSVHelper;
+using EnglishPatch.Patches;
 using HarmonyLib;
 using SweetPotato;
 using System;
@@ -9,8 +10,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using TMPro;
-using UnityEngine.UI;
 
 namespace EnglishPatch;
 
@@ -30,6 +29,7 @@ public class MainPlugin : BaseUnityPlugin
         // Plugin startup logic
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
         Harmony.CreateAndPatchAll(typeof(MainPlugin));
+        Harmony.CreateAndPatchAll(typeof(NameRestrictionPatch));
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
     }
 
@@ -84,36 +84,7 @@ public class MainPlugin : BaseUnityPlugin
     //    var txtContent = AccessTools.Field(typeof(MessageBox), "txtContent").GetValue(__instance) as TextMeshProUGUI;
     //    Logger.LogWarning($"Text: {txtContent?.text} Size = {txtContent?.fontSize}");
     //}
-
-    //Remove Name Restrictions
-    [HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.InstantiateViewNewNew_mobile), "Awake")]
-    public static void Postfix_InstantiateViewNewNew_mobile_Awake(InstantiateViewNewNew_mobile __instance)
-    {
-        Logger.LogWarning("Postfix_InstantiateViewNewNew_mobile_Awake");
-
-        var nameInput = AccessTools.Field(typeof(InstantiateViewNewNew_mobile), "m_nameinput").GetValue(__instance) as TMP_InputField;
-        var nextButton = AccessTools.Field(typeof(InstantiateViewNewNew_mobile), "m_NextBuBtn").GetValue(__instance) as Button;
-
-        Logger.LogWarning($"Hooked InstantiateViewNewNew Awake! {nameInput} {nextButton}");
-
-        if (nameInput != null && nextButton != null)
-        {
-            nameInput.onValueChanged.RemoveAllListeners();
-            nameInput.onValueChanged.AddListener((string newStr) =>
-            {
-                // Always allow the name, removing keyword restrictions
-                nextButton.interactable = Tools.IsStrAvailable(newStr);
-            });
-
-            nameInput.onEndEdit.RemoveAllListeners();
-            nameInput.onEndEdit.AddListener((string newStr) =>
-            {
-                // Always allow the name, removing keyword restrictions
-                nextButton.interactable = Tools.IsStrAvailable(newStr);
-            });
-        }
-    }
-
+    
     [HarmonyPostfix, HarmonyPatch(typeof(Form), "Awake")]
     public static void Postfix_Form_Awake(Form __instance)
     {
