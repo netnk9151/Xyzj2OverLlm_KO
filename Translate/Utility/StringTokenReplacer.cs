@@ -13,8 +13,11 @@ public class StringTokenReplacer
     private static readonly Regex NumericValueRegex = new(@"(?<![{<]|color=|<[^>]*)(?:[+-]?(?:\d+\.\d*|\.\d+|\d+))(?![}>])", RegexOptions.Compiled);
     private static readonly Regex ColorStartRegex = new(@"<color=[^>]+>", RegexOptions.Compiled);
     private static readonly Regex KeyPressRegex = new(@"<\w+\s+>", RegexOptions.Compiled);
+    private static readonly Regex TokenRegex;
+    private static readonly Regex EmojiRegex;
 
-    public string[] EmojiItems = [
+    public static string[] otherTokens = ["{}"];
+    public static string[] EmojiItems = [
         "[发现宝箱]",
         "[石化]",
         "[开心]",
@@ -32,7 +35,16 @@ public class StringTokenReplacer
     private Dictionary<int, string> placeholderMap = new();
     private Dictionary<string, string> colorMap = new();
 
-    public string[] otherTokens = ["{}"];
+
+    // Use Static constructor to make sure the regexes are only compiled once (otherwise very slow)
+    static StringTokenReplacer()
+    {
+        var tokenPattern = string.Join("|", otherTokens.Select(Regex.Escape));
+        TokenRegex = new Regex(tokenPattern, RegexOptions.Compiled);
+
+        var emojiPattern = string.Join("|", EmojiItems.Select(Regex.Escape));
+        EmojiRegex = new Regex(emojiPattern, RegexOptions.Compiled);
+    }
 
     public string Replace(string input)
     {
@@ -71,21 +83,15 @@ public class StringTokenReplacer
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
-        });
-        
-        var tokenPattern = string.Join("|", otherTokens.Select(Regex.Escape));
-        var tokenRegex = new Regex(tokenPattern, RegexOptions.Compiled);
+        });      
 
-        result.Replace(tokenRegex, match =>
+        result.Replace(TokenRegex, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
         });
 
-        var emojiPattern = string.Join("|", EmojiItems.Select(Regex.Escape));
-        var emojiRegex = new Regex(emojiPattern, RegexOptions.Compiled);
-
-        result.Replace(emojiRegex, match =>
+        result.Replace(EmojiRegex, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
@@ -114,5 +120,10 @@ public class StringTokenReplacer
         }
 
         return result.ToString();
+    }
+
+    public static string CleanTranslatedForApplyRules(string input)
+    {
+        return EmojiRegex.Replace(input, "");
     }
 }

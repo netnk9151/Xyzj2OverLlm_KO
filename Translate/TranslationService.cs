@@ -371,7 +371,7 @@ public static class TranslationService
                 cache.Add(line.Raw, line.Result);
         }
 
-        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             foreach (var line in fileLines)
             {
@@ -562,7 +562,7 @@ public static class TranslationService
         var passedCount = 0;
         var failedCount = 0;
 
-        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             var failedLines = new List<string>();
             var outputLines = new List<string>();
@@ -696,7 +696,7 @@ public static class TranslationService
         File.WriteAllLines($"{outputDbPath}/db1.txt", finalDb);
     }    
 
-    public static async Task IterateThroughTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)
+    public static async Task IterateTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)
     {
         var deserializer = Yaml.CreateDeserializer();
         string outputPath = $"{workingDirectory}/Converted";

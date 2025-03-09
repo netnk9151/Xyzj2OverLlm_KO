@@ -1,4 +1,5 @@
-﻿using System.IO.Compression;
+﻿using System.Collections.Concurrent;
+using System.IO.Compression;
 using System.Text.RegularExpressions;
 using Translate.Utility;
 
@@ -152,23 +153,29 @@ public class TranslationWorkflowTests
     {
         var config = Configuration.GetConfiguration(workingDirectory);
         var totalRecordsModded = 0;
-        var logLines = new List<string>();
-
+        var logLines = new ConcurrentBag<string>();
 
         string[] fullFileRetrans = [
             //"horoscope.txt",
             //"randomname.txt",
             //"randomnamenew.txt"
-            ];
+        ];
 
-        //Use this when we've changed a glossary value that doesnt check hallucination
+        // Use this when we've changed a glossary value that doesnt check hallucination
         var newGlossaryStrings = new List<string>
         {
-            //"狂",
-            //"邪",
-            //"正",
-            //"阴",
-            //"阳",
+            //"[发现宝箱]",
+            //"[石化]",
+            //"[开心]",
+            //"[不知所措]",
+            //"[疑问]",
+            //"[担忧]",
+            //"[生气]",
+            //"[哭泣]",
+            //"[惊讶]",
+            //"[发怒]",
+            //"[抓狂]",
+            //"[委屈]",
         };
 
         var badRegexes = new List<string>
@@ -177,11 +184,16 @@ public class TranslationWorkflowTests
             //@"\(.*，.*\)" //Put back for big files
         };
 
-        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
+        var serializer = Yaml.CreateSerializer();
+
+        await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
+        //Use non-parallel for debugging
+        //await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
         {
             int recordsModded = 0;
 
             foreach (var line in fileLines)
+            {
                 foreach (var split in line.Splits)
                 {
                     // Reset all the retrans flags
@@ -198,16 +210,14 @@ public class TranslationWorkflowTests
                     if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, split, textFile, config))
                         recordsModded++;
                 }
+            }
 
-            totalRecordsModded += recordsModded;
-            var serializer = Yaml.CreateSerializer();
+            Interlocked.Add(ref totalRecordsModded, recordsModded); // Use atomic operation for updating totalRecordsModded
             if (recordsModded > 0 || resetFlag)
             {
                 Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
-                File.WriteAllText(outputFile, serializer.Serialize(fileLines));
+                await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
             }
-
-            await Task.CompletedTask;
         });
 
         Console.WriteLine($"Total Lines: {totalRecordsModded} records");
@@ -216,7 +226,7 @@ public class TranslationWorkflowTests
         return totalRecordsModded;
     }
 
-    public static bool UpdateSplit(List<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, TranslationSplit split, TextFileToSplit textFile,
+    public static bool UpdateSplit(ConcurrentBag<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, TranslationSplit split, TextFileToSplit textFile,
         LlmConfig config)
     {
         var pattern = LineValidation.ChineseCharPattern;
@@ -370,7 +380,8 @@ public class TranslationWorkflowTests
         }
 
         // Remove Invalid ones -- Have to use pure raw because translated is untokenised
-        var result = LineValidation.CheckTransalationSuccessful(config, split.Text, split.Translated ?? string.Empty, textFile);
+        var translated2 = StringTokenReplacer.CleanTranslatedForApplyRules(split.Translated);
+        var result = LineValidation.CheckTransalationSuccessful(config, split.Text, translated2, textFile);
         if (!result.Valid)
         {
             logLines.Add($"Invalid {textFile.Path} Failures:{result.CorrectionPrompt}\n{split.Translated}");
