@@ -1,7 +1,7 @@
 ﻿using EnglishPatch.Contracts;
 using HarmonyLib;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 
@@ -10,6 +10,11 @@ namespace EnglishPatch.Support;
 public class DynamicStringTranspiler
 {
     public static DynamicStringContract[] ContractsToApply;
+
+    private static MethodInfo _stringEqualityMethod =
+        typeof(string).GetMethod("op_Equality", new Type[] { typeof(string), typeof(string) });
+    private static MethodInfo _newStringEqualityMethod =
+        typeof(DynamicStringTranspiler).GetMethod(nameof(NewEqualityOperator), BindingFlags.Public | BindingFlags.Static);
 
     // Undo dump changes
     public static void PrepareDynamicString(string input, out string prepared, out string preparedAlt)
@@ -30,66 +35,94 @@ public class DynamicStringTranspiler
             .Replace("，", "");
     }
 
+    // This method will be used to handle string comparisons in switch statements
+    public static bool NewEqualityOperator(string leftComparison, string rightComparison)
+    {
+        DynamicStringPatcherPlugin.Logger.LogFatal($"Testing Equality: [[ {leftComparison} ]] == [[ {rightComparison} ]]");
+
+        // Direct match
+        return string.Equals(leftComparison, rightComparison);
+    }
+
     public static IEnumerable<CodeInstruction> ReplaceWithTranspiler(IEnumerable<CodeInstruction> instructions)
     {
-        var codes = new List<CodeInstruction>(instructions);
-        var textReplaced = new List<string>();
+        var rawToTranslated = new Dictionary<string, string>();
 
+        // Build translation dictionaries
         foreach (var replacement in ContractsToApply)
         {
-            // Undo dump changes
             PrepareDynamicString(replacement.Raw, out string preparedRaw, out string preparedRaw2);
             PrepareDynamicString(replacement.Translation, out string preparedTrans, out string preparedTrans2);
 
-            if (textReplaced.Contains(preparedRaw))
+            // If we're replacing same string in method
+            if (rawToTranslated.ContainsKey(preparedRaw))
                 continue;
 
-            var foundReplacement = false;
-
-            for (int i = 0; i < codes.Count; i++)
-            {
-                if (codes[i].opcode == OpCodes.Ldstr &&
-                    codes[i].operand is string operandStr)
-                {
-                    // Copy all labels from the original instruction to ensure we don't lose any
-                    bool matchesRaw = operandStr == preparedRaw;
-                    bool matchesAlt = operandStr == preparedRaw2 || StripCommas(operandStr) == StripCommas(preparedRaw);
-
-                    if (matchesRaw || matchesAlt)
-                    {
-                        // Create a new instruction with the translated string but preserve all metadata
-                        var newInstruction = new CodeInstruction(OpCodes.Ldstr, matchesRaw ? preparedTrans : preparedTrans2);
-
-                        // Copy labels from original instruction
-                        if (codes[i].labels != null && codes[i].labels.Count > 0)
-                        {
-                            foreach (var label in codes[i].labels)
-                            {
-                                newInstruction.labels.Add(label);
-                            }
-                        }
-
-                        // Copy blocks from original instruction
-                        if (codes[i].blocks != null && codes[i].blocks.Count > 0)
-                        {
-                            foreach (var block in codes[i].blocks)
-                            {
-                                newInstruction.blocks.Add(block);
-                            }
-                        }
-
-                        codes[i] = newInstruction;
-                        foundReplacement = true;
-                        textReplaced.Add(preparedRaw);
-                    }
-                }
-            }
-
-            if (!foundReplacement)
-                DynamicStringPatcherPlugin.Logger.LogWarning($"No match found for: {replacement.Type}.{replacement.Method}\n{preparedRaw}\n{preparedTrans}");
+            rawToTranslated[preparedRaw] = preparedTrans;
+            rawToTranslated[preparedRaw2] = preparedTrans2;
         }
 
+        var codes = new List<CodeInstruction>(instructions);
+        var textReplaced = new List<string>();
+
+        // Step 1: Replace string constants
+        for (int i = 0; i < codes.Count; i++)
+        {
+            //DynamicStringPatcherPlugin.Logger.LogFatal($"Old Instruction: {codes[i].opcode} {codes[i].operand}");
+
+            if (codes[i].opcode == OpCodes.Ldstr &&
+                codes[i].operand is string operandStr)
+            {
+                // Find corresponding translation
+                string translatedStr = null;
+
+                if (rawToTranslated.TryGetValue(operandStr, out translatedStr))
+                {
+                    // Create a new instruction with the translated string but preserve all metadata
+                    var newInstruction = new CodeInstruction(OpCodes.Ldstr, translatedStr);
+                    CopyLabelsAndBlocks(codes[i], newInstruction);
+                    codes[i] = newInstruction;
+                    textReplaced.Add(operandStr);
+                }
+            }
+        }
+
+        // Step 2: Replace string equality operations to handle switch statements
+        for (int i = 0; i < codes.Count; i++)
+        {
+            if (codes[i].Calls(_stringEqualityMethod))
+            {
+                DynamicStringPatcherPlugin.Logger.LogFatal($"Replacing string equality operation: {ContractsToApply[0].Type}.{ContractsToApply[0].Method}");
+
+                // Replace the string.op_Equality method with our enhanced version
+                var newInstruction = new CodeInstruction(OpCodes.Call, _newStringEqualityMethod);
+                CopyLabelsAndBlocks(codes[i], newInstruction);
+                codes[i] = newInstruction;
+            }
+        }
+
+        // Add logging to verify the final instructions
+        //foreach (var code in codes)
+        //    DynamicStringPatcherPlugin.Logger.LogFatal($"New Instruction: {code.opcode} {code.operand}");
+
         return codes;
+    }
+
+    private static void CopyLabelsAndBlocks(CodeInstruction rawInstruction, CodeInstruction newInstruction)
+    {
+        // Copy labels from original instruction
+        if (rawInstruction.labels != null && rawInstruction.labels.Count > 0)
+        {
+            foreach (var label in rawInstruction.labels)
+                newInstruction.labels.Add(label);
+        }
+
+        // Copy blocks from original instruction
+        if (rawInstruction.blocks != null && rawInstruction.blocks.Count > 0)
+        {
+            foreach (var block in rawInstruction.blocks)
+                newInstruction.blocks.Add(block);
+        }
     }
 
     public static HarmonyMethod CreateTranspilerMethod(DynamicStringContract[] contractsToApply)

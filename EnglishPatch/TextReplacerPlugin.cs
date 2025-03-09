@@ -5,11 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using TMPro;
 using UnityEngine;
+using XUnity.ResourceRedirector;
 
 namespace EnglishPatch;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextReplacer", "TextReplacer", MyPluginInfo.PLUGIN_VERSION)]
+[BepInDependency("gravydevsupreme.xunity.resourceredirector")]
 public class TextReplacerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
@@ -18,24 +21,15 @@ public class TextReplacerPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
-        Logger.LogWarning("Text Replacer plugin is starting...");
-        Harmony.CreateAndPatchAll(typeof(PrefabTextPatch));
-        Logger.LogWarning("Text Replacer plugin patching complete!");
-
-
+         
         Logger.LogWarning("Loading Prefab Replacements...");
-        var resourcesFolder = Path.Combine(Environment.CurrentDirectory, "BepInEx/resources");
-        var resourcesFolder2 = Path.Combine(Environment.CurrentDirectory, "resources"); //Autotranslator messes with this
+        var resourcesFolder = Path.Combine(Paths.BepInExRootPath, "resources");
         var dbFile = $"{resourcesFolder}/dumpedPrefabText.txt";
-        var dbFile2 = $"{resourcesFolder2}/dumpedPrefabText.txt";
 
         string[] lines = [];
 
         if (File.Exists(dbFile))
             lines = File.ReadAllLines(dbFile);
-
-        if (File.Exists(dbFile2))
-            lines = File.ReadAllLines(dbFile2);
 
         for (int i = 0; i < lines.Length; i += 2)
         {
@@ -44,128 +38,67 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
             Replacements.Add(raw, result);
         }
+
+        Logger.LogWarning("Text Replacer plugin is starting...");
+        //Harmony.CreateAndPatchAll(typeof(PrefabTextPatch));
+        Harmony.CreateAndPatchAll(typeof(TextReplacerPlugin));
+
+        ResourceRedirection.EnableSyncOverAsyncAssetLoads();
+
+        ResourceRedirection.RegisterAssetLoadedHook(
+            behaviour: HookBehaviour.OneCallbackPerResourceLoaded,
+            priority: 1001,
+            action: OnAssetLoaded);
+
+        ResourceRedirection.RegisterResourceLoadedHook(
+            behaviour: HookBehaviour.OneCallbackPerResourceLoaded,
+            priority: 1000,
+            action: OnResourceLoaded);
+
+        Logger.LogWarning("Text Replacer plugin patching complete!");
     }
 
-    [HarmonyPatch(typeof(UnityEngine.Object))]
-    public static class PrefabTextPatch
+    private void OnAssetLoaded(AssetLoadedContext context)
     {
-        private static void UpdateText(UnityEngine.Object __result)
+        foreach (var obj in context.Assets)
         {
-            if (__result is GameObject gameObject)
+            ProcessLoadedObject(obj);
+        }
+    }
+
+    private void OnResourceLoaded(ResourceLoadedContext context)
+    {
+        foreach (var obj in context.Assets)
+        {
+            ProcessLoadedObject(obj);
+        }
+    }
+
+    private static void ProcessLoadedObject(UnityEngine.Object obj)
+    {
+        // Similar to your existing UpdateText method
+        if (obj is GameObject gameObject)
+        {
+            // For whatever reason IL replacement not working on the switch statement
+            if (gameObject.name.Contains("LoginView"))
+                return;
+
+            foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
             {
-                // For whatever reason IL replacement not working on the switch statement
-                if (__result.name.Contains("LoginView"))
-                    return;
+                var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    ?? component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
-                //TODO: Need to figure out how to ignore buttons here - causes grief
-                //[Info   : Unity Log] Selection: new (btn (1) (UnityEngine.GameObject)) old (null)
-
-                foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
+                if (textField != null && textField.FieldType == typeof(string))
                 {
-                    var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance) 
-                        ?? component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    var textValue = textField.GetValue(component) as string;
 
-                    if (textField != null && textField.FieldType == typeof(string))
-                    {
-                        var textValue = textField.GetValue(component) as string;
+                    if (string.IsNullOrEmpty(textValue))
+                        continue;
 
-                        if (string.IsNullOrEmpty(textValue))
-                            continue;
-
-                        if (Replacements.ContainsKey(textValue))
-                            textField.SetValue(component, Replacements[textValue]);
-                    }
+                    if (Replacements.ContainsKey(textValue))
+                        textField.SetValue(component, Replacements[textValue]);
                 }
             }
         }
-
-        //Patch Instantiate(Object)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object)])]
-        [HarmonyPostfix]
-        static void ObjectPostfix1(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Transform)])]
-        [HarmonyPostfix]
-        static void ObjectPostfix2(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Transform), typeof(bool)])]
-        [HarmonyPostfix]
-        static void ObjectPostfix3(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion)])]
-        [HarmonyPostfix]
-        static void ObjectPostfix4(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(UnityEngine.Object), typeof(Vector3), typeof(Quaternion), typeof(Transform)])]
-        [HarmonyPostfix]
-        static void ObjectPostfix5(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject)])]
-        [HarmonyPostfix]
-        static void Postfix1(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Transform)])]
-        [HarmonyPostfix]
-        static void Postfix2(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Transform), typeof(bool)])]
-        [HarmonyPostfix]
-        static void Postfix3(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Vector3), typeof(Quaternion)])]
-        [HarmonyPostfix]
-        static void Postfix4(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }
-
-        // Patch Instantiate(GameObject, Transform, bool)
-        [HarmonyPatch(nameof(UnityEngine.Object.Instantiate), [typeof(GameObject), typeof(Vector3), typeof(Quaternion), typeof(Transform)])]
-        [HarmonyPostfix]
-        static void Postfix5(ref UnityEngine.Object __result)
-        {
-            UpdateText(__result);
-        }        
-
-        //[HarmonyPrefix, HarmonyPatch(typeof(TMP_Text), "text", MethodType.Setter)]
-        //public static bool TextSetter(string value, TMP_Text __instance)
-        //{
-        //    //This definitely works but it gets EVERYTHING
-        //    Logger.LogWarning($"TextSetter2: {value}");
-        //    return true;
-        //}
     }
-
 }

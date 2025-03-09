@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using TMPro;
 using UnityEngine;
@@ -28,76 +29,69 @@ internal class DebugPlugin: BaseUnityPlugin
         Logger.LogWarning($"Debug Game Plugin should be patched!");
     }
 
-    [HarmonyPrefix, HarmonyPatch(typeof(AttriPart), "OnInit")]
-    public static bool Prefix_AttriPart_OnInit(AttriPart __instance, PlayerAttriAndBagView parent)
+    // Opening Screen
+    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, MethodBase __originalMethod, int index, RectTransform rect)
     {
-        Logger.LogWarning($"Hooked Prefix_AttriPart_OnInit!");
+        //InstructionLogger.LogInstructions(__originalMethod);
+
+        var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
+
+        Logger.LogWarning($"Hooked PREFIX OnButtonClick! [{text}]");
+
+        switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
+        {
+            case "新的江湖":
+                Logger.LogWarning($"Old Text");
+                break;
+            case "A new Jianghu":
+                Logger.LogWarning($"New Text");
+                break;
+        }
+
         return true;
     }
 
-    [HarmonyPostfix, HarmonyPatch(typeof(AttriPart), "OnInit")]
-    public static void Postfix_AttriPart_OnInit(AttriPart __instance)
+    // Opening Screen
+    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    public static void Postfix_OnButtonClick()
     {
-        Logger.LogWarning($"Hooked Postfix_AttriPart_OnInit!");
+        Logger.LogWarning($"Hooked POSTFIX OnButtonClick!");
     }
 
-    // Original Code
-    //public void OnInit(PlayerAttriAndBagView parent)
+    //[HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    //public static void Postfix_OnButtonClick(IEnumerable<CodeInstruction> __instructions)
     //{
-    //    this.parent = parent;
-    //    SetTeamButtonState();
-    //    shotcut.SetActivate(!LearnViewNew.Instance.isShowNpc);
-    //    showEquip = false;
-    //    attriTogGroup.anchoredPosition = new Vector2(0f, attriTogGroup.anchoredPosition.y);
-    //    OnStateBtnClick();
-    //    OnReset();
-    //    cg_AttriEquip.SetActivate(active: true);
-    //    attriTogGroup.SetActivate(active: true);
-    //    for (int i = 0; i < attriToggle.Length; i++)
-    //    {
-    //        if (!attriToggle[i].isOn)
-    //        {
-    //            attriToggle[i].isOn = true;
-    //            break;
-    //        }
-    //    }
-
-    //    attriToggle[0].isOn = true;
-    //    attriToggle[0].onValueChanged.Invoke(arg0: true);
-    //    if (LearnViewNew.Instance.isShowNpc)
-    //    {
-    //        textTeamState.text = (TeamManager.Instance.IsInDeployTeam(LearnViewNew.Instance.npcEntity.guid) ? "下阵" : "上阵");
-    //        equipPart.OnInit(LearnViewNew.Instance.npcEntity.guid);
-    //    }
-    //    else
-    //    {
-    //        equipPart.OnInit(PlayerController.Instance.guid);
-    //    }
-
-    //    CloseAllTog();
+    //    InstructionLogger.LogInstructions(__instructions);
     //}
 
-    // Opening Screen
-    //[HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
-    //public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, int index, RectTransform rect)
-    //{
-    //    var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
+    [HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonNewGame")]
+    public static void Postfix_LoginViewNew_OnButtonNewGame()
+    {
+        Logger.LogWarning("Hooked OnButtonNewGame!");
+    }
+}
 
-    //    Logger.LogWarning($"Hooked OnButtonClick! [{text}]");
+public class InstructionLogger
+{
+    public static void LogInstructions(MethodBase method)
+    {
+        DebugPlugin.Logger.LogFatal($"Logging instructions for method: {method.Name}");
 
-    //    Logger.LogInfo($"Actual Text Hex: {string.Join(" ", text.Select(c => ((int)c).ToString("X2")))}");
-    //    Logger.LogInfo($"Switch Case Hex: {string.Join(" ", "A new Jianghu.".Select(c => ((int)c).ToString("X2")))}");
+        //var instructions = PatchProcessor.GetOriginalInstructions(method);
+        var instructions = PatchProcessor.GetCurrentInstructions(method);
+        foreach (var instruction in instructions)
+        {
+            DebugPlugin.Logger.LogFatal($"Instruction: {instruction.opcode} {instruction.operand}");
+        }
+    }
 
-    //    switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
-    //    {
-    //        case "新的江湖":
-    //            Logger.LogWarning($"Old Text");
-    //            break;
-    //        case "A new Jianghu.":
-    //            Logger.LogWarning($"New Text");
-    //            break;
-    //    }
-
-    //    return true;
-    //}
+    public static void LogInstructions(IEnumerable<CodeInstruction> instructions)
+    {
+        DebugPlugin.Logger.LogFatal("Logging modified instructions:");
+        foreach (var instruction in instructions)
+        {
+            DebugPlugin.Logger.LogFatal($"Instruction: {instruction.opcode} {instruction.operand}");
+        }
+    }
 }

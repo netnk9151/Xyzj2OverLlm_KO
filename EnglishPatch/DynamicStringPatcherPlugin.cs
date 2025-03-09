@@ -3,7 +3,6 @@ using BepInEx.Logging;
 using EnglishPatch.Contracts;
 using EnglishPatch.Support;
 using HarmonyLib;
-using Mono.Cecil;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,7 +26,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
     private void Awake()
     {
-        Logger = base.Logger;
+        Logger = base.Logger;      
         _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
         Logger.LogInfo("Dynamic String Patcher loading...");
@@ -135,17 +134,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                         }
                     }
 
-                    continue; //They need to be patched via fields above
-
-                    //targetMethod = AccessTools.GetDeclaredConstructors(targetType)
-                    //    .FirstOrDefault(m => m.IsStatic);
-
-                    //if (targetMethod == null)
-                    //{
-                    //    Logger.LogWarning($"Could not find static constructor for: {contract.Type}");
-                    //    skipCount++;
-                    //    continue;
-                    //}
+                    continue; //They need to be patched via fields above because static constructor called before patch                   
                 }
                 else if (contract.Method == ".ctor")
                 {
@@ -189,7 +178,10 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
                 // Apply the patch
                 //_harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts, targetMethod));
+
+                Harmony.DEBUG = true;
                 _harmony.Patch(targetMethod, transpiler: DynamicStringTranspiler.CreateTranspilerMethod(contract.Contracts));
+                Harmony.DEBUG = false;
 
                 successCount++;
                 Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");
@@ -517,8 +509,33 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             Type elementType = valueType.GetElementType();
             Array array = (Array)value;
 
-            // If the element is an arr
-            if (elementType == typeof(string))
+            if (valueType.GetArrayRank() > 1)
+            {
+                // Handle multi-dimensional arrays
+                int[] lengths = new int[valueType.GetArrayRank()];
+                for (int i = 0; i < lengths.Length; i++)
+                {
+                    lengths[i] = array.GetLength(i);
+                }
+
+                foreach (int[] indices in GetAllIndices(lengths))
+                {
+                    object element = array.GetValue(indices);
+                    if (element is string stringValue)
+                    {
+                        string newValue = ReplaceStringIfMatches(stringValue, contracts);
+                        if (stringValue != newValue)
+                        {
+                            array.SetValue(newValue, indices);
+                        }
+                    }
+                    else if (element != null)
+                    {
+                        ProcessComplexTypeValue(element, contracts);
+                    }
+                }
+            }
+            else if (elementType == typeof(string))
             {
                 // Process string array
                 for (int i = 0; i < array.Length; i++)
@@ -557,9 +574,9 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                     var fieldValue = field.GetValue(value);
                     if (fieldValue is string stringValue)
                     {
-                        string oginalValue = ReplaceStringIfMatches(stringValue, contracts);
-                        if (stringValue != oginalValue)
-                            field.SetValue(value, oginalValue);
+                        string newValue = ReplaceStringIfMatches(stringValue, contracts);
+                        if (stringValue != newValue)
+                            field.SetValue(value, newValue);
                     }
                     else if (fieldValue != null)
                     {
@@ -596,6 +613,30 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
                     {
                         // Skip properties that throw exceptions
                     }
+                }
+            }
+        }
+    }
+
+    private IEnumerable<int[]> GetAllIndices(int[] lengths)
+    {
+        int[] indices = new int[lengths.Length];
+        while (true)
+        {
+            yield return (int[])indices.Clone();
+
+            for (int i = lengths.Length - 1; i >= 0; i--)
+            {
+                if (indices[i] < lengths[i] - 1)
+                {
+                    indices[i]++;
+                    break;
+                }
+                else
+                {
+                    if (i == 0)
+                        yield break;
+                    indices[i] = 0;
                 }
             }
         }

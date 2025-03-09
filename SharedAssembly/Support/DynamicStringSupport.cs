@@ -10,6 +10,8 @@ public class DynamicStringSupport
 
     public static bool IsSafeContract(DynamicStringContract contract, bool skipCombos = false)
     {
+        return contract.Method == "OnButtonClick";
+
         string[] skipTypes = [
             // Game Components
             "Automat",
