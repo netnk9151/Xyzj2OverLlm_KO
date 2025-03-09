@@ -893,9 +893,14 @@
   badtrans: false 
   literal: Jingu  
 - raw: 体魄
-  result: Constitution
+  result: Resiliance
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
   badtrans: false
+- raw: 命中  
+  result: Hit Rate  
+  badtrans: false  
+  direct: Ming Zhong  
+  literal: Ming Zhong  
 - raw: 太阴
   result: Great Yin
   badtrans: false
@@ -1151,6 +1156,29 @@
 - raw: 冰封
   result: Frozen
   badtrans: false
+
+# Ranks
+- raw: 一阶  
+  result: Tier 1
+  badtrans: true  
+- raw: 二阶  
+  result: Tier 2
+  badtrans: true
+- raw: 三阶  
+  result: Tier 3
+  badtrans: true
+- raw: 四阶  
+  result: Tier 4
+  badtrans: true
+- raw: 五阶  
+  result: Tier 5
+  badtrans: true
+- raw: 六阶  
+  result: Tier 6
+  badtrans: true
+- raw: 七阶  
+  result: Tier 7
+  badtrans: true
 
 # Items and Minerals
 - raw: 钱
@@ -2692,3 +2720,8 @@
 - raw: 藏刀式  
   result: Hidden Blade Technique
   transliteration: Cáng dāo shì  
+- raw: 奇经八脉谱  
+  result: Eight Extraordinary Meridians Chart  
+  badtrans: true  
+  direct: Qi Jing Ba Mai Pu  
+  literal: Qi Jing Ba Mai Pu  

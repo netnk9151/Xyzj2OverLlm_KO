@@ -64,7 +64,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             })
             .ToList();
     }
-
+ 
     public static string GetParametersKey(string[] parameters)
     {
         return string.Join(",", parameters);
@@ -178,10 +178,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
                 // Apply the patch
                 //_harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts, targetMethod));
-
-                Harmony.DEBUG = true;
                 _harmony.Patch(targetMethod, transpiler: DynamicStringTranspiler.CreateTranspilerMethod(contract.Contracts));
-                Harmony.DEBUG = false;
 
                 successCount++;
                 Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");

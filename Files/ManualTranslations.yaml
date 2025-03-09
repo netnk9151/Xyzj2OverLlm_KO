@@ -79,3 +79,67 @@
   direct: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
   literal: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
 
+- raw: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误" 
+  result: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error."
+  badtrans: true  
+  direct: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+  literal: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu"  
+
+- raw: "角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合"
+  result: "The skill id:{1} in m_NpcFight.spellContainer of character proGuid:{0} does not match the character's style:{2}."
+  badtrans: true  
+  direct: "Juese proGuid:{0} de m_NpcFight.spellContainer zhong jineng id:{1} taolu yu juese taolu:{2} bu fuhe"  
+  literal: "Juese proGuid:{0} de m_NpcFight.spellContainer zhong jineng id:{1} taolu yu juese taolu:{2} bu fuhe"  
+
+- raw: "角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer"  
+  result: "The character proGuid:{0}'s m_NpcFight does not exist or has not configured m_NpcFight.spellContainer."  
+  badtrans: true  
+  direct: "Juese proGuid:{0} de m_NpcFight mei you huo zhe mei peizhi m_NpcFight.spellContainer"  
+  literal: "Juese proGuid:{0} de m_NpcFight mei you huo zhe mei peizhi m_NpcFight.spellContainer"  
+
+
+# Special
+- raw: 建安二十七年  
+  result: Jian'an Year 27  
+  badtrans: true  
+  direct: Jian An ershiqi nian  
+  literal: Jian An ershiqi nian  
+- raw: 赠送  
+  result: Gift  
+  badtrans: true  
+  direct: Zeng Song  
+  literal: Zeng Song  
+- raw: 总舵  
+  result: Main Headquarters  
+  badtrans: true  
+  direct: Zong Duo  
+  literal: Zong Duo 
+- raw: 修为  
+  result: Cultivation  
+  badtrans: true  
+  direct: Xiu Wei  
+  literal: Xiu Wei  
+- raw: 铜钱  
+  result: Money
+  badtrans: true  
+  direct: Tong Qian  
+  literal: Tong Qian  
+- raw: 门派争霸  
+  result: Sect Competition  
+  badtrans: true  
+  direct: Men Pai Zheng Ba  
+  literal: Men Pai Zheng Ba  
+- raw: 风云人物  
+  result: Prominent Figures 
+  badtrans: true  
+  direct: Feng Yun Ren Wu  
+  literal: Feng Yun Ren Wu  
+- raw: 天材地宝  
+  result: Heavenly Treasures
+  badtrans: true  
+  direct: Tian Cai Di Bao  
+  literal: Tian Cai Di Bao  
+
+
+
+

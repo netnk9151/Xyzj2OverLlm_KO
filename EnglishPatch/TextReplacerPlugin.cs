@@ -4,6 +4,7 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using TMPro;
 using UnityEngine;
@@ -21,7 +22,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
-         
+
         Logger.LogWarning("Loading Prefab Replacements...");
         var resourcesFolder = Path.Combine(Paths.BepInExRootPath, "resources");
         var dbFile = $"{resourcesFolder}/dumpedPrefabText.txt";
@@ -85,7 +86,22 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
             foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
             {
-                var textField = component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                //    var textProperty = component.GetType().GetProperty("text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                //        ?? component.GetType().GetProperty("Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+                //    if (textProperty != null && textProperty.PropertyType == typeof(string))
+                //    {
+                //        var textValue = textProperty.GetValue(component) as string;
+                //        if (string.IsNullOrEmpty(textValue))
+                //            continue;
+
+                //        if (Replacements.ContainsKey(textValue))
+                //            textProperty.SetValue(component, Replacements[textValue]);
+                //    }
+                //    else
+                //    {
+                var textField =
+                    component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
                     ?? component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
                 if (textField != null && textField.FieldType == typeof(string))
@@ -98,6 +114,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
                     if (Replacements.ContainsKey(textValue))
                         textField.SetValue(component, Replacements[textValue]);
                 }
+                //}
             }
         }
     }

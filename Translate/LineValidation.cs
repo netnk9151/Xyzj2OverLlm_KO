@@ -157,7 +157,8 @@ public static partial class LineValidation
         var invalidPhrases = new[]
         {
             "provide the text", 
-            "Certainly! Please provide the Chinese strings", 
+            "Certainly! Please provide the Chinese",
+            "Certainly! Please provide the specific Chinese",
             "translates to",
             //"also known as" //Causes issues
             "'''",

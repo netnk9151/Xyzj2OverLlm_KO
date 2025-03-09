@@ -184,12 +184,14 @@ public class TranslationWorkflowTests
             //@"\(.*，.*\)" //Put back for big files
         };
 
-        var serializer = Yaml.CreateSerializer();
+        
 
-        await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
+        //await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
         //Use non-parallel for debugging
-        //await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
+        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
         {
+            var serializer = Yaml.CreateSerializer();
+
             int recordsModded = 0;
 
             foreach (var line in fileLines)

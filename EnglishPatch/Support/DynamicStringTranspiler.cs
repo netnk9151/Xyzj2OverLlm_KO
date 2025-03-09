@@ -87,19 +87,19 @@ public class DynamicStringTranspiler
             }
         }
 
-        // Step 2: Replace string equality operations to handle switch statements
-        for (int i = 0; i < codes.Count; i++)
-        {
-            if (codes[i].Calls(_stringEqualityMethod))
-            {
-                DynamicStringPatcherPlugin.Logger.LogFatal($"Replacing string equality operation: {ContractsToApply[0].Type}.{ContractsToApply[0].Method}");
+        //// Step 2: Replace string equality operations to handle switch statements
+        //for (int i = 0; i < codes.Count; i++)
+        //{
+        //    if (codes[i].Calls(_stringEqualityMethod))
+        //    {
+        //        DynamicStringPatcherPlugin.Logger.LogFatal($"Replacing string equality operation: {ContractsToApply[0].Type}.{ContractsToApply[0].Method}");
 
-                // Replace the string.op_Equality method with our enhanced version
-                var newInstruction = new CodeInstruction(OpCodes.Call, _newStringEqualityMethod);
-                CopyLabelsAndBlocks(codes[i], newInstruction);
-                codes[i] = newInstruction;
-            }
-        }
+        //        // Replace the string.op_Equality method with our enhanced version
+        //        var newInstruction = new CodeInstruction(OpCodes.Call, _newStringEqualityMethod);
+        //        CopyLabelsAndBlocks(codes[i], newInstruction);
+        //        codes[i] = newInstruction;
+        //    }
+        //}
 
         // Add logging to verify the final instructions
         //foreach (var code in codes)

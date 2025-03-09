@@ -1671,10 +1671,10 @@
 - lineNum: 168
   raw: "AnqiResearchView,RefreshCondition,1159,铜钱,[Anqi_Learn]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:52:47.0343866+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:20.8991901+08:00
     split: 3
     text: "铜钱"
-    translated: "Copper coins"
+    translated: "Money"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -2241,10 +2241,10 @@
 - lineNum: 225
   raw: "ItemDetailView,ShowItem,5796,外攻伤害：{0}\\n内攻伤害：{1}\\n伤害范围：{2}\\n命中效果：{3},[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.Item，System.Boolean]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:52:52.6950395+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:59.2225055+08:00
     split: 3
     text: "外攻伤害：{0}\\n内攻伤害：{1}\\n伤害范围：{2}\\n命中效果：{3}"
-    translated: "External attack damage: {0}\\nInternal attack damage: {1}\\nDamage range: {2}\\nHit Chance Effect: {3}"
+    translated: "External attack damage: {0}\\nInternal attack damage: {1}\\nDamage range: {2}\\nHit Rate Effectiveness: {3}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -3035,8 +3035,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 305
   raw: "DaTingView,.cctor,28,二阶,[]"
@@ -3045,8 +3045,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 306
   raw: "DaTingView,.cctor,39,三阶,[]"
@@ -3055,8 +3055,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 307
   raw: "DaTingView,.cctor,50,四阶,[]"
@@ -3065,8 +3065,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 308
   raw: "DaTingView,.cctor,61,五阶,[]"
@@ -3075,8 +3075,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 309
   raw: "DaTingView,.cctor,72,六阶,[]"
@@ -3085,8 +3085,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 310
   raw: "DaTingView,.cctor,83,七阶,[]"
@@ -3095,8 +3095,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 311
   raw: "DaTingView,.cctor,111,全部物品,[]"
@@ -4245,8 +4245,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 426
   raw: "BagTip,.cctor,71,二阶,[]"
@@ -4255,8 +4255,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 427
   raw: "BagTip,.cctor,82,三阶,[]"
@@ -4265,8 +4265,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 428
   raw: "BagTip,.cctor,93,四阶,[]"
@@ -4275,8 +4275,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 429
   raw: "BagTip,.cctor,104,五阶,[]"
@@ -4285,8 +4285,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 430
   raw: "BagTip,.cctor,115,六阶,[]"
@@ -4295,8 +4295,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 431
   raw: "BagTip,.cctor,126,七阶,[]"
@@ -4305,8 +4305,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 432
   raw: "BagTip,.cctor,154,全部物品,[]"
@@ -5655,8 +5655,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 567
   raw: "ComString,.cctor,650,二阶,[]"
@@ -5665,8 +5665,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 568
   raw: "ComString,.cctor,660,三阶,[]"
@@ -5675,8 +5675,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 569
   raw: "ComString,.cctor,670,四阶,[]"
@@ -5685,8 +5685,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 570
   raw: "ComString,.cctor,680,五阶,[]"
@@ -5695,8 +5695,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 571
   raw: "ComString,.cctor,690,六阶,[]"
@@ -5705,8 +5705,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 572
   raw: "ComString,.cctor,700,七阶,[]"
@@ -5715,8 +5715,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 573
   raw: "ComString,.cctor,710,八阶,[]"
@@ -7195,8 +7195,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 721
   raw: "MaterialSelectView,.cctor,440,二阶,[]"
@@ -7205,8 +7205,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 722
   raw: "MaterialSelectView,.cctor,451,三阶,[]"
@@ -7215,8 +7215,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 723
   raw: "MaterialSelectView,.cctor,462,四阶,[]"
@@ -7225,8 +7225,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 724
   raw: "MaterialSelectView,.cctor,473,五阶,[]"
@@ -7235,8 +7235,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 725
   raw: "MaterialSelectView,.cctor,484,六阶,[]"
@@ -7245,8 +7245,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 726
   raw: "MaterialSelectView,.cctor,495,七阶,[]"
@@ -7255,8 +7255,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 727
   raw: "MaterialSelectView,<Awake>b__38_2,16,请先选择材料！,[]"
@@ -7831,10 +7831,10 @@
 - lineNum: 784
   raw: "InteractSlot,OnReset,478,赠送,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:53:18.4927911+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:20.9441741+08:00
     split: 3
     text: "赠送"
-    translated: "Presented"
+    translated: "Gift"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9631,10 +9631,10 @@
 - lineNum: 964
   raw: "AttriPart,.cctor,389,获得大量的命中和少量的要害。,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:53:37.8634105+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:59.4751139+08:00
     split: 3
     text: "获得大量的命中和少量的要害。"
-    translated: "Achieve a high number of hits but only a few vital points."
+    translated: "Gain a high hit rate and affect a few vital points."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -9701,10 +9701,10 @@
 - lineNum: 971
   raw: "AttriPart,.cctor,480,影响主角被控制的效果命中。,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:53:43.4681890+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:59.6691774+08:00
     split: 3
     text: "影响主角被控制的效果命中。"
-    translated: "Affects hit of effect controlling the protagonist."
+    translated: "Effect hit rate for controlling the protagonist."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -13661,10 +13661,10 @@
 - lineNum: 1367
   raw: "NpcInteractButtonSlot,set_Interact,251,赠送,[SweetPotato.NpcInteract]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:23.7597474+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:20.9855682+08:00
     split: 3
     text: "赠送"
-    translated: "Presented"
+    translated: "Gift"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -14371,10 +14371,10 @@
 - lineNum: 1438
   raw: "InteractOther,SetInteract,721,赠送,[System.Int64，System.Int64]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:24.9411204+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:20.9899321+08:00
     split: 3
     text: "赠送"
-    translated: "Presented"
+    translated: "Gift"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16161,10 +16161,10 @@
 - lineNum: 1617
   raw: "HandbookView,RefreshProperty,1495,外攻伤害：{0}\\n内攻伤害：{1}\\n伤害范围：{2}\\n命中效果：{3},[SweetPotato.Item]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:38.2504198+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:59.9181606+08:00
     split: 3
     text: "外攻伤害：{0}\\n内攻伤害：{1}\\n伤害范围：{2}\\n命中效果：{3}"
-    translated: "External attack damage: {0}\\nInternal attack damage: {1}\\nHarm range: {2}\\nResonance Effect: {3}"
+    translated: "External attack damage: {0}\\nInternal attack damage: {1}\\nHarm range: {2}\\nHit Rate Effectiveness: {3}"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -16475,8 +16475,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 1649
   raw: "EditTeamPanel,Submit,41,当前队伍为空，请先编辑队伍！,[]"
@@ -20681,10 +20681,10 @@
 - lineNum: 2069
   raw: "MapShiLiItem,Init,297,总舵,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:54:49.3796337+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:21.0340620+08:00
     split: 3
     text: "总舵"
-    translated: "Grand Quaymaster"
+    translated: "Main Headquarters"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -23925,8 +23925,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 2394
   raw: "RepairView,.cctor,71,二阶,[]"
@@ -23935,8 +23935,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 2395
   raw: "RepairView,.cctor,82,三阶,[]"
@@ -23945,8 +23945,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 2396
   raw: "RepairView,.cctor,93,四阶,[]"
@@ -23955,8 +23955,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 2397
   raw: "RepairView,.cctor,104,五阶,[]"
@@ -23965,8 +23965,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 2398
   raw: "RepairView,.cctor,115,六阶,[]"
@@ -23975,8 +23975,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 2399
   raw: "RepairView,.cctor,126,七阶,[]"
@@ -23985,8 +23985,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 2400
   raw: "ShopStoreViewItemHolder,UpdateFromModel,681,<color=#ff9758>限购 </color>,[SweetPotato.UIItemData]"
@@ -24655,8 +24655,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 2467
   raw: "ShopStoreViewNew,.cctor,429,二阶,[]"
@@ -24665,8 +24665,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 2468
   raw: "ShopStoreViewNew,.cctor,440,三阶,[]"
@@ -24675,8 +24675,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 2469
   raw: "ShopStoreViewNew,.cctor,451,四阶,[]"
@@ -24685,8 +24685,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 2470
   raw: "ShopStoreViewNew,.cctor,462,五阶,[]"
@@ -24695,8 +24695,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 2471
   raw: "ShopStoreViewNew,.cctor,473,六阶,[]"
@@ -24705,8 +24705,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 2472
   raw: "ShopStoreViewNew,.cctor,484,七阶,[]"
@@ -24715,8 +24715,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 2473
   raw: "ShopView,OnReset,207,购买,[]"
@@ -30091,10 +30091,10 @@
 - lineNum: 3010
   raw: "RelationShipManager,InitRandomVirtualRelationShip,388,角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误,[System.Int64，System.Int32]"
   splits:
-  - lastTranslatedOn: 2025-03-08T21:15:06.2867296+08:00
+  - lastTranslatedOn: 2025-03-09T18:58:36.4674233+08:00
     split: 3
     text: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误"
-    translated: "Certainly! Please provide the specific Chinese strings or role descriptions you would like to have translated into English, and I will assist accordingly. If there are any particular roles or characters in mind, let me know their names or titles for accurate translation using the guidelines provided: {0},proGuid: {1}, neither male nor female, m_NpcPrototypeBase.id: Configuration error: {2}"
+    translated: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -35591,20 +35591,20 @@
 - lineNum: 3560
   raw: "SweetPotato.Tools,.cctor,670,铜钱,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:56:31.6978432+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:21.1323169+08:00
     split: 3
     text: "铜钱"
-    translated: "Copper coins"
+    translated: "Money"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3561
   raw: "SweetPotato.Tools,.cctor,679,修为,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:56:31.6978436+08:00
+  - lastTranslatedOn: 2025-03-09T18:29:21.1323236+08:00
     split: 3
     text: "修为"
-    translated: "Martial cultivation"
+    translated: "Cultivation"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -35651,10 +35651,10 @@
 - lineNum: 3566
   raw: "SweetPotato.Tools,.cctor,724,命中,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:56:31.6978458+08:00
+  - lastTranslatedOn: 2025-03-09T18:30:19.1649238+08:00
     split: 3
     text: "命中"
-    translated: "Fated to meet"
+    translated: "Hit Rate"
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -37085,8 +37085,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 3710
   raw: "SweetPotato.Tools,.cctor,2163,二阶,[]"
@@ -37095,8 +37095,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 3711
   raw: "SweetPotato.Tools,.cctor,2171,三阶,[]"
@@ -37105,8 +37105,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 3712
   raw: "SweetPotato.Tools,.cctor,2179,四阶,[]"
@@ -37115,8 +37115,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 3713
   raw: "SweetPotato.Tools,.cctor,2187,五阶,[]"
@@ -37125,8 +37125,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 3714
   raw: "SweetPotato.Tools,.cctor,2195,六阶,[]"
@@ -37135,8 +37135,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 3715
   raw: "SweetPotato.Tools,.cctor,2203,七阶,[]"
@@ -37145,8 +37145,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 3716
   raw: "SweetPotato.Tools,.cctor,2211,八阶,[]"
@@ -39291,20 +39291,20 @@
 - lineNum: 3930
   raw: "SweetPotato.NpcEntity,InitNpcSpell,176,角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合,[]"
   splits:
-  - lastTranslatedOn: 2025-03-08T17:19:46.8284811+08:00
+  - lastTranslatedOn: 2025-03-09T18:58:36.5254451+08:00
     split: 3
     text: "角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合"
-    translated: "Certainly! Please provide the specific Chinese text you would like translated. I'm here to help with accurate translations while adhering to your guidelines: The skill ID in {0}'s spell container of 'm_NpcFight': {1} Techniques and Role Techniques: {2} does not meet the requirements."
+    translated: "The skill id:{1} in m_NpcFight.spellContainer of character proGuid:{0} does not match the character's style:{2}."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
 - lineNum: 3931
   raw: "SweetPotato.NpcEntity,InitNpcSpell,251,角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer,[]"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:49:46.1737109+08:00
+  - lastTranslatedOn: 2025-03-09T18:58:36.5254616+08:00
     split: 3
     text: "角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer"
-    translated: "Certainly! Please provide the specific Chinese strings you need translated, along with any additional context or details about the characters involved. This will help ensure accurate and contextually appropriate translations: {0}'s m_NpcFight does not exist or m_NpcFight.spellContainer is not configured."
+    translated: "The character proGuid:{0}'s m_NpcFight does not exist or has not configured m_NpcFight.spellContainer."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47131,10 +47131,10 @@
 - lineNum: 4714
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,945,， 并附加词条,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:40.5272862+08:00
+  - lastTranslatedOn: 2025-03-09T18:31:07.5653132+08:00
     split: 3
     text: "， 并附加词条"
-    translated: "Certainly! Please provide the Chinese string you would like translated into English."
+    translated: "It seems like your input might be incomplete or missing some context. Could you please provide more information or clarify what you'd like to have translated? If there's a specific Chinese string you need help with, feel free to share it here. I'll do my best to translate it according to the guidelines provided."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -47151,10 +47151,10 @@
 - lineNum: 4716
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1046,， 并附加词条,[]"
   splits:
-  - lastTranslatedOn: 2025-03-04T18:57:44.9558738+08:00
+  - lastTranslatedOn: 2025-03-09T18:31:07.5655749+08:00
     split: 3
     text: "， 并附加词条"
-    translated: "Certainly! Please provide the Chinese string you would like translated into English."
+    translated: "It seems like your input might be incomplete or missing some context. Could you please provide more information or clarify what you'd like to have translated? If there's a specific Chinese string you need help with, feel free to share it here. I'll do my best to translate it according to the guidelines provided."
     flaggedForRetranslation: false
     flaggedMistranslation: ""
     flaggedHallucination: ""
@@ -50045,8 +50045,8 @@
     split: 3
     text: "一阶"
     translated: "First degree"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 1,一阶,Tier 1,一阶,"
     flaggedHallucination: ""
 - lineNum: 5006
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,506,二阶,[]"
@@ -50055,8 +50055,8 @@
     split: 3
     text: "二阶"
     translated: "Second-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 2,二阶,Tier 2,二阶,"
     flaggedHallucination: ""
 - lineNum: 5007
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,517,三阶,[]"
@@ -50065,8 +50065,8 @@
     split: 3
     text: "三阶"
     translated: "Third tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 3,三阶,Tier 3,三阶,"
     flaggedHallucination: ""
 - lineNum: 5008
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,528,四阶,[]"
@@ -50075,8 +50075,8 @@
     split: 3
     text: "四阶"
     translated: "Fourth-tier"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 4,四阶,Tier 4,四阶,"
     flaggedHallucination: ""
 - lineNum: 5009
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,539,五阶,[]"
@@ -50085,8 +50085,8 @@
     split: 3
     text: "五阶"
     translated: "Five-stage level"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 5,五阶,Tier 5,五阶,"
     flaggedHallucination: ""
 - lineNum: 5010
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,550,六阶,[]"
@@ -50095,8 +50095,8 @@
     split: 3
     text: "六阶"
     translated: "Sixth Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 6,六阶,Tier 6,六阶,"
     flaggedHallucination: ""
 - lineNum: 5011
   raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.cctor,561,七阶,[]"
@@ -50105,8 +50105,8 @@
     split: 3
     text: "七阶"
     translated: "Seventh Rank"
-    flaggedForRetranslation: false
-    flaggedMistranslation: ""
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Tier 7,七阶,Tier 7,七阶,"
     flaggedHallucination: ""
 - lineNum: 5012
   raw: "SweetPotato.BagView.BagTianGongTuYinDaoTip,DoNextTip,604,配饰·天工图谱·卷一,[]"
