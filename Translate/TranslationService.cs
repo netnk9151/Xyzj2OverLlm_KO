@@ -31,6 +31,7 @@ public static class TranslationService
             //new() {Path = "questprototype.txt"},
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
+            //new() {Path = "emoji.txt", PackageOutput = true},
 
             new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
             new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
@@ -48,7 +49,6 @@ public static class TranslationService
             new() {Path = "condition_group.txt", PackageOutput = true},
             new() {Path = "condition_show_anim.txt", PackageOutput = true},
             new() {Path = "dlcinfo.txt", PackageOutput = true },
-            new() {Path = "emoji.txt", PackageOutput = true},
             new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
             new() {Path = "fuben_prototype.txt", PackageOutput = true},
             new() {Path = "game_manual.txt", PackageOutput = true},
@@ -119,13 +119,15 @@ public static class TranslationService
 
         Console.WriteLine($"Writing Split {fileName}.. Should have..{shouldHave} Have..{lines.Count}");
 
+        // Files we split but not actually changing
         if (fileName == "ai_dialog"
             || fileName == "keywordfilter"
             || fileName == "living_assemblyskill"
             || fileName == "living_assemblyskill_zhenshijianghu"
             || fileName == "questprototype"
             || fileName == "born_points"
-            || fileName == "custom_data")
+            || fileName == "custom_data"
+            || fileName == "emoji")
             hasChinese = false;
 
         if (hasChinese)
@@ -713,6 +715,29 @@ public static class TranslationService
             if (performActionAsync != null)
                 await performActionAsync(outputFile, textFileToTranslate, fileLines);
         }
+    }
+
+    public static async Task IterateTranslatedFilesInParallelAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)
+    {
+        var deserializer = Yaml.CreateDeserializer();
+        string outputPath = $"{workingDirectory}/Converted";
+
+        var tasks = GetTextFilesToSplit()
+            .Select(async textFileToTranslate =>
+            {
+                var outputFile = $"{outputPath}/{textFileToTranslate.Path}";
+
+                if (!File.Exists(outputFile))
+                    return;
+
+                var content = await File.ReadAllTextAsync(outputFile);
+                var fileLines = deserializer.Deserialize<List<TranslationLine>>(content);
+
+                if (performActionAsync != null)
+                    await performActionAsync(outputFile, textFileToTranslate, fileLines);
+            });
+
+        await Task.WhenAll(tasks);
     }
 
     public static (bool foundSplit, List<string> splits) CalculateSubSplits(string origSplit)

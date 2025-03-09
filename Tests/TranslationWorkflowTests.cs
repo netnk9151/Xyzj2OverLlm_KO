@@ -135,17 +135,16 @@ public class TranslationWorkflowTests
     public async Task ResetAllFlags()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
-        await TranslationService.IterateThroughTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        var serializer = Yaml.CreateSerializer();
+
+        await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             foreach (var line in fileLines)
                 foreach (var split in line.Splits)
                     // Reset all the retrans flags
                     split.ResetFlags(false);
 
-            var serializer = Yaml.CreateSerializer();
-            File.WriteAllText(outputFile, serializer.Serialize(fileLines));
-
-            await Task.CompletedTask;
+            await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
         });
     }
 

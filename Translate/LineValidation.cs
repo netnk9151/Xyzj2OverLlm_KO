@@ -149,32 +149,29 @@ public static partial class LineValidation
         var correctionPrompts = new StringBuilder();
 
         if (string.IsNullOrEmpty(raw))
-            response = false;        
+            response = false;
 
-        // Didnt translate at all and default response to prompt.
-        if (result.Contains("provide the text")
-            || result.Contains("Certainly! Please provide the Chinese strings")
-            || result.Contains("translates to")
-            || result.Contains("also known as") // TODO Verify if this is a problem
-            || result.Contains("'''") 
-            || result.Contains("<p")
-            || result.Contains("</p")
-            || result.Contains("<em")
-            || result.Contains("</em")
-            || result.Contains("<|")
-            || result.Contains("<strong")
-            || result.Contains("</strong")
-            //|| result.Contains("–")
-            || result.Contains("\\U"))
+        var invalidPhrases = new[]
+        {
+            "provide the text", 
+            "Certainly! Please provide the Chinese strings", 
+            "translates to",
+            //"also known as" //Causes issues
+            "'''",
+            "<p", "</p", "<em", "</em", "<|", "<strong", "</strong", 
+            "\\U", 
+        };
+
+        if (invalidPhrases.Any(phrase => result.IndexOf(phrase, StringComparison.OrdinalIgnoreCase) >= 0))
             response = false;
 
         // 99% chance its gone crazy with hallucinations
         if (result.Length > 50 && raw.Length <= 4)
             response = false;
 
-        // Small source with 'or' is ususually an alternative
-        if ((result.Contains(" or") || result.Contains("(or")) 
-            && raw.Length <= 4 
+        // Small source with 'or' is usually an alternative
+        if ((result.Contains(" or") || result.Contains("(or"))
+            && raw.Length <= 4
             && !result.Contains("ore", StringComparison.OrdinalIgnoreCase)) //Handle edge case
         {
             response = false;
@@ -193,7 +190,7 @@ public static partial class LineValidation
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", ";");
-        }       
+        }
 
         // Added literal
         if (result.Contains("(lit."))
@@ -227,7 +224,7 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
-        if (raw.Contains('-')  && !result.Contains('-'))
+        if (raw.Contains('-') && !result.Contains('-'))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");
@@ -419,7 +416,7 @@ public static partial class LineValidation
 
     public static string RemoveFullStop(string raw, string input)
     {
-        if (string.IsNullOrWhiteSpace(input)) 
+        if (string.IsNullOrWhiteSpace(input))
             return input;
 
         if (raw.Contains(' '))

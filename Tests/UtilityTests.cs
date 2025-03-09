@@ -27,7 +27,7 @@ public class UtilityTests
     [InlineData("F.各家学说，各抒己见，两两之间，总有克制。\\n强克制：对目标伤害提升0.5倍。被强克制：对目标伤害降低0.5倍。\\n强克制关系：道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制：对目标伤害提升0.25倍。被弱克制：对目标伤害降低0.25倍。\\n弱克制关系：道学→儒学→墨学；佛学→魔学→农学。",
        "F.各家学说,各抒己见,两两之间,总有克制。\\n强克制:对目标伤害提升{0}倍。被强克制:对目标伤害降低{1}倍。\\n强克制关系:道学→佛学→儒学→魔学→墨学→农学→道学。\\n弱克制:对目标伤害提升{2}倍。被弱克制:对目标伤害降低{3}倍。\\n弱克制关系:道学→儒学→墨学；佛学→魔学→农学。")]
     [InlineData("G.正有事找你，前些日子{}特意送来好礼，如今也该是回礼的日子了，你拿上此物交给{}事务总管，事成之后门中会奖励一枚不夜京承渝令。",
-           "G.正有事找你,前些日子{0}特意送来好礼,如今也该是回礼的日子了,你拿上此物交给{0}事务总管,事成之后门中会奖励一枚不夜京承渝令。")]
+           "G.正有事找你,前些日子{0}特意送来好礼,如今也该是回礼的日子了,你拿上此物交给{1}事务总管,事成之后门中会奖励一枚不夜京承渝令。")]
     [InlineData("H.天随人愿，历经千辛万苦，终于在{1}发现了{0}，可谓福气满满。",
            "H.天随人愿,历经千辛万苦,终于在{0}发现了{1},可谓福气满满。")]
     [InlineData("I.覆灭穆特前线的所有穆特族（{IsCanFinish:0:1}/1）",
@@ -45,8 +45,11 @@ public class UtilityTests
     [InlineData("O.<fontsize=24.12>abc</fontsize>",
        "O.<fontsize=24.12>abc</fontsize>")]
     [InlineData("{{限}}{0}", "{{0}}{1}")]
+    [InlineData("正有事找你,前些日子{1}特意送来好礼,<size=24>是回礼的日子了. [发现宝箱]", 
+        "正有事找你,前些日子{0}特意送来好礼,<size=24>是回礼的日子了. {1}")]
+    [InlineData("[开心]正有事找你,前些日子{1}特意送来好礼,<size=24>是回礼的日子了.", "{1}正有事找你,前些日子{0}特意送来好礼,<size=24>是回礼的日子了.")]
 
-    public static void StringTokenReplacer(string original, string expectedToken)
+    public static void StringTokenReplacerTests(string original, string expectedToken)
     {
         var replacer = new StringTokenReplacer();
 

@@ -106,6 +106,31 @@ public class SupportTests
     }
 
     [Fact]
+    public void GetEmojiNames()
+    {
+        var emojiNames = new List<string>();
+
+        var deserializer = Yaml.CreateDeserializer();
+        var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText($"{workingDirectory}/Converted/emoji.txt"));
+
+        foreach(var line in lines)
+        {
+            if (line.Splits.Count == 0)
+                continue;
+
+            var emojiCode = $"\"[{line.Splits[0].Text}]\",";
+
+            if (!emojiNames.Contains(emojiCode))
+                emojiNames.Add(emojiCode);
+            
+            //TODO: Token replace these and then remove emoji from the replacement list
+            //First check theres nothing in Dynamic strings
+        }
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/ExportEmoji.yaml", emojiNames);
+    }
+
+    [Fact]
     public async Task GetNames()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
@@ -175,8 +200,6 @@ public class SupportTests
         foreach (var p in placeholders)
             Console.WriteLine(p);
     }
-
-
 
     [Fact]
     public async Task FindAllFailingTranslations()

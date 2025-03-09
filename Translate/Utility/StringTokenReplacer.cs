@@ -1,21 +1,34 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Translate.Utility;
 
 /// <summary>
 /// Replace things we know cause issues with the LLM with straight tokens which it seems to handle ok. 
-/// TODO: This might be useful for markup like <color>
 /// </summary>
 public class StringTokenReplacer
 {
-    private const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
-    private const string CoordinateMatchPattern = @"\(-?\d+,-?\d+\)";
-    private const string NumericValueMatchPattern = @"(?<![{<]|color=|<[^>]*)(?:[+-]?(?:\d+\.\d*|\.\d+|\d+))(?![}>])";
-    private const string ColorStartMatchPattern = @"<color=[^>]+>";
-    private const string KeyPressMatchPattern = @"<\w+\s+>";
-    private const string KeyPressNoSpaceMatchPattern = @"<\w+\s+>";
+    private static readonly Regex PlaceholderRegex = new(@"(\{[^{}]+\})", RegexOptions.Compiled);
+    private static readonly Regex CoordinateRegex = new(@"\(-?\d+,-?\d+\)", RegexOptions.Compiled);
+    private static readonly Regex NumericValueRegex = new(@"(?<![{<]|color=|<[^>]*)(?:[+-]?(?:\d+\.\d*|\.\d+|\d+))(?![}>])", RegexOptions.Compiled);
+    private static readonly Regex ColorStartRegex = new(@"<color=[^>]+>", RegexOptions.Compiled);
+    private static readonly Regex KeyPressRegex = new(@"<\w+\s+>", RegexOptions.Compiled);
 
-    //private const string ColorEndMatchPattern = @"</color>";
+    public string[] EmojiItems = [
+        "[发现宝箱]",
+        "[石化]",
+        "[开心]",
+        "[不知所措]",
+        "[疑问]",
+        "[担忧]",
+        "[生气]",
+        "[哭泣]",
+        "[惊讶]",
+        "[发怒]",
+        "[抓狂]",
+        "[委屈]",
+    ];
+
     private Dictionary<int, string> placeholderMap = new();
     private Dictionary<string, string> colorMap = new();
 
@@ -27,57 +40,65 @@ public class StringTokenReplacer
         int colorIndex = 0;
         placeholderMap.Clear();
         colorMap.Clear();
+        var result = new StringBuilder(input);
 
-        string result = Regex.Replace(input, PlaceholderMatchPattern, match =>
+        result.Replace(PlaceholderRegex, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
         });
 
-        result = Regex.Replace(result, CoordinateMatchPattern, match =>
+        result.Replace(CoordinateRegex, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
         });
 
-        //Pull out color tags into different dictionary
-        // Do not need </color> because we use same one
-        result = Regex.Replace(result, ColorStartMatchPattern, match =>
+        result.Replace(ColorStartRegex, match =>
         {
             string replacement = $"<color={colorIndex++}>";
             colorMap.Add(replacement, match.Value);
             return replacement;
         });
 
-        //Key Press
-        result = Regex.Replace(result, KeyPressMatchPattern, match =>
+        result.Replace(KeyPressRegex, match =>
         {
-            placeholderMap.Add(index, match.Value.Replace(" ", "")); //Safe because only spaces right
+            placeholderMap.Add(index, match.Value.Replace(" ", ""));
             return $"{{{index++}}}";
         });
 
-        // Picks up all digits - be careful it doesnt pick it up out of special tags or markup for game
-        result = Regex.Replace(result, NumericValueMatchPattern, match =>
+        result.Replace(NumericValueRegex, match =>
         {
             placeholderMap.Add(index, match.Value);
             return $"{{{index++}}}";
-        });        
+        });
+        
+        var tokenPattern = string.Join("|", otherTokens.Select(Regex.Escape));
+        var tokenRegex = new Regex(tokenPattern, RegexOptions.Compiled);
 
-        foreach (var token in otherTokens)
+        result.Replace(tokenRegex, match =>
         {
-            if (result.Contains(token))
-            {
-                result = result.Replace(token, $"{{{index}}}");
-                placeholderMap.Add(index++, token);
-            }
-        }
+            placeholderMap.Add(index, match.Value);
+            return $"{{{index++}}}";
+        });
 
-        return result;
+        var emojiPattern = string.Join("|", EmojiItems.Select(Regex.Escape));
+        var emojiRegex = new Regex(emojiPattern, RegexOptions.Compiled);
+
+        result.Replace(emojiRegex, match =>
+        {
+            placeholderMap.Add(index, match.Value);
+            return $"{{{index++}}}";
+        });
+
+        return result.ToString();
     }
 
     public string Restore(string input)
     {
-        var result = Regex.Replace(input, PlaceholderMatchPattern, match =>
+        var result = new StringBuilder(input);
+
+        result.Replace(PlaceholderRegex, match =>
         {
             if (int.TryParse(match.Value.Trim('{', '}'), out int index)
                 && placeholderMap.TryGetValue(index, out string? original))
@@ -89,9 +110,9 @@ public class StringTokenReplacer
 
         foreach (var color in colorMap)
         {
-            result = result.Replace(color.Key, color.Value);
+            result.Replace(color.Key, color.Value);
         }
 
-        return result;
+        return result.ToString();
     }
 }
