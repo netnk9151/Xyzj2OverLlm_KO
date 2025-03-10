@@ -184,8 +184,6 @@ public class TranslationWorkflowTests
             //@"\(.*，.*\)" //Put back for big files
         };
 
-        
-
         //await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
         //Use non-parallel for debugging
         await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
@@ -237,6 +235,9 @@ public class TranslationWorkflowTests
 
         //////// Quick Validation here
 
+        if (!split.SafeToTranslate)
+            return false;
+
         // If it is already translated or just special characters return it
         var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
@@ -266,6 +267,18 @@ public class TranslationWorkflowTests
             {
                 logLines.Add($"Bad Regex {textFile.Path} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
+                return true;
+            }
+        }
+
+        // Do not manipulate anything that is to do with the UI
+        if (textFile.TextFileType == TextFileType.DynamicStrings)
+        {
+            if (split.Text.Contains("Sprite")
+                || split.Text.Contains("UI")
+                || split.Text.Contains("Prefab"))
+            {
+                split.SafeToTranslate = false;
                 return true;
             }
         }

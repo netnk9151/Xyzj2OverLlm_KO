@@ -4,7 +4,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:30.3657608+08:00
     split: 3
     text: "音乐：{0}不存在"
-    translated: "Music: {0} does not exist."
+    translated: "Music: {0} does not exist"
 - lineNum: 2
   raw: "AppGame,CheckTapAnti,42,用户在线时长到达防沉迷限制!,[]"
   splits:
@@ -67,7 +67,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:32.1211319+08:00
     split: 3
     text: "当前为战斗状态，无法存档"
-    translated: "Currently in combat mode; unable to save."
+    translated: "Currently in combat mode; unable to save"
 - lineNum: 11
   raw: "AppGame,IsSaveableNow,42,无法存档 当前为战斗状态,[System.Boolean]"
   splits:
@@ -102,7 +102,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:32.8047370+08:00
     split: 3
     text: "当前为押镖状态，无法存档"
-    translated: "Currently in escort mode; unable to save."
+    translated: "Currently in escort mode; unable to save"
 - lineNum: 16
   raw: "Automat,Load,457,) failed ClientScriptsDef 配置不存在,[System.Int64]"
   splits:
@@ -144,21 +144,21 @@
   - lastTranslatedOn: 2025-03-04T18:52:34.1305351+08:00
     split: 3
     text: "当前没有在交互的Npc"
-    translated: "There are currently no NPCs interacting."
+    translated: "There are currently no NPCs interacting"
 - lineNum: 22
   raw: "AutomatManager,Script_StartSteal,55,没有东西可以偷窃,[AutomatScript，CallFunc]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:30.3672510+08:00
     split: 3
     text: "没有东西可以偷窃"
-    translated: "There is nothing to steal."
+    translated: "There is nothing to steal"
 - lineNum: 23
   raw: "AutomatManager,Script_StealItemFromInteractNpc,142,对方背包没有多余物品,[AutomatScript，CallFunc]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:30.3672513+08:00
     split: 3
     text: "对方背包没有多余物品"
-    translated: "Their backpack has no extra items."
+    translated: "Their backpack has no extra items"
 - lineNum: 24
   raw: "AutomatManager,Script_ShowMenpaiHaogan,65,少侠你和本门派好感度为:,[AutomatScript，CallFunc]"
   splits:
@@ -319,7 +319,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:30.3674773+08:00
     split: 3
     text: "当前没有交互对象"
-    translated: "There is no interactive object at present."
+    translated: "There is no interactive object at present"
 - lineNum: 47
   raw: "AutomatManager,Script_CheckInteractNpcJieYuanOrJieYi,196,此函数只能用于判定玩家与Npc是否结缘或者结义,[AutomatScript，CallFunc]"
   splits:
@@ -333,7 +333,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:30.3674960+08:00
     split: 3
     text: "Entity不存在"
-    translated: "The entity does not exist."
+    translated: "The entity does not exist"
 - lineNum: 49
   raw: "AutomatManager,Script_OpenShuangXiuViewWithInteractNpc,8,脚本持有者未赋值,[AutomatScript，CallFunc]"
   splits:
@@ -501,28 +501,28 @@
   - lastTranslatedOn: 2025-03-04T18:52:34.9077723+08:00
     split: 3
     text: "要获取的自定义数据"
-    translated: "To obtain the custom data."
+    translated: "To obtain the custom data"
 - lineNum: 73
   raw: "CustomDataInfo,GetDataInfo,23,没有在表中定义,[System.String]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:34.9077728+08:00
     split: 3
     text: "没有在表中定义"
-    translated: "Not defined in the table."
+    translated: "Not defined in the table"
 - lineNum: 74
   raw: "CustomDataInfo,GetValue,25,要获取的自定义数据,[System.String]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:42.1545166+08:00
     split: 3
     text: "要获取的自定义数据"
-    translated: "To obtain the custom data."
+    translated: "To obtain the custom data"
 - lineNum: 75
   raw: "CustomDataInfo,GetValue,31,的value值不能为空,[System.String]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:38.5588482+08:00
     split: 3
     text: "的value值不能为空"
-    translated: "The value cannot be empty."
+    translated: "The value cannot be empty"
 - lineNum: 76
   raw: "EntrustEventPrototype,IsMatchNewCondition,51, 配置错误,[]"
   splits:
@@ -690,7 +690,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:41.2774024+08:00
     split: 3
     text: "system_introduce没找到id为{0}的数据"
-    translated: "Data ID {0} not found."
+    translated: "Data ID {0} not found"
 - lineNum: 100
   raw: "Mystique,GetInfo,17,mystique中没有配{0}id的数据,[System.Int64]"
   splits:
@@ -788,28 +788,28 @@
   - lastTranslatedOn: 2025-03-04T18:52:42.3265812+08:00
     split: 3
     text: "属性不足，无法击碎"
-    translated: "Attributes insufficient; unable to shatter."
+    translated: "Attributes insufficient; unable to shatter"
 - lineNum: 114
   raw: "DownloadView/<DownVersion>d__17,MoveNext,106,网络连接失败，请重试,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:42.3265816+08:00
     split: 3
     text: "网络连接失败，请重试"
-    translated: "Network connection failed, please try again."
+    translated: "Network connection failed, please try again"
 - lineNum: 115
   raw: "DownloadView/<Down>d__20,MoveNext,518,加载失败，请重试,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:42.3265820+08:00
     split: 3
     text: "加载失败，请重试"
-    translated: "Load failed, please try again."
+    translated: "Load failed, please try again"
 - lineNum: 116
   raw: "DownloadView/<Down>d__20,MoveNext,628,网络连接失败，请重试,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:46.8707650+08:00
     split: 3
     text: "网络连接失败，请重试"
-    translated: "Network connection failed, please try again."
+    translated: "Network connection failed, please try again"
 - lineNum: 117
   raw: "DownloadView/<Down>d__20,MoveNext,1020,下载完成,[]"
   splits:
@@ -823,7 +823,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:46.8707650+08:00
     split: 3
     text: "网络连接失败，请重试"
-    translated: "Network connection failed, please try again."
+    translated: "Network connection failed, please try again"
 - lineNum: 119
   raw: "DownloadView,refreshUI,199,正在下载文件：,[]"
   splits:
@@ -914,14 +914,14 @@
   - lastTranslatedOn: 2025-03-04T18:52:42.3267405+08:00
     split: 3
     text: "当前处于被发现的状态"
-    translated: "Currently in a state of being discovered."
+    translated: "Currently in a state of being discovered"
 - lineNum: 132
   raw: "PlayerStateComponent,ForceExitQianXingState,10,潜行状态被解除,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:42.3267409+08:00
     split: 3
     text: "潜行状态被解除"
-    translated: "Stealth mode has been deactivated."
+    translated: "Stealth mode has been deactivated"
 - lineNum: 133
   raw: "DataManager,GetCommandName,40,确认,[CommandName]"
   splits:
@@ -956,7 +956,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:42.3267425+08:00
     split: 3
     text: "请先加入门派"
-    translated: "Please join a sect first."
+    translated: "Please join a sect first"
 - lineNum: 138
   raw: "FashionComponent/<WaitSetWeapon>d__59,MoveNext,86,有角色本体为空，没法加载武器,[]"
   splits:
@@ -1082,7 +1082,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:47.0343428+08:00
     split: 3
     text: "IP获取失败"
-    translated: "Failed to obtain IP address."
+    translated: "Failed to obtain IP address"
 - lineNum: 156
   raw: "AnqiResearchView/<>c__DisplayClass84_0,<Awake>b__3,28,材料不足！,[]"
   splits:
@@ -1299,7 +1299,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:47.0356195+08:00
     split: 3
     text: "此人已失联"
-    translated: "This person has been missing."
+    translated: "This person has been missing"
 - lineNum: 187
   raw: "ItemDetailView,EquipOrUnEquip,65,任务要紧，还是不要改变模样的好,[]"
   splits:
@@ -1320,7 +1320,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:47.0356515+08:00
     split: 3
     text: "与当前武器不匹配"
-    translated: "Not compatible with the current weapon."
+    translated: "Not compatible with the current weapon"
 - lineNum: 190
   raw: "ItemDetailView,EquipOrUnEquip,1064,装备无耐久，无法穿戴,[]"
   splits:
@@ -1481,7 +1481,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:50.1516734+08:00
     split: 3
     text: "已处于醉酒状态"
-    translated: "Already in a state of intoxication."
+    translated: "Already in a state of intoxication"
 - lineNum: 213
   raw: "ItemDetailView,ShowItem,4771,已处于饱腹状态,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.Item，System.Boolean]"
   splits:
@@ -1495,7 +1495,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.6950551+08:00
     split: 3
     text: "已处于醉酒状态"
-    translated: "Already in a state of intoxication."
+    translated: "Already in a state of intoxication"
 - lineNum: 215
   raw: "ItemDetailView,ShowItem,4882,已处于饱腹状态,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.Item，System.Boolean]"
   splits:
@@ -1509,7 +1509,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:51.0352054+08:00
     split: 3
     text: "当前{0}度({1}/3)"
-    translated: "The current temperature is {0} degrees ({1}/3)."
+    translated: "The current temperature is {0} degrees ({1}/3)"
 - lineNum: 217
   raw: "ItemDetailView,ShowItem,4993,醉酒,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.Item，System.Boolean]"
   splits:
@@ -1607,7 +1607,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.6041542+08:00
     split: 3
     text: "使用后增加{0}天寿命"
-    translated: "Increases lifespan by {0} days upon usage."
+    translated: "Increases lifespan by {0} days upon usage"
 - lineNum: 231
   raw: "ItemDetailView,ShowItem,6211,行动,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.Item，System.Boolean]"
   splits:
@@ -1838,7 +1838,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8486978+08:00
     split: 3
     text: "无匹配套路，不能装备"
-    translated: "No matching technique; cannot equip."
+    translated: "No matching technique; cannot equip"
 - lineNum: 264
   raw: "EffectItemSlotNew,OnReset,196,效果说明：,[]"
   splits:
@@ -1866,7 +1866,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:55.6244164+08:00
     split: 3
     text: "姓名含敏感词汇，请重新输入"
-    translated: "Name contains sensitive words, please re-enter."
+    translated: "Name contains sensitive words, please re-enter"
 - lineNum: 268
   raw: "RadarChart,DrawHexagon,82,初始位置：x: ,[UnityEngine.UI.VertexHelper]"
   splits:
@@ -1880,7 +1880,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487262+08:00
     split: 3
     text: "重绘制子雷达图"
-    translated: "Redraw the radar chart of Zirai."
+    translated: "Redraw the radar chart of Zirai"
 - lineNum: 270
   raw: "TuJianEnhanceItemSlot,OnReset,242,好感度:,[]"
   splits:
@@ -1915,7 +1915,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487278+08:00
     split: 3
     text: "恨之入骨"
-    translated: "Hate that cuts deep into the bones."
+    translated: "Hate that cuts deep into the bones"
 - lineNum: 275
   raw: "TuJianEnhanceItemSlot,OnReset,342,深恶痛绝,[]"
   splits:
@@ -1929,21 +1929,21 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487286+08:00
     split: 3
     text: "势不两立"
-    translated: "It cannot be both ways."
+    translated: "It cannot be both ways"
 - lineNum: 277
   raw: "TuJianEnhanceItemSlot,OnReset,386,水火不容,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:52.8487291+08:00
     split: 3
     text: "水火不容"
-    translated: "Incompatible as water and fire."
+    translated: "Incompatible as water and fire"
 - lineNum: 278
   raw: "TuJianEnhanceItemSlot,OnReset,408,狭路相逢,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:52.8487294+08:00
     split: 3
     text: "狭路相逢"
-    translated: "Meeting by chance on a narrow path."
+    translated: "Meeting by chance on a narrow path"
 - lineNum: 279
   raw: "TuJianEnhanceItemSlot,OnReset,430,不屑一顾,[]"
   splits:
@@ -1971,14 +1971,14 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487302+08:00
     split: 3
     text: "江湖初识"
-    translated: "First encounter in the Jianghu."
+    translated: "First encounter in the Jianghu"
 - lineNum: 283
   raw: "TuJianEnhanceItemSlot,OnReset,518,点头之交,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:52:52.8487306+08:00
     split: 3
     text: "点头之交"
-    translated: "Acquaintances made by mutual introduction."
+    translated: "Acquaintances made by mutual introduction"
 - lineNum: 284
   raw: "TuJianEnhanceItemSlot,OnReset,540,相见恨晚,[]"
   splits:
@@ -2006,7 +2006,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487319+08:00
     split: 3
     text: "形影相随"
-    translated: "Like shadows following one another."
+    translated: "Like shadows following one another"
 - lineNum: 288
   raw: "TuJianEnhanceItemSlot,OnReset,616,心有灵犀,[]"
   splits:
@@ -2048,7 +2048,7 @@
   - lastTranslatedOn: 2025-03-04T18:52:52.8487343+08:00
     split: 3
     text: "铜钱不足"
-    translated: "There are not enough copper coins."
+    translated: "There are not enough copper coins"
 - lineNum: 294
   raw: "DaTingView,InpuFeildChance,16,少侠的想法包含忌讳之词，请重新输入,[System.String]"
   splits:
@@ -2776,7 +2776,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:00.1508477+08:00
     split: 3
     text: "没有更多的鱼饵了"
-    translated: "We've run out of bait."
+    translated: "We've run out of bait"
 - lineNum: 398
   raw: "FishArtistry,StartFishing,67,精力不足!,[]"
   splits:
@@ -2818,7 +2818,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:01.7801678+08:00
     split: 3
     text: "你什么都没有获得~"
-    translated: "You didn't get anything at all."
+    translated: "You didn't get anything at all"
 - lineNum: 404
   raw: "PreachView,InitPreach,108,对方对你的学识敬佩万分,[SweetPotato.AttriType，System.Int32，UnityEngine.Events.UnityAction`2<System.Boolean，System.String>]"
   splits:
@@ -2861,6 +2861,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 410
   raw: "BagNewNewItemUI,OnRefresh,463,坚韧：{0},[]"
   splits:
@@ -3203,7 +3204,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:03.9651517+08:00
     split: 3
     text: "江湖游侠"
-    translated: "Wandering heroes of the Jianghu."
+    translated: "Wandering heroes of the Jianghu"
 - lineNum: 459
   raw: "PopInfoTip,ShowInformation,283,不详,[System.Int32]"
   splits:
@@ -3700,14 +3701,14 @@
   - lastTranslatedOn: 2025-03-04T18:53:07.3038601+08:00
     split: 3
     text: "材料不足，不能炼制"
-    translated: "Insufficient materials; unable to forge."
+    translated: "Insufficient materials; unable to forge"
 - lineNum: 530
   raw: "ComString,.cctor,280,材料充足，可以炼制,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:07.3038605+08:00
     split: 3
     text: "材料充足，可以炼制"
-    translated: "Materials are sufficient; it can be refined."
+    translated: "Materials are sufficient; it can be refined"
 - lineNum: 531
   raw: "ComString,.cctor,290,没有配方，不能炼制,[]"
   splits:
@@ -3735,7 +3736,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:08.6149267+08:00
     split: 3
     text: "因炉温不足，导致打造失败"
-    translated: "Due to insufficient kiln temperature, forging failed."
+    translated: "Due to insufficient kiln temperature, forging failed"
 - lineNum: 535
   raw: "ComString,.cctor,330,因冷却时间未够，导致打造失败,[]"
   splits:
@@ -4443,6 +4444,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 636
   raw: "FabricationResult,ShowResult,36,完成,[]"
   splits:
@@ -4610,7 +4612,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:13.6764631+08:00
     split: 3
     text: "之人提升【身份】"
-    translated: "The individual has been elevated in status."
+    translated: "The individual has been elevated in status"
 - lineNum: 660
   raw: "FabricationView,OpenFabrication,627,确定,[System.Int64，LivingType]"
   splits:
@@ -4638,7 +4640,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:14.0520503+08:00
     split: 3
     text: "配方，请先学习任意一个"
-    translated: "Formula: Please study any one first."
+    translated: "Formula: Please study any one first"
 - lineNum: 664
   raw: "FabricationView,OpenFabrication,1422,配方,[System.Int64，LivingType]"
   splits:
@@ -5121,7 +5123,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.0716345+08:00
     split: 3
     text: "用于{0}"
-    translated: "To be used for {0}."
+    translated: "To be used for {0}"
 - lineNum: 733
   raw: "MystiqueSelectPanel,RefreshDetails,673,并额外赋予：,[Mystique]"
   splits:
@@ -5170,7 +5172,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.3415743+08:00
     split: 3
     text: "用于{0}"
-    translated: "To be used for {0}."
+    translated: "To be used for {0}"
 - lineNum: 740
   raw: "MystiqueSelectSlot,OnPointerEnter,824,并额外赋予：,[UnityEngine.EventSystems.PointerEventData]"
   splits:
@@ -5198,7 +5200,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.0716365+08:00
     split: 3
     text: "未习得配方"
-    translated: "Not yet learned the formula."
+    translated: "Not yet learned the formula"
 - lineNum: 744
   raw: "RecipeSlot,OnReset,520,坚韧要求：,[]"
   splits:
@@ -5220,6 +5222,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 747
   raw: "FabricateItemSlot,OnReset,268,品质/等级：随机,[]"
   splits:
@@ -5324,7 +5327,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.7100691+08:00
     split: 3
     text: "没找到{0}年({y})的数据"
-    translated: "Data for {0} year ({y}) not found."
+    translated: "Data for {0} year ({y}) not found"
 - lineNum: 762
   raw: "InstantiateView,SetText,290,年：{0} ※ ,[]"
   splits:
@@ -5338,7 +5341,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927538+08:00
     split: 3
     text: "没找到{0}月的数据"
-    translated: "Data for {0} month not found."
+    translated: "Data for {0} month not found"
 - lineNum: 764
   raw: "InstantiateView,SetText,372,月：{0} ※ ,[]"
   splits:
@@ -5352,7 +5355,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927544+08:00
     split: 3
     text: "没找到{0}的数据"
-    translated: "Unable to find data for {0}."
+    translated: "Unable to find data for {0}"
 - lineNum: 766
   raw: "InstantiateView,SetText,451,日：{0} ※ ,[]"
   splits:
@@ -5366,7 +5369,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927549+08:00
     split: 3
     text: "没找到{0}时的数据"
-    translated: "Data not found at {0}."
+    translated: "Data not found at {0}"
 - lineNum: 768
   raw: "InstantiateView,SetText,527,时：{0} ※ ,[]"
   splits:
@@ -5415,14 +5418,14 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927874+08:00
     split: 3
     text: "未达到解锁要求"
-    translated: "Requirements not met to unlock."
+    translated: "Requirements not met to unlock"
 - lineNum: 775
   raw: "InteractSlot,InteractWithNpc,1583,没有可完成的悬赏任务,[SweetPotato.NpcInteract]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:18.4927877+08:00
     split: 3
     text: "没有可完成的悬赏任务"
-    translated: "There are no completed bounty tasks available."
+    translated: "There are no completed bounty tasks available"
 - lineNum: 776
   raw: "InteractSlot,InteractWithNpc,1620,确定,[SweetPotato.NpcInteract]"
   splits:
@@ -5443,7 +5446,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927890+08:00
     split: 3
     text: "暂未开放此功能"
-    translated: "This feature is not yet available."
+    translated: "This feature is not yet available"
 - lineNum: 779
   raw: "InteractSlot,OnReset,423,查看信息,[]"
   splits:
@@ -5506,7 +5509,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:18.4927917+08:00
     split: 3
     text: "比武"
-    translated: "Tournament of martial arts skills."
+    translated: "Tournament of martial arts skills"
 - lineNum: 788
   raw: "InteractSlot,OnReset,522,代为,[]"
   splits:
@@ -5625,7 +5628,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9552041+08:00
     split: 3
     text: "退出门派"
-    translated: "Withdraw from the martial arts sect."
+    translated: "Withdraw from the martial arts sect"
 - lineNum: 805
   raw: "InteractSlot,OnReset,848,<color=#BF5F95>劫杀</color>,[]"
   splits:
@@ -5653,7 +5656,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9559355+08:00
     split: 3
     text: "争夺擂"
-    translated: "Contest for the Pillar Challenge."
+    translated: "Contest for the Pillar Challenge"
 - lineNum: 809
   raw: "InteractSlot,OnReset,892,了结他,[]"
   splits:
@@ -5667,7 +5670,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9559366+08:00
     split: 3
     text: "放他一马"
-    translated: "Let him off the hook."
+    translated: "Let him off the hook"
 - lineNum: 811
   raw: "InteractSlot,OnReset,914,拍卖行,[]"
   splits:
@@ -5821,7 +5824,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9559770+08:00
     split: 3
     text: "对弈"
-    translated: "Engaging in a game of Go."
+    translated: "Engaging in a game of Go"
 - lineNum: 833
   raw: "InteractSlot,OnReset,1328,巧取,[]"
   splits:
@@ -5877,14 +5880,14 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9559793+08:00
     split: 3
     text: "以武会友"
-    translated: "Meet friends through martial arts."
+    translated: "Meet friends through martial arts"
 - lineNum: 841
   raw: "InteractSlot,OnReset,1467,登门踢馆,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:19.9559797+08:00
     split: 3
     text: "登门踢馆"
-    translated: "Challenge a master in his own home."
+    translated: "Challenge a master in his own home"
 - lineNum: 842
   raw: "InteractSlot,OnReset,1478,问答,[]"
   splits:
@@ -5926,7 +5929,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:19.9559814+08:00
     split: 3
     text: "纳入门下({0}%)"
-    translated: "Enrolled in the school ({0}%)."
+    translated: "Enrolled in the school ({0}%)"
 - lineNum: 848
   raw: "InteractSlot,OnReset,1722,下蛊,[]"
   splits:
@@ -6087,7 +6090,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:20.6159092+08:00
     split: 3
     text: "当前已与其结义"
-    translated: "They are currently sworn brothers."
+    translated: "They are currently sworn brothers"
 - lineNum: 871
   raw: "InteractSlot,Handle_IT_JIEYI,78,确定,[]"
   splits:
@@ -6290,7 +6293,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:20.6166683+08:00
     split: 3
     text: "不可对同门下手"
-    translated: "Do not harm fellow disciples."
+    translated: "Do not harm fellow disciples"
 - lineNum: 900
   raw: "InteractSlot,Handle_IT_Jail,127,您的精力不足20!,[System.Int64]"
   splits:
@@ -6339,7 +6342,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:23.4454133+08:00
     split: 3
     text: "未达到解锁要求"
-    translated: "Requirements not met to unlock."
+    translated: "Requirements not met to unlock"
 - lineNum: 907
   raw: "AttriPart,OnEnable,5,B_人物,[]"
   splits:
@@ -6360,7 +6363,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:23.4454144+08:00
     split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation."
+    translated: "Descend from the chariot formation"
 - lineNum: 910
   raw: "AttriPart,OnStateBtnClick,41,装备,[]"
   splits:
@@ -6486,7 +6489,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:37.1958022+08:00
     split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation."
+    translated: "Descend from the chariot formation"
 - lineNum: 928
   raw: "AttriPart,BtnLeaveTeamClick,17,队伍正在交战中，无法操作,[]"
   splits:
@@ -6500,7 +6503,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:23.4460789+08:00
     split: 3
     text: "离队按钮没有正常隐藏"
-    translated: "Leave team button not hidden as expected."
+    translated: "Leave team button not hidden as expected"
 - lineNum: 930
   raw: "AttriPart,BtnTeamStateClick,17,队伍正在交战中，无法操作,[]"
   splits:
@@ -6521,7 +6524,7 @@
   - lastTranslatedOn: 2025-03-04T18:53:37.1958022+08:00
     split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation."
+    translated: "Descend from the chariot formation"
 - lineNum: 933
   raw: "AttriPart,BtnTeamStateClick,157,上阵按钮没有正常隐藏,[]"
   splits:
@@ -6591,42 +6594,42 @@
   - lastTranslatedOn: 2025-03-04T18:53:23.4461919+08:00
     split: 3
     text: "成功造成伤害的能力。"
-    translated: "The ability to cause harm successfully."
+    translated: "The ability to cause harm successfully"
 - lineNum: 943
   raw: "AttriPart,.cctor,121,躲避伤害的能力。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:23.4461927+08:00
     split: 3
     text: "躲避伤害的能力。"
-    translated: "The ability to avoid harm."
+    translated: "The ability to avoid harm"
 - lineNum: 944
   raw: "AttriPart,.cctor,134,提高暴击伤害比例。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:23.4461933+08:00
     split: 3
     text: "提高暴击伤害比例。"
-    translated: "Increase critical hit damage percentage."
+    translated: "Increase critical hit damage percentage"
 - lineNum: 945
   raw: "AttriPart,.cctor,147,减少暴击伤害比例。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:23.4461938+08:00
     split: 3
     text: "减少暴击伤害比例。"
-    translated: "Reduce critical hit damage ratio."
+    translated: "Reduce critical hit damage ratio"
 - lineNum: 946
   raw: "AttriPart,.cctor,160,提升暴击伤害的几率。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:23.4461940+08:00
     split: 3
     text: "提升暴击伤害的几率。"
-    translated: "Increase the chance of critical hit damage."
+    translated: "Increase the chance of critical hit damage"
 - lineNum: 947
   raw: "AttriPart,.cctor,173,降低暴击伤害触发几率。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:53:25.1868122+08:00
     split: 3
     text: "降低暴击伤害触发几率。"
-    translated: "Reduce the critical hit damage trigger rate."
+    translated: "Reduce the critical hit damage trigger rate"
 - lineNum: 948
   raw: "AttriPart,.cctor,186,当使用阴属性招式，角色进入阴属性状态，此时角色获得阴属性战斗加成和一些特殊效果：\\n1：角色切换进入阴属性招式状态，此时攻击柔状态的角色会获得伤害比例加成。反之如果攻击阳属性偏向的，则伤害会走相抵系数。\\n2：进入阴状态的角色需要相合的内功进行配合：\\n     相合：阴状态需要阴偏向的内功来催动，进入内功-招式相合状态。\\n     相克：阴状态的的技能如果使用阳偏向、柔偏向的内功，自身会根据阴属性与柔、阳属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：阴属性达到一定程度后开启冰封效果，相合状态下，每次阴属性攻击会累加自身阴属性与阳、柔属性的差值，累加值达到2300触发冰封，对自身周围敌人施加一个霜冻效果。\\n     霜冻：冻住目标，使目标无法进行任何动作，持续一段时间。,[]"
   splits:
@@ -6787,14 +6790,14 @@
   - lastTranslatedOn: 2025-03-04T18:53:38.6329043+08:00
     split: 3
     text: "提升主角获得的情分值。"
-    translated: "Increase the protagonist's affection points."
+    translated: "Increase the protagonist's affection points"
 - lineNum: 971
   raw: "AttriPart,.cctor,480,影响主角被控制的效果命中。,[]"
   splits:
   - lastTranslatedOn: 2025-03-09T18:29:59.6691774+08:00
     split: 3
     text: "影响主角被控制的效果命中。"
-    translated: "Effect hit rate for controlling the protagonist."
+    translated: "Effect hit rate for controlling the protagonist"
 - lineNum: 972
   raw: "AttriPart,.cctor,493,降低主角求取时消耗的情分值。,[]"
   splits:
@@ -7019,6 +7022,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 1004
   raw: "RoleBagItemSlot,UpdateFromModel,802,已学习,[RoleBagItemListModel]"
   splits:
@@ -7305,14 +7309,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:06.5671859+08:00
     split: 3
     text: "背包已满请先清理背包"
-    translated: "Backpack is full; please clear it first."
+    translated: "Backpack is full; please clear it first"
 - lineNum: 1045
   raw: "LivingView,OnMenuItemClicked,375,元宝或精力不足，,[System.Object[]]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:06.5671863+08:00
     split: 3
     text: "元宝或精力不足，"
-    translated: "Not enough gold or energy."
+    translated: "Not enough gold or energy"
 - lineNum: 1046
   raw: "LivingView,OnMenuItemClicked,409,材料不足，,[System.Object[]]"
   splits:
@@ -7424,7 +7428,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:08.0308007+08:00
     split: 3
     text: "尚未添加特殊材料"
-    translated: "Special materials have not been added yet."
+    translated: "Special materials have not been added yet"
 - lineNum: 1062
   raw: "LunDaoBattle/<OnSkillTrigger>d__75,MoveNext,191,OnSkillTrigger:ID{0} 名字：{1},[]"
   splits:
@@ -7438,7 +7442,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:08.0314934+08:00
     split: 3
     text: "概率未成功触发"
-    translated: "Probability of triggering was unsuccessful."
+    translated: "Probability of triggering was unsuccessful"
 - lineNum: 1064
   raw: "LunDaoBattle/<OnTriggerSkill>d__76,MoveNext,411,不满足条件,[]"
   splits:
@@ -7487,7 +7491,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.2423088+08:00
     split: 3
     text: "概率未成功触发"
-    translated: "Probability of triggering was unsuccessful."
+    translated: "Probability of triggering was unsuccessful"
 - lineNum: 1071
   raw: "LunDaoBattle/<OnCastSkill>d__77,MoveNext,966,OnCastSkill:ID {0} 名字：{1},[]"
   splits:
@@ -7746,14 +7750,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.4040202+08:00
     split: 3
     text: "已覆盖快速存档栏"
-    translated: "Fast Save Column Already Covered."
+    translated: "Fast Save Column Already Covered"
 - lineNum: 1108
   raw: "MainViewSettings,UpdateInput,2675,当前状态下不可打坐,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:10.4040206+08:00
     split: 3
     text: "当前状态下不可打坐"
-    translated: "Currently unable to meditate in this state."
+    translated: "Currently unable to meditate in this state"
 - lineNum: 1109
   raw: "MainViewSettings,UpdateInput,3106,当前状态无法快速存档，postScriptExecuted！,[]"
   splits:
@@ -7767,7 +7771,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.5904187+08:00
     split: 3
     text: "没有可用的快速存档，无法读取."
-    translated: "No available quick save data to load."
+    translated: "No available quick save data to load"
 - lineNum: 1111
   raw: "MainViewSettings,UpdateInput,3505,即将读取快速存档，确定吗？,[]"
   splits:
@@ -7795,7 +7799,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.4478119+08:00
     split: 3
     text: "当前状态下不可打坐"
-    translated: "Currently unable to meditate in this state."
+    translated: "Currently unable to meditate in this state"
 - lineNum: 1115
   raw: "MainViewSettings,OnClickGameOver,5, 确认退隐江湖吗？,[]"
   splits:
@@ -7837,14 +7841,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.4477956+08:00
     split: 3
     text: "当前为战斗状态，无法进行易容"
-    translated: "Currently in combat mode; disguise not possible."
+    translated: "Currently in combat mode; disguise not possible"
 - lineNum: 1121
   raw: "MainViewSettings,OnOpenFace,110,请在待机状态下进行易容,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:11.7903114+08:00
     split: 3
     text: "请在待机状态下进行易容"
-    translated: "Please change appearance while in standby mode."
+    translated: "Please change appearance while in standby mode"
 - lineNum: 1122
   raw: "PlayerActionStateUI,UpdateQinggong,133,轻身功,[System.Int32，System.Int32]"
   splits:
@@ -7865,7 +7869,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.4049803+08:00
     split: 3
     text: "飞檐走壁"
-    translated: "Scaling rooftops and walls with agility."
+    translated: "Scaling rooftops and walls with agility"
 - lineNum: 1125
   raw: "PlayerActionStateUI,UpdateQinggong,280,草上飞,[System.Int32，System.Int32]"
   splits:
@@ -7907,7 +7911,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.4049825+08:00
     split: 3
     text: "金雁横空"
-    translated: "The Golden Geese Soar Across the Sky."
+    translated: "The Golden Geese Soar Across the Sky"
 - lineNum: 1131
   raw: "PlayerStatusUI,RefreshName,28,风雪人间客,[]"
   splits:
@@ -7991,7 +7995,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:10.4050906+08:00
     split: 3
     text: "姿态恢复中，无法施放"
-    translated: "Stance recovery in progress; unable to cast."
+    translated: "Stance recovery in progress; unable to cast"
 - lineNum: 1143
   raw: "SkillItemUI,CastSpellReal,101,技能：{0}冷却中,[SweetPotato.SpellPrototype，System.Boolean，SweetPotato.SpellPrototype]"
   splits:
@@ -8138,7 +8142,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.5969147+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1164
   raw: "MenPaiEntrustPrefab,OnRefresh,221,已完成,[]"
   splits:
@@ -8271,14 +8275,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.5969977+08:00
     split: 3
     text: "条件或消耗未满足"
-    translated: "Conditions or consumption not met."
+    translated: "Conditions or consumption not met"
 - lineNum: 1183
   raw: "MenPaiFaZhanPanel,AddQuest,273,请正确选择门人或任务,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:12.5969985+08:00
     split: 3
     text: "请正确选择门人或任务"
-    translated: "Please correctly choose a disciple or mission."
+    translated: "Please correctly choose a disciple or mission"
 - lineNum: 1184
   raw: "MenPaiItem,Refresh,47,免费,[]"
   splits:
@@ -8292,7 +8296,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.5969990+08:00
     split: 3
     text: "{0}{1}/十天"
-    translated: "{0} {1} in ten days."
+    translated: "{0} {1} in ten days"
 - lineNum: 1186
   raw: "MenPaiLevelPanel,OnRefresh,70,{0}   {1}级,[]"
   splits:
@@ -8355,14 +8359,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.5970021+08:00
     split: 3
     text: "消耗不满足"
-    translated: "Not satisfying the consumption needs."
+    translated: "Not satisfying the consumption needs"
 - lineNum: 1195
   raw: "MenPaiLevelPanel,CheckUse,236,消耗不满足,[System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:13.8397324+08:00
     split: 3
     text: "消耗不满足"
-    translated: "Not satisfying the consumption needs."
+    translated: "Not satisfying the consumption needs"
 - lineNum: 1196
   raw: "MenPaiLevelPanel,OnClickLevelUP,68,不满足条件,[]"
   splits:
@@ -8383,7 +8387,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:12.5970032+08:00
     split: 3
     text: "容我考虑。"
-    translated: "Let me think about it."
+    translated: "Let me think about it"
 - lineNum: 1199
   raw: "MenPaiNaXianPanel,GetStr,104,关于这件事的的话……（,[]"
   splits:
@@ -8404,7 +8408,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:13.9888497+08:00
     split: 3
     text: "交给（"
-    translated: "Entrust to; hand over to."
+    translated: "Entrust to; hand over to"
 - lineNum: 1202
   raw: "MenPaiNaXianPanel,GetStr,129,）的话应该会非常顺利才是。,[]"
   splits:
@@ -8586,7 +8590,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:13.9898454+08:00
     split: 3
     text: "请正确选择门人"
-    translated: "Please choose the correct disciple."
+    translated: "Please choose the correct disciple"
 - lineNum: 1228
   raw: "MenPaiPeiFangListAdapterHolder,UpdateFromModel,463,需要坊堂等级：{0},[SweetPotato.UIItemData]"
   splits:
@@ -8663,7 +8667,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:13.9899058+08:00
     split: 3
     text: "您的门派阶位不够"
-    translated: "Your sect rank is insufficient."
+    translated: "Your sect rank is insufficient"
 - lineNum: 1239
   raw: "MenPaiShopStoreView,OnBuyClick,99,当期物品已经售空,[]"
   splits:
@@ -8775,84 +8779,84 @@
   - lastTranslatedOn: 2025-03-04T18:54:16.7872323+08:00
     split: 3
     text: "请先建造门派大殿"
-    translated: "Please first construct the sect's grand hall."
+    translated: "Please first construct the sect's grand hall"
 - lineNum: 1255
   raw: "MenPaiView,OnQuestPanelClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:16.7872328+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1256
   raw: "MenPaiView,OnWorkPanelClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191943+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1257
   raw: "MenPaiView,OnFangTangClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191944+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1258
   raw: "MenPaiView,OnCangBaoClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191944+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1259
   raw: "MenPaiView,OnNaXianClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191944+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1260
   raw: "MenPaiView,OnCaiTangClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191945+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1261
   raw: "MenPaiView,OnLiTangClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191946+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1262
   raw: "MenPaiView,OnWeiTangClick,18,成为掌门后解锁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191946+08:00
     split: 3
     text: "成为掌门后解锁"
-    translated: "Becoming a Sect Leader unlocks."
+    translated: "Becoming a Sect Leader unlocks"
 - lineNum: 1263
   raw: "MenPaiView,OnSelectNpc,210,需要达到境界,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:16.7872337+08:00
     split: 3
     text: "需要达到境界"
-    translated: "One must reach a realm."
+    translated: "One must reach a realm"
 - lineNum: 1264
   raw: "MenPaiView,Show,46,请先建造门派大殿,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:19.7191940+08:00
     split: 3
     text: "请先建造门派大殿"
-    translated: "Please first construct the sect's grand hall."
+    translated: "Please first construct the sect's grand hall"
 - lineNum: 1265
   raw: "MenPaiView,<Awake>b__70_1,5,确定要离开当前门派,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:16.7872340+08:00
     split: 3
     text: "确定要离开当前门派"
-    translated: "Decide to leave the current sect."
+    translated: "Decide to leave the current sect"
 - lineNum: 1266
   raw: "MenPaiView,<Awake>b__70_1,23,确认,[]"
   splits:
@@ -8908,7 +8912,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:18.4235678+08:00
     split: 3
     text: "主角退出{0}，加入{1}"
-    translated: "The protagonist leaves {0} and joins {1}."
+    translated: "The protagonist leaves {0} and joins {1}"
 - lineNum: 1274
   raw: "SectSystem,GetEntitySectName,30,无,[System.Int64]"
   splits:
@@ -8978,7 +8982,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:16.7883089+08:00
     split: 3
     text: "江湖游侠"
-    translated: "Wandering heroes of the Jianghu."
+    translated: "Wandering heroes of the Jianghu"
 - lineNum: 1284
   raw: "RoleInformation,ShowInformation,188,女,[System.Int64，System.Boolean]"
   splits:
@@ -9587,7 +9591,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:23.7597482+08:00
     split: 3
     text: "比武"
-    translated: "Tournament of martial arts skills."
+    translated: "Tournament of martial arts skills"
 - lineNum: 1371
   raw: "NpcInteractButtonSlot,set_Interact,378,请教,[SweetPotato.NpcInteract]"
   splits:
@@ -9664,7 +9668,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:23.7597524+08:00
     split: 3
     text: "退出门派"
-    translated: "Withdraw from the martial arts sect."
+    translated: "Withdraw from the martial arts sect"
 - lineNum: 1382
   raw: "NpcInteractButtonSlot,set_Interact,514,劫杀,[SweetPotato.NpcInteract]"
   splits:
@@ -9678,7 +9682,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:23.7597531+08:00
     split: 3
     text: "切磋"
-    translated: "Sharpening skills through mutual practice."
+    translated: "Sharpening skills through mutual practice"
 - lineNum: 1384
   raw: "NpcInteractButtonSlot,set_Interact,530,京谕珠,[SweetPotato.NpcInteract]"
   splits:
@@ -9692,7 +9696,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:23.7597540+08:00
     split: 3
     text: "争夺擂"
-    translated: "Contest for the Pillar Challenge."
+    translated: "Contest for the Pillar Challenge"
 - lineNum: 1386
   raw: "NpcInteractButtonSlot,set_Interact,546,了结他,[SweetPotato.NpcInteract]"
   splits:
@@ -9706,7 +9710,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:23.7597548+08:00
     split: 3
     text: "放他一马"
-    translated: "Let him off the hook."
+    translated: "Let him off the hook"
 - lineNum: 1388
   raw: "NpcInteractButtonSlot,set_Interact,562,拍卖行,[SweetPotato.NpcInteract]"
   splits:
@@ -9811,7 +9815,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:24.9408789+08:00
     split: 3
     text: "没有可完成的悬赏任务"
-    translated: "There are no completed bounty tasks available."
+    translated: "There are no completed bounty tasks available"
 - lineNum: 1403
   raw: "NpcRoleNodeNew,ShowNpcAttribute,66,关系：{0}\\n情分：{1},[]"
   splits:
@@ -9860,7 +9864,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:24.9409727+08:00
     split: 3
     text: "对方关系"
-    translated: "Relationship of the other party."
+    translated: "Relationship of the other party"
 - lineNum: 1410
   raw: "RelationPanelNew,OnInit,134,谈论,[System.Int64，System.Int32，System.Int32，RelationInteractType]"
   splits:
@@ -9902,7 +9906,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:26.2146247+08:00
     split: 3
     text: "内容包含忌讳之词，请重新输入"
-    translated: "The content contains prohibited words; please re-enter."
+    translated: "The content contains prohibited words; please re-enter"
 - lineNum: 1416
   raw: "RelationRole,.cctor,9,父亲,[]"
   splits:
@@ -10035,7 +10039,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:26.0050948+08:00
     split: 3
     text: "你与<color=#60D399>{0}</color>在{1}结成好友"
-    translated: "You became friends with <color=#60D399>{0}</color> in {1}."
+    translated: "You became friends with <color=#60D399>{0}</color> in {1}"
 - lineNum: 1435
   raw: "PlayerRESlot,OnReset,238,你与<color=#75ACFF>{0}</color>因理念不合在{1}互相仇视对方,[]"
   splits:
@@ -10070,7 +10074,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:24.9411210+08:00
     split: 3
     text: "少侠没有可赠送的物品"
-    translated: "The young hero has nothing to give."
+    translated: "The young hero has nothing to give"
 - lineNum: 1440
   raw: "InteractOther,SetInteract,958,索要,[System.Int64，System.Int64]"
   splits:
@@ -10091,7 +10095,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:24.9411220+08:00
     split: 3
     text: "请选择至少一件礼物~"
-    translated: "Please choose at least one gift."
+    translated: "Please choose at least one gift"
 - lineNum: 1443
   raw: "InteractOther,OnPresentClick,400,抱歉，以我们现在的关系，还不能给你!,[]"
   splits:
@@ -10196,7 +10200,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:29.4149628+08:00
     split: 3
     text: "{0}对此物没什么兴趣。"
-    translated: "{0} is not interested in this thing."
+    translated: "{0} is not interested in this thing"
 - lineNum: 1458
   raw: "ShowItemView/<OnClickChuShiShow>d__54,MoveNext,630,现在还不是向{0}出示此物品的时候。,[]"
   splits:
@@ -10217,7 +10221,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:30.6571983+08:00
     split: 3
     text: "{0}对此物没什么兴趣。"
-    translated: "{0} is not interested in this thing."
+    translated: "{0} is not interested in this thing"
 - lineNum: 1461
   raw: "ShowItemView,OnRefrehshShowItemView,36,出示,[]"
   splits:
@@ -10238,14 +10242,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:27.8903827+08:00
     split: 3
     text: "没有可出示的物品"
-    translated: "There are no items available for display."
+    translated: "There are no items available for display"
 - lineNum: 1464
   raw: "ShowItemView,OnSelectItem,85,请先成为[棋手],[SweetPotato.NpcInteract/INTERACT_TYPE]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:27.8903829+08:00
     split: 3
     text: "请先成为[棋手]"
-    translated: "Please become a chess player first."
+    translated: "Please become a chess player first"
 - lineNum: 1465
   raw: "ShowItemView,OnSelectItem,175,您或对方精力不足{0}点,[SweetPotato.NpcInteract/INTERACT_TYPE]"
   splits:
@@ -10259,28 +10263,28 @@
   - lastTranslatedOn: 2025-03-04T18:54:27.8904167+08:00
     split: 3
     text: "请先成为[言者]"
-    translated: "Please first become a [Spokesperson]."
+    translated: "Please first become a [Spokesperson]"
 - lineNum: 1467
   raw: "ShowItemView,OnSelectItem,358,请先成为[酒客],[SweetPotato.NpcInteract/INTERACT_TYPE]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:27.8904171+08:00
     split: 3
     text: "请先成为[酒客]"
-    translated: "Please become a [drinking companion] first."
+    translated: "Please become a [drinking companion] first"
 - lineNum: 1468
   raw: "ShowItemView,OnShow,66,您的精力不足{0}点,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:27.8904174+08:00
     split: 3
     text: "您的精力不足{0}点"
-    translated: "Your energy is insufficient by {0} points."
+    translated: "Your energy is insufficient by {0} points"
 - lineNum: 1469
   raw: "WineGameView/<OnNpcThink>d__77,MoveNext,54,容我想想,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:27.8904185+08:00
     split: 3
     text: "容我想想"
-    translated: "Let me think about it."
+    translated: "Let me think about it"
 - lineNum: 1470
   raw: "WineGameView/<CheckResult>d__81,MoveNext,237,在下赢了，下次再喝过!,[]"
   splits:
@@ -10350,7 +10354,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:27.8907079+08:00
     split: 3
     text: "没合适的东西可给你"
-    translated: "There's nothing suitable to give you."
+    translated: "There's nothing suitable to give you"
 - lineNum: 1480
   raw: "WineGameView,OnClickCheck,16,开!,[]"
   splits:
@@ -10420,7 +10424,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:27.8907431+08:00
     split: 3
     text: "最少要叫{0}个数"
-    translated: "At least count to {0}."
+    translated: "At least count to {0}"
 - lineNum: 1490
   raw: "XsySelectItemView,GetItemType,40,喂食,[]"
   splits:
@@ -10483,7 +10487,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:27.8907765+08:00
     split: 3
     text: "双修对象为空"
-    translated: "The object of dual cultivation is nonexistent."
+    translated: "The object of dual cultivation is nonexistent"
 - lineNum: 1499
   raw: "ShuangXiuView,OnBtnStartClick,51,精力不足50,[]"
   splits:
@@ -10784,7 +10788,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:32.5577520+08:00
     split: 3
     text: "SetBaseValue后"
-    translated: "After setting the base value."
+    translated: "After setting the base value"
 - lineNum: 1542
   raw: "FaceSetItem,Init,296,colors前,[]"
   splits:
@@ -11050,7 +11054,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:34.5479474+08:00
     split: 3
     text: "播放结束，<color=#00FF00>2s</color>后退出"
-    translated: "Playback ended; exit after <color=#00FF00>2</color>."
+    translated: "Playback ended; exit after <color=#00FF00>2</color>"
 - lineNum: 1580
   raw: "PharmacyView,OnOpen,71,点 火,[]"
   splits:
@@ -11267,7 +11271,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:35.2850144+08:00
     split: 3
     text: "已处于醉酒状态"
-    translated: "Already in a state of intoxication."
+    translated: "Already in a state of intoxication"
 - lineNum: 1611
   raw: "HandbookView,RefreshProperty,751,已处于饱腹状态,[SweetPotato.Item]"
   splits:
@@ -11281,7 +11285,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:38.2504344+08:00
     split: 3
     text: "已处于醉酒状态"
-    translated: "Already in a state of intoxication."
+    translated: "Already in a state of intoxication"
 - lineNum: 1613
   raw: "HandbookView,RefreshProperty,862,已处于饱腹状态,[SweetPotato.Item]"
   splits:
@@ -11337,7 +11341,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:37.8827005+08:00
     split: 3
     text: "使用后增加{0}天寿命"
-    translated: "Increases lifespan by {0} days upon use."
+    translated: "Increases lifespan by {0} days upon use"
 - lineNum: 1621
   raw: "HandbookView,RefreshSourceDes,175,此类型暂不可知晓来源,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
@@ -11904,14 +11908,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:39.2373162+08:00
     split: 3
     text: "对方已加入门下"
-    translated: "They have joined our school."
+    translated: "They have joined our school"
 - lineNum: 1702
   raw: "JailView,ModifyJingLi,27,您的精力不足{0},[System.Int32]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:39.2373181+08:00
     split: 3
     text: "您的精力不足{0}"
-    translated: "Your energy is insufficient {0}."
+    translated: "Your energy is insufficient {0}"
 - lineNum: 1703
   raw: "JailView,ModifyJailValue,29,该角色屈服度已达最大。,[System.Int32]"
   splits:
@@ -11974,7 +11978,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:39.2378901+08:00
     split: 3
     text: "请先成为一派掌门"
-    translated: "Please first become a sect leader."
+    translated: "Please first become a sect leader"
 - lineNum: 1712
   raw: "JailView,JoinMenPai,108,门派可纳入人数已足,[]"
   splits:
@@ -12051,7 +12055,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:39.2379866+08:00
     split: 3
     text: "未获得线索"
-    translated: "No leads have been obtained."
+    translated: "No leads have been obtained"
 - lineNum: 1723
   raw: "JieMiViewTuiLunXianSuoItem,SetData,96,未知线索,[QuestJieMi]"
   splits:
@@ -12072,14 +12076,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:39.2379873+08:00
     split: 3
     text: "线索之间似乎没有联系"
-    translated: "The clues seem to be unrelated."
+    translated: "The clues seem to be unrelated"
 - lineNum: 1726
   raw: "JieMiViewZhengHePart,CheckTuiLun,131,线索之间似乎没有联系,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:41.5292011+08:00
     split: 3
     text: "线索之间似乎没有联系"
-    translated: "The clues seem to be unrelated."
+    translated: "The clues seem to be unrelated"
 - lineNum: 1727
   raw: "JieMiViewZhengHePart,SetFailSiKao,38,总感觉思路好像不太对 ，是否重新整合？,[QuestJieMi]"
   splits:
@@ -12814,7 +12818,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.4345258+08:00
     split: 3
     text: "当前真力值不足"
-    translated: "Current true power value insufficient."
+    translated: "Current true power value insufficient"
 - lineNum: 1832
   raw: "JingMaiGraphViewNew,OnEnable,5,B_经脉,[]"
   splits:
@@ -12940,21 +12944,21 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.4345300+08:00
     split: 3
     text: "修炼所需感悟不足"
-    translated: "The understanding required for cultivation is insufficient."
+    translated: "The understanding required for cultivation is insufficient"
 - lineNum: 1850
   raw: "LianZhaoGraphMgr,UpGradeNode,201,修炼所需物品不足,[System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:43.4345304+08:00
     split: 3
     text: "修炼所需物品不足"
-    translated: "The items needed for training are insufficient."
+    translated: "The items needed for training are insufficient"
 - lineNum: 1851
   raw: "LianZhaoGraphMgr,UpGradeNode,275,修炼所需条件不足,[System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:43.7802277+08:00
     split: 3
     text: "修炼所需条件不足"
-    translated: "The conditions required for cultivation are insufficient."
+    translated: "The conditions required for cultivation are insufficient"
 - lineNum: 1852
   raw: "LianZhaoGraphMgr,UpGradeNode,558,修炼成功,[System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
@@ -12975,7 +12979,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.7802302+08:00
     split: 3
     text: "洗练所需条件不足"
-    translated: "The conditions required for refinement are insufficient."
+    translated: "The conditions required for refinement are insufficient"
 - lineNum: 1855
   raw: "LianZhaoGraphMgr,XiuLianNew,266,洗练成功 ,[System.Int32，System.Boolean，System.Boolean]"
   splits:
@@ -13052,28 +13056,28 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.7807908+08:00
     split: 3
     text: "当前技能的前式不匹配"
-    translated: "The current skill's prefix does not match."
+    translated: "The current skill's prefix does not match"
 - lineNum: 1866
   raw: "LianZhaoItemSlot,OnEndDrag,532,前式招式不匹配,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:43.7807913+08:00
     split: 3
     text: "前式招式不匹配"
-    translated: "The techniques do not align."
+    translated: "The techniques do not align"
 - lineNum: 1867
   raw: "LianZhaoItemSlot,OnEndDrag,546,当前技能的前式不匹配,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:44.5660487+08:00
     split: 3
     text: "当前技能的前式不匹配"
-    translated: "The current skill's prefix does not match."
+    translated: "The current skill's prefix does not match"
 - lineNum: 1868
   raw: "LianZhaoItemSlot,OnEndDrag,556,前式招式不匹配,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:44.5660489+08:00
     split: 3
     text: "前式招式不匹配"
-    translated: "The techniques do not align."
+    translated: "The techniques do not align"
 - lineNum: 1869
   raw: "LianZhaoPartView,OnEnable,5,B_万宗,[]"
   splits:
@@ -13213,7 +13217,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.7808812+08:00
     split: 3
     text: "线索之间似乎没有联系"
-    translated: "The clues seem to be unrelated."
+    translated: "The clues seem to be unrelated"
 - lineNum: 1889
   raw: "LifeDetailDesSlot,OnReset,171,我:,[]"
   splits:
@@ -13276,7 +13280,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:43.7809202+08:00
     split: 3
     text: "内容中有敏感词汇"
-    translated: "The content contains sensitive words."
+    translated: "The content contains sensitive words"
 - lineNum: 1898
   raw: "ItemCreateAndCoverName,OnClickOK,77,图,[]"
   splits:
@@ -13346,7 +13350,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:44.7185850+08:00
     split: 3
     text: "已完成此信息的处理"
-    translated: "This information has been processed."
+    translated: "This information has been processed"
 - lineNum: 1908
   raw: "MailChatItemSlot,EntrusttHandle,126,此信息已失效,[]"
   splits:
@@ -13374,7 +13378,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:45.4945082+08:00
     split: 3
     text: "已完成此信息的处理"
-    translated: "This information has been processed."
+    translated: "This information has been processed"
 - lineNum: 1912
   raw: "MailChatItemSlot,ExchangeHandle,125,没有足够的道具,[]"
   splits:
@@ -13388,14 +13392,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:44.7185864+08:00
     split: 3
     text: "完成了此信息的处理"
-    translated: "Processing of this information has been completed."
+    translated: "Processing of this information has been completed"
 - lineNum: 1914
   raw: "MailChatItemSlot,NpcPresentHandle,23,已完成此信息的处理,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:45.4945083+08:00
     split: 3
     text: "已完成此信息的处理"
-    translated: "This information has been processed."
+    translated: "This information has been processed"
 - lineNum: 1915
   raw: "MailShaiXuanItemSlot,OnReset,51,全部,[]"
   splits:
@@ -13535,7 +13539,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:44.7191982+08:00
     split: 3
     text: "未参与战斗不需要求援"
-    translated: "Non-combatants do not need to request assistance."
+    translated: "Non-combatants do not need to request assistance"
 - lineNum: 1935
   raw: "MailView,OnClickAskForHelp,68,您的精力不足80!,[]"
   splits:
@@ -13584,7 +13588,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:45.4944921+08:00
     split: 3
     text: "修改BornPoint数据成功"
-    translated: "Born Point data modification successful."
+    translated: "Born Point data modification successful"
 - lineNum: 1942
   raw: "EditBornData,Save,20,是否保存？,[]"
   splits:
@@ -13626,7 +13630,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:45.0949217+08:00
     split: 3
     text: "修改entrust_event_point_prototype数据成功"
-    translated: "Entrust event point prototype data modification successful."
+    translated: "Entrust event point prototype data modification successful"
 - lineNum: 1948
   raw: "EditEntrustEventPointData,Save,20,是否保存？,[]"
   splits:
@@ -13654,7 +13658,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:45.6408976+08:00
     split: 3
     text: "新建npc失败"
-    translated: "Failed to create new NPC."
+    translated: "Failed to create new NPC"
 - lineNum: 1952
   raw: "EditNpcData,DeleteNpcFromDB,14,连接数据库失败,[]"
   splits:
@@ -13752,7 +13756,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:46.6490296+08:00
     split: 3
     text: "修改SpawnPoint数据成功"
-    translated: "Spawn point data modification successful."
+    translated: "Spawn point data modification successful"
 - lineNum: 1966
   raw: "EditSpwData,Save,20,是否保存？,[]"
   splits:
@@ -13836,7 +13840,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:47.3064557+08:00
     split: 3
     text: "修改areatrigger数据成功"
-    translated: "Area trigger data modified successfully."
+    translated: "Area trigger data modified successfully"
 - lineNum: 1978
   raw: "EditTriggerData,Save,20,是否保存？,[]"
   splits:
@@ -13871,7 +13875,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:45.6419907+08:00
     split: 3
     text: "选择区域太小"
-    translated: "The selected area is too small."
+    translated: "The selected area is too small"
 - lineNum: 1983
   raw: "EditWayPointData,DeletePointFromDB,14,连接数据库失败,[]"
   splits:
@@ -13899,7 +13903,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:46.0660028+08:00
     split: 3
     text: "修改WayPoint数据失败"
-    translated: "Failed to modify WayPoint data."
+    translated: "Failed to modify WayPoint data"
 - lineNum: 1987
   raw: "EditWayPointData,Save,20,是否保存？,[]"
   splits:
@@ -13955,14 +13959,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:47.1742371+08:00
     split: 3
     text: "输入内容含敏感词汇，请重新输入"
-    translated: "Input contains sensitive words; please re-enter."
+    translated: "Input contains sensitive words; please re-enter"
 - lineNum: 1995
   raw: "MainView,OnClickTuoLiKaSi,23,脱离卡死冷却中，倒计时{0}秒,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:47.9028261+08:00
     split: 3
     text: "脱离卡死冷却中，倒计时{0}秒"
-    translated: "Exiting from stasis cooling, countdown {0} seconds."
+    translated: "Exiting from stasis cooling, countdown {0} seconds"
 - lineNum: 1996
   raw: "MainView,OnClickTuoLiKaSi,74,提示：使用脱离卡死可能会造成任务卡住，任务角色消失等问题，请谨慎使用。（冷却时间：300秒）？,[]"
   splits:
@@ -13990,7 +13994,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:47.5105361+08:00
     split: 3
     text: "当前为战斗状态，无法脱离卡死"
-    translated: "Currently in combat mode; unable to disengage."
+    translated: "Currently in combat mode; unable to disengage"
 - lineNum: 2000
   raw: "MainView,IsSaveableNow,124,剧情执行中，无法脱离卡死 ,[]"
   splits:
@@ -14018,7 +14022,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:48.6168560+08:00
     split: 3
     text: "当前状态无法打坐"
-    translated: "Current state does not allow for meditation."
+    translated: "Current state does not allow for meditation"
 - lineNum: 2004
   raw: "MainView,UpdateQuestHintCursorPos,917,{0}步,[UnityEngine.Vector3，MainView/QuestHintCursorType]"
   splits:
@@ -14130,63 +14134,63 @@
   - lastTranslatedOn: 2025-03-04T18:54:48.6168596+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2020
   raw: "MainViewConditionSlotOfOSA/<>c,<OnResetRoutine>b__13_0,25,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156651+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2021
   raw: "MainViewConditionSlotOfOSA/<>c,<OnResetRoutine>b__13_1,25,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156651+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2022
   raw: "MainViewConditionSlotOfOSA,OnQuestLogClick,107,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156651+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2023
   raw: "MainViewConditionSlotOfOSA,OnWeiTuoDialogueClick,117,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156652+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2024
   raw: "MainViewConditionSlotOfOSA,OnWeiTuoStrClick,242,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156652+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2025
   raw: "MainViewConditionSlotOfOSA,OnXuanShangClick,89,该任务无法被指引,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.2156653+08:00
     split: 3
     text: "该任务无法被指引"
-    translated: "This task cannot be directed."
+    translated: "This task cannot be directed"
 - lineNum: 2026
   raw: "MainViewGuanQiaTip/<PlayerBack>d__13,MoveNext,58,正在离开藏经阁,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:48.6168599+08:00
     split: 3
     text: "正在离开藏经阁"
-    translated: "Leaving the Hall of Sutras now."
+    translated: "Leaving the Hall of Sutras now"
 - lineNum: 2027
   raw: "MainViewQuestItem,SetEntrustQuest,100,的委托,[EntrustInfo]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:48.6168603+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2028
   raw: "MainViewQuestItem,SetXuanShangQuest,85,级,[XuanShangQuest]"
   splits:
@@ -14460,6 +14464,7 @@
     split: 3
     text: "Prefab/UISprite/UI_MapMark/标记"
     translated: "Label: Mark on Map"
+    safeToTranslate: false
 - lineNum: 2067
   raw: "MapShiLiItem,Init,44,势力Id为{0}的无法获取到数据,[]"
   splits:
@@ -14487,14 +14492,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:49.3796343+08:00
     split: 3
     text: "请先进攻其余据点"
-    translated: "Please first attack the other outposts."
+    translated: "Please first attack the other outposts"
 - lineNum: 2071
   raw: "MapTipView,Init,111,的委托,[EntrustManager]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:49.3796348+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2072
   raw: "MapTipView,Init,140,级,[XuanShangQuest]"
   splits:
@@ -14586,6 +14591,7 @@
     split: 3
     text: "Prefab/UISprite/UI_MapMark/标记"
     translated: "Label: Mark on Map"
+    safeToTranslate: false
 - lineNum: 2085
   raw: "MapViewNew,OnCustomMuBiaoRectMouseClick,32,是否取消标记点？,[UnityEngine.RectTransform]"
   splits:
@@ -14718,7 +14724,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.3902326+08:00
     split: 3
     text: "身份证不能为空"
-    translated: "The ID card cannot be empty."
+    translated: "The ID card cannot be empty"
 - lineNum: 2104
   raw: "SignView,CheckResult,90,验证次数过多,[LitJson.JsonData]"
   splits:
@@ -14739,7 +14745,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.3902339+08:00
     split: 3
     text: "恭喜您通过实名认证"
-    translated: "Congratulations on completing the real-name verification."
+    translated: "Congratulations on completing the real-name verification"
 - lineNum: 2107
   raw: "SignView,CheckResult,477,对不起，本游戏仅对年满18岁的成年人开放，未成年人无法进入游戏,[LitJson.JsonData]"
   splits:
@@ -14760,7 +14766,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.3909918+08:00
     split: 3
     text: "身份证号和姓名不一致"
-    translated: "ID number and name do not match."
+    translated: "ID number and name do not match"
 - lineNum: 2110
   raw: "SignView,CheckResult,598,身份证号错误,[LitJson.JsonData]"
   splits:
@@ -14809,7 +14815,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.5618092+08:00
     split: 3
     text: "用户名或密码输入不规范"
-    translated: "Username or password input is incorrect."
+    translated: "Username or password input is incorrect"
 - lineNum: 2117
   raw: "UploadFile/<SendLogin>d__63,MoveNext,1253,用户名不存在,[]"
   splits:
@@ -14844,7 +14850,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.3910419+08:00
     split: 3
     text: "用户名或密码不规范"
-    translated: "Username or password not in compliance."
+    translated: "Username or password not in compliance"
 - lineNum: 2122
   raw: "UploadFile/<SendRegis>d__64,MoveNext,283,该用户名已经存在,[]"
   splits:
@@ -14998,7 +15004,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:50.3910457+08:00
     split: 3
     text: "激活码已被使用"
-    translated: "The activation code has already been used."
+    translated: "The activation code has already been used"
 - lineNum: 2144
   raw: "UploadFile/<SendUseActivationCode>d__72,MoveNext,385,已领取,[]"
   splits:
@@ -15187,21 +15193,21 @@
   - lastTranslatedOn: 2025-03-04T18:54:51.3966089+08:00
     split: 3
     text: "幸运数字位数有误"
-    translated: "The lucky number digits are incorrect."
+    translated: "The lucky number digits are incorrect"
 - lineNum: 2171
   raw: "UploadFile,OnClickSendRegis,457,两次密码输入不一致,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:51.3966093+08:00
     split: 3
     text: "两次密码输入不一致"
-    translated: "Passwords do not match on two occasions."
+    translated: "Passwords do not match on two occasions"
 - lineNum: 2172
   raw: "UploadFile,OnClickSendRegis,613,两次密码不一致,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:51.3966098+08:00
     split: 3
     text: "两次密码不一致"
-    translated: "The passwords do not match twice."
+    translated: "The passwords do not match twice"
 - lineNum: 2173
   raw: "UploadFile,OnClickSendLogin,24,用户名中不能为空,[]"
   splits:
@@ -15250,7 +15256,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:51.3966113+08:00
     split: 3
     text: "请输入激活码"
-    translated: "Please enter the activation code."
+    translated: "Please enter the activation code"
 - lineNum: 2180
   raw: "UploadFile,OnUseActivateCodeBtnClick,30,请登录,[System.String，System.Action]"
   splits:
@@ -15264,7 +15270,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:53.2043108+08:00
     split: 3
     text: "请输入激活码"
-    translated: "Please enter the activation code."
+    translated: "Please enter the activation code"
 - lineNum: 2182
   raw: "UploadFile,.ctor,12,请不要输入汉字，字母，数字以外的字符,[]"
   splits:
@@ -15278,14 +15284,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:51.3966425+08:00
     split: 3
     text: "打开烧机画质"
-    translated: "Open high-definition mode on the microwave oven."
+    translated: "Open high-definition mode on the microwave oven"
 - lineNum: 2184
   raw: "MenuView,OnOpen,91,关闭烧机画质,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:51.3966430+08:00
     split: 3
     text: "关闭烧机画质"
-    translated: "Close high-definition mode on the oven."
+    translated: "Close high-definition mode on the oven"
 - lineNum: 2185
   raw: "GraphNodeView,ShowNodeInfo,1083,消耗感悟：,[GraphNodeView，MiJiNodeInfo]"
   splits:
@@ -15495,7 +15501,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:53.5736932+08:00
     split: 3
     text: "难度未解锁，无法进入游戏"
-    translated: "Difficulty not unlocked; cannot enter the game."
+    translated: "Difficulty not unlocked; cannot enter the game"
 - lineNum: 2215
   raw: "NanDuView,OnClickEnterGame,209,确认,[]"
   splits:
@@ -15635,7 +15641,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:53.3531716+08:00
     split: 3
     text: "你没有那么多钱"
-    translated: "You don't have that much money."
+    translated: "You don't have that much money"
 - lineNum: 2235
   raw: "PaiMaiHangView,OnClickRightJingPai,134,此物品已被拍下,[]"
   splits:
@@ -15698,7 +15704,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:53.3531742+08:00
     split: 3
     text: "你还不能学习这个轻功"
-    translated: "You cannot learn this qinggong yet."
+    translated: "You cannot learn this qinggong yet"
 - lineNum: 2244
   raw: "QingGongGraphMgr,UpGradeNode,232,感悟不足,[System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
@@ -15824,14 +15830,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:59.1884907+08:00
     split: 3
     text: "踏雪无痕"
-    translated: "Footprints unseen in the snow."
+    translated: "Footprints unseen in the snow"
 - lineNum: 2262
   raw: "QingGongPartView,Refresh,930,趋退若神,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:54:59.1884910+08:00
     split: 3
     text: "趋退若神"
-    translated: "Move back as if divine."
+    translated: "Move back as if divine"
 - lineNum: 2263
   raw: "QingGongPartView,Refresh,948,凌虚御风,[]"
   splits:
@@ -15845,7 +15851,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:59.1884920+08:00
     split: 3
     text: "天地随心"
-    translated: "Heaven and Earth follow one's heart."
+    translated: "Heaven and Earth follow one's heart"
 - lineNum: 2265
   raw: "QingGongPartView,Refresh,976,逍遥无尘,[]"
   splits:
@@ -15936,7 +15942,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:59.1892603+08:00
     split: 3
     text: "轻功值/秒"
-    translated: "Jumps per second of qinggong."
+    translated: "Jumps per second of qinggong"
 - lineNum: 2278
   raw: "QingGongPartView,RefreshSelected,482,使用消耗    ,[]"
   splits:
@@ -15950,7 +15956,7 @@
   - lastTranslatedOn: 2025-03-04T18:54:59.1892608+08:00
     split: 3
     text: "轻功值/次"
-    translated: "Qinggong steps or qinggong value."
+    translated: "Qinggong steps or qinggong value"
 - lineNum: 2280
   raw: "QingGongPartView,RefreshSelected,1078,初学,[]"
   splits:
@@ -16076,14 +16082,14 @@
   - lastTranslatedOn: 2025-03-04T18:54:59.1893415+08:00
     split: 3
     text: "情份值不足"
-    translated: "Lack of sufficient relationship or connection."
+    translated: "Lack of sufficient relationship or connection"
 - lineNum: 2298
   raw: "QingJiaoView,OnSkillBtnClick,83,情份值不足,[SweetPotato.QingJiaoPrototype，SweetPotato.SpellPrototype]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:00.0654420+08:00
     split: 3
     text: "情份值不足"
-    translated: "Lack of sufficient relationship or connection."
+    translated: "Lack of sufficient relationship or connection"
 - lineNum: 2299
   raw: "QingJiaoView,.ctor,29,请教,[]"
   splits:
@@ -16286,7 +16292,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:00.2303925+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2328
   raw: "QuestAcceptView,OnQuestLogSelect,224,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
@@ -16552,7 +16558,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:03.7331974+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2366
   raw: "QuestViewNew,OnQuestLogSelect,2749,任务截止时间：,[QuestViewTimePointItem，QuestViewWTXSListAdapterModle]"
   splits:
@@ -16643,7 +16649,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:05.0797690+08:00
     split: 3
     text: "在{0}一带({1}，{2})"
-    translated: "In the {0} area ({1}, {2})."
+    translated: "In the {0} area ({1}, {2})"
 - lineNum: 2379
   raw: "QuestViewNew,CheckTextLink,533,在({0}，{1})附近,[TMPro.TextMeshProUGUI]"
   splits:
@@ -16657,14 +16663,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:03.7333026+08:00
     split: 3
     text: "此人已失联"
-    translated: "This person has been missing."
+    translated: "This person has been missing"
 - lineNum: 2381
   raw: "QuestViewTimePointItem,SetData,419,的委托,[EntrustInfo]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:05.0797847+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2382
   raw: "QuestViewTimePointItem,SetData,607,调查,[SweetPotato.QuestLog]"
   splits:
@@ -16678,7 +16684,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:05.0797848+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2384
   raw: "QuestViewWTXSListAdapterHolder,UpdateFromModel,530,级,[SweetPotato.UIItemData]"
   splits:
@@ -16826,6 +16832,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 2405
   raw: "ShopStoreViewNew,InpuFeildChance,21,少侠的想法包含忌讳之词，请重新输入,[TMPro.TMP_InputField]"
   splits:
@@ -16993,7 +17000,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:05.2344803+08:00
     split: 3
     text: "铜钱不足"
-    translated: "There are not enough copper coins."
+    translated: "There are not enough copper coins"
 - lineNum: 2429
   raw: "ShopStoreViewNew,ForceRefreshShopItems,180,确定,[]"
   splits:
@@ -17343,7 +17350,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:06.9038436+08:00
     split: 3
     text: "铜钱不足"
-    translated: "There are not enough copper coins."
+    translated: "There are not enough copper coins"
 - lineNum: 2479
   raw: "ShopHolder,UpdateFromModel,655,<color=#ff9758>限购 </color>,[SweetPotato.UIItemData]"
   splits:
@@ -17379,6 +17386,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 2484
   raw: "ShopViewNew,OnClickToggle,200,购买,[System.Int32，System.Boolean]"
   splits:
@@ -17406,7 +17414,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:08.3816859+08:00
     split: 3
     text: "铜钱不足"
-    translated: "There are not enough copper coins."
+    translated: "There are not enough copper coins"
 - lineNum: 2488
   raw: "ShopViewNew,OnClickRefresh,180,确定,[]"
   splits:
@@ -17756,14 +17764,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:08.7292695+08:00
     split: 3
     text: "原有技能冷却中，不能更换"
-    translated: "Current skill on cooldown; unable to switch."
+    translated: "Current skill on cooldown; unable to switch"
 - lineNum: 2538
   raw: "SpellItemSlotNew,OnDragFinish,204,拖动技能冷却中，不能更换,[System.Int64]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:08.8880739+08:00
     split: 3
     text: "拖动技能冷却中，不能更换"
-    translated: "Dragging skill on cooldown; cannot switch."
+    translated: "Dragging skill on cooldown; cannot switch"
 - lineNum: 2539
   raw: "SpellItemSlotNew,OnDragFinish,283,与{0}是同类型技能，不能装备,[System.Int64]"
   splits:
@@ -17791,14 +17799,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:10.0493621+08:00
     split: 3
     text: "原有技能冷却中，不能更换"
-    translated: "Current skill on cooldown; unable to switch."
+    translated: "Current skill on cooldown; unable to switch"
 - lineNum: 2543
   raw: "SpellItemSlotNew,OnDragFinish,905,拖动技能冷却中，不能更换,[System.Int64]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:10.0493623+08:00
     split: 3
     text: "拖动技能冷却中，不能更换"
-    translated: "Dragging skill on cooldown; cannot switch."
+    translated: "Dragging skill on cooldown; cannot switch"
 - lineNum: 2544
   raw: "SpellItemSlotNew,OnDragFinish,1009,需要装备{0},[System.Int64]"
   splits:
@@ -17812,7 +17820,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:08.5317576+08:00
     split: 3
     text: "技能冷却中，不能卸下"
-    translated: "Skill on cooldown, cannot unequip."
+    translated: "Skill on cooldown, cannot unequip"
 - lineNum: 2546
   raw: "SpellItemSlotNew,OnPointerClick,300,连招中有技能处于冷却状态，不能卸下,[UnityEngine.EventSystems.PointerEventData]"
   splits:
@@ -17861,7 +17869,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:10.1983726+08:00
     split: 3
     text: "已学会特技{0}"
-    translated: "Have mastered special technique {0}."
+    translated: "Have mastered special technique {0}"
 - lineNum: 2553
   raw: "StuntManager,CheckStuntsAndActive,81, 配置错误,[NewConditionType]"
   splits:
@@ -17945,7 +17953,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:10.1985767+08:00
     split: 3
     text: "无匹配套路，不能装备"
-    translated: "No matching technique; cannot equip."
+    translated: "No matching technique; cannot equip"
 - lineNum: 2565
   raw: "UnitInfoItemSlot,OnReset,206,雇佣 ,[]"
   splits:
@@ -17967,6 +17975,7 @@
     split: 3
     text: "特技格子数量小于特技数量，请检查UI是否正确"
     translated: "The number of special skills slots is less than the number of special skills; please check if the UI displays correctly."
+    safeToTranslate: false
 - lineNum: 2568
   raw: "TeJiPartView,RefreshTeJiDetail,275,段,[]"
   splits:
@@ -18022,7 +18031,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:10.1986466+08:00
     split: 3
     text: "请选择一个装备"
-    translated: "Choose a piece of equipment."
+    translated: "Choose a piece of equipment"
 - lineNum: 2576
   raw: "TianGongTuView,OnCuiQuBtnClick,70,请指定一个词条位置进行萃取,[]"
   splits:
@@ -18050,7 +18059,7 @@
   - lastTranslatedOn: 2025-03-07T21:57:35.8026637+08:00
     split: 3
     text: "当前为<color=#6abbff>随机覆写</color>"
-    translated: "Currently, this is a <color=#6abbff>random overwrite</color>."
+    translated: "Currently, this is a <color=#6abbff>random overwrite</color>"
 - lineNum: 2580
   raw: "TianGongTuView,RefreshFuXieItemInfo,460,当前覆写词条  ,[]"
   splits:
@@ -18085,14 +18094,14 @@
   - lastTranslatedOn: 2025-03-07T21:57:36.2441901+08:00
     split: 3
     text: "当前为<color=#ffec6a>指定覆写</color>"
-    translated: "The current setting is <color=#ffec6a>overwrite specified</color>."
+    translated: "The current setting is <color=#ffec6a>overwrite specified</color>"
 - lineNum: 2585
   raw: "TianGongTuView,OnFuXieBtnClick,39,请选择一个装备,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:14.0881073+08:00
     split: 3
     text: "请选择一个装备"
-    translated: "Choose a piece of equipment."
+    translated: "Choose a piece of equipment"
 - lineNum: 2586
   raw: "TianGongTuView,OnFuXieBtnClick,91,请指定一个词条位置进行萃取,[]"
   splits:
@@ -18246,14 +18255,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:14.2525112+08:00
     split: 3
     text: "请选择一个装备"
-    translated: "Choose a piece of equipment."
+    translated: "Choose a piece of equipment"
 - lineNum: 2608
   raw: "TianGongTuView,<RefreshAddSkill>b__93_0,8,请选择一个装备,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:19.4411044+08:00
     split: 3
     text: "请选择一个装备"
-    translated: "Choose a piece of equipment."
+    translated: "Choose a piece of equipment"
 - lineNum: 2609
   raw: "TianGongTuView,<RefreshAddSkill>b__93_0,113,没有对应秘术!,[]"
   splits:
@@ -18456,7 +18465,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:14.2534887+08:00
     split: 3
     text: "已有悬红悬赏"
-    translated: "A bounty has been posted."
+    translated: "A bounty has been posted"
 - lineNum: 2638
   raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,83,不能撤销可以完成的悬赏,[UnityEngine.EventSystems.PointerEventData]"
   splits:
@@ -18498,7 +18507,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:14.2535478+08:00
     split: 3
     text: "此悬赏已被悬红"
-    translated: "This bounty has been posted."
+    translated: "This bounty has been posted"
 - lineNum: 2644
   raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,326,悬红,[UnityEngine.EventSystems.PointerEventData]"
   splits:
@@ -18659,7 +18668,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:19.5869399+08:00
     split: 3
     text: "手指上下滑动"
-    translated: "Swipe fingers up or down."
+    translated: "Swipe fingers up or down"
 - lineNum: 2667
   raw: "JingMaiYinDaoView,ShowKeyOrRein,601,光标悬浮,[System.Boolean]"
   splits:
@@ -18778,14 +18787,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.1174869+08:00
     split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique."
+    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
 - lineNum: 2684
   raw: "JingMaiYinDaoView,ShowKeyOrRein,887,请选中该心法,[System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:19.5870078+08:00
     split: 3
     text: "请选中该心法"
-    translated: "Please select this heart method."
+    translated: "Please select this heart method"
 - lineNum: 2685
   raw: "JingMaiYinDaoView,ShowKeyOrRein,915,光标悬浮,[System.Boolean]"
   splits:
@@ -18806,14 +18815,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.7200529+08:00
     split: 3
     text: "请选中该心法"
-    translated: "Please select this heart method."
+    translated: "Please select this heart method"
 - lineNum: 2688
   raw: "JingMaiYinDaoView,ShowKeyOrRein,935,请<color=#3ad67c>鼠标左键</color>选中该心法,[System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:20.7200526+08:00
     split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique."
+    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
 - lineNum: 2689
   raw: "JingMaiYinDaoView,ShowKeyOrRein,960,鼠标悬浮,[System.Boolean]"
   splits:
@@ -18834,14 +18843,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.7200527+08:00
     split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique."
+    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
 - lineNum: 2692
   raw: "JingMaiYinDaoView,ShowKeyOrRein,980,请选中该心法,[System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:20.7200529+08:00
     split: 3
     text: "请选中该心法"
-    translated: "Please select this heart method."
+    translated: "Please select this heart method"
 - lineNum: 2693
   raw: "ZhongMenDaBiView,ResetUI,219,16进8,[]"
   splits:
@@ -18932,7 +18941,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.8726824+08:00
     split: 3
     text: "不满足创建条件"
-    translated: "Conditions for creation not met."
+    translated: "Conditions for creation not met"
 - lineNum: 2706
   raw: "BuildManager,CanCreate,115,已达最大可创建数量,[BuildPrototype]"
   splits:
@@ -18995,7 +19004,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:21.1235026+08:00
     split: 3
     text: "查找不到Id为{0}的WayPoint点"
-    translated: "Failed to find Waypoint with ID {0}."
+    translated: "Failed to find Waypoint with ID {0}"
 - lineNum: 2715
   raw: "BuYeJingManager,CreateLeiTaiNpc,855,创建水机npc时 npc模板id {0} 创建不出来npc,[System.Int32，System.Int32]"
   splits:
@@ -19030,7 +19039,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.8735883+08:00
     split: 3
     text: "失败的拍下"
-    translated: "Failed Shot or Missed Capture."
+    translated: "Failed Shot or Missed Capture"
 - lineNum: 2720
   raw: "BuYeJingManager,DoLunCiPaiMaiItemSendFeiGe,475,恭喜侠士,[]"
   splits:
@@ -19058,7 +19067,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:25.0389653+08:00
     split: 3
     text: "失败的拍下"
-    translated: "Failed Shot or Missed Capture."
+    translated: "Failed Shot or Missed Capture"
 - lineNum: 2724
   raw: "XiaYunLuManager,RefreshXiaYunBang,1356,第,[]"
   splits:
@@ -19184,7 +19193,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:20.8736878+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2742
   raw: "EntrustManager/<>c__DisplayClass93_0,<AcceptEntrust>b__1,80,接取了,[]"
   splits:
@@ -19198,7 +19207,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:25.0389665+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2744
   raw: "EntrustManager/<>c__DisplayClass93_0,<AcceptEntrust>b__5,39,接取了,[]"
   splits:
@@ -19212,7 +19221,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:25.0389665+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2746
   raw: "EntrustManager/<>c__DisplayClass93_0,<AcceptEntrust>b__5,80,接取了,[]"
   splits:
@@ -19226,7 +19235,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:25.0389665+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2748
   raw: "EntrustManager,DoEventAcceptPreAction,409,找不到好感度最高的npc npcId:{0},[EntrustEventPrototype]"
   splits:
@@ -19513,7 +19522,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:25.2040888+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2789
   raw: "EntrustManager,DoFinisedEntrustAction,564,完成了,[EntrustEventPrototype]"
   splits:
@@ -19527,7 +19536,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:28.8859823+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2791
   raw: "EntrustManager,DoFinisedEntrustAction,602,委托：,[EntrustEventPrototype]"
   splits:
@@ -19541,7 +19550,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:28.8859823+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 2793
   raw: "EntrustManager,FailEntrust,70,的委托失败了,[]"
   splits:
@@ -19604,7 +19613,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:29.2715344+08:00
     split: 3
     text: "非拷问监狱不能使用这个方法"
-    translated: "Non-interrogation prisons cannot use this method."
+    translated: "Non-interrogation prisons cannot use this method"
 - lineNum: 2802
   raw: "MapAreaEvent,DoEventAcceptPreAction,129,DoEventAcceptPreAction刷npc失败:{0},[EntrustEventPrototype]"
   splits:
@@ -19639,14 +19648,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:31.6334183+08:00
     split: 3
     text: "完成所有目标点（{0}/{1}）"
-    translated: "Complete all target points ({0}/{1})."
+    translated: "Complete all target points ({0}/{1})"
 - lineNum: 2807
   raw: "MapAreaEvent,Load,123,没有找到ID为{0}的FieldEventPrototype,[LitJson.JsonData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:30.4222561+08:00
     split: 3
     text: "没有找到ID为{0}的FieldEventPrototype"
-    translated: "No FieldEventPrototype was found with ID {0}."
+    translated: "No FieldEventPrototype was found with ID {0}"
 - lineNum: 2808
   raw: "MapManager,OnPlayerEnterNewArea,94,你离开了：{0},[System.Int32，System.Int32]"
   splits:
@@ -19688,7 +19697,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:31.4191686+08:00
     split: 3
     text: "通过天赋，使道具产生了特定的词条"
-    translated: "Through talent, the item generates specific attributes."
+    translated: "Through talent, the item generates specific attributes"
 - lineNum: 2814
   raw: "MenPaiQuest,TalentEffectByQuest,192,通过天赋{0}额外获得了{1}%的门派{2};,[System.Int32]"
   splits:
@@ -19723,7 +19732,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:29.0333085+08:00
     split: 3
     text: "举步维艰"
-    translated: "Every step fraught with difficulty."
+    translated: "Every step fraught with difficulty"
 - lineNum: 2819
   raw: "MenPaiQuest,GetRewardsDes,100,门派{0}・{1},[System.Boolean]"
   splits:
@@ -19737,7 +19746,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:30.8162973+08:00
     split: 3
     text: "通过天赋{0}额外获得了{1}个道具;"
-    translated: "Gained {1} items through innate talent {0}."
+    translated: "Gained {1} items through innate talent {0}"
 - lineNum: 2821
   raw: "MenPaiQuest,AddRewards,677,>的请求被（,[]"
   splits:
@@ -19765,14 +19774,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:29.0333703+08:00
     split: 3
     text: ">尽力说服，<"
-    translated: "Make every effort to persuade."
+    translated: "Make every effort to persuade"
 - lineNum: 2825
   raw: "MenPaiQuest,AddRewards,814,>成为了门人。,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:29.0333706+08:00
     split: 3
     text: ">成为了门人。"
-    translated: "Became a disciple of the school."
+    translated: "Became a disciple of the school"
 - lineNum: 2826
   raw: "MenPaiQuest,AddRewards,851,该人已查无音讯,[]"
   splits:
@@ -19786,14 +19795,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:29.0333716+08:00
     split: 3
     text: "前置条件尚未达成"
-    translated: "Preconditions have not yet been met."
+    translated: "Preconditions have not yet been met"
 - lineNum: 2828
   raw: "MenPaiSoldier,UnLockSoldier,78,条件尚未达成,[System.Int32]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:29.0333719+08:00
     split: 3
     text: "条件尚未达成"
-    translated: "Conditions have not yet been met."
+    translated: "Conditions have not yet been met"
 - lineNum: 2829
   raw: "MenPaiSoldier,UnLockSoldier,110,解锁成功,[System.Int32]"
   splits:
@@ -19807,7 +19816,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:29.0333727+08:00
     split: 3
     text: "当前战场已结束"
-    translated: "The current battlefield has ended."
+    translated: "The current battlefield has ended"
 - lineNum: 2831
   raw: "MenPaiWarInfo,InitBattle,347,开启战场,[]"
   splits:
@@ -19842,7 +19851,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:30.9929165+08:00
     split: 3
     text: "点击鼠标，调用了CloseSelf()"
-    translated: "Click the mouse to call CloseSelf()."
+    translated: "Click the mouse to call CloseSelf()"
 - lineNum: 2836
   raw: "QingLouManager,ManagedUpdate,71,npc id={0}结算,[]"
   splits:
@@ -19940,7 +19949,7 @@
   - lastTranslatedOn: 2025-03-06T07:27:01.8106207+08:00
     split: 3
     text: "临月"
-    translated: "On the eve of the month."
+    translated: "On the eve of the month"
 - lineNum: 2850
   raw: "QingLouManager,.ctor,161,红颜,[]"
   splits:
@@ -20087,14 +20096,14 @@
   - lastTranslatedOn: 2025-03-08T00:33:17.5277056+08:00
     split: 3
     text: "没有找到ID为{0}的FieldEventPrototype"
-    translated: "No FieldEventPrototype was found with ID {0}."
+    translated: "No FieldEventPrototype was found with ID {0}"
 - lineNum: 2871
   raw: "XuanShangManager,RefreshOneBangXuanShangQuest,81,没有刷到符合条件的悬赏任务,[System.Int64]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:39.9216733+08:00
     split: 3
     text: "没有刷到符合条件的悬赏任务"
-    translated: "No eligible bounty tasks have been found."
+    translated: "No eligible bounty tasks have been found"
 - lineNum: 2872
   raw: "XuanShangManager,AcceptXuanShangQuest,99,悬赏已经接取:{0} {1},[System.Int64，System.String]"
   splits:
@@ -20465,7 +20474,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:47.1933698+08:00
     split: 3
     text: "没有找到ID为{0}XuanShangPrototype"
-    translated: "No XuanShang prototype found with ID {0}."
+    translated: "No XuanShang prototype found with ID {0}"
 - lineNum: 2925
   raw: "MailManager,AddMailRole,188,你与{0}可以进行飞鸽传书了,[System.Int64]"
   splits:
@@ -21137,7 +21146,7 @@
   - lastTranslatedOn: 2025-03-08T03:19:53.0695163+08:00
     split: 3
     text: "与{0}情分降低{1}点"
-    translated: "Affection towards {0} decreased by {1} point."
+    translated: "Affection towards {0} decreased by {1} point"
 - lineNum: 3021
   raw: "RelationShipManager,ModifyQingFenValue,125,与{0}情分提高{1}点,[System.Int64，System.Int32]"
   splits:
@@ -21179,7 +21188,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:48.8374507+08:00
     split: 3
     text: "当前已与其结义"
-    translated: "They are currently sworn brothers."
+    translated: "They are currently sworn brothers"
 - lineNum: 3027
   raw: "RelationShipManager,CreateJieYiRelation,52,确定,[System.Int64]"
   splits:
@@ -21235,14 +21244,14 @@
   - lastTranslatedOn: 2025-03-04T18:55:48.8375673+08:00
     split: 3
     text: "陌路不识"
-    translated: "A stranger on unfamiliar roads."
+    translated: "A stranger on unfamiliar roads"
 - lineNum: 3035
   raw: "RelationShipManager,.cctor,77,两看相厌,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:48.8375678+08:00
     split: 3
     text: "两看相厌"
-    translated: "Each finds the other detestable."
+    translated: "Each finds the other detestable"
 - lineNum: 3036
   raw: "RelationShipManager,.cctor,90,视如寇仇,[]"
   splits:
@@ -21270,7 +21279,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:53.4977266+08:00
     split: 3
     text: "陌路不识"
-    translated: "A stranger on unfamiliar roads."
+    translated: "A stranger on unfamiliar roads"
 - lineNum: 3040
   raw: "RelationShipManager,.cctor,142,互通名姓,[]"
   splits:
@@ -21284,7 +21293,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:48.8375703+08:00
     split: 3
     text: "相交意气"
-    translated: "Mutual understanding of each other's character."
+    translated: "Mutual understanding of each other's character"
 - lineNum: 3042
   raw: "RelationShipManager,.cctor,168,莫逆之交,[]"
   splits:
@@ -21348,13 +21357,14 @@
     split: 3
     text: "HideAllPrefab后"
     translated: "After hiding all prefabs"
+    safeToTranslate: false
 - lineNum: 3051
   raw: "ScreenShotFaceParam,Test,202,InitTitleBtn后,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:55:55.0967677+08:00
     split: 3
     text: "InitTitleBtn后"
-    translated: "After clicking the Start button."
+    translated: "After clicking the Start button"
 - lineNum: 3052
   raw: "UnityHelper,GetNunWordFromNum,15,零一二三四五六七八九十,[System.Int32]"
   splits:
@@ -21389,7 +21399,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:53.6457316+08:00
     split: 3
     text: "至少要保留3个点"
-    translated: "You must retain at least 3 points."
+    translated: "You must retain at least 3 points"
 - lineNum: 3057
   raw: "OpenFileName,.ctor,74,(*图片文件)\0*.png;*.jpg;*.bmp;*.jpeg\0,[]"
   splits:
@@ -21620,7 +21630,7 @@
   - lastTranslatedOn: 2025-03-04T18:55:53.6458000+08:00
     split: 3
     text: "请先读取数据库"
-    translated: "Please read the database first."
+    translated: "Please read the database first"
 - lineNum: 3090
   raw: "MapAreaEditor.MapAreaManager,SaveDb,250,数据库连接失败,[]"
   splits:
@@ -22306,7 +22316,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:00.1717998+08:00
     split: 3
     text: "共{0}个模组"
-    translated: "A total of {0} mods."
+    translated: "A total of {0} mods"
 - lineNum: 3188
   raw: "ModSpace.ShopModelPanel,RefreshDetails,264,取消订阅,[ModSpace.ModelSlot]"
   splits:
@@ -22831,7 +22841,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:01.8766371+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 3263
   raw: "Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Grids.MainViewQuestListItemViewsHolder,SetXuanShangQuest,103,级,[XuanShangQuest]"
   splits:
@@ -23139,7 +23149,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:06.9985292+08:00
     split: 3
     text: "虚拟MiJiPage读档id重复"
-    translated: "Virtual MiJiPage save file ID duplicate."
+    translated: "Virtual MiJiPage save file ID duplicate"
 - lineNum: 3307
   raw: "SweetPotato.MiJi_node,GetInfoById,25,Talent_node 中 null，id:{0},[System.Int64]"
   splits:
@@ -23496,7 +23506,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:15.0268686+08:00
     split: 3
     text: "角色没有筛选到心法"
-    translated: "Character did not select martial arts technique."
+    translated: "Character did not select martial arts technique"
 - lineNum: 3358
   raw: "SweetPotato.NpcSpellDynamic,RefreshSpellName,150,烈焱,[SweetPotato.NpcEntity，SweetPotato.VirtualSpell]"
   splits:
@@ -23909,7 +23919,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:21.4873382+08:00
     split: 3
     text: "npc找不到model"
-    translated: "NPC couldn't find the model."
+    translated: "NPC couldn't find the model"
 - lineNum: 3417
   raw: "SweetPotato.Gift,InitItemTendency,281,gift表第{0}行喜欢类型中填了个item_base里面不存在的id：{1},[SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]"
   splits:
@@ -24070,7 +24080,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:21.6372106+08:00
     split: 3
     text: "WayPoint配置有错误"
-    translated: "The WayPoint configuration has errors."
+    translated: "The WayPoint configuration has errors"
 - lineNum: 3440
   raw: "SweetPotato.Tools,GetIconSprite,1279,Prefab/UISprite/UI_YingDao/提示-,[SweetPotato.IconType，System.String]"
   splits:
@@ -24078,6 +24088,7 @@
     split: 3
     text: "Prefab/UISprite/UI_YingDao/提示-"
     translated: "Prompt/Prompt/Umbrella Path/Guidance Prompt -"
+    safeToTranslate: false
 - lineNum: 3441
   raw: "SweetPotato.Tools,PlayEffect,156,角色id：{0}的特效：{1}字符串有问题,[System.Int64，System.String]"
   splits:
@@ -24091,7 +24102,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:23.1639671+08:00
     split: 3
     text: "道具{0}没有装备信息"
-    translated: "The item {0} has no equipment information."
+    translated: "The item {0} has no equipment information"
 - lineNum: 3443
   raw: "SweetPotato.Tools,NumberToChinese,394,一,[System.Int32，System.Boolean]"
   splits:
@@ -24435,6 +24446,7 @@
     split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame -"
+    safeToTranslate: false
 - lineNum: 3492
   raw: "SweetPotato.Tools,.cctor,66,气血,[]"
   splits:
@@ -25190,7 +25202,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:31.6978554+08:00
     split: 3
     text: "连续行动次数"
-    translated: "Number of consecutive actions taken."
+    translated: "Number of consecutive actions taken"
 - lineNum: 3600
   raw: "SweetPotato.Tools,.cctor,1042,格挡值,[]"
   splits:
@@ -25218,7 +25230,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:31.9815872+08:00
     split: 3
     text: "略通拳脚"
-    translated: "Slightly skilled in martial arts."
+    translated: "Slightly skilled in martial arts"
 - lineNum: 3604
   raw: "SweetPotato.Tools,.cctor,1115,初窥门径,[]"
   splits:
@@ -25253,14 +25265,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:31.9815885+08:00
     split: 3
     text: "出神入化"
-    translated: "Transcendent in skill and presence."
+    translated: "Transcendent in skill and presence"
 - lineNum: 3609
   raw: "SweetPotato.Tools,.cctor,1155,登峰造极,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:31.9815892+08:00
     split: 3
     text: "登峰造极"
-    translated: "To reach the pinnacle of achievement."
+    translated: "To reach the pinnacle of achievement"
 - lineNum: 3610
   raw: "SweetPotato.Tools,.cctor,1163,一代宗师,[]"
   splits:
@@ -26058,7 +26070,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:36.9238695+08:00
     split: 3
     text: "人阶-超一流武学"
-    translated: "Social Rank - Superior martial artistry."
+    translated: "Social Rank - Superior martial artistry"
 - lineNum: 3724
   raw: "SweetPotato.Tools,.cctor,2288,地阶-绝学,[]"
   splits:
@@ -26975,7 +26987,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550169+08:00
     split: 3
     text: "经脉武学材料"
-    translated: "Wuxia martial materials related to meridian channels."
+    translated: "Wuxia martial materials related to meridian channels"
 - lineNum: 3855
   raw: "SweetPotato.Tools,.cctor,3744,特殊材料,[]"
   splits:
@@ -27017,7 +27029,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550192+08:00
     split: 3
     text: "秘法秘术"
-    translated: "Secret techniques and arcane arts."
+    translated: "Secret techniques and arcane arts"
 - lineNum: 3861
   raw: "SweetPotato.Tools,.cctor,3834,造诣书籍,[]"
   splits:
@@ -27101,7 +27113,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550224+08:00
     split: 3
     text: "用于@装备类型"
-    translated: "Used for @ equipment type."
+    translated: "Used for @ equipment type"
 - lineNum: 3873
   raw: "SweetPotato.Tools,.cctor,5403,用于@装备的洗练,[]"
   splits:
@@ -27115,14 +27127,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550235+08:00
     split: 3
     text: "用于@经脉打通"
-    translated: "Used for @ meridian unblocking."
+    translated: "Used for @ meridian unblocking"
 - lineNum: 3875
   raw: "SweetPotato.Tools,.cctor,5435,用于@脏打通,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:37.5550237+08:00
     split: 3
     text: "用于@脏打通"
-    translated: "Used for @ Dirty through communication."
+    translated: "Used for @ Dirty through communication"
 - lineNum: 3876
   raw: "SweetPotato.Tools,.cctor,5451,用于@经脉五脏点打通,[]"
   splits:
@@ -27143,7 +27155,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550246+08:00
     split: 3
     text: "用于@秘籍学习"
-    translated: "Used for learning from secret manuals."
+    translated: "Used for learning from secret manuals"
 - lineNum: 3879
   raw: "SweetPotato.Tools,.cctor,5499,用于@秘籍某技能学习,[]"
   splits:
@@ -27171,14 +27183,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550257+08:00
     split: 3
     text: "用于@"
-    translated: "To be used for @."
+    translated: "To be used for @"
 - lineNum: 3883
   raw: "SweetPotato.Tools,.cctor,5573,用于@装备类型,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:37.5550352+08:00
     split: 3
     text: "用于@装备类型"
-    translated: "Used for @ equipment type."
+    translated: "Used for @ equipment type"
 - lineNum: 3884
   raw: "SweetPotato.Tools,.cctor,5589,用于@装备的洗练,[]"
   splits:
@@ -27192,14 +27204,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550354+08:00
     split: 3
     text: "用于@经脉打通"
-    translated: "Used for @ meridian unblocking."
+    translated: "Used for @ meridian unblocking"
 - lineNum: 3886
   raw: "SweetPotato.Tools,.cctor,5621,用于@脏打通,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:37.5550355+08:00
     split: 3
     text: "用于@脏打通"
-    translated: "Used for @ Dirty through communication."
+    translated: "Used for @ Dirty through communication"
 - lineNum: 3887
   raw: "SweetPotato.Tools,.cctor,5637,使用后@,[]"
   splits:
@@ -27220,7 +27232,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550357+08:00
     split: 3
     text: "用于@秘籍学习"
-    translated: "Used for learning from secret manuals."
+    translated: "Used for learning from secret manuals"
 - lineNum: 3890
   raw: "SweetPotato.Tools,.cctor,5685,用于@秘籍某技能学习,[]"
   splits:
@@ -27248,7 +27260,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.5550360+08:00
     split: 3
     text: "用于@"
-    translated: "To be used for @."
+    translated: "To be used for @"
 - lineNum: 3894
   raw: "SweetPotato.Tools,.cctor,5759,炼丹,[]"
   splits:
@@ -27444,7 +27456,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.7025530+08:00
     split: 3
     text: "燕国百姓"
-    translated: "The people of the Yan Kingdom."
+    translated: "The people of the Yan Kingdom"
 - lineNum: 3922
   raw: "SweetPotato.NpcEntity,get_SectNameAll_NOS,217,燕国,[]"
   splits:
@@ -27556,7 +27568,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:56.7065820+08:00
     split: 3
     text: "不存在id为{0}的配方"
-    translated: "There is no recipe with ID {0}."
+    translated: "There is no recipe with ID {0}"
 - lineNum: 3938
   raw: "SweetPotato.NpcEntity,LearnPeifang,91,学会,[System.Int64，System.Boolean]"
   splits:
@@ -27577,14 +27589,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.7029860+08:00
     split: 3
     text: "已经学习过此配方了"
-    translated: "I have already studied this formula."
+    translated: "I have already studied this formula"
 - lineNum: 3941
   raw: "SweetPotato.NpcEntity,LearnPeifang,154,已经学习过此配方了,[System.Int64，System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:58.3967754+08:00
     split: 3
     text: "已经学习过此配方了"
-    translated: "I have already studied this formula."
+    translated: "I have already studied this formula"
 - lineNum: 3942
   raw: "SweetPotato.NpcEntity,GetNpcName,131,不详,[]"
   splits:
@@ -27598,7 +27610,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.7029864+08:00
     split: 3
     text: "你已经阅读过这本书了"
-    translated: "You have already read this book."
+    translated: "You have already read this book"
 - lineNum: 3944
   raw: "SweetPotato.PlayerController,UpdateRecover,1254,精力恢复1点,[]"
   splits:
@@ -27633,14 +27645,14 @@
   - lastTranslatedOn: 2025-03-04T18:56:37.7029880+08:00
     split: 3
     text: "当前状态下不可打坐"
-    translated: "Currently unable to meditate in this state."
+    translated: "Currently unable to meditate in this state"
 - lineNum: 3949
   raw: "SweetPotato.PlayerController,onPlayerInteract,1995,当前牢笼暂无关押人员,[MPEventArgs]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:56:37.7029883+08:00
     split: 3
     text: "当前牢笼暂无关押人员"
-    translated: "The current cell has no detainees."
+    translated: "The current cell has no detainees"
 - lineNum: 3950
   raw: "SweetPotato.PlayerController,DoAction,85,精力不足!,[SweetPotato.NpcController，System.String，System.String]"
   splits:
@@ -27661,7 +27673,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:58.5550875+08:00
     split: 3
     text: "你已经阅读过这本书了"
-    translated: "You have already read this book."
+    translated: "You have already read this book"
 - lineNum: 3953
   raw: "SweetPotato.PlayerEntity,Update,709,游戏进入了新的一天 年:{0} 月:{1} 日:{2},[]"
   splits:
@@ -27927,7 +27939,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:58.5565161+08:00
     split: 3
     text: "银子不够两万"
-    translated: "The money isn't enough by twenty thousand."
+    translated: "The money isn't enough by twenty thousand"
 - lineNum: 3991
   raw: "SweetPotato.GangMgr,JoinGang,163,你的产业还不足以建立门派,[System.String]"
   splits:
@@ -27941,7 +27953,7 @@
   - lastTranslatedOn: 2025-03-04T18:56:58.5565453+08:00
     split: 3
     text: "已添置新产业"
-    translated: "New industries have been established."
+    translated: "New industries have been established"
 - lineNum: 3993
   raw: "SweetPotato.GangMgr,AddMenPaiManager,35,该侠士已加入过了，请不要重复操作,[System.Int32]"
   splits:
@@ -28613,14 +28625,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:07.2359181+08:00
     split: 3
     text: "此人在({0}，{1})附近活动"
-    translated: "This person was active near ({0}, {1})."
+    translated: "This person was active near ({0}, {1})"
 - lineNum: 4089
   raw: "SweetPotato.ChuanWenDetail,CheckTextLink,578,此人已失联,[TMPro.TextMeshProUGUI]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:05.2340150+08:00
     split: 3
     text: "此人已失联"
-    translated: "This person has been missing."
+    translated: "This person has been missing"
 - lineNum: 4090
   raw: "SweetPotato.ChuanWenDetail,.ctor,9,<color=#f8744b>[珍材]</color>,[]"
   splits:
@@ -28725,14 +28737,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:12.4073949+08:00
     split: 3
     text: "读取存档失败"
-    translated: "Failed to load save file."
+    translated: "Failed to load save file"
 - lineNum: 4105
   raw: "SweetPotato.FileView/<UploadFiles>d__77,MoveNext,782,读取存档失败,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:14.9192635+08:00
     split: 3
     text: "读取存档失败"
-    translated: "Failed to load save file."
+    translated: "Failed to load save file"
 - lineNum: 4106
   raw: "SweetPotato.FileView/<UploadFiles>d__77,MoveNext,1281,上传失败,[]"
   splits:
@@ -29215,7 +29227,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:15.0787686+08:00
     split: 3
     text: "请输入回复内容"
-    translated: "Please enter your reply content."
+    translated: "Please enter your reply content"
 - lineNum: 4175
   raw: "SweetPotato.ForumView,AddReply,23,输入内容含敏感词汇，请重新输入,[]"
   splits:
@@ -29481,7 +29493,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:17.9276339+08:00
     split: 3
     text: "可分配点数不足"
-    translated: "Not enough points available for allocation."
+    translated: "Not enough points available for allocation"
 - lineNum: 4213
   raw: "SweetPotato.InstantiateViewNewNew,OnTianFuItemClick,147,确定,[SweetPotato.InsViewNewNewTianFuItem]"
   splits:
@@ -29551,7 +29563,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:18.8324956+08:00
     split: 3
     text: "使用属性点数调整战斗倾向属性。"
-    translated: "Use attribute points to adjust combat-bias attributes."
+    translated: "Use attribute points to adjust combat-bias attributes"
 - lineNum: 4223
   raw: "SweetPotato.InstantiateViewNewNew,OnBuShuChange,582,确定,[]"
   splits:
@@ -29642,7 +29654,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:18.9243566+08:00
     split: 3
     text: "EnterCharacterLine--OnConfirm前"
-    translated: "EnterCharacterLine -  - Before confirmation."
+    translated: "EnterCharacterLine -  - Before confirmation"
 - lineNum: 4236
   raw: "SweetPotato.InstantiateViewNewNew_mobile/<ShowLoginMoveTMLNEW_NEW>d__112,MoveNext,685,ShowLoginMoveTMLNEW_NEW--OnConfirm前,[]"
   splits:
@@ -29733,7 +29745,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:19.5073983+08:00
     split: 3
     text: "使用属性点数调整战斗倾向属性。"
-    translated: "Use attribute points to adjust combat-bias attributes."
+    translated: "Use attribute points to adjust combat-bias attributes"
 - lineNum: 4249
   raw: "SweetPotato.InstantiateViewNewNew_mobile,OnBuShuChange,582,确定,[]"
   splits:
@@ -29943,7 +29955,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:19.6735014+08:00
     split: 3
     text: "铜钱不足"
-    translated: "There are not enough copper coins."
+    translated: "There are not enough copper coins"
 - lineNum: 4279
   raw: "SweetPotato.JueYingLouView,DoCurBuSu,3003,确定,[]"
   splits:
@@ -29964,7 +29976,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:19.6735020+08:00
     split: 3
     text: "龙角令不足"
-    translated: "There isn't enough Dragon Fang Command."
+    translated: "There isn't enough Dragon Fang Command"
 - lineNum: 4282
   raw: "SweetPotato.JueYingLouView,DoCurBuSu,3060,确定,[]"
   splits:
@@ -30041,7 +30053,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:20.6009963+08:00
     split: 3
     text: "播放timeline跳下来"
-    translated: "Play the timeline and jump down."
+    translated: "Play the timeline and jump down"
 - lineNum: 4293
   raw: "SweetPotato.LoginViewNew/<AsyncSetLoadVirtualCamera>d__31,MoveNext,928,AsyncSetLoadVirtualCamera Finished 这不是报错,[]"
   splits:
@@ -30188,7 +30200,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:22.4415026+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 4314
   raw: "SweetPotato.MapViewNewMapQuestTip,RefreshUI,704,级,[]"
   splits:
@@ -30209,28 +30221,28 @@
   - lastTranslatedOn: 2025-03-04T18:57:22.4415035+08:00
     split: 3
     text: "该目标无法指引"
-    translated: "The target cannot be directed."
+    translated: "The target cannot be directed"
 - lineNum: 4317
   raw: "SweetPotato.MapViewNewQuestNpcItem/<>c__DisplayClass12_0,<ResetUIXuanShangQuest>b__2,75,该目标无法指引,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:22.7105193+08:00
     split: 3
     text: "该目标无法指引"
-    translated: "The target cannot be directed."
+    translated: "The target cannot be directed"
 - lineNum: 4318
   raw: "SweetPotato.MapViewNewQuestNpcItem/<>c__DisplayClass13_0,<ResetUIEntrustInfo>b__2,80,该目标无法指引,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:22.7105194+08:00
     split: 3
     text: "该目标无法指引"
-    translated: "The target cannot be directed."
+    translated: "The target cannot be directed"
 - lineNum: 4319
   raw: "SweetPotato.MapViewNewQuestNpcItem/<>c__DisplayClass14_0,<ResetUINpcController>b__2,271,该目标无法指引,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:22.7105194+08:00
     split: 3
     text: "该目标无法指引"
-    translated: "The target cannot be directed."
+    translated: "The target cannot be directed"
 - lineNum: 4320
   raw: "SweetPotato.MapViewNewQuestNpcItem,ResetUIXuanShangQuest,136,级,[]"
   splits:
@@ -30251,7 +30263,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:22.7105187+08:00
     split: 3
     text: "的委托"
-    translated: "The commission entrusted to them."
+    translated: "The commission entrusted to them"
 - lineNum: 4323
   raw: "SweetPotato.SettingViewNew,OnToggleClick,179,按键设置,[System.Boolean，System.Int32]"
   splits:
@@ -31196,7 +31208,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.2022192+08:00
     split: 3
     text: "需要购买武器外观"
-    translated: "Need to purchase weapon appearance."
+    translated: "Need to purchase weapon appearance"
 - lineNum: 4458
   raw: "SweetPotato.ShangChengView,BaoChunYuLanClick,164,确定,[]"
   splits:
@@ -31217,7 +31229,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.2022225+08:00
     split: 3
     text: "需要购买头发外观"
-    translated: "Need to buy a hair appearance."
+    translated: "Need to buy a hair appearance"
 - lineNum: 4461
   raw: "SweetPotato.ShangChengView,BaoChunYuLanClick,231,确定,[]"
   splits:
@@ -31238,7 +31250,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.2022229+08:00
     split: 3
     text: "需要购买衣服外观"
-    translated: "Need to buy clothing that looks good."
+    translated: "Need to buy clothing that looks good"
 - lineNum: 4464
   raw: "SweetPotato.ShangChengView,BaoChunYuLanClick,298,确定,[]"
   splits:
@@ -31259,7 +31271,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.2022231+08:00
     split: 3
     text: "需要购买坐骑"
-    translated: "Need to buy a mount."
+    translated: "Need to buy a mount"
 - lineNum: 4467
   raw: "SweetPotato.ShangChengView,BaoChunYuLanClick,365,确定,[]"
   splits:
@@ -31364,7 +31376,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.2022266+08:00
     split: 3
     text: "请输入激活码"
-    translated: "Please enter the activation code."
+    translated: "Please enter the activation code"
 - lineNum: 4482
   raw: "SweetPotato.ShangChengViewNew,OnJiHuoBtnClick,43,确定,[]"
   splits:
@@ -31609,7 +31621,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.3521478+08:00
     split: 3
     text: "需求武学"
-    translated: "The need for martial arts."
+    translated: "The need for martial arts"
 - lineNum: 4517
   raw: "SweetPotato.SpellEditView,RefreshCanwu,251,需求武学(需要消耗以下武学),[ItemPrototype]"
   splits:
@@ -31812,21 +31824,21 @@
   - lastTranslatedOn: 2025-03-04T18:57:23.3524117+08:00
     split: 3
     text: "啊波吃的饿佛哥"
-    translated: "Aba ate because Elder Brother was hungry."
+    translated: "Aba ate because Elder Brother was hungry"
 - lineNum: 4546
   raw: "SweetPotato.FuBenManager,Load,12,啊波吃的饿佛哥,[LitJson.JsonData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:26.8811882+08:00
     split: 3
     text: "啊波吃的饿佛哥"
-    translated: "Aba ate because Elder Brother was hungry."
+    translated: "Aba ate because Elder Brother was hungry"
 - lineNum: 4547
   raw: "SweetPotato.FuBenManager,Load,28,啊波吃的饿佛哥,[LitJson.JsonData]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:26.8811882+08:00
     split: 3
     text: "啊波吃的饿佛哥"
-    translated: "Aba ate because Elder Brother was hungry."
+    translated: "Aba ate because Elder Brother was hungry"
 - lineNum: 4548
   raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,289,网络错误！,[]"
   splits:
@@ -31931,14 +31943,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:27.0398333+08:00
     split: 3
     text: "初出茅庐"
-    translated: "Fresh out of the village schoolhouse."
+    translated: "Fresh out of the village schoolhouse"
 - lineNum: 4563
   raw: "SweetPotato.HuaShanLunJianManager,.cctor,44,略有耳闻,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:27.0398335+08:00
     split: 3
     text: "略有耳闻"
-    translated: "I have heard a bit about it."
+    translated: "I have heard a bit about it"
 - lineNum: 4564
   raw: "SweetPotato.HuaShanLunJianManager,.cctor,57,崭露头角,[]"
   splits:
@@ -31959,7 +31971,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:27.0398346+08:00
     split: 3
     text: "声明鹊起"
-    translated: "The declaration of Qiao's rise."
+    translated: "The declaration of Qiao's rise"
 - lineNum: 4567
   raw: "SweetPotato.HuaShanLunJianManager,.cctor,102,一方豪杰,[]"
   splits:
@@ -31980,7 +31992,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:27.0398353+08:00
     split: 3
     text: "武林死绝"
-    translated: "The Martial World in Ruins."
+    translated: "The Martial World in Ruins"
 - lineNum: 4570
   raw: "SweetPotato.HuaShanLunJianManager,.cctor,150,天下第一,[]"
   splits:
@@ -32057,7 +32069,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:27.2507308+08:00
     split: 3
     text: "基础建筑不添加门派管理"
-    translated: "Basic buildings do not include sect management."
+    translated: "Basic buildings do not include sect management"
 - lineNum: 4581
   raw: "SweetPotato.MenPaiEntity,Load,1497,移除了门人，id:{0} 原因:该角色已死亡,[LitJson.JsonData]"
   splits:
@@ -32309,14 +32321,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:34.9518650+08:00
     split: 3
     text: "当前状态下无法召唤坐骑"
-    translated: "Currently unable to summon the mount."
+    translated: "Currently unable to summon the mount"
 - lineNum: 4617
   raw: "SweetPotato.WorldManager,set_IsShouBingMode,106,手柄鼠标模式,[System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:30.2903944+08:00
     split: 3
     text: "手柄鼠标模式"
-    translated: "Mouse mode with a handle grip."
+    translated: "Mouse mode with a handle grip"
 - lineNum: 4618
   raw: "SweetPotato.WorldManager,set_IsShouBingKeyboard,25,手柄键盘模式,[System.Boolean]"
   splits:
@@ -32330,7 +32342,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:36.4106302+08:00
     split: 3
     text: "手柄鼠标模式"
-    translated: "Mouse mode with a handle grip."
+    translated: "Mouse mode with a handle grip"
 - lineNum: 4620
   raw: "SweetPotato.WorldManager,AddNpcEquip,99,门派弟子获得装备：,[System.Int32，System.Int32]"
   splits:
@@ -32351,7 +32363,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:30.2904255+08:00
     split: 3
     text: "已突破瓶颈"
-    translated: "Has broken through a bottleneck."
+    translated: "Has broken through a bottleneck"
 - lineNum: 4623
   raw: "SweetPotato.AttriManager,ModAttriField,288,已达到瓶颈，提升身份后方可突破瓶颈,[SweetPotato.AttriType，System.Int32，System.Boolean，System.Int32，System.Int32，System.Boolean，System.Boolean，System.Boolean，System.Boolean，System.Boolean]"
   splits:
@@ -32554,7 +32566,7 @@
   - lastTranslatedOn: 2025-03-08T03:20:22.6657106+08:00
     split: 3
     text: "<color=#F75A55>限使用次数"
-    translated: "<color=#F75A55>Usage Limited or Number of Uses Restricted."
+    translated: "<color=#F75A55>Usage Limited or Number of Uses Restricted"
 - lineNum: 4652
   raw: "SweetPotato.Item,get_RequestDes_NOS,516,次</color>,[]"
   splits:
@@ -32568,7 +32580,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:36.5726505+08:00
     split: 3
     text: "限使用次数"
-    translated: "Usage Limited or Number of Uses Restricted."
+    translated: "Usage Limited or Number of Uses Restricted"
 - lineNum: 4654
   raw: "SweetPotato.Item,get_RequestDes_NOS,539,次,[]"
   splits:
@@ -32589,7 +32601,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:36.5727043+08:00
     split: 3
     text: "没有到达瓶颈"
-    translated: "Not yet at the bottleneck."
+    translated: "Not yet at the bottleneck"
 - lineNum: 4657
   raw: "SweetPotato.Item,get_RequestDes_NOS,702,到达瓶颈</color>,[]"
   splits:
@@ -32862,14 +32874,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:39.1321049+08:00
     split: 3
     text: "，第一次使用时可额外{0}{1}{2}{3}"
-    translated: "Upon first use, you can additionally {0}{1}{2}{3}."
+    translated: "Upon first use, you can additionally {0}{1}{2}{3}"
 - lineNum: 4696
   raw: "SweetPotato.Item,GetSubType456Des,555,，第一次使用时可额外{0}{1}{2}{3},[System.String，System.String，System.String]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.3754910+08:00
     split: 3
     text: "，第一次使用时可额外{0}{1}{2}{3}"
-    translated: "Upon first use, you can additionally {0}{1}{2}{3}."
+    translated: "Upon first use, you can additionally {0}{1}{2}{3}"
 - lineNum: 4697
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,107,出示给某人后可以得到一些信息,[]"
   splits:
@@ -32883,21 +32895,21 @@
   - lastTranslatedOn: 2025-03-04T18:57:36.5731769+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4699
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,328,用于生活系统,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.3754911+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4700
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,384,用于生活系统,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.3754912+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4701
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,415,钓鱼完成率：{0}%,[]"
   splits:
@@ -32911,7 +32923,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:40.5264341+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4703
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,480,用于经脉，可作为经脉秘卷材料辅助使用,[]"
   splits:
@@ -32925,7 +32937,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:44.9558728+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4705
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,538,用于生活系统， {0}%概率不消耗材料,[]"
   splits:
@@ -32939,7 +32951,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:44.9558729+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4707
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,613,用于生活系统， ,[]"
   splits:
@@ -32953,7 +32965,7 @@
   - lastTranslatedOn: 2025-03-06T07:49:49.4143369+08:00
     split: 3
     text: "{0}概率提高{1}%"
-    translated: "The probability of {0} increases by {1}%."
+    translated: "The probability of {0} increases by {1}%"
 - lineNum: 4709
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,730,{0}概率提高{1}%\\n,[]"
   splits:
@@ -32967,7 +32979,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:44.9558729+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4711
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,836,用于经脉，可作为经脉秘卷材料辅助使用,[]"
   splits:
@@ -32981,14 +32993,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:44.9558730+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4713
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,916,用于经脉和五脏,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.5272856+08:00
     split: 3
     text: "用于经脉和五脏"
-    translated: "Used for meridians and internal organs."
+    translated: "Used for meridians and internal organs"
 - lineNum: 4714
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,945,， 并附加词条,[]"
   splits:
@@ -33016,14 +33028,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:40.5273179+08:00
     split: 3
     text: "用于轻功激活和升级"
-    translated: "Used for activating and upgrading qinggong."
+    translated: "Used for activating and upgrading qinggong"
 - lineNum: 4718
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1109,用于秘籍领悟,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.5273184+08:00
     split: 3
     text: "用于秘籍领悟"
-    translated: "Used for understanding secret manuals."
+    translated: "Used for understanding secret manuals"
 - lineNum: 4719
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1143,用于天工图，覆写成功率提升{0}%,[]"
   splits:
@@ -33065,14 +33077,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:40.5274066+08:00
     split: 3
     text: "用于锤炼，回锻"
-    translated: "Used for forging and refining."
+    translated: "Used for forging and refining"
 - lineNum: 4725
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1400,可赠予他人,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:40.5274068+08:00
     split: 3
     text: "可赠予他人"
-    translated: "May be gifted to others."
+    translated: "May be gifted to others"
 - lineNum: 4726
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1554,使用后,[]"
   splits:
@@ -33114,14 +33126,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:40.5274082+08:00
     split: 3
     text: "使用后学习{0}"
-    translated: "Use it after studying {0}."
+    translated: "Use it after studying {0}"
 - lineNum: 4732
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2084,可赠予他人,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:44.9558742+08:00
     split: 3
     text: "可赠予他人"
-    translated: "May be gifted to others."
+    translated: "May be gifted to others"
 - lineNum: 4733
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2106,用于垂钓，最多可同时使用{0}个鱼饵,[]"
   splits:
@@ -33177,7 +33189,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:44.9558731+08:00
     split: 3
     text: "用于生活系统"
-    translated: "Used for the life system."
+    translated: "Used for the life system"
 - lineNum: 4741
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2557,以销毁原装备为前提，萃取{0}能力值的词条并覆写在其他装备上,[]"
   splits:
@@ -33240,14 +33252,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:40.5275552+08:00
     split: 3
     text: "武学，使用后学习"
-    translated: "Wuxia: Learn after using it."
+    translated: "Wuxia: Learn after using it"
 - lineNum: 4750
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2865,用于武学，使用后激活<color=#5DBCF3>,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:43.0954076+08:00
     split: 3
     text: "用于武学，使用后激活<color=#5DBCF3>"
-    translated: "Used for Wushu; activates after use <color=#5DBCF3>."
+    translated: "Used for Wushu; activates after use <color=#5DBCF3>"
 - lineNum: 4751
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2969,使用后获得,[]"
   splits:
@@ -33317,14 +33329,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:45.1198671+08:00
     split: 3
     text: "不能再使用这个道具了"
-    translated: "This item can no longer be used."
+    translated: "This item can no longer be used"
 - lineNum: 4761
   raw: "SweetPotato.ItemStorage,DoMatchResultsTip,132,这卷书不能解决你目前的困惑,[System.Collections.Generic.List`1<AnswerViewNew/MatchResult>，SweetPotato.Item]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:47.1108906+08:00
     split: 3
     text: "这卷书不能解决你目前的困惑"
-    translated: "This book cannot solve your current confusion."
+    translated: "This book cannot solve your current confusion"
 - lineNum: 4762
   raw: "SweetPotato.ItemStorage,DoMatchResultsTip,194,不足,[System.Collections.Generic.List`1<AnswerViewNew/MatchResult>，SweetPotato.Item]"
   splits:
@@ -33352,28 +33364,28 @@
   - lastTranslatedOn: 2025-03-04T18:57:46.6790584+08:00
     split: 3
     text: "【血气】类道具使用冷却中"
-    translated: "Blood Fury item in cooldown."
+    translated: "Blood Fury item in cooldown"
 - lineNum: 4766
   raw: "SweetPotato.ItemStorage,UseItemAttri,710,【真气】类道具使用冷却中,[SweetPotato.Item，SweetPotato.NpcEntity]"
   splits:
   - lastTranslatedOn: 2025-03-06T07:49:49.6320283+08:00
     split: 3
     text: "【真气】类道具使用冷却中"
-    translated: "True Qi item on cooldown."
+    translated: "True Qi item on cooldown"
 - lineNum: 4767
   raw: "SweetPotato.ItemStorage,UseItemAttri,838,【轻功】类道具使用冷却中,[SweetPotato.Item，SweetPotato.NpcEntity]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:48.3989358+08:00
     split: 3
     text: "【轻功】类道具使用冷却中"
-    translated: "Qinggong skill equipment is on cooldown."
+    translated: "Qinggong skill equipment is on cooldown"
 - lineNum: 4768
   raw: "SweetPotato.ItemStorage,UseItemAttri,930,已满，不需要恢复】,[SweetPotato.Item，SweetPotato.NpcEntity]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:45.1200448+08:00
     split: 3
     text: "已满，不需要恢复】"
-    translated: "Fulfilled; no need to restore."
+    translated: "Fulfilled; no need to restore"
 - lineNum: 4769
   raw: "SweetPotato.ItemStorage,UseItemAttri,1480,恢复,[SweetPotato.Item，SweetPotato.NpcEntity]"
   splits:
@@ -33394,7 +33406,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:49.3935620+08:00
     split: 3
     text: "【暗器】类道具使用冷却中"
-    translated: "Hidden Weapon class items are on cooldown."
+    translated: "Hidden Weapon class items are on cooldown"
 - lineNum: 4772
   raw: "SweetPotato.ItemStorage,UseItemLearnPeiFang,502,暂未达到配方学习的要求,[SweetPotato.Item]"
   splits:
@@ -33408,14 +33420,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:45.1201344+08:00
     split: 3
     text: "已进入饱腹负面状态"
-    translated: "Entered a state of fullness-induced negative effect."
+    translated: "Entered a state of fullness-induced negative effect"
 - lineNum: 4774
   raw: "SweetPotato.ItemStorage,UseItem,570,已进入醉酒负面状态,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.NpcEntity]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:45.1201346+08:00
     split: 3
     text: "已进入醉酒负面状态"
-    translated: "Entered a negative intoxicated state."
+    translated: "Entered a negative intoxicated state"
 - lineNum: 4775
   raw: "SweetPotato.ItemStorage,UseItem,778,当前属性已经到达瓶颈，请找提升对应身份后使用,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.NpcEntity]"
   splits:
@@ -33499,7 +33511,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:45.1202231+08:00
     split: 3
     text: "已学会该言技"
-    translated: "I have mastered that skill of speech."
+    translated: "I have mastered that skill of speech"
 - lineNum: 4787
   raw: "SweetPotato.ItemStorage,UseItem,1755,学会{0},[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.NpcEntity]"
   splits:
@@ -33513,7 +33525,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:45.1202241+08:00
     split: 3
     text: "您的精力不足{0}点"
-    translated: "Your energy is insufficient by {0} points."
+    translated: "Your energy is insufficient by {0} points"
 - lineNum: 4789
   raw: "SweetPotato.ItemStorage,UseItem,2077,暂时搜索不到此等级的宝物,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.NpcEntity]"
   splits:
@@ -33534,14 +33546,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:49.3935789+08:00
     split: 3
     text: "您的精力不足{0}点"
-    translated: "Your energy is insufficient by {0} points."
+    translated: "Your energy is insufficient by {0} points"
 - lineNum: 4792
   raw: "SweetPotato.ItemStorage,StealItem,148,没有合适的物品可偷到,[SweetPotato.NpcEntity，System.Int32]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:45.1202529+08:00
     split: 3
     text: "没有合适的物品可偷到"
-    translated: "There are no suitable items to steal."
+    translated: "There are no suitable items to steal"
 - lineNum: 4793
   raw: "SweetPotato.ItemStorage,ConsumeItemDurability,121,装备{0}无耐久，已卸下,[System.Boolean]"
   splits:
@@ -33653,14 +33665,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:49.5432628+08:00
     split: 3
     text: "接受事件，开始{0}"
-    translated: "Initiate event upon acceptance, starting {0}."
+    translated: "Initiate event upon acceptance, starting {0}"
 - lineNum: 4809
   raw: "SweetPotato.RandomEventsStorage/WaitCompleteState,OnCheckRandomEventState,126,数量还没够,[SweetPotato.NpcController]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:49.5432639+08:00
     split: 3
     text: "数量还没够"
-    translated: "The quantity isn't sufficient yet."
+    translated: "The quantity isn't sufficient yet"
 - lineNum: 4810
   raw: "SweetPotato.RandomEventsStorage/WaitCompleteState,OnCheckRandomEventState,154,数量足够,[SweetPotato.NpcController]"
   splits:
@@ -33709,7 +33721,7 @@
   - lastTranslatedOn: 2025-03-08T01:53:30.6566104+08:00
     split: 3
     text: "和{0}好感度增加{1}"
-    translated: "Affection towards {0} increased by {1}."
+    translated: "Affection towards {0} increased by {1}"
 - lineNum: 4817
   raw: "SweetPotato.SomeBoneManager,ChangeUnitSocialData,56,<color=#ffffff>善恶值改变:</color> ×{0},[System.Int32，SweetPotato.SomeDataType，System.Int32，System.Boolean]"
   splits:
@@ -33870,7 +33882,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:52.7331444+08:00
     split: 3
     text: "要配置的连招技能存在重复"
-    translated: "The configuration of combo skills contains redundancies."
+    translated: "The configuration of combo skills contains redundancies"
 - lineNum: 4840
   raw: "SweetPotato.SpellManager,SetLianZhaoInfo,236,技能id不存在:,[System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int64>]"
   splits:
@@ -33891,7 +33903,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:49.5438524+08:00
     split: 3
     text: "配置的技能没有后摇"
-    translated: "The configured skill has no recovery time."
+    translated: "The configured skill has no recovery time"
 - lineNum: 4843
   raw: "SweetPotato.SpellManager,SetLianZhaoInfo,436,要配置的连招技能与其他连招id:{0}存在重复,[System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int64>]"
   splits:
@@ -33919,14 +33931,14 @@
   - lastTranslatedOn: 2025-03-04T18:57:53.8467878+08:00
     split: 3
     text: "主角的招式超过了4个上限"
-    translated: "The protagonist's technique exceeded 4 limits."
+    translated: "The protagonist's technique exceeded 4 limits"
 - lineNum: 4847
   raw: "SweetPotato.SpellManager,GetEquipSpell,233,主角的奥义超过了3个上限,[SweetPotato.SpellType，SweetPotato.TAOLU_TYPE，System.Boolean]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:57:54.0624295+08:00
     split: 3
     text: "主角的奥义超过了3个上限"
-    translated: "The protagonist's secret technique exceeds 3 limits."
+    translated: "The protagonist's secret technique exceeds 3 limits"
 - lineNum: 4848
   raw: "SweetPotato.SpellManager,GetEquipSpell,291,主角的功体超过了1个上限,[SweetPotato.SpellType，SweetPotato.TAOLU_TYPE，System.Boolean]"
   splits:
@@ -33947,7 +33959,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:49.5442062+08:00
     split: 3
     text: "没有合适的武器"
-    translated: "There are no suitable weapons."
+    translated: "There are no suitable weapons"
 - lineNum: 4851
   raw: "SweetPotato.SpellManager,ChangeSpellTaoLu,750,拳,[SweetPotato.TAOLU_TYPE，System.Boolean，System.Boolean，System.Boolean]"
   splits:
@@ -34010,7 +34022,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:56.3255502+08:00
     split: 3
     text: "技能升级有错误"
-    translated: "The skill upgrade has errors."
+    translated: "The skill upgrade has errors"
 - lineNum: 4860
   raw: "SweetPotato.TeamManager,DeployMember,40,目前只能上阵{0}个队友,[System.Int64，System.Boolean]"
   splits:
@@ -34059,7 +34071,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:56.3257733+08:00
     split: 3
     text: "当前真力值不足"
-    translated: "Current true power value insufficient."
+    translated: "Current true power value insufficient"
 - lineNum: 4867
   raw: "SweetPotato.JingMaiEditManager,SuccessZhouTian,142,没有路径可以连接成线,[System.Int32，System.Int32]"
   splits:
@@ -34199,7 +34211,7 @@
   - lastTranslatedOn: 2025-03-04T18:57:57.7885607+08:00
     split: 3
     text: "有技能处于冷却中，无法卸下"
-    translated: "Skill on cooldown, cannot be removed."
+    translated: "Skill on cooldown, cannot be removed"
 - lineNum: 4887
   raw: "SweetPotato.Setting.TutorialPanel,ShowContent,108,Prefab/UISprite/UI_YingDao/提示-,[System.String]"
   splits:
@@ -34207,6 +34219,7 @@
     split: 3
     text: "Prefab/UISprite/UI_YingDao/提示-"
     translated: "Prefabricated Object/ UI Sprite / User Interface - Guidance / Prompt -"
+    safeToTranslate: false
 - lineNum: 4888
   raw: "SweetPotato.QuestViewNew.QuestRewardItemTip,ShowItemTip,53,品质：未知,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
@@ -34367,7 +34380,7 @@
   - lastTranslatedOn: 2025-03-04T18:58:01.7396845+08:00
     split: 3
     text: "可分配属性点不足"
-    translated: "Not enough attribute points available for allocation."
+    translated: "Not enough attribute points available for allocation"
 - lineNum: 4911
   raw: "SweetPotato.JingMai.JingMaiXinFaSelectPanel,GetNameStr,38,剑,[SweetPotato.TAOLU_TYPE]"
   splits:
@@ -34521,14 +34534,14 @@
   - lastTranslatedOn: 2025-03-04T18:58:01.7398376+08:00
     split: 3
     text: "找不到合适连接的路径"
-    translated: "Unable to find a suitable connection path."
+    translated: "Unable to find a suitable connection path"
 - lineNum: 4933
   raw: "SweetPotato.JingMai.JingMaiZhouTianPanel,CheckZhenLiEnough,46,当前真力值不足,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:01.7398382+08:00
     split: 3
     text: "当前真力值不足"
-    translated: "Current true power value insufficient."
+    translated: "Current true power value insufficient"
 - lineNum: 4934
   raw: "SweetPotato.JingMai.JingMaiDetailConditionItem,InitItem,83,打通前置的8个经脉点,[System.Int32]"
   splits:
@@ -34542,7 +34555,7 @@
   - lastTranslatedOn: 2025-03-04T18:58:01.7398390+08:00
     split: 3
     text: "打通8条经脉"
-    translated: "Open up 8 meridian pathways."
+    translated: "Open up 8 meridian pathways"
 - lineNum: 4936
   raw: "SweetPotato.JingMai.JingMaiDetailConditionItem,InitItem,177,(未打通),[System.Int32]"
   splits:
@@ -34577,63 +34590,63 @@
   - lastTranslatedOn: 2025-03-04T18:58:04.5152112+08:00
     split: 3
     text: "当前真力值不足"
-    translated: "Current true power value insufficient."
+    translated: "Current true power value insufficient"
 - lineNum: 4941
   raw: "SweetPotato.GMView.GMView,ShuLiangZhengJia,49,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5151960+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4942
   raw: "SweetPotato.GMView.GMView,ShuLiangZhengJia,120,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152114+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4943
   raw: "SweetPotato.GMView.GMView,WuXiaoHao,49,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152115+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4944
   raw: "SweetPotato.GMView.GMView,WuXiaoHao,120,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152116+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4945
   raw: "SweetPotato.GMView.GMView,TeShuCiTiao,45,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152116+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4946
   raw: "SweetPotato.GMView.GMView,TeShuCiTiao,124,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152116+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4947
   raw: "SweetPotato.GMView.GMView,ShuZhiFuDong,47,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152117+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4948
   raw: "SweetPotato.GMView.GMView,ShuZhiFuDong,118,物品ID：{0}添加{1}个成功,[]"
   splits:
   - lastTranslatedOn: 2025-03-04T18:58:04.5152117+08:00
     split: 3
     text: "物品ID：{0}添加{1}个成功"
-    translated: "Item ID: {0} successfully added {1}."
+    translated: "Item ID: {0} successfully added {1}"
 - lineNum: 4949
   raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshPanel,20,锤炼,[]"
   splits:

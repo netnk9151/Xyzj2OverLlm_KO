@@ -24,15 +24,15 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
     {
         Logger = base.Logger;
 
-        //Disable Dumper for non devs
+        // Disable Dumper for non devs
         // Load translations from CSV
-        //Logger.LogError("Dynamic String Dumper loading...");
-        //var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        //var dumpFilePath = Path.Combine(resourcePath, "dynamicStrings-dump.txt");
+        Logger.LogError("Dynamic String Dumper loading...");
+        var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
+        var dumpFilePath = Path.Combine(resourcePath, "dynamicStrings-dump.txt");
 
-        //// Generate a template with current strings
-        //if (!File.Exists(dumpFilePath))
-        //    DumpFiles(dumpFilePath);
+        // Generate a template with current strings
+        if (!File.Exists(dumpFilePath))
+            DumpFiles(dumpFilePath);
         //else
         //    Logger.LogError("Dump already exists...");
     }
@@ -105,23 +105,27 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
 
             foreach (var instruction in method.Body.Instructions)
             {
-                // Look for string load operations
+                string operandValue = string.Empty;
+
                 if (instruction.OpCode == OpCodes.Ldstr && instruction.Operand is string stringValue)
                 {
-                    // Skip empty strings and strings with just whitespace
-                    if (string.IsNullOrWhiteSpace(stringValue))
-                        continue;
-
-                    // Skip non chinese strings
-                    if (!Regex.IsMatch(stringValue, MainPlugin.ChineseCharPattern))
-                        continue;
-
+                    operandValue = stringValue;
+                }
+                else if (instruction.OpCode == OpCodes.Ldc_I4 && instruction.Operand is int intValue
+                    && intValue >= char.MinValue && intValue <= char.MaxValue)
+                {
+                    operandValue = ((char)intValue).ToString();
+                }
+                
+                // Look for string load operations
+                if (!string.IsNullOrWhiteSpace(operandValue) && Regex.IsMatch(operandValue, MainPlugin.ChineseCharPattern))
+                {              
                     // Add to our list
                     stringReferences.Add(new DynamicStringContract
                     {
                         Type = type.FullName,
                         Method = method.Name,
-                        Raw = stringValue,
+                        Raw = operandValue,
                         ILOffset = instruction.Offset,
                         Parameters = method.Parameters.Select(p => p.ParameterType.FullName).ToArray(),
                     });

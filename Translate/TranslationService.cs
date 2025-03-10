@@ -109,7 +109,7 @@ public static class TranslationService
             new() {Path = "yingdao_prototype.txt", PackageOutput = true},
 
             //Biggest one
-            new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true, RemoveExtraFullStop = false},
+            new() {Path = "stringlang.txt", PackageOutput = true, IsMainDialogueAsset = true, }, //RemoveExtraFullStop = false
         ];
 
     public static void WriteSplitDbFile(string outputDirectory, string fileName, int shouldHave, bool hasChinese, List<string> lines)
@@ -469,7 +469,7 @@ public static class TranslationService
                 // Process the unique in parallel
                 await Task.WhenAll(uniqueSplits.Select(async split =>
                 {
-                    if (string.IsNullOrEmpty(split.Text))
+                    if (string.IsNullOrEmpty(split.Text) || !split.SafeToTranslate)
                         return;
 
                     var cacheHit = translationCache.ContainsKey(split.Text);
@@ -574,6 +574,8 @@ public static class TranslationService
                     foreach (var split in line.Splits)
                         if (!split.FlaggedForRetranslation && !(string.IsNullOrEmpty(split.Translated)))
                             outputLines.Add($"- raw: {split.Text}\n  result: {split.Translated}");
+                        else if (!split.SafeToTranslate)
+                            continue; // Do not count failure
                         else
                             failedCount++;
                 }
@@ -591,13 +593,19 @@ public static class TranslationService
                         continue;
                     }
 
+                    // Do not package but dont count as failure
+                    if (!line.Splits[0].SafeToTranslate)
+                        continue;
+
                     var lineRaw = line.Raw;
                     var splits = lineRaw.Split(",");
 
                     var lineTrans = line.Splits[0].Translated
                         .Replace("，", ","); // Replace Wide quotes back
 
-                    if (splits.Length != 5 || string.IsNullOrEmpty(lineTrans) || line.Splits[0].FlaggedForRetranslation)
+                    if (splits.Length != 5 
+                        || string.IsNullOrEmpty(lineTrans) 
+                        || line.Splits[0].FlaggedForRetranslation)
                     {
                         failedCount++;
                         continue;
@@ -636,7 +644,9 @@ public static class TranslationService
 
                     foreach (var split in line.Splits)
                     {
-                        if (!textFileToTranslate.PackageOutput || split.FlaggedForRetranslation)
+                        if (!textFileToTranslate.PackageOutput 
+                            || split.FlaggedForRetranslation
+                            || !split.SafeToTranslate) //Count Failure
                         {
                             failed = true;
                             break;

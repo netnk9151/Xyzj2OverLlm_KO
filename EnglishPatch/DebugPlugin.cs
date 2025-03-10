@@ -3,6 +3,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using SweetPotato;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,6 +11,7 @@ using System.Reflection;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace EnglishPatch;
 
@@ -31,6 +33,12 @@ internal class DebugPlugin: BaseUnityPlugin
 
     private void Test()
     {
+//        [Error: Unity Log] IndexOutOfRangeException: Index was outside the bounds of the array.
+//Stack trace:
+//(wrapper dynamic - method) MainView.DMD<MainView::RefreshDateTimeText>(MainView)
+//MainView.Update()(at<afc667d1e3284cde8a140a8b5bc9a47f>:0)
+
+        //MainView
         //RoleBagItemListHolder
     }
 

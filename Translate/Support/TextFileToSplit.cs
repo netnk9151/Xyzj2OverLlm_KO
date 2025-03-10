@@ -8,7 +8,6 @@ public enum TextFileType
     RegularDb,
     PrefabText,
     DynamicStrings,
-    DynamicStringsV2
 }
 
 public class TextFileToSplit
