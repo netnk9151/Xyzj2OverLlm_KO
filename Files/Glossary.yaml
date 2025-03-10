@@ -35,7 +35,7 @@
   allowalt: 
     - Hetu
   context: Hetu is river map but can be part of Hetu Luoshu 
-  badtrans: true
+  badtrans: false
 - raw: 河出马图
   result: Hetu Luoshu
   badtrans: true
@@ -403,11 +403,6 @@
   badtrans: true  
   direct: Talent points  
   literal: Tianfuzhi  
-- raw: 堪武
-  result: Martial Capability
-  badtrans: true
-  direct: Capable of martial arts
-  literal: Kanwu
 - raw: 斩
   result: Slash
   badtrans: false
@@ -893,9 +888,9 @@
   badtrans: false 
   literal: Jingu  
 - raw: 体魄
-  result: Resiliance
+  result: Resilience
   context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
-  badtrans: false
+  badtrans: true
 - raw: 命中  
   result: Hit Rate  
   badtrans: false  
@@ -1163,22 +1158,79 @@
   badtrans: false  
 - raw: 二阶  
   result: Tier 2
-  badtrans: true
+  badtrans: false
 - raw: 三阶  
   result: Tier 3
-  badtrans: true
+  badtrans: false
 - raw: 四阶  
   result: Tier 4
-  badtrans: true
+  badtrans: false
 - raw: 五阶  
   result: Tier 5
-  badtrans: true
+  badtrans: false
 - raw: 六阶  
   result: Tier 6
-  badtrans: true
+  badtrans: false
 - raw: 七阶  
   result: Tier 7
-  badtrans: true
+  badtrans: false
+
+# Qualities
+- raw: 无双  
+  result: Peerless  
+  badtrans: false  
+  direct: Wu Shuang  
+  literal: Wu Shuang  
+- raw: 无暇  
+  result: Flawless  
+  badtrans: false  
+  direct: Wu Xia  
+  literal: Wu Xia 
+- raw: 绝世  
+  result: Unparalleled  
+  badtrans: false  
+  direct: Jue Shi  
+  literal: Jue Shi  
+- raw: 罕见  
+  result: Rare  
+  badtrans: false  
+  direct: Han Jian  
+  literal: Han Jian 
+- raw: 稀有  
+  result: Uncommon  
+  badtrans: false  
+  direct: Xi You  
+  literal: Xi You
+- raw: 精良  
+  result: Exquisite  
+  badtrans: false  
+  direct: Jing Liang  
+  literal: Jing Liang 
+- raw: 寻常  
+  result: Ordinary  
+  badtrans: false  
+  direct: Xun Chang  
+  literal: Xun Chang
+- raw: 粗制  
+  result: Roughly Made  
+  badtrans: false  
+  direct: Cu Zhi  
+  literal: Cu Zhi
+- raw: 完美  
+  result: Perfect  
+  badtrans: false  
+  direct: Wan Mei  
+  literal: Wan Mei
+- raw: 精巧  
+  result: Delicate  
+  badtrans: false  
+  direct: Jing Qiao  
+  literal: Jing Qiao
+- raw: 普通  
+  result: Common  
+  badtrans: false  
+  direct: Pu Tong  
+  literal: Pu Tong  
 
 # Items and Minerals
 - raw: 钱
@@ -1944,6 +1996,11 @@
 - raw: 缪贝
   result: Miao Bei
   badtrans: true
+- raw: 镜无双  
+  result: Jing Wushuang
+  badtrans: true  
+  direct: Jing Wu Shuang  
+  literal: Jing Wu Shuang  
 
 # Bosses
 - raw: 艾里甫  
@@ -2725,3 +2782,15 @@
   badtrans: true  
   direct: Qi Jing Ba Mai Pu  
   literal: Qi Jing Ba Mai Pu  
+- raw: 万法森罗残卷  
+  result: Scroll of Ten Thousand Laws  
+  badtrans: true  
+  direct: Wan Fa Sen Luo Can Juan  
+  literal: Wan Fa Sen Luo Can Juan  
+- raw: 万径人踪灭  
+  result: Ten Thousand Paths, No Trace of People  
+  allowalt:
+    - ten thousand paths bear no trace of people
+  badtrans: false  
+  direct: Wan Jing Ren Zong Mie  
+  literal: Wan Jing Ren Zong Mie  
