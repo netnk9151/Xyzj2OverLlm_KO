@@ -25,7 +25,7 @@ public class TranslationSplit
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string FlaggedHallucination { get; set; } = string.Empty;
 
-    public DateTime LastTranslatedOn = DateTime.Now;
+    //public DateTime LastTranslatedOn = DateTime.Now;
 
     public TranslationSplit() { }
 
@@ -37,8 +37,8 @@ public class TranslationSplit
 
     public void ResetFlags(bool translated = true)
     {
-        if (translated)
-            LastTranslatedOn = DateTime.Now;
+        //if (translated)
+        //    LastTranslatedOn = DateTime.Now;
 
         SafeToTranslate = true;
         FlaggedForRetranslation = false;

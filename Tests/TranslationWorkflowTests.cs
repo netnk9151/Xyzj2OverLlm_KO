@@ -34,6 +34,12 @@ public class TranslationWorkflowTests
         TranslationService.ExportDynamicStringsToCustomFormat(workingDirectory);
     }
 
+    [Fact(DisplayName = "2.5 MergeFilesIntoTranslated")]
+    public async Task MergeFilesIntoTranslated()
+    {
+        await TranslationService.MergeFilesIntoTranslatedAsync(workingDirectory);
+    }
+
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
     {

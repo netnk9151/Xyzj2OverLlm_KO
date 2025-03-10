@@ -358,6 +358,39 @@ public static class TranslationService
         }
     }
 
+    public static async Task MergeFilesIntoTranslatedAsync(string workingDirectory)
+    {
+        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var newCount = 0;
+
+            //Disable for now since they should be same
+            if (textFileToTranslate.TextFileType == TextFileType.RegularDb)
+                return;
+
+            var deserializer = Yaml.CreateDeserializer();
+            var exportFile = outputFile.Replace("Converted", "Raw/Export");
+            var exportLines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(exportFile));
+
+            foreach (var line in exportLines)
+            {
+                var found = fileLines.FirstOrDefault(x => x.Raw == line.Raw);
+                if (found != null)
+                    line.Translated = found.Translated;
+                else
+                    newCount++;
+            }
+
+            Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");
+
+            if (newCount > 0)
+            {
+                var serializer = Yaml.CreateSerializer();
+                File.WriteAllText(outputFile, serializer.Serialize(exportLines));
+            }
+        });
+    }
+
     public static async Task FillTranslationCacheAsync(string workingDirectory, int charsToCache, Dictionary<string, string> cache, LlmConfig config)
     {
         // Add Manual adjustments 

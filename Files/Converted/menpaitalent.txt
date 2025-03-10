@@ -1,2265 +1,1853 @@
 - raw: "0#幸运手#完成进行烹饪、锻造、 炼丹时，100%额外获得2次道具#4#1#1,2,6|0|100|2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1358770+08:00
-    split: 1
+  - split: 1
     text: "幸运手"
     translated: "Lucky Hand"
-  - lastTranslatedOn: 2025-02-26T20:29:13.3583108+08:00
-    split: 2
+  - split: 2
     text: "完成进行烹饪、锻造、 炼丹时，100%额外获得2次道具"
     translated: "Upon completing cooking, forging, or alchemy, you will receive an additional 2 items at a 100% bonus."
 - lineNum: 1
   raw: "1#任务奖励金钱属性测试#任务完成时，金钱奖励额外提升100%#0#2#0|0|100#"
   splits:
-  - lastTranslatedOn: 2025-02-26T10:41:10.8914392+08:00
-    split: 1
+  - split: 1
     text: "任务奖励金钱属性测试"
     translated: "Task reward money attribute test"
-  - lastTranslatedOn: 2025-03-02T10:14:07.0144293+08:00
-    split: 2
+  - split: 2
     text: "任务完成时，金钱奖励额外提升100%"
     translated: "Upon task completion, the monetary reward is additionally increased by 100%."
 - lineNum: 2
   raw: "2#进行打造消耗测试#进行打造时，金钱、矿石消耗减少50%#0#0#0|0,4|-50#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:36.1959041+08:00
-    split: 1
+  - split: 1
     text: "进行打造消耗测试"
     translated: "Conduct forge consumption testing"
-  - lastTranslatedOn: 2025-03-01T17:20:35.9521910+08:00
-    split: 2
+  - split: 2
     text: "进行打造时，金钱、矿石消耗减少50%"
     translated: "During forging, the consumption of money and ore is reduced by 50%."
 - lineNum: 3
   raw: "3#打造属性测试#打造完成时，炼器，缝纫，巧手获得的成品外攻、耐久、锋锐、坚韧属性提升50%#0#1#2,3,4|1|-1,-2,-3,20|50#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:35.5602602+08:00
-    split: 1
+  - split: 1
     text: "打造属性测试"
     translated: "Forge Attribute Test"
-  - lastTranslatedOn: 2025-03-08T00:34:38.9816540+08:00
-    split: 2
+  - split: 2
     text: "打造完成时，炼器，缝纫，巧手获得的成品外攻、耐久、锋锐、坚韧属性提升50%"
     translated: "Upon completion of forging, the crafted items' external attack, durability, sharpness, and toughness attributes from refining, sewing, and skilled hands are increased by 50%."
 - lineNum: 4
   raw: "4#打造词条测试#打造完成时，炼器，缝纫，巧手获得的成品必定获得词条#0#1#2,3,4|3|10101,12401#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:36.0553677+08:00
-    split: 1
+  - split: 1
     text: "打造词条测试"
     translated: "Forge entry test"
-  - lastTranslatedOn: 2025-03-08T00:34:40.7845221+08:00
-    split: 2
+  - split: 2
     text: "打造完成时，炼器，缝纫，巧手获得的成品必定获得词条"
     translated: "Upon completion of forging, refining, sewing, and crafting by skilled hands, the finished product is guaranteed to possess the specified term."
 - lineNum: 101
   raw: "101#寻宝嗅觉#对寻找金银财宝有着天生的敏感度。任务完成时，金钱奖励额外提升6%。#0#2#0|0|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1361594+08:00
-    split: 1
+  - split: 1
     text: "寻宝嗅觉"
     translated: "Treasure-hunting sense of smell"
-  - lastTranslatedOn: 2025-03-02T10:14:06.0500627+08:00
-    split: 2
+  - split: 2
     text: "对寻找金银财宝有着天生的敏感度。任务完成时，金钱奖励额外提升6%。"
     translated: "Naturally sensitive to the search for gold and silver treasures. Upon task completion, the monetary reward is increased by an additional 6%."
 - lineNum: 102
   raw: "102#财运亨通#财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。#1#2#0|0|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1362070+08:00
-    split: 1
+  - split: 1
     text: "财运亨通"
     translated: "Prosperity in wealth"
-  - lastTranslatedOn: 2025-03-02T10:14:06.7125887+08:00
-    split: 2
+  - split: 2
     text: "财运常在，经商或完成任务时经常能得到比他人更多的报酬。任务完成时，金钱奖励额外提升9%。"
     translated: "Fortune favors the wealthy; in business or completing tasks, they often receive more rewards than others. Upon task completion, the monetary reward is additionally increased by 9%."
 - lineNum: 103
   raw: "103#金币风水#你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。#2#2#0|0|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1362550+08:00
-    split: 1
+  - split: 1
     text: "金币风水"
     translated: "The art of wealth alchemy"
-  - lastTranslatedOn: 2025-02-26T20:29:56.0839653+08:00
-    split: 2
+  - split: 2
     text: "你对场所的风水有独到的见解，似乎前生就能吸引钱财。任务完成时，金钱额外提升12%。"
     translated: "You have a unique insight into the feng shui of places, as if you could attract wealth from past lives. Upon task completion, money increases by an additional 12%."
 - lineNum: 104
   raw: "104#锦鲤之运#你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。#3#2#0|0|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1363030+08:00
-    split: 1
+  - split: 1
     text: "锦鲤之运"
     translated: "The fortune of the Carp in Brocade"
-  - lastTranslatedOn: 2025-02-26T20:29:17.2273527+08:00
-    split: 2
+  - split: 2
     text: "你似乎总能在需要时得到财运的眷顾。任务完成时，金钱额外提升15%。"
     translated: "It seems you're often favored by fortune when it comes to wealth. Upon task completion, the amount of money increases by an additional 15%."
 - lineNum: 105
   raw: "105#财源滚滚#生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%#4#2#0|0|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1363512+08:00
-    split: 1
+  - split: 1
     text: "财源滚滚"
     translated: "Money flows in like a river"
-  - lastTranslatedOn: 2025-02-26T20:29:16.0234245+08:00
-    split: 2
+  - split: 2
     text: "生来与钱财有缘，对钱财有致命的吸引力。任务完成时，金钱奖励额外提升18%"
     translated: "Born with a natural affinity for money, possessing an irresistible attraction to wealth. Upon task completion, the monetary reward is additionally increased by 18%."
 - lineNum: 201
   raw: "201#洞悉言语#精于解读各种言语暗示与隐喻，能够洞悉言下之意。任务完成时，安定额外提升6%。#0#2#0|1|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1363995+08:00
-    split: 1
+  - split: 1
     text: "洞悉言语"
     translated: "Understand the language"
-  - lastTranslatedOn: 2025-02-26T20:29:21.2244005+08:00
-    split: 2
+  - split: 2
     text: "精于解读各种言语暗示与隐喻，能够洞悉言下之意。任务完成时，安定额外提升6%。"
     translated: "Expert in interpreting various verbal hints and metaphors, able to discern the underlying meaning. Upon task completion, an additional boost of 6% is provided."
 - lineNum: 202
   raw: "202#步云行者#行动轻盈如云，行动无声无息，能够发现任何可疑行为。任务完成时，安定额外提升9%。#1#2#0|1|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1364479+08:00
-    split: 1
+  - split: 1
     text: "步云行者"
     translated: "Cloud-Walking Immortal"
-  - lastTranslatedOn: 2025-02-26T20:29:16.6648031+08:00
-    split: 2
+  - split: 2
     text: "行动轻盈如云，行动无声无息，能够发现任何可疑行为。任务完成时，安定额外提升9%。"
     translated: "Action light as a cloud, movement silent and untraceable, capable of detecting any suspicious behavior. Upon completing the task, An Ding's effectiveness increases by 9%."
 - lineNum: 203
   raw: "203#洞察先机#拥有敏锐的洞察力，能够预见并化解小规模的内部矛盾。任务完成时，安定额外提升12%。#2#2#0|1|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1364967+08:00
-    split: 1
+  - split: 1
     text: "洞察先机"
     translated: "Anticipate the situation"
-  - lastTranslatedOn: 2025-02-26T20:29:15.1647593+08:00
-    split: 2
+  - split: 2
     text: "拥有敏锐的洞察力，能够预见并化解小规模的内部矛盾。任务完成时，安定额外提升12%。"
     translated: "Possessing keen insight, capable of foreseeing and countering small-scale internal conflicts. Upon task completion, stability is additionally increased by 12%."
 - lineNum: 204
   raw: "204#迹象追踪#擅长追踪微小的物理或行为迹象。任务完成时，安定额外提升15%。#3#2#0|1|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1365448+08:00
-    split: 1
+  - split: 1
     text: "迹象追踪"
     translated: "Tracking Signs"
-  - lastTranslatedOn: 2025-02-26T20:29:22.1975661+08:00
-    split: 2
+  - split: 2
     text: "擅长追踪微小的物理或行为迹象。任务完成时，安定额外提升15%。"
     translated: "Expert at tracking minute physical or behavioral clues. Upon task completion, An Ding grants an additional 15% boost."
 - lineNum: 205
   raw: "205#万物通晓#洞察一切事物的本质，无论是人心还是自然现象，能够预见并化解所有可能的危机。任务完成时，安定额外提升18%。#4#2#0|1|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1365928+08:00
-    split: 1
+  - split: 1
     text: "万物通晓"
     translated: "All-knowing"
-  - lastTranslatedOn: 2025-02-26T20:29:14.5965201+08:00
-    split: 2
+  - split: 2
     text: "洞察一切事物的本质，无论是人心还是自然现象，能够预见并化解所有可能的危机。任务完成时，安定额外提升18%。"
     translated: "To perceive the essence of all things, whether it's human nature or natural phenomena, and foresee and counter any potential crises. Upon task completion, stability increases by 18%."
 - lineNum: 301
   raw: "301#繁华似锦#身处之地总能繁荣昌盛，仿佛锦绣般灿烂辉煌。任务完成时，繁荣格外提升6%#0#2#0|2|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1366434+08:00
-    split: 1
+  - split: 1
     text: "繁华似锦"
     translated: "Prosperous as a brocade"
-  - lastTranslatedOn: 2025-02-26T20:29:20.6521915+08:00
-    split: 2
+  - split: 2
     text: "身处之地总能繁荣昌盛，仿佛锦绣般灿烂辉煌。任务完成时，繁荣格外提升6%"
     translated: "When residing in a place, it always thrives and flourishes, resembling the magnificence of brocade. Upon completing tasks, prosperity is further enhanced by 6%."
 - lineNum: 302
   raw: "302#祥瑞天成#天生便能招引祥瑞之气，周围人事皆能吉祥如意。任务完成时，繁荣格外提升9%#1#2#0|2|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1366923+08:00
-    split: 1
+  - split: 1
     text: "祥瑞天成"
     translated: "Harmony, luck, celestial prosperity"
-  - lastTranslatedOn: 2025-02-26T20:29:13.9304020+08:00
-    split: 2
+  - split: 2
     text: "天生便能招引祥瑞之气，周围人事皆能吉祥如意。任务完成时，繁荣格外提升9%"
     translated: "Born with the ability to attract auspicious qi, everything around them turns out favorably. Upon task completion, prosperity is further enhanced by 9%."
 - lineNum: 303
   raw: "303#福泽绵延#拥有无尽的福运，福气持续不断地滋养自身。任务完成时，繁荣格外提升12%#2#2#0|2|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1367414+08:00
-    split: 1
+  - split: 1
     text: "福泽绵延"
     translated: "Long-lasting blessings"
-  - lastTranslatedOn: 2025-02-26T20:29:24.5628099+08:00
-    split: 2
+  - split: 2
     text: "拥有无尽的福运，福气持续不断地滋养自身。任务完成时，繁荣格外提升12%"
     translated: "Endowed with endless fortune, luck continuously nurtures oneself. Upon task completion, prosperity is exceptionally boosted by 12%."
 - lineNum: 304
   raw: "304#聚宝生辉#天生有聚宝之力，所触之物皆能变得光辉灿烂。任务完成时，繁荣格外提升15%#3#2#0|2|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1367898+08:00
-    split: 1
+  - split: 1
     text: "聚宝生辉"
     translated: "Sparkling treasure gathered together"
-  - lastTranslatedOn: 2025-02-26T20:29:21.7644749+08:00
-    split: 2
+  - split: 2
     text: "天生有聚宝之力，所触之物皆能变得光辉灿烂。任务完成时，繁荣格外提升15%"
     translated: "Born with the ability to attract wealth, anything they touch becomes radiant and splendid. Upon task completion, prosperity is further enhanced by 15%."
 - lineNum: 305
   raw: "305#华贵绵延#安定绵延不绝，仿若天地同寿，繁荣永存。任务完成时，繁荣格外提升18%#4#2#0|2|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1368384+08:00
-    split: 1
+  - split: 1
     text: "华贵绵延"
     translated: "Opulent and luxurious"
-  - lastTranslatedOn: 2025-02-26T20:29:35.9796471+08:00
-    split: 2
+  - split: 2
     text: "安定绵延不绝，仿若天地同寿，繁荣永存。任务完成时，繁荣格外提升18%"
     translated: "Stability endures unceasingly, akin to the immortality of heaven and earth; prosperity will last forever. Upon task completion, prosperity is further enhanced by 18%."
 - lineNum: 401
   raw: "401#名不经传#名声虽不显赫，但行事低调、内藏锋芒。任务完成时，名声格外提升6%#0#2#0|3|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1368872+08:00
-    split: 1
+  - split: 1
     text: "名不经传"
     translated: "Little known by name"
-  - lastTranslatedOn: 2025-02-26T20:31:02.8328754+08:00
-    split: 2
+  - split: 2
     text: "名声虽不显赫，但行事低调、内藏锋芒。任务完成时，名声格外提升6%"
     translated: "While not prominent in fame, actions are discreet yet powerful. Upon completing the task, reputation increases by 6%."
 - lineNum: 402
   raw: "402#名声在外#名声如雷，行踪如影，江湖各方豪杰皆有耳闻。任务完成时，名声格外提升9%#1#2#0|3|9#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:37.0872460+08:00
-    split: 1
+  - split: 1
     text: "名声在外"
     translated: "Famous beyond your hometown"
-  - lastTranslatedOn: 2025-02-26T20:29:51.5787034+08:00
-    split: 2
+  - split: 2
     text: "名声如雷，行踪如影，江湖各方豪杰皆有耳闻。任务完成时，名声格外提升9%"
     translated: "Famed like thunder, elusive as a shadow, their reputation has reached the ears of all the renowned figures across the Jianghu. Upon completing the task, their renown increases by 9%."
 - lineNum: 403
   raw: "403#名声卓著#一举一动皆引轰动，行事为江湖中人所允。任务完成时，名声格外提升12%#2#2#0|3|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1369847+08:00
-    split: 1
+  - split: 1
     text: "名声卓著"
     translated: "Famed throughout the land"
-  - lastTranslatedOn: 2025-02-26T20:29:38.1533381+08:00
-    split: 2
+  - split: 2
     text: "一举一动皆引轰动，行事为江湖中人所允。任务完成时，名声格外提升12%"
     translated: "Every move they make causes a sensation, and their actions are accepted by people in the Jianghu. Upon completing tasks, their reputation is further enhanced by 12%."
 - lineNum: 404
   raw: "404#众人皆知#行事风格独特，侠名远播，为江湖人茶余饭后的谈资。任务完成时，名声格外提升15%#3#2#0|3|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1370333+08:00
-    split: 1
+  - split: 1
     text: "众人皆知"
     translated: "It is known to all"
-  - lastTranslatedOn: 2025-02-26T20:29:43.3432544+08:00
-    split: 2
+  - split: 2
     text: "行事风格独特，侠名远播，为江湖人茶余饭后的谈资。任务完成时，名声格外提升15%"
     translated: "Their unique style of operation has earned them widespread fame among the Jianghu, becoming a popular topic at tea and meals. Upon completing tasks, their reputation is further enhanced by 15%."
 - lineNum: 405
   raw: "405#举世闻名#天下人尽皆知，豪杰英雄莫不以能与你相识为荣。任务完成时，名声格外提升18%#4#2#0|3|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1370817+08:00
-    split: 1
+  - split: 1
     text: "举世闻名"
     translated: "Famous throughout the world"
-  - lastTranslatedOn: 2025-02-26T20:29:33.6430010+08:00
-    split: 2
+  - split: 2
     text: "天下人尽皆知，豪杰英雄莫不以能与你相识为荣。任务完成时，名声格外提升18%"
     translated: "Everyone in the world knows that it's an honor for even the most renowned heroes to know you. Upon completing the task, your reputation will increase by 18%."
 - lineNum: 501
   raw: "501#慧眼识矿#具备天赋异禀的洞察力，能一眼辨识矿石的价值。任务完成时，矿石格外收获6%#0#2#0|4|6#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:36.7063972+08:00
-    split: 1
+  - split: 1
     text: "慧眼识矿"
     translated: "Having eyes that can spot a gem"
-  - lastTranslatedOn: 2025-02-26T20:29:19.0659445+08:00
-    split: 2
+  - split: 2
     text: "具备天赋异禀的洞察力，能一眼辨识矿石的价值。任务完成时，矿石格外收获6%"
     translated: "Possessing a gift of exceptional insight, they can discern the value of ores with just one glance. Upon completing the task, ore yield increases by 6%."
 - lineNum: 502
   raw: "502#矿脉天成#天生有寻矿好运，能轻易发现隐藏在深处的宝矿。任务完成时，矿石格外收获9%#1#2#0|4|9#"
   splits:
-  - lastTranslatedOn: 2025-03-01T19:35:41.8670326+08:00
-    split: 1
+  - split: 1
     text: "矿脉天成"
     translated: "Naturally formed mineral veins"
-  - lastTranslatedOn: 2025-02-26T20:29:18.4452488+08:00
-    split: 2
+  - split: 2
     text: "天生有寻矿好运，能轻易发现隐藏在深处的宝矿。任务完成时，矿石格外收获9%"
     translated: "Born with a knack for finding valuable minerals, they can easily discover hidden gems deep within. Upon completing the task, mineral yield increases by 9%."
 - lineNum: 503
   raw: "503#地质通灵#对地质有着深刻理解，通过细微的变化便能探知矿藏。任务完成时，矿石格外收获12%#2#2#0|4|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1372271+08:00
-    split: 1
+  - split: 1
     text: "地质通灵"
     translated: "Geomancy"
-  - lastTranslatedOn: 2025-02-26T20:29:45.3465418+08:00
-    split: 2
+  - split: 2
     text: "对地质有着深刻理解，通过细微的变化便能探知矿藏。任务完成时，矿石格外收获12%"
     translated: "Having a deep understanding of geology, they can detect mineral deposits through subtle changes. When the task is completed, the yield of ore increases by 12%."
 - lineNum: 504
   raw: "504#石破天惊#辨矿能力超群，所发现的矿藏往往价值连城，令人惊叹。任务完成时，矿石格外收获15%#3#2#0|4|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1372761+08:00
-    split: 1
+  - split: 1
     text: "石破天惊"
     translated: "Shocking beyond belief"
-  - lastTranslatedOn: 2025-02-26T20:29:58.9754172+08:00
-    split: 2
+  - split: 2
     text: "辨矿能力超群，所发现的矿藏往往价值连城，令人惊叹。任务完成时，矿石格外收获15%"
     translated: "Mineral discernment ability is exceptional; the mineral deposits they discover are often invaluable, leaving people in awe. Upon task completion, a surplus of 15% mineral yield is obtained."
 - lineNum: 505
   raw: "505#地灵人杰#好似能感应地脉的能量波动，总能找到蕴含宝藏的矿石。任务完成时，矿石格外收获18%#4#2#0|4|18#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:36.9293680+08:00
-    split: 1
+  - split: 1
     text: "地灵人杰"
     translated: "Land of Spiritual Eminence and Men of Genius."
-  - lastTranslatedOn: 2025-02-26T20:29:46.5185792+08:00
-    split: 2
+  - split: 2
     text: "好似能感应地脉的能量波动，总能找到蕴含宝藏的矿石。任务完成时，矿石格外收获18%"
     translated: "As if sensing the vibrations of the earth's veins, it always finds mineral deposits containing hidden treasures. Upon task completion, the mineral yield increases by 18%."
 - lineNum: 601
   raw: "601#药理天成#天生对药理有着深刻的理解，能发现不少草药。任务完成时，草药格外提升6%#0#2#0|5|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1374219+08:00
-    split: 1
+  - split: 1
     text: "药理天成"
     translated: "Naturally synthesized medicinal substance"
-  - lastTranslatedOn: 2025-02-26T20:29:47.1172559+08:00
-    split: 2
+  - split: 2
     text: "天生对药理有着深刻的理解，能发现不少草药。任务完成时，草药格外提升6%"
     translated: "Innately has a deep understanding of pharmacology and can discover many herbs. Upon task completion, the effectiveness of herbs is increased by an additional 6%."
 - lineNum: 602
   raw: "602#草木通灵#对草木有着灵性的感知，能找到奇珍异草。任务完成时，草药格外提升9%#1#2#0|5|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1374729+08:00
-    split: 1
+  - split: 1
     text: "草木通灵"
     translated: "Plants that communicate with spirits"
-  - lastTranslatedOn: 2025-02-26T20:29:57.1527047+08:00
-    split: 2
+  - split: 2
     text: "对草木有着灵性的感知，能找到奇珍异草。任务完成时，草药格外提升9%"
     translated: "Has a spiritual awareness of plants and can locate rare herbs. Upon task completion, the herbal efficacy is increased by 9%."
 - lineNum: 603
   raw: "603#药识如神#能迅速辨识各种珍贵药材的药性和用途。任务完成时，草药格外提升12%#2#2#0|5|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1375215+08:00
-    split: 1
+  - split: 1
     text: "药识如神"
     translated: "His knowledge of medicine is like a god"
-  - lastTranslatedOn: 2025-02-26T20:29:28.9878334+08:00
-    split: 2
+  - split: 2
     text: "能迅速辨识各种珍贵药材的药性和用途。任务完成时，草药格外提升12%"
     translated: "Capable of quickly identifying the properties and uses of various precious medicinal herbs. Upon task completion, the herbal effectiveness is further enhanced by 12%."
 - lineNum: 604
   raw: "604#百草鉴真#能精确鉴别百草品质，辨别出那些隐秘的灵药宝草。任务完成时，草药格外提升15%#3#2#0|5|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1375703+08:00
-    split: 1
+  - split: 1
     text: "百草鉴真"
     translated: "Pure Herbal Compendium"
-  - lastTranslatedOn: 2025-02-26T20:29:52.2408910+08:00
-    split: 2
+  - split: 2
     text: "能精确鉴别百草品质，辨别出那些隐秘的灵药宝草。任务完成时，草药格外提升15%"
     translated: "Capable of accurately assessing the quality of various herbs, able to distinguish those rare and hidden medicinals. Upon completing this task, the herb's efficacy increases by 15%."
 - lineNum: 605
   raw: "605#灵药慧眼#具备独到的慧眼，能够在茫茫山野中一眼认出灵药。任务完成时，草药格外提升18%#4#2#0|5|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1376189+08:00
-    split: 1
+  - split: 1
     text: "灵药慧眼"
     translated: "Healing Elixir, Wise Eyes"
-  - lastTranslatedOn: 2025-02-26T20:29:58.3025738+08:00
-    split: 2
+  - split: 2
     text: "具备独到的慧眼，能够在茫茫山野中一眼认出灵药。任务完成时，草药格外提升18%"
     translated: "Possesses a keen eye, able to recognize medicinal herbs at a glance amidst vast mountains and wilderness. When the task is completed, herb quality increases by an additional 18%."
 - lineNum: 701
   raw: "701#雄才大略#拥有卓越的才能和战略眼光，能吸引众多豪杰前来效力。任务完成时，人数格外提升6%#0#2#0|6|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1376667+08:00
-    split: 1
+  - split: 1
     text: "雄才大略"
     translated: "Great strategic ability"
-  - lastTranslatedOn: 2025-02-26T20:29:54.0478418+08:00
-    split: 2
+  - split: 2
     text: "拥有卓越的才能和战略眼光，能吸引众多豪杰前来效力。任务完成时，人数格外提升6%"
     translated: "Possessing exceptional talent and strategic insight, they are able to attract numerous illustrious heroes to serve them. Upon completion of a task, the number increases by an additional 6%."
 - lineNum: 702
   raw: "702#龙骧虎步#气宇轩昂，威仪非凡，能够迅速招揽各方英才。任务完成时，人数格外提升9%#1#2#0|6|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1377149+08:00
-    split: 1
+  - split: 1
     text: "龙骧虎步"
     translated: "Moving like a dragon and stepping like a tiger"
-  - lastTranslatedOn: 2025-02-26T20:29:30.7023905+08:00
-    split: 2
+  - split: 2
     text: "气宇轩昂，威仪非凡，能够迅速招揽各方英才。任务完成时，人数格外提升9%"
     translated: "Imposing presence and exceptional dignity, capable of swiftly attracting talent from all directions. Upon task completion, the number increases by 9%."
 - lineNum: 703
   raw: "703#慧眼识英#善于识别人才，并能以诚心打动。任务完成时，人数格外提升12%#2#2#0|6|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1377631+08:00
-    split: 1
+  - split: 1
     text: "慧眼识英"
     translated: "Discerning spirit in a foreign land"
-  - lastTranslatedOn: 2025-02-26T20:29:52.7707849+08:00
-    split: 2
+  - split: 2
     text: "善于识别人才，并能以诚心打动。任务完成时，人数格外提升12%"
     translated: "Skilled at recognizing talent, and able to win over people with sincerity. Upon task completion, the number increases by an additional 12%."
 - lineNum: 704
   raw: "704#广纳贤才#善于发现并招揽四方英才，麾下能人辈出。任务完成时，人数格外提升15%#3#2#0|6|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1378102+08:00
-    split: 1
+  - split: 1
     text: "广纳贤才"
     translated: "Invite and employ talents"
-  - lastTranslatedOn: 2025-02-26T20:29:56.6745780+08:00
-    split: 2
+  - split: 2
     text: "善于发现并招揽四方英才，麾下能人辈出。任务完成时，人数格外提升15%"
     translated: "Skilled at discovering and recruiting talent from all directions, the underlings produce outstanding individuals. Upon task completion, numbers are increased by an additional 15%."
 - lineNum: 705
   raw: "705#聚贤成众#号召力超凡，能轻易召集天下豪杰。任务完成时，人数格外提升18%#4#2#0|6|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1378583+08:00
-    split: 1
+  - split: 1
     text: "聚贤成众"
     translated: "Uniting talent to form a collective"
-  - lastTranslatedOn: 2025-02-26T20:30:01.0297459+08:00
-    split: 2
+  - split: 2
     text: "号召力超凡，能轻易召集天下豪杰。任务完成时，人数格外提升18%"
     translated: "Charismatic enough to effortlessly gather heroes from across the land. Upon task completion, numbers increase by an additional 18%."
 - lineNum: 801
   raw: "801#异眼顶珍#虽有机会获得珍宝，却会因眼光的问题错失珍珠。任务完成时，金钱奖励减少6%#0#2#0|0|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1379064+08:00
-    split: 1
+  - split: 1
     text: "异眼顶珍"
     translated: "Admired as a precious jewel atop the realm"
-  - lastTranslatedOn: 2025-03-02T10:14:07.6365542+08:00
-    split: 2
+  - split: 2
     text: "虽有机会获得珍宝，却会因眼光的问题错失珍珠。任务完成时，金钱奖励减少6%"
     translated: "Although there is an opportunity to obtain a treasure, you may miss the pearl due to vision issues. Upon task completion, the monetary reward decreases by 6%."
 - lineNum: 802
   raw: "802#拂荣忘原#内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%#0#2#0|0|-9#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:38.0259872+08:00
-    split: 1
+  - split: 1
     text: "拂荣忘原"
     translated: "Forgetting one's roots"
-  - lastTranslatedOn: 2025-03-02T10:14:08.2881105+08:00
-    split: 2
+  - split: 2
     text: "内心渴望金银珠宝，却容易因此忘却本心。任务完成时，金钱奖励减少9%"
     translated: "Yearning for gold, silver, and jewels in the heart makes one easily forget their true nature. When tasks are completed, the monetary reward is reduced by 9%."
 - lineNum: 803
   raw: "803#捡豆丢瓜#看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%#0#2#0|0|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1380007+08:00
-    split: 1
+  - split: 1
     text: "捡豆丢瓜"
     translated: "Pick up beans, drop melons"
-  - lastTranslatedOn: 2025-03-02T10:14:08.9305113+08:00
-    split: 2
+  - split: 2
     text: "看见啥就想要啥，最后啥也捞不着。任务完成时，金钱奖励减少12%"
     translated: "See what you want and try to get it all; in the end, you catch nothing. When completing the task, the monetary reward is reduced by 12%."
 - lineNum: 804
   raw: "804#擅画之人#无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%#0#2#0|0|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1380474+08:00
-    split: 1
+  - split: 1
     text: "擅画之人"
     translated: "Artist"
-  - lastTranslatedOn: 2025-03-02T10:14:09.5782945+08:00
-    split: 2
+  - split: 2
     text: "无他，唯擅画饼也，故结果大不如预期。任务完成时，金钱奖励减少15%"
     translated: "He has no other skills but is good at painting pies, so the result was far below expectations. When the task was completed, the monetary reward decreased by 15%."
 - lineNum: 805
   raw: "805#劳损内神#时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%#0#2#0|0|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1380943+08:00
-    split: 1
+  - split: 1
     text: "劳损内神"
     translated: "Strain on inner vitality"
-  - lastTranslatedOn: 2025-03-02T10:14:10.0585332+08:00
-    split: 2
+  - split: 2
     text: "时常内耗，心情烦躁对平时做事也有所影响。任务完成时，金钱奖励减少18%"
     translated: "Frequent internal conflicts and irritability affect daily tasks. Upon task completion, the monetary reward is reduced by 18%."
 - lineNum: 851
   raw: "851#天煞孤星#出生便带不祥之兆，常被厄运缠身。任务完成时，获得安定减少6%#0#2#0|1|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1381414+08:00
-    split: 1
+  - split: 1
     text: "天煞孤星"
     translated: "Star of Lonely Destiny"
-  - lastTranslatedOn: 2025-02-26T20:29:57.6511828+08:00
-    split: 2
+  - split: 2
     text: "出生便带不祥之兆，常被厄运缠身。任务完成时，获得安定减少6%"
     translated: "Born under ominous signs and often plagued by misfortune, when the task is completed, obtain a reduction in stability by 6%."
 - lineNum: 852
   raw: "852#福祸相依#福来祸至，常在欢喜时遭遇不幸。任务完成时，获得安定减少9%#0#2#0|1|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1381873+08:00
-    split: 1
+  - split: 1
     text: "福祸相依"
     translated: "Fortune and misfortune are intertwined"
-  - lastTranslatedOn: 2025-02-26T20:29:45.9146582+08:00
-    split: 2
+  - split: 2
     text: "福来祸至，常在欢喜时遭遇不幸。任务完成时，获得安定减少9%"
     translated: "Fortune turns to misfortune, often encountering unhappiness in times of joy. Upon task completion, obtain a reduction of stability by 9%."
 - lineNum: 853
   raw: "853#鸡飞蛋打#为一时鲁莽，反而失去更多。任务完成时，获得安定减少12%#0#2#0|1|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1382341+08:00
-    split: 1
+  - split: 1
     text: "鸡飞蛋打"
     translated: "A whole lot of noise, but no one gets hurt"
-  - lastTranslatedOn: 2025-02-26T20:29:59.4057633+08:00
-    split: 2
+  - split: 2
     text: "为一时鲁莽，反而失去更多。任务完成时，获得安定减少12%"
     translated: "Acting rashly for a moment ends up costing more. Upon task completion, stability decreases by 12%."
 - lineNum: 854
   raw: "854#画虎类犬#外表看似完美，实则内里空虚。任务完成时，获得安定减少15%#0#2#0|1|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1382806+08:00
-    split: 1
+  - split: 1
     text: "画虎类犬"
     translated: "When you paint a tiger, it looks like a dog"
-  - lastTranslatedOn: 2025-02-26T20:29:39.2710323+08:00
-    split: 2
+  - split: 2
     text: "外表看似完美，实则内里空虚。任务完成时，获得安定减少15%"
     translated: "On the surface, it seems perfect, but inside it's hollow. Upon completing the task, gain a reduction of stability by 15%."
 - lineNum: 855
   raw: "855#望梅止渴#虚幻之物安慰心灵，却难解现实困境。任务完成时，获得安定减少18%#0#2#0|1|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1383269+08:00
-    split: 1
+  - split: 1
     text: "望梅止渴"
     translated: "Quenching thirst by thinking of plums"
-  - lastTranslatedOn: 2025-02-26T20:29:19.6676887+08:00
-    split: 2
+  - split: 2
     text: "虚幻之物安慰心灵，却难解现实困境。任务完成时，获得安定减少18%"
     translated: "Phantom comforts soothe the soul, yet they offer little relief from real-world dilemmas. Upon task completion, receive a reduction in unrest by 18%."
 - lineNum: 901
   raw: "901#夜下灯黑#繁忙之中容易忽略身边之人，关系疏远。任务完成时，获得繁荣减少6%#0#2#0|2|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1383740+08:00
-    split: 1
+  - split: 1
     text: "夜下灯黑"
     translated: "As darkness falls, light fades"
-  - lastTranslatedOn: 2025-02-26T20:29:53.3583753+08:00
-    split: 2
+  - split: 2
     text: "繁忙之中容易忽略身边之人，关系疏远。任务完成时，获得繁荣减少6%"
     translated: "In the midst of busyness, it's easy to overlook those around you and grow distant. Upon completing a task, prosperity decreases by 6%."
 - lineNum: 902
   raw: "902#浮华空心#虚有其表，内在空虚，难以长久维持。任务完成时，获得繁荣减少9%#0#2#0|2|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1384205+08:00
-    split: 1
+  - split: 1
     text: "浮华空心"
     translated: "Fleeting splendor, empty heart"
-  - lastTranslatedOn: 2025-02-26T20:29:42.6268833+08:00
-    split: 2
+  - split: 2
     text: "虚有其表，内在空虚，难以长久维持。任务完成时，获得繁荣减少9%"
     translated: "Superficially impressive, yet fundamentally empty; it's hard to sustain this for long. Upon task completion, prosperity is reduced by 9%."
 - lineNum: 903
   raw: "903#蜻蜓点水#表面风光无限，实则基础薄弱。任务完成时，获得繁荣减少12%#0#2#0|2|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1384674+08:00
-    split: 1
+  - split: 1
     text: "蜻蜓点水"
     translated: "Dotting the water's surface with dragonflies"
-  - lastTranslatedOn: 2025-02-26T20:29:48.7367382+08:00
-    split: 2
+  - split: 2
     text: "表面风光无限，实则基础薄弱。任务完成时，获得繁荣减少12%"
     translated: "On the surface, it seems limitless in its appeal, but in reality, the foundation is weak. Upon task completion, prosperity decreases by 12%."
 - lineNum: 904
   raw: "904#瓜熟蒂落#消耗过盛，导致后续发展乏力。任务完成时，获得繁荣减少15%#0#2#0|2|-15#"
   splits:
-  - lastTranslatedOn: 2025-03-01T18:35:07.4370578+08:00
-    split: 1
+  - split: 1
     text: "瓜熟蒂落"
     translated: "Things fall into place naturally"
-  - lastTranslatedOn: 2025-02-26T20:29:40.2378773+08:00
-    split: 2
+  - split: 2
     text: "消耗过盛，导致后续发展乏力。任务完成时，获得繁荣减少15%"
     translated: "Excessive consumption leads to a lack of energy for subsequent development. Upon task completion, prosperity is reduced by 15%."
 - lineNum: 905
   raw: "905#声势虚张#内里并不如表面光鲜，完成任务只图快速。任务完成时，获得繁荣减少18%#0#2#0|2|-18#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:38.9139996+08:00
-    split: 1
+  - split: 1
     text: "声势虚张"
     translated: "Feigned grandeur"
-  - lastTranslatedOn: 2025-02-26T20:29:40.9057829+08:00
-    split: 2
+  - split: 2
     text: "内里并不如表面光鲜，完成任务只图快速。任务完成时，获得繁荣减少18%"
     translated: "On the inside, it's not as shiny as it appears on the surface; completing the task is all about speed. Upon completion of the task, prosperity decreases by 18%."
 - lineNum: 951
   raw: "951#过犹不及#过度表现反而适得其反，影响他人观感。任务完成时，获得名声减少6%#0#2#0|3|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1386094+08:00
-    split: 1
+  - split: 1
     text: "过犹不及"
     translated: "Excess is worse than not enough"
-  - lastTranslatedOn: 2025-02-26T20:29:49.7479151+08:00
-    split: 2
+  - split: 2
     text: "过度表现反而适得其反，影响他人观感。任务完成时，获得名声减少6%"
     translated: "Overexertion can backfire and negatively affect how others perceive you. Upon task completion, reputation decreases by 6%."
 - lineNum: 952
   raw: "952#虚伪失真#表里不一，容易失去他人的信任。任务完成时，获得名声减少9%#0#2#0|3|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1386559+08:00
-    split: 1
+  - split: 1
     text: "虚伪失真"
     translated: "Falsehood and distortion"
-  - lastTranslatedOn: 2025-02-26T20:29:47.5474348+08:00
-    split: 2
+  - split: 2
     text: "表里不一，容易失去他人的信任。任务完成时，获得名声减少9%"
     translated: "Hypocrisy leads to a loss of trust from others. Upon task completion, reputation decreases by 9%."
 - lineNum: 953
   raw: "953#口蜜腹剑#侠义表象，执迷私利，久而久之名声受损。任务完成时，获得名声减少12%#0#2#0|3|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1387025+08:00
-    split: 1
+  - split: 1
     text: "口蜜腹剑"
     translated: "Smooth words, but a sword in the belly"
-  - lastTranslatedOn: 2025-02-26T20:29:39.7705848+08:00
-    split: 2
+  - split: 2
     text: "侠义表象，执迷私利，久而久之名声受损。任务完成时，获得名声减少12%"
     translated: "Chivalric appearance, obsessed with personal gain; over time, reputation suffers. Upon task completion, reputation decreases by 12%."
 - lineNum: 954
   raw: "954#狐假虎威#借助他人威名，自己德行不存。任务完成时，获得名声减少15%#0#2#0|3|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1387499+08:00
-    split: 1
+  - split: 1
     text: "狐假虎威"
     translated: "To borrow a tiger's might to frighten the chickens"
-  - lastTranslatedOn: 2025-02-26T20:29:36.4162989+08:00
-    split: 2
+  - split: 2
     text: "借助他人威名，自己德行不存。任务完成时，获得名声减少15%"
     translated: "Relying on others' reputation while lacking personal virtue. Upon task completion, reputation decreases by 15%."
 - lineNum: 955
   raw: "955#纵情声色#贪恋花街柳巷，荒废正事，侠名难存。任务完成时，获得名声减少18%#0#2#0|3|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1387965+08:00
-    split: 1
+  - split: 1
     text: "纵情声色"
     translated: "Indulging in music and beauty"
-  - lastTranslatedOn: 2025-02-26T20:29:55.3947232+08:00
-    split: 2
+  - split: 2
     text: "贪恋花街柳巷，荒废正事，侠名难存。任务完成时，获得名声减少18%"
     translated: "Greedily indulging in the pleasures of taverns and alleys, neglecting one's duties—such behavior can tarnish a hero's reputation. Upon completing this task, your fame will decrease by 18%."
 - lineNum: 1001
   raw: "1001#弃金求铁#追求稀有矿石，反而错失更常见但有用的矿石。任务完成时，获得矿石减少6%#0#2#0|4|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1388438+08:00
-    split: 1
+  - split: 1
     text: "弃金求铁"
     translated: "Reject gold in favor of iron"
-  - lastTranslatedOn: 2025-03-09T22:23:23.3642790+08:00
-    split: 2
+  - split: 2
     text: "追求稀有矿石，反而错失更常见但有用的矿石。任务完成时，获得矿石减少6%"
     translated: "Pursuing rare minerals actually results in missing out on more common but useful ones. Upon task completion, mineral acquisition is reduced by 6%."
 - lineNum: 1002
   raw: "1002#弃精求粗#只重数量，不重品质，导致收获矿石可用之少。任务完成时，获得矿石减少9%#0#2#0|4|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1388903+08:00
-    split: 1
+  - split: 1
     text: "弃精求粗"
     translated: "Abandon refinement in favor of crudeness"
-  - lastTranslatedOn: 2025-02-26T20:29:30.1837349+08:00
-    split: 2
+  - split: 2
     text: "只重数量，不重品质，导致收获矿石可用之少。任务完成时，获得矿石减少9%"
     translated: "Focus only on quantity, not quality, resulting in fewer usable minerals being obtained. Upon task completion, the amount of minerals obtained is reduced by 9%."
 - lineNum: 1003
   raw: "1003#采而不精#挖掘粗糙，未能精挑细选，矿石品质低劣。任务完成时，获得矿石减少12%#0#2#0|4|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1389381+08:00
-    split: 1
+  - split: 1
     text: "采而不精"
     translated: "Collect without discernment"
-  - lastTranslatedOn: 2025-02-26T20:29:31.7520150+08:00
-    split: 2
+  - split: 2
     text: "挖掘粗糙，未能精挑细选，矿石品质低劣。任务完成时，获得矿石减少12%"
     translated: "Rough mining, failing to meticulously select, resulted in low-quality ore. Upon task completion, ore yield decreased by 12%."
 - lineNum: 1004
   raw: "1004#走马观花#缺乏耐心，粗略查看，误判频出。任务完成时，获得矿石减少15%#0#2#0|4|-15#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:44.8262822+08:00
-    split: 1
+  - split: 1
     text: "走马观花"
     translated: "Gazing at flowers from a galloping horse"
-  - lastTranslatedOn: 2025-02-26T20:29:36.9283108+08:00
-    split: 2
+  - split: 2
     text: "缺乏耐心，粗略查看，误判频出。任务完成时，获得矿石减少15%"
     translated: "Lacking patience, hastily inspecting leads to frequent misjudgments. Upon task completion, the ore yield is reduced by 15%."
 - lineNum: 1005
   raw: "1005#金石混淆#不能准确区分矿石品质，捡了次品却错失良玉。任务完成时，获得矿石减少18%#0#2#0|4|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1390319+08:00
-    split: 1
+  - split: 1
     text: "金石混淆"
     translated: "Gold and stone intermingled"
-  - lastTranslatedOn: 2025-02-26T20:29:34.2657687+08:00
-    split: 2
+  - split: 2
     text: "不能准确区分矿石品质，捡了次品却错失良玉。任务完成时，获得矿石减少18%"
     translated: "Unable to accurately distinguish the quality of minerals, picking subpar stones and missing out on high-quality gems. Upon task completion, mineral acquisition is reduced by 18%."
 - lineNum: 1051
   raw: "1051#草木不分#缺乏基本辨识草药的能力，常把珍贵药草当杂草。任务完成时，获得草药减少6%#0#2#0|5|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1390797+08:00
-    split: 1
+  - split: 1
     text: "草木不分"
     translated: "The grass and trees are indistinguishable"
-  - lastTranslatedOn: 2025-02-26T20:29:42.0602963+08:00
-    split: 2
+  - split: 2
     text: "缺乏基本辨识草药的能力，常把珍贵药草当杂草。任务完成时，获得草药减少6%"
     translated: "Lacking the basic ability to identify herbs, often mistaking valuable medicinal herbs for weeds. Upon task completion, reduce herb quantity by 6%."
 - lineNum: 1052
   raw: "1052#重形轻质#只看草药外形，忽视其内在药性，导致采药效果不佳。任务完成时，获得草药减少9%#0#2#0|5|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1391269+08:00
-    split: 1
+  - split: 1
     text: "重形轻质"
     translated: "Light in form, heavy in substance"
-  - lastTranslatedOn: 2025-02-26T20:29:50.8595283+08:00
-    split: 2
+  - split: 2
     text: "只看草药外形，忽视其内在药性，导致采药效果不佳。任务完成时，获得草药减少9%"
     translated: "Focusing solely on the external appearance of herbs and ignoring their inherent medicinal properties can lead to poor harvesting results. Upon task completion, reduce herbs by 9%."
 - lineNum: 1053
   raw: "1053#误采劣药#眼力不足，常误采次品却错过珍贵药材。任务完成时，获得草药减少12%#0#2#0|5|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1391746+08:00
-    split: 1
+  - split: 1
     text: "误采劣药"
     translated: "Accidentally taking a poor-quality medicine"
-  - lastTranslatedOn: 2025-02-26T20:29:32.3506917+08:00
-    split: 2
+  - split: 2
     text: "眼力不足，常误采次品却错过珍贵药材。任务完成时，获得草药减少12%"
     translated: "Lack of discernment often leads to selecting inferior products and missing out on valuable medicinal herbs. Upon completing the task, herbal reduction is decreased by 12%."
 - lineNum: 1054
   raw: "1054#药毒皆误#疑心太重，见草皆疑为毒，良药弃之不取。任务完成时，获得草药减少15%#0#2#0|5|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1392221+08:00
-    split: 1
+  - split: 1
     text: "药毒皆误"
     translated: "Both poison and medicine can be harmful"
-  - lastTranslatedOn: 2025-02-26T20:29:35.3107676+08:00
-    split: 2
+  - split: 2
     text: "疑心太重，见草皆疑为毒，良药弃之不取。任务完成时，获得草药减少15%"
     translated: "Excessive suspicion, suspecting every herb as poison and rejecting beneficial medicine. Upon task completion, the reduction in herbs obtained is 15%."
 - lineNum: 1055
   raw: "1055#五味不辨#对草药的特性知之甚少，误采杂草良药难得。任务完成时，获得草药减少18%#0#2#0|5|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1392694+08:00
-    split: 1
+  - split: 1
     text: "五味不辨"
     translated: "Unable to distinguish between different tastes"
-  - lastTranslatedOn: 2025-02-26T20:29:48.1678146+08:00
-    split: 2
+  - split: 2
     text: "对草药的特性知之甚少，误采杂草良药难得。任务完成时，获得草药减少18%"
     translated: "Having little knowledge of the characteristics of herbs, it is difficult to distinguish between weeds and genuine medicine. When the task is completed, herb reduction decreases by 18%."
 - lineNum: 1101
   raw: "1101#见识短浅#对人才认知有限，错过许多贤才。任务完成时，招募人数减少6%#0#2#0|6|-6#"
   splits:
-  - lastTranslatedOn: 2025-03-01T18:35:07.5703670+08:00
-    split: 1
+  - split: 1
     text: "见识短浅"
     translated: "Lacking depth of experience"
-  - lastTranslatedOn: 2025-02-26T20:30:01.4964841+08:00
-    split: 2
+  - split: 2
     text: "对人才认知有限，错过许多贤才。任务完成时，招募人数减少6%"
     translated: "Limited recognition of talent leads to missing out on many capable individuals. Upon task completion, recruitment numbers decrease by 6%."
 - lineNum: 1102
   raw: "1102#好高骛远#只求顶尖人才，忽视实用之人，结果招募困难。任务完成时，招募人数减少9%#0#2#0|6|-9#"
   splits:
-  - lastTranslatedOn: 2025-03-01T18:35:07.7545425+08:00
-    split: 1
+  - split: 1
     text: "好高骛远"
     translated: "Striving too high, aiming too far"
-  - lastTranslatedOn: 2025-02-26T20:29:31.2516726+08:00
-    split: 2
+  - split: 2
     text: "只求顶尖人才，忽视实用之人，结果招募困难。任务完成时，招募人数减少9%"
     translated: "Seek only top-tier talent, neglecting practical individuals, resulting in recruitment difficulties. Upon task completion, the number of recruits decreases by 9%."
 - lineNum: 1103
   raw: "1103#眼高手低#眼光高远，实际行动却不大行，难以招募到合适人手。任务完成时，招募人数减少12%#0#2#0|6|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1394127+08:00
-    split: 1
+  - split: 1
     text: "眼高手低"
     translated: "They have eyes bigger than their abilities"
-  - lastTranslatedOn: 2025-02-26T20:29:50.2577116+08:00
-    split: 2
+  - split: 2
     text: "眼光高远，实际行动却不大行，难以招募到合适人手。任务完成时，招募人数减少12%"
     translated: "Visionary in outlook but lacking practical execution, struggles to recruit suitable personnel. Upon task completion, recruitment numbers decrease by 12%."
 - lineNum: 1104
   raw: "1104#招贤无方#缺乏识人之术，常引来庸才，导致团队效率低下。任务完成时，招募人数减少15%#0#2#0|6|-15#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:44.5904224+08:00
-    split: 1
+  - split: 1
     text: "招贤无方"
     translated: "There are no limits to recruiting talent"
-  - lastTranslatedOn: 2025-02-26T20:29:23.4096009+08:00
-    split: 2
+  - split: 2
     text: "缺乏识人之术，常引来庸才，导致团队效率低下。任务完成时，招募人数减少15%"
     translated: "Lacking discernment in people, often leads to recruiting mediocrity and results in low team efficiency. When completing tasks, the number of recruits decreases by 15%."
 - lineNum: 1105
   raw: "1105#识人不明#识人不清，良莠不齐，招的人跑一大半。任务完成时，招募人数减少18%#0#2#0|6|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1395075+08:00
-    split: 1
+  - split: 1
     text: "识人不明"
     translated: "Unclear in discerning others"
-  - lastTranslatedOn: 2025-02-26T20:29:54.5949270+08:00
-    split: 2
+  - split: 2
     text: "识人不清，良莠不齐，招的人跑一大半。任务完成时，招募人数减少18%"
     translated: "Misjudging people, mixing good and bad recruits. By the time the mission was completed, the number of recruits had decreased by 18%."
 - lineNum: 1151
   raw: "1151#调味天赋#调味技术高超，每道菜品都独具风味。完成烹饪时有5%几率多获得1次道具。#0#1#6|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1395551+08:00
-    split: 1
+  - split: 1
     text: "调味天赋"
     translated: "Taste Affinity"
-  - lastTranslatedOn: 2025-02-26T20:29:38.7404734+08:00
-    split: 2
+  - split: 2
     text: "调味技术高超，每道菜品都独具风味。完成烹饪时有5%几率多获得1次道具。"
     translated: "Exceptionally skilled in seasoning, each dish is uniquely flavorful. Upon completing the cooking, there is a 5% chance to additionally obtain 1 items."
 - lineNum: 1152
   raw: "1152#食材鉴别#眼光毒辣，能选出最优质的食材。完成烹饪时有7%几率多获得1次道具。#1#1#6|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1396024+08:00
-    split: 1
+  - split: 1
     text: "食材鉴别"
     translated: "Ingredient Identification"
-  - lastTranslatedOn: 2025-02-27T07:53:01.4150406+08:00
-    split: 2
+  - split: 2
     text: "眼光毒辣，能选出最优质的食材。完成烹饪时有7%几率多获得1次道具。"
     translated: "Eyes that are piercing and discerning, capable of selecting the finest ingredients. Upon completing a culinary task, there is a 7% chance to gain an additional 1 items."
 - lineNum: 1153
   raw: "1153#刀工一绝#刀工精湛，食材处理完美无缺。完成烹饪时有9%几率多获得1次道具。#2#1#6|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T17:24:30.3001699+08:00
-    split: 1
+  - split: 1
     text: "刀工一绝"
     translated: "A master of blade-making"
-  - lastTranslatedOn: 2025-03-09T21:49:01.8631433+08:00
-    split: 2
+  - split: 2
     text: "刀工精湛，食材处理完美无缺。完成烹饪时有9%几率多获得1次道具。"
     translated: "The craftsmanship of the blade is exquisite, and the preparation of ingredients is perfect without flaw. Upon completion of cooking, there is a 9% chance to obtain additional 1 items."
 - lineNum: 1154
   raw: "1154#火候自如#对火候掌握精准，食物美味无比。完成烹饪时有11%几率多获得1次道具。#3#1#6|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1396966+08:00
-    split: 1
+  - split: 1
     text: "火候自如"
     translated: "With mastery over timing"
-  - lastTranslatedOn: 2025-02-26T20:29:29.5932056+08:00
-    split: 2
+  - split: 2
     text: "对火候掌握精准，食物美味无比。完成烹饪时有11%几率多获得1次道具。"
     translated: "Mastering the cooking technique ensures the food is exceptionally delicious. Upon completing the cooking, there is a 11% chance to gain an additional 1 item."
 - lineNum: 1155
   raw: "1155#烹饪大师#厨艺精湛，所制菜肴美味无比。完成烹饪时有13%几率多获得1次道具。#4#1#6|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1397434+08:00
-    split: 1
+  - split: 1
     text: "烹饪大师"
     translated: "Culinary Master"
-  - lastTranslatedOn: 2025-02-26T20:29:27.8648042+08:00
-    split: 2
+  - split: 2
     text: "厨艺精湛，所制菜肴美味无比。完成烹饪时有13%几率多获得1次道具。"
     translated: "Culinary skills are exquisite, with the dishes prepared being exceptionally delicious. Upon completing cooking, there is a 13% chance to gain an additional 1 pieces of equipment."
 - lineNum: 1156
   raw: "1156#传世老方#掌握古老秘方，菜肴别具一格，广受赞誉。完成烹饪时有5%几率多获得1次道具。#0#1#6|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1397903+08:00
-    split: 1
+  - split: 1
     text: "传世老方"
     translated: "Timeless Ancient Recipe"
-  - lastTranslatedOn: 2025-02-26T20:29:33.0234929+08:00
-    split: 2
+  - split: 2
     text: "掌握古老秘方，菜肴别具一格，广受赞誉。完成烹饪时有5%几率多获得1次道具。"
     translated: "Mastering ancient recipes gives the dish a unique flair and earns widespread acclaim. Upon completion of the cooking, there is a 5% chance to additionally obtain 1 extra items."
 - lineNum: 1157
   raw: "1157#细火慢炖#对火候掌控极佳，烹出的菜肴滋味浓厚。完成烹饪时有7%几率多获得1次道具。#1#1#6|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1398371+08:00
-    split: 1
+  - split: 1
     text: "细火慢炖"
     translated: "Simmer on low heat"
-  - lastTranslatedOn: 2025-02-26T20:29:44.7427813+08:00
-    split: 2
+  - split: 2
     text: "对火候掌控极佳，烹出的菜肴滋味浓厚。完成烹饪时有7%几率多获得1次道具。"
     translated: "Exceptionally skilled at controlling the heat, resulting in dishes with rich and robust flavors. Upon completion of cooking, there is a 7% chance to additionally obtain 1 extra items."
 - lineNum: 1158
   raw: "1158#食材甄选#精心挑选上等食材，成品质量极佳。完成烹饪时有9%几率多获得1次道具。#2#1#6|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1398838+08:00
-    split: 1
+  - split: 1
     text: "食材甄选"
     translated: "Ingredient Selection"
-  - lastTranslatedOn: 2025-02-26T20:29:26.4959341+08:00
-    split: 2
+  - split: 2
     text: "精心挑选上等食材，成品质量极佳。完成烹饪时有9%几率多获得1次道具。"
     translated: "Carefully selected premium ingredients result in an excellent-quality dish. Upon completion of cooking, there is a 9% chance to additionally receive 1 items."
 - lineNum: 1159
   raw: "1159#美味传神#烹饪技艺超群，菜肴风味独特。完成烹饪时有11%几率多获得1次道具。#3#1#6|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1399306+08:00
-    split: 1
+  - split: 1
     text: "美味传神"
     translated: "Deliciousness that transcends"
-  - lastTranslatedOn: 2025-02-26T20:31:02.3846489+08:00
-    split: 2
+  - split: 2
     text: "烹饪技艺超群，菜肴风味独特。完成烹饪时有11%几率多获得1次道具。"
     translated: "Culinary skills are exceptional, and the dishes have a unique flavor. Upon completing the cooking, there is a 11% chance to obtain an additional 1 items."
 - lineNum: 1160
   raw: "1160#天才厨神#厨艺天赋异禀，所制美食人人称赞。完成烹饪时有13%几率多获得1次道具。#4#1#6|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1399779+08:00
-    split: 1
+  - split: 1
     text: "天才厨神"
     translated: "A culinary genius with a heavenly touch"
-  - lastTranslatedOn: 2025-02-26T20:31:01.1157556+08:00
-    split: 2
+  - split: 2
     text: "厨艺天赋异禀，所制美食人人称赞。完成烹饪时有13%几率多获得1次道具。"
     translated: "Possesses an exceptional culinary talent; every dish they prepare is praised by all. Upon completion of cooking, there is a 13% chance to additionally receive 1 items."
 - lineNum: 1201
   raw: "1201#精雕细琢#细致入微的锻造手法，使装备更美观。完成锻造时有5%几率多获得1次道具。#0#1#2|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1400255+08:00
-    split: 1
+  - split: 1
     text: "精雕细琢"
     translated: "Exquisitely crafted"
-  - lastTranslatedOn: 2025-02-26T20:30:02.1079290+08:00
-    split: 2
+  - split: 2
     text: "细致入微的锻造手法，使装备更美观。完成锻造时有5%几率多获得1次道具。"
     translated: "The meticulous craftsmanship in forging enhances the appearance of the equipment. Upon completion of the forging, there is a 5% chance to gain an additional 1 items."
 - lineNum: 1202
   raw: "1202#巧夺天工#善于利用各种锻造技巧，打造出神兵利器。完成锻造时有7%几率多获得1次道具。#1#1#2|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1400717+08:00
-    split: 1
+  - split: 1
     text: "巧夺天工"
     translated: "Ingenious beyond imagination"
-  - lastTranslatedOn: 2025-03-01T17:20:39.9109023+08:00
-    split: 2
+  - split: 2
     text: "善于利用各种锻造技巧，打造出神兵利器。完成锻造时有7%几率多获得1次道具。"
     translated: "Skilled in utilizing various forging techniques to craft divine weapons and artifacts. Upon completion of the forge, there is a 7% chance to obtain an additional 1 items."
 - lineNum: 1203
   raw: "1203#天工开物#锻造技艺已达神乎其技的境界，出品堪称绝世之作。完成锻造时有9%几率多获得1次道具。#2#1#2|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1401186+08:00
-    split: 1
+  - split: 1
     text: "天工开物"
     translated: "The creation of things by natural means"
-  - lastTranslatedOn: 2025-03-01T17:20:43.6090437+08:00
-    split: 2
+  - split: 2
     text: "锻造技艺已达神乎其技的境界，出品堪称绝世之作。完成锻造时有9%几率多获得1次道具。"
     translated: "The forging skill has reached a realm of divine mastery, and the finished product is truly unparalleled. Upon completing the forging, there is a 9% chance to gain an additional 1 pieces of the item."
 - lineNum: 1204
   raw: "1204#百炼成钢#精通锻造技艺，打造出的装备品质优良。完成锻造时有11%几率多获得1次道具。#3#1#2|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1401665+08:00
-    split: 1
+  - split: 1
     text: "百炼成钢"
     translated: "Tempered by a hundred fires"
-  - lastTranslatedOn: 2025-03-01T19:35:43.2392915+08:00
-    split: 2
+  - split: 2
     text: "精通锻造技艺，打造出的装备品质优良。完成锻造时有11%几率多获得1次道具。"
     translated: "Expert in forging craftsmanship; the quality of forged equipment is excellent. Upon completion of the forge, there is a 11% chance to additionally obtain 1 items."
 - lineNum: 1205
   raw: "1205#火眼金睛#善于分辨矿石品质，打造出的武器省料坚固。完成锻造时有13%几率多获得1次道具。#4#1#2|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1402143+08:00
-    split: 1
+  - split: 1
     text: "火眼金睛"
     translated: "Having eyes like a hawk; having sharp vision"
-  - lastTranslatedOn: 2025-02-26T20:30:04.9109734+08:00
-    split: 2
+  - split: 2
     text: "善于分辨矿石品质，打造出的武器省料坚固。完成锻造时有13%几率多获得1次道具。"
     translated: "Adept at distinguishing the quality of ores, weapons forged are both economical in material use and exceptionally sturdy. Upon completion of forging, there is a 13% chance to gain an additional 1 items."
 - lineNum: 1206
   raw: "1206#百炼成钢#千锤百炼，打造出坚不可摧的器具。完成锻造时有5%几率多获得1次道具。#0#1#2|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1402623+08:00
-    split: 1
+  - split: 1
     text: "百炼成钢"
     translated: "Tempered by a hundred fires"
-  - lastTranslatedOn: 2025-02-26T20:30:06.2581498+08:00
-    split: 2
+  - split: 2
     text: "千锤百炼，打造出坚不可摧的器具。完成锻造时有5%几率多获得1次道具。"
     translated: "Through a thousand hammers and a hundred forges, an unbreakable tool is forged. Upon completion of the forging, there is a 5% chance to additionally obtain 1 extra items."
 - lineNum: 1207
   raw: "1207#炉火纯青#锻造技艺出神入化，所铸之物精美绝伦。完成锻造时有7%几率多获得1次道具。#1#1#2|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1403095+08:00
-    split: 1
+  - split: 1
     text: "炉火纯青"
     translated: "Master of one's craft"
-  - lastTranslatedOn: 2025-02-26T20:30:06.9998180+08:00
-    split: 2
+  - split: 2
     text: "锻造技艺出神入化，所铸之物精美绝伦。完成锻造时有7%几率多获得1次道具。"
     translated: "Blacksmithing skills are divine and extraordinary, with the forged items being exquisite beyond compare. Upon completion of the forging process, there is a 7% chance to gain an additional 1 item."
 - lineNum: 1208
   raw: "1208#神工鬼斧#手艺精湛，打造出巧夺天工的作品。完成锻造时有9%几率多获得1次道具。#2#1#2|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:45.9177545+08:00
-    split: 1
+  - split: 1
     text: "神工鬼斧"
     translated: "Skillful craftsmanship, akin to divine artistry"
-  - lastTranslatedOn: 2025-03-01T17:20:40.7856050+08:00
-    split: 2
+  - split: 2
     text: "手艺精湛，打造出巧夺天工的作品。完成锻造时有9%几率多获得1次道具。"
     translated: "Mastery in craftsmanship allows the creation of exquisite works. Upon completion of the forging, there is a 9% chance to gain an additional 1 pieces of equipment."
 - lineNum: 1209
   raw: "1209#火候恰到#掌握火候精准，锻造出的装备节约材料。完成锻造时有11%几率多获得1次道具。#3#1#2|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1404039+08:00
-    split: 1
+  - split: 1
     text: "火候恰到"
     translated: "Perfect timing"
-  - lastTranslatedOn: 2025-02-26T20:31:04.1600375+08:00
-    split: 2
+  - split: 2
     text: "掌握火候精准，锻造出的装备节约材料。完成锻造时有11%几率多获得1次道具。"
     translated: "Mastering the precise timing results in equipment forged with material efficiency. Upon completion of the forging, there is a 11% chance to additionally obtain 1 pieces of the item."
 - lineNum: 1210
   raw: "1210#神匠之手#锻造技艺出神入化，同样的材料却能做出大量成品。完成锻造时有13%几率多获得1次道具。#4#1#2|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1404509+08:00
-    split: 1
+  - split: 1
     text: "神匠之手"
     translated: "The hand of a divine master"
-  - lastTranslatedOn: 2025-02-27T07:53:02.8474743+08:00
-    split: 2
+  - split: 2
     text: "锻造技艺出神入化，同样的材料却能做出大量成品。完成锻造时有13%几率多获得1次道具。"
     translated: "The forging skill is exceptionally refined, allowing for the production of a large quantity of finished products from the same materials. Upon completing the forging, there is a 13% chance to gain an additional 1 items."
 - lineNum: 1251
   raw: "1251#精心酿制#酿酒过程精益求精，成品品质卓越。完成酿酒时有5%几率多获得1次道具。#0#1#5|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1404986+08:00
-    split: 1
+  - split: 1
     text: "精心酿制"
     translated: "Artfully crafted"
-  - lastTranslatedOn: 2025-02-26T20:30:08.3736199+08:00
-    split: 2
+  - split: 2
     text: "酿酒过程精益求精，成品品质卓越。完成酿酒时有5%几率多获得1次道具。"
     translated: "The brewing process is meticulous and refined, resulting in exceptional quality products. Upon completing the brewing, there is a 5% chance to additionally receive up to 1 items."
 - lineNum: 1252
   raw: "1252#上等佳酿#精选上等原料，酒质醇厚。完成酿酒时有7%几率多获得1次道具。#1#1#5|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1405466+08:00
-    split: 1
+  - split: 1
     text: "上等佳酿"
     translated: "Finest brew"
-  - lastTranslatedOn: 2025-02-26T20:31:07.7027863+08:00
-    split: 2
+  - split: 2
     text: "精选上等原料，酒质醇厚。完成酿酒时有7%几率多获得1次道具。"
     translated: "Selecting premium ingredients, this wine has a rich and full-bodied quality. During the brewing process, there is a 7% chance to gain an additional 1 bonus items."
 - lineNum: 1253
   raw: "1253#滴滴琼浆#酿造技艺登峰造极，酒如琼浆玉液。完成酿酒时有9%几率多获得1次道具。#2#1#5|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1405934+08:00
-    split: 1
+  - split: 1
     text: "滴滴琼浆"
     translated: "Drip by drip, heavenly nectar"
-  - lastTranslatedOn: 2025-03-01T17:20:42.7690086+08:00
-    split: 2
+  - split: 2
     text: "酿造技艺登峰造极，酒如琼浆玉液。完成酿酒时有9%几率多获得1次道具。"
     translated: "The brewing skill reaches its pinnacle, and the wine is like nectar and liquid jade. Upon completing the brewing process, there is a 9% chance to gain an additional 1 items."
 - lineNum: 1254
   raw: "1254#醉香飘远#酿酒技艺高超，酒香四溢。完成酿酒时有11%几率多获得1次道具。#3#1#5|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1406628+08:00
-    split: 1
+  - split: 1
     text: "醉香飘远"
     translated: "The scent of intoxicating fragrance drifts afar"
-  - lastTranslatedOn: 2025-03-01T17:20:44.3970876+08:00
-    split: 2
+  - split: 2
     text: "酿酒技艺高超，酒香四溢。完成酿酒时有11%几率多获得1次道具。"
     translated: "The brewing skill is exceptionally high, with the fragrance of the wine spreading far and wide. Upon completion of the brewing process, there is a 11% chance to gain an additional 1 items."
 - lineNum: 1255
   raw: "1255#秘方传承#掌握独家秘方，酿出的酒风味独特。完成酿酒时有13%几率多获得1次道具。#4#1#5|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1407111+08:00
-    split: 1
+  - split: 1
     text: "秘方传承"
     translated: "The transmission of secret formulas"
-  - lastTranslatedOn: 2025-02-26T20:31:09.8388794+08:00
-    split: 2
+  - split: 2
     text: "掌握独家秘方，酿出的酒风味独特。完成酿酒时有13%几率多获得1次道具。"
     translated: "Mastering the exclusive secret recipe, the brewed wine has a unique flavor. Upon completion of brewing, there is a 13% chance to obtain an additional 1 times worth of items."
 - lineNum: 1256
   raw: "1256#醇香馥郁#酿造技艺登峰造极，酒香馥郁。完成酿酒时有5%几率多获得1次道具。#0#1#5|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1407586+08:00
-    split: 1
+  - split: 1
     text: "醇香馥郁"
     translated: "A rich, fragrant aroma"
-  - lastTranslatedOn: 2025-03-01T17:20:46.7421965+08:00
-    split: 2
+  - split: 2
     text: "酿造技艺登峰造极，酒香馥郁。完成酿酒时有5%几率多获得1次道具。"
     translated: "Brewing skills reach the pinnacle of excellence; the wine aroma is fragrant and rich. Upon completing brewing, there is a 5% chance to gain an additional 1 item."
 - lineNum: 1257
   raw: "1257#秘方独酿#精心选择原料，酿出上等美酒。完成酿酒时有7%几率多获得1次道具。#1#1#5|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1408058+08:00
-    split: 1
+  - split: 1
     text: "秘方独酿"
     translated: "Secretly brewed formula"
-  - lastTranslatedOn: 2025-02-26T20:30:25.6123059+08:00
-    split: 2
+  - split: 2
     text: "精心选择原料，酿出上等美酒。完成酿酒时有7%几率多获得1次道具。"
     translated: "Carefully select ingredients to brew top-quality wine. Upon completing the brewing, there is a 7% chance of additionally obtaining 1 extra items."
 - lineNum: 1258
   raw: "1258#匠心独运#精益求精，酿得酒质卓越。完成酿酒时有9%几率多获得1次道具。#2#1#5|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1408530+08:00
-    split: 1
+  - split: 1
     text: "匠心独运"
     translated: "Exceptionally unique craftsmanship"
-  - lastTranslatedOn: 2025-02-26T20:30:22.5895587+08:00
-    split: 2
+  - split: 2
     text: "精益求精，酿得酒质卓越。完成酿酒时有9%几率多获得1次道具。"
     translated: "Strive for perfection, resulting in outstanding wine quality. Upon completing the winemaking process, there is a 9% chance of obtaining an additional 1 pieces of the item."
 - lineNum: 1259
   raw: "1259#精工妙酿#精心酿造，工艺精湛，成品绝伦。完成酿酒时有11%几率多获得1次道具。#3#1#5|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1409002+08:00
-    split: 1
+  - split: 1
     text: "精工妙酿"
     translated: "Meticulously crafted, exquisite brew"
-  - lastTranslatedOn: 2025-02-26T20:30:07.7196398+08:00
-    split: 2
+  - split: 2
     text: "精心酿造，工艺精湛，成品绝伦。完成酿酒时有11%几率多获得1次道具。"
     translated: "Crafted with exquisite care, the craftsmanship is superb, and the final product is exceptional. Upon completing the brewing process, there is a 11% chance of gaining an additional 1 items."
 - lineNum: 1260
   raw: "1260#天工神酿#酿造技艺出神入化，所酿美酒省材味香。完成酿酒时有13%几率多获得1次道具。#4#1#5|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1409482+08:00
-    split: 1
+  - split: 1
     text: "天工神酿"
     translated: "Heavenly Crafted Divine Brew"
-  - lastTranslatedOn: 2025-03-01T17:20:47.5596622+08:00
-    split: 2
+  - split: 2
     text: "酿造技艺出神入化，所酿美酒省材味香。完成酿酒时有13%几率多获得1次道具。"
     translated: "The brewing skill is exquisite and extraordinary, producing fine wine that is economical on materials and rich in flavor. Upon completion of the brewing process, there is a 13% chance to additionally obtain 1 items."
 - lineNum: 1301
   raw: "1301#精炼妙制#炼丹过程精益求精，成品丹药或有多产。完成炼丹时有5%几率多获得1次道具。#0#1#1|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1409961+08:00
-    split: 1
+  - split: 1
     text: "精炼妙制"
     translated: "Sleek and refined mastery"
-  - lastTranslatedOn: 2025-02-27T07:53:03.5061686+08:00
-    split: 2
+  - split: 2
     text: "炼丹过程精益求精，成品丹药或有多产。完成炼丹时有5%几率多获得1次道具。"
     translated: "The alchemical process is meticulous and thorough, potentially yielding multiple products. Upon completion of the alchemy, there is a 5% chance to obtain the item 1 additional times."
 - lineNum: 1302
   raw: "1302#灵丹妙成#选材精良，炼出丹药事半功倍。完成炼丹时有7%几率多获得1次道具。#1#1#1|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1410441+08:00
-    split: 1
+  - split: 1
     text: "灵丹妙成"
     translated: "Magical success"
-  - lastTranslatedOn: 2025-03-09T22:23:24.0517701+08:00
-    split: 2
+  - split: 2
     text: "选材精良，炼出丹药事半功倍。完成炼丹时有7%几率多获得1次道具。"
     translated: "The materials are exquisite; alchemy will yield results with half the effort. Upon completing the alchemical process, there is a 7% chance of gaining an additional 1 items."
 - lineNum: 1303
   raw: "1303#精工细炼#精心炼制，工艺精湛。完成炼丹时有9%几率多获得1次道具。#2#1#1|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1410911+08:00
-    split: 1
+  - split: 1
     text: "精工细炼"
     translated: "Meticulously crafted"
-  - lastTranslatedOn: 2025-03-06T07:56:42.4117818+08:00
-    split: 2
+  - split: 2
     text: "精心炼制，工艺精湛。完成炼丹时有9%几率多获得1次道具。"
     translated: "Meticulously crafted with exquisite craftsmanship. Upon completing the alchemical process, there is a 9% chance to gain an additional 1 items."
 - lineNum: 1304
   raw: "1304#神工妙丹#炼丹技艺登峰造极，所炼丹药不计其数。完成炼丹时有11%几率多获得1次道具。#3#1#1|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1411377+08:00
-    split: 1
+  - split: 1
     text: "神工妙丹"
     translated: "Divine craftsmanship, miraculous pill"
-  - lastTranslatedOn: 2025-02-26T20:30:12.5079254+08:00
-    split: 2
+  - split: 2
     text: "炼丹技艺登峰造极，所炼丹药不计其数。完成炼丹时有11%几率多获得1次道具。"
     translated: "Alchemy skills have reached their pinnacle, with countless elixirs crafted. Upon completing an alchemy process, there is a 11% chance of gaining 1 additional items."
 - lineNum: 1305
   raw: "1305#天材地宝#用天材地宝辅造，可事半功倍。完成炼丹时有13%几率多获得1次道具。#4#1#1|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-03-09T19:16:52.0857437+08:00
-    split: 1
+  - split: 1
     text: "天材地宝"
     translated: "Heavenly Treasures"
-  - lastTranslatedOn: 2025-02-26T20:30:09.0912398+08:00
-    split: 2
+  - split: 2
     text: "用天材地宝辅造，可事半功倍。完成炼丹时有13%几率多获得1次道具。"
     translated: "Utilizing heavenly and earthly treasures in crafting can accomplish tasks with half the effort. Upon completing alchemy, there is a 13% chance to gain an additional 1 instances of the item."
 - lineNum: 1306
   raw: "1306#秘传丹方#家传古老秘方，炼丹一把好手。完成炼丹时有5%几率多获得1次道具。#0#1#1|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1412339+08:00
-    split: 1
+  - split: 1
     text: "秘传丹方"
     translated: "A secret elixir formula"
-  - lastTranslatedOn: 2025-02-26T20:30:09.8169902+08:00
-    split: 2
+  - split: 2
     text: "家传古老秘方，炼丹一把好手。完成炼丹时有5%几率多获得1次道具。"
     translated: "A family heirloom ancient secret formula, an expert in alchemy. Upon completing the alchemical process, there is a 5% chance of gaining an extra 1 instances of the item."
 - lineNum: 1307
   raw: "1307#火候得当#实践是检验真理的唯一标准，动手能力一绝。完成炼丹时有7%几率多获得1次道具。#1#1#1|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1412809+08:00
-    split: 1
+  - split: 1
     text: "火候得当"
     translated: "Just right, perfectly timed"
-  - lastTranslatedOn: 2025-02-26T20:30:37.5620584+08:00
-    split: 2
+  - split: 2
     text: "实践是检验真理的唯一标准，动手能力一绝。完成炼丹时有7%几率多获得1次道具。"
     translated: "Practice is the only standard to test truth, with unmatched hands-on ability. Upon completing alchemy, there's a 7% chance of obtaining an extra 1 items."
 - lineNum: 1308
   raw: "1308#异炎鼎珍#擅使丹火，省材用料，药鼎出珍。完成炼丹时有9%几率多获得1次道具。#2#1#1|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1413291+08:00
-    split: 1
+  - split: 1
     text: "异炎鼎珍"
     translated: "The Yiyan Dingshen"
-  - lastTranslatedOn: 2025-02-26T20:30:16.0473847+08:00
-    split: 2
+  - split: 2
     text: "擅使丹火，省材用料，药鼎出珍。完成炼丹时有9%几率多获得1次道具。"
     translated: "Expert in fire alchemy, efficient use of materials, and exceptional elixir cauldrons. When completing the alchemical process, there is a 9% chance to additionally obtain 1 extra items."
 - lineNum: 1309
   raw: "1309#源磨皿出#细磨丹源之材，丹自炉皿器而出。完成炼丹时有11%几率多获得1次道具。#3#1#1|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:47.7303046+08:00
-    split: 1
+  - split: 1
     text: "源磨皿出"
     translated: "From humble beginnings to greatness"
-  - lastTranslatedOn: 2025-02-26T20:30:26.4358049+08:00
-    split: 2
+  - split: 2
     text: "细磨丹源之材，丹自炉皿器而出。完成炼丹时有11%几率多获得1次道具。"
     translated: "Refine the Daoist elixir ingredients carefully; the elixir emerges from the cauldron. Upon successful alchemy, there is a 11% chance to gain an additional 1 instances of the item."
 - lineNum: 1310
   raw: "1310#丹炉圣火#掌控炉火精准，丹药产量倍增。完成炼丹时有13%几率多获得1次道具。#4#1#1|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1414270+08:00
-    split: 1
+  - split: 1
     text: "丹炉圣火"
     translated: "Divine Fire of the Cinnabar Furnace"
-  - lastTranslatedOn: 2025-02-26T20:30:34.2043325+08:00
-    split: 2
+  - split: 2
     text: "掌控炉火精准，丹药产量倍增。完成炼丹时有13%几率多获得1次道具。"
     translated: "Control the furnace precisely to double the yield of elixirs. Upon completing alchemy, there is a 13% chance to obtain an extra 1 items."
 - lineNum: 1351
   raw: "1351#精工细作#每一针一线都精雕细琢，成品完美无瑕。完成缝纫时有5%几率多获得1次道具。#0#1#4|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1414748+08:00
-    split: 1
+  - split: 1
     text: "精工细作"
     translated: "Masterfully crafted"
-  - lastTranslatedOn: 2025-03-09T21:48:47.8058006+08:00
-    split: 2
+  - split: 2
     text: "每一针一线都精雕细琢，成品完美无瑕。完成缝纫时有5%几率多获得1次道具。"
     translated: "Every stitch and seam is meticulously crafted; the finished product is perfect without flaw. Upon completion of sewing, there is a 5% chance to additionally receive 1 extra items."
 - lineNum: 1352
   raw: "1352#秘传针法#掌握秘传针法，缝制的衣物耐用美观。完成缝纫时有7%几率多获得1次道具。#1#1#4|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1415224+08:00
-    split: 1
+  - split: 1
     text: "秘传针法"
     translated: "Ancient Needle Technique"
-  - lastTranslatedOn: 2025-02-26T20:31:11.6986434+08:00
-    split: 2
+  - split: 2
     text: "掌握秘传针法，缝制的衣物耐用美观。完成缝纫时有7%几率多获得1次道具。"
     translated: "Master the secret needle techniques to craft durable and beautiful garments. Upon completion, there is a 7% chance of obtaining an additional 1 items."
 - lineNum: 1353
   raw: "1353#玲珑巧手#缝纫技艺高超，针线活精细无比。完成缝纫时有9%几率多获得1次道具。#2#1#4|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:34:43.7308802+08:00
-    split: 1
+  - split: 1
     text: "玲珑巧手"
     translated: "Skilled Hands"
-  - lastTranslatedOn: 2025-03-01T17:20:50.3934748+08:00
-    split: 2
+  - split: 2
     text: "缝纫技艺高超，针线活精细无比。完成缝纫时有9%几率多获得1次道具。"
     translated: "Exceptionally skilled in sewing, with incredibly meticulous needlework. Upon completing a sewing task, there is a 9% chance of obtaining an additional 1 items."
 - lineNum: 1354
   raw: "1354#巧夺天工#缝纫工艺巧夺天工，省料不省质。完成缝纫时有11%几率多获得1次道具。#3#1#4|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1416189+08:00
-    split: 1
+  - split: 1
     text: "巧夺天工"
     translated: "Ingenious beyond imagination"
-  - lastTranslatedOn: 2025-02-26T20:30:29.0641393+08:00
-    split: 2
+  - split: 2
     text: "缝纫工艺巧夺天工，省料不省质。完成缝纫时有11%几率多获得1次道具。"
     translated: "The sewing craftsmanship is exceptionally skillful, saving materials without compromising quality. Upon completing the sewing task, there is a 11% chance to additionally receive 1 items."
 - lineNum: 1355
   raw: "1355#天衣无缝#缝纫技艺出神入化，废料很少。完成缝纫时有13%几率多获得1次道具。#4#1#4|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1416667+08:00
-    split: 1
+  - split: 1
     text: "天衣无缝"
     translated: "Seamless as if woven by heaven"
-  - lastTranslatedOn: 2025-02-26T20:30:19.7634016+08:00
-    split: 2
+  - split: 2
     text: "缝纫技艺出神入化，废料很少。完成缝纫时有13%几率多获得1次道具。"
     translated: "Sewing skills are so exquisite that wastage is minimal. Upon completing the sewing, there's a 13% chance of receiving 1 extra items."
 - lineNum: 1356
   raw: "1356#巧手如织#缝纫技艺高超，针线活细致精美。完成缝纫时有5%几率多获得1次道具。#0#1#4|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:51:53.5851156+08:00
-    split: 1
+  - split: 1
     text: "巧手如织"
     translated: "Skillful as a weaver"
-  - lastTranslatedOn: 2025-02-26T20:31:13.8015633+08:00
-    split: 2
+  - split: 2
     text: "缝纫技艺高超，针线活细致精美。完成缝纫时有5%几率多获得1次道具。"
     translated: "Excelling in sewing skills, crafting detailed and beautiful needlework. Upon completing a sewing task, there is a 5% chance of obtaining an additional 1 items."
 - lineNum: 1357
   raw: "1357#丝丝入扣#每一针每一线都精确无误，成品完美。完成缝纫时有7%几率多获得1次道具。#1#1#4|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1417595+08:00
-    split: 1
+  - split: 1
     text: "丝丝入扣"
     translated: "Perfectly seamless"
-  - lastTranslatedOn: 2025-02-26T20:31:13.1468525+08:00
-    split: 2
+  - split: 2
     text: "每一针每一线都精确无误，成品完美。完成缝纫时有7%几率多获得1次道具。"
     translated: "Every stitch and every thread are precise and flawless, resulting in a perfect product. Upon completion of the sewing task, there is a 7% chance to receive an additional 1 pieces of equipment."
 - lineNum: 1358
   raw: "1358#绣工绝伦#绣工精湛，成品绣品精美绝伦。完成缝纫时有9%几率多获得1次道具。#2#1#4|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1418062+08:00
-    split: 1
+  - split: 1
     text: "绣工绝伦"
     translated: "Exquisite embroidery skills"
-  - lastTranslatedOn: 2025-02-26T20:30:27.7655786+08:00
-    split: 2
+  - split: 2
     text: "绣工精湛，成品绣品精美绝伦。完成缝纫时有9%几率多获得1次道具。"
     translated: "The embroidery workmanship is exquisite, making the finished products exceptionally beautiful. Upon completion of sewing, there is a 9% chance to gain an additional 1 items."
 - lineNum: 1359
   raw: "1359#绣手飞针#巧手如飞针，衣物精美绝伦。完成缝纫时有11%几率多获得1次道具。#3#1#4|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1418530+08:00
-    split: 1
+  - split: 1
     text: "绣手飞针"
     translated: "Skilled in embroidery, swift as a needle"
-  - lastTranslatedOn: 2025-03-08T00:34:41.4809595+08:00
-    split: 2
+  - split: 2
     text: "巧手如飞针，衣物精美绝伦。完成缝纫时有11%几率多获得1次道具。"
     translated: "Skillful like a flying needle, the clothing is exquisite beyond compare. Upon completing sewing, there's a 11% chance to additionally gain 1 instances of an item."
 - lineNum: 1360
   raw: "1360#天工巧匠#缝纫技艺巧夺天工，可达常人之不所及。完成缝纫时有13%几率多获得1次道具。#4#1#4|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1425809+08:00
-    split: 1
+  - split: 1
     text: "天工巧匠"
     translated: "A master craftsman"
-  - lastTranslatedOn: 2025-02-26T20:30:27.1202099+08:00
-    split: 2
+  - split: 2
     text: "缝纫技艺巧夺天工，可达常人之不所及。完成缝纫时有13%几率多获得1次道具。"
     translated: "The sewing skill is so exquisite it surpasses the realm of ordinary people. Upon completing a sewing task, there's a 13% chance to additionally obtain 1 times the item."
 - lineNum: 1401
   raw: "1401#心灵手巧#手工精细，作品无不精致完美。完成巧手时有5%几率多获得1次道具。#0#1#3|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1426406+08:00
-    split: 1
+  - split: 1
     text: "心灵手巧"
     translated: "Artistic talent"
-  - lastTranslatedOn: 2025-03-08T00:51:53.4070232+08:00
-    split: 2
+  - split: 2
     text: "手工精细，作品无不精致完美。完成巧手时有5%几率多获得1次道具。"
     translated: "The craftsmanship is meticulous by hand; every piece is exquisitely perfect. Upon completion with skilled hands, there is a 5% chance to gain an additional 1 times the item."
 - lineNum: 1402
   raw: "1402#巧手神工#制作技艺如神，成品令人叹为观止。完成巧手时有7%几率多获得1次道具。#1#1#3|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-03-08T00:34:48.9180863+08:00
-    split: 1
+  - split: 1
     text: "巧手神工"
     translated: "Master of Skillful Craftsmanship"
-  - lastTranslatedOn: 2025-03-08T00:34:44.3692727+08:00
-    split: 2
+  - split: 2
     text: "制作技艺如神，成品令人叹为观止。完成巧手时有7%几率多获得1次道具。"
     translated: "The craftsmanship is divine; the finished products are breathtaking. There's a 7% chance of gaining an extra 1 items upon completion with skilled hands."
 - lineNum: 1403
   raw: "1403#精雕细琢#每一件作品都精心雕琢，品质非凡。完成巧手时有9%几率多获得1次道具。#2#1#3|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1427384+08:00
-    split: 1
+  - split: 1
     text: "精雕细琢"
     translated: "Exquisitely crafted"
-  - lastTranslatedOn: 2025-03-08T00:34:43.4770757+08:00
-    split: 2
+  - split: 2
     text: "每一件作品都精心雕琢，品质非凡。完成巧手时有9%几率多获得1次道具。"
     translated: "Each work is meticulously crafted and of exceptional quality. Upon completion, there is a 9% chance to obtain the item 1 extra times with skilled hands."
 - lineNum: 1404
   raw: "1404#鬼斧神工#手艺精妙，工艺巧夺天工。完成巧手时有11%几率多获得1次道具。#3#1#3|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-03-01T18:35:07.7546607+08:00
-    split: 1
+  - split: 1
     text: "鬼斧神工"
     translated: "Majestic as the work of ghosts and gods."
-  - lastTranslatedOn: 2025-03-08T00:51:54.2423907+08:00
-    split: 2
+  - split: 2
     text: "手艺精妙，工艺巧夺天工。完成巧手时有11%几率多获得1次道具。"
     translated: "Their craftsmanship is exquisite and ingeniously surpasses nature. Upon completing the skillful work, there is a 11% chance to additionally obtain 1 items."
 - lineNum: 1405
   raw: "1405#天工之技#手艺出神入化，所制之物堪称好钢用于刀刃之上。完成巧手时有13%几率多获得1次道具。#4#1#3|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1428355+08:00
-    split: 1
+  - split: 1
     text: "天工之技"
     translated: "Masterful craftsmanship"
-  - lastTranslatedOn: 2025-03-08T00:34:45.2116102+08:00
-    split: 2
+  - split: 2
     text: "手艺出神入化，所制之物堪称好钢用于刀刃之上。完成巧手时有13%几率多获得1次道具。"
     translated: "The craftsmanship is so exquisite that the items produced are worthy of being used as blades for high-quality steel. Upon completing the Skilled Hands, there is a 13% chance to obtain an additional 1 times the item."
 - lineNum: 1406
   raw: "1406#灵巧巧工#技艺高超，材料利用率高。完成巧手时有5%几率多获得1次道具。#0#1#3|0|5|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1428844+08:00
-    split: 1
+  - split: 1
     text: "灵巧巧工"
     translated: "Skillful Artisan"
-  - lastTranslatedOn: 2025-03-08T00:34:48.7489549+08:00
-    split: 2
+  - split: 2
     text: "技艺高超，材料利用率高。完成巧手时有5%几率多获得1次道具。"
     translated: "Exceptionally skilled and highly efficient in material use. Upon completion of the skillful task, there is a 5% chance to obtain an additional 1 items."
 - lineNum: 1407
   raw: "1407#材尽其用#材料利用充分，毫无浪费。完成巧手时有7%几率多获得1次道具。#1#1#3|0|7|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1429318+08:00
-    split: 1
+  - split: 1
     text: "材尽其用"
     translated: "Make use of all available resources"
-  - lastTranslatedOn: 2025-03-08T00:34:47.5396469+08:00
-    split: 2
+  - split: 2
     text: "材料利用充分，毫无浪费。完成巧手时有7%几率多获得1次道具。"
     translated: "Materials are used fully with no waste. Upon completion, there is a 7% chance to obtain an additional 1 items with Skilled Hands."
 - lineNum: 1408
   raw: "1408#精打细算#精心计算，合理利用材料。完成巧手时有9%几率多获得1次道具。#2#1#3|0|9|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1429789+08:00
-    split: 1
+  - split: 1
     text: "精打细算"
     translated: "Meticulous in management"
-  - lastTranslatedOn: 2025-03-08T00:34:50.8196942+08:00
-    split: 2
+  - split: 2
     text: "精心计算，合理利用材料。完成巧手时有9%几率多获得1次道具。"
     translated: "Carefully calculated and efficiently utilizing materials. Upon completing with Skilled Hands, there is a 9% chance to gain an additional 1 times the items."
 - lineNum: 1409
   raw: "1409#物尽其用#物料分毫不浪费，尽显巧手本领。完成巧手时有11%几率多获得1次道具。#3#1#3|0|11|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1430262+08:00
-    split: 1
+  - split: 1
     text: "物尽其用"
     translated: "Make full use of resources"
-  - lastTranslatedOn: 2025-03-08T00:34:42.8807154+08:00
-    split: 2
+  - split: 2
     text: "物料分毫不浪费，尽显巧手本领。完成巧手时有11%几率多获得1次道具。"
     translated: "Materials are used with no waste at all, showcasing the skilled hands. Upon completing a skilled task, there is a 11% chance of obtaining an additional 1 items."
 - lineNum: 1410
   raw: "1410#天工开物#巧妙构思，精打细算，用料精准事半功倍。完成巧手时有13%几率多获得1次道具。#4#1#3|0|13|1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1430777+08:00
-    split: 1
+  - split: 1
     text: "天工开物"
     translated: "The creation of things by natural means"
-  - lastTranslatedOn: 2025-03-08T00:34:42.2416179+08:00
-    split: 2
+  - split: 2
     text: "巧妙构思，精打细算，用料精准事半功倍。完成巧手时有13%几率多获得1次道具。"
     translated: "Skillfully conceived and meticulously planned; precise use of materials doubles the effect with half the effort. Upon completion of the skilled hands task, there is a 13% chance to gain an additional 1 items."
 - lineNum: 1451
   raw: "1451#精打细算#制作时精打细算，勤俭节约。制作道具时消耗金钱减少6%。#0#0#0|0|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1431249+08:00
-    split: 1
+  - split: 1
     text: "精打细算"
     translated: "Meticulous in management"
-  - lastTranslatedOn: 2025-02-26T20:30:11.0918415+08:00
-    split: 2
+  - split: 2
     text: "制作时精打细算，勤俭节约。制作道具时消耗金钱减少6%。"
     translated: "Meticulously calculated and thrifty during production, with frugality in mind. When creating props, the expenditure of money is reduced by 6%."
 - lineNum: 1452
   raw: "1452#物尽其用#善于利用材料，减少浪费。制作道具时消耗金钱减少9%。#1#0#0|0|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1431712+08:00
-    split: 1
+  - split: 1
     text: "物尽其用"
     translated: "Make full use of resources"
-  - lastTranslatedOn: 2025-02-26T20:30:41.8821632+08:00
-    split: 2
+  - split: 2
     text: "善于利用材料，减少浪费。制作道具时消耗金钱减少9%。"
     translated: "Skilled at utilizing materials to reduce waste. When crafting items, money consumption is reduced by 9%."
 - lineNum: 1453
   raw: "1453#化繁为简#简化工艺流程，大幅节约开支。制作道具时消耗金钱减少12%。#2#0#0|0|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1432177+08:00
-    split: 1
+  - split: 1
     text: "化繁为简"
     translated: "Simplify complexity"
-  - lastTranslatedOn: 2025-02-26T20:30:16.5087034+08:00
-    split: 2
+  - split: 2
     text: "简化工艺流程，大幅节约开支。制作道具时消耗金钱减少12%。"
     translated: "Simplify the manufacturing process to significantly reduce costs. The expenditure of money on prop production is reduced by 12%."
 - lineNum: 1454
   raw: "1454#精工细作#制作工艺精湛，用料省钱。制作道具时消耗金钱减少15%。#3#0#0|0|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1432646+08:00
-    split: 1
+  - split: 1
     text: "精工细作"
     translated: "Masterfully crafted"
-  - lastTranslatedOn: 2025-02-26T20:30:13.9501080+08:00
-    split: 2
+  - split: 2
     text: "制作工艺精湛，用料省钱。制作道具时消耗金钱减少15%。"
     translated: "Craftsmanship is exquisite, and material costs are reduced. When crafting props, expenditure on gold coins decreases by 15%."
 - lineNum: 1455
   raw: "1455#极致节俭#极限节俭，用最少的钱制作最优质的道具。制作道具时消耗金钱减少18%。#4#0#0|0|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1433105+08:00
-    split: 1
+  - split: 1
     text: "极致节俭"
     translated: "Extreme frugality"
-  - lastTranslatedOn: 2025-02-26T20:30:24.3321541+08:00
-    split: 2
+  - split: 2
     text: "极限节俭，用最少的钱制作最优质的道具。制作道具时消耗金钱减少18%。"
     translated: "Extreme frugality, crafting the highest quality items with the least amount of money. Reduces monetary cost by 18% when crafting items."
 - lineNum: 1501
   raw: "1501#源省器懂#懂得器件之源，从原料上节省。制作道具时消耗矿石减少6%。#0#0#0|4|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1433578+08:00
-    split: 1
+  - split: 1
     text: "源省器懂"
     translated: "Yuan Shengqi understands"
-  - lastTranslatedOn: 2025-02-26T20:30:43.3773613+08:00
-    split: 2
+  - split: 2
     text: "懂得器件之源，从原料上节省。制作道具时消耗矿石减少6%。"
     translated: "Understanding the origin of components saves resources from the raw material stage. When crafting items, the consumption of ore is reduced by 6%."
 - lineNum: 1502
   raw: "1502#步入源深#精研技艺之根源，巧妙节省物料。制作道具时消耗矿石减少9%。#1#0#0|4|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1434046+08:00
-    split: 1
+  - split: 1
     text: "步入源深"
     translated: "Delve into the depths"
-  - lastTranslatedOn: 2025-02-26T20:30:59.8371358+08:00
-    split: 2
+  - split: 2
     text: "精研技艺之根源，巧妙节省物料。制作道具时消耗矿石减少9%。"
     translated: "Mastering the fundamentals of skills, cleverly conserving materials. When crafting props, the consumption of ore is reduced by 9%."
 - lineNum: 1503
   raw: "1503#天工精艺#工艺出神入化，材料利用精准无差。制作道具时消耗矿石减少12%。#2#0#0|4|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1434520+08:00
-    split: 1
+  - split: 1
     text: "天工精艺"
     translated: "Masterful Craftsmanship"
-  - lastTranslatedOn: 2025-02-26T20:30:18.3707860+08:00
-    split: 2
+  - split: 2
     text: "工艺出神入化，材料利用精准无差。制作道具时消耗矿石减少12%。"
     translated: "Craftsmanship is divine and transformative, with material usage being precise and flawless. When creating props, the consumption of ore is reduced by 12%."
 - lineNum: 1504
   raw: "1504#山灵之苟#与山间矿石有所感应，知悉其材质左右。制作道具时消耗矿石减少15%。#3#0#0|4|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1434994+08:00
-    split: 1
+  - split: 1
     text: "山灵之苟"
     translated: "The Guile of Mount Spirit"
-  - lastTranslatedOn: 2025-02-26T20:30:44.8492290+08:00
-    split: 2
+  - split: 2
     text: "与山间矿石有所感应，知悉其材质左右。制作道具时消耗矿石减少15%。"
     translated: "When there is a connection with the mountain ores, one can discern their quality. When crafting items, the consumption of ore is reduced by 15%."
 - lineNum: 1505
   raw: "1505#溯源精艺#追溯工艺本源，减少原料浪费。制作道具时消耗矿石减少18%。#4#0#0|4|-18#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:49.6741664+08:00
-    split: 1
+  - split: 1
     text: "溯源精艺"
     translated: "Tracing the Source of Excellence in Technique"
-  - lastTranslatedOn: 2025-02-26T20:30:49.6760224+08:00
-    split: 2
+  - split: 2
     text: "追溯工艺本源，减少原料浪费。制作道具时消耗矿石减少18%。"
     translated: "Tracing back to the origins of craftsmanship reduces raw material waste. When making props, the consumption of ore is reduced by 18%."
 - lineNum: 1551
   raw: "1551#节约有道#制作技艺高超，精打细算。制作道具时消耗草药减少6%。#0#0#0|5|-6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1435928+08:00
-    split: 1
+  - split: 1
     text: "节约有道"
     translated: "There is an art to frugality"
-  - lastTranslatedOn: 2025-02-26T20:30:30.7894225+08:00
-    split: 2
+  - split: 2
     text: "制作技艺高超，精打细算。制作道具时消耗草药减少6%。"
     translated: "Crafting skills are exceptionally refined, and meticulous in planning. When crafting props, herb consumption is reduced by 6%."
 - lineNum: 1552
   raw: "1552#巧思妙制#制作道具时构思巧妙，节约有道。制作道具时消耗草药减少9%。#1#0#0|5|-9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1436396+08:00
-    split: 1
+  - split: 1
     text: "巧思妙制"
     translated: "Clever design and ingenious strategy"
-  - lastTranslatedOn: 2025-02-26T20:30:12.8569121+08:00
-    split: 2
+  - split: 2
     text: "制作道具时构思巧妙，节约有道。制作道具时消耗草药减少9%。"
     translated: "Crafting props with ingenious design and frugality reduces herbal consumption by 9%."
 - lineNum: 1553
   raw: "1553#灵巧心思#心思灵巧，原料利用率极高。制作道具时消耗草药减少12%。#2#0#0|5|-12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1436864+08:00
-    split: 1
+  - split: 1
     text: "灵巧心思"
     translated: "Cleverness and ingenuity"
-  - lastTranslatedOn: 2025-02-26T20:30:53.4544025+08:00
-    split: 2
+  - split: 2
     text: "心思灵巧，原料利用率极高。制作道具时消耗草药减少12%。"
     translated: "Resourceful and efficient, utilizing materials at a high rate. When crafting props, the consumption of herbs is reduced by 12%."
 - lineNum: 1554
   raw: "1554#妙手丹青#技艺如绘丹青，制作用量精准。制作道具时消耗草药减少15%。#3#0#0|5|-15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1437342+08:00
-    split: 1
+  - split: 1
     text: "妙手丹青"
     translated: "Artful brushwork"
-  - lastTranslatedOn: 2025-03-01T17:20:49.4682232+08:00
-    split: 2
+  - split: 2
     text: "技艺如绘丹青，制作用量精准。制作道具时消耗草药减少15%。"
     translated: "The skill is like painting a picture, with precise measurement in production. When creating tools, it reduces the consumption of herbs by 15%."
 - lineNum: 1555
   raw: "1555#神之一手#制作技艺如神，技艺让人百思无解。制作道具时消耗草药减少18%。#4#0#0|5|-18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1437810+08:00
-    split: 1
+  - split: 1
     text: "神之一手"
     translated: "One Stroke of the Divine"
-  - lastTranslatedOn: 2025-02-26T20:30:42.3173050+08:00
-    split: 2
+  - split: 2
     text: "制作技艺如神，技艺让人百思无解。制作道具时消耗草药减少18%。"
     translated: "Craftsmanship skill divine, leaving people utterly perplexed. Herb consumption reduced by 18% when crafting items."
 - lineNum: 1601
   raw: "1601#浪费无度#制作技艺拙劣，材料浪费严重。制作道具时消耗金钱增加6%。#0#0#0|0|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1438282+08:00
-    split: 1
+  - split: 1
     text: "浪费无度"
     translated: "Excessive wastefulness"
-  - lastTranslatedOn: 2025-02-26T20:30:58.7158579+08:00
-    split: 2
+  - split: 2
     text: "制作技艺拙劣，材料浪费严重。制作道具时消耗金钱增加6%。"
     translated: "Crafting skills are subpar, resulting in significant waste of materials. When crafting props, the expenditure of money increases by 6%."
 - lineNum: 1602
   raw: "1602#粗制滥造#工艺粗糙，用料不当，常需返工。制作道具时消耗金钱增加9%。#0#0#0|0|9#"
   splits:
-  - lastTranslatedOn: 2025-03-09T21:48:49.0248644+08:00
-    split: 1
+  - split: 1
     text: "粗制滥造"
     translated: "Roughly made and mass-produced"
-  - lastTranslatedOn: 2025-02-26T20:30:39.9560250+08:00
-    split: 2
+  - split: 2
     text: "工艺粗糙，用料不当，常需返工。制作道具时消耗金钱增加9%。"
     translated: "Craftsmanship is rough, materials are improperly used, often requiring rework. During prop production, the consumption of money increases by 9%."
 - lineNum: 1603
   raw: "1603#拙手劣工#制作手艺低劣，花费倍增。制作道具时消耗金钱增加12%。#0#0#0|0|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1439222+08:00
-    split: 1
+  - split: 1
     text: "拙手劣工"
     translated: "Clumsy, poor workmanship"
-  - lastTranslatedOn: 2025-02-26T20:30:51.0486162+08:00
-    split: 2
+  - split: 2
     text: "制作手艺低劣，花费倍增。制作道具时消耗金钱增加12%。"
     translated: "Poor craftsmanship, costs double. When crafting items, the expenditure of money increases by 12%."
 - lineNum: 1604
   raw: "1604#不计成本#制作过程中毫无节制，成本激增。制作道具时消耗金钱增加15%。#0#0#0|0|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1439700+08:00
-    split: 1
+  - split: 1
     text: "不计成本"
     translated: "Without regard to cost"
-  - lastTranslatedOn: 2025-03-02T10:14:10.6437044+08:00
-    split: 2
+  - split: 2
     text: "制作过程中毫无节制，成本激增。制作道具时消耗金钱增加15%。"
     translated: "During the production process, there was a lack of restraint, leading to a significant increase in costs. The expenditure on props increased by 15%."
 - lineNum: 1605
   raw: "1605#损耗惊人#工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。#0#0#0|0|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1440173+08:00
-    split: 1
+  - split: 1
     text: "损耗惊人"
     translated: "Shocking losses"
-  - lastTranslatedOn: 2025-03-02T10:14:11.0866834+08:00
-    split: 2
+  - split: 2
     text: "工艺不佳，材料浪费极多。制作道具时消耗金钱增加18%。"
     translated: "Craftsmanship is poor, resulting in significant material waste. The cost of making props increases by 18%."
 - lineNum: 1651
   raw: "1651#耗材难控#制作技艺不精，原料大量浪费。制作道具时消耗矿石增加6%。#0#0#0|4|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1440635+08:00
-    split: 1
+  - split: 1
     text: "耗材难控"
     translated: "Materials are difficult to control"
-  - lastTranslatedOn: 2025-02-26T20:30:44.2785167+08:00
-    split: 2
+  - split: 2
     text: "制作技艺不精，原料大量浪费。制作道具时消耗矿石增加6%。"
     translated: "Crafting skill is lacking, resulting in excessive material waste. The consumption of ore increases by 6% when crafting items."
 - lineNum: 1652
   raw: "1652#粗心大意#为人粗心，制作道具耗费增加。制作道具时消耗矿石增加9%。#0#0#0|4|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1441100+08:00
-    split: 1
+  - split: 1
     text: "粗心大意"
     translated: "Thoughtless and careless"
-  - lastTranslatedOn: 2025-02-26T20:30:31.9973185+08:00
-    split: 2
+  - split: 2
     text: "为人粗心，制作道具耗费增加。制作道具时消耗矿石增加9%。"
     translated: "Careless with tasks, causing a 9% increase in resource consumption when crafting items. Crafting an item consumes additional minerals increased by 9%."
 - lineNum: 1653
   raw: "1653#拙工失手#制作时频频失手，材料用量激增。制作道具时消耗矿石增加12%。#0#0#0|4|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1441563+08:00
-    split: 1
+  - split: 1
     text: "拙工失手"
     translated: "My work was botched due to clumsiness"
-  - lastTranslatedOn: 2025-02-26T20:30:48.4423531+08:00
-    split: 2
+  - split: 2
     text: "制作时频频失手，材料用量激增。制作道具时消耗矿石增加12%。"
     translated: "During production, frequent mistakes are made, and material usage significantly increases. The crafting of props increases the consumption of ore by 12%."
 - lineNum: 1654
   raw: "1654#不惜工本#制作不惜成本，但也抵不过制作工艺粗糙。制作道具时消耗矿石增加15%。#0#0#0|4|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1442037+08:00
-    split: 1
+  - split: 1
     text: "不惜工本"
     translated: "Going above and beyond to make it happen"
-  - lastTranslatedOn: 2025-02-26T20:30:55.1407287+08:00
-    split: 2
+  - split: 2
     text: "制作不惜成本，但也抵不过制作工艺粗糙。制作道具时消耗矿石增加15%。"
     translated: "Manufacture without regard to cost, but it doesn't make up for rough craftsmanship. Increases the consumption of ore by 15% when manufacturing props."
 - lineNum: 1655
   raw: "1655#损耗料尽#工艺欠佳，制作时耗费过多，损耗巨增。制作道具时消耗矿石增加18%。#0#0#0|4|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1442509+08:00
-    split: 1
+  - split: 1
     text: "损耗料尽"
     translated: "Consumed all resources"
-  - lastTranslatedOn: 2025-02-26T20:30:35.4926593+08:00
-    split: 2
+  - split: 2
     text: "工艺欠佳，制作时耗费过多，损耗巨增。制作道具时消耗矿石增加18%。"
     translated: "Craftsmanship is subpar, resulting in excessive consumption and significantly increased waste during production. The crafting of props increases ore consumption by 18%."
 - lineNum: 1701
   raw: "1701#草率工艺#制作过程中草率敷衍，耗费增加。制作道具时消耗草药增加6%。#0#0#0|5|6#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1442986+08:00
-    split: 1
+  - split: 1
     text: "草率工艺"
     translated: "Impromptu craftsmanship"
-  - lastTranslatedOn: 2025-02-26T20:30:51.4969526+08:00
-    split: 2
+  - split: 2
     text: "制作过程中草率敷衍，耗费增加。制作道具时消耗草药增加6%。"
     translated: "During production, rushing and skimping increases costs. The consumption of herbs increases by 6% when making props."
 - lineNum: 1702
   raw: "1702#不惜药材#制作时不惜药材，工艺粗糙消耗增加。制作道具时消耗草药增加9%。#0#0#0|5|9#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1444128+08:00
-    split: 1
+  - split: 1
     text: "不惜药材"
     translated: "Without sparing medicinal herbs"
-  - lastTranslatedOn: 2025-02-26T20:30:58.1789787+08:00
-    split: 2
+  - split: 2
     text: "制作时不惜药材，工艺粗糙消耗增加。制作道具时消耗草药增加9%。"
     translated: "During production, no expense was spared for medicinal herbs, and the rough craftsmanship increased consumption. When creating props, the consumption of herbs increases by 9%."
 - lineNum: 1703
   raw: "1703#拙劣手法#制作时手法拙劣，事倍功半。制作道具时消耗草药增加12%。#0#0#0|5|12#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1444627+08:00
-    split: 1
+  - split: 1
     text: "拙劣手法"
     translated: "Clumsy technique"
-  - lastTranslatedOn: 2025-02-26T20:30:42.8644305+08:00
-    split: 2
+  - split: 2
     text: "制作时手法拙劣，事倍功半。制作道具时消耗草药增加12%。"
     translated: "The technique used during production was clumsy, resulting in half the efficiency. During prop production, there is an increased consumption of herbs by 12%."
 - lineNum: 1704
   raw: "1704#草药尽废#耗费过多，原料迅速消耗殆尽。制作道具时消耗草药增加15%。#0#0#0|5|15#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1445110+08:00
-    split: 1
+  - split: 1
     text: "草药尽废"
     translated: "All herbal medicine is futile"
-  - lastTranslatedOn: 2025-02-26T20:30:33.5804821+08:00
-    split: 2
+  - split: 2
     text: "耗费过多，原料迅速消耗殆尽。制作道具时消耗草药增加15%。"
     translated: "Excessive consumption has depleted resources quickly. When crafting items, herb consumption increases by 15%."
 - lineNum: 1705
   raw: "1705#耗材亏空#每次制作消耗材料过多，让人怀疑是否中饱私囊。制作道具时消耗草药增加18%。#0#0#0|5|18#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1445577+08:00
-    split: 1
+  - split: 1
     text: "耗材亏空"
     translated: "Shortage of supplies"
-  - lastTranslatedOn: 2025-02-26T20:31:00.4569771+08:00
-    split: 2
+  - split: 2
     text: "每次制作消耗材料过多，让人怀疑是否中饱私囊。制作道具时消耗草药增加18%。"
     translated: "Each time materials are excessively used in the creation process, it raises suspicions of embezzlement. When crafting items, the consumption of herbs increases by 18%."
 - lineNum: 1751
   raw: "1751#器灵之助#得天佑助，制作道具品质卓越。打造完成时，物品基础属性提升10%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|10#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1446052+08:00
-    split: 1
+  - split: 1
     text: "器灵之助"
     translated: "With the help of a spiritual artifact"
-  - lastTranslatedOn: 2025-03-01T17:20:51.2734184+08:00
-    split: 2
+  - split: 2
     text: "得天佑助，制作道具品质卓越。打造完成时，物品基础属性提升10%。"
     translated: "With divine favor and support, the quality of crafted items is exceptional. Upon completion of forging, the item's base attributes are increased by 10%."
 - lineNum: 1752
   raw: "1752#运势巧匠#运势旺盛且工艺精湛，成品超凡。打造完成时，物品基础属性提升20%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|20#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1446530+08:00
-    split: 1
+  - split: 1
     text: "运势巧匠"
     translated: "Fate Artisan"
-  - lastTranslatedOn: 2025-03-01T17:20:55.8499458+08:00
-    split: 2
+  - split: 2
     text: "运势旺盛且工艺精湛，成品超凡。打造完成时，物品基础属性提升20%。"
     translated: "When fully forged, the item boasts exceptional craftsmanship and enhanced luck. Upon completion of forging, its base attributes increase by 20%."
 - lineNum: 1753
   raw: "1753#神助神工#制作如得上苍之青睐，成品不凡。打造完成时，物品基础属性提升30%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|30#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1447002+08:00
-    split: 1
+  - split: 1
     text: "神助神工"
     translated: "Divine Assistance, Divine Skill"
-  - lastTranslatedOn: 2025-03-01T22:05:54.9821025+08:00
-    split: 2
+  - split: 2
     text: "制作如得上苍之青睐，成品不凡。打造完成时，物品基础属性提升30%。"
     translated: "When crafting to gain the favor of the celestial blue one, the finished product is extraordinary. Upon completion of the forging, the item's base attributes are enhanced by 30%."
 - lineNum: 1754
   raw: "1754#特技加持#有特技加持制作，成品属性超脱常物。打造完成时，物品基础属性提升40%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|40#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1447469+08:00
-    split: 1
+  - split: 1
     text: "特技加持"
     translated: "Enhanced Martial Skill"
-  - lastTranslatedOn: 2025-03-01T17:20:51.9045885+08:00
-    split: 2
+  - split: 2
     text: "有特技加持制作，成品属性超脱常物。打造完成时，物品基础属性提升40%。"
     translated: "Crafted with special techniques, the finished product's attributes transcend the ordinary. Upon completion of forging, the item's base attributes are enhanced by 40%."
 - lineNum: 1755
   raw: "1755#天工巧运#福缘深厚，所制道具与普通物件相比宛若神物。打造完成时，物品基础属性提升50%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|50#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:52.1466116+08:00
-    split: 1
+  - split: 1
     text: "天工巧运"
     translated: "Heaven's Craftsmanship Moves Skillfully"
-  - lastTranslatedOn: 2025-03-09T22:23:22.8165484+08:00
-    split: 2
+  - split: 2
     text: "福缘深厚，所制道具与普通物件相比宛若神物。打造完成时，物品基础属性提升50%。"
     translated: "With deep fortunes, the crafted items are like divine artifacts compared to ordinary objects. Upon completion of forging, the item's base attributes increase by 50%."
 - lineNum: 1801
   raw: "1801#失手连连#制作时屡次失手，所制道具属性下降。打造完成时，物品基础属性下降10%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|-10#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1448406+08:00
-    split: 1
+  - split: 1
     text: "失手连连"
     translated: "Repeatedly making mistakes"
-  - lastTranslatedOn: 2025-03-01T17:20:57.7026088+08:00
-    split: 2
+  - split: 2
     text: "制作时屡次失手，所制道具属性下降。打造完成时，物品基础属性下降10%。"
     translated: "During the crafting process, repeated mistakes led to a decrease in the item's attributes. Upon completion of forging, the base attributes of the item are reduced by 10%."
 - lineNum: 1802
   raw: "1802#材质不良#选材不当，成品质量欠佳。打造完成时，物品基础属性下降20%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|-20#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1448878+08:00
-    split: 1
+  - split: 1
     text: "材质不良"
     translated: "Poor quality material"
-  - lastTranslatedOn: 2025-03-01T17:20:57.0329854+08:00
-    split: 2
+  - split: 2
     text: "选材不当，成品质量欠佳。打造完成时，物品基础属性下降20%。"
     translated: "Improper material selection results in subpar product quality. Upon completion of the forging, the item's base attributes decrease by 20%."
 - lineNum: 1803
   raw: "1803#工艺粗糙#制作工艺粗糙，成品属性大幅下降。打造完成时，物品基础属性下降30%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|-30#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1449348+08:00
-    split: 1
+  - split: 1
     text: "工艺粗糙"
     translated: "The craftsmanship is rough"
-  - lastTranslatedOn: 2025-03-01T17:20:55.3165277+08:00
-    split: 2
+  - split: 2
     text: "制作工艺粗糙，成品属性大幅下降。打造完成时，物品基础属性下降30%。"
     translated: "The craftsmanship is crude, leading to a significant reduction in the product's attributes. Upon completion of the forging process, the item's base attributes decrease by 30%."
 - lineNum: 1804
   raw: "1804#瑕疵频出#制作过程中频繁出现瑕疵，成品质量低劣。打造完成时，物品基础属性下降40%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|-40#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1449822+08:00
-    split: 1
+  - split: 1
     text: "瑕疵频出"
     translated: "Frequent defects"
-  - lastTranslatedOn: 2025-03-01T19:35:43.8718479+08:00
-    split: 2
+  - split: 2
     text: "制作过程中频繁出现瑕疵，成品质量低劣。打造完成时，物品基础属性下降40%。"
     translated: "During the manufacturing process, flaws occur frequently, resulting in low-quality finished products. Upon completion of forging, the item's base attributes decrease by 40%."
 - lineNum: 1805
   raw: "1805#流年不利#总的来说，运气不大好，做事都欠火候。打造完成时，物品基础属性下降50%。#0#1#2,3,4|1|-1,-2,-3,0,27,22,20,21,74,26,76,1,23,75,24,25,88|-50#"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:38:08.2066256+08:00
-    split: 1
+  - split: 1
     text: "流年不利"
     translated: "Unfavorable times"
-  - lastTranslatedOn: 2025-03-01T17:20:52.8845632+08:00
-    split: 2
+  - split: 2
     text: "总的来说，运气不大好，做事都欠火候。打造完成时，物品基础属性下降50%。"
     translated: "Overall, it seems luck is not on your side; things are lacking in finesse. Upon completion of the forging process, the base attributes of the item decrease by 50%."
 - lineNum: 10001
   raw: "10001#流星赶月#锻造出的装备必定携带外攻、内攻、命中、诛心其中一条词条#2#2#2|3|202,10102,12110,203,10103,12111,12214,12314,12414,12116,12216,12316#"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:38:08.0785662+08:00
-    split: 1
+  - split: 1
     text: "流星赶月"
     translated: "Chasing a meteor to catch up with the moon."
-  - lastTranslatedOn: 2025-03-01T17:20:54.6305500+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带外攻、内攻、命中、诛心其中一条词条"
     translated: "The forged equipment must necessarily carry one of the attributes: external attack, internal attack, hit rate, or mind attack."
 - lineNum: 10002
   raw: "10002#七星连珠#锻造出的装备必定携带要害、武力、攻力、伤力其中一条词条#2#2#2|3|12218,12318,12418,12103,12203,12303,605444,605454,605644,605445,605455,605645#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1451225+08:00
-    split: 1
+  - split: 1
     text: "七星连珠"
     translated: "Seven Stars in a Row"
-  - lastTranslatedOn: 2025-02-28T20:43:33.2543590+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带要害、武力、攻力、伤力其中一条词条"
     translated: "The forged equipment must carry a trait of either vital point, strength, attack power, or damage."
 - lineNum: 10003
   raw: "10003#无极之力#锻造出的装备必定携带剑容、剑形、刀容、刀形其中一条词条#2#2#2|3|5152,5171,5190,5153,5172,5191,6152,6171,6190,6115,6134,6153#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1451686+08:00
-    split: 1
+  - split: 1
     text: "无极之力"
     translated: "Ultimate Force of Wuji"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1451883+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带剑容、剑形、刀容、刀形其中一条词条"
     translated: "The equipment forged must carry one of the attributes from Sword Aura, Sword Shape, Blade Aura, or Blade Shape"
 - lineNum: 10004
   raw: "10004#风驰电掣#锻造出的装备必定携带枪容、枪形、武容、武形其中一条词条#2#2#2|3|7114,7133,7152,7134,7153,7172,8152,8171,8190,8115,8134,8153#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:50.6033933+08:00
-    split: 1
+  - split: 1
     text: "风驰电掣"
     translated: "Blazing fast like wind and lightning"
-  - lastTranslatedOn: 2025-02-24T17:24:37.9530239+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带枪容、枪形、武容、武形其中一条词条"
     translated: "Equipment forged must inherently include one of the attributes: spear aura, spear form, martial aura, or martial form."
 - lineNum: 10101
   raw: "10101#混元之力#锻造出的装备必定携带神力、剑技、剑魄、刀技其中一条词条#3#2#2|3|605243,605443,605453,9000200,9000201,9000202,9000300,9000301,9000302,9000500,9000501,9000502#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1452612+08:00
-    split: 1
+  - split: 1
     text: "混元之力"
     translated: "Primordial Energy"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1452809+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带神力、剑技、剑魄、刀技其中一条词条"
     translated: "The forged equipment must carry a stat of Divine Power, Sword Technique, Sword Spirit, or Blade Skill"
 - lineNum: 10102
   raw: "10102#神言辉光#锻造出的装备必定携带刀魄、枪技、枪魄、武技其中一条词条#3#2#2|3|33600,33700,33800,53600,53700,53800,9000900,9000901,9000902,9001100,9001101,9001102#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1453075+08:00
-    split: 1
+  - split: 1
     text: "神言辉光"
     translated: "Divine Radiance of Sacred Words"
-  - lastTranslatedOn: 2025-02-24T17:24:38.5604525+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带刀魄、枪技、枪魄、武技其中一条词条"
     translated: "Any equipment forged must carry one of the following attributes: Blade Soul, Spear Technique, Spear Soul, or Martial Skill."
 - lineNum: 10201
   raw: "10201#暗影之刃#锻造出的装备必定携带武魄、剑意、刀意、枪意其中一条词条#3#2#2|3|9001200,9001201,9001202,5232,5251,5270,6232,6251,6270,7232,7251,7270#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1453898+08:00
-    split: 1
+  - split: 1
     text: "暗影之刃"
     translated: "Blade of Shadows"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1454103+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带武魄、剑意、刀意、枪意其中一条词条"
     translated: "Equipment forged must necessarily carry one of the terms: martial soul, sword essence, blade essence, or spear essence"
 - lineNum: 10202
   raw: "10202#碎裂之力#锻造出的装备必定携带武意、攻威、伤威、破甲其中一条词条#3#2#2|3|8232,8251,8270,5217,5236,5255,5218,5237,5256,53100,53200,53300#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1454370+08:00
-    split: 1
+  - split: 1
     text: "碎裂之力"
     translated: "Shattered Force"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1454570+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带武意、攻威、伤威、破甲其中一条词条"
     translated: "Equipment forged must necessarily carry one of the following attributes: Wu Yi, Attack Might, Injury Might, or Armor Break"
 - lineNum: 10301
   raw: "10301#破魔之力#锻造出的装备必定携带透魔、铁骨、气魄、剑灭其中一条词条#3#2#2|3|33100,33200,33300,842407,842507,842607,842408,842508,842608,701102,701202,701302#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1454835+08:00
-    split: 1
+  - split: 1
     text: "破魔之力"
     translated: "Power of Demonic Annihilation"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1455034+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带透魔、铁骨、气魄、剑灭其中一条词条"
     translated: "The forged equipment must inherently carry one of the following attributes: Through Demon, Iron Bone, Spirit Will, or Sword Annihilation"
 - lineNum: 10302
   raw: "10302#迅疾如风#锻造出的装备必定携带刀灭、枪灭、武灭、剑却其中一条词条#3#2#2|3|711102,711202,711302,721102,721202,721302,72700,72800,72900,701103,701203,701303#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1455307+08:00
-    split: 1
+  - split: 1
     text: "迅疾如风"
     translated: "Swift as the wind"
-  - lastTranslatedOn: 2025-02-24T17:24:39.2161460+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带刀灭、枪灭、武灭、剑却其中一条词条"
     translated: "Equipment forged must always carry one of the following attributes: Blade Annihilation, Spear Annihilation, Martial Arts Annihilation, or Sword Counter."
 - lineNum: 10401
   raw: "10401#冥火缠身#锻造出的装备必定携带刀却、枪却、武却、剑速其中一条词条#3#2#2|3|711103,711203,711303,721103,721203,721303,73700,73800,73900,9003605,9003606,9003607#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1455771+08:00
-    split: 1
+  - split: 1
     text: "冥火缠身"
     translated: "Burdened by an infernal flame"
-  - lastTranslatedOn: 2025-02-24T17:24:39.7252125+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带刀却、枪却、武却、剑速其中一条词条"
     translated: "Equipment forged must necessarily include one of the attributes: Blade, Spear, Martial Skill, or Sword Speed."
 - lineNum: 10402
   raw: "10402#雷动九天#锻造出的装备必定携带刀速、枪速、武速、恶意其中一条词条#3#2#2|3|9003700,9003701,9003702,9003800,9003801,9003802,9003900,9003901,9003902,5008000,5008100,5008200#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:20:50.6034132+08:00
-    split: 1
+  - split: 1
     text: "雷动九天"
     translated: "Thunder resounds across the heavens"
-  - lastTranslatedOn: 2025-02-24T17:24:40.3449811+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带刀速、枪速、武速、恶意其中一条词条"
     translated: "Forged equipment must necessarily carry one of the terms: blade speed, spear speed, martial arts speed, or malevolence."
 - lineNum: 11001
   raw: "11001#风云再起#锻造出的装备必定携带剑殇、刀殇、枪殇、武殇其中一条词条#3#2#2|3|8000100,8005100,8006900,7000200,8000400,8008900,8000700,8006100,8007800,8001000,8005700,8007500#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1456712+08:00
-    split: 1
+  - split: 1
     text: "风云再起"
     translated: "Storms brew once again"
-  - lastTranslatedOn: 2025-02-24T17:24:40.9720867+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带剑殇、刀殇、枪殇、武殇其中一条词条"
     translated: "Equipment forged in this way must include one of the following traits: Swordbane, Bladebane, Spearbane, or Martialbane."
 - lineNum: 11002
   raw: "11002#苍穹之力#锻造出的装备必定携带剑魂、刀魂、枪魂、武魂其中一条词条#4#2#2|3|13100,13200,13300,9000400,9000401,9000402,9000700,9000701,9000702,9001000,9001001,9001002#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1457180+08:00
-    split: 1
+  - split: 1
     text: "苍穹之力"
     translated: "The Power of the Azure Sky"
-  - lastTranslatedOn: 2025-02-24T17:24:41.5910528+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带剑魂、刀魂、枪魂、武魂其中一条词条"
     translated: "Forged equipment must necessarily carry one of the following attributes: Sword Spirit, Blade Spirit, Spear Spirit, or Martial Spirit."
 - lineNum: 11003
   raw: "11003#金刚护甲#锻造出的装备必定携带神威、伤逝、神御、万籁其中一条词条#4#2#2|3|800202,800302,800402,73100,73200,73300,842506,842606,842706,9002502,9002503,9002504#"
   splits:
-  - lastTranslatedOn: 2025-02-26T20:30:49.1253274+08:00
-    split: 1
+  - split: 1
     text: "金刚护甲"
     translated: "Adamantine armor"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1457844+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带神威、伤逝、神御、万籁其中一条词条"
     translated: "The forged equipment is guaranteed to carry one of the attributes: Divine Aura, Wounding Fade, Divine Guard, or All-Hearing"
 - lineNum: 11004
   raw: "11004#幻影之风#锻造出的装备必定携带寂灭、风转、阴殇、阳殇其中一条词条#4#2#2|3|9003001,9003002,9003003,9003500,9003501,9003502,5004300,5004400,5004500,5004700,5004800,5004900#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1458111+08:00
-    split: 1
+  - split: 1
     text: "幻影之风"
     translated: "Ghostly Breeze"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1458312+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带寂灭、风转、阴殇、阳殇其中一条词条"
     translated: "Equipment forged must inevitably carry one of the traits: Emptiness, Wind Transformation, Yin Demise, or Yang Demise"
 - lineNum: 11005
   raw: "11005#穿云破空#锻造出的装备必定携带刚殇、柔殇、毒殇其中一条词条#4#2#2|3|5005100,5005200,5005300,5005500,5005600,5005700,5005900,5006000,5006100#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1458574+08:00
-    split: 1
+  - split: 1
     text: "穿云破空"
     translated: "Penetrate through clouds and cleave open space"
-  - lastTranslatedOn: 2025-02-26T20:30:43.7800666+08:00
-    split: 2
+  - split: 2
     text: "锻造出的装备必定携带刚殇、柔殇、毒殇其中一条词条"
     translated: "Equipment forged must carry one of the following attributes: Hard Curse, Soft Curse, or Poison Curse."
 - lineNum: 11006
   raw: "11006#无极之力#缝纫出的防具必定携带气血、真气、外防、内防其中一条词条#1#2#4|3|12807,12907,13007,13809,13909,14009,52312,52412,52512,72813,72913,73013#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1459041+08:00
-    split: 1
+  - split: 1
     text: "无极之力"
     translated: "Ultimate Force of Wuji"
-  - lastTranslatedOn: 2025-03-06T07:56:43.4950352+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带气血、真气、外防、内防其中一条词条"
     translated: "Handcrafted armor must necessarily include one of the terms lifeforce, true qi, external defense, or internal defense."
 - lineNum: 12000
   raw: "12000#淬火成钢#缝纫出的防具必定携带飞鸟、飞鸢、永恒、飞鹰、精意其中一条词条#1#2#4|3|600,12225,12325,12425,605226,605426,605626,605228,605428,605628,605232,605432,605632#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1459507+08:00
-    split: 1
+  - split: 1
     text: "淬火成钢"
     translated: "Tempering into steel"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1459704+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带飞鸟、飞鸢、永恒、飞鹰、精意其中一条词条"
     translated: "Protective gear crafted through sewing must carry one of the terms: Flying Bird, Soaring Hawk, Eternity, Flying Eagle, or Spirit Intent"
 - lineNum: 12001
   raw: "12001#玄黄之精#缝纫出的防具必定携带闪避、元气、根骨、筋骨其中一条词条#2#2#4|3|52815,52915,53015,806700,806800,806900,806701,806801,806901,808702,808802,808902#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1459979+08:00
-    split: 1
+  - split: 1
     text: "玄黄之精"
     translated: "The essence of darkness and yellow"
-  - lastTranslatedOn: 2025-03-06T07:56:42.9255449+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带闪避、元气、根骨、筋骨其中一条词条"
     translated: "Hand-stitched armor must carry one of the following attributes: Dodge, Vitality, Potential, or Muscle & Bone."
 - lineNum: 12004
   raw: "12004#天雷地火#缝纫出的防具必定携带内息、体魄、精神、身法其中一条词条#2#2#4|3|808703,808803,808903,808704,808804,808904,808705,808805,808905,808706,808806,808906#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1460448+08:00
-    split: 1
+  - split: 1
     text: "天雷地火"
     translated: "Heavenly thunder, earthly fire"
-  - lastTranslatedOn: 2025-03-09T20:52:34.2506764+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带内息、体魄、精神、身法其中一条词条"
     translated: "Clothing crafted in this manner must necessarily include one of the attributes: Resilience, Inner Qi, Willpower, Spirit, or Agility."
 - lineNum: 12005
   raw: "12005#玄铁精铸#缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条#2#2#4|3|806707,806807,806907,605229,605429,605629,605231,605431,605631,605233,605433,605633#"
   splits:
-  - lastTranslatedOn: 2025-02-24T17:24:41.8389021+08:00
-    split: 1
+  - split: 1
     text: "玄铁精铸"
     translated: "Dark steel, finely crafted"
-  - lastTranslatedOn: 2025-02-26T20:30:41.4093343+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带专注、心眼、飞燕、精魂其中一条词条"
     translated: "Armor crafted through sewing must include at least one of the following abilities: Focus, Insight, Swallowtail, or Spirit Essence."
 - lineNum: 12006
   raw: "12006#水影流转#缝纫出的防具必定携带御心、化解、强体、冥思其中一条词条#3#2#4|3|12117,12217,12317,12319,12419,12519,12301,12401,12501,12302,12402,12502#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1461380+08:00
-    split: 1
+  - split: 1
     text: "水影流转"
     translated: "Shifting reflections ripple in motion"
-  - lastTranslatedOn: 2025-02-26T20:30:28.4015247+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带御心、化解、强体、冥思其中一条词条"
     translated: "The armor crafted by sewing is certain to carry the properties of Discipline, Counter, and Strong Body. Choose one of these attributes: Discipline, Counter, or Strong Body."
 - lineNum: 12007
   raw: "12007#流沙之引#缝纫出的防具必定携带魄力、神心、圣心、五御其中一条词条#3#2#4|3|12304,12404,12504,12306,12406,12506,12307,12407,12507,95402,95403,95404#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1461861+08:00
-    split: 1
+  - split: 1
     text: "流沙之引"
     translated: "The allure of shifting sands"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1462059+08:00
-    split: 2
+  - split: 2
     text: "缝纫出的防具必定携带魄力、神心、圣心、五御其中一条词条"
     translated: "Armor crafted through sewing must inherently include the attributes of Poh-li, Shen-hsin, Sheng-hsin, and one term from Wu-yu"
 - lineNum: 12008
   raw: "12008#玄铁护体#巧手出的饰品必定携带无限、剑心、刀体、神武其中一条词条#1#2#3|3|605227,605427,605627,610230,610330,610430,610231,610331,610431,630532,640132,640232#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1462324+08:00
-    split: 1
+  - split: 1
     text: "玄铁护体"
     translated: "Body clad in dark steel"
-  - lastTranslatedOn: 2025-02-24T16:19:59.1462524+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带无限、剑心、刀体、神武其中一条词条"
     translated: "Craftsmanship from skilled hands ensures the accessory carries one of the following attributes: Limitless, Swordheart, Blade Body, or Divine Martial"
 - lineNum: 12009
   raw: "12009#星辰之光#巧手出的饰品必定携带天兵、奇门、圣手、毒宗其中一条词条#1#2#3|3|620433,620533,630133,620434,620534,630134,620435,620535,630135,620436,620536,630136#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1462798+08:00
-    split: 1
+  - split: 1
     text: "星辰之光"
     translated: "The light of the stars"
-  - lastTranslatedOn: 2025-03-08T00:34:45.7238489+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带天兵、奇门、圣手、毒宗其中一条词条"
     translated: "Jewelry crafted by skilled hands must inherently possess the attributes of Divine Soldiers, Strange Gateways, Sacred Hands, or Poison Sect."
 - lineNum: 12010
   raw: "12010#幽冥之气#巧手出的饰品必定携带万物、金蝉、天下、遁甲其中一条词条#1#2#3|3|620438,620538,630138,620439,620539,630139,620440,620540,630140,620441,620541,630141#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1463274+08:00
-    split: 1
+  - split: 1
     text: "幽冥之气"
     translated: "The ethereal essence of the netherworld"
-  - lastTranslatedOn: 2025-03-08T00:34:46.9291702+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带万物、金蝉、天下、遁甲其中一条词条"
     translated: "Jewelry crafted by skilled hands is guaranteed to carry elements of the golden cicada, all under heaven, and one term from tun jia."
 - lineNum: 12101
   raw: "12101#流星坠地#巧手出的饰品必定携带天工、悬河、知断、神农其中一条词条#1#2#3|3|620442,620542,630142,620443,620543,630143,620444,620544,630144,620445,620545,630145#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1463746+08:00
-    split: 1
+  - split: 1
     text: "流星坠地"
     translated: "A falling star"
-  - lastTranslatedOn: 2025-03-08T00:34:40.2926479+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带天工、悬河、知断、神农其中一条词条"
     translated: "Jewelry crafted by skilled hands will undoubtedly carry one of the attributes: Divine Craftsmanship, Flowing River, Judicious Insight, or Shennong."
 - lineNum: 12201
   raw: "12201#天罡护佑#巧手出的饰品必定携带无垠、武道、神慧、神眼其中一条词条#2#2#3|3|605230,605430,605630,620129,620229,620329,620437,620537,630137,13305,13405,13505#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1464217+08:00
-    split: 1
+  - split: 1
     text: "天罡护佑"
     translated: "Protected by Tiangan"
-  - lastTranslatedOn: 2025-03-08T00:34:49.4439469+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带无垠、武道、神慧、神眼其中一条词条"
     translated: "Jewelry crafted by skilled hands is guaranteed to carry one of the attributes: endlessness, martial prowess, spiritual wisdom, or divine sight."
 - lineNum: 12301
   raw: "12301#五行合一#巧手出的饰品必定携带阴、阳、刚、柔、毒其中一条词条#3#2#3|3|13720,13820,13920,13721,13821,13921,13722,13822,13922,13723,13823,13923,13724,13824,13924#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1464680+08:00
-    split: 1
+  - split: 1
     text: "五行合一"
     translated: "Five elements unified"
-  - lastTranslatedOn: 2025-03-08T00:34:49.8949934+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带阴、阳、刚、柔、毒其中一条词条"
     translated: "Accessories crafted by skilled hands are certain to carry a tag of Yin, Yang, Hard, Soft, or Poison."
 - lineNum: 12401
   raw: "12401#神威浩荡#巧手出的饰品必定携带神门词条#3#2#3|3|900923,900936,900949#"
   splits:
-  - lastTranslatedOn: 2025-02-24T16:19:59.1465135+08:00
-    split: 1
+  - split: 1
     text: "神威浩荡"
     translated: "Indomitable might"
-  - lastTranslatedOn: 2025-03-08T00:34:50.1866574+08:00
-    split: 2
+  - split: 2
     text: "巧手出的饰品必定携带神门词条"
     translated: "Jewelry crafted by skilled hands must inherently carry the Wulin term."

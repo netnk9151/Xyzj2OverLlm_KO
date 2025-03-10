@@ -1,4272 +1,3630 @@
 - lineNum: 1
   raw: "1#地板#0#-1#77000#DiBan#5001#3#0#0#0#0#0#0#0#0#99#0#0#DiBan##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9664325+08:00
-    split: 1
+  - split: 1
     text: "地板"
     translated: "Floor"
 - lineNum: 2
   raw: "2#圆柱#0#-1#77001#Cylinder#5002#3#0#0#0#0#0#0#0#0#99#0#0#Cylinder##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9665364+08:00
-    split: 1
+  - split: 1
     text: "圆柱"
     translated: "Circular Cylinder"
 - lineNum: 3
   raw: "3#石墙     #0#-1#77002#ShiQiang#5003#3#0#0#0#0#0#0#0#0#99#0#0#ShiQiang##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9665634+08:00
-    split: 1
+  - split: 1
     text: "石墙     "
     translated: "Stone Wall"
 - lineNum: 4
   raw: "4#屋檐一#0#-1#77003#WuYan1#5004#3#0#0#0#0#0#0#0#0#99#0#0#WuYan1##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9665888+08:00
-    split: 1
+  - split: 1
     text: "屋檐一"
     translated: "Roof eaves one"
 - lineNum: 100
   raw: "100#战场旗帜#3#100#76000#Flag#5010#10#8#240##0#0#0#0#1#99##0#GuanShang_1##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9666141+08:00
-    split: 1
+  - split: 1
     text: "战场旗帜"
     translated: "Field Banner"
 - lineNum: 101
   raw: "101#雕像#3#-1#77011#GuanShang_1#5010#10#8#240##0#0#0#0#0#99##0#GuanShang_1##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9666392+08:00
-    split: 1
+  - split: 1
     text: "雕像"
     translated: "Sculpture"
 - lineNum: 102
   raw: "102#路灯#3#-1#77012#GuanShang_2#5004#10#8#240##0#0#0#0#0#99##0#GuanShang_2##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9666644+08:00
-    split: 1
+  - split: 1
     text: "路灯"
     translated: "The street lamp"
 - lineNum: 103
   raw: "103#货摊#3#-1#77013#GuanShang_3#5005#10#8#240##0#0#0#0#0#99##0#GuanShang_3##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9666889+08:00
-    split: 1
+  - split: 1
     text: "货摊"
     translated: "A roadside stall"
 - lineNum: 104
   raw: "104#灯笼#3#-1#77014#GuanShang_4#5006#10#8#240##0#0#0#0#0#99##0#GuanShang_4##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9667136+08:00
-    split: 1
+  - split: 1
     text: "灯笼"
     translated: "Lantern"
 - lineNum: 105
   raw: "105#草房#3#-1#77015#GuanShang_5#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_5##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9667380+08:00
-    split: 1
+  - split: 1
     text: "草房"
     translated: "Thatched Cottage"
 - lineNum: 106
   raw: "106#杂物堆#3#-1#77016#GuanShang_6#77020#10#10#120##0#0#0#0#0#99##0#GuanShang_6##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9667947+08:00
-    split: 1
+  - split: 1
     text: "杂物堆"
     translated: "A pile of miscellaneous items"
 - lineNum: 107
   raw: "107#酒缸#3#-1#77017#GuanShang_7#77020#10#10#120##0#0#0#0#0#99##0#GuanShang_7##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9668222+08:00
-    split: 1
+  - split: 1
     text: "酒缸"
     translated: "Bucket of Wine"
 - lineNum: 108
   raw: "108#树1#3#-1#77018#GuanShang_8#77019#10#9#180##0#0#0#0#0#99##0#GuanShang_8##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:16.7621452+08:00
-    split: 1
+  - split: 1
     text: "树1"
     translated: "Tree 1"
 - lineNum: 109
   raw: "109#树2#3#-1#77019#GuanShang_9#77019#10#9#180##0#0#0#0#0#99##0#GuanShang_9##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:17.2535103+08:00
-    split: 1
+  - split: 1
     text: "树2"
     translated: "Tree 2"
 - lineNum: 110
   raw: "110#树3#3#-1#77020#GuanShang_10#77019#10#9#180##0#0#0#0#0#99##0#GuanShang_10##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:17.5220472+08:00
-    split: 1
+  - split: 1
     text: "树3"
     translated: "Tree 3"
 - lineNum: 111
   raw: "111#棚子#3#-1#77021#GuanShang_11#77019#6#8#240##0#0#0#0#0#99##0#GuanShang_11##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9669228+08:00
-    split: 1
+  - split: 1
     text: "棚子"
     translated: "Shelter"
 - lineNum: 112
   raw: "112#桌凳#3#-1#77022#GuanShang_12#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T10:32:52.7837787+08:00
-    split: 1
+  - split: 1
     text: "桌凳"
     translated: "Table and chair"
 - lineNum: 113
   raw: "113#杂物#3#-1#77023#GuanShang_13#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9669719+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 114
   raw: "114#木梯#3#-1#77024#GuanShang_14#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9669964+08:00
-    split: 1
+  - split: 1
     text: "木梯"
     translated: "Wooden ladder"
 - lineNum: 115
   raw: "115#吊桥#3#-1#77025#GuanShang_15#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9670214+08:00
-    split: 1
+  - split: 1
     text: "吊桥"
     translated: "Hanging bridge"
 - lineNum: 116
   raw: "116#房屋#3#-1#77026#GuanShang_16#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9670456+08:00
-    split: 1
+  - split: 1
     text: "房屋"
     translated: "Housing"
 - lineNum: 117
   raw: "117#房屋#3#-1#77027#GuanShang_17#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9670703+08:00
-    split: 1
+  - split: 1
     text: "房屋"
     translated: "Housing"
 - lineNum: 118
   raw: "118#房屋#3#-1#77028#GuanShang_18#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9670943+08:00
-    split: 1
+  - split: 1
     text: "房屋"
     translated: "Housing"
 - lineNum: 119
   raw: "119#房屋#3#-1#77029#GuanShang_19#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9671193+08:00
-    split: 1
+  - split: 1
     text: "房屋"
     translated: "Housing"
 - lineNum: 120
   raw: "120#酒坛#3#-1#77030#GuanShang_20#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9671438+08:00
-    split: 1
+  - split: 1
     text: "酒坛"
     translated: "The world of wine"
 - lineNum: 121
   raw: "121#酒坛#3#-1#77031#GuanShang_21#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9671692+08:00
-    split: 1
+  - split: 1
     text: "酒坛"
     translated: "The world of wine"
 - lineNum: 122
   raw: "122#壁画#3#-1#77032#GuanShang_22#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9671938+08:00
-    split: 1
+  - split: 1
     text: "壁画"
     translated: "Mural"
 - lineNum: 123
   raw: "123#杂物#3#-1#77033#GuanShang_23#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9672185+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 124
   raw: "124#民居#3#-1#77034#GuanShang_24#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9672435+08:00
-    split: 1
+  - split: 1
     text: "民居"
     translated: "Commoner's dwelling"
 - lineNum: 125
   raw: "125#茅草#3#-1#77035#GuanShang_25#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9672682+08:00
-    split: 1
+  - split: 1
     text: "茅草"
     translated: "Thatched roof"
 - lineNum: 126
   raw: "126#屋棚#3#-1#77036#GuanShang_26#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9672925+08:00
-    split: 1
+  - split: 1
     text: "屋棚"
     translated: "Shelter"
 - lineNum: 127
   raw: "127#广场#3#-1#77037#GuanShang_27#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9673177+08:00
-    split: 1
+  - split: 1
     text: "广场"
     translated: "The square"
 - lineNum: 128
   raw: "128#水车#3#-1#77038#GuanShang_28#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9673418+08:00
-    split: 1
+  - split: 1
     text: "水车"
     translated: "The water wheel"
 - lineNum: 129
   raw: "129#马车#3#-1#77039#GuanShang_29#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9673669+08:00
-    split: 1
+  - split: 1
     text: "马车"
     translated: "Horse-drawn carriage"
 - lineNum: 130
   raw: "130#招牌#3#-1#77040#GuanShang_30#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9673909+08:00
-    split: 1
+  - split: 1
     text: "招牌"
     translated: "Signature dish"
 - lineNum: 131
   raw: "131#摊位#3#-1#77041#GuanShang_31#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9674158+08:00
-    split: 1
+  - split: 1
     text: "摊位"
     translated: "Stall"
 - lineNum: 132
   raw: "132#杂物#3#-1#77042#GuanShang_32#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9674401+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 133
   raw: "133#杂物#3#-1#77043#GuanShang_33#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9674650+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 134
   raw: "134#杂物#3#-1#77044#GuanShang_34#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9674895+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 135
   raw: "135#杂物#3#-1#77045#GuanShang_35#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9675144+08:00
-    split: 1
+  - split: 1
     text: "杂物"
     translated: "Miscellaneous items"
 - lineNum: 136
   raw: "136#亭子#3#-1#77046#GuanShang_36#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9675384+08:00
-    split: 1
+  - split: 1
     text: "亭子"
     translated: "Pavilion"
 - lineNum: 137
   raw: "137#桌子#3#-1#77047#GuanShang_37#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9675630+08:00
-    split: 1
+  - split: 1
     text: "桌子"
     translated: "A table"
 - lineNum: 138
   raw: "138#包子店#3#-1#77048#GuanShang_38#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9675872+08:00
-    split: 1
+  - split: 1
     text: "包子店"
     translated: "Bakery"
 - lineNum: 139
   raw: "139#告示牌#3#-1#77049#GuanShang_39#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9676120+08:00
-    split: 1
+  - split: 1
     text: "告示牌"
     translated: "Announcement board"
 - lineNum: 140
   raw: "140#镖字#3#-1#77050#GuanShang_40#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9676362+08:00
-    split: 1
+  - split: 1
     text: "镖字"
     translated: "Chase letter"
 - lineNum: 141
   raw: "141#院子#3#-1#77051#GuanShang_41#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9676614+08:00
-    split: 1
+  - split: 1
     text: "院子"
     translated: "The courtyard"
 - lineNum: 142
   raw: "142#院门#3#-1#77052#GuanShang_42#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9676859+08:00
-    split: 1
+  - split: 1
     text: "院门"
     translated: "Gate of the Academy"
 - lineNum: 143
   raw: "143#院墙#3#-1#77053#GuanShang_43#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9677105+08:00
-    split: 1
+  - split: 1
     text: "院墙"
     translated: "The walls of the courtyard"
 - lineNum: 144
   raw: "144#旗帜#3#-1#77054#GuanShang_44#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9677352+08:00
-    split: 1
+  - split: 1
     text: "旗帜"
     translated: "The banner"
 - lineNum: 145
   raw: "145#瓦墙#3#-1#77055#GuanShang_45#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9677597+08:00
-    split: 1
+  - split: 1
     text: "瓦墙"
     translated: "Tiled walls"
 - lineNum: 146
   raw: "146#瓦墙#3#-1#77056#GuanShang_46#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9677846+08:00
-    split: 1
+  - split: 1
     text: "瓦墙"
     translated: "Tiled walls"
 - lineNum: 147
   raw: "147#杂物车#3#-1#77057#GuanShang_47#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9678092+08:00
-    split: 1
+  - split: 1
     text: "杂物车"
     translated: "General Store"
 - lineNum: 148
   raw: "148#杂物车#3#-1#77058#GuanShang_48#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9678343+08:00
-    split: 1
+  - split: 1
     text: "杂物车"
     translated: "General Store"
 - lineNum: 149
   raw: "149#布摊#3#-1#77059#GuanShang_49#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9678592+08:00
-    split: 1
+  - split: 1
     text: "布摊"
     translated: "Soldier's Tent"
 - lineNum: 150
   raw: "150#裁缝铺#3#-1#77060#GuanShang_50#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9678848+08:00
-    split: 1
+  - split: 1
     text: "裁缝铺"
     translated: "Tailor Shop"
 - lineNum: 151
   raw: "151#长旗帜#3#-1#77061#GuanShang_51#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9679095+08:00
-    split: 1
+  - split: 1
     text: "长旗帜"
     translated: "The red flag that flutters long"
 - lineNum: 152
   raw: "152#茶摊#3#-1#77062#GuanShang_52#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9679351+08:00
-    split: 1
+  - split: 1
     text: "茶摊"
     translated: "A tea stand"
 - lineNum: 153
   raw: "153#茶摊#3#-1#77063#GuanShang_53#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9679596+08:00
-    split: 1
+  - split: 1
     text: "茶摊"
     translated: "A tea stand"
 - lineNum: 154
   raw: "154#茶水壶#3#-1#77064#GuanShang_54#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9679848+08:00
-    split: 1
+  - split: 1
     text: "茶水壶"
     translated: "Teapot"
 - lineNum: 155
   raw: "155#水桶#3#-1#77065#GuanShang_55#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9680089+08:00
-    split: 1
+  - split: 1
     text: "水桶"
     translated: "Bucket of water"
 - lineNum: 156
   raw: "156#茶叶#3#-1#77066#GuanShang_56#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9680343+08:00
-    split: 1
+  - split: 1
     text: "茶叶"
     translated: "Tea leaves"
 - lineNum: 157
   raw: "157#灯#3#-1#77067#GuanShang_57#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9680589+08:00
-    split: 1
+  - split: 1
     text: "灯"
     translated: "Light"
 - lineNum: 158
   raw: "158#石像#3#-1#77068#GuanShang_58#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9680837+08:00
-    split: 1
+  - split: 1
     text: "石像"
     translated: "Stone statue"
 - lineNum: 159
   raw: "159#古玩铺#3#-1#77069#GuanShang_59#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9681080+08:00
-    split: 1
+  - split: 1
     text: "古玩铺"
     translated: "Antique Shop"
 - lineNum: 160
   raw: "160#门#3#-1#77070#GuanShang_60#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9681332+08:00
-    split: 1
+  - split: 1
     text: "门"
     translated: "Gate"
 - lineNum: 161
   raw: "161#花轮#3#-1#77071#GuanShang_61#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9681576+08:00
-    split: 1
+  - split: 1
     text: "花轮"
     translated: "Flower Wheel"
 - lineNum: 162
   raw: "162#花轮#3#-1#77072#GuanShang_62#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9681834+08:00
-    split: 1
+  - split: 1
     text: "花轮"
     translated: "Flower Wheel"
 - lineNum: 163
   raw: "163#花鼓#3#-1#77073#GuanShang_63#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9682089+08:00
-    split: 1
+  - split: 1
     text: "花鼓"
     translated: "Flower Drum"
 - lineNum: 164
   raw: "164#花瓶#3#-1#77074#GuanShang_64#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9682335+08:00
-    split: 1
+  - split: 1
     text: "花瓶"
     translated: "A flower vase"
 - lineNum: 165
   raw: "165#伞#3#-1#77075#GuanShang_65#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9682583+08:00
-    split: 1
+  - split: 1
     text: "伞"
     translated: "Umbrella"
 - lineNum: 166
   raw: "166#水果车#3#-1#77076#GuanShang_66#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9682835+08:00
-    split: 1
+  - split: 1
     text: "水果车"
     translated: "Fruit Cart"
 - lineNum: 167
   raw: "167#挑担#3#-1#77077#GuanShang_67#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9683073+08:00
-    split: 1
+  - split: 1
     text: "挑担"
     translated: "Carrying burdens"
 - lineNum: 168
   raw: "168#牌匾#3#-1#77078#GuanShang_68#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9683324+08:00
-    split: 1
+  - split: 1
     text: "牌匾"
     translated: "Plaque"
 - lineNum: 169
   raw: "169#药材#3#-1#77079#GuanShang_69#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9683567+08:00
-    split: 1
+  - split: 1
     text: "药材"
     translated: "Herbal medicine"
 - lineNum: 170
   raw: "170#走廊#3#-1#77080#GuanShang_70#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9683816+08:00
-    split: 1
+  - split: 1
     text: "走廊"
     translated: "Corridor"
 - lineNum: 171
   raw: "171#灯#3#-1#77081#GuanShang_71#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9684056+08:00
-    split: 1
+  - split: 1
     text: "灯"
     translated: "Light"
 - lineNum: 172
   raw: "172#吊灯#3#-1#77082#GuanShang_72#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9684606+08:00
-    split: 1
+  - split: 1
     text: "吊灯"
     translated: "Suspended lamp"
 - lineNum: 173
   raw: "173#酒桌#3#-1#77083#GuanShang_73#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9684918+08:00
-    split: 1
+  - split: 1
     text: "酒桌"
     translated: "A banquet table"
 - lineNum: 174
   raw: "174#喷泉#3#-1#77084#GuanShang_74#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9685179+08:00
-    split: 1
+  - split: 1
     text: "喷泉"
     translated: "A fountain"
 - lineNum: 175
   raw: "175#木梯#3#-1#77085#GuanShang_75#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9685699+08:00
-    split: 1
+  - split: 1
     text: "木梯"
     translated: "Wooden ladder"
 - lineNum: 176
   raw: "176#茅草#3#-1#77086#GuanShang_76#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9685977+08:00
-    split: 1
+  - split: 1
     text: "茅草"
     translated: "Thatched roof"
 - lineNum: 177
   raw: "177#米摊#3#-1#77087#GuanShang_77#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9686232+08:00
-    split: 1
+  - split: 1
     text: "米摊"
     translated: "Steamed buns made from rice flour"
 - lineNum: 178
   raw: "178#花坛#3#-1#77088#GuanShang_78#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9686482+08:00
-    split: 1
+  - split: 1
     text: "花坛"
     translated: "A flowerbed"
 - lineNum: 179
   raw: "179#花坛#3#-1#77089#GuanShang_79#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9686730+08:00
-    split: 1
+  - split: 1
     text: "花坛"
     translated: "A flowerbed"
 - lineNum: 180
   raw: "180#花坛#3#-1#77090#GuanShang_80#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9686978+08:00
-    split: 1
+  - split: 1
     text: "花坛"
     translated: "A flowerbed"
 - lineNum: 181
   raw: "181#花坛#3#-1#77091#GuanShang_81#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9687223+08:00
-    split: 1
+  - split: 1
     text: "花坛"
     translated: "A flowerbed"
 - lineNum: 182
   raw: "182#亭子#3#-1#77092#GuanShang_82#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9687466+08:00
-    split: 1
+  - split: 1
     text: "亭子"
     translated: "Pavilion"
 - lineNum: 183
   raw: "183#瓦门#3#-1#77093#GuanShang_83#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9687718+08:00
-    split: 1
+  - split: 1
     text: "瓦门"
     translated: "Gate of Clay"
 - lineNum: 184
   raw: "184#香火铺#3#-1#77094#GuanShang_84#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:12:38.7104089+08:00
-    split: 1
+  - split: 1
     text: "香火铺"
     translated: "Heritage Shop"
 - lineNum: 185
   raw: "185#船只#3#-1#77095#GuanShang_85#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9688214+08:00
-    split: 1
+  - split: 1
     text: "船只"
     translated: "Ship"
 - lineNum: 186
   raw: "186#货箱#3#-1#77096#GuanShang_86#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9688920+08:00
-    split: 1
+  - split: 1
     text: "货箱"
     translated: "Goods Box"
 - lineNum: 187
   raw: "187#木台#3#-1#77097#GuanShang_87#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9689179+08:00
-    split: 1
+  - split: 1
     text: "木台"
     translated: "The wooden stage"
 - lineNum: 188
   raw: "188#石柱#3#-1#77098#GuanShang_88#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9689661+08:00
-    split: 1
+  - split: 1
     text: "石柱"
     translated: "Stone Pillar"
 - lineNum: 189
   raw: "189#首饰铺#3#-1#77099#GuanShang_89#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9689914+08:00
-    split: 1
+  - split: 1
     text: "首饰铺"
     translated: "Jewelry Shop"
 - lineNum: 190
   raw: "190#水果摊#3#-1#77100#GuanShang_90#77019#8#8#240##0#0#0#0#0#99##0#GuanShang_12##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9690168+08:00
-    split: 1
+  - split: 1
     text: "水果摊"
     translated: "Fruit Stand"
 - lineNum: 1001
   raw: "1001#不夜京-据点#1#0#92101#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:57.2540825+08:00
-    split: 1
+  - split: 1
     text: "不夜京-据点"
     translated: "Evernight Capital - Outpost"
 - lineNum: 1002
   raw: "1002#太初剑宗-据点#1#0#92102#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:58.5606661+08:00
-    split: 1
+  - split: 1
     text: "太初剑宗-据点"
     translated: "Primordial Sword Sect - Outpost"
 - lineNum: 1003
   raw: "1003#嵩室山-据点#1#0#92103#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.4237578+08:00
-    split: 1
+  - split: 1
     text: "嵩室山-据点"
     translated: "Songshi Mountain - Outpost"
 - lineNum: 1004
   raw: "1004#砚溪山庄-据点#1#0#92104#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:55.5014915+08:00
-    split: 1
+  - split: 1
     text: "砚溪山庄-据点"
     translated: "Ink Stream Mountain Villa - Outpost"
 - lineNum: 1005
   raw: "1005#清玉门-据点#1#0#92105#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:58.9798576+08:00
-    split: 1
+  - split: 1
     text: "清玉门-据点"
     translated: "Pure Jade Gate - Outpost"
 - lineNum: 1006
   raw: "1006#大雪山-据点#1#0#92106#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:12:38.8945987+08:00
-    split: 1
+  - split: 1
     text: "大雪山-据点"
     translated: "Great Snow Mountain - Outpost"
 - lineNum: 1007
   raw: "1007#麓山书院-据点#1#0#92107#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:55.4451709+08:00
-    split: 1
+  - split: 1
     text: "麓山书院-据点"
     translated: "Mount Lu Academy - Outpost"
 - lineNum: 1008
   raw: "1008#昭月宗-据点#1#0#92108#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.3134841+08:00
-    split: 1
+  - split: 1
     text: "昭月宗-据点"
     translated: "Bright Moon Clan - Outpost"
 - lineNum: 1009
   raw: "1009#穆特前线-据点#1#0#92109#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:55.5565537+08:00
-    split: 1
+  - split: 1
     text: "穆特前线-据点"
     translated: "Mu Te Frontline - Outpost"
 - lineNum: 1010
   raw: "1010#狂刀门-据点#1#0#92110#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:58.7423814+08:00
-    split: 1
+  - split: 1
     text: "狂刀门-据点"
     translated: "Wild Blade Sect - Outpost"
 - lineNum: 1011
   raw: "1011#丐门-据点#1#0#92111#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.6475123+08:00
-    split: 1
+  - split: 1
     text: "丐门-据点"
     translated: "Beggar Sect - Outpost"
 - lineNum: 1012
   raw: "1012#捭阖谷-据点#1#0#92112#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:52.6631108+08:00
-    split: 1
+  - split: 1
     text: "捭阖谷-据点"
     translated: "Baihe Valley - Outpost"
 - lineNum: 1013
   raw: "1013#重天门-据点#1#0#92113#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.1992382+08:00
-    split: 1
+  - split: 1
     text: "重天门-据点"
     translated: "Profound Celestial Sect - Outpost"
 - lineNum: 1014
   raw: "1014#云潇山庄-据点#1#0#92114#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:54.2985243+08:00
-    split: 1
+  - split: 1
     text: "云潇山庄-据点"
     translated: "Cloudy Breeze Mountain Villa - Outpost"
 - lineNum: 1015
   raw: "1015#神兵山庄-据点#1#0#92115#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:51.3851240+08:00
-    split: 1
+  - split: 1
     text: "神兵山庄-据点"
     translated: "Divine Weapon Mountain Villa - Outpost"
 - lineNum: 1016
   raw: "1016#御虚门-据点#1#0#92116#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.0889452+08:00
-    split: 1
+  - split: 1
     text: "御虚门-据点"
     translated: "Imperial Void Gate - Outpost"
 - lineNum: 1017
   raw: "1017#凌云宗-据点#1#0#92117#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:57.5331074+08:00
-    split: 1
+  - split: 1
     text: "凌云宗-据点"
     translated: "Soaring Clouds Sect - Outpost"
 - lineNum: 1018
   raw: "1018#墨门-据点#1#0#92118#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.5319137+08:00
-    split: 1
+  - split: 1
     text: "墨门-据点"
     translated: "Ink Gate - Outpost"
 - lineNum: 1019
   raw: "1019#长旌军-据点#1#0#92119#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:51.4416481+08:00
-    split: 1
+  - split: 1
     text: "长旌军-据点"
     translated: "Long Standard Army - Outpost"
 - lineNum: 1020
   raw: "1020#楚军-据点#1#0#92120#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:58.2915227+08:00
-    split: 1
+  - split: 1
     text: "楚军-据点"
     translated: "Chu Army - Outpost"
 - lineNum: 1021
   raw: "1021#齐军-据点#1#0#92121#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.8147310+08:00
-    split: 1
+  - split: 1
     text: "齐军-据点"
     translated: "Qi Army - Outpost"
 - lineNum: 1022
   raw: "1022#遥雪峰-据点#1#0#92122#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:52.9447887+08:00
-    split: 1
+  - split: 1
     text: "遥雪峰-据点"
     translated: "Distant Snow Peak - Outpost"
 - lineNum: 1023
   raw: "1023#溯海派-据点#1#0#92123#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.0346559+08:00
-    split: 1
+  - split: 1
     text: "溯海派-据点"
     translated: "River's Source Faction - Outpost"
 - lineNum: 1024
   raw: "1024#十二连环坞-据点#1#0#92124#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.4780915+08:00
-    split: 1
+  - split: 1
     text: "十二连环坞-据点"
     translated: "Twelve-linked Fortress - Outpost"
 - lineNum: 1025
   raw: "1025#骆家军-据点#1#0#92125#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:52.2391249+08:00
-    split: 1
+  - split: 1
     text: "骆家军-据点"
     translated: "Luo Family Army - Outpost"
 - lineNum: 1026
   raw: "1026#黑沙寨-据点#1#0#92126#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:56.7003262+08:00
-    split: 1
+  - split: 1
     text: "黑沙寨-据点"
     translated: "Black Sand Stronghold - Outpost"
 - lineNum: 1027
   raw: "1027#拂松门-据点#1#0#92127#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.1446742+08:00
-    split: 1
+  - split: 1
     text: "拂松门-据点"
     translated: "Pine Brushing Gate - Outpost"
 - lineNum: 1028
   raw: "1028#岭花谷-据点#1#0#92128#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:54.0575228+08:00
-    split: 1
+  - split: 1
     text: "岭花谷-据点"
     translated: "Ridge Flower Valley - Outpost"
 - lineNum: 1029
   raw: "1029#千山学斋-据点#1#0#92129#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.7585377+08:00
-    split: 1
+  - split: 1
     text: "千山学斋-据点"
     translated: "Thousand Mountain Academy - Outpost"
 - lineNum: 1030
   raw: "1030#望尘客栈-据点#1#0#92130#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:56.1921263+08:00
-    split: 1
+  - split: 1
     text: "望尘客栈-据点"
     translated: "Whispering Dust Inn - Outpost"
 - lineNum: 1031
   raw: "1031#绝剑门-据点#1#0#92131#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.7019054+08:00
-    split: 1
+  - split: 1
     text: "绝剑门-据点"
     translated: "Sword Breaker Gate - Outpost"
 - lineNum: 1032
   raw: "1032#鸿月门-据点#1#0#92132#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.5920122+08:00
-    split: 1
+  - split: 1
     text: "鸿月门-据点"
     translated: "Grand Moon Sect - Outpost"
 - lineNum: 1033
   raw: "1033#普贤门-据点#1#0#92133#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.3690683+08:00
-    split: 1
+  - split: 1
     text: "普贤门-据点"
     translated: "Universal Virtue Gate - Outpost"
 - lineNum: 1034
   raw: "1034#十陵阁-据点#1#0#92134#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.2577420+08:00
-    split: 1
+  - split: 1
     text: "十陵阁-据点"
     translated: "Ten Tombs Pavilion - Outpost"
 - lineNum: 1035
   raw: "1035#流云镖局-据点#1#0#92135#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:54.2392933+08:00
-    split: 1
+  - split: 1
     text: "流云镖局-据点"
     translated: "Flowing Cloud Escort Agency - Outpost"
 - lineNum: 1036
   raw: "1036#高家-据点#1#0#92136#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.8720219+08:00
-    split: 1
+  - split: 1
     text: "高家-据点"
     translated: "Gao Family - Outpost"
 - lineNum: 1037
   raw: "1037#爻光谷-据点#1#0#92137#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.9265841+08:00
-    split: 1
+  - split: 1
     text: "爻光谷-据点"
     translated: "Light of Divination Valley - Outpost"
 - lineNum: 1038
   raw: "1038#福兴镖局-据点#1#0#92138#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:30:59.9847878+08:00
-    split: 1
+  - split: 1
     text: "福兴镖局-据点"
     translated: "Great Prosperity Escort Agency - Outpost"
 - lineNum: 1039
   raw: "1039#云川镖局-据点#1#0#92139#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.0420090+08:00
-    split: 1
+  - split: 1
     text: "云川镖局-据点"
     translated: "Cloud River Escort Agency - Outpost"
 - lineNum: 1040
   raw: "1040#鸿源学舍-据点#1#0#92140#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.0993172+08:00
-    split: 1
+  - split: 1
     text: "鸿源学舍-据点"
     translated: "Hongyuan Academy - Outpost"
 - lineNum: 1041
   raw: "1041#冼星堂-据点#1#0#92141#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.3360980+08:00
-    split: 1
+  - split: 1
     text: "冼星堂-据点"
     translated: "Xian Star Hall - Outpost"
 - lineNum: 1042
   raw: "1042#归墟剑宗-据点#1#0#92142#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.3921208+08:00
-    split: 1
+  - split: 1
     text: "归墟剑宗-据点"
     translated: "Return to Abyss Sword Sect - Outpost"
 - lineNum: 1043
   raw: "1043#三十六洞-据点#1#0#92143#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.2824845+08:00
-    split: 1
+  - split: 1
     text: "三十六洞-据点"
     translated: "Thirty-Six Caves - Outpost"
 - lineNum: 1044
   raw: "1044#寻清门-据点#1#0#92144#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.3377613+08:00
-    split: 1
+  - split: 1
     text: "寻清门-据点"
     translated: "Seeking Clarity Gate - Outpost"
 - lineNum: 1045
   raw: "1045#唐门-据点#1#0#92145#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.4471426+08:00
-    split: 1
+  - split: 1
     text: "唐门-据点"
     translated: "Tangmen - Outpost"
 - lineNum: 1046
   raw: "1046#东厂-据点#1#0#92146#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.5002361+08:00
-    split: 1
+  - split: 1
     text: "东厂-据点"
     translated: "Eastern Depot - Outpost"
 - lineNum: 1047
   raw: "1047#双修府-据点#1#0#92147#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.5540587+08:00
-    split: 1
+  - split: 1
     text: "双修府-据点"
     translated: "Dual Cultivation Manor - Outpost"
 - lineNum: 1048
   raw: "1048#龙首渡-据点#1#0#92148#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.6144909+08:00
-    split: 1
+  - split: 1
     text: "龙首渡-据点"
     translated: "Dragon's Head Crossing - Outpost"
 - lineNum: 1049
   raw: "1049#誓盟碑-据点#1#0#92149#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.6715535+08:00
-    split: 1
+  - split: 1
     text: "誓盟碑-据点"
     translated: "Oath Alliance Monument - Outpost"
 - lineNum: 1050
   raw: "1050#四圣峰-据点#1#0#92150#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.7254453+08:00
-    split: 1
+  - split: 1
     text: "四圣峰-据点"
     translated: "Four Sacred Peaks - Outpost"
 - lineNum: 1051
   raw: "1051#登天流-据点#1#0#92151#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.7800924+08:00
-    split: 1
+  - split: 1
     text: "登天流-据点"
     translated: "Heavenly Ascent Sect - Outpost"
 - lineNum: 1052
   raw: "1052#云鹤村-据点#1#0#92152#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.8340311+08:00
-    split: 1
+  - split: 1
     text: "云鹤村-据点"
     translated: "Cloud Crane Village - Outpost"
 - lineNum: 1053
   raw: "1053#菩提山-据点#1#0#92153#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.9446293+08:00
-    split: 1
+  - split: 1
     text: "菩提山-据点"
     translated: "Enlightenment Mountain - Outpost"
 - lineNum: 1054
   raw: "1054#瑶华原-据点#1#0#92154#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.9983992+08:00
-    split: 1
+  - split: 1
     text: "瑶华原-据点"
     translated: "Jade Blossom Field - Outpost"
 - lineNum: 1055
   raw: "1055#乘风渡-据点#1#0#92155#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:00.8892503+08:00
-    split: 1
+  - split: 1
     text: "乘风渡-据点"
     translated: "Wind Rider Crossing - Outpost"
 - lineNum: 1056
   raw: "1056#清风岗-据点#1#0#92156#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.0533165+08:00
-    split: 1
+  - split: 1
     text: "清风岗-据点"
     translated: "Clear Breeze Hill - Outpost"
 - lineNum: 1057
   raw: "1057#桃花坞-据点#1#0#92157#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.3313335+08:00
-    split: 1
+  - split: 1
     text: "桃花坞-据点"
     translated: "Peach Blossom Cove - Outpost"
 - lineNum: 1058
   raw: "1058#九曜津-据点#1#0#92158#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.4961646+08:00
-    split: 1
+  - split: 1
     text: "九曜津-据点"
     translated: "Nine Luminaries Crossing - Outpost"
 - lineNum: 1059
   raw: "1059#不周岭-据点#1#0#92159#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.5516619+08:00
-    split: 1
+  - split: 1
     text: "不周岭-据点"
     translated: "Unbroken Ridge - Outpost"
 - lineNum: 1060
   raw: "1060#穆特前线-据点#1#0#92160#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.6053911+08:00
-    split: 1
+  - split: 1
     text: "穆特前线-据点"
     translated: "Mu Te Frontline - Outpost"
 - lineNum: 1061
   raw: "1061#西域王庭-据点#1#0#92161#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.3869929+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-据点"
     translated: "Western Region Royal Court - Outpost"
 - lineNum: 1062
   raw: "1062#坠龙坡-据点#1#0#92162#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.4417048+08:00
-    split: 1
+  - split: 1
     text: "坠龙坡-据点"
     translated: "Falling Dragon Slope - Outpost"
 - lineNum: 1063
   raw: "1063#天上山-据点#1#0#92163#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.1633089+08:00
-    split: 1
+  - split: 1
     text: "天上山-据点"
     translated: "Heavenly Mountain - Outpost"
 - lineNum: 1064
   raw: "1064#合纵道-据点#1#0#92164#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.6077267+08:00
-    split: 1
+  - split: 1
     text: "合纵道-据点"
     translated: "Alliance Path - Outpost"
 - lineNum: 1065
   raw: "1065#连横隘-据点#1#0#92165#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.6647089+08:00
-    split: 1
+  - split: 1
     text: "连横隘-据点"
     translated: "United Front Pass - Outpost"
 - lineNum: 1066
   raw: "1066#老君山-据点#1#0#92166#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.8289303+08:00
-    split: 1
+  - split: 1
     text: "老君山-据点"
     translated: "Old Sage Mountain - Outpost"
 - lineNum: 1067
   raw: "1067#蓬莱村-据点#1#0#92167#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.2179471+08:00
-    split: 1
+  - split: 1
     text: "蓬莱村-据点"
     translated: "Penglai Village - Outpost"
 - lineNum: 1068
   raw: "1068#问剑道-据点#1#0#92168#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.1087782+08:00
-    split: 1
+  - split: 1
     text: "问剑道-据点"
     translated: "Sword Seeking Path - Outpost"
 - lineNum: 1069
   raw: "1069#钓龙湖-据点#1#0#92169#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.2182939+08:00
-    split: 1
+  - split: 1
     text: "钓龙湖-据点"
     translated: "Dragon Fishing Lake - Outpost"
 - lineNum: 1070
   raw: "1070#迦南遗址-据点#1#0#92170#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.3323072+08:00
-    split: 1
+  - split: 1
     text: "迦南遗址-据点"
     translated: "Canaanite Ruins - Outpost"
 - lineNum: 1071
   raw: "1071#星陨荒-据点#1#0#92171#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.2728110+08:00
-    split: 1
+  - split: 1
     text: "星陨荒-据点"
     translated: "Starfall Wasteland - Outpost"
 - lineNum: 1072
   raw: "1072#落雁湖-据点#1#0#92172#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.8831088+08:00
-    split: 1
+  - split: 1
     text: "落雁湖-据点"
     translated: "Falling Geese Lake - Outpost"
 - lineNum: 1073
   raw: "1073#王府-据点#1#0#92173#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.2754610+08:00
-    split: 1
+  - split: 1
     text: "王府-据点"
     translated: "Royal Residence - Outpost"
 - lineNum: 1074
   raw: "1074#聚灵川-据点#1#0#92174#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.1628287+08:00
-    split: 1
+  - split: 1
     text: "聚灵川-据点"
     translated: "Spirit Gathering River - Outpost"
 - lineNum: 1075
   raw: "1075#东海镇-据点#1#0#92175#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.9383388+08:00
-    split: 1
+  - split: 1
     text: "东海镇-据点"
     translated: "Eastern Sea Town - Outpost"
 - lineNum: 1076
   raw: "1076#祈灵川-据点#1#0#92176#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.4436288+08:00
-    split: 1
+  - split: 1
     text: "祈灵川-据点"
     translated: "Spirit Prayer River - Outpost"
 - lineNum: 1077
   raw: "1077#合气岛-据点#1#0#92177#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.7197318+08:00
-    split: 1
+  - split: 1
     text: "合气岛-据点"
     translated: "Qi Harmony Island - Outpost"
 - lineNum: 1078
   raw: "1078#胜景林-据点#1#0#92178#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.5559487+08:00
-    split: 1
+  - split: 1
     text: "胜景林-据点"
     translated: "Scenic Forest - Outpost"
 - lineNum: 1079
   raw: "1079#玉沙关-据点#1#0#92179#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.6110457+08:00
-    split: 1
+  - split: 1
     text: "玉沙关-据点"
     translated: "Jade Sand Pass - Outpost"
 - lineNum: 1080
   raw: "1080#天门山-据点#1#0#92180#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.6649026+08:00
-    split: 1
+  - split: 1
     text: "天门山-据点"
     translated: "Heavenly Gate Mountain - Outpost"
 - lineNum: 1081
   raw: "1081#伊宁镇-据点#1#0#92181#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.0103666+08:00
-    split: 1
+  - split: 1
     text: "伊宁镇-据点"
     translated: "Yining Town - Outpost"
 - lineNum: 1082
   raw: "1082#连麓山-据点#1#0#92182#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.7203688+08:00
-    split: 1
+  - split: 1
     text: "连麓山-据点"
     translated: "Connected Ridge Mountain - Outpost"
 - lineNum: 1083
   raw: "1083#盘山道-据点#1#0#92183#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.9931058+08:00
-    split: 1
+  - split: 1
     text: "盘山道-据点"
     translated: "Winding Mountain Road - Outpost"
 - lineNum: 1084
   raw: "1084#谷外秘径-据点#1#0#92184#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.6042108+08:00
-    split: 1
+  - split: 1
     text: "谷外秘径-据点"
     translated: "Secret Path Beyond the Valley - Outpost"
 - lineNum: 1085
   raw: "1085#桃隐村-据点#1#0#92185#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.9561130+08:00
-    split: 1
+  - split: 1
     text: "桃隐村-据点"
     translated: "Hidden Peach Village - Outpost"
 - lineNum: 1086
   raw: "1086#贪狼道-据点#1#0#92186#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.1308329+08:00
-    split: 1
+  - split: 1
     text: "贪狼道-据点"
     translated: "Greedy Wolf Path - Outpost"
 - lineNum: 1087
   raw: "1087#崇吾涧-据点#1#0#92187#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.3247280+08:00
-    split: 1
+  - split: 1
     text: "崇吾涧-据点"
     translated: "Chongwu Valley - Outpost"
 - lineNum: 1088
   raw: "1088#千霁峰-据点#1#0#92188#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:01.7744607+08:00
-    split: 1
+  - split: 1
     text: "千霁峰-据点"
     translated: "Thousand Clear Peak - Outpost"
 - lineNum: 1089
   raw: "1089#文昌湖-据点#1#0#92189#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.1050728+08:00
-    split: 1
+  - split: 1
     text: "文昌湖-据点"
     translated: "Wenchang Lake - Outpost"
 - lineNum: 1090
   raw: "1090#法华村-据点#1#0#92190#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.2701679+08:00
-    split: 1
+  - split: 1
     text: "法华村-据点"
     translated: "Dharma Blossom Village - Outpost"
 - lineNum: 1091
   raw: "1091#小石镇-据点#1#0#92191#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.8994840+08:00
-    split: 1
+  - split: 1
     text: "小石镇-据点"
     translated: "Little Stone Town - Outpost"
 - lineNum: 1092
   raw: "1092#枰栌-据点#1#0#92192#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.6590638+08:00
-    split: 1
+  - split: 1
     text: "枰栌-据点"
     translated: "Pinglu - Outpost"
 - lineNum: 1093
   raw: "1093#化龙瀑-据点#1#0#92193#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.7983881+08:00
-    split: 1
+  - split: 1
     text: "化龙瀑-据点"
     translated: "Transforming Dragon Waterfall - Outpost"
 - lineNum: 1094
   raw: "1094#求缘树-据点#1#0#92194#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.8580657+08:00
-    split: 1
+  - split: 1
     text: "求缘树-据点"
     translated: "Tree of Destiny - Outpost"
 - lineNum: 1095
   raw: "1095#落凤原-据点#1#0#92195#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.0477373+08:00
-    split: 1
+  - split: 1
     text: "落凤原-据点"
     translated: "Fallen Phoenix Plain - Outpost"
 - lineNum: 1096
   raw: "1096#胜云山-据点#1#0#92196#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.5488164+08:00
-    split: 1
+  - split: 1
     text: "胜云山-据点"
     translated: "Triumphant Cloud Mountain - Outpost"
 - lineNum: 1097
   raw: "1097#淮陵-据点#1#0#92197#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.5006714+08:00
-    split: 1
+  - split: 1
     text: "淮陵-据点"
     translated: "Huailing - Outpost"
 - lineNum: 1098
   raw: "1098#飞鸿原-据点#1#0#92198#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.4935149+08:00
-    split: 1
+  - split: 1
     text: "飞鸿原-据点"
     translated: "Flying Swan Plain - Outpost"
 - lineNum: 1099
   raw: "1099#寻星道-据点#1#0#92199#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.1793402+08:00
-    split: 1
+  - split: 1
     text: "寻星道-据点"
     translated: "Star Seeking Path - Outpost"
 - lineNum: 1100
   raw: "1100#仙洲-据点#1#0#92200#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.2331802+08:00
-    split: 1
+  - split: 1
     text: "仙洲-据点"
     translated: "Immortal Isle - Outpost"
 - lineNum: 1101
   raw: "1101#无涯岛-据点#1#0#92201#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.3876273+08:00
-    split: 1
+  - split: 1
     text: "无涯岛-据点"
     translated: "Boundless Island - Outpost"
 - lineNum: 1102
   raw: "1102#七十二福地-据点#1#0#92202#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.7679587+08:00
-    split: 1
+  - split: 1
     text: "七十二福地-据点"
     translated: "Seventy-Two Blessings Lands - Outpost"
 - lineNum: 1103
   raw: "1103#桂宫道-据点#1#0#92203#KONG#5008#3#0#0##0#0#0#0#1#1#0#0#YunXiaoDian##-1#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.1208381+08:00
-    split: 1
+  - split: 1
     text: "桂宫道-据点"
     translated: "Way of the Osmanthus Palace - Outpost"
 - lineNum: 2001
   raw: "2001#昌瑞楼#1#22#96001#ChangRuiLou#77019#64#8#480##2#0#0#0#0#1##0#ChangRuiLou#矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9720509+08:00
-    split: 1
+  - split: 1
     text: "昌瑞楼"
     translated: "Chang Rui Lou"
-  - lastTranslatedOn: 2025-03-06T07:30:07.4666962+08:00
-    split: 20
+  - split: 20
     text: "矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣"
     translated: "Standing at the pinnacle of the martial sect, majestic and grand, like the sun at its zenith. The festival's brilliant lights shine brightly in every direction, showcasing the glory of the sect. Mainly responsible for development and prosperity."
 - lineNum: 2002
   raw: "2002#众英坊#1#18#96002#ZhongYinFang#77019#64#8#480##2#0#0#0#0#1##0#ZhongYinFang#英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展人数#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9721033+08:00
-    split: 1
+  - split: 1
     text: "众英坊"
     translated: "The Society of Heroes"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9721228+08:00
-    split: 20
+  - split: 20
     text: "英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展人数"
     translated: "Heroes gather together, their feats of valor shine on the hero's roster like a glittering constellation, illuminating the path of the sect. Mainly responsible for developing numbers"
 - lineNum: 2003
   raw: "2003#武略斋#1#15#96003#WuLueZai#77019#64#8#480##2#0#0#0#0#1##0#WuLueZai#兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9721504+08:00
-    split: 1
+  - split: 1
     text: "武略斋"
     translated: "Wu Lie Zhai"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9721706+08:00
-    split: 20
+  - split: 20
     text: "兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业"
     translated: "The Military Strategy Wisdom Repository houses an extensive collection of books filled with military tactics and strategies, offering a rich resource for exploration. It serves as a strategic asset for the sect, primarily responsible for developing industry"
 - lineNum: 2004
   raw: "2004#增辉阁#1#24#96004#ZengHuiGe#77019#64#8#480##2#0#0#0#0#1##0#ZengHuiGe#文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9721983+08:00
-    split: 1
+  - split: 1
     text: "增辉阁"
     translated: "Enhanced Radiance Pavilion"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9722183+08:00
-    split: 20
+  - split: 20
     text: "文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声"
     translated: "Flourishing literary talent and artistic excellence fill the hall. Writers and scholars wield their brushes with vigor, showcasing not only in poetry and prose but also through painting and sculpture the depth of cultural heritage. The main responsibility lies in fostering a reputation"
 - lineNum: 2005
   raw: "2005#富贾阁#1#19#96005#FuGuGe#5001#30#8#0##2#8#2400#2#0#1##0#FuGuGe#商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，同时提供一定资金收入。#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9722467+08:00
-    split: 1
+  - split: 1
     text: "富贾阁"
     translated: "Rich Merchant's Hall"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9722660+08:00
-    split: 20
+  - split: 20
     text: "商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，同时提供一定资金收入。"
     translated: "In a bustling hub of merchants, the savvy and capable are tasked with amassing wealth for the sect, bridging it to external prosperity. Their primary responsibility is commercial development while also ensuring some financial income"
 - lineNum: 2006
   raw: "2006#丰稔堂#1#21#96006#FengRenTang#5002#30#8#0##2#9#1800#2#0#1##0#FengRenTang#农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，同时提供一定药粮收入。#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9722938+08:00
-    split: 1
+  - split: 1
     text: "丰稔堂"
     translated: "Abundant Harvest Hall"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9723133+08:00
-    split: 20
+  - split: 20
     text: "农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，同时提供一定药粮收入。"
     translated: "The Agrarian Sanctuary is a land of fertile soil, where grains abound in abundance. It supplies the martial sect with stable food and resources. Its primary responsibility lies in advancing agriculture while also generating a certain income from medicinal herbs"
 - lineNum: 2007
   raw: "2007#金石馆#1#20#96007#JinShiGuan#5003#30#8#0##2#10#600#2#0#1##0#JinShiGuan#金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，同时提供一定矿石收入。#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9723412+08:00
-    split: 1
+  - split: 1
     text: "金石馆"
     translated: "The Hall of Gold and Stone"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9723612+08:00
-    split: 20
+  - split: 20
     text: "金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，同时提供一定矿石收入。"
     translated: "A dazzling hub of gold and stone artifacts, where collectors delve into mysteries to enrich cultural depth. Primarily responsible for developing mining operations while also providing a certain amount of mineral revenue"
 - lineNum: 2008
   raw: "2008#宗门基石#1#8#96008#ZongMenJiShi#5001#3#8#0##2#0#0#0#0#1##0#ZongMenJiShi#曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石以解锁其他建筑。#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9724008+08:00
-    split: 1
+  - split: 1
     text: "宗门基石"
     translated: "Foundation of the Sect"
-  - lastTranslatedOn: 2025-02-24T16:45:26.2803467+08:00
-    split: 20
+  - split: 20
     text: "曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石以解锁其他建筑。"
     translated: "Once a top-tier sacred site of Wulin in the world, today it is an uncharted land. Though its glory has not yet returned, a hint of new life quietly stirs. Construct the foundational stones of the sect to unlock other buildings."
 - lineNum: 2009
   raw: "2009#镇安殿#1#23#96009#YunXiaoDian#77019#64#8#480##2#0#0#0#0#1##0#YunXiaoDian#宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9724491+08:00
-    split: 1
+  - split: 1
     text: "镇安殿"
     translated: "Palace of Tranquil Peace"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9724691+08:00
-    split: 20
+  - split: 20
     text: "宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定"
     translated: "Zongmen sacred site, towering to the clouds, dazzling with gold and jade. A place of celebration where all gather to honor the glory of our Zongmen. Mainly responsible for developing stability"
 - lineNum: 2010
   raw: "2010#宗门大殿#1#0#96010#ZongMenChi#5001#10#8#0##2#0#0#0#0#1##0#ZongMenChi#宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。大殿提供了宗门名声上限，也体现了宗门的整体等级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9724961+08:00
-    split: 1
+  - split: 1
     text: "宗门大殿"
     translated: "Temple Hall of the Martial Sect"
-  - lastTranslatedOn: 2025-03-06T07:30:09.0553112+08:00
-    split: 20
+  - split: 20
     text: "宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。大殿提供了宗门名声上限，也体现了宗门的整体等级。"
     translated: "The Grand Hall of the Sect is the foundation of a faction. Also known as Yunxiao Hall, it was once magnificent and splendid; now, it is in a dilapidated state beyond repair. Time, like a blade, has eroded its former glory, leaving only dusty ruins behind. The Grand Hall provides the upper limit for the sect's reputation and reflects the overall rank of the sect."
 - lineNum: 2011
   raw: "2011#聚贤房#1#17#96011#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。可以升级。#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9725451+08:00
-    split: 1
+  - split: 1
     text: "聚贤房"
     translated: "The Hall of Gathering Sages"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9725651+08:00
-    split: 20
+  - split: 20
     text: "英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。可以升级。"
     translated: "Heroes and valiant figures have gathered in a spacious and bright room, furnished with tables for tea and chess. Here they strategize together, plotting the development of their clan. Upgrades available"
 - lineNum: 2012
   raw: "2012#演武堂#1#13#96012#YanWuTang#77020#16#8#640##2#0#0#0#0#1##0#YanWuTang#武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。主要负责队伍出征#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9725935+08:00
-    split: 1
+  - split: 1
     text: "演武堂"
     translated: "Wudao Pavilion"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9726128+08:00
-    split: 20
+  - split: 20
     text: "武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。主要负责队伍出征"
     translated: "The venue for martial arts displays and the grand martial competition is spacious and open, accommodating several hundred spectators to witness the splendor of martial skills. The main responsibility lies in organizing teams for expeditions"
 - lineNum: 2013
   raw: "2013#练功房#1#12#96013#LianGongFang#77020#16#8#640##2#0#0#0#0#1##0#LianGongFang#日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。主要负责编制兵种#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9726412+08:00
-    split: 1
+  - split: 1
     text: "练功房"
     translated: "Training Hall"
-  - lastTranslatedOn: 2025-03-06T07:30:09.6467597+08:00
-    split: 20
+  - split: 20
     text: "日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。主要负责编制兵种"
     translated: "A daily training ground for martial arts with well-equipped facilities and a serene environment, providing an excellent practice setting. Primarily responsible for organizing the military units."
 - lineNum: 2014
   raw: "2014#闭关室#1#11#96014#BiGuanShi#77020#16#8#640##2#0#0#0#0#1##0#BiGuanShi#闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。主要负责升级兵种#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9726884+08:00
-    split: 1
+  - split: 1
     text: "闭关室"
     translated: "A meditation chamber"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9727085+08:00
-    split: 20
+  - split: 20
     text: "闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。主要负责升级兵种"
     translated: "Seclusion Chamber, the place where disciples of the sect retreat for training. The environment inside is tranquil and serene, with fresh air, providing a conducive setting for seclusion practice. It primarily handles the upgrade of military units"
 - lineNum: 2015
   raw: "2015#宗门宝库#1#10#96015#ZongMenBaoKu#77020#80#8#640##2#0#0#0#0#1##0#ZongMenBaoKu#财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。主要负责天工巧匠#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9727365+08:00
-    split: 1
+  - split: 1
     text: "宗门宝库"
     translated: "Zongmen Baoku"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9727561+08:00
-    split: 20
+  - split: 20
     text: "财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。主要负责天工巧匠"
     translated: "Treasure Vault, the repository of wealth and precious items accumulated over generations, providing a solid economic foundation. The main responsibility lies with the Master Artisans"
 - lineNum: 2016
   raw: "2016#藏经阁#1#9#96016#CangJinGe#77020#80#8#640##2#0#0#0#0#1##0#CangJinGe#知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。主要负责藏宝阁商店#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9727832+08:00
-    split: 1
+  - split: 1
     text: "藏经阁"
     translated: "The Library of Scriptures"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9728037+08:00
-    split: 20
+  - split: 20
     text: "知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。主要负责藏宝阁商店"
     translated: "A repository of knowledge and martial arts manuscripts, the collection is extensive and diverse, covering numerous domains to savor the nectar of wisdom. It primarily manages the operations of the Treasure Hall Store"
 - lineNum: 2017
   raw: "2017#巧匠坊#1#14#96017#TianGongFang#77020#80#8#640##2#0#0#0#0#1##0#TianGongFang#锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9728312+08:00
-    split: 1
+  - split: 1
     text: "巧匠坊"
     translated: "The Artisan Quarter"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9728511+08:00
-    split: 20
+  - split: 20
     text: "锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠"
     translated: "Forge and Craftsmanship Center, where skilled artisans gather in abundance, showcasing exceptional skills to create exquisite equipment and armor. Their primary responsibility is to develop master craftsmen"
 - lineNum: 2018
   raw: "2018#武备间#1#16#96018#WuBeiJian#77020#80#8#640##2#0#0#0#0#1##0#WuBeiJian#武器与防具存放地，整齐有序摆放装备，供弟子选择使用。主要负责发展装备#1#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9728786+08:00
-    split: 1
+  - split: 1
     text: "武备间"
     translated: "The Armory"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9728993+08:00
-    split: 20
+  - split: 20
     text: "武器与防具存放地，整齐有序摆放装备，供弟子选择使用。主要负责发展装备"
     translated: "The equipment storage area is organized with weapons and armor neatly arranged for disciples to choose from. The primary responsibility here is the development of equipment"
 - lineNum: 2019
   raw: "2019#礼堂#1#1#96069#BiGuanShi#77019#16#8#480##2#0#0#0#0#1##0#BiGuanShi#庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9729281+08:00
-    split: 1
+  - split: 1
     text: "礼堂"
     translated: "The auditorium"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9729482+08:00
-    split: 20
+  - split: 20
     text: "庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。可以升级。"
     translated: "Stoic and rustic, it bears witness to the origins of the sect. Inside the hall, a faint fragrance lingers, and upon turning around suddenly, one can almost hear the laughter and chatter of disciples from days past. It is eligible for an upgrade"
 - lineNum: 2020
   raw: "2020#卫堂#1#2#96070#LianGongFang#77019#16#8#480##2#0#0#0#0#1##0#LianGongFang#日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9729786+08:00
-    split: 1
+  - split: 1
     text: "卫堂"
     translated: "Courtier Wei"
-  - lastTranslatedOn: 2025-03-06T07:30:10.2679818+08:00
-    split: 20
+  - split: 20
     text: "日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。可以升级。"
     translated: "A spacious and well-lit training ground for daily martial arts practice, equipped with excellent facilities to provide an ideal environment for sparring. Upgrades are possible."
 - lineNum: 2021
   raw: "2021#财楼#1#3#96071#YunXiaoDian#77019#16#8#480##2#0#0#0#0#1##0#YunXiaoDian#珍宝收藏地，收藏珍稀金玉珠宝与艺术品，增添光彩与魅力。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9730273+08:00
-    split: 1
+  - split: 1
     text: "财楼"
     translated: "The Wealth Tower"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9730485+08:00
-    split: 20
+  - split: 20
     text: "珍宝收藏地，收藏珍稀金玉珠宝与艺术品，增添光彩与魅力。可以升级。"
     translated: "Treasure Trove: A haven for collecting rare gems, jade, jewels, and artworks, adding brilliance and allure. Upgradable"
 - lineNum: 2022
   raw: "2022#贤堂#1#4#96072#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9730762+08:00
-    split: 1
+  - split: 1
     text: "贤堂"
     translated: "Sage Hall"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9730959+08:00
-    split: 20
+  - split: 20
     text: "聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。可以升级。"
     translated: "Juxian Fang is a place within the sect where distinguished talents gather. Its name signifies a gathering of capable and wise individuals, serving as an important venue for attracting, nurturing, and hosting heroes from all directions. It can be upgraded"
 - lineNum: 2023
   raw: "2023#藏宝阁#1#5#96073#CangJinGe#77019#16#8#480##2#0#0#0#0#1##0#CangJinGe#藏宝阁，宗门之珍稀宝藏汇聚之所。阁内珍藏无数，既有历代先辈遗留下的稀世珍宝，也有宗门弟子在外历练所得之奇珍异宝。阁内布置典雅，光线柔和。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9732971+08:00
-    split: 1
+  - split: 1
     text: "藏宝阁"
     translated: "Secret Treasure Hall"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9733194+08:00
-    split: 20
+  - split: 20
     text: "藏宝阁，宗门之珍稀宝藏汇聚之所。阁内珍藏无数，既有历代先辈遗留下的稀世珍宝，也有宗门弟子在外历练所得之奇珍异宝。阁内布置典雅，光线柔和。可以升级。"
     translated: "Treasure Vault, a place where the rare and precious treasures of our sect are amassed. The vault houses countless treasures: from priceless heirlooms left by our ancestors to unique treasures acquired by our disciples through their trials beyond the gates. Inside the vault, the arrangement is elegant, with soft lighting. It can be upgraded"
 - lineNum: 2024
   raw: "2024#坊堂#1#6#96074#TianGongFang#77019#16#8#480##2#0#0#0#0#1##0#TianGongFang#天工坊，宗门之锻造与制作圣地。坊内汇聚了宗门中最顶尖的工匠，他们技艺高超，匠心独运，能够打造出各种精美绝伦的装备。可以升级。#0#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9733508+08:00
-    split: 1
+  - split: 1
     text: "坊堂"
     translated: "The streets of the town"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9733716+08:00
-    split: 20
+  - split: 20
     text: "天工坊，宗门之锻造与制作圣地。坊内汇聚了宗门中最顶尖的工匠，他们技艺高超，匠心独运，能够打造出各种精美绝伦的装备。可以升级。"
     translated: "Tian Gong Fang, the sacred forge and crafting ground of the Sect. Within its walls gather the Sect's most elite craftsmen, whose skills are unparalleled and masterfully unique, capable of forging exquisite and extraordinary equipment that can be upgraded"
 - lineNum: 2998
   raw: "2998#锯木厂#2#34#96037#JuMuChang#5001#10#8#480##1#77019#8#1#0#9##0#JuMuChang#锯木厂是宗门中用于加工木材的场所。在这里，原木被切割、打磨成各种规格的木材。是宗门木材资源的重要来源。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9734016+08:00
-    split: 1
+  - split: 1
     text: "锯木厂"
     translated: "Sawmill"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9734214+08:00
-    split: 20
+  - split: 20
     text: "锯木厂是宗门中用于加工木材的场所。在这里，原木被切割、打磨成各种规格的木材。是宗门木材资源的重要来源。"
     translated: "The Sawmill is a place within the Sect where wood is processed. Here, logs are cut and polished into various sizes of timber, serving as an important source of wooden resources for the Sect"
 - lineNum: 2999
   raw: "2999#石料厂#2#34#96038#KuangChang#5002#10#8#480##1#77020#10#1#0#9##0#KuangChang#石料厂专门开采与加工石材。从巨大的岩石中开采出石料，经过切割、打磨等工序，制作成建筑所需的石块、石板等。石料厂为宗门提供了石料来源。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9734498+08:00
-    split: 1
+  - split: 1
     text: "石料厂"
     translated: "The Stone Quarry"
-  - lastTranslatedOn: 2025-02-25T16:32:37.9657060+08:00
-    split: 20
+  - split: 20
     text: "石料厂专门开采与加工石材。从巨大的岩石中开采出石料，经过切割、打磨等工序，制作成建筑所需的石块、石板等。石料厂为宗门提供了石料来源。"
     translated: "The stone quarry specializes in extracting and processing stone materials. It extracts stone from large boulders, then cuts, polishes, and processes them to produce slabs, blocks, and other stones needed for construction. The stone quarry provides the source of stone for the martial arts sect."
 - lineNum: 3001
   raw: "3001#香料场#2#34#96019#XiangLiaoChang#77019#64#8#480##1#8#60#2#0#6#25#210#XiangLiaoChang#香料场种植并加工各种香料作物，如花椒、桂皮、丁香等。这些香料不仅用于宗门内部的烹饪与调味，还作为珍贵商品出口，为宗门带来财富。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5490781+08:00
-    split: 1
+  - split: 1
     text: "香料场"
     translated: "Spice Farm"
-  - lastTranslatedOn: 2025-02-25T16:32:34.9455393+08:00
-    split: 20
+  - split: 20
     text: "香料场种植并加工各种香料作物，如花椒、桂皮、丁香等。这些香料不仅用于宗门内部的烹饪与调味，还作为珍贵商品出口，为宗门带来财富。"
     translated: "The Spice Farm cultivates and processes various spice crops such as Sichuan pepper, cinnamon bark, and cloves. These spices are not only used for cooking and flavoring within the Sect but also serve as valuable commodities for export, bringing wealth to the Sect."
 - lineNum: 3002
   raw: "3002#胭脂坊#2#34#96020#YanZhi#77019#64#8#1200##1#8#75#2#0#6#25#240#YanZhi#胭脂坊是宗门中制作化妆品与护肤品的地方。这里汇聚了各种天然植物精华，经过精心调配与制作。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5491849+08:00
-    split: 1
+  - split: 1
     text: "胭脂坊"
     translated: "Cosmetic Workshop"
-  - lastTranslatedOn: 2025-02-25T16:32:34.0210547+08:00
-    split: 20
+  - split: 20
     text: "胭脂坊是宗门中制作化妆品与护肤品的地方。这里汇聚了各种天然植物精华，经过精心调配与制作。"
     translated: "The Cosmetic Workshop is the place within the sect where cosmetic and skincare products are made. Here, a variety of natural plant essences are gathered and carefully blended and crafted."
 - lineNum: 3003
   raw: "3003#珠宝坊#2#34#96021#ZhuBaoFang#77019#64#8#4800##1#8#105#2#0#6#25#270#ZhuBaoFang#珠宝坊是宗门中制作与加工珠宝饰品的场所。工匠们运用精湛的技艺，将各种宝石、珍珠等珍贵材料镶嵌在金银等贵金属上，制作出精美的珠宝饰品。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5492271+08:00
-    split: 1
+  - split: 1
     text: "珠宝坊"
     translated: "Jewelry Workshop"
-  - lastTranslatedOn: 2025-02-25T16:32:36.9593987+08:00
-    split: 20
+  - split: 20
     text: "珠宝坊是宗门中制作与加工珠宝饰品的场所。工匠们运用精湛的技艺，将各种宝石、珍珠等珍贵材料镶嵌在金银等贵金属上，制作出精美的珠宝饰品。"
     translated: "The Jewelry Workshop is the place within the sect where artisans craft and process jewelry. Using their masterful skills, they set various precious stones, pearls, and other valuable materials into gold, silver, and other precious metals to create exquisite jewelry pieces."
 - lineNum: 3004
   raw: "3004#农田#2#34#96022#NongTian#77019#64#8#480##1#8#60#2#0#6#26#215#NongTian#农田是宗门中种植粮食作物的场所。这里种植着水稻、小麦、玉米等粮食作物，为宗门提供了稳定的粮食来源。农田的丰收与否直接关系到宗门的粮食安全。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5492586+08:00
-    split: 1
+  - split: 1
     text: "农田"
     translated: "Crop Field"
-  - lastTranslatedOn: 2025-02-25T16:32:38.8793629+08:00
-    split: 20
+  - split: 20
     text: "农田是宗门中种植粮食作物的场所。这里种植着水稻、小麦、玉米等粮食作物，为宗门提供了稳定的粮食来源。农田的丰收与否直接关系到宗门的粮食安全。"
     translated: "The crop field is the place where the sect grows staple crops. Rice, wheat, corn, and other grains are cultivated here to provide a stable source of food for the sect. The harvest from these fields directly affects the food security of the sect."
 - lineNum: 3005
   raw: "3005#鱼塘#2#34#96023#YuTang#77019#64#8#1200##1#8#75#2#0#6#26#240#YuTang#鱼塘是宗门中养殖鱼类的场所。这里养殖着各种鱼类，如鲤鱼、鲫鱼、草鱼等，为宗门提供了丰富的水产资源。鱼塘的养殖技术与管理水平直接影响到鱼类的产量与质量。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9737310+08:00
-    split: 1
+  - split: 1
     text: "鱼塘"
     translated: "A fish pond"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9737579+08:00
-    split: 20
+  - split: 20
     text: "鱼塘是宗门中养殖鱼类的场所。这里养殖着各种鱼类，如鲤鱼、鲫鱼、草鱼等，为宗门提供了丰富的水产资源。鱼塘的养殖技术与管理水平直接影响到鱼类的产量与质量。"
     translated: "The fish pond is a place within the martial sect where various types of fish are raised. Species such as carp, bream, and grass carp are cultivated here, providing the sect with abundant aquatic resources. The techniques and management levels used in raising these fish directly affect their yield and quality"
 - lineNum: 3006
   raw: "3006#牧场#2#34#96024#MuChang#77019#64#8#4800##1#8#105#2#0#6#26#270#MuChang#牧场是宗门中养殖牲畜的场所。这里养殖着牛、羊、猪等牲畜，为宗门提供了肉类、奶类等食品资源。牧场的养殖规模与管理水平直接反映了宗门的畜牧业发展水平。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9738142+08:00
-    split: 1
+  - split: 1
     text: "牧场"
     translated: "Pasture"
-  - lastTranslatedOn: 2025-02-25T16:32:36.0744116+08:00
-    split: 20
+  - split: 20
     text: "牧场是宗门中养殖牲畜的场所。这里养殖着牛、羊、猪等牲畜，为宗门提供了肉类、奶类等食品资源。牧场的养殖规模与管理水平直接反映了宗门的畜牧业发展水平。"
     translated: "The pasture is the place within the sect where livestock are raised. Here, cattle, sheep, pigs, and other animals are bred to provide the sect with meat, dairy, and other food resources. The scale of breeding and management level at the pasture directly reflects the development level of the sect's animal husbandry industry."
 - lineNum: 3007
   raw: "3007#人参园#2#34#96025#RenShengYuan#77019#64#9#480##1#9#45#2#0#6#27#180#RenShengYuan#人参园专门种植珍贵的人参药材。这里的人参品质上乘，药效显著，是宗门中药材资源的重要组成部分。人参园的管理与采摘技术对于保证人参的品质至关重要。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5493490+08:00
-    split: 1
+  - split: 1
     text: "人参园"
     translated: "Ginseng Garden"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9738900+08:00
-    split: 20
+  - split: 20
     text: "人参园专门种植珍贵的人参药材。这里的人参品质上乘，药效显著，是宗门中药材资源的重要组成部分。人参园的管理与采摘技术对于保证人参的品质至关重要。"
     translated: "The Ginseng Garden specializes in cultivating valuable ginseng medicinal materials. The quality of the ginseng here is exquisite, with significant efficacy; it serves as an important component of the sect's medicinal resources. The management and harvesting techniques at the Ginseng Garden are crucial to ensuring the quality of the ginseng"
 - lineNum: 3008
   raw: "3008#草药园#2#34#96026#CaoYaoYuan#77019#64#9#1200##1#9#60#2#0#6#27#195#CaoYaoYuan#草药园种植着各种中药材，如黄芪、当归、枸杞等。这些药材不仅用于宗门内部的医疗与保健，还作为珍贵商品出口，为宗门带来经济收益。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5493500+08:00
-    split: 1
+  - split: 1
     text: "草药园"
     translated: "Herb Garden"
-  - lastTranslatedOn: 2025-03-01T17:12:42.8369900+08:00
-    split: 20
+  - split: 20
     text: "草药园种植着各种中药材，如黄芪、当归、枸杞等。这些药材不仅用于宗门内部的医疗与保健，还作为珍贵商品出口，为宗门带来经济收益。"
     translated: "The herb garden is planted with various Chinese medicinal herbs such as Huang Qi, Dang Gui, and Jujube. These herbs are not only used for medical care and health maintenance within the sect but also serve as valuable goods for export, bringing economic earnings to the sect."
 - lineNum: 3009
   raw: "3009#炼丹坊#2#34#96027#LianDanFang#77019#64#9#4800##1#9#75#2#0#6#27#210#LianDanFang#炼丹坊是宗门中制作丹药的地方。这里汇聚了各种珍贵药材与炼丹技艺，经过精心调配与炼制，生产出各种具有神奇功效的丹药，为宗门弟子提供了强大的助力。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9739829+08:00
-    split: 1
+  - split: 1
     text: "炼丹坊"
     translated: "Alchemical Workshop"
-  - lastTranslatedOn: 2025-03-06T07:50:18.7955806+08:00
-    split: 20
+  - split: 20
     text: "炼丹坊是宗门中制作丹药的地方。这里汇聚了各种珍贵药材与炼丹技艺，经过精心调配与炼制，生产出各种具有神奇功效的丹药，为宗门弟子提供了强大的助力。"
     translated: "The alchemical workshop is the place within the sect where elixirs are crafted. Here, various precious medicinal herbs and alchemical techniques converge; through careful blending and refinement, a variety of elixirs with miraculous effects are produced, providing immense support to the sect's disciples."
 - lineNum: 3010
   raw: "3010#瓷器窑#2#34#96028#CiQiYao#77020#80#9#480##1#9#45#2#0#6#28#180#CiQiYao#瓷器窑是宗门中制作瓷器的场所。工匠们运用高超的技艺与独特的工艺，将瓷土烧制成各种精美的瓷器制品，为宗门增添了文化底蕴与艺术价值。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5494142+08:00
-    split: 1
+  - split: 1
     text: "瓷器窑"
     translated: "Pottery Kiln"
-  - lastTranslatedOn: 2025-02-25T16:32:33.3889941+08:00
-    split: 20
+  - split: 20
     text: "瓷器窑是宗门中制作瓷器的场所。工匠们运用高超的技艺与独特的工艺，将瓷土烧制成各种精美的瓷器制品，为宗门增添了文化底蕴与艺术价值。"
     translated: "The Pottery Kiln is the place within the sect where porcelain is crafted. Artisans utilize their exceptional skills and unique techniques to transform clay into various exquisite porcelain items, enriching the sect with cultural depth and artistic value."
 - lineNum: 3011
   raw: "3011#丝坊#2#34#96029#ShiFang#77020#80#9#1200##1#9#60#2#0#6#28#195#ShiFang#丝坊是宗门中制作丝绸制品的地方。这里汇聚了各种优质蚕丝与精湛技艺，经过精心编织与染色，生产出各种丝绸服饰与家居用品，深受宗门内外人士的喜爱。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5494549+08:00
-    split: 1
+  - split: 1
     text: "丝坊"
     translated: "Silk Workshop"
-  - lastTranslatedOn: 2025-03-01T17:12:41.7326573+08:00
-    split: 20
+  - split: 20
     text: "丝坊是宗门中制作丝绸制品的地方。这里汇聚了各种优质蚕丝与精湛技艺，经过精心编织与染色，生产出各种丝绸服饰与家居用品，深受宗门内外人士的喜爱。"
     translated: "The Silk Workshop is the place within the sect where silk products are made. Here, various high-quality silkworms and exquisite skills come together. After meticulous weaving and dyeing, a variety of silk clothing and household items are produced, which are greatly appreciated by both members inside and outside the sect."
 - lineNum: 3012
   raw: "3012#茶叶园#2#34#96030#ChaYeYuan#77020#80#9#4800##1#9#75#2#0#6#28#210#ChaYeYuan#茶叶园种植着各种优质茶树，如龙井、铁观音、普洱等。这里出产的茶叶品质上乘，口感独特，是宗门中重要的饮品资源。茶叶园的采摘与制作工艺对于保证茶叶的品质至关重要。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5494560+08:00
-    split: 1
+  - split: 1
     text: "茶叶园"
     translated: "Tea Garden"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9741490+08:00
-    split: 20
+  - split: 20
     text: "茶叶园种植着各种优质茶树，如龙井、铁观音、普洱等。这里出产的茶叶品质上乘，口感独特，是宗门中重要的饮品资源。茶叶园的采摘与制作工艺对于保证茶叶的品质至关重要。"
     translated: "The tea garden is home to various high-quality tea trees, including Dragon Well, Tieguanyin, and Pu'er. The tea leaves produced here are of exceptional quality with a unique taste, serving as an important beverage resource within the sect. The harvesting and crafting techniques employed in the tea garden are crucial for ensuring the tea's quality"
 - lineNum: 3013
   raw: "3013#麻田#2#34#96031#MaTian#77020#80#9#480##1#10#45#2#0#6#29#75#MaTian#麻田是宗门中种植麻类作物的场所。这里种植的麻类作物如亚麻、黄麻等，经过加工后可制成各种麻制品，如麻布、麻绳等，为宗门提供了实用的生活用品。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5494566+08:00
-    split: 1
+  - split: 1
     text: "麻田"
     translated: "Hemp Field"
-  - lastTranslatedOn: 2025-02-25T16:32:44.1316581+08:00
-    split: 20
+  - split: 20
     text: "麻田是宗门中种植麻类作物的场所。这里种植的麻类作物如亚麻、黄麻等，经过加工后可制成各种麻制品，如麻布、麻绳等，为宗门提供了实用的生活用品。"
     translated: "Hemp Field is the place within the sect where hemp crops such as flax and jute are cultivated. After processing, these hemp plants can be turned into various hemp products like canvas and rope, providing the sect with practical everyday items."
 - lineNum: 3014
   raw: "3014#棉花田#2#34#96032#MaTian#77020#80#9#1200##1#10#45#2#0#6#29#90#MaTian#棉花田是宗门中种植棉花的场所。这里出产的棉花品质优良，纤维长而柔软，是制作棉纺织品的重要原料。棉花田的丰收与否直接关系到宗门棉纺织业的兴衰。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9742265+08:00
-    split: 1
+  - split: 1
     text: "棉花田"
     translated: "Cotton Fields"
-  - lastTranslatedOn: 2025-02-25T16:32:40.0602293+08:00
-    split: 20
+  - split: 20
     text: "棉花田是宗门中种植棉花的场所。这里出产的棉花品质优良，纤维长而柔软，是制作棉纺织品的重要原料。棉花田的丰收与否直接关系到宗门棉纺织业的兴衰。"
     translated: "The Cotton Field is where the sect cultivates cotton. The cotton produced here is of high quality, with long and soft fibers, making it an important raw material for producing cotton textiles. The success or failure of this harvest directly affects the rise and fall of the sect's cotton textile industry."
 - lineNum: 3015
   raw: "3015#桑田#2#34#96033#MaTian#77020#80#9#4800##1#10#60#2#0#6#29#105#MaTian#桑田是宗门中种植桑树的场所。桑叶是养蚕的重要饲料，而蚕茧则是制作丝绸的关键原料。桑田的管理与采摘技术对于保证丝绸产业的稳定发展具有重要意义。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5495125+08:00
-    split: 1
+  - split: 1
     text: "桑田"
     translated: "Mulberry Field"
-  - lastTranslatedOn: 2025-02-25T16:32:43.1417152+08:00
-    split: 20
+  - split: 20
     text: "桑田是宗门中种植桑树的场所。桑叶是养蚕的重要饲料，而蚕茧则是制作丝绸的关键原料。桑田的管理与采摘技术对于保证丝绸产业的稳定发展具有重要意义。"
     translated: "Mulberry Field is the place within the sect where mulberry trees are cultivated. Mulberry leaves serve as an essential feed for silkworms, while silkworm cocoons are a crucial raw material for producing silk. The management and harvesting techniques of the Mulberry Field are vital for ensuring the stable development of the silk industry."
 - lineNum: 3016
   raw: "3016#铁矿场#2#34#96034#KuangChang#77020#80#8#480##1#10#60#2#0#6#30#75#KuangChang#铁矿场是宗门中开采铁矿石的场所。这里出产的铁矿石经过冶炼后可制成各种铁制品，为宗门提供了重要的金属材料。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9743250+08:00
-    split: 1
+  - split: 1
     text: "铁矿场"
     translated: "Iron Mine"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9743449+08:00
-    split: 20
+  - split: 20
     text: "铁矿场是宗门中开采铁矿石的场所。这里出产的铁矿石经过冶炼后可制成各种铁制品，为宗门提供了重要的金属材料。"
     translated: "The Iron Mine is the place where the Sect refines iron ore. The iron ore produced here can be smelted into various iron products, providing the Sect with essential metal materials"
 - lineNum: 3017
   raw: "3017#铜矿场#2#34#96035#KuangChang#77020#80#8#1200##1#10#75#2#0#6#30#90#KuangChang#铜矿场专门开采铜矿资源。这里出产的铜矿石经过冶炼后可制成铜材。铜矿场的开采与冶炼技术对于保证铜材的质量至关重要。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-24T13:38:07.9743720+08:00
-    split: 1
+  - split: 1
     text: "铜矿场"
     translated: "Copper Mine"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9743918+08:00
-    split: 20
+  - split: 20
     text: "铜矿场专门开采铜矿资源。这里出产的铜矿石经过冶炼后可制成铜材。铜矿场的开采与冶炼技术对于保证铜材的质量至关重要。"
     translated: "The copper mine specifically extracts copper ore resources. The copper ore produced here can be processed into copper materials after smelting. The mining and smelting techniques of the copper mine are crucial for ensuring the quality of the copper materials"
 - lineNum: 3018
   raw: "3018#煤场#2#34#96036#KuangChang#77020#80#8#4800##1#10#90#2#0#6#30#105#KuangChang#煤场是宗门中储存与加工煤炭的场所。煤炭是重要的能源资源。煤场的管理与加工技术有利于提高煤炭的利用率。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-25T16:32:32.5495375+08:00
-    split: 1
+  - split: 1
     text: "煤场"
     translated: "Coal Yard"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9744394+08:00
-    split: 20
+  - split: 20
     text: "煤场是宗门中储存与加工煤炭的场所。煤炭是重要的能源资源。煤场的管理与加工技术有利于提高煤炭的利用率。"
     translated: "The coal yard is a place where the sect stores and processes coal. Coal is an important energy resource. Effective management and processing technology at the coal yard help improve the utilization rate of coal"
 - lineNum: 4001
   raw: "4001#不夜京-码头#10#30#96039#KONG#77019#64#8#480##2#9#720#2#1#1##0#MaTou#灯火通明的不夜港，船只往来频繁，商贾云集。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.0633882+08:00
-    split: 1
+  - split: 1
     text: "不夜京-码头"
     translated: "Evernight Capital - Port"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9744870+08:00
-    split: 20
+  - split: 20
     text: "灯火通明的不夜港，船只往来频繁，商贾云集。"
     translated: "In the brightly lit harbor that never sleeps, ships came and went frequently as traders gathered"
 - lineNum: 4002
   raw: "4002#不夜京-盐场#10#31#96040#KONG#77019#64#8#480##2#10#300#2#1#1##0#YanChang#广袤盐田白如雪，工人忙碌采盐忙，食盐供应充足。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.9058970+08:00
-    split: 1
+  - split: 1
     text: "不夜京-盐场"
     translated: "Evernight Capital - Salt Farm"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9745354+08:00
-    split: 20
+  - split: 20
     text: "广袤盐田白如雪，工人忙碌采盐忙，食盐供应充足。"
     translated: "The vast salt pans stretch out, white as snow. The workers are busy harvesting salt, ensuring there is an ample supply of food salt"
 - lineNum: 4003
   raw: "4003#不夜京-酒楼#10#26#96041#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#高朋满座，美食飘香，酒醇茶香，尽享人间烟火。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.1977587+08:00
-    split: 1
+  - split: 1
     text: "不夜京-酒楼"
     translated: "Evernight Capital - Tavern"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9745824+08:00
-    split: 20
+  - split: 20
     text: "高朋满座，美食飘香，酒醇茶香，尽享人间烟火。"
     translated: "Guests of high standing fill the hall, delectable foods waft their aroma, wine is rich and tea fragrant—enjoying all the pleasures of life"
 - lineNum: 4004
   raw: "4004#不夜京-青楼#10#25#96042#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#灯火阑珊处，佳人轻舞曼歌，欢声笑语，尽享红尘繁华。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.5417783+08:00
-    split: 1
+  - split: 1
     text: "不夜京-青楼"
     translated: "Evernight Capital - Pleasure house"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9746446+08:00
-    split: 20
+  - split: 20
     text: "灯火阑珊处，佳人轻舞曼歌，欢声笑语，尽享红尘繁华。"
     translated: "As the lights fade into a dim glow, the exquisite beauty dances and sings gracefully; laughter and chatter fill the air, fully indulging in the vibrant hustle and bustle of life"
 - lineNum: 4005
   raw: "4005#不夜京-医馆#10#27#96043#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#医者仁心，悬壶济世，救死扶伤，守护百姓安康。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.6105572+08:00
-    split: 1
+  - split: 1
     text: "不夜京-医馆"
     translated: "Evernight Capital - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9746946+08:00
-    split: 20
+  - split: 20
     text: "医者仁心，悬壶济世，救死扶伤，守护百姓安康。"
     translated: "A doctor's heart is benevolent, offering life-saving aid to the world with a suspended pot. They rescue those on the brink of death and assist the injured, safeguarding the well-being of all people"
 - lineNum: 4006
   raw: "4006#西域王庭-冶炼工坊#10#29#96044#KONG#77019#64#8#480##2#10#300#2#1#1##0#YeLianGongFang#炉火熊熊，铁水奔流，匠人精心锻造，兵器锋利无比。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.4168209+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-冶炼工坊"
     translated: "Western Region Royal Court - Metalworking Workshop"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9747428+08:00
-    split: 20
+  - split: 20
     text: "炉火熊熊，铁水奔流，匠人精心锻造，兵器锋利无比。"
     translated: "The flames roared fiercely, molten iron flowed smoothly; the artisan meticulously forged with care, crafting weapons of unparalleled sharpness"
 - lineNum: 4007
   raw: "4007#西域王庭-赌坊#10#32#96045#KONG#77019#64#8#480##2#8#960#2#1#1##0#DuFang#人声鼎沸，赌客云集，骰子翻滚，一夜暴富或倾家荡产。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.6980484+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-赌坊"
     translated: "Western Region Royal Court - Gambling Den"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9747896+08:00
-    split: 20
+  - split: 20
     text: "人声鼎沸，赌客云集，骰子翻滚，一夜暴富或倾家荡产。"
     translated: "The crowd buzzed with excitement as gamblers gathered, dice clattered across the table in a game of high stakes where fortunes were made or families ruined overnight"
 - lineNum: 4008
   raw: "4008#西域王庭-酒楼#10#26#96046#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#西域风情，美酒佳肴，宾朋满座，畅谈天下大事。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.8359871+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-酒楼"
     translated: "Western Region Royal Court - Tavern"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9748372+08:00
-    split: 20
+  - split: 20
     text: "西域风情，美酒佳肴，宾朋满座，畅谈天下大事。"
     translated: "Exotic Western region ambiance, fine wines and delicacies, a gathering full of guests, engaging in discussions about the great affairs of the world"
 - lineNum: 4009
   raw: "4009#西域王庭-青楼#10#25#96047#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#西域佳人，异域风情，歌舞升平，醉人心扉。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.4237047+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-青楼"
     translated: "Western Region Royal Court - Pleasure house"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9748858+08:00
-    split: 20
+  - split: 20
     text: "西域佳人，异域风情，歌舞升平，醉人心扉。"
     translated: "An exquisite beauty from the Western Regions, with an exotic allure. Her songs and dances bring peace and prosperity, captivating hearts and enchanting minds"
 - lineNum: 4010
   raw: "4010#西域王庭-医馆#10#27#96048#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#西域神医，妙手回春，悬壶西域，救死扶伤。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.0493963+08:00
-    split: 1
+  - split: 1
     text: "西域王庭-医馆"
     translated: "Western Region Royal Court - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9749339+08:00
-    split: 20
+  - split: 20
     text: "西域神医，妙手回春，悬壶西域，救死扶伤。"
     translated: "A Western Region Divine Doctor, with a miraculous touch that revives the fallen and heals the injured. With his life-saving canteen in hand, he journeys across the Western Regions to save lives"
 - lineNum: 4011
   raw: "4011#枰栌-染坊#10#28#96049#KONG#77019#64#8#480##2#9#720#2#1#1##0#RanFang#色彩斑斓，布料如云，匠人巧手染色，衣物绚丽夺目。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:02.8285735+08:00
-    split: 1
+  - split: 1
     text: "枰栌-染坊"
     translated: "Pinglu - Dyeing Workshop"
-  - lastTranslatedOn: 2025-03-08T00:33:52.2231975+08:00
-    split: 20
+  - split: 20
     text: "色彩斑斓，布料如云，匠人巧手染色，衣物绚丽夺目。"
     translated: "Vibrant in color, the fabric is as vast as clouds, with skilled hands expertly dyeing it into eye-catching splendor."
 - lineNum: 4012
   raw: "4012#枰栌-当铺#10#33#96050#KONG#77019#64#8#480##2#10#300#2#1#1##0#DangPu#典当救急，金银珠宝，古董字画，皆可兑换银两。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:04.3013853+08:00
-    split: 1
+  - split: 1
     text: "枰栌-当铺"
     translated: "Pinglu - Pawnshop"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9750287+08:00
-    split: 20
+  - split: 20
     text: "典当救急，金银珠宝，古董字画，皆可兑换银两。"
     translated: "Pawnbrokers provide emergency loans. Gold, silver, jewels, and antiques like calligraphy and paintings can all be exchanged for cash"
 - lineNum: 4013
   raw: "4013#枰栌-酒楼#10#26#96051#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#美食如云，宾朋满座，欢声笑语，共度美好时光。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.4091276+08:00
-    split: 1
+  - split: 1
     text: "枰栌-酒楼"
     translated: "Pinglu - Tavern"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9750758+08:00
-    split: 20
+  - split: 20
     text: "美食如云，宾朋满座，欢声笑语，共度美好时光。"
     translated: "Delicious food in abundance, the hall filled with guests, laughter and joyful chatter filling the air as everyone spends a wonderful time together"
 - lineNum: 4014
   raw: "4014#枰栌-青楼#10#25#96052#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#红颜倩影，琴棋书画，才子佳人，共谱浪漫篇章。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.5145883+08:00
-    split: 1
+  - split: 1
     text: "枰栌-青楼"
     translated: "Pinglu - Pleasure House"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9751229+08:00
-    split: 20
+  - split: 20
     text: "红颜倩影，琴棋书画，才子佳人，共谱浪漫篇章。"
     translated: "Enchanting beauty, mastery of music, chess, calligraphy, and painting — together, they compose a romantic saga"
 - lineNum: 4015
   raw: "4015#枰栌-医馆#10#27#96053#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#仁心仁术，救死扶伤，枰栌百姓，健康有保障。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T19:42:10.1873288+08:00
-    split: 1
+  - split: 1
     text: "枰栌-医馆"
     translated: "Pinglu - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-26T10:32:54.9152586+08:00
-    split: 20
+  - split: 20
     text: "仁心仁术，救死扶伤，枰栌百姓，健康有保障。"
     translated: "Compassionate heart and skill, saving the dying and aiding the injured; the people of Pinglu are assured health and safety."
 - lineNum: 4016
   raw: "4016#淮陵-码头#10#30#96054#KONG#77019#64#8#480##2#9#720#2#1#1##0#MaTou#淮水悠悠，码头繁忙，船只如梭，货运畅通无阻。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.6213561+08:00
-    split: 1
+  - split: 1
     text: "淮陵-码头"
     translated: "Huailing - Port"
-  - lastTranslatedOn: 2025-02-25T16:32:55.0920002+08:00
-    split: 20
+  - split: 20
     text: "淮水悠悠，码头繁忙，船只如梭，货运畅通无阻。"
     translated: "The Huai River flows smoothly, the port is bustling with activity, boats dart back and forth like shuttles, ensuring that cargo moves freely without obstruction."
 - lineNum: 4017
   raw: "4017#淮陵-盐场#10#31#96055#KONG#77019#64#8#480##2#10#300#2#1#1##0#YanChang#淮盐名扬四海，盐田广阔无垠，工人辛勤劳作。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:03.9803228+08:00
-    split: 1
+  - split: 1
     text: "淮陵-盐场"
     translated: "Huailing - Salt farm"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9752636+08:00
-    split: 20
+  - split: 20
     text: "淮盐名扬四海，盐田广阔无垠，工人辛勤劳作。"
     translated: "Salt from Huaiyang is renowned across the seas, with vast and boundless salt fields where workers toil diligently"
 - lineNum: 4018
   raw: "4018#淮陵-酒楼#10#26#96056#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#淮扬美食，色香味俱佳，宾朋相聚，共赏淮陵风光。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.3422689+08:00
-    split: 1
+  - split: 1
     text: "淮陵-酒楼"
     translated: "Huailing - Tavern"
-  - lastTranslatedOn: 2025-02-25T16:32:47.2799454+08:00
-    split: 20
+  - split: 20
     text: "淮扬美食，色香味俱佳，宾朋相聚，共赏淮陵风光。"
     translated: "Huaiyang cuisine is beautiful in color, aroma, and flavor. Friends gather to enjoy the scenic views of Huailing together."
 - lineNum: 4019
   raw: "4019#淮陵-青楼#10#25#96057#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#淮陵佳人，才情出众，歌舞翩翩，令人陶醉不已。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.6759384+08:00
-    split: 1
+  - split: 1
     text: "淮陵-青楼"
     translated: "Huailing - Pleasure house"
-  - lastTranslatedOn: 2025-02-25T16:32:55.5627208+08:00
-    split: 20
+  - split: 20
     text: "淮陵佳人，才情出众，歌舞翩翩，令人陶醉不已。"
     translated: "The lady from Huailing is remarkably talented, exuding grace in her singing and dancing that captivates everyone completely."
 - lineNum: 4020
   raw: "4020#淮陵-医馆#10#27#96058#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#医术高超，药到病除，淮陵百姓，安康无忧。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.4123099+08:00
-    split: 1
+  - split: 1
     text: "淮陵-医馆"
     translated: "Huailing - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-25T16:32:50.3875618+08:00
-    split: 20
+  - split: 20
     text: "医术高超，药到病除，淮陵百姓，安康无忧。"
     translated: "Renowned for their exceptional medical skills and effective remedies, the residents of Huailing live in peace and security."
 - lineNum: 4021
   raw: "4021#豫京-冶炼工坊#10#29#96059#KONG#77019#64#8#480##2#10#300#2#1#1##0#YeLianGongFang#炉火映天红，铁锤叮当响，兵器锋利，守护中原。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.1344963+08:00
-    split: 1
+  - split: 1
     text: "豫京-冶炼工坊"
     translated: "Yu Capital - Metalworking Workshop"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9754535+08:00
-    split: 20
+  - split: 20
     text: "炉火映天红，铁锤叮当响，兵器锋利，守护中原。"
     translated: "The forge fire reflects the red sky, and the sound of hammers echoes. The weapons are sharp, guarding the Central Plains"
 - lineNum: 4022
   raw: "4022#豫京-赌坊#10#32#96060#KONG#77019#64#8#480##2#8#960#2#1#1##0#DuFang#人声鼎沸，骰子飞舞，一夜暴富梦，尽在豫京赌坊。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.8874954+08:00
-    split: 1
+  - split: 1
     text: "豫京-赌坊"
     translated: "Yu Capital - Gambling den"
-  - lastTranslatedOn: 2025-02-25T16:32:46.7755362+08:00
-    split: 20
+  - split: 20
     text: "人声鼎沸，骰子飞舞，一夜暴富梦，尽在豫京赌坊。"
     translated: "The clamor of voices and the whirl of dice in motion; the dream of striking it rich overnight, all contained within the gambling dens of Yu Capital."
 - lineNum: 4023
   raw: "4023#豫京-酒楼#10#26#96061#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#中原美食，色香味俱全，宾朋满座，共赏豫京繁华。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.3623579+08:00
-    split: 1
+  - split: 1
     text: "豫京-酒楼"
     translated: "Yu Capital - Tavern"
-  - lastTranslatedOn: 2025-02-25T16:32:49.1210305+08:00
-    split: 20
+  - split: 20
     text: "中原美食，色香味俱全，宾朋满座，共赏豫京繁华。"
     translated: "Central Plains cuisine, full of color and aroma, offers a complete sensory experience. With friends and guests filling the tables, everyone enjoys the vibrant splendor of Yu Capital together."
 - lineNum: 4024
   raw: "4024#豫京-青楼#10#25#96062#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#中原佳人，才貌双全，琴棋书画，尽显中原风情。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.4651700+08:00
-    split: 1
+  - split: 1
     text: "豫京-青楼"
     translated: "Yu Capital - Pleasure House"
-  - lastTranslatedOn: 2025-02-24T13:38:07.9755987+08:00
-    split: 20
+  - split: 20
     text: "中原佳人，才貌双全，琴棋书画，尽显中原风情。"
     translated: "The lady of Central Plains, possessing both talent and beauty. Proficient in music, chess, calligraphy, and painting—she embodies the quintessence of Central Plains culture"
 - lineNum: 4025
   raw: "4025#豫京-医馆#10#27#96063#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#医术精湛，救死扶伤，豫京百姓，健康有依。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.0447854+08:00
-    split: 1
+  - split: 1
     text: "豫京-医馆"
     translated: "Yu Capital - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-25T16:32:51.5277808+08:00
-    split: 20
+  - split: 20
     text: "医术精湛，救死扶伤，豫京百姓，健康有依。"
     translated: "Their medical skills are exceptional, adept at saving lives and aiding the injured. The people of Yu Capital rely on them for health and well-being."
 - lineNum: 4026
   raw: "4026#雁州-染坊#10#28#96064#KONG#77019#64#8#480##2#9#720#2#1#1##0#RanFang#雁州布料，色彩斑斓，匠人精心染色，衣物如诗如画。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.8520500+08:00
-    split: 1
+  - split: 1
     text: "雁州-染坊"
     translated: "Yan Prefecture - Dyeing Workshop"
-  - lastTranslatedOn: 2025-02-25T16:32:56.4493816+08:00
-    split: 20
+  - split: 20
     text: "雁州布料，色彩斑斓，匠人精心染色，衣物如诗如画。"
     translated: "Yan Prefecture fabrics, vibrant in color, meticulously dyed by artisans, making the garments as poetic and picturesque as a painting."
 - lineNum: 4027
   raw: "4027#雁州-当铺#10#33#96065#KONG#77019#64#8#480##2#10#300#2#1#1##0#DangPu#典当应急，金银珠宝，皆可兑换，雁州经济繁荣。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.4826941+08:00
-    split: 1
+  - split: 1
     text: "雁州-当铺"
     translated: "Yan Prefecture - Pawnshop"
-  - lastTranslatedOn: 2025-02-25T16:32:52.8219348+08:00
-    split: 20
+  - split: 20
     text: "典当应急，金银珠宝，皆可兑换，雁州经济繁荣。"
     translated: "Pawnbroking for emergency needs, gold, silver, and jewels are all exchangeable, contributing to the prosperity of Yan Prefecture."
 - lineNum: 4028
   raw: "4028#雁州-酒楼#10#26#96066#KONG#77019#64#8#480##2#8#960#2#1#1##0#JiuLou#雁州美食，香飘四溢，宾朋相聚，共赏雁州美景。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.7433769+08:00
-    split: 1
+  - split: 1
     text: "雁州-酒楼"
     translated: "Yan Prefecture - Tavern"
-  - lastTranslatedOn: 2025-02-25T16:32:48.3157572+08:00
-    split: 20
+  - split: 20
     text: "雁州美食，香飘四溢，宾朋相聚，共赏雁州美景。"
     translated: "The delicacies of Yan Prefecture are fragrant and waft through the air, drawing friends and guests together to enjoy the beautiful scenery of Yan Prefecture."
 - lineNum: 4029
   raw: "4029#雁州-青楼#10#25#96067#KONG#77019#64#8#480##2#8#960#2#1#1##0#QinLou#雁州佳人，才艺出众，歌舞升平，令人流连忘返。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.9754388+08:00
-    split: 1
+  - split: 1
     text: "雁州-青楼"
     translated: "Yan Prefecture - Pleasure house"
-  - lastTranslatedOn: 2025-02-25T16:32:53.4680078+08:00
-    split: 20
+  - split: 20
     text: "雁州佳人，才艺出众，歌舞升平，令人流连忘返。"
     translated: "The ladies of Yan Prefecture are exceptionally talented, excelling in singing and dancing to bring peace and prosperity. Their performances captivate audiences, leaving them enchanted and reluctant to leave."
 - lineNum: 4030
   raw: "4030#雁州-医馆#10#27#96068#KONG#77019#64#8#480##2#9#720#2#1#1##0#YiGuan#医术高明，药到病除，雁州百姓，安康乐哉。#2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.2715452+08:00
-    split: 1
+  - split: 1
     text: "雁州-医馆"
     translated: "Yan Prefecture - Medical Pavilion"
-  - lastTranslatedOn: 2025-02-25T16:32:51.9977604+08:00
-    split: 20
+  - split: 20
     text: "医术高明，药到病除，雁州百姓，安康乐哉。"
     translated: "With exceptional medical skills, remedies that cure ailments when they arrive. The people of Yan Prefecture live in safety and happiness."
 - lineNum: 5001
   raw: "5001#捭阖谷-石料厂#10#34#96101#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.2049469+08:00
-    split: 1
+  - split: 1
     text: "捭阖谷-石料厂"
     translated: "Baihe Valley - Stone Quarry"
 - lineNum: 5002
   raw: "5002#捭阖谷-香料场#10#34#96102#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:06.5501156+08:00
-    split: 1
+  - split: 1
     text: "捭阖谷-香料场"
     translated: "Baihe Valley - Spice Farm"
 - lineNum: 5003
   raw: "5003#捭阖谷-鱼塘#10#34#96103#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.7082534+08:00
-    split: 1
+  - split: 1
     text: "捭阖谷-鱼塘"
     translated: "Baihe Valley - Fish pond"
 - lineNum: 5004
   raw: "5004#不周岭-锯木厂#10#34#96104#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.5693669+08:00
-    split: 1
+  - split: 1
     text: "不周岭-锯木厂"
     translated: "Unbroken Ridge - Sawmill"
 - lineNum: 5005
   raw: "5005#不周岭-炼丹坊#10#34#96105#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.7992915+08:00
-    split: 1
+  - split: 1
     text: "不周岭-炼丹坊"
     translated: "Unbroken Ridge - Alchemical Workshop"
 - lineNum: 5006
   raw: "5006#不周岭-鱼塘#10#34#96106#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.0960538+08:00
-    split: 1
+  - split: 1
     text: "不周岭-鱼塘"
     translated: "Unbroken Ridge - Fish pond"
 - lineNum: 5007
   raw: "5007#乘风渡-牧场#10#34#96107#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.0232679+08:00
-    split: 1
+  - split: 1
     text: "乘风渡-牧场"
     translated: "Wind Rider Crossing - Pasture"
 - lineNum: 5008
   raw: "5008#乘风渡-石料厂#10#34#96108#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:07.9570463+08:00
-    split: 1
+  - split: 1
     text: "乘风渡-石料厂"
     translated: "Wind Rider Crossing - Stone Quarry"
 - lineNum: 5009
   raw: "5009#乘风渡-胭脂坊#10#34#96109#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.2597385+08:00
-    split: 1
+  - split: 1
     text: "乘风渡-胭脂坊"
     translated: "Wind Rider Crossing - Cosmetic Workshop"
 - lineNum: 5010
   raw: "5010#崇吾涧-煤场#10#34#96110#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.1690946+08:00
-    split: 1
+  - split: 1
     text: "崇吾涧-煤场"
     translated: "Chongwu Valley - Coal Yard"
 - lineNum: 5011
   raw: "5011#崇吾涧-农田#10#34#96111#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.3487314+08:00
-    split: 1
+  - split: 1
     text: "崇吾涧-农田"
     translated: "Chongwu Valley - Crop field"
 - lineNum: 5012
   raw: "5012#崇吾涧-铜矿场#10#34#96112#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.8843588+08:00
-    split: 1
+  - split: 1
     text: "崇吾涧-铜矿场"
     translated: "Chongwu Valley - Copper Mine"
 - lineNum: 5013
   raw: "5013#楚军-人参园#10#34#96113#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.5659795+08:00
-    split: 1
+  - split: 1
     text: "楚军-人参园"
     translated: "Chu Army - Ginseng Garden"
 - lineNum: 5014
   raw: "5014#楚军-石料厂#10#34#96114#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.6350062+08:00
-    split: 1
+  - split: 1
     text: "楚军-石料厂"
     translated: "Chu Army - Stone Quarry"
 - lineNum: 5015
   raw: "5015#楚军-珠宝坊#10#34#96115#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.4603847+08:00
-    split: 1
+  - split: 1
     text: "楚军-珠宝坊"
     translated: "Chu Army - Jewelry Workshop"
 - lineNum: 5016
   raw: "5016#大雪山-牧场#10#34#96116#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:12:43.1809438+08:00
-    split: 1
+  - split: 1
     text: "大雪山-牧场"
     translated: "Great Snow Mountain - Pasture"
 - lineNum: 5017
   raw: "5017#大雪山-石料厂#10#34#96117#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:12:43.2562536+08:00
-    split: 1
+  - split: 1
     text: "大雪山-石料厂"
     translated: "Great Snow Mountain - Stone Quarry"
 - lineNum: 5018
   raw: "5018#大雪山-胭脂坊#10#34#96118#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-03-01T17:12:43.3485145+08:00
-    split: 1
+  - split: 1
     text: "大雪山-胭脂坊"
     translated: "Great Snow Mountain - Cosmetic Workshop"
 - lineNum: 5019
   raw: "5019#登天流-锯木厂#10#34#96119#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.9729151+08:00
-    split: 1
+  - split: 1
     text: "登天流-锯木厂"
     translated: "Heavenly Ascent Sect - Sawmill"
 - lineNum: 5020
   raw: "5020#登天流-麻田#10#34#96120#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.1511815+08:00
-    split: 1
+  - split: 1
     text: "登天流-麻田"
     translated: "Heavenly Ascent Sect - Hemp Field"
 - lineNum: 5021
   raw: "5021#登天流-牧场#10#34#96121#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.2903644+08:00
-    split: 1
+  - split: 1
     text: "登天流-牧场"
     translated: "Heavenly Ascent Sect - Pasture"
 - lineNum: 5022
   raw: "5022#钓龙湖-锯木厂#10#34#96122#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.4658288+08:00
-    split: 1
+  - split: 1
     text: "钓龙湖-锯木厂"
     translated: "Dragon Fishing Lake - Sawmill"
 - lineNum: 5023
   raw: "5023#钓龙湖-炼丹坊#10#34#96123#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.1432459+08:00
-    split: 1
+  - split: 1
     text: "钓龙湖-炼丹坊"
     translated: "Dragon Fishing Lake - Alchemical Workshop"
 - lineNum: 5024
   raw: "5024#钓龙湖-香料场#10#34#96124#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.3788332+08:00
-    split: 1
+  - split: 1
     text: "钓龙湖-香料场"
     translated: "Dragon Fishing Lake - Spice Farm"
 - lineNum: 5025
   raw: "5025#东厂-农田#10#34#96125#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.2325592+08:00
-    split: 1
+  - split: 1
     text: "东厂-农田"
     translated: "Eastern Depot - Crop field"
 - lineNum: 5026
   raw: "5026#东厂-石料厂#10#34#96126#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.7270714+08:00
-    split: 1
+  - split: 1
     text: "东厂-石料厂"
     translated: "Eastern Depot - Stone Quarry"
 - lineNum: 5027
   raw: "5027#东海镇-茶叶园#10#34#96127#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.3857066+08:00
-    split: 1
+  - split: 1
     text: "东海镇-茶叶园"
     translated: "Eastern Sea Town - Tea Garden"
 - lineNum: 5028
   raw: "5028#东海镇-人参园#10#34#96128#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.4322841+08:00
-    split: 1
+  - split: 1
     text: "东海镇-人参园"
     translated: "Eastern Sea Town - Ginseng Garden"
 - lineNum: 5029
   raw: "5029#东海镇-珠宝坊#10#34#96129#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.9553831+08:00
-    split: 1
+  - split: 1
     text: "东海镇-珠宝坊"
     translated: "Eastern Sea Town - Jewelry Workshop"
 - lineNum: 5030
   raw: "5030#法华村-瓷器窑#10#34#96130#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.7565083+08:00
-    split: 1
+  - split: 1
     text: "法华村-瓷器窑"
     translated: "Dharma Blossom Village - Pottery kiln"
 - lineNum: 5031
   raw: "5031#法华村-石料厂#10#34#96131#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.2225670+08:00
-    split: 1
+  - split: 1
     text: "法华村-石料厂"
     translated: "Dharma Blossom Village - Stone Quarry"
 - lineNum: 5032
   raw: "5032#法华村-胭脂坊#10#34#96132#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.3256745+08:00
-    split: 1
+  - split: 1
     text: "法华村-胭脂坊"
     translated: "Dharma Blossom Village - Cosmetic Workshop"
 - lineNum: 5033
   raw: "5033#飞鸿原-锯木厂#10#34#96133#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.8450091+08:00
-    split: 1
+  - split: 1
     text: "飞鸿原-锯木厂"
     translated: "Flying Swan Plain - Sawmill"
 - lineNum: 5034
   raw: "5034#飞鸿原-香料场#10#34#96134#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.2234074+08:00
-    split: 1
+  - split: 1
     text: "飞鸿原-香料场"
     translated: "Flying Swan Plain - Spice Farm"
 - lineNum: 5035
   raw: "5035#飞鸿原-鱼塘#10#34#96135#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.5388062+08:00
-    split: 1
+  - split: 1
     text: "飞鸿原-鱼塘"
     translated: "Flying Swan Plain - Fish pond"
 - lineNum: 5036
   raw: "5036#拂松门-锯木厂#10#34#96136#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:09.6279121+08:00
-    split: 1
+  - split: 1
     text: "拂松门-锯木厂"
     translated: "Pine Brushing Gate - Sawmill"
 - lineNum: 5037
   raw: "5037#拂松门-牧场#10#34#96137#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.5690856+08:00
-    split: 1
+  - split: 1
     text: "拂松门-牧场"
     translated: "Pine Brushing Gate - Pasture"
 - lineNum: 5038
   raw: "5038#拂松门-胭脂坊#10#34#96138#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.9746924+08:00
-    split: 1
+  - split: 1
     text: "拂松门-胭脂坊"
     translated: "Pine Brushing Gate - Cosmetic Workshop"
 - lineNum: 5039
   raw: "5039#福兴镖局-炼丹坊#10#34#96139#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.6590669+08:00
-    split: 1
+  - split: 1
     text: "福兴镖局-炼丹坊"
     translated: "Great Prosperity Escort Agency - Alchemical Workshop"
 - lineNum: 5040
   raw: "5040#福兴镖局-石料厂#10#34#96140#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.0445250+08:00
-    split: 1
+  - split: 1
     text: "福兴镖局-石料厂"
     translated: "Great Prosperity Escort Agency - Stone Quarry"
 - lineNum: 5041
   raw: "5041#福兴镖局-鱼塘#10#34#96141#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.8150172+08:00
-    split: 1
+  - split: 1
     text: "福兴镖局-鱼塘"
     translated: "Great Prosperity Escort Agency - Fish pond"
 - lineNum: 5042
   raw: "5042#丐门-石料厂#10#34#96142#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.5015451+08:00
-    split: 1
+  - split: 1
     text: "丐门-石料厂"
     translated: "Beggar Sect - Stone Quarry"
 - lineNum: 5043
   raw: "5043#丐门-香料场#10#34#96143#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.4716081+08:00
-    split: 1
+  - split: 1
     text: "丐门-香料场"
     translated: "Beggar Sect - Spice Farm"
 - lineNum: 5044
   raw: "5044#丐门-鱼塘#10#34#96144#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.2950260+08:00
-    split: 1
+  - split: 1
     text: "丐门-鱼塘"
     translated: "Beggar Sect - Fish pond"
 - lineNum: 5045
   raw: "5045#高家-草药园#10#34#96145#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.1350225+08:00
-    split: 1
+  - split: 1
     text: "高家-草药园"
     translated: "Gao Family - Herb Garden"
 - lineNum: 5046
   raw: "5046#高家-锯木厂#10#34#96146#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.5595818+08:00
-    split: 1
+  - split: 1
     text: "高家-锯木厂"
     translated: "Gao Family - Sawmill"
 - lineNum: 5047
   raw: "5047#高家-农田#10#34#96147#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.9997759+08:00
-    split: 1
+  - split: 1
     text: "高家-农田"
     translated: "Gao Family - Crop field"
 - lineNum: 5048
   raw: "5048#谷外秘径-石料厂#10#34#96148#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.9122487+08:00
-    split: 1
+  - split: 1
     text: "谷外秘径-石料厂"
     translated: "Secret Path Beyond the Valley - Stone Quarry"
 - lineNum: 5049
   raw: "5049#谷外秘径-铜矿场#10#34#96149#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.6706661+08:00
-    split: 1
+  - split: 1
     text: "谷外秘径-铜矿场"
     translated: "Secret Path Beyond the Valley - Copper Mine"
 - lineNum: 5050
   raw: "5050#谷外秘径-珠宝坊#10#34#96150#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.1828899+08:00
-    split: 1
+  - split: 1
     text: "谷外秘径-珠宝坊"
     translated: "Secret Path Beyond the Valley - Jewelry Workshop"
 - lineNum: 5051
   raw: "5051#归墟剑宗-锯木厂#10#34#96151#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.8417006+08:00
-    split: 1
+  - split: 1
     text: "归墟剑宗-锯木厂"
     translated: "Return to Abyss Sword Sect - Sawmill"
 - lineNum: 5052
   raw: "5052#归墟剑宗-人参园#10#34#96152#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.6652793+08:00
-    split: 1
+  - split: 1
     text: "归墟剑宗-人参园"
     translated: "Return to Abyss Sword Sect - Ginseng Garden"
 - lineNum: 5053
   raw: "5053#归墟剑宗-珠宝坊#10#34#96153#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.3810922+08:00
-    split: 1
+  - split: 1
     text: "归墟剑宗-珠宝坊"
     translated: "Return to Abyss Sword Sect - Jewelry Workshop"
 - lineNum: 5054
   raw: "5054#桂宫道-煤场#10#34#96154#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.2812845+08:00
-    split: 1
+  - split: 1
     text: "桂宫道-煤场"
     translated: "Way of the Osmanthus Palace - Coal Yard"
 - lineNum: 5055
   raw: "5055#桂宫道-农田#10#34#96155#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.0716409+08:00
-    split: 1
+  - split: 1
     text: "桂宫道-农田"
     translated: "Way of the Osmanthus Palace - Crop field."
 - lineNum: 5056
   raw: "5056#桂宫道-铜矿场#10#34#96156#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.4903164+08:00
-    split: 1
+  - split: 1
     text: "桂宫道-铜矿场"
     translated: "Way of the Osmanthus Palace - Copper mine."
 - lineNum: 5057
   raw: "5057#合气岛-草药园#10#34#96157#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.2715336+08:00
-    split: 1
+  - split: 1
     text: "合气岛-草药园"
     translated: "Qi Harmony Island - Herb Garden"
 - lineNum: 5058
   raw: "5058#合气岛-锯木厂#10#34#96158#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.5327907+08:00
-    split: 1
+  - split: 1
     text: "合气岛-锯木厂"
     translated: "Qi Harmony Island - Sawmill"
 - lineNum: 5059
   raw: "5059#合气岛-煤场#10#34#96159#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.8303435+08:00
-    split: 1
+  - split: 1
     text: "合气岛-煤场"
     translated: "Qi Harmony Island - Coal Yard"
 - lineNum: 5060
   raw: "5060#合纵道-棉花田#10#34#96160#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:11.7551188+08:00
-    split: 1
+  - split: 1
     text: "合纵道-棉花田"
     translated: "Alliance Path - Cotton Field"
 - lineNum: 5061
   raw: "5061#合纵道-人参园#10#34#96161#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.6711734+08:00
-    split: 1
+  - split: 1
     text: "合纵道-人参园"
     translated: "Alliance Path - Ginseng Garden"
 - lineNum: 5062
   raw: "5062#合纵道-石料厂#10#34#96162#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.8270959+08:00
-    split: 1
+  - split: 1
     text: "合纵道-石料厂"
     translated: "Alliance Path - Stone Quarry"
 - lineNum: 5063
   raw: "5063#黑沙寨-锯木厂#10#34#96163#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.3689845+08:00
-    split: 1
+  - split: 1
     text: "黑沙寨-锯木厂"
     translated: "Black Sand Stronghold - Sawmill"
 - lineNum: 5064
   raw: "5064#黑沙寨-炼丹坊#10#34#96164#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.8690009+08:00
-    split: 1
+  - split: 1
     text: "黑沙寨-炼丹坊"
     translated: "Black Sand Stronghold - Alchemical Workshop"
 - lineNum: 5065
   raw: "5065#黑沙寨-铁矿场#10#34#96165#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.3692130+08:00
-    split: 1
+  - split: 1
     text: "黑沙寨-铁矿场"
     translated: "Black Sand Stronghold - Iron Mine"
 - lineNum: 5066
   raw: "5066#鸿源学舍-草药园#10#34#96166#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.7611240+08:00
-    split: 1
+  - split: 1
     text: "鸿源学舍-草药园"
     translated: "Hongyuan Academy - Herb Garden"
 - lineNum: 5067
   raw: "5067#鸿源学舍-锯木厂#10#34#96167#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.4579682+08:00
-    split: 1
+  - split: 1
     text: "鸿源学舍-锯木厂"
     translated: "Hongyuan Academy - Sawmill"
 - lineNum: 5068
   raw: "5068#鸿源学舍-农田#10#34#96168#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.7576349+08:00
-    split: 1
+  - split: 1
     text: "鸿源学舍-农田"
     translated: "Hongyuan Academy - Crop field"
 - lineNum: 5069
   raw: "5069#鸿月门-草药园#10#34#96169#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.9207580+08:00
-    split: 1
+  - split: 1
     text: "鸿月门-草药园"
     translated: "Grand Moon Sect - Herb Garden"
 - lineNum: 5070
   raw: "5070#鸿月门-农田#10#34#96170#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:30:10.2680967+08:00
-    split: 1
+  - split: 1
     text: "鸿月门-农田"
     translated: "Grand Moon Sect - Crop Field"
 - lineNum: 5071
   raw: "5071#鸿月门-石料厂#10#34#96171#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.6028500+08:00
-    split: 1
+  - split: 1
     text: "鸿月门-石料厂"
     translated: "Grand Moon Sect - Stone Quarry"
 - lineNum: 5072
   raw: "5072#化龙瀑-草药园#10#34#96172#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.7794063+08:00
-    split: 1
+  - split: 1
     text: "化龙瀑-草药园"
     translated: "Transforming Dragon Waterfall - Herb Garden"
 - lineNum: 5073
   raw: "5073#化龙瀑-麻田#10#34#96173#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.6887948+08:00
-    split: 1
+  - split: 1
     text: "化龙瀑-麻田"
     translated: "Transforming Dragon Waterfall - Hemp Field"
 - lineNum: 5074
   raw: "5074#化龙瀑-桑田#10#34#96174#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.0634632+08:00
-    split: 1
+  - split: 1
     text: "化龙瀑-桑田"
     translated: "Transforming Dragon Waterfall - Mulberry Field"
 - lineNum: 5075
   raw: "5075#迦南遗址-锯木厂#10#34#96175#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:12.5792998+08:00
-    split: 1
+  - split: 1
     text: "迦南遗址-锯木厂"
     translated: "Canaanite Ruins - Sawmill"
 - lineNum: 5076
   raw: "5076#迦南遗址-人参园#10#34#96176#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.9749503+08:00
-    split: 1
+  - split: 1
     text: "迦南遗址-人参园"
     translated: "Canaanite Ruins - Ginseng Garden"
 - lineNum: 5077
   raw: "5077#迦南遗址-铜矿场#10#34#96177#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.2109246+08:00
-    split: 1
+  - split: 1
     text: "迦南遗址-铜矿场"
     translated: "Canaanite Ruins - Copper Mine"
 - lineNum: 5078
   raw: "5078#九曜津-锯木厂#10#34#96178#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.5663049+08:00
-    split: 1
+  - split: 1
     text: "九曜津-锯木厂"
     translated: "Nine Luminaries Crossing - Sawmill"
 - lineNum: 5079
   raw: "5079#九曜津-麻田#10#34#96179#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.0033937+08:00
-    split: 1
+  - split: 1
     text: "九曜津-麻田"
     translated: "Nine Luminaries Crossing - Hemp Field"
 - lineNum: 5080
   raw: "5080#九曜津-胭脂坊#10#34#96180#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.0960822+08:00
-    split: 1
+  - split: 1
     text: "九曜津-胭脂坊"
     translated: "Nine Luminaries Crossing - Cosmetic Workshop"
 - lineNum: 5081
   raw: "5081#聚灵川-棉花田#10#34#96181#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.2965142+08:00
-    split: 1
+  - split: 1
     text: "聚灵川-棉花田"
     translated: "Spirit Gathering River - Cotton field"
 - lineNum: 5082
   raw: "5082#聚灵川-人参园#10#34#96182#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.1177855+08:00
-    split: 1
+  - split: 1
     text: "聚灵川-人参园"
     translated: "Spirit Gathering River - Ginseng Garden"
 - lineNum: 5083
   raw: "5083#聚灵川-石料厂#10#34#96183#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.3964596+08:00
-    split: 1
+  - split: 1
     text: "聚灵川-石料厂"
     translated: "Spirit Gathering River - Stone Quarry"
 - lineNum: 5084
   raw: "5084#绝剑门-瓷器窑#10#34#96184#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.4780942+08:00
-    split: 1
+  - split: 1
     text: "绝剑门-瓷器窑"
     translated: "Sword Breaker Gate - Pottery Kiln"
 - lineNum: 5085
   raw: "5085#绝剑门-锯木厂#10#34#96185#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:14.1866277+08:00
-    split: 1
+  - split: 1
     text: "绝剑门-锯木厂"
     translated: "Sword Breaker Gate - Sawmill"
 - lineNum: 5086
   raw: "5086#绝剑门-炼丹坊#10#34#96186#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.4883390+08:00
-    split: 1
+  - split: 1
     text: "绝剑门-炼丹坊"
     translated: "Sword Breaker Gate - Alchemical Workshop"
 - lineNum: 5087
   raw: "5087#狂刀门-草药园#10#34#96187#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.2597496+08:00
-    split: 1
+  - split: 1
     text: "狂刀门-草药园"
     translated: "Wild Blade Sect - Herb Garden"
 - lineNum: 5088
   raw: "5088#狂刀门-锯木厂#10#34#96188#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:13.0108624+08:00
-    split: 1
+  - split: 1
     text: "狂刀门-锯木厂"
     translated: "Wild Blade Sect - Sawmill"
 - lineNum: 5089
   raw: "5089#狂刀门-农田#10#34#96189#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.1504586+08:00
-    split: 1
+  - split: 1
     text: "狂刀门-农田"
     translated: "Wild Blade Sect - Crop field"
 - lineNum: 5090
   raw: "5090#老君山-锯木厂#10#34#96190#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.2408601+08:00
-    split: 1
+  - split: 1
     text: "老君山-锯木厂"
     translated: "Old Sage Mountain - Sawmill"
 - lineNum: 5091
   raw: "5091#老君山-麻田#10#34#96191#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.9742342+08:00
-    split: 1
+  - split: 1
     text: "老君山-麻田"
     translated: "Old Sage Mountain - Hemp Field"
 - lineNum: 5092
   raw: "5092#老君山-牧场#10#34#96192#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.5497995+08:00
-    split: 1
+  - split: 1
     text: "老君山-牧场"
     translated: "Old Sage Mountain - Pasture"
 - lineNum: 5093
   raw: "5093#冷香坞-石料厂#10#34#96193#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.6441198+08:00
-    split: 1
+  - split: 1
     text: "冷香坞-石料厂"
     translated: "Cold Fragrance Cove - Stone Quarry"
 - lineNum: 5094
   raw: "5094#冷香坞-香料场#10#34#96194#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.5740022+08:00
-    split: 1
+  - split: 1
     text: "冷香坞-香料场"
     translated: "Cold Fragrance Cove - Spice Farm"
 - lineNum: 5095
   raw: "5095#冷香坞-鱼塘#10#34#96195#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.3269056+08:00
-    split: 1
+  - split: 1
     text: "冷香坞-鱼塘"
     translated: "Cold Fragrance Cove - Fish pond"
 - lineNum: 5096
   raw: "5096#连横隘-草药园#10#34#96196#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.0612158+08:00
-    split: 1
+  - split: 1
     text: "连横隘-草药园"
     translated: "United Front Pass - Herb Garden"
 - lineNum: 5097
   raw: "5097#连横隘-麻田#10#34#96197#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.5134006+08:00
-    split: 1
+  - split: 1
     text: "连横隘-麻田"
     translated: "United Front Pass - Hemp Field"
 - lineNum: 5098
   raw: "5098#连横隘-桑田#10#34#96198#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.7001350+08:00
-    split: 1
+  - split: 1
     text: "连横隘-桑田"
     translated: "United Front Pass - Mulberry Field"
 - lineNum: 5099
   raw: "5099#连麓山-石料厂#10#34#96199#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.5260782+08:00
-    split: 1
+  - split: 1
     text: "连麓山-石料厂"
     translated: "Connected Ridge Mountain - Stone Quarry"
 - lineNum: 5100
   raw: "5100#连麓山-铁矿场#10#34#96200#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.8835814+08:00
-    split: 1
+  - split: 1
     text: "连麓山-铁矿场"
     translated: "Connected Ridge Mountain - Iron Mine"
 - lineNum: 5101
   raw: "5101#连麓山-胭脂坊#10#34#96201#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.7385226+08:00
-    split: 1
+  - split: 1
     text: "连麓山-胭脂坊"
     translated: "Connected Ridge Mountain - Cosmetic Workshop"
 - lineNum: 5102
   raw: "5102#凌云宗-牧场#10#34#96202#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.4561107+08:00
-    split: 1
+  - split: 1
     text: "凌云宗-牧场"
     translated: "Soaring Clouds Sect - Pasture"
 - lineNum: 5103
   raw: "5103#凌云宗-石料厂#10#34#96203#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.0455506+08:00
-    split: 1
+  - split: 1
     text: "凌云宗-石料厂"
     translated: "Soaring Clouds Sect - Stone Quarry"
 - lineNum: 5104
   raw: "5104#凌云宗-胭脂坊#10#34#96204#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.3931965+08:00
-    split: 1
+  - split: 1
     text: "凌云宗-胭脂坊"
     translated: "Soaring Clouds Sect - Cosmetic Workshop"
 - lineNum: 5105
   raw: "5105#岭花谷-人参园#10#34#96205#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.4772216+08:00
-    split: 1
+  - split: 1
     text: "岭花谷-人参园"
     translated: "Ridge Flower Valley - Ginseng Garden"
 - lineNum: 5106
   raw: "5106#岭花谷-铁矿场#10#34#96206#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.8827954+08:00
-    split: 1
+  - split: 1
     text: "岭花谷-铁矿场"
     translated: "Ridge Flower Valley - Iron Mine"
 - lineNum: 5107
   raw: "5107#岭花谷-珠宝坊#10#34#96207#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.1691552+08:00
-    split: 1
+  - split: 1
     text: "岭花谷-珠宝坊"
     translated: "Ridge Flower Valley - Jewelry Workshop"
 - lineNum: 5108
   raw: "5108#流云镖局-人参园#10#34#96208#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.1062556+08:00
-    split: 1
+  - split: 1
     text: "流云镖局-人参园"
     translated: "Flowing Cloud Escort Agency - Ginseng Garden"
 - lineNum: 5109
   raw: "5109#流云镖局-桑田#10#34#96209#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.3852507+08:00
-    split: 1
+  - split: 1
     text: "流云镖局-桑田"
     translated: "Flowing Cloud Escort Agency - Mulberry Field"
 - lineNum: 5110
   raw: "5110#流云镖局-珠宝坊#10#34#96210#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.3691451+08:00
-    split: 1
+  - split: 1
     text: "流云镖局-珠宝坊"
     translated: "Flowing Cloud Escort Agency - Jewelry Workshop"
 - lineNum: 5111
   raw: "5111#龙首渡-石料厂#10#34#96211#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.2107083+08:00
-    split: 1
+  - split: 1
     text: "龙首渡-石料厂"
     translated: "Dragon's Head Crossing - Stone Quarry"
 - lineNum: 5112
   raw: "5112#龙首渡-香料场#10#34#96212#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.7199845+08:00
-    split: 1
+  - split: 1
     text: "龙首渡-香料场"
     translated: "Dragon's Head Crossing - Spice Farm"
 - lineNum: 5113
   raw: "5113#龙首渡-鱼塘#10#34#96213#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:15.8096710+08:00
-    split: 1
+  - split: 1
     text: "龙首渡-鱼塘"
     translated: "Dragon's Head Crossing - Fish pond"
 - lineNum: 5114
   raw: "5114#麓山书院-茶叶园#10#34#96214#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.1390720+08:00
-    split: 1
+  - split: 1
     text: "麓山书院-茶叶园"
     translated: "Mount Lu Academy - Tea Garden"
 - lineNum: 5115
   raw: "5115#麓山书院-人参园#10#34#96215#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.6330565+08:00
-    split: 1
+  - split: 1
     text: "麓山书院-人参园"
     translated: "Mount Lu Academy - Ginseng Garden"
 - lineNum: 5116
   raw: "5116#麓山书院-珠宝坊#10#34#96216#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.1277715+08:00
-    split: 1
+  - split: 1
     text: "麓山书院-珠宝坊"
     translated: "Mount Lu Academy - Jewelry Workshop"
 - lineNum: 5117
   raw: "5117#骆家军-锯木厂#10#34#96217#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.2965061+08:00
-    split: 1
+  - split: 1
     text: "骆家军-锯木厂"
     translated: "Luo Family Army - Sawmill"
 - lineNum: 5118
   raw: "5118#骆家军-人参园#10#34#96218#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.8347769+08:00
-    split: 1
+  - split: 1
     text: "骆家军-人参园"
     translated: "Luo Family Army - Ginseng Garden"
 - lineNum: 5119
   raw: "5119#骆家军-珠宝坊#10#34#96219#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.5928512+08:00
-    split: 1
+  - split: 1
     text: "骆家军-珠宝坊"
     translated: "Luo Family Army - Jewelry Workshop"
 - lineNum: 5120
   raw: "5120#落凤原-锯木厂#10#34#96220#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.4822599+08:00
-    split: 1
+  - split: 1
     text: "落凤原-锯木厂"
     translated: "Fallen Phoenix Plain - Sawmill"
 - lineNum: 5121
   raw: "5121#落凤原-人参园#10#34#96221#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.3023403+08:00
-    split: 1
+  - split: 1
     text: "落凤原-人参园"
     translated: "Fallen Phoenix Plain - Ginseng Garden"
 - lineNum: 5122
   raw: "5122#落凤原-丝坊#10#34#96222#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.9713714+08:00
-    split: 1
+  - split: 1
     text: "落凤原-丝坊"
     translated: "Fallen Phoenix Plain - Silk Workshop"
 - lineNum: 5123
   raw: "5123#落雁湖-锯木厂#10#34#96223#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.1981775+08:00
-    split: 1
+  - split: 1
     text: "落雁湖-锯木厂"
     translated: "Falling Geese Lake - Sawmill"
 - lineNum: 5124
   raw: "5124#落雁湖-麻田#10#34#96224#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.6357049+08:00
-    split: 1
+  - split: 1
     text: "落雁湖-麻田"
     translated: "Falling Geese Lake - Hemp Field"
 - lineNum: 5125
   raw: "5125#落雁湖-胭脂坊#10#34#96225#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.8589256+08:00
-    split: 1
+  - split: 1
     text: "落雁湖-胭脂坊"
     translated: "Falling Geese Lake - Cosmetic Workshop"
 - lineNum: 5126
   raw: "5126#墨门-炼丹坊#10#34#96226#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.8786426+08:00
-    split: 1
+  - split: 1
     text: "墨门-炼丹坊"
     translated: "Ink Gate - Alchemical Workshop"
 - lineNum: 5127
   raw: "5127#墨门-牧场#10#34#96227#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.8637109+08:00
-    split: 1
+  - split: 1
     text: "墨门-牧场"
     translated: "Ink Gate - Pasture"
 - lineNum: 5128
   raw: "5128#墨门-胭脂坊#10#34#96228#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:16.8104072+08:00
-    split: 1
+  - split: 1
     text: "墨门-胭脂坊"
     translated: "Ink Gate - Cosmetic Workshop"
 - lineNum: 5129
   raw: "5129#穆特前线-牧场#10#34#96229#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.0161526+08:00
-    split: 1
+  - split: 1
     text: "穆特前线-牧场"
     translated: "Mu Te Frontline - Pasture"
 - lineNum: 5130
   raw: "5130#穆特前线-石料厂#10#34#96230#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.3477847+08:00
-    split: 1
+  - split: 1
     text: "穆特前线-石料厂"
     translated: "Mu Te Frontline - Stone Quarry"
 - lineNum: 5131
   raw: "5131#穆特前线-铁矿场#10#34#96231#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.9071810+08:00
-    split: 1
+  - split: 1
     text: "穆特前线-铁矿场"
     translated: "Mu Te Frontline - Iron Mine"
 - lineNum: 5132
   raw: "5132#穆特族-锯木厂#10#34#96232#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.7866639+08:00
-    split: 1
+  - split: 1
     text: "穆特族-锯木厂"
     translated: "Mu Te Tribe - Sawmill"
 - lineNum: 5133
   raw: "5133#穆特族-香料场#10#34#96233#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.8762032+08:00
-    split: 1
+  - split: 1
     text: "穆特族-香料场"
     translated: "Mu Te Tribe - Spice Farm"
 - lineNum: 5134
   raw: "5134#穆特族-鱼塘#10#34#96234#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.9812417+08:00
-    split: 1
+  - split: 1
     text: "穆特族-鱼塘"
     translated: "Mu Te Tribe - Fish pond"
 - lineNum: 5135
   raw: "5135#盘山道-石料厂#10#34#96235#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.3844395+08:00
-    split: 1
+  - split: 1
     text: "盘山道-石料厂"
     translated: "Winding Mountain Road - Stone Quarry"
 - lineNum: 5136
   raw: "5136#盘山道-铁矿场#10#34#96236#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.9414782+08:00
-    split: 1
+  - split: 1
     text: "盘山道-铁矿场"
     translated: "Winding Mountain Road - Iron Mine"
 - lineNum: 5137
   raw: "5137#盘山道-胭脂坊#10#34#96237#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.2227424+08:00
-    split: 1
+  - split: 1
     text: "盘山道-胭脂坊"
     translated: "Winding Mountain Road - Cosmetic Workshop"
 - lineNum: 5138
   raw: "5138#蓬莱村-草药园#10#34#96238#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.7142687+08:00
-    split: 1
+  - split: 1
     text: "蓬莱村-草药园"
     translated: "Penglai Village - Herb Garden"
 - lineNum: 5139
   raw: "5139#蓬莱村-茶叶园#10#34#96239#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.5256463+08:00
-    split: 1
+  - split: 1
     text: "蓬莱村-茶叶园"
     translated: "Penglai Village - Tea Garden"
 - lineNum: 5140
   raw: "5140#蓬莱村-石料厂#10#34#96240#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.0591107+08:00
-    split: 1
+  - split: 1
     text: "蓬莱村-石料厂"
     translated: "Penglai Village - Stone Quarry"
 - lineNum: 5141
   raw: "5141#菩提山-锯木厂#10#34#96241#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.4351106+08:00
-    split: 1
+  - split: 1
     text: "菩提山-锯木厂"
     translated: "Enlightenment Mountain - Sawmill"
 - lineNum: 5142
   raw: "5142#菩提山-牧场#10#34#96242#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.9239431+08:00
-    split: 1
+  - split: 1
     text: "菩提山-牧场"
     translated: "Enlightenment Mountain - Pasture"
 - lineNum: 5143
   raw: "5143#菩提山-铁矿场#10#34#96243#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.2468909+08:00
-    split: 1
+  - split: 1
     text: "菩提山-铁矿场"
     translated: "Enlightenment Mountain - Iron Mine"
 - lineNum: 5144
   raw: "5144#普贤门-石料厂#10#34#96244#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.2912797+08:00
-    split: 1
+  - split: 1
     text: "普贤门-石料厂"
     translated: "Universal Virtue Gate - Stone Quarry"
 - lineNum: 5145
   raw: "5145#普贤门-香料场#10#34#96245#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.8516403+08:00
-    split: 1
+  - split: 1
     text: "普贤门-香料场"
     translated: "Universal Virtue Gate - Spice Farm"
 - lineNum: 5146
   raw: "5146#普贤门-鱼塘#10#34#96246#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.6798760+08:00
-    split: 1
+  - split: 1
     text: "普贤门-鱼塘"
     translated: "Universal Virtue Gate - Fish pond"
 - lineNum: 5147
   raw: "5147#七十二福-锯木厂#10#34#96247#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.5351199+08:00
-    split: 1
+  - split: 1
     text: "七十二福-锯木厂"
     translated: "Seventy-Two Blessings - Sawmill"
 - lineNum: 5148
   raw: "5148#七十二福-香料场#10#34#96248#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.6110242+08:00
-    split: 1
+  - split: 1
     text: "七十二福-香料场"
     translated: "Seventy-Two Blessings - Spice Farm"
 - lineNum: 5149
   raw: "5149#七十二福-鱼塘#10#34#96249#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.2644753+08:00
-    split: 1
+  - split: 1
     text: "七十二福-鱼塘"
     translated: "Seventy-Two Blessings - Fish pond"
 - lineNum: 5150
   raw: "5150#齐军-锯木厂#10#34#96250#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.1214603+08:00
-    split: 1
+  - split: 1
     text: "齐军-锯木厂"
     translated: "Qi Army - Sawmill"
 - lineNum: 5151
   raw: "5151#齐军-香料场#10#34#96251#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.5301177+08:00
-    split: 1
+  - split: 1
     text: "齐军-香料场"
     translated: "Qi Army - Spice Farm"
 - lineNum: 5152
   raw: "5152#齐军-鱼塘#10#34#96252#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.1989210+08:00
-    split: 1
+  - split: 1
     text: "齐军-鱼塘"
     translated: "Qi Army - Fish pond"
 - lineNum: 5153
   raw: "5153#祈灵川-锯木厂#10#34#96253#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.1941933+08:00
-    split: 1
+  - split: 1
     text: "祈灵川-锯木厂"
     translated: "Spirit Prayer River - Sawmill"
 - lineNum: 5154
   raw: "5154#祈灵川-炼丹坊#10#34#96254#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.3604851+08:00
-    split: 1
+  - split: 1
     text: "祈灵川-炼丹坊"
     translated: "Spirit Prayer River - Alchemical Workshop"
 - lineNum: 5155
   raw: "5155#祈灵川-香料场#10#34#96255#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.4643857+08:00
-    split: 1
+  - split: 1
     text: "祈灵川-香料场"
     translated: "Spirit Prayer River - Spice Farm"
 - lineNum: 5156
   raw: "5156#千霁峰-锯木厂#10#34#96256#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.0350921+08:00
-    split: 1
+  - split: 1
     text: "千霁峰-锯木厂"
     translated: "Thousand Clear Peak - Sawmill"
 - lineNum: 5157
   raw: "5157#千霁峰-铜矿场#10#34#96257#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.0409666+08:00
-    split: 1
+  - split: 1
     text: "千霁峰-铜矿场"
     translated: "Thousand Clear Peak - Copper Mine"
 - lineNum: 5158
   raw: "5158#千霁峰-珠宝坊#10#34#96258#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.3749567+08:00
-    split: 1
+  - split: 1
     text: "千霁峰-珠宝坊"
     translated: "Thousand Clear Peak - Jewelry Workshop"
 - lineNum: 5159
   raw: "5159#千山学斋-草药园#10#34#96259#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.7994186+08:00
-    split: 1
+  - split: 1
     text: "千山学斋-草药园"
     translated: "Thousand Mountain Academy - Herb Garden"
 - lineNum: 5160
   raw: "5160#千山学斋-农田#10#34#96260#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.0717967+08:00
-    split: 1
+  - split: 1
     text: "千山学斋-农田"
     translated: "Thousand Mountain Academy - Crop field"
 - lineNum: 5161
   raw: "5161#千山学斋-石料厂#10#34#96261#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.9446558+08:00
-    split: 1
+  - split: 1
     text: "千山学斋-石料厂"
     translated: "Thousand Mountain Academy - Stone Quarry"
 - lineNum: 5162
   raw: "5162#清风岗-人参园#10#34#96262#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:19.9874802+08:00
-    split: 1
+  - split: 1
     text: "清风岗-人参园"
     translated: "Clear Breeze Hill - Ginseng Garden"
 - lineNum: 5163
   raw: "5163#清风岗-石料厂#10#34#96263#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.5904550+08:00
-    split: 1
+  - split: 1
     text: "清风岗-石料厂"
     translated: "Clear Breeze Hill - Stone Quarry"
 - lineNum: 5164
   raw: "5164#清风岗-铜矿场#10#34#96264#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.1257278+08:00
-    split: 1
+  - split: 1
     text: "清风岗-铜矿场"
     translated: "Clear Breeze Hill - Copper Mine"
 - lineNum: 5165
   raw: "5165#清玉门-煤场#10#34#96265#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.1283377+08:00
-    split: 1
+  - split: 1
     text: "清玉门-煤场"
     translated: "Pure Jade Gate - Coal Yard"
 - lineNum: 5166
   raw: "5166#清玉门-人参园#10#34#96266#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.6192714+08:00
-    split: 1
+  - split: 1
     text: "清玉门-人参园"
     translated: "Pure Jade Gate - Ginseng Garden"
 - lineNum: 5167
   raw: "5167#清玉门-珠宝坊#10#34#96267#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.6783396+08:00
-    split: 1
+  - split: 1
     text: "清玉门-珠宝坊"
     translated: "Pure Jade Gate - Jewelry Workshop"
 - lineNum: 5168
   raw: "5168#求缘树-锯木厂#10#34#96268#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.1962393+08:00
-    split: 1
+  - split: 1
     text: "求缘树-锯木厂"
     translated: "Tree of Destiny - Sawmill"
 - lineNum: 5169
   raw: "5169#求缘树-炼丹坊#10#34#96269#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.4762358+08:00
-    split: 1
+  - split: 1
     text: "求缘树-炼丹坊"
     translated: "Tree of Destiny - Alchemical Workshop"
 - lineNum: 5170
   raw: "5170#求缘树-香料场#10#34#96270#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.5441644+08:00
-    split: 1
+  - split: 1
     text: "求缘树-香料场"
     translated: "Tree of Destiny - Spice Farm"
 - lineNum: 5171
   raw: "5171#三十六洞-草药园#10#34#96271#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.7867338+08:00
-    split: 1
+  - split: 1
     text: "三十六洞-草药园"
     translated: "Thirty-Six Caves - Herb Garden"
 - lineNum: 5172
   raw: "5172#三十六洞-锯木厂#10#34#96272#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.8047869+08:00
-    split: 1
+  - split: 1
     text: "三十六洞-锯木厂"
     translated: "Thirty-Six Caves - Sawmill"
 - lineNum: 5173
   raw: "5173#三十六洞-农田#10#34#96273#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.7678312+08:00
-    split: 1
+  - split: 1
     text: "三十六洞-农田"
     translated: "Thirty-Six Caves - Crop field"
 - lineNum: 5174
   raw: "5174#神兵山庄-茶叶园#10#34#96274#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.3138580+08:00
-    split: 1
+  - split: 1
     text: "神兵山庄-茶叶园"
     translated: "Divine Weapon Mountain Villa - Tea Garden"
 - lineNum: 5175
   raw: "5175#神兵山庄-农田#10#34#96275#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.4298208+08:00
-    split: 1
+  - split: 1
     text: "神兵山庄-农田"
     translated: "Divine Weapon Mountain Villa - Crop field"
 - lineNum: 5176
   raw: "5176#神兵山庄-丝坊#10#34#96276#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.0335527+08:00
-    split: 1
+  - split: 1
     text: "神兵山庄-丝坊"
     translated: "Divine Weapon Mountain Villa - Silk Workshop"
 - lineNum: 5177
   raw: "5177#胜景林-人参园#10#34#96277#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.3322349+08:00
-    split: 1
+  - split: 1
     text: "胜景林-人参园"
     translated: "Scenic Forest - Ginseng Garden"
 - lineNum: 5178
   raw: "5178#胜景林-石料厂#10#34#96278#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.8381509+08:00
-    split: 1
+  - split: 1
     text: "胜景林-石料厂"
     translated: "Scenic Forest - Stone Quarry"
 - lineNum: 5179
   raw: "5179#胜景林-丝坊#10#34#96279#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.7670606+08:00
-    split: 1
+  - split: 1
     text: "胜景林-丝坊"
     translated: "Scenic Forest - Silk Workshop"
 - lineNum: 5180
   raw: "5180#胜云山-瓷器窑#10#34#96280#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.4408128+08:00
-    split: 1
+  - split: 1
     text: "胜云山-瓷器窑"
     translated: "Triumphant Cloud Mountain - Pottery Kiln"
 - lineNum: 5181
   raw: "5181#胜云山-锯木厂#10#34#96281#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.6892681+08:00
-    split: 1
+  - split: 1
     text: "胜云山-锯木厂"
     translated: "Triumphant Cloud Mountain - Sawmill"
 - lineNum: 5182
   raw: "5182#胜云山-胭脂坊#10#34#96282#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.7811100+08:00
-    split: 1
+  - split: 1
     text: "胜云山-胭脂坊"
     translated: "Triumphant Cloud Mountain - Cosmetic Workshop"
 - lineNum: 5183
   raw: "5183#十陵阁-牧场#10#34#96283#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.1086726+08:00
-    split: 1
+  - split: 1
     text: "十陵阁-牧场"
     translated: "Ten Tombs Pavilion - Pasture"
 - lineNum: 5184
   raw: "5184#十陵阁-石料厂#10#34#96284#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.6894954+08:00
-    split: 1
+  - split: 1
     text: "十陵阁-石料厂"
     translated: "Ten Tombs Pavilion - Stone Quarry"
 - lineNum: 5185
   raw: "5185#十陵阁-胭脂坊#10#34#96285#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.7147697+08:00
-    split: 1
+  - split: 1
     text: "十陵阁-胭脂坊"
     translated: "Ten Tombs Pavilion - Cosmetic Workshop"
 - lineNum: 5186
   raw: "5186#誓盟碑-锯木厂#10#34#96286#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.5200686+08:00
-    split: 1
+  - split: 1
     text: "誓盟碑-锯木厂"
     translated: "Oath Alliance Monument - Sawmill"
 - lineNum: 5187
   raw: "5187#誓盟碑-人参园#10#34#96287#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.9108043+08:00
-    split: 1
+  - split: 1
     text: "誓盟碑-人参园"
     translated: "Oath Alliance Monument - Ginseng Garden"
 - lineNum: 5188
   raw: "5188#誓盟碑-珠宝坊#10#34#96288#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.9457254+08:00
-    split: 1
+  - split: 1
     text: "誓盟碑-珠宝坊"
     translated: "Oath Alliance Monument - Jewelry Workshop"
 - lineNum: 5189
   raw: "5189#双修府-炼丹坊#10#34#96289#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.4232470+08:00
-    split: 1
+  - split: 1
     text: "双修府-炼丹坊"
     translated: "Dual Cultivation Manor - Alchemical Workshop"
 - lineNum: 5190
   raw: "5190#双修府-棉花田#10#34#96290#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.6817048+08:00
-    split: 1
+  - split: 1
     text: "双修府-棉花田"
     translated: "Dual Cultivation Manor - Cotton Field"
 - lineNum: 5191
   raw: "5191#双修府-石料厂#10#34#96291#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.2646272+08:00
-    split: 1
+  - split: 1
     text: "双修府-石料厂"
     translated: "Dual Cultivation Manor - Stone Quarry"
 - lineNum: 5192
   raw: "5192#四圣峰-炼丹坊#10#34#96292#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.0354562+08:00
-    split: 1
+  - split: 1
     text: "四圣峰-炼丹坊"
     translated: "Four Sacred Peaks - Alchemical Workshop"
 - lineNum: 5193
   raw: "5193#四圣峰-石料厂#10#34#96293#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.1964381+08:00
-    split: 1
+  - split: 1
     text: "四圣峰-石料厂"
     translated: "Four Sacred Peaks - Stone Quarry"
 - lineNum: 5194
   raw: "5194#四圣峰-鱼塘#10#34#96294#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.2660561+08:00
-    split: 1
+  - split: 1
     text: "四圣峰-鱼塘"
     translated: "Four Sacred Peaks - Fish pond"
 - lineNum: 5195
   raw: "5195#嵩室山-锯木厂#10#34#96295#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.6167549+08:00
-    split: 1
+  - split: 1
     text: "嵩室山-锯木厂"
     translated: "Songshi Mountain - Sawmill"
 - lineNum: 5196
   raw: "5196#嵩室山-牧场#10#34#96296#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.2338466+08:00
-    split: 1
+  - split: 1
     text: "嵩室山-牧场"
     translated: "Songshi Mountain - Pasture"
 - lineNum: 5197
   raw: "5197#嵩室山-胭脂坊#10#34#96297#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.4541173+08:00
-    split: 1
+  - split: 1
     text: "嵩室山-胭脂坊"
     translated: "Songshi Mountain - Cosmetic Workshop"
 - lineNum: 5198
   raw: "5198#溯海派-石料厂#10#34#96298#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.6254647+08:00
-    split: 1
+  - split: 1
     text: "溯海派-石料厂"
     translated: "River's Source Faction - Stone Quarry"
 - lineNum: 5199
   raw: "5199#溯海派-香料场#10#34#96299#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.7750924+08:00
-    split: 1
+  - split: 1
     text: "溯海派-香料场"
     translated: "River's Source Faction - Spice Farm"
 - lineNum: 5200
   raw: "5200#溯海派-鱼塘#10#34#96300#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.2532601+08:00
-    split: 1
+  - split: 1
     text: "溯海派-鱼塘"
     translated: "River's Source Faction - Fish pond"
 - lineNum: 5201
   raw: "5201#太初剑宗-人参园#10#34#96301#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.4465161+08:00
-    split: 1
+  - split: 1
     text: "太初剑宗-人参园"
     translated: "Primordial Sword Sect - Ginseng Garden"
 - lineNum: 5202
   raw: "5202#太初剑宗-桑田#10#34#96302#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.1259509+08:00
-    split: 1
+  - split: 1
     text: "太初剑宗-桑田"
     translated: "Primordial Sword Sect - Mulberry Field"
 - lineNum: 5203
   raw: "5203#太初剑宗-珠宝坊#10#34#96303#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.0420773+08:00
-    split: 1
+  - split: 1
     text: "太初剑宗-珠宝坊"
     translated: "Primordial Sword Sect - Jewelry Workshop"
 - lineNum: 5204
   raw: "5204#贪狼道-棉花田#10#34#96304#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.2247559+08:00
-    split: 1
+  - split: 1
     text: "贪狼道-棉花田"
     translated: "Greedy Wolf Path - Cotton field"
 - lineNum: 5205
   raw: "5205#贪狼道-农田#10#34#96305#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.7090493+08:00
-    split: 1
+  - split: 1
     text: "贪狼道-农田"
     translated: "Greedy Wolf Path - Crop field"
 - lineNum: 5206
   raw: "5206#贪狼道-桑田#10#34#96306#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.3338264+08:00
-    split: 1
+  - split: 1
     text: "贪狼道-桑田"
     translated: "Greedy Wolf Path - Mulberry Field"
 - lineNum: 5207
   raw: "5207#唐门-草药园#10#34#96307#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:27.6052537+08:00
-    split: 1
+  - split: 1
     text: "唐门-草药园"
     translated: "Tangmen - Herb Garden"
 - lineNum: 5208
   raw: "5208#唐门-农田#10#34#96308#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.6328495+08:00
-    split: 1
+  - split: 1
     text: "唐门-农田"
     translated: "Tangmen - Crop field"
 - lineNum: 5209
   raw: "5209#唐门-石料厂#10#34#96309#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.9290582+08:00
-    split: 1
+  - split: 1
     text: "唐门-石料厂"
     translated: "Tangmen - Stone Quarry"
 - lineNum: 5210
   raw: "5210#桃花坞-锯木厂#10#34#96310#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.9478026+08:00
-    split: 1
+  - split: 1
     text: "桃花坞-锯木厂"
     translated: "Peach Blossom Cove - Sawmill"
 - lineNum: 5211
   raw: "5211#桃花坞-炼丹坊#10#34#96311#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.1741235+08:00
-    split: 1
+  - split: 1
     text: "桃花坞-炼丹坊"
     translated: "Peach Blossom Cove - Alchemical Workshop"
 - lineNum: 5212
   raw: "5212#桃花坞-香料场#10#34#96312#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:24.3417096+08:00
-    split: 1
+  - split: 1
     text: "桃花坞-香料场"
     translated: "Peach Blossom Cove - Spice Farm"
 - lineNum: 5213
   raw: "5213#桃隐村-锯木厂#10#34#96313#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.9612144+08:00
-    split: 1
+  - split: 1
     text: "桃隐村-锯木厂"
     translated: "Hidden Peach Village - Sawmill"
 - lineNum: 5214
   raw: "5214#桃隐村-炼丹坊#10#34#96314#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:25.5564659+08:00
-    split: 1
+  - split: 1
     text: "桃隐村-炼丹坊"
     translated: "Hidden Peach Village - Alchemical Workshop"
 - lineNum: 5215
   raw: "5215#桃隐村-香料场#10#34#96315#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.6232044+08:00
-    split: 1
+  - split: 1
     text: "桃隐村-香料场"
     translated: "Hidden Peach Village - Spice Farm"
 - lineNum: 5216
   raw: "5216#天门山-棉花田#10#34#96316#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.8717874+08:00
-    split: 1
+  - split: 1
     text: "天门山-棉花田"
     translated: "Heavenly Gate Mountain - Cotton Field"
 - lineNum: 5217
   raw: "5217#天门山-石料厂#10#34#96317#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.9937714+08:00
-    split: 1
+  - split: 1
     text: "天门山-石料厂"
     translated: "Heavenly Gate Mountain - Stone Quarry"
 - lineNum: 5218
   raw: "5218#天门山-珠宝坊#10#34#96318#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:26.3439848+08:00
-    split: 1
+  - split: 1
     text: "天门山-珠宝坊"
     translated: "Heavenly Gate Mountain - Jewelry Workshop"
 - lineNum: 5219
   raw: "5219#天上山-锯木厂#10#34#96319#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:23.0828880+08:00
-    split: 1
+  - split: 1
     text: "天上山-锯木厂"
     translated: "Heavenly Mountain - Sawmill"
 - lineNum: 5220
   raw: "5220#天上山-炼丹坊#10#34#96320#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.2230843+08:00
-    split: 1
+  - split: 1
     text: "天上山-炼丹坊"
     translated: "Heavenly Mountain - Alchemical Workshop"
 - lineNum: 5221
   raw: "5221#天上山-鱼塘#10#34#96321#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:22.1148183+08:00
-    split: 1
+  - split: 1
     text: "天上山-鱼塘"
     translated: "Heavenly Mountain - Fish pond"
 - lineNum: 5222
   raw: "5222#王府-棉花田#10#34#96322#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:20.5680325+08:00
-    split: 1
+  - split: 1
     text: "王府-棉花田"
     translated: "Royal Residence - Cotton Field"
 - lineNum: 5223
   raw: "5223#王府-石料厂#10#34#96323#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:21.8713664+08:00
-    split: 1
+  - split: 1
     text: "王府-石料厂"
     translated: "Royal Residence - Stone Quarry"
 - lineNum: 5224
   raw: "5224#王府-珠宝坊#10#34#96324#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:18.7881045+08:00
-    split: 1
+  - split: 1
     text: "王府-珠宝坊"
     translated: "Royal Residence - Jewelry Workshop"
 - lineNum: 5225
   raw: "5225#望尘客栈-锯木厂#10#34#96325#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.9985399+08:00
-    split: 1
+  - split: 1
     text: "望尘客栈-锯木厂"
     translated: "Whispering Dust Inn - Sawmill"
 - lineNum: 5226
   raw: "5226#望尘客栈-人参园#10#34#96326#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:17.7411558+08:00
-    split: 1
+  - split: 1
     text: "望尘客栈-人参园"
     translated: "Whispering Dust Inn - Ginseng Garden"
 - lineNum: 5227
   raw: "5227#望尘客栈-珠宝坊#10#34#96327#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:10.0490158+08:00
-    split: 1
+  - split: 1
     text: "望尘客栈-珠宝坊"
     translated: "Whispering Dust Inn - Jewelry Workshop"
 - lineNum: 5228
   raw: "5228#文昌湖-草药园#10#34#96328#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:08.7260381+08:00
-    split: 1
+  - split: 1
     text: "文昌湖-草药园"
     translated: "Wenchang Lake - Herb Garden"
 - lineNum: 5229
   raw: "5229#文昌湖-茶叶园#10#34#96329#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.6947212+08:00
-    split: 1
+  - split: 1
     text: "文昌湖-茶叶园"
     translated: "Wenchang Lake - Tea Garden"
 - lineNum: 5230
   raw: "5230#文昌湖-瓷器窑#10#34#96330#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.5030836+08:00
-    split: 1
+  - split: 1
     text: "文昌湖-瓷器窑"
     translated: "Wenchang Lake - Pottery Kiln"
 - lineNum: 5231
   raw: "5231#问剑道-瓷器窑#10#34#96331#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.1209624+08:00
-    split: 1
+  - split: 1
     text: "问剑道-瓷器窑"
     translated: "Sword Seeking Path - Pottery Kiln"
 - lineNum: 5232
   raw: "5232#问剑道-牧场#10#34#96332#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.8531075+08:00
-    split: 1
+  - split: 1
     text: "问剑道-牧场"
     translated: "Sword Seeking Path - Pasture"
 - lineNum: 5233
   raw: "5233#问剑道-石料厂#10#34#96333#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.2246105+08:00
-    split: 1
+  - split: 1
     text: "问剑道-石料厂"
     translated: "Sword Seeking Path - Stone Quarry"
 - lineNum: 5234
   raw: "5234#无涯岛-茶叶园#10#34#96334#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ChaYeYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.3928343+08:00
-    split: 1
+  - split: 1
     text: "无涯岛-茶叶园"
     translated: "Boundless Island - Tea Garden"
 - lineNum: 5235
   raw: "5235#无涯岛-农田#10#34#96335#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.3149248+08:00
-    split: 1
+  - split: 1
     text: "无涯岛-农田"
     translated: "Boundless Island - Crop field"
 - lineNum: 5236
   raw: "5236#无涯岛-丝坊#10#34#96336#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.5104718+08:00
-    split: 1
+  - split: 1
     text: "无涯岛-丝坊"
     translated: "Boundless Island - Silk Workshop"
 - lineNum: 5237
   raw: "5237#仙洲-石料厂#10#34#96337#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.0110473+08:00
-    split: 1
+  - split: 1
     text: "仙洲-石料厂"
     translated: "Immortal Isle - Stone Quarry"
 - lineNum: 5238
   raw: "5238#仙洲-丝坊#10#34#96338#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.7819947+08:00
-    split: 1
+  - split: 1
     text: "仙洲-丝坊"
     translated: "Immortal Isle - Silk Workshop"
 - lineNum: 5239
   raw: "5239#仙洲-珠宝坊#10#34#96339#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.4239816+08:00
-    split: 1
+  - split: 1
     text: "仙洲-珠宝坊"
     translated: "Immortal Isle - Jewelry Workshop"
 - lineNum: 5240
   raw: "5240#冼星堂-炼丹坊#10#34#96340#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.6044400+08:00
-    split: 1
+  - split: 1
     text: "冼星堂-炼丹坊"
     translated: "Xian Star Hall - Alchemical Workshop"
 - lineNum: 5241
   raw: "5241#冼星堂-石料厂#10#34#96341#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.3384167+08:00
-    split: 1
+  - split: 1
     text: "冼星堂-石料厂"
     translated: "Xian Star Hall - Stone Quarry"
 - lineNum: 5242
   raw: "5242#冼星堂-鱼塘#10#34#96342#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T19:42:10.3915851+08:00
-    split: 1
+  - split: 1
     text: "冼星堂-鱼塘"
     translated: "Xian Star Hall - Fish pond"
 - lineNum: 5243
   raw: "5243#小石镇-锯木厂#10#34#96343#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.2713108+08:00
-    split: 1
+  - split: 1
     text: "小石镇-锯木厂"
     translated: "Little Stone Town - Sawmill"
 - lineNum: 5244
   raw: "5244#小石镇-农田#10#34#96344#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.8759528+08:00
-    split: 1
+  - split: 1
     text: "小石镇-农田"
     translated: "Little Stone Town - Crop field"
 - lineNum: 5245
   raw: "5245#小石镇-桑田#10#34#96345#KONG#77019#64#8#480##2#10#45#2#1#6#29#9#MaTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.5907597+08:00
-    split: 1
+  - split: 1
     text: "小石镇-桑田"
     translated: "Little Stone Town - Mulberry Field"
 - lineNum: 5246
   raw: "5246#星陨荒-草药园#10#34#96346#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.2114799+08:00
-    split: 1
+  - split: 1
     text: "星陨荒-草药园"
     translated: "Starfall Wasteland - Herb Garden"
 - lineNum: 5247
   raw: "5247#星陨荒-煤场#10#34#96347#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.8542428+08:00
-    split: 1
+  - split: 1
     text: "星陨荒-煤场"
     translated: "Starfall Wasteland - Coal yard"
 - lineNum: 5248
   raw: "5248#星陨荒-石料厂#10#34#96348#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.6598134+08:00
-    split: 1
+  - split: 1
     text: "星陨荒-石料厂"
     translated: "Starfall Wasteland - Stone Quarry"
 - lineNum: 5249
   raw: "5249#寻清门-炼丹坊#10#34#96349#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.3018892+08:00
-    split: 1
+  - split: 1
     text: "寻清门-炼丹坊"
     translated: "Seeking Clarity Gate - Alchemical Workshop"
 - lineNum: 5250
   raw: "5250#寻清门-石料厂#10#34#96350#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.7142708+08:00
-    split: 1
+  - split: 1
     text: "寻清门-石料厂"
     translated: "Seeking Clarity Gate - Stone Quarry"
 - lineNum: 5251
   raw: "5251#寻清门-鱼塘#10#34#96351#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.8533882+08:00
-    split: 1
+  - split: 1
     text: "寻清门-鱼塘"
     translated: "Seeking Clarity Gate - Fish pond"
 - lineNum: 5252
   raw: "5252#寻星道-锯木厂#10#34#96352#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:35.9388294+08:00
-    split: 1
+  - split: 1
     text: "寻星道-锯木厂"
     translated: "Star Seeking Path - Sawmill"
 - lineNum: 5253
   raw: "5253#寻星道-香料场#10#34#96353#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.3623581+08:00
-    split: 1
+  - split: 1
     text: "寻星道-香料场"
     translated: "Star Seeking Path - Spice Farm"
 - lineNum: 5254
   raw: "5254#寻星道-鱼塘#10#34#96354#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.5911073+08:00
-    split: 1
+  - split: 1
     text: "寻星道-鱼塘"
     translated: "Star Seeking Path - Fish pond"
 - lineNum: 5255
   raw: "5255#砚溪山庄-锯木厂#10#34#96355#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.6785467+08:00
-    split: 1
+  - split: 1
     text: "砚溪山庄-锯木厂"
     translated: "Ink Stream Mountain Villa - Sawmill"
 - lineNum: 5256
   raw: "5256#砚溪山庄-牧场#10#34#96356#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.9452840+08:00
-    split: 1
+  - split: 1
     text: "砚溪山庄-牧场"
     translated: "Ink Stream Mountain Villa - Pasture"
 - lineNum: 5257
   raw: "5257#砚溪山庄-胭脂坊#10#34#96357#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.9455337+08:00
-    split: 1
+  - split: 1
     text: "砚溪山庄-胭脂坊"
     translated: "Ink Stream Mountain Villa - Cosmetic Workshop"
 - lineNum: 5258
   raw: "5258#爻光谷-草药园#10#34#96358#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.5031477+08:00
-    split: 1
+  - split: 1
     text: "爻光谷-草药园"
     translated: "Light of Divination Valley - Herb Garden"
 - lineNum: 5259
   raw: "5259#爻光谷-农田#10#34#96359#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.4482136+08:00
-    split: 1
+  - split: 1
     text: "爻光谷-农田"
     translated: "Light of Divination Valley - Crop field"
 - lineNum: 5260
   raw: "5260#爻光谷-石料厂#10#34#96360#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.0163646+08:00
-    split: 1
+  - split: 1
     text: "爻光谷-石料厂"
     translated: "Light of Divination Valley - Stone Quarry"
 - lineNum: 5261
   raw: "5261#遥雪峰-草药园#10#34#96361#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.4300185+08:00
-    split: 1
+  - split: 1
     text: "遥雪峰-草药园"
     translated: "Distant Snow Peak - Herb Garden"
 - lineNum: 5262
   raw: "5262#遥雪峰-锯木厂#10#34#96362#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.1981553+08:00
-    split: 1
+  - split: 1
     text: "遥雪峰-锯木厂"
     translated: "Distant Snow Peak - Sawmill"
 - lineNum: 5263
   raw: "5263#遥雪峰-农田#10#34#96363#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.1059417+08:00
-    split: 1
+  - split: 1
     text: "遥雪峰-农田"
     translated: "Distant Snow Peak - Crop field"
 - lineNum: 5264
   raw: "5264#瑶华原-瓷器窑#10#34#96364#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#CiQiYao##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:36.7878818+08:00
-    split: 1
+  - split: 1
     text: "瑶华原-瓷器窑"
     translated: "Jade Blossom Field - Pottery Kiln"
 - lineNum: 5265
   raw: "5265#瑶华原-锯木厂#10#34#96365#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.0344915+08:00
-    split: 1
+  - split: 1
     text: "瑶华原-锯木厂"
     translated: "Jade Blossom Field - Sawmill"
 - lineNum: 5266
   raw: "5266#瑶华原-牧场#10#34#96366#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:37.7834053+08:00
-    split: 1
+  - split: 1
     text: "瑶华原-牧场"
     translated: "Jade Blossom Field - Pasture"
 - lineNum: 5267
   raw: "5267#伊宁镇-石料厂#10#34#96367#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.6057903+08:00
-    split: 1
+  - split: 1
     text: "伊宁镇-石料厂"
     translated: "Yining Town - Stone Quarry"
 - lineNum: 5268
   raw: "5268#伊宁镇-香料场#10#34#96368#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.9411524+08:00
-    split: 1
+  - split: 1
     text: "伊宁镇-香料场"
     translated: "Yining Town - Spice Farm"
 - lineNum: 5269
   raw: "5269#伊宁镇-鱼塘#10#34#96369#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#YuTang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.7997873+08:00
-    split: 1
+  - split: 1
     text: "伊宁镇-鱼塘"
     translated: "Yining Town - Fish pond"
 - lineNum: 5270
   raw: "5270#玉沙关-炼丹坊#10#34#96370#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.6963119+08:00
-    split: 1
+  - split: 1
     text: "玉沙关-炼丹坊"
     translated: "Jade Sand Pass - Alchemical Workshop"
 - lineNum: 5271
   raw: "5271#玉沙关-炼丹坊#10#34#96371#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-03-06T07:50:18.7960142+08:00
-    split: 1
+  - split: 1
     text: "玉沙关-炼丹坊"
     translated: "Jade Sand Pass - Alchemical Workshop"
 - lineNum: 5272
   raw: "5272#玉沙关-香料场#10#34#96372#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#XiangLiaoChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.8170644+08:00
-    split: 1
+  - split: 1
     text: "玉沙关-香料场"
     translated: "Jade Sand Pass - Spice Farm"
 - lineNum: 5273
   raw: "5273#御虚门-锯木厂#10#34#96373#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.4595510+08:00
-    split: 1
+  - split: 1
     text: "御虚门-锯木厂"
     translated: "Imperial Void Gate - Sawmill"
 - lineNum: 5274
   raw: "5274#御虚门-牧场#10#34#96374#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.7672027+08:00
-    split: 1
+  - split: 1
     text: "御虚门-牧场"
     translated: "Imperial Void Gate - Pasture"
 - lineNum: 5275
   raw: "5275#御虚门-胭脂坊#10#34#96375#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.0000027+08:00
-    split: 1
+  - split: 1
     text: "御虚门-胭脂坊"
     translated: "Imperial Void Gate - Cosmetic Workshop"
 - lineNum: 5276
   raw: "5276#云川镖局-炼丹坊#10#34#96376#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#LianDanFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.9082748+08:00
-    split: 1
+  - split: 1
     text: "云川镖局-炼丹坊"
     translated: "Cloud River Escort Agency - Alchemical Workshop"
 - lineNum: 5277
   raw: "5277#云川镖局-牧场#10#34#96377#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.7302244+08:00
-    split: 1
+  - split: 1
     text: "云川镖局-牧场"
     translated: "Cloud River Escort Agency - Pasture"
 - lineNum: 5278
   raw: "5278#云川镖局-胭脂坊#10#34#96378#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.0327273+08:00
-    split: 1
+  - split: 1
     text: "云川镖局-胭脂坊"
     translated: "Cloud River Escort Agency - Cosmetic Workshop"
 - lineNum: 5279
   raw: "5279#云鹤村-锯木厂#10#34#96379#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:38.5363367+08:00
-    split: 1
+  - split: 1
     text: "云鹤村-锯木厂"
     translated: "Cloud Crane Village - Sawmill"
 - lineNum: 5280
   raw: "5280#云鹤村-牧场#10#34#96380#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.5736010+08:00
-    split: 1
+  - split: 1
     text: "云鹤村-牧场"
     translated: "Cloud Crane Village - Pasture"
 - lineNum: 5281
   raw: "5281#云鹤村-胭脂坊#10#34#96381#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.0776775+08:00
-    split: 1
+  - split: 1
     text: "云鹤村-胭脂坊"
     translated: "Cloud Crane Village - Cosmetic Workshop"
 - lineNum: 5282
   raw: "5282#云潇山庄-锯木厂#10#34#96382#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.3849054+08:00
-    split: 1
+  - split: 1
     text: "云潇山庄-锯木厂"
     translated: "Cloudy Breeze Mountain Villa - Sawmill"
 - lineNum: 5283
   raw: "5283#云潇山庄-丝坊#10#34#96383#KONG#77019#64#8#480##2#9#60#2#1#6#28#13#ShiFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.5037552+08:00
-    split: 1
+  - split: 1
     text: "云潇山庄-丝坊"
     translated: "Cloudy Breeze Mountain Villa - Silk Workshop"
 - lineNum: 5284
   raw: "5284#云潇山庄-珠宝坊#10#34#96384#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.3450044+08:00
-    split: 1
+  - split: 1
     text: "云潇山庄-珠宝坊"
     translated: "Cloudy Breeze Mountain Villa - Jewelry Workshop"
 - lineNum: 5285
   raw: "5285#长旌军-锯木厂#10#34#96385#KONG#77019#64#8#480##2#77019#8#1#1#9##0#JuMuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.5315788+08:00
-    split: 1
+  - split: 1
     text: "长旌军-锯木厂"
     translated: "Long Standard Army - Sawmill"
 - lineNum: 5286
   raw: "5286#长旌军-牧场#10#34#96386#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#MuChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.1466955+08:00
-    split: 1
+  - split: 1
     text: "长旌军-牧场"
     translated: "Long Standard Army - Pasture"
 - lineNum: 5287
   raw: "5287#长旌军-胭脂坊#10#34#96387#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#YanZhi##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.2365160+08:00
-    split: 1
+  - split: 1
     text: "长旌军-胭脂坊"
     translated: "Long Standard Army - Cosmetic Workshop"
 - lineNum: 5288
   raw: "5288#昭月宗-煤场#10#34#96388#KONG#77019#64#8#480##2#10#45#2#1#6#30#9#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.8707832+08:00
-    split: 1
+  - split: 1
     text: "昭月宗-煤场"
     translated: "Bright Moon Clan - Coal Yard"
 - lineNum: 5289
   raw: "5289#昭月宗-人参园#10#34#96389#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#RenShengYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.2963521+08:00
-    split: 1
+  - split: 1
     text: "昭月宗-人参园"
     translated: "Bright Moon Clan - Ginseng Garden"
 - lineNum: 5290
   raw: "5290#昭月宗-珠宝坊#10#34#96390#KONG#77019#64#8#480##2#8#75#2#1#6#25#16#ZhuBaoFang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.7318113+08:00
-    split: 1
+  - split: 1
     text: "昭月宗-珠宝坊"
     translated: "Bright Moon Clan - Jewelry Workshop"
 - lineNum: 5291
   raw: "5291#重天门-草药园#10#34#96391#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.1925649+08:00
-    split: 1
+  - split: 1
     text: "重天门-草药园"
     translated: "Profound Celestial Sect - Herb Garden"
 - lineNum: 5292
   raw: "5292#重天门-农田#10#34#96392#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.9570781+08:00
-    split: 1
+  - split: 1
     text: "重天门-农田"
     translated: "Profound Celestial Sect - Crop field"
 - lineNum: 5293
   raw: "5293#重天门-石料厂#10#34#96393#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.4158610+08:00
-    split: 1
+  - split: 1
     text: "重天门-石料厂"
     translated: "Profound Celestial Sect - Stone Quarry"
 - lineNum: 5294
   raw: "5294#坠龙坡-草药园#10#34#96394#KONG#77019#64#8#480##2#9#60#2#1#6#27#13#CaoYaoYuan##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.6224765+08:00
-    split: 1
+  - split: 1
     text: "坠龙坡-草药园"
     translated: "Falling Dragon Slope - Herb Garden"
 - lineNum: 5295
   raw: "5295#坠龙坡-农田#10#34#96395#KONG#77019#64#8#480##2#8#75#2#1#6#26#16#NongTian##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:40.6597824+08:00
-    split: 1
+  - split: 1
     text: "坠龙坡-农田"
     translated: "Falling Dragon Slope - Crop field"
 - lineNum: 5296
   raw: "5296#坠龙坡-石料厂#10#34#96396#KONG#77019#64#8#480##2#77020#10#1#1#9##0#KuangChang##2#"
   splits:
-  - lastTranslatedOn: 2025-02-26T18:31:39.1017777+08:00
-    split: 1
+  - split: 1
     text: "坠龙坡-石料厂"
     translated: "Falling Dragon Slope - Stone Quarry"
