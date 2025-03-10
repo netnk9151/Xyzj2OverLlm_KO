@@ -13,6 +13,8 @@ public class TranslationSplit
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Translated { get; set; } = string.Empty;
 
+    public bool SafeToTranslate { get; set; } = true;
+
     public bool FlaggedForRetranslation { get; set; } = false;
 
     //public bool FlaggedForGlossaryExtraction { get; set; } = true;

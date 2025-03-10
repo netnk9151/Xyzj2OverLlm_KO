@@ -87,6 +87,7 @@ public class DynamicStringSupport
             "InteractSlot.Handle_IT_SCRIPT", //Debug
             "SweetPotato.Tools.GetIconSprite", //Named sprites
             "SweetPotato.Tools.GetShopItemIconByQuality", //Named sprites
+            "RoleBagItemListHolder.GetIconByQua", //Named sprites
             "SweetPotato.SpellEditView.OnEnable", //Debug
             
             //Thing needing reimplementation

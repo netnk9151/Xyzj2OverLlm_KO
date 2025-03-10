@@ -31,7 +31,7 @@ internal class DebugPlugin: BaseUnityPlugin
 
     private void Test()
     {
-        Item
+        //RoleBagItemListHolder
     }
 
     // Opening Screen
