@@ -29,47 +29,52 @@ internal class DebugPlugin: BaseUnityPlugin
         Logger.LogWarning($"Debug Game Plugin should be patched!");
     }
 
-    // Opening Screen
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
-    public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, MethodBase __originalMethod, int index, RectTransform rect)
+    private void Test()
     {
-        //InstructionLogger.LogInstructions(__originalMethod);
-
-        var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
-
-        Logger.LogWarning($"Hooked PREFIX OnButtonClick! [{text}]");
-
-        switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
-        {
-            case "新的江湖":
-                Logger.LogWarning($"Old Text");
-                break;
-            case "A new Jianghu":
-                Logger.LogWarning($"New Text");
-                break;
-        }
-
-        return true;
+        Item
     }
 
     // Opening Screen
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
-    public static void Postfix_OnButtonClick()
-    {
-        Logger.LogWarning($"Hooked POSTFIX OnButtonClick!");
-    }
-
-    //[HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
-    //public static void Postfix_OnButtonClick(IEnumerable<CodeInstruction> __instructions)
+    //[HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    //public static bool Prefix_OnButtonClick(SweetPotato.LoginViewNew __instance, MethodBase __originalMethod, int index, RectTransform rect)
     //{
-    //    InstructionLogger.LogInstructions(__instructions);
+    //    //InstructionLogger.LogInstructions(__originalMethod);
+
+    //    var text = rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim();
+
+    //    Logger.LogWarning($"Hooked PREFIX OnButtonClick! [{text}]");
+
+    //    switch (rect.FindChildCustom<TextMeshProUGUI>("btnname").text.Trim())
+    //    {
+    //        case "新的江湖":
+    //            Logger.LogWarning($"Old Text");
+    //            break;
+    //        case "A new Jianghu":
+    //            Logger.LogWarning($"New Text");
+    //            break;
+    //    }
+
+    //    return true;
     //}
 
-    [HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonNewGame")]
-    public static void Postfix_LoginViewNew_OnButtonNewGame()
-    {
-        Logger.LogWarning("Hooked OnButtonNewGame!");
-    }
+    //// Opening Screen
+    //[HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    //public static void Postfix_OnButtonClick()
+    //{
+    //    Logger.LogWarning($"Hooked POSTFIX OnButtonClick!");
+    //}
+
+    ////[HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonClick")]
+    ////public static void Postfix_OnButtonClick(IEnumerable<CodeInstruction> __instructions)
+    ////{
+    ////    InstructionLogger.LogInstructions(__instructions);
+    ////}
+
+    //[HarmonyPostfix, HarmonyPatch(typeof(SweetPotato.LoginViewNew), "OnButtonNewGame")]
+    //public static void Postfix_LoginViewNew_OnButtonNewGame()
+    //{
+    //    Logger.LogWarning("Hooked OnButtonNewGame!");
+    //}
 }
 
 public class InstructionLogger

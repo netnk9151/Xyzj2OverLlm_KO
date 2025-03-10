@@ -85,12 +85,24 @@ public class DynamicStringSupport
 
             "SweetPotato.MiniGames.GeZi1.GeZiGame.InitGame", //Can't find
             "InteractSlot.Handle_IT_SCRIPT", //Debug
+            "SweetPotato.Tools.GetIconSprite", //Named sprites
+            "SweetPotato.Tools.GetShopItemIconByQuality", //Named sprites
+            "SweetPotato.SpellEditView.OnEnable", //Debug
             
             //Thing needing reimplementation
-            "UnityHelper.GetNunWordFromNum", 
-            "SweetPotato.Tools.NumberToChinese", 
-            "SweetPotato.YunBiao.BiaoBasicInfo.GetInfo", 
+            "UnityHelper.GetNunWordFromNum",  //Done
+            "SweetPotato.Tools.NumberToChinese", //Done
+            //"SweetPotato.Tools.GetGameTimeDate",
+            //"SweetPotato.Tools.GetRealTimeDate2",
+            //"SweetPotato.Tools.GetRemainTimeDate",
+            //"SweetPotato.Tools.GetTaskGameTimeDate",
+            //"SweetPotato.Tools.GetXiaoxiGameTimeDate"
 
+            //Dicey
+            //SweetPotato.Spell.do_effect <-- it adds effect param but it could be going to a sprite thats not showing - need to find out
+
+            //Unknown
+            "SweetPotato.YunBiao.BiaoBasicInfo.GetInfo", 
             "ItemPrototype.InitRandomItems",
             "LootItem.Init",
 
