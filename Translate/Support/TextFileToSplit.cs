@@ -30,7 +30,9 @@ public class TextFileToSplit
     public bool RemoveNumbers { get; set; } = false;
 
     public bool RemoveExtraFullStop { get; set; } = true;
-    
+
+    public bool RemoveExtraThe { get; set; } = true;
+
     public bool NameCleanupRoutines { get; set; } = false;
 
     public bool AllowMissingColorTags { get; set; } = true;

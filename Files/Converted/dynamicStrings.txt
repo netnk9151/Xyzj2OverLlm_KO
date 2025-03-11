@@ -723,7 +723,7 @@
   splits:
   - split: 3
     text: "冷却中"
-    translated: "Cooling down"
+    translated: "Cooldown"
 - lineNum: 122
   raw: "PlayerStateComponent_Base,EnterCheckQingGongState,418,轻功值不足,[PlayerStateComponent_Base/MoveState，System.Int32]"
   splits:
@@ -747,7 +747,7 @@
   splits:
   - split: 3
     text: "冷却中"
-    translated: "Cooling down"
+    translated: "Cooldown"
 - lineNum: 126
   raw: "PlayerStateComponent,EnterCheckQingGongState,418,轻功值不足,[PlayerStateComponent/MoveState，System.Int32]"
   splits:
@@ -4950,7 +4950,7 @@
   splits:
   - split: 3
     text: "驯化"
-    translated: "Domestication"
+    translated: "Taming"
 - lineNum: 826
   raw: "InteractSlot,OnReset,1251,驱逐,[]"
   splits:
@@ -5088,7 +5088,7 @@
   splits:
   - split: 3
     text: "下蛊"
-    translated: "Cast a hex"
+    translated: "Curse"
 - lineNum: 849
   raw: "InteractSlot,OnReset,1730,收押,[]"
   splits:
@@ -6043,7 +6043,7 @@
   splits:
   - split: 3
     text: "使用冷却中：\\n"
-    translated: "Using it while cooling down: \\n"
+    translated: "Using cooldown: \\n"
 - lineNum: 1008
   raw: "RoleBagItemSlot,UpdateFromModel,1092,秒,[RoleBagItemListModel]"
   splits:
@@ -6055,7 +6055,7 @@
   splits:
   - split: 3
     text: "使用冷却中：\\n"
-    translated: "Using it while cooling down: \\n"
+    translated: "Using cooldown: \\n"
 - lineNum: 1010
   raw: "RoleBagItemSlot,UpdateFromModel,1199,秒,[RoleBagItemListModel]"
   splits:
@@ -6067,7 +6067,7 @@
   splits:
   - split: 3
     text: "使用冷却中：\\n"
-    translated: "Using it while cooling down: \\n"
+    translated: "Using cooldown: \\n"
 - lineNum: 1012
   raw: "RoleBagItemSlot,UpdateFromModel,1307,秒,[RoleBagItemListModel]"
   splits:
@@ -6079,7 +6079,7 @@
   splits:
   - split: 3
     text: "使用冷却中：\\n"
-    translated: "Using it while cooling down: \\n"
+    translated: "Using cooldown: \\n"
 - lineNum: 1014
   raw: "RoleBagItemSlot,UpdateFromModel,1420,秒,[RoleBagItemListModel]"
   splits:
@@ -6859,7 +6859,7 @@
   splits:
   - split: 3
     text: "技能：{0}冷却中"
-    translated: "Skill: {0} cooling"
+    translated: "Skill: {0} Cooldown"
 - lineNum: 1144
   raw: "SkillItemUI,CastSpellReal,153,该技能被沉默中，无法施放,[SweetPotato.SpellPrototype，System.Boolean，SweetPotato.SpellPrototype]"
   splits:
@@ -11971,7 +11971,7 @@
   splits:
   - split: 3
     text: "脱离卡死冷却中，倒计时{0}秒"
-    translated: "Exiting from stasis cooling, countdown {0} seconds"
+    translated: "Disconnected from lockdown cooldown; countdown {0} seconds"
 - lineNum: 1996
   raw: "MainView,OnClickTuoLiKaSi,74,提示：使用脱离卡死可能会造成任务卡住，任务角色消失等问题，请谨慎使用。（冷却时间：300秒）？,[]"
   splits:
@@ -13324,7 +13324,7 @@
   splits:
   - split: 3
     text: "<color=#f3f3f3>真实江湖：</color>此难度下各项属性数值成长曲线相对真实，通过装备、武学提升更加明显。少侠在此难度下更有江湖奇遇、寻宝的快感。"
-    translated: "<color=#f3f3f3>Authentic Jianghu: </color>At this difficulty level, the growth curves for various attributes are relatively realistic, with enhancements through equipment and martial arts becoming more noticeable. The Young Hero will experience more Jianghu encounters and a greater sense of thrill from treasure hunting."
+    translated: "<color=#f3f3f3>Authentic Jianghu: </color>Under this difficulty level, the growth curves for various attributes are relatively realistic. Improvements through equipment and martial arts are more pronounced. The young hero will have more adventures in the Jianghu and experience greater satisfaction from treasure hunting."
 - lineNum: 2221
   raw: "NpcChatView,OnReset,2819,{dlg.chatlangid}对应的stringlang未空字符串,[]"
   splits:
@@ -28846,7 +28846,7 @@
   splits:
   - split: 3
     text: "奇遇："
-    translated: "Serendipitous Encounter:"
+    translated: "Adventure:"
 - lineNum: 4807
   raw: "SweetPotato.QuestLog,OnFinish,506,解密：,[]"
   splits:
@@ -29110,7 +29110,7 @@
   splits:
   - split: 3
     text: "切换冷却中"
-    translated: "Switching cooling in progress"
+    translated: "Switching - Cooldown in progress"
 - lineNum: 4851
   raw: "SweetPotato.SpellManager,ChangeSpellTaoLu,398,没有合适的武器,[SweetPotato.TAOLU_TYPE，System.Boolean，System.Boolean，System.Boolean]"
   splits:

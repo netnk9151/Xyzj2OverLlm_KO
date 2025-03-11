@@ -116,15 +116,16 @@ public static partial class LineValidation
                 result = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(result);
             }
 
-            result = RemoveDiacritics(result);
-            result = ReplaceIncorrectLowercaseWords(result);
-
-            result = EncaseColorsForWholeLines(raw, result);
-            result = EncaseSquareBracketsForWholeLines(raw, result);
-
-
             if (textFile.RemoveExtraFullStop)
                 result = RemoveFullStop(raw, result);
+
+            if (textFile.RemoveExtraThe)
+                result = RemoveExtraThe(raw, result);
+
+            result = RemoveDiacritics(result);
+            result = ReplaceIncorrectLowercaseWords(result);
+            result = EncaseColorsForWholeLines(raw, result);
+            result = EncaseSquareBracketsForWholeLines(raw, result);
 
             if (string.IsNullOrEmpty(result))
             {
@@ -422,6 +423,23 @@ public static partial class LineValidation
 
         // Remove all digits from the string
         return Regex.Replace(input, @"\d", "");
+    }
+
+    public static string RemoveExtraThe(string raw, string input)
+    {
+        //if (string.IsNullOrWhiteSpace(input))
+        //    return input;
+        //if (raw.Contains(' '))
+        //    return input;
+        //if (input.StartsWith("The ") && input.Count(c => c == '.') == 0)
+        //{
+        //    var words = input.
+        //        Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+        //    if (words.Length <= 5)
+        //        return input[4..];
+        //}
+        return input;
     }
 
     public static string RemoveFullStop(string raw, string input)
