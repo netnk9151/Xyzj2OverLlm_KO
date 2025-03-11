@@ -427,18 +427,18 @@ public static partial class LineValidation
 
     public static string RemoveExtraThe(string raw, string input)
     {
-        //if (string.IsNullOrWhiteSpace(input))
-        //    return input;
-        //if (raw.Contains(' '))
-        //    return input;
-        //if (input.StartsWith("The ") && input.Count(c => c == '.') == 0)
-        //{
-        //    var words = input.
-        //        Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        if (string.IsNullOrWhiteSpace(input))
+            return input;
+        if (raw.Contains(' '))
+            return input;
+        if (input.StartsWith("The ") && input.Count(c => c == '.') == 0)
+        {
+            var words = input.
+                Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-        //    if (words.Length <= 5)
-        //        return input[4..];
-        //}
+            if (words.Length <= 5)
+                return input[4..];
+        }
         return input;
     }
 
