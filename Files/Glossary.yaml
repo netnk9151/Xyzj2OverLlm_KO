@@ -94,6 +94,29 @@
   badtrans: false
   direct: Loss and Failure  
   literal: Bai bei shi li  
+- raw: 机关  
+  result: Mechanism  
+  allowalt:
+    - Organization  
+    - Scheme
+    - Mechanical
+  badtrans: true  
+  direct: Organization  
+  literal: Jiguan  
+- raw: "（有机关）"  
+  result: "(with mechanism)"  
+  badtrans: true  
+  direct: "(Organization)"  
+  literal: "(You jiguan)"
+# - raw: "机关·"
+#   result: "Mechanism ·"
+#   badtrans: true
+#   direct: "Organization·"
+#   literal: "Jiguan·"
+- raw: 侠窟  
+  result: Outlaws' Den
+  badtrans: true  
+  literal: Xia Ku  
 
 # Difficulties
 - raw: 爽文江湖
@@ -1353,7 +1376,11 @@
   badtrans: true  
   direct: Dragon Killing Knife  
   literal: Tu long dao  
-
+- raw: 阴瘴蜂  
+  result: Yin Plague Bee  
+  badtrans: true  
+  direct: Yin Plague Bee  
+  literal: Yin Zhang Feng  
 
 # People
 - raw: 枪士
@@ -2054,11 +2081,6 @@
   direct: Liu Qing  
   literal: Liu Qing  
 
-# NPC Prototype
-
-
-
-
 # Factions & Places
 - raw: 永兴
   result: Yongxing
@@ -2418,6 +2440,17 @@
   direct: Pill Dao  
   literal: Dān dào  
   badtrans: true  
+- raw: 蜂堂  
+  result: Bee Hall  
+  badtrans: true  
+  direct: Bee Chamber  
+  literal: Feng Tang  
+- raw: 蜂堂主  
+  result: Bee Hall Master  
+  badtrans: true  
+  direct: Bee Hall Leader  
+  literal: Feng Tangzhu  
+
 
 # Kingdoms
 - raw: 燕国
@@ -2794,3 +2827,13 @@
   badtrans: false  
   direct: Wan Jing Ren Zong Mie  
   literal: Wan Jing Ren Zong Mie  
+- raw: 天罡童子功  
+  result: Celestial Pure Body Method
+  badtrans: true  
+  direct: Tiangang Virgin Kung Fu  
+  literal: Tiangang Tongzi Gong  
+- raw: 玉蜂毒  
+  result: Jade Bee Poison  
+  badtrans: true  
+  direct: Jade Bee Venom  
+  literal: Yu Feng Du  

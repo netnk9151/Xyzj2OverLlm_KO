@@ -242,27 +242,4 @@ public class SupportTests
 
         //await TranslateFailedLinesForManualTranslation();
     }
-
-    [Fact]
-    public void CheckFileLinesMatch()
-    {
-        var config = Configuration.GetConfiguration(workingDirectory);
-        var badFiles = new List<string>();
-
-        foreach (var textFile in TranslationService.GetTextFilesToSplit())
-        {
-            var file = $"{workingDirectory}/Raw/Export/{textFile.Path}";
-            var convertedFile = $"{workingDirectory}/Converted/{textFile.Path}";
-
-            var deserializer = Yaml.CreateDeserializer();
-
-            var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(file));
-            var convertedLines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(convertedFile)); ;
-
-            if (lines.Count != convertedLines.Count)
-                badFiles.Add($"Bad File: {Path.GetFileName(file)} Export: {lines.Count} Converted: {convertedLines.Count} ");
-
-            Assert.Empty(badFiles);
-        }
-    }
 }

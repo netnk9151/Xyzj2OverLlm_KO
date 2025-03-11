@@ -189,7 +189,7 @@
   splits:
   - split: 3
     text: "机关"
-    translated: "The trap"
+    translated: "Mechanism"
 - lineNum: 33
   raw: "AutomatManager,Script_OpenBox,116,开启中,[AutomatScript，CallFunc]"
   splits:
@@ -9535,7 +9535,7 @@
   splits:
   - split: 3
     text: "   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: "
-    translated: "   ----[[  ]]----   Jianghu travelogue completed but not unlocked; please check the related table data in the game manual, ID:"
+    translated: "----[[  ]]----   Jianghu travelogue completed but not unlocked; please check the related table data in the game manual, ID:"
 - lineNum: 1590
   raw: "GameManualView,OnEnable,5,江湖游记,[]"
   splits:
@@ -29086,7 +29086,7 @@
   splits:
   - split: 3
     text: "要装备的技能id:{0}不存在"
-    translated: "The ID of the skill to be equipped: {0} does not exist."
+    translated: "Skills ID to be equipped: {0} does not exist."
 - lineNum: 4847
   raw: "SweetPotato.SpellManager,GetEquipSpell,176,主角的招式超过了4个上限,[SweetPotato.SpellType，SweetPotato.TAOLU_TYPE，System.Boolean]"
   splits:
