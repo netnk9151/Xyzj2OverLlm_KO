@@ -32,29 +32,23 @@ public static class TranslationService
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
             //new() {Path = "emoji.txt", PackageOutput = true},
-
-            new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
-            new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
-
-            new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
-            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
-                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
-            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
-                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
-
+         
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},
             new() {Path = "cardinfo.txt", PackageOutput = true},
             new() {Path = "chuanwenprototype.txt", PackageOutput = true},
             new() {Path = "condition_group.txt", PackageOutput = true},
             new() {Path = "condition_show_anim.txt", PackageOutput = true},
+            new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
             new() {Path = "dlcinfo.txt", PackageOutput = true },
+            new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
             new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
             new() {Path = "fuben_prototype.txt", PackageOutput = true},
             new() {Path = "game_manual.txt", PackageOutput = true},
             new() {Path = "game_manual_clue.txt", PackageOutput = true},
             new() {Path = "guanqiaenemy.txt", PackageOutput = true},
             new() {Path = "guanqiainfo.txt", PackageOutput = true},
+            new() {Path = "horoscope.txt", PackageOutput = true, AdditionalPromptName = "FileHoroscopePrompt"},
             new() {Path = "identity.txt", PackageOutput = true},
             new() {Path = "item_base.txt", PackageOutput = true},
             new() {Path = "item_base_xianejianghu.txt", PackageOutput = true},
@@ -88,6 +82,10 @@ public static class TranslationService
             new() {Path = "pve_data.txt", PackageOutput = true},
             new() {Path = "qinggong_node.txt", PackageOutput = true},
             new() {Path = "questjiemi.txt", PackageOutput = true},
+            new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
+            new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
+                EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
             new() {Path = "randomquestion.txt", PackageOutput = true},
             new() {Path = "shangcheng_prototype.txt", PackageOutput = true},
             new() {Path = "spelleffect.txt", PackageOutput = true},
@@ -395,6 +393,8 @@ public static class TranslationService
                 var serializer = Yaml.CreateSerializer();
                 File.WriteAllText(outputFile, serializer.Serialize(exportLines));
             }
+
+            await Task.CompletedTask;
         });
     }
 
@@ -621,7 +621,7 @@ public static class TranslationService
                 }
             }
             else if (textFileToTranslate.TextFileType == TextFileType.DynamicStrings)
-            {       
+            {
                 var serializer = Yaml.CreateSerializer();
                 var contracts = new List<DynamicStringContract>();
 
@@ -643,8 +643,8 @@ public static class TranslationService
                     var lineTrans = line.Splits[0].Translated
                         .Replace("，", ","); // Replace Wide quotes back
 
-                    if (splits.Length != 5 
-                        || string.IsNullOrEmpty(lineTrans) 
+                    if (splits.Length != 5
+                        || string.IsNullOrEmpty(lineTrans)
                         || line.Splits[0].FlaggedForRetranslation)
                     {
                         failedCount++;
@@ -684,7 +684,7 @@ public static class TranslationService
 
                     foreach (var split in line.Splits)
                     {
-                        if (!textFileToTranslate.PackageOutput 
+                        if (!textFileToTranslate.PackageOutput
                             || split.FlaggedForRetranslation
                             || !split.SafeToTranslate) //Count Failure
                         {
@@ -744,7 +744,7 @@ public static class TranslationService
 
         ModHelper.GenerateModConfig(workingDirectory);
         File.WriteAllLines($"{outputDbPath}/db1.txt", finalDb);
-    }    
+    }
 
     public static async Task IterateTranslatedFilesAsync(string workingDirectory, Func<string, TextFileToSplit, List<TranslationLine>, Task> performActionAsync)
     {
@@ -1021,6 +1021,9 @@ public static class TranslationService
                 basePrompt.AppendLine(config.Prompts["DynamicColorPrompt"]);
             else if (raw.Contains("</color>"))
                 basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
+
+            if (raw.Contains("·"))
+                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);        
 
             if (raw.Contains("<"))
             {

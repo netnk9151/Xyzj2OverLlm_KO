@@ -3706,31 +3706,31 @@
   splits:
   - split: 3
     text: "·入门"
-    translated: "Entry-Level"
+    translated: "·Beginner's Level"
 - lineNum: 619
   raw: "ComString,.cctor,1170,·上手,[]"
   splits:
   - split: 3
     text: "·上手"
-    translated: "To get started"
+    translated: "· To get started"
 - lineNum: 620
   raw: "ComString,.cctor,1180,·熟练,[]"
   splits:
   - split: 3
     text: "·熟练"
-    translated: "Proficiently"
+    translated: "·Proficient"
 - lineNum: 621
   raw: "ComString,.cctor,1190,·精通,[]"
   splits:
   - split: 3
     text: "·精通"
-    translated: "Expert in mastering"
+    translated: "·Mastery expertly skilled"
 - lineNum: 622
   raw: "ComString,.cctor,1200,·专精,[]"
   splits:
   - split: 3
     text: "·专精"
-    translated: "Specialize in"
+    translated: "·Specialization"
 - lineNum: 623
   raw: "ComString,.cctor,1210,入门 ,[]"
   splits:
@@ -3827,7 +3827,7 @@
   splits:
   - split: 3
     text: "未卜·"
-    translated: "Undetermined"
+    translated: "Undetermined ·"
 - lineNum: 639
   raw: "FabricationResult,ShowItemTip,165,获得,[SweetPotato.Item]"
   splits:
@@ -5994,13 +5994,13 @@
   splits:
   - split: 3
     text: "武器·剑"
-    translated: "Weapons - Sword"
+    translated: "Weapons · Sword"
 - lineNum: 1000
   raw: "ControllerEquipPart,OnInit,287,武器·刀,[System.Int64]"
   splits:
   - split: 3
     text: "武器·刀"
-    translated: "Weapons · Blades"
+    translated: "Weapons · Blade"
 - lineNum: 1001
   raw: "ControllerEquipPart,OnInit,295,武器·枪,[System.Int64]"
   splits:
@@ -6012,7 +6012,7 @@
   splits:
   - split: 3
     text: "武器·拳"
-    translated: "Weapons · Fist"
+    translated: "Weapon · Fist"
 - lineNum: 1003
   raw: "RoleBagItemListHolder,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
@@ -10843,19 +10843,19 @@
   splits:
   - split: 3
     text: "离莹·"
-    translated: "Li Ying—"
+    translated: "Li Ying ·"
 - lineNum: 1808
   raw: "JingMaiAttriItemSlot,OnReset,444,扶山·,[]"
   splits:
   - split: 3
     text: "扶山·"
-    translated: "Help the Mountain"
+    translated: "Fu Shan·"
 - lineNum: 1809
   raw: "JingMaiAttriItemSlot,OnReset,468,战好·,[]"
   splits:
   - split: 3
     text: "战好·"
-    translated: "Battle Well!"
+    translated: "Fought well. ·"
 - lineNum: 1810
   raw: "JingMaiAttriItemSlot,OnReset,752,<color=#ff0000>领悟......</color>,[]"
   splits:
@@ -14549,7 +14549,7 @@
   splits:
   - split: 3
     text: "未卜·"
-    translated: "Undetermined"
+    translated: "Undetermined ·"
 - lineNum: 2425
   raw: "ShopStoreViewNew,GouMai,1375,获得,[]"
   splits:
@@ -16237,7 +16237,7 @@
   splits:
   - split: 3
     text: "未卜·"
-    translated: "Undetermined"
+    translated: "Undetermined ·"
 - lineNum: 2706
   raw: "BuildManager,CanCreate,23,不满足创建条件,[BuildPrototype]"
   splits:
@@ -24562,7 +24562,7 @@
   splits:
   - split: 3
     text: "<color=#f8744b>[秘宝]</color>"
-    translated: "<color=#f8744b>[Mystical Treasure]</color>"
+    translated: "<color=#f8744b>[Secret Treasure]</color>"
 - lineNum: 4093
   raw: "SweetPotato.ChuanWenDetail,.ctor,25,<color=#f8744b>[争斗]</color>,[]"
   splits:
@@ -24586,7 +24586,7 @@
   splits:
   - split: 3
     text: "<color=#f8744b>[秘宝]</color>"
-    translated: "<color=#f8744b>[Mystical Treasure]</color>"
+    translated: "<color=#f8744b>[Secret Treasure]</color>"
 - lineNum: 4097
   raw: "SweetPotato.ChuanWenItemSlot,.ctor,25,<color=#f8744b>[争斗]</color>,[]"
   splits:
@@ -24610,7 +24610,7 @@
   splits:
   - split: 3
     text: "传闻秘宝npc夺取事件 itemId:{0} 夺取npcId:{1} 被夺取npcId:{2}"
-    translated: "Rumors of a treasure NPC seizing event: item ID: {0} seizes npcId: {1} was stolen by npcId: {2}"
+    translated: "Rumor of NPC's theft of a secret treasure item ID: {0} seizes npcId: {1} has been seized by NPC ID: {2}"
 - lineNum: 4101
   raw: "SweetPotato.ChuanWenView,OnEnable,5,传闻,[]"
   splits:
@@ -27838,19 +27838,19 @@
   splits:
   - split: 3
     text: "武器·"
-    translated: "Weapons ·"
+    translated: "Weapon ·"
 - lineNum: 4639
   raw: "SweetPotato.Item,GetPartTypeName,14,防具·,[SweetPotato.WordEntryType/PARTTYPE]"
   splits:
   - split: 3
     text: "防具·"
-    translated: "Armor"
+    translated: "Armor ·"
 - lineNum: 4640
   raw: "SweetPotato.Item,GetPartTypeName,24,配饰·,[SweetPotato.WordEntryType/PARTTYPE]"
   splits:
   - split: 3
     text: "配饰·"
-    translated: "Accessories"
+    translated: "Accessories·"
 - lineNum: 4641
   raw: "SweetPotato.Item,get_RequestDes_NOS,54,要求：,[]"
   splits:
@@ -28546,7 +28546,7 @@
   splits:
   - split: 3
     text: "未卜·"
-    translated: "Undetermined"
+    translated: "Undetermined ·"
 - lineNum: 4757
   raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,1015,获得,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
   splits:
@@ -30089,7 +30089,7 @@
   splits:
   - split: 3
     text: "配饰·天工图谱·卷一"
-    translated: "Accessories · Tengong Map · Volume One"
+    translated: "Accessories · Celestial Crafting Manual · Volume One"
 - lineNum: 5014
   raw: "SweetPotato.BagView.BagYinDaoTip,ShowKeyOrRein,29,单击左键,[System.Boolean]"
   splits:

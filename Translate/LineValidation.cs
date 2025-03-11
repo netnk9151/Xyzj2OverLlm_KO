@@ -26,8 +26,7 @@ public static partial class LineValidation
         //StripColorTags(raw)
         raw = raw
             //.Replace("。", ".") //Hold off on this one for now
-            .Replace("…", "...")
-            //.Replace("·", ":") // Need a way to do split better or it kills to many lines
+            .Replace("…", "...")  
             .Replace("：", ":")
             .Replace("：", ":")
             .Replace("「", "'")
@@ -220,6 +219,13 @@ public static partial class LineValidation
                 response = false;
                 correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", match.Value);
             }
+        }
+
+        // Removed :
+        if (raw.Contains('·') && !result.Contains('·'))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "·");
         }
 
         if (raw.Contains("\\n") && !result.Contains("\\n"))

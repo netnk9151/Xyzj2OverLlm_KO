@@ -40,7 +40,6 @@ public class TranslationSplit
         //if (translated)
         //    LastTranslatedOn = DateTime.Now;
 
-        SafeToTranslate = true;
         FlaggedForRetranslation = false;
         FlaggedMistranslation = string.Empty;
         FlaggedHallucination = string.Empty;

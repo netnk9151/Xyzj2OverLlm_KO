@@ -117,6 +117,45 @@
   result: Outlaws' Den
   badtrans: true  
   literal: Xia Ku  
+- raw: 秘宝  
+  result: Secret Treasure  
+  badtrans: true  
+  direct: Secret Treasure  
+  literal: Mibao
+- raw: 什长  
+  result: Squad Leader  
+  badtrans: true  
+  direct: Ten-Man Commander  
+  literal: Shi Zhang  
+- raw: 新兵  
+  result: Recruit  
+  badtrans: true  
+  direct: New Soldier  
+  literal: Xin Bing 
+- raw: 侧翼支援  
+  result: Flank Support  
+  badtrans: true  
+  direct: Side-Wing Assistance  
+  literal: Ceyi Zhiyuan  
+- raw: 段公子
+  result: Young Lord Duan
+  badtrans: true
+- raw: 朝廷  
+  result: Imperial Court  
+  badtrans: true  
+  direct: Court of the Emperor  
+  literal: Chaoting  
+- raw: 草寇  
+  result: Bandit  
+  badtrans: true  
+  direct: Grass Bandit  
+  literal: Cao Kou  
+- raw: 绿林  
+  result: Green Forest  
+  badtrans: true  
+  direct: Forest of the Outlaws  
+  literal: Lü Lin  
+
 
 # Difficulties
 - raw: 爽文江湖
@@ -1381,6 +1420,17 @@
   badtrans: true  
   direct: Yin Plague Bee  
   literal: Yin Zhang Feng  
+- raw: 修为宝册  
+  result: Tome of Cultivation  
+  badtrans: true  
+  direct: Treasure Manual of Attainments  
+  literal: Xiuwei Baoce  
+- raw: 秘宝之钥  
+  result: Secret Treasure Key
+  badtrans: true  
+  direct: Key to the Secret Treasure  
+  literal: Mibao Zhi Yao  
+
 
 # People
 - raw: 枪士
@@ -2815,11 +2865,6 @@
   badtrans: true  
   direct: Qi Jing Ba Mai Pu  
   literal: Qi Jing Ba Mai Pu  
-- raw: 万法森罗残卷  
-  result: Scroll of Ten Thousand Laws  
-  badtrans: true  
-  direct: Wan Fa Sen Luo Can Juan  
-  literal: Wan Fa Sen Luo Can Juan  
 - raw: 万径人踪灭  
   result: Ten Thousand Paths, No Trace of People  
   allowalt:
@@ -2828,12 +2873,87 @@
   direct: Wan Jing Ren Zong Mie  
   literal: Wan Jing Ren Zong Mie  
 - raw: 天罡童子功  
-  result: Celestial Pure Body Method
+  result: Heavenly Force Pure Body Method
   badtrans: true  
   direct: Tiangang Virgin Kung Fu  
   literal: Tiangang Tongzi Gong  
+- raw: 天罡北斗诀  
+  result: Heavenly Force Big Dipper Secret  
+  badtrans: true  
+  direct: Celestial Northern Dipper Formula  
+  literal: Tiangang Beidou Jue  
+- raw: 天罡极刃  
+  result: Heavenly Force Extreme Blade  
+  badtrans: true  
+  direct: Heavenly Gang Sharp Blade  
+  literal: Tiangang Jiren  
+- raw: 天罡诀  
+  result: Heavenly Force 
+  badtrans: true  
+  direct: Heavenly Force
+  literal: Tiangang
 - raw: 玉蜂毒  
   result: Jade Bee Poison  
   badtrans: true  
   direct: Jade Bee Venom  
   literal: Yu Feng Du  
+- raw: 江海图志  
+  result: Chronicles of Rivers and Seas  
+  badtrans: true  
+  direct: River and Sea Map Chronicles  
+  literal: Jiang Hai Tu Zhi  
+- raw: 治学  
+  result: Pursuit of Knowledge  
+  badtrans: true  
+  direct: Study and Learning  
+  literal: Zhi Xue  
+- raw: 天工图谱  
+  result: Celestial Crafting Manual  
+  badtrans: true  
+  direct: Heavenly Work Blueprint  
+  literal: Tiangong Tupu  
+- raw: 参严论  
+  result: Treatise on Rigorous Inquiry  
+  badtrans: true  
+  direct: Debate on Strict Participation  
+  literal: Can Yan Lun  
+- raw: 机杼家经  
+  result: Loom Family Classics  
+  badtrans: true  
+  direct: Loom and Shuttle Family Classics  
+  literal: Jizhu Jia Jing  
+- raw: 太初参悟录  
+  result: Taichu's Book of Insight
+  badtrans: true  
+  direct: Taichu's Book of Insight
+  literal: Taichu Canwu Lu  
+- raw: 周天吐纳功  
+  result: Zhoutian Breathing Technique
+  badtrans: true  
+  direct: Zhoutian Purification and Breathing Skill
+  literal: Zhou Tian Tu Na Gong  
+- raw: 万法森罗  
+  result: Ten Thousand Laws
+  badtrans: true  
+  direct: All Laws and the Forest of Teachings
+  literal: Wanfa Senluo
+- raw: 万法森罗纲要  
+  result: Outline of Ten Thousand Laws
+  badtrans: true  
+  direct: Summary of All Laws and the Forest of Teachings
+  literal: Wanfa Senluo Gangyao  
+- raw: 万法森罗残卷  
+  result: Scroll of Ten Thousand Laws  
+  badtrans: true  
+  direct: Wan Fa Sen Luo Can Juan  
+  literal: Wan Fa Sen Luo Can Juan  
+- raw: 螳螂捕蝉
+  result: Praying Mantis Catches the Cicada
+  badtrans: true  
+  direct: The Mantis Catches the Cicada
+  literal: Tanglang Buchan
+- raw: 偷梁换柱  
+  result: Stealing the Beam to Replace the Pillar  
+  badtrans: true  
+  direct: Stealing the Beam and Replacing the Pillar  
+  literal: Tou Liang Huan Zhu  
