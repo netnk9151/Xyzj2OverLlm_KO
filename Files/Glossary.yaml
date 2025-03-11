@@ -149,13 +149,570 @@
   result: Bandit  
   badtrans: true  
   direct: Grass Bandit  
-  literal: Cao Kou  
-- raw: 绿林  
-  result: Green Forest  
+  literal: Cao Kou
+- raw: 孔夫子  
+  result: Teacher Kong  
   badtrans: true  
-  direct: Forest of the Outlaws  
-  literal: Lü Lin  
+  direct: Teacher Kong  
+  literal: Kong Fuzi  
+- raw: 韩夫子  
+  result: Teacher Han  
+  badtrans: true  
+  direct: Teacher Han  
+  literal: Han Fuzi  
+- raw: 流浪武者  
+  result: Wandering Warrior  
+  badtrans: true  
+  direct: Drifting Fighter  
+  literal: Liulang Wuzhe  
+- raw: 茗心羽士  
+  result: Tea-hearted Taoist Practitioner  
+  badtrans: true  
+  direct: Tea-hearted Practitioner  
+  literal: Mingxin Yushi
+- raw: 老年羽士  
+  result: Elder Taoist Practitioner  
+  badtrans: true  
+  direct: Elder Feathered Practitioner  
+  literal: Laonian Yushi  
+- raw: 闲散羽士  
+  result: Idle Taoist Practitioner  
+  badtrans: true  
+  direct: Leisurely Taoist Practitioner  
+  literal: Xiansan Yushi  
+- raw: 清风观
+  result: Clear Breeze Temple
+  badtrans: true
+- raw: 清风观羽士  
+  result: Clear Breeze Temple Taoist Practitioner  
+  badtrans: true  
+  direct: Clear Wind Temple Taoist Practitioner  
+  literal: Qingfeng Guan Yushi  
+- raw: 竹剑客  
+  result: Bamboo Swordsman  
+  badtrans: true  
+  direct: Bamboo Sword Practitioner  
+  literal: Zhu Jianke  
 
+
+# Identity
+- raw: 羽士
+  result: Taoist Practitioner
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true
+- raw: 行走  
+  result: Traveler  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: false  
+  direct: Wanderer  
+  literal: Xingzou  
+- raw: 夫子  
+  result: Teacher
+  allowalt:
+    - Confucius
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Teacher  
+  literal: Fuzi  
+- raw: 兵家  
+  result: Strategist
+  allowalt:
+    - Military Academy Disciple
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Warfare Expert  
+  literal: Bing Jia  
+- raw: 墨生  
+  result: Moism Scholar
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Ink Scholar  
+  literal: Mo Sheng  
+- raw: 说客  
+  result: Negotiator  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Speaker  
+  literal: Shuo Ke  
+- raw: 言者  
+  result: Speaker  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Talker  
+  literal: Yan Zhe 
+- raw: 农令  
+  result: Agricultural Decree  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Farming Decree  
+  literal: Nong Ling  
+- raw: 丹士  
+  result: Alchemist  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Elixir Scholar  
+  literal: Dan Shi  
+- raw: 铸工  
+  result: Foundry Worker 
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Metalcaster  
+  literal: Zhu Gong  
+- raw: 裁缝  
+  result: Tailor  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Seamstress  
+  literal: Caifeng
+- raw: 酒令  
+  result: Wine Decree
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Wine Decree  
+  literal: Jiu Ling  
+- raw: 厨师  
+  result: Chef  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Cook  
+  literal: Chushi  
+- raw: 琴师  
+  result: Zither Master
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Zither Master  
+  literal: Qin Shi  
+- raw: 棋手  
+  result: Chess Player  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Board Game Player  
+  literal: Qishou  
+- raw: 文士  
+  result: Literary Scholar  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Literati  
+  literal: Wen Shi  
+- raw: 画匠  
+  result: Painter  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Artisan Painter  
+  literal: Hua Jiang  
+- raw: 酒客  
+  result: Wine Guest
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Wine Guest  
+  literal: Jiu Ke  
+- raw: 渔夫  
+  result: Fisherman  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Fishman  
+  literal: Yufu  
+- raw: 刀者  
+  result: Bladesman
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Knife Wielder  
+  literal: Dao Zhe  
+- raw: 剑客  
+  result: Swordsman  
+  allowalt:
+    - Swordsmen
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Sword Practitioner  
+  literal: Jian Ke  
+- raw: 力士  
+  result: Strongman  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Hercules  
+  literal: Lishi  
+- raw: 执殳  
+  result: Staff Wielder 
+  allowalt:
+    - Wielding a Staff  
+    - Wielding the Staff  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Wielding a Staff  
+  literal: Zhi Shu 
+- raw: 捕快  
+  result: Constable  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Catching Officer  
+  literal: Bu Kuai  
+- raw: 朝廷鹰犬  
+  result: Imperial Court Hound  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Court Hound  
+  literal: Chaoting Yingquan  
+- raw: 机关师  
+  result: Mechanism Expert  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Mechanism Master  
+  literal: Jiguan Shi  
+- raw: 匠者  
+  result: Craftsman  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Craftsman  
+  literal: Jiang Zhe  
+- raw: 杂家  
+  result: Generalist  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Jack-of-all-Trades  
+  literal: Zajia
+- raw: 酿酒师  
+  result: Brewmaster  
+  allowalt: 
+    - brewer
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Wine Brewer  
+  literal: Niangjiu Shi  
+- raw: 歌伶  
+  result: Singer  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Song Performer  
+  literal: Ge Ling 
+- raw: 绿林  
+  result: Bandit  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Green Woods  
+  literal: Lulin  
+- raw: 刺客  
+  result: Assassin  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Killer  
+  literal: Cike  
+- raw: 渔民  
+  result: Fisherfolk 
+  allowalt:
+    - Fisher
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Fishermen  
+  literal: Yumin  
+- raw: 飞贼  
+  result: Flying Thief  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Flying Thief  
+  literal: Feizei  
+- raw: 书生  
+  result: Scholar  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Book Student  
+  literal: Shusheng  
+- raw: 秀才  
+  result: Talented Student  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Talented Student  
+  literal: Xiucai  
+- raw: 道士  
+  result: Taoist  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Taoist Priest  
+  literal: Daoshi  
+- raw: 法师  
+  result: Master of the Arts  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Master of the Arts  
+  literal: Fashi  
+- raw: 和尚  
+  result: Buddhist Monk  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Buddhist Monk  
+  literal: Heshang  
+- raw: 相师  
+  result: Diviner  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Fortune Teller  
+  literal: Xiang Shi  
+- raw: 镖师  
+  result: Escort
+  allowalt:
+    - Escort Master
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Escort Master  
+  literal: Biao Shi  
+- raw: 武者  
+  result: Warrior  
+  only:
+    - identity.txt
+    - item_base_xianejianghu.txt
+    - item_base_zhenshijianghu.txt
+    - menpairandom.txt
+    - npc_prototype.txt
+    - npc_interact.txt
+  badtrans: true  
+  direct: Martial Practitioner  
+  literal: Wuzhe  
 
 # Difficulties
 - raw: 爽文江湖
@@ -724,11 +1281,6 @@
   badtrans: false  
   direct: Zither Art  
   literal: Qinyi  
-- raw: 琴艺  
-  result: Zither Art 
-  badtrans: false  
-  direct: Zither Art  
-  literal: Qinyi  
 - raw: 棋艺  
   result: Chess Art  
   badtrans: false  
@@ -784,7 +1336,7 @@
 - raw: 道学  
   result: Taoism 
   allowalt:
-    - Toaist Scripture
+    - Taoist Scripture
   badtrans: false  
   direct: Taoist Studies  
   literal: Daoxue 
