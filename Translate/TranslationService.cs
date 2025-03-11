@@ -376,14 +376,21 @@ public static class TranslationService
             {
                 var found = fileLines.FirstOrDefault(x => x.Raw == line.Raw);
                 if (found != null)
-                    line.Translated = found.Translated;
+                {
+                    foreach (var split in line.Splits)
+                    {
+                        var found2 = found.Splits.FirstOrDefault(x => x.Text == split.Text);
+                        if (found2 != null)
+                            split.Translated = found2.Translated;
+                    }
+                }
                 else
                     newCount++;
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");
 
-            if (newCount > 0)
+            if (newCount > 0 || exportLines.Count != fileLines.Count)
             {
                 var serializer = Yaml.CreateSerializer();
                 File.WriteAllText(outputFile, serializer.Serialize(exportLines));

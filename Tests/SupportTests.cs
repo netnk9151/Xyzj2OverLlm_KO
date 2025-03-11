@@ -204,7 +204,7 @@ public class SupportTests
     [Fact]
     public async Task FindAllFailingTranslations()
     {
-        //var failures = new List<string>();
+        var failures = new List<string>();
         var pattern = LineValidation.ChineseCharPattern;
 
         var forTheGlossary = new List<string>();
@@ -225,6 +225,7 @@ public class SupportTests
                     if (!string.IsNullOrEmpty(split.Text) && string.IsNullOrEmpty(split.Translated))
                     {
                         //failures.Add($"Invalid {textFileToTranslate.Path}:\n{split.Text}");
+                        failures.Add($"{line.Raw}");
 
                         if (split.Text.Length < 6)
                             if (!forTheGlossary.Contains(split.Text))
@@ -236,7 +237,7 @@ public class SupportTests
             await Task.CompletedTask;
         });
 
-        //File.WriteAllLines($"{workingDirectory}/TestResults/FailingTranslations.txt", failures);
+        File.WriteAllLines($"{workingDirectory}/TestResults/FailingTranslations.txt", failures);
         File.WriteAllLines($"{workingDirectory}/TestResults/ForManualTrans.txt", forTheGlossary);
 
         //await TranslateFailedLinesForManualTranslation();

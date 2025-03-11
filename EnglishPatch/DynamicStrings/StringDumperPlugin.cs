@@ -10,13 +10,13 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace EnglishPatch.Dumpers;
+namespace EnglishPatch.DynamicStrings;
 
 /// <summary>
 /// Used to replace hardcoded strings in IL
 /// </summary>
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringDumperPlugin", "DynamicStringDumperPlugin", MyPluginInfo.PLUGIN_VERSION)]
-public class DynamicStringDumperPlugin : BaseUnityPlugin
+public class StringDumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
@@ -25,16 +25,7 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
         Logger = base.Logger;
 
         // Disable Dumper for non devs
-        // Load translations from CSV
-        Logger.LogError("Dynamic String Dumper loading...");
-        var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
-        var dumpFilePath = Path.Combine(resourcePath, "dynamicStrings-dump.txt");
-
-        // Generate a template with current strings
-        if (!File.Exists(dumpFilePath))
-            DumpFiles(dumpFilePath);
-        //else
-        //    Logger.LogError("Dump already exists...");
+        DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
     }
 
     public void DumpFiles(string outputPath)
@@ -69,12 +60,10 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
             foreach (var contract in contracts)
             {
                 var parameters = CleanForCsv($"[{string.Join(",", contract.Parameters)}]");
-
                 lines.Add($"{CleanForCsv(contract.Type)},{CleanForCsv(contract.Method)},{CleanForCsv(contract.ILOffset.ToString())},{CleanForCsv(contract.Raw)},{parameters}");
             }
 
             File.WriteAllLines(outputPath, lines);
-
             Logger.LogWarning($"Dumped to: {outputPath}");
         }
         catch (Exception ex)
@@ -111,15 +100,18 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
                 {
                     operandValue = stringValue;
                 }
-                else if (instruction.OpCode == OpCodes.Ldc_I4 && instruction.Operand is int intValue
-                    && intValue >= char.MinValue && intValue <= char.MaxValue)
+                else if (instruction.OpCode == OpCodes.Ldc_I4
+                    && instruction.Operand is int intValue
+                    && intValue >= char.MinValue
+                    && intValue <= char.MaxValue
+                    && IsLikelyCharParameter(instruction))
                 {
-                    operandValue = ((char)intValue).ToString();
+                    operandValue = $"INVALIDCHAR: {(char)intValue}";
                 }
-                
+
                 // Look for string load operations
                 if (!string.IsNullOrWhiteSpace(operandValue) && Regex.IsMatch(operandValue, MainPlugin.ChineseCharPattern))
-                {              
+                {
                     // Add to our list
                     stringReferences.Add(new DynamicStringContract
                     {
@@ -132,5 +124,73 @@ public class DynamicStringDumperPlugin : BaseUnityPlugin
                 }
             }
         }
+    }
+
+    public static bool IsLikelyCharParameter(Mono.Cecil.Cil.Instruction currentInstruction)
+    {
+        // Get the next instruction after loading the potential character value
+        var nextInstruction = currentInstruction.Next;
+
+        // Check if there's no next instruction
+        if (nextInstruction == null)
+            return false;
+
+        // Case 1: Direct call to a method that takes a char parameter
+        if (nextInstruction.OpCode == OpCodes.Call || nextInstruction.OpCode == OpCodes.Callvirt)
+        {
+            MethodReference calledMethod = nextInstruction.Operand as MethodReference;
+            if (calledMethod != null && calledMethod.Parameters.Count > 0)
+            {
+                // Check if the first parameter is a char
+                // (or if any parameter is a char, depending on your needs)
+                foreach (ParameterDefinition param in calledMethod.Parameters)
+                {
+                    if (param.ParameterType.FullName == "System.Char")
+                        return true;
+                }
+            }
+        }
+
+        // Case 2: Character being boxed (common for Split and other methods)
+        if (nextInstruction.OpCode == OpCodes.Box &&
+            nextInstruction.Operand is TypeReference typeRef &&
+            typeRef.FullName == "System.Char")
+        {
+            return true;
+        }
+
+        // Case 3: Looking at a string Split method specifically
+        // This might require more context - looking ahead several instructions
+        if (IsPartOfStringSplit(currentInstruction))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    public static bool IsPartOfStringSplit(Mono.Cecil.Cil.Instruction loadInstruction)
+    {
+        // Look ahead several instructions for a pattern that matches String.Split
+        var current = loadInstruction;
+
+        // Skip ahead a few instructions looking for the call
+        for (int i = 0; i < 5 && current.Next != null; i++)
+        {
+            current = current.Next;
+
+            if ((current.OpCode == OpCodes.Call || current.OpCode == OpCodes.Callvirt) &&
+                current.Operand is MethodReference methodRef)
+            {
+                // Check if the method is String.Split
+                if (methodRef.DeclaringType.FullName == "System.String" &&
+                    methodRef.Name == "Split")
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 }

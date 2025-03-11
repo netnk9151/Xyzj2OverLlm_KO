@@ -55,7 +55,7 @@ public class TextDumperPlugin : BaseUnityPlugin
                 }
         }
 
-        File.WriteAllLines(@"H:/Xyzj2OverLlm/Files/Raw/ExportedText/dumpedPrefabText.txt", exportedStrings);
+        File.WriteAllLines(@"G:/Xyzj2OverLlm/Files/Raw/ExportedText/dumpedPrefabText.txt", exportedStrings);
         Logger.LogWarning("Exported Prefabs");
     }
 

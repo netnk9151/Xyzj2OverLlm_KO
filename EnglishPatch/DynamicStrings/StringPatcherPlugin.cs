@@ -11,13 +11,13 @@ using System.Linq;
 using System.Reflection;
 using Translate.Support;
 
-namespace EnglishPatch;
+namespace EnglishPatch.DynamicStrings;
 
 /// <summary>
 /// Used to replace hardcoded strings in IL
 /// </summary>
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher", "DynamicStringPatcher", MyPluginInfo.PLUGIN_VERSION)]
-public class DynamicStringPatcherPlugin : BaseUnityPlugin
+public class StringPatcherPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
     private Harmony _harmony;
@@ -26,7 +26,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
     private void Awake()
     {
-        Logger = base.Logger;      
+        Logger = base.Logger;
         _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
         Logger.LogInfo("Dynamic String Patcher loading...");
@@ -40,7 +40,6 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         else
             Logger.LogWarning($"Translation file not found at: {resourcePath}");
     }
-
 
     public static List<GroupedDynamicStringContracts> GroupedDynamicStringContracts(List<DynamicStringContract> contracts)
     {
@@ -64,7 +63,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
             })
             .ToList();
     }
- 
+
     public static string GetParametersKey(string[] parameters)
     {
         return string.Join(",", parameters);
@@ -178,7 +177,7 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
                 // Apply the patch
                 //_harmony.Patch(targetMethod, transpiler: StringPatcherTranspiler.CreateTranspilerMethod(contract.Contracts, targetMethod));
-                _harmony.Patch(targetMethod, transpiler: DynamicStringTranspiler.CreateTranspilerMethod(contract.Contracts));
+                _harmony.Patch(targetMethod, transpiler: StringTranspiler.CreateTranspilerMethod(contract.Contracts));
 
                 successCount++;
                 Logger.LogDebug($"Successfully patched: {contract.Type}.{contract.Method}");
@@ -286,15 +285,15 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
 
         foreach (var contract in contracts)
         {
-            DynamicStringTranspiler.PrepareDynamicString(contract.Raw, out string preparedRaw, out string preparedRaw2);
-            DynamicStringTranspiler.PrepareDynamicString(contract.Translation, out string preparedTrans, out string preparedTrans2);
+            StringTranspiler.PrepareDynamicString(contract.Raw, out string preparedRaw, out string preparedRaw2);
+            StringTranspiler.PrepareDynamicString(contract.Translation, out string preparedTrans, out string preparedTrans2);
 
             if (value == preparedRaw)
             {
                 return preparedTrans;
             }
-            else if (value == preparedRaw2 
-                || DynamicStringTranspiler.StripCommas(value) == DynamicStringTranspiler.StripCommas(preparedRaw))
+            else if (value == preparedRaw2
+                || StringTranspiler.StripCommas(value) == StringTranspiler.StripCommas(preparedRaw))
             {
                 return preparedTrans2;
             }
@@ -303,7 +302,6 @@ public class DynamicStringPatcherPlugin : BaseUnityPlugin
         return value;
     }
 
-    //###
     private void ProcessGenericCollection(object collection, DynamicStringContract[] contracts)
     {
         if (collection == null) return;

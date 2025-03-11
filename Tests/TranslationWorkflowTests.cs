@@ -282,7 +282,8 @@ public class TranslationWorkflowTests
         {
             if (split.Text.Contains("Sprite")
                 || split.Text.Contains("UI")
-                || split.Text.Contains("Prefab"))
+                || split.Text.Contains("Prefab")
+                || split.Text.StartsWith("INVALIDCHAR:"))
             {
                 split.SafeToTranslate = false;
                 return true;

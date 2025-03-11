@@ -10,7 +10,7 @@ using TMPro;
 using UnityEngine;
 using XUnity.ResourceRedirector;
 
-namespace EnglishPatch;
+namespace EnglishPatch.PrefabText;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextReplacer", "TextReplacer", MyPluginInfo.PLUGIN_VERSION)]
 [BepInDependency("gravydevsupreme.xunity.resourceredirector")]
@@ -84,7 +84,7 @@ public class TextReplacerPlugin : BaseUnityPlugin
             if (gameObject.name.Contains("LoginView"))
                 return;
 
-            foreach (var component in gameObject.GetComponentsInChildren<UnityEngine.Component>(true))
+            foreach (var component in gameObject.GetComponentsInChildren<Component>(true))
             {
                 //    var textProperty = component.GetType().GetProperty("text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
                 //        ?? component.GetType().GetProperty("Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);

@@ -10,7 +10,7 @@ using System.Linq;
 using UnityEngine;
 using XUnity.ResourceRedirector;
 
-namespace EnglishPatch
+namespace EnglishPatch.Sprites
 {
     [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.SpriteReplacer", "SpriteReplacer", MyPluginInfo.PLUGIN_VERSION)]
     [BepInDependency("gravydevsupreme.xunity.resourceredirector")]
@@ -149,7 +149,7 @@ namespace EnglishPatch
 
             if (context.Asset is GameObject prefab)
             {
-                var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();                
+                var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();
 
                 // Log game objects to make it easier to find
                 if (allChildren.Length > 0)
@@ -170,7 +170,7 @@ namespace EnglishPatch
         {
             var shouldMatch = _cachedSpriteNames.Contains(child.name) || _cachedSpriteNames.Contains(child.sprite?.name);
 
-            var spritePath = ObjectHelper.GetPath(child);
+            var spritePath = child.GetPath();
 
             if (child.sprite != null)
             {
@@ -189,7 +189,7 @@ namespace EnglishPatch
                     Logger.LogError($"Did not match SpriteKey: {spriteKey}");
             }
             //else
-                //Logger.LogInfo($"No Sprite: {spritePath}");
+            //Logger.LogInfo($"No Sprite: {spritePath}");
         }
 
         //private void ProcessTexture(AssetLoadedContext context, string fullPath)
