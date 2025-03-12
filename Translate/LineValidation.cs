@@ -1,7 +1,10 @@
-﻿using System.Globalization;
+﻿using Microsoft.VisualBasic;
+using System.Globalization;
+using System.Numerics;
 using System.Text;
 using System.Text.RegularExpressions;
 using Translate.Utility;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Translate;
 
@@ -154,6 +157,7 @@ public static partial class LineValidation
             "It seems like your input might be incomplete or missing some context",
             "Please provide the Chinese string you would like to be translated into English",
             "please provide the Chinese string",
+            "please provide the specific Chinese strings",
             "translates to",
             //"also known as" //Causes issues
             "'''",
@@ -185,10 +189,16 @@ public static partial class LineValidation
         //}
 
         // Small source with ';' is ususually an alternative
-        if (result.Contains(';') && !raw.Contains(';') && raw.Length < 3)
+        if (result.Contains(';') && !raw.Contains(';') && raw.Length < 4)
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", ";");
+        }
+
+        if (result.Contains(',') && !raw.Contains(',') && !raw.Contains("，") && !raw.Contains("、") && raw.Length < 4)
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", ",");
         }
 
         // Added literal

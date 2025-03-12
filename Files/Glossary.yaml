@@ -1940,11 +1940,18 @@
 - raw: 茯苓
   result: Poria
   allowalt: 
-    - Fuling
+    - Ding Fuling
   badtrans: true
 - raw: 三七
   result: Sanqi
   badtrans: false
+- raw: 细辛
+  result: Fragrant Root
+  allowalt:
+    Liu Xixin
+  badtrans: true
+  direct: Xi Xin
+  literal: Xi Xin
 - raw: 软筋散
   result: Tendon-Softening Powder
   badtrans: true
@@ -2006,7 +2013,21 @@
   badtrans: true
   direct: Liu Li Shi
   literal: Liu Li Shi
-
+- raw: 筋武丹
+  result: Sinew Strengthening Pill
+  badtrans: true
+  direct: Jin Wu Dan
+  literal: Jin Wu Dan
+- raw: 玲珑匣
+  result: Intricate Casket
+  badtrans: true
+  direct: Ling Long Xia
+  literal: Ling Long Xia
+- raw: 离荧
+  result: Waning Ember
+  badtrans: true
+  direct: Li Ying
+  literal: Li Ying
 
 
 # People
@@ -2685,7 +2706,11 @@
   badtrans: true
   direct: Meng Cong
   literal: Meng Cong
-
+- raw: 柳细辛
+  result: Liu Xixin
+  badtrans: true
+  direct: Liu Xi Xin
+  literal: Liu Xi Xin
 
 # Bosses
 - raw: 艾里甫  
@@ -3612,5 +3637,13 @@
   badtrans: true  
   direct: Stealing the Beam and Replacing the Pillar  
   literal: Tou Liang Huan Zhu  
-
-
+- raw: 机杼经
+  result: Weaving Loom Sutra
+  badtrans: true
+  direct: Ji Zhu Jing
+  literal: Ji Zhu Jing
+- raw: 逐月履
+  result: Pursuing the Moon's Steps
+  badtrans: true
+  direct: Zhu Yue Lv
+  literal: Zhu Yue Lv
