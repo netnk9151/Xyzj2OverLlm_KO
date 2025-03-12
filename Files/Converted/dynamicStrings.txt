@@ -4686,7 +4686,7 @@
   splits:
   - split: 3
     text: "拜师"
-    translated: "Apprentice under a master"
+    translated: "Apprentice to a Master"
 - lineNum: 782
   raw: "InteractSlot,OnReset,456,结缘,[]"
   splits:
@@ -6643,7 +6643,7 @@
   splits:
   - split: 3
     text: "已覆盖快速存档栏"
-    translated: "Fast Save Column Already Covered"
+    translated: "Quick Save Slot Overwritten"
 - lineNum: 1108
   raw: "MainViewSettings,UpdateInput,2675,当前状态下不可打坐,[]"
   splits:
@@ -7963,7 +7963,7 @@
   splits:
   - split: 3
     text: "<color=#b8b8b8>情分：</color>0"
-    translated: "<color=#b8b8b8>Affectionate fondness or gratitude<color=#b8b8b8>: </color>0"
+    translated: "<color=#b8b8b8>Affectionion<color=#b8b8b8>: </color>0"
 - lineNum: 1328
   raw: "RoleInformation,ShowInformation,66,<color=#b8b8b8>身份：不详</color>,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
@@ -7975,7 +7975,7 @@
   splits:
   - split: 3
     text: "<color=#b8b8b8>势力：不详</color>"
-    translated: "<color=#b8b8b8>Power, influence, faction: Undisclosed.</color>"
+    translated: "<color=#b8b8b8>Power: Undisclosed.</color>"
 - lineNum: 1330
   raw: "RoleInformation,ShowInformation,131,<color=#b8b8b8>精力：</color>,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
   splits:
@@ -8101,7 +8101,7 @@
   splits:
   - split: 3
     text: " 日"
-    translated: "Sun Day"
+    translated: "Day"
 - lineNum: 1351
   raw: "SelectedBtnSlot,OnReset,66, 年,[]"
   splits:
@@ -8119,7 +8119,7 @@
   splits:
   - split: 3
     text: "{0}年"
-    translated: "In {0} year"
+    translated: "{0} year"
 - lineNum: 1354
   raw: "TimeSelectSlot,OnReset,103,{0}月,[]"
   splits:
@@ -8185,7 +8185,7 @@
   splits:
   - split: 3
     text: "拜师"
-    translated: "Apprentice under a master"
+    translated: "Apprentice to a Master"
 - lineNum: 1365
   raw: "NpcInteractButtonSlot,set_Interact,229,结缘,[SweetPotato.NpcInteract]"
   splits:
@@ -10861,7 +10861,7 @@
   splits:
   - split: 3
     text: "<color=#ff0000>领悟......</color>"
-    translated: "<color=#ff0000>Understanding...</color>"
+    translated: "<color=#ff0000>Comprehension...</color>"
 - lineNum: 1811
   raw: "JingMaiGraphDetailView/<>c__DisplayClass104_0,<OnJiHuoAnimFinish>b__4,528,修为：,[]"
   splits:
@@ -11179,7 +11179,7 @@
   splits:
   - split: 3
     text: "领悟"
-    translated: "Comprehend"
+    translated: "Comprehension"
 - lineNum: 1864
   raw: "LianZhaoItemSlot,OnClickXiuLian,42,修炼 ,[]"
   splits:
@@ -13690,7 +13690,7 @@
   splits:
   - split: 3
     text: "初学"
-    translated: "As a beginner"
+    translated: "Beginner"
 - lineNum: 2282
   raw: "QingGongPartView,RefreshSelected,1089,精通,[]"
   splits:
@@ -13702,7 +13702,7 @@
   splits:
   - split: 3
     text: "化境"
-    translated: "Achieved Immortality"
+    translated: "Transcendent"
 - lineNum: 2284
   raw: "QingGongPartView,RefreshSelected,1197,感悟,[]"
   splits:
@@ -15204,7 +15204,7 @@
   splits:
   - split: 3
     text: "化境"
-    translated: "Achieved Immortality"
+    translated: "Transcendent"
 - lineNum: 2534
   raw: "SpellItemSlotNew,OnReset,1172,招式,[]"
   splits:
@@ -19778,25 +19778,25 @@
   splits:
   - split: 3
     text: "任脉"
-    translated: "Ren Meridian"
+    translated: "Ren Mai"
 - lineNum: 3296
   raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,72,督脉,[System.Int32]"
   splits:
   - split: 3
     text: "督脉"
-    translated: "Dumai meridian"
+    translated: "Du Mai"
 - lineNum: 3297
   raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,80,带脉,[System.Int32]"
   splits:
   - split: 3
     text: "带脉"
-    translated: "Carrying the pulse"
+    translated: "Dai Mai"
 - lineNum: 3298
   raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,88,冲脉,[System.Int32]"
   splits:
   - split: 3
     text: "冲脉"
-    translated: "Surging Moxibustion"
+    translated: "Chong Mai"
 - lineNum: 3299
   raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,96,阳维,[System.Int32]"
   splits:
@@ -28300,7 +28300,7 @@
   splits:
   - split: 3
     text: "， 并附加词条"
-    translated: "It seems like your input might be incomplete or missing some context. Could you please provide more information or clarify what you'd like to have translated? If there's a specific Chinese string you need help with, feel free to share it here. I'll do my best to translate it according to the guidelines provided."
+    translated: ", and additional terms."
 - lineNum: 4716
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1017,用于装备回锻，将附带的词条替换到装备上,[]"
   splits:
@@ -28312,7 +28312,7 @@
   splits:
   - split: 3
     text: "， 并附加词条"
-    translated: "It seems like your input might be incomplete or missing some context. Could you please provide more information or clarify what you'd like to have translated? If there's a specific Chinese string you need help with, feel free to share it here. I'll do my best to translate it according to the guidelines provided."
+    translated: ", and additional terms."
 - lineNum: 4718
   raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1087,用于轻功激活和升级,[]"
   splits:
@@ -29549,25 +29549,25 @@
   splits:
   - split: 3
     text: "任脉"
-    translated: "Ren Meridian"
+    translated: "Ren Mai"
 - lineNum: 4924
   raw: "SweetPotato.JingMai.JingMaiZhouTianEffectItem,GetJingMaiName,58,督脉,[System.Int32]"
   splits:
   - split: 3
     text: "督脉"
-    translated: "Dumai meridian"
+    translated: "Du Mai"
 - lineNum: 4925
   raw: "SweetPotato.JingMai.JingMaiZhouTianEffectItem,GetJingMaiName,66,带脉,[System.Int32]"
   splits:
   - split: 3
     text: "带脉"
-    translated: "Carrying the pulse"
+    translated: "Dai Mai"
 - lineNum: 4926
   raw: "SweetPotato.JingMai.JingMaiZhouTianEffectItem,GetJingMaiName,74,冲脉,[System.Int32]"
   splits:
   - split: 3
     text: "冲脉"
-    translated: "Surging Moxibustion"
+    translated: "Chong Mai"
 - lineNum: 4927
   raw: "SweetPotato.JingMai.JingMaiZhouTianEffectItem,GetJingMaiName,82,阳维,[System.Int32]"
   splits:

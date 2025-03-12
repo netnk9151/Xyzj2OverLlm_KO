@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Drawing;
-using System.Globalization;
-using System.IO.Pipelines;
-using System.Linq;
+﻿using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Xml;
 using Translate.Utility;
 
 namespace Translate;
@@ -159,6 +151,9 @@ public static partial class LineValidation
             "provide the text", 
             "Certainly! Please provide the Chinese",
             "Certainly! Please provide the specific Chinese",
+            "It seems like your input might be incomplete or missing some context",
+            "Please provide the Chinese string you would like to be translated into English",
+            "please provide the Chinese string",
             "translates to",
             //"also known as" //Causes issues
             "'''",
@@ -210,7 +205,6 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectColonSegementPrompt");
         }
 
-        // TODO: This aint working
         //Place holders - incase the model ditched them
         var matches = PlaceholderPatternRegex().Matches(raw);
         foreach (Match match in matches)
