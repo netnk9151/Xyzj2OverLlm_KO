@@ -542,7 +542,7 @@ public class TranslationWorkflowTests
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
             "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort",
-            "knight", "thay", "tien", "div", "html", "tiantu",
+            "knight", "thay", "tien", "div", "html", "tiantu", "ngoc", "truong", "Phong"
         ];
 
         string pattern = $@"\b({string.Join("|", words)})\b";
