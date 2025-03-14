@@ -8,23 +8,21 @@
   idealFontSize: 18
   alignment: "Center"
   allowWordWrap: true
-  adjustWidth: 80
   adjustX: -15
+  adjustWidth: 80
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/AttriEquip/Shotcut/title*"
   sampleText: "  Quick Access Item 2"
   idealFontSize: 22
   alignment: "TopLeft"
   allowWordWrap: true
   allowLeftTrimText: true
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/ToggleGroup/AttriLayout/element*/AttriName"
   sampleText: "Luck"
   idealFontSize: 20
   alignment: "Right"
   allowWordWrap: true
-  adjustWidth: 80
   adjustX: -20
+  adjustWidth: 80
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/ToggleGroup/AttriLayout/element*/Level"
   sampleText: "Rank 0"
   idealFontSize: 20
@@ -33,20 +31,18 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/ToggleGroup/AttriLayout/element*/Text (TMP)"
   sampleText: "  Proficiency level:"
   idealFontSize: 20
-  adjustWidth: 80
-  adjustX: 40
   alignment: "Left"
   allowWordWrap: true
   allowLeftTrimText: true
+  adjustX: 40
+  adjustWidth: 80
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/ToggleGroup/AttriLayout/element*/Value"
   sampleText: "30/100"
   idealFontSize: 20
   alignment: "Center"
   allowWordWrap: true
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/desRoot/Text3"
-  sampleText: "Introduction:After a noble general fell from grace due to an unfortunate accident and found himself living among the Jianghu, he emerged as a young wanderer with great potential. With a heart set on saving the world, he unfortunately made enemies among many influential figures and faced numerous dangers. At a point where his life hung by a thread, Yuan Jun acknowledged that possessing such pure intentions in chaotic times was rare. Thus, Ling Chun was appointed to assist him, extending his lifespan so he could continue living. Unfortunately, most of his past experiences were now hazy memories."
+  sampleText: "Introduction:Afterï¿½aï¿½nobleï¿½generalï¿½fellï¿½fromï¿½graceï¿½dueï¿½toï¿½anï¿½unfortunateï¿½accidentï¿½andï¿½foundï¿½himselfï¿½livingï¿½amongï¿½theï¿½Jianghu,ï¿½heï¿½emergedï¿½asï¿½aï¿½youngï¿½wandererï¿½withï¿½greatï¿½potential.ï¿½Withï¿½aï¿½heartï¿½setï¿½onï¿½savingï¿½theï¿½world,ï¿½heï¿½unfortunatelyï¿½madeï¿½enemiesï¿½amongï¿½manyï¿½influentialï¿½figuresï¿½andï¿½facedï¿½numerousï¿½dangers.ï¿½Atï¿½aï¿½pointï¿½whereï¿½hisï¿½lifeï¿½hungï¿½byï¿½aï¿½thread,ï¿½Yuanï¿½Junï¿½acknowledgedï¿½thatï¿½possessingï¿½suchï¿½pureï¿½intentionsï¿½inï¿½chaoticï¿½timesï¿½wasï¿½rare.ï¿½Thus,ï¿½Lingï¿½Chunï¿½wasï¿½appointedï¿½toï¿½assistï¿½him,ï¿½extendingï¿½hisï¿½lifespanï¿½soï¿½heï¿½couldï¿½continueï¿½living.ï¿½Unfortunately,ï¿½mostï¿½ofï¿½hisï¿½pastï¿½experiencesï¿½wereï¿½nowï¿½hazyï¿½memories."
   idealFontSize: 18
   alignment: "TopLeft"
   allowWordWrap: true
@@ -55,9 +51,8 @@
   idealFontSize: 30
   alignment: "Left"
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/desRoot/Text0"
-  sampleText: "Title:Heroes under a heroic cloud, Yun Jingjie"
+  sampleText: "Title:Heroesï¿½underï¿½aï¿½heroicï¿½cloud,ï¿½Yunï¿½Jingjie"
   idealFontSize: 22
   alignment: "Left"
   allowWordWrap: true
@@ -66,7 +61,6 @@
   idealFontSize: 22
   alignment: "Left"
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/attriRoot*/Title*/Text"
   sampleText: "  Basic Attributes"
   idealFontSize: 20
@@ -74,21 +68,17 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: 50
-  
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/attriRoot*/*"
   sampleText: "Lifeforce"
   idealFontSize: 22
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/talentRoot/Talent*/Name"
   sampleText: "Peerless talent"
   idealFontSize: 20
   alignment: "Center"
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/Attri/DataScroll/Viewport/Content/talentRoot/Talent*/Des"
-  sampleText: "Wealth and honor, the ultimate in prestige, encompass lords and ministers. Gaining money, improving skills, and enhancing understanding increases by <color=#e0834c>20%</color>; damage dealt is increased by <color=#e0854c>5%</color>, while received damage is reduced by <color=#e0834c>5%</color>."
+  sampleText: "Wealthï¿½andï¿½honor,ï¿½theï¿½ultimateï¿½inï¿½prestige,ï¿½encompassï¿½lordsï¿½andï¿½ministers.ï¿½Gainingï¿½money,ï¿½improvingï¿½skills,ï¿½andï¿½enhancingï¿½understandingï¿½increasesï¿½byï¿½<color=#e0834c>20%</color>;ï¿½damageï¿½dealtï¿½isï¿½increasedï¿½byï¿½<color=#e0854c>5%</color>,ï¿½whileï¿½receivedï¿½damageï¿½isï¿½reducedï¿½byï¿½<color=#e0834c>5%</color>."
   idealFontSize: 16
   alignment: "TopLeft"
   allowWordWrap: true
-
