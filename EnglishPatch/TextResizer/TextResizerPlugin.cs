@@ -222,7 +222,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             var serializer = Yaml.CreateSerializer();
 
-            var addedResizersFile = $"{_resizerFolder}/AddedResizers.yaml";
+            var addedResizersFile = $"{_resizerFolder}/zzAddedResizers.yaml";
             var newText = serializer.Serialize(foundResizers);
 
             Logger.LogWarning($"Writing to {addedResizersFile}");
@@ -290,10 +290,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
 
         // Apply the resizing
-        if (textComponent.fontSize != resizer.IdealFontSize && resizer.IdealFontSize > 0)
+        if (textComponent.fontSize != resizer.IdealFontSize && resizer.IdealFontSize != null)
         {
             //Logger.LogInfo($"Changed Font Size: {path} from {textComponent.fontSize} to {resizer.IdealFontSize}");
-            textComponent.fontSize = resizer.IdealFontSize;
+            textComponent.fontSize = resizer.IdealFontSize.Value;
         }
 
         // Text Alignment
@@ -335,16 +335,16 @@ internal class TextResizerPlugin : BaseUnityPlugin
         // Auto Sizing configuration
         if (resizer.AllowAutoSizing)
         {
-            if (resizer.MinFontSize > 0 && resizer.MinFontSize != textComponent.fontSizeMin)
+            if (resizer.MinFontSize != null && resizer.MinFontSize != textComponent.fontSizeMin)
             {
                 //Logger.LogInfo($"Changed MinFont: {path} from {textComponent.fontSizeMin} to {resizer.MinFontSize}");
-                textComponent.fontSizeMin = resizer.MinFontSize;
+                textComponent.fontSizeMin = resizer.MinFontSize.Value;
             }
 
-            if (resizer.MaxFontSize > 0 && resizer.MaxFontSize != textComponent.fontSizeMax)
+            if (resizer.MaxFontSize != null && resizer.MaxFontSize != textComponent.fontSizeMax)
             {
                 //Logger.LogInfo($"Changed MaxFont: {path} from {textComponent.fontSizeMax} to {resizer.MaxFontSize}");
-                textComponent.fontSizeMax = resizer.MaxFontSize;
+                textComponent.fontSizeMax = resizer.MaxFontSize.Value;
             }
         }
 

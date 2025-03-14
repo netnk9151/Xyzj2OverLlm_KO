@@ -46,8 +46,13 @@ public class ConfigurationTests
     public void BackupResizersTest()
     {
         var folder = $@"G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\resizers/";
+        var outputFolder = $"{workingDirectory}/Resizers";
+        if (Directory.Exists(outputFolder))
+            Directory.Delete(outputFolder, true);
+
+        Directory.CreateDirectory(outputFolder);
 
         foreach (var file in Directory.EnumerateFiles(folder))
-            File.Copy(file, $"{workingDirectory}/Resizers/{Path.GetFileName(file)}", true);
+            File.Copy(file, $"{outputFolder}/{Path.GetFileName(file)}", true);
     }
 }
