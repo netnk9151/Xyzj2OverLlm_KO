@@ -4,9 +4,9 @@ using EnglishPatch.Support;
 using HarmonyLib;
 using SharedAssembly.Contracts;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
@@ -198,6 +198,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
                         AllowAutoSizing = textElement.enableAutoSizing,
                         AllowWordWrap = textElement.enableWordWrapping,
                         Alignment = textElement.alignment.ToString(),
+                        OverflowMode = textElement.overflowMode.ToString(),
                         //Add More if we want more
                     };
 
@@ -241,7 +242,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
     public static void ApplyResizing(TextMeshProUGUI textComponent)
     {
-        if (textComponent == null) return;
+        if (textComponent == null) return;    
 
         string path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
 
@@ -249,79 +250,85 @@ internal class TextResizerPlugin : BaseUnityPlugin
         if (resizer == null)
             return;
 
+        // Check if TextMetadata is already attached
+        var metadata = textComponent.GetComponent<TextMetadata>();
+
+        // If metadata is not attached, add it and store the original values against it
+        if (metadata == null)
+        {
+            metadata = textComponent.gameObject.AddComponent<TextMetadata>();
+            metadata.OriginalX = textComponent.rectTransform.anchoredPosition.x;
+            metadata.OriginalY = textComponent.rectTransform.anchoredPosition.y;
+            metadata.OriginalWidth = textComponent.rectTransform.sizeDelta.x;
+            metadata.OriginalHeight = textComponent.rectTransform.sizeDelta.y;
+            metadata.OriginalAlignment = textComponent.alignment;
+            metadata.OriginalOverflowMode = textComponent.overflowMode;
+        }
+
+        // Apply position change if needed
+        if (resizer.AdjustX != metadata.AdjustX || resizer.AdjustY != metadata.AdjustY)
+        {
+            //Logger.LogInfo($"Changing Padding: {path}");
+            metadata.AdjustX = resizer.AdjustX;
+            metadata.AdjustY = resizer.AdjustY;
+            var vector = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
+            textComponent.rectTransform.anchoredPosition = vector;
+        }
+
+        // Apply size change if needed
+        if (resizer.AdjustWidth != metadata.AdjustWidth || resizer.AdjustHeight != metadata.AdjustHeight)
+        {
+            //Logger.LogInfo($"Changing Size: {path}");
+            metadata.AdjustWidth = resizer.AdjustWidth;
+            metadata.AdjustHeight = resizer.AdjustHeight;
+
+            var size = textComponent.rectTransform.sizeDelta;
+            size.x = metadata.OriginalWidth + metadata.AdjustWidth;
+            size.y = metadata.OriginalHeight + metadata.AdjustHeight;
+            textComponent.rectTransform.sizeDelta = size;
+        }
+
+
         // Apply the resizing
         if (textComponent.fontSize != resizer.IdealFontSize && resizer.IdealFontSize > 0)
         {
-            Logger.LogInfo($"Changed Font Size: {path} from {textComponent.fontSize} to {resizer.IdealFontSize}");
+            //Logger.LogInfo($"Changed Font Size: {path} from {textComponent.fontSize} to {resizer.IdealFontSize}");
             textComponent.fontSize = resizer.IdealFontSize;
-        }
-
-        if (resizer.AdjustX != 0 || resizer.AdjustY != 0 || resizer.adjustWidth != 0 || resizer.adjustHeight != 0)
-        {
-            // Check if TextMetadata is already attached
-            var metadata = textComponent.GetComponent<TextMetadata>();
-            RectTransform container = textComponent.rectTransform.parent.GetComponent<RectTransform>();
-
-            // If metadata is not attached, add it and store the original X position
-            if (metadata == null)
-            {
-                metadata = textComponent.gameObject.AddComponent<TextMetadata>();
-                metadata.OriginalX = textComponent.rectTransform.anchoredPosition.x;
-                metadata.OriginalY = textComponent.rectTransform.anchoredPosition.y;
-
-                metadata.OriginalMarginLeft = textComponent.margin.x;
-                //metadata.OriginalMarginRight = textComponent.margin.y;
-                metadata.OriginalMarginTop = textComponent.margin.z;
-                //metadata.OriginalMarginBottom = textComponent.margin.w;
-            }
-
-            if (resizer.AdjustX != metadata.AdjustX || resizer.AdjustY != metadata.AdjustY)
-            {
-                Logger.LogInfo($"Changing Padding: {path}");
-                metadata.AdjustX = resizer.AdjustX;
-                metadata.AdjustY = resizer.AdjustY;
-                var vector = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
-                textComponent.rectTransform.anchoredPosition = vector;
-            }
-
-            if (resizer.adjustWidth != metadata.MarginLeft || resizer.adjustHeight != metadata.MarginBottom)
-            {
-                Logger.LogInfo($"Changing Size: {path}");
-                metadata.MarginLeft = resizer.adjustWidth;
-                metadata.MarginBottom = resizer.adjustHeight;
-
-                //var size = container.sizeDelta;
-                //size.x = size.x + resizer.ModifyWidth;
-                //size.y = size.y + resizer.ModifyHeight;
-                ////var size = new Vector2(metadata.OriginalWidth + metadata.ModifyWidth, metadata.OriginalHeight + metadata.ModifyHeight);
-                //container.sizeDelta = size;
-
-                textComponent.margin = new Vector4(
-                    metadata.OriginalMarginLeft + metadata.MarginLeft,
-                    metadata.OriginalMarginRight + metadata.MarginLeft,
-                    metadata.OriginalMarginTop + metadata.MarginTop,
-                    metadata.OriginalMarginBottom + metadata.MarginTop);
-            }
         }
 
         // Text Alignment
         var alignmentLegit = Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment);
         if (alignmentLegit && textComponent.alignment != alignment)
         {
-            Logger.LogInfo($"Changed Text Alignment: {path} from {textComponent.alignment} to {resizer.Alignment}");
+            //Logger.LogInfo($"Changed Text Alignment: {path} from {textComponent.alignment} to {resizer.Alignment}");
             textComponent.alignment = alignment;
+        }
+        else if (textComponent.alignment != metadata.OriginalAlignment)
+        {
+            textComponent.alignment = metadata.OriginalAlignment;
+        }
+
+        var overflowLegit = Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode);
+        if (overflowLegit && textComponent.overflowMode != overflowMode)
+        {
+            //Logger.LogInfo($"Changed Text Overflow: {path} from {textComponent.overflowMode} to {resizer.OverflowMode}");
+            textComponent.overflowMode = overflowMode;
+        }
+        else if (textComponent.overflowMode != metadata.OriginalOverflowMode)
+        {
+            textComponent.overflowMode = metadata.OriginalOverflowMode;
         }
 
         // Toggles
         if (textComponent.enableWordWrapping != resizer.AllowWordWrap)
         {
-            Logger.LogInfo($"Changed Word Wrapping: {path} from {textComponent.enableWordWrapping} to {resizer.AllowWordWrap}");
+            //Logger.LogInfo($"Changed Word Wrapping: {path} from {textComponent.enableWordWrapping} to {resizer.AllowWordWrap}");
             textComponent.enableWordWrapping = resizer.AllowWordWrap;
         }
 
         if (textComponent.enableAutoSizing != resizer.AllowAutoSizing)
         {
-            Logger.LogInfo($"Changed AutoSizing: {path} from {textComponent.enableAutoSizing} to {resizer.AllowAutoSizing}");
+            //Logger.LogInfo($"Changed AutoSizing: {path} from {textComponent.enableAutoSizing} to {resizer.AllowAutoSizing}");
             textComponent.enableAutoSizing = resizer.AllowAutoSizing;
         }
 
@@ -330,13 +337,13 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             if (resizer.MinFontSize > 0 && resizer.MinFontSize != textComponent.fontSizeMin)
             {
-                Logger.LogInfo($"Changed MinFont: {path} from {textComponent.fontSizeMin} to {resizer.MinFontSize}");
+                //Logger.LogInfo($"Changed MinFont: {path} from {textComponent.fontSizeMin} to {resizer.MinFontSize}");
                 textComponent.fontSizeMin = resizer.MinFontSize;
             }
 
             if (resizer.MaxFontSize > 0 && resizer.MaxFontSize != textComponent.fontSizeMax)
             {
-                Logger.LogInfo($"Changed MaxFont: {path} from {textComponent.fontSizeMax} to {resizer.MaxFontSize}");
+                //Logger.LogInfo($"Changed MaxFont: {path} from {textComponent.fontSizeMax} to {resizer.MaxFontSize}");
                 textComponent.fontSizeMax = resizer.MaxFontSize;
             }
         }
@@ -347,8 +354,6 @@ internal class TextResizerPlugin : BaseUnityPlugin
             var trimmed = textComponent.text.TrimStart();
             if (textComponent.text != trimmed)
                 textComponent.text = trimmed;
-
-            Logger.LogInfo($"Adding Behaviour");
 
             // Only add the behaviour component if it hasn't been added already
             if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
@@ -372,10 +377,32 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             var resizer = resizerPair.Value;
 
+            if (resizer.PathIsRegex)
+            {
+                if (Regex.IsMatch(path, resizer.Path))
+                    return resizer;
+                else
+                    continue;
+            }
+            
+            if (path.StartsWith(resizer.Path))
+                return resizer;
+            
             if (resizer.AllowPartialPath && path.Contains(resizer.Path))
                 return resizer;
-            else if (path.StartsWith(resizer.Path))
-                return resizer;
+
+            if (resizer.Path.Contains("*"))
+            {
+                // Convert to Regex
+                var pattern = resizer.Path
+                    .Replace("/", @"\/")
+                    .Replace("(", @"\(")
+                    .Replace(")", @"\)")
+                    .Replace("*", ".*");
+
+                if (Regex.IsMatch(path, pattern))
+                    return resizer;
+            }
         }
 
         return null;
@@ -399,130 +426,4 @@ internal class TextResizerPlugin : BaseUnityPlugin
         foreach (var item in items)
             ApplyResizing(item);
     }
-
-
-    //// Patch the Awake method
-    //[HarmonyPostfix, HarmonyPatch(typeof(TextMeshProUGUI), "Awake")]
-    //public static void Awake_Postfix(TextMeshProUGUI __instance)
-    //{
-    //    if (!ResizersLoaded)
-    //        return;
-
-    //    try
-    //    {
-    //        Logger.LogInfo("TextMeshProUGUI.Awake");
-    //        ApplyResizing(__instance);
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Logger.LogError($"Error in Awake_Postfix: {ex}");
-    //    }
-    //}
-
-    //// Patch OnEnable for components that might be reactivated
-    //[HarmonyPostfix, HarmonyPatch(typeof(TextMeshProUGUI), "OnEnable")]
-    //public static void OnEnable_Postfix(TextMeshProUGUI __instance)
-    //{
-    //    if (!ResizersLoaded)
-    //        return;
-
-    //    try
-    //    {
-    //        ApplyResizing(__instance);
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Logger.LogError($"Error in OnEnable_Postfix: {ex}");
-    //    }
-    //}
-
-    //// Patch SetText to catch dynamic text changes
-    //[HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), "SetText", new Type[] { typeof(string) })]
-    //public static void SetText_Postfix(TMP_Text __instance)
-    //{
-    //    try
-    //    {
-    //        if (__instance is TextMeshProUGUI textComponent)
-    //        {
-    //            ApplyResizing(textComponent);
-    //        }
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Logger.LogError($"Error in SetText_Postfix: {ex}");
-    //    }
-    //}
-}
-
-// This component will monitor the text changes
-public class TextChangedBehaviour : MonoBehaviour
-{
-    private string _lastText;
-    private TextMeshProUGUI _textComponent;
-    private TextResizerContract _contract;
-    private Coroutine _monitoringCoroutine;
-
-    public void SetOptions(TextResizerContract contract)
-    {
-        _contract = contract;
-    }
-
-    private void Awake()
-    {
-        _textComponent = GetComponent<TextMeshProUGUI>();
-        if (_textComponent != null)
-        {
-            _lastText = _textComponent.text;
-            StartMonitoring(_textComponent);
-        }
-    }
-
-    public void StartMonitoring(TextMeshProUGUI textComponent)
-    {
-        if (_monitoringCoroutine != null)
-        {
-            // If monitoring is already started, do not start it again
-            return;
-        }
-
-        _textComponent = textComponent;
-        _lastText = textComponent.text;
-
-        _monitoringCoroutine = StartCoroutine(MonitorTextChanges());
-    }
-
-    private IEnumerator MonitorTextChanges()
-    {
-        while (_textComponent != null)
-        {
-            if (_textComponent.text != _lastText)
-            {
-                _lastText = _textComponent.text;
-
-
-                TextResizerPlugin.Logger.LogInfo($"Trimming");
-                if (_contract.AllowLeftTrimText)
-                    _textComponent.text = _textComponent.text.TrimStart(); // Trim leading spaces
-            }
-
-            yield return null; // Check every frame
-        }
-    }
-}
-
-public class TextMetadata : MonoBehaviour
-{
-    public float OriginalX;
-    public float OriginalY;
-    public float AdjustX;
-    public float AdjustY;
-
-    public float OriginalMarginLeft;
-    public float OriginalMarginRight;
-    public float OriginalMarginTop;
-    public float OriginalMarginBottom;
-    public float MarginLeft;
-    public float MarginRight;
-    public float MarginTop;
-    public float MarginBottom;
 }

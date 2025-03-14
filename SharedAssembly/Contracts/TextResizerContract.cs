@@ -21,7 +21,7 @@ public class TextResizerContract
     public string Alignment { get; set; } = string.Empty;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string Overflow { get; set; } = string.Empty;
+    public string OverflowMode { get; set; } = string.Empty;
 
     public bool AllowWordWrap { get; set; } = true;
 
@@ -32,13 +32,15 @@ public class TextResizerContract
     // To deal with some of the wierdness in the game
     public bool AllowLeftTrimText { get; set; } = false;
 
+    public bool PathIsRegex { get; set; } = false;
+
     public float AdjustX { get; set; } = 0;
 
     public float AdjustY { get; set; } = 0;
 
-    public float adjustWidth { get; set; } = 0;
+    public float AdjustWidth { get; set; } = 0;
 
-    public float adjustHeight { get; set; } = 0;
+    public float AdjustHeight { get; set; } = 0;
 
     public TextResizerContract ShallowClone()
     {

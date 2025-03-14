@@ -1,268 +1,196 @@
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameAnnouncementView/ContentPanel/GameAnnounce"
-  sampleText: "  Game Announcement"
+
+# Stats
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Layout/Viewport/Content/*/WordText/name"
+  sampleText: "<color=#5DBCF3>Willpower</color>"
+  idealFontSize: 20
+  minFontSize: 0
+  maxFontSize: 0
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 20
+  adjustY: 0
+  adjustWidth: 20
+  adjustHeight: 0
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Layout/Viewport/Content/*/WordText"
+  sampleText: "<nobr>Willpower + 7<color=#FFDA5A>(7)</color></nobr>"
+  idealFontSize: 20
+  minFontSize: 0
+  maxFontSize: 0
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/TextName"
+  sampleText: "Eight Extraordinary Meridians Chart · Volume Seven · Lifeforce"
   idealFontSize: 30
   minFontSize: 0
   maxFontSize: 0
-  alignment: "Center"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameAnnouncementView/ContentPanel/DefaultShow/Text (TMP)"
-  sampleText: "  Do not show this next time"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LoginViewNew/banbenbg/banbentext"
-  sampleText: "Current version:1.1.51(65)"
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/BlackBG/TextQuality"
+  sampleText: "Quality:   <color=#FFDA5A>Perfect</color>"
   idealFontSize: 26
   minFontSize: 0
   maxFontSize: 0
-  alignment: "TopRight"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
   allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 50
+  adjustY: 0
+  adjustWidth: 100
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/BlackBG/Text*"
+  sampleText: "Rank:Tier 7"
+  idealFontSize: 26
+  minFontSize: 0
+  maxFontSize: 0
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
   adjustX: 0
   adjustY: 0
-  modifyWidth: 0
-  modifyHeight: 0
+  adjustWidth: 0
+  adjustHeight: 0
 
-# New Screen
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/title1"
-  sampleText: "  [Battle Tendencies]"
-  idealFontSize: 38
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: true
-  allowPartialPath: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/Text (TMP)"
-  sampleText: "  <color=#f0f0f0>Usable points: </color></color>"
-  idealFontSize: 38
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -100
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/8shuxingdi/image/Viewport/Content/shuxingitem (1)/name"
-  sampleText: "<color=#dcdcdc>Potential</color>"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -10
-  adjustY: -10
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/8shuxingdi/image/Viewport/Content/shuxingitem (2)/name"
-  sampleText: "<color=#dcdcdc>Strength</color>"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -10
-  adjustY: -10
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/8shuxingdi/image/Viewport/Content/shuxingitem (3)/name"
-  sampleText: "<color=#dcdcdc>Strength</color>"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -10
-  adjustY: -0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/8shuxingdi/image/Viewport/Content/shuxingitem (4)/name"
-  sampleText: "<color=#dcdcdc>Resilience</color>"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: true
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -10
-  adjustY: -10
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/8shuxingdi/image/Viewport/Content/shuxingitem (6)/name"
-  sampleText: "<color=#dcdcdc>Agility</color>"
-  idealFontSize: 22
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -10
-  adjustY: -10
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/gudingtianfuslot/tianfunametext"
-  sampleText: "Esteemed noble family"
+### Requirement
+### Durability
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/ObjSell/TextPrice"
+  sampleText: "27418"
   idealFontSize: 24
   minFontSize: 0
   maxFontSize: 0
-  alignment: "Midline"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
   allowLeftTrimText: false
+  pathIsRegex: false
   adjustX: 0
   adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/gudingtianfuslot/tianfudes"
-  sampleText: "Wealth and honor, the ultimate in prestige, encompass lords and ministers. Gaining money, improving skills, and enhancing understanding increases by <color=#e0834c>20%</color>; damage dealt is increased by <color=#e0854c>5%</color>, while received damage is reduced by <color=#e0834c>5%</color>."
+  adjustWidth: 0
+  adjustHeight: 0
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/ObjSell/Text"
+  sampleText: "Selling price:"
   idealFontSize: 24
   minFontSize: 0
   maxFontSize: 0
-  alignment: "TopLeft"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
   allowLeftTrimText: false
-  adjustX: 0
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/Text (TMP) (1)"
-  sampleText: "  Allocable points:"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
+  pathIsRegex: false
   adjustX: -20
   adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/title1 (2)"
-  sampleText: "[Self-selected Talent]"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: -25
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/title1 (1)"
-  sampleText: "[Innate Status]"
-  idealFontSize: 40
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: 0
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/ZhanKaiTianFuBtn/text"
-  sampleText: "  Configure Talents"
-  idealFontSize: 18
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: true
-  adjustX: 34
-  adjustY: -40
-  modifyWidth: -60
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/AttriDetailPanel/kuang/text"
-  sampleText: "  Attribute value:"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: true
-  adjustX: -10
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/AttriDetailPanel/kuang/pianxiangshuxingtext"
-  sampleText: "9"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: 20
-  adjustY: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/text"
-  sampleText: "  Attribute value:"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: true
-  adjustX: -10
-  adjustY: -4
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/pianxiangshuxingtext"
-  sampleText: "5"
-  idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: true
-  allowLeftTrimText: false
-  adjustX: 25
-  adjustY: -4
+  adjustWidth: 0
+  adjustHeight: 0
 
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/NextButton/Text (TMP)"
-  sampleText: "  Next step"
-  idealFontSize: 50
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Button*/Text"
+  sampleText: "  Discard"
+  idealFontSize: 30
   minFontSize: 0
   maxFontSize: 0
-  alignment: "TopLeft"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
   allowLeftTrimText: true
-  adjustX: -20
-  adjustY: -4
-  modifyWidth: 0
-  modifyHeight: 0
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/LastButton/Text (TMP) (1)"
-  sampleText: "  Return"
-  idealFontSize: 50
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Equip/Attribute/UsableAttri"
+  sampleText: "<nobr>Used for meridians and internal organs, and additional terms.</nobr>"
+  idealFontSize: 20
   minFontSize: 0
   maxFontSize: 0
-  alignment: "TopLeft"
+  overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
   allowPartialPath: true
-  allowLeftTrimText: true
-  adjustX: -20
-  adjustY: -4
-  modifyWidth: 0
-  modifyHeight: 0
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Text"
+  sampleText: "  Entry Attributes"
+  idealFontSize: 24
+  minFontSize: 0
+  maxFontSize: 0
+
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: -20
+  adjustHeight: 0
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail0/Background/Equip/Image/Text"
+  sampleText: "Material Properties"
+  idealFontSize: 24
+  minFontSize: 0
+  maxFontSize: 0
+  alignment: "Center"
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail0/Background/Description/Viewport/TextDescription"
+  sampleText: "   This book was authored by a renowned master of the previous generation from an unnamed sect. It uniquely illustrates the flow of qi in the meridians through distinctive diagrams. By pairing it with accurate meridian knowledge, one can enhance and stabilize certain lifeforce attributes."
+  idealFontSize: 25
+  minFontSize: 0
+  maxFontSize: 0
+  alignment: "TopLeft"
+  overflowMode: "Overflow"
+  allowWordWrap: true
+  allowAutoSizing: false
+  allowPartialPath: true
+  allowLeftTrimText: false
+  pathIsRegex: false
+  adjustX: 0
+  adjustY: 0
+  adjustWidth: 0
+  adjustHeight: 0
