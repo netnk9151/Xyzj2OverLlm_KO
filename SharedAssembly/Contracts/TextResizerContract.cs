@@ -3,46 +3,46 @@ using YamlDotNet.Serialization;
 
 namespace SharedAssembly.Contracts;
 
-public class TextResizerContract
+public record TextResizerContract
 {
     // Text Component Details
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string Path { get; set; } = string.Empty;
+    public string Path = string.Empty;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string SampleText { get; set; } = string.Empty;
-    
-    public float? IdealFontSize { get; set; }
+    public string SampleText = string.Empty;
 
-    public float? MinFontSize { get; set; }
+    public float? IdealFontSize;
 
-    public float? MaxFontSize { get; set; }
+    public float? MinFontSize;
 
-    [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string Alignment { get; set; } = string.Empty;
+    public float? MaxFontSize;
 
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    public string OverflowMode { get; set; } = string.Empty;
+    public string Alignment = string.Empty;
 
-    public bool? AllowWordWrap { get; set; }
+    [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
+    public string OverflowMode = string.Empty;
 
-    public bool? AllowAutoSizing { get; set; }
+    public bool? AllowWordWrap;
+
+    public bool? AllowAutoSizing;
 
     // Custom Flags
 
     // To deal with some of the wierdness in the game
-    public bool AllowLeftTrimText { get; set; } = false;
+    public bool AllowLeftTrimText = false;
 
-    public bool PathIsRegex { get; set; } = false;
+    public bool PathIsRegex = false;
 
-    public float AdjustX { get; set; }
+    public float AdjustX;
 
-    public float AdjustY { get; set; }
+    public float AdjustY;
 
-    public float AdjustWidth { get; set; }
+    public float AdjustWidth;
 
-    public float AdjustHeight { get; set; }
+    public float AdjustHeight;
 
     public TextResizerContract ShallowClone()
     {

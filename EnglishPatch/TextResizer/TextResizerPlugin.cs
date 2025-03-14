@@ -348,17 +348,18 @@ internal class TextResizerPlugin : BaseUnityPlugin
             if (textComponent.text != trimmed)
                 textComponent.text = trimmed;
 
-            // Only add the behaviour component if it hasn't been added already
-            if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
-                existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
+            // Take out he behaviour for now to save perfrormance
+            //// Only add the behaviour component if it hasn't been added already
+            //if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
+            //    existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
 
-            // Set the parameter after adding the component
-            existingBehaviour.SetOptions(resizer);
+            //// Set the parameter after adding the component
+            //existingBehaviour.SetOptions(resizer);
         }
-        else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
-        {
-            Destroy(textChangeBehavior);
-        }
+        //else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
+        //{
+        //    Destroy(textChangeBehavior);
+        //}
     }
 
     public static TextResizerContract FindAppropriateResizer(string path)
