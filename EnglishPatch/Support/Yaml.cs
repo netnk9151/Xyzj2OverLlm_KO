@@ -45,7 +45,7 @@ public class DefaultExcludingTypeInspector : TypeInspectorSkeleton
         return _innerTypeInspector.GetEnumValue(enumValue);
     }
 
-    public override IEnumerable<IPropertyDescriptor> GetProperties(Type type, object? container)
+    public override IEnumerable<IPropertyDescriptor> GetProperties(Type type, object container)
     {
         var properties = _innerTypeInspector.GetProperties(type, container);
 

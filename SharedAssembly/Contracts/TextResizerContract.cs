@@ -31,8 +31,6 @@ public class TextResizerContract
 
     // Custom Flags
 
-    public bool AllowPartialPath { get; set; }
-
     // To deal with some of the wierdness in the game
     public bool AllowLeftTrimText { get; set; } = false;
 

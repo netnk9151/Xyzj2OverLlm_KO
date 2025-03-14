@@ -142,8 +142,8 @@ namespace EnglishPatch.Sprites
                 var allChildren = prefab.GetComponentsInChildren<UnityEngine.UI.Image>();
 
                 // Log game objects to make it easier to find
-                if (allChildren.Length > 0)
-                    Logger.LogInfo($"Loaded Game Object: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
+                //if (allChildren.Length > 0)
+                //    Logger.LogInfo($"Loaded Game Object: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
 
                 foreach (var child in allChildren)
                 {
@@ -172,8 +172,8 @@ namespace EnglishPatch.Sprites
                 {
                     child.sprite.texture.LoadImage(replacementTexture, false);
                 }
-                else if (shouldMatch)
-                    Logger.LogError($"Did not match SpriteKey: {spriteKey}");
+                //else if (shouldMatch)
+                //    Logger.LogError($"Did not match SpriteKey: {spriteKey}");
             }
             //else
             //Logger.LogInfo($"No Sprite: {spritePath}");

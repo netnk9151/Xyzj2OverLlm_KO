@@ -20,17 +20,21 @@ internal class TextResizerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
-    private KeyCode _addResizerHotKey = KeyCode.KeypadMultiply;
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
-    private KeyCode _copyResizerToCursorHotKey = KeyCode.KeypadPeriod; //Not working needs debugging
+    private KeyCode _addResizerAtCursorHotKey2 = KeyCode.F1;
+    //private KeyCode _addResizerAtCursorHotKey2 = KeyCode.Tilde;
+
     private KeyCode _reloadHotkey = KeyCode.KeypadPlus;
+    private KeyCode _reloadHotkey2 = KeyCode.F2;
+
+    private KeyCode _addResizerHotKey = KeyCode.KeypadMultiply;
+    private KeyCode _addResizerHotKey2 = KeyCode.F3;
+
     private string _resizerFolder;
 
     // Required Static for patches to see it
     public static bool ResizersLoaded = false;
     public static Dictionary<string, TextResizerContract> Resizers = [];
-
-    public static TextResizerContract LastResizerContract = null;
 
     private void Awake()
     {
@@ -49,29 +53,26 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
     internal void Update()
     {
-        if (UnityInput.Current.GetKeyDown(_reloadHotkey))
+        if (UnityInput.Current.GetKeyDown(_reloadHotkey)
+            || UnityInput.Current.GetKeyDown(_reloadHotkey2))
         {
             LoadResizers();
             ApplyAllResizers();
             Logger.LogWarning("Resizers Reloaded");
         }
 
-        if (UnityInput.Current.GetKeyDown(_addResizerHotKey))
+        if (UnityInput.Current.GetKeyDown(_addResizerHotKey)
+            || UnityInput.Current.GetKeyDown(_addResizerHotKey2))
         {
             Logger.LogWarning("Adding Resizers for Scene");
             AddTextElementsToResizers(FindAllTextElements());
         }
 
-        if (UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey))
+        if (UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey) 
+            || UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey2))
         {
             Logger.LogWarning("Adding Resizers at Cursor");
             AddTextElementsToResizers(FindTextElementsUnderCursor(), addUnderCursor: true);
-        }
-
-        if (UnityInput.Current.GetKeyDown(_copyResizerToCursorHotKey))
-        {
-            Logger.LogWarning("Copying Last Cursor Resizer to Cursor");
-            AddTextElementsToResizers(FindTextElementsUnderCursor(), copyUnderCursor: true);
         }
     }
 
@@ -180,42 +181,21 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
             if (!Resizers.ContainsKey(path))
             {
-                TextResizerContract newResizer;
-
-                if (copyUnderCursor && LastResizerContract != null)
+                // Create a new resizer contract for this text element
+                var newResizer = new TextResizerContract()
                 {
-                    newResizer = LastResizerContract.ShallowClone();
-                    newResizer.Path = path;
-                }
-                else
-                {
-                    // Create a new resizer contract for this text element
-                    newResizer = new TextResizerContract()
-                    {
-                        Path = path,
-                        SampleText = textElement.text,
-                        IdealFontSize = textElement.fontSize,
-                        //AllowAutoSizing = textElement.enableAutoSizing,
-                        AllowWordWrap = textElement.enableWordWrapping,
-                        Alignment = textElement.alignment.ToString(),
-                        //OverflowMode = textElement.overflowMode.ToString(),
-                        //Add More if we want more
-                        AllowLeftTrimText = false, //Want to serialise
-                    };
-
-                    if (addUnderCursor && !copyUnderCursor)
-                        LastResizerContract = newResizer;
-                }
+                    Path = path,
+                    SampleText = textElement.text,
+                    IdealFontSize = textElement.fontSize,
+                    //AllowAutoSizing = textElement.enableAutoSizing,
+                    AllowWordWrap = textElement.enableWordWrapping,
+                    Alignment = textElement.alignment.ToString(),
+                    //OverflowMode = textElement.overflowMode.ToString(),
+                    //Add More if we want more
+                    AllowLeftTrimText = false, //Want to serialise
+                };
 
                 foundResizers.Add(newResizer);
-            }
-            else if (copyUnderCursor && LastResizerContract != null)
-            {
-                var newResizer = LastResizerContract.ShallowClone();
-                newResizer.Path = path;
-
-                Resizers[path] = newResizer;
-                ApplyAllResizers(); // Reload them
             }
         }
 
@@ -398,11 +378,8 @@ internal class TextResizerPlugin : BaseUnityPlugin
                     continue;
             }
 
-            if (path.StartsWith(resizer.Path))
-                return resizer;
-
-            if (resizer.AllowPartialPath && path.Contains(resizer.Path))
-                return resizer;
+            //if (path.StartsWith(resizer.Path))
+            //    return resizer;
 
             if (resizer.Path.Contains("*"))
             {
