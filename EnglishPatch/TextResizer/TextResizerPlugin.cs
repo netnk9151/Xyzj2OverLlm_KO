@@ -89,7 +89,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 if (!file.EndsWith("yaml"))
                     continue;
 
-                Logger.LogInfo($"Loading resizer file: {file}");
+                //Logger.LogInfo($"Loading resizer file: {file}");
 
                 var content = File.ReadAllText(file);
                 if (string.IsNullOrWhiteSpace(content))
@@ -195,11 +195,12 @@ internal class TextResizerPlugin : BaseUnityPlugin
                         Path = path,
                         SampleText = textElement.text,
                         IdealFontSize = textElement.fontSize,
-                        AllowAutoSizing = textElement.enableAutoSizing,
+                        //AllowAutoSizing = textElement.enableAutoSizing,
                         AllowWordWrap = textElement.enableWordWrapping,
                         Alignment = textElement.alignment.ToString(),
-                        OverflowMode = textElement.overflowMode.ToString(),
+                        //OverflowMode = textElement.overflowMode.ToString(),
                         //Add More if we want more
+                        AllowLeftTrimText = false, //Want to serialise
                     };
 
                     if (addUnderCursor && !copyUnderCursor)
@@ -242,7 +243,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
     public static void ApplyResizing(TextMeshProUGUI textComponent)
     {
-        if (textComponent == null) return;    
+        if (textComponent == null) return;
 
         string path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
 
@@ -263,6 +264,8 @@ internal class TextResizerPlugin : BaseUnityPlugin
             metadata.OriginalHeight = textComponent.rectTransform.sizeDelta.y;
             metadata.OriginalAlignment = textComponent.alignment;
             metadata.OriginalOverflowMode = textComponent.overflowMode;
+            metadata.OriginalAllowWordWrap = textComponent.enableWordWrapping;
+            metadata.OriginalAllowAutoSizing = textComponent.enableAutoSizing;
         }
 
         // Apply position change if needed
@@ -320,28 +323,38 @@ internal class TextResizerPlugin : BaseUnityPlugin
         }
 
         // Toggles
-        if (textComponent.enableWordWrapping != resizer.AllowWordWrap)
+        if (resizer.AllowWordWrap.HasValue)
         {
-            //Logger.LogInfo($"Changed Word Wrapping: {path} from {textComponent.enableWordWrapping} to {resizer.AllowWordWrap}");
-            textComponent.enableWordWrapping = resizer.AllowWordWrap;
+            if (textComponent.enableWordWrapping != resizer.AllowWordWrap.Value)
+            {
+                //Logger.LogInfo($"Changed Word Wrapping: {path} from {textComponent.enableWordWrapping} to {resizer.AllowWordWrap}");
+                textComponent.enableWordWrapping = resizer.AllowWordWrap.Value;
+            }
         }
+        else if (textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
+            textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
 
-        if (textComponent.enableAutoSizing != resizer.AllowAutoSizing)
+        if (resizer.AllowAutoSizing.HasValue)
         {
-            //Logger.LogInfo($"Changed AutoSizing: {path} from {textComponent.enableAutoSizing} to {resizer.AllowAutoSizing}");
-            textComponent.enableAutoSizing = resizer.AllowAutoSizing;
+            if (textComponent.enableAutoSizing != resizer.AllowAutoSizing.Value)
+            {
+                //Logger.LogInfo($"Changed AutoSizing: {path} from {textComponent.enableAutoSizing} to {resizer.AllowAutoSizing}");
+                textComponent.enableAutoSizing = resizer.AllowAutoSizing.Value;
+            }
         }
+        else if (textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
+            textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
 
         // Auto Sizing configuration
-        if (resizer.AllowAutoSizing)
+        if (textComponent.enableAutoSizing)
         {
-            if (resizer.MinFontSize != null && resizer.MinFontSize != textComponent.fontSizeMin)
+            if (resizer.MinFontSize.HasValue && resizer.MinFontSize != textComponent.fontSizeMin)
             {
                 //Logger.LogInfo($"Changed MinFont: {path} from {textComponent.fontSizeMin} to {resizer.MinFontSize}");
                 textComponent.fontSizeMin = resizer.MinFontSize.Value;
             }
 
-            if (resizer.MaxFontSize != null && resizer.MaxFontSize != textComponent.fontSizeMax)
+            if (resizer.MaxFontSize.HasValue && resizer.MaxFontSize != textComponent.fontSizeMax)
             {
                 //Logger.LogInfo($"Changed MaxFont: {path} from {textComponent.fontSizeMax} to {resizer.MaxFontSize}");
                 textComponent.fontSizeMax = resizer.MaxFontSize.Value;
@@ -384,10 +397,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 else
                     continue;
             }
-            
+
             if (path.StartsWith(resizer.Path))
                 return resizer;
-            
+
             if (resizer.AllowPartialPath && path.Contains(resizer.Path))
                 return resizer;
 

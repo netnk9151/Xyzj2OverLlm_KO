@@ -5,6 +5,8 @@ namespace SharedAssembly.Contracts;
 
 public class TextResizerContract
 {
+    // Text Component Details
+
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Path { get; set; } = string.Empty;
 
@@ -23,11 +25,13 @@ public class TextResizerContract
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string OverflowMode { get; set; } = string.Empty;
 
-    public bool AllowWordWrap { get; set; } = false;
+    public bool? AllowWordWrap { get; set; }
 
-    public bool AllowAutoSizing { get; set; } = false;
+    public bool? AllowAutoSizing { get; set; }
 
-    public bool AllowPartialPath { get; set; } = false;
+    // Custom Flags
+
+    public bool AllowPartialPath { get; set; }
 
     // To deal with some of the wierdness in the game
     public bool AllowLeftTrimText { get; set; } = false;

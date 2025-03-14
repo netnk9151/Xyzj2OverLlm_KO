@@ -4,12 +4,14 @@
   alignment: "Center"
   allowAutoSizing: false
   allowLeftTrimText: true
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameAnnouncementView/ContentPanel/DefaultShow/Text (TMP)"
   sampleText: "  Do not show this next time"
   idealFontSize: 22
   alignment: "TopLeft"
   allowAutoSizing: false
   allowLeftTrimText: true
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LoginViewNew/banbenbg/banbentext"
   sampleText: "Current version:1.1.51(65)"
   idealFontSize: 26
@@ -25,7 +27,7 @@
   overflowMode: "Overflow"
   allowWordWrap: true
   allowAutoSizing: false
-  allowPartialPath: true
+  allowPartialPath: false
   allowLeftTrimText: true
   pathIsRegex: false
   adjustX: -30

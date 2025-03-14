@@ -13,6 +13,9 @@ public class TextMetadata : MonoBehaviour
     public TextAlignmentOptions OriginalAlignment;
     public TextOverflowModes OriginalOverflowMode;
 
+    public bool OriginalAllowWordWrap;
+    public bool OriginalAllowAutoSizing;
+
     public float AdjustX;
     public float AdjustY;
     public float AdjustWidth;

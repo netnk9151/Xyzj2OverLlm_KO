@@ -1,15 +1,7 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/TextName"
   sampleText: "Eight Extraordinary Meridians Chart · Volume Seven · Lifeforce"
   idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
-  adjustX: 1
+  adjustX: 0
   adjustY: 0
   adjustWidth: 0
   adjustHeight: 0
@@ -17,14 +9,6 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/BlackBG/TextQuality"
   sampleText: "Quality:   <color=#FFDA5A>Perfect</color>"
   idealFontSize: 26
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: 50
   adjustY: 0
   adjustWidth: 100
@@ -33,14 +17,7 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/BlackBG/Text*"
   sampleText: "Rank:Tier 7"
   idealFontSize: 26
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
   allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: 0
   adjustY: 0
   adjustWidth: 0
@@ -52,29 +29,14 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/ObjSell/TextPrice"
   sampleText: "27418"
   idealFontSize: 24
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: 0
   adjustY: 0
   adjustWidth: 0
   adjustHeight: 0
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/ObjSell/Text"
   sampleText: "Selling price:"
   idealFontSize: 24
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: -20
   adjustY: 0
   adjustWidth: 0
@@ -83,14 +45,7 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Button*/Text"
   sampleText: "  Discard"
   idealFontSize: 30
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
   allowLeftTrimText: true
-  pathIsRegex: false
   adjustX: 0
   adjustY: 0
   adjustWidth: 0
@@ -99,14 +54,6 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Equip/Attribute/UsableAttri"
   sampleText: "<nobr>Used for meridians and internal organs, and additional terms.</nobr>"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
-  overflowMode: "Overflow"
-  allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: 0
   adjustY: 0
   adjustWidth: 0
@@ -115,29 +62,19 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail0/Background/Equip/Image/Text"
   sampleText: "Material Properties"
   idealFontSize: 24
-  minFontSize: 0
-  maxFontSize: 0
-  alignment: "Center"
-  overflowMode: "Overflow"
   allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
-  allowLeftTrimText: false
-  pathIsRegex: false
   adjustX: 0
   adjustY: 0
   adjustWidth: 0
   adjustHeight: 0
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail*/Background/Description/Viewport/TextDescription"
   sampleText: "   This book was authored by a renowned master of the previous generation from an unnamed sect. It uniquely illustrates the flow of qi in the meridians through distinctive diagrams. By pairing it with accurate meridian knowledge, one can enhance and stabilize certain lifeforce attributes."
   idealFontSize: 18
   alignment: "TopLeft"
   overflowMode: "Overflow"
   allowWordWrap: true
-  allowAutoSizing: false
-  allowPartialPath: false
   allowLeftTrimText: true
-  pathIsRegex: false
   adjustX: 4
   adjustY: 0
   adjustWidth: 0

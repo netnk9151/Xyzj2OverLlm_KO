@@ -25,7 +25,7 @@ public class StringDumperPlugin : BaseUnityPlugin
         Logger = base.Logger;
 
         // Disable Dumper for non devs
-        DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
+        //DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
     }
 
     public void DumpFiles(string outputPath)
