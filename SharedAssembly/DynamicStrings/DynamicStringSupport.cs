@@ -45,11 +45,11 @@ public class DynamicStringSupport
             "VirtualGrid",
             "WaveController",
             "SweetPotato.WordEntryLooter",
-            "SweetPotato.WorldManager",
+            //"SweetPotato.WorldManager",
             "SweetPotato.WordEntryGlobalManager",
             "SweetPotato.NpcPrototypeBaseRandom",
             "FloydManager",
-            "UnityHelper",
+            "UnityHelper", //Manually implemented
             "PolygonDrawer",
             "EditEntrustEventPointData",
             "EditWayPointData",

@@ -28,11 +28,11 @@ public static class TranslationService
             //new() {Path = "keywordfilter.txt"},
             //new() {Path = "living_assemblyskill.txt"},
             //new() {Path = "living_assemblyskill_zhenshijianghu.txt"},
-            //new() {Path = "questprototype.txt"},
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
             //new() {Path = "emoji.txt", PackageOutput = true},
          
+            new() {Path = "questprototype.txt", PackageOutput = true },
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},
             new() {Path = "cardinfo.txt", PackageOutput = true},
@@ -122,7 +122,7 @@ public static class TranslationService
             || fileName == "keywordfilter"
             || fileName == "living_assemblyskill"
             || fileName == "living_assemblyskill_zhenshijianghu"
-            || fileName == "questprototype"
+            //|| fileName == "questprototype"
             || fileName == "born_points"
             || fileName == "custom_data"
             || fileName == "emoji")

@@ -1422,6 +1422,13 @@
     - Dao
     - Scabbard 
   badtrans: false
+- raw: 剑
+  result: Sword
+  allowalt: 
+    - Jian
+    - scabbard
+  context: Sometimes gets translated inccorectly
+  badtrans: true
 - raw: 暗器
   result: Hidden Weapon
   badtrans: true

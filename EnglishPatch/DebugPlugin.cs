@@ -24,9 +24,28 @@ internal class DebugPlugin: BaseUnityPlugin
 
     private void Test()
     {
-        SweetPotato.ConditionPrototype.ParseCondition
+        //2448932006976
+        //    2448932006976
+        //    2448932006880
+        //    QuestPrototype
+
+        //SweetPotato.PlayerEntity
 
         /*
+         * 
+                   [Error  : Unity Log] Exception: QuestId: 1665356119776, this task ID isn't configured in the table.
+Stack trace:
+UnityEngine.Debug:LogException(Exception)
+QuestPrototype:DMD<QuestPrototype::GetInfoById>(Int64)
+SweetPotato.PlayerQuest:IsQuestFinished(Int64)
+SweetPotato.ConditionPrototype:DMD<SweetPotato.ConditionPrototype::UpdateAchievedState>(ConditionPrototype, Boolean, Boolean)
+SweetPotato.ConditionPrototype:UpdateConditionGroupState(Int64)
+SweetPotato.PlayerQuest:UpdateAutoFinishQuest()
+SweetPotato.PlayerQuest:UpdateQuest()
+SweetPotato.PlayerEntity:DMD<SweetPotato.PlayerEntity::Update>(PlayerEntity)
+SweetPotato.WorldManager:Update()
+         
+         * 
          * [Error  :XUnity.Common] An error occurred while invoking AssetLoaded event.
 System.NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Object.GetName(UnityEngine.Object)
@@ -55,6 +74,8 @@ UnityEngine.EventSystems.EventSystem:Update()
          */
 
         /*
+         
+  
          
         Stack trace:
 UnityEngine.Debug:LogException(Exception)

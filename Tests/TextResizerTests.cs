@@ -74,6 +74,21 @@ public class TextResizerTests
         }
     }
 
+    [Fact]
+    public void Test()
+    {
+        long result = 2448932006976;
+
+        // Recover modId by shifting right by 32 bits
+        long modId = result >> 32;
+
+        // Recover id by applying the mask for lower 32 bits
+        long id = result & 0xFFFFFFFF;
+
+        Console.WriteLine("modId: " + modId);
+        Console.WriteLine("id: " + id);
+    }
+
     //[Fact]
     //public void BackupResizersTest()
     //{
