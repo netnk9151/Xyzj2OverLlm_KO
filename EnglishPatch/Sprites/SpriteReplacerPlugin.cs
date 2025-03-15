@@ -158,11 +158,10 @@ namespace EnglishPatch.Sprites
 
         private void ReplaceSpriteInAsset(string parentAssetName, UnityEngine.UI.Image child)
         {
-            var shouldMatch = _cachedSpriteNames.Contains(child.name) || _cachedSpriteNames.Contains(child.sprite?.name);
-
+            var shouldMatch = _cachedSpriteNames.Contains(child?.name) || _cachedSpriteNames.Contains(child.sprite?.name);
             var spritePath = child.GetObjectPath();
 
-            if (child.sprite != null)
+            if (child.sprite != null && child.sprite.name != null)
             {
                 //Logger.LogInfo($"Sprite found: {spritePath}");
 

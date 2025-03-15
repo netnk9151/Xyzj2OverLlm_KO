@@ -2762,6 +2762,16 @@
   badtrans: true  
   direct: Liu Qing  
   literal: Liu Qing  
+- raw: 神捕  
+  result: Divine Detective  
+  badtrans: true  
+  direct: Divine Detective  
+  literal: Shen bu  
+- raw: 李三问  
+  result: Li Sanwen  
+  badtrans: true  
+  direct: Li Sanwen  
+  literal: Li San wen  
 
 # Factions & Places
 - raw: 永兴
@@ -3132,7 +3142,11 @@
   badtrans: true  
   direct: Bee Hall Leader  
   literal: Feng Tangzhu  
-
+- raw: 玄门  
+  result: Xuanmen  
+  badtrans: true  
+  direct: Mysterious Sect  
+  literal: Xuan men  
 
 # Kingdoms
 - raw: 燕国
@@ -3521,6 +3535,12 @@
 #   badtrans: true
 #   direct: Jing Mai
 #   literal: Jing Mai
+- raw: 小虾仁  
+  result: Xiao Xiaren  
+  badtrans: true  
+  direct: Little Shrimp  
+  literal: Xiao xia ren  
+
 
 # Martial Arts
 - raw: 太极心法
@@ -3646,3 +3666,8 @@
   badtrans: true
   direct: Zhu Yue Lv
   literal: Zhu Yue Lv
+- raw: 乌金玄汤卷  
+  result: Black Gold Secret Elixir 
+  badtrans: true  
+  direct: Black Gold Mysterious Secret Elixir 
+  literal: Wu jin xuan tang 

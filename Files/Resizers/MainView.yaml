@@ -23,10 +23,15 @@
   idealFontSize: 20
   alignment: "Top"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/Right/part/content"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/content"
   sampleText: "Yang Xiaowei once said that the thing he was least proud of was having been defeated by someone from the Duan family."
   idealFontSize: 24
-  alignment: "TopJustified"
+  alignment: "TopLeft"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/name"
+  sampleText: "Shen Yan Gong."
+  idealFontSize: 30
+  alignment: "MidlineLeft"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/panel/toggle*/btn_*/Text (TMP)"
   sampleText: "All of them"
@@ -77,11 +82,6 @@
   idealFontSize: 20
   alignment: "CaplineLeft"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/RoleInformation/*"
-  sampleText: "<color=#b8b8b8>Force: </color>Details are unclear"
-  idealFontSize: 20
-  alignment: "TopLeft"
-  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/toggroup/*/Active/text"
   sampleText: "  List of Peerless Heroes"
   idealFontSize: 20
@@ -117,4 +117,9 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/HandbookView/Root/mask/panels/node/*"
   sampleText: "During Shen Yan's journey through the Jianghu and numerous adventures, he synthesized a new martial arts system from his own understanding of swordsmanship. Initially lacking in strength, this system nonetheless possesses potential for development."
   idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/QuestFinishTip/content"
+  sampleText: "Main storyline:The clash between the three factions"
+  idealFontSize: 40
+  alignment: "Top"
   allowWordWrap: true
