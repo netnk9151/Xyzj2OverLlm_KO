@@ -21,7 +21,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
-    public bool DevMode = true;
+    public bool DevMode = false;
 
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
     private KeyCode _addResizerAtCursorHotKey2 = KeyCode.F1;

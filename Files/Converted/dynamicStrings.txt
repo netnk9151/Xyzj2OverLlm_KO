@@ -4884,37 +4884,37 @@
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 815
   raw: "InteractSlot,OnReset,543,代为,[]"
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 816
   raw: "InteractSlot,OnReset,564,代为,[]"
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 817
   raw: "InteractSlot,OnReset,585,代为,[]"
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 818
   raw: "InteractSlot,OnReset,606,代为,[]"
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 819
   raw: "InteractSlot,OnReset,627,代为,[]"
   splits:
   - split: 3
     text: "代为"
-    translated: "On behalf of"
+    translated: "Commission"
 - lineNum: 820
   raw: "InteractSlot,OnReset,680,请教,[]"
   splits:
@@ -4950,7 +4950,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Entrustment"
+    translated: "Commission"
 - lineNum: 826
   raw: "InteractSlot,OnReset,793,门派商店,[]"
   splits:
@@ -5394,7 +5394,7 @@
   splits:
   - split: 3
     text: "与你关系不和，不会接受你的礼物，或许可以完成对方的委托或与之论道试试。"
-    translated: "If our relationship is not harmonious and I cannot accept your gift, perhaps I can try completing a task for them or engage in a discussion to see if it helps."
+    translated: "If your relationship is not harmonious and you cannot accept their gift, perhaps you could try completing their commission or engaging in a discussion with them."
 - lineNum: 900
   raw: "InteractSlot,Handle_IT_SCRIPT,213,npcdata表id={0}的script：{1}字段和param3：{2}字段配置错误，只能有一个大于0,[SweetPotato.NpcInteract]"
   splits:
@@ -6996,7 +6996,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Entrustment"
+    translated: "Commission"
 - lineNum: 1167
   raw: "InteractTipSlot,OnReset,647,炼丹,[]"
   splits:
@@ -8712,7 +8712,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Entrustment"
+    translated: "Commission"
 - lineNum: 1453
   raw: "NpcInteractButtonSlot,set_Interact,474,门派商店,[SweetPotato.NpcInteract]"
   splits:
@@ -12480,13 +12480,13 @@
   splits:
   - split: 3
     text: "委"
-    translated: "Entrust"
+    translated: "Commission"
 - lineNum: 2081
   raw: "MainView,UpdateQuestHintCursorPos,1773,委,[UnityEngine.Vector3，MainView/QuestHintCursorType]"
   splits:
   - split: 3
     text: "委"
-    translated: "Entrust"
+    translated: "Commission"
 - lineNum: 2082
   raw: "MainView,UpdateQuestHintCursorPos,1825,江湖,[UnityEngine.Vector3，MainView/QuestHintCursorType]"
   splits:
@@ -12944,7 +12944,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Entrustment"
+    translated: "Commission"
 - lineNum: 2158
   raw: "MapViewNewLeftScrollViewItem,ResetUI,483,固定NPC,[]"
   splits:
@@ -16913,157 +16913,157 @@
   splits:
   - split: 3
     text: "委托:{0} 配置有问题 "
-    translated: "Entrustment: {0} configuration issue"
+    translated: "Commission: {0} configuration issue"
 - lineNum: 2819
   raw: "EntrustManager,DoEventAcceptPreAction,2106,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2820
   raw: "EntrustManager,DoEventAcceptPreAction,2221,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2821
   raw: "EntrustManager,DoEventAcceptPreAction,2379,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2822
   raw: "EntrustManager,DoEventAcceptPreAction,2532,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
-    translated: "Entrustment: {0} configuration error: no available item found."
+    translated: "Commission: Configuration error: No available items found. {0}"
 - lineNum: 2823
   raw: "EntrustManager,DoEventAcceptPreAction,2638,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2824
   raw: "EntrustManager,DoEventAcceptPreAction,2790,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2825
   raw: "EntrustManager,DoEventAcceptPreAction,2905,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2826
   raw: "EntrustManager,DoEventAcceptPreAction,3167,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
-    translated: "Entrustment: {0} configuration error: no available item found."
+    translated: "Commission: Configuration error: No available items found. {0}"
 - lineNum: 2827
   raw: "EntrustManager,DoEventAcceptPreAction,3494,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2828
   raw: "EntrustManager,DoEventAcceptPreAction,3668,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2829
   raw: "EntrustManager,DoEventAcceptPreAction,4112,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2830
   raw: "EntrustManager,DoEventAcceptPreAction,4232,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2831
   raw: "EntrustManager,DoEventAcceptPreAction,4419,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2832
   raw: "EntrustManager,DoEventAcceptPreAction,4540,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
-    translated: "Entrustment: {0} configuration error: no available item found."
+    translated: "Commission: Configuration error: No available items found. {0}"
 - lineNum: 2833
   raw: "EntrustManager,DoEventAcceptPreAction,4828,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2834
   raw: "EntrustManager,DoEventAcceptPreAction,4943,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2835
   raw: "EntrustManager,DoEventAcceptPreAction,5023,委托：{0} npc:{1}不存在,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} npc:{1}不存在"
-    translated: "Entrustment: {0} npc: {1} does not exist."
+    translated: "Commission: {0} npc: {1} does not exist"
 - lineNum: 2836
   raw: "EntrustManager,DoEventAcceptPreAction,5188,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2837
   raw: "EntrustManager,DoEventAcceptPreAction,5337,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2838
   raw: "EntrustManager,DoEventAcceptPreAction,5452,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 随机生成npc失败"
-    translated: "Entrustment: NPC generation failed randomly: {0}."
+    translated: "Commission: Random NPC generation failed for {0}."
 - lineNum: 2839
   raw: "EntrustManager,DoEventAcceptPreAction,5719,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
-    translated: "Entrustment: {0} configuration error: no available item found."
+    translated: "Commission: Configuration error: No available items found. {0}"
 - lineNum: 2840
   raw: "EntrustManager,DoEventAcceptPreAction,5923,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2841
   raw: "EntrustManager,DoEventAcceptPreAction,6288,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
-    translated: "Entrustment: {0} configuration error: no available item found."
+    translated: "Commission: Configuration error: No available items found. {0}"
 - lineNum: 2842
   raw: "EntrustManager,DoEventAcceptPreAction,6507,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2843
   raw: "EntrustManager,DoEventAcceptPreAction,6602,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
-    translated: "Entrustment: Configuration error in {0}."
+    translated: "Commission: Configuration error for {0}."
 - lineNum: 2844
   raw: "EntrustManager,DoEventAcceptAction,279,生成目标失败 ,[EntrustEventPrototype]"
   splits:
@@ -17117,7 +17117,7 @@
   splits:
   - split: 3
     text: "委托："
-    translated: "Entrustment:"
+    translated: "Commission:"
 - lineNum: 2853
   raw: "EntrustManager,DoFinisedEntrustAction,618,的委托,[EntrustEventPrototype]"
   splits:
@@ -21860,7 +21860,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Entrustment"
+    translated: "Commission"
 - lineNum: 3643
   raw: "SweetPotato.Tools,.cctor,2920,远行,[]"
   splits:
@@ -21908,7 +21908,7 @@
   splits:
   - split: 3
     text: "商"
-    translated: "Merchant"
+    translated: "Shang"
 - lineNum: 3651
   raw: "SweetPotato.Tools,.cctor,2996,士,[]"
   splits:

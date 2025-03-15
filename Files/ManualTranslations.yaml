@@ -322,7 +322,46 @@
   badtrans: true  
   direct: Ink  
   literal: Mo  
-
+- raw: 委  
+  result: Commission  
+  badtrans: true  
+  direct: Entrust  
+  literal: Wei  
+- raw: 传说  
+  result: Legend  
+  badtrans: true  
+  direct: Legend  
+  literal: Chuan shuo  
+- raw: 开叙<color=00FF00>先角后羽</color>，再<color=00FF00>响徵二声</color>，<color=00FF00>引商宫</color>。如是，渐渐明月吹，恻恻鹤行吟。  
+  result: Begin by playing <color=00FF00>First Jiao, Then Yu</color>, followed by <color=00FF00>Two Echoing Sounds of Zhi</color>, and <color=00FF00>Lead to the Shang Gong</color> (musical scale). After this, gradually, the bright moon blows, and the crane moves in a mournful tune.  
+  badtrans: true  
+  direct: Start by narrating <color=00FF00>First Jiao, Then Yu</color>, then <color=00FF00>Two Echoing Sounds of Zhi</color>, <color=00FF00>Lead to Shang Gong</color>. After that, slowly the bright moon blows, and the mournful crane moves and sings.  
+  literal: Kai xu <color=00FF00>xian jiao hou yu</color>, zai <color=00FF00>xiang zhi er sheng</color>, <color=00FF00>yin shang gong</color>. Ru shi, jian jian ming yue chui, ce ce he xing yin.  
+- raw: 宫  
+  result: Gong
+- raw: 商  
+  result: Shang
+- raw: 角  
+  result: Jiao
+- raw: 徵  
+  result: Zhi
+- raw: 羽  
+  result: Yu
+- raw: 锋锐  
+  result: Sharpness  
+  badtrans: true  
+  direct: Sharp Edge  
+  literal: Feng rui  
+- raw: 代为  
+  result: Commission
+  badtrans: true  
+  direct: Act on behalf of  
+  literal: Dai wei  
+- raw: 满孤容  
+  result: Man Gu Rong  
+  badtrans: true  
+  direct: Man Gu Rong  
+  literal: Man gu rong  
 
 
 # Questions
@@ -498,7 +537,11 @@
   badtrans: true  
   direct: Hou Sheng  
   literal: Hou Sheng  
-
+- raw: 赵二狗  
+  result: Zhao Ergou  
+  badtrans: true  
+  direct: Zhao Er Gou  
+  literal: Zhao er gou  
 
 # Relationships
 - raw: 拜师

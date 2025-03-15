@@ -28,6 +28,7 @@
   idealFontSize: 24
   alignment: "TopLeft"
   allowWordWrap: true
+  adjustY: 40
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/name"
   sampleText: "Shen Yan Gong."
   idealFontSize: 30
@@ -121,5 +122,10 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/QuestFinishTip/content"
   sampleText: "Main storyline:The clash between the three factions"
   idealFontSize: 40
+  alignment: "Top"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/QuestFinishTip/title"
+  sampleText: "Task completed!"
+  idealFontSize: 30
   alignment: "Top"
   allowWordWrap: true

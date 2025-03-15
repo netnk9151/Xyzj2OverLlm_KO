@@ -208,6 +208,12 @@
   badtrans: true  
   direct: In Cooling Process  
   literal: Lengque Zhong 
+- raw: 委托  
+  result: Commission  
+  badtrans: true  
+  direct: Entrust  
+  literal: Wei tuo  
+
 
 # Identity
 - raw: 羽士
@@ -2710,6 +2716,18 @@
   badtrans: true
   direct: Liu Xi Xin
   literal: Liu Xi Xin
+- raw: 六婶  
+  result: Aunt Liu  
+  allowalt:
+    - Auntie Liu
+  badtrans: true  
+  direct: Aunt Liu  
+  literal: Liu shen  
+- raw: 崇景同  
+  result: Chongjing Tong  
+  badtrans: true  
+  direct: Chongjing Tong  
+  literal: Chong jing tong  
 
 # Bosses
 - raw: 艾里甫  
@@ -2836,9 +2854,6 @@
   badtrans: true
 - raw: 凌云宗
   result: Soaring Clouds Sect
-  badtrans: true
-- raw: 墨门
-  result: Ink Gate
   badtrans: true
 - raw: 长旌军
   result: Long Standard Army
@@ -3147,6 +3162,364 @@
   badtrans: true  
   direct: Mysterious Sect  
   literal: Xuan men  
+- raw: 万兽山庄  
+  result: Beast Mountain Manor  
+  badtrans: true  
+  direct: Beast Mountain Manor  
+  literal: Wan shou shan zhuang  
+- raw: 万兽山
+  result: Beast Mountain Manor  
+  badtrans: true  
+  direct: Beast Mountain Manor  
+  literal: Wan shou shan zhuang  
+- raw: 碎星观  
+  result: Shattered Star Temple
+  badtrans: true  
+  direct: Shattered Star Temple  
+  literal: Sui xing guan  
+- raw: 赤焰门  
+  result: Red Flame Sect   
+  badtrans: true  
+  direct: Red Flame Sect  
+  literal: Chi yan men  
+- raw: 龙吟派  
+  result: Dragon Chant Sect  
+  badtrans: true  
+  direct: Dragon Chant Sect  
+  literal: Long yin pai  
+- raw: 太虚观  
+  result: Grand Void Temple 
+  badtrans: true  
+  direct: Grand Void Temple  
+  literal: Tai xu guan  
+- raw: 锁龙派  
+  result: Dragon Sealing Sect
+  badtrans: true  
+  direct: Dragon Sealing Sect  
+  literal: Suo long pai  
+- raw: 青云观  
+  result: Blue Cloud Temple  
+  badtrans: true  
+  direct: Blue Cloud Temple  
+  literal: Qing yun guan  
+- raw: 幽冥门  
+  result: Netherworld Sect  
+  badtrans: true  
+  direct: Netherworld Sect  
+  literal: You ming men  
+- raw: 寂灭堂  
+  result: Jimie Hall  
+  badtrans: true  
+  direct: Hall of Quietus  
+  literal: Ji mie tang  
+- raw: 炽翼宗  
+  result: Blazing Wing Sect  
+  badtrans: true  
+  direct: Blazing Wing Sect  
+  literal: Chi yi zong  
+- raw: 霜雪宫  
+  result: Snowy Frost Palace  
+  badtrans: true  
+  direct: Frost Snow Palace  
+  literal: Shuang xue gong  
+- raw: 焰阳派  
+  result: Flame Sun Sect  
+  badtrans: true  
+  direct: Flame Sun Sect  
+  literal: Yan yang pai  
+- raw: 碧月宗  
+  result: Biyue Sect  
+  badtrans: true  
+  direct: Jade Moon Sect  
+  literal: Bi yue zong  
+- raw: 风雷堂  
+  result: Wind and Thunder Hall 
+  badtrans: true  
+  direct: Wind and Thunder Hall  
+  literal: Feng lei tang  
+- raw: 星砂门  
+  result: Stardust Sect  
+  badtrans: true  
+  direct: Stardust Sect  
+  literal: Xing sha men  
+- raw: 云影派  
+  result: Cloud Shadow Sect  
+  badtrans: true  
+  direct: Cloud Shadow Sect  
+  literal: Yun ying pai
+- raw: 无极宫  
+  result: Infinity Palace  
+  badtrans: true  
+  direct: Infinity Palace  
+  literal: Wu ji gong  
+- raw: 黑石宗  
+  result: Black Stone Sect  
+  badtrans: true  
+  direct: Black Stone Sect  
+  literal: Hei shi zong 
+- raw: 紫霞门  
+  result: Purple Twilight Sect  
+  badtrans: true  
+  direct: Purple Twilight Sect  
+  literal: Zi xia men  
+- raw: 天鹰派  
+  result: Sky Eagle Sect 
+  badtrans: true  
+  direct: Sky Eagle Sect  
+  literal: Tian ying pai  
+- raw: 混元宫  
+  result: Primal Chaos Palace  
+  badtrans: true  
+  direct: Primal Chaos Palace  
+  literal: Hun yuan gong  
+- raw: 火凤宗  
+  result: Fire Phoenix Sect  
+  badtrans: true  
+  direct: Fire Phoenix Sect  
+  literal: Huo feng zong  
+- raw: 金狮门  
+  result: Golden Lion Sect 
+  badtrans: true  
+  direct: Golden Lion Sect  
+  literal: Jin shi men  
+- raw: 藏龙堂  
+  result: Hidden Dragon Hall 
+  badtrans: true  
+  direct: Hidden Dragon Hall  
+  literal: Cang long tang  
+- raw: 玉清宫  
+  result: Jade Clarity Palace  
+  badtrans: true  
+  direct: Jade Clarity Palace  
+  literal: Yu qing gong  
+- raw: 铁掌帮  
+  result: Iron Palm Gang 
+  badtrans: true  
+  direct: Iron Palm Gang  
+  literal: Tie zhang bang  
+- raw: 暗影派  
+  result: Shadow Sect  
+  badtrans: true  
+  direct: Shadow Sect  
+  literal: An ying pai  
+- raw: 七星宗  
+  result: Seven Stars Sect  
+  badtrans: true  
+  direct: Seven Stars Sect  
+  literal: Qi xing zong  
+- raw: 千雪门  
+  result: Thousand Snow Sect   
+  badtrans: true  
+  direct: Thousand Snow Sect  
+  literal: Qian xue men
+- raw: 玄风派  
+  result: Mysterious Wind Sect  
+  badtrans: true  
+  direct: Mysterious Wind Sect  
+  literal: Xuan feng pai  
+- raw: 苍穹教  
+  result: Vast Sky Sect  
+  badtrans: true  
+  direct: Vast Sky Sect  
+  literal: Cang qiong jiao  
+- raw: 月华宫  
+  result: Moonlight Palace  
+  badtrans: true  
+  direct: Moonlight Palace  
+  literal: Yue hua gong  
+- raw: 飞狐帮  
+  result: Flying Fox Gang 
+  badtrans: true  
+  direct: Flying Fox Gang  
+  literal: Fei hu bang 
+- raw: 金羽教  
+  result: Golden Feather Sect  
+  badtrans: true  
+  direct: Golden Feather Sect  
+  literal: Jin yu jiao  
+- raw: 血刃门  
+  result: Blood Blade Sect  
+  badtrans: true  
+  direct: Blood Blade Sect  
+  literal: Xue ren men  
+- raw: 北斗宗  
+  result: Big Dipper Sect  
+  badtrans: true  
+  direct: Big Dipper Sect  
+  literal: Bei dou zong  
+- raw: 翡翠宫  
+  result: Emerald Palace  
+  badtrans: true  
+  direct: Emerald Palace  
+  literal: Fei cui gong  
+- raw: 鹰爪帮  
+  result: Eagle Claw Gang  
+  badtrans: true  
+  direct: Eagle Claw Gang  
+  literal: Ying zhua bang  
+- raw: 玄月教  
+  result: Mysterious Moon Sect  
+  badtrans: true  
+  direct: Mysterious Moon Sect  
+  literal: Xuan yue jiao  
+- raw: 蓝莲堂  
+  result: Blue Lotus Hall   
+  badtrans: true  
+  direct: Blue Lotus Hall  
+  literal: Lan lian tang  
+- raw: 天罡宗  
+  result: Heavenly Force Sect  
+  badtrans: true  
+  direct: Heavenly Force Sect  
+  literal: Tian gang zong  
+- raw: 幻影门  
+  result: Phantom Sect  
+  badtrans: true  
+  direct: Phantom Sect  
+  literal: Huan ying men  
+- raw: 白狐派  
+  result: White Fox Sect  
+  badtrans: true  
+  direct: White Fox Sect  
+  literal: Bai hu pai  
+- raw: 破云帮  
+  result: Breaking Cloud Gang  
+  badtrans: true  
+  direct: Breaking Cloud Gang  
+  literal: Po yun bang  
+- raw: 万松书院  
+  result: Ten Thousand Pines Academy  
+  badtrans: true  
+  direct: Ten Thousand Pines Academy  
+  literal: Wan song shu yuan  
+- raw: 恶虎门  
+  result: Fierce Tiger Sect  
+  badtrans: true  
+  direct: Fierce Tiger Sect  
+  literal: E hu men  
+- raw: 霸拳帮  
+  result: Dominant Fist Gang  
+  badtrans: true  
+  direct: Dominant Fist Gang  
+  literal: Ba quan bang  
+- raw: 魂武门  
+  result: Soul Martial Sect  
+  badtrans: true  
+  direct: Soul Martial Sect  
+  literal: Hun wu men  
+- raw: 岑家  
+  result: Cen Family  
+  badtrans: true  
+  direct: Cen Family  
+  literal: Cen jia  
+- raw: 金石帮  
+  result: Gold Stone Gang  
+  badtrans: true  
+  direct: Gold Stone Gang  
+  literal: Jin shi bang  
+- raw: 船帮  
+  result: Boat Gang  
+  badtrans: true  
+  direct: Boat Gang  
+  literal: Chuan bang  
+- raw: 位家  
+  result: Wei Family  
+  badtrans: true  
+  direct: Wei Family  
+  literal: Wei jia
+  allowalt:
+    - Family head
+- raw: 李家  
+  result: Li Family  
+  badtrans: true  
+  direct: Li Family  
+  literal: Li jia  
+- raw: 三大恶人  
+  result: Three Great Villains  
+  badtrans: true  
+  direct: Three Great Villains  
+  literal: San da e ren  
+- raw: 燕山贼  
+  result: Yanshan Bandit 
+  badtrans: true  
+  direct: Yanshan Thief  
+  literal: Yan shan zei  
+- raw: 北厂  
+  result: Beichang  
+  badtrans: true  
+  direct: Northern Agency  
+  literal: Bei chang  
+- raw: 满缺门  
+  result: Manque Sect  
+  badtrans: true  
+  direct: Full Deficiency Sect  
+  literal: Man que men  
+- raw: 武家  
+  result: Wu Family  
+  badtrans: true  
+  direct: Wu Family  
+  literal: Wu jia  
+- raw: 步家  
+  result: Bu Family  
+  badtrans: true  
+  direct: Bu Family  
+  literal: Bu jia  
+- raw: 武馆  
+  result: Martial Arts Hall  
+  badtrans: true  
+  direct: Martial Arts Hall  
+  literal: Wu guan  
+- raw: 信陵宗  
+  result: Xinling Sect  
+  badtrans: true  
+  direct: Faithful Mausoleum Sect  
+  literal: Xin ling zong  
+- raw: 凌云门  
+  result: Lingyun Sect  
+  badtrans: true  
+  direct: Soaring Cloud Sect  
+  literal: Ling yun men  
+- raw: 墨门  
+  result: Mo Sect  
+  badtrans: true  
+  direct: Ink Sect  
+  literal: Mo men  
+- raw: 朔海派  
+  result: North Sea Sect  
+  badtrans: true  
+  direct: North Sea Sect  
+  literal: Shuo hai pai  
+- raw: 普贤堂  
+  result: Universal Virtue Hall  
+  badtrans: true  
+  direct: Universal Virtue Hall  
+  literal: Pu xian tang  
+- raw: 绝念宗  
+  result: Severed Thoughts Sect  
+  badtrans: true  
+  direct: Sect of Severed Thoughts  
+  literal: Jue nian zong  
+- raw: 无双斗技坛  
+  result: Peerless Martial Arts Arena  
+  badtrans: true  
+  direct: Peerless Combat Technique Arena  
+  literal: Wu shuang dou ji tan  
+- raw: 白龙门  
+  result: White Dragon Sect  
+  badtrans: true  
+  direct: White Dragon Sect  
+  literal: Bai long men  
+- raw: 白凤门  
+  result: White Phoenix Sect  
+  badtrans: true  
+  direct: White Phoenix Sect  
+  literal: Bai feng men  
+- raw: 百晓门  
+  result: Hundred Wisdom Sect  
+  badtrans: true  
+  direct: Hundred Wisdom Sect  
+  literal: Bai xiao men  
+
 
 # Kingdoms
 - raw: 燕国
