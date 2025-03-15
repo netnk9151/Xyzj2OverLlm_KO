@@ -1,8 +1,12 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using SweetPotato;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
+using TMPro;
+using static SweetPotato.GameSaving;
 
 namespace EnglishPatch;
 
@@ -22,8 +26,12 @@ internal class DebugPlugin: BaseUnityPlugin
         Logger.LogWarning($"Debug Game Plugin should be patched!");
     }
 
+
+
     private void Test()
     {
+        WorldManager
+
         //2448932006976
         //    2448932006976
         //    2448932006880

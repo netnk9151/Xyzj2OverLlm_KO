@@ -26,12 +26,12 @@ public static class TranslationService
             // Invalid for translation
             //new() {Path = "ai_dialog.txt"},
             //new() {Path = "keywordfilter.txt"},
-            //new() {Path = "living_assemblyskill.txt"},
-            //new() {Path = "living_assemblyskill_zhenshijianghu.txt"},
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
             //new() {Path = "emoji.txt", PackageOutput = true},
          
+            new() {Path = "living_assemblyskill.txt", PackageOutput = true },
+            new() {Path = "living_assemblyskill_zhenshijianghu.txt", PackageOutput = true },
             new() {Path = "questprototype.txt", PackageOutput = true },
             new() {Path = "achievement.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},
@@ -120,8 +120,8 @@ public static class TranslationService
         // Files we split but not actually changing
         if (fileName == "ai_dialog"
             || fileName == "keywordfilter"
-            || fileName == "living_assemblyskill"
-            || fileName == "living_assemblyskill_zhenshijianghu"
+            //|| fileName == "living_assemblyskill"
+            //|| fileName == "living_assemblyskill_zhenshijianghu"
             //|| fileName == "questprototype"
             || fileName == "born_points"
             || fileName == "custom_data"
