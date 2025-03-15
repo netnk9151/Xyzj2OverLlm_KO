@@ -2,10 +2,11 @@
 using BepInEx.Logging;
 using EnglishPatch.Support;
 using HarmonyLib;
-using SharedAssembly.Contracts;
+using SharedAssembly.TextResizer;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
@@ -20,9 +21,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
+    public bool DevMode = false;
+
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
     private KeyCode _addResizerAtCursorHotKey2 = KeyCode.F1;
-    //private KeyCode _addResizerAtCursorHotKey2 = KeyCode.Tilde;
 
     private KeyCode _reloadHotkey = KeyCode.KeypadPlus;
     private KeyCode _reloadHotkey2 = KeyCode.F2;
@@ -31,10 +33,14 @@ internal class TextResizerPlugin : BaseUnityPlugin
     private KeyCode _addResizerHotKey2 = KeyCode.F3;
 
     private string _resizerFolder;
+    //private static WildcardMatchingService _wildcardMatcher;
 
     // Required Static for patches to see it
     public static bool ResizersLoaded = false;
     public static Dictionary<string, TextResizerContract> Resizers = [];
+
+    // Cache for storing previously matched results
+    public static Dictionary<string, TextResizerContract> CachedMatchedResizers = [];
 
     private void Awake()
     {
@@ -54,7 +60,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
     internal void Update()
     {
         if (UnityInput.Current.GetKeyDown(_reloadHotkey)
-            || UnityInput.Current.GetKeyDown(_reloadHotkey2))
+            || (DevMode && UnityInput.Current.GetKeyDown(_reloadHotkey2)))
         {
             LoadResizers();
             ApplyAllResizers();
@@ -62,14 +68,14 @@ internal class TextResizerPlugin : BaseUnityPlugin
         }
 
         if (UnityInput.Current.GetKeyDown(_addResizerHotKey)
-            || UnityInput.Current.GetKeyDown(_addResizerHotKey2))
+            || (DevMode && UnityInput.Current.GetKeyDown(_addResizerHotKey2)))
         {
             Logger.LogWarning("Adding Resizers for Scene");
             AddTextElementsToResizers(FindAllTextElements());
         }
 
         if (UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey) 
-            || UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey2))
+            || (DevMode && UnityInput.Current.GetKeyDown(_addResizerAtCursorHotKey2)))
         {
             Logger.LogWarning("Adding Resizers at Cursor");
             AddTextElementsToResizers(FindTextElementsUnderCursor(), addUnderCursor: true);
@@ -82,22 +88,18 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
         var deserializer = Yaml.CreateDeserializer();
         Resizers.Clear();
+        CachedMatchedResizers.Clear();
 
-        foreach (var file in Directory.EnumerateFiles(_resizerFolder))
+        var resizerFiles = Directory.EnumerateFiles(_resizerFolder, "*.yaml");
+        foreach (var file in resizerFiles)
         {
             try
             {
-                if (!file.EndsWith("yaml"))
-                    continue;
-
-                //Logger.LogInfo($"Loading resizer file: {file}");
-
                 var content = File.ReadAllText(file);
                 if (string.IsNullOrWhiteSpace(content))
                     continue;
 
                 var newResizers = deserializer.Deserialize<List<TextResizerContract>>(content);
-
                 AddFoundResizers(newResizers);
             }
             catch (Exception ex)
@@ -105,6 +107,9 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 Logger.LogError($"Error Loading resizer '{file}': {ex}");
             }
         }
+
+        // Create the wildcard matcher with all loaded resizers
+        //_wildcardMatcher = new WildcardMatchingService(Resizers.Values.ToList());
 
         ResizersLoaded = true;
     }
@@ -226,22 +231,27 @@ internal class TextResizerPlugin : BaseUnityPlugin
         if (textComponent == null) return;
 
         string path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
-
         var resizer = FindAppropriateResizer(path);
+
+        // Cache the wildcard match so we only have to match once
+        if (!CachedMatchedResizers.ContainsKey(path))
+            CachedMatchedResizers.Add(path, resizer);
+
         if (resizer == null)
             return;
 
-        // Check if TextMetadata is already attached
+        // Cache components
+        var rectTransform = textComponent.rectTransform;
         var metadata = textComponent.GetComponent<TextMetadata>();
 
         // If metadata is not attached, add it and store the original values against it
         if (metadata == null)
         {
             metadata = textComponent.gameObject.AddComponent<TextMetadata>();
-            metadata.OriginalX = textComponent.rectTransform.anchoredPosition.x;
-            metadata.OriginalY = textComponent.rectTransform.anchoredPosition.y;
-            metadata.OriginalWidth = textComponent.rectTransform.sizeDelta.x;
-            metadata.OriginalHeight = textComponent.rectTransform.sizeDelta.y;
+            metadata.OriginalX = rectTransform.anchoredPosition.x;
+            metadata.OriginalY = rectTransform.anchoredPosition.y;
+            metadata.OriginalWidth = rectTransform.sizeDelta.x;
+            metadata.OriginalHeight = rectTransform.sizeDelta.y;
             metadata.OriginalAlignment = textComponent.alignment;
             metadata.OriginalOverflowMode = textComponent.overflowMode;
             metadata.OriginalAllowWordWrap = textComponent.enableWordWrapping;
@@ -251,39 +261,29 @@ internal class TextResizerPlugin : BaseUnityPlugin
         // Apply position change if needed
         if (resizer.AdjustX != metadata.AdjustX || resizer.AdjustY != metadata.AdjustY)
         {
-            //Logger.LogInfo($"Changing Padding: {path}");
             metadata.AdjustX = resizer.AdjustX;
             metadata.AdjustY = resizer.AdjustY;
-            var vector = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
-            textComponent.rectTransform.anchoredPosition = vector;
+            rectTransform.anchoredPosition = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
         }
 
         // Apply size change if needed
         if (resizer.AdjustWidth != metadata.AdjustWidth || resizer.AdjustHeight != metadata.AdjustHeight)
         {
-            //Logger.LogInfo($"Changing Size: {path}");
             metadata.AdjustWidth = resizer.AdjustWidth;
             metadata.AdjustHeight = resizer.AdjustHeight;
-
-            var size = textComponent.rectTransform.sizeDelta;
-            size.x = metadata.OriginalWidth + metadata.AdjustWidth;
-            size.y = metadata.OriginalHeight + metadata.AdjustHeight;
-            textComponent.rectTransform.sizeDelta = size;
+            rectTransform.sizeDelta = new Vector2(metadata.OriginalWidth + metadata.AdjustWidth, metadata.OriginalHeight + metadata.AdjustHeight);
         }
-
 
         // Apply the resizing
         if (textComponent.fontSize != resizer.IdealFontSize && resizer.IdealFontSize != null)
         {
-            //Logger.LogInfo($"Changed Font Size: {path} from {textComponent.fontSize} to {resizer.IdealFontSize}");
             textComponent.fontSize = resizer.IdealFontSize.Value;
         }
 
         // Text Alignment
-        var alignmentLegit = Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment);
-        if (alignmentLegit && textComponent.alignment != alignment)
+        if (Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment) 
+            && textComponent.alignment != alignment)
         {
-            //Logger.LogInfo($"Changed Text Alignment: {path} from {textComponent.alignment} to {resizer.Alignment}");
             textComponent.alignment = alignment;
         }
         else if (textComponent.alignment != metadata.OriginalAlignment)
@@ -291,52 +291,49 @@ internal class TextResizerPlugin : BaseUnityPlugin
             textComponent.alignment = metadata.OriginalAlignment;
         }
 
-        var overflowLegit = Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode);
-        if (overflowLegit && textComponent.overflowMode != overflowMode)
-        {
-            //Logger.LogInfo($"Changed Text Overflow: {path} from {textComponent.overflowMode} to {resizer.OverflowMode}");
-            textComponent.overflowMode = overflowMode;
-        }
-        else if (textComponent.overflowMode != metadata.OriginalOverflowMode)
-        {
-            textComponent.overflowMode = metadata.OriginalOverflowMode;
-        }
+        //if (Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode)
+        //  && textComponent.overflowMode != overflowMode)
+        //{
+        //    textComponent.overflowMode = overflowMode;
+        //}
+        //else if (textComponent.overflowMode != metadata.OriginalOverflowMode)
+        //{
+        //    textComponent.overflowMode = metadata.OriginalOverflowMode;
+        //}
 
         // Toggles
-        if (resizer.AllowWordWrap.HasValue)
+        if (resizer.AllowWordWrap.HasValue 
+            && textComponent.enableWordWrapping != resizer.AllowWordWrap.Value)
         {
-            if (textComponent.enableWordWrapping != resizer.AllowWordWrap.Value)
-            {
-                //Logger.LogInfo($"Changed Word Wrapping: {path} from {textComponent.enableWordWrapping} to {resizer.AllowWordWrap}");
-                textComponent.enableWordWrapping = resizer.AllowWordWrap.Value;
-            }
+            textComponent.enableWordWrapping = resizer.AllowWordWrap.Value;
         }
-        else if (textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
+        else if (!resizer.AllowWordWrap.HasValue 
+            && textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
+        {
             textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
+        }
 
-        if (resizer.AllowAutoSizing.HasValue)
+        if (resizer.AllowAutoSizing.HasValue 
+            && textComponent.enableAutoSizing != resizer.AllowAutoSizing.Value)
         {
-            if (textComponent.enableAutoSizing != resizer.AllowAutoSizing.Value)
-            {
-                //Logger.LogInfo($"Changed AutoSizing: {path} from {textComponent.enableAutoSizing} to {resizer.AllowAutoSizing}");
-                textComponent.enableAutoSizing = resizer.AllowAutoSizing.Value;
-            }
+            textComponent.enableAutoSizing = resizer.AllowAutoSizing.Value;
         }
-        else if (textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
-            textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
+        else if (!resizer.AllowAutoSizing.HasValue 
+            && textComponent.enableAutoSizing != metadata.OriginalAllowAutoSizing)
+        {
+            textComponent.enableAutoSizing = metadata.OriginalAllowAutoSizing;
+        }
 
         // Auto Sizing configuration
         if (textComponent.enableAutoSizing)
         {
             if (resizer.MinFontSize.HasValue && resizer.MinFontSize != textComponent.fontSizeMin)
             {
-                //Logger.LogInfo($"Changed MinFont: {path} from {textComponent.fontSizeMin} to {resizer.MinFontSize}");
                 textComponent.fontSizeMin = resizer.MinFontSize.Value;
             }
 
             if (resizer.MaxFontSize.HasValue && resizer.MaxFontSize != textComponent.fontSizeMax)
             {
-                //Logger.LogInfo($"Changed MaxFont: {path} from {textComponent.fontSizeMax} to {resizer.MaxFontSize}");
                 textComponent.fontSizeMax = resizer.MaxFontSize.Value;
             }
         }
@@ -347,43 +344,47 @@ internal class TextResizerPlugin : BaseUnityPlugin
             var trimmed = textComponent.text.TrimStart();
             if (textComponent.text != trimmed)
                 textComponent.text = trimmed;
-
-            // Take out he behaviour for now to save perfrormance
-            //// Only add the behaviour component if it hasn't been added already
-            //if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
-            //    existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
-
-            //// Set the parameter after adding the component
-            //existingBehaviour.SetOptions(resizer);
-        }
-        //else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
-        //{
-        //    Destroy(textChangeBehavior);
-        //}
+        }      
     }
+
+    // Take out he behaviour for now to save perfrormance
+    //// Only add the behaviour component if it hasn't been added already
+    //if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
+    //    existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
+    //// Set the parameter after adding the component
+    //existingBehaviour.SetOptions(resizer);
+    //else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
+    //{
+    //    Destroy(textChangeBehavior);
+    //}
 
     public static TextResizerContract FindAppropriateResizer(string path)
     {
         if (Resizers.TryGetValue(path, out var tryResizer))
-            return tryResizer;
+            return tryResizer;        
 
+        // Check cache first
+        if (CachedMatchedResizers.TryGetValue(path, out var cachedResizer))
+            return cachedResizer;
+
+        // Try wildcard matching for the remaining resizers
         foreach (var resizerPair in Resizers)
         {
             var resizer = resizerPair.Value;
 
-            if (resizer.PathIsRegex)
-            {
-                if (Regex.IsMatch(path, resizer.Path))
-                    return resizer;
-                else
-                    continue;
-            }
-
-            //if (path.StartsWith(resizer.Path))
-            //    return resizer;
-
+            //// Keep compiled regex support for backward compatibility
+            //if (resizer.CompiledRegex != null)
+            //{
+            //    if (resizer.CompiledRegex.IsMatch(path))
+            //    {                 
+            //        return resizer;
+            //    }
+            //}
+            //else 
             if (resizer.Path.Contains("*"))
             {
+                //Logger.LogError("Falling to Non compiled!");
+
                 // Convert to Regex
                 var pattern = resizer.Path
                     .Replace("/", @"\/")
@@ -393,6 +394,14 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
                 if (Regex.IsMatch(path, pattern))
                     return resizer;
+
+                // Use our new wildcard matching service
+                //var match = _wildcardMatcher.FindMatch(path);
+                //if (match != null)
+                //{
+                //    cache[path] = resizer; // Cache the result
+                //    return resizer;
+                //}
             }
         }
 

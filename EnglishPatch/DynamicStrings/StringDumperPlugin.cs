@@ -1,9 +1,9 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Contracts;
 using EnglishPatch.Support;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
+using SharedAssembly.DynamicStrings;
 using System;
 using System.Collections.Generic;
 using System.IO;

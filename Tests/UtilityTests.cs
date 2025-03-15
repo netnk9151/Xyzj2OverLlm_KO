@@ -1,5 +1,5 @@
-﻿using System.Text.RegularExpressions;
-using Translate.Support;
+﻿using SharedAssembly.DynamicStrings;
+using System.Text.RegularExpressions;
 using Translate.Utility;
 
 namespace Translate.Tests;

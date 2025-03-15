@@ -1,7 +1,4 @@
-﻿using SharedAssembly.Contracts;
-using Translate.Utility;
-using YamlDotNet.Serialization;
-using YamlDotNet.Serialization.NamingConventions;
+﻿using Translate.Utility;
 
 namespace Translate.Tests;
 

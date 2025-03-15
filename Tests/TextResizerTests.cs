@@ -1,4 +1,4 @@
-﻿using SharedAssembly.Contracts;
+﻿using SharedAssembly.TextResizer;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
