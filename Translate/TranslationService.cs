@@ -224,7 +224,7 @@ public static class TranslationService
                 //The translation line
                 foundLines.Add(new TranslationLine()
                 {
-                    LineNum = lineNum,
+                    //LineNum = lineNum,
                     Raw = line,
                     Splits = foundSplits,
                 });
@@ -281,7 +281,7 @@ public static class TranslationService
                 //The translation line
                 foundLines.Add(new TranslationLine()
                 {
-                    LineNum = lineNum,
+                    //LineNum = lineNum,
                     Raw = line,
                     Splits = foundSplits,
                 });
@@ -344,7 +344,7 @@ public static class TranslationService
                 //The translation line
                 foundLines.Add(new TranslationLine()
                 {
-                    LineNum = lineNum,
+                    //LineNum = lineNum,
                     Raw = line,
                     Splits = foundSplits,
                 });

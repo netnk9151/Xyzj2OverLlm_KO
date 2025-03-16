@@ -5,8 +5,6 @@ namespace Translate;
 
 public class TranslationLine
 {
-    public long LineNum { get; set; } = 0;
-
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Raw { get; set; } = string.Empty;
 
@@ -17,9 +15,8 @@ public class TranslationLine
 
     public TranslationLine() { }
 
-    public TranslationLine(int lineNum, string raw)
+    public TranslationLine(string raw)
     {
-        LineNum = lineNum;
         Raw = raw;
     }
 }

@@ -20,12 +20,15 @@ public class StringDumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
+    //static List<string> SafeFunctions = [];
+    //static List<string> UnsafeFunctions = [];
+
     private void Awake()
     {
         Logger = base.Logger;
 
         // Disable Dumper for non devs
-        //DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
+        DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
     }
 
     public void DumpFiles(string outputPath)
@@ -70,6 +73,15 @@ public class StringDumperPlugin : BaseUnityPlugin
         {
             Logger.LogError($"Error dumping: {ex.Message}");
         }
+
+        //SafeFunctions.Sort();
+        //UnsafeFunctions.Sort();
+
+        //foreach (var f in SafeFunctions)
+        //    Logger.LogWarning($"Safe: {f}");
+
+        //foreach (var f in UnsafeFunctions)
+        //    Logger.LogWarning($"Unsafe: {f}");
     }
 
     public string CleanForCsv(string input)
@@ -110,8 +122,13 @@ public class StringDumperPlugin : BaseUnityPlugin
                 }
 
                 // Look for string load operations
-                if (!string.IsNullOrWhiteSpace(operandValue) && Regex.IsMatch(operandValue, MainPlugin.ChineseCharPattern))
+                if (!string.IsNullOrWhiteSpace(operandValue) 
+                    && Regex.IsMatch(operandValue, MainPlugin.ChineseCharPattern))
                 {
+                    // Skip Debug lines
+                    if (IsLikelyDebug(instruction, operandValue))
+                        continue;
+
                     // Add to our list
                     stringReferences.Add(new DynamicStringContract
                     {
@@ -124,6 +141,77 @@ public class StringDumperPlugin : BaseUnityPlugin
                 }
             }
         }
+    }
+
+    public static bool IsLikelyDebug(Mono.Cecil.Cil.Instruction currentInstruction, string currentString)
+    {
+        string[] methodContains = ["Debug", ".Log", 
+            "ContainsKey", "LitJson", "onError"];
+
+        int instructionCheck = 0;
+        var nextInstruction = currentInstruction;
+
+        Logger.LogError($"For: {currentString}");
+
+        if (Regex.IsMatch(currentString, @"[a-zA-Z]") 
+            && !currentString.Contains("size")
+            && !currentString.Contains("color"))
+        {
+            Logger.LogError($"HasEnglish: true");
+            return true;
+        }
+
+        while (instructionCheck < 4) // check three instructions ahead
+        {
+            // Get the next instruction after loading the string
+            nextInstruction = nextInstruction.Next;           
+
+            // Check if there's no next instruction
+            if (nextInstruction == null)
+                return false;
+
+            Logger.LogError($"Ref {instructionCheck}: {nextInstruction.OpCode}  {nextInstruction.Operand}");
+
+            if (nextInstruction.OpCode == OpCodes.Call || nextInstruction.OpCode == OpCodes.Callvirt)
+            {
+                if (nextInstruction.Operand is MethodReference methodRef)
+                {
+                    Logger.LogError($"Ref {instructionCheck}: {methodRef.FullName}");
+
+                    if (methodContains.Any(phrase => methodRef.FullName.IndexOf(phrase) >= 0))
+                    {
+                        //if (!UnsafeFunctions.Contains(methodRef.FullName))
+                        //    UnsafeFunctions.Add(methodRef.FullName);
+
+                        Logger.LogError($"Ref {instructionCheck}: Debug");
+                        return true;
+                    }
+                    //else if (!SafeFunctions.Contains(methodRef.FullName))
+                    //    SafeFunctions.Add(methodRef.FullName);
+                }
+                
+            }
+            else if (nextInstruction.OpCode == OpCodes.Newobj
+                || nextInstruction.OpCode == OpCodes.Stloc
+                || nextInstruction.OpCode == OpCodes.Ret
+                || nextInstruction.OpCode == OpCodes.Rem
+                //|| nextInstruction.OpCode == OpCodes.Dup
+                || nextInstruction.OpCode == OpCodes.Br
+                || nextInstruction.OpCode == OpCodes.Break
+                || nextInstruction.OpCode == OpCodes.Brfalse
+                || nextInstruction.OpCode == OpCodes.Brfalse_S
+                || nextInstruction.OpCode == OpCodes.Brtrue
+                || nextInstruction.OpCode == OpCodes.Brtrue_S
+                || nextInstruction.OpCode == OpCodes.Br_S)
+            {
+                Logger.LogError($"Breaking {instructionCheck}: Not part of Stack {nextInstruction.OpCode}");
+                break;
+            }
+
+            instructionCheck++;
+        }
+
+        return false;
     }
 
     public static bool IsLikelyCharParameter(Mono.Cecil.Cil.Instruction currentInstruction)
