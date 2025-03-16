@@ -64,7 +64,9 @@ public class DynamicStringSupport
             "MapAreaEditor",
             "ModSpace",
             "SystemIntroduceView",
-
+            "QuestPrototypeLineItemSlot2",
+            "EditBornData",
+            "EditTriggerData",
 
             //Might be corrupting quests
             "ItemPrototype",
@@ -92,6 +94,8 @@ public class DynamicStringSupport
             "SweetPotato.Tools.GetShopItemIconByQuality", //Named sprites
             "RoleBagItemListHolder.GetIconByQua", //Named sprites
             "SweetPotato.SpellEditView.OnEnable", //Debug
+            "SweetPotato.ConditionPrototype.UpdateAchievedState", //Causes Quest Bug 确定 and 取消 being defaulted on function call
+            "SweetPotato.PlayerQuest.GetFinishConditonTarget", //Causes Quest Bug 确定 and 取消 being defaulted on function call
             
             //Thing needing reimplementation
             "UnityHelper.GetNunWordFromNum",  //Done
@@ -116,7 +120,7 @@ public class DynamicStringSupport
             "NewChuanWenView/<OnShowChuanWen>d__18.MoveNext",
             "ShopStoreSystem.OnEnterShopMode",
             "SweetPotato.AutomatScriptManager.PrintExeFuctionScript",
-            "SweetPotato.ConditionPrototype.ParseCondition",
+            "SweetPotato.ConditionPrototype.ParseCondition",            
             "SweetPotato.InstantiateViewNewNew_mobile/<EnterCharacterLine>d__111.MoveNext",
             "SweetPotato.InstantiateViewNewNew_mobile/<ShowLoginMoveTMLNEW_NEW>d__112.MoveNext",
             "SweetPotato.JingMai_ZhouTianEffect.GetEffectIdList",

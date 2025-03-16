@@ -28,7 +28,7 @@ public class StringDumperPlugin : BaseUnityPlugin
         Logger = base.Logger;
 
         // Disable Dumper for non devs
-        DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
+        //DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
     }
 
     public void DumpFiles(string outputPath)
@@ -151,13 +151,15 @@ public class StringDumperPlugin : BaseUnityPlugin
         int instructionCheck = 0;
         var nextInstruction = currentInstruction;
 
-        Logger.LogError($"For: {currentString}");
+        //Logger.LogError($"For: {currentString}");
 
-        if (Regex.IsMatch(currentString, @"[a-zA-Z]") 
+        if (Regex.IsMatch(currentString, @"[a-zA-Z]")
+            && !currentString.Contains("x", StringComparison.OrdinalIgnoreCase) // For quantity x
+            && !(currentString.Contains("<") && currentString.Contains(">"))
             && !currentString.Contains("size")
             && !currentString.Contains("color"))
         {
-            Logger.LogError($"HasEnglish: true");
+            //Logger.LogError($"HasEnglish: true");
             return true;
         }
 
@@ -170,20 +172,22 @@ public class StringDumperPlugin : BaseUnityPlugin
             if (nextInstruction == null)
                 return false;
 
-            Logger.LogError($"Ref {instructionCheck}: {nextInstruction.OpCode}  {nextInstruction.Operand}");
+            //Logger.LogError($"Ref {instructionCheck}: {nextInstruction.OpCode}  {nextInstruction.Operand}");
 
+            //TODO: This still wipes out addresses that happen to have a log straight after a valid function call
+            //For now less is more.
             if (nextInstruction.OpCode == OpCodes.Call || nextInstruction.OpCode == OpCodes.Callvirt)
             {
                 if (nextInstruction.Operand is MethodReference methodRef)
                 {
-                    Logger.LogError($"Ref {instructionCheck}: {methodRef.FullName}");
+                    //Logger.LogError($"Ref {instructionCheck}: {methodRef.FullName}");
 
                     if (methodContains.Any(phrase => methodRef.FullName.IndexOf(phrase) >= 0))
                     {
                         //if (!UnsafeFunctions.Contains(methodRef.FullName))
                         //    UnsafeFunctions.Add(methodRef.FullName);
 
-                        Logger.LogError($"Ref {instructionCheck}: Debug");
+                        //Logger.LogError($"Ref {instructionCheck}: Debug");
                         return true;
                     }
                     //else if (!SafeFunctions.Contains(methodRef.FullName))
@@ -204,7 +208,7 @@ public class StringDumperPlugin : BaseUnityPlugin
                 || nextInstruction.OpCode == OpCodes.Brtrue_S
                 || nextInstruction.OpCode == OpCodes.Br_S)
             {
-                Logger.LogError($"Breaking {instructionCheck}: Not part of Stack {nextInstruction.OpCode}");
+                //Logger.LogError($"Breaking {instructionCheck}: Not part of Stack {nextInstruction.OpCode}");
                 break;
             }
 

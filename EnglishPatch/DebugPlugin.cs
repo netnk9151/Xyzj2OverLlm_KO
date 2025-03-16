@@ -20,7 +20,6 @@ internal class DebugPlugin: BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
-
         Harmony.CreateAndPatchAll(typeof(DebugPlugin));
         Logger.LogWarning($"Debug Game Plugin should be patched!");
     }
