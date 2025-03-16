@@ -319,20 +319,22 @@ public class TranslationWorkflowTests
         }
 
         // Add Manual Translations in that are missing
-
-        foreach (var manual in config.ManualTranslations)
+        if (textFile.EnableGlossary)
         {
-            if (split.Text == manual.Raw)
+            foreach (var manual in config.ManualTranslations)
             {
-                if (split.Translated != manual.Result)
+                if (split.Text == manual.Raw)
                 {
-                    logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
-                    split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(manual.Result), split.Text, textFile, new StringTokenReplacer());
-                    split.ResetFlags();
-                    return true;
-                }
+                    if (split.Translated != manual.Result)
+                    {
+                        logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
+                        split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(manual.Result), split.Text, textFile, new StringTokenReplacer());
+                        split.ResetFlags();
+                        return true;
+                    }
 
-                return false;
+                    return false;
+                }
             }
         }
 

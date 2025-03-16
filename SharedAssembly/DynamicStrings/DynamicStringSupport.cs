@@ -18,10 +18,10 @@ public class DynamicStringSupport
             "SpawnPointPrototype",
             "SystemIntroduce",
             "DownloadView",
-            "PlayerStateComponent",
+            //"PlayerStateComponent",
             "DataManager",
             "FashionComponent",
-            "BuildEntity",
+            //"BuildEntity",
             "GmManager",
             "AIDialogView",
             "EndingView",
@@ -64,6 +64,10 @@ public class DynamicStringSupport
             "MapAreaEditor",
             "ModSpace",
             "SystemIntroduceView",
+
+
+            //Might be corrupting quests
+            "ItemPrototype",
             
             //Valid but needs to be debugged:
             //"RelationShipManager",
@@ -132,7 +136,7 @@ public class DynamicStringSupport
             "SweetPotato.RandomEventsStorage/WaitCompleteState.OnEnter",
             "SweetPotato.SpawnPointChild.CreateUnitEntity",
             "SweetPotato.Spell.CheckEffectCond",
-            "SweetPotato.Spell.PlayCastAnim",
+            "SweetPotato.Spell.PlayCastAnim",           
 
             //"AnqiResearchView.RefreshCailiaoAndBtn",
             //"AnqiResearchView.RefreshCondition",

@@ -99,6 +99,11 @@
 
 
 # Special
+- raw: 支
+  result: Branch
+  badtrans: true
+  direct: Zhi
+  literal: Zhi
 - raw: 建安二十七年  
   result: Jian'an Year 27  
   badtrans: true  
@@ -362,7 +367,26 @@
   badtrans: true  
   direct: Man Gu Rong  
   literal: Man gu rong  
-
+- raw: 获取林野钓竿和鱼饵
+  result: Obtain Forest Fishing Rod and Fishing Bait
+  badtrans: true
+  direct: Huoqu Linye Diao Gan he Yu Er
+  literal: Huoqu Linye Diao Gan he Yu Er
+- raw: 这个石碑似乎可以控制什么东西转动的样子，这后面的话，石碑为上……一个石头露出头……到底是什么意思！  
+  result: This stone tablet seems to control something that rotates, and the words behind it suggest the stone tablet is supreme... A stone is sticking out... What does it mean!  
+  badtrans: true  
+  direct: Zhege shibei shìhū kěyǐ kòngzhì shénme dōngxi zhuàndòng de yàngzi, zhè hòumiàn de huà, shibei wèi shàng… yīgè shítou lùchū tóu… dào dǐ shì shénme yìsi!  
+  literal: Zhege shibei shihū keyi kongzhi shenme dongxi zhuandong de yangzi, zhe houmian de hua, shibei wei shang… yige shitou luchu tou… daodi shi shenme yisi!  
+- raw: 这个石碑似乎可以控制什么东西转动的样子，这后面的话，石碑为上……骈肋重耳应有功……到底是什么意思！  
+  result: This stone tablet seems to control something that rotates, and the words behind it suggest the stone tablet is supreme... 'The paired ribs and heavy ears should have merit'... What does it mean!  
+  badtrans: true  
+  direct: Zhege shibei shìhū kěyǐ kòngzhì shénme dōngxi zhuàndòng de yàngzi, zhè hòumiàn de huà, shibei wèi shàng… pián lèi zhòng ěr yīng yǒu gōng… dào dǐ shì shénme yìsi!  
+  literal: Zhege shibei shihū keyi kongzhi shenme dongxi zhuandong de yangzi, zhe houmian de hua, shibei wei shang… pian lei zhong er ying you gong… daodi shi shenme yisi!  
+- raw: “义”是“仁”的延伸和体现，是人们对于仁爱、仁心、仁德的实践和表达。
+  result: Yi is the extension and embodiment of Ren, representing people's practice and expression of benevolence, kindness, and virtue.
+  badtrans: true
+  direct: Yi shi Ren de yanshen he tixian, shi renmen duiyu ren'ai, renxin, rende de shijian he biaoda.
+  literal: Yi shi Ren de yanshen he tixian, shi renmen duiyu ren'ai, renxin, rende de shijian he biaoda.
 
 # Questions
 - raw: 戒定慧
@@ -381,7 +405,39 @@
   direct: Yan Er Bi
   literal: Yan Er Bi
 
-# Names 
+# Look like names
+- raw: 流光  
+  result: Liu Guang
+  badtrans: true  
+  direct: Liu Guang  
+  literal: Liu Guang 
+- raw: 碎铁  
+  result: Sui Tie
+  badtrans: true  
+  direct: Sui Tie  
+  literal: Sui Tie  
+- raw: 刺锋  
+  result: Ci Feng 
+  badtrans: true  
+  direct: Ci Feng  
+  literal: Ci Feng   
+- raw: 渊银  
+  result: Yuan Yin
+  badtrans: true  
+  direct: Yuan Yin  
+  literal: Yuan Yin
+
+# Names   
+- raw: 廉冯  
+  result: Lian Feng  
+  badtrans: true  
+  direct: Lian Feng  
+  literal: Lian Feng  
+- raw: 冯安然  
+  result: Feng Anran  
+  badtrans: true  
+  direct: Feng Anran  
+  literal: Feng Anran  
 - raw: 明照
   result: Ming Zhao
   badtrans: true

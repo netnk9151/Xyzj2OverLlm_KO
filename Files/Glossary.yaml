@@ -1874,6 +1874,22 @@
   literal: Pu Tong  
 
 # Items and Minerals
+- raw: 霸刀  
+  result: Dominator Blade  
+  badtrans: true  
+  direct: Ba Dao  
+  literal: Ba Dao  
+- raw: 神刀鬼谕  
+  result: Divine Blade and Ghostly Decree  
+  badtrans: true  
+  direct: Shendao Guiyu  
+  literal: Shendao Guiyu
+- raw: 浩星撼日刀  
+  result: Cosmic Star Sun-Shattering Blade  
+  badtrans: true  
+  direct: Haoxing Hanri Dao  
+  literal: Haoxing Hanri Dao  
+
 - raw: 钱
   result: Coin
   allowalt: 
@@ -1988,6 +2004,11 @@
   badtrans: true  
   direct: Mei Xiang Zhou  
   literal: Mei Xiang Zhou  
+- raw: 杂黍菊华
+  result: Mixed Millet and Chrysanthemum
+  badtrans: true
+  direct: Zashi Juhua
+  literal: Zashi Juhua
 # - raw: 杂粮酒
 #   result: Mixed Grains Wine 
 # - raw: 老窖杂粮
@@ -2457,6 +2478,16 @@
   badtrans: true
 
 # Names
+- raw: 冯二姨  
+  result: Feng Eryi  
+  badtrans: true  
+  direct: Feng Eryi  
+  literal: Feng Eryi  
+- raw: 萧问峰  
+  result: Xiao Wenfeng  
+  badtrans: true  
+  direct: Xiao Wenfeng  
+  literal: Xiao Wenfeng  
 - raw: 钱玉闵
   result: Qian Yumin
   badtrans: true
@@ -2799,11 +2830,20 @@
   literal: Li San wen  
 
 # Factions & Places
-- raw: 永兴
-  result: Yongxing
-  badtrans: true
+- raw: 玉盘峰  
+  result: Jade Plate Peak  
+  badtrans: true  
+  direct: Yu Pan Feng  
+  literal: Yu Pan Feng  
+- raw: 永兴  
+  result: Eternal Prosperity  
+  badtrans: true  
+  direct: Yong Xing  
+  literal: Yong Xing  
+  allowalt:
+    - Yongxing # Name
 - raw: 枰枦
-  result: Pingxia
+  result: Pingxie
   badtrans: true
 - raw: 剑斋
   result: Sword Pavilion
@@ -4051,3 +4091,117 @@
   badtrans: true  
   direct: Black Gold Mysterious Secret Elixir 
   literal: Wu jin xuan tang 
+- raw: 斜风细雨  
+  result: Slanting Wind and Drizzling Rain  
+  badtrans: true  
+  direct: Xiefeng Xiyu  
+  literal: Xiefeng Xiyu  
+- raw: 流风回雪  
+  result: Flowing Wind and Returning Snow  
+  badtrans: true  
+  direct: Liufeng Huixue  
+  literal: Liufeng Huixue  
+- raw: 碧血风晦  
+  result: Jade Blood and Dark Winds  
+  badtrans: true  
+  direct: Bixue Fenghui  
+  literal: Bixue Fenghui  
+- raw: 碧血风如晦  
+  result: Jade Blood and Dark Winds  
+  badtrans: true  
+  direct: Bixue Feng Ru Hui  
+  literal: Bixue Feng Ru Hui  
+- raw: 千川惊鸿  
+  result: A Thousand Rivers and a Startled Swan  
+  badtrans: true  
+  direct: Qianchuan Jinghong  
+  literal: Qianchuan Jinghong  
+- raw: 金翅大鹏  
+  result: Golden-Winged Roc  
+  badtrans: true  
+  direct: Jinchi Dapeng  
+  literal: Jinchi Dapeng  
+- raw: 金翅大鹏斩  
+  result: Golden-Winged Roc Slash  
+  badtrans: true  
+  direct: Jinchi Dapeng Zhan  
+  literal: Jinchi Dapeng Zhan  
+- raw: 裂山刀  
+  result: Mountain-Splitting Blade  
+  badtrans: true  
+  direct: Lie Shan Dao  
+  literal: Lie Shan Dao  
+- raw: 春风手配方  
+  result: Spring Breeze Hand Formula  
+  badtrans: true  
+  direct: Chunfeng Shou Peifang  
+  literal: Chunfeng Shou Peifang  
+- raw: 精铁剑配方  
+  result: Fine Iron Sword Formula  
+  badtrans: true  
+  direct: Jingtie Jian Peifang  
+  literal: Jingtie Jian Peifang  
+- raw: 引龙驹配方  
+  result: Dragon Colt Summoning Formula  
+  badtrans: true  
+  direct: Yin Longju Peifang  
+  literal: Yin Longju Peifang  
+- raw: 古月摧配方  
+  result: Ancient Moon Crushing Formula  
+  badtrans: true  
+  direct: Gu Yue Cui Peifang  
+  literal: Gu Yue Cui Peifang  
+- raw: 拥云间配方  
+  result: Embrace the Clouds Formula  
+  badtrans: true  
+  direct: Yong Yun Jian Peifang  
+  literal: Yong Yun Jian Peifang  
+- raw: 百重波配方  
+  result: Hundred Layers of Waves Formula  
+  badtrans: true  
+  direct: Bai Chong Bo Peifang  
+  literal: Bai Chong Bo Peifang  
+- raw: 断肠配方  
+  result: Heartbreak Formula  
+  badtrans: true  
+  direct: Duan Chang Peifang  
+  literal: Duan Chang Peifang  
+- raw: 乌鸢配方  
+  result: Raven Formula  
+  badtrans: true  
+  direct: Wu Yan Peifang  
+  literal: Wu Yan Peifang 
+- raw: 重阳天配方  
+  result: Double Ninth Heaven Formula  
+  badtrans: true  
+  direct: Chongyang Tian Peifang  
+  literal: Chongyang Tian Peifang  
+- raw: 云头刀配方  
+  result: Cloudtop Blade Formula  
+  badtrans: true  
+  direct: Yun Tou Dao Peifang  
+  literal: Yun Tou Dao Peifang  
+- raw: 灼影燃枫  
+  result: Scorching Shadow and Burning Maple  
+  badtrans: true  
+  direct: Zhuo Ying Ran Feng  
+  literal: Zhuo Ying Ran Feng  
+- raw: 流光  
+  result: Luminous Flow
+  badtrans: true  
+  allowalt:
+    - Luminous
+    - Liu Guang # Name
+    - shimmering brilliantly
+  direct: Liuguang  
+  literal: Liuguang 
+- raw: 沧阳天坠
+  result: Cangyang Skyfall
+  badtrans: true
+  direct: Cangyang Tianzhui
+  literal: Cangyang Tianzhui
+- raw: 百合雪蛤
+  result: Lily Snow Toad
+  badtrans: true
+  direct: Baihe Xueha
+  literal: Baihe Xueha

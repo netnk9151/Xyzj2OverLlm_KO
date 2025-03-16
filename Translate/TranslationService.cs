@@ -531,8 +531,10 @@ public static class TranslationService
                 {
                     if (string.IsNullOrEmpty(split.Text) || !split.SafeToTranslate)
                         return;
-
-                    var cacheHit = translationCache.ContainsKey(split.Text);
+                    
+                    var cacheHit = translationCache.ContainsKey(split.Text)
+                        // We use this for name files etc which will be in cache
+                        && textFileToTranslate.EnableGlossary; 
 
                     if (string.IsNullOrEmpty(split.Translated)
                         || forceRetranslation

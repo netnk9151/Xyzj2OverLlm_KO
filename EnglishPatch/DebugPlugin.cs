@@ -1,12 +1,11 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
+using EnglishPatch.Support;
 using HarmonyLib;
 using SweetPotato;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using TMPro;
-using static SweetPotato.GameSaving;
+using LitJson;
 
 namespace EnglishPatch;
 
@@ -30,40 +29,17 @@ internal class DebugPlugin: BaseUnityPlugin
 
     private void Test()
     {
-        WorldManager
-
-        //2448932006976
-        //    2448932006976
-        //    2448932006880
-        //    QuestPrototype
-
-        //SweetPotato.PlayerEntity
-
-        /*
-         * 
-                   [Error  : Unity Log] Exception: QuestId: 1665356119776, this task ID isn't configured in the table.
-Stack trace:
-UnityEngine.Debug:LogException(Exception)
-QuestPrototype:DMD<QuestPrototype::GetInfoById>(Int64)
-SweetPotato.PlayerQuest:IsQuestFinished(Int64)
-SweetPotato.ConditionPrototype:DMD<SweetPotato.ConditionPrototype::UpdateAchievedState>(ConditionPrototype, Boolean, Boolean)
-SweetPotato.ConditionPrototype:UpdateConditionGroupState(Int64)
-SweetPotato.PlayerQuest:UpdateAutoFinishQuest()
-SweetPotato.PlayerQuest:UpdateQuest()
-SweetPotato.PlayerEntity:DMD<SweetPotato.PlayerEntity::Update>(PlayerEntity)
-SweetPotato.WorldManager:Update()
-         
-         * 
-         * [Error  :XUnity.Common] An error occurred while invoking AssetLoaded event.
+        /* 
+        * [Error  :XUnity.Common] An error occurred while invoking AssetLoaded event.
 System.NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Object.GetName(UnityEngine.Object)
-  at UnityEngine.Object.get_name () [0x00001] in <c6f9c541975c45798261d77d99bb6eb2>:0 
-  at EnglishPatch.Sprites.SpriteReplacerPlugin.ReplaceSpriteInAsset (System.String parentAssetName, UnityEngine.UI.Image child) [0x00020] in <f89debbaca4946c798a611fd74046fa9>:0 
-  at EnglishPatch.Sprites.SpriteReplacerPlugin.OnAssetLoaded (XUnity.ResourceRedirector.AssetLoadedContext context) [0x000f6] in <f89debbaca4946c798a611fd74046fa9>:0 
-  at XUnity.ResourceRedirector.ResourceRedirection.FireAssetLoadedEvent (XUnity.ResourceRedirector.AssetLoadedParameters parameters, UnityEngine.AssetBundle assetBundle, UnityEngine.Object[]& assets) [0x001db] in <2aa225b7d50341e7b2dc1bfd1a8d4bf7>:0 
+ at (wrapper managed-to-native) UnityEngine.Object.GetName(UnityEngine.Object)
+ at UnityEngine.Object.get_name () [0x00001] in <c6f9c541975c45798261d77d99bb6eb2>:0 
+ at EnglishPatch.Sprites.SpriteReplacerPlugin.ReplaceSpriteInAsset (System.String parentAssetName, UnityEngine.UI.Image child) [0x00020] in <f89debbaca4946c798a611fd74046fa9>:0 
+ at EnglishPatch.Sprites.SpriteReplacerPlugin.OnAssetLoaded (XUnity.ResourceRedirector.AssetLoadedContext context) [0x000f6] in <f89debbaca4946c798a611fd74046fa9>:0 
+ at XUnity.ResourceRedirector.ResourceRedirection.FireAssetLoadedEvent (XUnity.ResourceRedirector.AssetLoadedParameters parameters, UnityEngine.AssetBundle assetBundle, UnityEngine.Object[]& assets) [0x001db] in <2aa225b7d50341e7b2dc1bfd1a8d4bf7>:0 
 
 
-        [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+       [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
 SpellItemSlotNew.OnSelected () (at <ae2a872697a14070ab6bb7ed0aae4e78>:0)
 SweetPotato.UIItemSlot.set_IsSelected (System.Boolean value) (at <ae2a872697a14070ab6bb7ed0aae4e78>:0)
@@ -79,7 +55,7 @@ NpcInformationView:OnSelectComplete()
 NpcInformationView:<Awake>b__57_1()
 UnityEngine.EventSystems.EventSystem:Update()
 
-         */
+        */
 
         /*
          
@@ -124,28 +100,94 @@ SweetPotato.WorldManager:Update()
     //{
     //    Logger.LogWarning("Hooked OnButtonNewGame!");
     //}
+
+    //[HarmonyPrefix, HarmonyPatch(typeof(ConditionPrototype), nameof(ConditionPrototype.UpdateConditionGroupState), [typeof(long)])]
+    //public static bool Prefix101(long groupid)
+    //{
+    //    Logger.LogFatal($"GroupId: {groupid}");
+
+    //    return true;
+    //}
+
+    //[HarmonyPrefix, HarmonyPatch(typeof(ConditionPrototype), nameof(ConditionPrototype.UpdateAchievedState), [typeof(bool), typeof(bool)])]
+    //public static bool Prefix101(ref ConditionPrototype __instance)
+    //{
+    //    var serializer = Yaml.CreateSerializer();
+
+    //    if (__instance.id.ToString().Contains("50002"))
+    //    {
+    //        foreach (long questId in __instance.conditionData.questIdData?.questIds)
+    //        {
+    //            Logger.LogFatal($"QuestId: {questId}");
+    //        }
+
+    //        //    var content = serializer.Serialize(__instance.conditionData);
+    //        //Logger.LogFatal($"Content: {content}");
+    //        //content = serializer.Serialize(__instance.conditionData.questIdData);
+    //        //Logger.LogFatal($"Quest Content: {content}");
+
+    //        //content = serializer.Serialize(__instance.conditionData.questIdData.questIds);
+    //        //Logger.LogFatal($"Quest Ids: {content}");
+    //    }
+
+    //    return true;
+    //}
+
+    //[HarmonyPrefix, HarmonyPatch(typeof(ConditionPrototype), nameof(ConditionPrototype.ParseCondition))]
+    //public static bool Prefix102(ref ConditionPrototype __instance)
+    //{
+    //    //if (!__instance.id.ToString().Contains("50002"))
+    //    if (__instance.type != conditiontype.finishedquest)
+    //        return true;
+
+    //    var conditionStr = AccessTools.Field(typeof(ConditionPrototype), "conditionStr").GetValue(__instance) as string;
+
+    //    Logger.LogFatal($"ModId: {__instance.ModId}");
+    //    Logger.LogFatal($"conditionStr: {conditionStr}");
+
+    //    if (__instance.type == conditiontype.finishedquest)
+    //    {
+    //        //__instance.conditionData.questIdData = new QuestIdData();
+    //        List<long> list = Tools.String2IntList64(conditionStr);
+
+    //        for (int j = 0; j < list.Count; j++)
+    //        {
+    //            long item3 = list[j];
+    //            DataMgr.ConditionMakeInt64(__instance.ModId, ref item3, QuestPrototype.IsModReserve);
+    //            Logger.LogFatal($"InstanceId: {__instance.id}   QuestId: {list[j]}  --> {item3}");
+    //        }
+    //    }
+
+    //    return true;
+    //}
+
+    //[HarmonyPostfix, HarmonyPatch(typeof(ConditionPrototype), nameof(ConditionPrototype.ParseCondition))]
+    //public static void Postfix102(ref ConditionPrototype __instance)
+    //{
+    //    if (__instance.type == conditiontype.finishedquest)
+    //    {
+    //        foreach (long questId in __instance.conditionData.questIdData.questIds)
+    //        {
+    //            Logger.LogFatal($"InstanceId: {__instance.id}   QuestId: {questId}");
+    //        }
+    //    }
+    //}
+
+    /*
+
+[Error  : Unity Log] Exception: QuestId: 1665356119776, this task ID isn't configured in the table.
+Stack trace:
+UnityEngine.Debug:LogException(Exception)
+QuestPrototype:DMD<QuestPrototype::GetInfoById>(Int64)
+SweetPotato.PlayerQuest:IsQuestFinished(Int64)
+SweetPotato.ConditionPrototype:DMD<SweetPotato.ConditionPrototype::UpdateAchievedState>(ConditionPrototype, Boolean, Boolean)
+SweetPotato.ConditionPrototype:UpdateConditionGroupState(Int64)
+SweetPotato.PlayerQuest:UpdateAutoFinishQuest()
+SweetPotato.PlayerQuest:UpdateQuest()
+SweetPotato.PlayerEntity:DMD<SweetPotato.PlayerEntity::Update>(PlayerEntity)
+SweetPotato.WorldManager:Update()
+    QuestLog
+
+     */
 }
 
-public class InstructionLogger
-{
-    public static void LogInstructions(MethodBase method)
-    {
-        DebugPlugin.Logger.LogFatal($"Logging instructions for method: {method.Name}");
-
-        //var instructions = PatchProcessor.GetOriginalInstructions(method);
-        var instructions = PatchProcessor.GetCurrentInstructions(method);
-        foreach (var instruction in instructions)
-        {
-            DebugPlugin.Logger.LogFatal($"Instruction: {instruction.opcode} {instruction.operand}");
-        }
-    }
-
-    public static void LogInstructions(IEnumerable<CodeInstruction> instructions)
-    {
-        DebugPlugin.Logger.LogFatal("Logging modified instructions:");
-        foreach (var instruction in instructions)
-        {
-            DebugPlugin.Logger.LogFatal($"Instruction: {instruction.opcode} {instruction.operand}");
-        }
-    }
-}
