@@ -548,7 +548,7 @@ public class TranslationWorkflowTests
             "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado",
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
-            "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort",
+            "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort", //"de", NAmes can have de
             "knight", "thay", "tien", "div", "html", "tiantu", "ngoc", "truong", "Phong"
         ];
 
