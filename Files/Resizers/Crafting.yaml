@@ -239,3 +239,33 @@
   allowWordWrap: false
   allowLeftTrimText: true
   adjustX: -20
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/TitleText"
+  sampleText: "<color=#E4F5E8>Iron Blade</color>"
+  idealFontSize: 30
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
+  sampleText: "Copper coin:"
+  idealFontSize: 30
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
+  sampleText: "<color=#3AD67C>Crucible-forged gemstone</color>："
+  idealFontSize: 30
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/Text"
+  sampleText: "54605/119"
+  idealFontSize: 30
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/xiliandi/Scroll View/Viewport/*/Text"
+  sampleText: "  Bloodline: Lifeforce +1000"
+  idealFontSize: 30
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/Text_Value"
+  sampleText: "120(<color=red>-5</color>)/300"
+  idealFontSize: 30
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/*/Text"
+  sampleText: "  Toughness"
+  idealFontSize: 30
+  allowWordWrap: false
+  allowLeftTrimText: true
+  adjustX: -20

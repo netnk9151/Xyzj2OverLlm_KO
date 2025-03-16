@@ -1,0 +1,27 @@
+﻿
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/Scroll View/Viewport/Content/interact(Clone)/Text"
+  sampleText: "Conversing"
+  idealFontSize: 18
+  adjustX: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/interacts_old/node_leave/txt_leave"
+  sampleText: "Follow me.FDeparture."
+  idealFontSize: 18
+  adjustX: -20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/InteractGridRoot/Viewport/InteractGrid/*/Text"
+  sampleText: "Casual chat"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustX: 20
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/title"
+  sampleText: "View information"
+  idealFontSize: 20
+  adjustX: 10
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/lockdes"
+  sampleText: "Affection level ≥ 5; Relationship value ≥ 150"
+  idealFontSize: 20
+  adjustX: 10
+  allowWordWrap: true

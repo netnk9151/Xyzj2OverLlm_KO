@@ -1,0 +1,46 @@
+﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/toggroup/*/Active/text"
+  sampleText: "  List of Peerless Heroes"
+  idealFontSize: 20
+  alignment: "Center"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/toggroup/*/Checkmark"
+  sampleText: "  List of Peerless Heroes"
+  idealFontSize: 20
+  alignment: "Center"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/wushuangRoot/*/info/*"
+  sampleText: "  Check location"
+  idealFontSize: 18
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/wushuangRoot/wushuang/*"
+  sampleText: "  Name"
+  idealFontSize: 24
+  alignment: "Center"
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/*/toggroup/*/Checkmark"
+  sampleText: "  Treasure item"
+  idealFontSize: 30
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/*/toggroup/*/Active/text"
+  sampleText: "  Treasure item"
+  idealFontSize: 30
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/shenbing/toggroup/ren/Checkmark"
+  sampleText: "  Divine Weapon"
+  idealFontSize: 30
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/shenbing/OSA/Viewport/Content/OSA_CellGroupPrefab(Clone)/RoleProfeb(Clone)/Views/*"
+  sampleText: "<color=#FFDA5A>Luminous Flow Pursues Shadow</color>"
+  idealFontSize: 26
+  allowWordWrap: true
+  adjustWidth: 50
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/*/info/*/desc"
+  sampleText: "<color=#E4F5E8>There is a slender sword, barely two fingers wide. Once drawn from the scabbard, its blade glimmers with a cold light, leaving no trace of shadow in its wake, capable of delivering death in an instant to the naked eye—merely a gleaming luminous flow.</color>"
+  idealFontSize: 20
+  alignment: "TopLeft"
+  allowWordWrap: true

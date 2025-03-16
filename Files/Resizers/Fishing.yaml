@@ -1,0 +1,37 @@
+﻿
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/FishRoot/PublicRoot/Image/yugan"
+  sampleText: "  Maximum number of bait fish: <color=#ecc36c>0</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/FishRoot/PublicRoot/Image/yuer"
+  sampleText: "  Completion rate bonus: <color=#ecc36c>0%</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/FishRoot/PublicRoot/Image/title"
+  sampleText: "  Current combined attributes"
+  idealFontSize: 30
+  allowWordWrap: true
+  allowLeftTrimText: true
+  adjustWidth: 100
+  adjustX: -30
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MaterialSelectView/RoleBagParent/BagPlayer/ZhongYao/Select_New2/SelectItem(Clone)/Text"
+  sampleText: "Collectible items"
+  idealFontSize: 26
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MaterialSelectView/RoleBagParent/BagPlayer/*/Title"
+  sampleText: "  Travel bag"
+  idealFontSize: 26
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/ResultRoot/Scroll View/Viewport/Content/Item*/txtNameCtn"
+  sampleText: "The formula for Qing Ling Dan  x1"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/FishRoot/lootitemlist/Scroll View/Viewport/Content/Item(Used)/name"
+  sampleText: "<color=#3AD67C>Feathers on the Grass</color>"
+  idealFontSize: 20
+  alignment: "Top"
+  allowWordWrap: true

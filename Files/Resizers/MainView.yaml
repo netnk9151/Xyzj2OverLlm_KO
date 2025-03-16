@@ -13,16 +13,6 @@
   idealFontSize: 26
   alignment: "Center"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/Scroll View/Viewport/Content/interact(Clone)/Text"
-  sampleText: "Conversing"
-  idealFontSize: 18
-  alignment: "Right"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/interacts_old/node_leave/txt_leave"
-  sampleText: "Follow me.FDeparture."
-  idealFontSize: 20
-  alignment: "Top"
-  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/content"
   sampleText: "Yang Xiaowei once said that the thing he was least proud of was having been defeated by someone from the Duan family."
   idealFontSize: 24
@@ -68,42 +58,6 @@
   allowWordWrap: true
   adjustX: -50
   adjustWidth: -100
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/InteractGridRoot/Viewport/InteractGrid/*/Text"
-  sampleText: "Casual chat"
-  idealFontSize: 20
-  alignment: "MidlineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/title"
-  sampleText: "View information"
-  idealFontSize: 20
-  alignment: "CaplineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/lockdes"
-  sampleText: "Affection level ≥ 5; Relationship value ≥ 150"
-  idealFontSize: 20
-  alignment: "CaplineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/toggroup/*/Active/text"
-  sampleText: "  List of Peerless Heroes"
-  idealFontSize: 20
-  alignment: "Center"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/toggroup/*/Checkmark"
-  sampleText: "  List of Peerless Heroes"
-  idealFontSize: 20
-  alignment: "Center"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/wushuangRoot/*/info/*"
-  sampleText: "  Check location"
-  idealFontSize: 18
-  allowWordWrap: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/XiaYunLuView/bg/wushuangRoot/wushuang/*"
-  sampleText: "  Name"
-  idealFontSize: 24
-  alignment: "Center"
-  allowWordWrap: true
-  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/HandbookView/Root/mask/panels/node/left/smallTog/all(Clone)/Text"
   sampleText: "Tome of Secrets"
   idealFontSize: 24

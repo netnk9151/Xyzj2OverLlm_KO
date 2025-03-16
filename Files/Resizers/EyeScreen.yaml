@@ -1,0 +1,45 @@
+﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/TagPanel/TagGroup/TagItemTemplate*/DefaultLabel"
+  sampleText: "  Jianghu adventure"
+  idealFontSize: 28
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/TagPanel/TagGroup/TagItemTemplate*/SelectedLabel"
+  sampleText: "  Jianghu adventure"
+  idealFontSize: 28
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/ItemInfoPanel/Name"
+  sampleText: "Epic Tavern Tales"
+  idealFontSize: 34
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/KnowledgePanel/InputPanel/InputField (TMP)/Text Area/Text"
+  sampleText: "​"
+  idealFontSize: 24
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/KnowledgePanel/InputPanel/InputField (TMP)/Text Area/Placeholder"
+  sampleText: "  Please enter the text"
+  idealFontSize: 24
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/KnowledgePanel/ItemsPanel/Scroll View/Viewport/Content/ItemTemplate(Clone)/NameAndLock/*"
+  sampleText: "Epic Tavern Tales"
+  idealFontSize: 26
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/ItemDescription"
+  sampleText: "At the market in Cloud Crane Village, I overheard some rumors about the village and accidentally discovered that Yue Hongbo inadvertently revealed how they had acquired intelligence and keys from Evernight Capital."
+  idealFontSize: 24
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/ItemInfoPanel/Quality"
+  idealFontSize: 24
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/Scroll View/Viewport/Content/AccessItemTemplate(Clone)/*"
+  sampleText: "If you want to obtain that key, <color=#DEB887>you can try to forge good relations and request it from them, or choose to duel with them and seize the key.</color>"
+  idealFontSize: 24
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/Scroll View/Viewport/Content/AccessItemTemplate(Clone)/Button/Text (TMP)"
+  sampleText: "  Proceed"
+  idealFontSize: 24
+  allowLeftTrimText: true
+  allowWordWrap: true
+  adjustWidth: 50
+  adjustX: -20
+
