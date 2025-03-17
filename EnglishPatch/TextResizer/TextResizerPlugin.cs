@@ -291,15 +291,15 @@ internal class TextResizerPlugin : BaseUnityPlugin
             textComponent.alignment = metadata.OriginalAlignment;
         }
 
-        //if (Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode)
-        //  && textComponent.overflowMode != overflowMode)
-        //{
-        //    textComponent.overflowMode = overflowMode;
-        //}
-        //else if (textComponent.overflowMode != metadata.OriginalOverflowMode)
-        //{
-        //    textComponent.overflowMode = metadata.OriginalOverflowMode;
-        //}
+        if (Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode)
+          && textComponent.overflowMode != overflowMode)
+        {
+            textComponent.overflowMode = overflowMode;
+        }
+        else if (textComponent.overflowMode != metadata.OriginalOverflowMode)
+        {
+            textComponent.overflowMode = metadata.OriginalOverflowMode;
+        }
 
         // Toggles
         if (resizer.AllowWordWrap.HasValue 

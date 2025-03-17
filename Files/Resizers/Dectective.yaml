@@ -1,3 +1,14 @@
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/QuestListPanel/JingXingZhongPart/zhengci/Scroll View/Viewport/Content/ItemPrefab(Clone)/Des"
+  sampleText: "The statue here is quite strange; one side is complete while the other lacks a head. It seems to involve some Taoism."
+  idealFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/QuestListPanel/JingXingZhongPart/zhengci/Scroll View/Viewport/Content/ItemPrefab(Clone)/Title"
+  sampleText: "Statue is abnormal"
+  idealFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: false
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/QuestListPanel/*/Checkmark/Text (TMP)"
   sampleText: "  Cracked"
   idealFontSize: 20
@@ -40,3 +51,14 @@
   idealFontSize: 20
   alignment: "Midline"
   allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/*/*/zuo/Des"
+  sampleText: "The scroll depicts the surrounding scenery of Cloud Crane Village, featuring images of Bodhi statues, Clear Forests, and Golden Light Gardens. Someone has written a line of ancient poetry above it: Daitong Zhiseng Fo. Based on the style of the calligraphy, it appears to be from a distant past."
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/QuestListPanel/JingXingZhongPart/JinRuTuiLiBtn/Text (TMP)"
+  sampleText: "  Enter into reasoning"
+  idealFontSize: 22
+  allowWordWrap: true
+  allowLeftTrimText: true
+

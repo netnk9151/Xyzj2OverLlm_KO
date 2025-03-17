@@ -23,8 +23,8 @@ public record TextResizerContract
     [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
     public string Alignment = string.Empty;
 
-    //[YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
-    //public string OverflowMode = string.Empty;
+    [YamlMember(ScalarStyle = ScalarStyle.DoubleQuoted)]
+    public string OverflowMode = string.Empty;
 
     public bool? AllowWordWrap;
 

@@ -101,3 +101,83 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: 20
+
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/fulingAttriPart/Content/*/Image/value1"
+  sampleText: "<color=#3AD67C>Discipline</color>    Discipline + <color=#FFDA5A>3</color>(3)"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/subgrid/*/name"
+  sampleText: "<color=#3AD67C>Shangpin Xuanyin Elixir</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text*/has/mijuanhastip/4bg/name"
+  sampleText: "High-grade Divine Illumination Scripture Fragment"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text*/has/*/4bg/tip"
+  sampleText: "Secret Scroll:"
+  idealFontSize: 16
+  allowWordWrap: true
+
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/4bg/name"
+  sampleText: "High-grade Divine Illumination Scripture Fragment"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: -150
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/subgrid/1001/name"
+  sampleText: "<color=#FFDA5A>Meridians Explained · Volume Seven</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: -300
+  adjustX: -150
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip"
+  sampleText: "  Consumption:"
+  idealFontSize: 18
+  allowWordWrap: true
+  allowLeftTrimText: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/subgrid/*/state"
+  sampleText: "<color=#F45454>3</color>/0"
+  idealFontSize: 20
+  allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1"
+  sampleText: "  Special Attributes"
+  idealFontSize: 26
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1/has/xinfahastip"
+  sampleText: "  Mind Cultivation Method:"
+  idealFontSize: 16
+  allowWordWrap: true
+  allowLeftTrimText: true
+  alignment: TopLeft
+  allowAutoSizing: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1/has/xinfahastip/4bg/tip"
+  sampleText: "A random mind technique's accompanying effect"
+  idealFontSize: 16
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1/has/xinfahastip/4bg/name"
+  sampleText: "<color=#E4F5E8>Dao of Concealing the Sword</color>"
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: 50
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/btncancelTihuan/Text"
+  sampleText: "  Cancel"
+  idealFontSize: 26
+  allowWordWrap: true
+  allowLeftTrimText: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/*"
+  sampleText: "  Hidden attribute"
+  idealFontSize: 28
+  allowWordWrap: true
+  allowLeftTrimText: true
+

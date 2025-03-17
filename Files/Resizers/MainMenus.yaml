@@ -31,3 +31,22 @@
   idealFontSize: 18
   allowWordWrap: true
   allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/questHintCursor/titile"
+  sampleText: "Commission"
+  idealFontSize: 30
+  allowWordWrap: false
+  allowAutoSizing: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/questHintCursor/Text (TMP)"
+  sampleText: "154 steps"
+  idealFontSize: 30
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/AnswerGrid/*/Text"
+  sampleText: "Gentleman He, this matter is of great importance; please listen to me no matter what."
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/TutorialView/Panel/OKButton/Text (TMP)"
+  sampleText: "  Confirmed"
+  idealFontSize: 30
+  allowWordWrap: true 
+  allowLeftTrimText: true
+

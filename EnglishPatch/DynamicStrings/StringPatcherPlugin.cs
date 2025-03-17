@@ -22,7 +22,6 @@ public class StringPatcherPlugin : BaseUnityPlugin
     private Harmony _harmony;
     private readonly Dictionary<string, Type> _cachedTypes = [];
 
-
     private void Awake()
     {
         Logger = base.Logger;

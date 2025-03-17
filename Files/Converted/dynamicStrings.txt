@@ -4487,7 +4487,7 @@
   splits:
   - split: 3
     text: "当使用阳属性招式，角色进入阳属性状，此时角色获得阳属性战斗加成和一些特殊效果：\\n1：角色切换进入阳属性招式状态，此时攻击阴状态的角色会获得伤害比例加成。反之如果攻击毒属性偏向的，则伤害会走相抵系数。\\n2：进入阳状态的角色需要相生或者相合的属性的心法进行配合：\\n     相合：阳状态需要阳偏向的内功来催动，进入内功-招式相合状态。\\n     相克：阳状态的的技能如果使用阴偏向、毒偏向的内功，自身会根据阳属性与阴、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：阳属性达到一定程度后开启焚烧效果，相合状态下，每次阳属性攻击会累加自身阳属性与阴、毒属性的差值，累加值达1250触发焚烧，对自身周围敌人施加一个灼烧效果。\\n     灼烧：每秒造成自身阳属性一定比例伤害。"
-    translated: "When a character uses a Yang attribute technique and enters the Yang attribute state, they gain combat bonuses associated with the Yang attribute along with some special effects: \\n1: Switching to a Yang attribute technique increases damage percentage against characters in a Yin state. Conversely, attacking those with a poison tendency incurs a counter-effect coefficient on the damage.\\n2: Characters in the Yang state require cultivation methods that are either complementary or harmonious with their attributes for effective coordination: \\nHarmonious and agreeable: The Yang state requires Neigong that leans towards the Yang to activate and enter into Neigong - Forms synchronize in harmony.\\nCounteracting or conflicting forces: If a character in a Yang state uses Neigong techniques that are biased towards Yin or Poison attributes, their own condition will vary based on the gap between their Yang attribute and the Yin or Poison attributes. This can result in either impaired lifeforce flow or unobstructed lifeforce circulation.\\nCoexistence or mutual thriving: There are no life-giving and destructive neigong or techniques combinations, nor any special effects.\\n3: Once the Yang attribute reaches a certain level, it unlocks a burning effect. In a synergistic state, each time the Yang attribute attacks, it accumulates the difference between its own Yang and Yin, Poison attributes; when this accumulated value reaches 1250, it triggers a burn, inflicting a searing effect on surrounding enemies.\\nBurning up: Inflicts damage to self equal to a certain percentage of their Yang attribute every second."
+    translated: "When using a Yang attribute technique, the character enters a Yang attribute state. At this time, the character gains a combat bonus from the Yang attribute and some special effects: \\n1: Switch to a Yang attribute technique; when attacking Yin-stated characters, they receive an additional damage percentage. Conversely, if you attack poison-attribute characters, the damage is reduced by a counteracting coefficient.\\n2: Characters entering a Yang state require complimentary or harmonious attributes of the Heart Method for coordination: \\nIn harmony or in agreement: The Yang state requires Yang-biased internal cultivation to activate and enter into internal power - Synergy of Techniques\\nCounteracting forces: If a skill in the Yang state uses Neigong with Yin or Poison tendencies, the user's Lifeforce may become obstructed or flow freely depending on the difference between the Yang attribute and the Yin or Poison attributes.\\nCoexistence: There are no interactions or combinations of internal power techniques that have any special effects.\\n3: Once the Yang attribute reaches a certain level, the incineration effect is activated. In a synergistic state, each time a Yang attribute attack occurs, it accumulates the difference between its own Yang attribute and Yin, as well as the Poison attribute. When this accumulated value reaches 1250, incineration is triggered, imposing a scorching effect on surrounding enemies.\\nBurning or scorching: Inflicts a certain percentage of damage to their own Yang attribute every second."
 - raw: "AttriPart,.cctor,212,当使用刚属性招式，角色进入刚属性状态，此时角色获得刚属性加成和一些特殊效果：\\n1：角色切换进入刚属性招式状态，此时攻击毒状态的角色会获得伤害比例加成。反之如果攻击柔属性偏向的，则伤害会走相抵系数。\\n2：进入刚状态的角色需要相合的内功进行配合：\\n     相合：刚状态需要刚偏向的内功来催动，进入内功-招式相合状态。\\n     相克：刚状态的的技能如果使用柔偏向、毒偏向的内功，自身会根据刚属性与柔、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：刚属性达到一定程度可以开启无坚不摧，相合状态下，每次刚属性攻击会累加自身刚属性与柔、毒属性的差值，累加值达到1550触发猛攻。\\n     猛攻：持续时间内，提升10%暴击几率，可叠加至10层。,[]"
   splits:
   - split: 3
@@ -8407,7 +8407,7 @@
   splits:
   - split: 3
     text: "添加心法洗练"
-    translated: "Add Qi Refinement Exercise"
+    translated: "Incorporate Heart Method refinement"
 - raw: "JingJiePartView,RefreshSelected,533,境界：第{0}层,[]"
   splits:
   - split: 3
@@ -8582,7 +8582,7 @@
   splits:
   - split: 3
     text: "请添加心法"
-    translated: "Add cultivation method"
+    translated: "Add Heart Method"
 - raw: "JingJiePartView,OnClickXiuXing,90,确定,[]"
   splits:
   - split: 3
@@ -8642,12 +8642,12 @@
   splits:
   - split: 3
     text: "添加心法洗练"
-    translated: "Add Qi Refinement Exercise"
+    translated: "Incorporate Heart Method refinement"
 - raw: "JingJiePartView,RefreshGuDing,255,添加心法,[]"
   splits:
   - split: 3
     text: "添加心法"
-    translated: "Add martial arts techniques"
+    translated: "Add Heart Method"
 - raw: "ChooseItemSlot,OnReset,193,道具,[]"
   splits:
   - split: 3
@@ -8667,7 +8667,7 @@
   splits:
   - split: 3
     text: "心法"
-    translated: "Mind-cultivation technique"
+    translated: "Heart Method"
 - raw: "JingMaiActiveConditionItemSlot,OnReset,303,已激活,[]"
   splits:
   - split: 3
@@ -11377,7 +11377,7 @@
   splits:
   - split: 3
     text: "(口才-{0})"
-    translated: "Eloquence - {0})"
+    translated: "(Eloquence - {0})"
 - raw: "ShopStoreViewNew,CalBuyPrice,1037,金币,[]"
   splits:
   - split: 3
@@ -11867,7 +11867,7 @@
   splits:
   - split: 3
     text: "(口才-{0})"
-    translated: "Eloquence - {0})"
+    translated: "(Eloquence - {0})"
 - raw: "ShopViewNew,RefreshMoney,15,持有,[]"
   splits:
   - split: 3
@@ -11977,7 +11977,7 @@
   splits:
   - split: 3
     text: "心法"
-    translated: "Mind-cultivation technique"
+    translated: "Heart Method"
 - raw: "SpellItemSlotNew,OnReset,1010,入门,[]"
   splits:
   - split: 3
@@ -12692,7 +12692,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
+    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,887,请选中该心法,[System.Boolean]"
   splits:
   - split: 3
@@ -12717,7 +12717,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
+    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,960,鼠标悬浮,[System.Boolean]"
   splits:
   - split: 3
@@ -12732,7 +12732,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this mind technique"
+    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,980,请选中该心法,[System.Boolean]"
   splits:
   - split: 3
@@ -14007,7 +14007,7 @@
   splits:
   - split: 3
     text: "周天效果表{0}中没有对{1}心法进行配置"
-    translated: "The effect table {0} does not have a configuration for the skill method {1}."
+    translated: "The effect chart for {0} does not have a configuration for the {1} Heart Method."
 - raw: "SweetPotato.JingMai_ZhouTianEffect,GetEffectIdList,172,{0}表中没有配置{1}的效果,[System.Collections.Generic.List`1<System.Int64>]"
   splits:
   - split: 3
@@ -14297,7 +14297,7 @@
   splits:
   - split: 3
     text: "心法的运功都存在，xinfaSpell填写为0错误，spellPro：{0}"
-    translated: "The application of Xinfa requires precise spellcasting; however, the input for 0 was incorrect in this case. Please ensure the correct spelling is used for effective results: {0}"
+    translated: "The spellcasting for all Heart Methods exists; filling in xinfaSpell with 0 is incorrect, spellPro: {0}"
 - raw: "SweetPotato.DataMgr,LoadDB,935,   使用内存:,[System.Collections.Generic.Dictionary`2<System.String，CSVHelper.CsvLoader/CsvCreateFunc>]"
   splits:
   - split: 3
@@ -15112,7 +15112,7 @@
   splits:
   - split: 3
     text: "融会贯通"
-    translated: "Integrate and comprehend thoroughly"
+    translated: "Integrate and Connect"
 - raw: "SweetPotato.Tools,.cctor,1131,登堂入室,[]"
   splits:
   - split: 3
@@ -20932,7 +20932,7 @@
   splits:
   - split: 3
     text: "当前有尚未保存的心法运功配置，是否不保存并退出心法运功界面"
-    translated: "Unsaved changes in your Neigong configuration are pending. Do you wish to exit without saving and leave the Neigong interface?"
+    translated: "There are unsaved heart method cultivation settings. Do you want to exit the heart method cultivation interface without saving?"
 - raw: "SweetPotato.JingMai.JingMaiYunGongPanel,ClosePanel,49,是,[System.Boolean]"
   splits:
   - split: 3
@@ -20947,12 +20947,12 @@
   splits:
   - split: 3
     text: "辅心法"
-    translated: "Assist Heart Technique"
+    translated: "Assisting Heart Method"
 - raw: "SweetPotato.JingMai.JingMaiYunGongSelectItemSlot,OnReset,189,主心法,[]"
   splits:
   - split: 3
     text: "主心法"
-    translated: "Core Martial Method"
+    translated: "Core Heart Method"
 - raw: "SweetPotato.JingMai.JingMaiZhouTianEffectItem,GetJingMaiName,50,任脉,[System.Int32]"
   splits:
   - split: 3
@@ -21002,7 +21002,7 @@
   splits:
   - split: 3
     text: "心法{0}中周天效果{1}的条件{2}配置错误"
-    translated: "The configuration error in condition {2} affects the effects of the surrounding Heaven Circle {1} in the Mind Law {0}."
+    translated: "The configuration for conditions {2} of effect {1} in Heart Method {0}'s Zhou Tian is incorrect."
 - raw: "SweetPotato.JingMai.JingMaiZhouTianPanel,OnNodeSelect,286,找不到合适连接的路径,[System.Int32]"
   splits:
   - split: 3
@@ -21452,7 +21452,7 @@
   splits:
   - split: 3
     text: "心法的运功都存在，xinfaSpell填写为0错误，spellPro：{0}"
-    translated: "The application of Xinfa requires precise spellcasting; however, the input for 0 was incorrect in this case. Please ensure the correct spelling is used for effective results: {0}"
+    translated: "The spell casting of the heart method exists; however, filling in xinfa as 0 is incorrect. Please correct the spell: {0}"
 - raw: "ModSpace.WordEntry,GetName,44,词条组,[]"
   splits:
   - split: 3

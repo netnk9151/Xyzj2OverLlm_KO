@@ -1,0 +1,30 @@
+﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Background/BtnGroup/*/Label"
+  sampleText: "  All of them"
+  idealFontSize: 24
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Background/ShowGroup/*/Viewport/Content/Item*/Title"
+  sampleText: "<color=#f8744b>[Activity]</color>·Power theory activities"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: 140
+  adjustX: 70
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Background/ShowGroup/*/Viewport/Content/Item*/Time"
+  sampleText: "Jing Yan40Year9Month12DayChildTime"
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustX: 110
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Detail/Background/Time"
+  sampleText: "Jing Yan40Year9Month12DayChildTime"
+  idealFontSize: 24
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Detail/Background/ItemName"
+  sampleText: "<color=#f8744b>[Activity]</color>·"
+  idealFontSize: 30
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Detail/Background/Desc/Text"
+  sampleText: "The major sect theory activities for this month are about to begin. Disciples are encouraged to actively participate in the training sessions at each of the large sects' senior transmission masters."
+  idealFontSize: 24
+  allowWordWrap: true
