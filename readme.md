@@ -1,4 +1,4 @@
-﻿# Journey to Jianghu 2 English Patch
+﻿# Next Stop - Jianghu 2 English Patch
 
 Install guide:
 
