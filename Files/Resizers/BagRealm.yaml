@@ -1,4 +1,4 @@
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/ChengSuText"
+﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/ChengSuText"
   sampleText: "Realm: The 1th level"
   idealFontSize: 32
   alignment: "TopLeft"
@@ -70,4 +70,60 @@
   sampleText: "Yin +24"
   idealFontSize: 28
   alignment: "TopLeft"
+  allowWordWrap: true
+
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/XiLian/Text (TMP)"
+  sampleText: "  Refined through adversity"
+  idealFontSize: 22
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/Title/Text (TMP)"
+  sampleText: "  Fixed attribute"
+  idealFontSize: 22
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/VerticalLayout/CiTiaoGroup/CiTiaoItem(Clone)/Text (TMP)"
+  sampleText: "Lifeforce"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/VerticalLayout/BuffPanel/BuffInfo"
+  sampleText: "<color=#E4F5E8>Retreating in secrecy：</color>Deal additional damage equal to 1.2% of their own poison attribute when causing harm."
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/YinCangLockPanel/ConditionGroup/TiaoJianItem(Clone)/TiaoJianText"
+  sampleText: "Strength：45"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/YinCangLockPanel/Title"
+  sampleText: "  Hidden attribute"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/VerticalLayout/CiTiaoGroup/CiTiaoItem(Clone)/CiTiaoValue"
+  sampleText: "+315"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/YinCangLockPanel/ConditionGroup/TiaoJianItem(Clone)/ManZuText"
+  sampleText: "<color=#a1a1a1>Current: </color><color=#79be6e>51</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustY: -10
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/BtnText"
+  sampleText: "  Cultivation"
+  idealFontSize: 30
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/Cost"
+  sampleText: "Consuming one's cultivation energy:3048"
+  idealFontSize: 26
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/BtnText"
+  sampleText: "  Cultivation"
+  idealFontSize: 30
+  allowLeftTrimText: true
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/Cost"
+  sampleText: "Consuming one's cultivation energy:3048"
+  idealFontSize: 26
   allowWordWrap: true

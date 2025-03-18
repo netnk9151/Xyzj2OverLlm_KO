@@ -83,3 +83,29 @@
   idealFontSize: 30
   alignment: "Top"
   allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/QuestRewardView/Content/Item/title"
+  sampleText: "Core Energy Activation"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/ObtainItemList/Scroll View/Viewport/Content/ObtainItem(Clone)/title"
+  sampleText: "Core Energy Activation"
+  idealFontSize: 22
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/ObtainItemList/Scroll View/Viewport/Content/ObtainItem(Clone)/Text_Des"
+  sampleText: "Cultivation x 64"
+  idealFontSize: 22
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/QuestRewardView/Content/Item/Desc*"
+  sampleText: "Cultivation x 64"
+  idealFontSize: 22
+  allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/DaZuoView/Mask/panel/xiulianPanel/rewards"
+  sampleText: "<color=#CCA46C>Faith or cultivation level</color> 7680<color=#CCA46C>Counter</color> 7  "
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/DaZuoView/Mask/panel/xiulianPanel/rewardsTitle"
+  sampleText: "  Upon completing meditation, one may obtain gains."
+  idealFontSize: 20
+  allowWordWrap: true

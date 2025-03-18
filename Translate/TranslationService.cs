@@ -19,7 +19,7 @@ public static class TranslationService
     public const int BatchlessBuffer = 25;
 
     // "。" doesnt work like u think it would   
-    public static string[] SplitCharactersList() => [":", "<br>", "\\n", "-"];
+    public static string[] SplitCharactersList() => [":", "<br>", "\\n", "-", "|"];
 
     public static TextFileToSplit[] GetTextFilesToSplit()
         => [

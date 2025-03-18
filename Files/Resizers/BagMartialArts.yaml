@@ -233,3 +233,36 @@
   alignment: "Left"
   allowWordWrap: true
   allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/btnFinishChongJi/text"
+  sampleText: "  Activation complete"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/gridCur/title"
+  sampleText: "  Gateway to Spiritual Enlightenment"
+  idealFontSize: 18
+  allowLeftTrimText: true
+  allowWordWrap: true
+  adjustWidth: 100
+  adjustX: 50
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/gridNext/title"
+  sampleText: "  Gateway to Spiritual Enlightenment"
+  idealFontSize: 18
+  allowLeftTrimText: true
+  allowWordWrap: true
+  adjustWidth: 100
+  adjustX: 50
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/gridNext/Content/*/value1"
+  sampleText: "<color=#BA7EFE>Heart-Racing Crisis</color>:    Technique <color=#BA7EFE>Heart-Racing Crisis</color> increases damage by a certain degree.(6%)"
+  idealFontSize: 18
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/gridCur/Content/*/value1"
+  sampleText: "<color=#5DBCF3>Potential</color>:    Potential <color=#FFDA5A>1</color>(1)"
+  idealFontSize: 18
+  alignment: "TopLeft"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/upNodePart/bg/btnFinishXiLian/text"
+  sampleText: "  Refinement complete"
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true

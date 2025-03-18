@@ -44,6 +44,10 @@
   sampleText: "Gentleman He, this matter is of great importance; please listen to me no matter what."
   idealFontSize: 20
   allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/AnswerViewNew/*/answerGrid/*/Text"
+  sampleText: "I've heard that the Sword Pavilion is aiding refugees here, and I greatly admire it. Might you be a disciple of the Sword Pavilion?"
+  idealFontSize: 20
+  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/TutorialView/Panel/OKButton/Text (TMP)"
   sampleText: "  Confirmed"
   idealFontSize: 30

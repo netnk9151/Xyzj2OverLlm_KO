@@ -1,4 +1,9 @@
-﻿- raw: 融会贯通  
+﻿- raw: 洗练  
+  result: Refine  
+  badtrans: true  
+  direct: Wash and train  
+  literal: Xi lian  
+- raw: 融会贯通  
   result: Integrate and Connect  
   badtrans: true  
   direct: Integrate and Connect  
@@ -8,6 +13,27 @@
   badtrans: true  
   direct: Cowhide  
   literal: Niu Pi  
+- raw: 下阵  
+  result: Withdraw from battle  
+  badtrans: true  
+  direct: Step down from formation  
+  literal: Xia zhen  
+- raw: "打坐完成可获得     "
+  result: Meditation Rewards
+  badtrans: true  
+  direct: Completing meditation grants  
+  literal: Da zuo wancheng ke huode  
+- raw: 功体运转  
+  result: Cultivation
+  badtrans: true  
+  direct: Cultivation body operation  
+  literal: Gongti yunzhuan  
+- raw: 也好。关涿你要一块吗？  
+  result: Alright. Guan Zhuo, do you want a piece too?  
+  badtrans: true  
+  direct: Okay. Guan Zhuo, do you want a piece?  
+  literal: Ye hao. Guan Zhuo ni yao yi kuai ma?  
+
 
 
 # Skills
@@ -469,6 +495,11 @@
   literal: Yuan Yin
 
 # Names
+- raw: 苦不苦  
+  result: Ku Buku
+  badtrans: true  
+  direct: Ku bu ku  
+  literal: Ku bu ku  
 - raw: 步琪  
   result: Bu Qi  
   badtrans: true  

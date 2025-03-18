@@ -1572,7 +1572,7 @@
   splits:
   - split: 3
     text: "<color=#CCA46C>修为</color> {0}  "
-    translated: "<color=#CCA46C>Faith or cultivation level</color> {0}"
+    translated: "<color=#CCA46C>Cultivation</color> {0}"
 - raw: "DaZuoView,Update,191,此处山水风景独佳，颇为静心,[]"
   splits:
   - split: 3
@@ -1627,7 +1627,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "EquipXilianSlot,<OnSelected>b__7_0,178,已洗练到最高属性！,[]"
   splits:
   - split: 3
@@ -4297,7 +4297,7 @@
   splits:
   - split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation"
+    translated: "Withdraw from battle"
 - raw: "AttriPart,OnStateBtnClick,41,装备,[]"
   splits:
   - split: 3
@@ -4387,7 +4387,7 @@
   splits:
   - split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation"
+    translated: "Withdraw from battle"
 - raw: "AttriPart,BtnLeaveTeamClick,17,队伍正在交战中，无法操作,[]"
   splits:
   - split: 3
@@ -4407,7 +4407,7 @@
   splits:
   - split: 3
     text: "下阵"
-    translated: "Descend from the chariot formation"
+    translated: "Withdraw from battle"
 - raw: "AttriPart,.cctor,7,角色气血的保障，气血降到低于0角色死亡。,[]"
   splits:
   - split: 3
@@ -6772,7 +6772,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "NpcInteractButtonSlot,set_Interact,422,强化,[SweetPotato.NpcInteract]"
   splits:
   - split: 3
@@ -8822,7 +8822,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "JingMaiGraphDetailView,OnJiHuoAnimFinish,388,激活,[System.Boolean]"
   splits:
   - split: 3
@@ -9047,7 +9047,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "LianZhaoPartView,RefreshSelected,1292,拥有：,[]"
   splits:
   - split: 3
@@ -15767,7 +15767,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "SweetPotato.Tools,.cctor,2405,农识,[]"
   splits:
   - split: 3
@@ -16597,7 +16597,7 @@
   splits:
   - split: 3
     text: "洗练"
-    translated: "Refined through adversity"
+    translated: "Refine"
 - raw: "SweetPotato.Tools,.cctor,5903,强化,[]"
   splits:
   - split: 3
@@ -16737,7 +16737,7 @@
   splits:
   - split: 3
     text: "功体运转"
-    translated: "Core Energy Activation"
+    translated: "Cultivation"
 - raw: "SweetPotato.PlayerController,onPlayerInteract,852,采集中......,[MPEventArgs]"
   splits:
   - split: 3

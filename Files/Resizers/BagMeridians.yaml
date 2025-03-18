@@ -201,14 +201,18 @@
   idealFontSize: 20
   alignment: "MidlineLeft"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Layout/Viewport/Content/*/WordText/name"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail*/Background/Layout/Viewport/Content/*/WordText/name"
   sampleText: "<color=#5DBCF3>Willpower</color>"
-  idealFontSize: 20
-  allowWordWrap: true
+  idealFontSize: 18
+  allowWordWrap: true 
+  allowAutoSizing: false
+  adjustX: -30
+  adjustWidth: -40
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Layout/Viewport/Content/*/WordText"
   sampleText: "<nobr>Willpower + 7<color=#FFDA5A>(7)</color></nobr>"
-  idealFontSize: 20
+  idealFontSize: 18
   allowWordWrap: true
+  allowAutoSizing: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/BlackBG/TextQuality"
   sampleText: "Quality:   <color=#FFDA5A>Perfect</color>"
   idealFontSize: 24
@@ -467,3 +471,5 @@
   idealFontSize: 20
   allowWordWrap: true
   adjustY: -20
+
+
