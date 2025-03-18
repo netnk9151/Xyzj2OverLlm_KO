@@ -216,6 +216,7 @@ public class TranslationWorkflowTests
         {
             //"·", //Figure out split before doing this
             //@"\(.*，.*\)" //Put back for big files
+            //@"\|",
         };
 
         //await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
