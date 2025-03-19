@@ -478,6 +478,128 @@
   badtrans: true  
   direct: Strange  
   literal: Qi  
+- raw: 切磋  
+  result: Spar  
+  badtrans: true  
+  direct: Spar
+  literal: Qiecuo 
+- raw: 贡士  
+  result: Gongshi  
+  badtrans: true  
+  direct: Gongshi  
+  literal: Gongshi  
+- raw: 趁虚  
+  result: Exploit Opening
+  badtrans: true  
+  direct: Exploit  
+  literal: Chenxu  
+- raw: 易损  
+  result: Fragile  
+  badtrans: true  
+  direct: Fragile  
+  literal: Yisun  
+- raw: "兵家对于战争中的道德和规则的看法是："
+  result: "The military perspective on the morality and rules of war is:"
+  badtrans: true
+  direct: Bing jia dui yu zhan zheng zhong de dao de he gui ze de kan fa shi
+  literal: Bing jia dui yu zhan zheng zhong de dao de he gui ze de kan fa shi
+- raw: 伤威
+  result: Damage Reputation
+  badtrans: true
+  direct: Shang wei
+  literal: Shang wei
+- raw: 剑意纵横
+  result: Sword intent sweeping across
+  badtrans: true
+  direct: Jian yi zong heng
+  literal: Jian yi zong heng
+- raw: 迦南地宫化境决
+  result: Canaan Underground Palace Transformation Decision
+  badtrans: true
+  direct: Jia nan di gong hua jing jue
+  literal: Jia nan di gong hua jing jue
+- raw: 尧光谷剧情二
+  result: Yao Guang Valley Plot 2
+  badtrans: true
+  direct: Yao guang gu ju qing er
+  literal: Yao guang gu ju qing er
+- raw: 庄子如何定义“道”？
+  result: How does Zhuangzi define 'Dao'?
+  badtrans: true
+  direct: Zhuang zi ru he ding yi 'dao'?
+  literal: Zhuang zi ru he ding yi 'dao'?
+- raw: 《庄子》中的“朝三暮四”有什么寓意？
+  result: What is the meaning of 'morning three, evening four' in Zhuangzi?
+  badtrans: true
+- raw: 黄老道学中的“贵和”思想指什么？
+  result: What does the 'valuing harmony' philosophy in Huang-Lao Daoism refer to?
+  badtrans: true
+  direct: Huang lao dao xue zhong de 'gui he' si xiang zhi shen me?
+  literal: Huang lao dao xue zhong de 'gui he' si xiang zhi shen me?
+- raw: 南宗派的修行者如何看待生命与长生？
+  result: How do practitioners of the Southern School view life and immortality?
+  badtrans: true
+  direct: Nan zong pai de xiu xing zhe ru he kan dai sheng ming yu chang sheng?
+  literal: Nan zong pai de xiu xing zhe ru he kan dai sheng ming yu chang sheng?
+- raw: 选项二文本
+  result: Option Two Text
+  badtrans: true
+  direct: Xuan xiang er wen ben
+  literal: Xuan xiang er wen ben
+- raw: 封将军的意思是？
+  result: What does 'appointing a general' mean?
+  badtrans: true
+  direct: Feng jiang jun de yi si shi?
+  literal: Feng jiang jun de yi si shi?
+- raw: 劫杀
+  result: Robbery and murder
+  badtrans: true
+  direct: Jie sha
+  literal: Jie sha
+- raw: "<color=#BF5F95>劫杀</color>"
+  result: "<color=#BF5F95>Robbery and murder</color>"
+  badtrans: true
+  direct: Jie sha
+  literal: Jie sha
+- raw: 比武
+  result: Martial arts competition
+  badtrans: true
+  direct: Bi wu
+  literal: Bi wu
+- raw: 比斗
+  result: Fight
+  badtrans: true
+  direct: Bi dou
+  literal: Bi dou
+- raw: 锤炼
+  result: Temper
+  badtrans: true
+  direct: Chui lian
+  literal: Chui lian
+- raw: 退出门派
+  result: Leave the sect
+  badtrans: true
+  direct: Tui chu men pai
+  literal: Tui chu men pai
+- raw: "<color=#BF5F95>切磋</color>"  
+  result: "<color=#BF5F95>Spar</color>"  
+  badtrans: true  
+  direct: Spar
+  literal: Qiecuo 
+- raw: 巧取
+  result: Cleverly Steal
+  badtrans: true
+  direct: Qiao qu
+  literal: Qiao qu
+- raw: 出示
+  result: Show
+  badtrans: true
+  direct: Chu shi
+  literal: Chu shi
+
+
+
+
 
 # Questions
 - raw: 戒定慧
@@ -519,6 +641,11 @@
   literal: Yuan Yin
 
 # Names
+- raw: 全通
+  result: Quan Tong
+  badtrans: true
+  direct: Quan tong
+  literal: Quan tong
 - raw: 苗善和  
   result: Miao Shanhe  
   badtrans: true  

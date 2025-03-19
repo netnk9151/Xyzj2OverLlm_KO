@@ -174,6 +174,9 @@ public static partial class LineValidation
         if (result.Length > 50 && raw.Length <= 4)
             response = false;
 
+        if (result.Length > raw.Length * 20)
+            response = false;
+
         // Small source with 'or' is usually an alternative
         if ((result.Contains(" or") || result.Contains("(or"))
             && raw.Length <= 4
