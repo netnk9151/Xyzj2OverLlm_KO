@@ -269,3 +269,15 @@
   allowWordWrap: false
   allowLeftTrimText: true
   adjustX: -20
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/SkillSelectPanel/MystiqueSelect/bg/GameObject/title*/content"
+  sampleText: "The forging technique initially spread within the Yan Hong clan and created by the swordsmith Zhu Ye is also the foundation for apprentice craftsmen in iron casting today."
+  idealFontSize: 30
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/SkillSelectPanel/MystiqueSelect/bg/GameObject/title*"
+  sampleText: "Mystery Technique Explanation:"
+  idealFontSize: 30
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/SkillSelectPanel/MystiqueSelect/Scroll View/Viewport/Content/*/name"
+  sampleText: "Forged in Fire"
+  idealFontSize: 30
+  allowWordWrap: true

@@ -170,7 +170,7 @@
   idealFontSize: 16
   alignment: "TopLeft"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfuling/Text1/has/mijuanhastip/subgrid/1001/name"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfuling/Text1/has/mijuanhastip/subgrid/*/name"
   sampleText: "<color=#FFDA5A>Meridians�Explained���Volume�Seven</color>"
   idealFontSize: 16
   allowWordWrap: true
@@ -201,71 +201,6 @@
   idealFontSize: 20
   alignment: "MidlineLeft"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail*/Background/Layout/Viewport/Content/*/WordText/name"
-  sampleText: "<color=#5DBCF3>Willpower</color>"
-  idealFontSize: 18
-  allowWordWrap: true 
-  allowAutoSizing: false
-  adjustX: -30
-  adjustWidth: -40
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Layout/Viewport/Content/*/WordText"
-  sampleText: "<nobr>Willpower + 7<color=#FFDA5A>(7)</color></nobr>"
-  idealFontSize: 18
-  allowWordWrap: true
-  allowAutoSizing: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/BlackBG/TextQuality"
-  sampleText: "Quality:   <color=#FFDA5A>Perfect</color>"
-  idealFontSize: 24
-  alignment: "MidlineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/BlackBG/TextLevel"
-  sampleText: "Rank:Tier 7"
-  idealFontSize: 24
-  alignment: "MidlineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/TextName"
-  sampleText: "Eight Extraordinary Meridians Chart � Volume Seven � Lifeforce"
-  idealFontSize: 28
-  alignment: "MidlineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/ObjSell/TextPrice"
-  sampleText: "27418"
-  idealFontSize: 20
-  alignment: "MidlineLeft"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/ObjSell/Text"
-  sampleText: "Selling price:"
-  idealFontSize: 20
-  alignment: "Bottom"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/ButtonDisCard/Text"
-  sampleText: "  Discard"
-  idealFontSize: 24
-  alignment: "Center"
-  allowWordWrap: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Text"
-  sampleText: "  Entry Attributes"
-  idealFontSize: 24
-  alignment: "Center"
-  allowWordWrap: true
-  allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Equip/Attribute/UsableAttri"
-  sampleText: "<nobr>Used for meridians and internal organs, and additional terms.</nobr>"
-  idealFontSize: 20
-  alignment: "Top"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Equip/Image/Text"
-  sampleText: "Material Properties"
-  idealFontSize: 20
-  alignment: "Center"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/BagTipView/Content/ItemDetail0/Background/Description/Viewport/TextDescription"
-  sampleText: "   This book was authored by a renowned master of the previous generation from an unnamed sect. It uniquely illustrates the flow of qi in the meridians through distinctive diagrams. By pairing it with accurate meridian knowledge, one can enhance and stabilize certain lifeforce attributes."
-  idealFontSize: 20
-  alignment: "TopLeft"
-  allowWordWrap: true
-  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/xinfaSelect/itemDetail/Scroll View/Viewport/Content/*/tween/highlighthover/namehight"
   sampleText: "<color=#E4F5E8>Dao of Concealing the Sword</color>"
   idealFontSize: 20
@@ -375,7 +310,7 @@
   alignment: "Midline"
   allowWordWrap: true
   allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/condition/conditionJingMai/Content/1001/tip"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/condition/conditionJingMai/Content/*/tip"
   sampleText: "Activate 8 meridians"
   idealFontSize: 20
   alignment: "Top"
@@ -416,12 +351,12 @@
   adjustX: -2
   adjustWidth: 30
 
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/1001/desc"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/*/desc"
   sampleText: "Increase internal attack by 15"
   idealFontSize: 20
   allowWordWrap: true
 
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/1001/namebg/name1"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/*/namebg/name1"
   sampleText: "<color=#E4F5E8>Integrating and synthesizing comprehensively</color>"
   idealFontSize: 16
   allowWordWrap: true
@@ -466,7 +401,7 @@
   allowWordWrap: true
   allowLeftTrimText: true
 
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/xinfaselectPanel/Scroll View/Viewport/Content/1001/name"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/xinfaselectPanel/Scroll View/Viewport/Content/*/name"
   sampleText: "<color=#3AD67C>Zhoutian Breathing Technique</color>"
   idealFontSize: 20
   allowWordWrap: true

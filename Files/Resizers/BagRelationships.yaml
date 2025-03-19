@@ -69,12 +69,23 @@
   idealFontSize: 22
   alignment: "CaplineLeft"
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/PlayerRelationPart/RelationMapNew/root/iconRoot/haoyou1/NpcUI(Clone)/title/des"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/PlayerRelationPart/RelationMapNew/root/iconRoot/*/NpcUI(Clone)/title/des"
   sampleText: "Friend"
   idealFontSize: 20
-  alignment: "MidlineLeft"
+  alignment: "Center"
   allowWordWrap: true
-  adjustWidth: 50
+  adjustWidth: 80
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/PlayerRelationPart/RelationMapNew/panel/toggle*/btn_*/Text (TMP)"
+  sampleText: "All of them"
+  idealFontSize: 26
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/PlayerRelationPart/RelationMapNew/panel/OSA/Viewport/Content/OSA_CellGroupPrefab(Clone)/Item(Clone)/Views/NpcUI/title/des"
+  sampleText: "Adversary"
+  idealFontSize: 20
+  alignment: "Center"
+  allowWordWrap: true
+  adjustWidth: 80
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/PlayerRelationPart/RelationMapNew/root/NpcUI/ImagePortraitBG/ImageName/TextName"
   sampleText: "Shen Yan Gong."
   idealFontSize: 24
