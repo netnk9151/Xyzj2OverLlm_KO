@@ -2526,6 +2526,46 @@
   badtrans: true
 
 # Names
+- raw: 徐和昌  
+  result: Xu Hechang  
+  badtrans: true  
+  direct: Xu Hechang  
+  literal: Xu Hechang  
+- raw: 英子  
+  result: Ying Zi  
+  badtrans: true  
+  direct: Yingzi  
+  literal: Yingzi  
+- raw: 执明  
+  result: Zhi Ming  
+  badtrans: true  
+  direct: Zhiming  
+  literal: Zhiming  
+- raw: 岳岚  
+  result: Yue Lan  
+  badtrans: true  
+  direct: Yue Lan  
+  literal: Yue Lan  
+- raw: 木灵子  
+  result: Mu Lingzi  
+  badtrans: true  
+  direct: Mu Lingzi  
+  literal: Mu Lingzi  
+- raw: 西平青  
+  result: Xiping Qing  
+  badtrans: true  
+  direct: Xiping Qing  
+  literal: Xiping Qing  
+- raw: 沈牧之  
+  result: Shen Muzhi  
+  badtrans: true  
+  direct: Shen Muzhi  
+  literal: Shen Muzhi  
+- raw: 何佑  
+  result: He You  
+  badtrans: true  
+  direct: He You  
+  literal: He You  
 - raw: 冯二姨  
   result: Feng Eryi  
   badtrans: true  
@@ -2545,6 +2585,8 @@
 - raw: 三儿
   result: San'er
   badtrans: true
+  allowAlt:
+    - Third child
 - raw: 昕儿
   result: Xin'er  
   badtrans: true
@@ -2878,6 +2920,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 西江府  
+  result: Xijiang Prefecture  
+  badtrans: true  
+  direct: Xijiang Prefecture  
+  literal: Xijiang fu  
 - raw: 玉盘峰  
   result: Jade Plate Peak  
   badtrans: true  

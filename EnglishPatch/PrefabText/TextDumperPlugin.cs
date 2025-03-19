@@ -26,8 +26,8 @@ public class TextDumperPlugin : BaseUnityPlugin
         Logger.LogWarning("Text Replacer plugin is starting...");
 
         //Do not want dumper outside of development
+        bool enabled = false;
 
-        bool enabled = true;
         if (enabled)
         {
             Harmony.CreateAndPatchAll(typeof(TextDumperPlugin));
