@@ -21,7 +21,7 @@ public static partial class LineValidation
         //StripColorTags(raw)
         raw = raw
             //.Replace("。", ".") //Hold off on this one for now
-            .Replace("…", "...")  
+            .Replace("…", "...")
             .Replace("：", ":")
             .Replace("：", ":")
             .Replace("「", "'")
@@ -107,27 +107,30 @@ public static partial class LineValidation
             {
                 if (textFile.NameCleanupRoutines)
                     result = result.Replace(" ", "");
-                else if(textFile.NameCleanupRoutines2)
+                else if (textFile.NameCleanupRoutines2)
                 {
-                    var splits = result.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                    switch (splits.Length)
+                    if (!Regex.IsMatch(input, ChineseCharPattern))
                     {
-                        case 1:
-                            result = "";
-                            break;
-                        case 2:
-                            break;
-                        case 3:
-                            result = $"{splits[0]} {splits[1]}{splits[2]}";
-                            break;
-                        case 4:
-                            result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}";
-                            break;
-                        case 5:
-                            result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}{splits[4]}";
-                            break;
-                        default:
-                            break;
+                        var splits = result.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                        switch (splits.Length)
+                        {
+                            case 1:
+                                result = "";
+                                break;
+                            case 2:
+                                break;
+                            case 3:
+                                result = $"{splits[0]} {splits[1]}{splits[2]}";
+                                break;
+                            case 4:
+                                result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}";
+                                break;
+                            case 5:
+                                result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}{splits[4]}";
+                                break;
+                            default:
+                                break;
+                        }
                     }
                 }
 
@@ -175,7 +178,7 @@ public static partial class LineValidation
 
         var invalidPhrases = new[]
         {
-            "provide the text", 
+            "provide the text",
             "Certainly! Please provide the Chinese",
             "Certainly! Please provide the specific Chinese",
             "It seems like your input might be incomplete or missing some context",
@@ -187,8 +190,8 @@ public static partial class LineValidation
             "translates to",
             //"also known as" //Causes issues
             "'''",
-            "<p", "</p", "<em", "</em", "<|", "<strong", "</strong", 
-            "\\U", 
+            "<p", "</p", "<em", "</em", "<|", "<strong", "</strong",
+            "\\U",
         };
 
         if (invalidPhrases.Any(phrase => result.IndexOf(phrase, StringComparison.OrdinalIgnoreCase) >= 0))
@@ -486,9 +489,9 @@ public static partial class LineValidation
         var fullStop = '.';
 
         // Check if there's only one sentence (one full stop at the end)
-        if (input.Count(c => c == fullStop) == 1 
-            && !input.Contains("!") 
-            && !input.Contains("?")           
+        if (input.Count(c => c == fullStop) == 1
+            && !input.Contains("!")
+            && !input.Contains("?")
             && input.TrimEnd().EndsWith(fullStop))
         {
             // Count words

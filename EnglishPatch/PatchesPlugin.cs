@@ -22,6 +22,8 @@ public class PatchesPlugin : BaseUnityPlugin
         Harmony.CreateAndPatchAll(typeof(NameRestrictionPatch));
         Harmony.CreateAndPatchAll(typeof(MinimapPatch));
         Harmony.CreateAndPatchAll(typeof(ItemsPatch));
+        Harmony.CreateAndPatchAll(typeof(ToolsPatch));
+        Harmony.CreateAndPatchAll(typeof(RandomNamePatch));
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
     }   
 }

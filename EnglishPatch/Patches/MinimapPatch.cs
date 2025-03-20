@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
 
 namespace EnglishPatch.Patches;
 
@@ -17,7 +16,17 @@ public static class MinimapPatch
     }
 
     public static string MyGetGameTimeDate(double mainQuestTimeSecond)
-    {        
-        return SweetPotato.Tools.GetGameTimeDate(mainQuestTimeSecond).Replace("Year", "年");
-    }
+    {
+        double totalSeconds = ToolsPatch.ConvertToSeconds(mainQuestTimeSecond);
+        ToolsPatch.CalculateTimeIncrements(totalSeconds, out var year, out var month, out var day, out var hour);
+
+        if (hour == 24)
+            hour = 0;
+
+        var dateTime = new DateTime(year, month, day);
+        var shortMonth = dateTime.ToString("MMM");
+
+        //MainView.RefreshDateTimeText uses 年 and put the first half into year display and second half below
+        return $"JY{year}年{day}\n{shortMonth}\n{SweetPotato.Tools.SHI_CHENG_STR[hour / 2]}";
+    }   
 }

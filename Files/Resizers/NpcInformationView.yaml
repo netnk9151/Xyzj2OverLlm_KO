@@ -4,15 +4,23 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: 100
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/RenWu/Layout/Image*/*"
+  sampleText: "Yin  <color=#f0f0f0>165</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustWidth: 18
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/RenWu/*"
+  sampleText: "Current HP  <color=#f0f0f0>3269776/3269776</color>"
+  idealFontSize: 20
+  allowWordWrap: true
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeL/Select/Select*/Text"
   sampleText: "  Information"
   idealFontSize: 20
   allowWordWrap: true
   allowLeftTrimText: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/*/Layout/*"
-  sampleText: "External Attack  <color=#f0f0f0>47</color>"
-  idealFontSize: 20
-  allowWordWrap: true
+
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/JingLi/ExperienceMapNew/*/Viewport/Content/btn*/title"
   sampleText: "  All of them"
   idealFontSize: 20
@@ -37,17 +45,10 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/*/attriAllRoot/AttriRoot/Attri*/Text*"
   sampleText: "Buddhism  29"
   idealFontSize: 18
-  alignment: "Left"
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/ShuXing/attriAllRoot/AttriRoot/Attri (1)/Text"
-  sampleText: "Taoism  29"
-  idealFontSize: 18
-  alignment: "Left"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/RoleInformation/Name/Text"
   sampleText: "Ape God"
   idealFontSize: 34
-  alignment: "MidlineLeft"
   allowWordWrap: true
   adjustY: -5
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/RoleInformation/*"

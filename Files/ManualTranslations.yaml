@@ -149,6 +149,39 @@
   badtrans: true
   direct: Zhen qi shang xian
   literal: Zhen qi shang xian
+- raw: 进货时间
+  result: Restocking time
+  badtrans: true
+  direct: Jin huo shi jian
+  literal: Jin huo shi jian
+- raw: 你是何人？
+  result: Who are you?
+  badtrans: true
+  direct: Ni shi he ren?
+  literal: Ni shi he ren?
+- raw: 跟随空军打窝的钓鱼佬
+  result: Fisherman following the Air Force to bait the spot
+  badtrans: true
+  direct: Gen sui kong jun da wo de diao yu lao
+  literal: Gen sui kong jun da wo de diao yu lao
+- raw: 酒令
+  result: Toastmaster
+  badtrans: true
+  direct: Jiu ling
+  literal: Jiu ling
+- raw: 昨日在那悟我刀法的人，就是你吧？
+  result: The one who was studying my blade technique yesterday—was that you?
+  badtrans: true
+  direct: Zuo ri zai na wu wo dao fa de ren, jiu shi ni ba?
+  literal: Zuo ri zai na wu wo dao fa de ren, jiu shi ni ba?
+- raw: 步婶
+  result: Aunt Bu
+  badtrans: true
+  direct: Bu shen
+  literal: Bu shen
+
+
+
 
 
 # Skills
@@ -702,11 +735,6 @@
   badtrans: true
   direct: Jie chou
   literal: Jie chou
-- raw: 酉
-  result: Rooster
-  badtrans: true
-  direct: You
-  literal: You
 - raw: 增筑
   result: Increase construction
   badtrans: true
@@ -1123,3 +1151,28 @@
   direct: Hua Jing
   literal: Hua Jing
 
+ # Earthly Branches
+- raw: 子
+  result: Zi
+- raw: 丑
+  result: Chou
+- raw: 寅
+  result: Yin
+- raw: 卯
+  result: Mao
+- raw: 辰
+  result: Chen
+- raw: 巳
+  result: Si
+- raw: 午
+  result: Wu
+- raw: 未
+  result: Wei
+- raw: 申
+  result: Shen
+- raw: 酉
+  result: You
+- raw: 戌
+  result: Xu
+- raw: 亥
+  result: Hai

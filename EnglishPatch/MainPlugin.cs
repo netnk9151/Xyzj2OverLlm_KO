@@ -62,18 +62,4 @@ public class MainPlugin : BaseUnityPlugin
     {
         Logger.LogWarning($"Translated Assets Loaded!");
     }
-
-    [HarmonyPrefix, HarmonyPatch(typeof(UnityHelper), "GetNunWordFromNum")]
-    public static bool Prefix_UnityHelper_GetNunWordFromNum(ref string __result, int num)
-    {
-        __result = $"{num}";
-        return false;
-    }
-
-    [HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.Tools), "NumberToChinese")]
-    public static bool Prefix_Tools_NumberToChinese(ref string __result, int number, bool first)
-    {
-        __result = $"{number}";
-        return false;
-    }
 }
