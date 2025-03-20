@@ -35,5 +35,7 @@ public class TextFileToSplit
 
     public bool NameCleanupRoutines { get; set; } = false;
 
+    public bool NameCleanupRoutines2 { get; set; } = false;
+
     public bool AllowMissingColorTags { get; set; } = true;
 }

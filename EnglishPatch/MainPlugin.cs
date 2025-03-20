@@ -29,9 +29,6 @@ public class MainPlugin : BaseUnityPlugin
         // Plugin startup logic
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
         Harmony.CreateAndPatchAll(typeof(MainPlugin));
-        Harmony.CreateAndPatchAll(typeof(NameRestrictionPatch));
-        Harmony.CreateAndPatchAll(typeof(MinimapPatch));
-        Harmony.CreateAndPatchAll(typeof(ItemsPatch));
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
     }
 

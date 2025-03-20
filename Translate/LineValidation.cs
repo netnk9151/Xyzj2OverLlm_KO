@@ -103,11 +103,35 @@ public static partial class LineValidation
             if (textFile.RemoveNumbers)
                 result = RemoveNumbers(result);
 
-            if (textFile.NameCleanupRoutines)
+            if (textFile.NameCleanupRoutines || textFile.NameCleanupRoutines2)
             {
-                result = result.Replace(" ", "")
-                    .Replace(".", "");
+                if (textFile.NameCleanupRoutines)
+                    result = result.Replace(" ", "");
+                else if(textFile.NameCleanupRoutines2)
+                {
+                    var splits = result.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                    switch (splits.Length)
+                    {
+                        case 1:
+                            result = "";
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            result = $"{splits[0]} {splits[1]}{splits[2]}";
+                            break;
+                        case 4:
+                            result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}";
+                            break;
+                        case 5:
+                            result = $"{splits[0]}{splits[1]} {splits[2]}{splits[3]}{splits[4]}";
+                            break;
+                        default:
+                            break;
+                    }
+                }
 
+                result = result.Replace(".", "");
                 result = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(result);
             }
 
