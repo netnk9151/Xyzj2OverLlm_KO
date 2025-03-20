@@ -31,6 +31,7 @@ public class MainPlugin : BaseUnityPlugin
         Harmony.CreateAndPatchAll(typeof(MainPlugin));
         Harmony.CreateAndPatchAll(typeof(NameRestrictionPatch));
         Harmony.CreateAndPatchAll(typeof(MinimapPatch));
+        Harmony.CreateAndPatchAll(typeof(ItemsPatch));
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
     }
 
