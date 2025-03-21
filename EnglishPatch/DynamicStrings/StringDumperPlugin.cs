@@ -158,17 +158,17 @@ public class StringDumperPlugin : BaseUnityPlugin
 
         //Logger.LogError($"For: {currentString}");
 
-        if (Regex.IsMatch(currentString, @"[a-zA-Z]")
-            && !currentString.Contains("x", StringComparison.OrdinalIgnoreCase) // For quantity x
-            && !(currentString.Contains("<") && currentString.Contains(">"))
-            && !currentString.Contains("size")
-            && !currentString.Contains("color"))
-        {
-            //Logger.LogError($"HasEnglish: true");
-            return true;
-        }
+        //if (Regex.IsMatch(currentString, @"[a-zA-Z]")
+        //    && !currentString.Contains("x", StringComparison.OrdinalIgnoreCase) // For quantity x
+        //    && !(currentString.Contains("<") && currentString.Contains(">"))
+        //    && !currentString.Contains("size")
+        //    && !currentString.Contains("color"))
+        //{
+        //    //Logger.LogError($"HasEnglish: true");
+        //    return true;
+        //}
 
-        while (instructionCheck < 4) // check three instructions ahead
+        while (instructionCheck < 3) // check two instructions ahead
         {
             // Get the next instruction after loading the string
             nextInstruction = nextInstruction.Next;           

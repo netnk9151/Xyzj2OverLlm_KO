@@ -2535,7 +2535,29 @@
   result: Gao Family
   badtrans: true
 
-# Names
+# Name
+- raw: 谢元明
+  result: Xie Yuanming
+  badtrans: true
+  direct: Xie Yuan Ming
+  literal: Xie Yuan Ming
+- raw: 温阳秋
+  result: Wen Yangqiu
+  badtrans: true
+  direct: Wen Yang Qiu
+  literal: Wen Yang Qiu
+- raw: 孟长老
+  result: Elder Meng
+  badtrans: true
+  direct: Meng Chang Lao
+  literal: Meng Chang Lao
+- raw: 元明
+  result: Yuan Ming
+  badtrans: true
+  direct: Yuan Ming
+  literal: Yuan Ming
+  allowalt: 
+    - Yuanming
 - raw: 顾池渊
   result: Gu Chiyuan
   badtrans: true
@@ -3005,6 +3027,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 常守阁
+  result: Chang Shou Pavilion
+  badtrans: true
+  direct: Chang Shou Ge
+  literal: Chang Shou Ge
 - raw: 西江府  
   result: Xijiang Prefecture  
   badtrans: true  

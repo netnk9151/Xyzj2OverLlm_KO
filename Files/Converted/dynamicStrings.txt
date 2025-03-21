@@ -3,6 +3,11 @@
   - split: 3
     text: "音乐：{0}不存在"
     translated: "Music: {0} does not exist"
+- raw: "OpenFileName,.ctor,74,(*图片文件)\0*.png;*.jpg;*.bmp;*.jpeg\0,[]"
+  splits:
+  - split: 3
+    text: "(*图片文件)\0*.png;*.jpg;*.bmp;*.jpeg\0"
+    translated: "(Image files): .png; .jpg; .bmp; .jpeg"
 - raw: "OpenFileName,.ctor,169,打开项目,[]"
   splits:
   - split: 3
@@ -43,6 +48,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "QuestPrototypeLineItemSlot2,DeleteData,209,是否删除Npc,[]"
+  splits:
+  - split: 3
+    text: "是否删除Npc"
+    translated: "Should we delete the NPC?"
 - raw: "QuestPrototypeLineItemSlot2,DeleteData,227,确定,[]"
   splits:
   - split: 3
@@ -53,6 +63,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "QuestPrototypeLineItemSlot2,DeleteData,257,是否删除Shop组,[]"
+  splits:
+  - split: 3
+    text: "是否删除Shop组"
+    translated: "Should the Shop group be deleted?"
 - raw: "QuestPrototypeLineItemSlot2,DeleteData,275,确定,[]"
   splits:
   - split: 3
@@ -183,6 +198,11 @@
   - split: 3
     text: "当前为战斗状态，无法存档"
     translated: "Currently in combat mode; unable to save"
+- raw: "AppGame,IsSaveableNow,97,无法存档 执行中的脚本id ： ,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "无法存档 执行中的脚本id ： "
+    translated: "Unable to save: Script ID currently in execution:"
 - raw: "AppGame,IsSaveableNow,165,剧情执行中，无法存档 ,[System.Boolean]"
   splits:
   - split: 3
@@ -198,6 +218,21 @@
   - split: 3
     text: "当前为押镖状态，无法存档"
     translated: "Currently in escort mode; unable to save"
+- raw: "AutomatManager,Script_SetNpcPostionCondition,196,WorldManager.Instance.m_EntityDir.不包含id:{0},[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "WorldManager.Instance.m_EntityDir.不包含id:{0}"
+    translated: "WorldManager.Instance.m_EntityDir does not contain id: {0}"
+- raw: "AutomatManager,Script_SetNpcPostion,222,WorldManager.Instance.m_EntityDir.不包含id:{0},[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "WorldManager.Instance.m_EntityDir.不包含id:{0}"
+    translated: "WorldManager.Instance.m_EntityDir does not contain id: {0}"
+- raw: "AutomatManager,Script_SetNpcPostionWithCurNpc,186,WorldManager.Instance.m_EntityDir.不包含id:{0},[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "WorldManager.Instance.m_EntityDir.不包含id:{0}"
+    translated: "WorldManager.Instance.m_EntityDir does not contain id: {0}"
 - raw: "AutomatManager,Script_IsCustomMenPaiManagerEnough,23,门派管理员已满员,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -218,6 +253,16 @@
   - split: 3
     text: "少侠你和本门派好感度为:"
     translated: "Young hero, your affection level with our sect is as follows::"
+- raw: "AutomatManager,Script_StartAnswer,368,Script_StartAnswer taklID:{0} 找不到,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "Script_StartAnswer taklID:{0} 找不到"
+    translated: "Script_StartAnswer taklID: {0} not found."
+- raw: "AutomatManager,Script_StartAnswerCondition,372,Script_StartAnswer taklID:{0} 找不到,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "Script_StartAnswer taklID:{0} 找不到"
+    translated: "Script_StartAnswer taklID: {0} not found."
 - raw: "AutomatManager,Script_CanInviteToTeam,130,队伍中已有此角色！,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -248,11 +293,21 @@
   - split: 3
     text: "开启中"
     translated: "Starting now"
+- raw: "AutomatManager,Script_OpenBox,164,世界中未找到id为{0}的箱子,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "世界中未找到id为{0}的箱子"
+    translated: "No box with ID {0} was found in the world."
 - raw: "AutomatManager,Script_OpenBoxSelf,52,开启中,[AutomatScript，CallFunc]"
   splits:
   - split: 3
     text: "开启中"
     translated: "Starting now"
+- raw: "AutomatManager,Script_OpenBoxSelf,103,世界中未找到id为{0}的箱子,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "世界中未找到id为{0}的箱子"
+    translated: "No box with ID {0} was found in the world."
 - raw: "AutomatManager,Script_WandingOnly,109,采集中...,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -273,11 +328,21 @@
   - split: 3
     text: "读条中..."
     translated: "Chanting..."
+- raw: "AutomatManager,Script_ChangeLianwumuzhuangState,193,没有找到guid为{0}的UnitController,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "没有找到guid为{0}的UnitController"
+    translated: "No UnitController found with GUID {0}"
 - raw: "AutomatManager,Script_ChangeLianwumuzhuangState,248,没有找到物体 {0},[AutomatScript，CallFunc]"
   splits:
   - split: 3
     text: "没有找到物体 {0}"
     translated: "The object {0} could not be found."
+- raw: "AutomatManager,Script_IsInTheInteract,53,没有找到guid为{0}的UnitController,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "没有找到guid为{0}的UnitController"
+    translated: "No UnitController found with GUID {0}"
 - raw: "AutomatManager,Script_AddRandomItems,275,你获得了,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -343,6 +408,16 @@
   - split: 3
     text: "飞鸽检测测试：{0} 返回 0"
     translated: "Pigeon Mail Test: {0} returns to 0"
+- raw: "AutomatManager,Script_FieldEventRandomOneFoeNpcToGroup,229,Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在"
+    translated: "Script Field Event: Randomly Assign One Foe NPC to Group — The entity for NPC ID {} does not exist."
+- raw: "AutomatManager,Script_FieldEventRandomOneFirendNpcToGroup,230,Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在"
+    translated: "Script Field Event: Randomly Assign One Foe NPC to Group — The entity for NPC ID {} does not exist."
 - raw: "AutomatManager,Script_ZhuaBuGuiAn,85,正在关押,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -358,6 +433,11 @@
   - split: 3
     text: "{0}物体没有控制器，不能进行运镖寻路"
     translated: "The {0} object lacks a controller and cannot perform route finding for delivery tasks."
+- raw: "AutomatManager,Script_MoveAlongBiaoPoint,116,{0}物体附近没有可以寻找到的WayPoint，不能进行运镖寻路,[AutomatScript，CallFunc]"
+  splits:
+  - split: 3
+    text: "{0}物体附近没有可以寻找到的WayPoint，不能进行运镖寻路"
+    translated: "There are no WayPoints nearby for the {0} object to locate a courier route."
 - raw: "AutomatManager,Script_CreateBiaoTeam,41,{0}创建运镖劫镖队伍错误，创建队伍时的队伍类型只能为1或2,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -368,6 +448,41 @@
   - split: 3
     text: "当前为锁定视角，请切换自由视角后调整距离"
     translated: "The current view is locked; please switch to free view mode and adjust the distance afterward."
+- raw: "SpawnPointPrototype,LoadCSV,488,SpawnPointPrototype，{0}id 重复,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "SpawnPointPrototype，{0}id 重复"
+    translated: "SpawnPointPrototype, {0} id repeated"
+- raw: "SpawnPointPrototype,LoadCSV,614,SpawnPointPrototype，{0}id 重复,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "SpawnPointPrototype，{0}id 重复"
+    translated: "SpawnPointPrototype, {0} id repeated"
+- raw: "SpawnPointPrototype,LoadCSV,670,SpawnPointPrototype，{0}id 重复,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "SpawnPointPrototype，{0}id 重复"
+    translated: "SpawnPointPrototype, {0} id repeated"
+- raw: "ItemPrototype,LoadCSV,723,物品randomNpcSpecial配置格式错误，ItemPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "物品randomNpcSpecial配置格式错误，ItemPrototype.Id:{0}"
+    translated: "Item configuration format error for random NPC special item: ItemPrototype.Id: {0}"
+- raw: "ItemPrototype,LoadCSV,856,物品randomNpcGenreid配置格式错误，ItemPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "物品randomNpcGenreid配置格式错误，ItemPrototype.Id:{0}"
+    translated: "Item configuration format error, random NPC genre ID; Item Prototype ID: {0}"
+- raw: "ItemPrototype,LoadCSV,1214,当前道具itemid{0}characterlineFlag-{1}与游戏characterlineFlag{2}不一致跳过,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "当前道具itemid{0}characterlineFlag-{1}与游戏characterlineFlag{2}不一致跳过"
+    translated: "The current item ID of the character's equipment is {0} - {1} does not match the game character line flag {2}, skipping."
+- raw: "ItemPrototype,AddPrototype,40,item_base表中装备id为{0}的attributeId填写不正确!,[ItemPrototype]"
+  splits:
+  - split: 3
+    text: "item_base表中装备id为{0}的attributeId填写不正确!"
+    translated: "The attribute ID for equipment ID {0} in the item_base table has been incorrectly entered!"
 - raw: "ItemPrototype,GetItemTypeDes,45,戒指,[System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -413,6 +528,36 @@
   - split: 3
     text: "画卷"
     translated: "Scroll painting"
+- raw: "ItemPrototype,InitRandomItems,416,物品randomNpcGang配置格式错误，ItemPrototype.Id:{0},[]"
+  splits:
+  - split: 3
+    text: "物品randomNpcGang配置格式错误，ItemPrototype.Id:{0}"
+    translated: "Item configuration format error, ItemPrototype Id: {0}"
+- raw: "ItemEquip,GetEntry,19,itemEquip中没有id为{0}的数据,[System.Int64]"
+  splits:
+  - split: 3
+    text: "itemEquip中没有id为{0}的数据"
+    translated: "There is no data with ID {0} in itemEquip."
+- raw: "MenPai,GetInfoById,18,meipai表中没有id为{0}的数据,[System.Int64]"
+  splits:
+  - split: 3
+    text: "meipai表中没有id为{0}的数据"
+    translated: "The table does not contain data with an ID of {0}."
+- raw: "MenPaiRdm,GetInfoById,21,menpairdm不存在id为{0}的数据,[System.Int32]"
+  splits:
+  - split: 3
+    text: "menpairdm不存在id为{0}的数据"
+    translated: "The Mendeer DM does not have data with ID {0}."
+- raw: "SystemIntroduce,GetInfo,17,system_introduce没找到id为{0}的数据,[System.Int32]"
+  splits:
+  - split: 3
+    text: "system_introduce没找到id为{0}的数据"
+    translated: "Could not find data with ID {0}"
+- raw: "Mystique,GetInfo,17,mystique中没有配{0}id的数据,[System.Int64]"
+  splits:
+  - split: 3
+    text: "mystique中没有配{0}id的数据"
+    translated: "There is no data in Mystique associated with ID {0}."
 - raw: "Mystique,GetMishuEffectResult,81,比例,[System.Int32[]，System.Single&]"
   splits:
   - split: 3
@@ -428,11 +573,31 @@
   - split: 3
     text: "秘术效果：基本值：{0}，变化量：{1}，变化类型：{2}，最终值：{3}"
     translated: "Effect of Secret Technique: Basic values: {0}, change amount: {1}, change type: {2}, ultimate value: {3}"
+- raw: "Loot_items,CheckGroup,93,Loot_items:{0}中lootItemid对应的物品在ItemPrototype表中不存在 ItemID:{1},[]"
+  splits:
+  - split: 3
+    text: "Loot_items:{0}中lootItemid对应的物品在ItemPrototype表中不存在 ItemID:{1}"
+    translated: "Loot_items: The item corresponding to lootItemId {0} does not exist in the ItemPrototype table. Item ID: {1}: {1}"
+- raw: "QuestPrototype,GetInfoById,45,questId:{0}，配置表中没有配置这个任务id,[System.Int64]"
+  splits:
+  - split: 3
+    text: "questId:{0}，配置表中没有配置这个任务id"
+    translated: "QuestId: {0}, this task ID is not configured in the settings table."
 - raw: "QuestPrototype,CheckQuestError,68,任务:{0}的下一个任务:{1}没有配置在表中,[]"
   splits:
   - split: 3
     text: "任务:{0}的下一个任务:{1}没有配置在表中"
     translated: "Task: {0}'s next task: {1} has not been configured in the table."
+- raw: "QuestJieMi,CreateFromCsvRow,511,QuestJieMi的“strmatch”字段配置有错误，_DataInfo.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "QuestJieMi的“strmatch”字段配置有错误，_DataInfo.Id:{0}"
+    translated: "The strmatch field configuration in Quest Jie Mi's record is incorrect, _DataInfo.Id: {0}"
+- raw: "ChuanWen,GetChuanWenById,22,配置文件中没有该传闻id：{0},[System.Int32]"
+  splits:
+  - split: 3
+    text: "配置文件中没有该传闻id：{0}"
+    translated: "The configuration file does not contain this rumor ID: {0}"
 - raw: "Demolish,OnTriggerEnter,1054,您的刚属性不足，无法击碎,[UnityEngine.Collider]"
   splits:
   - split: 3
@@ -1838,6 +2003,11 @@
   - split: 3
     text: "钓到了200金钱~"
     translated: "Caught 200 gold money!"
+- raw: "FishArtistry,OnComplelte,599,物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2},[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2}"
+    translated: "Item ID: {0}, name: {1}, Durability -1, Current Remaining Durability: {2}"
 - raw: "FishArtistry,HasFishRod,8,少侠还没准备鱼竿呢！,[]"
   splits:
   - split: 3
@@ -1873,6 +2043,11 @@
   - split: 3
     text: "阁下莫要谦虚，何不再来一次？"
     translated: "Don't be modest; why not try again?"
+- raw: "BagNewNewItemUI,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "BagNewNewItemUI,OnRefresh,463,坚韧：{0},[]"
   splits:
   - split: 3
@@ -2348,6 +2523,11 @@
   - split: 3
     text: "段:"
     translated: "Duan:"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,951,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "Design requirement specifies only 1 buff effects allowed, but that's not the case; nodeId: {0}"
 - raw: "SpellHoverTipMain,SpellOnHoverBySelf,1051,运功,[System.Int64，System.Int64]"
   splits:
   - split: 3
@@ -2988,6 +3168,16 @@
   - split: 3
     text: "总价："
     translated: "Total price:"
+- raw: "EndingView,Show,109,game_end没有id为{0}的数据,[System.Int32]"
+  splits:
+  - split: 3
+    text: "game_end没有id为{0}的数据"
+    translated: "The game has no data with the ID {0}."
+- raw: "FabicationMaterialSlot,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "FabricationResult,ShowResult,36,完成,[]"
   splits:
   - split: 3
@@ -3233,6 +3423,16 @@
   - split: 3
     text: "火力：锅灶火力不足，无法使更多食材达到最佳风味。"
     translated: "Firepower: The stove doesn't have enough heat to bring more ingredients to their optimal flavor."
+- raw: "FabricationView,GetMishuMifaEffects,76,id:{0} 的 Mystique 不存在 ,[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "id:{0} 的 Mystique 不存在 "
+    translated: "Id: {0}'s mystique does not exist."
+- raw: "FabricationView,GetMishuMifaEffects,178,id:{0} 的 Mystique 不存在 ,[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "id:{0} 的 Mystique 不存在 "
+    translated: "Id: {0}'s mystique does not exist."
 - raw: "MaterialSelectView,.cctor,13,全部物品,[]"
   splits:
   - split: 3
@@ -3508,6 +3708,11 @@
   - split: 3
     text: "{0}~{1}阶"
     translated: "Levels {0} to {1}"
+- raw: "RecipeSlot,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "FabricateItemSlot,OnReset,268,品质/等级：随机,[]"
   splits:
   - split: 3
@@ -3523,6 +3728,11 @@
   - split: 3
     text: "身份未知"
     translated: "Identity unknown"
+- raw: "InstantiateView,OpenAttriPanel,314,FormulaBaseAttri表中{0}组，属性{1}重复，id为{2},[]"
+  splits:
+  - split: 3
+    text: "FormulaBaseAttri表中{0}组，属性{1}重复，id为{2}"
+    translated: "In the FormulaBaseAttri table, group {0}, attribute {1} is duplicated, ID: {2}."
 - raw: "InstantiateView,CalculatePoint,151,差,[]"
   splits:
   - split: 3
@@ -3568,6 +3778,11 @@
   - split: 3
     text: "子分数和总分数："
     translated: "Partial score and total score:"
+- raw: "InstantiateView,SetText,249,没找到{0}年({y})的数据,[]"
+  splits:
+  - split: 3
+    text: "没找到{0}年({y})的数据"
+    translated: "Data for {0} year ({y}) not found"
 - raw: "InstantiateView,SetText,290,年：{0} ※ ,[]"
   splits:
   - split: 3
@@ -4128,6 +4343,11 @@
   - split: 3
     text: "与你关系不和，不会接受你的礼物，或许可以完成对方的委托或与之论道试试。"
     translated: "If your relationship is not harmonious and you cannot accept their gift, perhaps you could try completing their commission or engaging in a discussion with them."
+- raw: "InteractSlot,Handle_IT_SCRIPT,213,npcdata表id={0}的script：{1}字段和param3：{2}字段配置错误，只能有一个大于0,[SweetPotato.NpcInteract]"
+  splits:
+  - split: 3
+    text: "npcdata表id={0}的script：{1}字段和param3：{2}字段配置错误，只能有一个大于0"
+    translated: "NPC data table script ID = {0}: {1} field and param 3: The {2} configuration field error: there can only be one greater than 0."
 - raw: "InteractSlot,Handle_IT_TATAKAIYI,506,武者特技,[SweetPotato.NpcInteract]"
   splits:
   - split: 3
@@ -5003,6 +5223,16 @@
   - split: 3
     text: "武器·拳"
     translated: "Weapon · Fist"
+- raw: "RoleBagItemListHolder,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
+    safeToTranslate: false
+- raw: "RoleBagItemListHolder,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "RoleBagItemSlot,UpdateFromModel,809,已学习,[RoleBagItemListModel]"
   splits:
   - split: 3
@@ -5143,6 +5373,31 @@
   - split: 3
     text: "全部"
     translated: "All of them"
+- raw: "LivingAssemblyConfig,CreateFromCsvRow,246,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill， {0}合成材料{1}配置重复"
+    translated: "Living Assembly Skill: {0} Composite Material {1} Repeated Configuration."
+- raw: "LivingAssemblyConfig,CreateFromCsvRow,358,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill， {0}合成材料{1}配置重复"
+    translated: "Living Assembly Skill: {0} Composite Material {1} Repeated Configuration."
+- raw: "LivingAssemblyConfig,CreateFromCsvRow,470,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill， {0}合成材料{1}配置重复"
+    translated: "Living Assembly Skill: {0} Composite Material {1} Repeated Configuration."
+- raw: "LivingAssemblyConfig,CreateFromCsvRow,582,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill， {0}合成材料{1}配置重复"
+    translated: "Living Assembly Skill: {0} Composite Material {1} Repeated Configuration."
+- raw: "LivingAssemblyConfig,CreateFromCsvRow,701,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill， {0}合成材料{1}配置重复"
+    translated: "Living Assembly Skill: {0} Composite Material {1} Repeated Configuration."
 - raw: "LivingAssemblyConfig,CreateFromCsvRow,1074,神兵,[System.String[]]"
   splits:
   - split: 3
@@ -5158,6 +5413,11 @@
   - split: 3
     text: "少侠请先选择鱼竿呢！"
     translated: "Young hero, please choose a fishing rod first!"
+- raw: "LivingSystem,OpenLivingView,51,living_assemblyskill配置表未配置groupid为{0}的数据,[LivingType，System.Int32]"
+  splits:
+  - split: 3
+    text: "living_assemblyskill配置表未配置groupid为{0}的数据"
+    translated: "Living assembly skill configuration table does not have data configured for group ID {0}."
 - raw: "LivingSystem,OpenLivingView,206,少侠尚未习得任何,[LivingType]"
   splits:
   - split: 3
@@ -5168,6 +5428,11 @@
   - split: 3
     text: "配方"
     translated: "Formula"
+- raw: "LivingView/<MakeItems>d__101,MoveNext,940,item_base表中未配置id为{0}或者未配置该数据的miscvalue2,[]"
+  splits:
+  - split: 3
+    text: "item_base表中未配置id为{0}或者未配置该数据的miscvalue2"
+    translated: "The item_base table does not have an ID configured as {0}, or it has no miscvalue configured for data 2."
 - raw: "LivingView/<MakeItems>d__101,MoveNext,3317,背包已满请先清理背包,[]"
   splits:
   - split: 3
@@ -5253,6 +5518,11 @@
   - split: 3
     text: "尚未添加特殊材料"
     translated: "Special materials have not been added yet"
+- raw: "LunDaoBattle/<OnSkillTrigger>d__75,MoveNext,191,OnSkillTrigger:ID{0} 名字：{1},[]"
+  splits:
+  - split: 3
+    text: "OnSkillTrigger:ID{0} 名字：{1}"
+    translated: "OnSkillTrigger: Name: {0} ID: {1}"
 - raw: "LunDaoBattle/<OnTriggerSkill>d__76,MoveNext,177,概率未成功触发,[]"
   splits:
   - split: 3
@@ -5263,6 +5533,11 @@
   - split: 3
     text: "不满足条件"
     translated: "Not meeting the requirements"
+- raw: "LunDaoBattle/<OnTriggerSkill>d__76,MoveNext,433,OnTriggerSkill:ID {0} 名字：{1},[]"
+  splits:
+  - split: 3
+    text: "OnTriggerSkill:ID {0} 名字：{1}"
+    translated: "OnTriggerSkill: Name: {0}: {1}"
 - raw: "LunDaoBattle/<OnCastSkill>d__77,MoveNext,228,超过当局内最大使用限制次数,[]"
   splits:
   - split: 3
@@ -5288,6 +5563,11 @@
   - split: 3
     text: "概率未成功触发"
     translated: "Probability of triggering was unsuccessful"
+- raw: "LunDaoBattle/<OnCastSkill>d__77,MoveNext,966,OnCastSkill:ID {0} 名字：{1},[]"
+  splits:
+  - split: 3
+    text: "OnCastSkill:ID {0} 名字：{1}"
+    translated: "OnCastSkill: Name: {0}: {1}"
 - raw: "LunDaoBuffView,OnPointerEnter,92,层数：{0}/{1},[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
@@ -6263,6 +6543,11 @@
   - split: 3
     text: "无名"
     translated: "Nameless"
+- raw: "SectSystem,ModifySectMember,52,加入退出门派，不存在id为{0}的npc数据,[System.Int32，System.Int64，System.Boolean]"
+  splits:
+  - split: 3
+    text: "加入退出门派，不存在id为{0}的npc数据"
+    translated: "Joining or leaving a sect; NPC data with ID {0} does not exist."
 - raw: "SectSystem,ModifySectMember,227,主角加入{0}， 江湖纷争由此开始！,[System.Int32，System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -6688,11 +6973,21 @@
   - split: 3
     text: "{0}日"
     translated: "{0} day"
+- raw: "NpcAttributeNodeNew,ShowNpcSpell,920,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "The design requirement specified that there should only be 1 buff effects, but in reality, this is not the case; nodeId: {0}"
 - raw: "NpcAttributeNodeNew,ShowNpcSpell,1093,段:,[]"
   splits:
   - split: 3
     text: "段:"
     translated: "Duan:"
+- raw: "NpcAttributeNodeNew,ShowNpcSpell,1217,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "The design requirement specified that there should only be 1 buff effects, but in reality, this is not the case; nodeId: {0}"
 - raw: "NpcAttributeNodeNew,ShowNpcSpell,1629,无,[]"
   splits:
   - split: 3
@@ -6903,6 +7198,11 @@
   - split: 3
     text: "与你关系不和，不会接受你的礼物，或许可以完成对方的委托或与之论道试试。"
     translated: "Your relationship with them is not harmonious, and they will not accept your gifts. Perhaps you could try completing their commission or engaging in a dialogue with them."
+- raw: "NpcInteractButtonSlot,OnThisBtnClick,1650,npc_interact表id={0}的script：{1}字段和param3：{2}字段配置错误，只能有一个大于0,[]"
+  splits:
+  - split: 3
+    text: "npc_interact表id={0}的script：{1}字段和param3：{2}字段配置错误，只能有一个大于0"
+    translated: "NPC interaction script ID: {0}: Field {1} and parameter 3: The configuration of field {2} is incorrect; it can only have one greater than 0."
 - raw: "NpcRoleNodeNew,ShowNpcAttribute,66,关系：{0}\\n情分：{1},[]"
   splits:
   - split: 3
@@ -7133,6 +7433,21 @@
   - split: 3
     text: "\\n消耗：    "
     translated: "\\nExpenditure:"
+- raw: "ShopStoreItemData,.ctor,54,ItemPrototype {0} 不存在 请检查,[SweetPotato.ShopProto]"
+  splits:
+  - split: 3
+    text: "ItemPrototype {0} 不存在 请检查"
+    translated: "Item Prototype {0} does not exist. Please check."
+- raw: "ShopStoreSystem,OnEnterShopMode,289,ShopProto.GetFisrtShopProtoBuyGroup(shopid)获得的ShopProto个数为0，shopid：{0},[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "ShopProto.GetFisrtShopProtoBuyGroup(shopid)获得的ShopProto个数为0，shopid：{0}"
+    translated: "The number of ShopProto instances obtained from 'GetFirstShopProtoBuyGroup(shopid)' is 0. The shop ID is '0': {0}"
+- raw: "ShopStoreSystem,CreateItemByShopPrototype,15,ItemPrototype {0} 不存在 请检查,[SweetPotato.ShopProto]"
+  splits:
+  - split: 3
+    text: "ItemPrototype {0} 不存在 请检查"
+    translated: "Item Prototype {0} does not exist. Please check."
 - raw: "ShopStoreView,OnBuyBtnClick,14,铜钱不足，无法购买,[]"
   splits:
   - split: 3
@@ -7383,6 +7698,11 @@
   - split: 3
     text: "空格"
     translated: "Blank space"
+- raw: "SystemIntroduceView,OnReset,64,system_introduce表里没数据!,[]"
+  splits:
+  - split: 3
+    text: "system_introduce表里没数据!"
+    translated: "The system shows no data in the database!"
 - raw: "SystemIntroduceView,UpdateDescrition,28,介绍,[SystemIntroduceData]"
   splits:
   - split: 3
@@ -7628,6 +7948,11 @@
   - split: 3
     text: "操作成功"
     translated: "Operation successful"
+- raw: "TieziItemSlot/<SendAddZan>d__11,MoveNext,246,操作错误 errcode:,[]"
+  splits:
+  - split: 3
+    text: "操作错误 errcode:"
+    translated: "Operation error: error code:"
 - raw: "TieziItemSlot/<SendAddCai>d__13,MoveNext,99,操作失败:,[]"
   splits:
   - split: 3
@@ -7638,6 +7963,11 @@
   - split: 3
     text: "操作成功"
     translated: "Operation successful"
+- raw: "TieziItemSlot/<SendAddCai>d__13,MoveNext,246,操作错误 errcode:,[]"
+  splits:
+  - split: 3
+    text: "操作错误 errcode:"
+    translated: "Operation error: error code:"
 - raw: "ChessView,paint,537,你赢了,[]"
   splits:
   - split: 3
@@ -7723,6 +8053,11 @@
   - split: 3
     text: "你赢了"
     translated: "You won"
+- raw: "GameManualItem,SetData,218,   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: ,[GameManualData，UnityEngine.Sprite]"
+  splits:
+  - split: 3
+    text: "   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: "
+    translated: "-  -  -  - [[  ]] -  -  -  - Travelogue of the Jianghu Unlocked but Already Completed; Please Check Game Manual Related Table Data, ID:"
 - raw: "GameManualView,.ctor,9,白色,[]"
   splits:
   - split: 3
@@ -9388,6 +9723,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "EditorDataPanel,ReadFromDB,827,npc_prototype中id为{0}的数据重复,[]"
+  splits:
+  - split: 3
+    text: "npc_prototype中id为{0}的数据重复"
+    translated: "The data with ID {0} in npc_prototype is duplicated."
 - raw: "EditSpwData,Save,20,是否保存？,[]"
   splits:
   - split: 3
@@ -9513,6 +9853,11 @@
   - split: 3
     text: "剧情执行中，无法脱离卡死"
     translated: "During the execution of the storyline, it is impossible to disengage due to being stuck."
+- raw: "MainView,RefreshDateTimeText,10,INVALIDCHAR: 年,[]"
+  splits:
+  - split: 3
+    text: "INVALIDCHAR: 年"
+    safeToTranslate: false
 - raw: "MainView,RefreshDateTimeText,24,年,[]"
   splits:
   - split: 3
@@ -9833,6 +10178,16 @@
   - split: 3
     text: "非常简单"
     translated: "Extremely easy"
+- raw: "MapPart,RefreshCustomTarget,325,Prefab/UISprite/UI_MapMark/标记,[UnityEngine.Vector2]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_MapMark/标记"
+    safeToTranslate: false
+- raw: "MapShiLiItem,Init,44,势力Id为{0}的无法获取到数据,[]"
+  splits:
+  - split: 3
+    text: "势力Id为{0}的无法获取到数据"
+    translated: "Data for the force with ID {0} could not be obtained."
 - raw: "MapShiLiItem,Init,290,据点,[]"
   splits:
   - split: 3
@@ -9898,6 +10253,21 @@
   - split: 3
     text: "地图修炼点技能"
     translated: "Map Refining Skill Point"
+- raw: "MapViewNew,DrawMoveLine,139,无法获取MainNpcId={0}的部队需要移动到的地点,[UnityEngine.RectTransform，MenPaiSoldierTeamInfo]"
+  splits:
+  - split: 3
+    text: "无法获取MainNpcId={0}的部队需要移动到的地点"
+    translated: "Unable to retrieve the location where Main Npc Id={0}'s troops need to move."
+- raw: "MapViewNew,UpdateTeleportDetails,1511,未找到Entity id:{0},[]"
+  splits:
+  - split: 3
+    text: "未找到Entity id:{0}"
+    translated: "Entity ID not found: {0}"
+- raw: "MapViewNew,RefreshCustomTarget,435,Prefab/UISprite/UI_MapMark/标记,[]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_MapMark/标记"
+    safeToTranslate: false
 - raw: "MapViewNew,OnCustomMuBiaoRectMouseClick,32,是否取消标记点？,[UnityEngine.RectTransform]"
   splits:
   - split: 3
@@ -9933,6 +10303,26 @@
   - split: 3
     text: "委托"
     translated: "Commission"
+- raw: "MapViewNewLeftScrollViewItem,ResetUI,483,固定NPC,[]"
+  splits:
+  - split: 3
+    text: "固定NPC"
+    translated: "Fixed NPC"
+- raw: "MapViewNewLeftScrollViewItem,ResetUI,547,问号NPC,[]"
+  splits:
+  - split: 3
+    text: "问号NPC"
+    translated: "Question Mark NPC"
+- raw: "MapViewNewLeftScrollViewItem,ResetUI,611,随机NPC,[]"
+  splits:
+  - split: 3
+    text: "随机NPC"
+    translated: "Random NPC"
+- raw: "MapViewNewLeftScrollViewItem,ResetUI,675,敌对NPC,[]"
+  splits:
+  - split: 3
+    text: "敌对NPC"
+    translated: "Hostile NPC"
 - raw: "MapViewNewLeftScrollViewItem,ResetUI,704,商人,[]"
   splits:
   - split: 3
@@ -10333,6 +10723,11 @@
   - split: 3
     text: "消耗感悟："
     translated: "Expenditure of insight:"
+- raw: "MiJiMgr,Add,108,秘籍Item的misvalue2套路类型配置错误，ItemId:{0},[SweetPotato.Item]"
+  splits:
+  - split: 3
+    text: "秘籍Item的misvalue2套路类型配置错误，ItemId:{0}"
+    translated: "The secret manual item 2's technique type configuration is incorrect. Item ID: {0}"
 - raw: "MiJiSpellPassiveConditionItemSlot,OnReset,134,需激活,[]"
   splits:
   - split: 3
@@ -10418,6 +10813,11 @@
   - split: 3
     text: "段:"
     translated: "Duan:"
+- raw: "MiJiStealXinfaView,OnRefresh,252,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "During design, it was required to have only 1 buff effects, but in reality, this is not the case. Node ID: {0}"
 - raw: "MiJiStealXinfaView,OnRefresh,339,冲击,[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
   splits:
   - split: 3
@@ -10428,11 +10828,21 @@
   - split: 3
     text: "获得增强效果"
     translated: "Obtain enhanced effects"
+- raw: "MiJiStealXinfaView,OnRefresh,391,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "During design, it was required to have only 1 buff effects, but in reality, this is not the case. Node ID: {0}"
 - raw: "MiJiStealXinfaView,OnRefresh,623,段:,[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
   splits:
   - split: 3
     text: "段:"
     translated: "Duan:"
+- raw: "MiJiStealXinfaView,OnRefresh,749,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
+  splits:
+  - split: 3
+    text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
+    translated: "During design, it was required to have only 1 buff effects, but in reality, this is not the case. Node ID: {0}"
 - raw: "NanDuView,OnClickEnterGame,102,确认当前难度，并进入游戏,[]"
   splits:
   - split: 3
@@ -10478,6 +10888,16 @@
   - split: 3
     text: "(<color=#f0f0f0>真实江湖</color>模式下各项属性数值成长曲线相对真实，通过装备、武学提升更加明显。少侠在此难度下更有江湖奇遇、寻宝的快感)"
     translated: "(<color=#f0f0f0>Authentic Jianghu</color> mode features more realistic attribute growth curves; enhancements from equipment and martial skills become more pronounced. Young Hero has more wuxia encounters and an enhanced treasure-hunting thrill in this difficulty setting.)"
+- raw: "NpcChatView,OnReset,2819,{dlg.chatlangid}对应的stringlang未空字符串,[]"
+  splits:
+  - split: 3
+    text: "{dlg.chatlangid}对应的stringlang未空字符串"
+    translated: "{dlg.chatlangid} corresponds to a string in the language that is an empty string."
+- raw: "NpcChatView,OnReset,4180,dlg.chatlangid:{0}对应的stringlang未空字符串,[]"
+  splits:
+  - split: 3
+    text: "dlg.chatlangid:{0}对应的stringlang未空字符串"
+    translated: "Dlg.chatlangid: {0} corresponds to a string where language is unspecified."
 - raw: "JingYuZhuXuanRenHolder,UpdateFromModel,54,仇恨值： ,[JingYuZhuXuanRenModel]"
   splits:
   - split: 3
@@ -11108,6 +11528,11 @@
   - split: 3
     text: "取消完成"
     translated: "Cancel completion"
+- raw: "NewChuanWenView/<OnShowChuanWen>d__18,MoveNext,361,传闻中的Npc角色在NpcPrototype表中找不到，chuanwenId:{0}，roleId:{1},[]"
+  splits:
+  - split: 3
+    text: "传闻中的Npc角色在NpcPrototype表中找不到，chuanwenId:{0}，roleId:{1}"
+    translated: "The NPC character mentioned in rumors cannot be found in the NPCPrototype table, chuanwenId: {0},roleId: {1}"
 - raw: "QuestViewNeiRongItem,Reset,161,我:,[]"
   splits:
   - split: 3
@@ -11363,6 +11788,11 @@
   - split: 3
     text: "<size=26>已持有:</size>"
     translated: "<size=16>Holding:</size>"
+- raw: "ShopStoreViewItemHolder,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "ShopStoreViewNew,InpuFeildChance,21,少侠的想法包含忌讳之词，请重新输入,[TMPro.TMP_InputField]"
   splits:
   - split: 3
@@ -11753,6 +12183,11 @@
   - split: 3
     text: "<size=26>已持有:</size>"
     translated: "<size=16>Holding:</size>"
+- raw: "ShopHolder,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "ShopViewNew,OnClickToggle,200,购买,[System.Int32，System.Boolean]"
   splits:
   - split: 3
@@ -12088,6 +12523,11 @@
   - split: 3
     text: "地图修炼点技能"
     translated: "Map Refining Skill Point"
+- raw: "StuntManager,AddStunt,35,NPC {0}  的特技ID {1} 不存在,[System.Int64，System.Boolean]"
+  splits:
+  - split: 3
+    text: "NPC {0}  的特技ID {1} 不存在"
+    translated: "NPC {0}'s skill ID {1} does not exist."
 - raw: "StuntManager,AddStunt,157,已学会特技{0},[System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -12113,6 +12553,11 @@
   - split: 3
     text: "特性"
     translated: "Features"
+- raw: "StuntManager,InitLoad,36,NPC {0}  的特技ID {0} 不存在,[]"
+  splits:
+  - split: 3
+    text: "NPC {0}  的特技ID {0} 不存在"
+    translated: "The special skill ID {0} of NPC {0} does not exist."
 - raw: "UnitInfoDetailItemSlotNew,UnEquipChangeSelect,71,无匹配套路，不能装备,[SweetPotato.UIItemSlot]"
   splits:
   - split: 3
@@ -12508,6 +12953,11 @@
   - split: 3
     text: "金钱不足"
     translated: "Insufficient funds"
+- raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,397,花费钱财悬红此悬赏招来江湖好手助战？\\n(助战Npc只有一天时效，且阵亡后不会刷新),[UnityEngine.EventSystems.PointerEventData]"
+  splits:
+  - split: 3
+    text: "花费钱财悬红此悬赏招来江湖好手助战？\\n(助战Npc只有一天时效，且阵亡后不会刷新)"
+    translated: "Spend money on a bounty to attract skilled martial artists from the Jianghu for assistance in battle?\\n(Auxiliary NPC has a one-day validity period and will not respawn after death.)"
 - raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,415,确定,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
@@ -12808,6 +13258,11 @@
   - split: 3
     text: "已达最大可创建数量"
     translated: "Maximum creation limit reached"
+- raw: "BuYeJingManager/<>c__DisplayClass51_0,<CreateLeiTaiNpc>b__0,56,创建水机npc时 npc模板id {0} 创建不出来npc,[]"
+  splits:
+  - split: 3
+    text: "创建水机npc时 npc模板id {0} 创建不出来npc"
+    translated: "When creating a water machine NPC, the NPC template ID {0} cannot generate the NPC."
 - raw: "BuYeJingManager,ShowJingYuZhuFeige,403,经查明，京谕珠在：,[]"
   splits:
   - split: 3
@@ -12828,6 +13283,16 @@
   - split: 3
     text: "京谕珠已皆在你手，前往不夜京找独孤侑吧。"
     translated: "The jade from the capital is now in your possession. Go to the Evernight Capital and seek out Dugu You."
+- raw: "BuYeJingManager,SetJingYuZhuNpcPos,72,京谕珠相关Npc{0}在其所在位置{1}附近找不到合适的wayPoint点,[]"
+  splits:
+  - split: 3
+    text: "京谕珠相关Npc{0}在其所在位置{1}附近找不到合适的wayPoint点"
+    translated: "The Imperial Edict related to NPC {0} cannot find a suitable waypoint near its current location {1}."
+- raw: "BuYeJingManager,CreateLeiTaiNpc,855,创建水机npc时 npc模板id {0} 创建不出来npc,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "创建水机npc时 npc模板id {0} 创建不出来npc"
+    translated: "When creating a water machine NPC, the NPC template ID {0} cannot generate the NPC."
 - raw: "BuYeJingManager,DoLunCiPaiMaiItemSendFeiGe,277,少侠出手阔绰，以,[]"
   splits:
   - split: 3
@@ -12883,6 +13348,11 @@
   - split: 3
     text: "天榜"
     translated: "Heavenly Roster"
+- raw: "XiaYunLuManager,AddDaTing,78,guid:{0}获得的角色名字是空,[DaTingInfo]"
+  splits:
+  - split: 3
+    text: "guid:{0}获得的角色名字是空"
+    translated: "Guid: {0} received a character name that is blank."
 - raw: "XiaYunLuManager,OnDaTingFeiGeSend,665,天机阁打听之物，使命必达。你所打听的（,[DaTingInfo]"
   splits:
   - split: 3
@@ -12953,11 +13423,46 @@
   - split: 3
     text: "的委托"
     translated: "Commission of"
+- raw: "EntrustManager,DoEventAcceptPreAction,409,找不到好感度最高的npc npcId:{0},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "找不到好感度最高的npc npcId:{0}"
+    translated: "Could not find NPC with the highest affinity; NPC ID: {0}"
+- raw: "EntrustManager,DoEventAcceptPreAction,517,找不到好感度最低的npc npcId:{0},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "找不到好感度最低的npc npcId:{0}"
+    translated: "Can't find the NPC with the lowest affinity level, NPC ID: {0}"
+- raw: "EntrustManager,DoEventAcceptPreAction,1239,npc {0} 没有喜欢的物品，请查看配置,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "npc {0} 没有喜欢的物品，请查看配置"
+    translated: "NPC {0} doesn't have any preferred items; please check the configuration."
+- raw: "EntrustManager,DoEventAcceptPreAction,1521,NPC:{0} 的势力没有npc,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 的势力没有npc"
+    translated: "NPC: {0}'s faction does not have NPCs."
+- raw: "EntrustManager,DoEventAcceptPreAction,1773,委托击败npcId :{0},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托击败npcId :{0}"
+    translated: "Commission to defeat NPC ID: {0}"
 - raw: "EntrustManager,DoEventAcceptPreAction,1959,委托:{0} 配置有问题 ,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托:{0} 配置有问题 "
     translated: "Commission: {0} configuration issue"
+- raw: "EntrustManager,DoEventAcceptPreAction,2106,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,2221,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
 - raw: "EntrustManager,DoEventAcceptPreAction,2379,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -12973,11 +13478,41 @@
   - split: 3
     text: "委托：{0} 配置错误"
     translated: "Commission: Configuration error for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,2790,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,2905,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
 - raw: "EntrustManager,DoEventAcceptPreAction,3167,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
     translated: "Commission: Configuration error: No available items found. {0}"
+- raw: "EntrustManager,DoEventAcceptPreAction,3494,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,3668,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,4112,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,4232,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
 - raw: "EntrustManager,DoEventAcceptPreAction,4419,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -12988,11 +13523,36 @@
   - split: 3
     text: "委托：{0} 配置错误 没有找到可用的道具"
     translated: "Commission: Configuration error: No available items found. {0}"
+- raw: "EntrustManager,DoEventAcceptPreAction,4828,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,4943,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,5023,委托：{0} npc:{1}不存在,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} npc:{1}不存在"
+    translated: "Commission: {0} npc: {1} does not exist"
 - raw: "EntrustManager,DoEventAcceptPreAction,5188,委托：{0} 配置错误,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "委托：{0} 配置错误"
     translated: "Commission: Configuration error for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,5337,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
+- raw: "EntrustManager,DoEventAcceptPreAction,5452,委托：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "委托：{0} 随机生成npc失败"
+    translated: "Commission: Random NPC generation failed for {0}."
 - raw: "EntrustManager,DoEventAcceptPreAction,5719,委托：{0} 配置错误 没有找到可用的道具,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13023,6 +13583,21 @@
   - split: 3
     text: "生成目标失败 "
     translated: "Target generation failed."
+- raw: "EntrustManager,DoEventAcceptAction,1129,npcid：{0} sectid：{1} 获取不到门派,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "npcid：{0} sectid：{1} 获取不到门派"
+    translated: "Npcid: {0} sectid: {1} could not obtain the sect."
+- raw: "EntrustManager,DoEventAcceptAction,1198,sectid：{0} 该门派没有敌对势力,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "sectid：{0} 该门派没有敌对势力"
+    translated: "Sectid: {0}, this sect has no enemy forces."
+- raw: "EntrustManager,DoEventAcceptAction,1546,sectid：{0} 该门派敌对势力npc不够 {1} 个，目前只有 {2} 个,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "sectid：{0} 该门派敌对势力npc不够 {1} 个，目前只有 {2} 个"
+    translated: "Sectid: {0}, the number of hostile force NPCs for this sect is insufficient at only {2}. A minimum of {1} is required."
 - raw: "EntrustManager,DoFinisedEntrustAction,528,完成了,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13063,11 +13638,66 @@
   - split: 3
     text: "的委托失败了"
     translated: "Commission failed"
+- raw: "EntrustManager,CheckKillDiDuiNpcCountEnouph,102,npcid：{0} sectid：{1} 获取不到门派,[]"
+  splits:
+  - split: 3
+    text: "npcid：{0} sectid：{1} 获取不到门派"
+    translated: "Npcid: {0} sectid: {1} could not obtain the sect."
+- raw: "EntrustManager,CheckKillDiDuiNpcCountEnouph,172,sectid：{0} 该门派没有敌对势力,[]"
+  splits:
+  - split: 3
+    text: "sectid：{0} 该门派没有敌对势力"
+    translated: "Sectid: {0}, this sect has no enemy forces."
+- raw: "EntrustManager,CheckTargetNpcDead,175,Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
+  splits:
+  - split: 3
+    text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+- raw: "EntrustManager,CheckTargetNpcDead,316,Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
+  splits:
+  - split: 3
+    text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+- raw: "EntrustManager,CheckTargetNpcDead,479,Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
+  splits:
+  - split: 3
+    text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+- raw: "EntrustManager,CheckTargetNpcDead,572,Npc:{0} 已经死亡 委托 失败结束 ,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
+  splits:
+  - split: 3
+    text: "Npc:{0} 已经死亡 委托 失败结束 "
+    translated: "Npc: {0} has died. The commission has ended in failure."
+- raw: "MapAreaEvent,DoEventAcceptPreAction,129,DoEventAcceptPreAction刷npc失败:{0},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "DoEventAcceptPreAction刷npc失败:{0}"
+    translated: "Failed NPC refresh during pre-action event acceptance: {0}"
+- raw: "MapAreaEvent,DoEventAcceptPreActionFinishedCheck,146,事件刷出的随机npc：{0}，找不到,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "事件刷出的随机npc：{0}，找不到"
+    translated: "Random NPCs generated by the event: {0}, not found"
+- raw: "MapAreaEvent,DoEventAcceptPreActionFinishedCheck,255,事件刷出的随机npcController：{0}，找不到,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "事件刷出的随机npcController：{0}，找不到"
+    translated: "Random NPCs generated by the event's NPC Controller: {0}, not found"
+- raw: "MapAreaEvent,SwapEventRandomNpc,145,SwapEventRandomNpc刷npc失败:{0},[System.String，System.Int32]"
+  splits:
+  - split: 3
+    text: "SwapEventRandomNpc刷npc失败:{0}"
+    translated: "Swapped Event Random NPC generation failed: {0}"
 - raw: "MapAreaEvent,GetQuestShowDes,69,完成所有目标点（{0}/{1}）,[]"
   splits:
   - split: 3
     text: "完成所有目标点（{0}/{1}）"
     translated: "Complete all target points ({0}/{1})"
+- raw: "MapAreaEvent,Load,123,没有找到ID为{0}的FieldEventPrototype,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "没有找到ID为{0}的FieldEventPrototype"
+    translated: "FieldEventPrototype with ID {0} not found"
 - raw: "MapManager,OnPlayerEnterNewArea,94,你离开了：{0},[System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -13188,16 +13818,36 @@
   - split: 3
     text: "开启战场"
     translated: "Commence battle"
+- raw: "MouseSimulator,Start,10,Unity的屏幕分辨率,[]"
+  splits:
+  - split: 3
+    text: "Unity的屏幕分辨率"
+    translated: "Unity's screen resolution"
 - raw: "MouseSimulator,Start,56,系统的分辨率,[]"
   splits:
   - split: 3
     text: "系统的分辨率"
     translated: "System resolution"
+- raw: "QingLouManager,ManagedUpdate,71,npc id={0}结算,[]"
+  splits:
+  - split: 3
+    text: "npc id={0}结算"
+    translated: "NPC ID: {0} settlement complete."
 - raw: "QingLouManager,OnNpcDead,84,已死亡！移除青楼！,[SweetPotato.NpcEntity]"
   splits:
   - split: 3
     text: "已死亡！移除青楼！"
     translated: "Dead! Remove from the Pleasure House!"
+- raw: "QingLouManager,CheckDeadNpc,367,guid:{0}已死亡！,[]"
+  splits:
+  - split: 3
+    text: "guid:{0}已死亡！"
+    translated: "Guid: {0} has died!"
+- raw: "QingLouManager,CheckDeadNpc,531,guid:{0}已死亡！,[]"
+  splits:
+  - split: 3
+    text: "guid:{0}已死亡！"
+    translated: "Guid: {0} has died!"
 - raw: "QingLouManager,Deploy,22,成功加入怡香院！,[System.Int64]"
   splits:
   - split: 3
@@ -13323,6 +13973,26 @@
   - split: 3
     text: "秀色丽质掩今古，荷花瑞雪羞玉颜。"
     translated: "Beauty so fair it eclipses past and present, while lotus blooms in snow make jade faces seem less comely."
+- raw: "RandomNpcManager,Refresh,264,检测刷新了{0}个Npc，移除了{1}个NPC，其中{2}个Npc跳过检测（试图移除主角队友）,[System.Int32，System.Collections.Generic.List`1<SpawnPointPrototype>，RandomNpcManager/EnumRefresh]"
+  splits:
+  - split: 3
+    text: "检测刷新了{0}个Npc，移除了{1}个NPC，其中{2}个Npc跳过检测（试图移除主角队友）"
+    translated: "NPC detection refreshed {0}, removed {1} NPCs, of which {2} NPCs were skipped during detection (attempted removal of main character's teammates)."
+- raw: "TestManagedHeap,printMemory,16,使用内存:{0}M，剩余内存{1}M，托管堆内存{2}M,[]"
+  splits:
+  - split: 3
+    text: "使用内存:{0}M，剩余内存{1}M，托管堆内存{2}M"
+    translated: "Use memory: {0} MB, remaining memory {1} MB, managed heap memory {2} MB"
+- raw: "VirtualEvent,GenerateRewardItemsFuYuan,360,福源掉落不会掉落属性，配置错误。npcPrototype.id:{0}，Loot_items.id:{1},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "福源掉落不会掉落属性，配置错误。npcPrototype.id:{0}，Loot_items.id:{1}"
+    translated: "Fuyuan drop will not have attribute drops due to a configuration error. NPC Prototype ID: {0},Loot_items.id: {1}"
+- raw: "VirtualEvent,Load,140,没有找到ID为{0}的FieldEventPrototype,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "没有找到ID为{0}的FieldEventPrototype"
+    translated: "FieldEventPrototype with ID {0} not found"
 - raw: "XuanShangManager,AcceptXuanShangQuest,99,悬赏已经接取:{0} {1},[System.Int64，System.String]"
   splits:
   - split: 3
@@ -13358,16 +14028,91 @@
   - split: 3
     text: "悬赏任务 {0} 配置不对"
     translated: "Bounty task {0} configuration incorrect."
+- raw: "XuanShangQuest,DoInitPostAction,966,悬赏任务 {0} npc不存在  ,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏任务 {0} npc不存在  "
+    translated: "Bounty Task {0}: NPC does not exist."
+- raw: "XuanShangQuest,DoInitPostAction,1006,悬赏任务 {0} 没有开启随机npc 跳过,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏任务 {0} 没有开启随机npc 跳过"
+    translated: "Bounty Task {0} has not started, skipping random NPC."
+- raw: "XuanShangQuest,DoInitPostAction,1193,NPC:{0} 的势力没有npc 尝试直接刷一个npc出来,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 的势力没有npc 尝试直接刷一个npc出来"
+    translated: "NPC: {0}'s force has no NPC, try to directly spawn an NPC."
+- raw: "XuanShangQuest,DoInitPostAction,1349,悬赏任务 {0} npc不存在 尝试直接刷一个npc出来 但是么有合适的 SpawnPoint,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏任务 {0} npc不存在 尝试直接刷一个npc出来 但是么有合适的 SpawnPoint"
+    translated: "Reward Task {0}: NPC does not exist. Attempting to spawn an NPC directly, but no suitable Spawn Point found."
+- raw: "XuanShangQuest,DoInitPostAction,1527,NPC:{0} 没有敌对npc 尝试直接刷一个npc出来,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 没有敌对npc 尝试直接刷一个npc出来"
+    translated: "NPC: {0} has no hostile NPCs; try to spawn an NPC directly."
+- raw: "XuanShangQuest,DoInitPostAction,1578,NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是这个npc没有敌对势力 刷出来的npc不知道该设置成那个势力,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是这个npc没有敌对势力 刷出来的npc不知道该设置成那个势力"
+    translated: "NPC: {0} does not have any opposing NPCs; they attempted to directly spawn an NPC, but the spawned NPC has no opposing forces. It is unclear which force to assign to the spawned NPC."
+- raw: "XuanShangQuest,DoInitPostAction,1759,NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是没有合适的 SpawnPoint 尝试生成一个SpawnPoint 但是失败了 不知道怎么生成,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是没有合适的 SpawnPoint 尝试生成一个SpawnPoint 但是失败了 不知道怎么生成"
+    translated: "NPC: {0} has no hostile NPCs. Attempted to spawn an NPC directly, but there was no suitable Spawn Point. Tried generating a Spawn Point, but failed. Don't know how to generate it."
+- raw: "XuanShangQuest,DoInitPostAction,1910,EntrustEventPrototype.id:{0}中star配置错误，prototype.star * 2超过13了,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "EntrustEventPrototype.id:{0}中star配置错误，prototype.star * 2超过13了"
+    translated: "EntrustEventPrototype.id: Star configuration error in {0}; prototype.star multiplied by 2 exceeds 13."
+- raw: "XuanShangQuest,DoInitPostAction,2000,刷了一个npc出来 {0},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "刷了一个npc出来 {0}"
+    translated: "Summoned an NPC to appear: {0}."
 - raw: "XuanShangQuest,DoInitPostAction,2446,悬赏任务 {0} 配置不对,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "悬赏任务 {0} 配置不对"
     translated: "Bounty task {0} configuration incorrect."
+- raw: "XuanShangQuest,DoInitPostAction,2630,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoInitPostAction,2763,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoInitPostAction,3074,NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是没有合适的 SpawnPoint 尝试生成一个SpawnPoint 但是失败了 不知道怎么生成,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "NPC:{0} 没有敌对npc 尝试直接刷一个npc出来 但是没有合适的 SpawnPoint 尝试生成一个SpawnPoint 但是失败了 不知道怎么生成"
+    translated: "NPC: {0} has no hostile NPCs. Attempted to spawn an NPC directly, but there was no suitable Spawn Point. Tried generating a Spawn Point, but failed. Don't know how to generate it."
+- raw: "XuanShangQuest,DoInitPostAction,3225,EntrustEventPrototype.id:{0}中star配置错误，prototype.star * 2超过13了,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "EntrustEventPrototype.id:{0}中star配置错误，prototype.star * 2超过13了"
+    translated: "EntrustEventPrototype.id: Star configuration error in {0}; prototype.star multiplied by 2 exceeds 13."
 - raw: "XuanShangQuest,DoInitPostAction,3389,悬赏任务 {0} 配置不对,[EntrustEventPrototype]"
   splits:
   - split: 3
     text: "悬赏任务 {0} 配置不对"
     translated: "Bounty task {0} configuration incorrect."
+- raw: "XuanShangQuest,DoInitPostAction,3613,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoInitPostAction,3747,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
 - raw: "XuanShangQuest,DoInitPostAction,3936,悬赏任务 {0} 配置不对,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13378,6 +14123,16 @@
   - split: 3
     text: "悬赏任务 {0} 配置不对"
     translated: "Bounty task {0} configuration incorrect."
+- raw: "XuanShangQuest,DoInitPostAction,4255,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoInitPostAction,4388,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
 - raw: "XuanShangQuest,DoInitPostAction,4457,生成委托等级错误，m_CurrentXuanShangLevel.star * 2超过13了,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13408,6 +14163,21 @@
   - split: 3
     text: "悬赏任务 {0} 配置不对"
     translated: "Bounty task {0} configuration incorrect."
+- raw: "XuanShangQuest,DoInitPostAction,5250,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoInitPostAction,5381,悬赏：{0} 随机生成npc失败,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 随机生成npc失败"
+    translated: "Bounty: Random NPC generation failed: {0}."
+- raw: "XuanShangQuest,DoXuanShangAcceptPreAction,161,悬赏:{0} 找不到npc:{1},[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏:{0} 找不到npc:{1}"
+    translated: "Bounty: {0} could not find the NPC: {1}"
 - raw: "XuanShangQuest,DoXuanShangAcceptPreAction,257,情报,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13423,6 +14193,11 @@
   - split: 3
     text: "的隐秘。"
     translated: "Secretiveness"
+- raw: "XuanShangQuest,DoAcceptPostAction,111,悬赏接取失败:{0} 没有返回realPointId ,[EntrustEventPrototype]"
+  splits:
+  - split: 3
+    text: "悬赏接取失败:{0} 没有返回realPointId "
+    translated: "Bounty retrieval failed: {0} did not return realPointId."
 - raw: "XuanShangQuest,DoFinish,144,悬赏：,[]"
   splits:
   - split: 3
@@ -13468,6 +14243,11 @@
   - split: 3
     text: "悬红助战"
     translated: "Bounties offered as reinforcements"
+- raw: "XuanShangQuest,CreateZhuZhanNpc,103,悬赏：{0} 生成助战npc失败,[]"
+  splits:
+  - split: 3
+    text: "悬赏：{0} 生成助战npc失败"
+    translated: "Bounty: Failed to generate assist NPC for {0}."
 - raw: "XuanShangQuest,Load,144,没有找到ID为{0}XuanShangPrototype,[LitJson.JsonData]"
   splits:
   - split: 3
@@ -13548,16 +14328,51 @@
   - split: 3
     text: "无"
     translated: "None"
+- raw: "RelationShipManager,FindCaiJi,146,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindKillRedNpc,326,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJingLiMax,106,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindShengHuoJiNeng,173,对{0}有更深的感悟，提升{1},[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "对{0}有更深的感悟，提升{1}"
     translated: "Gain a deeper understanding of {0} and enhance {1}."
+- raw: "RelationShipManager,FindShengHuoJiNeng,249,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindYueDuShuJi,165,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindHelpNpcFindItem,328,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindPingJingTuPo,118,自身,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "自身"
     translated: "Self"
+- raw: "RelationShipManager,FindPingJingTuPo,176,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowQieCuo,196,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -13568,6 +14383,11 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
+- raw: "RelationShipManager,FindGrowQieCuo,421,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowJueDou,155,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -13578,11 +14398,51 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
+- raw: "RelationShipManager,FindGrowJueDou,380,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindJingJiePingJingTuPo,118,自身,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "自身"
     translated: "Self"
+- raw: "RelationShipManager,FindJingJiePingJingTuPo,160,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindUpSkill,171,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindCancelJieYuan,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindCancelShiTu,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindCancelJieChou,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJieChou,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindFriend,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindQieCuo,190,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -13593,6 +14453,51 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
+- raw: "RelationShipManager,FindQieCuo,222,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindShiTu,208,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindShiTu,429,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJieYuan,209,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJieYuan,431,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJieYi,208,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindJieYi,429,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindSongLi,189,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindSongLi,376,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindJueDou,161,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -13603,6 +14508,16 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
+- raw: "RelationShipManager,FindJueDou,193,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindGrowFish,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowBianLun,163,略输一筹,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -13613,6 +14528,31 @@
   - split: 3
     text: "略高一筹"
     translated: "A step ahead"
+- raw: "RelationShipManager,FindGrowBianLun,204,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindGrowItemHuoDe,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindGrowItemShiQu,107,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,FindGrowBuyItem,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
+  splits:
+  - split: 3
+    text: "Stringlang不存在id为{0}的数据"
+    translated: "The dataset does not contain data with ID {0}."
+- raw: "RelationShipManager,InitRandomVirtualRelationShip,388,角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误,[System.Int64，System.Int32]"
+  splits:
+  - split: 3
+    text: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误"
+    translated: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error."
 - raw: "RelationShipManager,SetHaoGanValue,466,降低至,[System.Int64，System.Int64，System.Int32]"
   splits:
   - split: 3
@@ -13693,6 +14633,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "RelationShipManager,SendMailHandle,165,此NPC不是飞鸽好友，检测跳过：{0}({1}),[]"
+  splits:
+  - split: 3
+    text: "此NPC不是飞鸽好友，检测跳过：{0}({1})"
+    translated: "This NPC is not a Flying Goose friend; skip detection: {0}({1})"
 - raw: "RelationShipManager,SendMailHandle,483,飞鸽：{0} 配置错误,[]"
   splits:
   - split: 3
@@ -13943,6 +14888,36 @@
   - split: 3
     text: "不详"
     translated: "Unknown"
+- raw: "SweetPotato.AutomatScriptManager,PrintExeFuctionScript,4,无法存档，正在执行功能脚本id:,[]"
+  splits:
+  - split: 3
+    text: "无法存档，正在执行功能脚本id:"
+    translated: "Unable to save, executing function script ID:"
+- raw: "SweetPotato.ConditionPrototype/<DoConditionShowAnim>d__72,MoveNext,191,没有找到npcId:{0} 的NpcController,[]"
+  splits:
+  - split: 3
+    text: "没有找到npcId:{0} 的NpcController"
+    translated: "No NPC ID was found: NPC Controller of {0}"
+- raw: "SweetPotato.ConditionPrototype/<DoConditionShowAnim>d__72,MoveNext,886,没有找到npcId:{0} 的NpcController,[]"
+  splits:
+  - split: 3
+    text: "没有找到npcId:{0} 的NpcController"
+    translated: "No NPC ID was found: NPC Controller of {0}"
+- raw: "SweetPotato.ConditionPrototype,ParseCondition,754,条件完成需要的物品字符串配置格式错误，ConditionPrototype.Id:{0},[]"
+  splits:
+  - split: 3
+    text: "条件完成需要的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "The configuration format of the string for required items is incorrect; ConditionPrototype.Id: {0}"
+- raw: "SweetPotato.ConditionPrototype,LoadCSV,446,条件完成扣除的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "条件完成扣除的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "Item string configuration format error, ConditionPrototype.Id: {0}"
+- raw: "SweetPotato.ConditionPrototype,LoadCSV,630,条件完成添加的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "条件完成添加的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "The string configuration format of items added under conditions is incorrect; ConditionPrototype.Id: {0}"
 - raw: "SweetPotato.ConditionPrototype,UpdateAchievedState,1218,确定,[System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -13963,6 +14938,56 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "SweetPotato.ConditionPrototype,PlayNpcChatAnim,446,没有找到npcId:{0} 的NpcController,[System.Int64，System.Collections.Generic.List`1<System.Int64>]"
+  splits:
+  - split: 3
+    text: "没有找到npcId:{0} 的NpcController"
+    translated: "No NPC ID was found: NPC Controller of {0}"
+- raw: "SweetPotato.Dialoguelist,LoadCSV,51,Dialoguelist.id:{0}数字太大了，请修改序列号规划,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "Dialoguelist.id:{0}数字太大了，请修改序列号规划"
+    translated: "Dialoguelist.id: {0}, the number is too large; please modify the serial number plan."
+- raw: "SweetPotato.Dialoguelist,CheckConfigError,26,Dialoguelist对话id:{0}结束后脚本:{1}不存在,[SweetPotato.Dialoguelist]"
+  splits:
+  - split: 3
+    text: "Dialoguelist对话id:{0}结束后脚本:{1}不存在"
+    translated: "Dialogue List Dialogue ID: After {0}, end script: {1} does not exist"
+- raw: "SweetPotato.Dialoguelist,CheckConfigError,65,Dialoguelist对话id:{0}结束后脚本:{1}不存在,[SweetPotato.Dialoguelist]"
+  splits:
+  - split: 3
+    text: "Dialoguelist对话id:{0}结束后脚本:{1}不存在"
+    translated: "Dialogue List Dialogue ID: After {0}, end script: {1} does not exist"
+- raw: "SweetPotato.FormulaBaseAttri,GetAttriDicByGroupId,290,FormulaBaseAttri 配方含有相同属性错误，formulaGroupId：{0},[System.Int32，System.Boolean，System.Int32[]，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "FormulaBaseAttri 配方含有相同属性错误，formulaGroupId：{0}"
+    translated: "The formula contains an attribute error due to having duplicate attributes; please check the formula group ID: {0}"
+- raw: "SweetPotato.IdentityPrototype,GetInfo,17,identity没有id = {0}的数据,[System.Int32]"
+  splits:
+  - split: 3
+    text: "identity没有id = {0}的数据"
+    translated: "There is no data for identity without ID = {0}."
+- raw: "SweetPotato.JingJie_node,CreateFromCsvRow,439,激活需要的物品字符串配置格式错误，JingMai_node.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，JingMai_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, JingMai node ID: {0}"
+- raw: "SweetPotato.JingJie_node,CreateFromCsvRow,798,激活需要的物品字符串配置格式错误，JingMai_node.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，JingMai_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, JingMai node ID: {0}"
+- raw: "SweetPotato.JingJie_node,GetInfoById,21,JingJie_node 中 null，id:{0},[System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "JingJie_node 中 null，id:{0}"
+    translated: "Jing Jie node contains a null value for ID: {0}"
+- raw: "SweetPotato.JingMai_node,CreateFromCsvRow,310,激活需要的物品字符串配置格式错误，JingMai_node.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，JingMai_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, JingMai node ID: {0}"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,64,任脉,[System.Int32]"
   splits:
   - split: 3
@@ -14013,21 +15038,266 @@
   - split: 3
     text: "{0}表中没有配置{1}的效果"
     translated: "There are no effects configured for {1} in Table {0}."
+- raw: "SweetPotato.LianZhao_node,CreateFromCsvRow,378,激活需要的物品字符串配置格式错误，MiJi_node.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，MiJi_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, MiJi_node.Id: {0}"
+- raw: "SweetPotato.LianZhao_node,GetInfoById,24,LianZhao_node 中 null，id:{0},[System.Int32]"
+  splits:
+  - split: 3
+    text: "LianZhao_node 中 null，id:{0}"
+    translated: "Lian Zhao Node: null, id: {0}"
+- raw: "SweetPotato.MiJi_node,GetInfoById,25,Talent_node 中 null，id:{0},[System.Int64]"
+  splits:
+  - split: 3
+    text: "Talent_node 中 null，id:{0}"
+    translated: "Talent node contains a null, ID: {0}"
+- raw: "SweetPotato.MiJi_node,LoadCSV,350,激活需要的物品字符串配置格式错误，MiJi_node.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，MiJi_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, MiJi_node.Id: {0}"
+- raw: "SweetPotato.MiJi_node,LoadCSV,603,洗练需要的物品字符串配置格式错误，MiJi_node.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "洗练需要的物品字符串配置格式错误，MiJi_node.Id:{0}"
+    translated: "The item string configuration format for refining is incorrect, MiJi node ID: {0}"
+- raw: "SweetPotato.RandomTalk,DrawExpDesID,351,random_talk表中没有{0}的经历描述数据,[EXPERIENCE_TYPE]"
+  splits:
+  - split: 3
+    text: "random_talk表中没有{0}的经历描述数据"
+    translated: "The experience description data for {0} does not exist in the random_talk table."
+- raw: "SweetPotato.RandomName,CreateFromCsvRow,184,RandomName中{0}和{1}的姓氏重复,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomName中{0}和{1}的姓氏重复"
+    translated: "In RandomName, the surnames of {0} and {1} are duplicated."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,219,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,260,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,301,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,336,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,371,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,406,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,461,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
+- raw: "SweetPotato.RandomHeadIcon,CreateFromCsvRow,496,RandomHead id:{0} 性别不统一,[System.String[]]"
+  splits:
+  - split: 3
+    text: "RandomHead id:{0} 性别不统一"
+    translated: "RandomHead id: {0} gender not uniform."
 - raw: "SweetPotato.NpcAttriDynamicExtralTemplete,GetInfo,17,NpcAttriDynamicExtralTemplete中id是null:{0},[System.Int32]"
   splits:
   - split: 3
     text: "NpcAttriDynamicExtralTemplete中id是null:{0}"
     translated: "In 'NpcAttriDynamicExtralTemplate', the ID is null: {0}"
+- raw: "SweetPotato.NpcAttriDynamic,GetInfo,109,menpairdm不存在genreid为{0}的数据，npcEntity:{1},[SweetPotato.NpcEntity]"
+  splits:
+  - split: 3
+    text: "menpairdm不存在genreid为{0}的数据，npcEntity:{1}"
+    translated: "The data pair does not exist for genre ID {0}, NPC entity: {1}"
+- raw: "SweetPotato.NpcSpellDynamicName,CreateFromCsvRow,177,NpcSpellDynamicName，id:{0}数据 与 randomName:{1}有数据的重复冲突,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamicName，id:{0}数据 与 randomName:{1}有数据的重复冲突"
+    translated: "NpcSpellDynamicName,id: {0} data and randomName: {1} has a duplicate data conflict"
+- raw: "SweetPotato.NpcSpellDynamic,GetInfo,17,NpcSpellDynamic中id是null:{0},[System.Int32]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic中id是null:{0}"
+    translated: "NPC spell dynamic ID is null: {0}"
+- raw: "SweetPotato.NpcSpellDynamic,CheakConfigError,46,NpcSpellDynamic表id:{0}中的protoSpellId:{1}在SpellPrototype表没有配置,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表id:{0}中的protoSpellId:{1}在SpellPrototype表没有配置"
+    translated: "NPC Spell Dynamic ID Table: Proto spell ID in {0}: {1} is not configured in the SpellPrototype table."
+- raw: "SweetPotato.NpcSpellDynamic,CheakConfigError,128,NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置"
+    translated: "NPC Spell Dynamic Table ID: Effect ID in {0}: {1} is not configured in the SpellEffect table."
+- raw: "SweetPotato.NpcSpellDynamic,CheakConfigError,226,NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置"
+    translated: "NPC Spell Dynamic Table ID: Effect ID in {0}: {1} is not configured in the SpellEffect table."
+- raw: "SweetPotato.NpcSpellDynamic,CheakConfigError,324,NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表id:{0}中的effectId:{1}在SpellEffect表没有配置"
+    translated: "NPC Spell Dynamic Table ID: Effect ID in {0}: {1} is not configured in the SpellEffect table."
+- raw: "SweetPotato.NpcSpellDynamic,Init,667,NpcSpellDynamic表Id{0}中的技能模板：{1}不存在,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表Id{0}中的技能模板：{1}不存在"
+    translated: "Skills template in NPC Spell Dynamic Table ID {0}: {1} does not exist"
+- raw: "SweetPotato.NpcSpellDynamic,Init,744,NpcSpellDynamic表Id{0}中的taolu与技能模板的taolu不一样,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表Id{0}中的taolu与技能模板的taolu不一样"
+    translated: "The taolu in NpcSpellDynamic table ID {0} differs from the taolu in the skill template."
 - raw: "SweetPotato.NpcSpellDynamic,Init,796,NpcSpellDynamic表Id{0}中的pianxiang与技能模板的pianxiang不一样,[]"
   splits:
   - split: 3
     text: "NpcSpellDynamic表Id{0}中的pianxiang与技能模板的pianxiang不一样"
     translated: "The spread of NPC Spell Dynamic Table ID {0} differs from that in the skill template's spread."
+- raw: "SweetPotato.NpcSpellDynamic,Init,848,NpcSpellDynamic表Id{0}中的spelltype与技能模板的spelltype不一样,[]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic表Id{0}中的spelltype与技能模板的spelltype不一样"
+    translated: "The spell type in NPC Spell Dynamic Table ID {0} does not match the spell type of the skill template."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2107,主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The active skill must be configured with a technique; there's an error in the configuration of NpcSpellDynamic table Id {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2262,心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "When the heart method and technique do not exist, the technique type is 4, indicating a configuration error in the NpcSpellDynamic table with ID {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2331,主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The active skill must be configured with a technique; there's an error in the configuration of NpcSpellDynamic table Id {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2522,心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "When the heart method and technique do not exist, the technique type is 4, indicating a configuration error in the NpcSpellDynamic table with ID {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2604,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2640,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2828,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,2864,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4282,主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The active skill must be configured with a technique; there's an error in the configuration of NpcSpellDynamic table Id {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4416,心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "When the heart method and technique do not exist, the technique type is 4, indicating a configuration error in the NpcSpellDynamic table with ID {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4485,主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "主动技能必须配置套路，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The active skill must be configured with a technique; there's an error in the configuration of NpcSpellDynamic table Id {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4655,心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "心法套路不存在的时候，套路类型是4，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "When the heart method and technique do not exist, the technique type is 4, indicating a configuration error in the NpcSpellDynamic table with ID {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4737,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4773,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4940,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,Init,4976,套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误,[]"
+  splits:
+  - split: 3
+    text: "套路类型是4，只可能是心法类型，NpcSpellDynamic表Id{0}中的配置错误"
+    translated: "The technique type is 4, which can only be a Heart Method type. There is a configuration error in the NpcSpellDynamic table entry {0}."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,380,NpcSpellDynamic.id：{0}的心法调息个数不能超过3个，配置错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic.id：{0}的心法调息个数不能超过3个，配置错误"
+    translated: "NpcSpellDynamic.id: The number of heart methods for {0}'s breath control cannot exceed 3; configuration error."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,446,NpcSpellDynamic.id：{0}的心法特技个数不能超过4个，配置错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic.id：{0}的心法特技个数不能超过4个，配置错误"
+    translated: "NpcSpellDynamic.id: The number of Heart Method special skills for {0} cannot exceed 4; configuration error."
 - raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,528,NpcSpellDynamic.id：{0}的effectcountMax==0，配置错误,[System.String[]]"
   splits:
   - split: 3
     text: "NpcSpellDynamic.id：{0}的effectcountMax==0，配置错误"
     translated: "NpcSpellDynamic.id: {0}'s effectCountMax is 0; configuration error."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,841,NpcSpellDynamic:{0}中配置的调息buff，spellEffectl{1}，quality填写错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic:{0}中配置的调息buff，spellEffectl{1}，quality填写错误"
+    translated: "NpcSpellDynamic: The buff configuration of breath control in {0}, spell effect {1}, quality written incorrectly."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,923,NpcSpellDynamic:{0}中配置的调息buff，没有1段，配置错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic:{0}中配置的调息buff，没有1段，配置错误"
+    translated: "NpcSpellDynamic: The breathing buff configured in {0} does not have a 1-segment setup; it's incorrectly configured."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,973,NpcSpellDynamic:{0}中配置的调息buff，连2段都没有，却有3段，配置错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic:{0}中配置的调息buff，连2段都没有，却有3段，配置错误"
+    translated: "NpcSpellDynamic: The breathing buff configured in {0} does not have even a single segment for 2, yet it has segments for 3. This is a configuration error."
+- raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,1038,NpcSpellDynamic.id：{0}的buff个数为0，配置错误,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcSpellDynamic.id：{0}的buff个数为0，配置错误"
+    translated: "NpcSpellDynamic.id: The number of buffs for {0} is 0, configuration error."
+- raw: "SweetPotato.NpcSpellDynamic,InitNpcSpell,27,随机Npc角色：{0}，proGuid:{1}，偏向：{2}，套路{3}，境界等级：{4}没有筛选到心法，因此后续技能也无法筛选,[SweetPotato.NpcEntity]"
+  splits:
+  - split: 3
+    text: "随机Npc角色：{0}，proGuid:{1}，偏向：{2}，套路{3}，境界等级：{4}没有筛选到心法，因此后续技能也无法筛选"
+    translated: "Random NPC character: {0},proGuid: {1}, leans towards: {2}, Technique {3}, Realm Level: There are no Heart Methods filtered for {4}, so subsequent skills cannot be filtered either."
+- raw: "SweetPotato.NpcSpellDynamic,InitNpcSpell,268,随机Npc角色：{0}，proGuid:{1}，偏向：{2}，套路{3}，境界等级：{4}，筛选的心法dynamicId:{5}，心法groupId:{6}没有筛选主动技能,[SweetPotato.NpcEntity]"
+  splits:
+  - split: 3
+    text: "随机Npc角色：{0}，proGuid:{1}，偏向：{2}，套路{3}，境界等级：{4}，筛选的心法dynamicId:{5}，心法groupId:{6}没有筛选主动技能"
+    translated: "Random NPC Character: {0},proGuid: {1}, inclined towards: {2}, Technique {3}, Realm Level: {4}, selected heart method dynamicId: {5}, Heart Method Group ID: {6} has no active skills to filter"
 - raw: "SweetPotato.NpcSpellDynamic,RefreshSpellName,150,烈焱,[SweetPotato.NpcEntity，SweetPotato.VirtualSpell]"
   splits:
   - split: 3
@@ -14293,16 +15563,121 @@
   - split: 3
     text: "（化境）"
     translated: "(Transformed Realm)"
+- raw: "SweetPotato.NpcSpellDynamic,CreateVirtualSpellPrototype,747,guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败,[SweetPotato.NpcEntity，SweetPotato.NpcSpellDynamic，System.Int32]"
+  splits:
+  - split: 3
+    text: "guid:{0}，npcSpellDynamic:{0}，slot:{1}装备失败"
+    translated: "Guid: {0},npcSpellDynamic: {0},slot: Equipment failure: {1}"
+- raw: "SweetPotato.NpcPrototypeBaseRandom,GetNpcRandomBaseId,89,npc_prototype_baserdm表中数据不全，menpai:{0}，jingjie:{1}随机不到模型,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "npc_prototype_baserdm表中数据不全，menpai:{0}，jingjie:{1}随机不到模型"
+    translated: "NPC prototype base RDM table data incomplete; sects: {0},jingjie: {1} could not randomly obtain a model"
+- raw: "SweetPotato.NpcPrototypeBase,CreateFromCsvRow,102,NpcPrototypeBase中id:{0}没有性别,[System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcPrototypeBase中id:{0}没有性别"
+    translated: "NPC Prototype Base ID: {0} is genderless"
+- raw: "SweetPotato.NpcPrototype,LoadCSV,986,NpcPrototype.id:{0}中sectGenreId中配置的流派错误,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcPrototype.id:{0}中sectGenreId中配置的流派错误"
+    translated: "NpcPrototype.id: The stream configured in sectGenreId within {0} has an error."
+- raw: "SweetPotato.NpcPrototype,LoadCSV,1049,NpcPrototype.id:{0}中强行配置的随机战斗Npc需要配制成不能交互NA_NO_INTERACT,[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "NpcPrototype.id:{0}中强行配置的随机战斗Npc需要配制成不能交互NA_NO_INTERACT"
+    translated: "NpcPrototype.id: The randomly configured NPC in {0} that forcibly appears during battle needs to be set as non-interactive: NA_NO_INTERACT."
+- raw: "SweetPotato.Gift,InitItemTendency,281,gift表第{0}行喜欢类型中填了个item_base里面不存在的id：{1},[SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]"
+  splits:
+  - split: 3
+    text: "gift表第{0}行喜欢类型中填了个item_base里面不存在的id：{1}"
+    translated: "The like type in row {0} of the gift table contains an ID that does not exist in item_base: {1}"
+- raw: "SweetPotato.Gift,NpcFeelToItem,34,{0}这个npc对{1}这物品既喜欢又讨厌，这就有问题！,[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "{0}这个npc对{1}这物品既喜欢又讨厌，这就有问题！"
+    translated: "This NPC both likes and dislikes item {1}, which is problematic for {0}."
+- raw: "SweetPotato.QingGong_node,GetInfoById,24,Talent_node 中 null，id:{0},[System.Int32]"
+  splits:
+  - split: 3
+    text: "Talent_node 中 null，id:{0}"
+    translated: "Talent node contains a null, ID: {0}"
+- raw: "SweetPotato.QingGong_node,CreateFromCsvRow,302,激活需要的物品字符串配置格式错误，MiJi_node.Id:{0},[System.String[]]"
+  splits:
+  - split: 3
+    text: "激活需要的物品字符串配置格式错误，MiJi_node.Id:{0}"
+    translated: "The item string configuration format required for activation is incorrect, MiJi_node.Id: {0}"
+- raw: "SweetPotato.SpellEffect,GetInfoById,23,SpellEffect中没有配置id:{0}的buff,[System.Int64]"
+  splits:
+  - split: 3
+    text: "SpellEffect中没有配置id:{0}的buff"
+    translated: "The spell effect does not have a configured ID: {0}'s buff"
 - raw: "SweetPotato.SpellPrototype,LoadCSV,880,心法的运功都存在，xinfaSpell填写为0错误，spellPro：{0},[System.Int32，System.String[]]"
   splits:
   - split: 3
     text: "心法的运功都存在，xinfaSpell填写为0错误，spellPro：{0}"
     translated: "The spellcasting for all Heart Methods exists; filling in xinfaSpell with 0 is incorrect, spellPro: {0}"
+- raw: "SweetPotato.SpellPrototype,CheakConfigError,60,SpellPrototype表id:{0}中的effectId:{1}在SpellEffect表没有配置,[]"
+  splits:
+  - split: 3
+    text: "SpellPrototype表id:{0}中的effectId:{1}在SpellEffect表没有配置"
+    translated: "Spell Prototype Table ID: Effect ID in {0}: {1} is not configured in the SpellEffect table."
+- raw: "SweetPotato.SpellPrototype,AddVirturlSpellPrototypePlayerSteal,386,AddVirturlSpellPrototype.id：{0}出现重复，guid:{1},[SweetPotato.NpcEntity，SweetPotato.VirtualSpellPlayerSteal]"
+  splits:
+  - split: 3
+    text: "AddVirturlSpellPrototype.id：{0}出现重复，guid:{1}"
+    translated: "AddVirturlSpellPrototype.id: {0} appears repeatedly, guide: {1}"
+- raw: "SweetPotato.SpellPrototype,AddVirturlSpellPrototype,398,AddVirturlSpellPrototype.id：{0}出现重复，guid:{1},[SweetPotato.NpcEntity，SweetPotato.VirtualSpell]"
+  splits:
+  - split: 3
+    text: "AddVirturlSpellPrototype.id：{0}出现重复，guid:{1}"
+    translated: "AddVirturlSpellPrototype.id: {0} appears repeatedly, guide: {1}"
+- raw: "SweetPotato.TeleportTrans,GetInfo,17,teleport_trans不存在id为{0}的数据,[System.Int32]"
+  splits:
+  - split: 3
+    text: "teleport_trans不存在id为{0}的数据"
+    translated: "Teleportation data does not exist for ID {0}."
 - raw: "SweetPotato.DataMgr,LoadDB,935,   使用内存:,[System.Collections.Generic.Dictionary`2<System.String，CSVHelper.CsvLoader/CsvCreateFunc>]"
   splits:
   - split: 3
     text: "   使用内存:"
     translated: "Using memory:"
+- raw: "SweetPotato.DataMgr,CheckCsvError,75,QuestPrototype id {0} 的 rewardid {1} 对应的Loot_items 为空,[]"
+  splits:
+  - split: 3
+    text: "QuestPrototype id {0} 的 rewardid {1} 对应的Loot_items 为空"
+    translated: "The reward ID {1} associated with Quest Prototype ID {0} corresponds to empty Loot Items."
+- raw: "SweetPotato.DataMgr,CheckCsvError,216,EntrustEventPrototype id {0} 的 rewardid {1} 对应的Loot_items 为空,[]"
+  splits:
+  - split: 3
+    text: "EntrustEventPrototype id {0} 的 rewardid {1} 对应的Loot_items 为空"
+    translated: "The rewards for Reward ID {1} associated with Entrust Event Prototype ID {0} are empty."
+- raw: "SweetPotato.DataMgr,CheckCsvError,381,EntrustEventPrototype id {0} 的 rewardid2 {1} 对应的Loot_items 为空,[]"
+  splits:
+  - split: 3
+    text: "EntrustEventPrototype id {0} 的 rewardid2 {1} 对应的Loot_items 为空"
+    translated: "The Loot Items corresponding to Reward ID 2 for Entrust Event Prototype ID {0}, {1}, are empty."
+- raw: "SweetPotato.DataMgr,CheckCsvError,596,Relationship中 id：{0}中的 关系NpcGuid:{1}是非交互Npc，不能参与到关系当中,[]"
+  splits:
+  - split: 3
+    text: "Relationship中 id：{0}中的 关系NpcGuid:{1}是非交互Npc，不能参与到关系当中"
+    translated: "Relationship ID: Relationship NPC GUID in {0}: {1} is a non-interactive NPC that cannot participate in relationships."
+- raw: "SweetPotato.FloydManager,InitData,249,WayPoint，id:{0}中的joint:{1}点不存在,[]"
+  splits:
+  - split: 3
+    text: "WayPoint，id:{0}中的joint:{1}点不存在"
+    translated: "WayPoint,id: Joint in {0}: There's no such thing as {1}"
+- raw: "SweetPotato.Tools,GetIconSprite,1279,Prefab/UISprite/UI_YingDao/提示-,[SweetPotato.IconType，System.String]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_YingDao/提示-"
+    safeToTranslate: false
+- raw: "SweetPotato.Tools,PlayEffect,156,角色id：{0}的特效：{1}字符串有问题,[System.Int64，System.String]"
+  splits:
+  - split: 3
+    text: "角色id：{0}的特效：{1}字符串有问题"
+    translated: "Character ID: Special effects of {0}: {1} string has issues"
 - raw: "SweetPotato.Tools,SortItems2022_6,267,道具{0}没有装备信息,[System.Collections.Generic.List`1<SweetPotato.UIItemData>]"
   splits:
   - split: 3
@@ -14503,6 +15878,11 @@
   - split: 3
     text: "时"
     translated: "Time"
+- raw: "SweetPotato.Tools,GetAttriTypeByLiveSkillType,66,GetAttriTypeByLiveSkillType 没有对应的类型 {0},[LivingType]"
+  splits:
+  - split: 3
+    text: "GetAttriTypeByLiveSkillType 没有对应的类型 {0}"
+    translated: "Attribute Type not corresponding to the specified skill type {0}."
 - raw: "SweetPotato.Tools,MsgBox,50,确定,[System.String，UnityEngine.Events.UnityAction，System.Boolean]"
   splits:
   - split: 3
@@ -14543,6 +15923,11 @@
   - split: 3
     text: "特殊"
     translated: "Special"
+- raw: "SweetPotato.Tools,GetShopItemIconByQuality,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+    safeToTranslate: false
 - raw: "SweetPotato.Tools,.cctor,66,气血,[]"
   splits:
   - split: 3
@@ -16703,6 +18088,66 @@
   - split: 3
     text: "不详"
     translated: "Unknown"
+- raw: "SweetPotato.NpcEntity,Init,436,魏琦锐，m_NpcPrototype.id:{0}这种NPC_ATTRI属性中含有8的Npc没有配置对应的境界,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "魏琦锐，m_NpcPrototype.id:{0}这种NPC_ATTRI属性中含有8的Npc没有配置对应的境界"
+    translated: "Wei Qirui, m_NPCPrototype.ID: In this NPC_ATTRI attribute, since there is no corresponding realm configured for NPCs containing 8, the configuration for {0} does not exist."
+- raw: "SweetPotato.NpcEntity,Init,476,魏琦锐，m_NpcPrototype.id:{0}这种NPC_ATTRI属性中含有8的Npc没有配置对应的境界,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "魏琦锐，m_NpcPrototype.id:{0}这种NPC_ATTRI属性中含有8的Npc没有配置对应的境界"
+    translated: "Wei Qirui, m_NPCPrototype.ID: In this NPC_ATTRI attribute, since there is no corresponding realm configured for NPCs containing 8, the configuration for {0} does not exist."
+- raw: "SweetPotato.NpcEntity,Init,561,guid:{0}，proguid:{1}配置的是动物，但是又错误配置成了随机Npc,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "guid:{0}，proguid:{1}配置的是动物，但是又错误配置成了随机Npc"
+    translated: "Guid: {0},proguid: {1} was configured to be an animal, but it was incorrectly configured as a random NPC."
+- raw: "SweetPotato.NpcEntity,Init,670,随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误"
+    translated: "The randomly assigned character with guid:{0} and protoGuid:{1} has been placed in the 'Evernight Capital' sect, error."
+- raw: "SweetPotato.NpcEntity,Init,987,proGuid:{0}，RandomName中不包含这个姓氏{1},[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "proGuid:{0}，RandomName中不包含这个姓氏{1}"
+    translated: "ProGuid: {0}, RandomName does not contain this surname {1}."
+- raw: "SweetPotato.NpcEntity,InitNpcSpell,176,角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合,[]"
+  splits:
+  - split: 3
+    text: "角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合"
+    translated: "The skill id:{1} in m_NpcFight.spellContainer of character proGuid:{0} does not match the character's style:{2}."
+- raw: "SweetPotato.NpcEntity,InitNpcSpell,251,角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer,[]"
+  splits:
+  - split: 3
+    text: "角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer"
+    translated: "The character proGuid:{0}'s m_NpcFight does not exist or has not configured m_NpcFight.spellContainer."
+- raw: "SweetPotato.NpcEntity,InitNpcBag,130,角色m_NpcPrototype.id:{0}背包初始化lootGroupId:{1}中表物品id:{2}的ItemPrototype==null,[]"
+  splits:
+  - split: 3
+    text: "角色m_NpcPrototype.id:{0}背包初始化lootGroupId:{1}中表物品id:{2}的ItemPrototype==null"
+    translated: "Character m_NpcPrototype.id: {0}'s backpack initialized loot group ID: Item ID of goods on {1} table: {2}'s ItemPrototype == null"
+- raw: "SweetPotato.NpcEntity,InitNpcEquip,103,NpcPrototype:{0}的Equip字段中装备id\"{1}\"创建物品失败,[]"
+  splits:
+  - split: 3
+    text: "NpcPrototype:{0}的Equip字段中装备id\"{1}\"创建物品失败"
+    translated: "NpcPrototype: Failed to create item with equipment ID \"{1}\" in {0}'s Equipment field."
+- raw: "SweetPotato.NpcEntity,InitNpcEquip,175,NpcPrototype:{0}的Equip字段中装备id\"{1}\"在ItemEquip表中没有配置对应数据,[]"
+  splits:
+  - split: 3
+    text: "NpcPrototype:{0}的Equip字段中装备id\"{1}\"在ItemEquip表中没有配置对应数据"
+    translated: "NpcPrototype: The Equip field in {0}'s Equipment has a configured equipment ID \"{1}\" that does not have corresponding data in the ItemEquip table."
+- raw: "SweetPotato.NpcEntity,InitNpcAtt,238,guid:{0}，m_NpcPrototypeId:{1}，NpcPrototypeBaseId:{2}，prfomulaBaseID:{3}的精力最大值为0,[]"
+  splits:
+  - split: 3
+    text: "guid:{0}，m_NpcPrototypeId:{1}，NpcPrototypeBaseId:{2}，prfomulaBaseID:{3}的精力最大值为0"
+    translated: "Guid: {0},m_NpcPrototypeId: {1},NpcPrototypeBaseId: {2},prfomulaBaseID: The maximum energy value of {3} is 0."
+- raw: "SweetPotato.NpcEntity,InitAttBase,74,InitAttBase 负数百分比 ： ,[System.Collections.Generic.Dictionary`2<System.Int16，System.Int32>]"
+  splits:
+  - split: 3
+    text: "InitAttBase 负数百分比 ： "
+    translated: "Negative percentage at base initiative:"
 - raw: "SweetPotato.NpcEntity,LearnPeifang,91,学会,[System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -16783,16 +18228,56 @@
   - split: 3
     text: "游戏进入了新的时辰 {0}"
     translated: "The game has entered a new epoch: {0}."
+- raw: "SweetPotato.PlayerEntity,AddSkillProficiency,10,LivingAssemblyskillGrouth 没有配置 属性 {0} {1} 的成长，使用默认值,[System.Boolean，SweetPotato.AttriType]"
+  splits:
+  - split: 3
+    text: "LivingAssemblyskillGrouth 没有配置 属性 {0} {1} 的成长，使用默认值"
+    translated: "The Living Assembly skill Growth does not have a configuration for the growth of attribute {0} {1}; it uses the default value."
 - raw: "SweetPotato.PlayerEntity,AddSkillProficiency,460,你在{0}上陷入了瓶颈，请找对应身份角色提升身份后方可提升,[System.Boolean，SweetPotato.AttriType]"
   splits:
   - split: 3
     text: "你在{0}上陷入了瓶颈，请找对应身份角色提升身份后方可提升"
     translated: "You are stuck on {0}; please find a corresponding role to upgrade your status before you can advance."
+- raw: "SweetPotato.PlayerEntity,AddSkillProficiency,593,LivingAssemblyskillGrouth id:{0} 技能附加成长，配置错误,[System.Boolean，SweetPotato.AttriType]"
+  splits:
+  - split: 3
+    text: "LivingAssemblyskillGrouth id:{0} 技能附加成长，配置错误"
+    translated: "LivingAssemblyskillGrouth id: {0} Skill growth addition, configuration error."
 - raw: "SweetPotato.PlayerEntity,AddSkillProficiency,812,你在{0}上陷入了瓶颈，请找对应身份角色提升身份后方可提升,[System.Boolean，SweetPotato.AttriType]"
   splits:
   - split: 3
     text: "你在{0}上陷入了瓶颈，请找对应身份角色提升身份后方可提升"
     translated: "You are stuck on {0}; please find a corresponding role to upgrade your status before you can advance."
+- raw: "SweetPotato.PlayerEntity,AddRobAndFoe,113,主角抢夺击败了npc: {0},[SweetPotato.NpcEntity]"
+  splits:
+  - split: 3
+    text: "主角抢夺击败了npc: {0}"
+    translated: "The protagonist defeated the NPC in a raid:  {0}"
+- raw: "SweetPotato.PlayerEntity,AddRobAndFoe,212,主角击败了来报仇的npc: {0},[SweetPotato.NpcEntity]"
+  splits:
+  - split: 3
+    text: "主角击败了来报仇的npc: {0}"
+    translated: "The protagonist defeated the NPC who came to seek revenge:  {0}"
+- raw: "SweetPotato.PlayerQuest,GetFinishQuestByType,51,任务id：{0}不在任务列表中,[QUEST_TYPE]"
+  splits:
+  - split: 3
+    text: "任务id：{0}不在任务列表中"
+    translated: "Task ID: {0} is not on the task list"
+- raw: "SweetPotato.PlayerQuest,GetFinishQuestLogByType,51,任务id：{0}不在任务列表中,[QUEST_TYPE]"
+  splits:
+  - split: 3
+    text: "任务id：{0}不在任务列表中"
+    translated: "Task ID: {0} is not on the task list"
+- raw: "SweetPotato.PlayerQuest,ForgetMenPaiQuest,0,遗忘任务id：{0},[QuestPrototype]"
+  splits:
+  - split: 3
+    text: "遗忘任务id：{0}"
+    translated: "Forgotten Task ID: {0}"
+- raw: "SweetPotato.PlayerQuest,FailQuest,0,任务失败，id：{0},[System.Int64]"
+  splits:
+  - split: 3
+    text: "任务失败，id：{0}"
+    translated: "Task failed, ID: {0}"
 - raw: "SweetPotato.PlayerQuest,GetFinishConditonTarget,213,确定,[System.Int64]"
   splits:
   - split: 3
@@ -16803,6 +18288,46 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "SweetPotato.PlayerQuest,Load,452,m_DicQuest[i]已经存在相同的key，i:{0}，key:{1},[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "m_DicQuest[i]已经存在相同的key，i:{0}，key:{1}"
+    translated: "M_DictQuest[i]' already contains a matching key, 'i: {0},key: {1}"
+- raw: "SweetPotato.PlayerQuest,Load,490,questLog.Load id:{0} 配置不存在,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "questLog.Load id:{0} 配置不存在"
+    translated: "QuestLog.Load id: {0} configuration does not exist."
+- raw: "SweetPotato.SpawnPointChild,CreateUnitEntity,213,SpawnPointId:{0}中的Npc模板Id:{1}不是随机Npc,[]"
+  splits:
+  - split: 3
+    text: "SpawnPointId:{0}中的Npc模板Id:{1}不是随机Npc"
+    translated: "SpawnPointId: NPC template ID in {0}: {1} is not a random NPC"
+- raw: "SweetPotato.SpawnPointChild,CreateUnitEntity,269,SpawnPointId:{0}中的Npc模板Id:{1}不是随机Npc,[]"
+  splits:
+  - split: 3
+    text: "SpawnPointId:{0}中的Npc模板Id:{1}不是随机Npc"
+    translated: "SpawnPointId: NPC template ID in {0}: {1} is not a random NPC"
+- raw: "SweetPotato.UnitController/<MoveAlongPointByBiao>d__220,MoveNext,131,{0}没有NavMeshAgent组件，无法寻路,[]"
+  splits:
+  - split: 3
+    text: "{0}没有NavMeshAgent组件，无法寻路"
+    translated: "{0} does not have a NavMeshAgent component, so it cannot navigate."
+- raw: "SweetPotato.UnitController/<MoveAlongPointByBiao>d__220,MoveNext,458,{0}被放在了一个没有相邻WayPoint点的点位{1},[]"
+  splits:
+  - split: 3
+    text: "{0}被放在了一个没有相邻WayPoint点的点位{1}"
+    translated: "{0} was placed at a point {1}, which has no adjacent WayPoints."
+- raw: "SweetPotato.UnitController,SetInSightCombat,469,杀手或者精英怪guid:{0}，没有配置战斗音乐,[System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "杀手或者精英怪guid:{0}，没有配置战斗音乐"
+    translated: "Killer or Elite Monster Guide: {0}, no battle music has been configured"
+- raw: "SweetPotato.UnitController,OnHPChanged,350,角色没有进入战斗，却在扣血，可能buff效果配置错误spelleffect:{0}，effect虚拟模板id:{1},[System.Int32，SweetPotato.UnitController，SweetPotato.SpellPrototype，SweetPotato.FlagAttackResult，System.Boolean，SweetPotato.SpellEffect，System.Boolean，System.Boolean，System.Boolean]"
+  splits:
+  - split: 3
+    text: "角色没有进入战斗，却在扣血，可能buff效果配置错误spelleffect:{0}，effect虚拟模板id:{1}"
+    translated: "The character did not engage in combat but was still taking damage; possibly due to a misconfiguration of the buff effect or spell effect: {0}, effect virtual template ID: {1}"
 - raw: "SweetPotato.UnitController,OnVigorChanged,66,恢复,[System.Int32，System.Boolean]"
   splits:
   - split: 3
@@ -16843,6 +18368,11 @@
   - split: 3
     text: "存档发生了错误 \\n"
     translated: "The archive has encountered an error.\\n"
+- raw: "SweetPotato.GameSaving,Load,669,此存档包含DLC内容 {0} ，无法读取,[System.String，LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "此存档包含DLC内容 {0} ，无法读取"
+    translated: "This archive contains DLC content {0}, which cannot be read."
 - raw: "SweetPotato.GameSaving,Load,728,确认,[System.String，LitJson.JsonData]"
   splits:
   - split: 3
@@ -17243,16 +18773,66 @@
   - split: 3
     text: "金葵九庄"
     translated: "Jin Kui Jiuzhuang"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,1000,随机Npc成长生活技能事件EntrustEventPrototype.id:{0}奖励属性个数超过3个配置错误,[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长生活技能事件EntrustEventPrototype.id:{0}奖励属性个数超过3个配置错误"
+    translated: "Random NPC Growth Life Skills Event Entrust Event Prototype ID: {0} reward attributes exceed 3 number, configuration error."
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,1319,随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中subtype配置错误，m_pProtoId：{1},[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中subtype配置错误，m_pProtoId：{1}"
+    translated: "Random NPC Growth Reading Books Event Entrust Event Prototype ID: {0} book drop, subtype configuration error in ItemPrototype, m_pProtoId: {1}"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,1379,随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中type配置错误，m_pProtoId：{1},[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中type配置错误，m_pProtoId：{1}"
+    translated: "Random NPC Growth Reading Books Event EntrustEventPrototype ID: {0} dropped book item; type configuration error in ItemPrototype, m_pProtoId: {1}"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,1439,随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中没数据，m_pProtoId：{1},[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍，ItemPrototype中没数据，m_pProtoId：{1}"
+    translated: "Random NPC Growth Reading Book Event EntrustEventPrototype ID: {0} book drops, no data in ItemPrototype, m_pProtoId: {1}"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,1499,随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍个数配置错误,[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长阅读书籍事件EntrustEventPrototype.id:{0}掉落书籍个数配置错误"
+    translated: "Random NPC Growth Reading Book Event EntrustEventPrototype ID: {0} has incorrect configuration for the number of dropped books."
 - raw: "SweetPotato.GrowInfo,OnEntrustFinish,2269,偏僻区域,[VirtualEvent，System.Boolean]"
   splits:
   - split: 3
     text: "偏僻区域"
     translated: "Remote area"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,2308,采集物掉落配置错误，npcPrototype.id:{0},[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "采集物掉落配置错误，npcPrototype.id:{0}"
+    translated: "Drop configuration error for collectible item, npcPrototype.id: {0}"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,2385,采集物掉落配置错误，npcPrototype.id:{0},[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "采集物掉落配置错误，npcPrototype.id:{0}"
+    translated: "Drop configuration error for collectible item, npcPrototype.id: {0}"
 - raw: "SweetPotato.GrowInfo,OnEntrustFinish,3171,偏僻区域,[VirtualEvent，System.Boolean]"
   splits:
   - split: 3
     text: "偏僻区域"
     translated: "Remote area"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,3884,NpcInteract中配置的数据，id:{0}，里面商人proGuid:{1}，的shopId为0，配置错误,[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "NpcInteract中配置的数据，id:{0}，里面商人proGuid:{1}，的shopId为0，配置错误"
+    translated: "NPC Interaction Configuration Data: ID: {0}, in which merchants are guided: {1}'s shop ID is 0, configuration error"
+- raw: "SweetPotato.GrowInfo,OnEntrustFinish,4779,随机Npc成长事件EntrustEventPrototype.id:{0}类型配置错误,[VirtualEvent，System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机Npc成长事件EntrustEventPrototype.id:{0}类型配置错误"
+    translated: "Random NPC Growth Event Entrust Event Prototype ID: {0} type configuration error"
+- raw: "SweetPotato.GuanTongManager,EquipSpell,14,要装备的技能id:{0}不存在,[System.Int32，System.Int64，System.Int32]"
+  splits:
+  - split: 3
+    text: "要装备的技能id:{0}不存在"
+    translated: "Skills ID needed for equipment: {0} does not exist"
 - raw: "SweetPotato.ChronicleYearItem,SetItem,53,永历{0}年,[System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -17268,6 +18848,16 @@
   - split: 3
     text: "{0}月"
     translated: "{0} month"
+- raw: "SweetPotato.ChuanWenDetail,ShowDetail,121,itemid {0} 不存在,[SweetPotato.ChuanWenSlotData]"
+  splits:
+  - split: 3
+    text: "itemid {0} 不存在"
+    translated: "Item ID {0} does not exist."
+- raw: "SweetPotato.ChuanWenDetail,ShowDetail,205,itemid {0} 不存在,[SweetPotato.ChuanWenSlotData]"
+  splits:
+  - split: 3
+    text: "itemid {0} 不存在"
+    translated: "Item ID {0} does not exist."
 - raw: "SweetPotato.ChuanWenDetail,ShowDetail,660,时限：,[SweetPotato.ChuanWenSlotData]"
   splits:
   - split: 3
@@ -17338,6 +18928,16 @@
   - split: 3
     text: "<color=#f8744b>[活动]</color>"
     translated: "<color=#f8744b>[Activity]</color>"
+- raw: "SweetPotato.ChuanWenMgr,OnMiBaoItemLoot,181,传闻秘宝掉落刷新事件 itemId:{0},[LootItem]"
+  splits:
+  - split: 3
+    text: "传闻秘宝掉落刷新事件 itemId:{0}"
+    translated: "Rumors of the secret treasure drop refreshing event for item ID: {0}"
+- raw: "SweetPotato.ChuanWenMgr,OnMiBaoItemBeNpcDuoQu,290,传闻秘宝npc夺取事件 itemId:{0} 夺取npcId:{1} 被夺取npcId:{2},[SweetPotato.NpcEntity，SweetPotato.NpcEntity，SweetPotato.Item]"
+  splits:
+  - split: 3
+    text: "传闻秘宝npc夺取事件 itemId:{0} 夺取npcId:{1} 被夺取npcId:{2}"
+    translated: "Rumors of the NPC's theft of a Secret Treasure event, item ID: {0} seizes NPC ID {1}: {1} has been seized by NPC ID: {2}"
 - raw: "SweetPotato.RoleInteract,RefreshLeaveTip,34,按 ,[]"
   splits:
   - split: 3
@@ -17643,6 +19243,11 @@
   - split: 3
     text: "大侠操作过于频繁，请三分钟后再回帖"
     translated: "Great Hero, you are posting too frequently. Please wait three minutes before replying again."
+- raw: "SweetPotato.ForumView/<SendAddReply>d__43,MoveNext,279,回帖错误 errcode:,[]"
+  splits:
+  - split: 3
+    text: "回帖错误 errcode:"
+    translated: "Replied incorrectly; error code:"
 - raw: "SweetPotato.ForumView/<SendAddTalk>d__45,MoveNext,99,发帖失败:,[]"
   splits:
   - split: 3
@@ -17658,6 +19263,11 @@
   - split: 3
     text: "大侠操作过于频繁，请十分钟后再发帖"
     translated: "Great Hero, you are posting too frequently. Please wait ten minutes before posting again."
+- raw: "SweetPotato.ForumView/<SendAddTalk>d__45,MoveNext,279,发帖错误 errcode:,[]"
+  splits:
+  - split: 3
+    text: "发帖错误 errcode:"
+    translated: "Post submission error: errcode:"
 - raw: "SweetPotato.ForumView/<SendQueryTalk>d__47,MoveNext,99,查询帖子失败:,[]"
   splits:
   - split: 3
@@ -17728,6 +19338,11 @@
   - split: 3
     text: "滑动"
     translated: "Slide"
+- raw: "SweetPotato.GeZiYingDaoTip,Awake,388,按下D键,[]"
+  splits:
+  - split: 3
+    text: "按下D键"
+    translated: "Press the D key"
 - raw: "SweetPotato.GeZiYingDaoTip,Awake,393,向右滑动,[]"
   splits:
   - split: 3
@@ -17758,6 +19373,11 @@
   - split: 3
     text: "身份："
     translated: "Identity:"
+- raw: "SweetPotato.InstantiateShengFenPanel,Refresh,172,先天天赋为空 PlayerPrototype id:{0},[]"
+  splits:
+  - split: 3
+    text: "先天天赋为空 PlayerPrototype id:{0}"
+    translated: "Innate talent is nonexistent. PlayerPrototype ID: {0}"
 - raw: "SweetPotato.InstantiateShengFenPanel,Refresh,224,当前已选择后天天赋,[]"
   splits:
   - split: 3
@@ -18213,6 +19833,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "SweetPotato.LianZhaoEditView,ChangeAndRefreshAssistantItem,64,成功率：{0:F}{1},[ChooseItemSlot]"
+  splits:
+  - split: 3
+    text: "成功率：{0:F}{1}"
+    translated: "Success rate: {0:F}{1}"
 - raw: "SweetPotato.LianZhaoEditView,ShowNodeInfo,307,前式：{0},[LianZhaoItemSlot]"
   splits:
   - split: 3
@@ -18228,6 +19853,11 @@
   - split: 3
     text: "招式领悟"
     translated: "Mastery of Techniques"
+- raw: "SweetPotato.LianZhaoEditView,ShowNodeInfo,807,成功率：{0:F}{1},[LianZhaoItemSlot]"
+  splits:
+  - split: 3
+    text: "成功率：{0:F}{1}"
+    translated: "Success rate: {0:F}{1}"
 - raw: "SweetPotato.LoginViewNew,Awake,802,当前版本:,[]"
   splits:
   - split: 3
@@ -19263,6 +20893,11 @@
   - split: 3
     text: "需修炼到指定熟练度！"
     translated: "You must train until you reach the specified level of proficiency!"
+- raw: "SweetPotato.SpellEditView,CheckCondition,578,miji_graph未正确配置id={0}的技能节点,[]"
+  splits:
+  - split: 3
+    text: "miji_graph未正确配置id={0}的技能节点"
+    translated: "The skill node for ID {0} in the miji graph has not been configured correctly."
 - raw: "SweetPotato.SpellEditView,CheckCondition,715,需要天赋\",[]"
   splits:
   - split: 3
@@ -19448,6 +21083,21 @@
   - split: 3
     text: "材料不足！"
     translated: "Insufficient materials!"
+- raw: "SweetPotato.LootMgr,LootItemsByModel,22,lootGroupId:{0} 满足福源掉落条件,[System.Int64，UnityEngine.Vector3，System.Int64，System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "lootGroupId:{0} 满足福源掉落条件"
+    translated: "LootGroupId: {0} satisfies the drop condition of Fuyuan."
+- raw: "SweetPotato.LootMgr,LootItemsByModel,47,lootGroupId:{0} 开始进行福源掉落,[System.Int64，UnityEngine.Vector3，System.Int64，System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "lootGroupId:{0} 开始进行福源掉落"
+    translated: "LootGroupId: {0} begins the drop of Fu Yuan."
+- raw: "SweetPotato.LootMgr,LootItemsByModel,84,lootGroupId:{0} 福源掉落结束,[System.Int64，UnityEngine.Vector3，System.Int64，System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "lootGroupId:{0} 福源掉落结束"
+    translated: "LootGroupId: {0}'s drop of Fu Yuan has ended."
 - raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,289,网络错误！,[]"
   splits:
   - split: 3
@@ -19513,6 +21163,11 @@
   - split: 3
     text: "天下第一"
     translated: "Number One in All Under Heaven"
+- raw: "SweetPotato.MenPaiEntity,NpcGetCurMonthGongZi,502,门派id:{} shenfenLevel:{}，没有配置 MenPaiGongZiPrototype,[System.Int64，System.Int64]"
+  splits:
+  - split: 3
+    text: "门派id:{} shenfenLevel:{}，没有配置 MenPaiGongZiPrototype"
+    translated: "Sect ID: {} shenfenLevel: {}, no configuration for MenPaiGongZiPrototype."
 - raw: "SweetPotato.MenPaiEntity,OnEntrustFailed,96,门派[,[EntrustManager]"
   splits:
   - split: 3
@@ -19553,6 +21208,21 @@
   - split: 3
     text: "]俸禄任务完成"
     translated: "Mission completed; salary received"
+- raw: "SweetPotato.MenPaiEntity,Load,1497,移除了门人，id:{0} 原因:该角色已死亡,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "移除了门人，id:{0} 原因:该角色已死亡"
+    translated: "Removed disciples, ID: The cause: {0}: This character has died"
+- raw: "SweetPotato.MenPaiEntity,Load,1563,移除了门人，id:{0} 原因:为主角队友,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "移除了门人，id:{0} 原因:为主角队友"
+    translated: "Removed from discipleship, id: {0} reason: Main character's teammate"
+- raw: "SweetPotato.MenPaiManager,NpcJoinMenPai,41,门派不存在，门派ID:{0},[System.Int64，System.Int64，System.Int32]"
+  splits:
+  - split: 3
+    text: "门派不存在，门派ID:{0}"
+    translated: "Sect does not exist; sect ID: {0}"
 - raw: "SweetPotato.MenPaiManager,NpcJoinMenPai,184,你加入了,[System.Int64，System.Int64，System.Int32]"
   splits:
   - split: 3
@@ -19563,6 +21233,11 @@
   - split: 3
     text: "你加入了"
     translated: "You have joined"
+- raw: "SweetPotato.MenPaiManager,NpcLeaveMenPai,44,门派不存在，门派ID:{},[System.Int64，System.Int32]"
+  splits:
+  - split: 3
+    text: "门派不存在，门派ID:{}"
+    translated: "The sect does not exist; sect ID: {}"
 - raw: "SweetPotato.MenPaiManager,NpcLeaveMenPai,212,你离开了,[System.Int64，System.Int32]"
   splits:
   - split: 3
@@ -19643,6 +21318,26 @@
   - split: 3
     text: "城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。"
     translated: "The city lord has scattered the imperial edicts across all corners of the land, and I have been tasked by him to inform you, noble martial artists, of their locations. As for who will ultimately obtain the imperial edict pearls, that rests in your abilities."
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,408,宝箱不在持有京瑜珠 npcId:{0},[]"
+  splits:
+  - split: 3
+    text: "宝箱不在持有京瑜珠 npcId:{0}"
+    translated: "The treasure chest containing the jingyu pearl is not in possession of NPC ID: {0}"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,602,NPC不在持有京瑜珠 npcId:{0},[]"
+  splits:
+  - split: 3
+    text: "NPC不在持有京瑜珠 npcId:{0}"
+    translated: "NPC does not possess the Jade of Jingyu, NPC ID: {0}"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,887,有新的持有京瑜珠NPC npcId:{0},[]"
+  splits:
+  - split: 3
+    text: "有新的持有京瑜珠NPC npcId:{0}"
+    translated: "A new NPC holding a Kunpengyu NPC with npcId has appeared: {0}"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,1620,有新的持有京瑜珠NPC npcId:{0},[]"
+  splits:
+  - split: 3
+    text: "有新的持有京瑜珠NPC npcId:{0}"
+    translated: "A new NPC holding a Kunpengyu NPC with npcId has appeared: {0}"
 - raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,1861,城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。,[]"
   splits:
   - split: 3
@@ -19688,6 +21383,11 @@
   - split: 3
     text: "<color=#2EDFA3>扣除</color>"
     translated: "<color=#2EDFA3>Deduct</color>"
+- raw: "SweetPotato.AttriManager,SetXiuWeiByJingjie,24,随机Npc，guid:{0}属性配置错误，导致初始修为在设置之前就不为0,[]"
+  splits:
+  - split: 3
+    text: "随机Npc，guid:{0}属性配置错误，导致初始修为在设置之前就不为0"
+    translated: "Random NPC, guide: Attribute configuration error caused initial cultivation to be not 0 before settings were established for {0}."
 - raw: "SweetPotato.AttriManager,GetAttriResultDes,133,基础+,[SweetPotato.AttriType]"
   splits:
   - split: 3
@@ -19968,6 +21668,11 @@
   - split: 3
     text: "能力值：{0}"
     translated: "Ability Score: {0}"
+- raw: "SweetPotato.Item,ConsumeDurability,207,物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2},[System.Boolean]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2}"
+    translated: "Item ID: {0}, Name: {1}, Durability -1, Current Remaining Durability: {2}"
 - raw: "SweetPotato.Item,GetParseName,465,心,[System.String，System.String]"
   splits:
   - split: 3
@@ -20313,6 +22018,11 @@
   - split: 3
     text: "境界提升时使用"
     translated: "Use when enhancing realms"
+- raw: "SweetPotato.ItemStorage,CheckCanCreateAndAddByItemId,10,ItemPrototype表中没有物品id:{0},[System.Int64，System.Int32]"
+  splits:
+  - split: 3
+    text: "ItemPrototype表中没有物品id:{0}"
+    translated: "The Item Prototype table does not contain an item ID: {0}"
 - raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,959,未卜·,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -20573,6 +22283,11 @@
   - split: 3
     text: "解密："
     translated: "Decryption:"
+- raw: "SweetPotato.QuestLog,GetJieMiConditionType,40,不支持的jiemi condition type {0} 请联系程序,[System.Int32]"
+  splits:
+  - split: 3
+    text: "不支持的jiemi condition type {0} 请联系程序"
+    translated: "Unsupported decryption condition type {0}. Please contact support."
 - raw: "SweetPotato.RandomEventsStorage/WaitCompleteState,OnEnter,139,接受事件，开始{0},[]"
   splits:
   - split: 3
@@ -20608,6 +22323,16 @@
   - split: 3
     text: "<color=#ffffff>善恶值改变:</color> ×{0}"
     translated: "<color=#ffffff>The balance between good and evil has changed: </color> ×{0}"
+- raw: "SweetPotato.Spell,PlayCastAnim,627,配置错误，id:,[]"
+  splits:
+  - split: 3
+    text: "配置错误，id:"
+    translated: "Configuration error, ID:"
+- raw: "SweetPotato.Spell,PlayCastAnim,686,配置错误动画未找到，id:,[]"
+  splits:
+  - split: 3
+    text: "配置错误动画未找到，id:"
+    translated: "Animation configuration error not found, ID:"
 - raw: "SweetPotato.Spell,do_effect,698,免疫,[System.Int32]"
   splits:
   - split: 3
@@ -20628,16 +22353,86 @@
   - split: 3
     text: "{0} 层数不足"
     translated: "{0}, layers are insufficient."
+- raw: "SweetPotato.WordEntryGlobalManager,CreateOneWrodEntryTypeByRandomGroupId,18,WordEntryRandom gourpId {0} is 空,[System.Int32]"
+  splits:
+  - split: 3
+    text: "WordEntryRandom gourpId {0} is 空"
+    translated: "Word entry random group ID {0} is empty."
+- raw: "SweetPotato.WordEntryGlobalManager,CreateOneWrodEntryTypeByRandomGroupId,87,WordEntryRandomType gourpId {0} is 空,[System.Int32]"
+  splits:
+  - split: 3
+    text: "WordEntryRandomType gourpId {0} is 空"
+    translated: "Word Entry Random Type group ID {0} is empty."
+- raw: "SweetPotato.WordEntryGlobalManager,CreateOneWrodEntryTypeByRandomGroupId,181,SpellPrototype id {0} is 空,[System.Int32]"
+  splits:
+  - split: 3
+    text: "SpellPrototype id {0} is 空"
+    translated: "SpellPrototype ID {0} is empty."
+- raw: "SweetPotato.WordEntryGlobalManager,CreateOneWrodEntryTypeByRandomGroupId,231,SpellEffect id {0} is 空,[System.Int32]"
+  splits:
+  - split: 3
+    text: "SpellEffect id {0} is 空"
+    translated: "Spell Effect ID {0} is Empty."
+- raw: "SweetPotato.WordEntryGlobalManager,Load,501,随机词条id:{0} 的对应技能id:{1} 不存在 请检查,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "随机词条id:{0} 的对应技能id:{1} 不存在 请检查"
+    translated: "Random Word Entry ID: The corresponding skill ID for {0}: {1} does not exist, please check."
+- raw: "SweetPotato.WordEntryGlobalManager,Load,576,随机词条id:{0} 的对应技能effect id:{1} 不存在 请检查,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "随机词条id:{0} 的对应技能effect id:{1} 不存在 请检查"
+    translated: "Random entry ID: {0}'s corresponding skill effect ID: {1} does not exist, please check."
+- raw: "SweetPotato.WordEntryGlobalManager,Load,629,随机词条id:{0} 对应 WordEntryType id:{1} 不存在 请检查,[LitJson.JsonData]"
+  splits:
+  - split: 3
+    text: "随机词条id:{0} 对应 WordEntryType id:{1} 不存在 请检查"
+    translated: "Random keyword ID: {0} corresponds to WordEntryType ID: {1} does not exist. Please check."
+- raw: "SweetPotato.WordEntryLooter,GetWord,10,word_entry未配置id为{0}的数据,[System.Int64]"
+  splits:
+  - split: 3
+    text: "word_entry未配置id为{0}的数据"
+    translated: "The data entry for word entry is not configured with the ID {0}."
+- raw: "SweetPotato.WordEntryLooter,GetWordDes,445,stringformat {0} 错误,[System.Int64，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "stringformat {0} 错误"
+    translated: "Error in string format: {0}"
+- raw: "SweetPotato.WordEntryLooter,GetWordDes,476,WordEntry ID: {0} 不存在,[System.Int64，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "WordEntry ID: {0} 不存在"
+    translated: "WordEntry ID: {0} does not exist."
+- raw: "SweetPotato.WordEntryLooter,GetWordDesNew,465,stringformat {0} 错误,[System.Int64，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "stringformat {0} 错误"
+    translated: "Error in string format: {0}"
+- raw: "SweetPotato.WordEntryLooter,GetWordDesNew,496,WordEntry ID: {0} 不存在,[System.Int64，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "WordEntry ID: {0} 不存在"
+    translated: "WordEntry ID: {0} does not exist."
 - raw: "SweetPotato.SpellManager,LearnSpell,194,学会,[System.Int64]"
   splits:
   - split: 3
     text: "学会"
     translated: "Learned it"
+- raw: "SweetPotato.SpellManager,SetLianZhaoInfo,436,要配置的连招技能与其他连招id:{0}存在重复,[System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int64>]"
+  splits:
+  - split: 3
+    text: "要配置的连招技能与其他连招id:{0}存在重复"
+    translated: "Skills to be configured for combos and other combo IDs: {0} contains duplicates"
 - raw: "SweetPotato.SpellManager,SetLianZhaoInfo,472,要配置的连招技能与其他连招存在重复,[System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int64>]"
   splits:
   - split: 3
     text: "要配置的连招技能与其他连招存在重复"
     translated: "The combo skill to be configured has overlapping elements with other combos."
+- raw: "SweetPotato.SpellManager,EquipSpell,191,要装备的技能id:{0}不存在,[SweetPotato.SpellType，SweetPotato.TAOLU_TYPE，System.Int32，System.Int64，System.Boolean]"
+  splits:
+  - split: 3
+    text: "要装备的技能id:{0}不存在"
+    translated: "Skills ID to be equipped: {0} does not exist"
 - raw: "SweetPotato.SpellManager,ChangeSpellTaoLu,73,切换冷却中,[SweetPotato.TAOLU_TYPE，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -20708,6 +22503,16 @@
   - split: 3
     text: "没有路径可以连接成线"
     translated: "No paths can be connected into a line."
+- raw: "SweetPotato.JingMaiEditManager,CreateOrWashWordEntry,64,经脉zhoutianId:{0}画线的词条配置，数量多余1个,[System.Int32]"
+  splits:
+  - split: 3
+    text: "经脉zhoutianId:{0}画线的词条配置，数量多余1个"
+    translated: "Meridian Pathways: Terms exceeding 1 entries are marked by {0}."
+- raw: "SweetPotato.JingMaiEditManager,CreateOrWashWordEntry,104,经脉zhoutianId:{0}画线的词条配置，数量是0个,[System.Int32]"
+  splits:
+  - split: 3
+    text: "经脉zhoutianId:{0}画线的词条配置，数量是0个"
+    translated: "Meridian Qi Pathway ID: The term configuration marked by {0} consists of 0 entries."
 - raw: "SweetPotato.JingMaiEditManager,IsZhenLiValueEnough,53,当前真力值不足,[SweetPotato.Tile]"
   splits:
   - split: 3
@@ -20718,6 +22523,16 @@
   - split: 3
     text: "没有路径可以连接成线"
     translated: "No paths can be connected into a line."
+- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,0,镖队npc组,[]"
+  splits:
+  - split: 3
+    text: "镖队npc组"
+    translated: "Escort Team NPCs Group"
+- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,16,劫镖npc组,[]"
+  splits:
+  - split: 3
+    text: "劫镖npc组"
+    translated: "Robbery Escort NPC Group"
 - raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,32,劫镖队生成范围,[]"
   splits:
   - split: 3
@@ -20753,6 +22568,16 @@
   - split: 3
     text: "{0}下的押镖队伍为空，无法创建劫镖队伍"
     translated: "The escort team on {0}'s route is empty; unable to create a robbery team."
+- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,358,找不到{0}附近的waypoint点，无法生成Npc,[System.Int32]"
+  splits:
+  - split: 3
+    text: "找不到{0}附近的waypoint点，无法生成Npc"
+    translated: "Cannot find a waypoint point near {0}, unable to generate NPC."
+- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,524,{0}附近没有合适的spawnpoint刷出运镖劫镖相关npc,[System.Int32]"
+  splits:
+  - split: 3
+    text: "{0}附近没有合适的spawnpoint刷出运镖劫镖相关npc"
+    translated: "There are no suitable spawn points near {0} to generate NPCs related to escorting or robbing caravans."
 - raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,712,{0}中{1}队伍的头领创建失败，队伍创建失败,[System.Int32]"
   splits:
   - split: 3
@@ -20768,6 +22593,11 @@
   - split: 3
     text: "{0}创建劫匪队伍时镖师队伍已经不存在，队伍创建失败"
     translated: "During the creation of a bandit gang by {0}, the courier team no longer existed; the formation failed."
+- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,1067,{0}中模板为{1}的劫镖运镖Npc创建失败,[System.Int32]"
+  splits:
+  - split: 3
+    text: "{0}中模板为{1}的劫镖运镖Npc创建失败"
+    translated: "Failed to create the Escorting and Robbing NPC for the '{1}' template in region '{0}'."
 - raw: "SweetPotato.Identity.XiangShi,GetClosestDaZuoPoint,40,已在所有的修炼点完成修行,[]"
   splits:
   - split: 3
@@ -20783,6 +22613,11 @@
   - split: 3
     text: "有技能处于冷却中，无法卸下"
     translated: "Skill on cooldown, cannot be removed"
+- raw: "SweetPotato.Setting.TutorialPanel,ShowContent,108,Prefab/UISprite/UI_YingDao/提示-,[System.String]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_YingDao/提示-"
+    safeToTranslate: false
 - raw: "SweetPotato.QuestViewNew.QuestRewardItemTip,ShowItemTip,53,品质：未知,[SweetPotato.Item，System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -21048,6 +22883,46 @@
   - split: 3
     text: "当前真力值不足"
     translated: "Current true power value insufficient"
+- raw: "SweetPotato.GMView.GMView,ShuLiangZhengJia,49,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,ShuLiangZhengJia,120,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,WuXiaoHao,49,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,WuXiaoHao,120,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,TeShuCiTiao,45,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,TeShuCiTiao,124,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,ShuZhiFuDong,47,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
+- raw: "SweetPotato.GMView.GMView,ShuZhiFuDong,118,物品ID：{0}添加{1}个成功,[]"
+  splits:
+  - split: 3
+    text: "物品ID：{0}添加{1}个成功"
+    translated: "Item ID: {0} successfully added {1}"
 - raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshPanel,20,锤炼,[]"
   splits:
   - split: 3
@@ -21443,6 +23318,11 @@
   - split: 3
     text: "配方"
     translated: "Formula"
+- raw: "ModSpace.NpcAttriDynamic,GetInfo,17,NpcAttriDynamic中id是null:{0},[System.Int64]"
+  splits:
+  - split: 3
+    text: "NpcAttriDynamic中id是null:{0}"
+    translated: "NPC attribute dynamic ID is null: {0}"
 - raw: "ModSpace.NpcAttriDynamic,GetName,0,角色属性,[]"
   splits:
   - split: 3
@@ -21478,11 +23358,36 @@
   - split: 3
     text: "任务 "
     translated: "Task"
+- raw: "ModSpace.QuestPrototype,GetInfoById,45,questId:{0}，配置表中没有配置这个任务id,[System.Int64]"
+  splits:
+  - split: 3
+    text: "questId:{0}，配置表中没有配置这个任务id"
+    translated: "QuestId: {0}, the task ID is not configured in the configuration table."
+- raw: "ModSpace.ConditionProtoData,FormString,518,条件完成需要的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.String]"
+  splits:
+  - split: 3
+    text: "条件完成需要的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "The configuration format of the item string required to complete the condition is incorrect: ConditionPrototype.Id: {0}"
 - raw: "ModSpace.ConditionPrototype,GetName,13,目标 ,[]"
   splits:
   - split: 3
     text: "目标 "
     translated: "Objective"
+- raw: "ModSpace.ConditionPrototype,LoadCSV,375,条件完成扣除的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "条件完成扣除的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "Item string configuration format error in condition completion deduction: ConditionPrototype.Id: {0}"
+- raw: "ModSpace.ConditionPrototype,LoadCSV,640,条件完成添加的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.Int32，System.String[]]"
+  splits:
+  - split: 3
+    text: "条件完成添加的物品字符串配置格式错误，ConditionPrototype.Id:{0}"
+    translated: "The item string configuration format is incorrect; ConditionPrototype.Id: {0}"
+- raw: "ModSpace.YedScript,OpenFile,126,yed未找到，请安装到指定路径,[System.String]"
+  splits:
+  - split: 3
+    text: "yed未找到，请安装到指定路径"
+    translated: "File not found; please install to a specified path."
 - raw: "ModSpace.YedScript,OpenFile,132,，是否需要安装？,[System.String]"
   splits:
   - split: 3
@@ -21503,6 +23408,11 @@
   - split: 3
     text: "出售"
     translated: "For sale"
+- raw: "ModSpace.SpellEffect,GetInfoById,23,SpellEffect中没有配置id:{0}的buff,[System.Int64]"
+  splits:
+  - split: 3
+    text: "SpellEffect中没有配置id:{0}的buff"
+    translated: "There is no ID configured in SpellEffect: {0}'s buff"
 - raw: "ModSpace.DataGroupItemSlot,Rename,60,输入内容,[]"
   splits:
   - split: 3
@@ -21543,6 +23453,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "ModSpace.DataGroupItemSlot,DeleteData,194,是否删除Npc,[]"
+  splits:
+  - split: 3
+    text: "是否删除Npc"
+    translated: "Should we delete the NPC?"
 - raw: "ModSpace.DataGroupItemSlot,DeleteData,212,确定,[]"
   splits:
   - split: 3
@@ -21553,6 +23468,11 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
+- raw: "ModSpace.DataGroupItemSlot,DeleteData,242,是否删除Shop组,[]"
+  splits:
+  - split: 3
+    text: "是否删除Shop组"
+    translated: "Should the Shop group be deleted?"
 - raw: "ModSpace.DataGroupItemSlot,DeleteData,260,确定,[]"
   splits:
   - split: 3
@@ -21688,6 +23608,11 @@
   - split: 3
     text: "公开"
     translated: "Openly"
+- raw: "ModSpace.ModelUploadView,OpenLocal,30,请选择小于1M的图片！,[]"
+  splits:
+  - split: 3
+    text: "请选择小于1M的图片！"
+    translated: "Please select an image smaller than 1 MB!"
 - raw: "ModSpace.ModelUploadView,.ctor,7,全部,[]"
   splits:
   - split: 3
@@ -22073,6 +23998,11 @@
   - split: 3
     text: "订阅取消成功！"
     translated: "Subscription cancellation successful!"
+- raw: "ModSpace.WorksShopManager,QueryDetailsCompleted,294,yyyy年MM月dd日,[Steamworks.SteamUGCRequestUGCDetailsResult_t，System.Boolean]"
+  splits:
+  - split: 3
+    text: "yyyy年MM月dd日"
+    translated: "April 15, 2023"
 - raw: "ModSpace.WorksShopManager,QueryDetailsCompleted,374,标签：,[Steamworks.SteamUGCRequestUGCDetailsResult_t，System.Boolean]"
   splits:
   - split: 3
@@ -22083,11 +24013,21 @@
   - split: 3
     text: "\\n模组大小："
     translated: "\\nMod Size:"
+- raw: "ModSpace.WorksShopManager,QueryDetailsCompleted,440,KB\\n更新日期：,[Steamworks.SteamUGCRequestUGCDetailsResult_t，System.Boolean]"
+  splits:
+  - split: 3
+    text: "KB\\n更新日期："
+    translated: "KB\\nUpdate Date:"
 - raw: "ModSpace.WorksShopManager,QueryDetailsCompleted,452,\\n描述：,[Steamworks.SteamUGCRequestUGCDetailsResult_t，System.Boolean]"
   splits:
   - split: 3
     text: "\\n描述："
     translated: "\\nDescription:"
+- raw: "ModSpace.WorksShopManager,QueryCompleted,221,yyyy年MM月dd日,[Steamworks.SteamUGCQueryCompleted_t，System.Boolean]"
+  splits:
+  - split: 3
+    text: "yyyy年MM月dd日"
+    translated: "April 15, 2023"
 - raw: "ModSpace.WorksShopManager,QueryCompleted,302,标签：,[Steamworks.SteamUGCQueryCompleted_t，System.Boolean]"
   splits:
   - split: 3
@@ -22098,6 +24038,11 @@
   - split: 3
     text: "\\n模组大小："
     translated: "\\nMod Size:"
+- raw: "ModSpace.WorksShopManager,QueryCompleted,368,KB\\n更新日期：,[Steamworks.SteamUGCQueryCompleted_t，System.Boolean]"
+  splits:
+  - split: 3
+    text: "KB\\n更新日期："
+    translated: "KB\\nUpdate Date:"
 - raw: "ModSpace.WorksShopManager,QueryCompleted,381,\\n描述：,[Steamworks.SteamUGCQueryCompleted_t，System.Boolean]"
   splits:
   - split: 3
@@ -22108,6 +24053,11 @@
   - split: 3
     text: "模组上传成功！"
     translated: "Module upload successful!"
+- raw: "ModSpace.WorksShopManager,SubmitItemUpdateResult,45,对应id={0}模组不存在,[Steamworks.SubmitItemUpdateResult_t，System.Boolean]"
+  splits:
+  - split: 3
+    text: "对应id={0}模组不存在"
+    translated: "The module corresponding to ID={0} does not exist."
 - raw: "ModSpace.WorksShopManager,SubmitItemUpdateResult,72,模组上传失败！,[Steamworks.SubmitItemUpdateResult_t，System.Boolean]"
   splits:
   - split: 3
@@ -22118,11 +24068,21 @@
   - split: 3
     text: "操作失败！"
     translated: "Operation failed!"
+- raw: "ModSpace.WorksShopManager,OnRailEvent,389,yyyy年MM月dd日,[rail.RAILEventID，rail.EventBase]"
+  splits:
+  - split: 3
+    text: "yyyy年MM月dd日"
+    translated: "April 15, 2023"
 - raw: "ModSpace.WorksShopManager,OnRailEvent,416,标签：\\n模组大小：,[rail.RAILEventID，rail.EventBase]"
   splits:
   - split: 3
     text: "标签：\\n模组大小："
     translated: "Tag: \\nModule Size:"
+- raw: "ModSpace.WorksShopManager,OnRailEvent,466,KB\\n更新日期：,[rail.RAILEventID，rail.EventBase]"
+  splits:
+  - split: 3
+    text: "KB\\n更新日期："
+    translated: "KB\\nUpdate Date:"
 - raw: "ModSpace.WorksShopManager,OnRailEvent,479,\\n描述：,[rail.RAILEventID，rail.EventBase]"
   splits:
   - split: 3

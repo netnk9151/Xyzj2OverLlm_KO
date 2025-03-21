@@ -17,6 +17,19 @@
   idealFontSize: 16
   allowWordWrap: true
 
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/BagPlayer/ZhongYao/Sort_New*"
+  sampleText: "Default sorting"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/BagPlayer/ZhongYao/Level_New*"
+  sampleText: "All ranks"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/BagPlayer/ZhongYao/Select*/SelectItem*/Text"
+  sampleText: "All of them"
+  idealFontSize: 24
+  allowWordWrap: true
+
 
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/4bg/name"
   sampleText: "High-grade Divine Illumination Scripture Fragment"
