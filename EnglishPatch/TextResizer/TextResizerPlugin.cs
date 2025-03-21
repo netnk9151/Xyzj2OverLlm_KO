@@ -42,6 +42,8 @@ internal class TextResizerPlugin : BaseUnityPlugin
     // Cache for storing previously matched results
     public static Dictionary<string, TextResizerContract> CachedMatchedResizers = [];
 
+    //TODO: SuperTextMesh for NPC text
+
     private void Awake()
     {
         Logger = base.Logger;

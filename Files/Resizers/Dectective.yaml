@@ -52,7 +52,16 @@
   alignment: "Midline"
   allowWordWrap: true
 
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/*/*/zuo/Des"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/TuiLiPanel/TL2/Des"
+  sampleText: "Jixi Tian'en and Si Shuitong have been having an affair."
+  idealFontSize: 20
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/TuiLiPanel/TL2/WenHaoText"
+  sampleText: "Who is in love with whom?"
+  idealFontSize: 20
+  allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/*/*/*/Des"
   sampleText: "The scroll depicts the surrounding scenery of Cloud Crane Village, featuring images of Bodhi statues, Clear Forests, and Golden Light Gardens. Someone has written a line of ancient poetry above it: Daitong Zhiseng Fo. Based on the style of the calligraphy, it appears to be from a distant past."
   idealFontSize: 20
   allowWordWrap: true
@@ -62,3 +71,31 @@
   allowWordWrap: true
   allowLeftTrimText: true
 
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/AnserSelectPanel/bg/Title"
+  sampleText: "  Inference conclusion"
+  idealFontSize: 28
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/TuiLiPanel/JieMiPan/you/Des"
+  sampleText: "The old woman also heard that not long ago, a servant and their master were caught having an affair. Both were beheaded after being reported to the authorities. Even Master Jix Tian'en was there at the time; he got really frightened!"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/AnserSelectPanel/bg/GameObject*/GameObject*/*/des"
+  sampleText: "Ji Tian'en is feeling unwell"
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/AnserSelectPanel/bg/AnswerDes"
+  sampleText: "Jitian En's reaction was quite unusual..."
+  idealFontSize: 24
+  allowAutoSizing: false
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/TuiLiPanel/JieMiPan/*/ZhengCiTitle"
+  sampleText: "Treason, death by decapitation"
+  idealFontSize: 20
+  alignment: "TopLeft"
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/JieMiQuestViewNew/Mask/TuiLiPanel/JieMiPan/*/Title"
+  sampleText: "Testimony:"
+  idealFontSize: 20
+  alignment: "TopLeft"
+  allowWordWrap: true

@@ -5,16 +5,16 @@
   allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Background/ShowGroup/*/Viewport/Content/Item*/Title"
   sampleText: "<color=#f8744b>[Activity]</color>·Power theory activities"
-  idealFontSize: 20
+  idealFontSize: 18
   allowWordWrap: true
   allowAutoSizing: false
-  adjustWidth: 140
-  adjustX: 70
+  adjustWidth: 300
+  adjustX: 150
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Background/ShowGroup/*/Viewport/Content/Item*/Time"
   sampleText: "Jing Yan40Year9Month12DayChildTime"
-  idealFontSize: 20
+  idealFontSize: 18
   allowWordWrap: true
-  adjustX: 110
+  adjustX: 300
 
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/ChuanWenView/Content/Detail/Background/Time"
   sampleText: "Jing Yan40Year9Month12DayChildTime"

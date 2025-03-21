@@ -145,22 +145,26 @@
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/*/IntensifyPanel/Root/*/UIBaseAttri/Text*"
   sampleText: "External Attack：+4"
-  idealFontSize: 26
+  idealFontSize: 20
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/After/UIBaseAttri/txt_name*"
   sampleText: "External Attack"
-  idealFontSize: 26
+  idealFontSize: 20
   allowWordWrap: true
   adjustWidth: 20
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/After/UIBaseAttri/txt_before_attri*"
+  sampleText: "23"
+  idealFontSize: 20
+  allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/*/IntensifyPanel/Root/*/UIBaseAttri/*/Text_Value"
   sampleText: "280"
-  idealFontSize: 24
-  alignment: "MidlineLeft"
+  idealFontSize: 20
   allowWordWrap: true
   adjustX: 50
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/*/IntensifyPanel/Root/*/UIBaseAttri/*/Text"
   sampleText: "  Toughness"
-  idealFontSize: 24
+  idealFontSize: 20
   allowWordWrap: true
   allowLeftTrimText: true
   adjustX: 50
