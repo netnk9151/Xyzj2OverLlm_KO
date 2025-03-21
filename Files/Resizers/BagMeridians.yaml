@@ -1,3 +1,12 @@
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/DiLan/XiuWeiText"
+  sampleText: "Cultivation level:269"
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustWidth: 100
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/DiLan/GanwuText"
+  sampleText: "Insight:17054"
+  idealFontSize: 20
+  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmai/Scroll View/Viewport/Content/partGraph/*/Text (TMP)"
   sampleText: "  Yang Wei"
   idealFontSize: 22
@@ -14,17 +23,6 @@
   allowLeftTrimText: true
   adjustX: 25
   adjustWidth: 100
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/DiLan/XiuWeiText"
-  sampleText: "Cultivation level:269"
-  idealFontSize: 24
-  alignment: "TopLeft"
-  allowWordWrap: true
-  adjustWidth: 100
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/DiLan/GanwuText"
-  sampleText: "Insight:17054"
-  idealFontSize: 24
-  alignment: "TopLeft"
-  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/title/imageactive/titleactive"
   sampleText: "Wandering swordsman"
   idealFontSize: 24
@@ -227,11 +225,6 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: -450
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/questpart/Scroll View/Viewport/Content/TagPrefab (1)/Content/MainQuestProfeb(Clone)/Image/QuestNameText"
-  sampleText: "Retreat to the mountains for quiet meditation"
-  idealFontSize: 20
-  alignment: "MidlineLeft"
-  allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmai/TipBg/Text (TMP)"
   sampleText: "  Help information: \n1, you can perform the activation once your cultivation level and pre-required meridian point conditions are met.\n2, upon activation, can add special attributes through cultivation techniques and hidden attributes through secret scrolls.\n3, when adding a secret scroll, additional conditions for its use will be introduced. It can only be activated if these extra conditions are met.\n4, once activated, allows for refining specific and additional attributes to better suit your needs. When refining, you must add the corresponding art of intention or secret scroll.\n5, you can activate the Ren and Du meridians after activating the six meridians on the Meridian Activation interface. You must have all eight meridians activated to proceed with activating the Five Viscera.\n6, clicking the double fish icon at the center allows you to enter the Ren and Du Meridian configuration interface. The outer circle represents the points on the Ren and Du Meridians, while the center is for configuring the Heart Methods.\n7, configuring a qi cultivation technique will grant the corresponding true power value. The primary qi cultivation technique yields 100% of its true power effect, while the secondary qi cultivation technique provides 30%. A maximum of three qi cultivation configurations can be saved.\n8, after configuring the Heart Method, one can perform the Circulation of the Twelve Vessels and the Refining of the Five Organs. The Circulation of the Twelve Vessels yields additional effects, while only refined Five Organ attributes become effective.\n9, for the circulation of meridians around the heavens to take effect, it must satisfy at least three interconnected points. Circulations without any attribute effects cannot be activated."
   idealFontSize: 18
