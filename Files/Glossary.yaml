@@ -1,4 +1,9 @@
 ﻿# Terms
+- raw: 丹师
+  result: Alchemist
+  badtrans: true
+  direct: Dan Shi
+  literal: Dan Shi
 - raw: 西王爷
   result: Western Prince
   badtrans: true
@@ -2181,6 +2186,13 @@
   badtrans: false
 
 # Titles
+- raw: 大夫
+  result: Doctor
+  context: A title used to address or refer to a medical professional or physician.
+  literal: Da Fu
+  badtrans: true
+  allowalt: 
+    - Dr
 - raw: 二当家
   result: Second Boss
   badtrans: true
@@ -2546,6 +2558,32 @@
   badtrans: true
 
 # Name
+- raw: 乐竹芦
+  result: Le Zhulu
+  badtrans: true
+  direct: Le Zhu Lu
+  literal: Le Zhu Lu
+- raw: 谢大夫
+  result: Doctor Xie
+  badtrans: true
+  direct: Xie Daifu
+  literal: Xie Daifu
+  allowalt: 
+    - Dr Xie
+    - Dr. Xie
+- raw: 孙大夫
+  result: Doctor Sun
+  badtrans: true
+  direct: Sun Daifu
+  literal: Sun Daifu
+  allowalt: 
+    - Dr Sun
+    - Dr. Sun
+- raw: 于宴
+  result: Yu Yan
+  badtrans: true
+  direct: Yu Yan
+  literal: Yu Yan
 - raw: 杨恒
   result: Yang Heng
   badtrans: true

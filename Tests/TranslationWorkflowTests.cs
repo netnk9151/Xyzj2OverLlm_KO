@@ -198,6 +198,7 @@ public class TranslationWorkflowTests
         // Use this when we've changed a glossary value that doesnt check hallucination
         var newGlossaryStrings = new List<string>
         {
+            //"残烛",
             //"[发现宝箱]",
             //"[石化]",
             //"[开心]",
