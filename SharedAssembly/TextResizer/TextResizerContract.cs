@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using YamlDotNet.Core;
+﻿using YamlDotNet.Core;
 using YamlDotNet.Serialization;
 
 namespace SharedAssembly.TextResizer;

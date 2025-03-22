@@ -21,18 +21,16 @@ namespace EnglishPatch.Sprites
         private Dictionary<string, byte[]> _cachedReplacements = [];
         private List<string> _cachedSpriteNames = [];
         private string _spritesPath;
-
-        private ConfigEntry<bool> _onlyUseSpriteName;
+        public static bool Enabled = true;
 
         private void Awake()
         {
             Logger = base.Logger;
-            _spritesPath = Path.Combine(Paths.BepInExRootPath, "sprites");
 
-            _onlyUseSpriteName = Config.Bind("General",
-                "OnlyUseSpriteName",
-                false,
-                "Instead of using full sprite path - just use sprite name instead. EXPERIMENTAL!");
+            if (!Enabled)
+                return;
+
+            _spritesPath = Path.Combine(Paths.BepInExRootPath, "sprites");
 
             // Cache all textures from the replacement folder
             CacheReplacementTextures();
@@ -100,10 +98,7 @@ namespace EnglishPatch.Sprites
 
             var result = string.Empty;
 
-            if (_onlyUseSpriteName.Value)
-                result = fileName;
-            else
-                result = !string.IsNullOrEmpty(directory) ? Path.Combine(directory, fileName) : fileName;
+            result = !string.IsNullOrEmpty(directory) ? Path.Combine(directory, fileName) : fileName;
 
             result = result.Replace("\\", "/")
                 .ToLower();
@@ -115,10 +110,7 @@ namespace EnglishPatch.Sprites
         {
             var output = string.Empty;
 
-            if (_onlyUseSpriteName.Value)
-                output = spriteName;
-            else
-                output = $"{assetName}/{spriteName}";
+            output = $"{assetName}/{spriteName}";
 
             output = output
                 .Replace("\\", "/")

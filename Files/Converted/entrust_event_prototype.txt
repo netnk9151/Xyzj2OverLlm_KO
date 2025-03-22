@@ -14212,7 +14212,7 @@
     translated: "Black Sand Scourging of Corrupt Offenders - Middle."
   - split: 24
     text: "{E}前些时日得罪二当家后逃匿，能找到其行踪将其铲除者重谢。"
-    translated: "A generous reward will be given to anyone who can locate and eliminate {E}, who offended the Second Master some days ago and has since gone into hiding."
+    translated: "Prior to {E}, after offending the Second Boss and going into hiding, anyone who can locate their whereabouts and eliminate them will be greatly rewarded."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
     translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
@@ -15881,7 +15881,7 @@
   splits:
   - split: 1
     text: "鸿月帮1"
-    translated: "Hongyue Gang 1"
+    translated: "Grand Moon Gang 1"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15892,7 +15892,7 @@
   splits:
   - split: 1
     text: "鸿月帮2"
-    translated: "Hong Yue Bang 2"
+    translated: "Grand Moon Gang 2"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
     translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
@@ -15903,7 +15903,7 @@
   splits:
   - split: 1
     text: "鸿月帮3"
-    translated: "Hong Yue Guild 3"
+    translated: "Grand Moon Gang 3"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15914,7 +15914,7 @@
   splits:
   - split: 1
     text: "鸿月帮4"
-    translated: "Hongyue Faction 4"
+    translated: "Grand Moon Gang 4"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15925,7 +15925,7 @@
   splits:
   - split: 1
     text: "鸿月帮5"
-    translated: "Hongyue Party 5"
+    translated: "Grand Moon Gang 5"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
     translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
@@ -15936,7 +15936,7 @@
   splits:
   - split: 1
     text: "鸿月帮6"
-    translated: "Hong Yue Bang 6"
+    translated: "Grand Moon Gang 6"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15947,7 +15947,7 @@
   splits:
   - split: 1
     text: "鸿月帮7"
-    translated: "Hong Yue Bang 7"
+    translated: "Grand Moon Gang 7"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15958,7 +15958,7 @@
   splits:
   - split: 1
     text: "鸿月帮8"
-    translated: "Hong Yue Hang 8"
+    translated: "Grand Moon Gang 8"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15969,7 +15969,7 @@
   splits:
   - split: 1
     text: "鸿月帮9"
-    translated: "Hongyue Brotherhood 9"
+    translated: "Grand Moon Gang 9"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -16697,7 +16697,7 @@
   splits:
   - split: 1
     text: "鸿月帮悬赏"
-    translated: "Hongyu Guild is offering a reward"
+    translated: "Grand Moon Gang's reward offer"
   - split: 24
     text: "当年从军之时，有一人名为{E}，杀了我手下不少弟兄，今日脱离军伍，终能报此仇，特悬赏{E}项上人头！"
     translated: "Years ago, when I first joined the army, there was a man named {E} who killed many of my comrades. Having left military service, today I can finally take revenge. Special bounty: the head of {E}!"
@@ -16711,10 +16711,10 @@
   splits:
   - split: 1
     text: "鸿月帮悬赏"
-    translated: "Hongyu Guild is offering a reward"
+    translated: "Grand Moon Gang's reward offer"
   - split: 24
     text: "杨宁前辈在我加入鸿月帮时助我良多，如今我逐渐站稳脚跟，与求两个{I}表我感激之心！"
-    translated: "Senior Yang Ning has been a great help to me since I joined the Hong Yue Sect. Now that I've gradually found my footing, I want to express my gratitude with these two gifts on this {I}."
+    translated: "Yang Ning, my senior, helped me a lot when I joined the Grand Moon Gang. Now that I have gradually stood on my own feet, I would like to express my gratitude with these two gifts of {I}."
   - split: 34
     text: "获得{I}（{NeedItemInfoCount}/{N})"
     translated: "Acquired {I} ({NeedItemInfoCount}/{N})"
@@ -16725,10 +16725,10 @@
   splits:
   - split: 1
     text: "鸿月帮悬赏"
-    translated: "Hongyu Guild is offering a reward"
+    translated: "Grand Moon Gang's reward offer"
   - split: 24
     text: "鸿月帮近来预谋一大事，将其记录在{I}中，可是却被{E}窃走，特求人寻回。"
-    translated: "The Hong Yue Sect has recently been plotting a significant matter and recorded it in {I}, but it was stolen by {E}. We urgently seek someone to retrieve it."
+    translated: "The Grand Moon Gang has recently planned a major undertaking and recorded it in {I}, but it was stolen by {E}. They urgently seek someone to retrieve it."
   - split: 34
     text: "夺回{E}身上的{I}（{IsCanFinish:0:1}/1)"
     translated: "Reclaim {E}'s {I} ({IsCanFinish:0:1}/1)"
@@ -16739,7 +16739,7 @@
   splits:
   - split: 1
     text: "鸿月帮悬赏"
-    translated: "Hongyu Guild is offering a reward"
+    translated: "Grand Moon Gang's reward offer"
   - split: 24
     text: "听说{E}保管着的{I}中记载着他们门派前辈高人的下落，我有意取之，特发布此悬赏。"
     translated: "I've heard that {E} is guarding the {I}, which contains information about the whereabouts of senior figures from their martial arts sect. I intend to acquire it and hereby issue this reward notice."
@@ -16753,10 +16753,10 @@
   splits:
   - split: 1
     text: "鸿月帮悬赏"
-    translated: "Hongyu Guild is offering a reward"
+    translated: "Grand Moon Gang's reward offer"
   - split: 24
     text: "哼…{E}这厮前些日子来鸿月帮挑衅，我实在看不惯，特求一高手给{E}一点教训尝尝！"
-    translated: "Hmph... The scoundrel {E} came to Hengyue to provoke some days ago, and I really can't stand it. I'm seeking a master to give {E} a lesson for their troubles!"
+    translated: "Hmph... I can't stand that {E} who came to the Grand Moon Gang a few days ago to pick a fight. So I've asked for a skilled person to give {E} a lesson!"
   - split: 34
     text: "与{E}切磋并获胜（{NeedKillNpcItemsCount}/1)"
     translated: "Defeated {E} in a sparring match ({NeedKillNpcItemsCount}/1)"

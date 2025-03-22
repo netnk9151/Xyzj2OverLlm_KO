@@ -13,15 +13,11 @@ using UnityEngine;
 
 namespace EnglishPatch;
 
-/// <summary>
-/// Put dicey stuff in here that might crash the plugin - so it doesnt crash the existing plugins
-/// </summary>
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextResizer", "TextResizer", MyPluginInfo.PLUGIN_VERSION)]
 internal class TextResizerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
-
-    public bool DevMode = false;
+    public static bool DevMode = false;
 
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
     private KeyCode _addResizerAtCursorHotKey2 = KeyCode.F1;
