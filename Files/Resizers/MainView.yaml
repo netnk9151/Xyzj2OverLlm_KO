@@ -15,7 +15,7 @@
   sampleText: "Yang Xiaowei once said that the thing he was least proud of was having been defeated by someone from the Duan family."
   idealFontSize: 24
   allowWordWrap: true
-  #alignment: "TopLeft"
+  alignment: "TopLeft"
   adjustY: 40
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/name"
   sampleText: "Shen Yan Gong."
@@ -99,4 +99,9 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/DaZuoView/Mask/panel/xiulianPanel/rewardsTitle"
   sampleText: "  Upon completing meditation, one may obtain gains."
   idealFontSize: 20
+  allowWordWrap: true
+
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/MapAreaTipView/MapAreaTip/desMask/des"
+  sampleText: "In the Wulin, it is renowned as one of the most terrifying prisons. It is said to be the final place where the Primordial Origin Sword Sect confines evil masters. Many malevolent figures who have caused chaos across the land have spent their remaining days here, and now it holds a master known as Ku Bu Bu, whose power is unfathomable and whose language overflows with absurdity, instilling fear in those who hear of him."
+  idealFontSize: 16
   allowWordWrap: true

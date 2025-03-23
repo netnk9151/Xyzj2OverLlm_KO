@@ -39,6 +39,12 @@
   alignment: "MidlineLeft"
   allowWordWrap: false
   adjustX: 50
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeR/ConditionFab/cond*/Type"
+  sampleText: "Medicine from Guang Mountain"
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 50
+  adjustX: 25
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeR/*"
   sampleText: "  Output rank"
   idealFontSize: 30
@@ -46,24 +52,27 @@
   allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/NoRecipe"
   idealFontSize: 20
-  alignment: "Midline"
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/Name"
   sampleText: "<color=#E4F5E8>Placebo</color>"
   idealFontSize: 20
-  alignment: "Right"
-  allowWordWrap: false
+  allowWordWrap: true
+  alignment: "Center"
+  adjustWidth: 100
+  adjustX: -50
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/Level"
   sampleText: "Levels 1 to 1"
   idealFontSize: 18
-  alignment: "TopRight"
+  alignment: "Top"
   allowWordWrap: false
+  adjustX: -50
   adjustY: -20
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/QualityLevel"
   sampleText: "Quality: Randomly"
   idealFontSize: 18
-  alignment: "TopRight"
+  alignment: "Top"
   allowWordWrap: false
+  adjustX: -50
   adjustY: -20
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/Ret/Scroll View/Viewport/Content/Item/Text"
   sampleText: "<color=#E4F5E8>Placebo</color>"
