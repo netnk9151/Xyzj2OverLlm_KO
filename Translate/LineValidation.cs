@@ -91,11 +91,12 @@ public static partial class LineValidation
                 .Replace(". -", " -")
                 .Replace("！", "!");
 
-            //Take out wide quotes
+            //Take out wide quotes and line split items
             result = result
                 .Replace("’", "'")
-                .Replace("‘", "'");
-
+                .Replace("‘", "'")
+                .Replace("—", "-");
+    
             //Strip .'s
             //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
             //    result = result[..^1];

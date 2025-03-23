@@ -352,3 +352,12 @@
   adjustY: -20
 
 
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfuling/Text*/nohas/desc"
+  sampleText: "  When activating or refining, adding a secret scroll can obtain hidden meridian attributes."
+  idealFontSize: 20
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanling/Text*/has/anlingAttriPart/Content/*/Image/value*"
+  sampleText: "<color=#5DBCF3>External Defense</color>    External Defense + <color=#5DBCF3>24</color>(32)"
+  idealFontSize: 20
+  allowWordWrap: true

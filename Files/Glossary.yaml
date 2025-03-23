@@ -1,4 +1,9 @@
 ﻿# Terms
+- raw: 真人
+  result: Immortal
+  badtrans: true
+  direct: True Person
+  literal: Zhen Ren
 - raw: 三恶
   result: Three Evils
   badtrans: true
@@ -211,17 +216,17 @@
   direct: Drifting Fighter  
   literal: Liulang Wuzhe  
 - raw: 茗心羽士  
-  result: Tea-hearted Taoist Practitioner  
+  result: Tea-hearted Taoist  
   badtrans: true  
   direct: Tea-hearted Practitioner  
   literal: Mingxin Yushi
 - raw: 老年羽士  
-  result: Elder Taoist Practitioner  
+  result: Elder Taoist  
   badtrans: true  
   direct: Elder Feathered Practitioner  
   literal: Laonian Yushi  
 - raw: 闲散羽士  
-  result: Idle Taoist Practitioner  
+  result: Idle Taoist  
   badtrans: true  
   direct: Leisurely Taoist Practitioner  
   literal: Xiansan Yushi  
@@ -229,9 +234,9 @@
   result: Clear Breeze Temple
   badtrans: true
 - raw: 清风观羽士  
-  result: Clear Breeze Temple Taoist Practitioner  
+  result: Clear Breeze Temple Taoist  
   badtrans: true  
-  direct: Clear Wind Temple Taoist Practitioner  
+  direct: Clear Wind Temple Taoist  
   literal: Qingfeng Guan Yushi  
 - raw: 竹剑客  
   result: Bamboo Swordsman  
@@ -259,10 +264,9 @@
   direct: Entrust  
   literal: Wei tuo  
 
-
 # Identity
 - raw: 羽士
-  result: Taoist Practitioner
+  result: Taoist
   only:
     - identity.txt
     - item_base_xianejianghu.txt
@@ -2211,6 +2215,26 @@
   badtrans: false
 
 # Titles
+- raw: 长老
+  result: Elder
+  allowalt: 
+    - Senior
+    - Master
+  badtrans: true
+  direct: Long Old
+  literal: Chang Lao
+- raw: 师叔
+  result: Master Uncle
+  allowalt: 
+    - Master
+  badtrans: true
+  direct: Teacher Uncle
+  literal: Shi Shu
+- raw: 羽士
+  result: Taoist
+  badtrans: true
+  direct: Feathered Practitioner
+  literal: Yu Shi
 - raw: 大夫
   result: Doctor
   context: A title used to address or refer to a medical professional or physician.
@@ -2583,6 +2607,38 @@
   badtrans: true
 
 # Names
+- raw: 玉阳子
+  result: Master Yu Yang
+  badtrans: true
+  direct: Jade Sun Master
+  literal: Yu Yang Zi
+- raw: 玉阳真人
+  result: Immortal Yu Yang
+  badtrans: true
+  direct: Jade Sun True Person
+  literal: Yu Yang Zhen Ren
+- raw: 姚副将
+  result: Deputy General Yao
+  badtrans: true
+  direct: Yao Deputy General
+  literal: Yao Fu Jiang
+- raw: 万事通
+  result: Wan Shi Tong
+  badtrans: false
+  direct: All Things Expert
+  literal: Wan Shi Tong
+- raw: 江雪晴
+  result: Jiang Xueqing
+  badtrans: true
+  direct: River Snow Clear
+  literal: Jiang Xue Qing
+- raw: 雪晴
+  result: Xueqing
+  badtrans: true
+  allowalt:
+    - Snow Clears
+  direct: Snow Clear
+  literal: Xue Qing
 - raw: 行觉
   result: Xing Jue
   badtrans: true
@@ -2770,7 +2826,12 @@
   result: Yue Lan  
   badtrans: true  
   direct: Yue Lan  
-  literal: Yue Lan  
+  literal: Yue Lan 
+- raw: 月兰
+  result: Yue Lan
+  badtrans: true
+  direct: Moon Orchid
+  literal: Yue Lan
 - raw: 木灵子  
   result: Mu Lingzi  
   badtrans: true  
