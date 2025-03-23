@@ -35,7 +35,7 @@ public class MainPlugin : BaseUnityPlugin
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} should be patched!");
 
         // Disable LeadingCharacters and FollowingCharacters line break rules
-        //DisableTMPLineBreakRules();
+        DisableTMPLineBreakRules();
     }
 
     public void OnDestroy()
@@ -43,34 +43,36 @@ public class MainPlugin : BaseUnityPlugin
         Logger.LogWarning($"Plugin {MyPluginInfo.PLUGIN_GUID} is destroyed!");
     }
 
-    //private void DisableTMPLineBreakRules()
-    //{
-    //    TMP_Settings settings = TMP_Settings.instance;
-    //    if (settings != null)
-    //    {
-    //        var lineBreakingRules = new LineBreakingTable()
-    //        { 
-    //            followingCharacters = [], 
-    //            leadingCharacters = [] 
-    //        };
+    private void DisableTMPLineBreakRules()
+    {
+        TMP_Settings settings = TMP_Settings.instance;
+        if (settings != null)
+        {
+            var lineBreakingRules = new LineBreakingTable()
+            {
+                followingCharacters = [],
+                leadingCharacters = []
+            };
 
-    //        SetPrivateField(settings, "m_linebreakingRules", lineBreakingRules);
-    //        Logger.LogInfo("Disabled LeadingCharacters and FollowingCharacters line break rules for TMP settings.");
-    //    }
-    //    else
-    //    {
-    //        Logger.LogError("TMP_Settings instance is null. Cannot disable line break rules.");
-    //    }
-    //}
+            SetPrivateField(settings, "m_linebreakingRules", lineBreakingRules);
+            SetPrivateField(settings, "m_leadingCharacters", null);
+            SetPrivateField(settings, "m_followingCharacters", null);
+            Logger.LogInfo("Disabled LeadingCharacters and FollowingCharacters line break rules for TMP settings.");
+        }
+        else
+        {
+            Logger.LogError("TMP_Settings instance is null. Cannot disable line break rules.");
+        }
+    }
 
-    //private void SetPrivateField(object obj, string fieldName, object value)
-    //{
-    //    FieldInfo field = obj.GetType().GetField(fieldName, BindingFlags.NonPublic | BindingFlags.Instance);
-    //    if (field != null)
-    //        field.SetValue(obj, value);
-    //    else
-    //        Logger.LogError($"Field '{fieldName}' not found in {obj.GetType().Name}.");
-    //}
+    private void SetPrivateField(object obj, string fieldName, object value)
+    {
+        FieldInfo field = obj.GetType().GetField(fieldName, BindingFlags.NonPublic | BindingFlags.Instance);
+        if (field != null)
+            field.SetValue(obj, value);
+        else
+            Logger.LogError($"Field '{fieldName}' not found in {obj.GetType().Name}.");
+    }
 
     //[HarmonyPrefix, HarmonyPatch(typeof(TMP_Settings), "LoadLinebreakingRules")]
     //public static bool Prefix_TMP_Settings_LoadLinebreakingRules()
@@ -121,12 +123,13 @@ public class MainPlugin : BaseUnityPlugin
     //    return false; // Skip the original method
     //}
 
-    [HarmonyPrefix, HarmonyPatch(typeof(TMP_Settings), "GetCharacters")]
-    public static bool Prefix_TMP_Settings_GetCharacters(ref Dictionary<int, char> __result)
-    {
-        __result = [];
-        return false;
-    }
+    //[HarmonyPrefix, HarmonyPatch(typeof(TMP_Settings), "GetCharacters")]
+    //public static bool Prefix_TMP_Settings_GetCharacters(ref Dictionary<int, char> __result)
+    //{
+    //    __result = [];
+    //    Logger.LogWarning($"Hooked GetCharacters!");
+    //    return false;
+    //}
 
     // Replace assets with translated assets
     [HarmonyPrefix, HarmonyPatch(typeof(DataMgr), "LoadDB")]

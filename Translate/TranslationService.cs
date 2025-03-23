@@ -1063,6 +1063,10 @@ public static class TranslationService
                 basePrompt.AppendLine(config.Prompts["DynamicPlaceholderPrompt"]);
         }
 
+        // Special Title prompt
+        if (raw.Contains("羽士"))
+            basePrompt.AppendLine(config.Prompts["DynamicTitleTaoistPrompt"]);
+
         if (!string.IsNullOrEmpty(splitFile.AdditionalPromptName))
             basePrompt.AppendLine(config.Prompts[splitFile.AdditionalPromptName]);
 
