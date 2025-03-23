@@ -11,7 +11,6 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
-using XUnity.ResourceRedirector;
 
 namespace EnglishPatch.Sprites;
 
@@ -143,7 +142,7 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
         // Create a 10x10 pixel area around the cursor (20 pixel buffer on each side)
         var cursorArea = new Rect(mousePosition.x - 10, mousePosition.y - 10, 20, 20);
 
-        // Find all TextMeshProUGUI components in the scene
+        // Find all elements in the scene
         var elements = FindObjectsOfType<Image>();
 
         var responseElements = new List<Image>();
@@ -152,11 +151,13 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
         {
             // Get the RectTransform to check if it contains the cursor position
             var rectTransform = element.rectTransform;
-            if (rectTransform == null) continue;
+            if (rectTransform == null) 
+                continue;
 
             // Check if the text element's screen rect overlaps with our cursor area
             var canvas = element.canvas;
-            if (canvas == null) continue;
+            if (canvas == null) 
+                continue;
 
             // Get the screen rect of the text element
             var camera = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
@@ -210,9 +211,10 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
 
                 var spritePath = $"{_folder}/dumped/{newContract.ReplacementSprite}";
                 //Logger.LogWarning($"Found Sprite Path: {spritePath}");
+                
                 if (!File.Exists(spritePath))
                 {
-                    Texture2D texture = element.sprite.texture;
+                    var texture = element.sprite.texture;
                     byte[] bytes;
 
                     if (texture.isReadable)
@@ -222,12 +224,14 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
                     else
                     {
                         // Create a temporary readable texture
-                        Texture2D readableTexture = new Texture2D(texture.width, texture.height, texture.format, false);
-                        RenderTexture renderTexture = RenderTexture.GetTemporary(texture.width, texture.height);
+                        var readableTexture = new Texture2D(texture.width, texture.height, texture.format, false);
+                        var renderTexture = RenderTexture.GetTemporary(texture.width, texture.height);
+
                         Graphics.Blit(texture, renderTexture);
                         RenderTexture.active = renderTexture;
                         readableTexture.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
                         readableTexture.Apply();
+
                         RenderTexture.active = null;
                         RenderTexture.ReleaseTemporary(renderTexture);
 

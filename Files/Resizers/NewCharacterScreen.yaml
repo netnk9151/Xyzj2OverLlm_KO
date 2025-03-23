@@ -51,8 +51,8 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel1/heichangdi/TianfuScrollView/Viewport/Content/tianfuslotprefab(Clone)/di/tianfudes"
   sampleText: "Feeling cold and lonely with brittle bones, enduring hardship without a day of joy. With an inherent deficiency, harm reduction by <color=#9e9e9e>10%</color>, increased injury susceptibility by <color=#9e9e9e>10%</color>, and a decrease in the acquisition of skill, insight, and money by <color=#9e9e9e>10%</color>."
   idealFontSize: 18
-  minFontSize: 0
-  maxFontSize: 0
+  
+  
   adjustY: -10
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/AttriDetailPanel/kuang/text"
   sampleText: "  Attribute value:"
@@ -89,8 +89,6 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/selectButton/Text (TMP)"
   sampleText: "  Confirmed"
   idealFontSize: 50
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
   allowLeftTrimText: true
   adjustX: -50
@@ -117,8 +115,6 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/Scroll View/Viewport/Content/*/tianfunametext"
   sampleText: "Diligence overcomes nature"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Midline"
   allowWordWrap: true
   adjustX: -20
@@ -127,15 +123,11 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/Scroll View/Viewport/Content/*/costpointtext"
   sampleText: "-20"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "MidlineLeft"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/TianfuScrollView/Viewport/Content/*/di/tianfunametext"
   sampleText: "Good fortune that comes without seeking"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Midline"
   allowWordWrap: true
   adjustX: -20
@@ -144,28 +136,20 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/TianfuScrollView/Viewport/Content/*/di/costpointtext"
   sampleText: "-15"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "MidlineLeft"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/TianFuSelectPanel/TianfuScrollView/Viewport/Content/*/di/tianfudes"
   sampleText: "Throughout life, sustenance naturally comes with one's livelihood, and together, fortune and reputation flourish alongside long life. With both fortune and happiness in abundance, True Qi increases by <color=#e0834c>50</color>, while Potential increases by <color=#e0834c>10</color>."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
   adjustY: -10
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel2/desRoot/txt_des (1)"
   sampleText: "After a noble general fell from grace due to an unfortunate accident and found himself living among the Jianghu, he emerged as a young wanderer with great potential. With a heart set on saving the world, he unfortunately made enemies among many influential figures and faced numerous dangers. At a point where his life hung by a thread, Yuan Jun acknowledged that possessing such pure intentions in chaotic times was rare. Thus, Ling Chun was appointed to assist him, extending his lifespan so he could continue living. Unfortunately, most of his past experiences were now hazy memories."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel2/*/content/itemprefab*/title"
   sampleText: "Luck"
   idealFontSize: 18
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Center"
   allowWordWrap: true
   adjustX: -10
@@ -173,54 +157,38 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/InstantiateViewNewNewNew/mask/Panel2/*/content/itemprefab*/value"
   sampleText: "18"
   idealFontSize: 18
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Center"
   allowWordWrap: true
   adjustX: 10
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/*/detailpart/subgrid/*/detail"
   sampleText: "The enemy's attributes are common; difficulty is normal and easy to pick up."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Left"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/*/detailpart/desc"
   sampleText: "In the Jianghu, there may be some turbulence, but there is still ample space for you to showcase your martial prowess and wisdom."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/bg/desc"
   sampleText: "<color=#f3f3f3>Authentic Jianghu: </color>Under this difficulty level, the growth curves for various attributes are relatively realistic. Improvements through equipment and martial arts are more pronounced. The young hero will have more adventures in the Jianghu and experience greater satisfaction from treasure hunting."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/*/detailpart/tip"
   sampleText: "Suitable for general players, allowing them to experience the game's storyline and mechanics while offering a moderate level of challenge."
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/toggroup/*/Background/desc"
   sampleText: "  Talent Points After Completion"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Left"
   allowWordWrap: true
   allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/toggroup/*/Background/value"
   sampleText: "+10"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NanDuView/toggroup/JiangHuXiaoZu/Background/desc"
   sampleText: "Talent Points After Completion"
   idealFontSize: 20
-  minFontSize: 0
-  maxFontSize: 0
   alignment: "Left"
   allowWordWrap: true

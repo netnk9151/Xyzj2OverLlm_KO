@@ -1,8 +1,5 @@
 ﻿using BepInEx;
-using BepInEx.Configuration;
 using BepInEx.Logging;
-using EnglishPatch.Support;
-using Mono.Cecil;
 using System;
 using System.Collections.Generic;
 using System.IO;

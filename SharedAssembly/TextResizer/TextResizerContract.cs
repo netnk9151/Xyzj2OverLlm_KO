@@ -34,8 +34,6 @@ public record TextResizerContract
     // To deal with some of the wierdness in the game
     public bool AllowLeftTrimText = false;
 
-    //public bool PathIsRegex = false;
-
     public float AdjustX;
 
     public float AdjustY;
@@ -44,16 +42,17 @@ public record TextResizerContract
 
     public float AdjustHeight;
 
+    public float? LineSpacing;
+
+    public float? CharacterSpacing;
+
+    public float? WordSpacing;
+
     //[YamlIgnore]
     //public Regex? CompiledRegex { get; private set; }
 
     //public TextResizerContract()
     //{
-    //    //if (PathIsRegex)
-    //    //{
-    //    //    CompiledRegex = new Regex(Path, RegexOptions.Compiled);
-    //    //}
-    //    //else 
     //    if (Path.Contains("*"))
     //    {
     //        // Convert to Regex

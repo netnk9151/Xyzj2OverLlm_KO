@@ -5,6 +5,8 @@ namespace EnglishPatch;
 
 public class TextMetadata : MonoBehaviour
 {
+    public string ActiveResizerPath;
+
     public float OriginalX;
     public float OriginalY;
     public float OriginalWidth;
@@ -15,6 +17,10 @@ public class TextMetadata : MonoBehaviour
 
     public bool OriginalAllowWordWrap;
     public bool OriginalAllowAutoSizing;
+
+    public float OriginalLineSpacing;
+    public float OriginalCharacterSpacing;
+    public float OriginalWordSpacing;
 
     public float AdjustX;
     public float AdjustY;

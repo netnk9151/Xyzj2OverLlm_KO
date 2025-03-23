@@ -172,12 +172,10 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/UICost/*/txt_name"
   sampleText: "Copper coin:"
   idealFontSize: 26
-  alignment: "MidlineRight"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/UICost/*/txt_name"
   sampleText: "<color=#3AD67C>Shattering the sword to forge a stone</color>："
   idealFontSize: 26
-  alignment: "MidlineRight"
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/TitleText"
   sampleText: "<color=#BA7EFE>Descending into the abyss·Centuries of battle</color>"
@@ -187,17 +185,14 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/UICost/*/Text"
   sampleText: "54197/288"
   idealFontSize: 28
-  alignment: "MidlineLeft"
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/UICost/*/Text"
   sampleText: "<color=#C23333>0</color>/2"
   idealFontSize: 28
-  alignment: "MidlineLeft"
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/Text"
   sampleText: "  Forging requires the following materials"
   idealFontSize: 28
-  alignment: "MidlineLeft"
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/Button_Do/Text"
   sampleText: "  Hammering and forging"
@@ -206,7 +201,6 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeR/NodeDelegate/Button_Delegate/ReasonText"
   sampleText: "\nInsufficient materials!"
   idealFontSize: 20
-  alignment: "TopRight"
   allowWordWrap: false
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeR/NodeDelegate/Button_Delegate/Text (TMP)"
   sampleText: "Commission"
