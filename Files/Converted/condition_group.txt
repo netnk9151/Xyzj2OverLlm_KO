@@ -1127,7 +1127,7 @@
   splits:
   - split: 5
     text: "与小二对话"
-    translated: "Conversing with Little Second"
+    translated: "Speaking to the waiter"
 - raw: "10202#16#1#10073|10076|10077|10078|10079|10080#103#击败黑沙寨众人#0#10201#2569#####0##0###0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -1417,7 +1417,7 @@
   splits:
   - split: 5
     text: "与小二对话"
-    translated: "Conversing with Little Second"
+    translated: "Speaking to the waiter"
 - raw: "51201#19#1#1277.67,235.622,549.244#513#去往齐国#0##1618#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -4855,7 +4855,7 @@
   splits:
   - split: 5
     text: "找到小二"
-    translated: "Find Xiao Er"
+    translated: "Find the waiter"
 - raw: "305502#16#1#1089#3056#和百里戚钺切磋#0##51508#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -8398,7 +8398,7 @@
   splits:
   - split: 5
     text: "芒景请我去找<color=&&00ff00ff>城中客栈的小二鲁以城拿他的包裹。</color>"
-    translated: "Mang Jing asked me to go find the innkeeper's assistant, Lu Yicheng, at the <color=&&00ff00ff>inn in town</color>, to get his luggage."
+    translated: "Mang Jing asked me to go find Lu Yicheng, the waiter from the inn in town, and get his luggage."
   - split: 16
     text: "拿取包裹"
     translated: "Take the package"
@@ -8406,7 +8406,7 @@
   splits:
   - split: 5
     text: "芒景请我去找豫京客栈的小二鲁以城拿他的包裹。"
-    translated: "Mang Jing asked me to go and get my luggage from the innkeeper, Lu Yicheng, at the Yu Capital Inn."
+    translated: "Mang Jing asked me to go with him to get his belongings from the waiter, Lu Yicheng, at the Yu Capital Inn."
 - raw: "391005#20#1#0&24|971833|1#3910#顺利拿到包裹，<color=&&00ff00ff>这下可以回去找芒景痛饮一番了！</color>#0##0#####0##0#去找芒景##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -8424,7 +8424,7 @@
   splits:
   - split: 5
     text: "芒景打算从军去了，<color=&&00ff00ff>将寄放在豫京客栈的小二鲁以城那的包裹送给了我，有时间的话去取走吧。</color>"
-    translated: "Mangjing plans to enlist in the military. <color=&&00ff00ff>The porter from Lu Yingcheng at the Yu Capital inn has delivered his package to me. Feel free to pick it up when you have time.</color>"
+    translated: "Mangjing plans to join the military. The waiter from Yu Capital Inn, Lu Yicheng, has left his package for me. Please pick it up when you have time. <color=&&00ff00ff></color>"
   - split: 16
     text: "拿取包裹"
     translated: "Take the package"
@@ -8432,7 +8432,7 @@
   splits:
   - split: 5
     text: "芒景打算从军去了，将寄放在城中客栈的小二鲁以城那得包裹送给了我，有时间的话去取走吧。"
-    translated: "Mang Jing plans to enlist in the army and has entrusted his luggage, which was stored at a guesthouse in the city, to Lu Yicheng, a porter. He asked me to pick it up when I have time"
+    translated: "Mang Jing plans to join the military and has entrusted his belongings, stored at an inn in the city, to be delivered by waiter Lu Yicheng. Please pick them up when you have time."
 - raw: "391201#20#1#0&24|976131|1#3912#<color=&&00ff00ff>牧华清</color>在<color=&&00ff00ff>豫京街上</color>寻找他的孩子。#0##0#####0##0#与牧华清回家##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -8484,7 +8484,7 @@
   splits:
   - split: 5
     text: "在城外酒楼的小二那里，我得知有个男子带着一位小女孩往桃隐村的方向去了。虽然暂时没有其他线索，<color=&&00ff00ff>但我认为现在我应该前往桃隐村追寻下去。</color>"
-    translated: "At the tavern outside the city, I learned from a server that a man accompanied by a young girl was heading toward Hidden Peach Village. Although there are no other clues at this time, <color=&&00ff00ff>I believe I should proceed to Hidden Peach Village and continue my pursuit.</color>"
+    translated: "At the tavern outside the city, I learned from the waiter that a man was leading a young girl toward Hidden Peach Village. Although there are no other clues at present,<color=&&00ff00ff> I believe I should proceed to Hidden Peach Village and continue my pursuit.</color>"
   - split: 16
     text: "去桃隐村"
     translated: "Go to the Hidden Peach Village"
@@ -16604,12 +16604,12 @@
   splits:
   - split: 5
     text: "与小二交谈"
-    translated: "Speak with Xiao Er"
+    translated: "Talk to the waiter"
 - raw: "50021002#13#1#180087#50021#向小二打听消息#0#50021001#50153#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "向小二打听消息"
-    translated: "Ask Xiao Er about the news"
+    translated: "Ask the waiter about any news"
 - raw: "50021003#13#1#180090#50021#在旁边打探消息#0#50021002#50154#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
