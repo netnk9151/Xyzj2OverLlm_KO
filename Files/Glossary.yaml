@@ -1942,14 +1942,17 @@
   direct: Lingjun  
   literal: Lingjun  
 
-
-
 # Items and Minerals
-# - raw: 包子
-#   result: Steamed Bun
-#   badtrans: true
-#   direct: Bun
-#   literal: Bao Zi
+- raw: 小包子
+  result: Little Steamed Bun
+  badtrans: true
+  direct: Small bun
+  literal: Xiao Bao Zi
+- raw: 包子
+  result: Steamed Bun
+  badtrans: true
+  direct: Bun
+  literal: Bao Zi
 - raw: 明心见性丹
   result: Mind-clearing and nature-revealing pill
   badtrans: true
