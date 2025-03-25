@@ -2,6 +2,7 @@
 using BepInEx.Logging;
 using HarmonyLib;
 using SweetPotato;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 namespace EnglishPatch;
@@ -41,7 +42,7 @@ public class PropertyChangerPlugin : BaseUnityPlugin
             if (showUI && !initialized)
             {
                 if (WorldManager.Instance != null && WorldManager.Instance.m_PlayerEntity != null)
-                {
+                {                    
                     userInput = WorldManager.Instance.m_PlayerEntity.m_name;
                     initialized = true; // Mark as initialized
                 }                
@@ -60,6 +61,8 @@ public class PropertyChangerPlugin : BaseUnityPlugin
 
         if (GUI.Button(new Rect(290, 40, 100, 20), "Change Name"))
         {
+            //Replace spaces with non breaking space
+            userInput = Regex.Replace(userInput, @"\s", "\u00A0");
             WorldManager.Instance.m_PlayerEntity.m_name = userInput;
         }
 

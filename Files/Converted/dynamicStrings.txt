@@ -157,7 +157,7 @@
   splits:
   - split: 3
     text: "用户在线时长到达防沉迷限制!"
-    translated: "User online time has reached the anti-addiction limit!"
+    translated: "User online time has reached the anti‑addiction limit!"
 - raw: "AppGame,CheckTapAnti,87,用户游戏时间进入防沉迷宵禁时间段!,[]"
   splits:
   - split: 3
@@ -182,7 +182,7 @@
   splits:
   - split: 3
     text: "根据国家防沉迷通知的相关要求和腾讯最新强化的防沉迷策略，由于您是未成年人，仅能在周五、周六、周日及法定节假日20时至21时进入游戏。"
-    translated: "In accordance with the national anti-addiction notice and Tencent's latest enhanced anti-addiction strategy, as you are a minor, you can only access the game from 20 to 21 on Fridays, Saturdays, Sundays, and designated holidays."
+    translated: "In accordance with the national anti‑addiction notice and Tencent's latest enhanced anti‑addiction strategy, as you are a minor, you can only access the game from 20 to 21 on Fridays, Saturdays, Sundays, and designated holidays."
 - raw: "AppGame,OnWeGameFangChengMiTip,36,确定,[System.Boolean]"
   splits:
   - split: 3
@@ -412,12 +412,12 @@
   splits:
   - split: 3
     text: "Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在"
-    translated: "Script Field Event: Randomly Assign One Foe NPC to Group - The entity for NPC ID {} does not exist."
+    translated: "Script Field Event: Randomly Assign One Foe NPC to Group ‑ The entity for NPC ID {} does not exist."
 - raw: "AutomatManager,Script_FieldEventRandomOneFirendNpcToGroup,230,Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在,[AutomatScript，CallFunc]"
   splits:
   - split: 3
     text: "Script_FieldEventRandomOneFoeNpcToGroup npcId为{}的entity不存在"
-    translated: "Script Field Event: Randomly Assign One Foe NPC to Group - The entity for NPC ID {} does not exist."
+    translated: "Script Field Event: Randomly Assign One Foe NPC to Group ‑ The entity for NPC ID {} does not exist."
 - raw: "AutomatManager,Script_ZhuaBuGuiAn,85,正在关押,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -477,7 +477,8 @@
   splits:
   - split: 3
     text: "当前道具itemid{0}characterlineFlag-{1}与游戏characterlineFlag{2}不一致跳过"
-    translated: "The current item ID of the character's equipment is {0} - {1} does not match the game character line flag {2}, skipping."
+    translated: "The current item ID of the character's equipment is {0} ‑ {1} does not match the game character line flag {2}, skipping."
+    flaggedForRetranslation: true
 - raw: "ItemPrototype,AddPrototype,40,item_base表中装备id为{0}的attributeId填写不正确!,[ItemPrototype]"
   splits:
   - split: 3
@@ -1357,7 +1358,7 @@
   splits:
   - split: 3
     text: "姓名含敏感词汇，请重新输入"
-    translated: "Name contains sensitive words, please re-enter"
+    translated: "Name contains sensitive words, please re‑enter"
 - raw: "RadarChart,DrawHexagon,82,初始位置：x: ,[UnityEngine.UI.VertexHelper]"
   splits:
   - split: 3
@@ -1377,7 +1378,7 @@
   splits:
   - split: 3
     text: "血海深仇"
-    translated: "Deep-seated blood grudge"
+    translated: "Deep‑seated blood grudge"
 - raw: "TuJianEnhanceItemSlot,OnReset,298,不共戴天,[]"
   splits:
   - split: 3
@@ -1442,7 +1443,7 @@
   splits:
   - split: 3
     text: "无所不谈"
-    translated: "All-purpose chatterer"
+    translated: "All‑purpose chatterer"
 - raw: "TuJianEnhanceItemSlot,OnReset,578,亲密无间,[]"
   splits:
   - split: 3
@@ -1462,12 +1463,12 @@
   splits:
   - split: 3
     text: "莫逆之交"
-    translated: "Life-long sworn brothers"
+    translated: "Life‑long sworn brothers"
 - raw: "TuJianEnhanceItemSlot,OnReset,654,八拜之交,[]"
   splits:
   - split: 3
     text: "八拜之交"
-    translated: "Eighth-degree friendship"
+    translated: "Eighth‑degree friendship"
 - raw: "TuJianEnhanceItemSlot,OnReset,668,生死之交,[]"
   splits:
   - split: 3
@@ -1487,7 +1488,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "The young hero's thoughts contain taboo words; please re-enter."
+    translated: "The young hero's thoughts contain taboo words; please re‑enter."
 - raw: "DaTingView,InpuFeildOnDeselect,16,搜索道具...,[System.String]"
   splits:
   - split: 3
@@ -2007,7 +2008,8 @@
   splits:
   - split: 3
     text: "物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2}"
-    translated: "Item ID: {0}, name: {1}, Durability -1, Current Remaining Durability: {2}"
+    translated: "Item ID: {0}, name: {1}, Durability ‑1, Current Remaining Durability: {2}"
+    flaggedForRetranslation: true
 - raw: "FishArtistry,HasFishRod,8,少侠还没准备鱼竿呢！,[]"
   splits:
   - split: 3
@@ -2057,7 +2059,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "The young hero's thoughts contain taboo words; please re-enter."
+    translated: "The young hero's thoughts contain taboo words; please re‑enter."
 - raw: "BagTip,InpuFeildOnDeselect,33,搜索道具......,[System.String]"
   splits:
   - split: 3
@@ -2772,7 +2774,7 @@
   splits:
   - split: 3
     text: "劣质"
-    translated: "Low-quality"
+    translated: "Low‑quality"
 - raw: "ComString,.cctor,530,普通,[]"
   splits:
   - split: 3
@@ -3332,7 +3334,7 @@
   splits:
   - split: 3
     text: "<color=#d5d4d4>耗时：      </color><color=#49c14f>"
-    translated: "<color=#d5d4d4>Time-consuming:       </color><color=#49c14f>"
+    translated: "<color=#d5d4d4>Time‑consuming:       </color><color=#49c14f>"
 - raw: "FabricationView,RefreshCost,88,</color><color=#f0f0f0>时辰</color>,[]"
   splits:
   - split: 3
@@ -3407,7 +3409,7 @@
   splits:
   - split: 3
     text: "精细：此刻刀组制作粗糙，精细度不足，雕琢过多坚韧金玉可能会导致刀尖崩裂。"
-    translated: "Meticulous: The current blade set is roughly made and lacks precision; over-carving the toughness of gold or jade could cause the tip to crack."
+    translated: "Meticulous: The current blade set is roughly made and lacks precision; over‑carving the toughness of gold or jade could cause the tip to crack."
 - raw: "FabricationView,GetConditionLessStr,71,灵巧：此织机木料粗劣，灵巧度不足，若纺织更多柔韧丝线，可能会导致绳轮断裂。,[]"
   splits:
   - split: 3
@@ -3757,7 +3759,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "The young hero's name contains taboo words; please re-enter."
+    translated: "The young hero's name contains taboo words; please re‑enter."
 - raw: "InstantiateView,OnOpenBase,475,生辰箴言,[]"
   splits:
   - split: 3
@@ -4702,27 +4704,32 @@
   splits:
   - split: 3
     text: "当使用阴属性招式，角色进入阴属性状态，此时角色获得阴属性战斗加成和一些特殊效果：\\n1：角色切换进入阴属性招式状态，此时攻击柔状态的角色会获得伤害比例加成。反之如果攻击阳属性偏向的，则伤害会走相抵系数。\\n2：进入阴状态的角色需要相合的内功进行配合：\\n     相合：阴状态需要阴偏向的内功来催动，进入内功-招式相合状态。\\n     相克：阴状态的的技能如果使用阳偏向、柔偏向的内功，自身会根据阴属性与柔、阳属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：阴属性达到一定程度后开启冰封效果，相合状态下，每次阴属性攻击会累加自身阴属性与阳、柔属性的差值，累加值达到2300触发冰封，对自身周围敌人施加一个霜冻效果。\\n     霜冻：冻住目标，使目标无法进行任何动作，持续一段时间。"
-    translated: "When using Yin attribute techniques, the character enters a Yin attribute state. At this time, the character gains combat enhancements from the Yin attribute and some special effects: \\n1: When a character switches to an Yin attribute technique state, they will receive damage multiplier bonuses when attacking characters in a Soft state. Conversely, if they attack a character with a Yang attribute bias, the damage will be subject to a counteracting coefficient.\\n2: Characters in a yin state require compatible neigong to work together: \\nHarmonious union: The Yin state requires a Yin-biased internal cultivation to activate and enter into the practice of Neigong - Matching Technique State.\\nCounteract each other: If a skill in the Yin state uses Neigong with a Yang or Soft bias, the self will experience either stagnation of lifeforce or smooth flow of lifeforce based on the disparity between its Yin and Soft attributes versus its Yang attributes.\\nCoexistence or Mutual Thriving: There are no interactions between internal power and martial arts techniques, nor any special effects.\\n3: Once the Yin attribute reaches a certain level, it triggers the Frozen effect. In a compatible state, each attack using the Yin attribute will accumulate the difference between its own Yin and Yang, Soft attributes. When this accumulated value reaches 2300, it activates the Frozen effect, applying a freezing aura to enemies in the surrounding area.\\nFrostbite: Freeze the target, rendering them unable to perform any actions for a period of time."
+    translated: "When using Yin attribute techniques, the character enters a Yin attribute state. At this time, the character gains combat enhancements from the Yin attribute and some special effects: \\n1: When a character switches to an Yin attribute technique state, they will receive damage multiplier bonuses when attacking characters in a Soft state. Conversely, if they attack a character with a Yang attribute bias, the damage will be subject to a counteracting coefficient.\\n2: Characters in a yin state require compatible neigong to work together: \\nHarmonious union: The Yin state requires a Yin‑biased internal cultivation to activate and enter into the practice of Neigong ‑ Matching Technique State.\\nCounteract each other: If a skill in the Yin state uses Neigong with a Yang or Soft bias, the self will experience either stagnation of lifeforce or smooth flow of lifeforce based on the disparity between its Yin and Soft attributes versus its Yang attributes.\\nCoexistence or Mutual Thriving: There are no interactions between internal power and martial arts techniques, nor any special effects.\\n3: Once the Yin attribute reaches a certain level, it triggers the Frozen effect. In a compatible state, each attack using the Yin attribute will accumulate the difference between its own Yin and Yang, Soft attributes. When this accumulated value reaches 2300, it activates the Frozen effect, applying a freezing aura to enemies in the surrounding area.\\nFrostbite: Freeze the target, rendering them unable to perform any actions for a period of time."
+    flaggedForRetranslation: true
 - raw: "AttriPart,.cctor,199,当使用阳属性招式，角色进入阳属性状，此时角色获得阳属性战斗加成和一些特殊效果：\\n1：角色切换进入阳属性招式状态，此时攻击阴状态的角色会获得伤害比例加成。反之如果攻击毒属性偏向的，则伤害会走相抵系数。\\n2：进入阳状态的角色需要相生或者相合的属性的心法进行配合：\\n     相合：阳状态需要阳偏向的内功来催动，进入内功-招式相合状态。\\n     相克：阳状态的的技能如果使用阴偏向、毒偏向的内功，自身会根据阳属性与阴、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：阳属性达到一定程度后开启焚烧效果，相合状态下，每次阳属性攻击会累加自身阳属性与阴、毒属性的差值，累加值达1250触发焚烧，对自身周围敌人施加一个灼烧效果。\\n     灼烧：每秒造成自身阳属性一定比例伤害。,[]"
   splits:
   - split: 3
     text: "当使用阳属性招式，角色进入阳属性状，此时角色获得阳属性战斗加成和一些特殊效果：\\n1：角色切换进入阳属性招式状态，此时攻击阴状态的角色会获得伤害比例加成。反之如果攻击毒属性偏向的，则伤害会走相抵系数。\\n2：进入阳状态的角色需要相生或者相合的属性的心法进行配合：\\n     相合：阳状态需要阳偏向的内功来催动，进入内功-招式相合状态。\\n     相克：阳状态的的技能如果使用阴偏向、毒偏向的内功，自身会根据阳属性与阴、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：阳属性达到一定程度后开启焚烧效果，相合状态下，每次阳属性攻击会累加自身阳属性与阴、毒属性的差值，累加值达1250触发焚烧，对自身周围敌人施加一个灼烧效果。\\n     灼烧：每秒造成自身阳属性一定比例伤害。"
-    translated: "When using a Yang attribute technique, the character enters a Yang attribute state. At this time, the character gains a combat bonus from the Yang attribute and some special effects: \\n1: Switch to a Yang attribute technique; when attacking Yin-stated characters, they receive an additional damage percentage. Conversely, if you attack poison-attribute characters, the damage is reduced by a counteracting coefficient.\\n2: Characters entering a Yang state require complimentary or harmonious attributes of the Heart Method for coordination: \\nIn harmony or in agreement: The Yang state requires Yang-biased internal cultivation to activate and enter into internal power - Synergy of Techniques\\nCounteracting forces: If a skill in the Yang state uses Neigong with Yin or Poison tendencies, the user's Lifeforce may become obstructed or flow freely depending on the difference between the Yang attribute and the Yin or Poison attributes.\\nCoexistence: There are no interactions or combinations of internal power techniques that have any special effects.\\n3: Once the Yang attribute reaches a certain level, the incineration effect is activated. In a synergistic state, each time a Yang attribute attack occurs, it accumulates the difference between its own Yang attribute and Yin, as well as the Poison attribute. When this accumulated value reaches 1250, incineration is triggered, imposing a scorching effect on surrounding enemies.\\nBurning or scorching: Inflicts a certain percentage of damage to their own Yang attribute every second."
+    translated: "When using a Yang attribute technique, the character enters a Yang attribute state. At this time, the character gains a combat bonus from the Yang attribute and some special effects: \\n1: Switch to a Yang attribute technique; when attacking Yin‑stated characters, they receive an additional damage percentage. Conversely, if you attack poison‑attribute characters, the damage is reduced by a counteracting coefficient.\\n2: Characters entering a Yang state require complimentary or harmonious attributes of the Heart Method for coordination: \\nIn harmony or in agreement: The Yang state requires Yang‑biased internal cultivation to activate and enter into internal power ‑ Synergy of Techniques\\nCounteracting forces: If a skill in the Yang state uses Neigong with Yin or Poison tendencies, the user's Lifeforce may become obstructed or flow freely depending on the difference between the Yang attribute and the Yin or Poison attributes.\\nCoexistence: There are no interactions or combinations of internal power techniques that have any special effects.\\n3: Once the Yang attribute reaches a certain level, the incineration effect is activated. In a synergistic state, each time a Yang attribute attack occurs, it accumulates the difference between its own Yang attribute and Yin, as well as the Poison attribute. When this accumulated value reaches 1250, incineration is triggered, imposing a scorching effect on surrounding enemies.\\nBurning or scorching: Inflicts a certain percentage of damage to their own Yang attribute every second."
+    flaggedForRetranslation: true
 - raw: "AttriPart,.cctor,212,当使用刚属性招式，角色进入刚属性状态，此时角色获得刚属性加成和一些特殊效果：\\n1：角色切换进入刚属性招式状态，此时攻击毒状态的角色会获得伤害比例加成。反之如果攻击柔属性偏向的，则伤害会走相抵系数。\\n2：进入刚状态的角色需要相合的内功进行配合：\\n     相合：刚状态需要刚偏向的内功来催动，进入内功-招式相合状态。\\n     相克：刚状态的的技能如果使用柔偏向、毒偏向的内功，自身会根据刚属性与柔、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：刚属性达到一定程度可以开启无坚不摧，相合状态下，每次刚属性攻击会累加自身刚属性与柔、毒属性的差值，累加值达到1550触发猛攻。\\n     猛攻：持续时间内，提升10%暴击几率，可叠加至10层。,[]"
   splits:
   - split: 3
     text: "当使用刚属性招式，角色进入刚属性状态，此时角色获得刚属性加成和一些特殊效果：\\n1：角色切换进入刚属性招式状态，此时攻击毒状态的角色会获得伤害比例加成。反之如果攻击柔属性偏向的，则伤害会走相抵系数。\\n2：进入刚状态的角色需要相合的内功进行配合：\\n     相合：刚状态需要刚偏向的内功来催动，进入内功-招式相合状态。\\n     相克：刚状态的的技能如果使用柔偏向、毒偏向的内功，自身会根据刚属性与柔、毒属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：刚属性达到一定程度可以开启无坚不摧，相合状态下，每次刚属性攻击会累加自身刚属性与柔、毒属性的差值，累加值达到1550触发猛攻。\\n     猛攻：持续时间内，提升10%暴击几率，可叠加至10层。"
-    translated: "When using a technique with the Hard attribute, the character enters a Hard state. During this time, the character receives bonuses from the Hard attribute and some special effects: \\n1: Switching to the Hard attribute state will increase damage percentage against characters in a poison status. Conversely, attacking those with an inclination towards Soft attributes results in damage reduction based on counter coefficients.\\n2: Characters in a hardened state require compatible neigong for coordination: \\nHarmonious partnership: The hard state requires hard-leaning neigong to activate and enter the neigong - Synergy of techniques.\\nMutual antagonism or opposition: When using a technique in the hard state with an internal power that leans towards soft or poison attributes, one's own lifeforce may become obstructed or flow smoothly based on the gap between the hard attribute and the soft or poison attributes.\\nCoexist beneficially: There are no life-and-death interactions of internal power and technique combinations that have any special effects.\\n3: When the Hard attribute reaches a certain level, Unyielding Force can be activated. In this state, each attack using the Hard attribute will cumulatively add the difference between its own Hard attribute and the Soft and Poison attributes. This cumulative value triggers a fierce attack once it reaches 1550.\\nFierce assault: During this duration, increase 10% critical hit chance, which can stack up to 10 layers."
+    translated: "When using a technique with the Hard attribute, the character enters a Hard state. During this time, the character receives bonuses from the Hard attribute and some special effects: \\n1: Switching to the Hard attribute state will increase damage percentage against characters in a poison status. Conversely, attacking those with an inclination towards Soft attributes results in damage reduction based on counter coefficients.\\n2: Characters in a hardened state require compatible neigong for coordination: \\nHarmonious partnership: The hard state requires hard‑leaning neigong to activate and enter the neigong ‑ Synergy of techniques.\\nMutual antagonism or opposition: When using a technique in the hard state with an internal power that leans towards soft or poison attributes, one's own lifeforce may become obstructed or flow smoothly based on the gap between the hard attribute and the soft or poison attributes.\\nCoexist beneficially: There are no life‑and‑death interactions of internal power and technique combinations that have any special effects.\\n3: When the Hard attribute reaches a certain level, Unyielding Force can be activated. In this state, each attack using the Hard attribute will cumulatively add the difference between its own Hard attribute and the Soft and Poison attributes. This cumulative value triggers a fierce attack once it reaches 1550.\\nFierce assault: During this duration, increase 10% critical hit chance, which can stack up to 10 layers."
+    flaggedForRetranslation: true
 - raw: "AttriPart,.cctor,225,当使用柔属性招式，角色进入柔属性状态，此时角色获得柔属性加成和一些特殊效果：\\n1：角色切换进入柔属性招式状态，此时攻击刚状态的角色会获得伤害比例加成。反之如果攻击阴属性偏向的，则伤害会走相抵系数。\\n2：进入柔状态的角色需要相合的内功进行配合：\\n     相合：柔状态需要柔偏向的内功来催动，进入内功-招式相合状态。\\n     相克：柔状态的的技能如果使用刚偏向、阴偏向的内功，自身会根据柔属性与阴、刚属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：柔属性达到一定程度可以开启柔化万物，相合状态下，每次柔属性攻击会累加自身柔属性与阴、刚属性的差值，累加值达到1800触发化解。\\n     化解：持续时间内免疫负面效果。,[]"
   splits:
   - split: 3
     text: "当使用柔属性招式，角色进入柔属性状态，此时角色获得柔属性加成和一些特殊效果：\\n1：角色切换进入柔属性招式状态，此时攻击刚状态的角色会获得伤害比例加成。反之如果攻击阴属性偏向的，则伤害会走相抵系数。\\n2：进入柔状态的角色需要相合的内功进行配合：\\n     相合：柔状态需要柔偏向的内功来催动，进入内功-招式相合状态。\\n     相克：柔状态的的技能如果使用刚偏向、阴偏向的内功，自身会根据柔属性与阴、刚属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：柔属性达到一定程度可以开启柔化万物，相合状态下，每次柔属性攻击会累加自身柔属性与阴、刚属性的差值，累加值达到1800触发化解。\\n     化解：持续时间内免疫负面效果。"
-    translated: "When using a technique with the soft attribute, the character enters a soft state. In this state, the character gains bonuses from the soft attribute and some special effects: \\n1: Switching to the soft attribute technique state enhances damage dealt to characters in a hard attribute state by a percentage. Conversely, if attacking characters with a yin attribute bias, damage will be mitigated based on a countering coefficient.\\n2: Characters in a soft state require compatible internal power for coordination: \\nIn harmony or agreement: The soft state requires the influence of soft-oriented Neigong to be activated, leading into the internal skill - Synergy of Techniques.\\nCounteracting or Opposition: If a soft-state skill is used with an internal power that leans towards hard or Yin attributes, the user's lifeforce may become obstructed or flow smoothly based on the disparity between the soft attribute and the hard or Yin attributes.\\nMutually beneficial or complementary existence: There are no interactions or combinations of internal power techniques and skills that have any special effects.\\n3: When the soft attribute reaches a certain level, it can open the Softening All Things ability. In a compatible state, each time a soft attribute attack is made, it accumulates the difference between its own soft attribute and yin versus hard attributes. Once the accumulated value reaches 1800, it triggers counteraction.\\nCounter: Immunity to negative effects during the duration."
+    translated: "When using a technique with the soft attribute, the character enters a soft state. In this state, the character gains bonuses from the soft attribute and some special effects: \\n1: Switching to the soft attribute technique state enhances damage dealt to characters in a hard attribute state by a percentage. Conversely, if attacking characters with a yin attribute bias, damage will be mitigated based on a countering coefficient.\\n2: Characters in a soft state require compatible internal power for coordination: \\nIn harmony or agreement: The soft state requires the influence of soft‑oriented Neigong to be activated, leading into the internal skill ‑ Synergy of Techniques.\\nCounteracting or Opposition: If a soft‑state skill is used with an internal power that leans towards hard or Yin attributes, the user's lifeforce may become obstructed or flow smoothly based on the disparity between the soft attribute and the hard or Yin attributes.\\nMutually beneficial or complementary existence: There are no interactions or combinations of internal power techniques and skills that have any special effects.\\n3: When the soft attribute reaches a certain level, it can open the Softening All Things ability. In a compatible state, each time a soft attribute attack is made, it accumulates the difference between its own soft attribute and yin versus hard attributes. Once the accumulated value reaches 1800, it triggers counteraction.\\nCounter: Immunity to negative effects during the duration."
+    flaggedForRetranslation: true
 - raw: "AttriPart,.cctor,238,当使用毒属性招式，角色进入毒属性状态，此时角色获得毒属性加成和一些特殊效果：\\n1：角色切换进入毒属性属性招式状态，此时攻击阳状态的角色会获得伤害比例加成。反之如果攻击刚属性偏向的，则伤害会走相抵系数。\\n2：进入毒状态的角色需要相合的内功进行配合：\\n     相合：毒状态需要毒偏向的内功来催动，进入内功-招式相合状态。\\n     相克：毒状态的的技能如果使用刚偏向、阳偏向的内功，自身会根据毒属性与阳、刚属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：毒属性达到一定程度后开启枯萎效果，相合状态下，每次毒属性攻击会累加自身毒属性与刚、阳属性的差值，累加值达到1550触发毒瘴。\\n     毒瘴：对周围目标施加瘴气效果，持续时间内减少目标治疗效果、降低目标输出、使目标受伤增加。,[]"
   splits:
   - split: 3
     text: "当使用毒属性招式，角色进入毒属性状态，此时角色获得毒属性加成和一些特殊效果：\\n1：角色切换进入毒属性属性招式状态，此时攻击阳状态的角色会获得伤害比例加成。反之如果攻击刚属性偏向的，则伤害会走相抵系数。\\n2：进入毒状态的角色需要相合的内功进行配合：\\n     相合：毒状态需要毒偏向的内功来催动，进入内功-招式相合状态。\\n     相克：毒状态的的技能如果使用刚偏向、阳偏向的内功，自身会根据毒属性与阳、刚属性的差距出现气血不畅或是气血贯通。\\n     相生：没有任何生克的内功和招式搭配，没有任何特殊作用。\\n3：毒属性达到一定程度后开启枯萎效果，相合状态下，每次毒属性攻击会累加自身毒属性与刚、阳属性的差值，累加值达到1550触发毒瘴。\\n     毒瘴：对周围目标施加瘴气效果，持续时间内减少目标治疗效果、降低目标输出、使目标受伤增加。"
-    translated: "When using poison attribute techniques, the character enters a poison attribute state. At this time, the character gains poison attribute bonuses and some special effects: \\n1: Switch to a poisonous technique state; attacks against characters in the Yang state will receive increased damage. Conversely, attacking those with an inclination towards the Hard attribute results in damage mitigation based on the counteracting coefficient.\\n2: Characters in a poisoned state require complementary neigong for synchronization: \\nHarmonious or compatible: The poison state requires a specific internal skill to activate and enter into the internal skill - Synergy of Techniques Status.\\nCounteracting or opposition: When using skills in a poisoned state with Neigong that is biased towards hardness or Yang, the practitioner's lifeforce may become obstructed or flow smoothly depending on the difference between the poison attribute and the attributes of Yang and Hardness.\\nCoexistence and mutual flourishing: There are no life-generating or destructive combinations of Neigong and techniques that result in any special effects.\\n3: When the poison attribute reaches a certain level, it activates wither effects. In a harmonious state, each poison attack accumulates the difference between its own poison attribute and the values of hard, yang attributes. When this accumulated value reaches 1550, a toxic fume is triggered.\\nPoisonous miasma: Apply miasma effect to targets in the area; reduce target's healing effects and output during its duration, and increase target's received damage."
+    translated: "When using poison attribute techniques, the character enters a poison attribute state. At this time, the character gains poison attribute bonuses and some special effects: \\n1: Switch to a poisonous technique state; attacks against characters in the Yang state will receive increased damage. Conversely, attacking those with an inclination towards the Hard attribute results in damage mitigation based on the counteracting coefficient.\\n2: Characters in a poisoned state require complementary neigong for synchronization: \\nHarmonious or compatible: The poison state requires a specific internal skill to activate and enter into the internal skill ‑ Synergy of Techniques Status.\\nCounteracting or opposition: When using skills in a poisoned state with Neigong that is biased towards hardness or Yang, the practitioner's lifeforce may become obstructed or flow smoothly depending on the difference between the poison attribute and the attributes of Yang and Hardness.\\nCoexistence and mutual flourishing: There are no life‑generating or destructive combinations of Neigong and techniques that result in any special effects.\\n3: When the poison attribute reaches a certain level, it activates wither effects. In a harmonious state, each poison attack accumulates the difference between its own poison attribute and the values of hard, yang attributes. When this accumulated value reaches 1550, a toxic fume is triggered.\\nPoisonous miasma: Apply miasma effect to targets in the area; reduce target's healing effects and output during its duration, and increase target's received damage."
+    flaggedForRetranslation: true
 - raw: "AttriPart,.cctor,251,轻功决定了移动速度和开启各种高级轻功的能力。,[]"
   splits:
   - split: 3
@@ -4827,7 +4834,7 @@
   splits:
   - split: 3
     text: "刀法养成，学习高级刀法的条件，同时可以获得一定的特技。"
-    translated: "Blade Technique Development - Conditions for Learning Advanced Blade Techniques and Gaining Certain Skills."
+    translated: "Blade Technique Development ‑ Conditions for Learning Advanced Blade Techniques and Gaining Certain Skills."
 - raw: "AttriPart,.cctor,519,剑术养成，学习高级剑术技能的条件，同时可以获得一定的特技。,[]"
   splits:
   - split: 3
@@ -4852,7 +4859,7 @@
   splits:
   - split: 3
     text: "兵道并不能直接提升个人作战能力。兵学到一定程度可以开启武学特殊领悟可以获得领域类光环。"
-    translated: "Martial Prowess alone cannot directly enhance individual combat ability. Once martial studies reach a certain level, they can unlock special insights in Wuxia that grant domain-class halos."
+    translated: "Martial Prowess alone cannot directly enhance individual combat ability. Once martial studies reach a certain level, they can unlock special insights in Wuxia that grant domain‑class halos."
 - raw: "AttriPart,.cctor,584,诡道纵横捭阖之术，千人千面，是能够提升生活属性的途径。,[]"
   splits:
   - split: 3
@@ -4862,7 +4869,7 @@
   splits:
   - split: 3
     text: "道学是一大基础学科，提升途径很多，道学搞可以提高自己对于道家学派武学的感悟。道家学派的技能高级感悟效果就需要道学等级。"
-    translated: "Taoism is a foundational discipline with many paths for advancement. Mastering Taoism can enhance one's understanding of the Taoist martial arts school. To experience high-level insights from the skills of the Taoist school, one needs to have an advanced rank in Taoism."
+    translated: "Taoism is a foundational discipline with many paths for advancement. Mastering Taoism can enhance one's understanding of the Taoist martial arts school. To experience high‑level insights from the skills of the Taoist school, one needs to have an advanced rank in Taoism."
 - raw: "AttriPart,.cctor,610,佛学是一大基础学科，提升途径很多，佛学搞可以提高自己对于佛家学派武学的感悟。佛家学派的技能高级感悟效果就需要佛学等级。,[]"
   splits:
   - split: 3
@@ -4952,7 +4959,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "The young hero's thoughts contain taboo words; please re-enter."
+    translated: "The young hero's thoughts contain taboo words; please re‑enter."
 - raw: "BagView_mobile,.ctor,7,全部,[]"
   splits:
   - split: 3
@@ -5747,7 +5754,7 @@
   splits:
   - split: 3
     text: "当前状态无法快速存档，postScriptExecuted！"
-    translated: "The current state cannot be quickly saved; post-script executed!"
+    translated: "The current state cannot be quickly saved; post‑script executed!"
 - raw: "MainViewSettings,UpdateInput,3479,没有可用的快速存档，无法读取.,[]"
   splits:
   - split: 3
@@ -5817,7 +5824,7 @@
   splits:
   - split: 3
     text: "游墙术"
-    translated: "Wall-climbing technique"
+    translated: "Wall‑climbing technique"
 - raw: "PlayerActionStateUI,UpdateQinggong,247,飞檐走壁,[System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -7267,7 +7274,7 @@
   splits:
   - split: 3
     text: "内容包含忌讳之词，请重新输入"
-    translated: "The content contains prohibited words; please re-enter"
+    translated: "The content contains prohibited words; please re‑enter"
 - raw: "RelationRole,.cctor,9,父亲,[]"
   splits:
   - split: 3
@@ -7667,7 +7674,7 @@
   splits:
   - split: 3
     text: "凭自身本事双修，不使用秘药获得额外属性。"
-    translated: "Rely on one's own abilities to dual-cultivate without using secret herbs for additional attributes."
+    translated: "Rely on one's own abilities to dual‑cultivate without using secret herbs for additional attributes."
 - raw: "ShuangXiuView,OnBtnStartClick,51,精力不足50,[]"
   splits:
   - split: 3
@@ -7802,7 +7809,7 @@
   splits:
   - split: 3
     text: "少侠的备注信息包含忌讳之词，请重新输入"
-    translated: "The young hero's remarks contain words to avoid; please re-enter them."
+    translated: "The young hero's remarks contain words to avoid; please re‑enter them."
 - raw: "FaceDataView,<Awake>b__7_0,54,备注信息,[System.String]"
   splits:
   - split: 3
@@ -7862,7 +7869,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "The young hero's name contains taboo words; please re-enter it."
+    translated: "The young hero's name contains taboo words; please re‑enter it."
 - raw: "FaceSetView,<Awake>b__33_2,54,无名氏,[System.String]"
   splits:
   - split: 3
@@ -8057,7 +8064,8 @@
   splits:
   - split: 3
     text: "   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: "
-    translated: "-  -  -  - [[  ]] -  -  -  - Travelogue of the Jianghu Unlocked but Already Completed; Please Check Game Manual Related Table Data, ID:"
+    translated: "‑  ‑  ‑  ‑ [[  ]] ‑  ‑  ‑  ‑ Travelogue of the Jianghu Unlocked but Already Completed; Please Check Game Manual Related Table Data, ID:"
+    flaggedForRetranslation: true
 - raw: "GameManualView,.ctor,9,白色,[]"
   splits:
   - split: 3
@@ -8547,7 +8555,8 @@
   splits:
   - split: 3
     text: "地点-"
-    translated: "Location -"
+    translated: "Location ‑"
+    flaggedForRetranslation: true
 - raw: "SwitchMatePanel/<>c__DisplayClass20_0,<OnClickInline>b__0,0,队伍创建成功！,[System.String]"
   splits:
   - split: 3
@@ -9457,12 +9466,13 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "The hero's thoughts contain taboo words; please re-enter."
+    translated: "The hero's thoughts contain taboo words; please re‑enter."
 - raw: "ItemCreateAndCoverName,CheckDesResult,34,[一-鿿],[]"
   splits:
   - split: 3
     text: "[一-鿿]"
-    translated: "One - Chuang Door]"
+    translated: "One ‑ Chuang Door]"
+    flaggedForRetranslation: true
 - raw: "ItemCreateAndCoverName,CheckDesResult,56,请输入汉字内容,[]"
   splits:
   - split: 3
@@ -9657,7 +9667,7 @@
   splits:
   - split: 3
     text: "未参与战斗不需要求援"
-    translated: "Non-combatants do not need to request assistance"
+    translated: "Non‑combatants do not need to request assistance"
 - raw: "MailView,OnClickAskForHelp,68,您的精力不足80!,[]"
   splits:
   - split: 3
@@ -9817,7 +9827,7 @@
   splits:
   - split: 3
     text: "输入内容含敏感词汇，请重新输入"
-    translated: "Input contains sensitive words; please re-enter"
+    translated: "Input contains sensitive words; please re‑enter"
 - raw: "MainView,OnClickTuoLiKaSi,23,脱离卡死冷却中，倒计时{0}秒,[]"
   splits:
   - split: 3
@@ -10012,147 +10022,176 @@
   splits:
   - split: 3
     text: "礼物 - "
-    translated: "Gift -"
+    translated: "Gift ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1113,食物 - ,[]"
   splits:
   - split: 3
     text: "食物 - "
-    translated: "Food -"
+    translated: "Food ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1168,丹药 - ,[]"
   splits:
   - split: 3
     text: "丹药 - "
-    translated: "Alchemical Elixir -"
+    translated: "Alchemical Elixir ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1223,酒 - ,[]"
   splits:
   - split: 3
     text: "酒 - "
-    translated: "Alcohol -"
+    translated: "Alcohol ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1278,配方 - ,[]"
   splits:
   - split: 3
     text: "配方 - "
-    translated: "Formula -"
+    translated: "Formula ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1333,书籍 - ,[]"
   splits:
   - split: 3
     text: "书籍 - "
-    translated: "Books -"
+    translated: "Books ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1389,毒药 - ,[]"
   splits:
   - split: 3
     text: "毒药 - "
-    translated: "Poison -"
+    translated: "Poison ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1445,鱼竿 - ,[]"
   splits:
   - split: 3
     text: "鱼竿 - "
-    translated: "Fishing Rod -"
+    translated: "Fishing Rod ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1501,矿石 - ,[]"
   splits:
   - split: 3
     text: "矿石 - "
-    translated: "Ore -"
+    translated: "Ore ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1557,作物 - ,[]"
   splits:
   - split: 3
     text: "作物 - "
-    translated: "Crop -"
+    translated: "Crop ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1613,图录 - ,[]"
   splits:
   - split: 3
     text: "图录 - "
-    translated: "Illustrated Catalogue -"
+    translated: "Illustrated Catalogue ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1669,秘法秘术 - ,[]"
   splits:
   - split: 3
     text: "秘法秘术 - "
-    translated: "Secret arts and techniques -"
+    translated: "Secret arts and techniques ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1725,武学道具 - ,[]"
   splits:
   - split: 3
     text: "武学道具 - "
-    translated: "Wuxia artifacts or martial arts equipment -"
+    translated: "Wuxia artifacts or martial arts equipment ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1781,天工图 - ,[]"
   splits:
   - split: 3
     text: "天工图 - "
-    translated: "Imperial Work Manual -"
+    translated: "Imperial Work Manual ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1837,秘技 - ,[]"
   splits:
   - split: 3
     text: "秘技 - "
-    translated: "Secret Technique -"
+    translated: "Secret Technique ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1893,武学秘卷 - ,[]"
   splits:
   - split: 3
     text: "武学秘卷 - "
-    translated: "Martial Arts Secret Scroll -"
+    translated: "Martial Arts Secret Scroll ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,1949,言技 - ,[]"
   splits:
   - split: 3
     text: "言技 - "
-    translated: "Rhetoric skill -"
+    translated: "Rhetoric skill ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2005,悟卷 - ,[]"
   splits:
   - split: 3
     text: "悟卷 - "
-    translated: "Wujuan -"
+    translated: "Wujuan ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2061,寿命丹 - ,[]"
   splits:
   - split: 3
     text: "寿命丹 - "
-    translated: "Immortality Elixir -"
+    translated: "Immortality Elixir ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2117,境界丹 - ,[]"
   splits:
   - split: 3
     text: "境界丹 - "
-    translated: "Realm Elixir -"
+    translated: "Realm Elixir ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2173,藏宝图 - ,[]"
   splits:
   - split: 3
     text: "藏宝图 - "
-    translated: "Treasure map -"
+    translated: "Treasure map ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2229,藏宝图 - ,[]"
   splits:
   - split: 3
     text: "藏宝图 - "
-    translated: "Treasure map -"
+    translated: "Treasure map ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2299,矿石 - ,[]"
   splits:
   - split: 3
     text: "矿石 - "
-    translated: "Ore -"
+    translated: "Ore ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2354,草药 - ,[]"
   splits:
   - split: 3
     text: "草药 - "
-    translated: "Herbs -"
+    translated: "Herbs ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2409,鱼饵 - ,[]"
   splits:
   - split: 3
     text: "鱼饵 - "
-    translated: "Fish bait -"
+    translated: "Fish bait ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2464,种子 - ,[]"
   splits:
   - split: 3
     text: "种子 - "
-    translated: "Seedling -"
+    translated: "Seedling ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2545,材料 - ,[]"
   splits:
   - split: 3
     text: "材料 - "
-    translated: "Material -"
+    translated: "Material ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2615,武器 - ,[]"
   splits:
   - split: 3
     text: "武器 - "
-    translated: "Weapon -"
+    translated: "Weapon ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,Refresh,2696,装备 - ,[]"
   splits:
   - split: 3
     text: "装备 - "
-    translated: "Equipment -"
+    translated: "Equipment ‑"
+    flaggedForRetranslation: true
 - raw: "MapFuBenDetailPanel,.ctor,20,非常困难,[]"
   splits:
   - split: 3
@@ -10377,7 +10416,7 @@
   splits:
   - split: 3
     text: "恭喜您通过实名认证"
-    translated: "Congratulations on completing the real-name verification"
+    translated: "Congratulations on completing the real‑name verification"
 - raw: "SignView,CheckResult,477,对不起，本游戏仅对年满18岁的成年人开放，未成年人无法进入游戏,[LitJson.JsonData]"
   splits:
   - split: 3
@@ -10707,12 +10746,12 @@
   splits:
   - split: 3
     text: "打开烧机画质"
-    translated: "Open high-definition mode on the microwave oven"
+    translated: "Open high‑definition mode on the microwave oven"
 - raw: "MenuView,OnOpen,91,关闭烧机画质,[]"
   splits:
   - split: 3
     text: "关闭烧机画质"
-    translated: "Close high-definition mode on the oven"
+    translated: "Close high‑definition mode on the oven"
 - raw: "GraphNodeView,ShowNodeInfo,1083,消耗感悟：,[GraphNodeView，MiJiNodeInfo]"
   splits:
   - split: 3
@@ -10887,7 +10926,7 @@
   splits:
   - split: 3
     text: "(<color=#f0f0f0>真实江湖</color>模式下各项属性数值成长曲线相对真实，通过装备、武学提升更加明显。少侠在此难度下更有江湖奇遇、寻宝的快感)"
-    translated: "(<color=#f0f0f0>Authentic Jianghu</color> mode features more realistic attribute growth curves; enhancements from equipment and martial skills become more pronounced. Young Hero has more wuxia encounters and an enhanced treasure-hunting thrill in this difficulty setting.)"
+    translated: "(<color=#f0f0f0>Authentic Jianghu</color> mode features more realistic attribute growth curves; enhancements from equipment and martial skills become more pronounced. Young Hero has more wuxia encounters and an enhanced treasure‑hunting thrill in this difficulty setting.)"
 - raw: "NpcChatView,OnReset,2819,{dlg.chatlangid}对应的stringlang未空字符串,[]"
   splits:
   - split: 3
@@ -11227,7 +11266,7 @@
   splits:
   - split: 3
     text: "鼠标右键"
-    translated: "Right-click mouse"
+    translated: "Right‑click mouse"
 - raw: "QingGongPartView,OnTiShenClick,302,感悟不足,[]"
   splits:
   - split: 3
@@ -11362,7 +11401,7 @@
   splits:
   - split: 3
     text: "<color=#da914e>任职收益</color>"
-    translated: "<color=#da914e>In-office earnings/profit.</color>"
+    translated: "<color=#da914e>In‑office earnings/profit.</color>"
 - raw: "StaffInfoSlot,OnReset,344,<color=#da914e>{0}</color>/刻,[]"
   splits:
   - split: 3
@@ -11387,7 +11426,7 @@
   splits:
   - split: 3
     text: "<color=#da914e>任职收益</color>"
-    translated: "<color=#da914e>In-office earnings/profit.</color>"
+    translated: "<color=#da914e>In‑office earnings/profit.</color>"
 - raw: "StaffSlot,OnReset,448,<color=#a8a8a8>预计收益</color>,[]"
   splits:
   - split: 3
@@ -11702,7 +11741,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "Young hero's input contains a taboo term. Please re-enter."
+    translated: "Young hero's input contains a taboo term. Please re‑enter."
 - raw: "RepairView,InpuFeildOnDeselect,11,搜索道具...,[TMPro.TMP_InputField]"
   splits:
   - split: 3
@@ -11797,7 +11836,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "Young hero's input contains a taboo term. Please re-enter."
+    translated: "Young hero's input contains a taboo term. Please re‑enter."
 - raw: "ShopStoreViewNew,InpuFeildOnDeselect,11,搜索道具......,[TMPro.TMP_InputField]"
   splits:
   - split: 3
@@ -11807,7 +11846,8 @@
   splits:
   - split: 3
     text: "(口才-{0})"
-    translated: "(Eloquence - {0})"
+    translated: "(Eloquence ‑ {0})"
+    flaggedForRetranslation: true
 - raw: "ShopStoreViewNew,CalBuyPrice,1037,金币,[]"
   splits:
   - split: 3
@@ -12302,7 +12342,8 @@
   splits:
   - split: 3
     text: "(口才-{0})"
-    translated: "(Eloquence - {0})"
+    translated: "(Eloquence ‑ {0})"
+    flaggedForRetranslation: true
 - raw: "ShopViewNew,RefreshMoney,15,持有,[]"
   splits:
   - split: 3
@@ -12507,7 +12548,7 @@
   splits:
   - split: 3
     text: "地阶武学"
-    translated: "Terrace-grade martial arts"
+    translated: "Terrace‑grade martial arts"
 - raw: "SynthesisItemSlot,OnReset,88,天阶武学,[]"
   splits:
   - split: 3
@@ -12517,7 +12558,7 @@
   splits:
   - split: 3
     text: "人阶武学"
-    translated: "Wu-Xia of the social rank"
+    translated: "Wu‑Xia of the social rank"
 - raw: "StuntManager,RefreshPrototypes,297,地图修炼点技能,[]"
   splits:
   - split: 3
@@ -12792,7 +12833,7 @@
   splits:
   - split: 3
     text: "少侠的备注信息包含忌讳之词，请重新输入"
-    translated: "The young hero's note contains forbidden words; please re-enter."
+    translated: "The young hero's note contains forbidden words; please re‑enter."
 - raw: "XiaYunLuView,RefreshDingBangRen,15,天下第一,[]"
   splits:
   - split: 3
@@ -12842,7 +12883,7 @@
   splits:
   - split: 3
     text: "，号称{0}的{1}正在{2}（{3}，{4}）处。"
-    translated: "The so-called {0} of {1} is currently at {2} ({3}, {4})."
+    translated: "The so‑called {0} of {1} is currently at {2} ({3}, {4})."
 - raw: "XiaYunLuView,OnClickChaKanWeiZhi,338,第,[]"
   splits:
   - split: 3
@@ -12937,7 +12978,7 @@
   splits:
   - split: 3
     text: "只能悬红战斗相关的悬赏"
-    translated: "Rewards can only be related to combat-related bounties."
+    translated: "Rewards can only be related to combat‑related bounties."
 - raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,305,此悬赏已被悬红,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
@@ -12957,7 +12998,7 @@
   splits:
   - split: 3
     text: "花费钱财悬红此悬赏招来江湖好手助战？\\n(助战Npc只有一天时效，且阵亡后不会刷新)"
-    translated: "Spend money on a bounty to attract skilled martial artists from the Jianghu for assistance in battle?\\n(Auxiliary NPC has a one-day validity period and will not respawn after death.)"
+    translated: "Spend money on a bounty to attract skilled martial artists from the Jianghu for assistance in battle?\\n(Auxiliary NPC has a one‑day validity period and will not respawn after death.)"
 - raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,415,确定,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
@@ -13142,7 +13183,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
+    translated: "Please <color=#3ad67c>left‑click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,887,请选中该心法,[System.Boolean]"
   splits:
   - split: 3
@@ -13167,7 +13208,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
+    translated: "Please <color=#3ad67c>left‑click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,960,鼠标悬浮,[System.Boolean]"
   splits:
   - split: 3
@@ -13182,7 +13223,7 @@
   splits:
   - split: 3
     text: "请<color=#3ad67c>鼠标左键</color>选中该心法"
-    translated: "Please <color=#3ad67c>left-click</color> to select this Heart Method"
+    translated: "Please <color=#3ad67c>left‑click</color> to select this Heart Method"
 - raw: "JingMaiYinDaoView,ShowKeyOrRein,980,请选中该心法,[System.Boolean]"
   splits:
   - split: 3
@@ -13652,17 +13693,17 @@
   splits:
   - split: 3
     text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
-    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto‑fail to end"
 - raw: "EntrustManager,CheckTargetNpcDead,316,Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
   splits:
   - split: 3
     text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
-    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto‑fail to end"
 - raw: "EntrustManager,CheckTargetNpcDead,479,Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
   splits:
   - split: 3
     text: "Npc:{0} 的委托目标Npc:{1} 已经死亡，委托任务:{2}自动失败结束"
-    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto-fail to end"
+    translated: "Npc: The commission target NPC for {0}: {1} has died; commission task: {2} auto‑fail to end"
 - raw: "EntrustManager,CheckTargetNpcDead,572,Npc:{0} 已经死亡 委托 失败结束 ,[SweetPotato.UnitController，SweetPotato.UnitController，UnitEntity]"
   splits:
   - split: 3
@@ -13672,7 +13713,7 @@
   splits:
   - split: 3
     text: "DoEventAcceptPreAction刷npc失败:{0}"
-    translated: "Failed NPC refresh during pre-action event acceptance: {0}"
+    translated: "Failed NPC refresh during pre‑action event acceptance: {0}"
 - raw: "MapAreaEvent,DoEventAcceptPreActionFinishedCheck,146,事件刷出的随机npc：{0}，找不到,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13957,7 +13998,7 @@
   splits:
   - split: 3
     text: "借水开花自一奇，水沉为骨玉为肌。"
-    translated: "Borrowing water to nurture flowers turns them into a wonder; where the water settles, it forms bone and jade-like flesh."
+    translated: "Borrowing water to nurture flowers turns them into a wonder; where the water settles, it forms bone and jade‑like flesh."
 - raw: "QingLouManager,.ctor,315,娉娉袅袅十三余，豆蔻梢头二月初。,[]"
   splits:
   - split: 3
@@ -14007,7 +14048,8 @@
   splits:
   - split: 3
     text: "好感度-5"
-    translated: "Affinity -5"
+    translated: "Affinity ‑5"
+    flaggedForRetranslation: true
 - raw: "XuanShangQuest,DoInitPostAction,101,悬赏任务 {0} 配置不对,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -14702,7 +14744,7 @@
   splits:
   - split: 3
     text: "莫逆之交"
-    translated: "Life-long sworn brothers"
+    translated: "Life‑long sworn brothers"
 - raw: "RelationShipManager,.cctor,181,生死与共,[]"
   splits:
   - split: 3
@@ -15277,7 +15319,7 @@
   splits:
   - split: 3
     text: "NpcSpellDynamic:{0}中配置的调息buff，没有1段，配置错误"
-    translated: "NpcSpellDynamic: The breathing buff configured in {0} does not have a 1-segment setup; it's incorrectly configured."
+    translated: "NpcSpellDynamic: The breathing buff configured in {0} does not have a 1‑segment setup; it's incorrectly configured."
 - raw: "SweetPotato.NpcSpellDynamic,CreateFromCsvRow,973,NpcSpellDynamic:{0}中配置的调息buff，连2段都没有，却有3段，配置错误,[System.String[]]"
   splits:
   - split: 3
@@ -15462,7 +15504,7 @@
   splits:
   - split: 3
     text: "蚀骨"
-    translated: "Bone-eating"
+    translated: "Bone‑eating"
 - raw: "SweetPotato.NpcSpellDynamic,RefreshSpellName,559,煞影,[SweetPotato.NpcEntity，SweetPotato.VirtualSpell]"
   splits:
   - split: 3
@@ -15587,7 +15629,7 @@
   splits:
   - split: 3
     text: "NpcPrototype.id:{0}中强行配置的随机战斗Npc需要配制成不能交互NA_NO_INTERACT"
-    translated: "NpcPrototype.id: The randomly configured NPC in {0} that forcibly appears during battle needs to be set as non-interactive: NA_NO_INTERACT."
+    translated: "NpcPrototype.id: The randomly configured NPC in {0} that forcibly appears during battle needs to be set as non‑interactive: NA_NO_INTERACT."
 - raw: "SweetPotato.Gift,InitItemTendency,281,gift表第{0}行喜欢类型中填了个item_base里面不存在的id：{1},[SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]"
   splits:
   - split: 3
@@ -15662,7 +15704,7 @@
   splits:
   - split: 3
     text: "Relationship中 id：{0}中的 关系NpcGuid:{1}是非交互Npc，不能参与到关系当中"
-    translated: "Relationship ID: Relationship NPC GUID in {0}: {1} is a non-interactive NPC that cannot participate in relationships."
+    translated: "Relationship ID: Relationship NPC GUID in {0}: {1} is a non‑interactive NPC that cannot participate in relationships."
 - raw: "SweetPotato.FloydManager,InitData,249,WayPoint，id:{0}中的joint:{1}点不存在,[]"
   splits:
   - split: 3
@@ -16957,7 +16999,7 @@
   splits:
   - split: 3
     text: "劣质"
-    translated: "Low-quality"
+    translated: "Low‑quality"
 - raw: "SweetPotato.Tools,.cctor,1977,普通,[]"
   splits:
   - split: 3
@@ -17072,32 +17114,35 @@
   splits:
   - split: 3
     text: "三流武学"
-    translated: "Third-rate martial arts"
+    translated: "Third‑rate martial arts"
 - raw: "SweetPotato.Tools,.cctor,2264,二流武学,[]"
   splits:
   - split: 3
     text: "二流武学"
-    translated: "Second-tier martial arts"
+    translated: "Second‑tier martial arts"
 - raw: "SweetPotato.Tools,.cctor,2272,一流武学,[]"
   splits:
   - split: 3
     text: "一流武学"
-    translated: "First-rate martial arts"
+    translated: "First‑rate martial arts"
 - raw: "SweetPotato.Tools,.cctor,2280,人阶-超一流武学,[]"
   splits:
   - split: 3
     text: "人阶-超一流武学"
-    translated: "Social Rank - Superior martial artistry"
+    translated: "Social Rank ‑ Superior martial artistry"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.Tools,.cctor,2288,地阶-绝学,[]"
   splits:
   - split: 3
     text: "地阶-绝学"
-    translated: "Terrace level - Ultimate Martial Arts Technique"
+    translated: "Terrace level ‑ Ultimate Martial Arts Technique"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.Tools,.cctor,2296,天阶-神功,[]"
   splits:
   - split: 3
     text: "天阶-神功"
-    translated: "Heavenly Realm Level - Celestial Skill"
+    translated: "Heavenly Realm Level ‑ Celestial Skill"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.Tools,.cctor,2304,八阶,[]"
   splits:
   - split: 3
@@ -18467,7 +18512,7 @@
   splits:
   - split: 3
     text: "峨眉派"
-    translated: "E-Mei Sect"
+    translated: "E‑Mei Sect"
 - raw: "SweetPotato.GangMgr,.ctor,101,点苍派,[]"
   splits:
   - split: 3
@@ -18642,7 +18687,7 @@
   splits:
   - split: 3
     text: "十二连环坞"
-    translated: "Twelve-linked Fortress"
+    translated: "Twelve‑linked Fortress"
 - raw: "SweetPotato.GangMgr,.ctor,416,太极门,[]"
   splits:
   - split: 3
@@ -19297,17 +19342,17 @@
   splits:
   - split: 3
     text: "输入内容含敏感词汇，请重新输入"
-    translated: "The input contains sensitive words; please re-enter it."
+    translated: "The input contains sensitive words; please re‑enter it."
 - raw: "SweetPotato.ForumView,AddTalk,23,输入内容含敏感词汇，请重新输入,[]"
   splits:
   - split: 3
     text: "输入内容含敏感词汇，请重新输入"
-    translated: "The input contains sensitive words; please re-enter it."
+    translated: "The input contains sensitive words; please re‑enter it."
 - raw: "SweetPotato.ForumView,AddTalk,59,输入内容含敏感词汇，请重新输入,[]"
   splits:
   - split: 3
     text: "输入内容含敏感词汇，请重新输入"
-    translated: "The input contains sensitive words; please re-enter it."
+    translated: "The input contains sensitive words; please re‑enter it."
 - raw: "SweetPotato.GeZiView,RefreshGeZiInfo,59,金石阵   x,[]"
   splits:
   - split: 3
@@ -19332,7 +19377,7 @@
   splits:
   - split: 3
     text: "土石阵   x"
-    translated: "Earth-and-Stone Array"
+    translated: "Earth‑and‑Stone Array"
 - raw: "SweetPotato.GeZiYingDaoTip,Awake,342,滑动,[]"
   splits:
   - split: 3
@@ -19402,7 +19447,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.InstantiateViewNew/<>c__DisplayClass74_0,<Awake>b__4,64,沈雁弓,[System.String]"
   splits:
   - split: 3
@@ -19417,7 +19462,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.InstantiateViewNew/<>c__DisplayClass74_0,<Awake>b__5,64,沈雁弓,[System.String]"
   splits:
   - split: 3
@@ -19532,7 +19577,7 @@
   splits:
   - split: 3
     text: "使用属性点数调整战斗倾向属性。"
-    translated: "Use attribute points to adjust combat-bias attributes"
+    translated: "Use attribute points to adjust combat‑bias attributes"
 - raw: "SweetPotato.InstantiateViewNewNew,OnBuShuChange,582,确定,[]"
   splits:
   - split: 3
@@ -19577,7 +19622,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.InstantiateViewNewNew,<Awake>b__71_35,96,少侠的姓名不得超过七个字,[System.String]"
   splits:
   - split: 3
@@ -19587,7 +19632,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.InstantiateViewNewNew_mobile,OnTianFuItemSelect,138,<size=30>可分配点数<color=#ff0000>不足</color></size>,[SweetPotato.InsViewNewNewTianFuItem，System.Boolean]"
   splits:
   - split: 3
@@ -19647,7 +19692,7 @@
   splits:
   - split: 3
     text: "使用属性点数调整战斗倾向属性。"
-    translated: "Use attribute points to adjust combat-bias attributes"
+    translated: "Use attribute points to adjust combat‑bias attributes"
 - raw: "SweetPotato.InstantiateViewNewNew_mobile,OnBuShuChange,582,确定,[]"
   splits:
   - split: 3
@@ -19677,7 +19722,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__94_54,96,少侠的姓名不得超过七个字,[System.String]"
   splits:
   - split: 3
@@ -19687,7 +19732,7 @@
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-    translated: "Young hero's name contains a taboo word; please re-enter."
+    translated: "Young hero's name contains a taboo word; please re‑enter."
 - raw: "SweetPotato.JieMiQuestViewNew_TuiLiPanel,OnXSZCSelect,338,证词：,[System.Object]"
   splits:
   - split: 3
@@ -19772,17 +19817,17 @@
   splits:
   - split: 3
     text: "天字级杀手需要消耗："
-    translated: "A top-tier assassin requires consumption of:"
+    translated: "A top‑tier assassin requires consumption of:"
 - raw: "SweetPotato.JueYingLouView,DoCurBuSu,1779,地字级杀手需要消耗：,[]"
   splits:
   - split: 3
     text: "地字级杀手需要消耗："
-    translated: "Local-level assassin requires consumption:"
+    translated: "Local‑level assassin requires consumption:"
 - raw: "SweetPotato.JueYingLouView,DoCurBuSu,1797,人字级杀手需要消耗：,[]"
   splits:
   - split: 3
     text: "人字级杀手需要消耗："
-    translated: "A level-ten assassin requires consumption of:"
+    translated: "A level‑ten assassin requires consumption of:"
 - raw: "SweetPotato.JueYingLouView,DoCurBuSu,2434,好感度：,[]"
   splits:
   - split: 3
@@ -19917,7 +19962,7 @@
   splits:
   - split: 3
     text: "小型"
-    translated: "Small-sized"
+    translated: "Small‑sized"
 - raw: "SweetPotato.ShiLiInfoPanel,RefreshPanel,83,中等,[]"
   splits:
   - split: 3
@@ -19927,7 +19972,7 @@
   splits:
   - split: 3
     text: "大型"
-    translated: "Large-scale"
+    translated: "Large‑scale"
 - raw: "SweetPotato.ShiLiInfoPanel,RefreshPanel,117,巨大,[]"
   splits:
   - split: 3
@@ -20032,7 +20077,8 @@
   splits:
   - split: 3
     text: "是否覆盖[{0}]原有快捷键-{1}"
-    translated: "Does it override the existing shortcut keys for [{0}] - {1}"
+    translated: "Does it override the existing shortcut keys for [{0}] ‑ {1}"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.SettingViewNew,CheckAnjianChongtu,195,确定,[SweetPotato.SettingViewKeyItem，UnityEngine.KeyCode，System.Boolean]"
   splits:
   - split: 3
@@ -20047,7 +20093,8 @@
   splits:
   - split: 3
     text: "是否覆盖[{0}]原有快捷键-{1}"
-    translated: "Does it override the existing shortcut keys for [{0}] - {1}"
+    translated: "Does it override the existing shortcut keys for [{0}] ‑ {1}"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.SettingViewNew,CheckAnjianChongtu,308,确定,[SweetPotato.SettingViewKeyItem，UnityEngine.KeyCode，System.Boolean]"
   splits:
   - split: 3
@@ -20107,7 +20154,7 @@
   splits:
   - split: 3
     text: "全屏模式"
-    translated: "Full-screen mode"
+    translated: "Full‑screen mode"
 - raw: "SweetPotato.SettingViewNew,ResetCustomSettingByQuality,339,关闭,[SweetPotato.GameSaving/PIC_QUALITY]"
   splits:
   - split: 3
@@ -21292,12 +21339,14 @@
   splits:
   - split: 3
     text: "--------------存档：数量{0}------------------"
-    translated: "-  -  -  -  -  -  -  -  -  -  -  -  -  - Archive: Number {0} -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -"
+    translated: "‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑ Archive: Number {0} ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.MenPaiManager,Load,394,--------------读档：数量{0}------------------,[LitJson.JsonData]"
   splits:
   - split: 3
     text: "--------------读档：数量{0}------------------"
-    translated: "-  -  -  -  -  -  -  -  -  -  -  -  -  - Load file: Number {0} -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -"
+    translated: "‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑ Load file: Number {0} ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑  ‑"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.MenPaiZhongMenDaBiManager/<FinishIE>d__8,MoveNext,565,你在宗门大比获得了第{0}名,[]"
   splits:
   - split: 3
@@ -21672,7 +21721,8 @@
   splits:
   - split: 3
     text: "物品ID：{0}，名字：{1}，耐久度-1，当前剩余耐久度：{2}"
-    translated: "Item ID: {0}, Name: {1}, Durability -1, Current Remaining Durability: {2}"
+    translated: "Item ID: {0}, Name: {1}, Durability ‑1, Current Remaining Durability: {2}"
+    flaggedForRetranslation: true
 - raw: "SweetPotato.Item,GetParseName,465,心,[System.String，System.String]"
   splits:
   - split: 3
@@ -21832,7 +21882,7 @@
   splits:
   - split: 3
     text: "用于装备回锻，将附带的词条替换到装备上"
-    translated: "Use for re-forging equipment, transferring the affixed attribute to the gear."
+    translated: "Use for re‑forging equipment, transferring the affixed attribute to the gear."
 - raw: "SweetPotato.Item,GetItemMiscvaluePurpose,1046,， 并附加词条,[]"
   splits:
   - split: 3
@@ -21932,7 +21982,7 @@
   splits:
   - split: 3
     text: "使用后学习{0}，用于{1}"
-    translated: "Utilize after-study of {0} for application in {1}."
+    translated: "Utilize after‑study of {0} for application in {1}."
 - raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2309,\\n赋予：,[]"
   splits:
   - split: 3
@@ -21942,7 +21992,7 @@
   splits:
   - split: 3
     text: "使用后学习{0}，用于{1}"
-    translated: "Utilize after-study of {0} for application in {1}."
+    translated: "Utilize after‑study of {0} for application in {1}."
 - raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2440,\\n赋予：,[]"
   splits:
   - split: 3
@@ -21952,7 +22002,7 @@
   splits:
   - split: 3
     text: "使用后学习{0}，用于天工图"
-    translated: "Using {0} to study the Tiantong Chart post-learning."
+    translated: "Using {0} to study the Tiantong Chart post‑learning."
 - raw: "SweetPotato.Item,GetItemMiscvaluePurpose,2527,用于生活系统,[]"
   splits:
   - split: 3
@@ -22117,7 +22167,7 @@
   splits:
   - split: 3
     text: "已进入饱腹负面状态"
-    translated: "Entered a state of fullness-induced negative effect"
+    translated: "Entered a state of fullness‑induced negative effect"
 - raw: "SweetPotato.ItemStorage,UseItem,570,已进入醉酒负面状态,[SweetPotato.Item，System.Boolean，System.Int32，SweetPotato.NpcEntity]"
   splits:
   - split: 3
@@ -22437,7 +22487,7 @@
   splits:
   - split: 3
     text: "切换冷却中"
-    translated: "Switching - Cooldown in progress"
+    translated: "Switching ‑ Cooldown in progress"
 - raw: "SweetPotato.SpellManager,ChangeSpellTaoLu,398,没有合适的武器,[SweetPotato.TAOLU_TYPE，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -22987,7 +23037,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "Young Hero's thoughts contain taboo words; please re-enter."
+    translated: "Young Hero's thoughts contain taboo words; please re‑enter."
 - raw: "SweetPotato.ExcaliburView.ExcaliburSystem.LearnViewNew.RoleBag,.ctor,73,全部,[]"
   splits:
   - split: 3
@@ -23797,7 +23847,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "Young Hero's thoughts contain taboo words; please re-enter."
+    translated: "Young Hero's thoughts contain taboo words; please re‑enter."
 - raw: "ModSpace.ModelListView,OnClickCompile,231,未安装对应的环境，是否需要安装？,[]"
   splits:
   - split: 3
@@ -23992,7 +24042,7 @@
   splits:
   - split: 3
     text: "少侠的想法包含忌讳之词，请重新输入"
-    translated: "Young Hero's thoughts contain taboo words; please re-enter."
+    translated: "Young Hero's thoughts contain taboo words; please re‑enter."
 - raw: "ModSpace.WorksShopManager,RemoteUnsubscribeCompleted,32,订阅取消成功！,[Steamworks.RemoteStorageUnsubscribePublishedFileResult_t，System.Boolean]"
   splits:
   - split: 3

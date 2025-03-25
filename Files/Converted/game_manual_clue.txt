@@ -52,7 +52,8 @@
   splits:
   - split: 2
     text: "前往(918,-126)附近，击败守护的敌人后，交互采集点有概率获得。该物十分稀有，只能获得一次。"
-    translated: "Head to the area near (918,-126), defeat the guarding enemies, and then interact with the collection point, which has a chance to yield the item. This item is extremely rare and can only be obtained once."
+    translated: "Head to the area near (918,‑126), defeat the guarding enemies, and then interact with the collection point, which has a chance to yield the item. This item is extremely rare and can only be obtained once."
+    flaggedForRetranslation: true
 - raw: "1000901#1000901#前往(605,1926)附近的钓鱼点，用任意鱼竿与鱼饵钓鱼，有概率获得。该物十分稀有，只能获得一次。#0#1#605.849,1926.92#"
   splits:
   - split: 2
@@ -67,7 +68,8 @@
   splits:
   - split: 2
     text: "前往(1865,-79)附近，击败守护的敌人后，交互采集点有概率获得。该物十分稀有，只能获得一次。"
-    translated: "Travel to the vicinity of (1865,-79), defeat the guarding enemies, and there is a chance to obtain the item from the collection point afterward. This item is very uncommon and can only be obtained once."
+    translated: "Travel to the vicinity of (1865,‑79), defeat the guarding enemies, and there is a chance to obtain the item from the collection point afterward. This item is very uncommon and can only be obtained once."
+    flaggedForRetranslation: true
 - raw: "1001201#1001201#前往(758,1238)附近，击败该地出没的敌人后，有概率直接掉落。该物十分稀有，只能获得一次。#0#1#758.405,1238.63#"
   splits:
   - split: 2
@@ -97,7 +99,8 @@
   splits:
   - split: 2
     text: "前往(-123,-62)附近，击败守护的敌人后，交互采集点有概率获得。该物十分稀有，只能获得一次。"
-    translated: "Travel to the vicinity of (-123,-62), defeat the guarding enemies, and interact with the collection point to potentially obtain it. This item is extremely uncommon and can only be obtained once."
+    translated: "Travel to the vicinity of (‑123,‑62), defeat the guarding enemies, and interact with the collection point to potentially obtain it. This item is extremely uncommon and can only be obtained once."
+    flaggedForRetranslation: true
 - raw: "1001801#1001801#前往(26,1228)附近，交互采集点有概率获得。该物十分稀有，只能获得一次。#0#1#26.018,1228.88#"
   splits:
   - split: 2
@@ -832,12 +835,12 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>天刀八式</color>由<color=&&00ff00ff>金翅大鹏斩</color>、<color=&&00ff00ff>百殊刀</color>、<color=&&00ff00ff>八方藏刀诀</color>、<color=&&00ff00ff>天梵伏魔刀</color>融合而来。"
-    translated: "<color=&&00ff00ff>Tian Dao Eight Forms</color> is derived from the fusion of <color=&&00ff00ff>Golden-Winged Roc Slash</color>, <color=&&00ff00ff>Bashi Sword</color>, <color=&&00ff00ff>Eight Directions Concealed Sword Technique</color>, and <color=&&00ff00ff>Tian Fan Subdue Demon Sword</color>."
+    translated: "<color=&&00ff00ff>Tian Dao Eight Forms</color> is derived from the fusion of <color=&&00ff00ff>Golden‑Winged Roc Slash</color>, <color=&&00ff00ff>Bashi Sword</color>, <color=&&00ff00ff>Eight Directions Concealed Sword Technique</color>, and <color=&&00ff00ff>Tian Fan Subdue Demon Sword</color>."
 - raw: "34121002#34121#<color=&&00ff00ff>金翅大鹏斩</color>听闻在<color=&&00ff00ff>大雪山贡献堂主</color>身上可以获得。#1&3|34106|1;3|34100|1;3|34422|1;3|34109|1#0#0#"
   splits:
   - split: 2
     text: "<color=&&00ff00ff>金翅大鹏斩</color>听闻在<color=&&00ff00ff>大雪山贡献堂主</color>身上可以获得。"
-    translated: "The Golden-Winged Roc Slash is said to be attainable from the Contribution Hall Master of Great Snow Mountain."
+    translated: "The Golden‑Winged Roc Slash is said to be attainable from the Contribution Hall Master of Great Snow Mountain."
 - raw: "34121003#34121#<color=&&00ff00ff>百殊刀</color>听闻在<color=&&00ff00ff>长旌军贡献堂主</color>身上可以获得。#1&3|34106|1;3|34100|1;3|34422|1;3|34109|1#0#0#"
   splits:
   - split: 2
@@ -1082,7 +1085,7 @@
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>三十六洞</color>探索有概率获得"
-    translated: "Exploring the <color=&&00ff00ff>Thirty-Six Caves</color> has a chance to obtain."
+    translated: "Exploring the <color=&&00ff00ff>Thirty‑Six Caves</color> has a chance to obtain."
 - raw: "34322001#34322#在<color=&&00ff00ff>重天门</color>探索有概率获得##0##"
   splits:
   - split: 2
@@ -1167,7 +1170,7 @@
   splits:
   - split: 2
     text: "前往枰栌城寻找惊云侠士"
-    translated: "Head to Pinglu City in search of the Cloud-Stirring Hero."
+    translated: "Head to Pinglu City in search of the Cloud‑Stirring Hero."
 - raw: "34333001#34333#在<color=&&00ff00ff>东海镇</color>探索有概率获得##0##"
   splits:
   - split: 2
@@ -1627,7 +1630,7 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>打狗棍法</color>听闻<color=&&00ff00ff>丐门</color>的<color=&&00ff00ff>蓉儿</color>精通此武学，也许在<color=&&00ff00ff>加入丐门</color>后<color=&&00ff00ff>做些什么</color>有机会获取。"
-    translated: "The Dog-Beating Staff Technique is said to be mastered by Yong'er of the Beggar Sect. Perhaps after joining the Beggar Sect, there might be an opportunity to acquire it somehow."
+    translated: "The Dog‑Beating Staff Technique is said to be mastered by Yong'er of the Beggar Sect. Perhaps after joining the Beggar Sect, there might be an opportunity to acquire it somehow."
 - raw: "34480004#34480#<color=&&00ff00ff>杨家霸王枪</color>听闻在<color=&&00ff00ff>长旌军营地附近（718,1087）</color>处可以获得。#1&3|34200|1;3|34215|1;3|34214|1;3|34205|1#0#0#"
   splits:
   - split: 2
@@ -1642,12 +1645,12 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>朝天一棍</color>由<color=&&00ff00ff>一字定海枪</color>、<color=&&00ff00ff>释杀千忏</color>、<color=&&00ff00ff>小夜叉棍法</color>、<color=&&00ff00ff>达摩棍</color>、<color=&&00ff00ff>万道天阙</color>融合而来。"
-    translated: "Facing the Sky with a Staff is an amalgamation of One-Stroke Ocean-Calming Spear, Killing Release and Recitation of a Thousand Sutras, Little Vixen Staff Technique, Bodhidharma's Staff, and Ten Thousand Paths to Heaven."
+    translated: "Facing the Sky with a Staff is an amalgamation of One‑Stroke Ocean‑Calming Spear, Killing Release and Recitation of a Thousand Sutras, Little Vixen Staff Technique, Bodhidharma's Staff, and Ten Thousand Paths to Heaven."
 - raw: "34481002#34481#<color=&&00ff00ff>一字定海枪</color>听闻在<color=&&00ff00ff>不夜京贡献堂主</color>身上可以获得。#1&3|34211|1;3|34202|1;3|34213|1;3|34440|1;3|34209|1#0#0#"
   splits:
   - split: 2
     text: "<color=&&00ff00ff>一字定海枪</color>听闻在<color=&&00ff00ff>不夜京贡献堂主</color>身上可以获得。"
-    translated: "<color=&&00ff00ff>A-Z Sea-Controlling Spear</color> is said to be obtainable from the <color=&&00ff00ff>Contribution Hall Master of Evernight Capital</color>."
+    translated: "<color=&&00ff00ff>A‑Z Sea‑Controlling Spear</color> is said to be obtainable from the <color=&&00ff00ff>Contribution Hall Master of Evernight Capital</color>."
 - raw: "34481003#34481#<color=&&00ff00ff>释杀千忏</color>听闻在<color=&&00ff00ff>大雪山贡献堂主</color>身上可以获得，以及听闻在<color=&&00ff00ff>段家密室宝箱</color>处可以获得。#1&3|34211|1;3|34202|1;3|34213|1;3|34440|1;3|34209|1#0#0#"
   splits:
   - split: 2
@@ -1862,7 +1865,7 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>霸刀</color>由<color=&&00ff00ff>碧血风如晦</color>、<color=&&00ff00ff>神刀鬼谕</color>、<color=&&00ff00ff>浩星撼日刀</color>、<color=&&00ff00ff>无惧圣心</color>融合而来。"
-    translated: "The <color=&&00ff00ff>Dominator Blade</color> is forged from the fusion of <color=&&00ff00ff>Jade Blood and Dark Winds</color>, <color=&&00ff00ff>Divine Blade and Ghostly Decree</color>, <color=&&00ff00ff>Cosmic Star Sun-Shattering Blade</color>, and <color=&&00ff00ff>Heart of Fearlessness</color>."
+    translated: "The <color=&&00ff00ff>Dominator Blade</color> is forged from the fusion of <color=&&00ff00ff>Jade Blood and Dark Winds</color>, <color=&&00ff00ff>Divine Blade and Ghostly Decree</color>, <color=&&00ff00ff>Cosmic Star Sun‑Shattering Blade</color>, and <color=&&00ff00ff>Heart of Fearlessness</color>."
 - raw: "34522002#34522#<color=&&00ff00ff>碧血风如晦</color>听闻在<color=&&00ff00ff>不夜京贡献堂主</color>身上可以获得。#1&3|34107|1;3|34103|1;3|34104|1;3|34449|1#0#0#"
   splits:
   - split: 2
@@ -1877,7 +1880,7 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>浩星撼日刀</color>听闻在<color=&&00ff00ff>狂刀门贡献堂主</color>身上可以获得。"
-    translated: "The Cosmic Star Sun-Shattering Blade is rumored to be obtainable from the Contribution Hall Master of the Wild Blade Sect."
+    translated: "The Cosmic Star Sun‑Shattering Blade is rumored to be obtainable from the Contribution Hall Master of the Wild Blade Sect."
 - raw: "34522005#34522#<color=&&00ff00ff>无惧圣心</color>听闻在<color=&&00ff00ff>武馆教头（枰栌）</color>身上可以获得。#1&3|34107|1;3|34103|1;3|34104|1;3|34449|1#0#0#"
   splits:
   - split: 2
@@ -2247,12 +2250,12 @@
   splits:
   - split: 2
     text: "董良骏和阿飞进行了面对面的质询,听众人的交谈中,我倾向于董大夫的观点,看来我必须教训阿飞一下！"
-    translated: "Dong Liangjun and A Fei engaged in a face-to-face interrogation. From the conversations of those present, I tend to agree with Doctor Dong's viewpoint; it seems I must give A Fei a lesson!"
+    translated: "Dong Liangjun and A Fei engaged in a face‑to‑face interrogation. From the conversations of those present, I tend to agree with Doctor Dong's viewpoint; it seems I must give A Fei a lesson!"
 - raw: "60026003#60026#董良骏和阿飞进行了面对面的质询,听众人的交谈中,我倾向于阿飞的观点,看来我不能让董大夫胡作非为。#0&24|957420|1#0##"
   splits:
   - split: 2
     text: "董良骏和阿飞进行了面对面的质询,听众人的交谈中,我倾向于阿飞的观点,看来我不能让董大夫胡作非为。"
-    translated: "Dong Liangjun and A Fei conducted a face-to-face interrogation. Listening to the conversation of those present, I was inclined towards A Fei's point of view; it seems I cannot let Doctor Dong act recklessly"
+    translated: "Dong Liangjun and A Fei conducted a face‑to‑face interrogation. Listening to the conversation of those present, I was inclined towards A Fei's point of view; it seems I cannot let Doctor Dong act recklessly"
 - raw: "60027001#60027#抵达醉云堂后,我见到了牧心,并和她愉快地交谈起来。她告诉我,<color=&&DEB887>她的梦中情人是一位身材魁梧的士兵,并请求我帮忙寻找适合他的伴侣。</color>#0&24|986138|1#0##"
   splits:
   - split: 2
@@ -2272,7 +2275,7 @@
   splits:
   - split: 2
     text: "取来梅香酎交由夫浩歌喝,他非但一饮而尽,<color=&&DEB887>似乎还想要尝一口烧酒。</color>"
-    translated: "Bring out the Plum-Scented Liquor and offer it to Lord Huaoge for drinking. Not only did he finish it in one go, but <color=&&DEB887>it seemed he also wanted a taste of the baijiu.</color>"
+    translated: "Bring out the Plum‑Scented Liquor and offer it to Lord Huaoge for drinking. Not only did he finish it in one go, but <color=&&DEB887>it seemed he also wanted a taste of the baijiu.</color>"
 - raw: "60030002#60030#将烧酒交由夫浩歌饮尽后,此人非但没有醉倒,反而愈加兴奋,<color=&&DEB887>这次想要喝一口陈酒。</color>#0&24|973494|1#0##"
   splits:
   - split: 2
@@ -2412,7 +2415,7 @@
   splits:
   - split: 2
     text: "殷汶鑫表示黄氏灌汤包吃起来像是老鼠肉,这是一项严重的食品安全问题,<color=&&DEB887>我应该找个监察食品安全的人举报才行。</color>"
-    translated: "Yin Wenxin stated that Huang-style stuffed dumplings taste like mouse meat, which is a serious food safety issue. <color=&&DEB887>I should report this to someone responsible for monitoring food safety.</color>"
+    translated: "Yin Wenxin stated that Huang‑style stuffed dumplings taste like mouse meat, which is a serious food safety issue. <color=&&DEB887>I should report this to someone responsible for monitoring food safety.</color>"
 - raw: "60061001#60061#虽然杜勾还清了借款,甚至还赚了一些额外的钱,但赌博并非正当的方式。也不确定他是否能够听进劝诫的话。<color=&&DEB887>所以下次在京城遇到杜勾时,再做打算吧。</color>#0&24|976465|1#0##"
   splits:
   - split: 2
@@ -2487,7 +2490,7 @@
   splits:
   - split: 2
     text: "在面见包老爷后,包老爷同意了我们的请求,不过在这之前我们需要先帮包老爷夺回五代龙砖,<color=&&DEB887>他会用飞鸽传书告知我交易地点的所在,耐心等待就好了。</color>"
-    translated: "After the audience with Brother Bao, he agreed to our request. However, before that, we need to help him reclaim the Five-Generations Dragon Brick. <color=&&DEB887>He will send a message via pigeon post to inform me of the location for the exchange; just wait patiently.</color>"
+    translated: "After the audience with Brother Bao, he agreed to our request. However, before that, we need to help him reclaim the Five‑Generations Dragon Brick. <color=&&DEB887>He will send a message via pigeon post to inform me of the location for the exchange; just wait patiently.</color>"
 - raw: "60073003#60073#顺利的拿到了五代龙砖,<color=&&DEB887>如今只需将五代龙砖交给包老爷就行了。</color>#0&3|37190|1#0##"
   splits:
   - split: 2
@@ -2612,7 +2615,7 @@
   splits:
   - split: 2
     text: "偶遇归春后,他这一次派出两位来自太初剑宗的高手,<color=&&DEB887>先将他们解决好了。</color>"
-    translated: "After encountering the Return to Spring Sect again, this time he dispatched two high-level martial artists from the Primordial Origin Sword Sect and <color=&&DEB887>resolved them first.</color>"
+    translated: "After encountering the Return to Spring Sect again, this time he dispatched two high‑level martial artists from the Primordial Origin Sword Sect and <color=&&DEB887>resolved them first.</color>"
 - raw: "60089001#60089#此事我断然不能不管,<color=&&DEB887>决定帮助间真小师傅对抗官兵。</color>#0&24|956421|1#0##"
   splits:
   - split: 2
@@ -2652,7 +2655,7 @@
   splits:
   - split: 2
     text: "我对墨学有所感悟，若想精进武学，还需前往龙蛇寨附近山上寻color=&&00ff00ff>机杼人偶(1044,1360)</color>。最好是墨学达到三百再去。"
-    translated: "I've gained some insights into Mohism. If you wish to advance in martial arts, you need to go to the mountains near Longshe Village and find the color=&&00ff00ff>machine-knitted dolls (1044,1360)</color>. It would be best if your understanding of Mohism reaches three hundred before going."
+    translated: "I've gained some insights into Mohism. If you wish to advance in martial arts, you need to go to the mountains near Longshe Village and find the color=&&00ff00ff>machine‑knitted dolls (1044,1360)</color>. It would be best if your understanding of Mohism reaches three hundred before going."
 - raw: "60091001#60091#包里也算小有钱了，听闻不夜京御者附近有人在卖岛契，或许我可以去看看。#0&18|1|68|200000|>=#0##"
   splits:
   - split: 2
@@ -2662,4 +2665,5 @@
   splits:
   - split: 2
     text: "我对兵道有所感悟，打算前往(882,-117)请教兵狂"
-    translated: "I've gained some insights into martial prowess and plan to go to (882,-117) to seek guidance from the Master of Martial Prowess."
+    translated: "I've gained some insights into martial prowess and plan to go to (882,‑117) to seek guidance from the Master of Martial Prowess."
+    flaggedForRetranslation: true

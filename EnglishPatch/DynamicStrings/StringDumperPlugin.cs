@@ -19,18 +19,16 @@ namespace EnglishPatch.DynamicStrings;
 public class StringDumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
+    public static bool Enabled = false;
 
     //static List<string> SafeFunctions = [];
     //static List<string> UnsafeFunctions = [];
 
     private void Awake()
     {
-        Logger = base.Logger;
+        Logger = base.Logger;        
 
-        // Disable Dumper for non devs
-        bool enabled = false;
-
-        if (enabled)
+        if (Enabled)
         {
             DumpFiles(@"G:/Xyzj2OverLlm/Files/Raw/DynamicStrings/dynamicStrings.txt");
         }

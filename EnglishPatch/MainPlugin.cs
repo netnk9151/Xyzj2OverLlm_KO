@@ -12,6 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TMPro;
+using UnityEngine;
 using static TMPro.TMP_Settings;
 
 namespace EnglishPatch;
@@ -48,15 +49,12 @@ public class MainPlugin : BaseUnityPlugin
         TMP_Settings settings = TMP_Settings.instance;
         if (settings != null)
         {
-            var lineBreakingRules = new LineBreakingTable()
-            {
-                followingCharacters = [],
-                leadingCharacters = []
-            };
-
-            SetPrivateField(settings, "m_linebreakingRules", lineBreakingRules);
-            SetPrivateField(settings, "m_leadingCharacters", null);
-            SetPrivateField(settings, "m_followingCharacters", null);
+            SetPrivateField(settings, "m_linebreakingRules", null);
+            SetPrivateField(settings, "m_leadingCharacters", new TextAsset("("));
+            SetPrivateField(settings, "m_followingCharacters", new TextAsset(")"));
+            //SetPrivateField(settings, "m_GetFontFeaturesAtRuntime", false);
+            
+            TMP_Settings.LoadLinebreakingRules();
             Logger.LogInfo("Disabled LeadingCharacters and FollowingCharacters line break rules for TMP settings.");
         }
         else

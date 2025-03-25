@@ -17,6 +17,7 @@ namespace EnglishPatch;
 internal class TextResizerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
+    public static bool Enabled = true;
     public static bool DevMode = false;
 
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
@@ -43,6 +44,9 @@ internal class TextResizerPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
+
+        if (!Enabled)
+            return; 
 
         Harmony.CreateAndPatchAll(typeof(TextResizerPlugin));
         Logger.LogWarning($"TextResizer Plugin should be patched!");
@@ -228,6 +232,9 @@ internal class TextResizerPlugin : BaseUnityPlugin
     {
         if (textComponent == null) 
             return;
+
+        textComponent.wordWrappingRatios = 1.0f; //Disable Word wrapping ratios (should stop eastern rules)
+        textComponent.enableKerning = false;
 
         var path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
         var resizer = FindAppropriateResizer(path);

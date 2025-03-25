@@ -287,7 +287,7 @@
   splits:
   - split: 1
     text: "神眼"
-    translated: "All-seeing eye"
+    translated: "All‑seeing eye"
 - raw: "606#神心#1#25#27#0#0#0#0#1#3#2#300606#1#"
   splits:
   - split: 1
@@ -427,7 +427,7 @@
   splits:
   - split: 1
     text: "枪形"
-    translated: "Spear-shaped"
+    translated: "Spear‑shaped"
 - raw: "828#武意#10#0#1#13#0#200|201#0#5#1#1#300828#1#"
   splits:
   - split: 1
@@ -677,7 +677,7 @@
   splits:
   - split: 1
     text: "神眼"
-    translated: "All-seeing eye"
+    translated: "All‑seeing eye"
 - raw: "1606#神心#1#1025#1027#0#0#0#1#1#3#2#301606#1#"
   splits:
   - split: 1
@@ -832,7 +832,7 @@
   splits:
   - split: 1
     text: "枪形"
-    translated: "Spear-shaped"
+    translated: "Spear‑shaped"
 - raw: "1828#武意#10#0#1#13#0#1200|1201#1#5#1#1#301828#1#"
   splits:
   - split: 1
@@ -1007,7 +1007,8 @@
   splits:
   - split: 1
     text: "气涌-冷却"
-    translated: "Qi surging forth - Cooling down"
+    translated: "Qi surging forth ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "10002#流血层数增加#8#216#4#101000#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1087,7 +1088,8 @@
   splits:
   - split: 1
     text: "气涌-冷却"
-    translated: "Qi surging forth - Cooling down"
+    translated: "Qi surging forth ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11004#太玄式叠加#8#1207#4#1102200#0#0#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1167,12 +1169,12 @@
   splits:
   - split: 1
     text: "浩星撼日刀威力"
-    translated: "The might of the Cosmic Star Sun-Shattering Blade."
+    translated: "The might of the Cosmic Star Sun‑Shattering Blade."
 - raw: "11023#浩星撼日刀威力#10#0#0#110410#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "浩星撼日刀威力"
-    translated: "The might of the Cosmic Star Sun-Shattering Blade."
+    translated: "The might of the Cosmic Star Sun‑Shattering Blade."
 - raw: "11024#天下霸剑#10#0#0#101100#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1382,12 +1384,12 @@
   splits:
   - split: 1
     text: "惊武回风拳"
-    translated: "Surprise Wind-Returning Fist"
+    translated: "Surprise Wind‑Returning Fist"
 - raw: "11066#惊武回风拳#10#0#0#130210#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "惊武回风拳"
-    translated: "Surprise Wind-Returning Fist"
+    translated: "Surprise Wind‑Returning Fist"
 - raw: "11067#啸虎明筋拳#10#0#0#130000#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1449,12 +1451,14 @@
   splits:
   - split: 1
     text: "断魂腿-冷却"
-    translated: "Deadly Leg Kick or Leg that Breaks Spirits - Cooling down."
+    translated: "Deadly Leg Kick or Leg that Breaks Spirits ‑ Cooling down."
+    flaggedForRetranslation: true
 - raw: "11080#千针手-冷却#8#1202#0#132200#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "千针手-冷却"
-    translated: "Thousand Needle Hand - Cooling down"
+    translated: "Thousand Needle Hand ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11081#九剑冷却#8#1202#0#103400#0##1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1474,7 +1478,7 @@
   splits:
   - split: 1
     text: "千钧"
-    translated: "A thousand-pound weight"
+    translated: "A thousand‑pound weight"
 - raw: "11085#葵花神针#10#0#0#161400#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1519,57 +1523,68 @@
   splits:
   - split: 1
     text: "傲寒-冷却"
-    translated: "Haughty Coldness - Cooling down"
+    translated: "Haughty Coldness ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11094#傲寒-冷却#8#1202#0#111810#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "傲寒-冷却"
-    translated: "Haughty Coldness - Cooling down"
+    translated: "Haughty Coldness ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11095#大悲灭罪-冷却#8#1202#0#133810#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "大悲灭罪-冷却"
-    translated: "Great Compassion Eradicates Sin - Cooling down"
+    translated: "Great Compassion Eradicates Sin ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11096#禅定-冷却#8#1202#0#133900#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "禅定-冷却"
-    translated: "Meditative concentration - Cooling down"
+    translated: "Meditative concentration ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11097#霜影步-冷却#8#1202#0#133910#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "霜影步-冷却"
-    translated: "Stepping through frost - Cooling down"
+    translated: "Stepping through frost ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11098#梵音-冷却#8#1202#0#134000#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "梵音-冷却"
-    translated: "Chant of the gods - Cooling down"
+    translated: "Chant of the gods ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11099#霜华梵天-冷却#8#1202#0#134010#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "霜华梵天-冷却"
-    translated: "Frosty Splendor, Bodhisattva of Heaven - Cooling down."
+    translated: "Frosty Splendor, Bodhisattva of Heaven ‑ Cooling down."
+    flaggedForRetranslation: true
 - raw: "11100#佛怒-冷却#8#1202#0#134100#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "佛怒-冷却"
-    translated: "Wrath of Buddha - Cooling down"
+    translated: "Wrath of Buddha ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11101#圣拳印-冷却#8#1202#0#134110#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "圣拳印-冷却"
-    translated: "Seal of the Holy Fist - Cooling down"
+    translated: "Seal of the Holy Fist ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11102#破冰禅光-冷却#8#1202#0#134200#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "破冰禅光-冷却"
-    translated: "Breaking Ice Zen Light - Cooling down"
+    translated: "Breaking Ice Zen Light ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11103#大悲印-冷却#8#1202#0#133800#0##1#0#0#0#0#0#"
   splits:
   - split: 1
     text: "大悲印-冷却"
-    translated: "Great Compassion Seal - Cooling down"
+    translated: "Great Compassion Seal ‑ Cooling down"
+    flaggedForRetranslation: true
 - raw: "11104#剑气效果提升#8#1206#4#110060#0##1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1604,12 +1619,14 @@
   splits:
   - split: 1
     text: "特殊技能词条-减少秘诀荒芜冷却时间"
-    translated: "Special Ability Skill Entry - Reduce cooldown time of secret techniques."
+    translated: "Special Ability Skill Entry ‑ Reduce cooldown time of secret techniques."
+    flaggedForRetranslation: true
 - raw: "20007#特殊技能词条-增加秘诀无骨之地效果#13#102#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "特殊技能词条-增加秘诀无骨之地效果"
-    translated: "Special Skill Descriptor - Increase the effect of No-Bone Secret Skill."
+    translated: "Special Skill Descriptor ‑ Increase the effect of No‑Bone Secret Skill."
+    flaggedForRetranslation: true
 - raw: "30000#为无为#10#0#0#100000#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1864,7 +1881,7 @@
   splits:
   - split: 1
     text: "天行剑"
-    translated: "Heaven-Soaring Sword"
+    translated: "Heaven‑Soaring Sword"
 - raw: "30051#飞仙剑诀#10#0#0#102300#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2179,7 +2196,7 @@
   splits:
   - split: 1
     text: "山崩地裂"
-    translated: "Landslide and earth-shattering"
+    translated: "Landslide and earth‑shattering"
 - raw: "30114#断云裂风#10#0#0#111410#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2264,7 +2281,7 @@
   splits:
   - split: 1
     text: "风挑浪"
-    translated: "Confront challenges head-on"
+    translated: "Confront challenges head‑on"
 - raw: "30131#千军倒#10#0#0#120400#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2399,7 +2416,7 @@
   splits:
   - split: 1
     text: "舞千钧"
-    translated: "Dancing on a thousand-pound thread"
+    translated: "Dancing on a thousand‑pound thread"
 - raw: "30158#平地惊雷#10#0#0#121700#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2564,7 +2581,7 @@
   splits:
   - split: 1
     text: "催心劫"
-    translated: "Heart-Racing Crisis"
+    translated: "Heart‑Racing Crisis"
 - raw: "30191#白骨化#10#0#0#131210#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2644,7 +2661,7 @@
   splits:
   - split: 1
     text: "千毒拳"
-    translated: "Thousand-Poison Fists"
+    translated: "Thousand‑Poison Fists"
 - raw: "30207#断魂腿#10#0#0#132210#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2749,7 +2766,7 @@
   splits:
   - split: 1
     text: "阴阳刺轮"
-    translated: "Yin-Yang Piercing Wheel"
+    translated: "Yin‑Yang Piercing Wheel"
 - raw: "30228#雷震子#10#0#0#160110#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2894,7 +2911,7 @@
   splits:
   - split: 1
     text: "三分飞针"
-    translated: "Three-needle dart"
+    translated: "Three‑needle dart"
 - raw: "30257#冰魂针雨#10#0#0#161700#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2919,7 +2936,7 @@
   splits:
   - split: 1
     text: "霜痕累累"
-    translated: "Snow-covered scars"
+    translated: "Snow‑covered scars"
 - raw: "30262#幽焰鬼火#10#0#0#133500#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2939,7 +2956,7 @@
   splits:
   - split: 1
     text: "炼魂鬼火"
-    translated: "Soul-forge Demon Fire"
+    translated: "Soul‑forge Demon Fire"
 - raw: "30266#焚魂引爆#10#0#0#133610#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3019,7 +3036,7 @@
   splits:
   - split: 1
     text: "破冰禅光"
-    translated: "Ice-breaking Zen Light"
+    translated: "Ice‑breaking Zen Light"
 - raw: "30282#见龙在田#10#0#0#131461#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3089,7 +3106,7 @@
   splits:
   - split: 1
     text: "销魂一击"
-    translated: "A heart-stopping blow"
+    translated: "A heart‑stopping blow"
 - raw: "30296#极乐狂潮#10#0#0#134310#0#1200|1201#1#0#0#0#0#0#"
   splits:
   - split: 1

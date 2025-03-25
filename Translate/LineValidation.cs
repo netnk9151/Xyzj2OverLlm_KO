@@ -95,8 +95,9 @@ public static partial class LineValidation
             result = result
                 .Replace("’", "'")
                 .Replace("‘", "'")
-                .Replace("—", "-");
-    
+                .Replace("—", "-")
+                .Replace("-", "\u2011"); //Change Hyphens to non breaking hyphens
+
             //Strip .'s
             //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
             //    result = result[..^1];

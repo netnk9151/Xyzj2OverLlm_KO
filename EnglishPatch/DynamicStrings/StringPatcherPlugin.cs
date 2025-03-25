@@ -21,10 +21,15 @@ public class StringPatcherPlugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
     private Harmony _harmony;
     private readonly Dictionary<string, Type> _cachedTypes = [];
+    public static bool Enabled = true;
 
     private void Awake()
     {
         Logger = base.Logger;
+
+        if (!Enabled)
+            return;
+
         _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
         Logger.LogInfo("Dynamic String Patcher loading...");
