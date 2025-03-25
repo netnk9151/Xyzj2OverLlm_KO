@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Translate.Support;
 using Translate.Utility;
@@ -49,6 +50,9 @@ public static class Configuration
         response.Prompts = CachePrompts(workingDirectory);
         response.GlossaryLines = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/Glossary.yaml", Encoding.UTF8));
         response.ManualTranslations = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/ManualTranslations.yaml", Encoding.UTF8));
+
+        foreach(var line in response.GlossaryLines)
+            line.Result = line.Result.Replace("-", "\u2011"); //Change Hyphens to non breaking hyphens
 
         return response;
     }

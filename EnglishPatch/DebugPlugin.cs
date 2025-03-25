@@ -29,18 +29,18 @@ internal class DebugPlugin: BaseUnityPlugin
     private void Update()
     {
         // Toggle UI with F2 key
-        if (Input.GetKeyDown(KeyCode.F4))
-        {
-            foreach (var l in TMP_Settings.linebreakingRules.leadingCharacters)
-                Logger.LogError($"leading rules: {l.Key} {l.Value}");
+        //if (Input.GetKeyDown(KeyCode.F4))
+        //{
+        //    foreach (var l in TMP_Settings.linebreakingRules.leadingCharacters)
+        //        Logger.LogError($"leading rules: {l.Key} {l.Value}");
 
-            foreach (var l in TMP_Settings.linebreakingRules.followingCharacters)
-                Logger.LogError($"following rules: {l.Key} {l.Value}");
+        //    foreach (var l in TMP_Settings.linebreakingRules.followingCharacters)
+        //        Logger.LogError($"following rules: {l.Key} {l.Value}");
 
-            Logger.LogError($"leading: {TMP_Settings.leadingCharacters}");
-            Logger.LogError($"following: {TMP_Settings.followingCharacters}");
-            Logger.LogError($"useModernHangulLineBreakingRules: {TMP_Settings.useModernHangulLineBreakingRules}");
-        }
+        //    Logger.LogError($"leading: {TMP_Settings.leadingCharacters}");
+        //    Logger.LogError($"following: {TMP_Settings.followingCharacters}");
+        //    Logger.LogError($"useModernHangulLineBreakingRules: {TMP_Settings.useModernHangulLineBreakingRules}");
+        //}
     }
 
     //// Opening Screen

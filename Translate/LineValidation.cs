@@ -273,7 +273,7 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
-        if (raw.Contains('-') && !result.Contains('-'))
+        if (raw.Contains('-') && !result.Contains('-') && !result.Contains("\u2011"))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");

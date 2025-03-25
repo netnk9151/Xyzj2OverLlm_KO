@@ -80,7 +80,6 @@
   - split: 2
     text: "技能测试-枯萎"
     translated: "Skill Test ‑ Wilted"
-    flaggedForRetranslation: true
 - raw: "18#0##0###0#0#1####0#####0#0#0#0#0#10361500#10361520#10361540#10361560#10361580#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0#0#0#0#"
   splits: []
 - raw: "50#0#御剑-伤害#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#110052#0#0#0#0#0#0#0#0#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
@@ -88,13 +87,11 @@
   - split: 2
     text: "御剑-伤害"
     translated: "Wield a sword by imperial command ‑ Harm."
-    flaggedForRetranslation: true
 - raw: "51#0#养剑术-飞剑#0#温养剑器，使得剑器和自己有感应，攻击命中目标有一定几率放出一把飞剑，飞剑带伤害和剑气。#2#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100100022#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "养剑术-飞剑"
     translated: "Nurturing swordsmanship ‑ Soaring Sword"
-    flaggedForRetranslation: true
   - split: 4
     text: "温养剑器，使得剑器和自己有感应，攻击命中目标有一定几率放出一把飞剑，飞剑带伤害和剑气。"
     translated: "Nurturing the sword cultivates a connection between the wielder and the weapon, allowing for increased hit rate when attacking targets. Occasionally, this results in the release of a flying sword that deals damage with both physical force and qi energy."
@@ -103,7 +100,6 @@
   - split: 2
     text: "幽影-剑意纵横"
     translated: "Shadowy Presence ‑ Sword intent sweeping across"
-    flaggedForRetranslation: true
   - split: 4
     text: "温养剑器，使得剑器和自己有感应，攻击命中目标有一定几率放出一把飞剑，飞剑带伤害和剑气。"
     translated: "Nurturing the sword cultivates a connection between the wielder and the weapon, allowing for increased hit rate when attacking targets. Occasionally, this results in the release of a flying sword that deals damage with both physical force and qi energy."
@@ -265,43 +261,36 @@
   - split: 2
     text: "剑招一式-新"
     translated: "A single sword technique ‑ New"
-    flaggedForRetranslation: true
 - raw: "122#0#剑招二式-新#0#0#0#330#0#6#0#0#0#0#0#spell_12n_go|12n_s#sfx_main_hero_2&0&true&true#0#1#0#10#40#20#1220#1221#0#0#0#0#0#0#0#0#165#165#0#0#0#0#0#0#0#0#0#sound_spell_102#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑招二式-新"
     translated: "Second Sword Technique ‑ New"
-    flaggedForRetranslation: true
 - raw: "123#0#剑招三式-新#0#0#0#429#0#6#0#0#0#0#0#spell_13n_go|13n_s#sfx_main_hero_3&0&true&true#0#1#0#10#40#30#1230#1231#0#0#0#0#0#0#0#0#100#100#0#0#0#0#0#0#0#0#0#sound_spell_103#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑招三式-新"
     translated: "Three sword techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "124#0#剑招四式-新#0#0#0#396#0#6#0#0#0#0#0#spell_14n_go|14n_s#sfx_main_hero_4&0&true&true#0#1#0#10#99#40#1040#1041#1040#1041#0#0#0#0#0#0#132#132#396#396#0#0#0#0#0#0#0#sound_spell_104#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑招四式-新"
     translated: "Four Sword Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "125#0#剑招五式-新#0#0#0#759#0#6#0#0#0#0#0#spell_15n_go|15n_s#sfx_main_hero_5&0&true&true#0#1#0#10#50#50#1050#1051#100230#0#0#0#0#0#0#0#429#429#429#0#0#0#0#0#0#0#0#sound_spell_105#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑招五式-新"
     translated: "Five Sword Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "134#0#剑变招四式-新#0#0#0#429#0#6#0#0#0#0#0#spell_14n_1_go|14n_1_s#sfx_main_hero_4_1&0&true&true#0#1#0#19#80#40#1140#1041#1140#1041#0#0#0#0#0#0#132#132#264#264#0#0#0#0#0#0#0#sound_spell_114#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑变招四式-新"
     translated: "Four Techniques of Sword Transformation ‑ New"
-    flaggedForRetranslation: true
 - raw: "135#0#剑变招五式-新#0#0#0#792#0#6#0#0#0#0#0#spell_15n_1_go|15n_1_s#sfx_main_hero_5_1&0&true&true#0#1#0#10#65#50#1150#1151#101020#1150#0#0#0#0#0#0#400#400#400#167#0#0#0#0#0#0#0#sound_spell_115#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑变招五式-新"
     translated: "Five Sword Techniques Transformation ‑ New"
-    flaggedForRetranslation: true
 - raw: "141#0#剑招一式_new_3#0#0#0#333#0#6#0#0#直线1.6米，1段#0#0#spell_11n3_go|11n3_s#sfx_main_hero_11_new&0&true&true#0#1#48#0#99#10#1410#1411#0#0#0#0#0#0#0#0#198#198#0#0#0#0#0#0#0#0#0#sound_spell_101#0#4#0#0#0#10#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -413,43 +402,36 @@
   - split: 2
     text: "刀法一式-新"
     translated: "One form of blade art ‑ New"
-    flaggedForRetranslation: true
 - raw: "222#0#刀法二式-新#0#0#0#363#0#6#0#0#0#0#0#spell_22n_go|22n_s#sfx_main_hero_22&0&true&true#0#1#0#0#30#20#2020#2021#0#0#0#0#0#0#0#0#165#165#0#0#0#0#0#0#0#0#0#sound_spell_202#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀法二式-新"
     translated: "Blade Art Second Form ‑ New"
-    flaggedForRetranslation: true
 - raw: "223#0#刀法三式-新#0#0#0#429#0#6#0#0#0#0#0#spell_23n_go|23n_s#sfx_main_hero_23&0&true&true#0#1#0#0#55#30#2030#2031#0#0#0#0#0#0#0#0#333#333#0#0#0#0#0#0#0#0#0#sound_spell_203#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀法三式-新"
     translated: "Three Styles of Blade Art ‑ New"
-    flaggedForRetranslation: true
 - raw: "224#0#刀法四式-新#0#0#0#660#0#6#0#0#0#0#0#spell_24n_go|24n_s#sfx_main_hero_24&0&true&true#0#1#0#10#80#40#2040#2041#2040#2042#2044#2043#0#0#0#0#99#99#264#264#429#429#0#0#0#0#0#sound_spell_204#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀法四式-新"
     translated: "Four Blade Arts Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "225#0#刀法五式-新#0#0#0#660#0#6#0#0#0#0#0#spell_25n_go|25n_s#sfx_main_hero_25&0&true&true#0#1#0#5#24#50#2050#2051#101000#0#0#0#0#0#0#0#170#170#170#0#0#0#0#0#0#0#0#sound_spell_205#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#2#1.8#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀法五式-新"
     translated: "The Five Methods of the Blade Art ‑ New."
-    flaggedForRetranslation: true
 - raw: "234#0#刀变招四式-新#0#0#0#462#0#6#0#0#0#0#0#spell_24n_1_go|24n_1_s#sfx_main_hero_24_1&0&true&true#0#1#0#14#87#40#2140#2141#2143#2142#0#0#0#0#0#0#165#165#429#429#0#0#0#0#0#0#0#sound_spell_214#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀变招四式-新"
     translated: "Four Techniques of the Blade Transformation ‑ New."
-    flaggedForRetranslation: true
 - raw: "235#0#刀变招五式-新#0#0#0#726#0#6#0#0#0#0#0#spell_25n_1_go|25n_1_s#sfx_main_hero_25_1&0&true&true#0#1#0#0#55#50#2150#2151#101030#0#0#0#0#0#0#0#429#429#429#0#0#0#0#0#0#0#0#sound_spell_215#0#4#0#0#0#11#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀变招五式-新"
     translated: "Five styles of the blade technique ‑ New."
-    flaggedForRetranslation: true
 - raw: "241#0#刀法一式_new_3#0#0#0#300#0#6#0#0#0#0#0#spell_21n3_go|21n3_s#sfx_main_hero_21_new&0&true&true#0#1#0#10#45#10#2410#2411#0#0#0#0#0#0#0#0#132#132#0#0#0#0#0#0#0#0#0#sound_spell_201#0#4#200#0#0#11#0#0#0#0#0#0#0#0#-1#3#1.6#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -540,43 +522,36 @@
   - split: 2
     text: "长兵连招1-新"
     translated: "Execute a sequence of long‑range attacks 1 ‑ New."
-    flaggedForRetranslation: true
 - raw: "322#0#长兵连招2-新#0#0#9#660#0#6#0#0#0#0#0#spell_42n_go|42n_s#sfx_main_hero_42&0&true&true#0#1#0#0#40#20#3020#3021#3020#3021#0#0#0#0#0#0#297#297#500#500#0#0#0#0#0#0#0#sound_spell_302#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵连招2-新"
     translated: "The long spear flows into a series of 2 techniques ‑ New."
-    flaggedForRetranslation: true
 - raw: "323#0#长兵连招3-新#0#0#9#594#0#6#0#0#0#0#0#spell_43n_go|43n_s#sfx_main_hero_43&0&true&true#0#1#0#40#55#30#3030#3031#0#0#0#0#0#0#0#0#297#297#0#0#0#0#0#0#0#0#0#sound_spell_303#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵连招3-新"
     translated: "Continuous attacks by long‑range weapons 3 ‑ New."
-    flaggedForRetranslation: true
 - raw: "324#0#长兵连招4-新#0#0#9#825#0#6#0#0#0#0#0#spell_44n_go|44n_s#sfx_main_hero_44&0&true&true#0#1#0#0#60#40#3040#3040#3040#3040#3041#3040#3042#0#0#0#231#297#363#495#495#660#660#0#0#0#0#sound_spell_304#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵连招4-新"
     translated: "Long spear combo 4 ‑ New"
-    flaggedForRetranslation: true
 - raw: "325#0#长兵连招5-新#0#0#9#990#0#6#0#0#0#0#0#spell_45n_go|45n_s#sfx_main_hero_45&0&true&true#0#1#0#0#45#50#3050#3051#100240#0#0#0#0#0#0#0#466#466#466#0#0#0#0#0#0#0#0#sound_spell_305#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#3#1.8#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵连招5-新"
     translated: "Master of Long Weapon Combo 5 ‑ New."
-    flaggedForRetranslation: true
 - raw: "334#0#长兵变招四式-新#0#0#0#825#0#6#0#0#0#0#0#spell_44n_1_go|44n_1_s#sfx_main_hero_44_1&0&true&true#0#1#0#0#99#40#3140#3140#3140#3141#0#0#0#0#0#0#231#400#666#666#0#0#0#0#0#0#0#sound_spell_314#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵变招四式-新"
     translated: "The Long Spear Change Four Techniques ‑ New."
-    flaggedForRetranslation: true
 - raw: "335#0#长兵变招五式-新#0#0#0#792#0#6#0#0#0#0#0#spell_45n_1_go|45n_1_s#sfx_main_hero_45_1&0&true&true#0#1#0#0#50#50#3150#3151#100250#0#0#0#0#0#0#0#400#400#400#0#0#0#0#0#0#0#0#sound_spell_315#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长兵变招五式-新"
     translated: "Five‑step Long Spear Technique ‑ New"
-    flaggedForRetranslation: true
 - raw: "341#0#长兵连招1_new_3#0#0#9#366#0#6#0#0#0#0#0#spell_41n3_go|41n3_s#sfx_main_hero_41_new&0&true&true#0#1#0#35#55#10#3410#3411#0#0#0#0#0#0#0#0#264#264#0#0#0#0#0#0#0#0#0#sound_spell_301_new#0#4#0#0#0#12#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -667,43 +642,36 @@
   - split: 2
     text: "搏击一式-新"
     translated: "Combat technique ‑ New"
-    flaggedForRetranslation: true
 - raw: "422#0#搏击二式-新#0#0#9#330#0#6#0#0#0#0#0#spell_32n_go|32n_s#sfx_main_hero_32&0&true&true#0#1#0#10#45#20#4020#4021#0#0#0#0#0#0#0#0#165#165#0#0#0#0#0#0#0#0#0#sound_spell_402#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击二式-新"
     translated: "The Second Combat Technique ‑ New"
-    flaggedForRetranslation: true
 - raw: "423#0#搏击三式-新#0#0#9#396#0#6#0#0#0#0#0#spell_33n_go|33n_s#sfx_main_hero_33&0&true&true#0#1#0#0#40#30#4030#4031#0#0#0#0#0#0#0#0#165#165#0#0#0#0#0#0#0#0#0#sound_spell_403#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击三式-新"
     translated: "Three Styles of Combat Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "424#0#搏击四式-新#0#0#9#363#0#6#0#0#0#0#0#spell_34n_go|34n_s#sfx_main_hero_34&0&true&true#0#1#0#0#40#40#4040#4041#0#0#0#0#0#0#0#0#132#132#0#0#0#0#0#0#0#0#0#sound_spell_404#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击四式-新"
     translated: "Combat Four Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "425#0#搏击五式-新#0#0#9#858#0#6#0#0#0#0#0#spell_35n_go|35n_s#sfx_main_hero_35&0&true&true#0#1#0#0#30#50#4050#4051#104010#0#0#0#0#0#0#0#297#297#297#0#0#0#0#0#0#0#0#sound_spell_405#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击五式-新"
     translated: "The Five Techniques of Combat ‑ New"
-    flaggedForRetranslation: true
 - raw: "434#0#搏击变招四式-新#0#0#9#462#0#6#0#0#0#0#0#spell_34n_1_go|34n_1_s#sfx_main_hero_34_1&0&true&true#0#1#0#10#60#40#4140#4141#0#0#0#0#0#0#0#0#264#264#0#0#0#0#0#0#0#0#0#sound_spell_414#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击变招四式-新"
     translated: "Four Variations of Combat Techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "435#0#搏击变招五式-新#0#0#9#759#0#6#0#0#0#0#0#spell_35n_1_go|35n_1_s#sfx_main_hero_35_1&0&true&true#0#1#0#0#45#50#4150#4151#4152#4151#100260#0#0#0#0#0#132#132#561#561#561#0#0#0#0#0#0#sound_spell_415#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击变招五式-新"
     translated: "Five‑style combat techniques ‑ New"
-    flaggedForRetranslation: true
 - raw: "441#0#搏击一式_new_3#0#0#9#231#0#6#0#0#0#0#0#spell_31n3_go|31n3_s#sfx_main_hero_31_simple&0&true&true#0#1#0#10#35#10#4410#4411#0#0#0#0#0#0#0#0#132#132#0#0#0#0#0#0#0#0#0#sound_spell_401#0#4#0#0#0#13#0#0#0#0#0#0#0#0#-1#3#1.1#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -759,13 +727,11 @@
   - split: 2
     text: "暗器三式-1"
     translated: "Three techniques of the hidden weapon ‑1"
-    flaggedForRetranslation: true
 - raw: "505#0#暗器三式-2#0#0#1#0#0#6#0#0#0#0#0#0#0#0#0#0#0#0#0#103#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "暗器三式-2"
     translated: "Three Styles of Hidden Weapons ‑2"
-    flaggedForRetranslation: true
 - raw: "600#0#暗器测试#0#0#1#1000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#264#265#0#0#0#0#0#0#0#0#300#300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -801,19 +767,16 @@
   - split: 2
     text: "叠刃-触发技能"
     translated: "Layered Blade Technique ‑ Triggered skill"
-    flaggedForRetranslation: true
 - raw: "1007#0#撕裂-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#101021#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "撕裂-触发技能"
     translated: "Torn apart ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1008#0#反制-触发技能#11#刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。#dao32#1100#0#2#0#0#0#0#0#spell_110000_go#sfx_main_hero_110000&0&false#0#2#0#0#0#0#120002#120001#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#7#0#5000#1#3#0#0#0#0#0#0#30#5#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "反制-触发技能"
     translated: "Countermeasure ‑ Trigger Skill"
-    flaggedForRetranslation: true
   - split: 4
     text: "刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。"
     translated: "The sword flashed out with lightning speed, as if accompanied by a fierce gale. The sweep of the blade left enemies bleeding profusely"
@@ -822,193 +785,161 @@
   - split: 2
     text: "化用-触发技能"
     translated: "Utilize transformation ‑ Activate ability skill"
-    flaggedForRetranslation: true
 - raw: "1010#0#天罡-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#120031#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "天罡-触发技能"
     translated: "Heavenly Punishment Star ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1011#0#自损-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#130041#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "自损-触发技能"
     translated: "Self‑detriment ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1012#0#血爆-触发技能#0#0#jian12#20#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#130030#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "血爆-触发技能"
     translated: "Bloody Explosion ‑ Triggered skill"
-    flaggedForRetranslation: true
 - raw: "1013#0#无物-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#130010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "无物-触发技能"
     translated: "Nothing exists ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1014#0#归一-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#104020#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "归一-触发技能"
     translated: "Unification ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1015#0#坐忘-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#107000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "坐忘-触发技能"
     translated: "Sitting in forgetfulness ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1016#0#内虚-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#160061#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "内虚-触发技能"
     translated: "Inner weakness ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1017#0#长啸-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#170071#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "长啸-触发技能"
     translated: "Long Howl ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1018#0#豪情-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#170101#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "豪情-触发技能"
     translated: "Magnanimous spirit ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1019#0#太极-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190001#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "太极-触发技能"
     translated: "Tai Chi ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1020#0#两仪-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190011#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "两仪-触发技能"
     translated: "The Two Modes ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1021#0#炽绯-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190051#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "炽绯-触发技能"
     translated: "Fiery Crimson ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1022#0#巨门-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190011#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "巨门-触发技能"
     translated: "Colossus Gate ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1023#0#命门-触发技能#0#0#jian12#200#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190011#0#0#0#0#0#0#0#0#0#100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "命门-触发技能"
     translated: "Dantian ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1024#0#毒息-触发技能#0#0#jian12#100#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190121#0#0#0#0#0#0#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "毒息-触发技能"
     translated: "Toxic fumes ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1025#0#无我-触发技能#0#0#jian12#1100#0#0#0#0#0#0#0#0#sfx_main_hero_110000&0&false#0#2#0#0#0#0#120002#120001#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "无我-触发技能"
     translated: "No self ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1026#0#战意-触发技能#0#0#jian12#350#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100281#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "战意-触发技能"
     translated: "Willingness to fight ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1027#0#火翎-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "火翎-触发技能"
     translated: "Feather of Fire ‑ Activate skill"
-    flaggedForRetranslation: true
 - raw: "1028#0#雪吟-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100211#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "雪吟-触发技能"
     translated: "Xue Yin ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1029#0#腐毒-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#104001#104002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "腐毒-触发技能"
     translated: "Decay poison ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1030#0#内劲-触发技能#0#0#jian12#200#0#2#0#0#0#0#0#0#0#0#2#0#0#0#0#104011#0#0#0#0#0#0#0#0#0#5#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "内劲-触发技能"
     translated: "Internal power ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1031#0#混乱-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#140021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "混乱-触发技能"
     translated: "Chaos ‑ Triggered skill"
-    flaggedForRetranslation: true
 - raw: "1032#0#封脉-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#140031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "封脉-触发技能"
     translated: "Seal Meridian ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1033#0#缓和-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#109881#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "缓和-触发技能"
     translated: "Moderate ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1034#0#饱食-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#12000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1034#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "饱食-触发技能"
     translated: "Well‑fed ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1035#0#醉酒-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#14000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1035#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "醉酒-触发技能"
     translated: "Drunk ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1036#0#救困扶危-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#10493#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1036#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "救困扶危-触发技能"
     translated: "Rescue from peril and aid those in distress ‑ Trigger skill."
-    flaggedForRetranslation: true
 - raw: "1037#0#天上紫薇-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#10512#10513#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1037#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "天上紫薇-触发技能"
     translated: "Violet Cassia Star ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1038#0#天上紫薇-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#10513#10512#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1038#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "天上紫薇-触发技能"
     translated: "Violet Cassia Star ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1039#0#boss幽影调息-触发技能#0#0#jian12#10#0#7#0#0#0#0#0#0#0#0#2#0#0#0#0#18560301#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1039#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "boss幽影调息-触发技能"
     translated: "Boss: Shadow Mist Meditative Breathing ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1040#0#boss幽影寒气-触发技能#0#0#jian12#10#0#7#0#0#0#0#0#0#0#0#2#0#0#0#0#18561101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1040#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "boss幽影寒气-触发技能"
     translated: "Boss, shadowy chill aura ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1041#0#boss幽影寒气叠加触发#0#0#jian12#10#0#7#0#0#0#0#0#0#sfx_buff_hanqibaofa&0&false&true#0#2#0#0#0#0#18561103#18561104#18561105#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1041#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -1024,307 +955,256 @@
   - split: 2
     text: "藏刀式-触发技能"
     translated: "Hidden Blade Technique ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1045#0#气劲-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100300021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1045#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "气劲-触发技能"
     translated: "Energy force ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1046#0#卸甲-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100400021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1046#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "卸甲-触发技能"
     translated: "Dismount from horseback ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1047#0#剑术精要-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100100011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1047#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑术精要-触发技能"
     translated: "Essence of Swordsmanship ‑ Activate skill trigger"
-    flaggedForRetranslation: true
 - raw: "1048#0#刀法精要-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100200011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1048#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀法精要-触发技能"
     translated: "Essentials of the Blade Art ‑ Trigger skill."
-    flaggedForRetranslation: true
 - raw: "1049#0#搏击精要-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100300011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1049#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "搏击精要-触发技能"
     translated: "Essentials of Combat Techniques ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1050#0#枪棍精要-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100400011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1050#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "枪棍精要-触发技能"
     translated: "Essential Techniques for Spear and Staff ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1051#0#乱环诀-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1051#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "乱环诀-触发技能"
     translated: "Chaos Ring Technique ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1052#0#刀劲-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#101030#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1052#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀劲-触发技能"
     translated: "Blade force ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1053#0#炎云-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190061#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1053#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "炎云-触发技能"
     translated: "Yan Yun ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1054#0#炎云-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190062#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1054#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "炎云-引爆-触发技能"
     translated: "Yan Yun ‑ Detonate ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1055#0#炎云-引爆-陷阱伤害#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190063#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1055#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "炎云-引爆-陷阱伤害"
     translated: "Yanyun ‑ Detonate ‑ Trap Damage"
-    flaggedForRetranslation: true
 - raw: "1056#0#云烟-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190071#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1056#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "云烟-触发技能"
     translated: "Mist and smoke ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1057#0#云烟-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190072#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1057#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "云烟-引爆-触发技能"
     translated: "Misty Clouds ‑ Detonate ‑ Triggered skill"
-    flaggedForRetranslation: true
 - raw: "1058#0#巨门-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1058#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "巨门-触发技能"
     translated: "Colossus Gate ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1059#0#巨门-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190092#190093#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1059#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "巨门-引爆-触发技能"
     translated: "Great Tower Gate ‑ Detonate ‑ Trigger skill."
-    flaggedForRetranslation: true
 - raw: "1060#0#毒炎-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190111#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1060#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "毒炎-触发技能"
     translated: "Poisonous flame ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1061#0#毒炎-引爆-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190112#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1061#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "毒炎-引爆-触发技能"
     translated: "Poisonous flame ‑ Explosion ‑ Activate ability skill."
-    flaggedForRetranslation: true
 - raw: "1062#0#毒炎-引爆-陷阱#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190113#190114#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1062#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "毒炎-引爆-陷阱"
     translated: "Poisonous Blaze ‑ Detonate ‑ Trap"
-    flaggedForRetranslation: true
 - raw: "1063#0#混元-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#190140#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1063#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "混元-触发技能"
     translated: "Hun Yuan ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1064#0#剑气-通用身前2米直线#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#110060#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1064#0#0#0#0#0#0#0#0#0#0#0#-1#2#2.0#1.2#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑气-通用身前2米直线"
     translated: "Sword energy ‑ A straight line within 2 meters in front of the body."
-    flaggedForRetranslation: true
 - raw: "1065#0#破浪-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196045#180000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1065#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "破浪-触发技能"
     translated: "Breaking through waves ‑ Activate Skill"
-    flaggedForRetranslation: true
 - raw: "1066#0#军魂-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196048#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1066#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "军魂-触发技能"
     translated: "War Soul ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1067#0#卸刃-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196036#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1067#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "卸刃-触发技能"
     translated: "Sheath the blade ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1068#0#化鳞-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196061#196062#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1068#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "化鳞-触发技能"
     translated: "Unfurling Scales ‑ Activate skill"
-    flaggedForRetranslation: true
 - raw: "1069#0#破鳞-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1069#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "破鳞-触发技能"
     translated: "Shedding scales ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1070#0#触发-护体真气#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#107000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1070#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "触发-护体真气"
     translated: "Trigger ‑ Bodyguard True Qi"
-    flaggedForRetranslation: true
 - raw: "1071#0#逆鳞-触发技能-护盾#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196102#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "逆鳞-触发技能-护盾"
     translated: "Back‑scaled dragon scales ‑ Trigger skill ‑ Shield"
-    flaggedForRetranslation: true
 - raw: "1072#0#五岳为轻-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "五岳为轻-触发技能"
     translated: "Wu Yue are like feathers ‑ Trigger skill."
-    flaggedForRetranslation: true
 - raw: "1073#0#忘生-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196026#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "忘生-触发技能"
     translated: "Forgo one's life ‑ Activate Skill"
-    flaggedForRetranslation: true
 - raw: "1074#0#太玄-触发技能#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#109961#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "太玄-触发技能"
     translated: "Taixuan ‑ Activate Skill"
-    flaggedForRetranslation: true
 - raw: "1075#0#半天河-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#107010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "半天河-触发技能"
     translated: "Halfway River ‑ Triggered skill"
-    flaggedForRetranslation: true
 - raw: "1076#0#通用-触发真气护盾#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#107000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-触发真气护盾"
     translated: "Universal ‑ Trigger the true qi shield"
-    flaggedForRetranslation: true
 - raw: "1077#0#万籁山河-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196263#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "万籁山河-触发技能"
     translated: "Ten thousand echoes of mountains and rivers ‑ Trigger skill."
-    flaggedForRetranslation: true
 - raw: "1078#0#烟霄微月-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196181#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "烟霄微月-触发技能"
     translated: "Thin Moon in a Smoke‑Covered Sky ‑ Trigger Skill"
-    flaggedForRetranslation: true
 - raw: "1079#0#微月-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#196202#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "微月-触发技能"
     translated: "A crescent moon ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1080#0#微月-陷阱-触发技能#0#0#jian12#500#0#0#0#0#0#0#0#0#sfx_main_hero_100100&0&false&true#0#2#0#0#0#0#196201#104050#0#0#0#0#0#0#0#0#499#498#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "微月-陷阱-触发技能"
     translated: "Mid‑Month ‑ Trap ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1081#0#烟霄-触发技能#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#104030#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "烟霄-触发技能"
     translated: "Yan Xiao ‑ Trigger skill"
-    flaggedForRetranslation: true
 - raw: "1082#0#江东-怒气#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#197392#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "江东-怒气"
     translated: "East of the Yangtze River region ‑ Anger"
-    flaggedForRetranslation: true
 - raw: "1083#0#元气弹-触发#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#180091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "元气弹-触发"
     translated: "Vitality Bomb ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1084#0#剑息斩-伤害#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#180093#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑息斩-伤害"
     translated: "Cutting Sword's Rest ‑ Harm"
-    flaggedForRetranslation: true
 - raw: "1085#0#剑息斩-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#180090#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "剑息斩-触发"
     translated: "Sword's Rest, a Cut ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1086#0#褐玉-触发#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#103151#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "褐玉-触发"
     translated: "Brown Jade ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1087#0#抱阳诀-回血触发#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196143#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "抱阳诀-回血触发"
     translated: "Embrace the Yang Technique ‑ Activate Blood Recovery"
-    flaggedForRetranslation: true
 - raw: "1088#0#心诀-墨守攻-#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#196232#196233#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "心诀-墨守攻-"
     translated: "Heart Technique ‑ Adhering strictly to attack methods ‑"
-    flaggedForRetranslation: true
 - raw: "1089#0#游刃-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#1103003#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "游刃-触发"
     translated: "Moving with ease and skill ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1090#0#神遇-触发#0#0#jian12#333#0#1#0#0#0#0#0#0#sfx_main_hero_110110&0&false&true#0#2#0#0#0#0#1103102#0#0#0#0#0#0#0#0#0#300#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "神遇-触发"
     translated: "Serendipitous encounter ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1091#0#净邪-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#100302#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "净邪-触发"
     translated: "Purging evil ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1092#0#借霞蔽月-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#197031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "借霞蔽月-触发"
     translated: "Let clouds obscure the moon ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1093#0#红莲业火-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1071#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "红莲业火-触发"
     translated: "Scarlet Lotus Flame Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1094#0#千峰鸣-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#109925#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "千峰鸣-触发"
     translated: "Thousand Peaks Echoing ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1095#0#陷阱引爆触发#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -1335,661 +1215,551 @@
   - split: 2
     text: "衡阳声断-触发"
     translated: "Silence at Hengyang ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1097#0#衡阳声断-陷阱-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#1106302#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "衡阳声断-陷阱-触发"
     translated: "Hengyang: The Sound of Silence ‑ Trap ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1098#0#暗风如晦-触发#0#0#jian12#10#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#1107201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "暗风如晦-触发"
     translated: "Dark as a wind on a cloudy day ‑ Triggered."
-    flaggedForRetranslation: true
 - raw: "1099#0#刀气-触发#0#0#jian12#10#0#7#0#0#0#0#0#0#sfx_main_hero_110130&0&true&true#0#2#0#0#0#0#1109201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "刀气-触发"
     translated: "Blade energy ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1100#0#疾风逐日-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#2#0#0#0#0#1110201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "疾风逐日-触发"
     translated: "Chase the Wind, Pursue the Sun ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1101#0#猛虎式-触发#0#0#jian12#10#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#1300002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "猛虎式-触发"
     translated: "Ferocious Tiger Style ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1102#0#奔虎跳涧-陷阱-伤害#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "奔虎跳涧-陷阱-伤害"
     translated: "Leaping into the ravine like a tiger ‑ Trap ‑ Harm."
-    flaggedForRetranslation: true
 - raw: "1103#0#枯心定禅-触发#0#0#jian12#10#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#1301301#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "枯心定禅-触发"
     translated: "Arid Heart, Calm Meditation ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1104#0#涅槃-触发#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100631#100632#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "涅槃-触发"
     translated: "Nirvana ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1105#0#折梅落霜-寒气#0#0#jian12#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#5.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "折梅落霜-寒气"
     translated: "Che mei luo shuang ‑ Cold chill"
-    flaggedForRetranslation: true
 - raw: "1106#0#复苏-回血#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "复苏-回血"
     translated: "Revival ‑ Restore vitality"
-    flaggedForRetranslation: true
 - raw: "1107#0#青霖-回血#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17041#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "青霖-回血"
     translated: "Qinglin ‑ Restore health"
-    flaggedForRetranslation: true
 - raw: "1108#0#重光-回血#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17051#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "重光-回血"
     translated: "Reign of Radiance ‑ Restore life force"
-    flaggedForRetranslation: true
 - raw: "1109#0#武力-增加内外攻#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17151#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "武力-增加内外攻"
     translated: "Martial prowess ‑ Add internal and external attack."
-    flaggedForRetranslation: true
 - raw: "1110#0#通武-增加内外攻#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17161#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通武-增加内外攻"
     translated: "Transcendent Martial Arts ‑ Increase internal and external attack."
-    flaggedForRetranslation: true
 - raw: "1111#0#真武-增加内外攻#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17171#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "真武-增加内外攻"
     translated: "Zhenwu ‑ Add Internal and External Attacks"
-    flaggedForRetranslation: true
 - raw: "1112#0#守势-减伤#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17330#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "守势-减伤"
     translated: "Defensive stance ‑ Damage reduction"
-    flaggedForRetranslation: true
 - raw: "1113#0#如山-减伤#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17340#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "如山-减伤"
     translated: "Mighty as a mountain ‑ Harm reduction"
-    flaggedForRetranslation: true
 - raw: "1114#0#百炼-减伤#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17350#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "百炼-减伤"
     translated: "Tempered through a hundred trials ‑ Damage reduction."
-    flaggedForRetranslation: true
 - raw: "1115#0#炽焰-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17691#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "炽焰-触发"
     translated: "Blazing Flame ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1116#0#烈火-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17701#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "烈火-触发"
     translated: "Fiery Blaze ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1117#0#九阳-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17711#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "九阳-触发"
     translated: "Nine Yangs ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1118#0#流光-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17721#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "流光-触发"
     translated: "Luminous Flow ‑ Triggering"
-    flaggedForRetranslation: true
 - raw: "1119#0#金芒-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17731#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "金芒-触发"
     translated: "Golden Thorn ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1120#0#升元-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17741#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "升元-触发"
     translated: "Ascend to Primordial Essence ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1121#0#霜天-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17751#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "霜天-触发"
     translated: "Frosty Sky ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1122#0#雾相-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17761#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "雾相-触发"
     translated: "Mist Harmony ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1123#0#玄阴-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17771#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "玄阴-触发"
     translated: "Mysterious Yin ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1124#0#上青-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17781#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "上青-触发"
     translated: "Ascend to Blue Sky ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1125#0#泰然-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17791#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "泰然-触发"
     translated: "Serene composure ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1126#0#九冲-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17801#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "九冲-触发"
     translated: "Nine Collisions ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1127#0#生毒-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17811#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "生毒-触发"
     translated: "Produce poison ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1128#0#饮鸠-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17821#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "饮鸠-触发"
     translated: "Drinking a dove ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1129#0#蚀心-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#17831#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "蚀心-触发"
     translated: "Corroding the heart ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1130#0#回光返照-触发#0#0#1#10#0#7#0#0#0#0#0#spell_12022_go#sfx_main_hero_130140&0&true&true#0#0#0#0#0#0#18021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "回光返照-触发"
     translated: "Light returning to its source ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1131#0#临死一击-触发#0#0#1#10#0#7#0#0#0#0#0#spell_12022_go#sfx_main_hero_130140&0&true&true#0#0#0#0#0#0#18031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "临死一击-触发"
     translated: "Final Blow ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1132#0#自爆-触发#0#0#1#10#0#7#0#0#0#0#0#spell_12022_go#sfx_main_hero_130140&0&true&true#0#0#0#0#0#0#18041#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "自爆-触发"
     translated: "Self‑destruct ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1133#0#闪光-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#18051#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "闪光-触发"
     translated: "Glimmer ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1134#0#影舞-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#18061#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "影舞-触发"
     translated: "Shadow dance ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1135#0#瞒天-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#18071#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "瞒天-触发"
     translated: "Concealing from Heaven ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1136#0#逆鳞-护盾#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#18151#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "逆鳞-护盾"
     translated: "Reversing Scales ‑ Shield"
-    flaggedForRetranslation: true
 - raw: "1137#0#澎拜-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109886#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "澎拜-触发"
     translated: "Pay homage ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1138#0#放血疗法-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109936#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "放血疗法-触发"
     translated: "Bloodletting therapy ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1139#0#反击-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109941#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "反击-触发"
     translated: "Counterattack ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1140#0#通用-灼伤触发#0#0#1#10#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-灼伤触发"
     translated: "Universal ‑ Severe burn trigger"
-    flaggedForRetranslation: true
 - raw: "1141#0#汲取-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100641#100642#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "汲取-触发"
     translated: "Draw upon ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1142#0#气涌-冷却#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1308302#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "气涌-冷却"
     translated: "Qi surging forth ‑ Cooling down"
-    flaggedForRetranslation: true
 - raw: "1143#0#气涌-流血#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "气涌-流血"
     translated: "Qi surges forth ‑ Bleeding"
-    flaggedForRetranslation: true
 - raw: "1144#0#玉川-增益驱散#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100702#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "玉川-增益驱散"
     translated: "Yuchuan ‑ Enhancement Dispersion"
-    flaggedForRetranslation: true
 - raw: "1145#0#玉川-减益驱散#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100703#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "玉川-减益驱散"
     translated: "Yuchuan ‑ Reduce and disperse benefits"
-    flaggedForRetranslation: true
 - raw: "1146#0#太极真罡-御体#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#107021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "太极真罡-御体"
     translated: "Taiji Zheng Gang ‑ Imperial Body"
-    flaggedForRetranslation: true
 - raw: "1147#0#重光内功-回复#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197300#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "重光内功-回复"
     translated: "Chongguang Neigong ‑ Reply"
-    flaggedForRetranslation: true
 - raw: "1148#0#孤胆-增伤触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100712#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "孤胆-增伤触发"
     translated: "Lone wolf ‑ Trigger increased damage"
-    flaggedForRetranslation: true
 - raw: "1149#0#孤胆-减伤触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100713#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "孤胆-减伤触发"
     translated: "Lone‑wolf ‑ Damage Reduction Trigger"
-    flaggedForRetranslation: true
 - raw: "1150#0#通用-怒雷#0#0#1#10#0#7#0#0#0#0#0#0#sfx_buff_nulei&0&true&true#0#0#0#0#0#0#180050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1150#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-怒雷"
     translated: "General‑purpose ‑ Roaring Thunder"
-    flaggedForRetranslation: true
 - raw: "1151#0#通用-燃烧#0#0#1#10#0#7#0#0#0#0#0#0#sfx_buff_zhuore&0&true&true#0#0#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-燃烧"
     translated: "Universal ‑ Burning"
-    flaggedForRetranslation: true
 - raw: "1152#0#通用-极寒#0#0#1#10#0#7#0#0#0#0#0#0#sfx_buff_hanqi&0&true&true#0#0#0#0#0#0#100810#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1152#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-极寒"
     translated: "Universal ‑ Extreme cold"
-    flaggedForRetranslation: true
 - raw: "1153#0#九曜-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100741#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "九曜-触发"
     translated: "Nine Constellations ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1154#0#九曜-陷阱#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100742#100743#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "九曜-陷阱"
     translated: "Nine Celestial Orbs ‑ Trap"
-    flaggedForRetranslation: true
 - raw: "1155#0#通用-寒气#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#101050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-寒气"
     translated: "Universal ‑ Chilling cold"
-    flaggedForRetranslation: true
 - raw: "1156#0#三节-攻击增加#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100782#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "三节-攻击增加"
     translated: "Three sections ‑ Attack increase"
-    flaggedForRetranslation: true
 - raw: "1157#0#三节-防御增加#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100783#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "三节-防御增加"
     translated: "Three sections ‑ Defense increased"
-    flaggedForRetranslation: true
 - raw: "1158#0#恪命-冰爆#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100801#100802#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "恪命-冰爆"
     translated: "Comply diligently ‑ Frost Shatter"
-    flaggedForRetranslation: true
 - raw: "1159#0#江东-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197391#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "江东-触发"
     translated: "Jiangdong ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1160#0#连城-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197411#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "连城-触发"
     translated: "Linking City ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1161#0#禅心-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197461#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "禅心-触发"
     translated: "Zen Heart ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1162#0#暴怒-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#197481#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "暴怒-触发"
     translated: "Furious anger ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1163#0#通用-法相#0#0#1#10#0#7#0#0#0#0#0#0#sfx_buff_nulei&0&true&true|sfx_buff_zhuore&0&true&true|sfx_buff_hanqi&0&true&true#0#0#0#0#0#0#101040#100810#180050#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-法相"
     translated: "Universal ‑ Dharma Protector"
-    flaggedForRetranslation: true
 - raw: "1164#0#沉棍锻武-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1205002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "沉棍锻武-触发"
     translated: "Meditative staff training ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1165#0#归去堪禅-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1205103#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "归去堪禅-触发"
     translated: "Return to meditation ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1166#0#万象霜天-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1205203#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "万象霜天-触发"
     translated: "Thousand Symbols, Frosty Sky ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1167#0#忘心-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200001#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "忘心-触发"
     translated: "Forgetfulness ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1168#0#弃爱-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "弃爱-触发"
     translated: "Renounce love ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1169#0#断情-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200021#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "断情-触发"
     translated: "Detached in emotion ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1170#0#证道-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "证道-触发"
     translated: "Achieve enlightenment ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1171#0#归宗-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "归宗-触发"
     translated: "Return to Ancestral Home ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1172#0#猜拳-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200101#0#0#0#0#0#0#0#0#0#366#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "猜拳-触发"
     translated: "Rock, paper, scissors ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1173#0#梭哈-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200101#200101#200101#200101#0#0#0#0#0#0#366#366#366#366#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "梭哈-触发"
     translated: "All in ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1174#0#运势-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200101#200101#0#0#0#0#0#0#0#0#366#366#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "运势-触发"
     translated: "Prosperity and fortune ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1175#0#天命-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200101#200101#200101#0#0#0#0#0#0#0#366#366#366#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "天命-触发"
     translated: "Mandate of Heaven ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1176#0#初升-光环效果-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200192#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "初升-光环效果-触发"
     translated: "Dawn's First Light ‑ Aura effect ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1177#0#魂蚀-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200221#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "魂蚀-触发"
     translated: "Soul corruption ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1178#0#魔狱-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200241#200242#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "魔狱-触发"
     translated: "Demonic Prison ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1179#0#万解-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200251#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "万解-触发"
     translated: "Immortal Sage ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1180#0#无惧-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200261#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "无惧-触发"
     translated: "Fearless ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1181#0#迅掌-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200281#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "迅掌-触发"
     translated: "Rapid Fist Technique ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1182#0#千金-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200331#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "千金-触发"
     translated: "Thousand pieces of gold ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1183#0#慑魂-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200341#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "慑魂-触发"
     translated: "Fascinate the soul ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1184#0#劫气-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200351#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "劫气-触发"
     translated: "Raiding energy ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1185#0#阻灵-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200361#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "阻灵-触发"
     translated: "Bar the Spirit ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1186#0#封神-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200371#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "封神-触发"
     translated: "Sealing the Gods ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1187#0#翦径-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200381#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "翦径-触发"
     translated: "Cutting through thorny paths ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1188#0#寒劲-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200391#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "寒劲-触发"
     translated: "Chill intensity ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1189#0#归一-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200431#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "归一-触发"
     translated: "Unification ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1190#0#去阳真诀-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200542#200543#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "去阳真诀-触发"
     translated: "Go to the True Method of Yang ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1191#0#天魔解体-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#200532#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "天魔解体-触发"
     translated: "The fall of Heaven's Demon ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1192#0#正气诀-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#107560#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "正气诀-触发"
     translated: "Correct Qi Method ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1193#0#正气-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109030#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "正气-触发"
     translated: "Upright virtue ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1194#0#清辉-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109021#109022#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "清辉-触发"
     translated: "Clear Radiance ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1195#0#正气浩然-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "正气浩然-触发"
     translated: "Vastly upright integrity ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1196#0#苍松劲-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#196291#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "苍松劲-触发"
     translated: "Azure Pines' Vigor ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1197#0#凌苍穹-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109041#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "凌苍穹-触发"
     translated: "Leifeng Skyborne ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1198#0#浩气诀-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196312#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "浩气诀-触发"
     translated: "Heroic Vitality Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1199#0#通用-剑息触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#110090#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-剑息触发"
     translated: "Universal ‑ Sword Rest Trigger"
-    flaggedForRetranslation: true
 - raw: "1200#0#无形-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#196381#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "无形-触发"
     translated: "Formless ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1201#0#森罗万法-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100500016#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1201#0#0#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "森罗万法-触发"
     translated: "Myriad laws of the universe ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1202#0#伤-触发#0#0#1#10#0#0#0#0#0#0#0#0#sfx_main_hero_110130&0&false&true#0#0#0#0#0#0#100500019#101000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1202#0#0#0#0#0#0#0#0#0#0#0#1#3#3.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "伤-触发"
     translated: "Injury ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1203#0#墨染尘心-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100100071#100100072#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "墨染尘心-触发"
     translated: "Ink‑stained heart ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1204#0#通用-气盾#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#107010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-气盾"
     translated: "Universal ‑ Air Shield"
-    flaggedForRetranslation: true
 - raw: "1205#0#人剑合一-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100100101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "人剑合一-触发"
     translated: "One body, one sword ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1206#0#飞剑#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100100121#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2000,109 +1770,91 @@
   - split: 2
     text: "拔刀式-触发"
     translated: "Blade Form ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1208#0#乱环式-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "乱环式-触发"
     translated: "Loop‑like chaos ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1209#0#霸刀势-增伤#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100200101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "霸刀势-增伤"
     translated: "The dominance of the dominator blade ‑ Aggravate injuries"
-    flaggedForRetranslation: true
 - raw: "1210#0#霸刀势-减伤#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200103#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "霸刀势-减伤"
     translated: "The dominance of the dominator blade ‑ Reduce harm"
-    flaggedForRetranslation: true
 - raw: "1211#0#八方藏刀诀-伤害#0#0#1#10#0#7#0#0#0#0#0#0#sfx_main_hero_110130&0&false&true#0#0#0#0#0#0#100200111#100200112#0#0#0#0#0#0#0#0#10#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "八方藏刀诀-伤害"
     translated: "Eight Directions Concealed Blade Technique ‑ Harm"
-    flaggedForRetranslation: true
 - raw: "1212#0#八方藏刀诀-附加#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100200114#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "八方藏刀诀-附加"
     translated: "Eight Directions Conceal the Knife Technique ‑ Attached."
-    flaggedForRetranslation: true
 - raw: "1213#0#卸劲-减伤触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100300031#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "卸劲-减伤触发"
     translated: "Relax your strength ‑ Damage reduction trigger"
-    flaggedForRetranslation: true
 - raw: "1214#0#伏虎劲-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100300091#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "伏虎劲-触发"
     translated: "Tiger‑strength endurance ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1215#0#降龙劲-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100300101#100300102#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "降龙劲-触发"
     translated: "Descending Dragon Force ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1216#0#战意技-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100400071#100400072#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "战意技-触发"
     translated: "Battle Intention Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1217#0#狂战技-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100400081#100400082#100400083#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "狂战技-触发"
     translated: "Frenzied Combat Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1218#0#归海技-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100400101#100400102#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "归海技-触发"
     translated: "Return to Sea Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1219#0#裂地技-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#100400111#100400112#100400113#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "裂地技-触发"
     translated: "Earth‑Cracking Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1220#0#先天之炁-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#109101#109102#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "先天之炁-触发"
     translated: "Inborn vital energy ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1221#0#太初-触发#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#196411#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "太初-触发"
     translated: "Primordial Origin ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1222#0#太始-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196421#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "太始-触发"
     translated: "Taishi ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1223#0#点墨-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#107510#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "点墨-触发"
     translated: "Ink Dotting ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1224#0#执天道-万剑#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#180080#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "执天道-万剑"
     translated: "Wielder of the Way of Heaven ‑ Thousand Swords"
-    flaggedForRetranslation: true
 - raw: "1225#0#岁寒#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196161#101050#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2113,19 +1865,16 @@
   - split: 2
     text: "残雪凝辉-触发"
     translated: "Frosty remnants glint in the light ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1227#0#残雪凝辉-引爆#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196172#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "残雪凝辉-引爆"
     translated: "Frosty remnants glisten ‑ Detonate"
-    flaggedForRetranslation: true
 - raw: "1228#0#玄黄-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100842#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "玄黄-触发"
     translated: "Xuanhuang ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1229#0#无相无我#0#0#1#834#0#0#0#0#0#0#0#0#sfx_main_hero_100180&0&false&true#0#0#0#0#0#0#1003000#1003000#1003000#1003000#0#0#0#0#0#0#133#300#467#700#833#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#1.5#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2181,7 +1930,6 @@
   - split: 2
     text: "通用-引爆护盾"
     translated: "Universal ‑ Detonate the shield"
-    flaggedForRetranslation: true
 - raw: "1240#0#寒川#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#197562#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2237,7 +1985,6 @@
   - split: 2
     text: "杨恒-金刚之躯触发"
     translated: "Yang Heng ‑ Body of Invincible Strength Activated."
-    flaggedForRetranslation: true
 - raw: "1251#0#通用冰冻#0#0#1#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#130#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#3#0.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2253,37 +2000,31 @@
   - split: 2
     text: "风起-伤害"
     translated: "Wind Rises ‑ Harm"
-    flaggedForRetranslation: true
 - raw: "1254#0#雪-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#196661#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "雪-触发"
     translated: "Snow ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1255#0#赤血-血煞#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#23020302#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "赤血-血煞"
     translated: "Red Blood ‑ Blood Curse"
-    flaggedForRetranslation: true
 - raw: "1256#0#兵家百学-全属性增加#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10541#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "兵家百学-全属性增加"
     translated: "Military strategy encompasses a hundred schools of thought ‑ All attributes increased."
-    flaggedForRetranslation: true
 - raw: "1257#0#豪饮-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31070202#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "豪饮-触发"
     translated: "Boisterous drinking ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1258#0#飞沙走石-陷阱#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31070403#31070404#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "飞沙走石-陷阱"
     translated: "Whirlwind of sand and rolling stones ‑ Trap"
-    flaggedForRetranslation: true
 - raw: "1259#0#兑#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#13540700#13540603#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2309,25 +2050,21 @@
   - split: 2
     text: "诸武齐登-侠胆剑心"
     translated: "All martial artists ascend together ‑ Chivalrous Courage, Heart of a Swordsmaster"
-    flaggedForRetranslation: true
 - raw: "1264#0#诸武齐登-刃下刀心#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10562#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "诸武齐登-刃下刀心"
     translated: "All martial artists ascend together ‑ Blade Beneath the Heart."
-    flaggedForRetranslation: true
 - raw: "1265#0#诸武齐登-北冥玄拳#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10564#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "诸武齐登-北冥玄拳"
     translated: "All martial artists ascend together ‑ Northern Abyss Dark Fist Technique"
-    flaggedForRetranslation: true
 - raw: "1266#0#诸武齐登-游龙花枪#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10566#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "诸武齐登-游龙花枪"
     translated: "All martial artists ascend together ‑ Dragon Roaming Flower Spear"
-    flaggedForRetranslation: true
 - raw: "1267#0#持国#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10530701#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2388,49 +2125,41 @@
   - split: 2
     text: "魔息-触发"
     translated: "Magic aura ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1279#0#寂灭-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1505101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "寂灭-触发"
     translated: "Silence and extinction ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1280#0#魔身-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1505201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "魔身-触发"
     translated: "Demon Body ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1281#0#侵骨寒-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#107591#101000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "侵骨寒-触发"
     translated: "Bone‑chilling cold ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1282#0#抱阳诀-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#101040#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "抱阳诀-触发"
     translated: "Embrace Yang Technique ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1283#0#忘瑕-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1102200#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "忘瑕-触发"
     translated: "Forgotten Scars ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1284#0#快意恩仇-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100476#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "快意恩仇-触发"
     translated: "Avenging grudges with satisfaction ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1285#0#风残-伤害#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1105002#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "风残-伤害"
     translated: "Feng can ‑ Harm"
-    flaggedForRetranslation: true
 - raw: "1286#0#绝日红江#0#0#1#10#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#197692#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1286#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -2446,31 +2175,26 @@
   - split: 2
     text: "刀意-触发"
     translated: "Dao essence ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1289#0#通用-流血#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#101000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "通用-流血"
     translated: "Universal ‑ Bloody"
-    flaggedForRetranslation: true
 - raw: "1290#0#破军-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#40011#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "破军-触发"
     translated: "Breakthrough Soldier ‑ Trigger"
-    flaggedForRetranslation: true
 - raw: "1291#0#明镜-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100751#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "明镜-触发"
     translated: "Clear Mirror ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1292#0#六合-触发#0#0#1#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#200511#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#3#2.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "六合-触发"
     translated: "Six Harmonies ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "1293#0#0#0#0#1#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1507014#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits: []
 - raw: "1294#0#0#0#0#1#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#10782#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
@@ -3408,7 +3132,6 @@
   - split: 2
     text: "兽决-运功"
     translated: "Beast Judgement ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "6000#0#0#16#0#0#8000#0#3#0#0#0#0#0#spell_yinchang_1_1|spell_yinchang_1_2#sfx_main_hero_yinchang_yujing&0&false|yinchang_spell_fomen_gang_2&501&false&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits: []
 - raw: "6010#0#0#16#0#0#8000#0#3#0#0#0#0#0#spell_yinchang_1_1|spell_yinchang_1_2#sfx_main_hero_yinchang_yujing&0&false|yinchang_spell_fomen_yin_2&501&false&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
@@ -3976,7 +3699,6 @@
   - split: 2
     text: "江湖刀法-二连击"
     translated: "Jianghu blade art ‑ Double attack"
-    flaggedForRetranslation: true
 - raw: "11016#0#风云变幻#11#0#dao23#2000#0#2#0#0#0#0#0#spell_11016_go#sfx_main_hero_11016&0&false#0#0#180#2#0#0#110160000#110160001#110160002#0#0#0#0#0#0#0#165#594#1320#0#0#0#0#0#0#0#0#0#0#5#0#11000#1#0#Black-WeaponTrail&startpoint&endpoint&0&1.099#0#0#0#0#0#2#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -4192,7 +3914,6 @@
   - split: 2
     text: "江湖拳法-二连击"
     translated: "Jianghu martial arts ‑ Double hit"
-    flaggedForRetranslation: true
 - raw: "12016#0#分筋错骨#11#0#quan44#2000#0#2#0#0#0#0#0#spell_12016_go#sfx_main_hero_12016&0&false#0#0#180#2#0#0#120160000#120160001#120160002#0#0#0#0#0#0#0#500#825#1419#0#0#0#0#0#0#0#0#0#0#5#0#8000#3#0#0#0#0#0#0#0#1#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -5411,7 +5132,6 @@
   - split: 2
     text: "沧海-触发"
     translated: "Vast sea ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "100420#0#执天道#1#观天之道，执天之行，尽矣。遵循道法，杀机暗藏，令敌措手不及。#1042#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#109081#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#100420#0#0#0#0#19787#4#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0#44|200;73|150#4#0#0#0.0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -6342,7 +6062,6 @@
   - split: 2
     text: "雁九天-测试"
     translated: "Wild Goose of Nine Heavens ‑ Test"
-    flaggedForRetranslation: true
   - split: 4
     text: "将自身内力聚集一点，化身迅猛转态的雁急速向前冲刺并且对直线6米范围内碰撞到的目标造成伤害的同时附加特殊效果。"
     translated: "Concentrate a bit of their inner power to transform into the ferocious form of a swan and charge forward at high speed, dealing damage to any target within a 6 meter straight‑line range upon collision while also applying special effects."
@@ -6384,7 +6103,6 @@
   - split: 2
     text: "飞仙剑诀-NPC用"
     translated: "The Sword Technique of Flying Immortals ‑ Used by NPC."
-    flaggedForRetranslation: true
   - split: 4
     text: "青作穗，酒如泉，蓬莱方丈自飞仙。"
     translated: "Green wheat sways, wine flows like a spring, at Penglai the abbot is none other than a flying immortal"
@@ -6500,7 +6218,6 @@
   - split: 2
     text: "破岳-触发"
     translated: "Poyue ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "103000#0#风卷#11#聚气成风，剑气如卷风般旋转。#1300#1000#0#0#0#0#身前1.9米180度扇形#0#0#spell_100530_go#sfx_main_hero_100530&0&true&true#0#0#0#0#0#15#1030000#0#0#0#0#0#0#0#0#41007#333#0#0#0#0#0#0#0#0#333#0#sound_spell_102900#0#0#0#9000#0#3#0#0#0#0#0#0#0#0#0#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0.4#0#1#0#0#0#"
   splits:
   - split: 2
@@ -6517,7 +6234,6 @@
   - split: 2
     text: "风卷-触发"
     translated: "Wind‑swept ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "103010#0#游龙#11#剑法灵活如游龙，迅速变换方向，出其不意攻击敌人。#1301#1000#0#0#0#0#身前2.1米180度扇形#0#0#spell_100540_go#sfx_main_hero_100540&0&true&true#0#0#0#0#0#36#1030100#0#0#0#0#0#0#0#0#41016#231#0#0#0#0#0#0#0#0#231#0#sound_spell_102910#0#0#0#15000#0#3#0#0#0#0#0#0#0#0#0#3#2.1#90.0#0#0#0#0#0#0#0#0##0#0#0#0.5#0#1#0#0#0#"
   splits:
   - split: 2
@@ -6556,7 +6272,6 @@
   - split: 2
     text: "河图-触发"
     translated: "Hetu ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "103200#0#海棠醉日#11#挼丝团金悬簏簌，神光欲截蓝田玉。#1320#2333#0#0#0#0#身前1.5米2米范围#0#0#spell_100550_go#sfx_main_hero_100550&0&true&true#0#0#0#0#0#81#1032000#1032000#1032000#1032000#1032000#0#0#0#0#41086#333#566#800#1100#1400#0#0#0#0#1400#0#sound_spell_103200#0#0#0#20000#0#3#0#0#3#0#0#0#0#0#-1#6#2.0#1.5#0#0#0#0#0#0#0#0##3#0#0#1.8#0#1#0#0#0#"
   splits:
   - split: 2
@@ -6622,7 +6337,6 @@
   - split: 2
     text: "砚溪心法-运功"
     translated: "The Yanxi Heart Method ‑ Qi cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "获得15秒剑罡效果，剑罡存在时自身内外攻获得自身剑术*0.4的增长"
     translated: "Gain the Sword Pillar Effect for 15 seconds. While the Sword Pillar effect is active, your internal and external attacks receive a growth of your swordsmanship multiplied by 0.4."
@@ -6706,7 +6420,6 @@
   - split: 2
     text: "天上经·阴-运功"
     translated: "Tian Shang Jing · Yin ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "阴属性提升18%，攻击时附加自身阴属性*1.5的伤害"
     translated: "Yin attribute enhancement by 18%, inflicting additional damage equal to the caster's own Yin attribute multiplied by 1.5 when attacking."
@@ -6723,7 +6436,6 @@
   - split: 2
     text: "天上经·阳-运功"
     translated: "Tian Shang Jing · Yang ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "阳属性提升18%，攻击时附加自身阳属性*1.5的伤害"
     translated: "Increase by 18% in Yang attributes; when attacking, deal additional damage equal to the attacker's own Yang attribute multiplied by 1.5."
@@ -6740,7 +6452,6 @@
   - split: 2
     text: "天上经·刚-运功"
     translated: "Heavenly Classic of Hardness · Hardness ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "刚属性提升18%，攻击时附加自身刚属性*1.5的伤害"
     translated: "Hard attribute increased by 18%, dealing additional damage equal to the character's own hard attribute multiplied by 1.5 when attacking."
@@ -6757,7 +6468,6 @@
   - split: 2
     text: "天上经·柔-运功"
     translated: "Heavenly Classic of Softness · Softness ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "柔属性提升18%，攻击时附加自身柔属性*1.5的伤害"
     translated: "Increase in soft attribute by 18%, dealing additional damage equal to the character's own soft attribute multiplied by 1.5 when attacking."
@@ -6774,7 +6484,6 @@
   - split: 2
     text: "天上经·毒-运功"
     translated: "Heavenly Classic on Poison · Poison ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "毒属性提升18%，攻击时附加自身毒属性*1.5的伤害"
     translated: "Toxic attribute increased by 18%, dealing additional damage equal to self's toxic attribute * 1.5 when attacking."
@@ -7590,19 +7299,16 @@
   - split: 2
     text: "藏刀式-回血(测试用)"
     translated: "Hidden Blade Technique ‑ Restore blood (test version)"
-    flaggedForRetranslation: true
 - raw: "111102#0#藏刀式-回气(测试用)#1#0#dao_1110#50#0#2#0#0#0#0#0#0#0#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#3#0#0#0#0#0#0#35#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#0#0#"
   splits:
   - split: 2
     text: "藏刀式-回气(测试用)"
     translated: "Hidden Blade Technique ‑ (Breathing Test ‑ For Testing Purposes)"
-    flaggedForRetranslation: true
 - raw: "111103#0#藏刀式-反击#11#刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。#dao_1110#666#0#2#0#0#0#0#0#spell_110000_go#sfx_main_hero_110000&0&false&true#0#2#0#0#0#0#1111012#1111030#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#7#111103#15000#1#3#0#0#0#0#0#0#30#5#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#0#0#"
   splits:
   - split: 2
     text: "藏刀式-反击"
     translated: "Hidden Blade Technique ‑ Counterattack"
-    flaggedForRetranslation: true
   - split: 4
     text: "刀出迅疾，如有烈风环伺，刀风所至，敌人血流不止。"
     translated: "The sword flashed out with lightning speed, as if accompanied by a fierce gale. The sweep of the blade left enemies bleeding profusely"
@@ -7684,7 +7390,6 @@
   - split: 2
     text: "七煞-触发"
     translated: "Seven Killers ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "111220#0#风意#0#树欲静而风不止#quan_1010#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1120200#1120202#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#1#0#0#19787#4#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#5042|5#1|4500#4#0#0#0.0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -7698,7 +7403,6 @@
   - split: 2
     text: "风意-触发"
     translated: "Whisper of the Wind ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "111300#0#掠雾成岚#11#刀法积势如微风掠雾，瞬息变化之间又如岚风掠境，连续快速攻击。伤害可通过刀魂进行加成。#dao_1130#1300#0#0#0#0#身前1.9米180度扇形#0#0#spell_110530_go#sfx_main_hero_110530&0&false&true#0#0#0#0#0#16#1113000#0#0#0#0#0#0#0#0#41007#366#0#0#0#0#0#0#0#0#366#0#sound_spell_111300#0#0#111300#12000#1#3#0#0#0#0#0#0#0#0#2#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0.67#0#1#0#0#0#"
   splits:
   - split: 2
@@ -7823,7 +7527,6 @@
   - split: 2
     text: "月落留影-运功"
     translated: "The moon sets, leaving its trace ‑ Cultivating energy."
-    flaggedForRetranslation: true
   - split: 4
     text: "运功期间，每次受击，释放一道残影对目标造成威力为170的一次伤害，调息1秒"
     translated: "During the period of exerting internal energy, each time an attack is received, a trail of afterimages inflicts damage on the target with power equal to 170. The recovery takes 1 seconds."
@@ -7935,7 +7638,6 @@
   - split: 2
     text: "无涯刀-反击"
     translated: "Blade of Boundless Void ‑ Counterattack"
-    flaggedForRetranslation: true
   - split: 11
     text: "身前1.9米180度扇形"
     translated: "A semicircular spread extending 1.9 meters in front of 180."
@@ -9837,7 +9539,6 @@
   - split: 2
     text: "星蕴天机-运功"
     translated: "The essence of the stars reveals hidden truths ‑ Cultivating qi."
-    flaggedForRetranslation: true
   - split: 4
     text: "周天运行星势，觅长生，夺天机，心法运功期间，生命值最多降为1点"
     translated: "The Circulation of Heaven's Stars operates to seek immortality and seize celestial secrets; during the Heart Method training period, life force may decrease by up to 1 points."
@@ -9895,7 +9596,6 @@
   - split: 2
     text: "白日金蟾劲-毒种"
     translated: "White Day Golden Toad Technique ‑ Poisonous breed."
-    flaggedForRetranslation: true
 - raw: "132110#0#明月玉蟾功#1#奇毒可透骨髓，闻者同受其害，可谓流毒无穷。#dao_1013#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1321100#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#3#0#0#13430#4#0#0#0#0#0#4#0#0.0#0.0#0#0#0#0#0#0&74|10080|1;74|20080|1#0#18124|5##4#0#0#0.0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -9909,13 +9609,11 @@
   - split: 2
     text: "明月玉蟾功-毒域"
     translated: "Jade Toad's Skill of the Bright Moon ‑ Poisonous Realm"
-    flaggedForRetranslation: true
 - raw: "132112#0#明月玉蟾功-中毒#0#0#0#10#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#101010#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#4#3#2.0#180.0#0#0#0#0#0#0#0#0##4#0#0#0.0#0#1#0#0#0#"
   splits:
   - split: 2
     text: "明月玉蟾功-中毒"
     translated: "Mingyue Yuchen Gong ‑ Poisoned"
-    flaggedForRetranslation: true
 - raw: "132120#0#幽惑汞蟾功#1#取毒材浸体用以练功，七七四十九天后，毒功入血，毒体大成。#dao_1050#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1321200#1321201#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#3#0#0#13430#4#0#0#0#0#0#4#0#0.0#0.0#0#0#0#0#0#0&74|10080|1;74|20080|1#0#9108|5##4#0#0#0.0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -10018,7 +9716,6 @@
   - split: 2
     text: "明王降世-运功"
     translated: "The Sage Emperor Descends to Earth ‑ Cultivating energy."
-    flaggedForRetranslation: true
   - split: 4
     text: "烈焰护盾护体，每秒对附近范围的敌方叠加灼阳效果"
     translated: "Flame Shield envelops the body, applying Burn Effect to nearby enemies every second."
@@ -10122,7 +9819,6 @@
   - split: 2
     text: "龙象功-运功"
     translated: "Dragon Elephant Skill ‑ Cultivate qi"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功降低自身当前90%生命值，获得自身90%最大生命值的龙象之力护体"
     translated: "Activate the technique to reduce your current 90% health, gaining a protective aura of Dragon‑Elephant Power equivalent to 90% of your maximum health."
@@ -10327,7 +10023,6 @@
   - split: 2
     text: "吞灵蚀魄-运功"
     translated: "Soul‑consuming, spirit‑devouring ‑ Practice internal energy"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功，对目标造成的鬼火效果层数上限增加5层"
     translated: "Run gong, increasing the layer limit of ghost fire effects on the target by 5 levels."
@@ -10500,7 +10195,6 @@
   - split: 2
     text: "百战圣功-运功"
     translated: "Saint of a Hundred Battles ‑ Practice internal energy techniques."
-    flaggedForRetranslation: true
   - split: 4
     text: "战心劫，在持续时间内自身的要害能力提升刚*0.2，提升自身力道刚*0.4，自身受到伤害增加20%。持续时间30秒。"
     translated: "In the Battle Mind Trial, for its duration, the target's vital point ability is enhanced by a factor of 0.2, and their force strength is increased by a factor of 0.4. However, they suffer an increase in damage taken by 20%. The duration lasts for 30 seconds."
@@ -10533,7 +10227,6 @@
   - split: 2
     text: "周天吐纳功-运功"
     translated: "Zhoutian Breathing Technique ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "运用吐纳调息，立即回复自身根骨*5生命值和内力*1的真气值，同时持续恢复根骨*4的生命值，持续时间5秒。"
     translated: "Use abdominal breathing to immediately restore your potential by *5* health points and inner power by *1* true qi points, while continuously recovering *4* health points over a duration of 5 seconds."
@@ -10550,7 +10243,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "持续时间内，内力增加100，最大真气增加20%"
     translated: "Within this duration, inner power increases by 100, and maximum true qi increases by 20%."
@@ -10567,7 +10259,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "持续时间内，内力增加60，最大真气增加5%"
     translated: "During this period, inner power increases by 60, and maximum true qi increases by 5%."
@@ -10616,7 +10307,6 @@
   - split: 2
     text: "洗髓-运功"
     translated: "Purging one's essence ‑ Cultivate energy"
-    flaggedForRetranslation: true
   - split: 4
     text: "最大血量、最大真气增加20%，运功持续时间内每秒回复自身元气、内力一定比例的真气值，每秒回复自身力道、根骨一定比例的生命值"
     translated: "Maximum Health increased by 20%; during the meditation period, restores a certain percentage of Vitality and True Qi per second based on Inner Power. Restores Strength per second and recovers Health proportional to Potential."
@@ -10633,7 +10323,6 @@
   - split: 2
     text: "道心种魔-运功"
     translated: "Cultivating one's Way heart to breed demons ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
   - split: 4
     text: "对周围敌人造成自身魔学*10，附带50%吸血效果的一次伤害，自身治疗效果增加100%，持续20秒"
     translated: "Inflict 10 Dark Arts damage to surrounding enemies, with a 50% life‑drain effect. Increase self‑healing effects by 100% for 20 seconds."
@@ -10642,7 +10331,6 @@
   - split: 2
     text: "道心种魔-魔种"
     translated: "Sow the Dao within to master evil ‑ Demon Seed"
-    flaggedForRetranslation: true
 - raw: "150800#0#九阳功#11#内力自生速度奇快，似无穷尽，百病不生，诸毒不侵#xinfa_1013#4000#2#0#0#0#0#0#0#spell_120510_go#sfx_main_hero_120510&0&true&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#sound_spell_150800#0#0#0#90000#4#4#0#0#4#0#0#0#0#0#0#0#0.0#0.0#1|2017&2|2018&3|2019&4|2020#150801#0#9232#0#0#0#0##4#1500#0#0.0#71160|71170|71180|71190|71200#0#0#0#0#"
   splits:
   - split: 2
@@ -10656,7 +10344,6 @@
   - split: 2
     text: "九阳-运功"
     translated: "Nine Yangs ‑ Meditative cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功期间免疫伤害，清除自身受到的持续伤害效果、受伤增加效果；扣除自身30%当前真气值，持续对周围造成自身阳属性*0.8的伤害"
     translated: "During the cultivation period, immunity to damage; clear any ongoing effects of sustained damage or injury‑enhancing effects. Deduct 30% of your current True Qi value and continuously deal self Yang attribute *0.8 damage to nearby areas."
@@ -10726,7 +10413,6 @@
   - split: 2
     text: "参天功-运功"
     translated: "Supernatural Achievement or Mastery of Heaven ‑ Cultivating energy."
-    flaggedForRetranslation: true
   - split: 4
     text: "最大真气提升450，提升自身剑术*0.1的要害"
     translated: "Maximum True Qi enhancement 450, enhancing the vital points of personal swordsmanship by *0.1."
@@ -10747,7 +10433,6 @@
   - split: 2
     text: "琼浆玉露-运功"
     translated: "Nectar of jade dew ‑ Cultivating energy"
-    flaggedForRetranslation: true
   - split: 4
     text: "自身要害提升50%，内外防降低50%，每施展五次招式使得自身陷入醉酒：眩晕3秒；"
     translated: "Enhance vital point by 50%, reduce internal and external defense by 50%. Each time five techniques are executed, it causes oneself to become intoxicated: Dizzying 3 seconds;"
@@ -10770,7 +10455,6 @@
   - split: 2
     text: "金刚不坏神功-运功"
     translated: "Indestructible Golden Body Technique ‑ Cultivate Qi"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功期间可抵抗持续性的伤害效果"
     translated: "During the qi cultivation period, you can resist continuous damage effects"
@@ -10787,7 +10471,6 @@
   - split: 2
     text: "五毒心法-运功"
     translated: "Five Poisons Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "运行功法，自身毒属性提升280点"
     translated: "Activate the skill, increasing your own poison attribute by 280 points."
@@ -10804,7 +10487,6 @@
   - split: 2
     text: "无垢净体-运功"
     translated: "Pristine Pure Body ‑ Cultivating energy"
-    flaggedForRetranslation: true
   - split: 4
     text: "消耗自身410真气值，提升自身40%内外防"
     translated: "Consume 410 True Qi points to increase self's external and internal defense by 40%."
@@ -10823,7 +10505,6 @@
   - split: 2
     text: "弹指神功-运功"
     translated: "Touch of a Finger Divine Skill ‑ Practice internal alchemy."
-    flaggedForRetranslation: true
   - split: 4
     text: "自身附加震气效果，攻击目标时对目标附加5秒的化元效果，对目标造成伤害时附加自身内力*1的伤害，此伤害会根据目标身上化元效果进行加成，调息10秒"
     translated: "Enhance your own internal energy by adding Qi Shaking effects. When attacking a target, apply an Alchemy Effect for 5 seconds to the target. Inflict damage on the target and deal additional harm equal to your own inner power multiplied by 1. This damage will be increased based on the target's existing Alchemy Effects. Recharge for 10 seconds."
@@ -10840,7 +10521,6 @@
   - split: 2
     text: "追星赶月-运功"
     translated: "Pursuing stars and chasing the moon ‑ Cultivating energy."
-    flaggedForRetranslation: true
   - split: 4
     text: "移除自身身上的限制效果"
     translated: "Remove the restriction effects from oneself"
@@ -10859,7 +10539,6 @@
   - split: 2
     text: "唐门心法-运功"
     translated: "Tangmen Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功期间，自身闪避提升20%."
     translated: "During the cultivation period, self‑dodge increases by 20%."
@@ -10868,7 +10547,6 @@
   - split: 2
     text: "秘典-凝神"
     translated: "Tome of Secrets ‑ Focus your mind"
-    flaggedForRetranslation: true
   - split: 4
     text: "虚幻迷离，凝神无极。战斗中，使用手掷类暗器造成额外伤害。"
     translated: "Illusion and mystery intertwined, a state of utmost concentration. During combat, using hand‑thrown types of hidden weapons causes additional external injury."
@@ -10879,7 +10557,6 @@
   - split: 2
     text: "秘典-神机"
     translated: "Secret Manual ‑ Divine Mechanism"
-    flaggedForRetranslation: true
   - split: 4
     text: "奇巧工枢，神机莫测。战斗中使用机括类暗器时造成额外伤害。"
     translated: "Cunning in its craftsmanship, the mechanism is unfathomable. When using mechanical hidden weapons during battle, it inflicts additional external injury."
@@ -11447,7 +11124,6 @@
   - split: 2
     text: "九寒天降-运功"
     translated: "Nine Cold Heavens Descend ‑ Cultivating Qi"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功：造成伤害时额外附加自身阴属性*1的伤害"
     translated: "Qi cultivation: Deal additional damage equal to your own Yin attribute *1 when causing harm."
@@ -11522,7 +11198,6 @@
   - split: 2
     text: "云鹤吐纳-运功"
     translated: "Clouded Crane's Breathing Technique ‑ Cultivating energy"
-    flaggedForRetranslation: true
   - split: 4
     text: "真气运行周天，大幅度增强自身阴属性。"
     translated: "True Qi circulates through the Celestial Circuit, significantly enhancing one's Yin attributes."
@@ -11539,7 +11214,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "损失200金钱，伤害提升10%。"
     translated: "Lose 200 money, increase damage by 10%"
@@ -11556,7 +11230,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "永久扣除100生命值上限以此换取短时间内全面大幅度增加战斗属性."
     translated: "Permanently reduce the maximum health value by 100 in exchange for a significant and comprehensive increase in combat attributes over a short period of time."
@@ -11573,7 +11246,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "持续时间内，毒增加120。"
     translated: "Within this duration, poison increases by 120"
@@ -11590,7 +11262,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "心法运功，运行周天调息自身，回复一定血量。"
     translated: "Using the Heart Method to operate internal energy and adjust breathing through the circumpolar process to restore a certain amount of blood."
@@ -11607,7 +11278,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "心法运功，运行周天调息自身，持续恢复自身真气"
     translated: "Practice the Heart Method and perform circulatory breathing of the Celestial Circuit to continuously restore your own True Qi."
@@ -11624,7 +11294,6 @@
   - split: 2
     text: "心法-运功"
     translated: "Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
   - split: 4
     text: "使用后受到伤害增加100%，对附近敌人造成自身已损失生命值的伤害，并将回复生命值"
     translated: "Using after increases damage taken by 100%, deals damage to nearby enemies equal to the health already lost, and restores life."
@@ -12490,7 +12159,6 @@
   - split: 2
     text: "沧海-触发"
     translated: "Vast sea ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "300720#0#天剑#11#立天之道，曰阴与阳。以强大内力朝锁定的敌人刺出一剑，锋芒毕露，惊世震俗。#1050#666#0#2#0#0#身前5米直线#0#0#spell_100140_go#sfx_main_hero_100032_2&0&true&true#0#2#0#0#0#36#1005000#1005001#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sound_spell_100140_go#0#0#100500#12000#0#3#0#0#1#0#0#0#30#5#2#2#5.0#1.5#0#0#0#0#0#0#0#0##1#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -14856,7 +14524,6 @@
   - split: 2
     text: "暴风雪-陷阱"
     translated: "Blizzard ‑ Trap"
-    flaggedForRetranslation: true
 - raw: "1001030#0#雪崩#3#蓄力的范围伤害#zhang15#2133#0#0#0#0#60度4.5米#0#0#spell_1001030_go#sfx_main_hero_1001030&0&false&true#0#0#0#0#0#0#10010300#10010301#10010300#10010301#10010300#10010301#0#0#0#0#1267#1267#1567#1567#1837#1837#2067#2067#0#0#0#sound_spell_1001030_go#0#0#0#0#3#0#0#0#0#0#0#0#0#0#1#3#4.5#30.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -14884,7 +14551,6 @@
   - split: 2
     text: "冥掌-冰冻"
     translated: "Nether Palm Technique ‑ Frozen"
-    flaggedForRetranslation: true
 - raw: "1001050#0#大雪山心法#7#来自大雪山的心法，运行有无上奥妙#zhang13#2666#2#0#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&false&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#1001051#0#0#0#0#0#0##0#0#0#0#70010|70020#0#0#0#0#"
   splits:
   - split: 2
@@ -14898,7 +14564,6 @@
   - split: 2
     text: "大雪山心法-运功"
     translated: "Great Snow Mountain Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1001060#0#苦寒伤冻#4#0#zhang15#2333#0#0#0#0#周围2.5米#0#0#spell_1001050_go#sfx_main_hero_1001050&0&false&true#0#0#0#0#0#0#10010600#10010600#10010600#10010600#10010102#10010102#10010102#10010102#0#0#1233#1433#1633#1833#1233#1433#1633#1833#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#3#2.5#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -14964,7 +14629,6 @@
   - split: 2
     text: "无上禅法-运功"
     translated: "Supreme Zen Law ‑ Cultivating internal energy"
-    flaggedForRetranslation: true
 - raw: "1051000#0#气冲#0#运功，对周围的敌人造成伤害#xinfa9#2046#0#0#0#0#0#0#0#spell_1051000_go#sfx_main_hero_1051000&0&true#0#0#0#0#0#0#103#0#0#0#0#0#0#0#0#0#1485#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15015,7 +14679,6 @@
   - split: 2
     text: "少林秘法-运功"
     translated: "Shaolin Secret Techniques ‑ Qi cultivation"
-    flaggedForRetranslation: true
 - raw: "1053000#0#燃灯一式#0#0#zhang13#1848#0#0#0#0#身前120度1米#0#0#spell_1053000_go#sfx_main_hero_1053000&0&true&true#0#0#0#0#0#0#10530000#0#0#0#0#0#0#0#0#0#433#0#0#0#0#0#0#0#0#0#0#sound_spell_401_b#0#0#0#0#3#0#0#0#0#0#0#0#0#0#2#3#1.0#60.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15096,7 +14759,6 @@
   - split: 2
     text: "燃灯秘法-运功"
     translated: "Secret Method of Burning a Lamp ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "1053060#0#空明#0#0#xinfa9#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#10530600#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -15291,7 +14953,6 @@
   - split: 2
     text: "胸藏点墨-反击"
     translated: "Holding a drop of ink within their chest ‑ Counterattack."
-    flaggedForRetranslation: true
 - raw: "1253030#0#挥墨泼毫#4#提气出剑，剑气如泼墨般倾斜而出#jian12#2133#0#0#0#0#直线5.2米#0#0#spell_1253030_go#sfx_main_hero_1253030&0&true&true#0#0#0#0#0#0#12530300#0#0#0#0#0#0#0#0#0#800#0#0#0#0#0#0#0#0#0#0#sound_spell_1253030_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#2#5.2#2.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15327,7 +14988,6 @@
   - split: 2
     text: "砚溪心法-运功"
     translated: "The Yanxi Heart Method ‑ Qi cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "每次命中附加一层持续20秒的\"墨\"效果，每层\"墨\"会在20秒内扣除目标一定真气值"
     translated: "Each hit applies a layer of \"Mo\" effect lasting 20 seconds. Each layer of \"Mo\" will deplete the target's True Qi by a certain amount over 20 seconds."
@@ -15392,7 +15052,6 @@
   - split: 2
     text: "无量剑阵-陷阱"
     translated: "The Inexhaustible Array of Countless Swords ‑ Trap"
-    flaggedForRetranslation: true
 - raw: "1301040#0#无量剑诀#3#蓄力后拔剑，身形往前冲刺#jian13#2466#0#5#0#0#直线5米#0#0#spell_1301040_go#sfx_boss_1301040&0&false#0#0#0#0#0#0#13010400#0#0#0#0#0#0#0#0#0#1333#0#0#0#0#0#0#0#0#0#0#sound_spell_1301040_go#13010401#0#0#0#0#0#0#0#0#1334#1667#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15417,7 +15076,6 @@
   - split: 2
     text: "无量心法-运功"
     translated: "Infinite Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1301060#0#无量心法#7#无量观的传承心法#jian14#2666#2#0#0#0#0#0#0#spell_103_go#sfx_xinfa_106&0&true&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#1301061#0#0#0#0#0#0##0#0#0#0#72010|72020|72030#0#0#0#0#"
   splits:
   - split: 2
@@ -15515,7 +15173,6 @@
   - split: 2
     text: "绝影寒光-运功"
     translated: "Fleeting Shadows of Cold Light ‑ Cultivate energy."
-    flaggedForRetranslation: true
 - raw: "1354000#0#太初一式#0#剑气护体，以真气催发周围剑气攻敌#jian14#1433#0#0#0#0#270度2米扇形#0#0#spell_1354000_go#sfx_main_hero_1354000&0&false#0#0#0#0#0#0#13540000#0#0#0#0#0#0#0#0#0#367#0#0#0#0#0#0#0#0#0#0#sound_spell_101_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#3#2.0#135.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15603,7 +15260,6 @@
   - split: 2
     text: "太初真式-运功"
     translated: "Primordial Origin True Form ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1354060#0#自在天地#15#每隔一段时间守魁会放出一把飞剑向目标飞去，飞剑附带坤字效果，乾坤互斥，只能有一种效果存在目标身上#jian35#0#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#13540600#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -15628,7 +15284,6 @@
   - split: 4
     text: "乾坤离坎四卦在命中敌人时有特殊效果，乾离-兑、乾坎-巽、坤离-震、坤坎-艮，兑：陷于泽，敌人受到眩晕效果。巽：顺风而行，敌人造成的伤害在一定时间内提升100%。震：剑气震荡，敌人受到伤害，3秒内的攻击附带震荡剑气，造成额外大量伤害。艮：奔流遇坎，敌人移动速度大幅减少，沉默四个技能"
     translated: "The Eight Trigrams of Qian Kun Li Kan have special effects when hitting an opponent. Specifically, Qian has a unique effect ‑ Cui, Qian Kan ‑ Xun, Kun, Li ‑ Zhen, Kun Kan ‑ Nue, Gen: Fallen into a marsh, enemies experience dizziness. Surrender: Sailing with the wind, the damage inflicted by enemies increases by 100% for a certain period of time. Tremor: The sword energy vibrates intensely, causing the enemy to take damage. For the next 3 seconds, attacks are imbued with this vibrating sword energy, inflicting additional significant harm. Gen: Flowing into a ravine, the enemy's movement speed greatly decreases; four skills are silenced."
-    flaggedForRetranslation: true
 - raw: "1354100#0#星河乱舞#0#剑如同璀璨星河，华美不可捉摸。每一剑都似流星划过天际，照亮了黑暗中的角落。#jian14#1433#0#0#0#0#270度2米扇形#0#0#spell_1354000_go#sfx_main_hero_1354000&0&false#0#0#0#0#0#0#13540000#0#0#0#0#0#0#0#0#0#367#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#3#2.0#135.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -15716,7 +15371,6 @@
   - split: 2
     text: "凤舞九天-运功"
     translated: "Phoenix Dancing in the Nine Heavens ‑ Qi cultivation."
-    flaggedForRetranslation: true
 - raw: "1354160#0#寒柳断魂#15#势如冬日寒柳，似乎柔弱，实则坚韧。每一剑都如同断魂之声，凄美而哀伤。#jian35#0#0#7#0#0#0#0#0#0#0#0#0#0#0#0#0#13540600#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -15817,7 +15471,6 @@
   - split: 2
     text: "纵横心法-运功"
     translated: "Transversal Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1451070#0#剑气激荡#3#姜朝体内的真气激荡，在自身周围形成一圈剑气围绕，会对近身的敌人持续造成伤害#2#1633#0#0#0#0#周围1.1米#0#0#spell_1451020_go#sfx_main_hero_1451020&0&false&true#0#0#0#0#0#0#14510020#14510700#0#0#0#0#0#0#0#0#833#833#0#0#0#0#0#0#0#0#0#sound_spell_1451020_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#3#1.1#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16089,7 +15742,6 @@
   - split: 2
     text: "神铸心法-运功"
     translated: "Celestial Forging Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1555060#0#炎息#4#吸取周围3.5米敌人#dao22#3666#0#0#0#0#0#0#0#spell_1555050_go#sfx_main_hero_1555050&0&false&true#0#0#0#0#0#0#15550600#15550600#15550600#15550600#15550601#15550602#15550603#0#0#0#250#500#750#1000#1233#1799#2366#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3.5#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16254,7 +15906,6 @@
   - split: 2
     text: "霜林无痕-运功"
     translated: "Snowy Forest, Traceless ‑ Cultivating qi"
-    flaggedForRetranslation: true
 - raw: "1651000#0#枪法一式#0#0#qiang11#1452#0#0#0#0#0#0#0#spell_1651000_go#sfx_main_hero_1651000&0&false&true#0#0#0#0#0#0#16510000#16510001#0#0#0#0#0#0#0#0#500#500#0#0#0#0#0#0#0#0#0#sound_spell_301_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.8#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16315,7 +15966,6 @@
   - split: 2
     text: "鸣鸿心法-运功"
     translated: "The Ming Hong Heart Method ‑ Engage in internal cultivation."
-    flaggedForRetranslation: true
 - raw: "1651060#0#战吼#4#短暂蓄力后以枪击地，从中心散发出一层冲击波，冲击波命中敌人时会根据敌人身上威压的层数来造成不同的效果#qiang15#2145#0#0#0#0#0#0#0#spell_1651020_go#sfx_main_hero_1651020_1&0&false&true#0#0#0#0#0#0#16510200#16510201#0#0#0#0#0#0#0#0#1089#1089#0#0#0#0#0#0#0#0#0#sound_spell_1651020_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#6#3.5#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16403,7 +16053,6 @@
   - split: 2
     text: "双龙心法-运功"
     translated: "Dual Dragon Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "1652050#0#平波#11#0#qiang35#666#0#0#0#0#0#0#0#spell_1652040_1_go#sfx_main_hero_1652040&0&false&true#0#0#0#0#0#0#16520500#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#1.8#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16451,7 +16100,6 @@
   - split: 2
     text: "横战八方-运功"
     translated: "Fighting valiantly against all directions ‑ Cultivating energy."
-    flaggedForRetranslation: true
 - raw: "1701040#0#金刚之躯#0#杨恒在与敌人的战斗中，每次攻击会增加自身的内外防，持续20秒，每命中一次，叠加一层#dao41#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#17010400#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#0#0#0#0#2#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -16539,7 +16187,6 @@
   - split: 2
     text: "业报-反击"
     translated: "Karmic retribution ‑ Counterattack"
-    flaggedForRetranslation: true
   - split: 11
     text: "直线0.8米"
     translated: "A straight line of 0.8 meters."
@@ -16561,7 +16208,6 @@
   - split: 2
     text: "通明禅法-运功"
     translated: "Tongming Zen Method ‑ Cultivating qi"
-    flaggedForRetranslation: true
 - raw: "1755052#0#霸王铁拳#11#拳法刚猛霸道，如同霸王般势不可挡。#quan22#3166#0#0#0#0#周围1.5米#0#0#spell_1755020_go#sfx_main_hero_1755020&0&false&true#0#0#0#0#0#0#17550200#0#0#0#0#0#0#0#0#0#1100#0#0#0#0#0#0#0#0#0#0#sound_spell_1755020_go#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.5#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -16781,7 +16427,6 @@
   - split: 2
     text: "幽影寒霜-运功"
     translated: "Faint Shadow Frost ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "1856040#0#极影刺#2#0#jian13#900#0#5#0#0#0#0#0#spell_10002_go#sfx_main_hero_ice_trail&0&true#0#0#180#2#0#0#256#100200002#107#0#0#0#0#0#0#0#300#500#500#0#0#0#0#0#0#0#0#0#100200002#5#0#9000#0#0#0#0#0#300#499#0#1#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -17215,7 +16860,6 @@
   - split: 2
     text: "雪河心法-运功"
     translated: "Snow River Heart Method ‑ Cultivate Qi"
-    flaggedForRetranslation: true
   - split: 4
     text: "运行心法，使得自身攻击附带寒气效果，减少目标百分比移动速度，并且每秒损失0.5%最大血量"
     translated: "Activating the Heart Method grants your attacks an icy effect, reducing the target's movement speed by a percentage. Additionally, the target loses 0.5% of their maximum health per second."
@@ -17349,7 +16993,6 @@
   - split: 2
     text: "血气森罗-运功"
     translated: "Heart ablaze, a forest of fierce youth ‑ Qi cultivation."
-    flaggedForRetranslation: true
 - raw: "2301100#0#血煞#0#0#dao41#1900#0#0#0#0#身前180度1.5米#0#0#spell_1852000_go#sfx_main_hero_1852000&0&false&true#0#0#0#0#0#0#23011000#23011000#0#0#0#0#0#0#0#0#400#767#0#0#0#0#0#0#0#0#0#sound_spell_203_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -17426,7 +17069,6 @@
   - split: 2
     text: "血气森罗-运功"
     translated: "Heart ablaze, a forest of fierce youth ‑ Qi cultivation."
-    flaggedForRetranslation: true
 - raw: "2301160#0#血斩#2#0#dao41#2000#0#0#0#0#身前2米/周围3米#0#0#spell_1852040_go#sfx_main_hero_1852040&0&true&true#0#0#0#0#0#0#23011600#23011601#23011602#23011603#0#0#0#0#0#0#466#1300#333#466#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -17516,7 +17158,6 @@
   - split: 2
     text: "黑沙心法-运功"
     translated: "Black Sand Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "2302060#0#血河奔流#2#命中目标会对目标产生眩晕效果#dao_1062#2333#0#0#0#0#身前180度2米#0#0#spell_2302050_go#sfx_main_hero_2302050&0&true&true#0#0#0#0#0#0#23020600#23020601#23020602#0#0#0#0#0#0#0#1266#900#1266#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#2.0#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -17596,7 +17237,6 @@
   - split: 2
     text: "断崖绝情-运功"
     translated: "Forsake all ties at the edge of a precipice ‑ Cultivating qi."
-    flaggedForRetranslation: true
 - raw: "3031000#0#飞沙走石#15#0#dao32#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#30310000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -17685,7 +17325,6 @@
   - split: 2
     text: "煞神诀-运功"
     translated: "Technique of Demon Gods ‑ Meditative cultivation"
-    flaggedForRetranslation: true
 - raw: "3032070#0#烈风百战#4#向前半月形挥刀血色刀刃。#dao41#1386#0#2#0#0#0#0#0#spell_3033010_go#sfx_main_hero_3033010&0&true&true#0#0#0#0#0#0#30330100#30320101#0#0#0#0#0#0#0#0#429#429#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#2#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -17749,7 +17388,6 @@
   - split: 2
     text: "气吞山河-运功"
     translated: "Majestic as mountains and rivers ‑ Practicing internal cultivation."
-    flaggedForRetranslation: true
 - raw: "3033050#0#狂斩#6#  #dao41#8000#0#3#0#0#0#0#0#spell_yinchang_5_1|spell_yinchang_5_2#sfx_main_hero_yinchang_yujing&0&false|yinchang_spell_dao_yang_2&501&false&true#0#0#0#0#0#0#30330500#30330500#30330500#30330500#30330500#30330500#30330500#30330500#0#0#500#1500#2500#3500#4500#5500#6500#7500#0#0#0#0#0#32#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18025,7 +17663,6 @@
   - split: 2
     text: "银盘白玉-运功"
     translated: "Silver platter of white jade ‑ Cultivating qi."
-    flaggedForRetranslation: true
 - raw: "3075000#0#普贤一式#0#0#zhang12#3300#0#0#0#0#直线1.8米#0#0#spell_3075000_go#sfx_main_hero_3075000&0&false&true#0#0#0#0#0#0#30750000#0#0#0#0#0#0#0#0#0#1000#0#0#0#0#0#0#0#0#0#0#sound_spell_401#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#1.8#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18092,7 +17729,6 @@
   - split: 2
     text: "普贤秘法-运功"
     translated: "Puxian Secret Technique ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "3075100#0#乾坤无形#0#天地不仁，以万物为刍狗；乾坤无情，行走偏锋。以无形之势制敌，变幻莫测。#zhang12#3300#0#0#0#0#直线1.8米#0#0#spell_3075000_go#sfx_main_hero_3075000&0&false&true#0#0#0#0#0#0#30750000#0#0#0#0#0#0#0#0#0#1000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#1.8#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18183,7 +17819,6 @@
   - split: 2
     text: "刚五雷-运功"
     translated: "Hard Five Thunder ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "3085000#0#纵横剑势#0#捭阖谷基本剑式，谷中人人皆可修习#13#1000#0#0#0#0#直线1.8米#0#0#spell_1451000_go#sfx_main_hero_1451000&0&false&true#0#0#0#0#0#0#30850000#0#0#0#0#0#0#0#0#0#233#0#0#0#0#0#0#0#0#0#0#sound_spell_101_b#0#0#0#0#0#0#Blue-WeaponTrail&startpoint&endpoint&0&1#0#0#0#0#0#0#0#0#2#1.8#1.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18345,7 +17980,6 @@
   - split: 2
     text: "流云心法-运功"
     translated: "Flowing Cloud Heart Method ‑ Engage in internal cultivation."
-    flaggedForRetranslation: true
 - raw: "3098100#0#云舞流光#0#剑法轻盈如云，动作流畅如水，每一剑都宛如舞动的光影，优雅而灵动。#9#1287#0#2#0#0#1.3米180度#0#0#spell_3098000_go#sfx_main_hero_3098000&0&false#0#0#0#0#0#0#30980000#0#0#0#0#0#0#0#0#0#396#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#3#1.3#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18433,7 +18067,6 @@
   - split: 2
     text: "露华絮-运功"
     translated: "Luhuaxu ‑ Cultivate energy"
-    flaggedForRetranslation: true
 - raw: "3101000#0#棍法一式#0#0#qiang997#966#0#2#0#0#180度1.9米#0#0#spell_3101000_go#sfx_main_hero_3101000&0&true&true#0#0#0#0#0#0#31010000#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#sound_spell_301_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18501,7 +18134,6 @@
   - split: 2
     text: "菩提心法-运功"
     translated: "Bodhi Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "3101050#0#辟地碎#4#0#0#8000#0#3#0#0#0#0#0#spell_yinchang_5_1|spell_yinchang_5_2#sfx_main_hero_yinchang_yujing&0&false|yinchang_spell_qiang_gang_2&501&false&true#0#0#0#0#0#0#31040500#31040500#31040500#31040500#31040500#31040500#31040500#31040500#31040501#31040501#600#1600#2600#3600#4600#5600#6600#7600#600#7600#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#4.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18517,7 +18149,6 @@
   - split: 2
     text: "菩提心法-运功"
     translated: "Bodhi Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "3101100#0#风龙暴#0#仿佛龙卷风般猛烈，棍影旋转涌动，每一击都带着摧毁一切的力量，磅礴而震撼。#qiang996#966#0#2#0#0#180度1.9米#0#0#spell_3101000_go#sfx_main_hero_3101000&0&true&true#0#0#0#0#0#0#31010000#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#1.9#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18597,7 +18228,6 @@
   - split: 2
     text: "五行流转-运功"
     translated: "The circulation of the Five Elements ‑ Cultivating Qi."
-    flaggedForRetranslation: true
 - raw: "3102000#0#影袭一式#0#0#jian35#1800#0#2#0#0#直线5米#0#0#spell_3102000_go#sfx_main_hero_3102000&0&false&true#0#0#0#0#0#0#31020000#31020000#0#0#0#0#0#0#0#0#333#800#0#0#0#0#0#0#0#0#0#sound_spell_401#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#2#5.0#0.5#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18673,7 +18303,6 @@
   - split: 2
     text: "林升雾起-运功"
     translated: "Misty dawn rises over Lin Sheng ‑ Qi cultivation."
-    flaggedForRetranslation: true
 - raw: "3102100#0#影月飞星#0#如夜幕下的流星，悄然一击，速度极快，几乎无声，令对手难以察觉。#jian35#1800#0#2#0#0#直线5米#0#0#spell_3102000_go#sfx_main_hero_3102000&0&false&true#0#0#0#0#0#0#31020000#31020000#0#0#0#0#0#0#0#0#333#800#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#2#5.0#0.5#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18829,7 +18458,6 @@
   - split: 2
     text: "行刀沉雁-运功"
     translated: "Blade, Sink the Crane ‑ Cultivate energy"
-    flaggedForRetranslation: true
 - raw: "3105100#0#雁过留痕#0#如过境野雁，留下短暂而明显的痕迹，快速且精准的刀法。#dao31#2033#0#2#0#0#直线1.8#0#0#spell_3105000_go#sfx_main_hero_3105000&0&false#0#0#0#0#0#0#105#0#0#0#0#0#0#0#0#0#900#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#1.8#1.5#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18908,7 +18536,6 @@
   - split: 2
     text: "空雁断云-运功"
     translated: "Fleeting swan, scattered clouds ‑ Practice internal cultivation."
-    flaggedForRetranslation: true
 - raw: "3107000#0#黄沙一式·普#0#0#quan25#1122#0#0#0#0#180度1.2米#0#0#spell_3107000_go#sfx_main_hero_3107000&0&true&true#0#0#0#0#0#0#31070000#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#sound_spell_402_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#3#1.3#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -18999,7 +18626,6 @@
   - split: 2
     text: "黄沙心法-运功"
     translated: "Huangsha Heart Method ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "3107060#0#黄沙心法#7#0#quan45#2666#2#0#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true&true#0#0#0#0#0#0#197060#197590#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#3107061#0#0#0#0#0#0##0#0#0#0#73010|73020|73030#0#0#0#0#"
   splits:
   - split: 2
@@ -19010,7 +18636,6 @@
   - split: 2
     text: "黄沙心法-运功"
     translated: "Huangsha Heart Method ‑ Cultivating energy"
-    flaggedForRetranslation: true
 - raw: "3107110#0#苍龙盘岭#2#如苍龙在山岭间穿梭，威猛而流畅，力量充满灵动之美，快速突进到目标面前#quan44#1419#0#5#0#0#身前0.8米，范围1.3米#0#0#spell_3107010_go#sfx_main_hero_3107010&0&true&true#0#0#0#0#0#0#31070110#0#0#0#0#0#0#0#0#0#600#0#0#0#0#0#0#0#0#0#0#0#31070100#0#0#0#0#0#0#0#0#601#951#0#0#0#2#6#1.3#0.8#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -19065,7 +18690,6 @@
   - split: 2
     text: "星沙心法-运功"
     translated: "Star Sand Heart Method ‑ Meditative cultivation"
-    flaggedForRetranslation: true
 - raw: "3115000#0#狼攻击1#0#0#quan22#1300#0#0#0#0#0#0#0#spell_3115000_go#0#0#0#0#0#0#0#33150000#0#0#0#0#0#0#0#0#0#533#0#0#0#0#0#0#0#0#0#0#sound_teshu_lang#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -19101,7 +18725,6 @@
   - split: 2
     text: "血统-触发"
     translated: "Lineage ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "3115100#0#狼攻击1#0#0#0#1300#0#0#0#0#0#0#0#spell_3115000_go#0#0#0#0#0#0#0#33151000#0#0#0#0#0#0#0#0#0#533#0#0#0#0#0#0#0#0#0#0#sound_teshu_lang#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -19222,7 +18845,6 @@
   - split: 2
     text: "血统-触发"
     translated: "Lineage ‑ Triggered"
-    flaggedForRetranslation: true
 - raw: "3156100#0#虎攻击1#0#0#0#1633#0#0#0#0#0#0#0#spell_3156000_go#0#0#0#0#0#0#0#31561000#0#0#0#0#0#0#0#0#0#666#0#0#0#0#0#0#0#0#0#0#sound_teshu_hu#0#0#0#0#0#0#0#0#0#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -19299,13 +18921,11 @@
   - split: 2
     text: "道韵生风-太极"
     translated: "The Way's rhythm stirs the wind ‑ Tai Chi"
-    flaggedForRetranslation: true
 - raw: "3159022#0#道韵生风-洪荒#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#31590220#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "道韵生风-洪荒"
     translated: "The Dao flows like a breeze ‑ Chaos of the Primordial Era"
-    flaggedForRetranslation: true
 - raw: "3159030#0#玄风破天#4#澄道引动天地之力，召唤玄风剑气，对敌人进行迅猛连续攻击。#1033#2366#0#2#0#0#周围4米#0#0#spell_3098030_go#sfx_main_hero_3159030&0&true&true#0#0#0#0#0#0#31590300#31590300#31590300#31590300#31590300#0#0#0#0#0#1165#1465#1765#3065#2333#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#2#3#4.0#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -19368,13 +18988,11 @@
   - split: 2
     text: "卷云剑海阵-剑阵"
     translated: "Rolling Clouds, Sea of Swords Formation ‑ Sword Formation"
-    flaggedForRetranslation: true
 - raw: "3160032#0#卷云剑海阵-剑怒#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#31600320#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#3#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "卷云剑海阵-剑怒"
     translated: "Cloud Roving, Sword Sea Formation ‑ Wrath of the Sword"
-    flaggedForRetranslation: true
 - raw: "3160040#0#智渊三圣剑#5#凝聚书院派累积的智慧之力，一定条件下可短时间内大幅提升自我战斗能力。#1050#2466#0#0#0#0#直线5.5米#0#0#spell_1301040_go#sfx_main_hero_3160040&0&false&true#0#0#0#0#0#0#31600400#31600400#31600400#31600400#31600400#31600400#31600400#31600400#0#0#1033#1233#1433#1633#1833#2033#2233#2433#0#0#0#0#0#0#0#0#0#0#0#0#4#0#0#0#0#0#3#2#5.5#3.5#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -19635,7 +19253,6 @@
   - split: 2
     text: "吟风心法-运功"
     translated: "Glide Wind Heart Method ‑ Qi cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "真气运行周天，大幅度增强自身气血。"
     translated: "True Qi circulates through the Heavenly Circuit, significantly enhancing one's lifeforce."
@@ -19731,19 +19348,16 @@
   - split: 2
     text: "龙蛇一式-速"
     translated: "The Dragon and Snake Form ‑ Fast"
-    flaggedForRetranslation: true
 - raw: "3315004#0#龙蛇二式-速#9#0#jian12#1180#0#2#0#0#0#0#0#spell_3315001_go&3&0.38#sfx_main_hero_3315001&0&true#0#0#0#0#0#0#33150010#33150030#33150031#0#0#0#0#0#0#0#400#333#400#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "龙蛇二式-速"
     translated: "Dragon‑Serpent Two Styles ‑ Quickly"
-    flaggedForRetranslation: true
 - raw: "3315005#0#龙蛇三式-速#9#0#jian13#1165#0#2#0#0#0#0#0#spell_3315002_go&3&0.30#sfx_main_hero_3315002&0&true#0#0#0#0#0#0#33150020#33150030#33150031#0#0#0#0#0#0#0#333#240#333#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
     text: "龙蛇三式-速"
     translated: "Dragon and Snake Three Forms ‑ Quickly"
-    flaggedForRetranslation: true
 - raw: "3315010#0#千里行#2#0#jian14#1650#0#5#0#0#0#0#0#spell_3315010_go#sfx_main_hero_3315010&0&true#0#0#0#0#0#0#33150100#0#0#0#0#0#0#0#0#0#627#0#0#0#0#0#0#0#0#0#0#sound_spell_3315010_go#33150101#3#0#9000#0#0#0#0#0#628#957#0#0#0#2#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -19934,7 +19548,6 @@
   - split: 2
     text: "乾元心法-运功"
     translated: "Qianyuan Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "3552060#0#乾元心法#7#运行心法，获得持续回复生命值效果。#qiang41#2666#2#2#0#0#0#0#0#spell_103_go#0#0#0#0#0#0#0#35520033#196540#196046#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#3552061#0#0#0#0#0#0##0#0#0#0#72010|72020|72030#0#0#0#0#"
   splits:
   - split: 2
@@ -19948,7 +19561,6 @@
   - split: 2
     text: "乾元心法-运功"
     translated: "Qianyuan Heart Method ‑ Channeling"
-    flaggedForRetranslation: true
 - raw: "3552070#0#银盘白玉#3#0#qiang12#4000#0#0#0#0#0#0#0#spell_3552050_go#sfx_main_hero_3552050&0&false&true#0#0#0#0#0#0#35520700#35520701#35520701#35520701#35520701#35520701#35520701#0#0#0#1033#1733#2033#2266#2533#2833#3066#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#3#2.5#180.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -19998,7 +19610,6 @@
   - split: 2
     text: "空城归-运功"
     translated: "Return to an empty city ‑ Qi cultivation."
-    flaggedForRetranslation: true
 - raw: "4000000#0#扬沙一式#0#0#0#1122#0#0#0#0#180度1.2米#0#0#spell_4000000_go#sfx_main_hero_3107000&0&true&true#0#0#0#0#0#0#40000000#0#0#0#0#0#0#0#0#0#500#0#0#0#0#0#0#0#0#0#0#sound_spell_402_b#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#3#1.3#90.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -21549,7 +21160,6 @@
   - split: 2
     text: "锻骨-小"
     translated: "Tempering the Bones ‑ Little one"
-    flaggedForRetranslation: true
   - split: 4
     text: "有护体绝技傍身。"
     translated: "They possess a near‑impenetrable bodyguard technique at their side"
@@ -21558,7 +21168,6 @@
   - split: 2
     text: "培元-小"
     translated: "Peiyuan ‑ Little one"
-    flaggedForRetranslation: true
   - split: 4
     text: "有护体绝技傍身。"
     translated: "They possess a near‑impenetrable bodyguard technique at their side"
@@ -21567,7 +21176,6 @@
   - split: 2
     text: "强筋-小"
     translated: "Strong sinews ‑ Little one"
-    flaggedForRetranslation: true
   - split: 4
     text: "有护体绝技傍身。"
     translated: "They possess a near‑impenetrable bodyguard technique at their side"
@@ -21576,7 +21184,6 @@
   - split: 2
     text: "固本-小"
     translated: "Fortify the foundation ‑ Small"
-    flaggedForRetranslation: true
   - split: 4
     text: "有护体绝技傍身。"
     translated: "They possess a near‑impenetrable bodyguard technique at their side"
@@ -21585,7 +21192,6 @@
   - split: 2
     text: "强体-小"
     translated: "Strong physique ‑ Little one"
-    flaggedForRetranslation: true
   - split: 4
     text: "有护体绝技傍身。"
     translated: "They possess a near‑impenetrable bodyguard technique at their side"
@@ -22418,7 +22024,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001010#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001011#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22432,7 +22037,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001020#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001021#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22446,7 +22050,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001030#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001031#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22460,7 +22063,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001040#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_du&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001041#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22474,7 +22076,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001100#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001001#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22488,7 +22089,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001110#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001011#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22502,7 +22102,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001120#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001021#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22516,7 +22115,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001130#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001031#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22530,7 +22128,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001140#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_du&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001041#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22544,7 +22141,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001200#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001001#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22558,7 +22154,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001210#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001011#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22572,7 +22167,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001220#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001021#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22586,7 +22180,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001230#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001031#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22600,7 +22193,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001240#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_du&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001041#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22614,7 +22206,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001300#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001001#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22628,7 +22219,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001310#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001011#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22642,7 +22232,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001320#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001021#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22656,7 +22245,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001330#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001031#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22670,7 +22258,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001340#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_du&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001041#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22684,7 +22271,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001400#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001001#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22698,7 +22284,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001410#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_yin&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001011#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22712,7 +22297,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001420#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_rou&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001021#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22726,7 +22310,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001430#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001031#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22740,7 +22323,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10001440#0#周天吐纳术#7#周天运行，恢复一定量的生命和真气。#20#2667#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_du&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#9000#4#0#0#0#2#0#0#0#0#0#-1#0#0.0#0.0#0#10001041#0#0#0#0#0#0##0#0#0#0#70090|70100|71090|71100|72090|72100|73090|73100|74090|74100#0#0#0#0#"
   splits:
   - split: 2
@@ -22754,7 +22336,6 @@
   - split: 2
     text: "周天吐纳术-运功"
     translated: "Qi Breathing Technique of Zhou Tian ‑ Practicing internal energy cultivation."
-    flaggedForRetranslation: true
 - raw: "10010001#0#剑术精要#0#剑走偏锋，一招一式，皆蕴藏着剑道的至理。此术精要，宛若天书，内含无尽剑意，修习之者可窥剑道真谛。#71#10#1#2#0#0#0#0#0#0#0#0#0#0#0#0#0#100100010#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#8#0#0#0#0#0#0#1#0#0#0#0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##1#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -23517,7 +23098,6 @@
   - split: 2
     text: "天上经-运功"
     translated: "The Heavenly Classic ‑ Meditative cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功之后，获得极大增强，天上地下唯我独尊。"
     translated: "After completing the cultivation, I experienced tremendous enhancement and became unrivaled in both heaven and earth"
@@ -23951,7 +23531,6 @@
   - split: 2
     text: "冰心诀-运功"
     translated: "Ice Heart Technique ‑ Practicing internal cultivation"
-    flaggedForRetranslation: true
   - split: 4
     text: "运功之后，回复至最佳状态，阴属性得到极大增强。"
     translated: "After completing the cultivation exercise, they returned to their optimal state with a significant enhancement of Yin attributes"

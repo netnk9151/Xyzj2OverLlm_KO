@@ -976,6 +976,16 @@
   direct: Iron Palm King Five
   literal: Tie Zhang Wang Wu
 
+# Character names with non breaking spaces
+- raw: 沈雁弓
+  result: "Shen\u00A0Yangong"
+- raw: 梁潇
+  result: "Liang\u00A0Xiao"
+- raw: 玉玲珑
+  result: "Yu\u00A0Linglong"
+- raw: 杨若水
+  result: "Yang\u00A0Ruoshui"
+
 # Names
 - raw: 花不迟
   result: Hua Buchi
