@@ -7,6 +7,11 @@
 #   badtrans: true  
 #   direct: Black-Clothed Person  
 #   literal: Heiyiren  
+# - raw: 道人
+#   result: Taoist
+#   badtrans: true
+#   direct: Dao Person
+#   literal: Dao Ren
 - raw: 真人
   result: Immortal
   badtrans: true
@@ -2622,6 +2627,18 @@
   result: Gao Family
   badtrans: true
 
+# Kings
+- raw: 景王  
+  result: King Jing  
+  badtrans: true  
+  direct: Scenic King  
+  literal: Jing Wang  
+- raw: 晏王
+  result: King Yan
+  badtrans: true
+  direct: Yan King
+  literal: Yan Wang
+
 # Character names with non breaking spaces
 - raw: 沈雁弓
   result: "Shen\u00A0Yangong"
@@ -2641,12 +2658,628 @@
   allowalt: 
     - Yang Ruoshui
 
-# Names
+# - raw: 吴老爷
+#   result: Old Master Wu
+#   badtrans: true
+#   direct: Wu Old Master
+#   literal: Wu Lao Ye
+# - raw: 吴老  
+#   result: Old Wu  
+#   badtrans: true  
+#   direct: Wu Elder  
+#   literal: Wu Lao  
+- raw: 李管家
+  result: Housekeeper Li
+  badtrans: true
+  direct: Li Butler
+  literal: Li Guan Jia
+- raw: 永释
+  result: Yong Shi
+  badtrans: true
+  direct: Forever Release
+  literal: Yong Shi
+- raw: 孙太尉
+  result: Grand Commander Sun
+  badtrans: true
+  direct: Sun Grand Commander
+  literal: Sun Tai Wei
+- raw: 哑丐
+  result: Mute Beggar
+  badtrans: true
+  direct: Dumb Beggar
+  literal: Ya Gai
+- raw: 包打听
+  result: Know-it-all
+  badtrans: true
+  direct: Bao Inquire
+  literal: Bao Da Ting
+- raw: 林守将
+  result: Guard Commander Lin
+  badtrans: true
+  direct: Forest Guard
+  literal: Lin Shou Jiang
+- raw: 宗和
+  result: Zong He
+  # allowalt:
+  #   - sect and
+  badtrans: false
+  direct: Zong Harmony
+  literal: Zong He
+- raw: 王和  
+  result: Wang He  
+  # allowalt:
+  #   - king and
+  badtrans: false  
+  direct: Wang Harmony  
+  literal: Wang He  
 - raw: 何老汉  
   result: Old Man He
-  badtrans: true  
+  badtrans: false
   direct: He Old Man  
   literal: He Lao Han  
+
+
+# Names
+- raw: 素怀
+  result: Su Huai
+  badtrans: true
+  direct: Plain Emotion
+  literal: Su Huai
+- raw: 林一朝
+  result: Lin Yichao
+  badtrans: true
+  direct: Forest One Dynasty
+  literal: Lin Yi Chao
+- raw: 燕行舟
+  result: Yan Xingzhou
+  badtrans: true
+  direct: Swallow Traveling Boat
+  literal: Yan Xing Zhou
+- raw: 颜天晖
+  result: Yan Tianhui
+  badtrans: true
+  direct: Yan Sky Radiance
+  literal: Yan Tian Hui
+- raw: 姜朝
+  result: Jiang Chao
+  badtrans: true
+  direct: Ginger Dynasty
+  literal: Jiang Chao
+- raw: 岳无忧
+  result: Yue Wuyou
+  badtrans: true
+  direct: Yue No Worries
+  literal: Yue Wu You
+- raw: 郑万山
+  result: Zheng Wanshan
+  badtrans: true
+  direct: Zheng Wan Shan
+  literal: Zheng Wan Shan
+- raw: 徐雍
+  result: Xu Yong
+  badtrans: true
+  direct: Xu Yong
+  literal: Xu Yong
+- raw: 陈承嗣
+  result: Chen Chengsi
+  badtrans: true
+  direct: Chen Cheng Si
+  literal: Chen Cheng Si
+- raw: 阿勒亚斯
+  result: A'Le Yasi
+  badtrans: true
+  direct: A Le Ya Si
+  literal: A Le Ya Si
+- raw: 方元正
+  result: Fang Yuanzheng
+  badtrans: true
+  direct: Fang Yuan Zheng
+  literal: Fang Yuan Zheng
+- raw: 武阳
+  result: Wu Yang
+  badtrans: true
+  direct: Martial Sun
+  literal: Wu Yang
+- raw: 陶奚
+  result: Tao Xi
+  badtrans: true
+  direct: Tao Xi
+  literal: Tao Xi
+- raw: 景扬春
+  result: Jing Yangchun
+  badtrans: true
+  direct: View Elevate Spring
+  literal: Jing Yang Chun
+- raw: 段志宏
+  result: Duan Zhihong
+  badtrans: true
+  direct: Duan Zhi Hong
+  literal: Duan Zhi Hong
+- raw: 徐赫一
+  result: Xu Heyi
+  badtrans: true
+  direct: Xu Heyi
+  literal: Xu Heyi
+- raw: 徐诸通
+  result: Xu Zhutong
+  badtrans: true
+  direct: Xu All-Pass
+  literal: Xu Zhu Tong
+- raw: 盛文星
+  result: Sheng Wenxing
+  badtrans: true
+  direct: Prosperous Literary Star
+  literal: Sheng Wen Xing
+- raw: 陆轩
+  result: Lu Xuan
+  badtrans: true
+  direct: Land Pavilion
+  literal: Lu Xuan
+- raw: 澄心
+  result: Cheng Xin
+  badtrans: true
+  direct: Clear Heart
+  literal: Cheng Xin
+- raw: 南门函
+  result: South Gate Han
+  badtrans: true
+  direct: South Gate Letter
+  literal: Nan Men Han
+- raw: 伯凛
+  result: Bo Lin
+  badtrans: true
+  direct: Senior Frost
+  literal: Bo Lin
+- raw: 林芝
+  result: Lin Zhi
+  badtrans: true
+  direct: Forest Branch
+  literal: Lin Zhi
+- raw: 李靖琪
+  result: Li Jingqi
+  badtrans: true
+  direct: Li Tranquil Jade
+  literal: Li Jing Qi
+- raw: 庾京由
+  result: Yu Jingyou
+  badtrans: true
+  direct: Yu Capital Reason
+  literal: Yu Jing You
+- raw: 柯湘
+  result: Ke Xiang
+  badtrans: true
+  direct: Branch Fragrant
+  literal: Ke Xiang
+- raw: 凌岳
+  result: Ling Yue
+  badtrans: true
+  direct: Surpass Mountain
+  literal: Ling Yue
+- raw: 小慈云
+  result: Xiao Ciyun
+  badtrans: true
+  direct: Little Compassionate Cloud
+  literal: Xiao Ci Yun
+- raw: 公孙婉儿
+  result: Gongsun Wan'er
+  badtrans: true
+  direct: Grandson Graceful Child
+  literal: Gongsun Wan Er
+- raw: 刘知章
+  result: Liu Zhizhang
+  badtrans: true
+  direct: Liu Know Chapter
+  literal: Liu Zhi Zhang
+- raw: 青丹丹
+  result: Qing Dandan
+  badtrans: true
+  direct: Blue/Green Vermilion Vermilion
+  literal: Qing Dan Dan
+- raw: 萧白
+  result: Xiao Bai
+  badtrans: true
+  direct: Desolate White
+  literal: Xiao Bai
+- raw: 云肖毅
+  result: Yun Xiaoyi
+  badtrans: true
+  direct: Cloud Resemble Resolute
+  literal: Yun Xiao Yi
+- raw: 王妞
+  result: Wang Niu
+  badtrans: true
+  direct: Wang Girl
+  literal: Wang Niu
+- raw: 云婧
+  result: Yun Jing
+  badtrans: true
+  direct: Cloud Gentle
+  literal: Yun Jing
+- raw: 小荣子
+  result: Xiao Rongzi
+  badtrans: true
+  direct: Little Honor Child
+  literal: Xiao Rong Zi
+- raw: 剑云州
+  result: Jian Yunzhou
+  badtrans: true
+  direct: Sword Cloud State
+  literal: Jian Yun Zhou
+- raw: 赵震雷
+  result: Zhao Zhenlei
+  badtrans: true
+  direct: Zhao Shock Thunder
+  literal: Zhao Zhen Lei
+- raw: 元屠
+  result: Yuan Tu
+  badtrans: true
+  direct: Origin Butcher
+  literal: Yuan Tu
+- raw: 李剑白
+  result: Li Jianbai
+  badtrans: true
+  direct: Li Sword White
+  literal: Li Jian Bai
+- raw: 瞿真
+  result: Qu Zhen
+  badtrans: true
+  direct: Qu Truth
+  literal: Qu Zhen
+- raw: 苍仞川
+  result: Cang Renchuan
+  badtrans: true
+  direct: Vast Cliff River
+  literal: Cang Ren Chuan
+- raw: 季凛
+  result: Ji Lin
+  badtrans: true
+  direct: Season Stern
+  literal: Ji Lin
+- raw: 赤月婆婆
+  result: Grandma Red Moon
+  badtrans: true
+  direct: Red Moon Grandmother
+  literal: Chi Yue Po Po
+- raw: 轩辕子庆
+  result: Xuanyuan Ziqing
+  badtrans: true
+  direct: Xuan Yuan Child Celebration
+  literal: Xuan Yuan Zi Qing
+- raw: 宁玉成
+  result: Ning Yucheng
+  badtrans: true
+  direct: Ning Jade Achievement
+  literal: Ning Yu Cheng
+- raw: 汪云清
+  result: Wang Yunqing
+  badtrans: true
+  direct: Wang Cloud Clear
+  literal: Wang Yun Qing
+- raw: 梅珠芹
+  result: Mei Zhuqin
+  badtrans: true
+  direct: Plum Pearl Angelica
+  literal: Mei Zhu Qin
+- raw: 钟临
+  result: Zhong Lin
+  badtrans: true
+  direct: Bell Arrive
+  literal: Zhong Lin
+- raw: 崔三娘
+  result: Cui Sanniang
+  badtrans: true
+  direct: Cui Third Lady
+  literal: Cui San Niang
+- raw: 上官慧
+  result: Shangguan Hui
+  badtrans: true
+  direct: Shangguan Wisdom
+  literal: Shang Guan Hui
+- raw: 骆星
+  result: Luo Xing
+  badtrans: true
+  direct: Camel Star
+  literal: Luo Xing
+- raw: 苏仪
+  result: Su Yi
+  badtrans: true
+  direct: Su Etiquette
+  literal: Su Yi
+- raw: 曲吟秋
+  result: Qu Yinqiu
+  badtrans: true
+  direct: Qu Chant Autumn
+  literal: Qu Yin Qiu
+- raw: 刘伯
+  result: Liu Bo
+  badtrans: true
+  direct: Liu Elder Brother
+  literal: Liu Bo
+- raw: 张伯
+  result: Zhang Bo
+  badtrans: true
+  direct: Zhang Elder Brother
+  literal: Zhang Bo
+- raw: 尹馨儿
+  result: Yin Xin'er
+  badtrans: true
+  direct: Yin Fragrant Child
+  literal: Yin Xin Er
+- raw: 徐素兰
+  result: Xu Sulan
+  badtrans: true
+  direct: Xu Plain Orchid
+  literal: Xu Su Lan
+- raw: 干穆荟
+  result: Gan Muhui
+  badtrans: true
+  direct: Dry Mu Assembly
+  literal: Gan Mu Hui
+- raw: 鹰眼老七
+  result: Hawkeye Old Seven
+  badtrans: true
+  direct: Eagle Eye Old Seven
+  literal: Ying Yan Lao Qi
+- raw: 坞丁丙
+  result: Wu Dingbing
+  badtrans: true
+  direct: Dock Ding Third
+  literal: Wu Ding Bing
+- raw: 坞丁乙
+  result: Wu Dingyi
+  badtrans: true
+  direct: Dock Ding Second
+  literal: Wu Ding Yi
+- raw: 坞丁甲
+  result: Wu Dingjia
+  badtrans: true
+  direct: Dock Ding Armor
+  literal: Wu Ding Jia
+- raw: 贺千机
+  result: He Qianji
+  badtrans: true
+  direct: Congratulate Thousand Machine
+  literal: He Qian Ji
+- raw: 张虎
+  result: Zhang Hu
+  badtrans: true
+- raw: 朱玉瑾  
+  result: Zhu Yujin  
+  badtrans: true  
+  direct: Zhu Jade Jin  
+  literal: Zhu Yujin  
+- raw: 郭承义  
+  result: Guo Chengyi  
+  badtrans: true  
+  direct: Guo Undertake Righteousness  
+  literal: Guo Chengyi  
+- raw: 铁钟  
+  result: Tie Zhong
+  allowalt: 
+    - Iron Bell
+  badtrans: true  
+  direct: Iron Bell  
+  literal: Tie Zhong  
+- raw: 林震天  
+  result: Lin Zhentian  
+  badtrans: true  
+  direct: Lin Shocking Sky  
+  literal: Lin Zhentian  
+- raw: 莫靖  
+  result: Mo Jing  
+  badtrans: true  
+  direct: Mo Calm  
+  literal: Mo Jing  
+- raw: 萧明  
+  result: Xiao Ming  
+  badtrans: true  
+  direct: Xiao Bright  
+  literal: Xiao Ming  
+- raw: 许鸿煊  
+  result: Xu Hongxuan  
+  badtrans: true  
+  direct: Xu Vast Light  
+  literal: Xu Hongxuan  
+- raw: 冷寒星  
+  result: Leng Hanxing  
+  badtrans: true  
+  direct: Cold Cold Star  
+  literal: Leng Hanxing  
+- raw: 曲红绫  
+  result: Qu Hongling  
+  badtrans: true  
+  direct: Qu Red Silk  
+  literal: Qu Hongling  
+- raw: 叶无声  
+  result: Ye Wusheng  
+  badtrans: true  
+  direct: Ye Soundless  
+  literal: Ye Wusheng  
+- raw: 莫千山  
+  result: Mo Qianshan  
+  badtrans: true  
+  direct: Mo Thousand Mountain  
+  literal: Mo Qianshan  
+- raw: 楚霄云  
+  result: Chu Xiaoyun  
+  badtrans: true  
+  direct: Chu Sky Cloud  
+  literal: Chu Xiaoyun  
+- raw: 苏含笑  
+  result: Su Hanxiao  
+  badtrans: true  
+  direct: Su Contain Smile  
+  literal: Su Hanxiao  
+- raw: 冯童  
+  result: Feng Tong  
+  badtrans: true  
+  direct: Feng Child  
+  literal: Feng Tong  
+- raw: 元华韬  
+  result: Yuan Huatao  
+  badtrans: true  
+  direct: Yuan Splendid Strategy  
+  literal: Yuan Huatao  
+- raw: 魏无涯  
+  result: Wei Wuyi  
+  badtrans: true  
+  direct: Wei Limitless  
+  literal: Wei Wuyi  
+- raw: 许意华  
+  result: Xu Yihua  
+  badtrans: true  
+  direct: Xu Intention Blossom  
+  literal: Xu Yihua  
+- raw: 刘文武  
+  result: Liu Wenwu  
+  badtrans: true  
+  direct: Liu Culture and Martial Arts  
+  literal: Liu Wenwu  
+- raw: 楚贤枫  
+  result: Chu Xianfeng  
+  badtrans: true  
+  direct: Chu Virtuous Maple  
+  literal: Chu Xianfeng  
+- raw: 林舒翰  
+  result: Lin Shuhan  
+  badtrans: true  
+  direct: Lin Comfortable Hand  
+  literal: Lin Shuhan  
+- raw: 石长丰  
+  result: Shi Changfeng  
+  badtrans: true  
+  direct: Shi Long Wind  
+  literal: Shi Changfeng  
+- raw: 诸葛畅  
+  result: Zhuge Chang  
+  badtrans: true  
+  direct: Zhuge Smooth  
+  literal: Zhuge Chang  
+- raw: 满君昊  
+  result: Man Junhao  
+  badtrans: true  
+  direct: Full Lord Hao  
+  literal: Man Junhao  
+- raw: 慧伤  
+  result: Hui Shang  
+  badtrans: true  
+  direct: Wisdom Hurt  
+  literal: Hui Shang  
+- raw: 善回  
+  result: Shan Hui  
+  badtrans: true  
+  direct: Good Return  
+  literal: Shan Hui  
+- raw: 善轮  
+  result: Shan Lun  
+  badtrans: true  
+  direct: Good Wheel  
+  literal: Shan Lun  
+- raw: 岳湘灵  
+  result: Yue Xiangling  
+  badtrans: true  
+  direct: Yue Xiang Spirit  
+  literal: Yue Xiangling  
+- raw: 周楠和  
+  result: Zhou Nanhe  
+  badtrans: true  
+  direct: Zhou South Harmony  
+  literal: Zhou Nanhe  
+- raw: 谭安  
+  result: Tan An  
+  badtrans: true  
+  direct: Tan Peace  
+  literal: Tan An  
+- raw: 晏洵  
+  result: Yan Xun  
+  badtrans: true  
+  direct: Yan Calm  
+  literal: Yan Xun  
+- raw: 叶子矜  
+  result: Ye Zijin  
+  badtrans: true  
+  direct: Ye Leaf Noble  
+  literal: Ye Zijin  
+- raw: 刘江  
+  result: Liu Jiang  
+  badtrans: true  
+  direct: Liu River  
+  literal: Liu Jiang  
+- raw: 孙才英  
+  result: Sun Caiying  
+  badtrans: true  
+  direct: Sun Talented Hero  
+  literal: Sun Caiying  
+- raw: 杨建树  
+  result: Yang Jianshu  
+  badtrans: true  
+  direct: Yang Build Tree  
+  literal: Yang Jianshu  
+- raw: 夏衍  
+  result: Xia Yan  
+  badtrans: true  
+  direct: Summer Expand  
+  literal: Xia Yan  
+- raw: 司徒烨  
+  result: Sima Ye  
+  badtrans: true  
+  direct: Sima Blaze  
+  literal: Sidu Ye  
+- raw: 左梁风  
+  result: Zuo Liangfeng  
+  badtrans: true  
+  direct: Left Liang Wind  
+  literal: Zuo Liangfeng  
+- raw: 蒋思聪  
+  result: Jiang Sicong  
+  badtrans: true  
+  direct: Jiang Think Intelligent  
+  literal: Jiang Sicong  
+- raw: 燕老三  
+  result: Yan Laosan  
+  badtrans: true  
+  direct: Yan Old Three  
+  literal: Yan Laosan  
+- raw: 百里戚钺  
+  result: Baili Qiyue  
+  badtrans: true  
+  direct: Hundred Li Qiye  
+  literal: Baili Qiyue  
+- raw: 孙陵游  
+  result: Sun Lingyou  
+  badtrans: true  
+  direct: Sun Tomb Travel  
+  literal: Sun Lingyou  
+- raw: 蔺旭  
+  result: Lin Xu  
+  badtrans: true  
+  direct: Lin Sunrise  
+  literal: Lin Xu  
+- raw: 孟鹏海  
+  result: Meng Penghai  
+  badtrans: true  
+  direct: Meng Roc Sea  
+  literal: Meng Penghai  
+- raw: 杜之行  
+  result: Du Zhixing  
+  badtrans: true  
+  direct: Du Journey  
+  literal: Du Zhixing  
+- raw: 孟及茗  
+  result: Meng Jiming  
+  badtrans: true  
+  direct: Meng and Tea  
+  literal: Meng Ji Ming  
+- raw: 公孙坞  
+  result: Gong Sunwu  
+  badtrans: true  
+  direct: Gong Sun Hut  
+  literal: Gong Sunwu  
+- raw: 孙南明  
+  result: Sun Nanming  
+  badtrans: true  
+  direct: Sun South Bright  
+  literal: Sun Nanming  
 - raw: 小虹  
   result: Xiao Hong  
   badtrans: true  

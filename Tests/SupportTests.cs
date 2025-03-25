@@ -45,6 +45,63 @@ public class SupportTests
     }
 
     [Fact]
+    public async Task FindImportantNamesUsingRegex()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var importantNames = new List<string>();
+        var originalTranslation = new List<string>();
+        var finalOutput = new List<string>();
+
+        string inputFile = $"{workingDirectory}/Converted/condition_group.txt";
+        string[] patterns = [
+                //"与(.*)对话", //Talk to
+                "击败(.*)"  //Defeat
+                //"去见"  //Go see
+        ];
+
+        //string inputFile = $"{workingDirectory}/Converted/achievement.txt";
+        //string[] patterns = [
+        //        "击败(.*)"  //Defeat
+        //];
+
+        var deserializer = Yaml.CreateDeserializer();
+        var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(inputFile));
+
+        foreach (var line in lines)
+        {
+            foreach (var split in line.Splits)
+            {
+                foreach (var pattern in patterns)
+                {
+                    var matches = Regex.Matches(split.Text, pattern);
+                    foreach (Match match in matches)
+                    {
+                        var newItem = match.Groups[1].Value;
+                        if (newItem.Length > 4)
+                            continue;
+
+                        if (importantNames.Contains(newItem))
+                            continue;
+
+                        if (config.GlossaryLines.Any(l => l.Raw == newItem))
+                            continue;
+
+                        importantNames.Add(newItem);
+                        originalTranslation.Add(split.Translated);
+                    }
+                }
+            }
+        }
+
+        for (var i = 0; i < importantNames.Count; i++)
+            finalOutput.Add($"{importantNames[i]} - {originalTranslation[i]}");
+
+        File.WriteAllLines($"{workingDirectory}/TestResults/ImportantNames.txt", finalOutput);
+        await Task.CompletedTask;
+    }
+
+    [Fact]
     public async Task GetSectsAndPlaces()
     {
         var config = Configuration.GetConfiguration(workingDirectory);
@@ -113,7 +170,7 @@ public class SupportTests
         var deserializer = Yaml.CreateDeserializer();
         var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText($"{workingDirectory}/Converted/emoji.txt"));
 
-        foreach(var line in lines)
+        foreach (var line in lines)
         {
             if (line.Splits.Count == 0)
                 continue;
@@ -122,7 +179,7 @@ public class SupportTests
 
             if (!emojiNames.Contains(emojiCode))
                 emojiNames.Add(emojiCode);
-            
+
             //TODO: Token replace these and then remove emoji from the replacement list
             //First check theres nothing in Dynamic strings
         }
