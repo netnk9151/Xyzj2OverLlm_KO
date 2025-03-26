@@ -148,8 +148,8 @@ public class StringDumperPlugin : BaseUnityPlugin
 
     public static bool IsLikelyDebug(Mono.Cecil.Cil.Instruction currentInstruction, string currentString)
     {
-        string[] methodContains = ["Debug", ".Log", 
-            "ContainsKey", "LitJson", "onError"];
+        string[] methodContains = ["Debug", ".Log",
+            "ContainsKey", "LitJson", "onError", "CustomData"];
 
         int instructionCheck = 0;
         var nextInstruction = currentInstruction;
@@ -166,7 +166,7 @@ public class StringDumperPlugin : BaseUnityPlugin
         //    return true;
         //}
 
-        while (instructionCheck < 3) // check two instructions ahead
+        while (instructionCheck < 4) // check three instructions ahead
         {
             // Get the next instruction after loading the string
             nextInstruction = nextInstruction.Next;           
@@ -184,6 +184,9 @@ public class StringDumperPlugin : BaseUnityPlugin
                 if (nextInstruction.Operand is MethodReference methodRef)
                 {
                     //Logger.LogError($"Ref {instructionCheck}: {methodRef.FullName}");
+
+                    if (methodRef.FullName.StartsWith("Log"))
+                        return true;
 
                     if (methodContains.Any(phrase => methodRef.FullName.IndexOf(phrase) >= 0))
                     {

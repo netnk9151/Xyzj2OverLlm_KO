@@ -547,7 +547,8 @@ public class TranslationWorkflowTests
     {
         HashSet<string> words =
         [
-            "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado",
+            "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado", 
+            "knight", "knights", "knight-at-arms", "knights-errant",
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",
             "fuck", "ich", "ein", "der", "ganzes", "Leben", "dort", //"de", NAmes can have de

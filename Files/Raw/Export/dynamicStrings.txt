@@ -6142,10 +6142,6 @@
   splits:
   - split: 3
     text: "药品不足"
-- raw: "ShuangXiuView,GetMedicineInfo,0,双修秘药,[]"
-  splits:
-  - split: 3
-    text: "双修秘药"
 - raw: "StealView,AddEvent,168,偷窃中......,[System.Boolean]"
   splits:
   - split: 3
@@ -8198,10 +8194,6 @@
   splits:
   - split: 3
     text: "驻守"
-- raw: "MapViewNew/<InitLeftScrollView>d__178,MoveNext,611,地图修炼点技能,[]"
-  splits:
-  - split: 3
-    text: "地图修炼点技能"
 - raw: "MapViewNew,DrawMoveLine,139,无法获取MainNpcId={0}的部队需要移动到的地点,[UnityEngine.RectTransform，MenPaiSoldierTeamInfo]"
   splits:
   - split: 3
@@ -10014,10 +10006,6 @@
   splits:
   - split: 3
     text: "人阶武学"
-- raw: "StuntManager,RefreshPrototypes,297,地图修炼点技能,[]"
-  splits:
-  - split: 3
-    text: "地图修炼点技能"
 - raw: "StuntManager,AddStunt,35,NPC {0}  的特技ID {1} 不存在,[System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -10354,10 +10342,6 @@
   splits:
   - split: 3
     text: "此悬赏已被悬红"
-- raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,326,悬红,[UnityEngine.EventSystems.PointerEventData]"
-  splits:
-  - split: 3
-    text: "悬红"
 - raw: "XuanShangLingItem/<>c__DisplayClass17_0,<Awake>b__2,381,金钱不足,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
@@ -11390,10 +11374,6 @@
   splits:
   - split: 3
     text: "悬赏"
-- raw: "XuanShangQuest,CreateZhuZhanNpc,8,悬红助战,[]"
-  splits:
-  - split: 3
-    text: "悬红助战"
 - raw: "XuanShangQuest,CreateZhuZhanNpc,103,悬赏：{0} 生成助战npc失败,[]"
   splits:
   - split: 3
@@ -18018,30 +17998,6 @@
   splits:
   - split: 3
     text: "没有路径可以连接成线"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,0,镖队npc组,[]"
-  splits:
-  - split: 3
-    text: "镖队npc组"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,16,劫镖npc组,[]"
-  splits:
-  - split: 3
-    text: "劫镖npc组"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,32,劫镖队生成范围,[]"
-  splits:
-  - split: 3
-    text: "劫镖队生成范围"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,52,对峙距离,[]"
-  splits:
-  - split: 3
-    text: "对峙距离"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,72,对峙时间,[]"
-  splits:
-  - split: 3
-    text: "对峙时间"
-- raw: "SweetPotato.YunBiao.BiaoBasicInfo,GetInfo,92,对峙玩家判定距离,[]"
-  splits:
-  - split: 3
-    text: "对峙玩家判定距离"
 - raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,30,{0}创建的队伍类型{1}已经存在，若要创建需要先执行清空操作,[System.Int32]"
   splits:
   - split: 3
