@@ -52,14 +52,6 @@ public class TextResizerTests
     }
 
     [Fact]
-    public void DeserializeResizerTest()
-    {
-        var deserializer = Yaml.CreateDeserializer();
-        var file = $"{workingDirectory}/Mod/AddedResizers.yaml";
-        var newResizers = deserializer.Deserialize<List<TextResizerContract>>(File.ReadAllText(file));
-    }
-
-    [Fact]
     public void ReserializeResizerTest()
     {
         var serializer = Yaml.CreateSerializer();
@@ -74,20 +66,6 @@ public class TextResizerTests
         }
     }
 
-    [Fact]
-    public void Test()
-    {
-        long result = 2448932006976;
-
-        // Recover modId by shifting right by 32 bits
-        long modId = result >> 32;
-
-        // Recover id by applying the mask for lower 32 bits
-        long id = result & 0xFFFFFFFF;
-
-        Console.WriteLine("modId: " + modId);
-        Console.WriteLine("id: " + id);
-    }
 
     //[Fact]
     //public void BackupResizersTest()

@@ -18,6 +18,7 @@ public class TextMetadata : MonoBehaviour
     public bool OriginalAllowWordWrap;
     public bool OriginalAllowAutoSizing;
 
+    public float OriginalFontSize;
     public float OriginalLineSpacing;
     public float OriginalCharacterSpacing;
     public float OriginalWordSpacing;

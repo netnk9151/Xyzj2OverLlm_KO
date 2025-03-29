@@ -265,6 +265,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
             metadata.OriginalOverflowMode = textComponent.overflowMode;
             metadata.OriginalAllowWordWrap = textComponent.enableWordWrapping;
             metadata.OriginalAllowAutoSizing = textComponent.enableAutoSizing;
+            metadata.OriginalFontSize = textComponent.fontSize;
         }
 
         // Set this so we can debug bad resizers
@@ -293,6 +294,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
             && resizer.IdealFontSize != null)
         {
             textComponent.fontSize = resizer.IdealFontSize.Value;
+        }
+        else if (resizer.FontPercentage != null)
+        {
+            textComponent.fontSize = metadata.OriginalFontSize * resizer.FontPercentage ?? 1;
         }
 
         // Text Alignment

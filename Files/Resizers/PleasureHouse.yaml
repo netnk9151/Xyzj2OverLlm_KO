@@ -1,0 +1,43 @@
+﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MenPaiView/Mask/Panel_Main/InfoRoot/info/*/layoutgroup/attriprefab*/num"
+  sampleText: "33.08 ten thousand"
+  idealFontSize: 22
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MenPaiView/Mask/Panel_Main/InfoRoot/Scroll View/Viewport/Content/txt_Des"
+  sampleText: "The Dual Cultivation Manor traces its lineage back to Xuanxi Chan, where disciples are adept at forming connections with people and inviting them for dual cultivation to jointly advance the great path. Many who are enamored by the allure of worldly pleasures have joined the Dual Cultivation Manor."
+  idealFontSize: 20
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MenPaiView/Mask/Panel_Main/InfoRoot/txt_Name"
+  sampleText: "Dual Cultivation Manor"
+  idealFontSize: 40
+  allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/toggroup/*/Text"
+  sampleText: "  Position"
+  idealFontSize: 28
+  allowWordWrap: true
+  allowLeftTrimText: true
+  allowAutoSizing: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/parts/*/circle/incomeTitle"
+  sampleText: "  Current Total Earnings"
+  idealFontSize: 30
+  allowWordWrap: false
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/parts/*/circle/moneyBg/num"
+  sampleText: "<color=#DA914E>0</color> minutes ago"
+  idealFontSize: 20
+  allowWordWrap: false
+  adjustX: 20
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/StaffMask/Bg/Title"
+  sampleText: "  Select Staff Members"
+  idealFontSize: 30
+  allowWordWrap: true
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/StaffMask/Bg/Image*/Text (TMP)"
+  sampleText: "  No personnel are currently available to fill the position."
+  idealFontSize: 30
+  allowWordWrap: false
+  allowLeftTrimText: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingLouView/*/Root/parts/*/mid/noHave/Text (TMP)"
+  sampleText: "  Yixiang Courtyard currently has no staff"
+  idealFontSize: 30
+  allowWordWrap: false
+  allowLeftTrimText: true

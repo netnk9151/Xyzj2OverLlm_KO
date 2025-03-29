@@ -15,6 +15,8 @@ public record TextResizerContract
 
     public float? IdealFontSize;
 
+    public float? FontPercentage;
+
     public float? MinFontSize;
 
     public float? MaxFontSize;
