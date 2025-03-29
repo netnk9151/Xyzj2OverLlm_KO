@@ -102,6 +102,62 @@ public class SupportTests
     }
 
     [Fact]
+    public async Task FindArtNamesUsingFiles()
+    {
+        var config = Configuration.GetConfiguration(workingDirectory);
+
+        var importantNames = new List<string>();
+        var originalTranslation = new List<string>();
+
+        string inputFile = $"{workingDirectory}/Converted/triggertip.txt";
+
+        var deserializer = Yaml.CreateDeserializer();
+        var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(inputFile));
+
+        foreach (var line in lines)
+        {
+            foreach (var split in line.Splits)
+            {
+                if (string.IsNullOrEmpty(split.Text))
+                    continue;
+                {
+                    var newItem = split.Text;
+
+                    if (importantNames.Contains(newItem))
+                        continue;
+
+                    if (config.GlossaryLines.Any(l => l.Raw == newItem))
+                        continue;
+
+                    importantNames.Add(newItem);
+                    originalTranslation.Add(split.Translated);
+                }
+            }
+        }
+
+        var newGlossaryLines = new List<GlossaryLine>();
+
+        for (var i = 0; i < importantNames.Count; i++)
+        {
+            newGlossaryLines.Add(new GlossaryLine
+            {
+                Raw = importantNames[i],
+                Result = originalTranslation[i],
+                CheckForBadTranslation = true,
+            });
+
+        }
+
+        var serializer = Yaml.CreateSerializer();
+        var yaml = serializer.Serialize(newGlossaryLines);
+
+        yaml = yaml.Replace("  allowalt: []\r\n  only: []\r\n  exclude: []\r\n", "");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/ArtNames.txt", yaml);
+        await Task.CompletedTask;
+    }
+
+    [Fact]
     public async Task GetSectsAndPlaces()
     {
         var config = Configuration.GetConfiguration(workingDirectory);

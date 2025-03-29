@@ -43,8 +43,8 @@
   sampleText: "Medicine from Guang Mountain"
   idealFontSize: 24
   allowWordWrap: true
-  adjustWidth: 50
   adjustX: 25
+  adjustWidth: 50
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeR/*"
   sampleText: "  Output rank"
   idealFontSize: 30
@@ -56,10 +56,10 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/Name"
   sampleText: "<color=#E4F5E8>Placebo</color>"
   idealFontSize: 20
-  allowWordWrap: true
   alignment: "Center"
-  adjustWidth: 100
+  allowWordWrap: true
   adjustX: -50
+  adjustWidth: 100
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/NodeL/Scroll View/Viewport/Content/*/Level"
   sampleText: "Levels 1 to 1"
   idealFontSize: 18
@@ -161,7 +161,6 @@
   idealFontSize: 20
   allowWordWrap: true
   adjustWidth: 20
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/IntensifyPanel/Root/After/UIBaseAttri/txt_before_attri*"
   sampleText: "23"
   idealFontSize: 20
@@ -216,66 +215,50 @@
   idealFontSize: 20
   alignment: "Center"
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/TitleText"
+- &o0
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/TitleText"
   sampleText: "<color=#E4F5E8>Iron Blade</color>"
   idealFontSize: 30
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
+- &o1
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
   sampleText: "Copper coin:"
   idealFontSize: 30
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
+- &o2
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
   sampleText: "<color=#3AD67C>Crucible-forged gemstone</color>："
   idealFontSize: 30
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/Text"
+- &o3
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/Text"
   sampleText: "54605/119"
   idealFontSize: 30
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/xiliandi/Scroll View/Viewport/*/Text"
+- &o4
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/xiliandi/Scroll View/Viewport/*/Text"
   sampleText: "  Bloodline: Lifeforce +1000"
   idealFontSize: 30
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/Text_Value"
+- &o5
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/Text_Value"
   sampleText: "120(<color=red>-5</color>)/300"
   idealFontSize: 30
   allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/*/Text"
+- &o6
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/*/Text"
   sampleText: "  Toughness"
   idealFontSize: 30
   allowWordWrap: false
   allowLeftTrimText: true
   adjustX: -20
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/TitleText"
-  sampleText: "<color=#E4F5E8>Iron Blade</color>"
-  idealFontSize: 30
-  allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
-  sampleText: "Copper coin:"
-  idealFontSize: 30
-  allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/txt_name"
-  sampleText: "<color=#3AD67C>Crucible-forged gemstone</color>："
-  idealFontSize: 30
-  allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/UICost/*/Text"
-  sampleText: "54605/119"
-  idealFontSize: 30
-  allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/xiliandi/Scroll View/Viewport/*/Text"
-  sampleText: "  Bloodline: Lifeforce +1000"
-  idealFontSize: 30
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/Text_Value"
-  sampleText: "120(<color=red>-5</color>)/300"
-  idealFontSize: 30
-  allowWordWrap: false
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/WashIntensifyView/UIRoot/RightPart/WashPanel/Root/*/*/Text"
-  sampleText: "  Toughness"
-  idealFontSize: 30
-  allowWordWrap: false
-  allowLeftTrimText: true
-  adjustX: -20
+- *o0
+- *o1
+- *o2
+- *o3
+- *o4
+- *o5
+- *o6
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FabricationView/Node/SkillSelectPanel/MystiqueSelect/bg/GameObject/title*/content"
   sampleText: "The forging technique initially spread within the Yan Hong clan and created by the swordsmith Zhu Ye is also the foundation for apprentice craftsmen in iron casting today."
   idealFontSize: 30

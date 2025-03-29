@@ -1,4 +1,3 @@
-﻿
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/FishRoot/PublicRoot/Image/yugan"
   sampleText: "  Maximum number of bait fish: <color=#ecc36c>0</color>"
   idealFontSize: 20
@@ -14,8 +13,8 @@
   idealFontSize: 30
   allowWordWrap: true
   allowLeftTrimText: true
-  adjustWidth: 100
   adjustX: -30
+  adjustWidth: 100
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MaterialSelectView/RoleBagParent/BagPlayer/ZhongYao/Select_New2/SelectItem(Clone)/Text"
   sampleText: "Collectible items"
   idealFontSize: 26
@@ -24,8 +23,8 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MaterialSelectView/RoleBagParent/BagPlayer/*/Title"
   sampleText: "  Travel bag"
   idealFontSize: 26
-  allowLeftTrimText: true
   allowWordWrap: true
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/FishAndPlantView/Root/ResultRoot/Scroll View/Viewport/Content/Item*/txtNameCtn"
   sampleText: "The formula for Qing Ling Dan  x1"
   idealFontSize: 20

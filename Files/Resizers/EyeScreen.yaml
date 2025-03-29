@@ -1,13 +1,13 @@
-﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/TagPanel/TagGroup/TagItemTemplate*/DefaultLabel"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/TagPanel/TagGroup/TagItemTemplate*/DefaultLabel"
   sampleText: "  Jianghu adventure"
   idealFontSize: 28
-  allowLeftTrimText: true
   allowWordWrap: true
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/TagPanel/TagGroup/TagItemTemplate*/SelectedLabel"
   sampleText: "  Jianghu adventure"
   idealFontSize: 28
-  allowLeftTrimText: true
   allowWordWrap: true
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/ItemInfoPanel/Name"
   sampleText: "Epic Tavern Tales"
   idealFontSize: 34
@@ -38,8 +38,7 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/GameManualView/ItemDetailsPanel/Scroll View/Viewport/Content/AccessItemTemplate(Clone)/Button/Text (TMP)"
   sampleText: "  Proceed"
   idealFontSize: 24
-  allowLeftTrimText: true
   allowWordWrap: true
-  adjustWidth: 50
+  allowLeftTrimText: true
   adjustX: -20
-
+  adjustWidth: 50

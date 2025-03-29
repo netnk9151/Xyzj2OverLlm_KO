@@ -1,4 +1,4 @@
-﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/TextName"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/TextName"
   sampleText: "Eight Extraordinary Meridians Chart · Volume Seven · Lifeforce"
   idealFontSize: 24
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/BlackBG/TextQuality"
@@ -10,7 +10,6 @@
   sampleText: "Rank:Tier 7"
   idealFontSize: 20
   allowWordWrap: true
-# Text Price has to be before
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/LearnViewNew/PartRoot/Role/RoleBagParent/ItemDetail0/Background/ObjSell/TextPrice"
   sampleText: "27418"
   idealFontSize: 20
@@ -18,16 +17,13 @@
   sampleText: "Selling price:"
   idealFontSize: 20
   adjustY: 5
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Button*/Text"
   sampleText: "  Discard"
   idealFontSize: 26
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Equip/Attribute/UsableAttri"
   sampleText: "<nobr>Used for meridians and internal organs, and additional terms.</nobr>"
   idealFontSize: 18
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Description/Viewport/TextDescription"
   sampleText: "   This book was authored by a renowned master of the previous generation from an unnamed sect. It uniquely illustrates the flow of qi in the meridians through distinctive diagrams. By pairing it with accurate meridian knowledge, one can enhance and stabilize certain lifeforce attributes."
   idealFontSize: 18
@@ -35,7 +31,6 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustX: 4
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Equip/Image/Text"
   sampleText: "Material Properties"
   idealFontSize: 20
@@ -47,7 +42,6 @@
   allowAutoSizing: false
   allowLeftTrimText: true
   adjustWidth: -40
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/DetailFabrication/title"
   sampleText: "  Intended purpose"
   idealFontSize: 20
@@ -59,7 +53,6 @@
   idealFontSize: 20
   alignment: "Top"
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail0/Background/title (1)"
   sampleText: "  Acquisition method"
   idealFontSize: 18
@@ -68,7 +61,6 @@
   allowLeftTrimText: true
   adjustY: 10
   adjustWidth: -360
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/sourceprefab/Scroll View/Viewport/Content/bg*/TextDescription"
   sampleText: "Purchasable in the Inner Sect Disciples column at the Gao Family Contribution Hall Master."
   idealFontSize: 18
@@ -78,33 +70,25 @@
   sampleText: "Lingxinshu(1045,1772)"
   idealFontSize: 18
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Equip/Attribute/AttriBG/TextAttri*"
   sampleText: "Discipline"
   idealFontSize: 18
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Layout/Viewport/Content/*/WordText/name"
   sampleText: "<color=#E4F5E8>Internal attack</color>"
   idealFontSize: 16
   allowWordWrap: true
   allowAutoSizing: false
-  adjustWidth: -30
   adjustX: -25
+  adjustWidth: -30
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Layout/Viewport/Content/*/WordText"
   sampleText: "<nobr>Lifeforce 281<color=#BA7EFE>(345)</color></nobr>"
   idealFontSize: 16
   allowWordWrap: true
   allowAutoSizing: false
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/*/*/ItemDetail*/Background/Equip/EquipData/*/Text"
   sampleText: "  Toughness"
   idealFontSize: 18
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: 20
-
-
-
-  

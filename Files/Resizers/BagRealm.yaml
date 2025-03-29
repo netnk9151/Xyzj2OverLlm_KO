@@ -1,9 +1,9 @@
-﻿- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/DiLan/XiuWeiText"
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/DiLan/XiuWeiText"
   sampleText: "Cultivation level:18008"
   idealFontSize: 20
   allowWordWrap: true
-  adjustWidth: 100
   adjustX: 50
+  adjustWidth: 100
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/DiLan/GanwuText"
   sampleText: "Insight:84220"
   idealFontSize: 20
@@ -69,8 +69,6 @@
   sampleText: "Yin +24"
   idealFontSize: 28
   allowWordWrap: true
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingUnlockPanel/XiLian/Text (TMP)"
   sampleText: "  Refined through adversity"
   idealFontSize: 22
@@ -107,21 +105,16 @@
   idealFontSize: 20
   allowWordWrap: true
   adjustY: -10
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/BtnText"
+- &o0
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/BtnText"
   sampleText: "  Cultivation"
   idealFontSize: 30
-  allowLeftTrimText: true
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/Cost"
+  allowLeftTrimText: true
+- &o1
+  path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/Cost"
   sampleText: "Consuming one's cultivation energy:3048"
   idealFontSize: 26
   allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/BtnText"
-  sampleText: "  Cultivation"
-  idealFontSize: 30
-  allowLeftTrimText: true
-  allowWordWrap: true
-- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingjiePartNew/mask/RightPanel/GuDingLockPanel/XiuXingBtn/Cost"
-  sampleText: "Consuming one's cultivation energy:3048"
-  idealFontSize: 26
-  allowWordWrap: true
+- *o0
+- *o1

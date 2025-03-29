@@ -1,14 +1,13 @@
-﻿
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/Scroll View/Viewport/Content/interact(Clone)/Text"
   sampleText: "Conversing"
   idealFontSize: 18
-  adjustX: 20
   allowWordWrap: true
+  adjustX: 20
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/interacts_old/node_leave/txt_leave"
   sampleText: "Follow me.FDeparture."
   idealFontSize: 18
-  adjustX: -20
   allowWordWrap: true
+  adjustX: -20
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/interacts/InteractGridRoot/Viewport/InteractGrid/*/Text"
   sampleText: "Casual chat"
   idealFontSize: 20
@@ -18,13 +17,13 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/title"
   sampleText: "View information"
   idealFontSize: 20
-  adjustX: 10
   allowWordWrap: true
+  adjustX: 10
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/RoleInteract/Root/RoleInteract/ShowItemView/Scroll View/Viewport/Content/*/lockdes"
   sampleText: "Affection level ≥ 5; Relationship value ≥ 150"
   idealFontSize: 20
-  adjustX: 10
   allowWordWrap: true
+  adjustX: 10
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MainViewOld/Root/Interacts/1001/Text"
   sampleText: "The stone statue at the Clear Heart Altar faces east."
   idealFontSize: 20
@@ -33,8 +32,6 @@
   sampleText: "F"
   idealFontSize: 28
   allowWordWrap: false
-
-  
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/QingJiaoView/Mask/Scroll View/Viewport/Content/ContentPrefab(Clone)/haoganlevelbg/haoganlevelname"
   sampleText: "Mutual understanding of each other's character"
   idealFontSize: 20
@@ -59,8 +56,6 @@
   sampleText: "Affection Value:921"
   idealFontSize: 20
   allowWordWrap: true
-
-  
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/NpcAutoChatViewByX/Scroll View/Viewport/Content/ChatMsgPrefab(Clone)/ContentText"
   sampleText: "It seems like they have everything planned out."
   idealFontSize: 28

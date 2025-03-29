@@ -278,16 +278,16 @@
   literal: Wei tuo  
 
 # Identity
-- raw: 羽士
-  result: Taoist
-  only:
-    - identity.txt
-    - item_base_xianejianghu.txt
-    - item_base_zhenshijianghu.txt
-    - menpairandom.txt
-    - npc_prototype.txt
-    - npc_interact.txt
-  badtrans: true
+# - raw: 羽士 # In titles
+#   result: Taoist
+#   only:
+#     - identity.txt
+#     - item_base_xianejianghu.txt
+#     - item_base_zhenshijianghu.txt
+#     - menpairandom.txt
+#     - npc_prototype.txt
+#     - npc_interact.txt
+#   badtrans: true
 - raw: 行走  
   result: Traveler  
   only:
@@ -1219,7 +1219,7 @@
   transliteration: Jìyì
 - raw: 玄机
   result: Secret Art
-  badtrans: true
+  badtrans: false
   context: Refers to mysterious or hidden principles, often in martial arts, cultivation, or philosophy, that govern certain natural or supernatural phenomena.
   transliteration: Xuánjī
 - raw: 武\n器
@@ -1434,6 +1434,8 @@
   literal: Bingdao  
 - raw: 搏击  
   result: Combat  
+  allowalt:
+    - Fighting
   badtrans: true  
   direct: Struggle and Fight  
   literal: Boji
@@ -1956,6 +1958,16 @@
   literal: Lingjun  
 
 # Items and Minerals
+- raw: 血菩提
+  result: Blood Bodhi
+  badtrans: true
+  direct: Blood Bodhi
+  literal: Xue Puti
+- raw: 蓝银石
+  result: Blue Silver Stone
+  badtrans: true
+  direct: Blue Silver Stone
+  literal: Lán Yín Shí
 - raw: 金玉酿
   result: Golden Jade Brew
   badtrans: true
@@ -2673,6 +2685,16 @@
 #   badtrans: true  
 #   direct: Wu Elder  
 #   literal: Wu Lao  
+- raw: 刺枚
+  result: Ci Mei
+  badtrans: true
+  direct: Ci mei
+  literal: Cì méi
+- raw: 残烛
+  result: Can Zhu
+  badtrans: true
+  direct: Broken Candle
+  literal: Cán zhú
 - raw: 李管家
   result: Housekeeper Li
   badtrans: true
@@ -2722,9 +2744,96 @@
   badtrans: false
   direct: He Old Man  
   literal: He Lao Han  
-
+- raw: 恶汉铁拳李
+  result: Infamous Tiequan Li
+  badtrans: true
+  direct: Vicious Man Iron Fist Li
+  literal: E Han Tie Quan Li
+- raw: 铁拳李
+  result: Tiequan Li
+  badtrans: true
+  direct: Vicious Man Iron Fist Li
+  literal: E Han Tie Quan Li
+- raw: 王掌柜  
+  result: Shopkeeper Wang  
+  badtrans: true  
+  direct: Wang Manager  
+  literal: Wang Zhanggui  
 
 # Names
+- raw: 薛九剑
+  result: Xue Juijian
+  badtrans: true
+- raw: 柳山川  
+  result: Liu Shanchuan  
+  badtrans: true  
+  direct: Liu Shan Chuan  
+  literal: Liu Shan Chuan  
+- raw: 方雪儿  
+  result: Fang Xue'er  
+  badtrans: true  
+  direct: Fang Xue Er  
+  literal: Fang Xue Er  
+- raw: 石婉儿  
+  result: Shi Wan'er  
+  badtrans: true  
+  direct: Shi Wan Er  
+  literal: Shi Wan Er  
+- raw: 柳依依  
+  result: Liu Yiyi  
+  badtrans: true  
+  direct: Liu Yi Yi  
+  literal: Liu Yi Yi  
+- raw: 柳回春  
+  result: Liu Huichun  
+  badtrans: true  
+  direct: Liu Hui Chun  
+  literal: Liu Hui Chun  
+- raw: 柳莹莹  
+  result: Liu Yingying  
+  badtrans: true  
+  direct: Liu Ying Ying  
+  literal: Liu Ying Ying  
+- raw: 柳茹  
+  result: Liu Ru  
+  badtrans: true  
+  direct: Liu Ru  
+  literal: Liu Ru  
+- raw: 柳涵劲  
+  result: Liu Hanjin  
+  badtrans: true  
+  direct: Liu Han Jin  
+  literal: Liu Han Jin  
+- raw: 柳青霜  
+  result: Liu Qingshuang  
+  badtrans: true  
+  direct: Liu Qing Shuang  
+  literal: Liu Qing Shuang  
+- raw: 糖三
+  result: Tang San
+  badtrans: true
+  direct: Tang San
+  literal: Tang San
+- raw: 谷武涛
+  result: Gu Wutao
+  badtrans: true
+  direct: Gu Wutao
+  literal: Gu Wutao
+- raw: 陆道云
+  result: Lu Daoyun
+  badtrans: true
+  direct: Lu Daoyun
+  literal: Lu Daoyun
+- raw: 陆锦
+  result: Lu Jin
+  badtrans: true
+  direct: Lu Jin
+  literal: Lu Jin
+- raw: 象凡阳
+  result: Xiang Fanyang
+  badtrans: true
+  direct: Xiang Fanyang
+  literal: Xiang Fanyang
 - raw: 相饮川
   result:  Xiangyin Chuan
   badtrans: true
@@ -3511,11 +3620,6 @@
   badtrans: true
   direct: Xiang He
   literal: Xiang He
-- raw: 徐和昌
-  result: Xu Hechang
-  badtrans: true
-  direct: Xu He Chang
-  literal: Xu He Chang
 - raw: 乐竹芦
   result: Le Zhulu
   badtrans: true
@@ -3931,12 +4035,6 @@
 - raw: 蓉儿
   result: Yong'er
   badtrans: true
-- raw: 唐儒
-  result: Tang Ru
-  badtrans: true
-- raw: 缪贝
-  result: Miao Bei
-  badtrans: true
 - raw: 镜无双  
   result: Jing Wushuang
   badtrans: true  
@@ -4053,6 +4151,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 怡香院
+  result: Yixiang Courtyard
+  badtrans: true
+  direct: Yixiang Courtyard
+  literal: Yíxiāng Yuàn
 - raw: 济和烟花厂
   result: Jihe Fireworks Factory
   badtrans: true
@@ -5466,3 +5569,427 @@
   badtrans: true
   direct: Qi shang quan
   literal: Qi shang quan
+- raw: 独孤剑决
+  result: Solitary Sword Technique
+  badtrans: true
+  direct: Solitary Sword Technique
+  literal: Dugu Jian Jue
+- raw: 独孤剑诀
+  result: Solitary Sword Technique
+  badtrans: true
+  direct: Lonely Solitary Sword Technique
+  literal: Dugu Jian Jue
+- raw: 心剑武学
+  result: Heart Sword Martial Arts
+  badtrans: true
+  direct: Heart Sword Kung Fu
+  literal: Xin Jian Wuxue
+- raw: 上古血药经
+  result: Ancient Blood Medicine Scripture
+  badtrans: true
+  direct: Ancient Blood Medicine Classic
+  literal: Shanggu Xueyao Jing
+- raw: 风神腿
+  result: Wind God Legs
+  badtrans: true
+  direct: Wind God Leg
+  literal: Fēng shén tuǐ
+- raw: 傲寒六诀
+  result: Six Proud Cold Techniques
+  badtrans: true
+  direct: Proud Cold Six Techniques
+  literal: Ào Hán Liù Jué
+- raw: 惊龙诀
+  result: Dragon Shock Technique
+  badtrans: true
+  direct: Shock Dragon Technique
+  literal: Jīng Lóng Jué
+- raw: 明禅拈花指
+  result: Ming Chan Flower-Picking Finger
+  badtrans: true
+  direct: Bright Zen Flower-Picking Finger
+  literal: Míng chán niān huā zhǐ
+- raw: 紫阳剑谱
+  result: Ziyang Sword Manual
+- raw: 太初剑谱
+  result: Primordial Origin Sword Manual
+- raw: 碧海潮生剑
+  result: Azure Sea Tide Raising Sword 
+- raw: 太易剑谱
+  result: Tai Yi Sword Manual
+- raw: 剑宗总诀
+  result: Sword Sect General Principles
+- raw: 道剑
+  result: Sword Path
+  badtrans: false
+- raw: 佛剑
+  result: Sword of Buddha
+  allowalt:
+    - Buddha Swordmanship
+- raw: 斜风细雨剑
+  result: Slanting Wind and Drizzling Rain Sword
+- raw: 霸下剑谱
+  result: Sovereign Swords Manual
+- raw: 流风回雪剑
+  result: Sword of the Flowing Wind and Returning Snow
+- raw: 大须弥剑典
+  result: Great Xumi Sword Classic
+- raw: 天下霸剑
+  result: World Conqueror's Sword
+- raw: 二八星宿剑
+  result: Twenty-Eight Constellations Sword
+- raw: 若水剑法
+  result: Ruoshi Sword Art
+- raw: 抱阳剑谱
+  result: Baoyang Sword Manual 
+- raw: 暮雪剑法
+  result: Twilight Snow Sword Art
+- raw: 凌霄剑法
+  result: Ascending Sky Sword Art
+- raw: 浩然剑诀
+  result: Vast Sword Method
+- raw: 儒剑
+  result: Confucian Sword
+- raw: 墨剑
+  result: Ink Sword
+- raw: 太素剑谱
+  result: Great Simplicity Sword
+- raw: 天行无字诀
+  result: Unwritten Method of Heaven's Path
+- raw: 飞仙剑诀
+  result: Flying Immortal Sword Technique
+- raw: 天外飞仙
+  result: Flying Immortal from Beyond the Heavens
+- raw: 非攻
+  result: Non-Agression
+  badtrans: false
+- raw: 天下第一剑
+  result: World's Number One Sword
+- raw: 剑来
+  result: Sword Comes
+  badtrans: false
+- raw: 九剑
+  result: Nine Swords
+  allowalt:
+    - Jiujian # Name
+  badtrans: false
+- raw: 两仪剑法
+  result: Two Forms Sword Art
+- raw: 狂风快剑
+  result: Wild Wind Fast Sword
+- raw: 夺命连环三仙剑
+  result: Life Taking Three Immortals Sword
+- raw: 神门十三剑
+  result: Thirteen Swords of the Divine Gate 
+- raw: 玉女剑诀
+  result: Jade Maiden Sword Techniques
+- raw: 太极剑
+  result: Supreme Ultimate Sword
+- raw: 纯阳剑诀
+  result: Pure Yang Sword Technique
+- raw: 百殊刀
+  result: Hundred Divergent Blades
+- raw: 无上太玄刀
+  result: Supreme Mystery Blade
+- raw: 月渡边山
+  result: Moon Crossing the Edge Mountain 
+- raw: 天梵伏魔刀
+  result: Heavenly Demon Suppressing Blade
+- raw: 沧阳天坠刀
+  result: Cangyang Skyfall Blade
+- raw: 七杀狂风刀
+  result: Seven Killings Gale Saber
+- raw: 流云刀谱
+  result: Flowing Clouds Saber Manual
+- raw: 裂山刀谱
+  result: Mountain‑Splitting Blade Manual
+- raw: 捻香刀谱
+  result: Twirling Fragrance Blade Manual
+- raw: 霸王孤枪鸣
+  result: Tyrant's Lone Spear Cry
+- raw: 纵横百花枪
+  result: Traverse the Hundred Flowers Spear
+- raw: 释杀千忏
+  result: Forgive a Thousand Killings
+- raw: 伏明棍法
+  result: Subdue Brightness Staff Technique
+- raw: 镇山锁岳枪
+  result: Mountain Subduing Locking Peak Spear
+- raw: 锻武堪禅
+  result: Tempering Martial Arts with Zen
+- raw: 一瞬惊云枪
+  result: One Moment Shocking Cloud Spear
+- raw: 天转七绝枪
+  result: Heavenly Seven Turns Absolute Spear
+- raw: 嵩室棍法
+  result: Songshi Staff Techniques
+- raw: 万道天阙
+  result: Ten Thousand Paths to Heaven
+- raw: 凤流恪命枪
+  result: Phoenix Flow Respectful Command Spear
+- raw: 问天枪诀
+  result: Questioning Heaven Spear Techniques
+- raw: 小夜叉棍法
+  result: Little Yaksha Staff Technique
+- raw: 打狗棍法
+  result: Dog Beating Staff Technique 
+- raw: 定海神针
+  result: Sea Calming Divine Needle 
+- raw: 齐眉棍法
+  result: Eye Level Staff Techniques
+- raw: 泼水杖法
+  result: Splashing Water Staff Technique
+- raw: 啸虎明筋拳
+  result: Roaring Tiger Bright Tendon Fist
+- raw: 参严掌
+  result: Strict Palm
+- raw: 惊武回风拳
+  result: Surprise Wind Returning Fist
+- raw: 端法渡万生
+  result: Cross Ten Thousand Lives Method
+- raw: 九天掌封雪
+  result: Ice Sealed Nine Heavens Palm
+- raw: 焚天烈火掌
+  result: Fiery Inferno Palm
+- raw: 怀素玄掌
+  result: Modest Soul Mystical Palm
+- raw: 借木移影
+  result: Borrowing the Tree to Shift Shadows
+- raw: 渡蜀掌
+  result: Bridge Over Shu
+- raw: 撕碑手
+  result: Monument Tearing Hand
+- raw: 玉川指
+  result: Jade River Finger
+- raw: 七伤
+  result: Seven Injuries
+- raw: 断海八式
+  result: Eight Ways to Cut the Sea
+- raw: 尧光古拳
+  result: Ancient Radiant Fist
+- raw: 拂笑手
+  result: Gentle Smile Hand
+- raw: 铁窗泪
+  result: Tears Behind Iron Bars
+- raw: 剪刀石头布
+  result: Rock-Paper-Scissors
+- raw: 乾坤一掷
+  result: All in Gamble
+  allowalt:
+    - All‑in Gamble
+- raw: 金蟾劲
+  result: Golden Toad Force
+- raw: 阴风诀
+  result: Yin Wind Technique
+- raw: 缠魂毒
+  result: Heartbinding Poison
+- raw: 罗汉拳
+  result: Arhat Fist
+- raw: 韦陀掌
+  result: Weituo's Palm
+- raw: 大力金刚掌
+  result: Vajra's Mighty Palm
+- raw: 龙象般若
+  result: Dragon and Elephant Wisdom
+- raw: 太极拳
+  result: Tai Chi Fist
+- raw: 养剑术
+  result: Nurturing swordsmanship
+- raw: 剑术精要
+  result: Swordsmanship Essentials
+  badtrans: false
+- raw: 弈剑诀
+  result: Secrets of Swordsmanship
+- raw: 书剑式
+  result: Way of the Book and Sword
+- raw: 玄剑诀
+  result: Mystic Sword Technique
+- raw: 菩提式
+  result: Bodhi Path
+- raw: 墨剑式
+  result: Ink Sword Style
+- raw: 伤剑诀
+  result: Wounding Sword Technique
+- raw: 心剑诀
+  result: Heart Sword Technique
+- raw: 人剑合一
+  result: Union of Man and Sword
+  badtrans: false
+- raw: 剑心通明
+  result: Clairvoyant Sword Heart
+- raw: 剑意纵横
+  result: Boundless Sword Intent
+- raw: 刀法精要
+  result: Blade Technique Essentials
+  badtrans: false
+- raw: 隐刀术
+  result: Hidden Blade Technique
+- raw: 拔刀式
+  result: Blade-Drawing Style
+- raw: 浩然刀式
+  result: Righteous Blade Style
+- raw: 玄机刀式
+  result: Mystic Blade Style
+- raw: 燃木刀式
+  result: Blazing Wood Blade Style
+- raw: 八方式
+  result: Eight Directions Style
+- raw: 抱刀式
+  result: Blade-Holding Style
+- raw: 乱环诀
+  result: Chaotic Rings Technique
+- raw: 霸刀势
+  result: Dominator Blade Style
+- raw: 八方藏刀诀
+  result: Eight Directions Hidden Blade Technique
+- raw: 搏击精要
+  result: Fighting Technique Essentials
+  badtrans: false
+- raw: 气劲
+  result: Qi Force
+- raw: 卸劲
+  result: Dissipating Force
+- raw: 书诫劲
+  result: Written Warning Force
+- raw: 玄门劲
+  result: Xuanmen Force
+- raw: 菩提劲
+  result: Bodhi Force
+- raw: 化劲
+  result: Transforming Force
+- raw: 七伤劲
+  result: Seven Injuries Force
+- raw: 伏虎劲
+  result: Tiger-Taming Force
+- raw: 降龙劲
+  result: Dragon-Subduing Force
+- raw: 降龙
+  result: Dragon-Subduing
+  allowalt: 
+    - Dragon Subduing
+- raw: 寸劲
+  result: Inch Force
+  badtrans: false
+- raw: 极劲
+  result: Extreme Force
+- raw: 枪棍精要
+  result: Spear and Staff Essentials
+  badtrans: false
+- raw: 卸甲
+  result: Removing Armor
+  badtrans: false
+- raw: 破体技
+  result: Body-Breaking Techniques
+- raw: 磅礴枪
+  result: Boundless Spear
+- raw: 玄真枪
+  result: Profound Truth Spear
+- raw: 达摩棍
+  result: Dharma Staff
+- raw: 战意技
+  result: Combat Spirit Technique
+- raw: 狂战技
+  result: Wild Battle Technique
+- raw: 合一技
+  result: Unification Technique
+- raw: 归海技
+  result: Return to Sea Technique
+- raw: 裂地技
+  result: Earth‑shattering Technique
+- raw: 万法森罗纲要·下
+  result: Outline of Ten Thousand Laws · Part Two
+- raw: 万法森罗纲要·上
+  result: Outline of Ten Thousand Laws · Part One
+- raw: 百战圣功
+  result: Divine Merit of a Hundred Battles
+- raw: 白首太玄经
+  result: Whitehead's Supreme Mystery Classic
+- raw: 众生相
+  result: Faces of All Beings
+- raw: 无象
+  result: Imageless Form
+  badtrans: false
+- raw: 洗髓功
+  result: Marrow-Cleansing Skill
+- raw: 道心种魔
+  result: Demon Seed in Tao's Heart
+- raw: 九阳真经
+  result: Nine Yang Classic
+- raw: 九转练骨诀
+  result: Nine Cycles Bone-Tempering Technique
+- raw: 全真七星诀
+  result: Quanzhen Seven Star Palm
+- raw: 醉仙望月
+  result: Drunk Immortal Gazing at the Moon
+- raw: 金刚不坏神功
+  result: Invincible Vajra Divine Skill
+- raw: 葵花宝典
+  result: Sunflower Treasure Manual
+- raw: 云鹤吐纳法
+  result: Cloud Crane Breathing Method
+- raw: 妙手空空
+  result: Empty-Handed Mastery
+- raw: 天魔解体
+  result: Celestial Demon Body Separation
+- raw: 天蚕四变
+  result: Heavenly Silkworm's Four Changes
+- raw: 闭穴功
+  result: Acupoint Sealing Technique
+- raw: 三分吸元气
+  result: Absorb Three Parts of Vitality
+- raw: 去阳真决
+  result: Dispelling Yang Technique
+- raw: 月德篇
+  result: Lunar Virtue Chapter
+- raw: 卷娄篇
+  result: Lou Section Chapter
+- raw: 乌键篇
+  result: Black Key Chapter
+- raw: 狸奴篇
+  result: Raccoon Slave Chapter
+- raw: 黄耳篇
+  result: Yellow Ear Chapter
+- raw: 晨凫篇
+  result: Morning Duck Chapter
+- raw: 豕豚篇
+  result: Pig Chapter
+- raw: 烛夜篇
+  result: Candlelit Night Chapter
+- raw: 玉角篇
+  result: Jade Horn Chapter
+- raw: 山君篇
+  result: Mountain Lord Chapter
+- raw: 土龙篇
+  result: Earth Dragon Chapter
+- raw: 胡犲篇
+  result: Wolf Barbarian Chapter
+- raw: 玄狐篇
+  result: Mysterious Fox Chapter
+- raw: 熊罴篇
+  result: Bear and Leopard Chapter
+- raw: 辞鸿篇
+  result: Departing Swan Chapter
+- raw: 照夜篇
+  result: Night Illumination Chapter
+- raw: 凤黯篇
+  result: Dim Phoenix Chapter
+- raw: 仙驭篇
+  result: Immortal Command Chapter
+- raw: 雷鹏篇
+  result: Thunder Roc Chapter
+- raw: 白龙篇
+  result: White Dragon Chapter
+- raw: 麒麟篇
+  result: Qilin Chapter
+- raw: 王龟篇
+  result: Royal Turtle Chapter
+- raw: 仙鹿篇
+  result: Immortal Deer Chapter
+- raw: 苍蛇篇
+  result: Azure Serpent Chapter
+- raw: 虿尾篇
+  result: Scorpion Tail Chapter
+- raw: 百足篇
+  result: Centipede Chapter
+- raw: 墨龙篇
+  result: Ink Dragon Chapter

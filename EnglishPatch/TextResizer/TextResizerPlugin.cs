@@ -184,7 +184,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             // Log information about the text element
             var path = ObjectHelper.GetGameObjectPath(textElement.gameObject);
-            //Logger.LogInfo($"Found text element: {path}");
+            //Logger.LogMessage($"Found text element: {path}");
 
             if (!Resizers.ContainsKey(path))
             {
@@ -224,7 +224,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
         }
         else
         {
-            Logger.LogInfo("No new text elements found in scene");
+            Logger.LogMessage("No new text elements found in scene");
         }
     }
 

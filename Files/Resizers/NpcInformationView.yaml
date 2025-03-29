@@ -4,7 +4,6 @@
   allowWordWrap: true
   allowLeftTrimText: true
   adjustWidth: 100
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/RenWu/Layout/Image*/*"
   sampleText: "Yin  <color=#f0f0f0>165</color>"
   idealFontSize: 20
@@ -14,13 +13,11 @@
   sampleText: "Current HP  <color=#f0f0f0>3269776/3269776</color>"
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeL/Select/Select*/Text"
   sampleText: "  Information"
   idealFontSize: 20
   allowWordWrap: true
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcInformationView/UINodeR/JingLi/ExperienceMapNew/*/Viewport/Content/btn*/title"
   sampleText: "  All of them"
   idealFontSize: 20

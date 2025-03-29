@@ -41,7 +41,7 @@ namespace EnglishPatch.Sprites
                 action: OnAssetLoaded);
 
             Logger.LogWarning("Sprite Replacer plugin patching complete!");
-            Logger.LogInfo($"Watching for replacement sprites in: {_spritesPath}");
+            Logger.LogMessage($"Watching for replacement sprites in: {_spritesPath}");
         }
 
         private void CacheReplacementTextures()
@@ -56,7 +56,7 @@ namespace EnglishPatch.Sprites
             var imageFiles = Directory.GetFiles(_spritesPath, "*.*", SearchOption.AllDirectories)
                 .ToArray();
 
-            Logger.LogInfo($"Found {imageFiles.Length} potential replacement sprites");
+            Logger.LogMessage($"Found {imageFiles.Length} potential replacement sprites");
 
             foreach (var imagePath in imageFiles)
             {
@@ -83,7 +83,7 @@ namespace EnglishPatch.Sprites
                 }
             }
 
-            Logger.LogInfo($"Successfully cached {_cachedReplacements.Count} replacement sprites");
+            Logger.LogMessage($"Successfully cached {_cachedReplacements.Count} replacement sprites");
         }
 
         private string FilePathToKey(string filePath)
@@ -132,7 +132,7 @@ namespace EnglishPatch.Sprites
 
                 // Log game objects to make it easier to find
                 //if (allChildren.Length > 0)
-                //    Logger.LogInfo($"Loaded Game Object: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
+                //    Logger.LogMessage($"Loaded Game Object: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
 
                 foreach (var child in allChildren)
                 {
@@ -155,7 +155,7 @@ namespace EnglishPatch.Sprites
                 var shouldMatch = _cachedSpriteNames.Contains(child?.name) || _cachedSpriteNames.Contains(child.sprite?.name);
                 //var spritePath = child.GetObjectPath();
 
-                //Logger.LogInfo($"Sprite found: {spritePath}");
+                //Logger.LogMessage($"Sprite found: {spritePath}");
 
                 var spriteKey = PrepareSpriteKey(parentAssetName, child.sprite.name);
 
@@ -167,7 +167,7 @@ namespace EnglishPatch.Sprites
                 //    Logger.LogError($"Did not match SpriteKey: {spriteKey}");
             }
             //else
-            //Logger.LogInfo($"No Sprite: {spritePath}");
+            //Logger.LogMessage($"No Sprite: {spritePath}");
         }
 
         //private void ProcessTexture(AssetLoadedContext context, string fullPath)

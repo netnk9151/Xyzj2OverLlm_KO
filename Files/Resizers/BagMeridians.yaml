@@ -267,25 +267,21 @@
   alignment: "Top"
   allowWordWrap: true
   adjustY: -10
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/Scroll View/Viewport/Content/partGraph/xinfapart/Contentxinfaselected/*/nullpart/addfu/name_bg/name"
   sampleText: "  Assist Heart Technique"
   idealFontSize: 20
-  allowLeftTrimText: true
   allowWordWrap: true
-
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/Tip/Text (TMP) (1)"
   sampleText: "  Changing the Heart Method configuration will alter the True Force value, resulting in the corresponding plan's Heavenly Cycle and Five Viscera Configuration being cleared. Are you sure you want to proceed with this change?"
   idealFontSize: 20
-  allowLeftTrimText: true
-  allowAutoSizing: false
   allowWordWrap: true
-
+  allowAutoSizing: false
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/Scroll View/Viewport/Content/partGraph/xinfapart/Contentxinfaselected/*/haspart/icon/name_bg/name"
   sampleText: "<color=#3AD67C>Zhoutian Breathing Technique</color>"
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/Scroll View/Viewport/Content/partGraph/*/Text (TMP)"
   sampleText: "  Ren Mai"
   idealFontSize: 30
@@ -294,35 +290,28 @@
   allowLeftTrimText: true
   adjustX: -2
   adjustWidth: 30
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/*/desc"
   sampleText: "Increase internal attack by 15"
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/Scroll View/Viewport/Content/*/namebg/name1"
   sampleText: "<color=#E4F5E8>Integrating and synthesizing comprehensively</color>"
   idealFontSize: 16
   allowWordWrap: true
   adjustWidth: 50
-
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/attri/title"
   sampleText: "  Fusion of Internal Power Effects"
   idealFontSize: 24
   allowWordWrap: true
-  adjustWidth: 100
-  adjustX: 50
   allowLeftTrimText: true
-
+  adjustX: 50
+  adjustWidth: 100
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/rendushuxingPanel/Text (TMP)"
   sampleText: "  True Power Value"
   idealFontSize: 28
-  adjustWidth: 40
-  allowLeftTrimText: true
   allowWordWrap: true
-
+  allowLeftTrimText: true
+  adjustWidth: 40
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/jingmaiBtn/hover/Image/Text (TMP) (1)"
   sampleText: "  Restore the meridian channels"
   idealFontSize: 24
@@ -333,7 +322,6 @@
   idealFontSize: 24
   allowWordWrap: true
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/xinfaselectPanel/toggroup/*/Active/name"
   sampleText: "  Universal"
   idealFontSize: 28
@@ -344,14 +332,11 @@
   idealFontSize: 28
   allowWordWrap: true
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/jingmaiRenDu/partGraph/xinfaselectPanel/Scroll View/Viewport/Content/*/name"
   sampleText: "<color=#3AD67C>Zhoutian Breathing Technique</color>"
   idealFontSize: 20
   allowWordWrap: true
   adjustY: -20
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfuling/Text*/nohas/desc"
   sampleText: "  When activating or refining, adding a secret scroll can obtain hidden meridian attributes."
   idealFontSize: 20

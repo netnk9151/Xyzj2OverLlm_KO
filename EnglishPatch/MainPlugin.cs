@@ -54,7 +54,7 @@ public class MainPlugin : BaseUnityPlugin
             //SetPrivateField(settings, "m_GetFontFeaturesAtRuntime", false);
             
             TMP_Settings.LoadLinebreakingRules();
-            Logger.LogInfo("Disabled East Asian TMP settings.");
+            Logger.LogMessage("Disabled East Asian TMP settings.");
         }
     }
 
@@ -78,7 +78,7 @@ public class MainPlugin : BaseUnityPlugin
         if (File.Exists(dbFile))
         {
             AppGame.Instance.dbVersionFilePath = dbFile;
-            Logger.LogInfo($"Loading Translated Assets file: {dbFile}");
+            Logger.LogMessage($"Loading Translated Assets file: {dbFile}");
         }
         else
             Logger.LogFatal($"Failed to load Translated Assets file: {dbFile}");

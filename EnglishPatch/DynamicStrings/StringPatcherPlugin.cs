@@ -32,7 +32,7 @@ public class StringPatcherPlugin : BaseUnityPlugin
 
         _harmony = new Harmony($"{MyPluginInfo.PLUGIN_GUID}.DynamicStringPatcher");
 
-        Logger.LogInfo("Dynamic String Patcher loading...");
+        Logger.LogMessage("Dynamic String Patcher loading...");
 
         // Load translations from CSV
         var resourcePath = Path.Combine(Paths.BepInExRootPath, "resources");
@@ -74,7 +74,7 @@ public class StringPatcherPlugin : BaseUnityPlugin
 
     public void LoadTranslationsAndApplyPatches(string filePath)
     {
-        Logger.LogInfo($"Loading translations from: {filePath}");
+        Logger.LogMessage($"Loading translations from: {filePath}");
 
         var badContractErrors = new List<string>();
 
@@ -86,7 +86,7 @@ public class StringPatcherPlugin : BaseUnityPlugin
         // we need to match the addresses and the method before grouping
         var groupedContracts = GroupedDynamicStringContracts(contracts);
 
-        Logger.LogInfo("Applying string patches...");
+        Logger.LogMessage("Applying string patches...");
 
         // Initialize the runtime string interceptor
         //RuntimeStringInterceptor.Initialize(groupedContracts, _harmony);

@@ -14,7 +14,6 @@
   sampleText: "Secret Scroll:"
   idealFontSize: 16
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/Role/RoleBagParent/BagPlayer/ZhongYao/Sort_New*"
   sampleText: "Default sorting"
   idealFontSize: 22
@@ -27,34 +26,28 @@
   sampleText: "All of them"
   idealFontSize: 24
   allowWordWrap: true
-
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/4bg/name"
   sampleText: "High-grade Divine Illumination Scripture Fragment"
   idealFontSize: 20
   allowWordWrap: true
   allowAutoSizing: false
   adjustWidth: -150
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/subgrid/1001/name"
   sampleText: "<color=#FFDA5A>Meridians Explained · Volume Seven</color>"
   idealFontSize: 20
   allowWordWrap: true
   allowAutoSizing: false
-  adjustWidth: -300
   adjustX: -150
-
+  adjustWidth: -300
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip"
   sampleText: "  Consumption:"
   idealFontSize: 18
   allowWordWrap: true
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/mijuanhastip/subgrid/*/state"
   sampleText: "<color=#F45454>3</color>/0"
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1"
   sampleText: "  Special Attributes"
   idealFontSize: 26
@@ -63,10 +56,10 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1/has/xinfahastip"
   sampleText: "  Mind Cultivation Method:"
   idealFontSize: 16
+  alignment: "TopLeft"
   allowWordWrap: true
-  allowLeftTrimText: true
-  alignment: TopLeft
   allowAutoSizing: false
+  allowLeftTrimText: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/xinfaanlingTiHuan/Text1/has/xinfahastip/4bg/tip"
   sampleText: "A random mind technique's accompanying effect"
   idealFontSize: 16
@@ -76,16 +69,13 @@
   idealFontSize: 16
   allowWordWrap: true
   adjustX: 50
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/Text1/has/btncancelTihuan/Text"
   sampleText: "  Cancel"
   idealFontSize: 26
   allowWordWrap: true
   allowLeftTrimText: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/LearnViewNew/PartRoot/jingmaiPartNew/detailPart/shenmen/mijuanfulingTiHuan/*"
   sampleText: "  Hidden attribute"
   idealFontSize: 28
   allowWordWrap: true
   allowLeftTrimText: true
-

@@ -14,8 +14,8 @@
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/content"
   sampleText: "Yang Xiaowei once said that the thing he was least proud of was having been defeated by someone from the Duan family."
   idealFontSize: 24
-  allowWordWrap: true
   alignment: "TopLeft"
+  allowWordWrap: true
   adjustY: 40
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/NpcChatView/screen/*/part/name"
   sampleText: "Shen Yan Gong."
@@ -63,7 +63,6 @@
   sampleText: "During Shen Yan's journey through the Jianghu and numerous adventures, he synthesized a new martial arts system from his own understanding of swordsmanship. Initially lacking in strength, this system nonetheless possesses potential for development."
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/QuestFinishTip/content"
   sampleText: "Main storyline:The clash between the three factions"
   idealFontSize: 36
@@ -74,7 +73,6 @@
   idealFontSize: 26
   alignment: "Top"
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/QuestRewardView/Content/Item/title"
   sampleText: "Core Energy Activation"
   idealFontSize: 22
@@ -91,7 +89,6 @@
   sampleText: "Cultivation x 64"
   idealFontSize: 22
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/DaZuoView/Mask/panel/xiulianPanel/rewards"
   sampleText: "<color=#CCA46C>Faith or cultivation level</color> 7680<color=#CCA46C>Counter</color> 7  "
   idealFontSize: 20
@@ -100,9 +97,8 @@
   sampleText: "  Upon completing meditation, one may obtain gains."
   idealFontSize: 20
   allowWordWrap: true
-
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/MapAreaTipView/MapAreaTip/desMask/des"
   sampleText: "In the Wulin, it is renowned as one of the most terrifying prisons. It is said to be the final place where the Primordial Origin Sword Sect confines evil masters. Many malevolent figures who have caused chaos across the land have spent their remaining days here, and now it holds a master known as Ku Bu Bu, whose power is unfathomable and whose language overflows with absurdity, instilling fear in those who hear of him."
   idealFontSize: 16
+  overflowMode: "Overflow"
   allowWordWrap: true
-  overflowMode: Overflow

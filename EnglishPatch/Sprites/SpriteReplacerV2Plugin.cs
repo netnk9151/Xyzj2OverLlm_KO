@@ -270,7 +270,7 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
             AddFoundContracts(foundContracts);
         }
         else
-            Logger.LogInfo("No new sprite elements found in scene");
+            Logger.LogMessage("No new sprite elements found in scene");
     }
 
     public string CalculateReplacement(string spriteName, string objectPath)
