@@ -79,7 +79,7 @@ public class UtilityTests
     [Theory]
     [InlineData("Hello.", "Hello")] // Single word, should remove full stop
     [InlineData("This is a test.", "This is a test")] // Three words, should remove full stop
-    [InlineData("This is a longer test.", "This is a longer test.")] // Four words, should keep full stop
+    [InlineData("This is an even longer test ok ok.", "This is an even longer test ok ok.")] // seven words, should keep full stop
     [InlineData("No full stop here", "No full stop here")] // No full stop, should remain unchanged
     [InlineData("Multiple. Sentences here.", "Multiple. Sentences here.")] // Multiple sentences, should remain unchanged
     [InlineData("  Spaces before and after.  ", "  Spaces before and after  ")] // Leading/trailing spaces, should remove full stop

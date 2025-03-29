@@ -18,7 +18,11 @@ public static class ToolsPatch
 
     public static double ConvertToSeconds(double realTime)
     {
-        return realTime * mMin + 12f * mHour + 3f * mDay + 5f * mMonth + 40f * mYear;
+        return realTime * mMin 
+            + (double)(12f * mHour) 
+            + (double)(3f * mDay) 
+            + (double)(5f * mMonth) 
+            + (double)(40f * mYear);
     }
 
     public static void CalculateTimeIncrements(double totalSeconds, out int year, out int month, out int day, out int hour)
@@ -80,13 +84,27 @@ public static class ToolsPatch
 
         CalculateTimeIncrements(totalSeconds, out var year, out var month, out var day, out var hour);
 
-        var dateTime = new DateTime(year, month, day);
-        var shortMonth = dateTime.ToString("MMM");
+        try
+        {
+            var dateTime = new DateTime(year, month, day);
+            var shortMonth = dateTime.ToString("MMM");
 
-        if (certainHour)
-            return $"{day}-{shortMonth}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
+            if (certainHour)
+                return $"{day}-{shortMonth}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
 
-        return $"{day}-{shortMonth}-JY{year}";
+            return $"{day}-{shortMonth}-JY{year}";
+        }
+        catch
+        {
+            PatchesPlugin.Logger.LogWarning($"Invalid time values: Year - {year}, Month - {month}, Day - {day}");
+            PatchesPlugin.Logger.LogWarning($"Real time: {realTime}, Total seconds: {totalSeconds}");
+            PatchesPlugin.Logger.LogWarning($"Certainhour: {certainHour} addOriginalTime: {addOriginalTime}");
+
+            if (certainHour)
+                return $"{day}-{month}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
+
+            return $"{day}-{month}-JY{year}";
+        }
     }
 
     public static string GetRemainTimeDate(float remainTime, bool certainHour)
