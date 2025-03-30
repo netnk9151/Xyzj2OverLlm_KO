@@ -1,4 +1,14 @@
-﻿- raw: 极罡刃  
+﻿- raw: 咳咳，他，他们……他们去打酒了，你再给我们上一盘葫芦头、肉末烧茄子！  
+  result: "Ahem, they... they went to get some alcohol. Can you bring us another plate of hulu tou and minced meat braised eggplant?"
+  badtrans: true  
+  direct: Cough cough, he, they... they went to fight alcohol, you again give us serve one plate gourd head, minced meat braised eggplant!  
+  literal: Ke ke, ta, tamen... tamen qu da jiu le, ni zai gei women shang yi pan hulu tou, roumo shao qiezi!  
+- raw: 不周将军如此高义！我{P}拜过！  
+  result: General Buzhou has such high righteousness! I {P} pay my respects!  
+  badtrans: true  
+  direct: Not Round General Such High Righteousness! I {P} Bowed!  
+  literal: Buzhou Jiangjun Ruci Gao Yi! Wo {P} Bai Guo!  
+- raw: 极罡刃  
   result: Extreme Force Blade  
   badtrans: true  
   direct: Extreme Gang Blade  
@@ -309,11 +319,6 @@
   badtrans: true  
   direct: Wash and train  
   literal: Xi lian  
-- raw: 融会贯通  
-  result: Integrate and Connect  
-  badtrans: true  
-  direct: Integrate and Connect  
-  literal: Rong Hui Guan Tong  
 - raw: 牛皮  
   result: Bullhide  
   badtrans: true  
@@ -655,11 +660,6 @@
   badtrans: true  
   direct: Wan Fa Sen Luo  
   literal: Wan Fa Sen Luo  
-- raw: 天阶武学  
-  result: Heavenly Martial Arts  
-  badtrans: true  
-  direct: Tian Jie Wu Xue  
-  literal: Tian Jie Wu Xue 
 - raw: 堪武  
   result: Martial  
   badtrans: true  
@@ -1190,6 +1190,16 @@
   result: "Yang\u00A0Ruoshui"
 
 # Names
+- raw: 闻宸阳  
+  result: Wen Chenyang  
+  badtrans: true  
+  direct: Hear Imperial Sun  
+  literal: Wenchen Yang  
+- raw: 度飞语  
+  result: Du Feiyu
+  badtrans: true  
+  direct: Measure Fly Words  
+  literal: Dufei Yu  
 - raw: 布诗
   result: Bu Shi
   badtrans: true
@@ -2416,17 +2426,17 @@
   direct: Comprehend Martial Study  
   literal: Canwu Wuxue  
 - raw: 人阶武学  
-  result: Human-Tier Martial Arts  
+  result: Human Tier Martial Arts
   badtrans: true  
   direct: Human Rank Martial Study  
   literal: Renjie Wuxue  
 - raw: 地阶武学  
-  result: Earth-Tier Martial Arts  
+  result: Earth Tier Martial Arts
   badtrans: true  
   direct: Earth Rank Martial Study  
   literal: Dijie Wuxue  
 - raw: 天阶武学  
-  result: Heaven-Tier Martial Arts  
+  result: Heaven Tier Martial Arts
   badtrans: true  
   direct: Heaven Rank Martial Study  
   literal: Tianjie Wuxue  

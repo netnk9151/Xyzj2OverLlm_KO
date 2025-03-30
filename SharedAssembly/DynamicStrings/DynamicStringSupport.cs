@@ -83,6 +83,7 @@ public class DynamicStringSupport
             "LoadDB",
             "CreateFromCsvRow",
             "OnButtonClick", //Bad stuff happens here
+            "EnterNewHour", //Needs to check out
          ];
 
         // TODO: Figure out why these dont patch
