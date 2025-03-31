@@ -39,7 +39,7 @@ public class DynamicStringSupport
             "OpenFileName",
             "PatchManager",
             "ScreenShotFaceParam",
-            "StuntManager", //Causes issues
+            "StuntManager", //Causes issues - was CustomData
             "TestManagedHeap",
             "VirtualEvent",
             "VirtualGrid",
@@ -55,6 +55,9 @@ public class DynamicStringSupport
             //"EditWayPointData",
             "RandomNpcManager",
             "MyTimeline",
+            //"DLCView",
+            //"DLCShowViewItemHolder",
+            //"DLCShowView",
 
             // Looks like modding ui
             //"EditNpcData",

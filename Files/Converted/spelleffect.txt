@@ -7535,10 +7535,10 @@
   splits:
   - split: 1
     text: "九阳"
-    translated: "Jiuyang"
+    translated: "Nine Yang"
   - split: 32
     text: "九阳"
-    translated: "Jiuyang"
+    translated: "Nine Yang"
   - split: 33
     text: "每次攻击，增加自身20点阳，可叠加，最高十层，持续10秒"
     translated: "Each time you attack, increase your own 20 points of Yang. This can stack, up to a maximum of ten layers, and lasts for 10 seconds."
@@ -7549,7 +7549,7 @@
     translated: "Nine Yangs ‑ Trigger"
   - split: 32
     text: "九阳"
-    translated: "Jiuyang"
+    translated: "Nine Yang"
   - split: 33
     text: "增加自身20点阳，可叠加，最高十层，持续10秒"
     translated: "Increase your own 20 points of Yang, can stack, up to a maximum of ten layers, lasting for 10 seconds."
@@ -29927,7 +29927,7 @@
   splits:
   - split: 1
     text: "九阳神功-扣除真气"
-    translated: "Nine Yin Divine Skill ‑ Subtract true Qi."
+    translated: "Nine Yang Divine Skill ‑ Subtract true qi"
 - raw: "1508002#九阳神功-至阳#1#4#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#1#0#29##0#1#0#0#至阳#获得自身阳属性*1的最大真气值加成和阳属性*0.1的真气回复效果#buffnew_huti#0#0#1508002#0#0#0#0#0#1508002##5#0#1508003#0.0#0.0###1#"
   splits:
   - split: 1
@@ -29951,7 +29951,7 @@
     translated: "The Divine Skill of Nine Yangs ‑ Nine Yangs"
   - split: 32
     text: "九阳"
-    translated: "Jiuyang"
+    translated: "Nine Yang"
   - split: 33
     text: "每次受伤、攻击都可以对自身周围敌人施加一层持续5秒的九阳效果，叠加至九层时，引爆九阳对目标造成基于目标阴、毒属性的伤害"
     translated: "Each time you are injured, your attack can apply a layer of Nine Yang effect to enemies within its range that lasts for 5 seconds. When it stacks up to nine layers, the Nine Yang detonates, dealing damage based on the target's Yin and Poison attributes."
@@ -29995,7 +29995,7 @@
     translated: "The Divine Skill of Nine Yangs ‑ Nine Yangs"
   - split: 32
     text: "九阳"
-    translated: "Jiuyang"
+    translated: "Nine Yang"
   - split: 33
     text: "叠加至九层时，引爆九阳对目标造成基于目标阴、毒属性的伤害"
     translated: "When stacked to the ninth layer, it triggers the Nine Yang to inflict damage on the target based on the target's Yin and Poison attributes"
@@ -30442,7 +30442,7 @@
   splits:
   - split: 1
     text: "弹指神功-震气"
-    translated: "Divine Skill of Flicking a Finger ‑ Rumble of energy"
+    translated: "Flicking Finger Divine Skill ‑ Vibrant aura"
   - split: 33
     text: "自身附加震气效果，攻击目标时对目标附加5秒的化元效果，对目标造成伤害时附加自身内力*1的伤害，此伤害会根据目标身上化元效果进行加成，调息10秒"
     translated: "Adds a vibration effect to oneself, and when attacking a target, adds 5 seconds of Elemental Transmutation effect to the target. Deals additional damage equal to one's Inner Power multiplied by 1 upon hitting the target, with this damage increasing based on any Elemental Transmutation effects present on the target. Cooldown: 10 seconds."
@@ -30450,17 +30450,17 @@
   splits:
   - split: 1
     text: "弹指神功-震气"
-    translated: "Divine Skill of Flicking a Finger ‑ Rumble of energy"
+    translated: "Flicking Finger Divine Skill ‑ Vibrant aura"
 - raw: "1517002#弹指神功-化元#1#15#0#1#30000#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#2#0#0#0#1517003##0#1#0#0#0#0#0#0#0#1517002#0#0#0#0#0#1517002##0#0#0#0.0#0.0###1#"
   splits:
   - split: 1
     text: "弹指神功-化元"
-    translated: "Invincible Palm Technique ‑ Transmutation of Essence"
+    translated: "Flicking Finger Divine Skill ‑ Transmute Primordial Essence"
 - raw: "1517003#弹指神功-化元#1#9#1#1#5000#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#化元#受伤时会根据化元层数受到额外伤害#buffnew_gelie#0#0#1517003#0#0#0#1#999#1517003##0#0#0#0.0#0.0###1#"
   splits:
   - split: 1
     text: "弹指神功-化元"
-    translated: "Invincible Palm Technique ‑ Transmutation of Essence"
+    translated: "Flicking Finger Divine Skill ‑ Transmute Primordial Essence"
   - split: 32
     text: "化元"
     translated: "Transmute Primordial Essence"
@@ -30471,7 +30471,7 @@
   splits:
   - split: 1
     text: "弹指神功-御形"
-    translated: "Celestial Fist Technique ‑ Imperial Form"
+    translated: "Flicking Finger Divine Skill ‑ Imperial Form"
   - split: 32
     text: "御形"
     translated: "Imperial Form"
@@ -30482,7 +30482,7 @@
   splits:
   - split: 1
     text: "弹指神功-御形"
-    translated: "Celestial Fist Technique ‑ Imperial Form"
+    translated: "Flicking Finger Divine Skill ‑ Imperial Form"
 - raw: "1518000#星月轮转-运功#0#10#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#2#0#0#0#16|17|18|19|20#0#1#0#0#0#0#0#0#0#1518000#0#0#0#0#0#1518000##0#0#0#0.0#0.0###1#"
   splits:
   - split: 1

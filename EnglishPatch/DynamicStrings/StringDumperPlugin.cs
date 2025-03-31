@@ -26,7 +26,7 @@ public class StringDumperPlugin : BaseUnityPlugin
 
     private void Awake()
     {
-        Logger = base.Logger;        
+        Logger = base.Logger;
 
         if (Enabled)
         {
@@ -125,7 +125,7 @@ public class StringDumperPlugin : BaseUnityPlugin
                 }
 
                 // Look for string load operations
-                if (!string.IsNullOrWhiteSpace(operandValue) 
+                if (!string.IsNullOrWhiteSpace(operandValue)
                     && Regex.IsMatch(operandValue, MainPlugin.ChineseCharPattern))
                 {
                     // Skip Debug lines
@@ -148,8 +148,11 @@ public class StringDumperPlugin : BaseUnityPlugin
 
     public static bool IsLikelyDebug(Mono.Cecil.Cil.Instruction currentInstruction, string currentString)
     {
-        string[] methodContains = ["Debug", ".Log",
-            "ContainsKey", "LitJson", "onError", "CustomData"];
+        string[] methodContains = [
+            "Debug", ".Log",
+            "ContainsKey", "LitJson", "onError",
+            "CustomData", "GetIconSprite"
+        ];
 
         int instructionCheck = 0;
         var nextInstruction = currentInstruction;
@@ -166,10 +169,10 @@ public class StringDumperPlugin : BaseUnityPlugin
         //    return true;
         //}
 
-        while (instructionCheck < 4) // check three instructions ahead
+        while (instructionCheck < 5) // check four instructions ahead
         {
             // Get the next instruction after loading the string
-            nextInstruction = nextInstruction.Next;           
+            nextInstruction = nextInstruction.Next;
 
             // Check if there's no next instruction
             if (nextInstruction == null)
@@ -199,7 +202,7 @@ public class StringDumperPlugin : BaseUnityPlugin
                     //else if (!SafeFunctions.Contains(methodRef.FullName))
                     //    SafeFunctions.Add(methodRef.FullName);
                 }
-                
+
             }
             else if (nextInstruction.OpCode == OpCodes.Newobj
                 || nextInstruction.OpCode == OpCodes.Stloc

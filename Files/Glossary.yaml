@@ -2443,6 +2443,7 @@
   result: Lady
   allowalt: 
     - Wife
+    - Madam
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
   badtrans: true
@@ -2762,6 +2763,46 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 林嫂子  
+  result: Sister Lin  
+  badtrans: true  
+  direct: Lin Elder Brother's Wife  
+  literal: Lin Sao Zi 
+- raw: 阿毛  
+  result: A'Mao  
+  badtrans: true  
+  direct: Ah Mao  
+  literal: A Mao  
+- raw: 慧明大师  
+  result: Great Master Hui Ming  
+  badtrans: true  
+  direct: Wisdom Bright Great Master  
+  literal: Hui Ming Da Shi  
+- raw: 莫九千  
+  result: Mo Jiuqian  
+  badtrans: true  
+  direct: No Nine Thousand  
+  literal: Mo Jiuqian  
+- raw: 莫老贼  
+  result: Old Thief Mo  
+  badtrans: true  
+  direct: Mo Old Thief  
+  literal: Mo Lao Zei  
+- raw: 律冰安  
+  result: Lu Bing'an  
+  badtrans: true  
+  direct: Law Ice Peace  
+  literal: Lü Bing'an  
+- raw: 樊真  
+  result: Fan Zhen  
+  badtrans: true  
+  direct: Fence True  
+  literal: Fan Zhen  
+- raw: 程菱红  
+  result: Cheng Linghong  
+  badtrans: true  
+  direct: Journey Water Chestnut Red  
+  literal: Cheng Linghong  
 - raw: 阿吉  
   result: A'Ji  
   badtrans: true  
@@ -4707,6 +4748,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 沙鼠  
+  result: Sand Rat 
+  badtrans: true  
+  direct: Sand Mouse  
+  literal: Shashu  
 - raw: 白马帮  
   result: White Horse Gang  
   badtrans: true  
@@ -6554,3 +6600,28 @@
   result: Centipede Chapter
 - raw: 墨龙篇
   result: Ink Dragon Chapter
+- raw: 弹指神功  
+  result: Flicking Finger Divine Skill  
+  badtrans: true  
+  direct: Flick Finger Divine Skill  
+  literal: Tanzhi Shengong  
+- raw: 盗圣功法  
+  result: Thief Sage's technique 
+  badtrans: true  
+  direct: Thief Sage technique.  
+  literal: Daosheng gongfa.  
+- raw: 踏月留香  
+  result: Treading the Moon, Leaving a fragrance
+  badtrans: true  
+  direct: Tread Moon Leave Fragrance.  
+  literal: Tayue Liuxiang.  
+- raw: 九阳功
+  result: Nine Yang Skill
+  badtrans: true
+  direct: Nine Yang Skill
+  literal: Jiu Yang Gong
+- raw: 九阳
+  result: Nine Yang
+  badtrans: true
+  direct: Nine Yang
+  literal: Jiu Yang

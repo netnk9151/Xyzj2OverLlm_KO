@@ -230,181 +230,191 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
     public static void ApplyResizing(TextMeshProUGUI textComponent)
     {
-        if (textComponent == null) 
+        if (textComponent == null)
             return;
 
-        textComponent.wordWrappingRatios = 1.0f; //Disable Word wrapping ratios (should stop eastern rules)
-        textComponent.enableKerning = false;
-
-        var path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
-        var resizer = FindAppropriateResizer(path);
-
-        // Cache the wildcard match so we only have to match once
-        if (!CachedMatchedResizers.ContainsKey(path))
-            CachedMatchedResizers.Add(path, resizer);
-
-        if (resizer == null)
+        if (textComponent.gameObject == null)
             return;
 
-        // Cache components
-        var rectTransform = textComponent.rectTransform;
-        var metadata = textComponent.GetComponent<TextMetadata>();
+        try
+        {
+            textComponent.wordWrappingRatios = 1.0f; //Disable Word wrapping ratios (should stop eastern rules)
+            textComponent.enableKerning = false;
 
-        // If metadata is not attached, add it and store the original values against it
-        if (metadata == null)
-        {
-            metadata = textComponent.gameObject.AddComponent<TextMetadata>();
-            metadata.OriginalX = rectTransform.anchoredPosition.x;
-            metadata.OriginalY = rectTransform.anchoredPosition.y;
-            metadata.OriginalWidth = rectTransform.sizeDelta.x;
-            metadata.OriginalHeight = rectTransform.sizeDelta.y;
-            metadata.OriginalCharacterSpacing = textComponent.characterSpacing;
-            metadata.OriginalLineSpacing = textComponent.lineSpacing;
-            metadata.OriginalWordSpacing = textComponent.wordSpacing;
-            metadata.OriginalAlignment = textComponent.alignment;
-            metadata.OriginalOverflowMode = textComponent.overflowMode;
-            metadata.OriginalAllowWordWrap = textComponent.enableWordWrapping;
-            metadata.OriginalAllowAutoSizing = textComponent.enableAutoSizing;
-            metadata.OriginalFontSize = textComponent.fontSize;
-        }
+            var path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
+            var resizer = FindAppropriateResizer(path);
 
-        // Set this so we can debug bad resizers
-        metadata.ActiveResizerPath = resizer.Path;
+            // Cache the wildcard match so we only have to match once
+            if (!CachedMatchedResizers.ContainsKey(path))
+                CachedMatchedResizers.Add(path, resizer);
 
-        // Apply position change if needed
-        if (resizer.AdjustX != metadata.AdjustX 
-            || resizer.AdjustY != metadata.AdjustY)
-        {
-            metadata.AdjustX = resizer.AdjustX;
-            metadata.AdjustY = resizer.AdjustY;
-            rectTransform.anchoredPosition = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
-        }
+            if (resizer == null)
+                return;
 
-        // Apply size change if needed
-        if (resizer.AdjustWidth != metadata.AdjustWidth 
-            || resizer.AdjustHeight != metadata.AdjustHeight)
-        {
-            metadata.AdjustWidth = resizer.AdjustWidth;
-            metadata.AdjustHeight = resizer.AdjustHeight;
-            rectTransform.sizeDelta = new Vector2(metadata.OriginalWidth + metadata.AdjustWidth, metadata.OriginalHeight + metadata.AdjustHeight);
-        }
+            // Cache components
+            var rectTransform = textComponent.rectTransform;
+            var metadata = textComponent.GetComponent<TextMetadata>();
 
-        // Apply the resizing
-        if (textComponent.fontSize != resizer.IdealFontSize 
-            && resizer.IdealFontSize != null)
-        {
-            textComponent.fontSize = resizer.IdealFontSize.Value;
-        }
-        else if (resizer.FontPercentage != null)
-        {
-            textComponent.fontSize = metadata.OriginalFontSize * resizer.FontPercentage ?? 1;
-        }
-
-        // Text Alignment
-        var validAlignment = Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment);
-        if (resizer.Alignment != string.Empty && !validAlignment)
-            Logger.LogWarning($"Invalid alignment value: {resizer.Alignment} on {resizer.Path}");
-
-        if (validAlignment && textComponent.alignment != alignment)
-        {
-            textComponent.alignment = alignment;
-        }
-        else if (!validAlignment && textComponent.alignment != metadata.OriginalAlignment)
-        {
-            textComponent.alignment = metadata.OriginalAlignment;
-        }
-
-        var validOverflow = Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode);
-        if (resizer.OverflowMode != string.Empty && !validOverflow)
-            Logger.LogWarning($"Invalid overflow value: {resizer.OverflowMode} on {resizer.Path}");
-
-        if (validOverflow && textComponent.overflowMode != overflowMode)
-        {
-            textComponent.overflowMode = overflowMode;
-        }
-        else if (!validOverflow && textComponent.overflowMode != metadata.OriginalOverflowMode)
-        {
-            textComponent.overflowMode = metadata.OriginalOverflowMode;
-        }
-
-        // Toggles
-        if (resizer.AllowWordWrap.HasValue
-            && textComponent.enableWordWrapping != resizer.AllowWordWrap.Value)
-        {
-            textComponent.enableWordWrapping = resizer.AllowWordWrap.Value;
-        }
-        else if (!resizer.AllowWordWrap.HasValue
-            && textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
-        {
-            textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
-        }
-
-        if (resizer.AllowAutoSizing.HasValue
-            && textComponent.enableAutoSizing != resizer.AllowAutoSizing.Value)
-        {
-            textComponent.enableAutoSizing = resizer.AllowAutoSizing.Value;
-        }
-        else if (!resizer.AllowAutoSizing.HasValue
-            && textComponent.enableAutoSizing != metadata.OriginalAllowAutoSizing)
-        {
-            textComponent.enableAutoSizing = metadata.OriginalAllowAutoSizing;
-        }
-
-        // Auto Sizing configuration
-        if (textComponent.enableAutoSizing)
-        {
-            if (resizer.MinFontSize.HasValue 
-                && resizer.MinFontSize != textComponent.fontSizeMin)
+            // If metadata is not attached, add it and store the original values against it
+            if (metadata == null)
             {
-                textComponent.fontSizeMin = resizer.MinFontSize.Value;
+                metadata = textComponent.gameObject.AddComponent<TextMetadata>();
+                metadata.OriginalX = rectTransform.anchoredPosition.x;
+                metadata.OriginalY = rectTransform.anchoredPosition.y;
+                metadata.OriginalWidth = rectTransform.sizeDelta.x;
+                metadata.OriginalHeight = rectTransform.sizeDelta.y;
+                metadata.OriginalCharacterSpacing = textComponent.characterSpacing;
+                metadata.OriginalLineSpacing = textComponent.lineSpacing;
+                metadata.OriginalWordSpacing = textComponent.wordSpacing;
+                metadata.OriginalAlignment = textComponent.alignment;
+                metadata.OriginalOverflowMode = textComponent.overflowMode;
+                metadata.OriginalAllowWordWrap = textComponent.enableWordWrapping;
+                metadata.OriginalAllowAutoSizing = textComponent.enableAutoSizing;
+                metadata.OriginalFontSize = textComponent.fontSize;
             }
 
-            if (resizer.MaxFontSize.HasValue 
-                && resizer.MaxFontSize != textComponent.fontSizeMax)
+            // Set this so we can debug bad resizers
+            metadata.ActiveResizerPath = resizer.Path;
+
+            // Apply position change if needed
+            if (resizer.AdjustX != metadata.AdjustX
+                || resizer.AdjustY != metadata.AdjustY)
             {
-                textComponent.fontSizeMax = resizer.MaxFontSize.Value;
+                metadata.AdjustX = resizer.AdjustX;
+                metadata.AdjustY = resizer.AdjustY;
+                rectTransform.anchoredPosition = new Vector2(metadata.OriginalX + resizer.AdjustX, metadata.OriginalY + resizer.AdjustY);
             }
-        }
 
-        // Spacing
-        if (resizer.LineSpacing.HasValue 
-            && resizer.LineSpacing != textComponent.lineSpacing)
-        {
-            textComponent.lineSpacing = resizer.LineSpacing.Value;
-        }
-        
-        if (resizer.WordSpacing.HasValue 
-            && resizer.WordSpacing != textComponent.wordSpacing)
-        {
-            textComponent.wordSpacing = resizer.WordSpacing.Value;
-        }
+            // Apply size change if needed
+            if (resizer.AdjustWidth != metadata.AdjustWidth
+                || resizer.AdjustHeight != metadata.AdjustHeight)
+            {
+                metadata.AdjustWidth = resizer.AdjustWidth;
+                metadata.AdjustHeight = resizer.AdjustHeight;
+                rectTransform.sizeDelta = new Vector2(metadata.OriginalWidth + metadata.AdjustWidth, metadata.OriginalHeight + metadata.AdjustHeight);
+            }
 
-        if (resizer.CharacterSpacing.HasValue 
-            && resizer.CharacterSpacing != textComponent.characterSpacing)
-        {
-            textComponent.characterSpacing = resizer.CharacterSpacing.Value;
-        }
+            // Apply the resizing
+            if (textComponent.fontSize != resizer.IdealFontSize
+                && resizer.IdealFontSize != null)
+            {
+                textComponent.fontSize = resizer.IdealFontSize.Value;
+            }
+            else if (resizer.FontPercentage != null)
+            {
+                textComponent.fontSize = metadata.OriginalFontSize * resizer.FontPercentage ?? 1;
+            }
 
-        if (resizer.AllowLeftTrimText)
-        {
-            //Trim it first so when it initialises it at least trims
-            var trimmed = textComponent.text.TrimStart();
-            if (textComponent.text != trimmed)
-                textComponent.text = trimmed;
-        }
+            // Text Alignment
+            var validAlignment = Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment);
+            if (resizer.Alignment != string.Empty && !validAlignment)
+                Logger.LogWarning($"Invalid alignment value: {resizer.Alignment} on {resizer.Path}");
 
-        // Take out the behaviour for now to save perfrormance
-        // Only add the behaviour component if it hasn't been added already
-        //if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
-        //{
-        //    existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
-        //    // Set the parameter after adding the component
-        //    existingBehaviour.SetOptions(resizer);
-        //}
-        //else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
-        //{
-        //    Destroy(textChangeBehavior);
-        //}
+            if (validAlignment && textComponent.alignment != alignment)
+            {
+                textComponent.alignment = alignment;
+            }
+            else if (!validAlignment && textComponent.alignment != metadata.OriginalAlignment)
+            {
+                textComponent.alignment = metadata.OriginalAlignment;
+            }
+
+            var validOverflow = Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode);
+            if (resizer.OverflowMode != string.Empty && !validOverflow)
+                Logger.LogWarning($"Invalid overflow value: {resizer.OverflowMode} on {resizer.Path}");
+
+            if (validOverflow && textComponent.overflowMode != overflowMode)
+            {
+                textComponent.overflowMode = overflowMode;
+            }
+            else if (!validOverflow && textComponent.overflowMode != metadata.OriginalOverflowMode)
+            {
+                textComponent.overflowMode = metadata.OriginalOverflowMode;
+            }
+
+            // Toggles
+            if (resizer.AllowWordWrap.HasValue
+                && textComponent.enableWordWrapping != resizer.AllowWordWrap.Value)
+            {
+                textComponent.enableWordWrapping = resizer.AllowWordWrap.Value;
+            }
+            else if (!resizer.AllowWordWrap.HasValue
+                && textComponent.enableWordWrapping != metadata.OriginalAllowWordWrap)
+            {
+                textComponent.enableWordWrapping = metadata.OriginalAllowWordWrap;
+            }
+
+            if (resizer.AllowAutoSizing.HasValue
+                && textComponent.enableAutoSizing != resizer.AllowAutoSizing.Value)
+            {
+                textComponent.enableAutoSizing = resizer.AllowAutoSizing.Value;
+            }
+            else if (!resizer.AllowAutoSizing.HasValue
+                && textComponent.enableAutoSizing != metadata.OriginalAllowAutoSizing)
+            {
+                textComponent.enableAutoSizing = metadata.OriginalAllowAutoSizing;
+            }
+
+            // Auto Sizing configuration
+            if (textComponent.enableAutoSizing)
+            {
+                if (resizer.MinFontSize.HasValue
+                    && resizer.MinFontSize != textComponent.fontSizeMin)
+                {
+                    textComponent.fontSizeMin = resizer.MinFontSize.Value;
+                }
+
+                if (resizer.MaxFontSize.HasValue
+                    && resizer.MaxFontSize != textComponent.fontSizeMax)
+                {
+                    textComponent.fontSizeMax = resizer.MaxFontSize.Value;
+                }
+            }
+
+            // Spacing
+            if (resizer.LineSpacing.HasValue
+                && resizer.LineSpacing != textComponent.lineSpacing)
+            {
+                textComponent.lineSpacing = resizer.LineSpacing.Value;
+            }
+
+            if (resizer.WordSpacing.HasValue
+                && resizer.WordSpacing != textComponent.wordSpacing)
+            {
+                textComponent.wordSpacing = resizer.WordSpacing.Value;
+            }
+
+            if (resizer.CharacterSpacing.HasValue
+                && resizer.CharacterSpacing != textComponent.characterSpacing)
+            {
+                textComponent.characterSpacing = resizer.CharacterSpacing.Value;
+            }
+
+            if (resizer.AllowLeftTrimText)
+            {
+                //Trim it first so when it initialises it at least trims
+                var trimmed = textComponent.text.TrimStart();
+                if (textComponent.text != trimmed)
+                    textComponent.text = trimmed;
+            }
+
+            // Take out the behaviour for now to save perfrormance
+            // Only add the behaviour component if it hasn't been added already
+            //if (!textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var existingBehaviour))
+            //{
+            //    existingBehaviour = textComponent.gameObject.AddComponent<TextChangedBehaviour>();
+            //    // Set the parameter after adding the component
+            //    existingBehaviour.SetOptions(resizer);
+            //}
+            //else if (textComponent.gameObject.TryGetComponent<TextChangedBehaviour>(out var textChangeBehavior))
+            //{
+            //    Destroy(textChangeBehavior);
+            //}
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError($"Error applying resizer to {textComponent.name}: {ex}");
+        }
     }
 
     public static TextResizerContract FindAppropriateResizer(string path)

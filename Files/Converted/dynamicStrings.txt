@@ -193,16 +193,6 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
-- raw: "AppGame,IsSaveableNow,30,当前为战斗状态，无法存档,[System.Boolean]"
-  splits:
-  - split: 3
-    text: "当前为战斗状态，无法存档"
-    translated: "Currently in combat mode; unable to save"
-- raw: "AppGame,IsSaveableNow,97,无法存档 执行中的脚本id ： ,[System.Boolean]"
-  splits:
-  - split: 3
-    text: "无法存档 执行中的脚本id ： "
-    translated: "Unable to save: Script ID currently in execution:"
 - raw: "AppGame,IsSaveableNow,165,剧情执行中，无法存档 ,[System.Boolean]"
   splits:
   - split: 3
@@ -5428,11 +5418,6 @@
   - split: 3
     text: "配方"
     translated: "Formula"
-- raw: "LivingView/<MakeItems>d__101,MoveNext,940,item_base表中未配置id为{0}或者未配置该数据的miscvalue2,[]"
-  splits:
-  - split: 3
-    text: "item_base表中未配置id为{0}或者未配置该数据的miscvalue2"
-    translated: "The item_base table does not have an ID configured as {0}, or it has no miscvalue configured for data 2."
 - raw: "LivingView/<MakeItems>d__101,MoveNext,3317,背包已满请先清理背包,[]"
   splits:
   - split: 3
@@ -7873,11 +7858,6 @@
   - split: 3
     text: "未拥有"
     translated: "Not possessing"
-- raw: "DLCShowViewItemHolder,UpdateFromModel,28,更多内容,[DLCShowViewItemModel]"
-  splits:
-  - split: 3
-    text: "更多内容"
-    translated: "More content"
 - raw: "FileItemSlot,ClickDelete,95,是否删除云存档？,[]"
   splits:
   - split: 3
@@ -8048,11 +8028,6 @@
   - split: 3
     text: "你赢了"
     translated: "You won"
-- raw: "GameManualItem,SetData,218,   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: ,[GameManualData，UnityEngine.Sprite]"
-  splits:
-  - split: 3
-    text: "   ----[[  ]]----    江湖游记未解锁却已完成，请检查 game_manual 相关表数据，id: "
-    translated: "‑  ‑  ‑  ‑ [[  ]] ‑  ‑  ‑  ‑ Travelogue of the Jianghu Unlocked but Already Completed; Please Check Game Manual Related Table Data, ID:"
 - raw: "GameManualView,.ctor,9,白色,[]"
   splits:
   - split: 3
@@ -8538,11 +8513,6 @@
   - split: 3
     text: "取消"
     translated: "Cancel"
-- raw: "SectSlot,OnReset,26,地点-,[]"
-  splits:
-  - split: 3
-    text: "地点-"
-    translated: "Location ‑"
 - raw: "SwitchMatePanel/<>c__DisplayClass20_0,<OnClickInline>b__0,0,队伍创建成功！,[System.String]"
   splits:
   - split: 3
@@ -10178,11 +10148,6 @@
   - split: 3
     text: "Prefab/UISprite/UI_MapMark/标记"
     safeToTranslate: false
-- raw: "MapShiLiItem,Init,44,势力Id为{0}的无法获取到数据,[]"
-  splits:
-  - split: 3
-    text: "势力Id为{0}的无法获取到数据"
-    translated: "Data for the force with ID {0} could not be obtained."
 - raw: "MapShiLiItem,Init,290,据点,[]"
   splits:
   - split: 3
@@ -10243,11 +10208,6 @@
   - split: 3
     text: "驻守"
     translated: "Garrisoned"
-- raw: "MapViewNew,DrawMoveLine,139,无法获取MainNpcId={0}的部队需要移动到的地点,[UnityEngine.RectTransform，MenPaiSoldierTeamInfo]"
-  splits:
-  - split: 3
-    text: "无法获取MainNpcId={0}的部队需要移动到的地点"
-    translated: "Unable to retrieve the location where Main Npc Id={0}'s troops need to move."
 - raw: "MapViewNew,UpdateTeleportDetails,1511,未找到Entity id:{0},[]"
   splits:
   - split: 3
@@ -10353,11 +10313,6 @@
   - split: 3
     text: "身份证不能为空"
     translated: "The ID card cannot be empty"
-- raw: "SignView,CheckResult,90,验证次数过多,[LitJson.JsonData]"
-  splits:
-  - split: 3
-    text: "验证次数过多"
-    translated: "Too many verification attempts"
 - raw: "SignView,CheckResult,242,身份证号非法,[LitJson.JsonData]"
   splits:
   - split: 3
@@ -10558,11 +10513,6 @@
   - split: 3
     text: "登录失效"
     translated: "Session expired"
-- raw: "UploadFile/<UploadPlayerLogFileIE>d__80,MoveNext,160,文件上传失败: ,[]"
-  splits:
-  - split: 3
-    text: "文件上传失败: "
-    translated: "File upload failed:"
 - raw: "UploadFile,ShowActivationCodePanel,40,1、登录游戏云账号，并确认当前绑定账号。\\n2、在兑换框中输入激活码，点击激活即可。\\n3、激活码一经使用即作废，不可再次使用激活，请一定确认需要绑定领取的账号。\\n4、账号绑定的激活码会显示在信息栏中，可滑动查看兑换的东西。,[]"
   splits:
   - split: 3
@@ -13238,11 +13188,6 @@
   - split: 3
     text: "已达最大可创建数量"
     translated: "Maximum creation limit reached"
-- raw: "BuYeJingManager/<>c__DisplayClass51_0,<CreateLeiTaiNpc>b__0,56,创建水机npc时 npc模板id {0} 创建不出来npc,[]"
-  splits:
-  - split: 3
-    text: "创建水机npc时 npc模板id {0} 创建不出来npc"
-    translated: "When creating a water machine NPC, the NPC template ID {0} cannot generate the NPC."
 - raw: "BuYeJingManager,ShowJingYuZhuFeige,403,经查明，京谕珠在：,[]"
   splits:
   - split: 3
@@ -13268,11 +13213,6 @@
   - split: 3
     text: "京谕珠相关Npc{0}在其所在位置{1}附近找不到合适的wayPoint点"
     translated: "The Imperial Edict related to NPC {0} cannot find a suitable waypoint near its current location {1}."
-- raw: "BuYeJingManager,CreateLeiTaiNpc,855,创建水机npc时 npc模板id {0} 创建不出来npc,[System.Int32，System.Int32]"
-  splits:
-  - split: 3
-    text: "创建水机npc时 npc模板id {0} 创建不出来npc"
-    translated: "When creating a water machine NPC, the NPC template ID {0} cannot generate the NPC."
 - raw: "BuYeJingManager,DoLunCiPaiMaiItemSendFeiGe,277,少侠出手阔绰，以,[]"
   splits:
   - split: 3
@@ -13558,11 +13498,6 @@
   - split: 3
     text: "委托：{0} 配置错误"
     translated: "Commission: Configuration error for {0}."
-- raw: "EntrustManager,DoEventAcceptAction,279,生成目标失败 ,[EntrustEventPrototype]"
-  splits:
-  - split: 3
-    text: "生成目标失败 "
-    translated: "Target generation failed."
 - raw: "EntrustManager,DoEventAcceptAction,1129,npcid：{0} sectid：{1} 获取不到门派,[EntrustEventPrototype]"
   splits:
   - split: 3
@@ -13808,11 +13743,6 @@
   - split: 3
     text: "系统的分辨率"
     translated: "System resolution"
-- raw: "QingLouManager,ManagedUpdate,71,npc id={0}结算,[]"
-  splits:
-  - split: 3
-    text: "npc id={0}结算"
-    translated: "NPC ID: {0} settlement complete."
 - raw: "QingLouManager,OnNpcDead,84,已死亡！移除青楼！,[SweetPotato.NpcEntity]"
   splits:
   - split: 3
@@ -14303,51 +14233,16 @@
   - split: 3
     text: "无"
     translated: "None"
-- raw: "RelationShipManager,FindCaiJi,146,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindKillRedNpc,326,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJingLiMax,106,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindShengHuoJiNeng,173,对{0}有更深的感悟，提升{1},[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "对{0}有更深的感悟，提升{1}"
     translated: "Gain a deeper understanding of {0} and enhance {1}."
-- raw: "RelationShipManager,FindShengHuoJiNeng,249,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindYueDuShuJi,165,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindHelpNpcFindItem,328,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindPingJingTuPo,118,自身,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "自身"
     translated: "Self"
-- raw: "RelationShipManager,FindPingJingTuPo,176,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowQieCuo,196,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -14358,11 +14253,6 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
-- raw: "RelationShipManager,FindGrowQieCuo,421,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowJueDou,155,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -14373,51 +14263,11 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
-- raw: "RelationShipManager,FindGrowJueDou,380,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindJingJiePingJingTuPo,118,自身,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
     text: "自身"
     translated: "Self"
-- raw: "RelationShipManager,FindJingJiePingJingTuPo,160,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindUpSkill,171,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindCancelJieYuan,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindCancelShiTu,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindCancelJieChou,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJieChou,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindFriend,197,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindQieCuo,190,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -14428,51 +14278,6 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
-- raw: "RelationShipManager,FindQieCuo,222,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindShiTu,208,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindShiTu,429,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJieYuan,209,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJieYuan,431,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJieYi,208,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindJieYi,429,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindSongLi,189,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindSongLi,376,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindJueDou,161,不敌,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -14483,16 +14288,6 @@
   - split: 3
     text: "战胜"
     translated: "Conquer victory"
-- raw: "RelationShipManager,FindJueDou,193,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindGrowFish,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,FindGrowBianLun,163,略输一筹,[System.Int64，System.Collections.Generic.List`1<Experience>]"
   splits:
   - split: 3
@@ -14503,26 +14298,6 @@
   - split: 3
     text: "略高一筹"
     translated: "A step ahead"
-- raw: "RelationShipManager,FindGrowBianLun,204,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindGrowItemHuoDe,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindGrowItemShiQu,107,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
-- raw: "RelationShipManager,FindGrowBuyItem,158,Stringlang不存在id为{0}的数据,[System.Int64，System.Collections.Generic.List`1<Experience>]"
-  splits:
-  - split: 3
-    text: "Stringlang不存在id为{0}的数据"
-    translated: "The dataset does not contain data with ID {0}."
 - raw: "RelationShipManager,InitRandomVirtualRelationShip,388,角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误,[System.Int64，System.Int32]"
   splits:
   - split: 3
@@ -15003,11 +14778,6 @@
   - split: 3
     text: "阳跷"
     translated: "Yang Qiao"
-- raw: "SweetPotato.JingMai_ZhouTianEffect,GetEffectStrByType,181,周天效果表{0}中没有对{1}心法进行配置,[System.Int64，System.Boolean]"
-  splits:
-  - split: 3
-    text: "周天效果表{0}中没有对{1}心法进行配置"
-    translated: "The effect chart for {0} does not have a configuration for the {1} Heart Method."
 - raw: "SweetPotato.JingMai_ZhouTianEffect,GetEffectIdList,172,{0}表中没有配置{1}的效果,[System.Collections.Generic.List`1<System.Int64>]"
   splits:
   - split: 3
@@ -18118,11 +17888,6 @@
   - split: 3
     text: "guid:{0}，m_NpcPrototypeId:{1}，NpcPrototypeBaseId:{2}，prfomulaBaseID:{3}的精力最大值为0"
     translated: "Guid: {0},m_NpcPrototypeId: {1},NpcPrototypeBaseId: {2},prfomulaBaseID: The maximum energy value of {3} is 0."
-- raw: "SweetPotato.NpcEntity,InitAttBase,74,InitAttBase 负数百分比 ： ,[System.Collections.Generic.Dictionary`2<System.Int16，System.Int32>]"
-  splits:
-  - split: 3
-    text: "InitAttBase 负数百分比 ： "
-    translated: "Negative percentage at base initiative:"
 - raw: "SweetPotato.NpcEntity,LearnPeifang,91,学会,[System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -18283,11 +18048,6 @@
   - split: 3
     text: "SpawnPointId:{0}中的Npc模板Id:{1}不是随机Npc"
     translated: "SpawnPointId: NPC template ID in {0}: {1} is not a random NPC"
-- raw: "SweetPotato.UnitController/<MoveAlongPointByBiao>d__220,MoveNext,131,{0}没有NavMeshAgent组件，无法寻路,[]"
-  splits:
-  - split: 3
-    text: "{0}没有NavMeshAgent组件，无法寻路"
-    translated: "{0} does not have a NavMeshAgent component, so it cannot navigate."
 - raw: "SweetPotato.UnitController/<MoveAlongPointByBiao>d__220,MoveNext,458,{0}被放在了一个没有相邻WayPoint点的点位{1},[]"
   splits:
   - split: 3
@@ -18823,16 +18583,6 @@
   - split: 3
     text: "{0}月"
     translated: "{0} month"
-- raw: "SweetPotato.ChuanWenDetail,ShowDetail,121,itemid {0} 不存在,[SweetPotato.ChuanWenSlotData]"
-  splits:
-  - split: 3
-    text: "itemid {0} 不存在"
-    translated: "Item ID {0} does not exist."
-- raw: "SweetPotato.ChuanWenDetail,ShowDetail,205,itemid {0} 不存在,[SweetPotato.ChuanWenSlotData]"
-  splits:
-  - split: 3
-    text: "itemid {0} 不存在"
-    translated: "Item ID {0} does not exist."
 - raw: "SweetPotato.ChuanWenDetail,ShowDetail,660,时限：,[SweetPotato.ChuanWenSlotData]"
   splits:
   - split: 3
@@ -21183,11 +20933,6 @@
   - split: 3
     text: "]俸禄任务完成"
     translated: "Mission completed; salary received"
-- raw: "SweetPotato.MenPaiEntity,Load,1497,移除了门人，id:{0} 原因:该角色已死亡,[LitJson.JsonData]"
-  splits:
-  - split: 3
-    text: "移除了门人，id:{0} 原因:该角色已死亡"
-    translated: "Removed disciples, ID: The cause: {0}: This character has died"
 - raw: "SweetPotato.MenPaiEntity,Load,1563,移除了门人，id:{0} 原因:为主角队友,[LitJson.JsonData]"
   splits:
   - split: 3
@@ -22253,11 +21998,6 @@
   - split: 3
     text: "奇遇："
     translated: "Adventure:"
-- raw: "SweetPotato.QuestLog,OnFinish,506,解密：,[]"
-  splits:
-  - split: 3
-    text: "解密："
-    translated: "Decryption:"
 - raw: "SweetPotato.QuestLog,GetJieMiConditionType,40,不支持的jiemi condition type {0} 请联系程序,[System.Int32]"
   splits:
   - split: 3
@@ -22503,26 +22243,6 @@
   - split: 3
     text: "{0}创建的队伍类型{1}已经存在，若要创建需要先执行清空操作"
     translated: "The team type {0}{1} already exists. To create it, you need to perform a clear operation first."
-- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,138,{0}没有控制器,[System.Int32]"
-  splits:
-  - split: 3
-    text: "{0}没有控制器"
-    translated: "{0} has no controller"
-- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,177,{0}下的押镖队伍为空，无法创建劫镖队伍,[System.Int32]"
-  splits:
-  - split: 3
-    text: "{0}下的押镖队伍为空，无法创建劫镖队伍"
-    translated: "The escort team on {0}'s route is empty; unable to create a robbery team."
-- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,358,找不到{0}附近的waypoint点，无法生成Npc,[System.Int32]"
-  splits:
-  - split: 3
-    text: "找不到{0}附近的waypoint点，无法生成Npc"
-    translated: "Cannot find a waypoint point near {0}, unable to generate NPC."
-- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,524,{0}附近没有合适的spawnpoint刷出运镖劫镖相关npc,[System.Int32]"
-  splits:
-  - split: 3
-    text: "{0}附近没有合适的spawnpoint刷出运镖劫镖相关npc"
-    translated: "There are no suitable spawn points near {0} to generate NPCs related to escorting or robbing caravans."
 - raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,712,{0}中{1}队伍的头领创建失败，队伍创建失败,[System.Int32]"
   splits:
   - split: 3
@@ -22533,11 +22253,6 @@
   - split: 3
     text: "劫匪"
     translated: "Bandits"
-- raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,788,{0}创建劫匪队伍时镖师队伍已经不存在，队伍创建失败,[System.Int32]"
-  splits:
-  - split: 3
-    text: "{0}创建劫匪队伍时镖师队伍已经不存在，队伍创建失败"
-    translated: "During the creation of a bandit gang by {0}, the courier team no longer existed; the formation failed."
 - raw: "SweetPotato.YunBiao.BiaoTeamManager,CreateTeam,1067,{0}中模板为{1}的劫镖运镖Npc创建失败,[System.Int32]"
   splits:
   - split: 3
@@ -22773,11 +22488,6 @@
   - split: 3
     text: "阳跷"
     translated: "Yang Qiao"
-- raw: "SweetPotato.JingMai.JingMaiEffectCondition,.ctor,43,心法{0}的周天效果{1}配置错误,[System.Int64，System.String]"
-  splits:
-  - split: 3
-    text: "心法{0}的周天效果{1}配置错误"
-    translated: "The configuration of the {0}'s Heart Method's Heavenly Cycle effect {1} is incorrect."
 - raw: "SweetPotato.JingMai.JingMaiEffectCondition,.ctor,107,心法{0}中周天效果{1}的条件{2}配置错误,[System.Int64，System.String]"
   splits:
   - split: 3

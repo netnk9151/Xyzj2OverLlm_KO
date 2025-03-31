@@ -59,10 +59,18 @@ public static class ToolsPatch
         if (hour == 24)
             hour = 0;
 
-        var dateTime = new DateTime(year, month, day);
-        var shortMonth = dateTime.ToString("MMM");
+        try
+        {
+            var dateTime = new DateTime(year, month, day);
+            var shortMonth = dateTime.ToString("MMM");
 
-        return $"{day}-{shortMonth}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
+            return $"{day}-{shortMonth}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
+        }
+        catch         
+        {
+            return $"{day}-{month}-JY{year} {Tools.SHI_CHENG_STR[hour / 2]}";
+        }
+        
     }
 
     public static string GetXiaoxiGameTimeDate(double realTime)
@@ -70,10 +78,17 @@ public static class ToolsPatch
         double totalSeconds = ConvertToSeconds(realTime);
         CalculateTimeIncrements(totalSeconds, out var year, out var month, out var day, out var _);
 
-        var dateTime = new DateTime(year, month, day);
-        var shortMonth = dateTime.ToString("MMM");
+        try
+        {
+            var dateTime = new DateTime(year, month, day);
+            var shortMonth = dateTime.ToString("MMM");
 
-        return $"{day}-{shortMonth}-JY{year}";
+            return $"{day}-{shortMonth}-JY{year}";
+        } 
+        catch
+        {
+            return $"{day}-{month}-JY{year}";
+        }
     }
 
     public static string GetTaskGameTimeDate(double realTime, bool certainHour, bool addOriginalTime)
@@ -86,6 +101,7 @@ public static class ToolsPatch
 
         try
         {
+            // Calculations do like 30 day months always so things like Feb 29 and 30 throw errors
             var dateTime = new DateTime(year, month, day);
             var shortMonth = dateTime.ToString("MMM");
 
@@ -130,6 +146,13 @@ public static class ToolsPatch
             builder.Append($"{num4} hour ");
 
         return builder.ToString();
+    }
+
+    [HarmonyPrefix, HarmonyPatch(typeof(Tools), nameof(GetRealTimeDate2))]
+    public static bool Prefix_Tools_GetRealTimeDate2(ref string __result, double mtime)
+    {
+        __result = GetRealTimeDate2(mtime);
+        return false;
     }
 
     [HarmonyPrefix, HarmonyPatch(typeof(Tools), nameof(GetGameTimeDate))]
