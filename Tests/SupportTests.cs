@@ -56,8 +56,9 @@ public class SupportTests
         string inputFile = $"{workingDirectory}/Converted/condition_group.txt";
         string[] patterns = [
                 //"与(.*)对话", //Talk to
-                "击败(.*)"  //Defeat
+                //"击败(.*)"  //Defeat
                 //"去见"  //Go see
+                "对话" //Converse with
         ];
 
         //string inputFile = $"{workingDirectory}/Converted/achievement.txt";
