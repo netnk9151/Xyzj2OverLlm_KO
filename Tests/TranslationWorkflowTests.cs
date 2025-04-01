@@ -112,8 +112,8 @@ public class TranslationWorkflowTests
         TranslationService.CopyDirectory(sourceDirectory, spritesDirectory);
     }
 
-    [Fact(DisplayName = "7. Pack Release")]
-    public async Task PackageRelease()
+    [Fact(DisplayName = "7. Zip Release")]
+    public async Task ZipRelease()
     {
         var version = ModHelper.CalculateVersionNumber();
 
