@@ -134,6 +134,26 @@
   splits:
   - text: "提 交"
     translated: "Submit."
+- raw: "江湖指引"
+  splits:
+  - text: "江湖指引"
+    translated: "Guidance of the Jianghu"
+- raw: "江湖懂王"
+  splits:
+  - text: "江湖懂王"
+    translated: "Wang, understood by all in the Jianghu"
+- raw: "百晓生"
+  splits:
+  - text: "百晓生"
+    translated: "Master Bai Xiaoxing"
+- raw: "(当前AI为测试阶段，每人每天限制提问"
+  splits:
+  - text: "(当前AI为测试阶段，每人每天限制提问"
+    translated: "(The current AI system is in a testing phase; there is a daily limit on the number of questions per person.)"
+- raw: "提交"
+  splits:
+  - text: "提交"
+    translated: "Submit"
 - raw: "暗器研究"
   splits:
   - text: "暗器研究"
@@ -422,14 +442,6 @@
   splits:
   - text: "剑"
     translated: "Sword"
-- raw: "上阵"
-  splits:
-  - text: "上阵"
-    translated: "Advance into battle"
-- raw: "队伍"
-  splits:
-  - text: "队伍"
-    translated: "Team"
 - raw: "发顺丰第三方鼓捣鼓捣"
   splits:
   - text: "发顺丰第三方鼓捣鼓捣"
@@ -438,14 +450,6 @@
   splits:
   - text: "一阶"
     translated: "Tier 1"
-- raw: "已学习"
-  splits:
-  - text: "已学习"
-    translated: "Already learned"
-- raw: "使用冷却中：\\n0.5秒"
-  splits:
-  - text: "使用冷却中：\\n0.5秒"
-    translated: "On cooldown: \\n0.5 seconds"
 - raw: "重要"
   splits:
   - text: "重要"
@@ -474,14 +478,30 @@
   splits:
   - text: "关闭"
     translated: "Close"
-- raw: "斩仙"
-  splits:
-  - text: "斩仙"
-    translated: "Slay the Immortal"
 - raw: "隐藏物品信息"
   splits:
   - text: "隐藏物品信息"
     translated: "Conceal item information"
+- raw: "斩仙"
+  splits:
+  - text: "斩仙"
+    translated: "Slay the Immortal"
+- raw: "上阵"
+  splits:
+  - text: "上阵"
+    translated: "Advance into battle"
+- raw: "队伍"
+  splits:
+  - text: "队伍"
+    translated: "Team"
+- raw: "已学习"
+  splits:
+  - text: "已学习"
+    translated: "Already learned"
+- raw: "使用冷却中：\\n0.5秒"
+  splits:
+  - text: "使用冷却中：\\n0.5秒"
+    translated: "On cooldown: \\n0.5 seconds"
 - raw: "太阴八卦"
   splits:
   - text: "太阴八卦"
@@ -714,6 +734,18 @@
   splits:
   - text: "传言1：在陈沙身上看到了修为宝册，似乎可以前去查看一番。"
     translated: "Rumors say 1: I noticed the Tome of Cultivation on Chen Sha. It seems like we could go take a look at it."
+- raw: "传闻记录"
+  splits:
+  - text: "传闻记录"
+    translated: "Rumored Record"
+- raw: "查看"
+  splits:
+  - text: "查看"
+    translated: "View"
+- raw: "已阅"
+  splits:
+  - text: "已阅"
+    translated: "Read and noted"
 - raw: "哈哈哈哈哈哈哈哈安徽安徽安徽安徽啊哈哈的撒回答晶科我回答晶科我had见客户为夹河街"
   splits:
   - text: "哈哈哈哈哈哈哈哈安徽安徽安徽安徽啊哈哈的撒回答晶科我回答晶科我had见客户为夹河街"
@@ -1078,6 +1110,22 @@
   splits:
   - text: "原为楚国秦世家小女，饱受宠爱"
     translated: "Originally from the Qin family of the Chu Kingdom, she was cherished as a beloved little girl."
+- raw: "招式"
+  splits:
+  - text: "招式"
+    translated: "Technique"
+- raw: "外攻："
+  splits:
+  - text: "外攻："
+    translated: "External attack:"
+- raw: "内攻："
+  splits:
+  - text: "内攻："
+    translated: "Internal Attack:"
+- raw: "境界属性"
+  splits:
+  - text: "境界属性"
+    translated: "Realm attributes"
 - raw: "是"
   splits:
   - text: "是"
@@ -1122,6 +1170,46 @@
   splits:
   - text: "<color=#CCA46C>修为</color> 10000      <color=#CCA46C>外功</color> 16"
     translated: "<color=#CCA46C>Cultivation level</color> 10000, <color=#CCA46C>External skill</color> 16."
+- raw: "打坐调息"
+  splits:
+  - text: "打坐调息"
+    translated: "Meditate and regulate your breath"
+- raw: "少侠打算在此地打坐多久？"
+  splits:
+  - text: "少侠打算在此地打坐多久？"
+    translated: "Young hero, how long do you plan to meditate here?"
+- raw: "(打坐时间最长为5个月)"
+  splits:
+  - text: "(打坐时间最长为5个月)"
+    translated: "(Meditation duration can be up to 5 months.)"
+- raw: "月"
+  splits:
+  - text: "月"
+    translated: "Month"
+- raw: "日"
+  splits:
+  - text: "日"
+    translated: "Day"
+- raw: "时"
+  splits:
+  - text: "时"
+    translated: "Time"
+- raw: "打坐结束后日期："
+  splits:
+  - text: "打坐结束后日期："
+    translated: "Date after completing meditation:"
+- raw: "修炼点"
+  splits:
+  - text: "修炼点"
+    translated: "Focus of Cultivation"
+- raw: "剩余：<color=#4DD58D>8月</color>"
+  splits:
+  - text: "剩余：<color=#4DD58D>8月</color>"
+    translated: "Remaining: <color=#4DD58D>8 month</color>"
+- raw: "完成打坐可获得     "
+  splits:
+  - text: "完成打坐可获得     "
+    translated: "Completing meditation can earn you reward."
 - raw: "此物可用于打造无心"
   splits:
   - text: "此物可用于打造无心"
@@ -1562,6 +1650,26 @@
   splits:
   - text: "请问大侠尊姓大名"
     translated: "May I ask your name, great hero?"
+- raw: "捏脸"
+  splits:
+  - text: "捏脸"
+    translated: "Pinch one's face"
+- raw: "外观"
+  splits:
+  - text: "外观"
+    translated: "Appearance"
+- raw: "激活码"
+  splits:
+  - text: "激活码"
+    translated: "Activation code"
+- raw: "重置"
+  splits:
+  - text: "重置"
+    translated: "Reset"
+- raw: "完成"
+  splits:
+  - text: "完成"
+    translated: "Completed"
 - raw: "独孤求败"
   splits:
   - text: "独孤求败"
@@ -1630,6 +1738,46 @@
   splits:
   - text: "自动存档"
     translated: "Automatic save"
+- raw: "存档"
+  splits:
+  - text: "存档"
+    translated: "Archive"
+- raw: "新建存档"
+  splits:
+  - text: "新建存档"
+    translated: "Create a new save file"
+- raw: "爽文"
+  splits:
+  - text: "爽文"
+    translated: "Light‑hearted novel"
+- raw: "地点："
+  splits:
+  - text: "地点："
+    translated: "Location:"
+- raw: "时间："
+  splits:
+  - text: "时间："
+    translated: "Time:"
+- raw: "读取"
+  splits:
+  - text: "读取"
+    translated: "Read"
+- raw: "云存档："
+  splits:
+  - text: "云存档："
+    translated: "Cloud Storage:"
+- raw: "切换账号"
+  splits:
+  - text: "切换账号"
+    translated: "Switch accounts"
+- raw: "上传"
+  splits:
+  - text: "上传"
+    translated: "Upload"
+- raw: "下载"
+  splits:
+  - text: "下载"
+    translated: "Download"
 - raw: "收杆"
   splits:
   - text: "收杆"
@@ -1727,6 +1875,38 @@
   splits:
   - text: "垂钓准备中..."
     translated: "Preparing to go fishing..."
+- raw: "控制"
+  splits:
+  - text: "控制"
+    translated: "Control"
+- raw: "点击钓鱼按钮控制鱼漂，保持鱼漂停留在白色区域即可完成钓鱼"
+  splits:
+  - text: "点击钓鱼按钮控制鱼漂，保持鱼漂停留在白色区域即可完成钓鱼"
+    translated: "Click the fishing button to control the bobber and keep it in the white area to successfully fish."
+- raw: "鱼饵"
+  splits:
+  - text: "鱼饵"
+    translated: "Hook bait"
+- raw: "鱼竿"
+  splits:
+  - text: "鱼竿"
+    translated: "A fishing rod"
+- raw: "开始"
+  splits:
+  - text: "开始"
+    translated: "Begin"
+- raw: "可能获得物品"
+  splits:
+  - text: "可能获得物品"
+    translated: "May obtain item"
+- raw: "烂皮革"
+  splits:
+  - text: "烂皮革"
+    translated: "Torn leather"
+- raw: "钓鱼奖励一览"
+  splits:
+  - text: "钓鱼奖励一览"
+    translated: "Fishing Rewards Overview"
 - raw: "兄弟们求助啊，找了一个小时还没找到洪叔家"
   splits:
   - text: "兄弟们求助啊，找了一个小时还没找到洪叔家"
@@ -2707,10 +2887,6 @@
   splits:
   - text: "选择"
     translated: "Choose"
-- raw: "查看"
-  splits:
-  - text: "查看"
-    translated: "View"
 - raw: "阵容码"
   splits:
   - text: "阵容码"
@@ -3343,10 +3519,6 @@
   splits:
   - text: "江湖身份"
     translated: "Jianghu identity"
-- raw: "完成"
-  splits:
-  - text: "完成"
-    translated: "Completed"
 - raw: "<size=53>初</size>始武器"
   splits:
   - text: "<size=53>初</size>始武器"
@@ -3847,10 +4019,6 @@
   splits:
   - text: "护体"
     translated: "Protective body armor"
-- raw: "招式"
-  splits:
-  - text: "招式"
-    translated: "Technique"
 - raw: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
   splits:
   - text: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
@@ -4851,10 +5019,6 @@
   splits:
   - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
     translated: "When health drops to 1 points, death is avoided, and within 5 seconds, a total of 30% health is restored."
-- raw: "重置"
-  splits:
-  - text: "重置"
-    translated: "Reset"
 - raw: "退出"
   splits:
   - text: "退出"
@@ -4971,6 +5135,506 @@
   splits:
   - text: "万宗"
     translated: "Myriad Skills"
+- raw: "无情"
+  splits:
+  - text: "无情"
+    translated: "Unfeeling"
+- raw: "巫毒"
+  splits:
+  - text: "巫毒"
+    translated: "Voodoo magic"
+- raw: "人物关系"
+  splits:
+  - text: "人物关系"
+    translated: "Character Relationships"
+- raw: "门派好感"
+  splits:
+  - text: "门派好感"
+    translated: "Sect affinity"
+- raw: "套路：枪"
+  splits:
+  - text: "套路：枪"
+    translated: "Technique: Spear"
+- raw: "九阳神功<color=#67696a><size=30>(未修炼)"
+  splits:
+  - text: "九阳神功<color=#67696a><size=30>(未修炼)"
+    translated: "Nine Yang Divine Skill <color=#67696a><size=30>(Not cultivated)"
+- raw: "第一式"
+  splits:
+  - text: "第一式"
+    translated: "First Form"
+- raw: "云收"
+  splits:
+  - text: "云收"
+    translated: "Clouds gathering"
+- raw: "外功：10\\n范围"
+  splits:
+  - text: "外功：10\\n范围"
+    translated: "External Skill: 10\\nRange"
+- raw: "属性加成"
+  splits:
+  - text: "属性加成"
+    translated: "Attribute Bonus"
+- raw: "无"
+  splits:
+  - text: "无"
+    translated: "None"
+- raw: "词条<color=#67696a>(可洗练)"
+  splits:
+  - text: "词条<color=#67696a>(可洗练)"
+    translated: "Entry <color=#67696a>(trainable)"
+- raw: "壁虎游墙"
+  splits:
+  - text: "壁虎游墙"
+    translated: "Geckos climbing walls"
+- raw: "当前境界：         踏雪无痕"
+  splits:
+  - text: "当前境界：         踏雪无痕"
+    translated: "Current realm: Step through the snow leaving no trace."
+- raw: "轻功值：    10000/10000"
+  splits:
+  - text: "轻功值：    10000/10000"
+    translated: "Qinggong Value:     10000/10000"
+- raw: "踏雪飞鸿<color=#67696a><size=30>(未修炼)"
+  splits:
+  - text: "踏雪飞鸿<color=#67696a><size=30>(未修炼)"
+    translated: "Snowbound Soaring Crane <color=#67696a><size=30>(Untrained)"
+- raw: "移动速度 2000       跳跃高度 2000\\n移动距离 2000       消耗 100真气/s"
+  splits:
+  - text: "移动速度 2000       跳跃高度 2000\\n移动距离 2000       消耗 100真气/s"
+    translated: "Mobility Speed 2000 Jump Height 2000\\nTravel distance of 2000; consumes 100 true qi per second."
+- raw: "附加属性"
+  splits:
+  - text: "附加属性"
+    translated: "Additional Attributes"
+- raw: "移动速度    +20移动速度    +20移动速度    "
+  splits:
+  - text: "移动速度    +20移动速度    +20移动速度    "
+    translated: "Moving Speed: +20 Moving Speed: +20 Moving Speed: {2}"
+- raw: "学习"
+  splits:
+  - text: "学习"
+    translated: "Learning"
+- raw: "<color=#adaaa4>消耗：</color>    10000"
+  splits:
+  - text: "<color=#adaaa4>消耗：</color>    10000"
+    translated: "<color=#adaaa4>Expenditure: </color>    10000"
+- raw: "熟练              <color=#e2b35e>化境"
+  splits:
+  - text: "熟练              <color=#e2b35e>化境"
+    translated: "Proficient: <color=#e2b35e>Stage of Transformation"
+- raw: "境界：第五层"
+  splits:
+  - text: "境界：第五层"
+    translated: "Realm: Fifth Floor"
+- raw: "悟道识性"
+  splits:
+  - text: "悟道识性"
+    translated: "Realize the Dao and discern one's nature"
+- raw: "需要："
+  splits:
+  - text: "需要："
+    translated: "Needs:"
+- raw: "未解锁"
+  splits:
+  - text: "未解锁"
+    translated: "Unlocked"
+- raw: "消耗 ：        10000"
+  splits:
+  - text: "消耗 ：        10000"
+    translated: "Consumption:         10000"
+- raw: "进阶属性"
+  splits:
+  - text: "进阶属性"
+    translated: "Progression Attributes"
+- raw: "进阶"
+  splits:
+  - text: "进阶"
+    translated: "Progression"
+- raw: "自身气血增加100%。并且回复速率提高20%"
+  splits:
+  - text: "自身气血增加100%。并且回复速率提高20%"
+    translated: "Self‑life force increased by 100%. Additionally, recovery rate enhanced by 20%."
+- raw: "已进阶"
+  splits:
+  - text: "已进阶"
+    translated: "Advanced to the next step"
+- raw: "消耗：      1000999"
+  splits:
+  - text: "消耗：      1000999"
+    translated: "Expenditure:       1000999"
+- raw: "人物装备"
+  splits:
+  - text: "人物装备"
+    translated: "Character Equipment"
+- raw: "成长"
+  splits:
+  - text: "成长"
+    translated: "Growth"
+- raw: "快捷物品"
+  splits:
+  - text: "快捷物品"
+    translated: "Quick‑Use Items"
+- raw: "称号："
+  splits:
+  - text: "称号："
+    translated: "Title:"
+- raw: "门派："
+  splits:
+  - text: "门派："
+    translated: "Sect:"
+- raw: "武当掌门"
+  splits:
+  - text: "武当掌门"
+    translated: "Wudang Sect Leader"
+- raw: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
+  splits:
+  - text: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
+    translated: "This person is a well‑known hero in the Jianghu, born into poverty but nonetheless becoming great. The rest of the text appears to be nonsensical or garbled."
+- raw: "人物五行"
+  splits:
+  - text: "人物五行"
+    translated: "Five Elements of Character Traits"
+- raw: "自身天赋"
+  splits:
+  - text: "自身天赋"
+    translated: "Innate talent"
+- raw: "角色先天情商值增加50点，同时获得"
+  splits:
+  - text: "角色先天情商值增加50点，同时获得"
+    translated: "The character's innate emotional intelligence score increases by 50 points, and simultaneously gains."
+- raw: "自选天赋"
+  splits:
+  - text: "自选天赋"
+    translated: "Customizable Talent"
+- raw: "武器 / 宝物"
+  splits:
+  - text: "武器 / 宝物"
+    translated: "Weapons / Treasures"
+- raw: "降渊恒力·流火长阵"
+  splits:
+  - text: "降渊恒力·流火长阵"
+    translated: "Jiang Yuan Heng Li · Liu Huo Chang Zhen"
+- raw: "防具"
+  splits:
+  - text: "防具"
+    translated: "Armor"
+- raw: "武器宝物预设"
+  splits:
+  - text: "武器宝物预设"
+    translated: "Weapon Relics Preset"
+- raw: "宝物预设"
+  splits:
+  - text: "宝物预设"
+    translated: "Treasure Preset"
+- raw: "返回装备"
+  splits:
+  - text: "返回装备"
+    translated: "Return equipment"
+- raw: "玄机"
+  splits:
+  - text: "玄机"
+    translated: "Secret Art"
+- raw: "<color=#7e8184>等级</color> 1"
+  splits:
+  - text: "<color=#7e8184>等级</color> 1"
+    translated: "<color=#7e8184>Level</color> 1"
+- raw: "快捷栏一"
+  splits:
+  - text: "快捷栏一"
+    translated: "Quick Access Bar 1"
+- raw: "快捷栏二"
+  splits:
+  - text: "快捷栏二"
+    translated: "Shortcut Bar Two"
+- raw: "快捷栏三"
+  splits:
+  - text: "快捷栏三"
+    translated: "Shortcut Bar Three"
+- raw: "快捷栏四"
+  splits:
+  - text: "快捷栏四"
+    translated: "Quick Access Bar Section Four"
+- raw: "李红华"
+  splits:
+  - text: "李红华"
+    translated: "Li Hong Hua"
+- raw: "淬炼"
+  splits:
+  - text: "淬炼"
+    translated: "Tempering"
+- raw: "灵均的经历"
+  splits:
+  - text: "灵均的经历"
+    translated: "Ling Jun's experiences"
+- raw: "时间:"
+  splits:
+  - text: "时间:"
+    translated: "Time:"
+- raw: "六月"
+  splits:
+  - text: "六月"
+    translated: "June"
+- raw: "类型:"
+  splits:
+  - text: "类型:"
+    translated: "Type:"
+- raw: "事件"
+  splits:
+  - text: "事件"
+    translated: "Event"
+- raw: "经脉加点"
+  splits:
+  - text: "经脉加点"
+    translated: "Acupuncture points on meridians"
+- raw: "炎鸿"
+  splits:
+  - text: "炎鸿"
+    translated: "Huo Yan"
+- raw: "需运行对应主或副功法的同时连线对应经脉点就可以激活对应周天运行效果"
+  splits:
+  - text: "需运行对应主或副功法的同时连线对应经脉点就可以激活对应周天运行效果"
+    translated: "You need to simultaneously connect the corresponding meridian points while running the appropriate main or secondary cultivation technique to activate the corresponding circadian cycle effects."
+- raw: "需打通以下经脉才可激活"
+  splits:
+  - text: "需打通以下经脉才可激活"
+    translated: "The following meridians must be unblocked to activate it."
+- raw: "武学功法"
+  splits:
+  - text: "武学功法"
+    translated: "Wuxia martial arts techniques"
+- raw: "冥王"
+  splits:
+  - text: "冥王"
+    translated: "King of Hell"
+- raw: "决明"
+  splits:
+  - text: "决明"
+    translated: "To sharpen one's vision"
+- raw: "功体"
+  splits:
+  - text: "功体"
+    translated: "Martial Body"
+- raw: "套路"
+  splits:
+  - text: "套路"
+    translated: "Technique"
+- raw: "参悟条件"
+  splits:
+  - text: "参悟条件"
+    translated: "Conditions for Enlightenment"
+- raw: "决"
+  splits:
+  - text: "决"
+    translated: "Resolve"
+- raw: "[上"
+  splits:
+  - text: "[上"
+    translated: "Ascend"
+- raw: "万法修罗纲要·上"
+  splits:
+  - text: "万法修罗纲要·上"
+    translated: "Title: Essential Principles of the Ten Thousand Practices of Sambara · Part One"
+- raw: "<color=#adaaa4>消耗：</color>   <color=#f0f0f0>1000</color>"
+  splits:
+  - text: "<color=#adaaa4>消耗：</color>   <color=#f0f0f0>1000</color>"
+    translated: "<color=#adaaa4>Expenditure: </color>   <color=#f0f0f0>1000</color>"
+- raw: "人阶"
+  splits:
+  - text: "人阶"
+    translated: "Social Rank"
+- raw: "地阶"
+  splits:
+  - text: "地阶"
+    translated: "Ground step"
+- raw: "天阶"
+  splits:
+  - text: "天阶"
+    translated: "Celestial Tier"
+- raw: "激活条件"
+  splits:
+  - text: "激活条件"
+    translated: "Activation Conditions"
+- raw: "(未打通)"
+  splits:
+  - text: "(未打通)"
+    translated: "(Unreachable)"
+- raw: "冲灵所窍"
+  splits:
+  - text: "冲灵所窍"
+    translated: "Spirit Pathway"
+- raw: "大力"
+  splits:
+  - text: "大力"
+    translated: "Powerful strength"
+- raw: "消耗感悟：112540"
+  splits:
+  - text: "消耗感悟：112540"
+    translated: "Consume insight: 112540"
+- raw: "一无归元剑发大水"
+  splits:
+  - text: "一无归元剑发大水"
+    translated: "The Yingwu Sword emits a great wave"
+- raw: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
+  splits:
+  - text: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
+    translated: "The purple aura from the east arrives, but Gui Yuan has no return. As one sword strikes out, blood splatters in chaos. The purple aura from the east arrives, but Gui Yuan has no return. As one sword strikes out, blood splatters in chaos."
+- raw: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
+  splits:
+  - text: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
+    translated: "When attacking, there is a 1% chance to increase Agility by 50%, lasting for 30s. This effect applies when Stephen activates it."
+- raw: "神速"
+  splits:
+  - text: "神速"
+    translated: "Blinding speed"
+- raw: "领悟条件"
+  splits:
+  - text: "领悟条件"
+    translated: "Comprehension Condition"
+- raw: "此技能已领悟获得"
+  splits:
+  - text: "此技能已领悟获得"
+    translated: "This skill has been mastered"
+- raw: "一无归元剑"
+  splits:
+  - text: "一无归元剑"
+    translated: "Yi Wu Gui Yuan Jian"
+- raw: "战斗中功法自行运行的能力"
+  splits:
+  - text: "战斗中功法自行运行的能力"
+    translated: "The ability to have kung fu techniques operate automatically during combat."
+- raw: "一段："
+  splits:
+  - text: "一段："
+    translated: "A section:"
+- raw: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
+  splits:
+  - text: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
+    translated: "Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores per second."
+- raw: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
+  splits:
+  - text: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
+    translated: "Buddha obstructs Buddha; water and electricity bills, water and electricity bills, water and electricity bills‑indeed, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters."
+- raw: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
+  splits:
+  - text: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
+    translated: "Non‑teaching staff's third‑party dispatch method sent to Stephen."
+- raw: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
+  splits:
+  - text: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
+    translated: "Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Clear self‑acupressure status. Remove self‑acupressure status."
+- raw: "提示：冲击手太阴肺经少"
+  splits:
+  - text: "提示：冲击手太阴肺经少"
+    translated: "Prompt: Impact on Hand Taiyin Lung Meridian too little."
+- raw: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
+  splits:
+  - text: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
+    translated: "Retrospection: When life value, when life value, when life value, when life value, when life value."
+- raw: "冲击会阴穴可获得强化属性"
+  splits:
+  - text: "冲击会阴穴可获得强化属性"
+    translated: "Stimulating the Yin Point can yield enhanced attributes."
+- raw: "外攻伤害"
+  splits:
+  - text: "外攻伤害"
+    translated: "External attack damage"
+- raw: "内攻伤害"
+  splits:
+  - text: "内攻伤害"
+    translated: "Internal attack damage"
+- raw: "技能冷却"
+  splits:
+  - text: "技能冷却"
+    translated: "Cooldown skill"
+- raw: "3秒"
+  splits:
+  - text: "3秒"
+    translated: "3 seconds"
+- raw: "技能范围"
+  splits:
+  - text: "技能范围"
+    translated: "Skill Range"
+- raw: "攻击时1%几率提升50%的身法，持续30s，发生发大"
+  splits:
+  - text: "攻击时1%几率提升50%的身法，持续30s，发生发大"
+    translated: "When attacking, there's a 1% chance to increase agility by 50% for 30 seconds, triggering a large effect."
+- raw: "长生剑fdasdasd"
+  splits:
+  - text: "长生剑fdasdasd"
+    translated: "Changsheng Jian Fadasd"
+- raw: "提升境界"
+  splits:
+  - text: "提升境界"
+    translated: "Elevate one's realm"
+- raw: "基础条件："
+  splits:
+  - text: "基础条件："
+    translated: "Basic conditions:"
+- raw: "激活:会阴(任脉)"
+  splits:
+  - text: "激活:会阴(任脉)"
+    translated: "Activate: Huiyin (Ren Mai)"
+- raw: "熟练"
+  splits:
+  - text: "熟练"
+    translated: "Proficient"
+- raw: "提升后获得新属性"
+  splits:
+  - text: "提升后获得新属性"
+    translated: "Gained a new attribute after enhancement"
+- raw: "洗练可重置境界属性"
+  splits:
+  - text: "洗练可重置境界属性"
+    translated: "You can refine and reset realm attributes"
+- raw: "新"
+  splits:
+  - text: "新"
+    translated: "New"
+- raw: "(固有)"
+  splits:
+  - text: "(固有)"
+    translated: "Inherent"
+- raw: "添加材料"
+  splits:
+  - text: "添加材料"
+    translated: "Add materials"
+- raw: "(材料1)"
+  splits:
+  - text: "(材料1)"
+    translated: "(Material 1)"
+- raw: "(材料2)"
+  splits:
+  - text: "(材料2)"
+    translated: "(Material 2)"
+- raw: "(材料3)"
+  splits:
+  - text: "(材料3)"
+    translated: "(Material 3)"
+- raw: "化神"
+  splits:
+  - text: "化神"
+    translated: "Immortal Transformation"
+- raw: "激活完成"
+  splits:
+  - text: "激活完成"
+    translated: "Activation complete"
+- raw: "洗练完成"
+  splits:
+  - text: "洗练完成"
+    translated: "Refinement complete"
+- raw: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
+  splits:
+  - text: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
+    translated: "All roads lead to success; harmoniously mastering the realms brings about a fearless hero. Achieve greatness and fame today."
+- raw: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
+  splits:
+  - text: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
+    translated: "Don't be angry, don't turn white in the eyes. Don't be angry, don't turn white in the eyes. Don't be angry, don't turn white in the eyes. Don't turn white in the eyes."
+- raw: "融汇"
+  splits:
+  - text: "融汇"
+    translated: "Harmonizing and integrating"
 - raw: "刘备"
   splits:
   - text: "刘备"
@@ -5187,10 +5851,6 @@
   splits:
   - text: "辩力"
     translated: "Debate skill"
-- raw: "玄机"
-  splits:
-  - text: "玄机"
-    translated: "Secret Art"
 - raw: "全神贯注"
   splits:
   - text: "全神贯注"
@@ -5451,10 +6111,6 @@
   splits:
   - text: "图鉴"
     translated: "Illustrated compendium"
-- raw: "事件"
-  splits:
-  - text: "事件"
-    translated: "Event"
 - raw: "可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可"
   splits:
   - text: "可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可"
@@ -5780,18 +6436,10 @@
   splits:
   - text: "提交Bug"
     translated: "Submit a bug report"
-- raw: "存档"
-  splits:
-  - text: "存档"
-    translated: "Archive"
 - raw: "读档"
   splits:
   - text: "读档"
     translated: "Load file"
-- raw: "称号："
-  splits:
-  - text: "称号："
-    translated: "Title:"
 - raw: "精力"
   splits:
   - text: "精力"
@@ -5888,14 +6536,6 @@
   splits:
   - text: "最大boss"
     translated: "Big Boss"
-- raw: "功体"
-  splits:
-  - text: "功体"
-    translated: "Martial Body"
-- raw: "江湖指引"
-  splits:
-  - text: "江湖指引"
-    translated: "Guidance of the Jianghu"
 - raw: "开放视角"
   splits:
   - text: "开放视角"
@@ -5904,10 +6544,10 @@
   splits:
   - text: "脱离卡死"
     translated: "Get unstuck"
-- raw: "地图"
+- raw: "外观/捏脸"
   splits:
-  - text: "地图"
-    translated: "Map"
+  - text: "外观/捏脸"
+    translated: "Appearance/Sculpting Facial Features"
 - raw: "打坐"
   splits:
   - text: "打坐"
@@ -5916,6 +6556,10 @@
   splits:
   - text: "论剑"
     translated: "Debating swordsmanship"
+- raw: "地图"
+  splits:
+  - text: "地图"
+    translated: "Map"
 - raw: "成就"
   splits:
   - text: "成就"
@@ -6368,6 +7012,30 @@
   splits:
   - text: "我的货币"
     translated: "My currency"
+- raw: "藏宝阁"
+  splits:
+  - text: "藏宝阁"
+    translated: "Treasure Vault"
+- raw: "内门弟子"
+  splits:
+  - text: "内门弟子"
+    translated: "Inner Gate Disciple"
+- raw: "外门-内门"
+  splits:
+  - text: "外门-内门"
+    translated: "Outsider's Gate ‑ Inner Sect"
+- raw: "嫡传-未加入"
+  splits:
+  - text: "嫡传-未加入"
+    translated: "Direct Inheritance ‑ Not Joined"
+- raw: "亲传"
+  splits:
+  - text: "亲传"
+    translated: "Directly transmitted"
+- raw: "购买数量"
+  splits:
+  - text: "购买数量"
+    translated: "Purchase quantity"
 - raw: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
   splits:
   - text: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
@@ -6384,10 +7052,6 @@
   splits:
   - text: "59.1万/60.0万"
     translated: "59.1 ten thousand / 60.0 ten thousand"
-- raw: "藏宝阁"
-  splits:
-  - text: "藏宝阁"
-    translated: "Treasure Vault"
 - raw: "升级"
   splits:
   - text: "升级"
@@ -6892,10 +7556,6 @@
   splits:
   - text: "关门弟子"
     translated: "Discreet disciple"
-- raw: "内门弟子"
-  splits:
-  - text: "内门弟子"
-    translated: "Inner Gate Disciple"
 - raw: "聚贤堂"
   splits:
   - text: "聚贤堂"
@@ -7056,134 +7716,26 @@
   splits:
   - text: "亲爱的玩家，经检测当前可用的运行内存(值)不足以支撑游戏在峰值下运行。为让您能畅玩游戏，请关闭一些其他后台运行的程序。"
     translated: "Dear player, the current available memory (value) is insufficient to support running the game at peak performance. To allow you to enjoy the game smoothly, please close some other programs that are running in the background."
-- raw: "激活条件"
+- raw: "消耗：   10000"
   splits:
-  - text: "激活条件"
-    translated: "Activation Conditions"
-- raw: "(未打通)"
+  - text: "消耗：   10000"
+    translated: "Expenditure:    10000"
+- raw: "当生命降低到1时，不会受到伤害，持续时间随机，当生命降低到1时，不会受到伤害，并将伤害的10%转化为生命"
   splits:
-  - text: "(未打通)"
-    translated: "(Unreachable)"
-- raw: "冲灵所窍"
+  - text: "当生命降低到1时，不会受到伤害，持续时间随机，当生命降低到1时，不会受到伤害，并将伤害的10%转化为生命"
+    translated: "When health drops to 1, damage is not taken for a random duration. When health drops to 1, damage is not taken and 10% of the damage is converted into health."
+- raw: "随机获得一条属性"
   splits:
-  - text: "冲灵所窍"
-    translated: "Spirit Pathway"
-- raw: "大力"
+  - text: "随机获得一条属性"
+    translated: "Receive a random attribute"
+- raw: "成功率：    <size=40>90%</size>"
   splits:
-  - text: "大力"
-    translated: "Powerful strength"
-- raw: "消耗感悟：112540"
+  - text: "成功率：    <size=40>90%</size>"
+    translated: "Success rate:     <size=40>90%</size>"
+- raw: "化境"
   splits:
-  - text: "消耗感悟：112540"
-    translated: "Consume insight: 112540"
-- raw: "一无归元剑发大水"
-  splits:
-  - text: "一无归元剑发大水"
-    translated: "The Yingwu Sword emits a great wave"
-- raw: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
-  splits:
-  - text: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
-    translated: "The purple aura from the east arrives, but Gui Yuan has no return. As one sword strikes out, blood splatters in chaos. The purple aura from the east arrives, but Gui Yuan has no return. As one sword strikes out, blood splatters in chaos."
-- raw: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
-  splits:
-  - text: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
-    translated: "When attacking, there is a 1% chance to increase Agility by 50%, lasting for 30s. This effect applies when Stephen activates it."
-- raw: "神速"
-  splits:
-  - text: "神速"
-    translated: "Blinding speed"
-- raw: "领悟条件"
-  splits:
-  - text: "领悟条件"
-    translated: "Comprehension Condition"
-- raw: "此技能已领悟获得"
-  splits:
-  - text: "此技能已领悟获得"
-    translated: "This skill has been mastered"
-- raw: "一无归元剑"
-  splits:
-  - text: "一无归元剑"
-    translated: "Yi Wu Gui Yuan Jian"
-- raw: "战斗中功法自行运行的能力"
-  splits:
-  - text: "战斗中功法自行运行的能力"
-    translated: "The ability to have kung fu techniques operate automatically during combat."
-- raw: "一段："
-  splits:
-  - text: "一段："
-    translated: "A section:"
-- raw: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
-  splits:
-  - text: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
-    translated: "Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores 105 per second. Restores per second."
-- raw: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
-  splits:
-  - text: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
-    translated: "Buddha obstructs Buddha; water and electricity bills, water and electricity bills, water and electricity bills‑indeed, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters, the Doctor of Phlebotomy scatters."
-- raw: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
-  splits:
-  - text: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
-    translated: "Non‑teaching staff's third‑party dispatch method sent to Stephen."
-- raw: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
-  splits:
-  - text: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
-    translated: "Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Remove self‑acupressure status. Clear self‑acupressure status. Remove self‑acupressure status."
-- raw: "提示：冲击手太阴肺经少"
-  splits:
-  - text: "提示：冲击手太阴肺经少"
-    translated: "Prompt: Impact on Hand Taiyin Lung Meridian too little."
-- raw: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
-  splits:
-  - text: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
-    translated: "Retrospection: When life value, when life value, when life value, when life value, when life value."
-- raw: "冲击会阴穴可获得强化属性"
-  splits:
-  - text: "冲击会阴穴可获得强化属性"
-    translated: "Stimulating the Yin Point can yield enhanced attributes."
-- raw: "外攻伤害"
-  splits:
-  - text: "外攻伤害"
-    translated: "External attack damage"
-- raw: "内攻伤害"
-  splits:
-  - text: "内攻伤害"
-    translated: "Internal attack damage"
-- raw: "技能冷却"
-  splits:
-  - text: "技能冷却"
-    translated: "Cooldown skill"
-- raw: "3秒"
-  splits:
-  - text: "3秒"
-    translated: "3 seconds"
-- raw: "技能范围"
-  splits:
-  - text: "技能范围"
-    translated: "Skill Range"
-- raw: "攻击时1%几率提升50%的身法，持续30s，发生发大"
-  splits:
-  - text: "攻击时1%几率提升50%的身法，持续30s，发生发大"
-    translated: "When attacking, there's a 1% chance to increase agility by 50% for 30 seconds, triggering a large effect."
-- raw: "激活完成"
-  splits:
-  - text: "激活完成"
-    translated: "Activation complete"
-- raw: "洗练完成"
-  splits:
-  - text: "洗练完成"
-    translated: "Refinement complete"
-- raw: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
-  splits:
-  - text: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
-    translated: "All roads lead to success; harmoniously mastering the realms brings about a fearless hero. Achieve greatness and fame today."
-- raw: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
-  splits:
-  - text: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
-    translated: "Don't be angry, don't turn white in the eyes. Don't be angry, don't turn white in the eyes. Don't be angry, don't turn white in the eyes. Don't turn white in the eyes."
-- raw: "融汇"
-  splits:
-  - text: "融汇"
-    translated: "Harmonizing and integrating"
+  - text: "化境"
+    translated: "Transcendent"
 - raw: "江湖武林之中群雄乱起，豪杰并出，你将面临各个强者生存下去"
   splits:
   - text: "江湖武林之中群雄乱起，豪杰并出，你将面临各个强者生存下去"
@@ -7280,10 +7832,6 @@
   splits:
   - text: "进入江湖"
     translated: "Entering the world of Jianghu"
-- raw: "未解锁"
-  splits:
-  - text: "未解锁"
-    translated: "Unlocked"
 - raw: "罗德罗德罗德罗罗德罗德罗德罗"
   splits:
   - text: "罗德罗德罗德罗罗德罗德罗德罗"
@@ -7404,10 +7952,6 @@
   splits:
   - text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
     translated: "To view the inventory, you need to increase your affection with this character.\\nThose skilled in martial arts are also capable of directly discerning truth from deception."
-- raw: "成长"
-  splits:
-  - text: "成长"
-    translated: "Growth"
 - raw: "主动招式"
   splits:
   - text: "主动招式"
@@ -7640,10 +8184,6 @@
   splits:
   - text: "关门"
     translated: "Close door"
-- raw: "亲传"
-  splits:
-  - text: "亲传"
-    translated: "Directly transmitted"
 - raw: "两派好感达到"
   splits:
   - text: "两派好感达到"
@@ -7760,10 +8300,6 @@
   splits:
   - text: "修为:"
     translated: "Cultivation level:"
-- raw: "学习"
-  splits:
-  - text: "学习"
-    translated: "Learning"
 - raw: "学习轻功需要达到对应的条件，轻功分为初级、高级2个阶段，消耗相应的道具材料可以提升轻功的等级,改变轻功的表现形式和实际效果。轻功值可通过完成对应的任务或学习轻功获得，不同的轻功在不同的地形上有明显的优势。"
   splits:
   - text: "学习轻功需要达到对应的条件，轻功分为初级、高级2个阶段，消耗相应的道具材料可以提升轻功的等级,改变轻功的表现形式和实际效果。轻功值可通过完成对应的任务或学习轻功获得，不同的轻功在不同的地形上有明显的优势。"
@@ -8084,6 +8620,14 @@
   splits:
   - text: "诋毁"
     translated: "Defame"
+- raw: "泸州"
+  splits:
+  - text: "泸州"
+    translated: "Luzhou"
+- raw: "花费：       100\\n消耗：       3"
+  splits:
+  - text: "花费：       100\\n消耗：       3"
+    translated: "Expenditure: 100\\nExpenditure:        3"
 - raw: "音乐"
   splits:
   - text: "音乐"
@@ -8312,10 +8856,6 @@
   splits:
   - text: "描述内容"
     translated: "Describe Content"
-- raw: "激活码"
-  splits:
-  - text: "激活码"
-    translated: "Activation code"
 - raw: "技能特效"
   splits:
   - text: "技能特效"
@@ -8376,6 +8916,14 @@
   splits:
   - text: "穿戴"
     translated: "Wear"
+- raw: "烟雨江湖"
+  splits:
+  - text: "烟雨江湖"
+    translated: "Misty rain over the Jianghu"
+- raw: "普通时装"
+  splits:
+  - text: "普通时装"
+    translated: "Casual clothing"
 - raw: "回购"
   splits:
   - text: "回购"
@@ -8524,10 +9072,6 @@
   splits:
   - text: "功能1：\\n经脉点位由外而内分层级打通。五脏开窍不区分层级，但需打通所有经脉点。打通经脉点和五脏开窍会消耗一定的修为值。"
     translated: "Function 1: \\nMeridian points are accessed from the outer layers inward in a hierarchical manner. The opening of the Five Viscera is not hierarchical, but it requires all meridian points to be accessed. Accessing meridian points and opening the Five Viscera consumes a certain amount of cultivation value."
-- raw: "防具"
-  splits:
-  - text: "防具"
-    translated: "Armor"
 - raw: "饰品"
   splits:
   - text: "饰品"
@@ -8836,6 +9380,10 @@
   splits:
   - text: "存储外观"
     translated: "Appearance Storage"
+- raw: "云账号"
+  splits:
+  - text: "云账号"
+    translated: "Cloud account number"
 - raw: "斩工时佛挡杀佛水电"
   splits:
   - text: "斩工时佛挡杀佛水电"
@@ -8904,10 +9452,6 @@
   splits:
   - text: "你的回礼"
     translated: "Your reciprocal gesture"
-- raw: "开始"
-  splits:
-  - text: "开始"
-    translated: "Begin"
 - raw: "叫一"
   splits:
   - text: "叫一"
@@ -8980,10 +9524,6 @@
   splits:
   - text: " 天机老头"
     translated: "Old Man Tianji"
-- raw: "无"
-  splits:
-  - text: "无"
-    translated: "None"
 - raw: "卧龙"
   splits:
   - text: "卧龙"
@@ -9196,18 +9736,10 @@
   splits:
   - text: "简介："
     translated: "Introduction:"
-- raw: "外攻："
-  splits:
-  - text: "外攻："
-    translated: "External attack:"
 - raw: "外防："
   splits:
   - text: "外防："
     translated: "External Defense:"
-- raw: "内攻："
-  splits:
-  - text: "内攻："
-    translated: "Internal Attack:"
 - raw: "内防："
   splits:
   - text: "内防："
@@ -9256,6 +9788,10 @@
   splits:
   - text: "乐得不得了不得了不得了！"
     translated: "Extremely delighted! It's beyond words, absolutely amazing!"
+- raw: "你撞见了刺客"
+  splits:
+  - text: "你撞见了刺客"
+    translated: "You saw the assassin"
 - raw: "朋友"
   splits:
   - text: "朋友"

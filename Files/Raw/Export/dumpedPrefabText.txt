@@ -100,6 +100,21 @@
 - raw: "提 交"
   splits:
   - text: "提 交"
+- raw: "江湖指引"
+  splits:
+  - text: "江湖指引"
+- raw: "江湖懂王"
+  splits:
+  - text: "江湖懂王"
+- raw: "百晓生"
+  splits:
+  - text: "百晓生"
+- raw: "(当前AI为测试阶段，每人每天限制提问"
+  splits:
+  - text: "(当前AI为测试阶段，每人每天限制提问"
+- raw: "提交"
+  splits:
+  - text: "提交"
 - raw: "暗器研究"
   splits:
   - text: "暗器研究"
@@ -316,24 +331,12 @@
 - raw: "剑"
   splits:
   - text: "剑"
-- raw: "上阵"
-  splits:
-  - text: "上阵"
-- raw: "队伍"
-  splits:
-  - text: "队伍"
 - raw: "发顺丰第三方鼓捣鼓捣"
   splits:
   - text: "发顺丰第三方鼓捣鼓捣"
 - raw: "一阶"
   splits:
   - text: "一阶"
-- raw: "已学习"
-  splits:
-  - text: "已学习"
-- raw: "使用冷却中：\\n0.5秒"
-  splits:
-  - text: "使用冷却中：\\n0.5秒"
 - raw: "重要"
   splits:
   - text: "重要"
@@ -355,12 +358,24 @@
 - raw: "关闭"
   splits:
   - text: "关闭"
-- raw: "斩仙"
-  splits:
-  - text: "斩仙"
 - raw: "隐藏物品信息"
   splits:
   - text: "隐藏物品信息"
+- raw: "斩仙"
+  splits:
+  - text: "斩仙"
+- raw: "上阵"
+  splits:
+  - text: "上阵"
+- raw: "队伍"
+  splits:
+  - text: "队伍"
+- raw: "已学习"
+  splits:
+  - text: "已学习"
+- raw: "使用冷却中：\\n0.5秒"
+  splits:
+  - text: "使用冷却中：\\n0.5秒"
 - raw: "太阴八卦"
   splits:
   - text: "太阴八卦"
@@ -535,6 +550,15 @@
 - raw: "传言1：在陈沙身上看到了修为宝册，似乎可以前去查看一番。"
   splits:
   - text: "传言1：在陈沙身上看到了修为宝册，似乎可以前去查看一番。"
+- raw: "传闻记录"
+  splits:
+  - text: "传闻记录"
+- raw: "查看"
+  splits:
+  - text: "查看"
+- raw: "已阅"
+  splits:
+  - text: "已阅"
 - raw: "哈哈哈哈哈哈哈哈安徽安徽安徽安徽啊哈哈的撒回答晶科我回答晶科我had见客户为夹河街"
   splits:
   - text: "哈哈哈哈哈哈哈哈安徽安徽安徽安徽啊哈哈的撒回答晶科我回答晶科我had见客户为夹河街"
@@ -808,6 +832,18 @@
 - raw: "原为楚国秦世家小女，饱受宠爱"
   splits:
   - text: "原为楚国秦世家小女，饱受宠爱"
+- raw: "招式"
+  splits:
+  - text: "招式"
+- raw: "外攻："
+  splits:
+  - text: "外攻："
+- raw: "内攻："
+  splits:
+  - text: "内攻："
+- raw: "境界属性"
+  splits:
+  - text: "境界属性"
 - raw: "是"
   splits:
   - text: "是"
@@ -841,6 +877,36 @@
 - raw: "<color=#CCA46C>修为</color> 10000      <color=#CCA46C>外功</color> 16"
   splits:
   - text: "<color=#CCA46C>修为</color> 10000      <color=#CCA46C>外功</color> 16"
+- raw: "打坐调息"
+  splits:
+  - text: "打坐调息"
+- raw: "少侠打算在此地打坐多久？"
+  splits:
+  - text: "少侠打算在此地打坐多久？"
+- raw: "(打坐时间最长为5个月)"
+  splits:
+  - text: "(打坐时间最长为5个月)"
+- raw: "月"
+  splits:
+  - text: "月"
+- raw: "日"
+  splits:
+  - text: "日"
+- raw: "时"
+  splits:
+  - text: "时"
+- raw: "打坐结束后日期："
+  splits:
+  - text: "打坐结束后日期："
+- raw: "修炼点"
+  splits:
+  - text: "修炼点"
+- raw: "剩余：<color=#4DD58D>8月</color>"
+  splits:
+  - text: "剩余：<color=#4DD58D>8月</color>"
+- raw: "完成打坐可获得     "
+  splits:
+  - text: "完成打坐可获得     "
 - raw: "此物可用于打造无心"
   splits:
   - text: "此物可用于打造无心"
@@ -1173,6 +1239,21 @@
 - raw: "请问大侠尊姓大名"
   splits:
   - text: "请问大侠尊姓大名"
+- raw: "捏脸"
+  splits:
+  - text: "捏脸"
+- raw: "外观"
+  splits:
+  - text: "外观"
+- raw: "激活码"
+  splits:
+  - text: "激活码"
+- raw: "重置"
+  splits:
+  - text: "重置"
+- raw: "完成"
+  splits:
+  - text: "完成"
 - raw: "独孤求败"
   splits:
   - text: "独孤求败"
@@ -1224,6 +1305,36 @@
 - raw: "自动存档"
   splits:
   - text: "自动存档"
+- raw: "存档"
+  splits:
+  - text: "存档"
+- raw: "新建存档"
+  splits:
+  - text: "新建存档"
+- raw: "爽文"
+  splits:
+  - text: "爽文"
+- raw: "地点："
+  splits:
+  - text: "地点："
+- raw: "时间："
+  splits:
+  - text: "时间："
+- raw: "读取"
+  splits:
+  - text: "读取"
+- raw: "云存档："
+  splits:
+  - text: "云存档："
+- raw: "切换账号"
+  splits:
+  - text: "切换账号"
+- raw: "上传"
+  splits:
+  - text: "上传"
+- raw: "下载"
+  splits:
+  - text: "下载"
 - raw: "收杆"
   splits:
   - text: "收杆"
@@ -1297,6 +1408,30 @@
 - raw: "垂钓准备中..."
   splits:
   - text: "垂钓准备中..."
+- raw: "控制"
+  splits:
+  - text: "控制"
+- raw: "点击钓鱼按钮控制鱼漂，保持鱼漂停留在白色区域即可完成钓鱼"
+  splits:
+  - text: "点击钓鱼按钮控制鱼漂，保持鱼漂停留在白色区域即可完成钓鱼"
+- raw: "鱼饵"
+  splits:
+  - text: "鱼饵"
+- raw: "鱼竿"
+  splits:
+  - text: "鱼竿"
+- raw: "开始"
+  splits:
+  - text: "开始"
+- raw: "可能获得物品"
+  splits:
+  - text: "可能获得物品"
+- raw: "烂皮革"
+  splits:
+  - text: "烂皮革"
+- raw: "钓鱼奖励一览"
+  splits:
+  - text: "钓鱼奖励一览"
 - raw: "兄弟们求助啊，找了一个小时还没找到洪叔家"
   splits:
   - text: "兄弟们求助啊，找了一个小时还没找到洪叔家"
@@ -2032,9 +2167,6 @@
 - raw: "选择"
   splits:
   - text: "选择"
-- raw: "查看"
-  splits:
-  - text: "查看"
 - raw: "阵容码"
   splits:
   - text: "阵容码"
@@ -2509,9 +2641,6 @@
 - raw: "江湖身份"
   splits:
   - text: "江湖身份"
-- raw: "完成"
-  splits:
-  - text: "完成"
 - raw: "<size=53>初</size>始武器"
   splits:
   - text: "<size=53>初</size>始武器"
@@ -2887,9 +3016,6 @@
 - raw: "护体"
   splits:
   - text: "护体"
-- raw: "招式"
-  splits:
-  - text: "招式"
 - raw: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
   splits:
   - text: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
@@ -3640,9 +3766,6 @@
 - raw: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
   splits:
   - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
-- raw: "重置"
-  splits:
-  - text: "重置"
 - raw: "退出"
   splits:
   - text: "退出"
@@ -3730,6 +3853,381 @@
 - raw: "万宗"
   splits:
   - text: "万宗"
+- raw: "无情"
+  splits:
+  - text: "无情"
+- raw: "巫毒"
+  splits:
+  - text: "巫毒"
+- raw: "人物关系"
+  splits:
+  - text: "人物关系"
+- raw: "门派好感"
+  splits:
+  - text: "门派好感"
+- raw: "套路：枪"
+  splits:
+  - text: "套路：枪"
+- raw: "九阳神功<color=#67696a><size=30>(未修炼)"
+  splits:
+  - text: "九阳神功<color=#67696a><size=30>(未修炼)"
+- raw: "第一式"
+  splits:
+  - text: "第一式"
+- raw: "云收"
+  splits:
+  - text: "云收"
+- raw: "外功：10\\n范围"
+  splits:
+  - text: "外功：10\\n范围"
+- raw: "属性加成"
+  splits:
+  - text: "属性加成"
+- raw: "无"
+  splits:
+  - text: "无"
+- raw: "词条<color=#67696a>(可洗练)"
+  splits:
+  - text: "词条<color=#67696a>(可洗练)"
+- raw: "壁虎游墙"
+  splits:
+  - text: "壁虎游墙"
+- raw: "当前境界：         踏雪无痕"
+  splits:
+  - text: "当前境界：         踏雪无痕"
+- raw: "轻功值：    10000/10000"
+  splits:
+  - text: "轻功值：    10000/10000"
+- raw: "踏雪飞鸿<color=#67696a><size=30>(未修炼)"
+  splits:
+  - text: "踏雪飞鸿<color=#67696a><size=30>(未修炼)"
+- raw: "移动速度 2000       跳跃高度 2000\\n移动距离 2000       消耗 100真气/s"
+  splits:
+  - text: "移动速度 2000       跳跃高度 2000\\n移动距离 2000       消耗 100真气/s"
+- raw: "附加属性"
+  splits:
+  - text: "附加属性"
+- raw: "移动速度    +20移动速度    +20移动速度    "
+  splits:
+  - text: "移动速度    +20移动速度    +20移动速度    "
+- raw: "学习"
+  splits:
+  - text: "学习"
+- raw: "<color=#adaaa4>消耗：</color>    10000"
+  splits:
+  - text: "<color=#adaaa4>消耗：</color>    10000"
+- raw: "熟练              <color=#e2b35e>化境"
+  splits:
+  - text: "熟练              <color=#e2b35e>化境"
+- raw: "境界：第五层"
+  splits:
+  - text: "境界：第五层"
+- raw: "悟道识性"
+  splits:
+  - text: "悟道识性"
+- raw: "需要："
+  splits:
+  - text: "需要："
+- raw: "未解锁"
+  splits:
+  - text: "未解锁"
+- raw: "消耗 ：        10000"
+  splits:
+  - text: "消耗 ：        10000"
+- raw: "进阶属性"
+  splits:
+  - text: "进阶属性"
+- raw: "进阶"
+  splits:
+  - text: "进阶"
+- raw: "自身气血增加100%。并且回复速率提高20%"
+  splits:
+  - text: "自身气血增加100%。并且回复速率提高20%"
+- raw: "已进阶"
+  splits:
+  - text: "已进阶"
+- raw: "消耗：      1000999"
+  splits:
+  - text: "消耗：      1000999"
+- raw: "人物装备"
+  splits:
+  - text: "人物装备"
+- raw: "成长"
+  splits:
+  - text: "成长"
+- raw: "快捷物品"
+  splits:
+  - text: "快捷物品"
+- raw: "称号："
+  splits:
+  - text: "称号："
+- raw: "门派："
+  splits:
+  - text: "门派："
+- raw: "武当掌门"
+  splits:
+  - text: "武当掌门"
+- raw: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
+  splits:
+  - text: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
+- raw: "人物五行"
+  splits:
+  - text: "人物五行"
+- raw: "自身天赋"
+  splits:
+  - text: "自身天赋"
+- raw: "角色先天情商值增加50点，同时获得"
+  splits:
+  - text: "角色先天情商值增加50点，同时获得"
+- raw: "自选天赋"
+  splits:
+  - text: "自选天赋"
+- raw: "武器 / 宝物"
+  splits:
+  - text: "武器 / 宝物"
+- raw: "降渊恒力·流火长阵"
+  splits:
+  - text: "降渊恒力·流火长阵"
+- raw: "防具"
+  splits:
+  - text: "防具"
+- raw: "武器宝物预设"
+  splits:
+  - text: "武器宝物预设"
+- raw: "宝物预设"
+  splits:
+  - text: "宝物预设"
+- raw: "返回装备"
+  splits:
+  - text: "返回装备"
+- raw: "玄机"
+  splits:
+  - text: "玄机"
+- raw: "<color=#7e8184>等级</color> 1"
+  splits:
+  - text: "<color=#7e8184>等级</color> 1"
+- raw: "快捷栏一"
+  splits:
+  - text: "快捷栏一"
+- raw: "快捷栏二"
+  splits:
+  - text: "快捷栏二"
+- raw: "快捷栏三"
+  splits:
+  - text: "快捷栏三"
+- raw: "快捷栏四"
+  splits:
+  - text: "快捷栏四"
+- raw: "李红华"
+  splits:
+  - text: "李红华"
+- raw: "淬炼"
+  splits:
+  - text: "淬炼"
+- raw: "灵均的经历"
+  splits:
+  - text: "灵均的经历"
+- raw: "时间:"
+  splits:
+  - text: "时间:"
+- raw: "六月"
+  splits:
+  - text: "六月"
+- raw: "类型:"
+  splits:
+  - text: "类型:"
+- raw: "事件"
+  splits:
+  - text: "事件"
+- raw: "经脉加点"
+  splits:
+  - text: "经脉加点"
+- raw: "炎鸿"
+  splits:
+  - text: "炎鸿"
+- raw: "需运行对应主或副功法的同时连线对应经脉点就可以激活对应周天运行效果"
+  splits:
+  - text: "需运行对应主或副功法的同时连线对应经脉点就可以激活对应周天运行效果"
+- raw: "需打通以下经脉才可激活"
+  splits:
+  - text: "需打通以下经脉才可激活"
+- raw: "武学功法"
+  splits:
+  - text: "武学功法"
+- raw: "冥王"
+  splits:
+  - text: "冥王"
+- raw: "决明"
+  splits:
+  - text: "决明"
+- raw: "功体"
+  splits:
+  - text: "功体"
+- raw: "套路"
+  splits:
+  - text: "套路"
+- raw: "参悟条件"
+  splits:
+  - text: "参悟条件"
+- raw: "决"
+  splits:
+  - text: "决"
+- raw: "[上"
+  splits:
+  - text: "[上"
+- raw: "万法修罗纲要·上"
+  splits:
+  - text: "万法修罗纲要·上"
+- raw: "<color=#adaaa4>消耗：</color>   <color=#f0f0f0>1000</color>"
+  splits:
+  - text: "<color=#adaaa4>消耗：</color>   <color=#f0f0f0>1000</color>"
+- raw: "人阶"
+  splits:
+  - text: "人阶"
+- raw: "地阶"
+  splits:
+  - text: "地阶"
+- raw: "天阶"
+  splits:
+  - text: "天阶"
+- raw: "激活条件"
+  splits:
+  - text: "激活条件"
+- raw: "(未打通)"
+  splits:
+  - text: "(未打通)"
+- raw: "冲灵所窍"
+  splits:
+  - text: "冲灵所窍"
+- raw: "大力"
+  splits:
+  - text: "大力"
+- raw: "消耗感悟：112540"
+  splits:
+  - text: "消耗感悟：112540"
+- raw: "一无归元剑发大水"
+  splits:
+  - text: "一无归元剑发大水"
+- raw: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
+  splits:
+  - text: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
+- raw: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
+  splits:
+  - text: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
+- raw: "神速"
+  splits:
+  - text: "神速"
+- raw: "领悟条件"
+  splits:
+  - text: "领悟条件"
+- raw: "此技能已领悟获得"
+  splits:
+  - text: "此技能已领悟获得"
+- raw: "一无归元剑"
+  splits:
+  - text: "一无归元剑"
+- raw: "战斗中功法自行运行的能力"
+  splits:
+  - text: "战斗中功法自行运行的能力"
+- raw: "一段："
+  splits:
+  - text: "一段："
+- raw: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
+  splits:
+  - text: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
+- raw: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
+  splits:
+  - text: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
+- raw: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
+  splits:
+  - text: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
+- raw: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
+  splits:
+  - text: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
+- raw: "提示：冲击手太阴肺经少"
+  splits:
+  - text: "提示：冲击手太阴肺经少"
+- raw: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
+  splits:
+  - text: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
+- raw: "冲击会阴穴可获得强化属性"
+  splits:
+  - text: "冲击会阴穴可获得强化属性"
+- raw: "外攻伤害"
+  splits:
+  - text: "外攻伤害"
+- raw: "内攻伤害"
+  splits:
+  - text: "内攻伤害"
+- raw: "技能冷却"
+  splits:
+  - text: "技能冷却"
+- raw: "3秒"
+  splits:
+  - text: "3秒"
+- raw: "技能范围"
+  splits:
+  - text: "技能范围"
+- raw: "攻击时1%几率提升50%的身法，持续30s，发生发大"
+  splits:
+  - text: "攻击时1%几率提升50%的身法，持续30s，发生发大"
+- raw: "长生剑fdasdasd"
+  splits:
+  - text: "长生剑fdasdasd"
+- raw: "提升境界"
+  splits:
+  - text: "提升境界"
+- raw: "基础条件："
+  splits:
+  - text: "基础条件："
+- raw: "激活:会阴(任脉)"
+  splits:
+  - text: "激活:会阴(任脉)"
+- raw: "熟练"
+  splits:
+  - text: "熟练"
+- raw: "提升后获得新属性"
+  splits:
+  - text: "提升后获得新属性"
+- raw: "洗练可重置境界属性"
+  splits:
+  - text: "洗练可重置境界属性"
+- raw: "新"
+  splits:
+  - text: "新"
+- raw: "(固有)"
+  splits:
+  - text: "(固有)"
+- raw: "添加材料"
+  splits:
+  - text: "添加材料"
+- raw: "(材料1)"
+  splits:
+  - text: "(材料1)"
+- raw: "(材料2)"
+  splits:
+  - text: "(材料2)"
+- raw: "(材料3)"
+  splits:
+  - text: "(材料3)"
+- raw: "化神"
+  splits:
+  - text: "化神"
+- raw: "激活完成"
+  splits:
+  - text: "激活完成"
+- raw: "洗练完成"
+  splits:
+  - text: "洗练完成"
+- raw: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
+  splits:
+  - text: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
+- raw: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
+  splits:
+  - text: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
+- raw: "融汇"
+  splits:
+  - text: "融汇"
 - raw: "刘备"
   splits:
   - text: "刘备"
@@ -3892,9 +4390,6 @@
 - raw: "辩力"
   splits:
   - text: "辩力"
-- raw: "玄机"
-  splits:
-  - text: "玄机"
 - raw: "全神贯注"
   splits:
   - text: "全神贯注"
@@ -4090,9 +4585,6 @@
 - raw: "图鉴"
   splits:
   - text: "图鉴"
-- raw: "事件"
-  splits:
-  - text: "事件"
 - raw: "可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可"
   splits:
   - text: "可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可可"
@@ -4337,15 +4829,9 @@
 - raw: "提交Bug"
   splits:
   - text: "提交Bug"
-- raw: "存档"
-  splits:
-  - text: "存档"
 - raw: "读档"
   splits:
   - text: "读档"
-- raw: "称号："
-  splits:
-  - text: "称号："
 - raw: "精力"
   splits:
   - text: "精力"
@@ -4418,27 +4904,24 @@
 - raw: "最大boss"
   splits:
   - text: "最大boss"
-- raw: "功体"
-  splits:
-  - text: "功体"
-- raw: "江湖指引"
-  splits:
-  - text: "江湖指引"
 - raw: "开放视角"
   splits:
   - text: "开放视角"
 - raw: "脱离卡死"
   splits:
   - text: "脱离卡死"
-- raw: "地图"
+- raw: "外观/捏脸"
   splits:
-  - text: "地图"
+  - text: "外观/捏脸"
 - raw: "打坐"
   splits:
   - text: "打坐"
 - raw: "论剑"
   splits:
   - text: "论剑"
+- raw: "地图"
+  splits:
+  - text: "地图"
 - raw: "成就"
   splits:
   - text: "成就"
@@ -4778,6 +5261,24 @@
 - raw: "我的货币"
   splits:
   - text: "我的货币"
+- raw: "藏宝阁"
+  splits:
+  - text: "藏宝阁"
+- raw: "内门弟子"
+  splits:
+  - text: "内门弟子"
+- raw: "外门-内门"
+  splits:
+  - text: "外门-内门"
+- raw: "嫡传-未加入"
+  splits:
+  - text: "嫡传-未加入"
+- raw: "亲传"
+  splits:
+  - text: "亲传"
+- raw: "购买数量"
+  splits:
+  - text: "购买数量"
 - raw: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
   splits:
   - text: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
@@ -4790,9 +5291,6 @@
 - raw: "59.1万/60.0万"
   splits:
   - text: "59.1万/60.0万"
-- raw: "藏宝阁"
-  splits:
-  - text: "藏宝阁"
 - raw: "升级"
   splits:
   - text: "升级"
@@ -5171,9 +5669,6 @@
 - raw: "关门弟子"
   splits:
   - text: "关门弟子"
-- raw: "内门弟子"
-  splits:
-  - text: "内门弟子"
 - raw: "聚贤堂"
   splits:
   - text: "聚贤堂"
@@ -5294,102 +5789,21 @@
 - raw: "亲爱的玩家，经检测当前可用的运行内存(值)不足以支撑游戏在峰值下运行。为让您能畅玩游戏，请关闭一些其他后台运行的程序。"
   splits:
   - text: "亲爱的玩家，经检测当前可用的运行内存(值)不足以支撑游戏在峰值下运行。为让您能畅玩游戏，请关闭一些其他后台运行的程序。"
-- raw: "激活条件"
+- raw: "消耗：   10000"
   splits:
-  - text: "激活条件"
-- raw: "(未打通)"
+  - text: "消耗：   10000"
+- raw: "当生命降低到1时，不会受到伤害，持续时间随机，当生命降低到1时，不会受到伤害，并将伤害的10%转化为生命"
   splits:
-  - text: "(未打通)"
-- raw: "冲灵所窍"
+  - text: "当生命降低到1时，不会受到伤害，持续时间随机，当生命降低到1时，不会受到伤害，并将伤害的10%转化为生命"
+- raw: "随机获得一条属性"
   splits:
-  - text: "冲灵所窍"
-- raw: "大力"
+  - text: "随机获得一条属性"
+- raw: "成功率：    <size=40>90%</size>"
   splits:
-  - text: "大力"
-- raw: "消耗感悟：112540"
+  - text: "成功率：    <size=40>90%</size>"
+- raw: "化境"
   splits:
-  - text: "消耗感悟：112540"
-- raw: "一无归元剑发大水"
-  splits:
-  - text: "一无归元剑发大水"
-- raw: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
-  splits:
-  - text: "紫气东来无归元，一剑既出血纷纭。紫气东来无归元，一剑既出血纷纭。"
-- raw: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
-  splits:
-  - text: "攻击时1%几率提升50%的身法，持续30s，发发斯蒂芬斯蒂芬是的"
-- raw: "神速"
-  splits:
-  - text: "神速"
-- raw: "领悟条件"
-  splits:
-  - text: "领悟条件"
-- raw: "此技能已领悟获得"
-  splits:
-  - text: "此技能已领悟获得"
-- raw: "一无归元剑"
-  splits:
-  - text: "一无归元剑"
-- raw: "战斗中功法自行运行的能力"
-  splits:
-  - text: "战斗中功法自行运行的能力"
-- raw: "一段："
-  splits:
-  - text: "一段："
-- raw: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
-  splits:
-  - text: "每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢复105每秒恢恢复105每秒恢105每秒恢"
-- raw: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
-  splits:
-  - text: "佛挡杀佛水电费水电费水电费是的飞士大夫撒飞士大夫撒飞士大夫撒飞士大夫撒"
-- raw: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
-  splits:
-  - text: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
-- raw: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
-  splits:
-  - text: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
-- raw: "提示：冲击手太阴肺经少"
-  splits:
-  - text: "提示：冲击手太阴肺经少"
-- raw: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
-  splits:
-  - text: "回光：当生命值当生命值当生命值当生命值当生命值当生命"
-- raw: "冲击会阴穴可获得强化属性"
-  splits:
-  - text: "冲击会阴穴可获得强化属性"
-- raw: "外攻伤害"
-  splits:
-  - text: "外攻伤害"
-- raw: "内攻伤害"
-  splits:
-  - text: "内攻伤害"
-- raw: "技能冷却"
-  splits:
-  - text: "技能冷却"
-- raw: "3秒"
-  splits:
-  - text: "3秒"
-- raw: "技能范围"
-  splits:
-  - text: "技能范围"
-- raw: "攻击时1%几率提升50%的身法，持续30s，发生发大"
-  splits:
-  - text: "攻击时1%几率提升50%的身法，持续30s，发生发大"
-- raw: "激活完成"
-  splits:
-  - text: "激活完成"
-- raw: "洗练完成"
-  splits:
-  - text: "洗练完成"
-- raw: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
-  splits:
-  - text: "条条大路通成功，融汇贯通好境界，不畏艰险好英雄。功成名就在今天。"
-- raw: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
-  splits:
-  - text: "不生气，不眼白不生气，不眼白不生气，不眼白不生气，不眼白"
-- raw: "融汇"
-  splits:
-  - text: "融汇"
+  - text: "化境"
 - raw: "江湖武林之中群雄乱起，豪杰并出，你将面临各个强者生存下去"
   splits:
   - text: "江湖武林之中群雄乱起，豪杰并出，你将面临各个强者生存下去"
@@ -5462,9 +5876,6 @@
 - raw: "进入江湖"
   splits:
   - text: "进入江湖"
-- raw: "未解锁"
-  splits:
-  - text: "未解锁"
 - raw: "罗德罗德罗德罗罗德罗德罗德罗"
   splits:
   - text: "罗德罗德罗德罗罗德罗德罗德罗"
@@ -5555,9 +5966,6 @@
 - raw: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
   splits:
   - text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
-- raw: "成长"
-  splits:
-  - text: "成长"
 - raw: "主动招式"
   splits:
   - text: "主动招式"
@@ -5732,9 +6140,6 @@
 - raw: "关门"
   splits:
   - text: "关门"
-- raw: "亲传"
-  splits:
-  - text: "亲传"
 - raw: "两派好感达到"
   splits:
   - text: "两派好感达到"
@@ -5822,9 +6227,6 @@
 - raw: "修为:"
   splits:
   - text: "修为:"
-- raw: "学习"
-  splits:
-  - text: "学习"
 - raw: "学习轻功需要达到对应的条件，轻功分为初级、高级2个阶段，消耗相应的道具材料可以提升轻功的等级,改变轻功的表现形式和实际效果。轻功值可通过完成对应的任务或学习轻功获得，不同的轻功在不同的地形上有明显的优势。"
   splits:
   - text: "学习轻功需要达到对应的条件，轻功分为初级、高级2个阶段，消耗相应的道具材料可以提升轻功的等级,改变轻功的表现形式和实际效果。轻功值可通过完成对应的任务或学习轻功获得，不同的轻功在不同的地形上有明显的优势。"
@@ -6065,6 +6467,12 @@
 - raw: "诋毁"
   splits:
   - text: "诋毁"
+- raw: "泸州"
+  splits:
+  - text: "泸州"
+- raw: "花费：       100\\n消耗：       3"
+  splits:
+  - text: "花费：       100\\n消耗：       3"
 - raw: "音乐"
   splits:
   - text: "音乐"
@@ -6236,9 +6644,6 @@
 - raw: "描述内容"
   splits:
   - text: "描述内容"
-- raw: "激活码"
-  splits:
-  - text: "激活码"
 - raw: "技能特效"
   splits:
   - text: "技能特效"
@@ -6284,6 +6689,12 @@
 - raw: "穿戴"
   splits:
   - text: "穿戴"
+- raw: "烟雨江湖"
+  splits:
+  - text: "烟雨江湖"
+- raw: "普通时装"
+  splits:
+  - text: "普通时装"
 - raw: "回购"
   splits:
   - text: "回购"
@@ -6395,9 +6806,6 @@
 - raw: "功能1：\\n经脉点位由外而内分层级打通。五脏开窍不区分层级，但需打通所有经脉点。打通经脉点和五脏开窍会消耗一定的修为值。"
   splits:
   - text: "功能1：\\n经脉点位由外而内分层级打通。五脏开窍不区分层级，但需打通所有经脉点。打通经脉点和五脏开窍会消耗一定的修为值。"
-- raw: "防具"
-  splits:
-  - text: "防具"
 - raw: "饰品"
   splits:
   - text: "饰品"
@@ -6629,6 +7037,9 @@
 - raw: "存储外观"
   splits:
   - text: "存储外观"
+- raw: "云账号"
+  splits:
+  - text: "云账号"
 - raw: "斩工时佛挡杀佛水电"
   splits:
   - text: "斩工时佛挡杀佛水电"
@@ -6680,9 +7091,6 @@
 - raw: "你的回礼"
   splits:
   - text: "你的回礼"
-- raw: "开始"
-  splits:
-  - text: "开始"
 - raw: "叫一"
   splits:
   - text: "叫一"
@@ -6737,9 +7145,6 @@
 - raw: " 天机老头"
   splits:
   - text: " 天机老头"
-- raw: "无"
-  splits:
-  - text: "无"
 - raw: "卧龙"
   splits:
   - text: "卧龙"
@@ -6899,15 +7304,9 @@
 - raw: "简介："
   splits:
   - text: "简介："
-- raw: "外攻："
-  splits:
-  - text: "外攻："
 - raw: "外防："
   splits:
   - text: "外防："
-- raw: "内攻："
-  splits:
-  - text: "内攻："
 - raw: "内防："
   splits:
   - text: "内防："
@@ -6944,6 +7343,9 @@
 - raw: "乐得不得了不得了不得了！"
   splits:
   - text: "乐得不得了不得了不得了！"
+- raw: "你撞见了刺客"
+  splits:
+  - text: "你撞见了刺客"
 - raw: "朋友"
   splits:
   - text: "朋友"
