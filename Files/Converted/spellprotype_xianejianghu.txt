@@ -10033,6 +10033,54 @@
   splits: []
 - raw: "134312#0##0###0#0#1####0#####0#0#0#0#0#1343120#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0#0#0#0#"
   splits: []
+- raw: "134400#0#一阳#1#初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉.#quan_1440#2000#0#0###身前直线3米#0##spell_130810_go#sfx_main_hero_130810_4&0&true&true##0#0#0#0#410#1344000#0#0#0#0#0#0#0#0#0#1000#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130810##65#0#50000#3#3##0#4#0#0##0#0#0#2#3.0#0.5#0#0#0#0#0##0###4#0##1.33##1##0#0#"
+  splits:
+  - split: 2
+    text: "一阳"
+    translated: "One Yang"
+  - split: 4
+    text: "初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉."
+    translated: "At the initial stage, practitioners can strike a three‑yard‑wide gap in an opponent through spirit projection; if hit, it feels like fire needles piercing to the bone and causes stagnation of Qi on half the body. Upon reaching the peak stage, their fingers emit a hidden red glow that can penetrate through three layers of dark steel armor and block the enemy's vital meridians."
+  - split: 11
+    text: "身前直线3米"
+    translated: "A straight line extending 3 meters in front."
+- raw: "134401#0#一阳-三品#0###0#0#7####0###sfx_main_hero_130810_3&0&true&true##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#2#4.0#0.5#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits:
+  - split: 2
+    text: "一阳-三品"
+    translated: "One Yang ‑ Third Rank"
+- raw: "134402#0#一阳-二品#0###0#0#7####0###sfx_main_hero_130810_2&0&true&true##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#2#5.5#0.5#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits:
+  - split: 2
+    text: "一阳-二品"
+    translated: "One Yang ‑ Second Rank Official"
+- raw: "134403#0#一阳-一品#0###0#0#7####0###sfx_main_hero_130810&0&true&true##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#2#7.5#0.5#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits:
+  - split: 2
+    text: "一阳-一品"
+    translated: "One Yang ‑ First Rank Official"
+- raw: "134410#0#一阳真气#1#以食指抵膻中穴，渡纯阳真气游走十二正经，可解寒毒、愈内伤；恢复自身60%已损失生命值。#quan_1441#1666#0#0###自身#0##spell_130811_go#sfx_main_hero_130810_jiaxue&0&true&true##0#0#0#0#182#1344100#0#0#0#0#0#0#0#0#0#666#0#0#0#0#0#0#0#0#0#0#SFX_Char_skill_Healing_Yiyang##64#0#15000#3#3##0#3#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###3#0##1.0##1##0#0#"
+  splits:
+  - split: 2
+    text: "一阳真气"
+    translated: "One Yang True Qi"
+  - split: 4
+    text: "以食指抵膻中穴，渡纯阳真气游走十二正经，可解寒毒、愈内伤；恢复自身60%已损失生命值。"
+    translated: "Place the index finger on the Dazhong acupoint and guide the pure Yang True Qi to flow through the twelve main meridians. This can dispel cold poisons and heal internal injuries, restoring up to 60% of lost health points."
+  - split: 11
+    text: "自身"
+    translated: "Oneself"
+- raw: "134500#0#少泽·残#1#剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。#quan_1450#1100#0#0###身前直线6米#0##spell_130820_go#sfx_main_hero_130820&0&true&true##0#0#0#0#410#1345000#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130820##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.5#0#0#0#0#0##0###4#0##0.66##1##0#0#"
+  splits:
+  - split: 2
+    text: "少泽·残"
+    translated: "Shaore · Can"
+  - split: 4
+    text: "剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。"
+    translated: "Sword energy emanated from the hand, coursing through the Lesser Yang Small Intestine Meridian and erupting at the Shaohai point. Initially, it was as fine as a spider's thread, slicing silently through space, capable of penetrating willow leaves without startling birds within three paces. Those struck initially felt a slight coolness on their skin; after three breaths, the chilling energy penetrated to the bones, causing limbs to stiffen and tingle as if frozen in an ice cave."
+  - split: 11
+    text: "身前直线6米"
+    translated: "Straight ahead 6 meters"
 - raw: "150000#0#百战圣功#7#经百战之磨砺，历尽沙场险恶。内力深厚，刚柔相济。#xinfa_1000#2112#2#2#0#0#0#0#0#spell_103_go#sfx_tongyongxuqi_gang&0&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#150000#90000#4#4#0#0#3#0#0#0#0#0#3#0#0.0#0.0#1|2009&2|2010&3|2011&4|2016#150001#0#9284#0#0#0#0##3#1750#0#0.0#72120|72130|72140|72150#0#0#0#0#"
   splits:
   - split: 2
