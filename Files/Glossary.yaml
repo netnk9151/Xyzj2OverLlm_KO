@@ -2923,6 +2923,32 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 云烟
+  result: Yun Yan
+  badtrans: true
+  only:
+    - npc_prototype.txt
+  literal: Yunyan
+- raw: 云老板
+  result: Boss Yun
+  badtrans: true
+  direct: Yun - boss
+  literal: yun lao ban
+- raw: 颖儿
+  result: Ying'er
+  badtrans: true
+  direct: clever - child
+  literal: ying er
+- raw: 玉儿
+  result: Yu'er
+  badtrans: true
+  direct: jade - child
+  literal: yu er
+- raw: 息云
+  result: Xi Yun
+  badtrans: true
+  direct: rest - cloud
+  literal: xi yun
 - raw: 白姑娘  
   result: Miss Bai  
   badtrans: true  
@@ -5030,6 +5056,16 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 潇湘山庄
+  result: Xiaoxiang Mountain Villa
+  badtrans: true
+  direct: xiaoxiang - mountain - manor
+  literal: xiao xiang shan zhuang
+- raw: 沙匪
+  result: Sand Bandit
+  badtrans: true
+  direct: sand - bandits
+  literal: sha fei
 - raw: 沙鼠  
   result: Sand Rat 
   badtrans: true  
@@ -5765,7 +5801,7 @@
   direct: Faithful Mausoleum Sect  
   literal: Xin ling zong  
 - raw: 凌云门  
-  result: Lingyun Sect  
+  result:  Soaring Clouds Sect  
   badtrans: true  
   direct: Soaring Cloud Sect  
   literal: Ling yun men  

@@ -1,4 +1,8 @@
-﻿- raw: 一张泛旧的纸页，上面记载了碎铁
+﻿- raw: "{E}此人受凌云门之托盗走了我派情报，望能有门人或侠士速速追回！"
+  result: "{E}, This person was entrusted by Soaring Cloud Sect to steal our sect's information. We hope that a disciple or hero can quickly retrieve it!"
+- raw: “杂之广义，无所不包”乃我派之根基，兼收百家之长又有何错？书院弟子不是向来以仁为己任么？今日为何如此咄咄逼人？
+  result: "The broad meaning of 'inclusiveness, embracing all' is the foundation of our sect. What is wrong with learning from the strengths of a hundred schools? Isn't it the duty of the academy disciples to uphold benevolence? Why are you being so aggressive today?"
+- raw: 一张泛旧的纸页，上面记载了碎铁
   result: An old paper page that Sui Tie recorded on it
 - raw: 一张泛旧的纸页，上面记载了碎铁·雷火金丸配方
   result: An old paper page that Sui Tie recorded on it · Thunderfire Golden Pill Formula
@@ -1457,6 +1461,11 @@
   result: "Yang\u00A0Ruoshui"
 
 # Names
+- raw: 方磨弈
+  result: Fang Moyi
+  badtrans: true
+  direct: square - grind - game
+  literal: fang mo yi
 - raw: 奇斯年  
   result: Qi Sinian  
   badtrans: true  
