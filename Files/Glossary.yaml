@@ -2923,6 +2923,11 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 华昊
+  result: Hua Hao
+  badtrans: true
+  direct: Hua Hao
+  literal: Hua Hao
 - raw: 云烟
   result: Yun Yan
   badtrans: true
@@ -4319,8 +4324,6 @@
   literal: Xiao Hong  
 - raw: 诡手  
   result: Gui Shou  
-  allowalt: 
-    - Cunning hands
   badtrans: true  
   direct: Devious Hand  
   literal: Guishou  
@@ -5056,6 +5059,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 昭月门
+  result: Bright Moon Sect
+  badtrans: true
+  direct: Zhao Moon Sect
+  literal: Zhao Yue Men
 - raw: 潇湘山庄
   result: Xiaoxiang Mountain Villa
   badtrans: true
