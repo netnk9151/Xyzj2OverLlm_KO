@@ -31033,6 +31033,112 @@
   - split: 33
     text: "获得35%的反伤效果"
     translated: "Obtain a 35% counter‑damage effect"
+- raw: "1534000#千九掷#1#15#0#1#0#0####0##0#0#0#30#1#30000#0#0#0#2#0#0#0#1534001##0#1#0#0#三才#攻击目标时，30%概率对目标造成一次内外攻威力为150的伤害，调息30秒。#buffnew_qianggong#0#0#1534000#0##0#0#0#1534000##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷"
+    translated: "Thousand‑nine throws"
+  - split: 32
+    text: "三才"
+    translated: "Three Powers"
+  - split: 33
+    text: "攻击目标时，30%概率对目标造成一次内外攻威力为150的伤害，调息30秒。"
+    translated: "When attacking the target, there is a 30% chance to deal internal and external damage with power of 150; regain composure for 30 seconds."
+- raw: "1534001#千九掷-附伤#0#1#1#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#150#150#0####0#0#1534001#0##0#0#0#1534001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷-附伤"
+    translated: "A thousand arrows shot at once ‑ Inflict additional wounds"
+- raw: "1534002#千九掷#1#15#0#1#0#0####0##0#0#0#30#1#30000#0#0#0#2#0#0#0#1534003##0#1#0#0#六元#攻击目标时，15%概率造成目标10%最大生命值伤害，调息30秒。#buffnew_luanzhan#0#0#1534002#0##0#0#0#1534002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷"
+    translated: "Thousand‑nine throws"
+  - split: 32
+    text: "六元"
+    translated: "Six Yuan"
+  - split: 33
+    text: "攻击目标时，15%概率造成目标10%最大生命值伤害，调息30秒。"
+    translated: "When attacking the target, there is a 15% chance to deal damage equal to 10% of the target's maximum health; then pause and recover for 30 seconds."
+- raw: "1534003#千九掷-附伤#0#1#1#1#0#0####0##0#0#0#10000#0#0#0#3#0#0#1000#0#0#0##0#1#0#0####0#0#1534003#0##0#0#0#1534003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷-附伤"
+    translated: "A thousand arrows shot at once ‑ Inflict additional wounds"
+- raw: "1534004#千九掷#1#15#0#1#0#0####0##0#0#0#15#1#30000#0#0#0#0#0#0#0#153401##0#1#0#0#无常#攻击目标时，15%概率对自身造成5%最大生命值伤害，调息30秒。#buffnew_shangti#0#0#1534004#0##0#0#0#1534004##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷"
+    translated: "Thousand‑nine throws"
+  - split: 32
+    text: "无常"
+    translated: "Impermanence"
+  - split: 33
+    text: "攻击目标时，15%概率对自身造成5%最大生命值伤害，调息30秒。"
+    translated: "When attacking the target, there is a 15% chance of causing 5% maximum health damage to oneself and requiring 30 seconds to recover."
+- raw: "1534005#千九掷-附伤#0#1#0#1#0#0####0##0#0#0#10000#0#0#0#2#0#0#500#0#0#0##0#1#0#0####0#0#1534005#0##0#0#0#1534005##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千九掷-附伤"
+    translated: "A thousand arrows shot at once ‑ Inflict additional wounds"
+- raw: "1534100#孤注一掷#1#15#0#1#0#0####0##0#0#0#10000#1#30000#0#0#0#0#0#0#0#153411##0#1#0#0#阳数#攻击时消耗自身15%的真气，获得15%内外攻加成，持续10秒，#buffnew_mofang#0#0#1534100#0##0#0#0#1534100##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "孤注一掷"
+    translated: "All in; take a high‑risk gamble"
+  - split: 32
+    text: "阳数"
+    translated: "Yang Number"
+  - split: 33
+    text: "攻击时消耗自身15%的真气，获得15%内外攻加成，持续10秒，"
+    translated: "During an attack, it consumes 15% of its own True Qi, gaining a 15% boost to both internal and external attacks, lasting for 10 seconds."
+- raw: "1534101#孤注一掷#0#19#0#1#0#0####0##0#0#0#10000#0#0#0#2#0#0#-1500#0#0#3##0#1#0#0####0#0#1534101#0##0#0#0#1534101##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "孤注一掷"
+    translated: "All in; take a high‑risk gamble"
+- raw: "1534102#孤注一掷#1#23#0#1#10000#0####0##0#0#0#10000#0#0#0#1#0#0#15#0#0#0#1020|1021#0#1#0#0####0#0#1534102#0##0#0#0#1534102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "孤注一掷"
+    translated: "All in; take a high‑risk gamble"
+- raw: "1534103#孤注一掷#1#15#0#1#0#0####0##0#0#0#10#1#30000#0#0#0#0#0#0#0#153412##0#1#0#0#阴数#攻击时10%概率使自身进入3秒的沉默状态，调息30秒#buffnew_zhenhan#0#0#1534103#0##0#0#0#1534103##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "孤注一掷"
+    translated: "All in; take a high‑risk gamble"
+  - split: 32
+    text: "阴数"
+    translated: "Yin number"
+  - split: 33
+    text: "攻击时10%概率使自身进入3秒的沉默状态，调息30秒"
+    translated: "During attack, there is a 10% chance to enter a silence state for 3 seconds; recovery of breath takes 30 seconds."
+- raw: "1534104#孤注一掷#1#42#0#1#3000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#20##0#1#0#0####0#0#1534104#0##0#0#0#1534104##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "孤注一掷"
+    translated: "All in; take a high‑risk gamble"
+- raw: "1534200#醉仙骰影#1#4#0#1#0#0####0##0#0#0#10000#0#0#0#1#0#0#15#1075#0#0##0#1#0#0#弥天#提升自身15%闪避，但受伤时有10%几率获得3秒的30%减速效果，调息30秒#buffnew_yiwei#0#0#1534200#0##0#0#0#1534200##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "醉仙骰影"
+    translated: "Drunk Immortal Dice Shadow"
+  - split: 32
+    text: "弥天"
+    translated: "Vast as the heavens"
+  - split: 33
+    text: "提升自身15%闪避，但受伤时有10%几率获得3秒的30%减速效果，调息30秒"
+    translated: "Increase own 15% Dodge, but when injured, has a 10% chance to receive a 3 second effect of 30% Slow. Recompose for 30 seconds."
+- raw: "1534201#醉仙骰影#1#15#0#1#0#0####0##0#0#0#10#1073741826#30000#0#0#0#0#0#0#0#153421##0#1#0#0####0#0#1534201#0##0#0#0#1534201##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "醉仙骰影"
+    translated: "Drunk Immortal Dice Shadow"
+- raw: "1534202#醉仙骰影#1#4#0#1#3000#0####0##0#0#0#10000#0#0#0#1#0#0#-30#1090#0#0##0#1#0#0####0#0#1534202#0##0#0#0#1534202##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "醉仙骰影"
+    translated: "Drunk Immortal Dice Shadow"
 - raw: "1600000#飞花摘叶-伤害#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#5#40#100#寒光#额外造成2次伤害#0#0#0#1600000#0#sfx_main_hero_Anqi_hit#0#0#0#1600000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1

@@ -6443,11 +6443,11 @@
   - split: 16
     text: "归还金半两货物"
     translated: "Return the half jin of gold merchandise"
-- raw: "380004#20#1#0&24|973557|1#3800#抵达码头后，展开了激烈的战斗。最终成功地夺回了被掠夺的货物，将货物交还给金半两后，他感激不已，赞扬道：古道热肠，侠肝义胆！武功盖世，堪为正道的楷模！我实在愧不敢当！#0#380003#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "380004#20#1#0&24|973557|1#3800#抵达码头后，展开了激烈的战斗。最终成功地夺回了被掠夺的货物，将货物交还给金半两后，他感激不已，赞扬道：古道热肠，侠肝义胆！武功盖世，堪为正道的楷模！我实在愧不敢当！#0#380003#50716#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "抵达码头后，展开了激烈的战斗。最终成功地夺回了被掠夺的货物，将货物交还给金半两后，他感激不已，赞扬道：古道热肠，侠肝义胆！武功盖世，堪为正道的楷模！我实在愧不敢当！"
-    translated: "Upon reaching the port, a fierce battle ensued. After successfully reclaiming the stolen goods and returning them to Jin Banliang, he was immensely grateful and praised him: A heart of gold, a gallant spirit! Martial prowess that covers the world, worthy to be an exemplar of righteousness! I am truly unworthy to receive such praise!"
+    translated: "Upon arriving at the port, a fierce battle ensued. They ultimately succeeded in recovering the plundered goods and handed them back to Brother Jin Baner. He was immensely grateful and praised them saying, : A warm heart for old friends and a gallant spirit of chivalry! World‑renowned martial arts skills worthy of being a model for the righteous path! I am truly unworthy to receive such praise!"
 - raw: "380101#20#1#0&24|986254|1#3801#来到枰栌城时，我遇见了两位名叫展磐和匡何峰的食客，他们因为咸甜的问题而争执不休。#0##0#####0##0#静观其变##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -11909,6 +11909,21 @@
   - split: 5
     text: "击败阿姝"
     translated: "Defeat A'Shu"
+- raw: "515501#1#1#898140#5155#赌赢赵三爷#0#0#0#0#0#7033##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "赌赢赵三爷"
+    translated: "Winning over Brother Zhao Sanye"
+- raw: "515502#13#1#7033#5155#去一旁与赵三爷交谈#898135#515501#0#0#0##37438|1#0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "去一旁与赵三爷交谈"
+    translated: "Go aside to talk with Zhao San Ye."
+- raw: "515601#16#1#7035|7039|7040#5156#击败几人#898289#0#0#0#0##37439|1#0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "击败几人"
+    translated: "Defeat several people"
 - raw: "900100#6#1#259.834,252,1518.621#9001#前往曲凰说的地点#0##9004#####0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -16990,6 +17005,51 @@
   - split: 5
     text: "前往下层书桌"
     translated: "Proceed to the lower level desk"
+- raw: "50034001#13#1#180212#50034#和庄家对话#0#0#50717#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "和庄家对话"
+    translated: "Dialogue with the Banker"
+- raw: "50034002#19#1#277.4126,223.0471,655.236,3#50034#离开赌坊#0#50034001#50718#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "离开赌坊"
+    translated: "Leaving the gambling den"
+- raw: "50034003#5#1#180209|180210|180211#50034#打败劫道三人#0#50034002#50719#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "打败劫道三人"
+    translated: "Defeat the three bandits blocking the path"
+- raw: "50035001#13#1#180206#50035#与赌客对话#0#0#50720#0#0#180206##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与赌客对话"
+    translated: "Conversing with a gambler"
+- raw: "50035002#1#1#897998#50035#赢下庄家#0#50035001#50721#0#0#180208##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "赢下庄家"
+    translated: "Defeat the Banker"
+- raw: "50035003#1#1#897997#50035#继续赌赢庄家#0#50035002#50722#0#0#180208##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "继续赌赢庄家"
+    translated: "Continue betting against the house"
+- raw: "50035004#1#1#897996#50035#输给庄家#0#50035003#50723#0#0#180208##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "输给庄家"
+    translated: "Lose to the house"
+- raw: "50035005#19#1#188.6319,225.327,621.4687,3#50035#前往院落#0#50035004#50724#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "前往院落"
+    translated: "Go to the courtyard"
+- raw: "50035006#5#1#180206|180207#50035#打败两人#0#50035005#50725#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "打败两人"
+    translated: "Defeat two people"
 - raw: "100500011#13#1#205005#100501#和镇府将军对话#0##50501#####0##0###0#0#0#1#0#0############"
   splits:
   - split: 5
@@ -18380,7 +18440,7 @@
   - split: 5
     text: "对话谷夫人"
     translated: "Dialogue with Lady Gu"
-- raw: "101019007#19#1#84.7031,238.2818,736.1105#1010190#质问汪云清#0#101019006#5801#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "101019007#13#1#88237#1010190#质问汪云清#0#101019006#5801#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "质问汪云清"
