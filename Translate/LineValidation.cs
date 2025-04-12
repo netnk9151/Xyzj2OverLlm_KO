@@ -260,11 +260,15 @@ public static partial class LineValidation
             }
         }
 
-        // Removed :
-        if (raw.Contains('·') && !result.Contains('·'))
+        // Removed characters
+        string[] checkForRemoval = { "·", "(", ")", "..." };
+        foreach (var check in checkForRemoval)
         {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "·");
+            if (raw.Contains(check) && !result.Contains(check))
+            {
+                response = false;
+                correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", check);
+            }
         }
 
         if (raw.Contains("\\n") && !result.Contains("\\n"))

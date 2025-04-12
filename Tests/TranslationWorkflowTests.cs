@@ -388,7 +388,7 @@ public class TranslationWorkflowTests
         //}
 
         if (preparedRaw.EndsWith("...")
-            && preparedRaw.Length < 15
+            && preparedRaw.Length < 100
             && !split.Translated.EndsWith("...")
             && !split.Translated.EndsWith("...?")
             && !split.Translated.EndsWith("...!")

@@ -6823,6 +6823,7 @@
   - split: 5
     text: "路过枰栌城外时，<color=&&00ff00ff>听闻城东村的易虞想要把铁剑去将祖和轩打杀</color>，也不知道这二人什么仇什么怨…"
     translated: "Passing by the outskirts of Pinglu City, <color=&&00ff00ff>I heard that Yiyu from the village to the east of the city intends to kill Zuo Hexuan with his iron sword. I'm not sure what grudge or grievance these two have against each other...</color>"
+    flaggedForRetranslation: true
   - split: 16
     text: "交给易虞铁剑"
     translated: "Give it to Yiyu's Iron Sword"
@@ -6831,6 +6832,7 @@
   - split: 5
     text: "路过枰栌城外时，听闻城东村的易虞想要把铁剑去将祖和轩打杀，也不知道这二人什么仇什么怨…"
     translated: "As I passed by the outskirts of Pinglu City, I heard that Yiyu from the eastern village intended to take his iron sword and kill Zuhuxuan. I didn't know what grudge or resentment they had against each other."
+    flaggedForRetranslation: true
 - raw: "380903#20#1#0&30|972353|1#3809#路过枰栌城外时，<color=&&00ff00ff>听闻城西村的祖和轩想要把铁刀去将易虞打杀</color>，也不知道这二人什么仇什么怨…#0##0#####0##0#交给祖和轩铁刀##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6844,6 +6846,7 @@
   - split: 5
     text: "路过枰栌城外时，听闻城西村的祖和轩想要把铁刀去将易虞打杀，也不知道这二人什么仇什么怨…"
     translated: "While passing by the outskirts of Pinglu city, I heard that Zu Hui Xuan from Xi Village wanted to use a steel blade to kill Yi Yu. I'm not sure what grudge or grievance these two have against each other."
+    flaggedForRetranslation: true
 - raw: "381001#20#1#0&30|971947|1#3810#枰栌城内的林玲，他的弟弟实在败家，连自家的祖传宝刀也敢抵押，实在不孝！若是有机会<color=&&00ff00ff>我定要帮她赎回。</color>#0##0#####0##0#拿到祖传宝刀##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -8212,6 +8215,8 @@
   - split: 5
     text: "<color=&&00ff00ff>受柳载仁之托寻回八株天麻</color>，他告诉我可以先去找枰栌的湛初夏问问。"
     translated: "<color=&&00ff00ff>Trusted by Liu Zairen to retrieve the eight stems of Tianma, he told me I could first go and ask about it with Zhanchu Xia from Pinglu.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
   - split: 16
     text: "去找湛初夏"
     translated: "Go find Zhan Chu Xia"
@@ -8220,24 +8225,34 @@
   - split: 5
     text: "受柳载仁之托寻回八株天麻，他让我先去找枰栌的湛初夏问问。"
     translated: "Tasked by Liu Zairen to find the eight stalks of Tian Ma, he asked me to first inquire with Zhan Chu Xia of Pinglu."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
 - raw: "390403#20#1#0&24|976223|1#3904#<color=&&00ff00ff>湛初夏告之在枰栌附近山洞之中有天麻存在，也可以找他购买。</color>#0##0#####0##0#凑齐八株天麻##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "<color=&&00ff00ff>湛初夏告之在枰栌附近山洞之中有天麻存在，也可以找他购买。</color>"
     translated: "<color=&&00ff00ff>Duan Chu Xia informed that there is Heaven's Hemp in the mountain cave near Pinglu, and it can also be purchased from him.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
   - split: 16
     text: "凑齐八株天麻"
     translated: "Collect eight stalks of heavenly ginseng"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
 - raw: "390404#20#1#0&3|37103|8;24|976223|1#3904#湛初夏告之在枰栌附近山洞之中有天麻存在，也可以找他购买。#0#390403#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "湛初夏告之在枰栌附近山洞之中有天麻存在，也可以找他购买。"
     translated: "Zhan Chu Xia informed him that there is ginseng in a cave near Pinglu Mountain, and he can also buy it from him."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
 - raw: "390405#20#1#0&3|37103|8;24|976223|1#3904#凑齐八株天麻了，<color=&&00ff00ff>回去找柳载仁吧。</color>#0##0#####0##0#去找柳载仁##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "凑齐八株天麻了，<color=&&00ff00ff>回去找柳载仁吧。</color>"
     translated: "We've gathered eight stalks of Tian Ma. <color=&&00ff00ff>Let's go back and find Liu Zairen.</color>"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
   - split: 16
     text: "去找柳载仁"
     translated: "Go find Liu Zairen"
@@ -8246,6 +8261,8 @@
   - split: 5
     text: "凑齐八株天麻了，回去找柳载仁吧。"
     translated: "Gathered the eight stalks of Tianma. Let's go find Liu Zairen"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Heavenly Hemp,天麻,"
 - raw: "390501#20#1#0&24|957265|1#3905#位百秋为非作歹，<color=&&00ff00ff>要除掉位百秋才是！</color>#0##0#####0##0#击败位百秋##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5

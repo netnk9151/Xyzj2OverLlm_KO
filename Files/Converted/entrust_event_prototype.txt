@@ -896,6 +896,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -4088,6 +4089,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -8608,6 +8610,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -9400,6 +9403,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -9653,6 +9657,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -9796,6 +9801,7 @@
   - split: 34
     text: "从{E}处获得｛I}（{IsCanFinish:0:1}/1)"
     translated: "Obtained from {E}: Item {IsCanFinish:0:1}/1"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -12317,6 +12323,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -12383,6 +12390,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -12405,6 +12413,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -12889,6 +12898,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -15621,6 +15631,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -16094,6 +16105,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -16292,6 +16304,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -16466,6 +16479,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -19441,6 +19455,7 @@
   - split: 24
     text: "海边常有一些匪盗(1641.16,-33.2239)出没，请前去处理。"
     translated: "Bandits often appear near the coast, including 1641.16 and ‑33.2239. Please go to handle them."
+    flaggedForRetranslation: true
   - split: 34
     text: "击败目标点{GetZhiYingTargetPos}的{E}（{NeedKillNpcItemsCount}/{N})"
     translated: "Defeat target point {GetZhiYingTargetPos}'s {E} ({NeedKillNpcItemsCount}/{N})"
@@ -24461,6 +24476,7 @@
   - split: 34
     text: "击败目标点{GetZhiYingTargetPos}的采花贼（{NeedKillNpcItemsCount}/{N})"
     translated: "Defeat {NeedKillNpcItemsCount} out of {N} flower thieves targeting point {GetZhiYingTargetPos}."
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -24836,6 +24852,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -24924,6 +24941,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25001,6 +25019,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25715,6 +25734,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25726,6 +25746,7 @@
   - split: 34
     text: "将｛I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})交给｛E}"
     translated: "Hand over {HaveWaitEntrustTargetItemCount} to {WaitEntrustTargetItemCount}"
+    flaggedForRetranslation: true
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
