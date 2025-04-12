@@ -77,7 +77,7 @@ public class TranslationWorkflowTests
             await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
     }
 
-    [Fact(DisplayName = "6. PackageFinalTranslation")]
+    [Fact(DisplayName = "6. Package to Game Files")]
     public async Task PackageFinalTranslation()
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
