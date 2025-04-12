@@ -1738,12 +1738,11 @@
 - raw: 阿弥陀佛
   result: Amituofo
   badtrans: true
-- raw: 承让了
-  result: I respectfully concede
-  allowalt: 
-    - respectfully concede
-    - graciously concede
-  badtrans: true
+- raw: 承让了  
+  result: Thank you for letting me win  
+  badtrans: true  
+  direct: accept yielding  
+  literal: cheng rang le
 - raw: 柔茹刚吐
   result: Softness devours hardness and spits it out.
   badtrans: true
@@ -2940,6 +2939,16 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 徐善忠  
+  result: Xu Shanzhong  
+  badtrans: true  
+  direct: Xu virtuous loyal  
+  literal: Xu Shanzhong
+- raw: 春竹  
+  result: Chun Zhu 
+  badtrans: true  
+  direct: spring bamboo  
+  literal: chun zhu
 - raw: 凌将军  
   result: General Ling  
   badtrans: true  
