@@ -45,9 +45,14 @@ public static partial class LineValidation
         return raw;
     }
 
-    public static string PrepareResult(string llmResult)
+    public static string PrepareResult(string raw, string llmResult)
     {
         // Fix up anything we know the LLM has messed up but can autocorrect before validation
+
+        // Easy way to fix ...
+        if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
+            llmResult = $"{llmResult}..";
+
         return llmResult;
     }
 

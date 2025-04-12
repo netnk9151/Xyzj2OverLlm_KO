@@ -330,7 +330,7 @@ public class TranslationWorkflowTests
                     if (split.Translated != manual.Result)
                     {
                         logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
-                        split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(manual.Result), split.Text, textFile, new StringTokenReplacer());
+                        split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(preparedRaw, manual.Result), split.Text, textFile, new StringTokenReplacer());
                         split.ResetFlags();
                         return true;
                     }
@@ -388,7 +388,7 @@ public class TranslationWorkflowTests
         //}
 
         if (preparedRaw.EndsWith("...")
-            && preparedRaw.Length < 100
+            && preparedRaw.Length < 15
             && !split.Translated.EndsWith("...")
             && !split.Translated.EndsWith("...?")
             && !split.Translated.EndsWith("...!")

@@ -999,7 +999,7 @@ public static class TranslationService
             while (!validationResult.Valid && retryCount < (config.RetryCount ?? 1))
             {
                 var llmResult = await TranslateMessagesAsync(client, config, messages);
-                preparedResult = LineValidation.PrepareResult(llmResult);
+                preparedResult = LineValidation.PrepareResult(preparedRaw, llmResult);
                 validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, textFile);
                 validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, textFile, tokenReplacer);
 
