@@ -1497,8 +1497,6 @@
   direct: Sect Liking  
   literal: Zong men hao gan  
 
-
-
 # Weapons
 - raw: 刀
   result: Blade
@@ -1590,6 +1588,8 @@
   badtrans: false  
 - raw: 修养
   result: Cultivation
+  allowalt: 
+    - Cultivate
   badtrans: true  
 - raw: 元气  
   result: Vitality  
@@ -2827,18 +2827,6 @@
   result: Gao Family
   badtrans: true
 
-# Kings
-- raw: 景王  
-  result: King Jing  
-  badtrans: true  
-  direct: Scenic King  
-  literal: Jing Wang  
-- raw: 晏王
-  result: King Yan
-  badtrans: true
-  direct: Yan King
-  literal: Yan Wang
-
 # Character names with non breaking spaces
 - raw: 沈雁弓
   result: "Shen\u00A0Yangong"
@@ -2944,6 +2932,11 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 上官鸿
+  result: Shangguan Hong
+  badtrans: true
+  direct: Shangguan Hong
+  literal: Shangguan Hong
 - raw: 徐善忠  
   result: Xu Shanzhong  
   badtrans: true  
@@ -5911,7 +5904,59 @@
   literal: Bai xiao men  
 
 
+# Kings
+# - raw: 皇
+#   result: Emperor
+#   allowalt: 
+#     - Huang # Names
+#   badtrans: true
+#   direct: Sovereign
+#   literal: Huang
+# - raw: 王
+#   result: King
+#   allowalt: 
+#     - Wang # Names
+#   badtrans: true  
+- raw: 景王  
+  result: King Jing  # Might actually be his name as in Jing Wang
+  badtrans: true  
+  direct: Scenic King  
+  literal: Jing Wang  
+- raw: 晏王
+  result: King of Yan
+  badtrans: true
+  direct: Yan King
+  literal: Yan Wang
+- raw: 楚王  
+  result: King of Chu  
+  allowalt:
+    - Kings of Chu
+  badtrans: true  
+  direct: Chu King  
+  literal: Chu Wang  
+- raw: 齐王
+  result: King of Qi
+  badtrans: true
+  direct: Qi King
+  literal: Qi Wang
+- raw: 周王
+  result: King of Zhou
+  badtrans: true
+  direct: Zhou King
+  literal: Zhou Wang
+- raw: 卫王
+  result: King of Wei
+  badtrans: true
+  direct: Wei King
+  literal: Wei Wang
+
+
 # Kingdoms
+- raw: 卫国
+  result: Wei Kingdom
+  badtrans: false # Can also be home land
+  direct: Wei Country
+  literal: Wei Guo
 - raw: 燕国
   result: Yan Kingdom
   badtrans: true
