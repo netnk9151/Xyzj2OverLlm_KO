@@ -5917,6 +5917,15 @@
 #   allowalt: 
 #     - Wang # Names
 #   badtrans: true  
+- raw: 王爷
+  result: Prince
+  badtrans: true
+  literal: Wang Ye
+- raw: 灶王爷
+  result: Prince Zao
+  badtrans: true
+  direct: Lord of the Kitchen
+  literal: Zao Wang Ye
 - raw: 景王  
   result: King Jing  # Might actually be his name as in Jing Wang
   badtrans: true  
@@ -5945,7 +5954,7 @@
   direct: Zhou King
   literal: Zhou Wang
 - raw: 卫王
-  result: King of Wei
+  result: Prince of Wei # Referenced as a prince
   badtrans: true
   direct: Wei King
   literal: Wei Wang
