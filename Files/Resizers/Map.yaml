@@ -56,3 +56,13 @@
   sampleText: "Imperial Void Gate"
   idealFontSize: 30
   allowWordWrap: true
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MapView/bgmask/FuBenDetailPanel/Scroll View/Viewport/Content/DiaoLuoList/DiaoLuoPrefab(Clone)/Text (TMP)"
+  sampleText: "Imperial Work Manual - Tier 7"
+  idealFontSize: 16
+  allowWordWrap: false
+- path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MapView/bgmask/FuBenDetailPanel/DirenList/DirenItem*/name"
+  sampleText: "Entering the Hall"
+  idealFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: -50

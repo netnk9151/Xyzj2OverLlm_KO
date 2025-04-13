@@ -2430,6 +2430,11 @@
   badtrans: false
 
 # Titles
+- raw: 将军  
+  result: General  
+  badtrans: true  
+  direct: general  
+  literal: jiangjun
 - raw: 长老
   result: Elder
   allowalt: 

@@ -399,4 +399,25 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
         foreach (var item in items)
             ReplaceSpriteInAsset(item);
     }
+
+    //[HarmonyPrefix, HarmonyPatch(typeof(SweetPotato.ResourceManager), "GetAssetObjectSprite")]
+    //static bool Prefix(string path, ref Sprite __result)
+    //{
+    //    if (CheckPath)
+
+
+    //    // Load your custom sprite
+    //    string modAssetPath = Path.Combine(Paths.PluginPath, "MyModAssets", path.Replace("MyMod/", "") + ".png");
+    //    if (File.Exists(modAssetPath))
+    //    {
+    //        byte[] fileData = File.ReadAllBytes(modAssetPath);
+    //        Texture2D texture = new Texture2D(2, 2);
+    //        texture.LoadImage(fileData);
+    //        __result = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+    //        return false; // Skip the original method
+    //    }
+
+    //    // Fall back to the original method
+    //    return true;
+    //}
 }

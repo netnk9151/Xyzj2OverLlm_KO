@@ -18,10 +18,15 @@ public class TextReplacerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
     internal static Dictionary<string, string> Replacements = [];
+    //Can't be on when dumper is on because it will replace strings before dumper
+    public static bool Enabled = !TextDumperPlugin.Enabled;
 
     private void Awake()
     {
         Logger = base.Logger;
+
+        if (!Enabled)
+            return;
 
         Logger.LogWarning("Loading Prefab Replacements...");
         var resourcesFolder = Path.Combine(Paths.BepInExRootPath, "resources");
@@ -86,23 +91,17 @@ public class TextReplacerPlugin : BaseUnityPlugin
 
             foreach (var component in gameObject.GetComponentsInChildren<Component>(true))
             {
-                //    var textProperty = component.GetType().GetProperty("text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
-                //        ?? component.GetType().GetProperty("Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (component is null)
+                    continue;
 
-                //    if (textProperty != null && textProperty.PropertyType == typeof(string))
-                //    {
-                //        var textValue = textProperty.GetValue(component) as string;
-                //        if (string.IsNullOrEmpty(textValue))
-                //            continue;
+                var type = component.GetType();
 
-                //        if (Replacements.ContainsKey(textValue))
-                //            textProperty.SetValue(component, Replacements[textValue]);
-                //    }
-                //    else
-                //    {
+                if (type is null)
+                    continue;
+
                 var textField =
-                    component.GetType().GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
-                    ?? component.GetType().GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    type.GetField("m_text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    ?? type.GetField("m_Text", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
                 if (textField != null && textField.FieldType == typeof(string))
                 {
@@ -114,7 +113,6 @@ public class TextReplacerPlugin : BaseUnityPlugin
                     if (Replacements.ContainsKey(textValue))
                         textField.SetValue(component, Replacements[textValue]);
                 }
-                //}
             }
         }
     }
