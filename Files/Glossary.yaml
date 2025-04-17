@@ -1,9 +1,4 @@
 ﻿# Terms
-- raw: 刀剑无眼
-  result: Blades and swords have no eyes
-  badtrans: true
-  direct: A sword has no eyes
-  literal: Dāo jiàn wú yǎn
 - raw: 护卫  
   result: Guard  
   badtrans: false  
@@ -2824,6 +2819,109 @@
   result: Outer City
   badtrans: true
 
+
+# Idioms
+- raw: 找死
+  result: courting death
+  allowalt:
+    - court death  
+    - seek death
+    - seeking death
+  badtrans: true
+  direct: Seeking death
+  literal: Zhǎo sǐ.
+- raw: 刀剑无眼
+  result: Blades and swords have no eyes
+  badtrans: true
+  direct: Blade sword has no eyes
+  literal: Dāo jiàn wú yǎn
+- raw: 破釜沉舟
+  result: Breaking the pots and sinking the boats
+  badtrans: true
+  direct: Breaking the pots and sinking the boats.
+  literal: Pò fǔ chén zhōu.
+- raw: 弱肉强食
+  result: The weak are prey to the strong
+  badtrans: true
+  direct: Weak meat, strong eat.
+  literal: Ruò ròu qiáng shí.
+- raw: 高手如云
+  result: Experts are as common as clouds
+  badtrans: true
+  direct: Masters like clouds.
+  literal: Gāo shǒu rú yún.
+- raw: 事半功倍
+  result: Half the effort for double the result  
+  badtrans: true
+  direct: Half work, double the achievement.
+  literal: Shì bàn gōng bèi.
+- raw: 事倍功半
+  result: Double the effort for half the result
+  badtrans: true
+  allowalt:
+    - Double the effort with half the result
+  direct: Double the work, half the achievement.
+  literal: Shì bèi gōng bàn.
+- raw: 调虎离山
+  result: Lure the tiger out of the mountain
+  badtrans: true
+  direct: Move the tiger away from the mountain.
+  literal: Tiáo hǔ lí shān.
+- raw: 冰清玉洁
+  result: Clear as ice and clean as jade
+  badtrans: true
+  direct: Ice-clear, jade-pure.
+  literal: Bīng qīng yù jié.
+- raw: 鲤鱼跳龙门
+  result: Carp leaps through the Dragon Gate
+  badtrans: true
+  direct: The carp jumps the Dragon Gate.
+  literal: Lǐ yú tiào lóng mén.
+- raw: 易如反掌
+  result: As easy as turning one's hand
+  badtrans: true
+  direct: Easy as turning the palm.
+  literal: Yì rú fǎn zhǎng.
+- raw: 剑拔弩张
+  result: swords drawn and bows bent
+  badtrans: false
+  allowalt: 
+    - swords were drawn and bows bent
+    - swords are drawn and bows bent
+  direct: Sword drawn, crossbow set.
+  literal: Jiàn bá nǔ zhāng.
+- raw: 井底之蛙
+  result: Frog at the bottom of the well
+  badtrans: true
+  direct: Frog at the bottom of the well.
+  literal: Jǐng dǐ zhī wā.
+- raw: 坐井观天
+  result: View the sky from the bottom of a well
+  allowalt:
+    - Viewing the sky from the bottom of a well
+  badtrans: true
+  direct: Sitting in the well, watching the sky.
+  literal: Zuò jǐng guān tiān.
+- raw: 以毒攻毒
+  result: Fight poison with poison
+  badtrans: true
+  direct: Use poison to attack poison.
+  literal: Yǐ dú gōng dú.
+- raw: 不共戴天
+  result: Cannot live under the same sky 
+  badtrans: true
+  direct: Cannot share the same sky.
+  literal: Bù gòng dài tiān.
+- raw: 金盆洗手
+  result: Wash one's hands in a Golden Basin
+  badtrans: false
+  direct: Wash hands in a golden basin.
+  literal: Jīn pén xǐ shǒu.
+
+
+
+
+
 # Family
 - raw: 言家
   result: Yan Family
@@ -2937,6 +3035,51 @@
   literal: Wang Zhanggui  
 
 # Names
+- raw: 深略
+  result: Shen Lue
+  badtrans: true
+  direct: deep strategy
+  literal: shen lüe
+- raw: 相瑞
+  result: Xiang Rui
+  badtrans: true
+  direct: omen auspicious
+  literal: xiang rui
+- raw: 徐和昌
+  result: Xu Hechang
+  badtrans: true
+  direct: Slowly-harmony-flourishing
+  literal: Xú Héchāng
+- raw: 斛律巍
+  result: Hulu Wei
+  badtrans: true
+  direct: Measure-law towering
+  literal: Húlǜ Wēi
+- raw: 阿史那宗坦
+  result: Ashina Zongtan
+  badtrans: true
+  direct: A-history-that sect-calm
+  literal: Āshǐnà Zōngtǎn
+- raw: 独孤焱
+  result: Dugu Yan
+  badtrans: true
+  direct: Lone-orphan flame
+  literal: Dúgū Yàn
+- raw: 贺兰震
+  result: Helan Zhen
+  badtrans: true
+  direct: Congratulate-orchid quake
+  literal: Hèlán Zhèn
+- raw: 宇文征
+  result: Yuwen Zheng
+  badtrans: true
+  direct: Universe-text expedition
+  literal: Yǔwén Zhēng
+- raw: 慕容澜
+  result: Murong Lan
+  badtrans: true
+  direct: Admire-rong ripples
+  literal: Mùróng Lán
 - raw: 上官鸿
   result: Shangguan Hong
   badtrans: true
