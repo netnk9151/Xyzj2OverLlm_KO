@@ -1,4 +1,37 @@
 ﻿# Terms
+- raw: 玄阶
+  result: Mystic Tier
+  badtrans: true
+  direct: mysterious tier
+  literal: xuan jie
+- raw: 黄阶
+  result: Yellow Tier
+  badtrans: true
+  direct: yellow tier
+  literal: huang jie
+- raw: 地阶
+  result: Earth Tier
+  badtrans: true
+  direct: earth tier
+  literal: di jie
+- raw: 天阶
+  result: Heaven Tier
+  badtrans: true
+  direct: heaven tier
+  literal: tian jie
+- raw: 凡阶
+  result: Mortal Tier
+  badtrans: true
+  direct: mortal tier
+  literal: fan jie
+
+- raw: 化境
+  result: Transcendant
+  allowalt: 
+    - Transcendence
+  badtrans: true
+  direct: transform realm
+  literal: hua jing
 - raw: 护卫  
   result: Guard  
   badtrans: false  
@@ -1984,7 +2017,54 @@
   direct: Lingjun  
   literal: Lingjun  
 
+# Item Types
+- raw: 秘籍
+  result: Secret Manual
+  badtrans: true
+  direct: secret book
+  literal: mi ji
+- raw: 化境卷
+  result: "Transcendence Scroll"
+  badtrans: true
+  direct: transform realm scroll
+  literal: hua jing juan
+- raw: 淮临珠
+  result: Huailin Pearl
+  badtrans: true
+  direct: Huai approach pearl
+  literal: huai lin zhu
+- raw: 经脉图
+  result: Meridian Map
+  badtrans: true
+  direct: meridian map
+  literal: jing mai tu
+- raw: 天工图
+  result: Divine Craft Map
+  badtrans: true
+  direct: heavenly craftsmanship diagram
+  literal: tian gong tu
+- raw: 天工图谱  
+  result: Divine Craft Map  
+  badtrans: true  
+  direct: Heavenly Work Blueprint  
+  literal: Tiangong Tupu  
+- raw: 造诣书
+  result: Book of Accomplishment
+  badtrans: true
+  direct: attainment book
+  literal: zao yi shu
+- raw: 技能卷
+  result: Skill Scroll
+  badtrans: true
+  direct: skill scroll
+  literal: ji neng juan
+
 # Items and Minerals
+- raw: 云海珠
+  result: Cloud Sea Pearl
+  badtrans: true
+  direct: cloud sea pearl
+  literal: yun hai zhu
 - raw: 天麻  
   result: Heavenly Hemp  
   badtrans: true  
@@ -6525,7 +6605,7 @@
   result: Hidden Blade Technique
   transliteration: Cáng dāo shì  
 - raw: 奇经八脉谱  
-  result: Eight Extraordinary Meridians Chart  
+  result: Eight Meridians Chart  
   badtrans: true  
   direct: Qi Jing Ba Mai Pu  
   literal: Qi Jing Ba Mai Pu  
@@ -6571,11 +6651,6 @@
   badtrans: true  
   direct: Study and Learning  
   literal: Zhi Xue  
-- raw: 天工图谱  
-  result: Celestial Crafting Manual  
-  badtrans: true  
-  direct: Heavenly Work Blueprint  
-  literal: Tiangong Tupu  
 - raw: 参严论  
   result: Treatise on Rigorous Inquiry  
   badtrans: true  
@@ -7224,3 +7299,23 @@
   badtrans: true
   direct: Shao Ze
   literal: Shao Ze
+- raw: 长虹贯日
+  result: Long Rainbow Piercing the Sun
+  badtrans: true
+  direct: long rainbow passing through the sun
+  literal: chang hong guan ri
+- raw: 三环夺月
+  result: Three Rings Seize the Moon
+  badtrans: true
+  direct: three rings snatching the moon
+  literal: san huan duo yue
+- raw: 金铁鸣寒
+  result: Cold Sound of Gold and Iron
+  badtrans: true
+  direct: gold iron ringing cold
+  literal: jin tie ming han
+- raw: 惊鸿一瞬
+  result: Momentary Glimpse of a Surprised Swan
+  badtrans: true
+  direct: startled swan one moment
+  literal: jing hong yi shun

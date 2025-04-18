@@ -1,4 +1,14 @@
-﻿- raw: 你让我赌吗，就像章武帝赌我会不会叛乱一样。
+﻿- raw: （化境）
+  result: (Trancendant)
+  badtrans: true
+  direct: transformation realm
+  literal: hua jing
+- raw: "段:"
+  result: "Node:"
+  badtrans: true
+  direct: "section:"
+  literal: "duan:"
+- raw: 你让我赌吗，就像章武帝赌我会不会叛乱一样。
   result: Are you asking me to gamble, like Emperor Zhangwu gambling whether I'd rebel?
   badtrans: true
   direct: you let me gamble? just like Emperor Zhangwu gamble I will not rebel same.
@@ -3079,7 +3089,7 @@
   direct: Comprehend Martial Study  
   literal: Canwu Wuxue  
 - raw: 人阶武学  
-  result: Human Tier Martial Arts
+  result: Mortal Tier Martial Arts
   badtrans: true  
   direct: Human Rank Martial Study  
   literal: Renjie Wuxue  
@@ -3093,3 +3103,205 @@
   badtrans: true  
   direct: Heaven Rank Martial Study  
   literal: Tianjie Wuxue  
+
+# Items
+- raw: 魁星
+  result: Leader Star
+  badtrans: true
+  direct: leader star
+  literal: kui xing
+- raw: 镇毒
+  result: Poison Suppression
+  badtrans: true
+  direct: suppress poison
+  literal: zhen du
+- raw: 狂澜
+  result: Raging Waves
+  badtrans: true
+  direct: frenzied waves
+  literal: kuang lan
+- raw: 九歌
+  result: Nine Songs
+  badtrans: true
+  direct: nine songs
+  literal: jiu ge
+- raw: 三问
+  result: Three Questions
+  badtrans: true
+  direct: three inquiries
+  literal: san wen
+- raw: 申脉
+  result: Shen Meridian
+  badtrans: true
+  direct: Shen pulse
+  literal: shen mai
+- raw: 鹤年
+  result: Crane Year
+  badtrans: true
+  direct: crane year
+  literal: he nian
+- raw: 青婴
+  result: Qing Ying
+  badtrans: true
+  direct: green infant
+  literal: qing ying
+- raw: 回罡
+  result: Hui Gang
+  badtrans: true
+  direct: return polar star
+  literal: hui gang
+- raw: 晴明
+  result: Qing Ming
+  badtrans: true
+  direct: clear bright
+  literal: qing ming
+- raw: 百会
+  result: Baihui
+  badtrans: true
+  direct: hundred gatherings
+  literal: bai hui  (a specific acupuncture point)
+- raw: 元重
+  result: Yuan Zhong
+  badtrans: true
+  direct: origin heavy
+  literal: yuan zhong
+- raw: 宁蚀
+  result: Ning Shi
+  badtrans: true
+  direct: peaceful corrosion
+  literal: ning shi
+- raw: 水还
+  result: Water Return
+  badtrans: true
+  direct: water return
+  literal: shui huan
+- raw: 西极
+  result: Western Extremity
+  badtrans: true
+  direct: western extreme
+  literal: xi ji
+- raw: 雪蚕
+  result: Snow Silkworm
+  badtrans: true
+  direct: snow silkworm
+  literal: xue can
+- raw: 千寿
+  result: Thousand Longevity
+  badtrans: true
+  direct: thousand longevity
+  literal: qian shou
+- raw: 会阴
+  result: Meeting Yin
+  badtrans: true
+  direct: meeting yin
+  literal: hui yin
+- raw: 火灵
+  result: Fire Spirit
+  badtrans: true
+  direct: fire spirit
+  literal: huo ling
+- raw: 青岚
+  result: Green Mist
+  badtrans: true
+  direct: green mist
+  literal: qing lan
+- raw: 遥骨
+  result: Distant Bone
+  badtrans: true
+  direct: distant bone
+  literal: yao gu
+- raw: 云霖
+  result: Cloud Rain
+  badtrans: true
+  direct: cloud rain
+  literal: yun lin
+- raw: 阳明
+  result: Bright Sun
+  badtrans: true
+  direct: bright sun
+  literal: yang ming
+- raw: 五枢
+  result: Five Pivots
+  badtrans: true
+  direct: five pivots
+  literal: wu shu
+- raw: 狮心
+  result: Lion Heart
+  badtrans: true
+  direct: lion heart
+  literal: shi xin
+- raw: 炎止
+  result: Flame Stop
+  badtrans: true
+  direct: flame stop
+  literal: yan zhi
+- raw: 气冲
+  result: Qi Surge
+  badtrans: true
+  direct: qi rush
+  literal: qi chong
+- raw: 悬冰
+  result: Hanging Ice
+  badtrans: true
+  direct: suspended ice
+  literal: xuan bing
+- raw: 八珍
+  result: Eight Treasures
+  badtrans: true
+  direct: eight treasures
+  literal: ba zhen
+- raw: 陨星
+  result: Falling Star
+  badtrans: true
+  direct: meteor
+  literal: yun xing
+- raw: 苑梦
+  result: Garden Dream
+  badtrans: true
+  direct: garden dream
+  literal: yuan meng
+- raw: 水蕴
+  result: Water Essence
+  badtrans: true
+  direct: water accumulation
+  literal: shui yun
+- raw: 金门
+  result: Golden Gate
+  badtrans: true
+  direct: golden gate
+  literal: jin men
+- raw: 流朱
+  result: Flowing Vermilion
+  badtrans: true
+  direct: flowing vermilion
+  literal: liu zhu
+- raw: 化缠
+  result: Transforming Bind
+  badtrans: true
+  direct: transforming entanglement
+  literal: hua chan
+- raw: 乌涉
+  result: Black Crossing
+  badtrans: true
+  direct: black crossing
+  literal: wu she
+- raw: 筑宾
+  result: Establishing Guests
+  badtrans: true
+  direct: build guests
+  literal: zhu bin
+- raw: 天刑
+  result: Divine Punishment
+  badtrans: true
+  direct: heaven punishment
+  literal: tian xing
+- raw: 蝉岭
+  result: Cicada Ridge
+  badtrans: true
+  direct: cicada ridge
+  literal: chan ling
+- raw: 太微
+  result: Great Subtlety
+  badtrans: true
+  direct: great subtlety
+  literal: tai wei
