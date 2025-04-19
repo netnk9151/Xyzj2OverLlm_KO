@@ -936,6 +936,11 @@
   - split: 1
     text: "跟随特效3"
     translated: "Follow the special effects 3"
+- raw: "803#跟随特效4#1#9#0#1#0#0##sfx_main_hero_shizhuang_3##0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#803#0##0#0#0#803##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "跟随特效4"
+    translated: "Follow the special effect 4"
 - raw: "810#易技#1#43#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#0#0#0#0#100710~sfx_main_hero_100280&0&false&true#0#1#0#0#易技#变幻莫测，以不同效果展示部分技能特效。#0#0#0#810#0#0#0#0#0#810##5#0#811|812|813#0.0#0.0###"
   splits:
   - split: 1
@@ -9098,7 +9103,7 @@
     translated: "Shi Ban Yu Zao"
   - split: 33
     text: "体内涌动着奥秘神力，仿佛大地河流的浩荡气势。蓦然间，龟背上生长出数条华丽的玉藻，宛若仙境般美轮美奂，熠熠生辉。提升276外防，276内防，82御心，22命中。"
-    translated: "A mysterious divine force surged within the body, akin to the majestic flow of a great river on earth. Suddenly, several magnificent jade vines sprouted across the tortoise's back, as if creating a scene straight out of a fairyland‑gorgeously splendid and brilliantly shimmering. Enhance 276 external defense, 276 internal defense, 82 discipline, and 22 hit rate."
+    translated: "A mysterious divine force surged within the body, reminiscent of the majestic momentum of a river coursing through the earth. Suddenly, several beautiful jade reeds sprouted on the turtle's back, dazzling and resplendent as if from a heavenly realm, shimmering brightly. Enhance 276 external defense, 276 internal defense, 82 discipline, 22 hit rate."
 - raw: "34301#石蟠玉藻#1#4#11#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#276#23#0#0##0#1#0#0#石蟠玉藻#0#0#0#0#34301#0#0#0#0#0#34301##0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -9965,7 +9970,7 @@
     translated: "As fierce as a tiger that swallows ten thousand miles"
   - split: 33
     text: "气势如虹，每5秒回复根骨大比例的血量，大幅度提升自己的根骨和力道，同时做战勇猛能反弹敌方伤害。"
-    translated: "Radiating an aura as majestic as a rainbow, every 5 seconds it recovers a significant portion of its blood based on potential. This greatly enhances both its own potential and strength, while in battle it fiercely reflects enemy damage back upon them."
+    translated: "Majestic in momentum, every 5 seconds restores a significant portion of your potential health, greatly enhancing both your potential and strength. Meanwhile, it boosts your battle ferocity to reflect enemy damage back at them."
 - raw: "50011#0#1#23#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#20#0#0#0#1006|1005#0#1#0#0#0#0#0#0#0#50011#0#0#0#0#0#50011##4#0#0#0.0#0.0###"
   splits: []
 - raw: "50012#0#1#5#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#100#10#0#10##0#1#0#0#0#0#0#0#0#50012#0#0#0#0#0#50012##4#0#0#0.0#0.0###"
@@ -14636,7 +14641,7 @@
     translated: "Shehun Jing"
   - split: 33
     text: "被气势所摄，处于惊魂状态一定时间不能做任何操作，持续时间2秒。"
-    translated: "Bewitched by their aura and in a state of shock, unable to perform any actions for a duration of 2 seconds."
+    translated: "Captured by momentum and in a state of shock for a certain duration, unable to perform any actions. Duration: 2 seconds."
 - raw: "108010#剑寒九州#1#17#0#0#3000#0#0#0#0#0#0#2#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#剑寒秋#震慑目标，使其一段时间内无法移动，持续3秒。#buffnew_ziqidonglai#0#0#108010#0#0#0#0#0#108010##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -17894,7 +17899,7 @@
     translated: "Anger of a Thousand Armies"
   - split: 33
     text: "千军万马齐吟，以狂暴的气势转化为杀气，使自身的诛心提升自身刚属性的0.1倍。"
-    translated: "When a thousand armies and ten thousand horses sing in unison, their fierce energy transforms into killing intent, enhancing one's Mind Attack by 0.1 times the self's hardness."
+    translated: "A thousand armies and ten thousand horses chant in unison; with a tumultuous momentum, they transform into killing intent, enhancing their heartbreak ability to boost their hard attribute by 0.1 times."
 - raw: "196020#五岳为轻#1#4#0#1#30000#0#0#0#0#0#0#1#0#0#10000#0#0#0#1#0#0#150#31#0#0##0#1#0#0#五岳为轻#三杯吐然诺，五岳倒为轻。在状态持续下柔性属性提升提升150，被攻击获得伤害减免能力。会获得同时拥有将受到伤害的50%返给释放者持续时间30秒。#buffnew_shengshengbx#0#0#196020#0#0#0#0#0#196020##1#0#196022|196023#0.0#0.0###"
   splits:
   - split: 1

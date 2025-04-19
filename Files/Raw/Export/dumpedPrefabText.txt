@@ -364,6 +364,27 @@
 - raw: "斩仙"
   splits:
   - text: "斩仙"
+- raw: "品质：人阶-超一流武学"
+  splits:
+  - text: "品质：人阶-超一流武学"
+- raw: "等级："
+  splits:
+  - text: "等级："
+- raw: "要求："
+  splits:
+  - text: "要求："
+- raw: " 制作用途"
+  splits:
+  - text: " 制作用途"
+- raw: " 装备属性"
+  splits:
+  - text: " 装备属性"
+- raw: "  词条属性"
+  splits:
+  - text: "  词条属性"
+- raw: "  获取途径"
+  splits:
+  - text: "  获取途径"
 - raw: "上阵"
   splits:
   - text: "上阵"
@@ -2350,6 +2371,51 @@
 - raw: "卸下"
   splits:
   - text: "卸下"
+- raw: "生活"
+  splits:
+  - text: "生活"
+- raw: "学识"
+  splits:
+  - text: "学识"
+- raw: "技艺"
+  splits:
+  - text: "技艺"
+- raw: "特殊"
+  splits:
+  - text: "特殊"
+- raw: "包含"
+  splits:
+  - text: "包含"
+- raw: "厨师\\n矿石"
+  splits:
+  - text: "厨师\\n矿石"
+- raw: "江湖身份"
+  splits:
+  - text: "江湖身份"
+- raw: "茶商"
+  splits:
+  - text: "茶商"
+- raw: "良工"
+  splits:
+  - text: "良工"
+- raw: "巧手"
+  splits:
+  - text: "巧手"
+- raw: "锻造"
+  splits:
+  - text: "锻造"
+- raw: "技艺精进\\n入"
+  splits:
+  - text: "技艺精进\\n入"
+- raw: "究竟。"
+  splits:
+  - text: "究竟。"
+- raw: "尚未获得身份信息"
+  splits:
+  - text: "尚未获得身份信息"
+- raw: "(请根据提示内容到指定地点解锁)"
+  splits:
+  - text: "(请根据提示内容到指定地点解锁)"
 - raw: "按键设置"
   splits:
   - text: "按键设置"
@@ -2401,15 +2467,6 @@
 - raw: "战术"
   splits:
   - text: "战术"
-- raw: "学识"
-  splits:
-  - text: "学识"
-- raw: "生活"
-  splits:
-  - text: "生活"
-- raw: "技艺"
-  splits:
-  - text: "技艺"
 - raw: "专注 55"
   splits:
   - text: "专注 55"
@@ -2650,9 +2707,6 @@
 - raw: "随机"
   splits:
   - text: "随机"
-- raw: "江湖身份"
-  splits:
-  - text: "江湖身份"
 - raw: "<size=53>初</size>始武器"
   splits:
   - text: "<size=53>初</size>始武器"
@@ -2836,9 +2890,27 @@
 - raw: "可以在此处进行验证，如全部答案都作答正确，则解密成功，如其中有误则失败，需调整答案后再重新进行验证。"
   splits:
   - text: "可以在此处进行验证，如全部答案都作答正确，则解密成功，如其中有误则失败，需调整答案后再重新进行验证。"
+- raw: "解密任务"
+  splits:
+  - text: "解密任务"
+- raw: "开始推理"
+  splits:
+  - text: "开始推理"
+- raw: "回顾推理"
+  splits:
+  - text: "回顾推理"
 - raw: "思考中......"
   splits:
   - text: "思考中......"
+- raw: "带毒的腰带"
+  splits:
+  - text: "带毒的腰带"
+- raw: "解密盘"
+  splits:
+  - text: "解密盘"
+- raw: "解密盘知晓世间万物，选择<color=#ecc872>两个一组</color>的证词或线索进行验证，若推论正确，则会触发结果"
+  splits:
+  - text: "解密盘知晓世间万物，选择<color=#ecc872>两个一组</color>的证词或线索进行验证，若推论正确，则会触发结果"
 - raw: "退出思考"
   splits:
   - text: "退出思考"
@@ -2914,6 +2986,36 @@
 - raw: "铜钱"
   splits:
   - text: "铜钱"
+- raw: "选择杀手级别"
+  splits:
+  - text: "选择杀手级别"
+- raw: "天字级杀手"
+  splits:
+  - text: "天字级杀手"
+- raw: "地字级杀手"
+  splits:
+  - text: "地字级杀手"
+- raw: "人字级杀手"
+  splits:
+  - text: "人字级杀手"
+- raw: "杀手级别"
+  splits:
+  - text: "杀手级别"
+- raw: "选择想要派出的人"
+  splits:
+  - text: "选择想要派出的人"
+- raw: "选择暗杀对象"
+  splits:
+  - text: "选择暗杀对象"
+- raw: "仇人名单"
+  splits:
+  - text: "仇人名单"
+- raw: "秦月"
+  splits:
+  - text: "秦月"
+- raw: "捭阖"
+  splits:
+  - text: "捭阖"
 - raw: "流派"
   splits:
   - text: "流派"
@@ -5420,12 +5522,6 @@
 - raw: "当前人数：20"
   splits:
   - text: "当前人数：20"
-- raw: "锻造"
-  splits:
-  - text: "锻造"
-- raw: "巧手"
-  splits:
-  - text: "巧手"
 - raw: "纺织"
   splits:
   - text: "纺织"
@@ -5834,36 +5930,39 @@
 - raw: "通关后天赋值"
   splits:
   - text: "通关后天赋值"
+- raw: "真实江湖"
+  splits:
+  - text: "真实江湖"
 - raw: "(爽文江湖模式下各项属性数值成长"
   splits:
   - text: "(爽文江湖模式下各项属性数值成长"
-- raw: "选择游戏<color=#f0f0f0>模式</color>与<color=#f0f0f0>难度"
+- raw: "选择游戏<color=#f0f0f0>难度"
   splits:
-  - text: "选择游戏<color=#f0f0f0>模式</color>与<color=#f0f0f0>难度"
+  - text: "选择游戏<color=#f0f0f0>难度"
 - raw: "爽文江湖"
   splits:
   - text: "爽文江湖"
 - raw: "险恶江湖"
   splits:
   - text: "险恶江湖"
-- raw: "真实江湖"
+- raw: "<color=#acacac>难度：</color>简单"
   splits:
-  - text: "真实江湖"
-- raw: "简单"
+  - text: "<color=#acacac>难度：</color>简单"
+- raw: "已通关"
   splits:
-  - text: "简单"
-- raw: "标准"
+  - text: "已通关"
+- raw: "<color=#acacac>难度：</color>标准"
   splits:
-  - text: "标准"
-- raw: "困难"
+  - text: "<color=#acacac>难度：</color>标准"
+- raw: "<color=#acacac>难度：</color>困难"
   splits:
-  - text: "困难"
-- raw: "极难"
+  - text: "<color=#acacac>难度：</color>困难"
+- raw: "<color=#acacac>难度：</color>极难"
   splits:
-  - text: "极难"
-- raw: "地狱"
+  - text: "<color=#acacac>难度：</color>极难"
+- raw: "<color=#acacac>难度：</color>地狱"
   splits:
-  - text: "地狱"
+  - text: "<color=#acacac>难度：</color>地狱"
 - raw: "江湖小卒<color=#4c7f5d>【简单】"
   splits:
   - text: "江湖小卒<color=#4c7f5d>【简单】"
@@ -5882,9 +5981,6 @@
 - raw: "通关奖励"
   splits:
   - text: "通关奖励"
-- raw: "已通关"
-  splits:
-  - text: "已通关"
 - raw: "天赋值"
   splits:
   - text: "天赋值"
@@ -6200,6 +6296,36 @@
 - raw: "回收"
   splits:
   - text: "回收"
+- raw: "刷新"
+  splits:
+  - text: "刷新"
+- raw: "七星"
+  splits:
+  - text: "七星"
+- raw: "未达到解锁条件"
+  splits:
+  - text: "未达到解锁条件"
+- raw: "竞拍货架"
+  splits:
+  - text: "竞拍货架"
+- raw: "交易记录"
+  splits:
+  - text: "交易记录"
+- raw: "竞拍出价"
+  splits:
+  - text: "竞拍出价"
+- raw: "当前竞拍成功率"
+  splits:
+  - text: "当前竞拍成功率"
+- raw: "交易记录最多保留20条"
+  splits:
+  - text: "交易记录最多保留20条"
+- raw: "鱼人泪"
+  splits:
+  - text: "鱼人泪"
+- raw: "花费"
+  splits:
+  - text: "花费"
 - raw: "我们经常在口语中以「梦周公」来形容打盹小睡一下，请问这里指的周公是谁？"
   splits:
   - text: "我们经常在口语中以「梦周公」来形容打盹小睡一下，请问这里指的周公是谁？"
@@ -6353,9 +6479,6 @@
 - raw: "双修合欢币"
   splits:
   - text: "双修合欢币"
-- raw: "花费"
-  splits:
-  - text: "花费"
 - raw: "角色1"
   splits:
   - text: "角色1"
@@ -6671,9 +6794,6 @@
 - raw: "的接口我"
   splits:
   - text: "的接口我"
-- raw: "等级："
-  splits:
-  - text: "等级："
 - raw: "品质："
   splits:
   - text: "品质："
@@ -6743,9 +6863,6 @@
 - raw: "aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊"
   splits:
   - text: "aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊"
-- raw: "刷新"
-  splits:
-  - text: "刷新"
 - raw: "刷新 10000"
   splits:
   - text: "刷新 10000"
@@ -7124,6 +7241,9 @@
 - raw: "​输入关键词"
   splits:
   - text: "​输入关键词"
+- raw: "今天的东南风"
+  splits:
+  - text: "今天的东南风"
 - raw: "无双榜"
   splits:
   - text: "无双榜"
@@ -7274,6 +7394,33 @@
 - raw: "啊啊啊啊啊啊啊啊"
   splits:
   - text: "啊啊啊啊啊啊啊啊"
+- raw: "宗门大赛"
+  splits:
+  - text: "宗门大赛"
+- raw: "初赛"
+  splits:
+  - text: "初赛"
+- raw: "风雪飞客"
+  splits:
+  - text: "风雪飞客"
+- raw: "对手信息"
+  splits:
+  - text: "对手信息"
+- raw: "查看奖励"
+  splits:
+  - text: "查看奖励"
+- raw: "获胜奖励"
+  splits:
+  - text: "获胜奖励"
+- raw: "一等奖："
+  splits:
+  - text: "一等奖："
+- raw: "二等奖："
+  splits:
+  - text: "二等奖："
+- raw: "三等奖："
+  splits:
+  - text: "三等奖："
 - raw: "垂钓"
   splits:
   - text: "垂钓"

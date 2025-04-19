@@ -2194,35 +2194,35 @@
   splits:
   - split: 3
     text: "运功"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,389,招式,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,401,招式,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "招式"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,398,被动,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,410,被动,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "被动"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,407,心法,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,419,心法,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "心法"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,622,秒,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,634,秒,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "秒"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,941,调息,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,953,调息,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "调息"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,968,段:,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,980,段:,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "段:"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,1116,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,1128,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "设计时要求只能有1个buff效果，但实际不是，nodeId:{0}"
-- raw: "SpellHoverTipMain,SpellOnHoverBySelf,1216,运功,[System.Int64，System.Int64]"
+- raw: "SpellHoverTipMain,SpellOnHoverBySelf,1228,运功,[System.Int64，System.Int64]"
   splits:
   - split: 3
     text: "运功"
@@ -6526,15 +6526,15 @@
   splits:
   - split: 3
     text: "装备上可替换主角模型，对话立绘和泡泡表情"
-- raw: "FaceSetView,<Awake>b__37_2,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
+- raw: "FaceSetView,<Awake>b__39_2,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-- raw: "FaceSetView,<Awake>b__37_2,54,无名氏,[System.String]"
+- raw: "FaceSetView,<Awake>b__39_2,54,无名氏,[System.String]"
   splits:
   - split: 3
     text: "无名氏"
-- raw: "FaceSetView,<Awake>b__37_2,86,少侠的备注信息不得超过七个字,[System.String]"
+- raw: "FaceSetView,<Awake>b__39_2,86,少侠的备注信息不得超过七个字,[System.String]"
   splits:
   - split: 3
     text: "少侠的备注信息不得超过七个字"
@@ -6938,6 +6938,30 @@
   splits:
   - split: 3
     text: "当前队伍为空，请先编辑队伍！"
+- raw: "EnermyTeamPart,ShowEnermy,91,积分: <color=#{0}>{1}</color>,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "积分: <color=#{0}>{1}</color>"
+- raw: "EnermyTeamPart,ShowEnermy,114,可获得,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "可获得"
+- raw: "EnermyTeamPart,ShowEnermy,121,不可获得,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "不可获得"
+- raw: "EnermyTeamPart,ShowEnermy,173,随机与一个小队进行战斗，胜利后可获得积分。,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机与一个小队进行战斗，胜利后可获得积分。"
+- raw: "EnermyTeamPart,<Awake>b__18_0,17,请先登录！,[]"
+  splits:
+  - split: 3
+    text: "请先登录！"
+- raw: "EnermyTeamPart,<Awake>b__18_1,17,请先登录！,[]"
+  splits:
+  - split: 3
+    text: "请先登录！"
 - raw: "EnermyTeamSlot,Refresh,6,胜：{0},[]"
   splits:
   - split: 3
@@ -6970,7 +6994,7 @@
   splits:
   - split: 3
     text: "请先登录！"
-- raw: "HuaShanLunJianView/<>c,<Awake>b__14_3,20,输入超过最大长度！,[System.String]"
+- raw: "HuaShanLunJianView/<>c,<Awake>b__15_3,20,输入超过最大长度！,[System.String]"
   splits:
   - split: 3
     text: "输入超过最大长度！"
@@ -6978,15 +7002,15 @@
   splits:
   - split: 3
     text: "当前队伍为空，请先编辑队伍！"
-- raw: "HuaShanLunJianView,<Awake>b__14_0,18,请输入队伍名！,[]"
+- raw: "HuaShanLunJianView,<Awake>b__15_0,18,请输入队伍名！,[]"
   splits:
   - split: 3
     text: "请输入队伍名！"
-- raw: "HuaShanLunJianView,<Awake>b__14_1,18,请输入队伍名！,[]"
+- raw: "HuaShanLunJianView,<Awake>b__15_1,18,请输入队伍名！,[]"
   splits:
   - split: 3
     text: "请输入队伍名！"
-- raw: "HuaShanLunJianView,<Awake>b__14_2,23,输入超过最大长度！,[System.String]"
+- raw: "HuaShanLunJianView,<Awake>b__15_2,23,输入超过最大长度！,[System.String]"
   splits:
   - split: 3
     text: "输入超过最大长度！"
@@ -6994,15 +7018,15 @@
   splits:
   - split: 3
     text: "倒计时：{0}"
-- raw: "MainPanel/<>c__DisplayClass42_0,<Awake>b__3,17,请先登录！,[]"
+- raw: "MainPanel/<>c__DisplayClass44_0,<Awake>b__3,17,请先登录！,[]"
   splits:
   - split: 3
     text: "请先登录！"
-- raw: "MainPanel/<>c__DisplayClass42_1,<Awake>b__12,16,云账号:,[]"
+- raw: "MainPanel/<>c__DisplayClass44_1,<Awake>b__12,16,云账号:,[]"
   splits:
   - split: 3
     text: "云账号:"
-- raw: "MainPanel/<>c__DisplayClass50_0,<CheckOpenUploadFile>b__0,11,云账号:,[]"
+- raw: "MainPanel/<>c__DisplayClass52_0,<CheckOpenUploadFile>b__0,11,云账号:,[]"
   splits:
   - split: 3
     text: "云账号:"
@@ -7026,6 +7050,10 @@
   splits:
   - split: 3
     text: "不可获得"
+- raw: "MainPanel,ShowEnermy,165,随机与一个小队进行战斗，胜利后可获得积分。,[System.Boolean]"
+  splits:
+  - split: 3
+    text: "随机与一个小队进行战斗，胜利后可获得积分。"
 - raw: "MainPanel,Update,135,复制成功！,[]"
   splits:
   - split: 3
@@ -7042,27 +7070,63 @@
   splits:
   - split: 3
     text: "败：{0}"
-- raw: "MyTeamSlot,Refresh,345,胜：{0},[]"
-  splits:
-  - split: 3
-    text: "胜：{0}"
-- raw: "MyTeamSlot,Refresh,439,败：{0},[]"
-  splits:
-  - split: 3
-    text: "败：{0}"
-- raw: "MyTeamSlot,Refresh,476,阵容码：{0},[]"
+- raw: "MyTeamPart,RefreshTeam,445,阵容码：{0},[SweetPotato.ZrData]"
   splits:
   - split: 3
     text: "阵容码：{0}"
-- raw: "MyTeamSlot,<OnReset>b__15_1,5,确认是否删除该阵容？,[]"
+- raw: "MyTeamPart,<Awake>b__9_1,14,确认是否删除该阵容？,[]"
   splits:
   - split: 3
     text: "确认是否删除该阵容？"
-- raw: "MyTeamSlot,<OnReset>b__15_1,23,确定,[]"
+- raw: "MyTeamPart,<Awake>b__9_1,32,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "MyTeamSlot,<OnReset>b__15_1,28,取消,[]"
+- raw: "MyTeamPart,<Awake>b__9_1,37,取消,[]"
+  splits:
+  - split: 3
+    text: "取消"
+- raw: "MyTeamSlot,Refresh,55,队伍,[]"
+  splits:
+  - split: 3
+    text: "队伍"
+- raw: "MyTeamSlot,Refresh,400,胜：{0},[]"
+  splits:
+  - split: 3
+    text: "胜：{0}"
+- raw: "MyTeamSlot,Refresh,494,败：{0},[]"
+  splits:
+  - split: 3
+    text: "败：{0}"
+- raw: "MyTeamSlot,Refresh,531,阵容码：{0},[]"
+  splits:
+  - split: 3
+    text: "阵容码：{0}"
+- raw: "MyTeamSlot,.ctor,7,一,[]"
+  splits:
+  - split: 3
+    text: "一"
+- raw: "MyTeamSlot,.ctor,18,二,[]"
+  splits:
+  - split: 3
+    text: "二"
+- raw: "MyTeamSlot,.ctor,29,三,[]"
+  splits:
+  - split: 3
+    text: "三"
+- raw: "MyTeamSlot,.ctor,40,四,[]"
+  splits:
+  - split: 3
+    text: "四"
+- raw: "MyTeamSlot,<OnReset>b__17_1,5,确认是否删除该阵容？,[]"
+  splits:
+  - split: 3
+    text: "确认是否删除该阵容？"
+- raw: "MyTeamSlot,<OnReset>b__17_1,23,确定,[]"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "MyTeamSlot,<OnReset>b__17_1,28,取消,[]"
   splits:
   - split: 3
     text: "取消"
@@ -9138,26 +9202,58 @@
   splits:
   - split: 3
     text: "仇恨值： "
-- raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,54,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4},[UnityEngine.EventSystems.PointerEventData]"
+- raw: "PaiMaiHangDealListItem,Refresh,114,挂牌失败,[]"
+  splits:
+  - split: 3
+    text: "挂牌失败"
+- raw: "PaiMaiHangDealListItem,Refresh,170,出售,[]"
+  splits:
+  - split: 3
+    text: "出售"
+- raw: "PaiMaiHangDealListItem,Refresh,202,收入,[]"
+  splits:
+  - split: 3
+    text: "收入"
+- raw: "PaiMaiHangDealListItem,Refresh,269,购买,[]"
+  splits:
+  - split: 3
+    text: "购买"
+- raw: "PaiMaiHangDealListItem,Refresh,314,竞拍失败,[]"
+  splits:
+  - split: 3
+    text: "竞拍失败"
+- raw: "PaiMaiHangDealListItem,Refresh,369,花费,[]"
+  splits:
+  - split: 3
+    text: "花费"
+- raw: "PaiMaiHangListItem/<>c__DisplayClass21_1,<Reset>b__3,54,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4},[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}"
-- raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,248,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
+- raw: "PaiMaiHangListItem/<>c__DisplayClass21_1,<Reset>b__3,248,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8}"
-- raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,520,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
+- raw: "PaiMaiHangListItem/<>c__DisplayClass21_1,<Reset>b__3,520,解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8},[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
     text: "解锁此挂牌格，需要达到以下条件：\\r\\n与{0}好感度达到{1}/{2}\\r\\n不夜京贡献值{3}/{4}\\r\\n花费铜钱{5}/{6}\\r\\n花费龙角令{7}/{8}"
-- raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,738,确定,[UnityEngine.EventSystems.PointerEventData]"
+- raw: "PaiMaiHangListItem/<>c__DisplayClass21_1,<Reset>b__3,738,确定,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
     text: "确定"
-- raw: "PaiMaiHangListItem/<>c__DisplayClass19_1,<Reset>b__3,743,取消,[UnityEngine.EventSystems.PointerEventData]"
+- raw: "PaiMaiHangListItem/<>c__DisplayClass21_1,<Reset>b__3,743,取消,[UnityEngine.EventSystems.PointerEventData]"
   splits:
   - split: 3
     text: "取消"
+- raw: "PaiMaiHangListItem,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
+- raw: "PaiMaiHangListItem,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
 - raw: "PaiMaiHangView,OnShuaXinClick,36,刷新成功，刷新次数剩余{0}次,[]"
   splits:
   - split: 3
@@ -9166,43 +9262,91 @@
   splits:
   - split: 3
     text: "刷新次数不足"
-- raw: "PaiMaiHangView,RefreshSelectedItem,189,物,[]"
+- raw: "PaiMaiHangView,OnGuaPaiToggleClick,162,我的摊位    {0}/{1},[]"
+  splits:
+  - split: 3
+    text: "我的摊位    {0}/{1}"
+- raw: "PaiMaiHangView,OnJingPaiToggleClick,120,竞拍货架,[]"
+  splits:
+  - split: 3
+    text: "竞拍货架"
+- raw: "PaiMaiHangView,RefreshSelectedItem,294,物,[]"
   splits:
   - split: 3
     text: "物"
-- raw: "PaiMaiHangView,RefreshSelectedItem,196,装,[]"
+- raw: "PaiMaiHangView,RefreshSelectedItem,301,装,[]"
   splits:
   - split: 3
     text: "装"
-- raw: "PaiMaiHangView,RefreshSelectedItem,802,物,[]"
+- raw: "PaiMaiHangView,RefreshSelectedItem,920,物,[]"
   splits:
   - split: 3
     text: "物"
-- raw: "PaiMaiHangView,RefreshSelectedItem,809,装,[]"
+- raw: "PaiMaiHangView,RefreshSelectedItem,927,装,[]"
   splits:
   - split: 3
     text: "装"
-- raw: "PaiMaiHangView,OnClickRightJingPai,83,你没有那么多钱,[]"
+- raw: "PaiMaiHangView,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
+- raw: "PaiMaiHangView,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
+- raw: "PaiMaiHangView,RefreshItemForMobile,55,设置底价,[]"
+  splits:
+  - split: 3
+    text: "设置底价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,71,底价,[]"
+  splits:
+  - split: 3
+    text: "底价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,87,参考价,[]"
+  splits:
+  - split: 3
+    text: "参考价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,103,当前出售成功率,[]"
+  splits:
+  - split: 3
+    text: "当前出售成功率"
+- raw: "PaiMaiHangView,RefreshItemForMobile,891,竞拍出价,[]"
+  splits:
+  - split: 3
+    text: "竞拍出价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,907,出价,[]"
+  splits:
+  - split: 3
+    text: "出价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,923,底价,[]"
+  splits:
+  - split: 3
+    text: "底价"
+- raw: "PaiMaiHangView,RefreshItemForMobile,939,当前竞拍成功率,[]"
+  splits:
+  - split: 3
+    text: "当前竞拍成功率"
+- raw: "PaiMaiHangView,OnClickRightJingPai,57,你没有那么多钱,[System.Int32]"
   splits:
   - split: 3
     text: "你没有那么多钱"
-- raw: "PaiMaiHangView,OnClickRightJingPai,134,此物品已被拍下,[]"
+- raw: "PaiMaiHangView,OnClickRightJingPai,109,此物品已被拍下,[System.Int32]"
   splits:
   - split: 3
     text: "此物品已被拍下"
-- raw: "PaiMaiHangView,OnClickRightJingPai,152,确定,[]"
+- raw: "PaiMaiHangView,OnClickRightJingPai,127,确定,[System.Int32]"
   splits:
   - split: 3
     text: "确定"
-- raw: "PaiMaiHangView,OnClickRightJingPai,157,取消,[]"
+- raw: "PaiMaiHangView,OnClickRightJingPai,132,取消,[System.Int32]"
   splits:
   - split: 3
     text: "取消"
-- raw: "PaiMaiHangView,OnClickRightGuaPai,12,请输入出价,[System.Int32，System.Single]"
+- raw: "PaiMaiHangView,OnClickRightGuaPai,13,请输入出价,[System.Int32，System.Single]"
   splits:
   - split: 3
     text: "请输入出价"
-- raw: "PaiMaiHangView,OnClickRightGuaPai,250,挂牌成功,[System.Int32，System.Single]"
+- raw: "PaiMaiHangView,OnClickRightGuaPai,263,挂牌成功,[System.Int32，System.Single]"
   splits:
   - split: 3
     text: "挂牌成功"
@@ -10166,7 +10310,11 @@
   splits:
   - split: 3
     text: "<size=26>已持有:</size>"
-- raw: "ShopHolder,GetIconByQua,0,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+- raw: "ShopHolder,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
+- raw: "ShopHolder,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
@@ -10282,6 +10430,50 @@
   splits:
   - split: 3
     text: "(商道+{0})"
+- raw: "ShopViewNew,.cctor,6,默认排序,[]"
+  splits:
+  - split: 3
+    text: "默认排序"
+- raw: "ShopViewNew,.cctor,17,升序,[]"
+  splits:
+  - split: 3
+    text: "升序"
+- raw: "ShopViewNew,.cctor,28,降序,[]"
+  splits:
+  - split: 3
+    text: "降序"
+- raw: "ShopViewNew,.cctor,49,所有等级,[]"
+  splits:
+  - split: 3
+    text: "所有等级"
+- raw: "ShopViewNew,.cctor,60,一阶,[]"
+  splits:
+  - split: 3
+    text: "一阶"
+- raw: "ShopViewNew,.cctor,71,二阶,[]"
+  splits:
+  - split: 3
+    text: "二阶"
+- raw: "ShopViewNew,.cctor,82,三阶,[]"
+  splits:
+  - split: 3
+    text: "三阶"
+- raw: "ShopViewNew,.cctor,93,四阶,[]"
+  splits:
+  - split: 3
+    text: "四阶"
+- raw: "ShopViewNew,.cctor,104,五阶,[]"
+  splits:
+  - split: 3
+    text: "五阶"
+- raw: "ShopViewNew,.cctor,115,六阶,[]"
+  splits:
+  - split: 3
+    text: "六阶"
+- raw: "ShopViewNew,.cctor,126,七阶,[]"
+  splits:
+  - split: 3
+    text: "七阶"
 - raw: "MiJiActiveConditionItemSlot,OnReset,276,(未拥有),[]"
   splits:
   - split: 3
@@ -11014,26 +11206,30 @@
   splits:
   - split: 3
     text: "请选中该心法"
-- raw: "ZhongMenDaBiView,ResetUI,219,16进8,[]"
+- raw: "ZhongMenDaBiView,ResetUI,243,16进8,[]"
   splits:
   - split: 3
     text: "16进8"
-- raw: "ZhongMenDaBiView,ResetUI,504,8进4,[]"
+- raw: "ZhongMenDaBiView,ResetUI,565,8进4,[]"
   splits:
   - split: 3
     text: "8进4"
-- raw: "ZhongMenDaBiView,ResetUI,789,4进2,[]"
+- raw: "ZhongMenDaBiView,ResetUI,887,4进2,[]"
   splits:
   - split: 3
     text: "4进2"
-- raw: "ZhongMenDaBiView,ResetUI,1157,2进1,[]"
+- raw: "ZhongMenDaBiView,ResetUI,1292,2进1,[]"
   splits:
   - split: 3
     text: "2进1"
-- raw: "ZhongMenDaBiView,ResetUI,1227,加赛,[]"
+- raw: "ZhongMenDaBiView,ResetUI,1399,加赛,[]"
   splits:
   - split: 3
     text: "加赛"
+- raw: "ZhongMenDaBiView,ResetUIQieCuoUI,403,弟子,[SweetPotato.MenPaiEntity，System.Boolean]"
+  splits:
+  - split: 3
+    text: "弟子"
 - raw: "ZhongMenDaBiView,OnClickClose,5,你确定要临阵脱逃吗？,[]"
   splits:
   - split: 3
@@ -11058,6 +11254,42 @@
   splits:
   - split: 3
     text: "取消"
+- raw: "ZhongMenDaBiView,.ctor,73,外门,[]"
+  splits:
+  - split: 3
+    text: "外门"
+- raw: "ZhongMenDaBiView,.ctor,84,内门,[]"
+  splits:
+  - split: 3
+    text: "内门"
+- raw: "ZhongMenDaBiView,.ctor,95,关门,[]"
+  splits:
+  - split: 3
+    text: "关门"
+- raw: "ZhongMenDaBiView,.ctor,106,亲传,[]"
+  splits:
+  - split: 3
+    text: "亲传"
+- raw: "ZhongMenDaBiView,.ctor,128,初赛,[]"
+  splits:
+  - split: 3
+    text: "初赛"
+- raw: "ZhongMenDaBiView,.ctor,139,复赛,[]"
+  splits:
+  - split: 3
+    text: "复赛"
+- raw: "ZhongMenDaBiView,.ctor,150,半决赛,[]"
+  splits:
+  - split: 3
+    text: "半决赛"
+- raw: "ZhongMenDaBiView,.ctor,161,决赛,[]"
+  splits:
+  - split: 3
+    text: "决赛"
+- raw: "ZhongMenDaBiView,.ctor,172,加赛,[]"
+  splits:
+  - split: 3
+    text: "加赛"
 - raw: "LootItem,Init,180,未卜·,[System.Int64，System.Int32]"
   splits:
   - split: 3
@@ -16142,43 +16374,43 @@
   splits:
   - split: 3
     text: "人字级杀手需要消耗："
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,2434,好感度：,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,2522,好感度：,[]"
   splits:
   - split: 3
     text: "好感度："
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,2979,铜钱不足,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3065,铜钱不足,[]"
   splits:
   - split: 3
     text: "铜钱不足"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3003,确定,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3089,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3008,取消,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3094,取消,[]"
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3036,龙角令不足,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3122,龙角令不足,[]"
   splits:
   - split: 3
     text: "龙角令不足"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3060,确定,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3146,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3065,取消,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3151,取消,[]"
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3082,确定支付报酬并暗杀此人吗？,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3168,确定支付报酬并暗杀此人吗？,[]"
   splits:
   - split: 3
     text: "确定支付报酬并暗杀此人吗？"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3101,确定,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3187,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3106,取消,[]"
+- raw: "SweetPotato.JueYingLouView,DoCurBuSu,3192,取消,[]"
   splits:
   - split: 3
     text: "取消"
@@ -16902,7 +17134,7 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.ShangChengViewNew,RefreshList_ForMoible,33,普通时装,[]"
+- raw: "SweetPotato.ShangChengViewNew,RefreshList_ForMoible,66,普通时装,[]"
   splits:
   - split: 3
     text: "普通时装"
@@ -17262,15 +17494,15 @@
   splits:
   - split: 3
     text: "lootGroupId:{0} 福源掉落结束"
-- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,289,网络错误！,[]"
+- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,301,网络错误！,[]"
   splits:
   - split: 3
     text: "网络错误！"
-- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,321,验证未通过,[]"
+- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,340,验证未通过,[]"
   splits:
   - split: 3
     text: "验证未通过"
-- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,349,缺少参数,[]"
+- raw: "SweetPotato.HuaShanLunJianManager/<SendWebRwquest>d__19,MoveNext,368,缺少参数,[]"
   splits:
   - split: 3
     text: "缺少参数"
@@ -17350,7 +17582,7 @@
   splits:
   - split: 3
     text: "]俸禄任务完成"
-- raw: "SweetPotato.MenPaiEntity,Load,1563,移除了门人，id:{0} 原因:为主角队友,[LitJson.JsonData]"
+- raw: "SweetPotato.MenPaiEntity,Load,1572,移除了门人，id:{0} 原因:为主角队友,[LitJson.JsonData]"
   splits:
   - split: 3
     text: "移除了门人，id:{0} 原因:为主角队友"
