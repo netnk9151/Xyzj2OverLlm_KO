@@ -2515,6 +2515,11 @@
   badtrans: false
 
 # Titles
+- raw: 宗主
+  result: Sect Leader
+  badtrans: true
+  direct: sect master
+  literal: zong zhu
 - raw: 将军  
   result: General  
   badtrans: true  
@@ -3119,7 +3124,62 @@
   direct: Wang Manager  
   literal: Wang Zhanggui  
 
+# Prefix
+- raw: "{P}师兄"
+  result: Senior Brother {P}
+  badtrans: true
+- raw: "{P}宗主"
+  result: Sect Leader {P}
+  badtrans: true
+- raw: "{P}将军"
+  result: "General {P}"
+  badtrans: true
+  direct: "{P} general"
+  literal: "{P} jiang jun"
+
 # Names
+- raw: 徐兄
+  result: Brother Xu
+  badtrans: true
+  direct: Xu brother
+  literal: xu xiong
+- raw: 云宗主
+  result: Sect Leader Yun
+  badtrans: true
+  direct: Yun sect master
+  literal: yun zong zhu
+- raw: 谢季宗主
+  result: Sect Leader Xie Ji
+  badtrans: true
+  direct: Xie Ji sect master
+  literal: xie ji zong zhu
+- raw: 季宗主
+  result: Sect Leader Ji
+  allowalt:
+    - Sect Leader Xie Ji
+  badtrans: true
+  direct: Ji sect master
+  literal: ji zong zhu
+- raw: 许宗主
+  result: Sect Leader Xu
+  badtrans: true
+  direct: Xu sect master
+  literal: xu zong zhu
+- raw: 宁散人
+  result: Ning the Hermit
+  badtrans: true
+  direct: peaceful wanderer
+  literal: ning san ren
+- raw: 王害疯
+  result: Wang Haifeng
+  badtrans: true
+  direct: king harm madness
+  literal: wang hai feng
+- raw: 郎山屿
+  result: Lang Shanyu
+  badtrans: true
+  direct: gentleman mountain islet
+  literal: lang shan yu
 - raw: 深略
   result: Shen Lue
   badtrans: true
@@ -5331,6 +5391,11 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 绝念门
+  result: Severed Thoughts Sect
+  badtrans: true
+  direct: sever thoughts sect
+  literal: jue nian men
 - raw: 醉音坊  
   result: Drunken Sound Hall  
   badtrans: true  
@@ -6141,14 +6206,14 @@
 # - raw: 皇
 #   result: Emperor
 #   allowalt: 
-#     - Huang # Names
+#     - Huang # Name
 #   badtrans: true
 #   direct: Sovereign
 #   literal: Huang
 # - raw: 王
 #   result: King
 #   allowalt: 
-#     - Wang # Names
+#     - Wang # Name
 #   badtrans: true  
 - raw: 王爷
   result: Prince

@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System;
 using System.Globalization;
 using System.Numerics;
 using System.Text;
@@ -266,13 +267,24 @@ public static partial class LineValidation
         }
 
         // Removed characters
-        string[] checkForRemoval = { "·", "(", ")", "..." };
+        (string raw, string trans)[] checkForRemoval = { 
+            ("·", "·"), 
+            ("(", "("),
+            ("（", "("), 
+            (")", ")"),
+            ("）", ")"), 
+            ("...", "..."),
+            ("…", "..."),
+            ("：", ":"),
+            ("：", ":"),
+            (":", ":"),
+        };
         foreach (var check in checkForRemoval)
         {
-            if (raw.Contains(check) && !result.Contains(check))
+            if (raw.Contains(check.raw) && !result.Contains(check.trans))
             {
                 response = false;
-                correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", check);
+                correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", check.raw);
             }
         }
 
