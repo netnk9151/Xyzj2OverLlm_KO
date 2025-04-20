@@ -2540,17 +2540,17 @@
   splits:
   - split: 3
     text: "<color=#b8b8b8>好感：</color>{0}"
-    translated: "<color=#b8b8b8>Affinity：</color>{0}"
+    translated: "<color=#b8b8b8>Affinity: </color>{0}"
 - raw: "PopInfoTip,ShowInformation,643,<color=#b8b8b8>情分：</color>{0},[System.Int32]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>情分：</color>{0}"
-    translated: "<color=#b8b8b8>Affection：</color>{0}"
+    translated: "<color=#b8b8b8>Affection: </color>{0}"
 - raw: "PopInfoTip,ShowInformation,685,<color=#b8b8b8>精力：</color>{0},[System.Int32]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>精力：</color>{0}"
-    translated: "<color=#b8b8b8>Energy：</color>{0}"
+    translated: "<color=#b8b8b8>Energy: </color>{0}"
 - raw: "PopInfoTip,ShowInformation,708,<color=#b8b8b8>性别：</color>{0},[System.Int32]"
   splits:
   - split: 3
@@ -6484,12 +6484,12 @@
   splits:
   - split: 3
     text: "关于这件事的的话……（"
-    translated: "Regarding this matter..."
+    translated: "As for this matter... ("
 - raw: "MenPaiNaXianPanel,GetStr,110,）应该会很合适吧。,[]"
   splits:
   - split: 3
     text: "）应该会很合适吧。"
-    translated: "It should be quite suitable, right?"
+    translated: ") it should be quite suitable, right?"
 - raw: "MenPaiNaXianPanel,GetStr,123,交给（,[]"
   splits:
   - split: 3
@@ -6499,7 +6499,7 @@
   splits:
   - split: 3
     text: "）的话应该会非常顺利才是。"
-    translated: "If it goes as smoothly as expected, that would be ideal."
+    translated: ") if so, it should go very smoothly."
 - raw: "MenPaiNaXianPanel,GetStr,142,让（,[]"
   splits:
   - split: 3
@@ -6509,17 +6509,17 @@
   splits:
   - split: 3
     text: "）来否则的话应该会得到一个好成绩。"
-    translated: "If you do it this way, you should get a good result."
+    translated: ") otherwise, it should lead to a good result."
 - raw: "MenPaiNaXianPanel,GetStr,185,要试试吗……一切就拜托（,[]"
   splits:
   - split: 3
     text: "要试试吗……一切就拜托（"
-    translated: "Would you like to try it... I'll leave everything in your hands."
+    translated: "Do you want to try?... I leave everything in your hands ("
 - raw: "MenPaiNaXianPanel,GetStr,191,）了！,[]"
   splits:
   - split: 3
     text: "）了！"
-    translated: "Got it!"
+    translated: ") is done!"
 - raw: "MenPaiNaXianPanel,GetStr,204,一定要的话，就看运气了吧。,[]"
   splits:
   - split: 3
@@ -14234,7 +14234,7 @@
   splits:
   - split: 3
     text: "）已送达。"
-    translated: "It has been delivered"
+    translated: ") has been delivered"
 - raw: "XiaYunLuManager,OnDaTingFeiGeSend,798,天机阁打听之物，使命必达。你所打听的（,[DaTingInfo]"
   splits:
   - split: 3
@@ -14244,7 +14244,7 @@
   splits:
   - split: 3
     text: "）已送达。"
-    translated: "It has been delivered"
+    translated: ") has been delivered"
 - raw: "XiaYunLuManager,OnDaTingFeiGeSend,936,天机阁打听之物，使命必达。你所打听的（,[DaTingInfo]"
   splits:
   - split: 3
@@ -14254,7 +14254,7 @@
   splits:
   - split: 3
     text: "）已送达。"
-    translated: "It has been delivered"
+    translated: ") has been delivered"
 - raw: "EntrustManager/<>c__DisplayClass93_0,<AcceptEntrust>b__1,39,接取了,[]"
   splits:
   - split: 3
@@ -14634,12 +14634,12 @@
   splits:
   - split: 3
     text: ">的请求被（"
-    translated: "Their request was rejected"
+    translated: ">'s request was ("
 - raw: "MenPaiQuest,AddRewards,695,）拒绝了。,[]"
   splits:
   - split: 3
     text: "）拒绝了。"
-    translated: "Refused"
+    translated: ") was rejected"
 - raw: "MenPaiQuest,AddRewards,778,因为<,[]"
   splits:
   - split: 3
@@ -16249,7 +16249,7 @@
   splits:
   - split: 3
     text: "（熟练）"
-    translated: "Proficient"
+    translated: "(Skilled)"
 - raw: "SweetPotato.NpcSpellDynamic,RefreshSpellName,967,（精通）,[SweetPotato.NpcEntity，SweetPotato.VirtualSpell]"
   splits:
   - split: 3

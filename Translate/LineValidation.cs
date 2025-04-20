@@ -273,12 +273,13 @@ public static partial class LineValidation
             ("（", "("), 
             (")", ")"),
             ("）", ")"), 
-            ("...", "..."),
-            ("…", "..."),
+            //("...", "..."), //Problematic still
+            //("…", "..."),
             ("：", ":"),
             ("：", ":"),
             (":", ":"),
         };
+
         foreach (var check in checkForRemoval)
         {
             if (raw.Contains(check.raw) && !result.Contains(check.trans))

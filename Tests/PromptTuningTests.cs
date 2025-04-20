@@ -36,7 +36,8 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("{{限}}{0}"),
+            new("而且我已经不再迷惘，已经在你的帮助下……更加坚定了。"),
+            //new("{{限}}{0}"),
             //new("当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>")
             //new("<color=#b8b8b8>性别：</color>{0}"),
             //new("经脉点位由外而内分层级打通。五脏开窍不区分层级，但需打通所有经脉点。打通经脉点和五脏开窍会消耗一定的修为值。|经脉点属性分为固灵属性，附灵属性，暗灵属性。其中固灵属性激活点位时可获得；附灵属性，除大经脉点位激活拥有外，其余点位必须使用密卷激活才可附加上；暗灵属性必须使用带有效果的心法攻体激活时才会附加上。|五脏属性分为经脉属性和经脉技能。其中属性激活时可获得，也可通过密卷激活附加上；技能只能使用带有效果的心法攻体激活时才会附加上。"),
@@ -252,6 +253,26 @@ public class PromptTuningTests
             "Show in a <prompt> tag, An updated system prompt that would have translated this to english.");
 
         File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainNotEnglishPrompt.txt", result.Result);
+    }
+
+    [Fact]
+    public async Task ExplainRemovedCharsPrompt()
+    {
+        using var client = new HttpClient();
+        client.Timeout = TimeSpan.FromSeconds(300);
+
+        var config = Configuration.GetConfiguration(workingDirectory);
+        config.SkipLineValidation = true;
+        config.RetryCount = 1;
+
+        var input = "而且我已经不再迷惘，已经在你的帮助下……更加坚定了。";
+
+        var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
+            "Explain your reasoning in a <explain> tag, why '...' characters were removed." +
+            "Show in a <prompt> tag, the full updated current system prompt that would have not removed the '...' characters. " +
+            "Highlight system prompt changes in a <changes> tag.");
+
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainRemovedCharsPrompt.txt", result.Result);
     }
 
     [Fact]
