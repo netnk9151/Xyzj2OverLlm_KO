@@ -16567,13 +16567,13 @@
   splits:
   - split: 1
     text: "剑玄"
-    translated: "Shadowless Sword"
+    translated: "Profound Sword"
   - split: 32
     text: "剑玄"
-    translated: "Shadowless Sword"
+    translated: "Profound Sword"
   - split: 33
     text: "每次伤害附带自身道学*1.1，持续7秒"
-    translated: "Each time damage is dealt, it carries along self‑taoism *1.1, lasting for 7 seconds."
+    translated: "Each hit adds Taoism ×1.1, lasts 7 seconds"
 - raw: "120000#反制#1#32#0#1#1500#0#0###0##1#0#0#10000#0#0#0#1#1#1#0#0#0#1008##0#0#0#0#龙返首#持续时间内，如果正面受到伤害，则触发反击，反击必定会击退强制控制目标，持续时间1.5秒。#buffnew_baoji#0#0#120000#3##0#0#0#120000##0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -23606,23 +23606,23 @@
   splits:
   - split: 1
     text: "玄武破击-道意"
-    translated: "Primal Turtle Smash ‑ The Way and Intention."
+    translated: "Black Tortoise Breakthrough Strike ‑ Tao Intent"
   - split: 32
     text: "道意"
-    translated: "Way of Spirit"
+    translated: "Tao Intent"
   - split: 33
     text: "如果自身有剑玄效果，攻击对目标施加道意，目标自身道学低于350，受到伤害增加20%，持续6秒"
-    translated: "If the wielder has the Jianxuan effect, they can impose Daoyi on their target. If the target's Taoism is lower than 350, they will take an additional 20% damage for 6 seconds."
+    translated: "If under Profound Sword, attacks apply Tao Intent; if target's Taoism is below 350, they take 20% more damage for 6 seconds"
 - raw: "1037102#玄武破击-道意#1#15#1#1#2000#0#0#0#0|42|350|1#0#0#0#0#0#10000#1048576#3000#0#0#0#0#0#0#0#103711##0#1#0#0#0#0#0#0#0#1037102#0#0#0#0#0#1037102##0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "玄武破击-道意"
-    translated: "Primal Turtle Smash ‑ The Way and Intention."
+    translated: "Black Tortoise Breakthrough Strike ‑ Tao Intent"
 - raw: "1037110#玄武破击-道意#1#11#0#1#6000#0#0#0#0#0#0#2#0#0#10000#0#0#0#0#0#0#20#0#0#0##0#1#0#0#易损#受伤增加20%，持续6秒#buffnew_jinghua#0#0#1037110#0#0#0#0#0#1037110##0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "玄武破击-道意"
-    translated: "Primal Turtle Smash ‑ The Way and Intention."
+    translated: "Black Tortoise Breakthrough Strike ‑ Tao Intent"
   - split: 32
     text: "易损"
     translated: "Fragile"
@@ -23649,7 +23649,7 @@
     translated: "A small flaw"
   - split: 33
     text: "剑玄效果存在时，攻击目标减少目标自身道学*1的内外防"
-    translated: "While the effect of Jianxuan is in place, the attack reduces the target's own Taoism by 1 points from their internal and external defenses."
+    translated: "When the Profound Sword effect is active, the target's attack reduces the target's own Taoist Scripture by 1 in both internal and external defense."
 - raw: "1038102#真空无极-堪暇#1#4#3#1#8000#0#0#0#0#0#0#2#1.2#180.0#10000#0#0#0#2#0#0#-10000#22#0#42##0#1#0#0#堪瑕#减少目标施加者道学*1的内外防#buffnew_pojia#0#0#1038102#0#0#0#0#0#1038102##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -23686,7 +23686,7 @@
     translated: "Innumerable pounds"
   - split: 33
     text: "剑玄效果存在时，每次攻击额外攻击一次"
-    translated: "When the Jianxuan effect is active, each attack will also deal an additional external attack."
+    translated: "While the Profound Sword effect is active, each attack also performs an additional external attack."
 - raw: "1040000#玄天剑气-伤害#0#1#0#0#0#0#sound_jian_hurt1#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#8#60#100#0#0#0#0#0#1040000#0#sfx_hero_main_11_hit#0#0#0#1040000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -23702,7 +23702,7 @@
     translated: "Resistance"
   - split: 33
     text: "剑玄效果存在时，自身施展招式时可以抵抗伤害"
-    translated: "When the Jianxuan effect is present, the user can resist damage while performing their own techniques"
+    translated: "While the effect of Profound Sword is active, they can resist damage when casting techniques themselves."
 - raw: "1040002#玄天剑气-玄机#0#1#0#0#0#0#sound_jian_hurt1#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#42##0#1#0#0#玄机#每次伤害附带自身道学*1伤害#buffnew_yuheng#0#0#1040002#0#sfx_hero_main_11_hit#0#0#0#1040002#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1

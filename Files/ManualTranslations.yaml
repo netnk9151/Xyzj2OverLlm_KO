@@ -1,4 +1,14 @@
-﻿- raw: 谢王上。
+﻿- raw: 每次伤害附带自身道学*1.1，持续7秒
+  result: Each hit adds Taoism ×1.1, lasts 7 seconds
+  badtrans: true
+  direct: each time damage carries own Daoism *1.1, lasts 7 seconds
+  literal: mei ci shang hai fu dai zi shen dao xue *1.1, chi xu 7 miao
+- raw: 如果自身有剑玄效果，攻击对目标施加道意，目标自身道学低于350，受到伤害增加20%，持续6秒
+  result: If under Profound Sword, attacks apply Tao Intent; if target's Taoism is below 350, they take 20% more damage for 6 seconds
+  badtrans: true
+  direct: If self has Sword Profound effect, attack applies Dao Intent to target, target’s own Daoism lower than 350, receives 20% more damage, lasts 6 seconds
+  literal: Ru guo zi shen you jian xuan xiao guo, gong ji dui mu biao shi jia dao yi, mu biao zi shen dao xue di yu 350, shou dao shang hai zeng jia 20%, chi xu 6 miao
+- raw: 谢王上。
   result: Thank you, Your Majesty
   badtrans: true
   direct: thank king
