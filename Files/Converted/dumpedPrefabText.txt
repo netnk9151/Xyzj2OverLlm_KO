@@ -3107,6 +3107,34 @@
   splits:
   - text: "倒计时：9"
     translated: "Countdown: 9"
+- raw: "此队伍"
+  splits:
+  - text: "此队伍"
+    translated: "This team"
+- raw: "积分"
+  splits:
+  - text: "积分"
+    translated: "Points"
+- raw: "我方队伍"
+  splits:
+  - text: "我方队伍"
+    translated: "Our team"
+- raw: "简介："
+  splits:
+  - text: "简介："
+    translated: "Introduction:"
+- raw: "队伍选择"
+  splits:
+  - text: "队伍选择"
+    translated: "Team selection"
+- raw: "随机队伍: <color=#6ba27b>可获得积分</color>"
+  splits:
+  - text: "随机队伍: <color=#6ba27b>可获得积分</color>"
+    translated: "Random Team Assignment: <color=#6ba27b>Earn points</color>"
+- raw: "/ 自选队伍：<color=#b46049>无积分</color>"
+  splits:
+  - text: "/ 自选队伍：<color=#b46049>无积分</color>"
+    translated: "Select your team: <color=#b46049>No points accumulated.</color>"
 - raw: "下阶段介绍"
   splits:
   - text: "下阶段介绍"
@@ -8148,6 +8176,34 @@
   splits:
   - text: "风雪凌霜，万籁俱静，通过琴音的力量"
     translated: "Amidst wind, snow, and frost, all sounds are hushed as they pass through the power of the zither's music."
+- raw: "人物详情"
+  splits:
+  - text: "人物详情"
+    translated: "Character Details"
+- raw: "神药王"
+  splits:
+  - text: "神药王"
+    translated: "King of Divine Elixirs"
+- raw: "招式(主动)"
+  splits:
+  - text: "招式(主动)"
+    translated: "Move (Active)"
+- raw: "人物信息"
+  splits:
+  - text: "人物信息"
+    translated: "Character Information"
+- raw: "套路："
+  splits:
+  - text: "套路："
+    translated: "Technique:"
+- raw: "天赋："
+  splits:
+  - text: "天赋："
+    translated: "Innate talent:"
+- raw: "特质："
+  splits:
+  - text: "特质："
+    translated: "Attribute:"
 - raw: "关系信息"
   splits:
   - text: "关系信息"
@@ -9096,14 +9152,18 @@
   splits:
   - text: "穿戴"
     translated: "Wear"
-- raw: "烟雨江湖"
+- raw: "烟雨江湖大大叔大婶"
   splits:
-  - text: "烟雨江湖"
-    translated: "Misty rain over the Jianghu"
+  - text: "烟雨江湖大大叔大婶"
+    translated: "Misty‑Rainy Jianghu Uncle and Auntie"
 - raw: "普通时装"
   splits:
   - text: "普通时装"
     translated: "Casual clothing"
+- raw: "v发阿达实打实大师大大"
+  splits:
+  - text: "v发阿达实打实大师大大"
+    translated: "Ada is truly a masterful master!"
 - raw: "回购"
   splits:
   - text: "回购"
@@ -9316,10 +9376,6 @@
   splits:
   - text: "帮助信息：\\n1、天工图主要用于萃取和覆写词条。萃取词条的装备会被销毁，覆写词条在没有使用秘法的时候为随机覆写。\\n2、选中的装备词条中如果出现灰色则表示该天工图能力值不足以萃取该词条，可尝试选择其他词条萃取，或使用能力值更高的天工图来萃取词条。\\n3、覆写词条有成功率，能力值越高的词条覆写成功率会越低，可通过添加道具提升成功率。"
     translated: "Help Information: \\n1, the Divine Craft Map is primarily used for extracting and rewriting entries. Extracting an entry will destroy the equipment associated with it, while rewriting an entry results in a random rewrite when no special techniques are employed.\\n2, if a selected equipment entry appears gray in the Divine Craft Map selection, it indicates that the map's ability value is insufficient to extract that entry. You may try selecting another entry for extraction or use a Divine Craft Map with higher ability values to extract the entry.\\n3, rewriting a keyword has a success rate; the higher the ability value of the keyword, the lower its chance of successful rewrite. This success rate can be enhanced by adding items."
-- raw: "人物详情"
-  splits:
-  - text: "人物详情"
-    translated: "Character Details"
 - raw: "此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在"
   splits:
   - text: "此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在"
@@ -9948,10 +10004,6 @@
   splits:
   - text: "姓名："
     translated: "Name:"
-- raw: "简介："
-  splits:
-  - text: "简介："
-    translated: "Introduction:"
 - raw: "外防："
   splits:
   - text: "外防："

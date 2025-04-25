@@ -24149,6 +24149,53 @@
   - split: 33
     text: "额外造成一次有50%吸血的伤害"
     translated: "Inflicts additional 50% blood‑draining damage"
+- raw: "1048000#天外飞仙·进-伤害#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#220#220#100####0#0#1048000#0#sfx_hero_main_11_hit#0#0#0#1048000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天外飞仙·进-伤害"
+    translated: "Flying Immortal from Beyond the Heavens · Enter ‑ Harm"
+- raw: "1048001#天外飞仙·进-斩杀#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#5#0#0#20#0#0#0##2#1#0#0#斩#造成自身已损失生命值*0.2的额外伤害##0#0#1048001#0##0#0#0#1048001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天外飞仙·进-斩杀"
+    translated: "Flying Immortal from Beyond the Heavens · Enter ‑ Slain"
+  - split: 32
+    text: "斩"
+    translated: "Slash"
+  - split: 33
+    text: "造成自身已损失生命值*0.2的额外伤害"
+    translated: "Causes additional damage of *0.2 to self, on top of existing health loss."
+- raw: "1049000#剑二十三-伤害#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#210#100####0#0#1049000#0#sfx_hero_main_11_hit#0#0#0#1049000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑二十三-伤害"
+    translated: "Sword 23 ‑ Harm"
+- raw: "1049001#剑二十三-剑域#1#20#0#0#5000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#无回#剑域范围内敌人被定身，且受伤增加15%##0#0#1049001#0##0#0#0#1049001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑二十三-剑域"
+    translated: "Sword 23 ‑ Sword Domain"
+  - split: 32
+    text: "无回"
+    translated: "No reply"
+  - split: 33
+    text: "剑域范围内敌人被定身，且受伤增加15%"
+    translated: "Within the sword domain, enemies are immobilized and take an additional 15% damage."
+- raw: "1049002#剑二十三-剑域#1#11#0#0#5000#0####0##0#0#0#10000#0#0#0#0#0#0#15#0#0#0##0#1#0#0####0#0#1049002#0##0#0#0#1049002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑二十三-剑域"
+    translated: "Sword 23 ‑ Sword Domain"
+- raw: "1049003#剑二十三-位移#0#4#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#300#200#0#0##0#1#0#0####0#0#1049003#0##0#0#0#1049003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑二十三-位移"
+    translated: "Sword 23 ‑ Displacement"
+- raw: "1049004#残影#0#24#0#1#200#0####0##0#0#0#10000#0#0#0#0#0#0#200#10#0#0#Materials/MotionTrail/Fresnel_test8#0#1#0#0####0#0#1049004#0##0#0#0#1049004##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "残影"
+    translated: "Fleeting shadows"
 - raw: "1100000#破釜沉舟-伤害#0#1#3#1#999#0#sound_jian_hurt2###0##0#1.5#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#50#140#100####0#0#1100000#1#sfx_hero_main_dao_hit#0#0#0#1100000#hurt_zhongji#0#0##3.0#0.0###"
   splits:
   - split: 1
@@ -25797,7 +25844,7 @@
     translated: "Ignite"
   - split: 33
     text: "对身前1.5米，2米范围的目标每秒造成自身阳属性的伤害，持续5秒"
-    translated: "Within a 1.5‑meter frontal range and up to a 2‑meter distance, continuously deal damage over 5 seconds using your own Yang attribute to targets in the area."
+    translated: "Within a range of 2 meters ahead and 1.5 meters wide, deal damage to targets every second equal to your own Yang attribute for 5 seconds."
 - raw: "1200200#登云梯-伤害1#0#1#3#1#0#0#sound_qiang_hurt1#0#0#0#0#0#2.4#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#30#3#100#0#0#0#0#0#1200200#0#sfx_hero_main_qiang_hit#0#0#0#1200200#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -26000,7 +26047,7 @@
     translated: "Ignite"
   - split: 33
     text: "对身前1.5米，2米范围的目标每秒造成自身阳属性的伤害，持续5秒"
-    translated: "Within a 1.5‑meter frontal range and up to a 2‑meter distance, continuously deal damage over 5 seconds using your own Yang attribute to targets in the area."
+    translated: "Within a range of 2 meters ahead and 1.5 meters wide, deal damage to targets every second equal to your own Yang attribute for 5 seconds."
 - raw: "1205100#归去堪禅-伤害1#0#1#3#1#0#0#sound_qiang_hurt3#0#0#0#0#0#2.0#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#7#100#0#0#0#0#0#1205100#0#sfx_hero_main_qiang_hit#0#0#0#1205100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -26808,7 +26855,7 @@
     translated: "Ignite"
   - split: 33
     text: "对自身周围1米的目标每秒造成自身阳属性的伤害，持续5秒"
-    translated: "Deals damage to targets within 1 meters of oneself, using one's Yang attribute, for 5 seconds."
+    translated: "Inflicts damage based on the caster's Yang attribute to targets within 1 meters every second, lasting for 5 seconds."
 - raw: "1300100#猛虎跳涧-伤害#0#1#6#1#0#0#sound_quan_hurt3#0#0#0#0#0#1.5#0.5#10000#0#0#0#0#0#0#20#21#0#0##0#110#25#100#0#0#0#0#0#1300100#0#sfx_hero_main_quan_hit#0#0#0#1300100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -29733,6 +29780,261 @@
   - split: 1
     text: "少泽·残-伤害"
     translated: "Shao Ze · Can ‑ Harm"
+- raw: "1345100#少冲-伤害1#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345100#0#sfx_main_hero_130821_hit#0#0#0#1345100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少冲-伤害1"
+    translated: "Little Charge ‑ Harm 1"
+- raw: "1345101#少冲-伤害2#0#1#6#1#0#0####0##0#1.0#6.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345101#0##0#0#0#1345101#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少冲-伤害2"
+    translated: "Little Charge ‑ Injure 2"
+- raw: "1345102#少冲-气贯长虹#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#2#0#0#18000#0#0#21##0#1#0#0#气贯长虹#内力伤害会造成内攻*1.8的额外伤害并且击穿目标30%内防。##0#0#1345102#0##0#0#0#1345102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少冲-气贯长虹"
+    translated: "Little Charge ‑ Energy coursing through a rainbow"
+  - split: 32
+    text: "气贯长虹"
+    translated: "A surging energy that spans the rainbow"
+  - split: 33
+    text: "内力伤害会造成内攻*1.8的额外伤害并且击穿目标30%内防。"
+    translated: "Inner Power damage causes additional extra damage to the target from an internal attack *1.8* and penetrates the target's 30% internal defense."
+- raw: "1345103#少冲-气贯长虹#1#4#0#0#8000#0####0##0#0#0#10000#0#0#0#1#0#0#-30#1023#0#0##0#1#0#0####0#0#1345103#0##0#0#0#1345103##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少冲-气贯长虹"
+    translated: "Little Charge ‑ Energy coursing through a rainbow"
+- raw: "1345200#关冲-伤害1#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#480#100####0#0#1345200#0#sfx_main_hero_130822_hit#0#0#0#1345200#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "关冲-伤害1"
+    translated: "Engage in a fierce battle ‑ Injure 1"
+- raw: "1345201#关冲-伤害2#0#1#6#1#0#0####0##0#1.0#6.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#480#100####0#0#1345201#0##0#0#0#1345201#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "关冲-伤害2"
+    translated: "Confront danger head‑on ‑ Harm 2"
+- raw: "1345202#关冲-震荡#1#20#0#0#3000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#震荡#内力伤害能定身命中目标##0#0#1345202#0##0#0#0#1345202##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "关冲-震荡"
+    translated: "Rush at the throat ‑ Fluctuation"
+  - split: 32
+    text: "震荡"
+    translated: "Turbulence"
+  - split: 33
+    text: "内力伤害能定身命中目标"
+    translated: "Inner power damage can immobilize and hit target."
+- raw: "1345300#中冲-伤害1#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#480#100####0#0#1345300#0#sfx_main_hero_130823_hit#0#0#0#1345300#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "中冲-伤害1"
+    translated: "Zhongchong ‑ Harm 1"
+- raw: "1345301#中冲-伤害2#0#1#6#1#0#0####0##0#1.0#6.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#480#100####0#0#1345301#0##0#0#0#1345301#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "中冲-伤害2"
+    translated: "Zhongchong ‑ Harm 2"
+- raw: "1345302#中冲-霞光#0#5#2#1#0#0####0##0#3.0#0.8#10000#0#0#0#0#0#0#300#300#0#0##0#1#0#0#霞光#内力伤害能击退身前3米敌人##0#0#1345302#0##0#0#0#1345302##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "中冲-霞光"
+    translated: "Ming Dynasty ‑ Shimmering sunlight"
+  - split: 32
+    text: "霞光"
+    translated: "Shimmering sunlight"
+  - split: 33
+    text: "内力伤害能击退身前3米敌人"
+    translated: "Inner Power damage can repel enemies up to 3 meters in front."
+- raw: "1345400#商阳-伤害1#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345400#0#sfx_main_hero_130824_hit#0#0#0#1345400#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "商阳-伤害1"
+    translated: "Yang Shang ‑ Harm 1"
+- raw: "1345401#商阳-伤害2#0#1#6#1#0#0####0##0#1.0#6.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345401#0##0#0#0#1345401#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "商阳-伤害2"
+    translated: "Yang Shang ‑ Harm 2"
+- raw: "1345402#商阳-气势#1#9#0#1#3000#0####0##0#0#0#10000#0#0#0#0#0#0#15#0#0#0##0#1#0#0#气势#自身3秒内伤害提升15%##0#0#1345402#0##0#0#0#1345402##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "商阳-气势"
+    translated: "Shang Yang ‑ Momentum"
+  - split: 32
+    text: "气势"
+    translated: "Momentum"
+  - split: 33
+    text: "自身3秒内伤害提升15%"
+    translated: "Self 3‑second internal injury damage increased by 15%."
+- raw: "1345500#少商-伤害1#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345500#0#sfx_main_hero_130825_hit#0#0#0#1345500#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少商-伤害1"
+    translated: "Lesser Yang ‑ Harm 1"
+- raw: "1345501#少商-伤害2#0#1#6#1#0#0####0##0#1.0#6.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1345501#0##0#0#0#1345501#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少商-伤害2"
+    translated: "Shaoshang ‑ Harm 2"
+- raw: "1345502#少商-百炼#0#10#0#0#0#0####0##0#2.0#1.5#10000#0#0#0#0#0#0#4#0#0#1##0#1#0#0#百炼#内力伤害可以击破目标身上的定身效果，使目标治疗效果降低100%，同时自身获得一定的内攻、命中加成##0#0#1345502#0##0#0#0#1345502##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少商-百炼"
+    translated: "Junior Merchant ‑ Through a hundred trials"
+  - split: 32
+    text: "百炼"
+    translated: "Through a hundred trials"
+  - split: 33
+    text: "内力伤害可以击破目标身上的定身效果，使目标治疗效果降低100%，同时自身获得一定的内攻、命中加成"
+    translated: "Inner Power damage can break the immobilization effect on the target's body, reduce the target's healing effects by 100%, and simultaneously grant a bonus to internal attacks and hit rate."
+- raw: "1345503#少商-百炼#1#49#0#0#12000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#100##0#1#0#0####0#0#1345503#0##0#0#0#1345503##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少商-百炼"
+    translated: "Junior Merchant ‑ Through a hundred trials"
+- raw: "1345504#少商-百炼#1#23#0#1#12000#0####0##0#0#0#10000#0#0#0#1#0#0#20#0#0#0#1021|1074#0#1#0#0####0#0#1345504#0##0#0#0#1345504##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "少商-百炼"
+    translated: "Junior Merchant ‑ Through a hundred trials"
+- raw: "1345600##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134570#0#1#0#0#千念怒放#六脉尽发后，身影翻腾，内力纵横，每招调息30秒#buffnew_longxiang#0#0#1346000#0##0#0#0#1346000##1#0#1345601|1345602|1345603|1345604|1345605#0.0#0.0###"
+  splits:
+  - split: 32
+    text: "千念怒放"
+    translated: "Thousand thoughts blooming in fury"
+  - split: 33
+    text: "六脉尽发后，身影翻腾，内力纵横，每招调息30秒"
+    translated: "After fully releasing the six meridians, the form whirls and twirls as inner power courses through every move, with each technique requiring 30 seconds to adjust breath."
+- raw: "1345601##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134510#0#1#0#0####0#0#1346001#0##0#0#0#1346001##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345602##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134520#0#1#0#0####0#0#1346002#0##0#0#0#1346002##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345603##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134530#0#1#0#0####0#0#1346003#0##0#0#0#1346003##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345604##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134540#0#1#0#0####0#0#1346004#0##0#0#0#1346004##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345605##1#15#0#1#0#0####0##0#0#0#10000#16777216#30000#0#0#0#0#0#0#0#134562#134550#0#1#0#0####0#0#1346005#0##0#0#0#1346005##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345610#残影#0#24#0#1#12000#0####0##0#0#0#10000#0#0#0#0#0#0#1000#50#0#0#Materials/MotionTrail/Fresnel_test8#0#1#0#0####0#0#1345610#0##0#0#0#1345610##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "残影"
+    translated: "Fleeting shadows"
+- raw: "1345611#六脉齐发-伤害#0#13#0#1#2000#0####0##0#4.0#0#10000#0#0#0#3#0#4#1#333#6#134565##0#1#0#0####0#0#1345611#0##0#0#0#1345611##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "六脉齐发-伤害"
+    translated: "All six meridians are fully activated ‑ Harm"
+- raw: "1345612#六脉齐发-伤害#0#13#0#1#2000#0####0##0#4.0#0#10000#0#0#0#3#0#4#1#333#6#134565##0#1#0#0####0#0#1345612#0##0#0#0#1345612##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "六脉齐发-伤害"
+    translated: "All six meridians are fully activated ‑ Harm"
+- raw: "1345613#六脉齐发-伤害#0#1#3#1#0#0####0##0#4.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#520#100####0#0#1345613#0##0#0#0#1345613#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "六脉齐发-伤害"
+    translated: "All six meridians are fully activated ‑ Harm"
+- raw: "1345614#六脉齐发-无敌#1#45#0#1#10000#0####0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1345614#0##0#0#0#1345614##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "六脉齐发-无敌"
+    translated: "All six meridians are fully activated ‑ Wudi"
+- raw: "1345620##1#4#0#1#10000#0####0##0#0#0#10000#0#0#0#1#0#1#0#10#0#0##134563#1#0#0#引脉#叠加至6层后触发领域招式#buffnew_liaoyuan#0#0#1346100#0##0#5#6#1346100##2#0##0.0#0.0###"
+  splits:
+  - split: 32
+    text: "引脉"
+    translated: "Activate Qi Meridians"
+  - split: 33
+    text: "叠加至6层后触发领域招式"
+    translated: "After stacking to layer 6, activate field technique."
+- raw: "1345630##1#15#0#1#1000#0####0##0#0#0#10000#1048576#400#0#0#0#0#0#0#0#134564##0#1#0#0####0#0#1346200#0##0#0#0#1346200##0#0##0.0#0.0###"
+  splits: []
+- raw: "1345640##1#4#0#1#1000#0####0##0#0#0#10000#0#0#0#0#0#4#0#10#0#0##134561#1#0#0####0#0#1346300#0##0#5#2#1346300##2#0##0.0#0.0###"
+  splits: []
+- raw: "1346000#三分归元气-伤害#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#420#100####0#0#1346000#0#sfx_main_hero_130820_hit#0#0#0#1346000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归元气-伤害"
+    translated: "One‑third belongs to vitality ‑ Harm"
+- raw: "1346001#三分归元气-天霜劲#1#4#0#0#5000#0####0##0#0#0#10000#0#0#0#1#0#0#-20#1090#0#0##0#1#0#0#天霜劲#减速目标20%##0#0#1346001#0##0#0#0#1346001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归元气-天霜劲"
+    translated: "One‑third belongs to vitality ‑ Celestial Frost Technique"
+  - split: 32
+    text: "天霜劲"
+    translated: "Celestial Frost Essence"
+  - split: 33
+    text: "减速目标20%"
+    translated: "Reduce target speed by 20%"
+- raw: "1346002#三分归元气-排云劲#1#1#0#0#5000#1000####0##0#0#0#10000#0#0#0#2#0#0#10000#0#0#7##0#1#0#0#排云劲#对目标造成自身内力*1的持续伤害，持续5秒##0#0#1346002#0##0#0#0#1346002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归元气-排云劲"
+    translated: "One‑third belongs to vitality ‑ Cloud‑dispersing force"
+  - split: 32
+    text: "排云劲"
+    translated: "Riding Clouds in Might"
+  - split: 33
+    text: "对目标造成自身内力*1的持续伤害，持续5秒"
+    translated: "Inflicts continuous damage to the target equal to 1% of their own Inner Power for 5 seconds."
+- raw: "1346003#三分归元气-风神劲#1#11#0#0#5000#0####0##0#0#0#10000#0#0#0#0#0#0#15#0#0#0##0#1#0#0#风神劲#目标受伤增加15%，持续5秒##0#0#1346003#0##0#0#0#1346003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归元气-风神劲"
+    translated: "One‑third belongs to vitality ‑ Windsoul Force"
+  - split: 32
+    text: "风神劲"
+    translated: "Wind God's Power"
+  - split: 33
+    text: "目标受伤增加15%，持续5秒"
+    translated: "Increase target's damage taken by 15%, lasting for 5 seconds."
+- raw: "1346100#三分归一-减伤#1#10#0#1#2000#0####0##0#0#0#10000#0#0#0#0#0#0#80#0#0#0##0#1#0#0####0#0#1346100#0##0#0#0#1346100##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归一-减伤"
+    translated: "One part in three returns ‑ Reduce harm"
+- raw: "1346101#三分归一-护盾#1#15#0#1#2000#0####0##0#0#0#10000#1073741826#10#0#0#0#0#0#0#0#1076##0#1#0#0####0#0#1346101#0##0#0#0#1346101##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归一-护盾"
+    translated: "One part in three belongs to another ‑ A shield"
+- raw: "1346102#三分归一-防御提升#1#23#0#1#10000#0####0##0#0#0#10000#0#0#0#2#0#0#10000#0#0#7#22|23#0#1#0#0#守一#自身内外防御提升自身内力*一定比例，持续一段时间##0#0#1346102#0##0#0#0#1346102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三分归一-防御提升"
+    translated: "One part in three goes elsewhere ‑ Defense Boost"
+  - split: 32
+    text: "守一"
+    translated: "Shou Yi"
+  - split: 33
+    text: "自身内外防御提升自身内力*一定比例，持续一段时间"
+    translated: "Self‑defense capabilities are enhanced by a certain percentage of one's inner power, lasting for some time."
+- raw: "1347000#凤舞九天-伤害#0#1#0#0#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#0#210#100####0#0#1347000#0#sfx_main_hero_130823_hit#0#0#0#1347000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "凤舞九天-伤害"
+    translated: "Phoenix Dances in the Nine Heavens ‑ Harm"
+- raw: "1347001#凤舞九天-灼烧#0#13#0#1#10000#0##sfx_buff_huoyan##0##0#0#0#10000#0#0#0#0#0#3#1#1000#10#134701##0#1#0#0#余烬#地面生成持续燃烧区域，造成基于自身阳属性的额外伤害##0#0#1347001#0##0#0#0#1347001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "凤舞九天-灼烧"
+    translated: "Phoenix Dances in the Nine Heavens ‑ Scorching"
+  - split: 32
+    text: "余烬"
+    translated: "Remnants of Ash"
+  - split: 33
+    text: "地面生成持续燃烧区域，造成基于自身阳属性的额外伤害"
+    translated: "The ground generates a continuously burning area, causing additional damage based on the user's own Yang attribute."
+- raw: "1347010#凤舞九天-灼烧#0#1#3#1#0#0####0##0#3.0#180.0#10000#0#0#0#2#0#0#8000#0#0#29##0#1#0#0####0#0#1347010#0##0#0#0#1347010##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "凤舞九天-灼烧"
+    translated: "Phoenix Dances in the Nine Heavens ‑ Scorching"
 - raw: "1505000#魔息#1#15#0#1#0#0#0#0#4#0#0#1#0#0#10000#1048576#2000#0#0#0#0#0#0#0#1278##0#1#0#0#魔息#战斗中每2秒对周围2米敌人造成自身内力*2的伤害并且回复自身内力*0.2的真气值。#buffnew_suijia#0#0#1505000#0#0#0#0#0#1505000##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -35298,6 +35600,57 @@
   splits: []
 - raw: "31620602#0#0#1#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#-10000#0#0#0##0#1#0#0#0#0#0#0#0#31620602#0#0#0#0#0#31620602#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits: []
+- raw: "31630300#龙腾#1#15#0#1#0#0####0##0#0#0#10000#1048576#10000#0#0#0#0#0#0#0#3163031##0#1#0#0####0#0#31630300#0##0#0#0#31630300##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "31630301#龙腾#1#15#0#1#0#0####0##0#0#0#10000#1#10000#0#0#0#0#0#0#0#3163032##0#1#0#0####0#0#31630301#0##0#0#0#31630301##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "31630310#龙腾#0#20#3#1#15000#0###sfx_buff_feilong#0##0#7.0#180.0#10000#0#0#0#1#1#0#700#120#650#0#31630311#5#0#0#0###buffnew_ziqidonglai#0#0#31630310#3##0#0#0#31630310#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "31630311#龙腾-伤害#0#1#3#1#0#0####0##0#1.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#0#300#100####0#0#31630311#0##0#0#0#31630311##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾-伤害"
+    translated: "Leaping Dragon ‑ Harm"
+- raw: "31630320#龙腾#0#20#3#1#15000#0###sfx_buff_feilong#0##0#7.0#180.0#10000#0#0#0#1#1#0#700#120#650#31630311##5#0#0#0###buffnew_ziqidonglai#0#0#31630320#3##0#0#0#31630320#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "31640200#北冥#1#21#0#0#0#0##sfx_main_hero_120560_Loop_2##0##0#3.0#0#10000#0#0#0#0#0#0#0#0#0#0#31640201|31640202|31640203#0#1#0#0#北冥#范围内敌人移动速度降低，持续损失施加者内力*1的生命和内力*0.5的真气。#buffnew_ziqidonglai#0#0#31640200#0##0#0#0#31640200##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥"
+    translated: "Northern Darkness"
+  - split: 32
+    text: "北冥"
+    translated: "Northern Darkness"
+  - split: 33
+    text: "范围内敌人移动速度降低，持续损失施加者内力*1的生命和内力*0.5的真气。"
+    translated: "Enemy movement speed is reduced within range. The target continuously loses health equivalent to the caster's inner power multiplied by 1, and true qi equivalent to the caster's inner power multiplied by 0.5."
+- raw: "31640201#北冥#1#4#0#1#0#0####0##0#0#0#10000#0#0#0#1#0#0#-10#1090#0#0##0#1#0#0####0#0#31640201#0##0#0#0#31640201##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥"
+    translated: "Northern Darkness"
+- raw: "31640202#北冥#1#1#0#1#0#1000####0##0#0#0#10000#0#0#0#2#0#0#10000#0#0#7##0#1#0#0####0#0#31640202#0##0#0#0#31640202##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥"
+    translated: "Northern Darkness"
+- raw: "31640203#北冥#1#3#0#1#0#1000####0##0#0#0#10000#0#0#0#2#0#0#-5000#0#0#7##0#1#0#0####0#0#31640203#0##0#0#0#31640203##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥"
+    translated: "Northern Darkness"
 - raw: "33080000#追风一式-伤害#0#1#3#1#999#0#sound_jian_hurt2###0##0#1.3#45.0#10000#0#0#0#0#0#0#20#21#0#0##0#75#75#100####0#0#33080000#1#sfx_npc_jian_hit#0#0#0#33080000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -38201,6 +38554,59 @@
   - split: 1
     text: "六字诀-清心"
     translated: "The Six‑Character Incantation ‑ Pure Heart"
+- raw: "100600130#龙腾#1#15#0#1#0#0###4#0##0#0#0#10000#1048576#5000#0#0#0#0#0#0#0#3163033##0#1#0#0#龙腾#战斗中，每隔一段时间或命中敌人时，内力凝结飞龙向目标攻击#buffnew_shapolang#0#0#100600130#0##0#0#0#100600130##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+  - split: 32
+    text: "龙腾"
+    translated: "Soaring Dragon"
+  - split: 33
+    text: "战斗中，每隔一段时间或命中敌人时，内力凝结飞龙向目标攻击"
+    translated: "During combat, every so often or when hitting an enemy, condensed inner power forms a flying dragon that attacks the target."
+- raw: "100600131#龙腾#1#15#0#1#0#0###4#0##0#0#0#10000#1#5000#0#0#0#0#0#0#0#3163033##0#1#0#0####0#0#100600131#0##0#0#0#100600131##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "100600132#龙腾#0#9#3#1#15000#0###sfx_buff_feilong#0##0#7.0#180.0#10000#0#0#0#1#1#0#700#120#650#0#100600133#5#0#0#0####0#0#100600132#3##0#0#0#100600132#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾"
+    translated: "Soaring Dragon"
+- raw: "100600133#龙腾-伤害#0#1#3#1#0#0####0##0#1.0#180.0#10000#0#0#0#0#0#0#20#21#0#0##0#50#50#0####0#0#100600133#0##0#0#0#100600133##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "龙腾-伤害"
+    translated: "Leaping Dragon ‑ Harm"
+- raw: "100600150#惊天变-气诀#1#5#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#100#0#0#20##0#1#0#0#气诀#获得20%反伤效果，每秒回复自身3%真气。#buffnew_chongguan#0#0#100600150#0##0#0#0#100600150##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "惊天变-气诀"
+    translated: "Earth‑shattering change ‑ Breath Technique"
+  - split: 32
+    text: "气诀"
+    translated: "Breath Technique"
+  - split: 33
+    text: "获得20%反伤效果，每秒回复自身3%真气。"
+    translated: "Gain 20% counter‑damage effect, restoring 3% of your own True Qi every second."
+- raw: "100600151#惊天变-气诀#1#3#0#1#0#1000###4#0##0#0#0#10000#0#0#0#2#0#0#300#0#0#1##0#1#0#0####0#0#100600151#0##0#0#0#100600151##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "惊天变-气诀"
+    translated: "Earth‑shattering change ‑ Breath Technique"
+- raw: "100600160#浅水游#1#9#0#1#0#0####0##0#0#0#10000#0#0#0#0#0#0#20#0#0#0##0#1#0#0#鱼跃#获得20%的增伤效果#buffnew_beici#0#0#100600160#0##0#0#0#100600160##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "浅水游"
+    translated: "Shallow Water Swim"
+  - split: 32
+    text: "鱼跃"
+    translated: "Fish leaping from the water"
+  - split: 33
+    text: "获得20%的增伤效果"
+    translated: "Obtain a 20% increase in damage effect"
 - raw: "110050000#位移#0#4#0#1#999#0#0###0##0#0#0#10000#0#0#0#0#0#0#250#165#0#0##0#1#0#0####0#0#110050000#0##0#0#0#110050000#0#0#0##0.0#0.0###"
   splits:
   - split: 1

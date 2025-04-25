@@ -2062,43 +2062,43 @@
   splits:
   - split: 3
     text: "<color=#b8b8b8>兴趣：</color>{0}"
-- raw: "PopInfoTip,ShowInformation,34,<color=#b8b8b8>好感：</color>陌路不识,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,34,<color=#b8b8b8>好感：</color>陌路不识,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>好感：</color>陌路不识"
-- raw: "PopInfoTip,ShowInformation,50,<color=#b8b8b8>情分：</color>0,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,50,<color=#b8b8b8>情分：</color>0,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>情分：</color>0"
-- raw: "PopInfoTip,ShowInformation,66,<color=#b8b8b8>身份：不详</color>,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,66,<color=#b8b8b8>身份：不详</color>,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>身份：不详</color>"
-- raw: "PopInfoTip,ShowInformation,110,<color=#b8b8b8>势力：不详</color>,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,110,<color=#b8b8b8>势力：不详</color>,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>势力：不详</color>"
-- raw: "PopInfoTip,ShowInformation,126,<color=#b8b8b8>精力：</color>,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,126,<color=#b8b8b8>精力：</color>,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>精力：</color>"
-- raw: "PopInfoTip,ShowInformation,180,<color=#b8b8b8>兴趣：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,180,<color=#b8b8b8>兴趣：</color>{0},[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>兴趣：</color>{0}"
-- raw: "PopInfoTip,ShowInformation,185,不详,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,185,不详,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "不详"
-- raw: "PopInfoTip,ShowInformation,264,女,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,263,女,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "女"
-- raw: "PopInfoTip,ShowInformation,272,男,[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,271,男,[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "男"
-- raw: "PopInfoTip,ShowInformation,284,<color=#b8b8b8>性别：</color>{0},[System.String，System.String，System.Boolean，System.Int32，RELATION_TYPE]"
+- raw: "PopInfoTip,ShowInformation,283,<color=#b8b8b8>性别：</color>{0},[System.String，System.String，System.Boolean，System.Int64，RELATION_TYPE]"
   splits:
   - split: 3
     text: "<color=#b8b8b8>性别：</color>{0}"
@@ -3842,35 +3842,39 @@
   splits:
   - split: 3
     text: "等级{0}"
-- raw: "AttriPart,ShowAttriRight,209,称号：,[]"
+- raw: "AttriPart,ShowAttriRight,227,称号：,[]"
   splits:
   - split: 3
     text: "称号："
-- raw: "AttriPart,ShowAttriRight,298,门派：,[]"
-  splits:
-  - split: 3
-    text: "门派："
-- raw: "AttriPart,ShowAttriRight,395,门派：无,[]"
-  splits:
-  - split: 3
-    text: "门派：无"
-- raw: "AttriPart,ShowAttriRight,402,无,[]"
+- raw: "AttriPart,ShowAttriRight,251,无,[]"
   splits:
   - split: 3
     text: "无"
-- raw: "AttriPart,ShowAttriRight,462,简介：,[]"
-  splits:
-  - split: 3
-    text: "简介："
-- raw: "AttriPart,ShowAttriRight,527,门派：,[]"
+- raw: "AttriPart,ShowAttriRight,320,门派：,[]"
   splits:
   - split: 3
     text: "门派："
-- raw: "AttriPart,ShowAttriRight,771,气血,[]"
+- raw: "AttriPart,ShowAttriRight,417,门派：无,[]"
+  splits:
+  - split: 3
+    text: "门派：无"
+- raw: "AttriPart,ShowAttriRight,424,无,[]"
+  splits:
+  - split: 3
+    text: "无"
+- raw: "AttriPart,ShowAttriRight,484,简介：,[]"
+  splits:
+  - split: 3
+    text: "简介："
+- raw: "AttriPart,ShowAttriRight,549,门派：,[]"
+  splits:
+  - split: 3
+    text: "门派："
+- raw: "AttriPart,ShowAttriRight,793,气血,[]"
   splits:
   - split: 3
     text: "气血"
-- raw: "AttriPart,ShowAttriRight,875,真气,[]"
+- raw: "AttriPart,ShowAttriRight,897,真气,[]"
   splits:
   - split: 3
     text: "真气"
@@ -4206,14 +4210,14 @@
   splits:
   - split: 3
     text: "材料"
-- raw: "BagView_mobile,.ctor,73,其他,[]"
-  splits:
-  - split: 3
-    text: "其他"
-- raw: "BagView_mobile,.ctor,84,外观,[]"
+- raw: "BagView_mobile,.ctor,73,外观,[]"
   splits:
   - split: 3
     text: "外观"
+- raw: "BagView_mobile,.ctor,84,其他,[]"
+  splits:
+  - split: 3
+    text: "其他"
 - raw: "BagView_mobile,.cctor,13,全部物品,[]"
   splits:
   - split: 3
@@ -5514,7 +5518,7 @@
   splits:
   - split: 3
     text: "<color=#b8b8b8>好感：</color>{0}"
-- raw: "NpcInformationView,ShowNpcSpell,1682,段:,[]"
+- raw: "NpcInformationView,ShowNpcSpell,1700,段:,[]"
   splits:
   - split: 3
     text: "段:"
@@ -6542,6 +6546,10 @@
   splits:
   - split: 3
     text: "未拥有"
+- raw: "DLCShowViewItemHolder,UpdateFromModel,85,<color=#595959><size=42>更多内容敬请期待</size></color>,[DLCShowViewItemModel]"
+  splits:
+  - split: 3
+    text: "<color=#595959><size=42>更多内容敬请期待</size></color>"
 - raw: "FileItemSlot,ClickDelete,95,是否删除云存档？,[]"
   splits:
   - split: 3
@@ -6554,35 +6562,35 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "FileItemSlot,ClickDelete,148,是否删除？,[]"
+- raw: "FileItemSlot,ClickDelete,149,是否删除？,[]"
   splits:
   - split: 3
     text: "是否删除？"
-- raw: "FileItemSlot,ClickDelete,166,确定,[]"
+- raw: "FileItemSlot,ClickDelete,167,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "FileItemSlot,ClickDelete,171,取消,[]"
+- raw: "FileItemSlot,ClickDelete,172,取消,[]"
   splits:
   - split: 3
     text: "取消"
-- raw: "FileItemSlot,RefreshUI,577,江湖小卒,[SweetPotato.FileInfoItemData]"
+- raw: "FileItemSlot,RefreshUI,574,江湖小卒,[SweetPotato.FileInfoItemData]"
   splits:
   - split: 3
     text: "江湖小卒"
-- raw: "FileItemSlot,RefreshUI,595,武林新秀,[SweetPotato.FileInfoItemData]"
+- raw: "FileItemSlot,RefreshUI,592,武林新秀,[SweetPotato.FileInfoItemData]"
   splits:
   - split: 3
     text: "武林新秀"
-- raw: "FileItemSlot,RefreshUI,613,武道宗师,[SweetPotato.FileInfoItemData]"
+- raw: "FileItemSlot,RefreshUI,610,武道宗师,[SweetPotato.FileInfoItemData]"
   splits:
   - split: 3
     text: "武道宗师"
-- raw: "FileItemSlot,RefreshUI,631,盖世霸主,[SweetPotato.FileInfoItemData]"
+- raw: "FileItemSlot,RefreshUI,628,盖世霸主,[SweetPotato.FileInfoItemData]"
   splits:
   - split: 3
     text: "盖世霸主"
-- raw: "FileItemSlot,RefreshUI,649,独步天下,[SweetPotato.FileInfoItemData]"
+- raw: "FileItemSlot,RefreshUI,646,独步天下,[SweetPotato.FileInfoItemData]"
   splits:
   - split: 3
     text: "独步天下"
@@ -6970,11 +6978,11 @@
   splits:
   - split: 3
     text: "败：{0}"
-- raw: "EnermyTeamSlot,Refresh,599,胜：{0},[]"
+- raw: "EnermyTeamSlot,Refresh,580,胜：{0},[]"
   splits:
   - split: 3
     text: "胜：{0}"
-- raw: "EnermyTeamSlot,Refresh,693,败：{0},[]"
+- raw: "EnermyTeamSlot,Refresh,674,败：{0},[]"
   splits:
   - split: 3
     text: "败：{0}"
@@ -7062,15 +7070,15 @@
   splits:
   - split: 3
     text: "云账号:无"
-- raw: "MsgBoard,Refresh,345,胜：{0},[SweetPotato.ZrData]"
+- raw: "MsgBoard,Refresh,332,胜：{0},[SweetPotato.ZrData]"
   splits:
   - split: 3
     text: "胜：{0}"
-- raw: "MsgBoard,Refresh,434,败：{0},[SweetPotato.ZrData]"
+- raw: "MsgBoard,Refresh,421,败：{0},[SweetPotato.ZrData]"
   splits:
   - split: 3
     text: "败：{0}"
-- raw: "MyTeamPart,RefreshTeam,445,阵容码：{0},[SweetPotato.ZrData]"
+- raw: "MyTeamPart,RefreshTeam,429,阵容码：{0},[SweetPotato.ZrData]"
   splits:
   - split: 3
     text: "阵容码：{0}"
@@ -9666,19 +9674,19 @@
   splits:
   - split: 3
     text: "<color=#a8a8a8>{0}</color>/刻"
-- raw: "StaffSlot,OnReset,352,<color=#da914e>{0}</color>/刻,[]"
+- raw: "StaffSlot,OnReset,339,<color=#da914e>{0}</color>/刻,[]"
   splits:
   - split: 3
     text: "<color=#da914e>{0}</color>/刻"
-- raw: "StaffSlot,OnReset,403,<color=#da914e>任职收益</color>,[]"
+- raw: "StaffSlot,OnReset,390,<color=#da914e>任职收益</color>,[]"
   splits:
   - split: 3
     text: "<color=#da914e>任职收益</color>"
-- raw: "StaffSlot,OnReset,448,<color=#a8a8a8>预计收益</color>,[]"
+- raw: "StaffSlot,OnReset,435,<color=#a8a8a8>预计收益</color>,[]"
   splits:
   - split: 3
     text: "<color=#a8a8a8>预计收益</color>"
-- raw: "StaffSlot,OnReset,464,<color=#a8a8a8>{0}</color>/刻,[]"
+- raw: "StaffSlot,OnReset,451,<color=#a8a8a8>{0}</color>/刻,[]"
   splits:
   - split: 3
     text: "<color=#a8a8a8>{0}</color>/刻"
@@ -13082,7 +13090,7 @@
   splits:
   - split: 3
     text: "WayPoint，id:{0}中的joint:{1}点不存在"
-- raw: "SweetPotato.Tools,GetIconSprite,1279,Prefab/UISprite/UI_YingDao/提示-,[SweetPotato.IconType，System.String]"
+- raw: "SweetPotato.Tools,GetIconSprite,1303,Prefab/UISprite/UI_YingDao/提示-,[SweetPotato.IconType，System.String]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_YingDao/提示-"
@@ -15226,23 +15234,23 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.GameSaving,Save,2254,未知,[SweetPotato.FileInfoItemData，System.Boolean，System.Boolean，System.Boolean]"
+- raw: "SweetPotato.GameSaving,Save,2318,未知,[SweetPotato.FileInfoItemData，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "未知"
-- raw: "SweetPotato.GameSaving,Save,2455,存档发生了错误 \\n,[SweetPotato.FileInfoItemData，System.Boolean，System.Boolean，System.Boolean]"
+- raw: "SweetPotato.GameSaving,Save,2519,存档发生了错误 \\n,[SweetPotato.FileInfoItemData，System.Boolean，System.Boolean，System.Boolean]"
   splits:
   - split: 3
     text: "存档发生了错误 \\n"
-- raw: "SweetPotato.GameSaving,Load,669,此存档包含DLC内容 {0} ，无法读取,[System.String，LitJson.JsonData]"
+- raw: "SweetPotato.GameSaving,Load,733,此存档包含DLC内容 {0} ，无法读取,[System.String，LitJson.JsonData]"
   splits:
   - split: 3
     text: "此存档包含DLC内容 {0} ，无法读取"
-- raw: "SweetPotato.GameSaving,Load,728,确认,[System.String，LitJson.JsonData]"
+- raw: "SweetPotato.GameSaving,Load,792,确认,[System.String，LitJson.JsonData]"
   splits:
   - split: 3
     text: "确认"
-- raw: "SweetPotato.GameSaving,Load,733,取消,[System.String，LitJson.JsonData]"
+- raw: "SweetPotato.GameSaving,Load,797,取消,[System.String，LitJson.JsonData]"
   splits:
   - split: 3
     text: "取消"
@@ -17134,7 +17142,7 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.ShangChengViewNew,RefreshList_ForMoible,66,普通时装,[]"
+- raw: "SweetPotato.ShangChengViewNew,RefreshList_ForMoible,67,普通时装,[]"
   splits:
   - split: 3
     text: "普通时装"
@@ -17182,6 +17190,14 @@
   splits:
   - split: 3
     text: "卸下"
+- raw: "SweetPotato.ShangChengViewNew,RefreshQingGongSelectItem,291,启用,[]"
+  splits:
+  - split: 3
+    text: "启用"
+- raw: "SweetPotato.ShangChengViewNew,RefreshQingGongSelectItem,298,卸下,[]"
+  splits:
+  - split: 3
+    text: "卸下"
 - raw: "SweetPotato.ShangChengViewNew,RefreshAccountStatus,84,当前云账号：,[]"
   splits:
   - split: 3
@@ -17226,6 +17242,14 @@
   splits:
   - split: 3
     text: "启用"
+- raw: "SweetPotato.ShangChengViewNew,OnChuanDaiBtnClick,793,卸下,[]"
+  splits:
+  - split: 3
+    text: "卸下"
+- raw: "SweetPotato.ShangChengViewNew,OnChuanDaiBtnClick,800,启用,[]"
+  splits:
+  - split: 3
+    text: "启用"
 - raw: "SweetPotato.ShangChengViewNew,.ctor,124,全部,[]"
   splits:
   - split: 3
@@ -17246,6 +17270,14 @@
   splits:
   - split: 3
     text: "拳"
+- raw: "SweetPotato.ShangChengViewNewScrollItem,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
+- raw: "SweetPotato.ShangChengViewNewScrollItem,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
+  splits:
+  - split: 3
+    text: "Prefab/UISprite/UI_ItemBG/道具框-"
 - raw: "SweetPotato.SpellEditView,CheckCondition,48,感悟值不足！,[System.Boolean]"
   splits:
   - split: 3
@@ -17658,27 +17690,27 @@
   splits:
   - split: 3
     text: "请先登录"
-- raw: "SweetPotato.WorldManager/<CheckJingYuZhuRefreshEnum>d__180,MoveNext,1272,城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。,[]"
+- raw: "SweetPotato.WorldManager/<CheckJingYuZhuRefreshEnum>d__186,MoveNext,1272,城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。,[]"
   splits:
   - split: 3
     text: "城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。"
-- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,408,宝箱不在持有京瑜珠 npcId:{0},[]"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__190,MoveNext,408,宝箱不在持有京瑜珠 npcId:{0},[]"
   splits:
   - split: 3
     text: "宝箱不在持有京瑜珠 npcId:{0}"
-- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,602,NPC不在持有京瑜珠 npcId:{0},[]"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__190,MoveNext,602,NPC不在持有京瑜珠 npcId:{0},[]"
   splits:
   - split: 3
     text: "NPC不在持有京瑜珠 npcId:{0}"
-- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,887,有新的持有京瑜珠NPC npcId:{0},[]"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__190,MoveNext,887,有新的持有京瑜珠NPC npcId:{0},[]"
   splits:
   - split: 3
     text: "有新的持有京瑜珠NPC npcId:{0}"
-- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,1620,有新的持有京瑜珠NPC npcId:{0},[]"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__190,MoveNext,1620,有新的持有京瑜珠NPC npcId:{0},[]"
   splits:
   - split: 3
     text: "有新的持有京瑜珠NPC npcId:{0}"
-- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__184,MoveNext,1861,城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。,[]"
+- raw: "SweetPotato.WorldManager/<RefreshJingYuZhuInfosEnum>d__190,MoveNext,1861,城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。,[]"
   splits:
   - split: 3
     text: "城主已将京谕珠散落至天下各处，我奉城主之命将京谕珠的位置告知诸位侠士。但京谕珠究竟花落谁手，便凭诸位本事了。"

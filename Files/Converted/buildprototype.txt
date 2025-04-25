@@ -988,166 +988,226 @@
   - split: 1
     text: "桂宫道-据点"
     translated: "Way of the Osmanthus Palace ‑ Outpost"
-- raw: "2001#昌瑞楼#1#22#96001#ChangRuiLou#77019#64#8#480##2#0#0#0#0#1##0#ChangRuiLou#矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣，<color=FFD700>提升门派繁荣。</color></color>#1#"
+- raw: "2001#昌瑞楼#1#22#96001#ChangRuiLou#77019#64#8#480##2#0#0#0#0#1##0#ChangRuiLou#矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣，<color=#FFD700>提升门派繁荣。</color></color>#1#"
   splits:
   - split: 1
     text: "昌瑞楼"
     translated: "Chang Rui Lou"
   - split: 20
-    text: "矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣，<color=FFD700>提升门派繁荣。</color></color>"
-    translated: "Standing at the pinnacle of the sect, grand and majestic like the sun at its zenith. The festive lights blaze brilliantly, illuminating all directions, showcasing the glory of the sect. Responsible for development and prosperity,<color=FFD700> enhancing the flourishing of the Sect.</color></color>"
-- raw: "2002#众英坊#1#18#96002#ZhongYinFang#77019#64#8#480##2#0#0#0#0#1##0#ZhongYinFang#英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展弟子，<color=FFD700>提升门派弟子人数。</color>#1#"
+    text: "矗立宗门之巅，巍峨壮观，如日中天。庆典灯火辉煌，映照四方，彰显宗门荣耀。主要负责发展繁荣，<color="
+    translated: "Lofty and magnificent, it stands at the pinnacle of the sect, like the sun in its zenith. The festival's brilliant lights dazzle all around, showcasing the glory of the sect. Primarily responsible for development and prosperity, <color="
+  - split: 21
+    text: "FFD700>提升门派繁荣。</color></color>"
+    translated: "Elevate the prosperity of the 70"
+- raw: "2002#众英坊#1#18#96002#ZhongYinFang#77019#64#8#480##2#0#0#0#0#1##0#ZhongYinFang#英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展弟子，<color=#FFD700>提升门派弟子人数。</color>#1#"
   splits:
   - split: 1
     text: "众英坊"
     translated: "Society of Heroes"
   - split: 20
-    text: "英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展弟子，<color=FFD700>提升门派弟子人数。</color>"
-    translated: "Heroes and valiant heroes gather, with glorious achievements adorning the hero list like a dazzling constellation, illuminating the path of the sect. The primary responsibility is to develop disciples and increase the number of sect children.<color=FFD700> Enhance the number of disciples within the sect.</color>"
-- raw: "2003#武略斋#1#15#96003#WuLueZai#77019#64#8#480##2#0#0#0#0#1##0#WuLueZai#兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业，<color=FFD700>提升技业等级。</color>#1#"
+    text: "英雄豪杰汇聚，英雄榜上战功赫赫，犹如璀璨星河，照亮宗门之路。主要负责发展弟子，<color="
+    translated: "Heroes and champions gather, their feats of valor shine brightly on the hero's list, like a dazzling starry sky illuminating the path of the martial sect. They are primarily responsible for developing disciples.<color="
+  - split: 21
+    text: "FFD700>提升门派弟子人数。</color>"
+    translated: "FFD 70> Enhance the number of disciples within the sect. </color>"
+- raw: "2003#武略斋#1#15#96003#WuLueZai#77019#64#8#480##2#0#0#0#0#1##0#WuLueZai#兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业，<color=#FFD700>提升技业等级。</color>#1#"
   splits:
   - split: 1
     text: "武略斋"
     translated: "Wu Lie Zhai"
   - split: 20
-    text: "兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业，<color=FFD700>提升技业等级。</color>"
-    translated: "Military Strategy Wisdom Repository: This repository boasts a rich collection of books on military strategy and tactics, offering an abundance for exploration to benefit the sect. Its main responsibilities include developing techniques and <color=FFD700>enhancing technique levels.</color>"
-- raw: "2004#增辉阁#1#24#96004#ZengHuiGe#77019#64#8#480##2#0#0#0#0#1##0#ZengHuiGe#文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声，<color=FFD700>提升门派名声。</color>#1#"
+    text: "兵法智慧宝库，藏书丰富，兵法战策琳琅满目，供人探索，为宗门筹谋。主要负责发展技业，<color="
+    translated: "Martial Wisdom Treasure Trove, with an abundant collection of books featuring a wealth of military strategies and tactics for exploration. It serves as a resource for the sect's planning. Mainly responsible for developing skills and industries.<color="
+  - split: 21
+    text: "FFD700>提升技业等级。</color>"
+    translated: "<color>70>Level up your skill rank.</color>"
+- raw: "2004#增辉阁#1#24#96004#ZengHuiGe#77019#64#8#480##2#0#0#0#0#1##0#ZengHuiGe#文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声，<color=#FFD700>提升门派名声。</color>#1#"
   splits:
   - split: 1
     text: "增辉阁"
     translated: "Enhanced Radiance Pavilion"
   - split: 20
-    text: "文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声，<color=FFD700>提升门派名声。</color>"
-    translated: "The writing is exquisite and the art hall resplendent, with literati and artists flourishing their brushes in ink. Poetry, songs, essays, paintings, and sculptures all display rich cultural depth. The primary responsibility lies in enhancing reputation and <color=FFD700>boosting the sect's fame.</color>"
-- raw: "2005#富贾阁#1#19#96005#FuGuGe#5001#30#8#0##2#8#2400#2#0#1##0#FuGuGe#商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，<color=FFD700>提升门派商业的同时提供一定资金收入。</color>#1#"
+    text: "文采斐然，艺术殿堂，文人墨客挥毫泼墨，诗词歌赋、绘画雕塑皆显文化底蕴。主要负责发展名声，<color="
+    translated: "Elegant in literary flair, a hall of artistry where literati and scribes wield their brushes with ink flowing freely. Poetry, songs, essays, paintings, and sculptures all reveal the depth of cultural heritage. Primarily responsible for developing reputation, <color>="
+  - split: 21
+    text: "FFD700>提升门派名声。</color>"
+    translated: "Raise the reputation of the sect. 70"
+- raw: "2005#富贾阁#1#19#96005#FuGuGe#5001#30#8#0##2#8#2400#2#0#1##0#FuGuGe#商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，<color=#FFD700>提升门派商业的同时提供一定资金收入。</color>#1#"
   splits:
   - split: 1
     text: "富贾阁"
     translated: "Rich Merchant's Hall"
   - split: 20
-    text: "商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，<color=FFD700>提升门派商业的同时提供一定资金收入。</color>"
-    translated: "A bustling hub for merchants known for their shrewdness and competence, responsible for generating wealth for the sect by connecting it with the outside world. Primarily tasked with developing business, <color=FFD700>while enhancing the sect's commercial ventures and providing a certain level of financial income.</color>"
-- raw: "2006#丰稔堂#1#21#96006#FengRenTang#5002#30#8#0##2#9#1800#2#0#1##0#FengRenTang#农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，<color=FFD700>提升门派农业的同时提供一定药粮收入。</color>#1#"
+    text: "商贾云集之地，精明能干，为宗门赚取财富，连接宗门与外界繁荣。主要负责发展商业，<color="
+    translated: "A bustling hub for merchants, shrewd and capable, they generate wealth for the Sect through trade, linking the Sect to external prosperity. Primarily responsible for business development, <color="
+  - split: 21
+    text: "FFD700>提升门派商业的同时提供一定资金收入。</color>"
+    translated: "FFD70>Enhance the sect's commerce while providing a certain level of financial income.</color>"
+- raw: "2006#丰稔堂#1#21#96006#FengRenTang#5002#30#8#0##2#9#1800#2#0#1##0#FengRenTang#农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，<color=#FFD700>提升门派农业的同时提供一定药粮收入。</color>#1#"
   splits:
   - split: 1
     text: "丰稔堂"
     translated: "Abundant Harvest Hall"
   - split: 20
-    text: "农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，<color=FFD700>提升门派农业的同时提供一定药粮收入。</color>"
-    translated: "Agricultural Sanctuary, with fertile lands and abundant harvests of five grains, provides stable food and supplies to the Sect. It primarily focuses on developing agriculture and, <color=FFD700>while enhancing the Sect's agricultural capabilities, also generates a certain income from medicinal herbs.</color>"
-- raw: "2007#金石馆#1#20#96007#JinShiGuan#5003#30#8#0##2#10#600#2#0#1##0#JinShiGuan#金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，<color=FFD700>提升门派矿业的同时提供一定矿石收入。</color>#1#"
+    text: "农业圣地，土地肥沃，五谷丰登，为宗门提供稳定粮食与物资。主要负责发展农业，<color="
+    translated: "Agricultural Holy Land, fertile land, abundant grains, provides stable food and supplies for the sect. Primarily responsible for developing agriculture, <color="
+  - split: 21
+    text: "FFD700>提升门派农业的同时提供一定药粮收入。</color>"
+    translated: "FFD700>While elevating the sect's agriculture, it also provides a certain amount of medicinal herb revenue.</color>"
+- raw: "2007#金石馆#1#20#96007#JinShiGuan#5003#30#8#0##2#10#600#2#0#1##0#JinShiGuan#金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，<color=#FFD700>提升门派矿业的同时提供一定矿石收入。</color>#1#"
   splits:
   - split: 1
     text: "金石馆"
     translated: "The Hall of Gold and Stone"
   - split: 20
-    text: "金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，<color=FFD700>提升门派矿业的同时提供一定矿石收入。</color>"
-    translated: "A dazzling realm of gold and stone artifacts, collecting such treasures not only reveals mysteries but also enriches cultural depth. It primarily focuses on developing the mining industry while enhancing the sect's mining capabilities and providing a certain income from mined ores."
-- raw: "2008#宗门基石#1#8#96008#ZongMenJiShi#5001#3#8#0##2#0#0#0#0#1##0#ZongMenJiShi#曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石作为门派的基础<color=FFD700>以解锁其他建筑。</color>#1#"
+    text: "金石文物璀璨之地，收藏金石文物，探寻奥秘，增添文化底蕴。主要负责发展矿业，<color="
+    translated: "A land of dazzling jinshi artifacts, where the collection and exploration of such treasures uncover mysteries and enrich cultural heritage. Primarily responsible for developing mining. <color="
+  - split: 21
+    text: "FFD700>提升门派矿业的同时提供一定矿石收入。</color>"
+    translated: "Boost the sect's mining industry while providing a certain amount of ore income. 70"
+- raw: "2008#宗门基石#1#8#96008#ZongMenJiShi#5001#3#8#0##2#0#0#0#0#1##0#ZongMenJiShi#曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石作为门派的基础<color=#FFD700>以解锁其他建筑。</color>#1#"
   splits:
   - split: 1
     text: "宗门基石"
     translated: "Foundation of the Sect"
   - split: 20
-    text: "曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石作为门派的基础<color=FFD700>以解锁其他建筑。</color>"
-    translated: "Once the top martial arts sanctuary in the world, today it is a land of new beginnings. Although its brilliance has not yet fully returned, a faint breath of renewal quietly stirs within. Establishing the sect's foundation stone as the basis for the sect <color=FFD700>to unlock other buildings.</color>"
-- raw: "2009#镇安殿#1#23#96009#YunXiaoDian#77019#64#8#480##2#0#0#0#0#1##0#YunXiaoDian#宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定，<color=FFD700>提升门派安定。</color>#1#"
+    text: "曾是天下一等一的武林圣地，今日乃是一片初生之地。虽然光芒尚未重放，但一丝新生的气息已悄然萌动。修建宗门基石作为门派的基础<color="
+    translated: "Once a premier martial world sanctuary of its kind across the land, today it stands as an infant terrain. Though its brilliance has not yet been restored, a subtle hint of new life is quietly stirring. To lay down the foundation stones for one's sect is to establish its very basis. <color="
+  - split: 21
+    text: "FFD700>以解锁其他建筑。</color>"
+    translated: "<color>70 can be used to unlock other buildings.</color>"
+- raw: "2009#镇安殿#1#23#96009#YunXiaoDian#77019#64#8#480##2#0#0#0#0#1##0#YunXiaoDian#宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定，<color=#FFD700>提升门派安定。</color>#1#"
   splits:
   - split: 1
     text: "镇安殿"
     translated: "Palace of Tranquil Peace"
   - split: 20
-    text: "宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定，<color=FFD700>提升门派安定。</color>"
-    translated: "The Sect's Sacred Site stands majestic in the clouds, dazzling with gold and jade. It is a place for celebration where all gather to honor the glory of the Sect. Its primary responsibility is to ensure stability and <color=FFD700>enhance the sect's stability.</color>"
-- raw: "2010#云宵殿#1#0#96010#ZongMenChi#5001#10#8#0##2#0#0#0#0#1##0#ZongMenChi#宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。<color=FFD700>大殿提供了宗门名声上限，也体现了宗门的整体等级。</color>#0#"
+    text: "宗门圣地，高耸入云，金碧辉煌，庆典之地，共庆宗门荣耀。主要负责发展安定，<color="
+    translated: "Temple of the Sect, rising to the clouds and resplendent with gold and jade, a place for celebrations, celebrating the glory of the sect. The main responsibility is to foster peace and stability, <color="
+  - split: 21
+    text: "FFD700>提升门派安定。</color>"
+    translated: "Enhance 70's sect stability"
+- raw: "2010#云宵殿#1#0#96010#ZongMenChi#5001#10#8#0##2#0#0#0#0#1##0#ZongMenChi#宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。<color=#FFD700>大殿提供了宗门名声上限，也体现了宗门的整体等级。</color>#0#"
   splits:
   - split: 1
     text: "云宵殿"
-    translated: "Cloudy Night Pavilion"
+    translated: "Yun Xiao Dian"
   - split: 20
-    text: "宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。<color=FFD700>大殿提供了宗门名声上限，也体现了宗门的整体等级。</color>"
-    translated: "The Sect Hall is the foundation of a sect. Also known as the Cloudsky Hall, it was once magnificent but now lies in ruins. Time carves away its former glory, leaving only a dust‑covered relic. <color=FFD700>The hall determines the sect's reputation cap and reflects its overall rank.</color>"
-- raw: "2011#聚贤房#1#17#96011#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。<color=FFD700>可以提升门派。</color>#1#"
+    text: "宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。<color="
+    translated: "Clan Hall, the foundation of a martial sect. Also known as Cloud Pinnacle Hall, it was once magnificent and splendid, but now lies dilapidated beyond repair. Time is like a blade, carving away at its former glory; today, only dust‑covered ruins remain. <color="
+  - split: 21
+    text: "FFD700>大殿提供了宗门名声上限，也体现了宗门的整体等级。</color>"
+    translated: "<color> The main hall provides the family's reputation limit and also reflects the overall level of the sect. </color>70"
+- raw: "2011#聚贤房#1#17#96011#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。<color=#FFD700>可以提升门派。</color>#1#"
   splits:
   - split: 1
     text: "聚贤房"
     translated: "Hall of Gathering Worthies"
   - split: 20
-    text: "英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。<color=FFD700>可以提升门派。</color>"
-    translated: "Heroes and great men gathered, in a spacious and bright hall equipped with tea tables and chessboards, to discuss grand strategies and plot the development of their sect. <color=FFD700>It can enhance the sect.</color>"
-- raw: "2012#演武堂#1#13#96012#YanWuTang#77020#16#8#640##2#0#0#0#0#1##0#YanWuTang#武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。<color=FFD700>主要作为队伍出征之处。</color>#1#"
+    text: "英雄豪杰汇聚，宽敞明亮，设有茶桌棋盘，共商大计，共谋宗门发展。<color="
+    translated: "Heroes and great warriors gathered in a spacious and bright place, where tea tables and chess boards were set up to discuss grand strategies and plot the development of their martial arts sect. <color>"
+  - split: 21
+    text: "FFD700>可以提升门派。</color>"
+    translated: "FFD70> can enhance the sect. </color>"
+- raw: "2012#演武堂#1#13#96012#YanWuTang#77020#16#8#640##2#0#0#0#0#1##0#YanWuTang#武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。<color=#FFD700>主要作为队伍出征之处。</color>#1#"
   splits:
   - split: 1
     text: "演武堂"
     translated: "Wudao Pavilion"
   - split: 20
-    text: "武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。<color=FFD700>主要作为队伍出征之处。</color>"
-    translated: "The venue for martial arts displays and tournaments is spacious and open, accommodating several hundred spectators to witness the display of martial prowess. <color=FFD700>The primary use is as a gathering place before expeditions.</color>"
-- raw: "2013#练功房#1#12#96013#LianGongFang#77020#16#8#640##2#0#0#0#0#1##0#LianGongFang#日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。<color=FFD700>主要负责编制弟子部队。</color>#1#"
+    text: "武艺展示与比武大会之地，宽敞开阔，容纳数百人观看，展示武艺风采。<color="
+    translated: "The venue for martial arts displays and tournaments is spacious and open, accommodating several hundred spectators to witness the spectacle of martial prowess. <color="
+  - split: 21
+    text: "FFD700>主要作为队伍出征之处。</color>"
+    translated: "FFD70 serves primarily as a base of operations for squad deployments.</color>"
+- raw: "2013#练功房#1#12#96013#LianGongFang#77020#16#8#640##2#0#0#0#0#1##0#LianGongFang#日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。<color=#FFD700>主要负责编制弟子部队。</color>#1#"
   splits:
   - split: 1
     text: "练功房"
     translated: "Training Hall"
   - split: 20
-    text: "日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。<color=FFD700>主要负责编制弟子部队。</color>"
-    translated: "A place for daily cultivation of martial arts, with excellent facilities and a serene environment, providing an ideal setting for practice. <color=FFD700>Mainly responsible for organizing the disciple squads.</color>"
-- raw: "2014#闭关室#1#11#96014#BiGuanShi#77020#16#8#640##2#0#0#0#0#1##0#BiGuanShi#闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。<color=FFD700>主要负责提升弟子能力。</color>#1#"
+    text: "日常修炼武艺之地，设施完善，环境幽静，提供良好修炼环境。<color="
+    translated: "A place for daily cultivation of martial skills, featuring excellent facilities and a tranquil environment, providing an ideal setting for practice.<color=>"
+  - split: 21
+    text: "FFD700>主要负责编制弟子部队。</color>"
+    translated: "FFD70: Primarily responsible for organizing the disciple squad."
+- raw: "2014#闭关室#1#11#96014#BiGuanShi#77020#16#8#640##2#0#0#0#0#1##0#BiGuanShi#闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。<color=#FFD700>主要负责提升弟子能力。</color>#1#"
   splits:
   - split: 1
     text: "闭关室"
     translated: "A meditation chamber"
   - split: 20
-    text: "闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。<color=FFD700>主要负责提升弟子能力。</color>"
-    translated: "Seclusion Chamber: A place where disciples of the sect retreat to cultivate. The interior environment is tranquil and serene, with fresh air providing a conducive atmosphere for seclusion. <color=FFD700>Mainly responsible for enhancing the disciples' abilities.</color>"
-- raw: "2015#宗门宝库#1#10#96015#ZongMenBaoKu#77020#80#8#640##2#0#0#0#0#1##0#ZongMenBaoKu#财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。<color=FFD700>主要负责制造。</color>#1#"
+    text: "闭关室，宗门弟子闭关修炼之地。室内环境幽静，空气清新，为弟子们提供良好之闭关环境。<color="
+    translated: "Seclusion Chamber: The place where disciples of the sect seclude themselves for cultivation. The interior environment is tranquil and serene, with fresh air, providing an excellent setting for disciples' seclusion. <color="
+  - split: 21
+    text: "FFD700>主要负责提升弟子能力。</color>"
+    translated: "The primary responsibility is to enhance the disciples' abilities. 70"
+- raw: "2015#宗门宝库#1#10#96015#ZongMenBaoKu#77020#80#8#640##2#0#0#0#0#1##0#ZongMenBaoKu#财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。<color=#FFD700>主要负责制造。</color>#1#"
   splits:
   - split: 1
     text: "宗门宝库"
     translated: "Zongmen Baoku"
   - split: 20
-    text: "财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。<color=FFD700>主要负责制造。</color>"
-    translated: "A repository of wealth, housing accumulated riches and precious items from past generations, providing a solid economic foundation. <color=FFD700>Primarily responsible for manufacturing.</color>"
-- raw: "2016#藏经阁#1#9#96016#CangJinGe#77020#80#8#640##2#0#0#0#0#1##0#CangJinGe#知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。作为门派藏经阁，可以从中<color=FFD700>研习武学残篇得到秘籍。</color>#1#"
+    text: "财富存放地，收藏历代积累之财富与珍贵物品，提供坚实经济基础。<color="
+    translated: "Treasure vault, housing accumulated wealth and precious items from generations past, providing a solid economic foundation. <color="
+  - split: 21
+    text: "FFD700>主要负责制造。</color>"
+    translated: "Mainly responsible for manufacturing. 70</color>"
+- raw: "2016#藏经阁#1#9#96016#CangJinGe#77020#80#8#640##2#0#0#0#0#1##0#CangJinGe#知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。作为门派藏经阁，可以从中<color=#FFD700>研习武学残篇得到秘籍。</color>#1#"
   splits:
   - split: 1
     text: "藏经阁"
     translated: "Library of Scriptures"
   - split: 20
-    text: "知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。作为门派藏经阁，可以从中<color=FFD700>研习武学残篇得到秘籍。</color>"
-    translated: "Knowledge repository and collection of martial arts secret manuals, with a rich and diverse assortment of books covering various fields, offering the nectar of knowledge. As a sect's scripture hall, one can <color=FFD700>study fragments of martial texts to obtain secret manuals.</color>"
-- raw: "2017#巧匠坊#1#14#96017#TianGongFang#77020#80#8#640##2#0#0#0#0#1##0#TianGongFang#锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠，<color=FFD700>提升巧匠能力。</color>#1#"
+    text: "知识宝库与武学秘籍收藏地，藏书丰富多样，涵盖多个领域，汲取知识甘露。作为门派藏经阁，可以从中<color="
+    translated: "A repository of knowledge and collection site for martial arts secret manuals, with an extensive and diverse array of books covering various domains, offering the nectar of wisdom. As a sect's library, one can gain much from it.<color=|>"
+  - split: 21
+    text: "FFD700>研习武学残篇得到秘籍。</color>"
+    translated: "FFD70> Through diligent study of the fragments, they obtained the secret manual.</color>"
+- raw: "2017#巧匠坊#1#14#96017#TianGongFang#77020#80#8#640##2#0#0#0#0#1##0#TianGongFang#锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠，<color=#FFD700>提升巧匠能力。</color>#1#"
   splits:
   - split: 1
     text: "巧匠坊"
     translated: "Artisan Quarter"
   - split: 20
-    text: "锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠，<color=FFD700>提升巧匠能力。</color>"
-    translated: "Forge and Craftsmanship Center: Skilled artisans gather here, showcasing their exquisite skills and craftsmanship in the creation of high‑quality equipment and armor. The center primarily focuses on developing craftsmen and <color=FFD700>enhancing their capabilities.</color>"
-- raw: "2018#武备间#1#16#96018#WuBeiJian#77020#80#8#640##2#0#0#0#0#1##0#WuBeiJian#武器与防具存放地，整齐有序摆放装备，供弟子选择使用。<color=FFD700>主要负责制造弟子所需装备。</color>#1#"
+    text: "锻造与制作中心，能工巧匠云集，技艺精湛，制作精良装备与防具。主要负责发展巧匠，<color="
+    translated: "Forging and Crafting Center: Skilled craftsmen gather here, demonstrating masterful skills in crafting exquisite equipment and armor. The center is primarily responsible for developing artisans.<color=>"
+  - split: 21
+    text: "FFD700>提升巧匠能力。</color>"
+    translated: "Enhance the Artisan's Skill. 70"
+- raw: "2018#武备间#1#16#96018#WuBeiJian#77020#80#8#640##2#0#0#0#0#1##0#WuBeiJian#武器与防具存放地，整齐有序摆放装备，供弟子选择使用。<color=#FFD700>主要负责制造弟子所需装备。</color>#1#"
   splits:
   - split: 1
     text: "武备间"
     translated: "Armory"
   - split: 20
-    text: "武器与防具存放地，整齐有序摆放装备，供弟子选择使用。<color=FFD700>主要负责制造弟子所需装备。</color>"
-    translated: "Weapons and armor storage area: equipment is neatly arranged for disciples to choose from. <color=FFD700>Mainly responsible for manufacturing the equipment needed by disciples.</color>"
-- raw: "2019#礼堂#1#1#96069#BiGuanShi#77019#16#8#480##2#0#0#0#0#1##0#BiGuanShi#庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。<color=FFD700>可以升级繁荣上限。</color>#0#"
+    text: "武器与防具存放地，整齐有序摆放装备，供弟子选择使用。<color="
+    translated: "Weapons and armor storage area, equipment neatly and orderly arranged for disciples to choose and use.<color="
+  - split: 21
+    text: "FFD700>主要负责制造弟子所需装备。</color>"
+    translated: "FFD 70> Primarily responsible for manufacturing equipment needed by disciples. </color>"
+- raw: "2019#礼堂#1#1#96069#BiGuanShi#77019#16#8#480##2#0#0#0#0#1##0#BiGuanShi#庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。<color=#FFD700>可以升级繁荣上限。</color>#0#"
   splits:
   - split: 1
     text: "礼堂"
     translated: "Auditorium"
   - split: 20
-    text: "庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。<color=FFD700>可以升级繁荣上限。</color>"
-    translated: "Stately and unadorned, it bears witness to the origins of the sect. A faint incense wafts through the hall; glancing back, one might still hear the sounds of disciples' laughter from days gone by. <color=FFD700>You can upgrade the prosperity limit.</color>"
-- raw: "2020#卫堂#1#2#96070#LianGongFang#77019#16#8#480##2#0#0#0#0#1##0#LianGongFang#日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。<color=FFD700>提升宗门人数上限</color>#0#"
+    text: "庄严而古朴，见证着宗门的起源。殿内飘荡着淡淡的香烟，蓦然回首，似乎还能听到昔日弟子的欢声笑语。<color="
+    translated: "Solemn and unadorned, it bears witness to the origins of the sect. Within the hall, faint incense smoke wafts around; glancing back suddenly, one might almost hear the laughter and chatter of disciples from long ago.<color=|>"
+  - split: 21
+    text: "FFD700>可以升级繁荣上限。</color>"
+    translated: "<color>70</color> can be upgraded to increase prosperity limits."
+- raw: "2020#卫堂#1#2#96070#LianGongFang#77019#16#8#480##2#0#0#0#0#1##0#LianGongFang#日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。<color=#FFD700>提升宗门人数上限</color>#0#"
   splits:
   - split: 1
     text: "卫堂"
     translated: "Wei Tang"
   - split: 20
-    text: "日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。<color=FFD700>提升宗门人数上限</color>"
-    translated: "A spacious and bright place for daily sparring to hone martial skills, with excellent facilities providing a great environment for practice. <color=FFD700>Upgrade the maximum number of sect members.</color>"
+    text: "日常切磋武艺之地，宽敞明亮，设施完善，提供良好切磋环境。<color="
+    translated: "A place for daily practice of martial arts, spacious and bright, with excellent facilities, offering a conducive environment for sparring. <color=|>"
+  - split: 21
+    text: "FFD700>提升宗门人数上限</color>"
+    translated: "Increase Clan Member Cap Limit: 70"
 - raw: "2021#财楼#1#3#96071#YunXiaoDian#77019#16#8#480##2#0#0#0#0#1##0#YunXiaoDian#珍宝收藏地，收藏珍稀金玉珠宝与艺术品，增添光彩与魅力。可以升级。#0#"
   splits:
   - split: 1
@@ -1156,14 +1216,17 @@
   - split: 20
     text: "珍宝收藏地，收藏珍稀金玉珠宝与艺术品，增添光彩与魅力。可以升级。"
     translated: "Treasure Trove: A haven for collecting rare gems, jade, jewels, and artworks, adding brilliance and allure. Upgradable"
-- raw: "2022#贤堂#1#4#96072#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。<color=FFD700>可以提升宗门人数上限。</color>#0#"
+- raw: "2022#贤堂#1#4#96072#JuXianFang#77019#16#8#480##2#0#0#0#0#1##0#JuXianFang#聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。<color=#FFD700>可以提升宗门人数上限。</color>#0#"
   splits:
   - split: 1
     text: "贤堂"
-    translated: "Virtuous Hall"
+    translated: "Worthy Hall"
   - split: 20
-    text: "聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。<color=FFD700>可以提升宗门人数上限。</color>"
-    translated: "Juxian Fang is the place within the sect where talent gathers. Its name implies a gathering of capable individuals, serving as an important location for the sect to recruit, nurture, and entertain various heroes and distinguished figures. <color=FFD700>It can increase the maximum number of people in the sect.</color>"
+    text: "聚贤房，乃宗门之中英才汇聚之地。其名寓意“聚集贤能之士”，是宗门用以招揽、培养与款待各方英雄豪杰的重要场所。<color="
+    translated: "Juxian Fang is the place within the sect where talents gather. Its name implies gathering talented individuals, and it serves as an important location for the sect to attract, nurture, and host heroes from all directions. <color="
+  - split: 21
+    text: "FFD700>可以提升宗门人数上限。</color>"
+    translated: "<color>Yes, this can increase the upper limit of sect members.</color> 70>"
 - raw: "2023#藏宝阁#1#5#96073#CangJinGe#77019#16#8#480##2#0#0#0#0#1##0#CangJinGe#藏宝阁，宗门之珍稀宝藏汇聚之所。阁内珍藏无数，既有历代先辈遗留下的稀世珍宝，也有宗门弟子在外历练所得之奇珍异宝。阁内布置典雅，光线柔和。可以升级。#0#"
   splits:
   - split: 1

@@ -41,6 +41,7 @@ public static class TranslationService
             new() {Path = "condition_show_anim.txt", PackageOutput = true},
             new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
             new() {Path = "dlcinfo.txt", PackageOutput = true },
+            new() {Path = "dlc_data.txt", PackageOutput = true },
             new() {Path = "dlc_prototype.txt", PackageOutput = true },
             new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
             new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
