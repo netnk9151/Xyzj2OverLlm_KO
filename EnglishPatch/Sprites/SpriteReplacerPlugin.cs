@@ -18,7 +18,7 @@ namespace EnglishPatch.Sprites
         private Dictionary<string, byte[]> _cachedReplacements = [];
         private List<string> _cachedSpriteNames = [];
         private string _spritesPath;
-        public static bool Enabled = true;
+        public static bool Enabled = false;
 
         private void Awake()
         {

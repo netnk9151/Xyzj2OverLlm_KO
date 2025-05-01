@@ -6747,28 +6747,52 @@
     translated: "They exhaust themselves while I accumulate, and silently erode their strength over time. Every ten attacks come with an additional blood‑sucking effect."
 - raw: "104711#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1047101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#2#2#4.5#1.5#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#0#0#"
   splits: []
-- raw: "104800#0#青霄惊鸿#0#惊鸿掠影贯长空，残星照命剑追魂。剑势随敌势衰颓而暴涨，专攻旧伤命门，自身气血愈竭，则剑锋破甲之威愈盛。根据已损失生命值造成额外伤害。#1480#2066#0#0###身前3.5米，半径1.5米#0##spell_100600_go#sfx_main_hero_100600&0&true&true##0#0#0#0#410#1048000#1048000#1048000#1048000#1048000#0#0#0#0#0#500#700#900#1100#1333#0#0#0#0#0#0#sfx_main_hero_100600##64#0#30000#0#3##0#4#0#0##0#0#3#6#1.5#3.0#0#0#0#0#0##0###4#0##1.6##1##0#0#"
+- raw: "104800#0#青霄惊鸿#11#惊鸿掠影贯长空，残星照命剑追魂。剑势随敌势衰颓而暴涨，专攻旧伤命门，自身气血愈竭，则剑锋破甲之威愈盛。根据已损失生命值造成额外伤害。#1480#2066#0#0###身前3.5米，半径1.5米#0##spell_100600_go#sfx_main_hero_100600&0&true&true##0#0#0#0#410#1048000#1048000#1048000#1048000#1048000#0#0#0#0#0#500#700#900#1100#1333#0#0#0#0#0#0#sfx_main_hero_100600##64#0#30000#0#3##0#4#0#0##0#0#3#6#1.5#3.0#0#0#0#0#0##0###4#0##1.6##1##0#0#"
   splits:
   - split: 2
     text: "青霄惊鸿"
     translated: "Swooping Swallows in Azure Heights"
   - split: 4
     text: "惊鸿掠影贯长空，残星照命剑追魂。剑势随敌势衰颓而暴涨，专攻旧伤命门，自身气血愈竭，则剑锋破甲之威愈盛。根据已损失生命值造成额外伤害。"
-    translated: "A fleeting shadow streaks across the sky, with a sword that chases souls under a dimly lit constellation. The sword's power surges as the enemy weakens, focusing on old wounds and vulnerable points. As its own lifeforce dwindles, the sword's ability to penetrate armor grows stronger. It inflicts additional damage based on life lost."
+    translated: "A swift sword flash cuts across the sky; lingering stars illuminate its pursuit of souls. The sword's momentum grows as the opponent weakens, targeting old injuries at vulnerable points. As one's own life force depletes, the blade's power to pierce armor intensifies. Additional damage is inflicted based on already lost health."
   - split: 11
     text: "身前3.5米，半径1.5米"
-    translated: "Front 3.5 meters, radius 1.5 meters"
-- raw: "104900#0#剑二十三#0#寒锋未出意先临，剑域锁身断魂音。展开剑气领域冻结周遭时空，范围内敌手如虫陷琥珀，只能任人宰割。展开剑域，定身范围内的敌人，增加其受到的伤害。#1490#2165#0#0###身前4米#0##spell_100610_go#sfx_main_hero_100610&0&true&true##0#0#0#0#410#1049000#1049000#1049003#1049004#0#0#0#0#0#0#264#866#833#833#0#0#0#0#0#0#0#sfx_main_hero_100610##64#0#30000#0#3##0#4#0#0##0#0#3#2#4.0#4.0#0#0#0#0#0##0###4#0##1.6##1##0#0#"
+    translated: "Within 3.5 meters in front, with a radius of 1.5 meters."
+- raw: "104900#0#剑二十三#11#寒锋未出意先临，剑域锁身断魂音。展开剑气领域冻结周遭时空，范围内敌手如虫陷琥珀，只能任人宰割。展开剑域，定身范围内的敌人，增加其受到的伤害。#1490#2333#0#0###身前8米#0##spell_100610_go#sfx_main_hero_100610&0&true&true##0#0#0#0#410#1049003#1049004#1049005#0#0#0#0#0#0#0#1500#1500#0#0#0#0#0#0#0#0#0#sfx_main_hero_100610##65#0#30000#0#3##0#4#0#0##0#0#3#2#8.0#4.0#0#0#0#0#0##0###4#0##2.0##1##0#0#"
   splits:
   - split: 2
     text: "剑二十三"
     translated: "Sword 23"
   - split: 4
     text: "寒锋未出意先临，剑域锁身断魂音。展开剑气领域冻结周遭时空，范围内敌手如虫陷琥珀，只能任人宰割。展开剑域，定身范围内的敌人，增加其受到的伤害。"
-    translated: "Before the cold blade emerges, misfortune descends prematurely. The sword realm binds the body and disrupts the soul's melody. Unleashing the sword energy field freezes time and space around, trapping enemies within as if caught in amber, leaving them at the mercy of others' blades. Deploying the sword realm increases damage to foes confined within the area."
+    translated: "Before the chill can be unleashed, the Sword Domain envelops the body and silences the soul. By expanding the sword aura, time and space within its range are frozen, and foes caught within it become like insects trapped in amber, helpless against being sliced apart by others. Expanding the Sword Domain increases the damage received by enemies immobilized within its scope."
   - split: 11
-    text: "身前4米"
-    translated: "Within 4 meters ahead"
+    text: "身前8米"
+    translated: "Within 8 meters in front of me"
+- raw: "104901#0##0###0#0#1####0#####0#0#0#0#0#1049000#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits: []
+- raw: "105000#0#十步杀一人#11#若流云穿风过，剑似寒芒点星落。每瞬步突进皆在目标经脉间刻下一道无形叠影血痕，每层使敌受创时痛感倍增。剑势连环如织网，恰似流云化雨，无处可遁。#1500#2500#0#0###身前直线6米#0##spell_100620_go#sfx_main_hero_100620&0&true&true##0#0#0#0#410#1050000#1050000#1050000#1050000#1050000#1050000#0#0#0#0#166#666#966#1233#1466#1766#0#0#0#0#0#sfx_main_hero_100620##65#0#30000#0#3##0#4#0#0##0#0#2#2#6.0#2.0#0#0#0#0#0##0###4#0##2.0##1##0#0#"
+  splits:
+  - split: 2
+    text: "十步杀一人"
+    translated: "Every ten steps, one person is killed"
+  - split: 4
+    text: "若流云穿风过，剑似寒芒点星落。每瞬步突进皆在目标经脉间刻下一道无形叠影血痕，每层使敌受创时痛感倍增。剑势连环如织网，恰似流云化雨，无处可遁。"
+    translated: "If clouds drift swiftly through the wind and swords flash like cold gleams falling upon stars, each step forward carves an unseen layer of bloody traces along the enemy's meridians. With each layer inflicted, the pain felt by the opponent doubles. The swordplay unfolds in a continuous chain, weaving a web so intricate that it seems like drifting clouds turning into rain, leaving no place to escape."
+  - split: 11
+    text: "身前直线6米"
+    translated: "Straight ahead 6 meters"
+- raw: "105010#0#千里不留行#11#纵身腾跃引动剑气领域，方圆十丈内所有敌首衣袂皆烙下生死判剑印。招式终结时天地寂然，唯见青衫客收剑入鞘，身后敌阵如秋叶簌簌而落。#1501#3333#0#0###锁定目标周围2米#0##spell_100630_go#sfx_main_hero_100630&0&true&true##0#0#0#0#410#1050100#1050100#1050100#1050100#1050100#1050100#1050101#0#0#0#833#1000#1200#1400#1566#1900#0#0#0#0#0#sfx_main_hero_100630##65#0#30000#0#3##0#4#0#0##0#0#2#5#2.0#180.0#0#0#0#0#0##0###4#0##2.33##1##0#1#"
+  splits:
+  - split: 2
+    text: "千里不留行"
+    translated: "A journey of a thousand miles leaves no tracks."
+  - split: 4
+    text: "纵身腾跃引动剑气领域，方圆十丈内所有敌首衣袂皆烙下生死判剑印。招式终结时天地寂然，唯见青衫客收剑入鞘，身后敌阵如秋叶簌簌而落。"
+    translated: "He leaped into the air, activating his sword energy field. Within a ten‑meter radius, every enemy bore the mark of the Judgment Seal on their clothes and garments. As the technique concluded, there was a sudden stillness in the heavens and earth; only the sight remained of the Blue‑Shirted Man sheathing his sword, with fallen foes behind him falling like autumn leaves gently tumbling down."
+  - split: 11
+    text: "锁定目标周围2米"
+    translated: "Lock onto target within 2 meters"
 - raw: "110000#0#破釜沉舟#11#破釜沉舟，置死地而后生，竭力一击，刀劲四溅。#dao_1000#666#0#0#0#0#身前1.5米180度扇形#0#0#spell_110010_go#sfx_main_hero_110010&0&true&true#0#0#0#0#0#81#1100000#0#0#0#0#0#0#0#0#41028#333#0#0#0#0#0#0#0#0#333#0#sound_spell_110010_go#0#0#0#15000#1#3#0#0#1#0#0#0#35#5#1#3#1.5#90.0#0#0#0#0#0#0#0#0##1#0#0#0.4#0#1#0#0#0#"
   splits:
   - split: 2
@@ -10204,14 +10228,14 @@
   splits: []
 - raw: "134312#0##0###0#0#1####0#####0#0#0#0#0#1343120#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0#0#0#0#"
   splits: []
-- raw: "134400#0#一阳#1#初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉.#quan_1440#2000#0#0###身前直线3米#0##spell_130810_go#sfx_main_hero_130810_4&0&true&true##0#0#0#0#410#1344000#0#0#0#0#0#0#0#0#0#1000#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130810##65#0#50000#3#3##0#4#0#0##0#0#0#2#3.0#0.5#0#0#0#0#0##0###4#0##1.33##1##0#0#"
+- raw: "134400#0#一阳#1#初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉.#quan_1440#2000#0#0###身前直线3米#0##spell_130810_go#sfx_main_hero_130810_4&0&true&true##0#0#0#0#410#1344000#0#0#0#0#0#0#0#0#0#1000#0#0#0#0#0#0#0#0#0#0#0##65#0#50000#3#3##0#4#0#0##0#0#0#2#3.0#0.5#0#0#0#0#0##0###4#0##1.33##1##0#0#"
   splits:
   - split: 2
     text: "一阳"
     translated: "One Yang"
   - split: 4
     text: "初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉."
-    translated: "A beginner can strike a three‑yard distant person through the air with an invisible point of energy; those hit will feel it as if stabbed by fiery needles, causing blockages in their body and half‑paralysis. Once reaching the peak stage, one's finger emits a red beam that can penetrate three layers of dark steel armor and seal an opponent's vital channels."
+    translated: "At the initial stage, practitioners can target an opponent at a distance of thirty feet, creating large wounds; if hit, it feels as though fire needles are piercing the bones, causing stagnation in half the body. Upon reaching maturity, their fingers emit hidden red beams that can penetrate three layers of dark steel armor and block an enemy's vital meridian points."
   - split: 11
     text: "身前直线3米"
     translated: "A straight line extending 3 meters in front."
@@ -10241,69 +10265,69 @@
   - split: 11
     text: "自身"
     translated: "Oneself"
-- raw: "134500#0#少泽·残#1#剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。#quan_1450#1100#0#0###身前直线6米#0##spell_130820_go#sfx_main_hero_130820&0&true&true##0#0#0#0#410#1345000#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130820##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.5#0#0#0#0#0##0###4#0##0.66##1##0#0#"
+- raw: "134500#0#少泽·残#1#剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。#quan_1450#1100#0#0###身前直线6米#0##spell_130820_go#sfx_main_hero_130820&0&true&true##0#0#0#0#410#1345000#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.5#0#0#0#0#0##0###4#0##0.66##1##0#0#"
   splits:
   - split: 2
     text: "少泽·残"
     translated: "Shao Ze · Can"
   - split: 4
     text: "剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。"
-    translated: "The sword energy surged from the hand through the small intestine meridian at the Shao Ze acupoint, initially thin as a spider's thread. It sliced through the air silently and could penetrate willow leaves within three feet without disturbing birds in flight. Those struck by it first felt a slight chill across their skin; after three breaths, the cold seeped into their bones, causing numbness and stiffness in their hands and feet as if they had fallen into an icy cavern."
+    translated: "The sword energy emanating from the hand flowed through the Great Yang Small Intestine Meridian and burst forth at the Shao Ze Acupoint. At first, it was as fine as spider silk, silently piercing the air; within three feet, it could penetrate mulberry leaves without alarming a bird in flight. Those struck by this energy initially felt a slight coolness on their skin; after three breaths, the chill seeped into their bones, causing their limbs to become numb and stiff as if submerged in an icy cave."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134510#0#少冲#1#剑气化虹，轻灵迅疾，以内力凝剑风，贯敌三焦经脉。根据内攻属性造成伤害，并击穿目标的部分内防。#quan_1451#1000#0#0###身前直线6米#0##spell_130821_go#sfx_main_hero_130821_1&0&true&true##0#0#0#0#410#1345100#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130825##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
+- raw: "134510#0#少冲#1#剑气化虹，轻灵迅疾，以内力凝剑风，贯敌三焦经脉。根据内攻属性造成伤害，并击穿目标的部分内防。#quan_1451#1000#0#0###身前直线6米#0##spell_130821_go#sfx_main_hero_130821_1&0&true&true##0#0#0#0#410#1345100#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
   splits:
   - split: 2
     text: "少冲"
     translated: "Little Charge"
   - split: 4
     text: "剑气化虹，轻灵迅疾，以内力凝剑风，贯敌三焦经脉。根据内攻属性造成伤害，并击穿目标的部分内防。"
-    translated: "Sword aura transforms into a rainbow; light and swift, condensing inner power with the wind of the sword to penetrate the enemy's three cinnabar meridians. Based on its internal attack attributes, it inflicts damage and pierces through part of the target's internal defense."
+    translated: "The sword energy transformed into a rainbow, swift and agile. It condensed the sword wind with inner power to penetrate through the enemy's three burner meridians. Based on its internal attack attribute, it inflicted damage and pierced through part of the target's internal defense."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134520#0#关冲#1#气锁玄关，沉浑如铁，封敌气海要穴，使其形滞神僵。定身命中目标。#quan_1452#1000#0#0###身前直线6米#0##spell_130822_go#sfx_main_hero_130822_1&0&true&true##0#0#0#0#410#1345200#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130824##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.66##1##0#0#"
+- raw: "134520#0#关冲#1#气锁玄关，沉浑如铁，封敌气海要穴，使其形滞神僵。定身命中目标。#quan_1452#1000#0#0###身前直线6米#0##spell_130822_go#sfx_main_hero_130822_1&0&true&true##0#0#0#0#410#1345200#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.66##1##0#0#"
   splits:
   - split: 2
     text: "关冲"
     translated: "Pass through the pass"
   - split: 4
     text: "气锁玄关，沉浑如铁，封敌气海要穴，使其形滞神僵。定身命中目标。"
-    translated: "Seal the Mystical Gateway with an iron‑like grip to block the enemy's vital energy center, causing their body to stiffen and spirit to freeze. Successfully immobilize the target."
+    translated: "Seal the Mystical Gate with Qi, firm as iron, block the enemy's vital acupoints in their lung and energy centers, rendering them motionless and numb. Successfully immobilize the target."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134530#0#中冲#1#气撼山河，刚猛无俦，罡风卷地十丈，破阵摧坚首选。击退身前敌人。#quan_1453#1000#0#0###身前直线6米#0##spell_130823_go#sfx_main_hero_130823_1&0&true&true##0#0#0#0#410#1345300#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130823##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
+- raw: "134530#0#中冲#1#气撼山河，刚猛无俦，罡风卷地十丈，破阵摧坚首选。击退身前敌人。#quan_1453#1000#0#0###身前直线6米#0##spell_130823_go#sfx_main_hero_130823_1&0&true&true##0#0#0#0#410#1345300#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
   splits:
   - split: 2
     text: "中冲"
     translated: "Ming Dynasty"
   - split: 4
     text: "气撼山河，刚猛无俦，罡风卷地十丈，破阵摧坚首选。击退身前敌人。"
-    translated: "Shaking mountains and rivers with unmatched ferocity, the forceful gale sweeps across ten zhang of earth. A premier choice for breaking formations and crushing fortifications, it repels enemies ahead."
+    translated: "A force that shakes mountains and rivers, unmatched in its hardness and strength. A gust of wind sweeps across the ground ten paces wide, breaking formations and crushing fortifications. It is the premier choice for repelling enemies ahead."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134540#0#商阳#1#气贯周天，连环不绝，催动内劲暴涨，剑指所向披靡。短暂提升自身输出。#quan_1454#1000#0#0###身前直线6米#0##spell_130824_go#sfx_main_hero_130824_1&0&true&true##0#0#0#0#410#1345400#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130822##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
+- raw: "134540#0#商阳#1#气贯周天，连环不绝，催动内劲暴涨，剑指所向披靡。短暂提升自身输出。#quan_1454#1000#0#0###身前直线6米#0##spell_130824_go#sfx_main_hero_130824_1&0&true&true##0#0#0#0#410#1345400#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.5##1##0#0#"
   splits:
   - split: 2
     text: "商阳"
     translated: "Shang Yang"
   - split: 4
     text: "气贯周天，连环不绝，催动内劲暴涨，剑指所向披靡。短暂提升自身输出。"
-    translated: "Breath flows through the heavens in an unbroken chain, summoning a surge of inner force. With sword aimed and swift as the wind, all obstacles fall before it. This leads to a brief enhancement in personal output."
+    translated: "Breathing fills the heavens, an unbroken chain of energy, rapidly enhancing internal power. Directing one's intent with a sword, overpowering all resistance. Briefly boosts personal attack output."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134550#0#少商#1#气断生死，石破天惊，碎敌疗愈生机，反哺持剑之人。击破目标身死的定身效果，使目标无法获得治疗，同时自身获得内攻、命中加成。#quan_1455#1266#0#0###身前直线6米#0##spell_130825_go#sfx_main_hero_130825_1&0&true&true##0#0#0#0#410#1345500#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130821##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.66##1##0#0#"
+- raw: "134550#0#少商#1#气断生死，石破天惊，碎敌疗愈生机，反哺持剑之人。击破目标身死的定身效果，使目标无法获得治疗，同时自身获得内攻、命中加成。#quan_1455#1266#0#0###身前直线6米#0##spell_130825_go#sfx_main_hero_130825_1&0&true&true##0#0#0#0#410#1345500#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.8#0#0#0#0#0##0###4#0##0.66##1##0#0#"
   splits:
   - split: 2
     text: "少商"
     translated: "Lesser Commercial Official"
   - split: 4
     text: "气断生死，石破天惊，碎敌疗愈生机，反哺持剑之人。击破目标身死的定身效果，使目标无法获得治疗，同时自身获得内攻、命中加成。"
-    translated: "The technique is capable of severing life and death itself; it astonishes like a rock shattering the heavens. It shatters enemies while nurturing revival, providing sustenance to those who wield the sword. When applied successfully, it immobilizes the target until they die, preventing them from receiving any healing, while simultaneously granting the user an internal attack boost and a bonus to hit rate."
+    translated: "Separate life and death with a breath; shatter the heavens in astonishment. Shatter enemies to heal and revive vitality, benefiting those who wield the sword. The immobilization effect of defeating an enemy results in their inability to receive healing, while simultaneously granting oneself internal attack benefits and increased hit rate."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
@@ -10315,7 +10339,7 @@
   - split: 4
     text: "六脉剑气纵横成阵，十丈内天罗地网，万法皆破。"
     translated: "The sword energy of the Six Meridians spreads across in a web‑like formation, creating a celestial net within ten paces that can break through any technique."
-- raw: "134561#0#六脉齐发#11###12000#0#0###身前4米，范围4米#0##spell_130826_go#sfx_main_hero_130826_1&0&true&true##0#0#0#0#0#1345610#1345611#1345612#1345614#0#0#0#0#0#0#0#5832#8365#0#0#0#0#0#0#0#0#SFX_Plot_Liumai##67#0#0#3#3##0#0#0#0##0#0#3#3#2.0#180.0#0#0#0#0#0##0###0#0##12.0##1##0#0#"
+- raw: "134561#0#六脉齐发#11###12000#0#0###身前4米，范围4米#0##spell_130826_go#sfx_main_hero_130826_1&0&true&true##0#0#0#0#0#1345610#1345611#1345612#1345614#0#0#0#0#0#0#0#5832#8365#0#0#0#0#0#0#0#0#SFX_Char_Skill_liumaiqifa_bgm##67#0#0#3#3##0#0#0#0##0#0#3#3#2.0#180.0#0#0#0#0#0##0###0#0##12.0##1##0#0#"
   splits:
   - split: 2
     text: "六脉齐发"
@@ -10331,28 +10355,28 @@
   splits: []
 - raw: "134565#0##0###0#0#1####0#####0#0#0#0#0#1345613#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
   splits: []
-- raw: "134570#0#少泽#1#剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。#quan_1450#1100#0#0###身前直线6米#0##spell_130820_go#sfx_main_hero_130820_1&0&true&true##0#0#0#0#410#1345000#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130820##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.5#0#0#0#0#0##0###4#0##0.66##1##0#0#"
+- raw: "134570#0#少泽#1#剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。#quan_1450#1100#0#0###身前直线6米#0##spell_130820_go#sfx_main_hero_130820_1&0&true&true##0#0#0#0#410#1345000#0#0#0#0#0#0#0#0#0#200#0#0#0#0#0#0#0#0#0#0#0##64#0#30000#3#3##0#4#0#0##0#0#-1#2#6.0#0.5#0#0#0#0#0##0###4#0##0.66##1##0#0#"
   splits:
   - split: 2
     text: "少泽"
     translated: "Shao Ze"
   - split: 4
     text: "剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。"
-    translated: "The sword energy surged from the hand through the small intestine meridian at the Shao Ze acupoint, initially thin as a spider's thread. It sliced through the air silently and could penetrate willow leaves within three feet without disturbing birds in flight. Those struck by it first felt a slight chill across their skin; after three breaths, the cold seeped into their bones, causing numbness and stiffness in their hands and feet as if they had fallen into an icy cavern."
+    translated: "The sword energy emanating from the hand flowed through the Great Yang Small Intestine Meridian and burst forth at the Shao Ze Acupoint. At first, it was as fine as spider silk, silently piercing the air; within three feet, it could penetrate mulberry leaves without alarming a bird in flight. Those struck by this energy initially felt a slight coolness on their skin; after three breaths, the chill seeped into their bones, causing their limbs to become numb and stiff as if submerged in an icy cave."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
-- raw: "134600#0#三分归元气#11#风刃削甲霜锁脉，云浪噬骨三元摧。天霜劲透体如寒川锁足，滞敌身形；排云劲化绵掌为叠浪，暗劲逐层透骨；风神劲催发伤口裂隙，敌创愈深则受击愈重。#quan_1460#3266#0#0###身前5米#0##spell_130840_go#sfx_main_hero_130840&0&true&true##0#0#0#0#410#1346000#0#0#0#0#0#0#0#0#0#2433#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130840##64#0#30000#3#3##0#4#0#0##0#0#2#2#5.0#2.0#0#0#0#0#0##0###4#0##2.0##1##0#0#"
+- raw: "134600#0#三分归元气#11#风刃削甲霜锁脉，云浪噬骨三元摧。天霜劲透体如寒川锁足，滞敌身形；排云劲化绵掌为叠浪，暗劲逐层透骨；风神劲催发伤口裂隙，敌创愈深则受击愈重。#quan_1460#2833#0#0###身前6米圆形范围#0##spell_130840_go#sfx_main_hero_130840&0&true&true##0#0#0#0#410#1346000#0#0#0#0#0#0#0#0#0#2000#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130840##64#0#30000#3#3##0#4#0#0##0#0#2#3#6.0#180.0#0#0#0#0#0##0###4#0##2.3##1##0#0#"
   splits:
   - split: 2
     text: "三分归元气"
     translated: "One‑third belongs to vitality"
   - split: 4
     text: "风刃削甲霜锁脉，云浪噬骨三元摧。天霜劲透体如寒川锁足，滞敌身形；排云劲化绵掌为叠浪，暗劲逐层透骨；风神劲催发伤口裂隙，敌创愈深则受击愈重。"
-    translated: "The gusting blade slices through armor like frost sealing veins; the cloud waves devour bones with triple‑element collapse. The celestial frost's force permeates the body like a cold river locking feet, stalling the enemy's form; the dispelling clouds' strength transforms into a layered surge of soft palms, letting dark energy penetrate bone by layer; the wind spirit's force enhances the growth of wounds and cracks, making injuries deeper with each blow, thereby increasing the damage inflicted."
+    translated: "Windblade carves through armor frost‑locked veins; cloud waves devour bone, shattering the three elements. Celestial frost energy penetrates the body as if crossing a frigid river, paralyzing the enemy's form; dissipating cloud energy transforms layered palms into overlapping waves, with hidden force penetrating through each layer of bones. Wind deity energy enhances the fissures in wounds, causing injuries to deepen with every strike, thus making each hit more severe for the opponent."
   - split: 11
-    text: "身前5米"
-    translated: "Within 5 meters ahead"
+    text: "身前6米圆形范围"
+    translated: "Circular range of 6 meters ahead"
 - raw: "134610#0#三分归一#1#风卸千钧霜结壁，云纳百劫自归元。招式施展期间为自身提升一定减伤且在受击时可生成护盾。#quan_1461#2000#0#0###自身#0##spell_130850_go#sfx_main_hero_130850&0&true&true##0#0#0#0#410#1346100#1346101#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_130850##64#0#30000#3#3##0#4#0#0##0#0#2#0#0.0#0.0#0#0#0#0#0##0###4#0##1.6##1##0#0#"
   splits:
   - split: 2
