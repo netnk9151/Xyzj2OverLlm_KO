@@ -1350,10 +1350,6 @@
   splits:
   - text: "秘术"
     translated: "Secret Technique"
-- raw: "每次每次每次每次每次每次每次每次每次每次每次每次每次每次每次"
-  splits:
-  - text: "每次每次每次每次每次每次每次每次每次每次每次每次每次每次每次"
-    translated: "Every time, every time, every time, every time, every time, every time, every time, every time, every time, every time, every time."
 - raw: "秘法"
   splits:
   - text: "秘法"
@@ -1362,54 +1358,14 @@
   splits:
   - text: "徒手"
     translated: "Unarmed"
-- raw: "基础材料：<color=#727272>打造装备必须满足的材料</color>"
-  splits:
-  - text: "基础材料：<color=#727272>打造装备必须满足的材料</color>"
-    translated: "Basic materials: <color=#727272>The materials required to forge equipment must meet certain specifications.</color>"
-- raw: "秘术："
-  splits:
-  - text: "秘术："
-    translated: "Secret technique:"
-- raw: "秘法："
-  splits:
-  - text: "秘法："
-    translated: "Mysterious technique:"
-- raw: "消耗"
-  splits:
-  - text: "消耗"
-    translated: "Expenditure"
-- raw: "未使用"
-  splits:
-  - text: "未使用"
-    translated: "Not used"
-- raw: "秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法"
-  splits:
-  - text: "秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法"
-    translated: "Secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique."
-- raw: "秘法秘法秘法秘法"
-  splits:
-  - text: "秘法秘法秘法秘法"
-    translated: "Mysterious method, mysterious method, mysterious method, mysterious method."
 - raw: "特殊材料：<color=#727272>使用秘法需要的材料</color>"
   splits:
   - text: "特殊材料：<color=#727272>使用秘法需要的材料</color>"
     translated: "Special materials: <color=#727272>Mystical technique materials required</color>"
-- raw: "当前坚韧：233）"
-  splits:
-  - text: "当前坚韧：233）"
-    translated: "Current toughness: 233)"
 - raw: "委  托"
   splits:
   - text: "委  托"
     translated: "Commission"
-- raw: "当前打造成功率"
-  splits:
-  - text: "当前打造成功率"
-    translated: "Current forging success rate"
-- raw: "基础材料："
-  splits:
-  - text: "基础材料："
-    translated: "Basic materials:"
 - raw: "产出品质概率"
   splits:
   - text: "产出品质概率"
@@ -1442,14 +1398,6 @@
   splits:
   - text: "耗时：     三时辰"
     translated: "Time‑consuming: Three hours."
-- raw: "取 消"
-  splits:
-  - text: "取 消"
-    translated: "Cancel."
-- raw: "(当前坚韧值：300)"
-  splits:
-  - text: "(当前坚韧值：300)"
-    translated: "(Current toughness value: 300)"
 - raw: "锻 造"
   splits:
   - text: "锻 造"
@@ -1458,10 +1406,6 @@
   splits:
   - text: "打造成功率及品质：与材料的等级以及提供的坚韧值有关\\n坚韧值：基础材料计算100%坚韧值，辅助材料计算80%坚韧值"
     translated: "Forging Success Rate and Quality: Related to the rank of the material and the provided toughness value.\\nToughness value: Base material calculates 100% toughness value; auxiliary material calculates 80% toughness value."
-- raw: "（最大能承受的坚韧值：400）"
-  splits:
-  - text: "（最大能承受的坚韧值：400）"
-    translated: "(Maximum toughness value: 400)"
 - raw: "秘术：\\n徒手画帖"
   splits:
   - text: "秘术：\\n徒手画帖"
@@ -1542,6 +1486,46 @@
   splits:
   - text: "废话不多说，现在材料也足够，就直接开始制作吧。"
     translated: "No need to dwell on it; we have enough materials now, so let's start making it right away."
+- raw: "苌净"
+  splits:
+  - text: "苌净"
+    translated: "Zhang Jing"
+- raw: "未获得配方"
+  splits:
+  - text: "未获得配方"
+    translated: "Not obtained the formula"
+- raw: "基础材料"
+  splits:
+  - text: "基础材料"
+    translated: "Basic materials"
+- raw: "秘法材料"
+  splits:
+  - text: "秘法材料"
+    translated: "Secret formula materials"
+- raw: "添加秘术"
+  splits:
+  - text: "添加秘术"
+    translated: "Add secret techniques"
+- raw: "添加秘法"
+  splits:
+  - text: "添加秘法"
+    translated: "Add secret techniques"
+- raw: "精良"
+  splits:
+  - text: "精良"
+    translated: "Exquisite"
+- raw: "劣质"
+  splits:
+  - text: "劣质"
+    translated: "Low‑quality"
+- raw: "耗时：      三时辰"
+  splits:
+  - text: "耗时：      三时辰"
+    translated: "Time‑consuming: Three hours."
+- raw: "1.5万"
+  splits:
+  - text: "1.5万"
+    translated: "1.5 10K"
 - raw: "额头"
   splits:
   - text: "额头"
@@ -2811,6 +2795,10 @@
   splits:
   - text: "修炼"
     translated: "Cultivation"
+- raw: "消耗"
+  splits:
+  - text: "消耗"
+    translated: "Expenditure"
 - raw: "材料"
   splits:
   - text: "材料"
@@ -7240,6 +7228,10 @@
   splits:
   - text: "品质耗材说明\\n越高品阶的材料，数量越多，提升对应产出品质概率越高"
     translated: "Product Material Specification\\nThe higher the quality of the material, the greater the quantity needed, and the higher the probability of enhancing the corresponding output's quality."
+- raw: "生铁剑"
+  splits:
+  - text: "生铁剑"
+    translated: "Sword made from pig iron"
 - raw: "持有太初剑宗令牌："
   splits:
   - text: "持有太初剑宗令牌："
@@ -8012,6 +8004,14 @@
   splits:
   - text: "亲爱的玩家，经检测当前可用的运行内存(值)不足以支撑游戏在峰值下运行。为让您能畅玩游戏，请关闭一些其他后台运行的程序。"
     translated: "Dear player, the current available memory (value) is insufficient to support running the game at peak performance. To allow you to enjoy the game smoothly, please close some other programs that are running in the background."
+- raw: "危"
+  splits:
+  - text: "危"
+    translated: "Dangerous"
+- raw: "前方凶险，请少侠做好万全准备"
+  splits:
+  - text: "前方凶险，请少侠做好万全准备"
+    translated: "Ahead lies danger; please prepare thoroughly, young hero."
 - raw: "消耗：   10000"
   splits:
   - text: "消耗：   10000"

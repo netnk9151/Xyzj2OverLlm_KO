@@ -3442,136 +3442,126 @@
   - split: 3
     text: "获得"
     translated: "Obtained"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,313,104秘术积点加1，当前积点{0},[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,313,104秘术积点加1，当前积点{0},[]"
   splits:
   - split: 3
     text: "104秘术积点加1，当前积点{0}"
-    translated: "Secret Technique Accumulation: 104 points added, current total: {0} points. Remaining accumulation: 1."
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,459,105秘术生效， 得到当前最高品质；{0},[]"
+    translated: "Mysterious Art points accumulated: {0}. Additional points added from 104: 1. Total current points: {0}."
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,459,105秘术生效， 得到当前最高品质；{0},[]"
   splits:
   - split: 3
     text: "105秘术生效， 得到当前最高品质；{0}"
-    translated: "The secret technique takes effect, achieving the highest quality; {0} 105"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,504,105秘术积点加1，当前积点：{0},[]"
+    translated: "105 Mysterious Art activated, obtained current highest quality: {0}"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,504,105秘术积点加1，当前积点：{0},[]"
   splits:
   - split: 3
     text: "105秘术积点加1，当前积点：{0}"
-    translated: "Secret Technique Accumulates Points: +105 from 1. Current Total Points: {}: {0}"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,3152,106秘术积点加1，当前积点{0},[]"
+    translated: "105 secret technique accumulates points by 1, current accumulated points: {0}"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,3152,106秘术积点加1，当前积点{0},[]"
   splits:
   - split: 3
     text: "106秘术积点加1，当前积点{0}"
-    translated: "Secret technique accumulates {0} points, plus 1 points from 106. Current accumulated points: {0}."
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,3487,108秘术积点加1，当前积点{0},[]"
+    translated: "106 Secret technique accumulates points, now at 1, total accumulated: {0}"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,3487,108秘术积点加1，当前积点{0},[]"
   splits:
   - split: 3
     text: "108秘术积点加1，当前积点{0}"
-    translated: "Mysterious Technique Accumulated Points + 1, Current Accumulated Points: {0} 108"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,3733,突破瓶颈,[]"
+    translated: "Secret Technique Accumulates {0} points, increasing by 1. Current total: 108 points."
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,3733,突破瓶颈,[]"
   splits:
   - split: 3
     text: "突破瓶颈"
-    translated: "Break through a bottleneck"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,4508,精力 x {0},[]"
+    translated: "Breakthrough a bottleneck"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,4508,精力 x {0},[]"
   splits:
   - split: 3
     text: "精力 x {0}"
     translated: "Energy of {0}."
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,4534,<color=#2EDFA3>扣除</color>,[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,4534,<color=#2EDFA3>扣除</color>,[]"
   splits:
   - split: 3
     text: "<color=#2EDFA3>扣除</color>"
     translated: "<color=#2EDFA3>Deduct</color>"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,5097,发生彩蛋：此次制作获得,[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,5097,发生彩蛋：此次制作获得,[]"
   splits:
   - split: 3
     text: "发生彩蛋：此次制作获得"
-    translated: "A surprise twist occurred: This production has achieved success."
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,5147,制作,[]"
+    translated: "An unexpected surprise occurs: This production has won acclaim"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,5147,制作,[]"
   splits:
   - split: 3
     text: "制作"
     translated: "Production"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,5163,成功,[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,5163,成功,[]"
   splits:
   - split: 3
     text: "成功"
     translated: "Achieved success"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,5218,制作,[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,5218,制作,[]"
   splits:
   - split: 3
     text: "制作"
     translated: "Production"
-- raw: "FabricationView/<FabricateItem>d__222,MoveNext,5234,失败,[]"
+- raw: "FabricationView/<FabricateItem>d__157,MoveNext,5234,失败,[]"
   splits:
   - split: 3
     text: "失败"
     translated: "Failure"
-- raw: "FabricationView,OpenFabrication,579,你的当前身份还不能使用此,[System.Int64，LivingType]"
+- raw: "FabricationView,OpenFabrication,560,你的当前身份还不能使用此,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "你的当前身份还不能使用此"
-    translated: "Your current status does not allow you to use this."
-- raw: "FabricationView,OpenFabrication,596,，请先寻找擅长,[System.Int64，LivingType]"
+    translated: "Your current identity does not allow you to use this."
+- raw: "FabricationView,OpenFabrication,577,，请先寻找擅长,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "，请先寻找擅长"
-    translated: "Please first seek out those who are skilled in..."
-- raw: "FabricationView,OpenFabrication,614,之人提升【身份】,[System.Int64，LivingType]"
+    translated: "Please first find someone who excels at it."
+- raw: "FabricationView,OpenFabrication,595,之人提升【身份】,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "之人提升【身份】"
-    translated: "The individual has been elevated in status"
-- raw: "FabricationView,OpenFabrication,627,确定,[System.Int64，LivingType]"
+    translated: "A person enhancing their status"
+- raw: "FabricationView,OpenFabrication,608,确定,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "确定"
     translated: "Confirmed"
-- raw: "FabricationView,OpenFabrication,632,取消,[System.Int64，LivingType]"
+- raw: "FabricationView,OpenFabrication,613,取消,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "取消"
     translated: "Cancel"
-- raw: "FabricationView,OpenFabrication,1372,尚未学习,[System.Int64，LivingType]"
+- raw: "FabricationView,OpenFabrication,1259,尚未学习,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "尚未学习"
-    translated: "Not yet learned"
-- raw: "FabricationView,OpenFabrication,1397,配方，请先学习任意一个,[System.Int64，LivingType]"
+    translated: "Not yet studied"
+- raw: "FabricationView,OpenFabrication,1284,配方，请先学习任意一个,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "配方，请先学习任意一个"
-    translated: "Formula: Please study any one first"
-- raw: "FabricationView,OpenFabrication,1422,配方,[System.Int64，LivingType]"
+    translated: "Formula. Please first learn any one of them."
+- raw: "FabricationView,OpenFabrication,1309,配方,[System.Int64，LivingType]"
   splits:
   - split: 3
     text: "配方"
     translated: "Formula"
-- raw: "FabricationView,onAssemblyDataSelectedHander,139,当前可打造最大阶级：{0},[SweetPotato.UIItemSlot]"
+- raw: "FabricationView,onAssemblyDataSelectedHander,132,当前可打造最大阶级：{0},[SweetPotato.UIItemSlot]"
   splits:
   - split: 3
     text: "当前可打造最大阶级：{0}"
-    translated: "The highest level currently forgeable: {0}"
-- raw: "FabricationView,RefreshMishu,172,未使用,[]"
-  splits:
-  - split: 3
-    text: "未使用"
-    translated: "Not used"
-- raw: "FabricationView,RefreshMiFa,327,未使用,[]"
-  splits:
-  - split: 3
-    text: "未使用"
-    translated: "Not used"
+    translated: "The highest level that can currently be forged: {0}"
 - raw: "FabricationView,RefreshCailiao,27,耗材,[]"
   splits:
   - split: 3
     text: "耗材"
     translated: "Consumables"
-- raw: "FabricationView,RefreshCailiao,86,耗材X{0},[]"
+- raw: "FabricationView,RefreshCailiao,142,耗材\\r\\nX{0},[]"
   splits:
   - split: 3
-    text: "耗材X{0}"
-    translated: "Material Consumables X {0}"
+    text: "耗材\\r\\nX{0}"
+    translated: "Consumables\\r\\nX{0}"
 - raw: "FabricationView,RefreshCost,76,<color=#d5d4d4>耗时：      </color><color=#49c14f>,[]"
   splits:
   - split: 3
@@ -3582,46 +3572,16 @@
   - split: 3
     text: "</color><color=#f0f0f0>时辰</color>"
     translated: "<color=#f0f0f0>Time</color>"
-- raw: "FabricationView,RefreshMaterialsDes,60,(当前坚韧值：<color={0}>{1}</color>/{2}),[System.Boolean]"
-  splits:
-  - split: 3
-    text: "(当前坚韧值：<color={0}>{1}</color>/{2})"
-    translated: "(Current toughness value): <color={0}>{1}</color>/{2})"
-- raw: "FabricationView,RefreshMaterialsDes,288,主要材料无法承载当前辅助材料的坚韧，可能导致主要材料直接毁损,[System.Boolean]"
+- raw: "FabricationView,RefreshMaterialsDes,153,主要材料无法承载当前辅助材料的坚韧，可能导致主要材料直接毁损,[System.Boolean]"
   splits:
   - split: 3
     text: "主要材料无法承载当前辅助材料的坚韧，可能导致主要材料直接毁损"
-    translated: "The primary material cannot withstand the toughness of the auxiliary material, potentially leading to direct damage of the primary material."
+    translated: "The main material cannot withstand the toughness of the auxiliary material, which may lead to direct damage or destruction of the main material."
 - raw: "FabricationView,RefreshRatio,386,成功率：{0}%,[]"
   splits:
   - split: 3
     text: "成功率：{0}%"
     translated: "Success rate: {0}%"
-- raw: "FabricationView,RefreshReason,132,铜钱不足！,[]"
-  splits:
-  - split: 3
-    text: "铜钱不足！"
-    translated: "Not enough copper coins!"
-- raw: "FabricationView,RefreshReason,296,\\n材料不足！,[]"
-  splits:
-  - split: 3
-    text: "\\n材料不足！"
-    translated: "\\nInsufficient materials!"
-- raw: "FabricationView,RefreshReason,404,\\n秘法材料不足！,[]"
-  splits:
-  - split: 3
-    text: "\\n秘法材料不足！"
-    translated: "\\nInsufficient materials for the secret technique!"
-- raw: "FabricationView,RefreshReason,536,精力不足!,[]"
-  splits:
-  - split: 3
-    text: "精力不足!"
-    translated: "Lack of energy!"
-- raw: "FabricationView,RefreshReason,591,铜钱不足！,[]"
-  splits:
-  - split: 3
-    text: "铜钱不足！"
-    translated: "Not enough copper coins!"
 - raw: "FabricationView,CanAssembly,99,精力不足,[System.Int32]"
   splits:
   - split: 3
@@ -3862,6 +3822,16 @@
   - split: 3
     text: "请先选择材料！"
     translated: "Please choose the material first!"
+- raw: "MystiqueSelectPanel,OpenPanel,9,秘法选择,[System.Collections.Generic.List`1<SweetPotato.UIItemData>，System.Boolean]"
+  splits:
+  - split: 3
+    text: "秘法选择"
+    translated: "Select Secret Techniques"
+- raw: "MystiqueSelectPanel,OpenPanel,16,秘术选择,[System.Collections.Generic.List`1<SweetPotato.UIItemData>，System.Boolean]"
+  splits:
+  - split: 3
+    text: "秘术选择"
+    translated: "Choose Secret Technique"
 - raw: "MystiqueSelectPanel,RefreshDetails,76,秘术说明：,[Mystique]"
   splits:
   - split: 3
@@ -3927,22 +3897,22 @@
   - split: 3
     text: "并额外赋予："
     translated: "And additionally bestow upon them:"
-- raw: "RecipeSlot,OnReset,347,品质：随机,[]"
+- raw: "RecipeSlot,OnReset,367,品质：随机,[]"
   splits:
   - split: 3
     text: "品质：随机"
     translated: "Quality: Randomly"
-- raw: "RecipeSlot,OnReset,451,品质：随机,[]"
+- raw: "RecipeSlot,OnReset,471,品质：随机,[]"
   splits:
   - split: 3
     text: "品质：随机"
     translated: "Quality: Randomly"
-- raw: "RecipeSlot,OnReset,497,未习得配方,[]"
+- raw: "RecipeSlot,OnReset,517,未习得配方,[]"
   splits:
   - split: 3
     text: "未习得配方"
-    translated: "Not yet learned the formula"
-- raw: "RecipeSlot,OnReset,520,坚韧要求：,[]"
+    translated: "Not acquired the formula"
+- raw: "RecipeSlot,OnReset,540,坚韧要求：,[]"
   splits:
   - split: 3
     text: "坚韧要求："
@@ -6410,31 +6380,31 @@
   - split: 3
     text: "{0}级\\n"
     translated: "Level {0}\\n"
-- raw: "MenPaiLevelPanel,CheckWork,107,护法,[System.String，System.Boolean]"
+- raw: "MenPaiLevelPanel,CheckWork,97,护法,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "护法"
     translated: "Protector"
-- raw: "MenPaiLevelPanel,CheckWork,197,长老,[System.String，System.Boolean]"
+- raw: "MenPaiLevelPanel,CheckWork,172,长老,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "长老"
     translated: "Elder"
-- raw: "MenPaiLevelPanel,CheckWork,361,堂主,[System.String，System.Boolean]"
+- raw: "MenPaiLevelPanel,CheckWork,300,堂主,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "堂主"
     translated: "Venerable Head of the Hall"
-- raw: "MenPaiLevelPanel,CheckWork,405,{0}名\\n,[System.String，System.Boolean]"
+- raw: "MenPaiLevelPanel,CheckWork,344,{0}名\\n,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "{0}名\\n"
-    translated: "{0} names\\n"
-- raw: "MenPaiLevelPanel,CheckWork,508,{0}名\\n,[System.String，System.Boolean]"
+    translated: "{0} persons\\n"
+- raw: "MenPaiLevelPanel,CheckWork,442,{0}名\\n,[System.String，System.Boolean]"
   splits:
   - split: 3
     text: "{0}名\\n"
-    translated: "{0} names\\n"
+    translated: "{0} persons\\n"
 - raw: "MenPaiLevelPanel,InitUseDes,107,门派,[]"
   splits:
   - split: 3
@@ -13618,11 +13588,6 @@
   - split: 3
     text: "需要装备{0}"
     translated: "You need to equip {0}"
-- raw: "SpellItemSlotNew,OnPointerClick,334,装备技能前请先卸下之前的技能,[UnityEngine.EventSystems.PointerEventData]"
-  splits:
-  - split: 3
-    text: "装备技能前请先卸下之前的技能"
-    translated: "Please remove any previously equipped skills before equipping new ones."
 - raw: "SpellItemSlotNew,UnEquip,58,技能冷却中，不能卸下,[]"
   splits:
   - split: 3
@@ -13633,42 +13598,42 @@
   - split: 3
     text: "连招中有技能处于冷却状态，不能卸下"
     translated: "Combo skills are on cooldown; they cannot be removed."
-- raw: "SpellItemSlotNew_mobile,OnReset,885,入门,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,867,入门,[]"
   splits:
   - split: 3
     text: "入门"
     translated: "Beginner's level"
-- raw: "SpellItemSlotNew_mobile,OnReset,894,熟练,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,876,熟练,[]"
   splits:
   - split: 3
     text: "熟练"
     translated: "Proficient"
-- raw: "SpellItemSlotNew_mobile,OnReset,903,精通,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,885,精通,[]"
   splits:
   - split: 3
     text: "精通"
     translated: "Proficient"
-- raw: "SpellItemSlotNew_mobile,OnReset,912,化境,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,894,化境,[]"
   splits:
   - split: 3
     text: "化境"
     translated: "Transcendent"
-- raw: "SpellItemSlotNew_mobile,OnReset,1046,招式,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1157,招式,[]"
   splits:
   - split: 3
     text: "招式"
     translated: "Technique"
-- raw: "SpellItemSlotNew_mobile,OnReset,1055,被动,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1166,被动,[]"
   splits:
   - split: 3
     text: "被动"
     translated: "Passive"
-- raw: "SpellItemSlotNew_mobile,OnReset,1064,功体,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1175,功体,[]"
   splits:
   - split: 3
     text: "功体"
     translated: "Martial Body"
-- raw: "SpellItemSlotNew_mobile,OnReset,1073,其他,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1184,其他,[]"
   splits:
   - split: 3
     text: "其他"
@@ -13693,12 +13658,12 @@
   - split: 3
     text: "参悟"
     translated: "Comprehend"
-- raw: "SynthesisSpellItemSlot_mobile,OnReset,188,未参悟,[]"
+- raw: "SynthesisSpellItemSlot_mobile,OnReset,140,未参悟,[]"
   splits:
   - split: 3
     text: "未参悟"
     translated: "Not yet enlightened"
-- raw: "SynthesisSpellItemSlot_mobile,OnReset,195,参悟,[]"
+- raw: "SynthesisSpellItemSlot_mobile,OnReset,147,参悟,[]"
   splits:
   - split: 3
     text: "参悟"
@@ -15048,16 +15013,16 @@
   - split: 3
     text: "解锁成功"
     translated: "Unlock successful"
-- raw: "MenPaiWarInfo,InitBattle,28,当前战场已结束,[]"
+- raw: "MenPaiWarInfo,InitBattle,23,当前战场已结束,[]"
   splits:
   - split: 3
     text: "当前战场已结束"
-    translated: "Current battlefield has ended"
-- raw: "MenPaiWarInfo,InitBattle,347,开启战场,[]"
+    translated: "Current battle has ended"
+- raw: "MenPaiWarInfo,InitBattle,342,开启战场,[]"
   splits:
   - split: 3
     text: "开启战场"
-    translated: "Commence battle"
+    translated: "Initiate battlefield operations"
 - raw: "MouseSimulator,Start,10,Unity的屏幕分辨率,[]"
   splits:
   - split: 3
@@ -23214,12 +23179,12 @@
   - split: 3
     text: "ItemPrototype表中没有物品id:{0}"
     translated: "The Item Prototype table does not contain an item ID: {0}"
-- raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,959,未卜·,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
+- raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,974,未卜·,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "未卜·"
     translated: "Undetermined ·"
-- raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,1015,获得,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
+- raw: "SweetPotato.ItemStorage,CreateAndAddByItemId,1030,获得,[System.Int64，System.Int32，System.Boolean，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "获得"
