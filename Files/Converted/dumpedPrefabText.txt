@@ -126,6 +126,30 @@
   splits:
   - text: "达成"
     translated: "Achieved"
+- raw: "初出茅庐"
+  splits:
+  - text: "初出茅庐"
+    translated: "Fresh out of the village schoolhouse"
+- raw: "总成就："
+  splits:
+  - text: "总成就："
+    translated: "Total Accomplishments:"
+- raw: "齐国"
+  splits:
+  - text: "齐国"
+    translated: "Qi Kingdom"
+- raw: "楚国"
+  splits:
+  - text: "楚国"
+    translated: "Chu Kingdom"
+- raw: "燕国"
+  splits:
+  - text: "燕国"
+    translated: "Yan Kingdom"
+- raw: "获得声望："
+  splits:
+  - text: "获得声望："
+    translated: "Gained reputation:"
 - raw: "由于目前AI为测试阶段，每人每天限制提问"
   splits:
   - text: "由于目前AI为测试阶段，每人每天限制提问"
@@ -2631,6 +2655,22 @@
   splits:
   - text: "木石阵   x2"
     translated: "Stone Array x2"
+- raw: "上"
+  splits:
+  - text: "上"
+    translated: "Up"
+- raw: "下"
+  splits:
+  - text: "下"
+    translated: "Down"
+- raw: "左"
+  splits:
+  - text: "左"
+    translated: "Zuo"
+- raw: "右"
+  splits:
+  - text: "右"
+    translated: "Right"
 - raw: "光源：WASD控制上下左右移动。"
   splits:
   - text: "光源：WASD控制上下左右移动。"
@@ -3647,6 +3687,10 @@
   splits:
   - text: "江湖浪子"
     translated: "Jianghu drifter"
+- raw: "无名之辈"
+  splits:
+  - text: "无名之辈"
+    translated: "Nameless One"
 - raw: "名将之后，因意外流落到江湖中生活"
   splits:
   - text: "名将之后，因意外流落到江湖中生活"
@@ -4171,18 +4215,6 @@
   splits:
   - text: "萍水相逢"
     translated: "Chance encounters between strangers"
-- raw: "齐国"
-  splits:
-  - text: "齐国"
-    translated: "Qi Kingdom"
-- raw: "楚国"
-  splits:
-  - text: "楚国"
-    translated: "Chu Kingdom"
-- raw: "燕国"
-  splits:
-  - text: "燕国"
-    translated: "Yan Kingdom"
 - raw: "关外"
   splits:
   - text: "关外"
@@ -8932,6 +8964,14 @@
   splits:
   - text: "回顾"
     translated: "Reflect on it"
+- raw: "悬红"
+  splits:
+  - text: "悬红"
+    translated: "Placing a bounty"
+- raw: "撤销"
+  splits:
+  - text: "撤销"
+    translated: "Revoke"
 - raw: "请选择想要的奖励！"
   splits:
   - text: "请选择想要的奖励！"
@@ -9908,6 +9948,22 @@
   splits:
   - text: "斩斩斩斩"
     translated: "Chop chop chop chop"
+- raw: "血统    气血99999\\n"
+  splits:
+  - text: "血统    气血99999\\n"
+    translated: "Lineage, lifeforce 99999.\\n"
+- raw: "苌净+7"
+  splits:
+  - text: "苌净+7"
+    translated: "Zhang Jing +7"
+- raw: "添加材料："
+  splits:
+  - text: "添加材料："
+    translated: "Add materials:"
+- raw: "锤炼7"
+  splits:
+  - text: "锤炼7"
+    translated: "Forge the 7"
 - raw: "对方回礼"
   splits:
   - text: "对方回礼"
@@ -10156,14 +10212,6 @@
   splits:
   - text: "刷新时间"
     translated: "Refresh time"
-- raw: "撤销"
-  splits:
-  - text: "撤销"
-    translated: "Revoke"
-- raw: "悬红"
-  splits:
-  - text: "悬红"
-    translated: "Placing a bounty"
 - raw: "委托："
   splits:
   - text: "委托："

@@ -1434,6 +1434,38 @@
   splits:
   - split: 3
     text: "全部成就"
+- raw: "AchievementView,.ctor,107,无名小卒,[]"
+  splits:
+  - split: 3
+    text: "无名小卒"
+- raw: "AchievementView,.ctor,118,初出茅庐,[]"
+  splits:
+  - split: 3
+    text: "初出茅庐"
+- raw: "AchievementView,.ctor,129,江湖少侠,[]"
+  splits:
+  - split: 3
+    text: "江湖少侠"
+- raw: "AchievementView,.ctor,140,名动一方,[]"
+  splits:
+  - split: 3
+    text: "名动一方"
+- raw: "AchievementView,.ctor,151,豪杰天骄,[]"
+  splits:
+  - split: 3
+    text: "豪杰天骄"
+- raw: "AchievementView,.ctor,162,一代宗师,[]"
+  splits:
+  - split: 3
+    text: "一代宗师"
+- raw: "AchievementView,.ctor,173,世间绝顶,[]"
+  splits:
+  - split: 3
+    text: "世间绝顶"
+- raw: "AchievementView,.ctor,184,武林神话,[]"
+  splits:
+  - split: 3
+    text: "武林神话"
 - raw: "InputItemSlot,OnReset,140,(长按),[]"
   splits:
   - split: 3
@@ -5042,6 +5074,10 @@
   splits:
   - split: 3
     text: "不满足条件"
+- raw: "MenPaiFangTangPanel,OnOKClick,73,需要为任务分配人员,[]"
+  splits:
+  - split: 3
+    text: "需要为任务分配人员"
 - raw: "MenPaiFaZhanPanel/<>c__DisplayClass62_1,<RefreshExp>b__1,16,{0}级,[]"
   splits:
   - split: 3
@@ -6570,6 +6606,18 @@
   splits:
   - split: 3
     text: "装备上可替换主角模型，对话立绘和泡泡表情"
+- raw: "FaceSetView,OnEnterYiGui,38,是否保存数据,[]"
+  splits:
+  - split: 3
+    text: "是否保存数据"
+- raw: "FaceSetView,OnEnterYiGui,56,是,[]"
+  splits:
+  - split: 3
+    text: "是"
+- raw: "FaceSetView,OnEnterYiGui,61,否,[]"
+  splits:
+  - split: 3
+    text: "否"
 - raw: "FaceSetView,<Awake>b__39_2,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
   splits:
   - split: 3
@@ -7698,23 +7746,23 @@
   splits:
   - split: 3
     text: "随机获得一条属性"
-- raw: "JingMaiAttriItemSlot_mobile,OnReset,343,离莹・,[]"
+- raw: "JingMaiAttriItemSlot_mobile,OnReset,347,离莹・,[]"
   splits:
   - split: 3
     text: "离莹・"
-- raw: "JingMaiAttriItemSlot_mobile,OnReset,367,扶山・,[]"
+- raw: "JingMaiAttriItemSlot_mobile,OnReset,371,扶山・,[]"
   splits:
   - split: 3
     text: "扶山・"
-- raw: "JingMaiAttriItemSlot_mobile,OnReset,391,战好・,[]"
+- raw: "JingMaiAttriItemSlot_mobile,OnReset,395,战好・,[]"
   splits:
   - split: 3
     text: "战好・"
-- raw: "JingMaiAttriItemSlot_mobile,OnReset,494,(固有),[]"
+- raw: "JingMaiAttriItemSlot_mobile,OnReset,497,(固有),[]"
   splits:
   - split: 3
     text: "(固有)"
-- raw: "JingMaiAttriItemSlot_mobile,OnReset,512,(材料{0}),[]"
+- raw: "JingMaiAttriItemSlot_mobile,OnReset,514,(材料{0}),[]"
   splits:
   - split: 3
     text: "(材料{0})"
@@ -9746,90 +9794,162 @@
   splits:
   - split: 3
     text: "伶魁"
-- raw: "QuestAcceptView,OnQuestLogSelect,168,的委托,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,RefreshButtonAndTip,104,<color=#d64343>(已悬红)</color>,[]"
+  splits:
+  - split: 3
+    text: "<color=#d64343>(已悬红)</color>"
+- raw: "QuestAcceptView,CanXuanhong,55,捕快等级不到五级无法悬红悬赏,[]"
+  splits:
+  - split: 3
+    text: "捕快等级不到五级无法悬红悬赏"
+- raw: "QuestAcceptView,CanXuanhong,132,已有悬红悬赏,[]"
+  splits:
+  - split: 3
+    text: "已有悬红悬赏"
+- raw: "QuestAcceptView,OnQuestLogSelect,182,的委托,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "的委托"
-- raw: "QuestAcceptView,OnQuestLogSelect,250,【委】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,264,【委】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "【委】"
-- raw: "QuestAcceptView,OnQuestLogSelect,275,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,289,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "任务截止时间："
-- raw: "QuestAcceptView,OnQuestLogSelect,331,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,345,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "任务截止时间："
-- raw: "QuestAcceptView,OnQuestLogSelect,380,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,394,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "任务截止时间：不限时"
-- raw: "QuestAcceptView,OnQuestLogSelect,476,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,490,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "交接："
-- raw: "QuestAcceptView,OnQuestLogSelect,507,\\n交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,521,\\n交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "\\n交接："
-- raw: "QuestAcceptView,OnQuestLogSelect,544,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,558,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "交接：无"
-- raw: "QuestAcceptView,OnQuestLogSelect,568,\\n交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,582,\\n交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "\\n交接：无"
-- raw: "QuestAcceptView,OnQuestLogSelect,1456,你确定接受此委托吗？,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1470,你确定接受此委托吗？,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "你确定接受此委托吗？"
-- raw: "QuestAcceptView,OnQuestLogSelect,1475,确定,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1489,确定,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "确定"
-- raw: "QuestAcceptView,OnQuestLogSelect,1480,取消,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1494,取消,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "取消"
-- raw: "QuestAcceptView,OnQuestLogSelect,1634,级,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1648,级,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "级"
-- raw: "QuestAcceptView,OnQuestLogSelect,1656,悬赏,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1670,悬赏,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "悬赏"
-- raw: "QuestAcceptView,OnQuestLogSelect,1750,【悬】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1764,【悬】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "【悬】"
-- raw: "QuestAcceptView,OnQuestLogSelect,1781,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1795,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "任务截止时间："
-- raw: "QuestAcceptView,OnQuestLogSelect,1832,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1846,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "任务截止时间：不限时"
-- raw: "QuestAcceptView,OnQuestLogSelect,1924,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1938,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "交接："
-- raw: "QuestAcceptView,OnQuestLogSelect,1955,\\n交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,1969,\\n交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "\\n交接："
-- raw: "QuestAcceptView,OnQuestLogSelect,1992,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,2006,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "交接：无"
-- raw: "QuestAcceptView,OnQuestLogSelect,2016,\\n交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
+- raw: "QuestAcceptView,OnQuestLogSelect,2030,\\n交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Boolean]"
   splits:
   - split: 3
     text: "\\n交接：无"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,172,的委托,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "的委托"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,254,【委】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "【委】"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,279,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "任务截止时间："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,335,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "任务截止时间："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,384,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "任务截止时间：不限时"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,480,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "交接："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,511,\\n交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "\\n交接："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,536,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "交接：无"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1432,级,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "级"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1454,悬赏,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "悬赏"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1548,【悬】,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "【悬】"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1579,任务截止时间：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "任务截止时间："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1630,任务截止时间：不限时,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "任务截止时间：不限时"
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1710,交接：,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "交接："
+- raw: "QuestAcceptView,OnQuestLogSelectXuanshang,1735,交接：无,[QuestViewWTXSListAdapterModle，System.Action，System.Action，System.Int64]"
+  splits:
+  - split: 3
+    text: "交接：无"
 - raw: "QuestAcceptView,OnpenMsg,5,你确定接受此悬赏吗？,[]"
   splits:
   - split: 3
@@ -9842,18 +9962,58 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "QuestAcceptView,<Awake>b__37_2,55,已有悬红悬赏,[]"
+- raw: "QuestAcceptView,<Awake>b__38_0,5,你确定接受此委托吗？,[]"
   splits:
   - split: 3
-    text: "已有悬红悬赏"
-- raw: "QuestAcceptView,<Awake>b__37_2,127,悬红,[]"
+    text: "你确定接受此委托吗？"
+- raw: "QuestAcceptView,<Awake>b__38_0,23,确定,[]"
   splits:
   - split: 3
-    text: "悬红"
-- raw: "QuestAcceptView,<Awake>b__37_2,134,取消悬红,[]"
+    text: "确定"
+- raw: "QuestAcceptView,<Awake>b__38_0,28,取消,[]"
   splits:
   - split: 3
-    text: "取消悬红"
+    text: "取消"
+- raw: "QuestAcceptView,<Awake>b__38_1,60,不能撤销可以完成的悬赏,[]"
+  splits:
+  - split: 3
+    text: "不能撤销可以完成的悬赏"
+- raw: "QuestAcceptView,<Awake>b__38_1,86,撤销此悬赏？,[]"
+  splits:
+  - split: 3
+    text: "撤销此悬赏？"
+- raw: "QuestAcceptView,<Awake>b__38_1,104,确定,[]"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "QuestAcceptView,<Awake>b__38_1,109,取消,[]"
+  splits:
+  - split: 3
+    text: "取消"
+- raw: "QuestAcceptView,<Awake>b__38_2,83,只能悬红战斗相关的悬赏,[]"
+  splits:
+  - split: 3
+    text: "只能悬红战斗相关的悬赏"
+- raw: "QuestAcceptView,<Awake>b__38_2,128,此悬赏已被悬红,[]"
+  splits:
+  - split: 3
+    text: "此悬赏已被悬红"
+- raw: "QuestAcceptView,<Awake>b__38_2,204,金钱不足,[]"
+  splits:
+  - split: 3
+    text: "金钱不足"
+- raw: "QuestAcceptView,<Awake>b__38_2,220,花费钱财悬红此悬赏招来江湖好手助战？\\n(助战Npc只有一天时效，且阵亡后不会刷新),[]"
+  splits:
+  - split: 3
+    text: "花费钱财悬红此悬赏招来江湖好手助战？\\n(助战Npc只有一天时效，且阵亡后不会刷新)"
+- raw: "QuestAcceptView,<Awake>b__38_2,238,确定,[]"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "QuestAcceptView,<Awake>b__38_2,243,取消,[]"
+  splits:
+  - split: 3
+    text: "取消"
 - raw: "ChuanWenItemSlot,OnReset,79,取消完成,[]"
   splits:
   - split: 3
@@ -10794,7 +10954,7 @@
   splits:
   - split: 3
     text: "心法"
-- raw: "SpellItemSlotNew,IsValid,445,拖动技能已配置在连招中，不能更换,[]"
+- raw: "SpellItemSlotNew,IsValid,403,拖动技能已配置在连招中，不能更换,[]"
   splits:
   - split: 3
     text: "拖动技能已配置在连招中，不能更换"
@@ -10862,6 +11022,10 @@
   splits:
   - split: 3
     text: "需要装备{0}"
+- raw: "SpellItemSlotNew,OnDragFinish,1189,技能装备成功！,[System.Int64]"
+  splits:
+  - split: 3
+    text: "技能装备成功！"
 - raw: "SpellItemSlotNew,UnEquip,58,技能冷却中，不能卸下,[]"
   splits:
   - split: 3
@@ -10886,19 +11050,19 @@
   splits:
   - split: 3
     text: "化境"
-- raw: "SpellItemSlotNew_mobile,OnReset,1157,招式,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1160,招式,[]"
   splits:
   - split: 3
     text: "招式"
-- raw: "SpellItemSlotNew_mobile,OnReset,1166,被动,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1169,被动,[]"
   splits:
   - split: 3
     text: "被动"
-- raw: "SpellItemSlotNew_mobile,OnReset,1175,功体,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1178,功体,[]"
   splits:
   - split: 3
     text: "功体"
-- raw: "SpellItemSlotNew_mobile,OnReset,1184,其他,[]"
+- raw: "SpellItemSlotNew_mobile,OnReset,1187,其他,[]"
   splits:
   - split: 3
     text: "其他"
@@ -11290,15 +11454,19 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "XuanShangLingItem/<>c__DisplayClass19_0,<Awake>b__2,647,不满足完成该委托的条件,[UnityEngine.EventSystems.PointerEventData]"
-  splits:
-  - split: 3
-    text: "不满足完成该委托的条件"
 - raw: "XuanShangLingItem/<>c__DisplayClass19_0,<Awake>b__7,34,接取悬赏:{0} {1},[]"
   splits:
   - split: 3
     text: "接取悬赏:{0} {1}"
 - raw: "XuanShangLingItem/<>c__DisplayClass19_0,<Awake>b__7,115,接取了,[]"
+  splits:
+  - split: 3
+    text: "接取了"
+- raw: "XuanShangLingItem/<>c__DisplayClass19_0,<Awake>b__8,34,接取悬赏:{0} {1},[]"
+  splits:
+  - split: 3
+    text: "接取悬赏:{0} {1}"
+- raw: "XuanShangLingItem/<>c__DisplayClass19_0,<Awake>b__8,115,接取了,[]"
   splits:
   - split: 3
     text: "接取了"
@@ -12006,7 +12174,7 @@
   splits:
   - split: 3
     text: "当前战场已结束"
-- raw: "MenPaiWarInfo,InitBattle,342,开启战场,[]"
+- raw: "MenPaiWarInfo,InitBattle,1016,开启战场,[]"
   splits:
   - split: 3
     text: "开启战场"
@@ -13446,23 +13614,23 @@
   splits:
   - split: 3
     text: "不足1刻"
-- raw: "SweetPotato.Tools,GetGameTimeDate,156,靖延,[System.Double]"
+- raw: "SweetPotato.Tools,GetGameTimeDate,110,靖延,[System.Double]"
   splits:
   - split: 3
     text: "靖延"
-- raw: "SweetPotato.Tools,GetGameTimeDate,174,年,[System.Double]"
+- raw: "SweetPotato.Tools,GetGameTimeDate,128,年,[System.Double]"
   splits:
   - split: 3
     text: "年"
-- raw: "SweetPotato.Tools,GetGameTimeDate,192,月,[System.Double]"
+- raw: "SweetPotato.Tools,GetGameTimeDate,146,月,[System.Double]"
   splits:
   - split: 3
     text: "月"
-- raw: "SweetPotato.Tools,GetGameTimeDate,210,日,[System.Double]"
+- raw: "SweetPotato.Tools,GetGameTimeDate,164,日,[System.Double]"
   splits:
   - split: 3
     text: "日"
-- raw: "SweetPotato.Tools,GetGameTimeDate,230,时,[System.Double]"
+- raw: "SweetPotato.Tools,GetGameTimeDate,184,时,[System.Double]"
   splits:
   - split: 3
     text: "时"
@@ -14926,347 +15094,351 @@
   splits:
   - split: 3
     text: "梁潇"
-- raw: "SweetPotato.Tools,.cctor,3431,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3415,吴明,[]"
+  splits:
+  - split: 3
+    text: "吴明"
+- raw: "SweetPotato.Tools,.cctor,3439,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3454,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3462,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3465,剑,[]"
+- raw: "SweetPotato.Tools,.cctor,3473,剑,[]"
   splits:
   - split: 3
     text: "剑"
-- raw: "SweetPotato.Tools,.cctor,3476,刀,[]"
+- raw: "SweetPotato.Tools,.cctor,3484,刀,[]"
   splits:
   - split: 3
     text: "刀"
-- raw: "SweetPotato.Tools,.cctor,3487,枪棍,[]"
+- raw: "SweetPotato.Tools,.cctor,3495,枪棍,[]"
   splits:
   - split: 3
     text: "枪棍"
-- raw: "SweetPotato.Tools,.cctor,3498,搏击,[]"
+- raw: "SweetPotato.Tools,.cctor,3506,搏击,[]"
   splits:
   - split: 3
     text: "搏击"
-- raw: "SweetPotato.Tools,.cctor,3521,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3529,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3532,护甲,[]"
+- raw: "SweetPotato.Tools,.cctor,3540,护甲,[]"
   splits:
   - split: 3
     text: "护甲"
-- raw: "SweetPotato.Tools,.cctor,3543,鞋子,[]"
+- raw: "SweetPotato.Tools,.cctor,3551,鞋子,[]"
   splits:
   - split: 3
     text: "鞋子"
-- raw: "SweetPotato.Tools,.cctor,3554,腰带、护手,[]"
+- raw: "SweetPotato.Tools,.cctor,3562,腰带、护手,[]"
   splits:
   - split: 3
     text: "腰带、护手"
-- raw: "SweetPotato.Tools,.cctor,3577,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3585,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3588,戒指,[]"
+- raw: "SweetPotato.Tools,.cctor,3596,戒指,[]"
   splits:
   - split: 3
     text: "戒指"
-- raw: "SweetPotato.Tools,.cctor,3599,项链,[]"
+- raw: "SweetPotato.Tools,.cctor,3607,项链,[]"
   splits:
   - split: 3
     text: "项链"
-- raw: "SweetPotato.Tools,.cctor,3610,配饰、吊坠,[]"
+- raw: "SweetPotato.Tools,.cctor,3618,配饰、吊坠,[]"
   splits:
   - split: 3
     text: "配饰、吊坠"
-- raw: "SweetPotato.Tools,.cctor,3621,宝物,[]"
+- raw: "SweetPotato.Tools,.cctor,3629,宝物,[]"
   splits:
   - split: 3
     text: "宝物"
-- raw: "SweetPotato.Tools,.cctor,3644,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3652,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3655,丹药,[]"
+- raw: "SweetPotato.Tools,.cctor,3663,丹药,[]"
   splits:
   - split: 3
     text: "丹药"
-- raw: "SweetPotato.Tools,.cctor,3666,食物,[]"
+- raw: "SweetPotato.Tools,.cctor,3674,食物,[]"
   splits:
   - split: 3
     text: "食物"
-- raw: "SweetPotato.Tools,.cctor,3677,酒,[]"
+- raw: "SweetPotato.Tools,.cctor,3685,酒,[]"
   splits:
   - split: 3
     text: "酒"
-- raw: "SweetPotato.Tools,.cctor,3700,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3708,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3711,采集物,[]"
+- raw: "SweetPotato.Tools,.cctor,3719,采集物,[]"
   splits:
   - split: 3
     text: "采集物"
-- raw: "SweetPotato.Tools,.cctor,3722,普通材料,[]"
+- raw: "SweetPotato.Tools,.cctor,3730,普通材料,[]"
   splits:
   - split: 3
     text: "普通材料"
-- raw: "SweetPotato.Tools,.cctor,3733,经脉武学材料,[]"
+- raw: "SweetPotato.Tools,.cctor,3741,经脉武学材料,[]"
   splits:
   - split: 3
     text: "经脉武学材料"
-- raw: "SweetPotato.Tools,.cctor,3744,特殊材料,[]"
+- raw: "SweetPotato.Tools,.cctor,3752,特殊材料,[]"
   splits:
   - split: 3
     text: "特殊材料"
-- raw: "SweetPotato.Tools,.cctor,3767,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3775,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3778,配方,[]"
+- raw: "SweetPotato.Tools,.cctor,3786,配方,[]"
   splits:
   - split: 3
     text: "配方"
-- raw: "SweetPotato.Tools,.cctor,3801,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3809,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3812,武学秘籍,[]"
+- raw: "SweetPotato.Tools,.cctor,3820,武学秘籍,[]"
   splits:
   - split: 3
     text: "武学秘籍"
-- raw: "SweetPotato.Tools,.cctor,3823,秘法秘术,[]"
+- raw: "SweetPotato.Tools,.cctor,3831,秘法秘术,[]"
   splits:
   - split: 3
     text: "秘法秘术"
-- raw: "SweetPotato.Tools,.cctor,3834,造诣书籍,[]"
+- raw: "SweetPotato.Tools,.cctor,3842,造诣书籍,[]"
   splits:
   - split: 3
     text: "造诣书籍"
-- raw: "SweetPotato.Tools,.cctor,3845,化境卷,[]"
+- raw: "SweetPotato.Tools,.cctor,3853,化境卷,[]"
   splits:
   - split: 3
     text: "化境卷"
-- raw: "SweetPotato.Tools,.cctor,3868,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3876,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3879,礼物,[]"
+- raw: "SweetPotato.Tools,.cctor,3887,礼物,[]"
   splits:
   - split: 3
     text: "礼物"
-- raw: "SweetPotato.Tools,.cctor,3903,全部物品,[]"
+- raw: "SweetPotato.Tools,.cctor,3911,全部物品,[]"
   splits:
   - split: 3
     text: "全部物品"
-- raw: "SweetPotato.Tools,.cctor,3914,任务道具,[]"
+- raw: "SweetPotato.Tools,.cctor,3922,任务道具,[]"
   splits:
   - split: 3
     text: "任务道具"
-- raw: "SweetPotato.Tools,.cctor,3925,出示道具,[]"
+- raw: "SweetPotato.Tools,.cctor,3933,出示道具,[]"
   splits:
   - split: 3
     text: "出示道具"
-- raw: "SweetPotato.Tools,.cctor,3936,生活道具,[]"
+- raw: "SweetPotato.Tools,.cctor,3944,生活道具,[]"
   splits:
   - split: 3
     text: "生活道具"
-- raw: "SweetPotato.Tools,.cctor,3947,坐骑,[]"
+- raw: "SweetPotato.Tools,.cctor,3955,坐骑,[]"
   splits:
   - split: 3
     text: "坐骑"
-- raw: "SweetPotato.Tools,.cctor,3958,特效,[]"
+- raw: "SweetPotato.Tools,.cctor,3966,特效,[]"
   splits:
   - split: 3
     text: "特效"
-- raw: "SweetPotato.Tools,.cctor,3969,时装,[]"
+- raw: "SweetPotato.Tools,.cctor,3977,时装,[]"
   splits:
   - split: 3
     text: "时装"
-- raw: "SweetPotato.Tools,.cctor,5387,用于@装备类型,[]"
+- raw: "SweetPotato.Tools,.cctor,5395,用于@装备类型,[]"
   splits:
   - split: 3
     text: "用于@装备类型"
-- raw: "SweetPotato.Tools,.cctor,5403,用于@装备的洗练,[]"
+- raw: "SweetPotato.Tools,.cctor,5411,用于@装备的洗练,[]"
   splits:
   - split: 3
     text: "用于@装备的洗练"
-- raw: "SweetPotato.Tools,.cctor,5419,用于@经脉打通,[]"
+- raw: "SweetPotato.Tools,.cctor,5427,用于@经脉打通,[]"
   splits:
   - split: 3
     text: "用于@经脉打通"
-- raw: "SweetPotato.Tools,.cctor,5435,用于@脏打通,[]"
+- raw: "SweetPotato.Tools,.cctor,5443,用于@脏打通,[]"
   splits:
   - split: 3
     text: "用于@脏打通"
-- raw: "SweetPotato.Tools,.cctor,5451,用于@经脉五脏点打通,[]"
+- raw: "SweetPotato.Tools,.cctor,5459,用于@经脉五脏点打通,[]"
   splits:
   - split: 3
     text: "用于@经脉五脏点打通"
-- raw: "SweetPotato.Tools,.cctor,5467,用于@系秘籍学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5475,用于@系秘籍学习,[]"
   splits:
   - split: 3
     text: "用于@系秘籍学习"
-- raw: "SweetPotato.Tools,.cctor,5483,用于@秘籍学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5491,用于@秘籍学习,[]"
   splits:
   - split: 3
     text: "用于@秘籍学习"
-- raw: "SweetPotato.Tools,.cctor,5499,用于@秘籍某技能学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5507,用于@秘籍某技能学习,[]"
   splits:
   - split: 3
     text: "用于@秘籍某技能学习"
-- raw: "SweetPotato.Tools,.cctor,5515,用于@套路学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5523,用于@套路学习,[]"
   splits:
   - split: 3
     text: "用于@套路学习"
-- raw: "SweetPotato.Tools,.cctor,5531,用于@套路学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5539,用于@套路学习,[]"
   splits:
   - split: 3
     text: "用于@套路学习"
-- raw: "SweetPotato.Tools,.cctor,5547,用于@,[]"
+- raw: "SweetPotato.Tools,.cctor,5555,用于@,[]"
   splits:
   - split: 3
     text: "用于@"
-- raw: "SweetPotato.Tools,.cctor,5573,用于@装备类型,[]"
+- raw: "SweetPotato.Tools,.cctor,5581,用于@装备类型,[]"
   splits:
   - split: 3
     text: "用于@装备类型"
-- raw: "SweetPotato.Tools,.cctor,5589,用于@装备的洗练,[]"
+- raw: "SweetPotato.Tools,.cctor,5597,用于@装备的洗练,[]"
   splits:
   - split: 3
     text: "用于@装备的洗练"
-- raw: "SweetPotato.Tools,.cctor,5605,用于@经脉打通,[]"
+- raw: "SweetPotato.Tools,.cctor,5613,用于@经脉打通,[]"
   splits:
   - split: 3
     text: "用于@经脉打通"
-- raw: "SweetPotato.Tools,.cctor,5621,用于@脏打通,[]"
+- raw: "SweetPotato.Tools,.cctor,5629,用于@脏打通,[]"
   splits:
   - split: 3
     text: "用于@脏打通"
-- raw: "SweetPotato.Tools,.cctor,5637,使用后@,[]"
+- raw: "SweetPotato.Tools,.cctor,5645,使用后@,[]"
   splits:
   - split: 3
     text: "使用后@"
-- raw: "SweetPotato.Tools,.cctor,5653,用于@系秘籍学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5661,用于@系秘籍学习,[]"
   splits:
   - split: 3
     text: "用于@系秘籍学习"
-- raw: "SweetPotato.Tools,.cctor,5669,用于@秘籍学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5677,用于@秘籍学习,[]"
   splits:
   - split: 3
     text: "用于@秘籍学习"
-- raw: "SweetPotato.Tools,.cctor,5685,用于@秘籍某技能学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5693,用于@秘籍某技能学习,[]"
   splits:
   - split: 3
     text: "用于@秘籍某技能学习"
-- raw: "SweetPotato.Tools,.cctor,5701,用于@套路学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5709,用于@套路学习,[]"
   splits:
   - split: 3
     text: "用于@套路学习"
-- raw: "SweetPotato.Tools,.cctor,5717,用于@套路学习,[]"
+- raw: "SweetPotato.Tools,.cctor,5725,用于@套路学习,[]"
   splits:
   - split: 3
     text: "用于@套路学习"
-- raw: "SweetPotato.Tools,.cctor,5733,用于@,[]"
+- raw: "SweetPotato.Tools,.cctor,5741,用于@,[]"
   splits:
   - split: 3
     text: "用于@"
-- raw: "SweetPotato.Tools,.cctor,5759,炼丹,[]"
+- raw: "SweetPotato.Tools,.cctor,5767,炼丹,[]"
   splits:
   - split: 3
     text: "炼丹"
-- raw: "SweetPotato.Tools,.cctor,5775,炼器,[]"
+- raw: "SweetPotato.Tools,.cctor,5783,炼器,[]"
   splits:
   - split: 3
     text: "炼器"
-- raw: "SweetPotato.Tools,.cctor,5791,巧手,[]"
+- raw: "SweetPotato.Tools,.cctor,5799,巧手,[]"
   splits:
   - split: 3
     text: "巧手"
-- raw: "SweetPotato.Tools,.cctor,5807,缝纫,[]"
+- raw: "SweetPotato.Tools,.cctor,5815,缝纫,[]"
   splits:
   - split: 3
     text: "缝纫"
-- raw: "SweetPotato.Tools,.cctor,5823,酿酒,[]"
+- raw: "SweetPotato.Tools,.cctor,5831,酿酒,[]"
   splits:
   - split: 3
     text: "酿酒"
-- raw: "SweetPotato.Tools,.cctor,5839,烹饪,[]"
+- raw: "SweetPotato.Tools,.cctor,5847,烹饪,[]"
   splits:
   - split: 3
     text: "烹饪"
-- raw: "SweetPotato.Tools,.cctor,5855,农识,[]"
+- raw: "SweetPotato.Tools,.cctor,5863,农识,[]"
   splits:
   - split: 3
     text: "农识"
-- raw: "SweetPotato.Tools,.cctor,5871,农识,[]"
+- raw: "SweetPotato.Tools,.cctor,5879,农识,[]"
   splits:
   - split: 3
     text: "农识"
-- raw: "SweetPotato.Tools,.cctor,5887,洗练,[]"
+- raw: "SweetPotato.Tools,.cctor,5895,洗练,[]"
   splits:
   - split: 3
     text: "洗练"
-- raw: "SweetPotato.Tools,.cctor,5903,强化,[]"
+- raw: "SweetPotato.Tools,.cctor,5911,强化,[]"
   splits:
   - split: 3
     text: "强化"
-- raw: "SweetPotato.Tools,.cctor,5925,剑,[]"
+- raw: "SweetPotato.Tools,.cctor,5933,剑,[]"
   splits:
   - split: 3
     text: "剑"
-- raw: "SweetPotato.Tools,.cctor,5937,刀,[]"
+- raw: "SweetPotato.Tools,.cctor,5945,刀,[]"
   splits:
   - split: 3
     text: "刀"
-- raw: "SweetPotato.Tools,.cctor,5949,枪,[]"
+- raw: "SweetPotato.Tools,.cctor,5957,枪,[]"
   splits:
   - split: 3
     text: "枪"
-- raw: "SweetPotato.Tools,.cctor,5961,拳,[]"
+- raw: "SweetPotato.Tools,.cctor,5969,拳,[]"
   splits:
   - split: 3
     text: "拳"
-- raw: "SweetPotato.Tools,.cctor,5987,气血上限,[]"
+- raw: "SweetPotato.Tools,.cctor,5995,气血上限,[]"
   splits:
   - split: 3
     text: "气血上限"
-- raw: "SweetPotato.Tools,.cctor,6003,真气上限,[]"
+- raw: "SweetPotato.Tools,.cctor,6011,真气上限,[]"
   splits:
   - split: 3
     text: "真气上限"
-- raw: "SweetPotato.Tools,.cctor,6019,气血,[]"
+- raw: "SweetPotato.Tools,.cctor,6027,气血,[]"
   splits:
   - split: 3
     text: "气血"
-- raw: "SweetPotato.Tools,.cctor,6035,真气,[]"
+- raw: "SweetPotato.Tools,.cctor,6043,真气,[]"
   splits:
   - split: 3
     text: "真气"
-- raw: "SweetPotato.Tools,.cctor,6058,未加入,[]"
+- raw: "SweetPotato.Tools,.cctor,6066,未加入,[]"
   splits:
   - split: 3
     text: "未加入"
-- raw: "SweetPotato.Tools,.cctor,6066,外门弟子,[]"
+- raw: "SweetPotato.Tools,.cctor,6074,外门弟子,[]"
   splits:
   - split: 3
     text: "外门弟子"
-- raw: "SweetPotato.Tools,.cctor,6074,内门弟子,[]"
+- raw: "SweetPotato.Tools,.cctor,6082,内门弟子,[]"
   splits:
   - split: 3
     text: "内门弟子"
-- raw: "SweetPotato.Tools,.cctor,6082,关门弟子,[]"
+- raw: "SweetPotato.Tools,.cctor,6090,关门弟子,[]"
   splits:
   - split: 3
     text: "关门弟子"
-- raw: "SweetPotato.Tools,.cctor,6090,亲传弟子,[]"
+- raw: "SweetPotato.Tools,.cctor,6098,亲传弟子,[]"
   splits:
   - split: 3
     text: "亲传弟子"
-- raw: "SweetPotato.Tools,.cctor,6098,掌门,[]"
+- raw: "SweetPotato.Tools,.cctor,6106,掌门,[]"
   splits:
   - split: 3
     text: "掌门"
@@ -16562,15 +16734,15 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_54,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
+- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_55,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
-- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_54,96,少侠的姓名不得超过七个字,[System.String]"
+- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_55,96,少侠的姓名不得超过七个字,[System.String]"
   splits:
   - split: 3
     text: "少侠的姓名不得超过七个字"
-- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_55,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
+- raw: "SweetPotato.InstantiateViewNewNew_mobile,<Awake>b__96_56,36,少侠的姓名包含忌讳之词，请重新输入,[System.String]"
   splits:
   - split: 3
     text: "少侠的姓名包含忌讳之词，请重新输入"
@@ -16710,7 +16882,7 @@
   splits:
   - split: 3
     text: "成功率：{0:F}{1}"
-- raw: "SweetPotato.LoginViewNew,Awake,1113,当前版本:,[]"
+- raw: "SweetPotato.LoginViewNew,Awake,986,当前版本:,[]"
   splits:
   - split: 3
     text: "当前版本:"
@@ -17594,11 +17766,11 @@
   splits:
   - split: 3
     text: "取消"
-- raw: "SweetPotato.SpellEditView,OnMPEventHandler,284,修为：,[MPEventArgs]"
+- raw: "SweetPotato.SpellEditView,OnMPEventHandler,322,修为：,[MPEventArgs]"
   splits:
   - split: 3
     text: "修为："
-- raw: "SweetPotato.SpellEditView,OnMPEventHandler,338,感悟：,[MPEventArgs]"
+- raw: "SweetPotato.SpellEditView,OnMPEventHandler,376,感悟：,[MPEventArgs]"
   splits:
   - split: 3
     text: "感悟："
@@ -19206,7 +19378,15 @@
   splits:
   - split: 3
     text: "物品ID：{0}添加{1}个成功"
-- raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshPanel,20,锤炼,[]"
+- raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshInfoPC,14,锤炼,[]"
+  splits:
+  - split: 3
+    text: "锤炼"
+- raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshInfoMobile,20,锤炼,[]"
+  splits:
+  - split: 3
+    text: "锤炼"
+- raw: "SweetPotato.WashIntensify.IntensifyPanel,RefreshInfoMobile,529,锤炼,[]"
   splits:
   - split: 3
     text: "锤炼"
@@ -19218,11 +19398,11 @@
   splits:
   - split: 3
     text: "当前品质道具回锻无效果 "
-- raw: "SweetPotato.WashIntensify.WashPanel,OnBtnDoAnimOver,457,确定,[]"
+- raw: "SweetPotato.WashIntensify.WashPanel,OnBtnDoAnimOver,438,确定,[]"
   splits:
   - split: 3
     text: "确定"
-- raw: "SweetPotato.WashIntensify.WashPanel,<OnBtnDoAnimOver>b__28_0,88,回锻,[]"
+- raw: "SweetPotato.WashIntensify.WashPanel,<OnBtnDoAnimOver>b__26_0,69,回锻,[]"
   splits:
   - split: 3
     text: "回锻"

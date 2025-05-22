@@ -2356,6 +2356,8 @@
   badtrans: true
 - raw: 金不换
   result: Priceless Gold
+  allowalt: 
+    - Gold
   badtrans: true
 - raw: 生姜
   result: Raw Ginger
@@ -3066,7 +3068,7 @@
   literal: Cì méi
 - raw: 残烛
   result: Can Zhu
-  badtrans: true
+  badtrans: false
   direct: Broken Candle
   literal: Cán zhú
 - raw: 李管家
