@@ -19589,6 +19589,21 @@
   - split: 3
     text: "无有效目标"
     translated: "No valid target"
+- raw: "SweetPotato.GameSaving/<Load>d__108,MoveNext,829,此存档包含DLC内容 {0} ，无法读取,[]"
+  splits:
+  - split: 3
+    text: "此存档包含DLC内容 {0} ，无法读取"
+    translated: "This archive contains DLC content {0}, cannot be accessed."
+- raw: "SweetPotato.GameSaving/<Load>d__108,MoveNext,888,确认,[]"
+  splits:
+  - split: 3
+    text: "确认"
+    translated: "Confirmed"
+- raw: "SweetPotato.GameSaving/<Load>d__108,MoveNext,893,取消,[]"
+  splits:
+  - split: 3
+    text: "取消"
+    translated: "Cancel"
 - raw: "SweetPotato.GameSaving,set_IsNoCacheResource,35,需要重启游戏，才能够生效,[System.Boolean]"
   splits:
   - split: 3
@@ -19614,21 +19629,6 @@
   - split: 3
     text: "存档发生了错误 \\n"
     translated: "An error has occurred in the archive.\\n"
-- raw: "SweetPotato.GameSaving,Load,733,此存档包含DLC内容 {0} ，无法读取,[System.String，LitJson.JsonData]"
-  splits:
-  - split: 3
-    text: "此存档包含DLC内容 {0} ，无法读取"
-    translated: "This archive contains DLC content {0}, which cannot be accessed."
-- raw: "SweetPotato.GameSaving,Load,792,确认,[System.String，LitJson.JsonData]"
-  splits:
-  - split: 3
-    text: "确认"
-    translated: "Confirmed"
-- raw: "SweetPotato.GameSaving,Load,797,取消,[System.String，LitJson.JsonData]"
-  splits:
-  - split: 3
-    text: "取消"
-    translated: "Cancel"
 - raw: "SweetPotato.GangMgr,AddMenPaiShengWang,19,获得,[System.Int32]"
   splits:
   - split: 3
