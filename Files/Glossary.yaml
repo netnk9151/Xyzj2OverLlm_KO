@@ -1,4 +1,47 @@
-﻿# Terms
+﻿
+# Terms
+- raw: 玄阶
+  result: Mystic Tier
+  badtrans: true
+  direct: mysterious tier
+  literal: xuan jie
+- raw: 黄阶
+  result: Yellow Tier
+  badtrans: true
+  direct: yellow tier
+  literal: huang jie
+- raw: 地阶
+  result: Earth Tier
+  badtrans: true
+  direct: earth tier
+  literal: di jie
+- raw: 天阶
+  result: Heaven Tier
+  badtrans: true
+  direct: heaven tier
+  literal: tian jie
+- raw: 凡阶
+  result: Mortal Tier
+  badtrans: true
+  direct: mortal tier
+  literal: fan jie
+- raw: 气势
+  result: Momentum
+  badtrans: false
+  direct: Qi force
+  literal: Qishi
+- raw: 化境
+  result: Transcendant
+  allowalt: 
+    - Transcendence
+  badtrans: true
+  direct: transform realm
+  literal: hua jing
+- raw: 护卫  
+  result: Guard  
+  badtrans: false  
+  direct: protect defend  
+  literal: hu wei
 - raw: 心魔  
   result: Inner Demon  
   badtrans: true  
@@ -1492,8 +1535,6 @@
   direct: Sect Liking  
   literal: Zong men hao gan  
 
-
-
 # Weapons
 - raw: 刀
   result: Blade
@@ -1522,6 +1563,8 @@
   badtrans: true
 - raw: 枪
   result: Spear
+  allowalt: 
+    - Sharp
   badtrans: true
 - raw: 枪棍
   result: Spear & Staff
@@ -1583,6 +1626,8 @@
   badtrans: false  
 - raw: 修养
   result: Cultivation
+  allowalt: 
+    - Cultivate
   badtrans: true  
 - raw: 元气  
   result: Vitality  
@@ -1731,12 +1776,11 @@
 - raw: 阿弥陀佛
   result: Amituofo
   badtrans: true
-- raw: 承让了
-  result: I respectfully concede
-  allowalt: 
-    - respectfully concede
-    - graciously concede
-  badtrans: true
+- raw: 承让了  
+  result: Thank you for letting me win  
+  badtrans: true  
+  direct: accept yielding  
+  literal: cheng rang le
 - raw: 柔茹刚吐
   result: Softness devours hardness and spits it out.
   badtrans: true
@@ -1978,7 +2022,74 @@
   direct: Lingjun  
   literal: Lingjun  
 
+# Item Types
+- raw: 秘籍
+  result: Secret Manual
+  badtrans: true
+  direct: secret book
+  literal: mi ji
+- raw: 化境卷
+  result: "Transcendence Scroll"
+  badtrans: true
+  direct: transform realm scroll
+  literal: hua jing juan
+- raw: 淮临珠
+  result: Huailin Pearl
+  badtrans: true
+  direct: Huai approach pearl
+  literal: huai lin zhu
+- raw: 经脉图
+  result: Meridian Map
+  badtrans: true
+  direct: meridian map
+  literal: jing mai tu
+- raw: 天工图
+  result: Divine Craft Map
+  badtrans: true
+  direct: heavenly craftsmanship diagram
+  literal: tian gong tu
+- raw: 天工图谱  
+  result: Divine Craft Map  
+  badtrans: true  
+  direct: Heavenly Work Blueprint  
+  literal: Tiangong Tupu  
+- raw: 造诣书
+  result: Book of Accomplishment
+  badtrans: true
+  direct: attainment book
+  literal: zao yi shu
+- raw: 技能卷
+  result: Skill Scroll
+  badtrans: true
+  direct: skill scroll
+  literal: ji neng juan
+
 # Items and Minerals
+- raw: 无瞿
+  result: Clarity
+  badtrans: false  
+  direct: no distraction
+  literal: wu qu
+- raw: 粗铁剑
+  result: Rough Iron Sword
+  badtrans: true
+  direct: rough iron sword
+  literal: cu tie jian
+- raw: 云海珠
+  result: Cloud Sea Pearl
+  badtrans: true
+  direct: cloud sea pearl
+  literal: yun hai zhu
+- raw: 天麻  
+  result: Heavenly Hemp  
+  badtrans: true  
+  direct: heaven hemp  
+  literal: tian ma
+- raw: 千叶露  
+  result: Thousand-Petal Dew  
+  badtrans: true  
+  direct: thousand leaf dew  
+  literal: qianye lu
 - raw: 百变链刃
   result: Shifting Chain Blade
   badtrans: true
@@ -2245,6 +2356,8 @@
   badtrans: true
 - raw: 金不换
   result: Priceless Gold
+  allowalt: 
+    - Gold
   badtrans: true
 - raw: 生姜
   result: Raw Ginger
@@ -2414,6 +2527,16 @@
   badtrans: false
 
 # Titles
+- raw: 宗主
+  result: Sect Leader
+  badtrans: true
+  direct: sect master
+  literal: zong zhu
+- raw: 将军  
+  result: General  
+  badtrans: true  
+  direct: general  
+  literal: jiangjun
 - raw: 长老
   result: Elder
   allowalt: 
@@ -2798,6 +2921,109 @@
   result: Outer City
   badtrans: true
 
+
+# Idioms
+- raw: 找死
+  result: courting death
+  allowalt:
+    - court death  
+    - seek death
+    - seeking death
+  badtrans: true
+  direct: Seeking death
+  literal: Zhǎo sǐ.
+- raw: 刀剑无眼
+  result: Blades and swords have no eyes
+  badtrans: true
+  direct: Blade sword has no eyes
+  literal: Dāo jiàn wú yǎn
+- raw: 破釜沉舟
+  result: Breaking the pots and sinking the boats
+  badtrans: true
+  direct: Breaking the pots and sinking the boats.
+  literal: Pò fǔ chén zhōu.
+- raw: 弱肉强食
+  result: The weak are prey to the strong
+  badtrans: true
+  direct: Weak meat, strong eat.
+  literal: Ruò ròu qiáng shí.
+- raw: 高手如云
+  result: Experts are as common as clouds
+  badtrans: true
+  direct: Masters like clouds.
+  literal: Gāo shǒu rú yún.
+- raw: 事半功倍
+  result: Half the effort for double the result  
+  badtrans: true
+  direct: Half work, double the achievement.
+  literal: Shì bàn gōng bèi.
+- raw: 事倍功半
+  result: Double the effort for half the result
+  badtrans: true
+  allowalt:
+    - Double the effort with half the result
+  direct: Double the work, half the achievement.
+  literal: Shì bèi gōng bàn.
+- raw: 调虎离山
+  result: Lure the tiger out of the mountain
+  badtrans: true
+  direct: Move the tiger away from the mountain.
+  literal: Tiáo hǔ lí shān.
+- raw: 冰清玉洁
+  result: Clear as ice and clean as jade
+  badtrans: true
+  direct: Ice-clear, jade-pure.
+  literal: Bīng qīng yù jié.
+- raw: 鲤鱼跳龙门
+  result: Carp leaps through the Dragon Gate
+  badtrans: true
+  direct: The carp jumps the Dragon Gate.
+  literal: Lǐ yú tiào lóng mén.
+- raw: 易如反掌
+  result: As easy as turning one's hand
+  badtrans: true
+  direct: Easy as turning the palm.
+  literal: Yì rú fǎn zhǎng.
+- raw: 剑拔弩张
+  result: swords drawn and bows bent
+  badtrans: false
+  allowalt: 
+    - swords were drawn and bows bent
+    - swords are drawn and bows bent
+  direct: Sword drawn, crossbow set.
+  literal: Jiàn bá nǔ zhāng.
+- raw: 井底之蛙
+  result: Frog at the bottom of the well
+  badtrans: true
+  direct: Frog at the bottom of the well.
+  literal: Jǐng dǐ zhī wā.
+- raw: 坐井观天
+  result: View the sky from the bottom of a well
+  allowalt:
+    - Viewing the sky from the bottom of a well
+  badtrans: true
+  direct: Sitting in the well, watching the sky.
+  literal: Zuò jǐng guān tiān.
+- raw: 以毒攻毒
+  result: Fight poison with poison
+  badtrans: true
+  direct: Use poison to attack poison.
+  literal: Yǐ dú gōng dú.
+- raw: 不共戴天
+  result: Cannot live under the same sky 
+  badtrans: true
+  direct: Cannot share the same sky.
+  literal: Bù gòng dài tiān.
+- raw: 金盆洗手
+  result: Wash one's hands in a Golden Basin
+  badtrans: false
+  direct: Wash hands in a golden basin.
+  literal: Jīn pén xǐ shǒu.
+
+
+
+
+
 # Family
 - raw: 言家
   result: Yan Family
@@ -2805,18 +3031,6 @@
 - raw: 高家
   result: Gao Family
   badtrans: true
-
-# Kings
-- raw: 景王  
-  result: King Jing  
-  badtrans: true  
-  direct: Scenic King  
-  literal: Jing Wang  
-- raw: 晏王
-  result: King Yan
-  badtrans: true
-  direct: Yan King
-  literal: Yan Wang
 
 # Character names with non breaking spaces
 - raw: 沈雁弓
@@ -2854,7 +3068,7 @@
   literal: Cì méi
 - raw: 残烛
   result: Can Zhu
-  badtrans: true
+  badtrans: false
   direct: Broken Candle
   literal: Cán zhú
 - raw: 李管家
@@ -2922,7 +3136,178 @@
   direct: Wang Manager  
   literal: Wang Zhanggui  
 
+# Prefix
+- raw: "{P}师兄"
+  result: Senior Brother {P}
+  badtrans: true
+- raw: "{P}宗主"
+  result: Sect Leader {P}
+  badtrans: true
+- raw: "{P}将军"
+  result: "General {P}"
+  badtrans: true
+  direct: "{P} general"
+  literal: "{P} jiang jun"
+
 # Names
+- raw: 李公子
+  result: Young Lord Li
+  badtrans: true
+  direct: Li young master
+  literal: li gong zi
+- raw: 王大哥
+  result: Senior Brother Wang
+  badtrans: true
+  direct: Wang big brother
+  literal: wang da ge
+- raw: 徐兄
+  result: Brother Xu
+  badtrans: true
+  direct: Xu brother
+  literal: xu xiong
+- raw: 云宗主
+  result: Sect Leader Yun
+  badtrans: true
+  direct: Yun sect master
+  literal: yun zong zhu
+- raw: 谢季宗主
+  result: Sect Leader Xie Ji
+  badtrans: true
+  direct: Xie Ji sect master
+  literal: xie ji zong zhu
+- raw: 季宗主
+  result: Sect Leader Ji
+  allowalt:
+    - Sect Leader Xie Ji
+  badtrans: true
+  direct: Ji sect master
+  literal: ji zong zhu
+- raw: 许宗主
+  result: Sect Leader Xu
+  badtrans: true
+  direct: Xu sect master
+  literal: xu zong zhu
+- raw: 宁散人
+  result: Ning the Hermit
+  badtrans: true
+  direct: peaceful wanderer
+  literal: ning san ren
+- raw: 王害疯
+  result: Wang Haifeng
+  badtrans: true
+  direct: king harm madness
+  literal: wang hai feng
+- raw: 郎山屿
+  result: Lang Shanyu
+  badtrans: true
+  direct: gentleman mountain islet
+  literal: lang shan yu
+- raw: 深略
+  result: Shen Lue
+  badtrans: true
+  direct: deep strategy
+  literal: shen lüe
+- raw: 相瑞
+  result: Xiang Rui
+  badtrans: true
+  direct: omen auspicious
+  literal: xiang rui
+- raw: 徐和昌
+  result: Xu Hechang
+  badtrans: true
+  direct: Slowly-harmony-flourishing
+  literal: Xú Héchāng
+- raw: 斛律巍
+  result: Hulu Wei
+  badtrans: true
+  direct: Measure-law towering
+  literal: Húlǜ Wēi
+- raw: 阿史那宗坦
+  result: Ashina Zongtan
+  badtrans: true
+  direct: A-history-that sect-calm
+  literal: Āshǐnà Zōngtǎn
+- raw: 独孤焱
+  result: Dugu Yan
+  badtrans: true
+  direct: Lone-orphan flame
+  literal: Dúgū Yàn
+- raw: 贺兰震
+  result: Helan Zhen
+  badtrans: true
+  direct: Congratulate-orchid quake
+  literal: Hèlán Zhèn
+- raw: 宇文征
+  result: Yuwen Zheng
+  badtrans: true
+  direct: Universe-text expedition
+  literal: Yǔwén Zhēng
+- raw: 慕容澜
+  result: Murong Lan
+  badtrans: true
+  direct: Admire-rong ripples
+  literal: Mùróng Lán
+- raw: 上官鸿
+  result: Shangguan Hong
+  badtrans: true
+  direct: Shangguan Hong
+  literal: Shangguan Hong
+- raw: 徐善忠  
+  result: Xu Shanzhong  
+  badtrans: true  
+  direct: Xu virtuous loyal  
+  literal: Xu Shanzhong
+- raw: 春竹  
+  result: Chun Zhu 
+  badtrans: true  
+  direct: spring bamboo  
+  literal: chun zhu
+- raw: 凌将军  
+  result: General Ling  
+  badtrans: true  
+  direct: Ling General  
+  literal: Ling jiangjun
+- raw: 妙坊主  
+  result: Hall Master Miao
+  badtrans: true  
+  direct: wondrous hall master  
+  literal: miao fang zhu
+- raw: 妙玉音  
+  result: Miao Yuyin
+  badtrans: true  
+  direct: wondrous jade sound  
+  literal: miaoyu yin
+- raw: 华昊
+  result: Hua Hao
+  badtrans: true
+  direct: Hua Hao
+  literal: Hua Hao
+- raw: 云烟
+  result: Yun Yan
+  badtrans: true
+  only:
+    - npc_prototype.txt
+  literal: Yunyan
+- raw: 云老板
+  result: Boss Yun
+  badtrans: true
+  direct: Yun - boss
+  literal: yun lao ban
+- raw: 颖儿
+  result: Ying'er
+  badtrans: true
+  direct: clever - child
+  literal: ying er
+- raw: 玉儿
+  result: Yu'er
+  badtrans: true
+  direct: jade - child
+  literal: yu er
+- raw: 息云
+  result: Xi Yun
+  badtrans: true
+  direct: rest - cloud
+  literal: xi yun
 - raw: 白姑娘  
   result: Miss Bai  
   badtrans: true  
@@ -4293,8 +4678,6 @@
   literal: Xiao Hong  
 - raw: 诡手  
   result: Gui Shou  
-  allowalt: 
-    - Cunning hands
   badtrans: true  
   direct: Devious Hand  
   literal: Guishou  
@@ -5030,6 +5413,36 @@
   literal: Li San wen  
 
 # Factions & Places
+- raw: 绝念门
+  result: Severed Thoughts Sect
+  badtrans: true
+  direct: sever thoughts sect
+  literal: jue nian men
+- raw: 醉音坊  
+  result: Drunken Sound Hall  
+  badtrans: true  
+  direct: drunken sound hall  
+  literal: zuiyin fang
+- raw: 天霜堂  
+  result: Heavenly Frost Hall
+  badtrans: true  
+  direct: heaven frost hall  
+  literal: tianshuang tang
+- raw: 昭月门
+  result: Bright Moon Sect
+  badtrans: true
+  direct: Zhao Moon Sect
+  literal: Zhao Yue Men
+- raw: 潇湘山庄
+  result: Xiaoxiang Mountain Villa
+  badtrans: true
+  direct: xiaoxiang - mountain - manor
+  literal: xiao xiang shan zhuang
+- raw: 沙匪
+  result: Sand Bandit
+  badtrans: true
+  direct: sand - bandits
+  literal: sha fei
 - raw: 沙鼠  
   result: Sand Rat 
   badtrans: true  
@@ -5765,7 +6178,7 @@
   direct: Faithful Mausoleum Sect  
   literal: Xin ling zong  
 - raw: 凌云门  
-  result: Lingyun Sect  
+  result:  Soaring Clouds Sect  
   badtrans: true  
   direct: Soaring Cloud Sect  
   literal: Ling yun men  
@@ -5811,7 +6224,73 @@
   literal: Bai xiao men  
 
 
+# Kings
+# - raw: 皇
+#   result: Emperor
+#   allowalt: 
+#     - Huang # Name
+#   badtrans: true
+#   direct: Sovereign
+#   literal: Huang
+# - raw: 王
+#   result: King
+#   allowalt: 
+#     - Wang # Name
+#   badtrans: true  
+- raw: 王爷
+  result: Prince
+  badtrans: true
+  literal: Wang Ye
+- raw: 灶王爷
+  result: Prince Zao
+  badtrans: true
+  direct: Lord of the Kitchen
+  literal: Zao Wang Ye
+- raw: 璟王
+  result: King Jing
+  badtrans: true
+  direct: bright king
+  literal: jing wang
+- raw: 景王  
+  result: King Jing  # Might actually be his name as in Jing Wang
+  badtrans: true  
+  direct: Scenic King  
+  literal: Jing Wang  
+- raw: 晏王
+  result: King of Yan
+  badtrans: true
+  direct: Yan King
+  literal: Yan Wang
+- raw: 楚王  
+  result: King of Chu  
+  allowalt:
+    - Kings of Chu
+  badtrans: true  
+  direct: Chu King  
+  literal: Chu Wang  
+- raw: 齐王
+  result: King of Qi
+  badtrans: true
+  direct: Qi King
+  literal: Qi Wang
+- raw: 周王
+  result: King of Zhou
+  badtrans: true
+  direct: Zhou King
+  literal: Zhou Wang
+- raw: 卫王
+  result: Prince of Wei # Referenced as a prince
+  badtrans: true
+  direct: Wei King
+  literal: Wei Wang
+
+
 # Kingdoms
+- raw: 卫国
+  result: Wei Kingdom
+  badtrans: false # Can also be home land
+  direct: Wei Country
+  literal: Wei Guo
 - raw: 燕国
   result: Yan Kingdom
   badtrans: true
@@ -6223,7 +6702,7 @@
   result: Hidden Blade Technique
   transliteration: Cáng dāo shì  
 - raw: 奇经八脉谱  
-  result: Eight Extraordinary Meridians Chart  
+  result: Eight Meridians Chart  
   badtrans: true  
   direct: Qi Jing Ba Mai Pu  
   literal: Qi Jing Ba Mai Pu  
@@ -6269,11 +6748,6 @@
   badtrans: true  
   direct: Study and Learning  
   literal: Zhi Xue  
-- raw: 天工图谱  
-  result: Celestial Crafting Manual  
-  badtrans: true  
-  direct: Heavenly Work Blueprint  
-  literal: Tiangong Tupu  
 - raw: 参严论  
   result: Treatise on Rigorous Inquiry  
   badtrans: true  
@@ -6922,3 +7396,33 @@
   badtrans: true
   direct: Shao Ze
   literal: Shao Ze
+- raw: 长虹贯日
+  result: Long Rainbow Piercing the Sun
+  badtrans: true
+  direct: long rainbow passing through the sun
+  literal: chang hong guan ri
+- raw: 三环夺月
+  result: Three Rings Seize the Moon
+  badtrans: true
+  direct: three rings snatching the moon
+  literal: san huan duo yue
+- raw: 金铁鸣寒
+  result: Cold Sound of Gold and Iron
+  badtrans: true
+  direct: gold iron ringing cold
+  literal: jin tie ming han
+- raw: 惊鸿一瞬
+  result: Momentary Glimpse of a Surprised Swan
+  badtrans: true
+  direct: startled swan one moment
+  literal: jing hong yi shun
+- raw: 剑玄
+  result: Profound Sword
+  badtrans: true
+  direct: sword profound
+  literal: jian xuan
+- raw: 道意
+  result: Tao Intent
+  badtrans: true
+  direct: Dao meaning
+  literal: dao yi

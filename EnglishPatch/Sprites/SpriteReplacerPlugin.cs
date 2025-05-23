@@ -18,7 +18,7 @@ namespace EnglishPatch.Sprites
         private Dictionary<string, byte[]> _cachedReplacements = [];
         private List<string> _cachedSpriteNames = [];
         private string _spritesPath;
-        public static bool Enabled = true;
+        public static bool Enabled = false;
 
         private void Awake()
         {
@@ -123,8 +123,8 @@ namespace EnglishPatch.Sprites
             string type = context.Parameters?.Type.ToString();
             string loadType = context.Parameters?.LoadType.ToString();
 
-            if (_cachedSpriteNames.Contains(parentAssetName))
-                Logger.LogError($"Loaded Matched Asset with no replacer: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
+            //if (_cachedSpriteNames.Contains(parentAssetName))
+            //    Logger.LogError($"Loaded Matched Asset with no replacer: {parentAssetName} Path: {assetPath} Type: {type} LoadType: {loadType}");
 
             if (context.Asset is GameObject prefab)
             {

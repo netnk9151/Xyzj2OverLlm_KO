@@ -40,6 +40,10 @@ public class StringTranspiler
 
     public static IEnumerable<CodeInstruction> ReplaceWithTranspiler(IEnumerable<CodeInstruction> instructions)
     {
+        // Map fix remove when fixed in game
+        var ifCount = 0;
+        bool isMapFix = ContractsToApply[0].Type == "MapFuBenDetailPanel" && ContractsToApply[0].Method == "Refresh";
+
         var rawToTranslated = new Dictionary<string, string>();
 
         // Build translation dictionaries
@@ -79,6 +83,39 @@ public class StringTranspiler
                     textReplaced.Add(operandStr);
                 }
             }
+
+            // Map Fix - Remove when fixed in game
+            if (isMapFix)
+            {
+                // find if (npcPrototype != null)
+                if (codes[i].opcode == OpCodes.Ldloc_S
+                    && codes[i + 1].opcode == OpCodes.Brfalse)
+                {
+                    //PatchesPlugin.Logger.LogWarning($"Found if (param != null) at {i}: {codes[i].operand}");
+
+                    if (codes[i].operand.ToString() == "SweetPotato.NpcPrototype (6)")
+                    {
+                        //PatchesPlugin.Logger.LogWarning($"Found if (npcPrototype != null) at {i}");
+                        ifCount++;
+
+                        if (ifCount == 2)
+                        {
+                            var newInstruction = new CodeInstruction(OpCodes.Ldloc_S, 7); // Load npcPrototype2 (index 7)
+                            StringTranspiler.CopyLabelsAndBlocks(codes[i], newInstruction);
+                            codes[i] = newInstruction;
+                        }
+
+
+                        if (ifCount == 3)
+                        {
+                            var newInstruction = new CodeInstruction(OpCodes.Ldloc_S, 8); // Load npcPrototype3 (index 8)
+                            StringTranspiler.CopyLabelsAndBlocks(codes[i], newInstruction);
+                            codes[i] = newInstruction;
+                        }
+                    }
+                }
+            }
+
         }
 
         // Add logging to verify the final instructions
@@ -88,7 +125,7 @@ public class StringTranspiler
         return codes;
     }
 
-    private static void CopyLabelsAndBlocks(CodeInstruction rawInstruction, CodeInstruction newInstruction)
+    public static void CopyLabelsAndBlocks(CodeInstruction rawInstruction, CodeInstruction newInstruction)
     {
         // Copy labels from original instruction
         if (rawInstruction.labels != null && rawInstruction.labels.Count > 0)

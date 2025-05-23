@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System;
 using System.Globalization;
 using System.Numerics;
 using System.Text;
@@ -45,9 +46,14 @@ public static partial class LineValidation
         return raw;
     }
 
-    public static string PrepareResult(string llmResult)
+    public static string PrepareResult(string raw, string llmResult)
     {
         // Fix up anything we know the LLM has messed up but can autocorrect before validation
+
+        // Easy way to fix ...
+        if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
+            llmResult = $"{llmResult}..";
+
         return llmResult;
     }
 
@@ -260,11 +266,27 @@ public static partial class LineValidation
             }
         }
 
-        // Removed :
-        if (raw.Contains('·') && !result.Contains('·'))
+        // Removed characters
+        (string raw, string trans)[] checkForRemoval = { 
+            ("·", "·"), 
+            ("(", "("),
+            ("（", "("), 
+            (")", ")"),
+            ("）", ")"), 
+            //("...", "..."), //Problematic still
+            //("…", "..."),
+            ("：", ":"),
+            ("：", ":"),
+            (":", ":"),
+        };
+
+        foreach (var check in checkForRemoval)
         {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "·");
+            if (raw.Contains(check.raw) && !result.Contains(check.trans))
+            {
+                response = false;
+                correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", check.raw);
+            }
         }
 
         if (raw.Contains("\\n") && !result.Contains("\\n"))

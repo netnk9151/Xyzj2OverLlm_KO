@@ -41,6 +41,7 @@ public static class TranslationService
             new() {Path = "condition_show_anim.txt", PackageOutput = true},
             new() {Path = "dumpedPrefabText.txt", TextFileType = TextFileType.PrefabText, AllowMissingColorTags = false},
             new() {Path = "dlcinfo.txt", PackageOutput = true },
+            new() {Path = "dlc_data.txt", PackageOutput = true },
             new() {Path = "dlc_prototype.txt", PackageOutput = true },
             new() {Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings, AllowMissingColorTags = false},
             new() {Path = "entrust_event_prototype.txt", PackageOutput = true},
@@ -999,7 +1000,7 @@ public static class TranslationService
             while (!validationResult.Valid && retryCount < (config.RetryCount ?? 1))
             {
                 var llmResult = await TranslateMessagesAsync(client, config, messages);
-                preparedResult = LineValidation.PrepareResult(llmResult);
+                preparedResult = LineValidation.PrepareResult(preparedRaw, llmResult);
                 validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, textFile);
                 validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, textFile, tokenReplacer);
 

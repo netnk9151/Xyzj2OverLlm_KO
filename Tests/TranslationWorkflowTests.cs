@@ -77,7 +77,7 @@ public class TranslationWorkflowTests
             await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
     }
 
-    [Fact(DisplayName = "6. PackageFinalTranslation")]
+    [Fact(DisplayName = "6. Package to Game Files")]
     public async Task PackageFinalTranslation()
     {
         await TranslationService.PackageFinalTranslationAsync(workingDirectory);
@@ -330,7 +330,7 @@ public class TranslationWorkflowTests
                     if (split.Translated != manual.Result)
                     {
                         logLines.Add($"Manually Translated {textFile.Path} \n{split.Text}\n{split.Translated}");
-                        split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(manual.Result), split.Text, textFile, new StringTokenReplacer());
+                        split.Translated = LineValidation.CleanupLineBeforeSaving(LineValidation.PrepareResult(preparedRaw, manual.Result), split.Text, textFile, new StringTokenReplacer());
                         split.ResetFlags();
                         return true;
                     }

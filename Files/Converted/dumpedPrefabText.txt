@@ -126,6 +126,30 @@
   splits:
   - text: "达成"
     translated: "Achieved"
+- raw: "初出茅庐"
+  splits:
+  - text: "初出茅庐"
+    translated: "Fresh out of the village schoolhouse"
+- raw: "总成就："
+  splits:
+  - text: "总成就："
+    translated: "Total Accomplishments:"
+- raw: "齐国"
+  splits:
+  - text: "齐国"
+    translated: "Qi Kingdom"
+- raw: "楚国"
+  splits:
+  - text: "楚国"
+    translated: "Chu Kingdom"
+- raw: "燕国"
+  splits:
+  - text: "燕国"
+    translated: "Yan Kingdom"
+- raw: "获得声望："
+  splits:
+  - text: "获得声望："
+    translated: "Gained reputation:"
 - raw: "由于目前AI为测试阶段，每人每天限制提问"
   splits:
   - text: "由于目前AI为测试阶段，每人每天限制提问"
@@ -486,6 +510,34 @@
   splits:
   - text: "斩仙"
     translated: "Slay the Immortal"
+- raw: "品质：人阶-超一流武学"
+  splits:
+  - text: "品质：人阶-超一流武学"
+    translated: "Quality: Social Rank ‑ Superior martial arts of the highest caliber"
+- raw: "等级："
+  splits:
+  - text: "等级："
+    translated: "Ranking:"
+- raw: "要求："
+  splits:
+  - text: "要求："
+    translated: "Requirement:"
+- raw: " 制作用途"
+  splits:
+  - text: " 制作用途"
+    translated: "Intended use."
+- raw: " 装备属性"
+  splits:
+  - text: " 装备属性"
+    translated: "Equipment attributes."
+- raw: "  词条属性"
+  splits:
+  - text: "  词条属性"
+    translated: "Term Attributes"
+- raw: "  获取途径"
+  splits:
+  - text: "  获取途径"
+    translated: "Acquisition method."
 - raw: "上阵"
   splits:
   - text: "上阵"
@@ -529,7 +581,7 @@
 - raw: "王大娘思考了一会便给你了答案..."
   splits:
   - text: "王大娘思考了一会便给你了答案..."
-    translated: "Aunt Wang thought for a moment and then gave you an answer."
+    translated: "Great Aunt Wang thought for a while before giving you an answer..."
 - raw: "自动存档中......"
   splits:
   - text: "自动存档中......"
@@ -1005,7 +1057,7 @@
 - raw: "获得秘籍："
   splits:
   - text: "获得秘籍："
-    translated: "Obtain the manual:"
+    translated: "Obtained the secret manual:"
 - raw: "《小坤啄米篇》"
   splits:
   - text: "《小坤啄米篇》"
@@ -1142,6 +1194,10 @@
   splits:
   - text: "品级筛选"
     translated: "Rank filtering"
+- raw: "你想打听什么"
+  splits:
+  - text: "你想打听什么"
+    translated: "What would you like to know?"
 - raw: "2023年2月7日 09:33:54"
   splits:
   - text: "2023年2月7日 09:33:54"
@@ -1214,6 +1270,46 @@
   splits:
   - text: "此物可用于打造无心"
     translated: "This item can be used to forge a Heartless Sword."
+- raw: "萊乾坊"
+  splits:
+  - text: "萊乾坊"
+    translated: "Lai Qianfang"
+- raw: "点击想投注的区域进行投注，等待开盘"
+  splits:
+  - text: "点击想投注的区域进行投注，等待开盘"
+    translated: "Click on the area where you want to place your bet and wait for it to open."
+- raw: "1500万"
+  splits:
+  - text: "1500万"
+    translated: "1500 10K"
+- raw: "一中五"
+  splits:
+  - text: "一中五"
+    translated: "The Middle Five of Zhong Shan Academy"
+- raw: "开盘！"
+  splits:
+  - text: "开盘！"
+    translated: "Open the bidding!"
+- raw: "买定离手"
+  splits:
+  - text: "买定离手"
+    translated: "To have it all sewn up before making a move."
+- raw: "区域："
+  splits:
+  - text: "区域："
+    translated: "Region:"
+- raw: "二十三点"
+  splits:
+  - text: "二十三点"
+    translated: "11:23 PM"
+- raw: "下注数："
+  splits:
+  - text: "下注数："
+    translated: "Number of Bets:"
+- raw: "1521万"
+  splits:
+  - text: "1521万"
+    translated: "1521 10K"
 - raw: "江湖霸业。开宗立派"
   splits:
   - text: "江湖霸业。开宗立派"
@@ -1278,10 +1374,6 @@
   splits:
   - text: "秘术"
     translated: "Secret Technique"
-- raw: "每次每次每次每次每次每次每次每次每次每次每次每次每次每次每次"
-  splits:
-  - text: "每次每次每次每次每次每次每次每次每次每次每次每次每次每次每次"
-    translated: "Every time, every time, every time, every time, every time, every time, every time, every time, every time, every time, every time."
 - raw: "秘法"
   splits:
   - text: "秘法"
@@ -1290,54 +1382,14 @@
   splits:
   - text: "徒手"
     translated: "Unarmed"
-- raw: "基础材料：<color=#727272>打造装备必须满足的材料</color>"
-  splits:
-  - text: "基础材料：<color=#727272>打造装备必须满足的材料</color>"
-    translated: "Basic materials: <color=#727272>The materials required to forge equipment must meet certain specifications.</color>"
-- raw: "秘术："
-  splits:
-  - text: "秘术："
-    translated: "Secret technique:"
-- raw: "秘法："
-  splits:
-  - text: "秘法："
-    translated: "Mysterious technique:"
-- raw: "消耗"
-  splits:
-  - text: "消耗"
-    translated: "Expenditure"
-- raw: "未使用"
-  splits:
-  - text: "未使用"
-    translated: "Not used"
-- raw: "秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法"
-  splits:
-  - text: "秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法秘法"
-    translated: "Secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique, secret technique."
-- raw: "秘法秘法秘法秘法"
-  splits:
-  - text: "秘法秘法秘法秘法"
-    translated: "Mysterious method, mysterious method, mysterious method, mysterious method."
 - raw: "特殊材料：<color=#727272>使用秘法需要的材料</color>"
   splits:
   - text: "特殊材料：<color=#727272>使用秘法需要的材料</color>"
     translated: "Special materials: <color=#727272>Mystical technique materials required</color>"
-- raw: "当前坚韧：233）"
-  splits:
-  - text: "当前坚韧：233）"
-    translated: "Current toughness: 233)"
 - raw: "委  托"
   splits:
   - text: "委  托"
     translated: "Commission"
-- raw: "当前打造成功率"
-  splits:
-  - text: "当前打造成功率"
-    translated: "Current forging success rate"
-- raw: "基础材料："
-  splits:
-  - text: "基础材料："
-    translated: "Basic materials:"
 - raw: "产出品质概率"
   splits:
   - text: "产出品质概率"
@@ -1370,14 +1422,6 @@
   splits:
   - text: "耗时：     三时辰"
     translated: "Time‑consuming: Three hours."
-- raw: "取 消"
-  splits:
-  - text: "取 消"
-    translated: "Cancel."
-- raw: "(当前坚韧值：300)"
-  splits:
-  - text: "(当前坚韧值：300)"
-    translated: "(Current toughness value: 300)"
 - raw: "锻 造"
   splits:
   - text: "锻 造"
@@ -1386,10 +1430,6 @@
   splits:
   - text: "打造成功率及品质：与材料的等级以及提供的坚韧值有关\\n坚韧值：基础材料计算100%坚韧值，辅助材料计算80%坚韧值"
     translated: "Forging Success Rate and Quality: Related to the rank of the material and the provided toughness value.\\nToughness value: Base material calculates 100% toughness value; auxiliary material calculates 80% toughness value."
-- raw: "（最大能承受的坚韧值：400）"
-  splits:
-  - text: "（最大能承受的坚韧值：400）"
-    translated: "(Maximum toughness value: 400)"
 - raw: "秘术：\\n徒手画帖"
   splits:
   - text: "秘术：\\n徒手画帖"
@@ -1461,7 +1501,7 @@
 - raw: "学会天工图谱的配方后，可以直接在“宝物”下面进行制作。旁边是其他首饰分类，学会对应的配方也可以尝试。如果对锻造流程不熟悉，可以去王铁那儿学习一番。"
   splits:
   - text: "学会天工图谱的配方后，可以直接在“宝物”下面进行制作。旁边是其他首饰分类，学会对应的配方也可以尝试。如果对锻造流程不熟悉，可以去王铁那儿学习一番。"
-    translated: "After learning the formula from the Celestial Crafting Manual, you can directly create items under Treasures. Adjacent are other jewelry categories; upon mastering their formulas, you can attempt them as well. If you're unfamiliar with the forging process, consider visiting Wang Tie to learn more."
+    translated: "After mastering the Divine Craft Map formula, you can directly proceed with crafting under Treasures. Nearby are other jewelry classifications; once you master their corresponding formulas, feel free to try them out. If you're unfamiliar with the forging process, consider learning from Wang Tie for some guidance."
 - raw: "余婶"
   splits:
   - text: "余婶"
@@ -1470,6 +1510,46 @@
   splits:
   - text: "废话不多说，现在材料也足够，就直接开始制作吧。"
     translated: "No need to dwell on it; we have enough materials now, so let's start making it right away."
+- raw: "苌净"
+  splits:
+  - text: "苌净"
+    translated: "Zhang Jing"
+- raw: "未获得配方"
+  splits:
+  - text: "未获得配方"
+    translated: "Not obtained the formula"
+- raw: "基础材料"
+  splits:
+  - text: "基础材料"
+    translated: "Basic materials"
+- raw: "秘法材料"
+  splits:
+  - text: "秘法材料"
+    translated: "Secret formula materials"
+- raw: "添加秘术"
+  splits:
+  - text: "添加秘术"
+    translated: "Add secret techniques"
+- raw: "添加秘法"
+  splits:
+  - text: "添加秘法"
+    translated: "Add secret techniques"
+- raw: "精良"
+  splits:
+  - text: "精良"
+    translated: "Exquisite"
+- raw: "劣质"
+  splits:
+  - text: "劣质"
+    translated: "Low‑quality"
+- raw: "耗时：      三时辰"
+  splits:
+  - text: "耗时：      三时辰"
+    translated: "Time‑consuming: Three hours."
+- raw: "1.5万"
+  splits:
+  - text: "1.5万"
+    translated: "1.5 10K"
 - raw: "额头"
   splits:
   - text: "额头"
@@ -2186,11 +2266,11 @@
 - raw: "下有佛珠，佛像底下有秘籍，去杂货铺买香来拜佛有东西"
   splits:
   - text: "下有佛珠，佛像底下有秘籍，去杂货铺买香来拜佛有东西"
-    translated: "Beneath the Buddha statue, there are prayer beads and secret scriptures. Go to the general store to buy incense for offering prayers; you might find something."
+    translated: "Below are Buddha beads, and underneath the Buddha statue is a secret manual. Go to the general store to buy incense for worshiping Buddha, and you will receive something in return."
 - raw: "秘籍"
   splits:
   - text: "秘籍"
-    translated: "Tome of Secrets"
+    translated: "Secret Manual"
 - raw: "猪脚家后宝箱"
   splits:
   - text: "猪脚家后宝箱"
@@ -2575,6 +2655,22 @@
   splits:
   - text: "木石阵   x2"
     translated: "Stone Array x2"
+- raw: "上"
+  splits:
+  - text: "上"
+    translated: "Up"
+- raw: "下"
+  splits:
+  - text: "下"
+    translated: "Down"
+- raw: "左"
+  splits:
+  - text: "左"
+    translated: "Zuo"
+- raw: "右"
+  splits:
+  - text: "右"
+    translated: "Right"
 - raw: "光源：WASD控制上下左右移动。"
   splits:
   - text: "光源：WASD控制上下左右移动。"
@@ -2739,6 +2835,10 @@
   splits:
   - text: "修炼"
     translated: "Cultivation"
+- raw: "消耗"
+  splits:
+  - text: "消耗"
+    translated: "Expenditure"
 - raw: "材料"
   splits:
   - text: "材料"
@@ -3079,6 +3179,34 @@
   splits:
   - text: "倒计时：9"
     translated: "Countdown: 9"
+- raw: "此队伍"
+  splits:
+  - text: "此队伍"
+    translated: "This team"
+- raw: "积分"
+  splits:
+  - text: "积分"
+    translated: "Points"
+- raw: "我方队伍"
+  splits:
+  - text: "我方队伍"
+    translated: "Our team"
+- raw: "简介："
+  splits:
+  - text: "简介："
+    translated: "Introduction:"
+- raw: "队伍选择"
+  splits:
+  - text: "队伍选择"
+    translated: "Team selection"
+- raw: "随机队伍: <color=#6ba27b>可获得积分</color>"
+  splits:
+  - text: "随机队伍: <color=#6ba27b>可获得积分</color>"
+    translated: "Random Team Assignment: <color=#6ba27b>Earn points</color>"
+- raw: "/ 自选队伍：<color=#b46049>无积分</color>"
+  splits:
+  - text: "/ 自选队伍：<color=#b46049>无积分</color>"
+    translated: "Select your team: <color=#b46049>No points accumulated.</color>"
 - raw: "下阶段介绍"
   splits:
   - text: "下阶段介绍"
@@ -3131,6 +3259,66 @@
   splits:
   - text: "卸下"
     translated: "Take off"
+- raw: "生活"
+  splits:
+  - text: "生活"
+    translated: "Living"
+- raw: "学识"
+  splits:
+  - text: "学识"
+    translated: "Scholarship"
+- raw: "技艺"
+  splits:
+  - text: "技艺"
+    translated: "Skill"
+- raw: "特殊"
+  splits:
+  - text: "特殊"
+    translated: "Special"
+- raw: "包含"
+  splits:
+  - text: "包含"
+    translated: "Include"
+- raw: "厨师\\n矿石"
+  splits:
+  - text: "厨师\\n矿石"
+    translated: "Chef\\nOre"
+- raw: "江湖身份"
+  splits:
+  - text: "江湖身份"
+    translated: "Jianghu identity"
+- raw: "茶商"
+  splits:
+  - text: "茶商"
+    translated: "Tea Merchant"
+- raw: "良工"
+  splits:
+  - text: "良工"
+    translated: "Skilled craftsman"
+- raw: "巧手"
+  splits:
+  - text: "巧手"
+    translated: "Skilled Hands"
+- raw: "锻造"
+  splits:
+  - text: "锻造"
+    translated: "Forging"
+- raw: "技艺精进\\n入"
+  splits:
+  - text: "技艺精进\\n入"
+    translated: "Skills honed to perfection\\nEnter"
+- raw: "究竟。"
+  splits:
+  - text: "究竟。"
+    translated: "Intriguing indeed"
+- raw: "尚未获得身份信息"
+  splits:
+  - text: "尚未获得身份信息"
+    translated: "Identity information not yet obtained"
+- raw: "(请根据提示内容到指定地点解锁)"
+  splits:
+  - text: "(请根据提示内容到指定地点解锁)"
+    translated: "(Please go to the specified location as per the instructions to unlock.)"
 - raw: "按键设置"
   splits:
   - text: "按键设置"
@@ -3199,18 +3387,6 @@
   splits:
   - text: "战术"
     translated: "Tactics"
-- raw: "学识"
-  splits:
-  - text: "学识"
-    translated: "Scholarship"
-- raw: "生活"
-  splits:
-  - text: "生活"
-    translated: "Living"
-- raw: "技艺"
-  splits:
-  - text: "技艺"
-    translated: "Skill"
 - raw: "专注 55"
   splits:
   - text: "专注 55"
@@ -3463,6 +3639,22 @@
   splits:
   - text: "[初始武器]"
     translated: "[Initial Weapon]"
+- raw: "元气<color=#787a7c>(影响人物气血和闪避)"
+  splits:
+  - text: "元气<color=#787a7c>(影响人物气血和闪避)"
+    translated: "Vitality <color=#787a7c> (affects a character's lifeforce and dodge)"
+- raw: "根骨<color=#787a7c>(影响人物气血和闪避)"
+  splits:
+  - text: "根骨<color=#787a7c>(影响人物气血和闪避)"
+    translated: "Strength <color=#787a7c>(Affects Character Lifeforce and Dodge)"
+- raw: "体魄<color=#787a7c>(影响人物内防和外防)"
+  splits:
+  - text: "体魄<color=#787a7c>(影响人物内防和外防)"
+    translated: "Resilience <color=#787a7c>(affects a character's internal and external defense)"
+- raw: "身法<color=#787a7c>(影响人物命中和闪避)"
+  splits:
+  - text: "身法<color=#787a7c>(影响人物命中和闪避)"
+    translated: "Agility <color=#787a7c>(Affects character hit rate and dodge)"
 - raw: "可用点数："
   splits:
   - text: "可用点数："
@@ -3495,6 +3687,10 @@
   splits:
   - text: "江湖浪子"
     translated: "Jianghu drifter"
+- raw: "无名之辈"
+  splits:
+  - text: "无名之辈"
+    translated: "Nameless One"
 - raw: "名将之后，因意外流落到江湖中生活"
   splits:
   - text: "名将之后，因意外流落到江湖中生活"
@@ -3515,10 +3711,6 @@
   splits:
   - text: "随机"
     translated: "Randomly"
-- raw: "江湖身份"
-  splits:
-  - text: "江湖身份"
-    translated: "Jianghu identity"
 - raw: "<size=53>初</size>始武器"
   splits:
   - text: "<size=53>初</size>始武器"
@@ -3531,6 +3723,10 @@
   splits:
   - text: "消耗分配点数，选择天赋"
     translated: "Spend attribute points to choose a talent"
+- raw: "当使用阴属性招式，阴角色进入阴属性状态，此时角色获得阴属性战斗加成和一些特殊效果：发顺丰水电费水电费收费沙发上大大撒大声地撒大声地撒大萨达四大四大四大打扫打扫打扫打扫打扫大萨达"
+  splits:
+  - text: "当使用阴属性招式，阴角色进入阴属性状态，此时角色获得阴属性战斗加成和一些特殊效果：发顺丰水电费水电费收费沙发上大大撒大声地撒大声地撒大萨达四大四大四大打扫打扫打扫打扫打扫大萨达"
+    translated: "When using Yin attribute techniques, when a Yin character enters the Yin attribute state, the character gains Yin attribute combat bonuses and some special effects: Shipped via SF Express, utilities bill. Utilities bill charge on the sofa loudly scattered loudly scattered Loudly Scattered Sada Four Great Four Great Four Great Sweep sweep sweep sweep sweep sweep sweep Sada Da"
 - raw: "顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿"
   splits:
   - text: "顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿顿"
@@ -3759,10 +3955,34 @@
   splits:
   - text: "可以在此处进行验证，如全部答案都作答正确，则解密成功，如其中有误则失败，需调整答案后再重新进行验证。"
     translated: "You can perform a verification here; if all answers are correctly provided, the decryption will be successful. If there is any mistake, it will fail, and you need to adjust the answers before attempting the verification again."
+- raw: "解密任务"
+  splits:
+  - text: "解密任务"
+    translated: "Decryption mission"
+- raw: "开始推理"
+  splits:
+  - text: "开始推理"
+    translated: "Begin reasoning"
+- raw: "回顾推理"
+  splits:
+  - text: "回顾推理"
+    translated: "Reflect on the reasoning"
 - raw: "思考中......"
   splits:
   - text: "思考中......"
     translated: "Thinking..."
+- raw: "带毒的腰带"
+  splits:
+  - text: "带毒的腰带"
+    translated: "Poisoned belt"
+- raw: "解密盘"
+  splits:
+  - text: "解密盘"
+    translated: "Decoding disk"
+- raw: "解密盘知晓世间万物，选择<color=#ecc872>两个一组</color>的证词或线索进行验证，若推论正确，则会触发结果"
+  splits:
+  - text: "解密盘知晓世间万物，选择<color=#ecc872>两个一组</color>的证词或线索进行验证，若推论正确，则会触发结果"
+    translated: "The decryption disk knows the secrets of all things. Choose <color=#ecc872>two at a time</color> from testimonies or clues for verification. If your inference is correct, it will trigger a result."
 - raw: "退出思考"
   splits:
   - text: "退出思考"
@@ -3835,6 +4055,22 @@
   splits:
   - text: "啊啊啊"
     translated: "Ah ah ah"
+- raw: "捭阖谷"
+  splits:
+  - text: "捭阖谷"
+    translated: "Baihe Valley"
+- raw: "选择你想除掉的人"
+  splits:
+  - text: "选择你想除掉的人"
+    translated: "Choose the person you want to eliminate"
+- raw: "选择你想要的宝物"
+  splits:
+  - text: "选择你想要的宝物"
+    translated: "Choose your desired treasure"
+- raw: "容我再想想"
+  splits:
+  - text: "容我再想想"
+    translated: "Let me think about it a little more."
 - raw: "阿呆"
   splits:
   - text: "阿呆"
@@ -3863,6 +4099,46 @@
   splits:
   - text: "铜钱"
     translated: "Money"
+- raw: "选择杀手级别"
+  splits:
+  - text: "选择杀手级别"
+    translated: "Choose Assassin Level"
+- raw: "天字级杀手"
+  splits:
+  - text: "天字级杀手"
+    translated: "Tian Zi‑level assassin"
+- raw: "地字级杀手"
+  splits:
+  - text: "地字级杀手"
+    translated: "Assassin of county‑level stature"
+- raw: "人字级杀手"
+  splits:
+  - text: "人字级杀手"
+    translated: "Rank‑A Killers"
+- raw: "杀手级别"
+  splits:
+  - text: "杀手级别"
+    translated: "Assassin Level"
+- raw: "选择想要派出的人"
+  splits:
+  - text: "选择想要派出的人"
+    translated: "Choose the person you want to send out."
+- raw: "选择暗杀对象"
+  splits:
+  - text: "选择暗杀对象"
+    translated: "Choose assassination targets"
+- raw: "仇人名单"
+  splits:
+  - text: "仇人名单"
+    translated: "List of Enemies"
+- raw: "秦月"
+  splits:
+  - text: "秦月"
+    translated: "Qin Yue"
+- raw: "捭阖"
+  splits:
+  - text: "捭阖"
+    translated: "Baihe"
 - raw: "流派"
   splits:
   - text: "流派"
@@ -3939,18 +4215,6 @@
   splits:
   - text: "萍水相逢"
     translated: "Chance encounters between strangers"
-- raw: "齐国"
-  splits:
-  - text: "齐国"
-    translated: "Qi Kingdom"
-- raw: "楚国"
-  splits:
-  - text: "楚国"
-    translated: "Chu Kingdom"
-- raw: "燕国"
-  splits:
-  - text: "燕国"
-    translated: "Yan Kingdom"
 - raw: "关外"
   splits:
   - text: "关外"
@@ -4010,7 +4274,7 @@
 - raw: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
   splits:
   - text: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
-    translated: "Journals associated with sword, blade, long weapon, and combat techniques are only displayed in their corresponding sections. Common journals appear across all technique categories. When assembling skills, you need to drag the skill into the blank box on the right. Similarly, skills from sword, blade, long weapon, or combat journals can only be assembled into the blank skill frame of their respective techniques, while common journal skills can be assembled into any technique's blank skill frame."
+    translated: "Secret manuals associated with sword, knife, long weapon, or combat techniques will only be displayed in their respective technique catalogues. Universal secrets, however, will appear in the catalogues of all techniques. During skill assembly, you need to drag the relevant skill into the empty box on the right. Similarly, skills from secret manuals related to sword, knife, long weapons, and combat can only be assembled into the corresponding technique's empty skill frame. Skills from universal secrets can be assembled into any technique's empty skill frame."
 - raw: "一元归元剑"
   splits:
   - text: "一元归元剑"
@@ -4022,7 +4286,7 @@
 - raw: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
   splits:
   - text: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
-    translated: "Selecting a martial arts manual allows you to view the techniques, forms, and secret skills recorded within it."
+    translated: "Selecting a martial arts secret manual allows you to view the techniques, forms, and ultimate skills recorded in it."
 - raw: "选中武学中招式、功体、绝技可查看其中的详细信息"
   splits:
   - text: "选中武学中招式、功体、绝技可查看其中的详细信息"
@@ -4030,19 +4294,19 @@
 - raw: "这里包含了武学秘籍中招式的基础信息"
   splits:
   - text: "这里包含了武学秘籍中招式的基础信息"
-    translated: "This includes the basic information about techniques from the martial arts manual."
+    translated: "This includes basic information on techniques from the secret manual of martial arts."
 - raw: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
   splits:
   - text: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
-    translated: "In the martial arts manual, the enhancement effect of a technique can be unlocked by cultivating insight into its spirit path and opening. Different meridians correspond to different enhancement effects, while some have no enhancement effect. Enhancement effects with a red border target enemies, whereas those with green or white borders target oneself."
+    translated: "In the martial arts secret manual, the enhancement effects of techniques can be unlocked by comprehending the spirit breakthroughs associated with different meridian points. Different meridian points correspond to various enhancement effects; some have no enhancement effect at all. The target of red‑bordered enhancement effects is enemies, while those with green and white borders are aimed at oneself."
 - raw: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
   splits:
   - text: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
-    translated: "In the martial arts secret manuals, each technique has four keyholes for spiritual resonance: Entry, Proficiency, Mastery, and Transcendence. Once the activation conditions are met, practitioners can unlock the corresponding enhancement effects and terms at these keyholes. Additionally, items such as weapons, elixirs, or scrolls can be added within these keyholes to generate extra terms."
+    translated: "In the martial arts secret manual, each technique has four key points for spirit cultivation: Entry, Proficiency, Mastery, and Transcendence. Once the activation conditions are met, one can comprehend and unlock enhancements corresponding to these key points. Additionally, items, elixirs, or scrolls can be added within these key points to generate extra terms."
 - raw: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
   splits:
   - text: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
-    translated: "Click and hold the left mouse button on the lower right corner of the manual to drag the mouse for page turning."
+    translated: "Click and hold the left mouse button on the lower right corner of the secret manual to drag the mouse for page turning."
 - raw: "或"
   splits:
   - text: "或"
@@ -4082,7 +4346,7 @@
 - raw: "人阶武学"
   splits:
   - text: "人阶武学"
-    translated: "Human Tier Martial Arts"
+    translated: "Mortal Tier Martial Arts"
 - raw: "地阶武学"
   splits:
   - text: "地阶武学"
@@ -4174,7 +4438,7 @@
 - raw: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
   splits:
   - text: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
-    translated: "Martial arts are divided into <color=#3ad67c>manuscripts and protective techniques</color>. Manuscripts refer to various traditional martial arts manuscripts, which contain multiple skills. Protective techniques are individual invincible defense techniques. Please click on the protective technique to operate the Ten Thousand Laws learned just now."
+    translated: "Martial arts are divided into <color=#3ad67c>secret manuals and body protection</color>. Secret manuals encompass various traditional martial arts secret manuals, each containing multiple skills. Body protection refers to a single invincible self‑defense technique. Please click on the body protection option to operate the Ten Thousand Laws you just learned."
 - raw: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
   splits:
   - text: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
@@ -4362,7 +4626,7 @@
 - raw: "        精通          化境"
   splits:
   - text: "        精通          化境"
-    translated: "Mastering Mystical Realms"
+    translated: "Master of Transcendence."
 - raw: "            靠近竹子然后双击      释放"
   splits:
   - text: "            靠近竹子然后双击      释放"
@@ -4618,11 +4882,11 @@
 - raw: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
   splits:
   - text: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
-    translated: "Please click the <color=#3ad67c>Martial Arts</color> tab above to view the <color=#3ad67c>manuscripts or secret scrolls</color> you have learned."
+    translated: "Please click the <color=#3ad67c>Wuxu</color> tab above to view learned <color=#3ad67c>secret manuals or secret scrolls</color>."
 - raw: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
   splits:
   - text: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
-    translated: "Once you have the Tian Gong Tu, you can select it from your inventory to use. The higher the rank of the Tian Gong Tu, the higher level of entries it can absorb."
+    translated: "Once you have the Divine Craft Map, you can select it from your backpack for use. The higher the rank of the Divine Craft Map, the higher the level of terms it can absorb."
 - raw: "点击萃取"
   splits:
   - text: "点击萃取"
@@ -4638,7 +4902,7 @@
 - raw: "选择萃取好了的天工图，进行词条覆写"
   splits:
   - text: "选择萃取好了的天工图，进行词条覆写"
-    translated: "Select the refined Tian Gong Tu diagrams and proceed to rewrite the entries."
+    translated: "Select the refined Divine Craft Map for rewriting the entries."
 - raw: "点击覆写"
   splits:
   - text: "点击覆写"
@@ -4970,7 +5234,7 @@
 - raw: "气冲"
   splits:
   - text: "气冲"
-    translated: "Raging through the air"
+    translated: "Qi Surge"
 - raw: "周天"
   splits:
   - text: "周天"
@@ -5062,7 +5326,7 @@
 - raw: "(未拥有)"
   splits:
   - text: "(未拥有)"
-    translated: "Not possessed"
+    translated: "(Unowned)"
 - raw: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
   splits:
   - text: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
@@ -5222,7 +5486,7 @@
 - raw: "熟练              <color=#e2b35e>化境"
   splits:
   - text: "熟练              <color=#e2b35e>化境"
-    translated: "Proficient: <color=#e2b35e>Stage of Transformation"
+    translated: "Proficient in <color=#e2b35e>Transcendence."
 - raw: "境界：第五层"
   splits:
   - text: "境界：第五层"
@@ -5375,6 +5639,10 @@
   splits:
   - text: "六月"
     translated: "June"
+- raw: "筛选经历"
+  splits:
+  - text: "筛选经历"
+    translated: "Screen past experiences"
 - raw: "类型:"
   splits:
   - text: "类型:"
@@ -5446,11 +5714,11 @@
 - raw: "地阶"
   splits:
   - text: "地阶"
-    translated: "Ground step"
+    translated: "Earth Tier"
 - raw: "天阶"
   splits:
   - text: "天阶"
-    translated: "Celestial Tier"
+    translated: "Heaven Tier"
 - raw: "激活条件"
   splits:
   - text: "激活条件"
@@ -5534,7 +5802,7 @@
 - raw: "冲击会阴穴可获得强化属性"
   splits:
   - text: "冲击会阴穴可获得强化属性"
-    translated: "Stimulating the Yin Point can yield enhanced attributes."
+    translated: "Stimulating the Meeting Yin Acupoint can enhance attributes."
 - raw: "外攻伤害"
   splits:
   - text: "外攻伤害"
@@ -5574,7 +5842,7 @@
 - raw: "激活:会阴(任脉)"
   splits:
   - text: "激活:会阴(任脉)"
-    translated: "Activate: Huiyin (Ren Mai)"
+    translated: "Activate: Ren Mai (Meeting Yin)"
 - raw: "熟练"
   splits:
   - text: "熟练"
@@ -5594,7 +5862,7 @@
 - raw: "(固有)"
   splits:
   - text: "(固有)"
-    translated: "Inherent"
+    translated: "(Inherent)"
 - raw: "添加材料"
   splits:
   - text: "添加材料"
@@ -5770,7 +6038,7 @@
 - raw: "正在为您准备人来人往的客栈、酒肆、渡口、驿站..."
   splits:
   - text: "正在为您准备人来人往的客栈、酒肆、渡口、驿站..."
-    translated: "We are preparing a bustling inn, taverns, ferry docks, and relay stations for you."
+    translated: "We are preparing for you a bustling inn, tavern, ferry dock, and relay station..."
 - raw: "杭城"
   splits:
   - text: "杭城"
@@ -6014,7 +6282,7 @@
 - raw: "将军门"
   splits:
   - text: "将军门"
-    translated: "Commander‑in‑Chief's Gate"
+    translated: "General's Gate"
 - raw: "江湖初识"
   splits:
   - text: "江湖初识"
@@ -6532,10 +6800,10 @@
   splits:
   - text: "李大刀"
     translated: "Brother Li the Great Blade"
-- raw: "最大boss"
+- raw: "最大boss发生"
   splits:
-  - text: "最大boss"
-    translated: "Big Boss"
+  - text: "最大boss发生"
+    translated: "Main boss has appeared"
 - raw: "开放视角"
   splits:
   - text: "开放视角"
@@ -6940,6 +7208,34 @@
   splits:
   - text: "按住拖拽以多选目标"
     translated: "Hold and drag to select multiple targets"
+- raw: "[旁山险路]"
+  splits:
+  - text: "[旁山险路]"
+    translated: "Perilous Paths in the Mountainside"
+- raw: "剩余时间："
+  splits:
+  - text: "剩余时间："
+    translated: "Remaining time:"
+- raw: "敌人："
+  splits:
+  - text: "敌人："
+    translated: "Enemy:"
+- raw: "独孤九剑"
+  splits:
+  - text: "独孤九剑"
+    translated: "Nine Swords of Dugu"
+- raw: "查看掉落物"
+  splits:
+  - text: "查看掉落物"
+    translated: "View Dropped Items"
+- raw: "可能掉落的物品"
+  splits:
+  - text: "可能掉落的物品"
+    translated: "Items that may drop"
+- raw: "材料材料 - 五阶"
+  splits:
+  - text: "材料材料 - 五阶"
+    translated: "Materials materials ‑ Tier 5"
 - raw: "删 除"
   splits:
   - text: "删 除"
@@ -6964,6 +7260,10 @@
   splits:
   - text: "品质耗材说明\\n越高品阶的材料，数量越多，提升对应产出品质概率越高"
     translated: "Product Material Specification\\nThe higher the quality of the material, the greater the quantity needed, and the higher the probability of enhancing the corresponding output's quality."
+- raw: "生铁剑"
+  splits:
+  - text: "生铁剑"
+    translated: "Sword made from pig iron"
 - raw: "持有太初剑宗令牌："
   splits:
   - text: "持有太初剑宗令牌："
@@ -7204,14 +7504,6 @@
   splits:
   - text: "当前人数：20"
     translated: "Current number of people: 20"
-- raw: "锻造"
-  splits:
-  - text: "锻造"
-    translated: "Forging"
-- raw: "巧手"
-  splits:
-  - text: "巧手"
-    translated: "Skilled Hands"
 - raw: "纺织"
   splits:
   - text: "纺织"
@@ -7616,6 +7908,34 @@
   splits:
   - text: "驱逐"
     translated: "Expel"
+- raw: "成员"
+  splits:
+  - text: "成员"
+    translated: "Members"
+- raw: "离派"
+  splits:
+  - text: "离派"
+    translated: "Li Faction"
+- raw: "隐藏资源"
+  splits:
+  - text: "隐藏资源"
+    translated: "Hidden resources"
+- raw: "任务执行"
+  splits:
+  - text: "任务执行"
+    translated: "Task execution"
+- raw: "天工"
+  splits:
+  - text: "天工"
+    translated: "Work of heaven"
+- raw: "建筑收益"
+  splits:
+  - text: "建筑收益"
+    translated: "Building earnings"
+- raw: "成员列表"
+  splits:
+  - text: "成员列表"
+    translated: "Member List"
 - raw: "华山派"
   splits:
   - text: "华山派"
@@ -7716,6 +8036,14 @@
   splits:
   - text: "亲爱的玩家，经检测当前可用的运行内存(值)不足以支撑游戏在峰值下运行。为让您能畅玩游戏，请关闭一些其他后台运行的程序。"
     translated: "Dear player, the current available memory (value) is insufficient to support running the game at peak performance. To allow you to enjoy the game smoothly, please close some other programs that are running in the background."
+- raw: "危"
+  splits:
+  - text: "危"
+    translated: "Dangerous"
+- raw: "前方凶险，请少侠做好万全准备"
+  splits:
+  - text: "前方凶险，请少侠做好万全准备"
+    translated: "Ahead lies danger; please prepare thoroughly, young hero."
 - raw: "消耗：   10000"
   splits:
   - text: "消耗：   10000"
@@ -7743,7 +8071,7 @@
 - raw: "(适合职业玩家，熟悉游戏的玩法和操作，同时对自身操作也十分自信)"
   splits:
   - text: "(适合职业玩家，熟悉游戏的玩法和操作，同时对自身操作也十分自信)"
-    translated: "Suitable for professional players who are familiar with the game mechanics and operations, as well as being very confident in their own skills."
+    translated: "(Suitable for professional players who are familiar with the game mechanics and operations, and who are also confident in their own gameplay.)"
 - raw: "敌人难度极强，修为感悟金钱获得极少，提升艰难。"
   splits:
   - text: "敌人难度极强，修为感悟金钱获得极少，提升艰难。"
@@ -7756,14 +8084,18 @@
   splits:
   - text: "通关后天赋值"
     translated: "Talent Points After Completion"
+- raw: "真实江湖"
+  splits:
+  - text: "真实江湖"
+    translated: "Authentic Jianghu"
 - raw: "(爽文江湖模式下各项属性数值成长"
   splits:
   - text: "(爽文江湖模式下各项属性数值成长"
     translated: "(In Light Jianghu Mode, various attribute values increase)"
-- raw: "选择游戏<color=#f0f0f0>模式</color>与<color=#f0f0f0>难度"
+- raw: "选择游戏<color=#f0f0f0>难度"
   splits:
-  - text: "选择游戏<color=#f0f0f0>模式</color>与<color=#f0f0f0>难度"
-    translated: "Choose game <color=#f0f0f0>mode</color> and <color=#f0f0f0>difficulty</color>"
+  - text: "选择游戏<color=#f0f0f0>难度"
+    translated: "Choose game <color=#f0f0f0>difficulty"
 - raw: "爽文江湖"
   splits:
   - text: "爽文江湖"
@@ -7772,30 +8104,30 @@
   splits:
   - text: "险恶江湖"
     translated: "Dangerous Jianghu"
-- raw: "真实江湖"
+- raw: "<color=#acacac>难度：</color>简单"
   splits:
-  - text: "真实江湖"
-    translated: "Authentic Jianghu"
-- raw: "简单"
+  - text: "<color=#acacac>难度：</color>简单"
+    translated: "<color=#acacac>Difficulty: Easy.  </color>"
+- raw: "已通关"
   splits:
-  - text: "简单"
-    translated: "Easy"
-- raw: "标准"
+  - text: "已通关"
+    translated: "Completed all levels"
+- raw: "<color=#acacac>难度：</color>标准"
   splits:
-  - text: "标准"
-    translated: "Normal"
-- raw: "困难"
+  - text: "<color=#acacac>难度：</color>标准"
+    translated: "<color=#acacac>Difficulty: Normal</color>"
+- raw: "<color=#acacac>难度：</color>困难"
   splits:
-  - text: "困难"
-    translated: "Hard"
-- raw: "极难"
+  - text: "<color=#acacac>难度：</color>困难"
+    translated: "<color=#acacac>Difficulty: Hard.  </color>"
+- raw: "<color=#acacac>难度：</color>极难"
   splits:
-  - text: "极难"
-    translated: "Extreme"
-- raw: "地狱"
+  - text: "<color=#acacac>难度：</color>极难"
+    translated: "<color=#acacac>Difficulty: Extreme</color>"
+- raw: "<color=#acacac>难度：</color>地狱"
   splits:
-  - text: "地狱"
-    translated: "Hell"
+  - text: "<color=#acacac>难度：</color>地狱"
+    translated: "<color=#acacac>Difficulty: Hell</color>"
 - raw: "江湖小卒<color=#4c7f5d>【简单】"
   splits:
   - text: "江湖小卒<color=#4c7f5d>【简单】"
@@ -7820,10 +8152,6 @@
   splits:
   - text: "通关奖励"
     translated: "Completion Reward"
-- raw: "已通关"
-  splits:
-  - text: "已通关"
-    translated: "Completed all levels"
 - raw: "天赋值"
   splits:
   - text: "天赋值"
@@ -8000,6 +8328,34 @@
   splits:
   - text: "风雪凌霜，万籁俱静，通过琴音的力量"
     translated: "Amidst wind, snow, and frost, all sounds are hushed as they pass through the power of the zither's music."
+- raw: "人物详情"
+  splits:
+  - text: "人物详情"
+    translated: "Character Details"
+- raw: "神药王"
+  splits:
+  - text: "神药王"
+    translated: "King of Divine Elixirs"
+- raw: "招式(主动)"
+  splits:
+  - text: "招式(主动)"
+    translated: "Move (Active)"
+- raw: "人物信息"
+  splits:
+  - text: "人物信息"
+    translated: "Character Information"
+- raw: "套路："
+  splits:
+  - text: "套路："
+    translated: "Technique:"
+- raw: "天赋："
+  splits:
+  - text: "天赋："
+    translated: "Innate talent:"
+- raw: "特质："
+  splits:
+  - text: "特质："
+    translated: "Attribute:"
 - raw: "关系信息"
   splits:
   - text: "关系信息"
@@ -8244,6 +8600,46 @@
   splits:
   - text: "回收"
     translated: "Recycling"
+- raw: "刷新"
+  splits:
+  - text: "刷新"
+    translated: "Refresh"
+- raw: "七星"
+  splits:
+  - text: "七星"
+    translated: "Seven Stars"
+- raw: "未达到解锁条件"
+  splits:
+  - text: "未达到解锁条件"
+    translated: "Condition not met for unlocking"
+- raw: "竞拍货架"
+  splits:
+  - text: "竞拍货架"
+    translated: "Auction shelves"
+- raw: "交易记录"
+  splits:
+  - text: "交易记录"
+    translated: "Transaction record"
+- raw: "竞拍出价"
+  splits:
+  - text: "竞拍出价"
+    translated: "Bid at auction"
+- raw: "当前竞拍成功率"
+  splits:
+  - text: "当前竞拍成功率"
+    translated: "Current successful bidding rate"
+- raw: "交易记录最多保留20条"
+  splits:
+  - text: "交易记录最多保留20条"
+    translated: "Transaction records are retained for a maximum of 20 entries."
+- raw: "鱼人泪"
+  splits:
+  - text: "鱼人泪"
+    translated: "Fishman's Tears"
+- raw: "花费"
+  splits:
+  - text: "花费"
+    translated: "Expenditure"
 - raw: "我们经常在口语中以「梦周公」来形容打盹小睡一下，请问这里指的周公是谁？"
   splits:
   - text: "我们经常在口语中以「梦周公」来形容打盹小睡一下，请问这里指的周公是谁？"
@@ -8448,10 +8844,6 @@
   splits:
   - text: "双修合欢币"
     translated: "Dual Cultivation Harmony Coins"
-- raw: "花费"
-  splits:
-  - text: "花费"
-    translated: "Expenditure"
 - raw: "角色1"
   splits:
   - text: "角色1"
@@ -8552,6 +8944,34 @@
   splits:
   - text: "重要事迹"
     translated: "Notable Achievements"
+- raw: "【悬】"
+  splits:
+  - text: "【悬】"
+    translated: "【Unfamiliar Faces】"
+- raw: "截止时间"
+  splits:
+  - text: "截止时间"
+    translated: "Deadline"
+- raw: "交接人"
+  splits:
+  - text: "交接人"
+    translated: "Handover person"
+- raw: "任务奖励"
+  splits:
+  - text: "任务奖励"
+    translated: "Task Reward"
+- raw: "回顾"
+  splits:
+  - text: "回顾"
+    translated: "Reflect on it"
+- raw: "悬红"
+  splits:
+  - text: "悬红"
+    translated: "Placing a bounty"
+- raw: "撤销"
+  splits:
+  - text: "撤销"
+    translated: "Revoke"
 - raw: "请选择想要的奖励！"
   splits:
   - text: "请选择想要的奖励！"
@@ -8592,6 +9012,38 @@
   splits:
   - text: "获得"
     translated: "Obtained"
+- raw: "【委】"
+  splits:
+  - text: "【委】"
+    translated: "【Delegate】"
+- raw: "截止时间：靖康三二六年十二月二十四日"
+  splits:
+  - text: "截止时间：靖康三二六年十二月二十四日"
+    translated: "Deadline: The twenty‑fourth day of December in the year 326 of the Jingkang era."
+- raw: "絮叨娘："
+  splits:
+  - text: "絮叨娘："
+    translated: "Chatterbox mother:"
+- raw: "最近江湖不太太平呢最近不太太平呢最近不太太平呢最近不"
+  splits:
+  - text: "最近江湖不太太平呢最近不太太平呢最近不太太平呢最近不"
+    translated: "Recently, the Jianghu hasn't been very peaceful recently, not very peaceful. Recently, it's not very peaceful. Recently, it's not..."
+- raw: "追踪任务"
+  splits:
+  - text: "追踪任务"
+    translated: "Tracking mission"
+- raw: "遇见大师"
+  splits:
+  - text: "遇见大师"
+    translated: "Encountering the Master"
+- raw: "行脚"
+  splits:
+  - text: "行脚"
+    translated: "Wandering monk"
+- raw: "任务类型："
+  splits:
+  - text: "任务类型："
+    translated: "Task Type:"
 - raw: "千山币"
   splits:
   - text: "千山币"
@@ -8620,6 +9072,14 @@
   splits:
   - text: "诋毁"
     translated: "Defame"
+- raw: "赠送数量"
+  splits:
+  - text: "赠送数量"
+    translated: "Quantity gifted"
+- raw: "获得情义值"
+  splits:
+  - text: "获得情义值"
+    translated: "Acquire Compassion Points"
 - raw: "泸州"
   splits:
   - text: "泸州"
@@ -8628,6 +9088,30 @@
   splits:
   - text: "花费：       100\\n消耗：       3"
     translated: "Expenditure: 100\\nExpenditure:        3"
+- raw: "抽中兔           或兔            可获得中奖签的奖励"
+  splits:
+  - text: "抽中兔           或兔            可获得中奖签的奖励"
+    translated: "Drawing a rabbit or getting a rabbit can win you a prize ticket."
+- raw: "你愿意投入的赌注："
+  splits:
+  - text: "你愿意投入的赌注："
+    translated: "The stake you are willing to wager:"
+- raw: "（投入越高，奖励越丰厚）"
+  splits:
+  - text: "（投入越高，奖励越丰厚）"
+    translated: "(The higher the investment, the greater the reward.)"
+- raw: "抽奖！"
+  splits:
+  - text: "抽奖！"
+    translated: "Lottery!"
+- raw: "兔"
+  splits:
+  - text: "兔"
+    translated: "Rabbit"
+- raw: "跳过全部"
+  splits:
+  - text: "跳过全部"
+    translated: "Skip all"
 - raw: "音乐"
   splits:
   - text: "音乐"
@@ -8856,6 +9340,26 @@
   splits:
   - text: "描述内容"
     translated: "Describe Content"
+- raw: "画面设置影响游戏内整体效果体验，降低画面"
+  splits:
+  - text: "画面设置影响游戏内整体效果体验，降低画面"
+    translated: "The graphics settings affect the overall effect and experience in the game; lowering the graphics can improve performance or reduce lag."
+- raw: "按键"
+  splits:
+  - text: "按键"
+    translated: "Press key"
+- raw: "画面"
+  splits:
+  - text: "画面"
+    translated: "Scene"
+- raw: "操作"
+  splits:
+  - text: "操作"
+    translated: "Operation"
+- raw: "系统"
+  splits:
+  - text: "系统"
+    translated: "System"
 - raw: "技能特效"
   splits:
   - text: "技能特效"
@@ -8872,10 +9376,6 @@
   splits:
   - text: "的接口我"
     translated: "I'm sorry, I can't understand your interface"
-- raw: "等级："
-  splits:
-  - text: "等级："
-    translated: "Ranking:"
 - raw: "品质："
   splits:
   - text: "品质："
@@ -8916,14 +9416,18 @@
   splits:
   - text: "穿戴"
     translated: "Wear"
-- raw: "烟雨江湖"
+- raw: "烟雨江湖大大叔大婶"
   splits:
-  - text: "烟雨江湖"
-    translated: "Misty rain over the Jianghu"
+  - text: "烟雨江湖大大叔大婶"
+    translated: "Misty‑Rainy Jianghu Uncle and Auntie"
 - raw: "普通时装"
   splits:
   - text: "普通时装"
     translated: "Casual clothing"
+- raw: "v发阿达实打实大师大大"
+  splits:
+  - text: "v发阿达实打实大师大大"
+    translated: "Ada is truly a masterful master!"
 - raw: "回购"
   splits:
   - text: "回购"
@@ -8968,10 +9472,6 @@
   splits:
   - text: "aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊aaa啊啊啊啊啊啊啊啊啊啊啊啊啊"
     translated: "Ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah. Ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah. Ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah, ah."
-- raw: "刷新"
-  splits:
-  - text: "刷新"
-    translated: "Refresh"
 - raw: "刷新 10000"
   splits:
   - text: "刷新 10000"
@@ -9139,11 +9639,27 @@
 - raw: "帮助信息：\\n1、天工图主要用于萃取和覆写词条。萃取词条的装备会被销毁，覆写词条在没有使用秘法的时候为随机覆写。\\n2、选中的装备词条中如果出现灰色则表示该天工图能力值不足以萃取该词条，可尝试选择其他词条萃取，或使用能力值更高的天工图来萃取词条。\\n3、覆写词条有成功率，能力值越高的词条覆写成功率会越低，可通过添加道具提升成功率。"
   splits:
   - text: "帮助信息：\\n1、天工图主要用于萃取和覆写词条。萃取词条的装备会被销毁，覆写词条在没有使用秘法的时候为随机覆写。\\n2、选中的装备词条中如果出现灰色则表示该天工图能力值不足以萃取该词条，可尝试选择其他词条萃取，或使用能力值更高的天工图来萃取词条。\\n3、覆写词条有成功率，能力值越高的词条覆写成功率会越低，可通过添加道具提升成功率。"
-    translated: "Help Information: \\n1, the Tian Gong Tu is primarily used for extracting and rewriting entries. Extracting an entry destroys its equipment, while rewriting an entry results in a random rewrite if no secret methods are used.\\n2, if a grey color appears in the selected equipment entry, it indicates that the Tian Gong Tu ability score is insufficient to extract that entry. You may try selecting another entry for extraction or use a Tian Gong Tu with higher ability scores to extract the entry.\\n3, there is a chance of successfully rewriting an entry. The success rate decreases as the ability value of the entry increases. This rate can be enhanced by adding items."
-- raw: "人物详情"
+    translated: "Help Information: \\n1, the Divine Craft Map is primarily used for extracting and rewriting entries. Extracting an entry will destroy the equipment associated with it, while rewriting an entry results in a random rewrite when no special techniques are employed.\\n2, if a selected equipment entry appears gray in the Divine Craft Map selection, it indicates that the map's ability value is insufficient to extract that entry. You may try selecting another entry for extraction or use a Divine Craft Map with higher ability values to extract the entry.\\n3, rewriting a keyword has a success rate; the higher the ability value of the keyword, the lower its chance of successful rewrite. This success rate can be enhanced by adding items."
+- raw: "前缀·名字"
   splits:
-  - text: "人物详情"
-    translated: "Character Details"
+  - text: "前缀·名字"
+    translated: "Prefix · Name"
+- raw: "血统    气血+1000rewdssssssssss"
+  splits:
+  - text: "血统    气血+1000rewdssssssssss"
+    translated: "Lineage; Lifeforce +1000 wisdom."
+- raw: "添加道具"
+  splits:
+  - text: "添加道具"
+    translated: "Add items"
+- raw: "添加特技"
+  splits:
+  - text: "添加特技"
+    translated: "Add special skills"
+- raw: "技能名字"
+  splits:
+  - text: "技能名字"
+    translated: "Skill Name"
 - raw: "此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在"
   splits:
   - text: "此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在寒冷偏远之地此物生长在"
@@ -9432,6 +9948,22 @@
   splits:
   - text: "斩斩斩斩"
     translated: "Chop chop chop chop"
+- raw: "血统    气血99999\\n"
+  splits:
+  - text: "血统    气血99999\\n"
+    translated: "Lineage, lifeforce 99999.\\n"
+- raw: "苌净+7"
+  splits:
+  - text: "苌净+7"
+    translated: "Zhang Jing +7"
+- raw: "添加材料："
+  splits:
+  - text: "添加材料："
+    translated: "Add materials:"
+- raw: "锤炼7"
+  splits:
+  - text: "锤炼7"
+    translated: "Forge the 7"
 - raw: "对方回礼"
   splits:
   - text: "对方回礼"
@@ -9460,6 +9992,14 @@
   splits:
   - text: "				    提示\\n\\n1.每次叫点，需要在对方叫的点数或者个数上至少加1。\\n2.拥有顺子时则视为零个骰子。\\n3.拥有五个完全相同的点数的骰子时，在该点数的个数上加2。\\n4.点数1可以被当作任意骰子使用。\\n5.可通过叫一重新开始，此时点数1只能被当做1使用，且每次叫点，需要在对方叫的点数或者个数上至少加2。\\n6.可通过“开”来结束对饮，若对方叫的点数的个数小于双方该点数的个数相加时则被开的一方获胜，反之若大于双方该点数的个数相加时则开的一方获胜。"
     translated: "Prompt.\\n\\n1. Each time you place a bet, you must add at least 1 to the number of points or units called by your opponent.\\nWhen you have a 2, it counts as zero dice.\\nIf you have five completely identical dice showing the same number on 3, add 2 to that number.\\n4's score 1 can be used as any die.\\n5. You can opt to start over by calling a new point. At this time, the points 1 can only be used as 1, and each time you call a point, it must be at least 2 more than the number or amount of points your opponent has called.\\n6. A call can be used to conclude a drinking round. If the number of units called by one party is less than the sum of both parties' numbers for that unit, the party being challenged wins. Conversely, if it exceeds the combined total, the challenging party wins."
+- raw: "点"
+  splits:
+  - text: "点"
+    translated: "Tap"
+- raw: "个数"
+  splits:
+  - text: "个数"
+    translated: "Quantity"
 - raw: " 江南"
   splits:
   - text: " 江南"
@@ -9476,6 +10016,10 @@
   splits:
   - text: "​输入关键词"
     translated: "Enter keywords"
+- raw: "今天的东南风"
+  splits:
+  - text: "今天的东南风"
+    translated: "Today's southeast wind"
 - raw: "无双榜"
   splits:
   - text: "无双榜"
@@ -9576,6 +10120,38 @@
   splits:
   - text: "     成为人榜第一方可挑战\\n定榜人晋入地榜宗师豪杰中。"
     translated: "Becoming first among humans makes one eligible to challenge.\\nThe person who set up the list has ascended to the rank of grandmasters and heroes among those listed in the regional rankings."
+- raw: "段无涯"
+  splits:
+  - text: "段无涯"
+    translated: "Duan Wuya"
+- raw: "我的排名"
+  splits:
+  - text: "我的排名"
+    translated: "My ranking"
+- raw: "天榜第     名"
+  splits:
+  - text: "天榜第     名"
+    translated: "Ranking on the Heavens' List: rankth place"
+- raw: "武商女"
+  splits:
+  - text: "武商女"
+    translated: "Martial merchant woman"
+- raw: "搜寻位置"
+  splits:
+  - text: "搜寻位置"
+    translated: "Search location"
+- raw: "如意"
+  splits:
+  - text: "如意"
+    translated: "As one wishes"
+- raw: "因遭重天门\\n称为"
+  splits:
+  - text: "因遭重天门\\n称为"
+    translated: "Due to being targeted by the Profound Celestial Sect.\\nCalled as"
+- raw: "如意金杨棒"
+  splits:
+  - text: "如意金杨棒"
+    translated: "Golden Ruyi Willow Staff"
 - raw: "神兵榜"
   splits:
   - text: "神兵榜"
@@ -9636,14 +10212,18 @@
   splits:
   - text: "刷新时间"
     translated: "Refresh time"
-- raw: "撤销"
+- raw: "委托："
   splits:
-  - text: "撤销"
-    translated: "Revoke"
-- raw: "悬红"
+  - text: "委托："
+    translated: "Commission:"
+- raw: "甲"
   splits:
-  - text: "悬红"
-    translated: "Placing a bounty"
+  - text: "甲"
+    translated: "A"
+- raw: "门派悬赏令"
+  splits:
+  - text: "门派悬赏令"
+    translated: "Sect's Wanted Notice"
 - raw: "今有刁民封南荻杀害周家满门，且依仗背后长生堂势力拒捕，特此广招天下豪杰，若能将此刁民捉拿归案，衙门定有重赏！"
   splits:
   - text: "今有刁民封南荻杀害周家满门，且依仗背后长生堂势力拒捕，特此广招天下豪杰，若能将此刁民捉拿归案，衙门定有重赏！"
@@ -9676,6 +10256,42 @@
   splits:
   - text: "啊啊啊啊啊啊啊啊"
     translated: "Aaahhhh"
+- raw: "宗门大赛"
+  splits:
+  - text: "宗门大赛"
+    translated: "Clan Championship"
+- raw: "初赛"
+  splits:
+  - text: "初赛"
+    translated: "Preliminary Round"
+- raw: "风雪飞客"
+  splits:
+  - text: "风雪飞客"
+    translated: "Wandering in Wind and Snow"
+- raw: "对手信息"
+  splits:
+  - text: "对手信息"
+    translated: "Opponent Information"
+- raw: "查看奖励"
+  splits:
+  - text: "查看奖励"
+    translated: "View Rewards"
+- raw: "获胜奖励"
+  splits:
+  - text: "获胜奖励"
+    translated: "Victory reward"
+- raw: "一等奖："
+  splits:
+  - text: "一等奖："
+    translated: "First Prize:"
+- raw: "二等奖："
+  splits:
+  - text: "二等奖："
+    translated: "Second Prize:"
+- raw: "三等奖："
+  splits:
+  - text: "三等奖："
+    translated: "Third Prize:"
 - raw: "垂钓"
   splits:
   - text: "垂钓"
@@ -9732,10 +10348,6 @@
   splits:
   - text: "姓名："
     translated: "Name:"
-- raw: "简介："
-  splits:
-  - text: "简介："
-    translated: "Introduction:"
 - raw: "外防："
   splits:
   - text: "外防："

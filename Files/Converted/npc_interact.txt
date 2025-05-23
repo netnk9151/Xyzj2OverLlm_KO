@@ -1215,11 +1215,6 @@
   - split: 10
     text: "悬赏"
     translated: "Recompense"
-- raw: "500013#75046#2#23#0#0#0#0#0#0#悬赏#0#0###0#0#0#0#0#"
-  splits:
-  - split: 10
-    text: "悬赏"
-    translated: "Recompense"
 - raw: "500014#75049#2#23#0#0#0#0#0#0#悬赏#0#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -2081,6 +2076,16 @@
   - split: 10
     text: "邀请猹猹"
     translated: "Invite Xiongxiang"
+- raw: "7033001#7033#1#9#0#0#0#0#0&24|898300|1#0&24|898140|1#三爷赌局#5816#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "三爷赌局"
+    translated: "San Ye's Gambling Game"
+- raw: "7035001#7035#1#9#0#0#0#0##1&24|898289|1;24|898004|1#十三手#5817#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "十三手"
+    translated: "Thirteen Hands Technique"
 - raw: "8800301#88003#1#9#0#0#0##0&24|941630|1#0&24|941637|1#关于加入门派#9002#0###0#0##0#0#"
   splits:
   - split: 10
@@ -3480,12 +3485,12 @@
   splits:
   - split: 10
     text: "你这秘籍可是真的？"
-    translated: "Is this manual really authentic?"
+    translated: "Is this secret manual genuine?"
 - raw: "30073002#30073#1#9#0#0#0#0#0&24|971896|1#0&24|988763|1#你这秘籍根本没法修行！#0#971266###0#0#0#0#0#"
   splits:
   - split: 10
     text: "你这秘籍根本没法修行！"
-    translated: "This manual is completely useless for cultivation!"
+    translated: "This secret manual isn't at all suitable for cultivation!"
 - raw: "30073003#30073#3#7#22#0#0#0#0#0##0#0###0#0#0#0#0#"
   splits: []
 - raw: "30079001#30079#1#9#0#0#0#0#0#0&24|988859|1#冯大叔，怎么一个人在这儿喝酒呢？#1426#0#0|21006|1##0#0#0#0#0#"
@@ -3945,7 +3950,7 @@
   splits:
   - split: 10
     text: "老板，你可知道哪里有天麻？"
-    translated: "Boss, do you know where I can find Tian Ma?"
+    translated: "Boss, do you know where there's any Heavenly Hemp?"
 - raw: "30177003#30177#1#9#0#0#0#0#0&24|973336|1#0&24|973325|1#这药丸是谁买的来着？#0#957370###0#0#0#0#0#"
   splits:
   - split: 10
@@ -4186,7 +4191,7 @@
   splits:
   - split: 10
     text: "我应当去哪里寻找天麻？"
-    translated: "Where should I go to find the Heaven's Hemp?"
+    translated: "Where should I go to find Heavenly Hemp?"
 - raw: "30296002#30296#1#9#0#0#0#0#0&24|976223|1;3|37103|7#1&24|976217|1;24|976190|1#柳大夫，我只寻到七株天麻#2065#0#0|95520|1#0|37103|7#0#0#0#0#0#"
   splits:
   - split: 10
@@ -4196,7 +4201,7 @@
   splits:
   - split: 10
     text: "幸不辱命，八株天麻我带回来了"
-    translated: "Fortunate to have not brought shame, I've brought back eight stalks of Heavenly Poppy"
+    translated: "Fortunate not to be disgraced, I have brought back eight stalks of Heavenly Hemp."
 - raw: "30353001#30353#1#9#0#0#0#0#0&24|957180|1#0&24|974361|1#还是由在下护送你们好了#2100#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -4727,7 +4732,7 @@
   splits:
   - split: 10
     text: "前辈，承让了"
-    translated: "Senior, I respectfully concede"
+    translated: "Senior, thank you for letting me win"
 - raw: "30835001#30835#1#9#0#0#0#0#0&24|970883|1;24|970881|1!#0#陈豪志已除#3975#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -4756,7 +4761,7 @@
   splits:
   - split: 10
     text: "承让了"
-    translated: "I respectfully concede"
+    translated: "Thank you for letting me win"
 - raw: "30944005#30944#1#9#0#0#0#0#0&24|970798|1#0&27|30944|1;24|970798|1#方才想让我做什么？#0#970794###0#0#0#0#0#"
   splits:
   - split: 10
@@ -8774,16 +8779,11 @@
   - split: 10
     text: "如何加入重天门"
     translated: "How do I join the Profound Celestial Sect?"
-- raw: "75046009#75046#2#63#0#0#0##0&102!#0&102#间隔一月方可切磋#0#0###0#0#0&108#0#0#"
+- raw: "75046002#75046#2#23#0#0#0#0#0#0#悬赏#0#0###0#0#0#0#0#"
   splits:
   - split: 10
-    text: "间隔一月方可切磋"
-    translated: "One can spar only once a month"
-- raw: "75046010#75046#2#64#0#0#0##0&102!#0&102#每月只可挑战一次#0#0###0#0##0#0#"
-  splits:
-  - split: 10
-    text: "每月只可挑战一次"
-    translated: "Only one challenge allowed per month"
+    text: "悬赏"
+    translated: "Recompense"
 - raw: "75047001#75047#2#9#0#0#0#0#0&102#0&102!#参加魔学相关的活动#6534#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -10821,11 +10821,11 @@
   - split: 10
     text: "亲传弟子"
     translated: "Direct Disciple"
-- raw: "88151001#88151#2#77#0#0#0##1&24|926393|1#0&86#邀请入队#0#0###0#0##0##"
+- raw: "88151001#88151#2#77#0#0#0##1&24|926393|1#0&86#邀请同行#0#0###0#0##0##"
   splits:
   - split: 10
-    text: "邀请入队"
-    translated: "Invite to Join the Team"
+    text: "邀请同行"
+    translated: "Invite fellow practitioners"
 - raw: "88162001#88162#1#9#0#0#0##0&24|916541|1#0&24|916853|1#木人巷#15162#0###0#0##0##"
   splits:
   - split: 10
@@ -11046,6 +11046,55 @@
 - raw: "94108006#94108#4#14#0#0#3#0#0#0##0#0###1#0#0#0#0#"
   splits: []
 - raw: "94109006#94109#4#15#0#0#10000#0#0#0##0#0###1#0#0#0#0#"
+  splits: []
+- raw: "94124001#94124#2#86#0#0#0#94124##0#挑战#0#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "挑战"
+    translated: "Challenge"
+- raw: "94124002#94124#2#77#1#0#0#0##0&86#邀请同行#0#0###0#0#0&27|94124|1#0#击败萧盖世#"
+  splits:
+  - split: 10
+    text: "邀请同行"
+    translated: "Invite fellow practitioners"
+  - split: 19
+    text: "击败萧盖世"
+    translated: "Defeat Xiao Gaishen"
+- raw: "94125001#94125#2#86#0#0#0#94125##0#挑战#0#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "挑战"
+    translated: "Challenge"
+- raw: "94125002#94125#2#77#1#0#0#0##0&86#邀请同行#0#0###0#0#0&27|94125|1#0#击败段风流#"
+  splits:
+  - split: 10
+    text: "邀请同行"
+    translated: "Invite fellow practitioners"
+  - split: 19
+    text: "击败段风流"
+    translated: "Defeat Duan Fengliu"
+- raw: "94126001#94126#2#86#0#0#0#94126##0#挑战#0#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "挑战"
+    translated: "Challenge"
+- raw: "94126002#94126#2#77#1#0#0#0##0&86#邀请同行#0#0###0#0#0&27|94126|1#0#击败雄八#"
+  splits:
+  - split: 10
+    text: "邀请同行"
+    translated: "Invite fellow practitioners"
+  - split: 19
+    text: "击败雄八"
+    translated: "Defeat Xiong Ba"
+- raw: "94296001#94296#1#9#0#0#0###0#对赌#4502#0###0#0#0&18|1|68|100000|>=#0#金钱大于十万#"
+  splits:
+  - split: 10
+    text: "对赌"
+    translated: "Wagering on a bet"
+  - split: 19
+    text: "金钱大于十万"
+    translated: "Money exceeds one hundred thousand"
+- raw: "94306001#94306#3#7#0#0#0###0##0#0###0#0#0#0#0#"
   splits: []
 - raw: "94701001#94701#2#86#0#0#0#94701###挑战#0#0###0#0#0#0#0#"
   splits:
@@ -14727,7 +14776,7 @@
   - split: 10
     text: "崖边论道"
     translated: "Debating at the Edge of a Cliff"
-- raw: "150321001#150321#1#9#0#0#0###1&24|942333|1#不义之财#15024#0###0#0##0##"
+- raw: "150321001#150321#1#9#0#0#0##0&24|939292|1#1&24|942333|1#不义之财#15024#0###0#0##0##"
   splits:
   - split: 10
     text: "不义之财"
@@ -14982,11 +15031,11 @@
   - split: 10
     text: "花语情缘"
     translated: "The Language of Flowers and Destiny"
-- raw: "150398008#150398#2#77#0#0#0#0#1&24|922581|1;24|920808|1#0&86#邀请入队#0#0###0#0#0#0#0#"
+- raw: "150398008#150398#2#77#0#0#0#0#1&24|922581|1;24|920808|1#0&86#邀请同行#0#0###0#0#0#0#0#"
   splits:
   - split: 10
-    text: "邀请入队"
-    translated: "Invite to Join the Team"
+    text: "邀请同行"
+    translated: "Invite fellow practitioners"
 - raw: "150398010#150398#1#9#0#0#0#0#0&24|921151|1#0&24|921133|1#敞开心扉#15146#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -16064,22 +16113,22 @@
   - split: 10
     text: "加入云川镖局"
     translated: "Joining the Cloud River Escort Agency"
-- raw: "165262003#165262#1#9#0#0#0#0#0&1|1210009|1;103|24|>#1&24|909908|1#晋升镖徒#40214#0###0#0#0#0#0#"
+- raw: "165262003#165262#1#9#0#0#0#0#0&24|909927|1;103|24|>#1&24|909908|1#晋升镖徒#40214#0###0#0#0#0#0#"
   splits:
   - split: 10
     text: "晋升镖徒"
     translated: "Advanced to Escort"
-- raw: "165262004#165262#1#9#0#0#0#0#0&1|1210010|1;103|49|>#1&24|909775|1#晋升镖师#40215#0###0#0#0#0#0#"
+- raw: "165262004#165262#1#9#0#0#0#0#0&24|909792|1;103|49|>#1&24|909775|1#晋升镖师#40215#0###0#0#0#0#0#"
   splits:
   - split: 10
     text: "晋升镖师"
     translated: "Advance to become an Escort"
-- raw: "165262005#165262#1#9#0#0#0#0#0&1|1210011|1;103|74|>#1&24|909667|1#晋升分镖头#40216#0###0#0#0#0#0#"
+- raw: "165262005#165262#1#9#0#0#0#0#0&24|909692|1;103|74|>#1&24|909667|1#晋升分镖头#40216#0###0#0#0#0#0#"
   splits:
   - split: 10
     text: "晋升分镖头"
     translated: "Be promoted to divisional protector"
-- raw: "165262006#165262#1#9#0#0#0#0#0&1|1210012|1;103|99|>#1&24|909272|1#晋升总镖头#40217#0###0#0#0#0#0#"
+- raw: "165262006#165262#1#9#0#0#0#0#0&24|909568|1;103|99|>#1&24|909272|1#晋升总镖头#40217#0###0#0#0#0#0#"
   splits:
   - split: 10
     text: "晋升总镖头"
@@ -16115,6 +16164,39 @@
   - split: 10
     text: "少泽"
     translated: "Shao Ze"
+- raw: "165377003#165377#1#9#0#0#0##0&24|898456|1#0&24|897856|1#六脉#40291#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "六脉"
+    translated: "Six Meridians"
+- raw: "165400001#165400#1#9#0#0#0###0&24|897675|1#凤舞九天#40295#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "凤舞九天"
+    translated: "Phoenix Dances in the Nine Heavens"
+- raw: "165415001#165415#1#9#0#0#0###0&24|897408|1#剑二十三#40298#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "剑二十三"
+    translated: "Sword 23"
+- raw: "165426001#165426#1#9#0#0#0###0&24|897231|1#天外飞仙#40300#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "天外飞仙"
+    translated: "Flying Immortal from Beyond the Heavens"
+- raw: "165438001#165438#1#9#0#0#0#0#0#0&24|896909|1#少侠今天想赌多少？#50768#0###0#0#0&18|1|68|10000|>=#0#小赌怡情，还请大侠留够钱以备不时之需#"
+  splits:
+  - split: 10
+    text: "少侠今天想赌多少？"
+    translated: "Hero, how much would you like to bet today?"
+  - split: 19
+    text: "小赌怡情，还请大侠留够钱以备不时之需"
+    translated: "A little gambling for pleasure; please, noble hero, spare some money for a rainy day."
+- raw: "165438002#165438#1#9#0#0#0#0#0&24|896909|1#0#压点数#40309#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "压点数"
+    translated: "Pressing a point"
 - raw: "170128001#170128#1#9#0#0#0#0#0&89|8301|1;18|1|35|200|>=#0&24|924557|1#身份晋升：刺客一#9107#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -16360,6 +16442,14 @@
   - split: 10
     text: "探寻真相"
     translated: "Seeking the truth"
+- raw: "180189001#180189#1#9#0#0#0#0#0#0&24|895646|1#素书坊接头#50899#0###0#0#0&89|8305|1#0#刺客身份提到最高#"
+  splits:
+  - split: 10
+    text: "素书坊接头"
+    translated: "Meeting at Sanshu Fang"
+  - split: 19
+    text: "刺客身份提到最高"
+    translated: "The identity of an assassin was mentioned as the highest."
 - raw: "180190001#180190#1#9#0#0#0#0#0#0&24|898588|1#琴棋书画#50671#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -16381,7 +16471,7 @@
   - split: 19
     text: "棋艺大于100"
     translated: "Chess Art surpasses 100"
-- raw: "180190004#180190#1#9#0#0#0#0#0&24|898638|1#0&24|898569|1#临帖摹碑#50674#0###0#0#0&18|1|60|100|>=#0#书法大于100#"
+- raw: "180190004#180190#1#9#0#0#0#0#0&24|898638|1;24|896737|1#0&24|898569|1#临帖摹碑#50674#0###0#0#0&18|1|60|100|>=#0#书法大于100#"
   splits:
   - split: 10
     text: "临帖摹碑"
@@ -16409,7 +16499,7 @@
     translated: "Hero, how much would you like to bet today?"
   - split: 19
     text: "小赌怡情，还请大侠留够钱以备不时之需"
-    translated: "A little gamble is pleasing to the heart; please, great hero, leave enough money for unforeseen needs."
+    translated: "A little gambling for pleasure; please, noble hero, spare some money for a rainy day."
 - raw: "180195002#180195#1#9#0#0#0#0#0&24|898366|1#0#（花费750）#50699#0###0#0#0#0#0#"
   splits:
   - split: 10
@@ -16435,6 +16525,29 @@
   - split: 10
     text: "书院研习"
     translated: "Academy studies"
+- raw: "180196002#180196#1#9#0#0#0#0#0&24|897931|1#1&24|897915|1;24|897902|1#验证所学#50727#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "验证所学"
+    translated: "Test what you have learned"
+- raw: "180217001#180217#1#9#0#0#0#0#0&94|133110|1;94|133210|1;94|133310|1#0&24|897508|1#武谈高论#50742#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "武谈高论"
+    translated: "Eloquent discussions on martial arts"
+- raw: "180228001#180228#1#9#0#0#0#0#0#0&24|896909|1#少侠今天想赌多少？#50768#0###0#0#0&18|1|68|10000|>=#0#小赌怡情，还请大侠留够钱以备不时之需#"
+  splits:
+  - split: 10
+    text: "少侠今天想赌多少？"
+    translated: "Hero, how much would you like to bet today?"
+  - split: 19
+    text: "小赌怡情，还请大侠留够钱以备不时之需"
+    translated: "A little gambling for pleasure; please, noble hero, spare some money for a rainy day."
+- raw: "180228002#180228#1#9#0#0#0#0#0&24|896909|1#0#试试手气#50769#0###0#0#0#0#0#"
+  splits:
+  - split: 10
+    text: "试试手气"
+    translated: "Give it a try and see how lucky you are."
 - raw: "205020001#205020#1#9#0#0#0##0&18|1|34|49|>;72|205020|20502001|1#1&1|1101002|1;1|1101002|2#流云相邀#50540#0###0#0#0#0#0#"
   splits:
   - split: 10
