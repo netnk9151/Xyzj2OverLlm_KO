@@ -377,7 +377,7 @@ public class SpriteReplacerV2Plugin : BaseUnityPlugin
                 rect.height = Mathf.Min(rect.height, texture.height);
             }
 
-            image.overrideSprite = Sprite.Create(texture, rect, image.sprite.pivot, image.sprite.pixelsPerUnit); ;
+            image.sprite = Sprite.Create(texture, rect, image.sprite.pivot, image.sprite.pixelsPerUnit); ;
         }
         catch (Exception ex)
         {

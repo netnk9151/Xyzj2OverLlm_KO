@@ -385,12 +385,25 @@ public static class TranslationService
                     }
                 }
                 else
-                    newCount++;
+                {
+                    // Try matching on split instead of line incase they changed line format
+                    foreach (var split in line.Splits)
+                    {
+                        var found2 = fileLines
+                            .Select(x => x.Splits.FirstOrDefault(s => s.Text == split.Text))
+                            .FirstOrDefault(s => s != null);
+
+                        if (found2 != null)
+                            split.Translated = found2.Translated;
+                        else
+                            newCount++;
+                    }
+                }
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");
 
-            if (newCount > 0 || exportLines.Count != fileLines.Count)
+            //if (newCount > 0 || exportLines.Count != fileLines.Count) //Always Write because they might have changed format
             {
                 var serializer = Yaml.CreateSerializer();
                 File.WriteAllText(outputFile, serializer.Serialize(exportLines));
@@ -425,7 +438,7 @@ public static class TranslationService
 
             foreach (var line in lines)
             {
-                foreach(var split in line.Splits)
+                foreach (var split in line.Splits)
                 {
                     if (!cache.ContainsKey(split.Text))
                         cache.Add(split.Text, split.Translated);
@@ -533,10 +546,10 @@ public static class TranslationService
                 {
                     if (string.IsNullOrEmpty(split.Text) || !split.SafeToTranslate)
                         return;
-                    
+
                     var cacheHit = translationCache.ContainsKey(split.Text)
                         // We use this for name files etc which will be in cache
-                        && textFileToTranslate.EnableGlossary; 
+                        && textFileToTranslate.EnableGlossary;
 
                     if (string.IsNullOrEmpty(split.Translated)
                         || forceRetranslation
@@ -1047,7 +1060,7 @@ public static class TranslationService
                 basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
 
             if (raw.Contains("·"))
-                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);        
+                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);
 
             if (raw.Contains("<"))
             {
