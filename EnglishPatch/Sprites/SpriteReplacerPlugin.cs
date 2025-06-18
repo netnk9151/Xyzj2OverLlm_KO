@@ -174,7 +174,6 @@ namespace EnglishPatch.Sprites
                     }
 
                     child.sprite = Sprite.Create(texture, rect, child.sprite.pivot, child.sprite.pixelsPerUnit); 
-                    Logger.LogWarning($"{spriteKey}: Overriden");
                 }
             }
         }
