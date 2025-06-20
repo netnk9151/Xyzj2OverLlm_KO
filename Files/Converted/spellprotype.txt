@@ -2310,6 +2310,12 @@
   splits: []
 - raw: "1333#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#100600122#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#0#0#"
   splits: []
+- raw: "1402#0##0###0#0#1####0#####0#0#0#0#0#20372#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits: []
+- raw: "1403#0##0###0#0#1####0#####0#0#0#0#0#20381#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
+- raw: "1404#0##0##0#0#0#1###0#0#0#0#0#0#0#0#0#0#0#20411#20412#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
 - raw: "2001#0#机制技能·空#0##jian12#33#0#1###0#0####0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#1#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0###0#0#0#0.0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -6677,6 +6683,28 @@
   - split: 11
     text: "锁定目标周围2米"
     translated: "Lock onto target within 2 meters"
+- raw: "105100#0#追魂十三式#11#剑光如暴雨梨花，十三式连环刺出，专攻对手咽喉、心口、太阳穴等要害，剑尖震颤间可封锁对手退路。#1510#2167#0#0#0#0#锁定目标#0#0#spell_100640_go#0#0#0#0#0#0#185#1051001#1051000#1051000#1051001#1051000#0#0#0#0#0#166#533#766#800#1000#0#0#0#0#0#0#0#0#0#0#20000#0#3#0#0#3#0#0##0#0#1#3#1.5#90.0#0#0#0#0#0#0#0#0##3#0#0#1.6#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "追魂十三式"
+    translated: "Thirteen Steps of Pursuing Souls"
+  - split: 4
+    text: "剑光如暴雨梨花，十三式连环刺出，专攻对手咽喉、心口、太阳穴等要害，剑尖震颤间可封锁对手退路。"
+    translated: "The swordlight was like a downpour of plum blossoms in the wind; thirteen continuous thrusts were delivered, targeting the opponent's throat, chest, temples, and other vital points. Between the tremors of the blade tip, it could block the enemy's escape route."
+  - split: 11
+    text: "锁定目标"
+    translated: "Lock on target"
+- raw: "105200#0#天遁游影#11#剑势忽隐忽现，似攻非攻，实则暗藏《易经》“遁卦”之理。对手若强行格挡，剑尖陡然转向，专攻其旧力已尽、新力未生之际。#1520#2200#0#0#0#0#锁定目标#0#0#spell_100650_go#0#0#0#0#0#0#185#1052000#1052001#1052000#1052000#1052000#0#0#0#0#0#266#300#500#733#1100#0#0#0#0#0#0#0#0#0#0#20000#0#3#0#0#3#0#0##0#0#2#3#1.5#90.0#0#0#0#0#0#0#0#0##3#0#0#1.66#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "天遁游影"
+    translated: "Shadow Walking through Celestial Escape"
+  - split: 4
+    text: "剑势忽隐忽现，似攻非攻，实则暗藏《易经》“遁卦”之理。对手若强行格挡，剑尖陡然转向，专攻其旧力已尽、新力未生之际。"
+    translated: "The swordplay was elusive and unpredictable, seemingly aggressive yet non‑aggressive‑essentially concealing the principles of Hiding Hexagram from the I Ching. If an opponent tried to block forcefully, the tip of the sword would suddenly change direction, targeting the moment when their old strength had been exhausted but new strength had not yet developed."
+  - split: 11
+    text: "锁定目标"
+    translated: "Lock on target"
 - raw: "110000#0#破釜沉舟#11#破釜沉舟，置死地而后生，竭力一击，刀劲四溅。#dao_1000#666#0#0###身前1.5米180度扇形#0##spell_110010_go#sfx_main_hero_110010&0&true&true#0#0#0#0#0#81#1100000#0#0#0#0#0#0#0#0#0#333#0#0#0#0#0#0#0#0#0#0#sound_spell_110010_go#0#0#0#15000#1#3##0#1#0#0#0#35#5#1#0#0.0#0.0#0#0#0#0#0#0#0###1#0#0#0.4#0#1#0#0#1#"
   splits:
   - split: 2
@@ -10870,6 +10898,19 @@
     translated: "They lifted their heads and drained the wine from the flask in one go; as they inhaled the lingering fumes of alcohol, it seemed like dice shapes coalesced in their vision, making them feel as if they were falling into a dream."
 - raw: "153421#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1534202#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
   splits: []
+- raw: "153500#0#乾坤挪移#1#以内力感知对手劲力方向，顺势牵引，使其自伤。#xinfa1242#5667#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#90000#4#4#0#0#4#0#0##0#0#-1#0#0.0#0.0#1|2017&2|2018&3|2019&4|2020#153501#0#9313#0#0#0#0##4#0#0#0.0#0#0#0#0#0#"
+  splits:
+  - split: 2
+    text: "乾坤挪移"
+    translated: "Shifting of Heaven and Earth"
+  - split: 4
+    text: "以内力感知对手劲力方向，顺势牵引，使其自伤。"
+    translated: "Sense the opponent's force direction using inner power and subtly guide it to cause them harm."
+- raw: "153501#0#乾坤挪移-运功#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits:
+  - split: 2
+    text: "乾坤挪移-运功"
+    translated: "Shifting of Heaven and Earth ‑ Channeling"
 - raw: "160000#0#飞花摘叶#11#暴雨倾盆，寒光更甚。以巧劲不断向身前扔出十字镖，练至深处可回旋，有概率额外造成伤害。#anqi_1000#1766#0#0#0#0#身前直线6米#0#0#spell_160020_go#sfx_main_hero_160020&0&true&true#0#0#0#0#0#81#1600000#1600000#1600000#1600000#1600000#0#0#0#0#0#333#533#733#933#1133#0#0#0#0#0#0#sound_spell_160100#0#0#0#9000#5#3#0#0#2#0#0##0#0#-1#2#6.0#1.6#0#0#0#0#0#0#0#0##2#0#0#1.2#0#1#0#0#1#"
   splits:
   - split: 2

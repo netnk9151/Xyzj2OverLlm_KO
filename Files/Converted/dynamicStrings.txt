@@ -7930,47 +7930,47 @@
   - split: 3
     text: "您的精力不足{0}点"
     translated: "Your energy is insufficient by {0} points"
-- raw: "WineGameView/<OnNpcThink>d__81,MoveNext,54,容我想想,[]"
+- raw: "WineGameView/<OnNpcThink>d__82,MoveNext,54,容我想想,[]"
   splits:
   - split: 3
     text: "容我想想"
     translated: "Let me think about it"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,273,在下赢了，下次再来!,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,273,在下赢了，下次再来!,[]"
   splits:
   - split: 3
     text: "在下赢了，下次再来!"
     translated: "I am victorious; let's meet again next time!"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,293,你输了,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,293,你输了,[]"
   splits:
   - split: 3
     text: "你输了"
     translated: "You lost"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,332,在下赢了，下次再来!,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,332,在下赢了，下次再来!,[]"
   splits:
   - split: 3
     text: "在下赢了，下次再来!"
     translated: "I am victorious; let's meet again next time!"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,352,你赢了，获得了,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,352,你赢了，获得了,[]"
   splits:
   - split: 3
     text: "你赢了，获得了"
     translated: "You won and obtained it"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,500,是在下输了，甘拜下风!,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,500,是在下输了，甘拜下风!,[]"
   splits:
   - split: 3
     text: "是在下输了，甘拜下风!"
     translated: "I concede defeat; I bow to your superior skills!"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,520,你赢了，获得了,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,520,你赢了，获得了,[]"
   splits:
   - split: 3
     text: "你赢了，获得了"
     translated: "You won and obtained it"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,654,是在下输了，甘拜下风!,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,654,是在下输了，甘拜下风!,[]"
   splits:
   - split: 3
     text: "是在下输了，甘拜下风!"
     translated: "I concede defeat; I bow to your superior skills!"
-- raw: "WineGameView/<CheckResult>d__85,MoveNext,674,你输了,[]"
+- raw: "WineGameView/<CheckResult>d__86,MoveNext,674,你输了,[]"
   splits:
   - split: 3
     text: "你输了"
@@ -11620,12 +11620,12 @@
   - split: 3
     text: "地狱"
     translated: "Hell"
-- raw: "NpcChatView,OnReset,2819,{dlg.chatlangid}对应的stringlang未空字符串,[]"
+- raw: "NpcChatView,OnReset,2662,{dlg.chatlangid}对应的stringlang未空字符串,[]"
   splits:
   - split: 3
     text: "{dlg.chatlangid}对应的stringlang未空字符串"
     translated: "{dlg.chatlangid} corresponds to a string in the language that is an empty string."
-- raw: "NpcChatView,OnReset,4180,dlg.chatlangid:{0}对应的stringlang未空字符串,[]"
+- raw: "NpcChatView,OnReset,4023,dlg.chatlangid:{0}对应的stringlang未空字符串,[]"
   splits:
   - split: 3
     text: "dlg.chatlangid:{0}对应的stringlang未空字符串"
@@ -16082,6 +16082,16 @@
   - split: 3
     text: "正在应用补丁"
     translated: "Applying patch now"
+- raw: "SoundSwtich,Start,136,<color=#7b5836>正在播放 - </color>,[]"
+  splits:
+  - split: 3
+    text: "<color=#7b5836>正在播放 - </color>"
+    translated: "<color=#7b5836>Currently playing ‑  </color>"
+- raw: "SoundSwtich,UpdateSongText,47,<color=#7b5836>正在播放 - </color>,[]"
+  splits:
+  - split: 3
+    text: "<color=#7b5836>正在播放 - </color>"
+    translated: "<color=#7b5836>Currently playing ‑  </color>"
 - raw: "Com.TheFallenGames.OSA.Demos.Hierarchy.TuJianTreeViewsHolder,UpdateViews,493,(未持有),[Com.TheFallenGames.OSA.Demos.Hierarchy.IHierarchyNodeModel]"
   splits:
   - split: 3
