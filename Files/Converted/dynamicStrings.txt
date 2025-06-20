@@ -768,6 +768,11 @@
   - split: 3
     text: "大侠，对不起！因网络原因暂时无法回答您的问题"
     translated: "Great Hero, I apologize! Due to network issues, I am temporarily unable to answer your question."
+- raw: "AIDialogView,<InitForm>b__30_0,10,少侠的想法包含忌讳之词，请重新输入,[System.String]"
+  splits:
+  - split: 3
+    text: "少侠的想法包含忌讳之词，请重新输入"
+    translated: "The young hero's thoughts contain taboo words; please re‑enter."
 - raw: "AnqiResearchView/<>c__DisplayClass84_0,<Awake>b__3,28,材料不足！,[]"
   splits:
   - split: 3
@@ -1783,6 +1788,11 @@
   - split: 3
     text: "阶段"
     translated: "Stage"
+- raw: "AchievementPrefab,AddRewards,179,获得天赋点{0},[]"
+  splits:
+  - split: 3
+    text: "获得天赋点{0}"
+    translated: "Obtain {0} Talent Points"
 - raw: "AchievementView,RefreshAllChengJiu,125,全部成就,[]"
   splits:
   - split: 3
