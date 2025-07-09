@@ -24606,6 +24606,17 @@
   - split: 1
     text: "天遁游影-位移"
     translated: "Shadow Walking through Celestial Escape ‑ Displacement"
+- raw: "1052002#去一#1#23#0#0#10000#0####0##2#0.0#0.0#10000#0#0#0#1#0#0#-8#0#0#0#1020|1021|1074|1024#0#1#0#0#去一#封锁目标经脉，目标内外攻、命中、诛心、要害均减少8%，持续10秒。#buffnew_pozan#0#0#1052002#0##0#0#0#1052002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "去一"
+    translated: "Go one"
+  - split: 32
+    text: "去一"
+    translated: "Go one"
+  - split: 33
+    text: "封锁目标经脉，目标内外攻、命中、诛心、要害均减少8%，持续10秒。"
+    translated: "Block target meridians; reduce target's external attack, hit rate, heartbreak, and vital points by 8% for 10 seconds."
 - raw: "1100000#破釜沉舟-伤害#0#1#3#1#999#0#sound_jian_hurt2###0##0#1.5#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#50#140#100####0#0#1100000#1#sfx_hero_main_dao_hit#0#0#0#1100000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
   splits:
   - split: 1

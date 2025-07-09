@@ -22,42 +22,26 @@
   splits:
   - text: "身轻如燕"
     translated: "Light as a swallow"
-- raw: "个人成就"
+- raw: "剧情"
   splits:
-  - text: "个人成就"
-    translated: "Personal achievements"
-- raw: "齐国区域"
-  splits:
-  - text: "齐国区域"
-    translated: "Qi Kingdom region"
-- raw: "楚国区域"
-  splits:
-  - text: "楚国区域"
-    translated: "Chu Kingdom region"
-- raw: "燕国区域"
-  splits:
-  - text: "燕国区域"
-    translated: "Yan Kingdom region"
-- raw: "关外沙漠"
-  splits:
-  - text: "关外沙漠"
-    translated: "Desert Beyond the Passes"
-- raw: "南沙群岛"
-  splits:
-  - text: "南沙群岛"
-    translated: "Nansha Islands"
-- raw: "不夜京"
-  splits:
-  - text: "不夜京"
-    translated: "Evernight Capital"
-- raw: "武学"
-  splits:
-  - text: "武学"
-    translated: "Martial arts"
+  - text: "剧情"
+    translated: "Plot"
 - raw: "身份"
   splits:
   - text: "身份"
     translated: "Identity"
+- raw: "探索"
+  splits:
+  - text: "探索"
+    translated: "Exploration"
+- raw: "门派"
+  splits:
+  - text: "门派"
+    translated: "Sect"
+- raw: "武学"
+  splits:
+  - text: "武学"
+    translated: "Martial arts"
 - raw: "奇遇"
   splits:
   - text: "奇遇"
@@ -106,6 +90,10 @@
   splits:
   - text: "百战身未败，剑光寒过霜。独行谁与敌，"
     translated: "Unbeaten in a hundred battles, swordlight colder than frost. Walking alone, who can be my enemy?"
+- raw: "燕国区域"
+  splits:
+  - text: "燕国区域"
+    translated: "Yan Kingdom region"
 - raw: "一键领取"
   splits:
   - text: "一键领取"
@@ -134,18 +122,6 @@
   splits:
   - text: "总成就："
     translated: "Total Accomplishments:"
-- raw: "齐国"
-  splits:
-  - text: "齐国"
-    translated: "Qi Kingdom"
-- raw: "楚国"
-  splits:
-  - text: "楚国"
-    translated: "Chu Kingdom"
-- raw: "燕国"
-  splits:
-  - text: "燕国"
-    translated: "Yan Kingdom"
 - raw: "获得声望："
   splits:
   - text: "获得声望："
@@ -1514,14 +1490,14 @@
   splits:
   - text: "废话不多说，现在材料也足够，就直接开始制作吧。"
     translated: "No need to dwell on it; we have enough materials now, so let's start making it right away."
-- raw: "苌净"
-  splits:
-  - text: "苌净"
-    translated: "Zhang Jing"
 - raw: "未获得配方"
   splits:
   - text: "未获得配方"
     translated: "Not obtained the formula"
+- raw: "苌净"
+  splits:
+  - text: "苌净"
+    translated: "Zhang Jing"
 - raw: "基础材料"
   splits:
   - text: "基础材料"
@@ -1822,6 +1798,10 @@
   splits:
   - text: "自动存档"
     translated: "Automatic save"
+- raw: "游戏加载中..."
+  splits:
+  - text: "游戏加载中..."
+    translated: "Loading game..."
 - raw: "存档"
   splits:
   - text: "存档"
@@ -2087,10 +2067,6 @@
   splits:
   - text: "请问钓鱼翁在哪"
     translated: "Where is the old fisherman?"
-- raw: "剧情"
-  splits:
-  - text: "剧情"
-    translated: "Plot"
 - raw: "汪直打不赢啊"
   splits:
   - text: "汪直打不赢啊"
@@ -3587,10 +3563,30 @@
   splits:
   - text: "角色未开放\\n敬请期待"
     translated: "The role has not been released yet\\nPlease look forward to it"
-- raw: "通过一周目解锁"
+- raw: "该身份线暂未解锁"
   splits:
-  - text: "通过一周目解锁"
-    translated: "Unlocked by completing the first week"
+  - text: "该身份线暂未解锁"
+    translated: "This identity line is currently locked"
+- raw: "1.  该身份线难度极高，建议一周目后体验"
+  splits:
+  - text: "1.  该身份线难度极高，建议一周目后体验"
+    translated: "1., this identity line is extremely difficult. It's recommended to experience it after completing the first playthrough."
+- raw: "2、大侠们可在“将门虎子剧情线-主线任务到达查探任务时-\"选择归隐田园结局”，即可开启后续多周目的所有剧情、难度选择。"
+  splits:
+  - text: "2、大侠们可在“将门虎子剧情线-主线任务到达查探任务时-\"选择归隐田园结局”，即可开启后续多周目的所有剧情、难度选择。"
+    translated: "2, heroes, you can experience the 'Descendants of Warrior Families' storyline ‑ When reaching a side quest in the main storyline ‑ \"Choose to retreat into a pastoral life for the ending, and it will unlock all subsequent storylines and difficulty settings in future playthroughs.\""
+- raw: "3.  每个剧情主角的出身点、故事都是全新独立的体验"
+  splits:
+  - text: "3.  每个剧情主角的出身点、故事都是全新独立的体验"
+    translated: "3: Each main character's backstory offers a completely new and independent experience in every storyline."
+- raw: "4.  真实江湖模式更接近武侠小说的体验!以武学、内功为主"
+  splits:
+  - text: "4.  真实江湖模式更接近武侠小说的体验!以武学、内功为主"
+    translated: "4. The authentic Jianghu mode offers an experience closer to that of a Wuxia novel, focusing primarily on martial arts and Neigong!"
+- raw: "5.  险恶江湖、爽文江湖适合喜欢刷词条、刷刷刷的大侠们"
+  splits:
+  - text: "5.  险恶江湖、爽文江湖适合喜欢刷词条、刷刷刷的大侠们"
+    translated: "5. In the dangerous Jianghu, those great heroes who love to grind words and stats tirelessly fit right in within the light Jianghu."
 - raw: "[人物简介]"
   splits:
   - text: "[人物简介]"
@@ -4231,6 +4227,18 @@
   splits:
   - text: "萍水相逢"
     translated: "Chance encounters between strangers"
+- raw: "齐国"
+  splits:
+  - text: "齐国"
+    translated: "Qi Kingdom"
+- raw: "楚国"
+  splits:
+  - text: "楚国"
+    translated: "Chu Kingdom"
+- raw: "燕国"
+  splits:
+  - text: "燕国"
+    translated: "Yan Kingdom"
 - raw: "关外"
   splits:
   - text: "关外"
@@ -4239,6 +4247,10 @@
   splits:
   - text: "海外"
     translated: "Abroad"
+- raw: "不夜京"
+  splits:
+  - text: "不夜京"
+    translated: "Evernight Capital"
 - raw: "嵩山派"
   splits:
   - text: "嵩山派"
@@ -6331,26 +6343,6 @@
   splits:
   - text: "结束"
     translated: "End"
-- raw: "将军门"
-  splits:
-  - text: "将军门"
-    translated: "General's Gate"
-- raw: "江湖初识"
-  splits:
-  - text: "江湖初识"
-    translated: "First encounter in the Jianghu"
-- raw: "来信+2"
-  splits:
-  - text: "来信+2"
-    translated: "Letter from +2"
-- raw: "好感"
-  splits:
-  - text: "好感"
-    translated: "Affection"
-- raw: "门派"
-  splits:
-  - text: "门派"
-    translated: "Sect"
 - raw: "生死与共"
   splits:
   - text: "生死与共"
@@ -6868,6 +6860,10 @@
   splits:
   - text: "消息"
     translated: "News"
+- raw: "江湖传闻"
+  splits:
+  - text: "江湖传闻"
+    translated: "Jianghu rumors"
 - raw: "外观/捏脸"
   splits:
   - text: "外观/捏脸"
@@ -6972,6 +6968,14 @@
   splits:
   - text: "清除所有标记"
     translated: "Remove all marks"
+- raw: "删除标记"
+  splits:
+  - text: "删除标记"
+    translated: "Remove the markers"
+- raw: "删除所有标记"
+  splits:
+  - text: "删除所有标记"
+    translated: "Remove All Tags"
 - raw: "发生什么事了"
   splits:
   - text: "发生什么事了"
@@ -7264,6 +7268,22 @@
   splits:
   - text: "按住拖拽以多选目标"
     translated: "Hold and drag to select multiple targets"
+- raw: "疑惑\\n"
+  splits:
+  - text: "疑惑\\n"
+    translated: "Doubtful\\n"
+- raw: "+地图标记"
+  splits:
+  - text: "+地图标记"
+    translated: "Map Markers"
+- raw: "可能掉落的物品"
+  splits:
+  - text: "可能掉落的物品"
+    translated: "Items that may drop"
+- raw: "材料材料 - 五阶"
+  splits:
+  - text: "材料材料 - 五阶"
+    translated: "Materials materials ‑ Tier 5"
 - raw: "[旁山险路]"
   splits:
   - text: "[旁山险路]"
@@ -7284,14 +7304,6 @@
   splits:
   - text: "查看掉落物"
     translated: "View Dropped Items"
-- raw: "可能掉落的物品"
-  splits:
-  - text: "可能掉落的物品"
-    translated: "Items that may drop"
-- raw: "材料材料 - 五阶"
-  splits:
-  - text: "材料材料 - 五阶"
-    translated: "Materials materials ‑ Tier 5"
 - raw: "删 除"
   splits:
   - text: "删 除"
@@ -7984,6 +7996,18 @@
   splits:
   - text: "天工"
     translated: "Work of heaven"
+- raw: "主动招式"
+  splits:
+  - text: "主动招式"
+    translated: "Proactive technique"
+- raw: "秘技秘法"
+  splits:
+  - text: "秘技秘法"
+    translated: "Secret Techniques and Spells"
+- raw: "替换"
+  splits:
+  - text: "替换"
+    translated: "Replace"
 - raw: "建筑收益"
   splits:
   - text: "建筑收益"
@@ -8340,10 +8364,6 @@
   splits:
   - text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
     translated: "To view the inventory, you need to increase your affection with this character.\\nThose skilled in martial arts are also capable of directly discerning truth from deception."
-- raw: "主动招式"
-  splits:
-  - text: "主动招式"
-    translated: "Proactive technique"
 - raw: "秘传绝技"
   splits:
   - text: "秘传绝技"
@@ -8588,6 +8608,10 @@
   splits:
   - text: "丢失的大刀"
     translated: "Lost great blade"
+- raw: "好感"
+  splits:
+  - text: "好感"
+    translated: "Affection"
 - raw: "青龙发生发大水"
   splits:
   - text: "青龙发生发大水"
@@ -8776,14 +8800,18 @@
   splits:
   - text: "条件：对方拥有秘传绝技技能，且拜对方为师"
     translated: "Condition: The other party possesses secret, unique techniques and has taken them as a master."
-- raw: "情分值：10000"
+- raw: "当前情分值"
   splits:
-  - text: "情分值：10000"
-    translated: "Affection score: 10000"
+  - text: "当前情分值"
+    translated: "Current affection value"
 - raw: "互通姓名"
   splits:
   - text: "互通姓名"
     translated: "Exchange names"
+- raw: "行走"
+  splits:
+  - text: "行走"
+    translated: "Traveler"
 - raw: "佛学"
   splits:
   - text: "佛学"
@@ -9564,6 +9592,10 @@
   splits:
   - text: "批量操作"
     translated: "Batch operation"
+- raw: "已持有:48000"
+  splits:
+  - text: "已持有:48000"
+    translated: "Already possess: 48000"
 - raw: "助情花"
   splits:
   - text: "助情花"
@@ -9776,6 +9808,14 @@
   splits:
   - text: "尚未知晓"
     translated: "Not yet known"
+- raw: "角色技能使用"
+  splits:
+  - text: "角色技能使用"
+    translated: "Character skill usage"
+- raw: "点击右下角按钮"
+  splits:
+  - text: "点击右下角按钮"
+    translated: "Click the button in the lower right corner."
 - raw: "心窍"
   splits:
   - text: "心窍"

@@ -16,33 +16,21 @@
 - raw: "身轻如燕"
   splits:
   - text: "身轻如燕"
-- raw: "个人成就"
+- raw: "剧情"
   splits:
-  - text: "个人成就"
-- raw: "齐国区域"
-  splits:
-  - text: "齐国区域"
-- raw: "楚国区域"
-  splits:
-  - text: "楚国区域"
-- raw: "燕国区域"
-  splits:
-  - text: "燕国区域"
-- raw: "关外沙漠"
-  splits:
-  - text: "关外沙漠"
-- raw: "南沙群岛"
-  splits:
-  - text: "南沙群岛"
-- raw: "不夜京"
-  splits:
-  - text: "不夜京"
-- raw: "武学"
-  splits:
-  - text: "武学"
+  - text: "剧情"
 - raw: "身份"
   splits:
   - text: "身份"
+- raw: "探索"
+  splits:
+  - text: "探索"
+- raw: "门派"
+  splits:
+  - text: "门派"
+- raw: "武学"
+  splits:
+  - text: "武学"
 - raw: "奇遇"
   splits:
   - text: "奇遇"
@@ -79,6 +67,9 @@
 - raw: "百战身未败，剑光寒过霜。独行谁与敌，"
   splits:
   - text: "百战身未败，剑光寒过霜。独行谁与敌，"
+- raw: "燕国区域"
+  splits:
+  - text: "燕国区域"
 - raw: "一键领取"
   splits:
   - text: "一键领取"
@@ -100,15 +91,6 @@
 - raw: "总成就："
   splits:
   - text: "总成就："
-- raw: "齐国"
-  splits:
-  - text: "齐国"
-- raw: "楚国"
-  splits:
-  - text: "楚国"
-- raw: "燕国"
-  splits:
-  - text: "燕国"
 - raw: "获得声望："
   splits:
   - text: "获得声望："
@@ -1137,12 +1119,12 @@
 - raw: "废话不多说，现在材料也足够，就直接开始制作吧。"
   splits:
   - text: "废话不多说，现在材料也足够，就直接开始制作吧。"
-- raw: "苌净"
-  splits:
-  - text: "苌净"
 - raw: "未获得配方"
   splits:
   - text: "未获得配方"
+- raw: "苌净"
+  splits:
+  - text: "苌净"
 - raw: "基础材料"
   splits:
   - text: "基础材料"
@@ -1368,6 +1350,9 @@
 - raw: "自动存档"
   splits:
   - text: "自动存档"
+- raw: "游戏加载中..."
+  splits:
+  - text: "游戏加载中..."
 - raw: "存档"
   splits:
   - text: "存档"
@@ -1567,9 +1552,6 @@
 - raw: "请问钓鱼翁在哪"
   splits:
   - text: "请问钓鱼翁在哪"
-- raw: "剧情"
-  splits:
-  - text: "剧情"
 - raw: "汪直打不赢啊"
   splits:
   - text: "汪直打不赢啊"
@@ -2692,9 +2674,24 @@
 - raw: "角色未开放\\n敬请期待"
   splits:
   - text: "角色未开放\\n敬请期待"
-- raw: "通过一周目解锁"
+- raw: "该身份线暂未解锁"
   splits:
-  - text: "通过一周目解锁"
+  - text: "该身份线暂未解锁"
+- raw: "1.  该身份线难度极高，建议一周目后体验"
+  splits:
+  - text: "1.  该身份线难度极高，建议一周目后体验"
+- raw: "2、大侠们可在“将门虎子剧情线-主线任务到达查探任务时-\"选择归隐田园结局”，即可开启后续多周目的所有剧情、难度选择。"
+  splits:
+  - text: "2、大侠们可在“将门虎子剧情线-主线任务到达查探任务时-\"选择归隐田园结局”，即可开启后续多周目的所有剧情、难度选择。"
+- raw: "3.  每个剧情主角的出身点、故事都是全新独立的体验"
+  splits:
+  - text: "3.  每个剧情主角的出身点、故事都是全新独立的体验"
+- raw: "4.  真实江湖模式更接近武侠小说的体验!以武学、内功为主"
+  splits:
+  - text: "4.  真实江湖模式更接近武侠小说的体验!以武学、内功为主"
+- raw: "5.  险恶江湖、爽文江湖适合喜欢刷词条、刷刷刷的大侠们"
+  splits:
+  - text: "5.  险恶江湖、爽文江湖适合喜欢刷词条、刷刷刷的大侠们"
 - raw: "[人物简介]"
   splits:
   - text: "[人物简介]"
@@ -3175,12 +3172,24 @@
 - raw: "萍水相逢"
   splits:
   - text: "萍水相逢"
+- raw: "齐国"
+  splits:
+  - text: "齐国"
+- raw: "楚国"
+  splits:
+  - text: "楚国"
+- raw: "燕国"
+  splits:
+  - text: "燕国"
 - raw: "关外"
   splits:
   - text: "关外"
 - raw: "海外"
   splits:
   - text: "海外"
+- raw: "不夜京"
+  splits:
+  - text: "不夜京"
 - raw: "嵩山派"
   splits:
   - text: "嵩山派"
@@ -4750,21 +4759,6 @@
 - raw: "结束"
   splits:
   - text: "结束"
-- raw: "将军门"
-  splits:
-  - text: "将军门"
-- raw: "江湖初识"
-  splits:
-  - text: "江湖初识"
-- raw: "来信+2"
-  splits:
-  - text: "来信+2"
-- raw: "好感"
-  splits:
-  - text: "好感"
-- raw: "门派"
-  splits:
-  - text: "门派"
 - raw: "生死与共"
   splits:
   - text: "生死与共"
@@ -5153,6 +5147,9 @@
 - raw: "消息"
   splits:
   - text: "消息"
+- raw: "江湖传闻"
+  splits:
+  - text: "江湖传闻"
 - raw: "外观/捏脸"
   splits:
   - text: "外观/捏脸"
@@ -5231,6 +5228,12 @@
 - raw: "清除所有标记"
   splits:
   - text: "清除所有标记"
+- raw: "删除标记"
+  splits:
+  - text: "删除标记"
+- raw: "删除所有标记"
+  splits:
+  - text: "删除所有标记"
 - raw: "发生什么事了"
   splits:
   - text: "发生什么事了"
@@ -5450,6 +5453,18 @@
 - raw: "按住拖拽以多选目标"
   splits:
   - text: "按住拖拽以多选目标"
+- raw: "疑惑\\n"
+  splits:
+  - text: "疑惑\\n"
+- raw: "+地图标记"
+  splits:
+  - text: "+地图标记"
+- raw: "可能掉落的物品"
+  splits:
+  - text: "可能掉落的物品"
+- raw: "材料材料 - 五阶"
+  splits:
+  - text: "材料材料 - 五阶"
 - raw: "[旁山险路]"
   splits:
   - text: "[旁山险路]"
@@ -5465,12 +5480,6 @@
 - raw: "查看掉落物"
   splits:
   - text: "查看掉落物"
-- raw: "可能掉落的物品"
-  splits:
-  - text: "可能掉落的物品"
-- raw: "材料材料 - 五阶"
-  splits:
-  - text: "材料材料 - 五阶"
 - raw: "删 除"
   splits:
   - text: "删 除"
@@ -5990,6 +5999,15 @@
 - raw: "天工"
   splits:
   - text: "天工"
+- raw: "主动招式"
+  splits:
+  - text: "主动招式"
+- raw: "秘技秘法"
+  splits:
+  - text: "秘技秘法"
+- raw: "替换"
+  splits:
+  - text: "替换"
 - raw: "建筑收益"
   splits:
   - text: "建筑收益"
@@ -6257,9 +6275,6 @@
 - raw: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
   splits:
   - text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
-- raw: "主动招式"
-  splits:
-  - text: "主动招式"
 - raw: "秘传绝技"
   splits:
   - text: "秘传绝技"
@@ -6443,6 +6458,9 @@
 - raw: "丢失的大刀"
   splits:
   - text: "丢失的大刀"
+- raw: "好感"
+  splits:
+  - text: "好感"
 - raw: "青龙发生发大水"
   splits:
   - text: "青龙发生发大水"
@@ -6584,12 +6602,15 @@
 - raw: "条件：对方拥有秘传绝技技能，且拜对方为师"
   splits:
   - text: "条件：对方拥有秘传绝技技能，且拜对方为师"
-- raw: "情分值：10000"
+- raw: "当前情分值"
   splits:
-  - text: "情分值：10000"
+  - text: "当前情分值"
 - raw: "互通姓名"
   splits:
   - text: "互通姓名"
+- raw: "行走"
+  splits:
+  - text: "行走"
 - raw: "佛学"
   splits:
   - text: "佛学"
@@ -7175,6 +7196,9 @@
 - raw: "批量操作"
   splits:
   - text: "批量操作"
+- raw: "已持有:48000"
+  splits:
+  - text: "已持有:48000"
 - raw: "助情花"
   splits:
   - text: "助情花"
@@ -7334,6 +7358,12 @@
 - raw: "尚未知晓"
   splits:
   - text: "尚未知晓"
+- raw: "角色技能使用"
+  splits:
+  - text: "角色技能使用"
+- raw: "点击右下角按钮"
+  splits:
+  - text: "点击右下角按钮"
 - raw: "心窍"
   splits:
   - text: "心窍"
