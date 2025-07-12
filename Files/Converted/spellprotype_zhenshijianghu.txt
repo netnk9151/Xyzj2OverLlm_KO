@@ -2426,6 +2426,16 @@
   splits: []
 - raw: "1401#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#83181#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits: []
+- raw: "1402#0##0###0#0#1####0#####0#0#0#0#0#20372#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits: []
+- raw: "1403#0##0###0#0#1####0#####0#0#0#0#0#20381#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
+- raw: "1404#0##0###0#0#1####0#####0#0#0#0#0#20411#20412#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
+- raw: "1405#0##0###0#0#1####0#####0#0#0#0#0#20373#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
+- raw: "1406#0##0###0#0#1####0#####0#0#0#0#0#20511#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#0#0#0#0#"
+  splits: []
 - raw: "2001#0#机制技能·空#0#0#jian12#33#0#1#0#0#0#0#0#0#0#0#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0.0#0.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -6793,6 +6803,28 @@
   - split: 11
     text: "锁定目标周围2米"
     translated: "Lock onto target within 2 meters"
+- raw: "105100#0#追魂十三式#11#剑光如暴雨梨花，十三式连环刺出，专攻对手咽喉、心口、太阳穴等要害，剑尖震颤间可封锁对手退路。#1510#2167#0#0#0#0#5米锁定目标#0#0#spell_100640_go#sfx_main_hero_100640&0&true&true#0#0#0#0#0#300#1051001#1051000#1051000#1051002#1051000#0#0#0#0#0#166#533#766#800#1000#0#0#0#0#0#0#sfx_main_hero_100640#0#65#0#20000#0#3#0#0#4#0#0##0#0#1#3#2.0#90.0#0#0#0#0#0#0#0#0##4#0#0#1.6#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "追魂十三式"
+    translated: "Thirteen Steps of Pursuing Souls"
+  - split: 4
+    text: "剑光如暴雨梨花，十三式连环刺出，专攻对手咽喉、心口、太阳穴等要害，剑尖震颤间可封锁对手退路。"
+    translated: "The swordlight flashed like a spring rain of plum blossoms as thirteen consecutive strikes were unleashed, targeting the opponent's throat, chest, and temples‑vital points. Between each trembling thrust, the blade could block any chance for retreat."
+  - split: 11
+    text: "5米锁定目标"
+    translated: "5 meters to lock onto target"
+- raw: "105200#0#天遁游影#11#剑势忽隐忽现，似攻非攻，实则暗藏《易经》“遁卦”之理。对手若强行格挡，剑尖陡然转向，专攻其旧力已尽、新力未生之际。#1520#2200#0#0#0#0#4米锁定目标#0#0#spell_100650_go#sfx_main_hero_100650&0&true&true#0#0#0#0#0#300#1052000#1052001#1052000#1052000#1052000#0#0#0#0#0#266#333#500#733#1100#0#0#0#0#0#0#sfx_main_hero_100650#0#65#0#20000#0#3#0#0#4#0#0##0#0#2#3#2.0#90.0#0#0#0#0#0#0#0#0##4#0#0#1.66#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "天遁游影"
+    translated: "Shadow Walking through Celestial Escape"
+  - split: 4
+    text: "剑势忽隐忽现，似攻非攻，实则暗藏《易经》“遁卦”之理。对手若强行格挡，剑尖陡然转向，专攻其旧力已尽、新力未生之际。"
+    translated: "The swordplay appears and disappears unexpectedly, seeming aggressive but non‑aggressive in reality‑it subtly embodies the principle of the Evading Hexagram from the I Ching. If an opponent attempts to block forcefully, the tip of the sword suddenly shifts direction, targeting the moment when their old strength has depleted, and new strength has yet to emerge."
+  - split: 11
+    text: "4米锁定目标"
+    translated: "4 meters locked onto target"
 - raw: "110000#0#破釜沉舟#11#破釜沉舟，置死地而后生，竭力一击，刀劲四溅。#dao_1000#666#0#0#0#0#身前1.5米180度扇形#0#0#spell_110010_go#sfx_main_hero_110010&0&true&true#0#0#0#0#0#81#1100000#0#0#0#0#0#0#0#0#41028#333#0#0#0#0#0#0#0#0#333#0#sound_spell_110010_go#0#0#0#15000#1#3#0#0#1#0#0#0#35#5#1#3#1.5#90.0#0#0#0#0#0#0#0#0##1#0#0#0.4#0#1#0#0#0#"
   splits:
   - split: 2
@@ -10971,7 +11003,7 @@
     translated: "All in One Gamble · Heaven and Earth"
   - split: 4
     text: "\"乾坤者，易之门户\"，此术逆改阴阳，非大毅力者不可轻用"
-    translated: "\"Gankun is the gateway to Yi. This technique reverses yin and yang; only those with great resolve dare to use it lightly.\""
+    translated: "\"The Qian Kun is the gateway to the Yi; this technique reverses Yin and Yang and should not be used lightly by those lacking great strength.\""
 - raw: "153411#0##0###0#0#1####0#####0#0#0#0#0#1534101#1534102#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
   splits: []
 - raw: "153412#0##0###0#0#1####0#####0#0#0#0#0#1534104#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
@@ -10985,6 +11017,26 @@
     text: "仰首饮尽壶中酒，酒气凝成骰影，中者如坠云梦。"
     translated: "Raising his head to drink all the wine from the pot, he was so inebriated that it seemed as if he had fallen into a dream."
 - raw: "153421#0##0###0#0#1####0#####0#0#0#0#0#1534202#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits: []
+- raw: "153500#0#乾坤挪移#1#以内力感知对手劲力方向，顺势牵引，使其自伤。#xinfa1242#5667#2#0#0#0#0#0#0#spell_120570_go#sfx_main_hero_120570&0&true&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#sfx_main_hero_120570#0#65#0#90000#4#4#0#0#4#0#0##0#0#-1#0#0.0#0.0#1|2017&2|2018&3|2019&4|2020#153501#0#9313#0#0#0#0##4#0#0#0.0#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "乾坤挪移"
+    translated: "Shifting of Heaven and Earth"
+  - split: 4
+    text: "以内力感知对手劲力方向，顺势牵引，使其自伤。"
+    translated: "Sense the opponent's force direction using inner power and then subtly pull with the flow, causing them to harm themselves."
+- raw: "153501#0#乾坤挪移-运功#1#震退周围敌人，对敌人造成三次内功威力为150和一次内功威力为500的两次伤害##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1535001#1535004#1535005#1535000#1535006#0#0#0#0#0#333#700#1000#1000#3600#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#6#5.0#5.0#0#0#0#0#0#0#0#0##0#0#0#0.0#0#1#0#0#0#"
+  splits:
+  - split: 2
+    text: "乾坤挪移-运功"
+    translated: "Shifting of Heaven and Earth ‑ Channeling"
+  - split: 4
+    text: "震退周围敌人，对敌人造成三次内功威力为150和一次内功威力为500的两次伤害"
+    translated: "Repel nearby enemies and deal three instances of Neigong might at 150 damage and one instance of Neigong might at 500 damage."
+- raw: "153502#0##0###0#0#1####0#####0#0#0#0#0#1535007#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
+  splits: []
+- raw: "153503#0##0###0#0#1####0#####0#0#0#0#0#1535003#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###0#0#0#0#0##0#0#0#0##0#0#0#0#0.0#0.0#0#0#0#0#0##0###0#0##0.0##0##0#0#"
   splits: []
 - raw: "160000#0#飞花摘叶#11#暴雨倾盆，寒光更甚。以巧劲不断向身前扔出十字镖，练至深处可回旋，有概率额外造成伤害。#anqi_1000#1766#0#0#0#0#身前直线6米#0#0#spell_160020_go#sfx_main_hero_160020&0&true&true#0#0#0#0#0#81#1600000#1600000#1600000#1600000#1600000#0#0#0#0#41048#333#533#733#933#1133#0#0#0#0#1133#0#sound_spell_160100#0#0#0#9000#5#3#0#0#2#0#0#0#0#0#-1#2#6.0#1.6#0#0#0#0#0#0#0#0##2#0#0#1.2#0#1#0#0#0#"
   splits:
@@ -12064,7 +12116,7 @@
     translated: "Formulate strategies to take the initiative"
   - split: 4
     text: "黄沙百战穿金甲，不破楼兰终不还。剑可无视防具，直击敌人肺腑，给予重创。"
-    translated: "Through a hundred battles in the yellow sands he forged golden armor, yet without breaking through Loulan's defenses, he could not return. The sword can disregard armor and strike directly at an enemy's vital organs, delivering a severe blow."
+    translated: "After a hundred battles in the yellow sands and wearing golden armor, he would not return until he had broken Loulan. The sword can disregard armor, striking directly at an enemy's vital organs to deliver a devastating blow."
   - split: 11
     text: "自身周围1.5米圆形"
     translated: "A circular area within 1.5 meters of oneself."
@@ -12368,7 +12420,7 @@
     translated: "Three Purifications of Qi"
   - split: 4
     text: "天发杀机，移星易宿；地发杀机，龙蛇起陆；人发杀机，天地反覆。杀气贯长虹，或不止一剑之力。"
-    translated: "The heavens unleash a killing intent, stars shift and change their positions; the earth unleashes a killing intent, dragons and snakes rise from the land; humans unleash a killing intent, causing heaven and earth to turn against each other. A lethal force pierces through a rainbow, with power beyond that of just one strike of the sword."
+    translated: "The heavens unleash deathly intent, shifting stars and lodging new dwellings; the earth releases a deadly force, where dragons and serpents rise from the land. When humans unleash this fatal energy, heaven and earth turn upside down. The murderous aura pierces through the great rainbow, with power that may exceed the strength of a single sword strike."
   - split: 11
     text: "身前4米70度扇形"
     translated: "A fan‑shaped area spanning 4 meters ahead of 70."
@@ -12379,7 +12431,7 @@
     translated: "No Form, No Self"
   - split: 4
     text: "无我相，无人相，无众生相，无寿者相。剑气凌厉，让对手无从抵挡。"
-    translated: "There is no self‑identity, no identity of others, no faces of all beings, and no aspect of mortality. The sword energy is fierce, leaving the opponent with nothing to counter."
+    translated: "There is no self, no other, no faces of all beings, and no face of the long‑lived. The sword's aura is fierce, leaving the opponent with nowhere to defend."
 - raw: "300690#0#昆仑#11#天生天杀，道之理也。行迹诡谲。遵循道法，功威大增，一招即出威强无比。#1040#833#0#0#0#0#锁定2.5米敌人#0#0#spell_100032_go#sfx_main_hero_100032_1&0&false&true|sfx_main_hero_100032_2&198&false&true#0#2#0#0#0#182#256#1004000#0#0#0#0#0#0#0#0#198#398#0#0#0#0#0#0#0#0#0#sound_2_spell_100032_go#0#0#100400#20000#0#3#0#0#4#0#0#0#48#5#3#3#1.8#50.0#0#0#0#0#0#0#0#0##4#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -12398,7 +12450,7 @@
     translated: "Vast sea"
   - split: 4
     text: "天发杀机，移星易宿；地发杀机，龙蛇起陆；人发杀机，天地反覆。杀气贯长虹，或不止一剑之力。"
-    translated: "The heavens unleash a killing intent, stars shift and change their positions; the earth unleashes a killing intent, dragons and snakes rise from the land; humans unleash a killing intent, causing heaven and earth to turn against each other. A lethal force pierces through a rainbow, with power beyond that of just one strike of the sword."
+    translated: "The heavens unleash deathly intent, shifting stars and lodging new dwellings; the earth releases a deadly force, where dragons and serpents rise from the land. When humans unleash this fatal energy, heaven and earth turn upside down. The murderous aura pierces through the great rainbow, with power that may exceed the strength of a single sword strike."
   - split: 11
     text: "身前2米，半径2米圆形"
     translated: "A circular area with a radius of 2 meters, located 2 meters ahead."
@@ -12477,7 +12529,7 @@
     translated: "Light cast sideways"
   - split: 4
     text: "日薄西山，余光横照，紫翠重迭，不可殚数。剑光穿云而来，如长虹贯日，令人目眩。"
-    translated: "The sun dips behind the western hills, its lingering rays stretching across the landscape where layers of purple and green merge into an endless vista. Swordlight slices through the clouds like a long rainbow piercing the sun, dazzling onlookers with its brilliance."
+    translated: "The sun was setting behind the hills, casting a slanting light that illuminated layers upon layers of purple‑green hues, too numerous to count. The swordlight pierced through the clouds, like a long rainbow piercing the sun, dazzling the eyes."
   - split: 11
     text: "身前1.7米160度扇形"
     translated: "A sector of 160 degrees within a radius of 1.7 meters."
@@ -12518,7 +12570,7 @@
     translated: "Not required to return"
   - split: 4
     text: "青箬笠，绿蓑衣，斜风细雨不须归。弱之胜强，柔之胜刚；附伤提气，以增功威。"
-    translated: "A blue bamboo hat and green raincoat are all I need in the slanting wind and drizzling rain, with no hurry to return. Weakness overcomes strength; softness overcomes hardness. Drawing upon weakness boosts energy, enhancing power and might."
+    translated: "Cedar hat and green raincoat, in slanting wind and drizzling rain there's no need to return. The weak overcome the strong; the soft overcomes the hard. Attune to injuries and boost vitality to enhance strength and power."
 - raw: "300830#0#云龙九现#11#只待一朝风雷起，跳踉北海超昆仑。为获胜利，化用敌方血气为己所用。#1080#2277#0#0#0#0#身前1.9米，半径1.5米圆形#0#0#spell_100060_go#sfx_main_hero_100170&0&false&true#0#2#0#0#0#182#1008000#1008000#1008000#1008000#1008000#1008000#1008000#1008000#1008000#0#1000#1162#1324#1486#1648#1810#1972#2134#2296#0#0#sound_spell_100060_go#0#0#100800#20000#0#3#0#0#2#0#0#0#30#5#3#6#1.5#1.9#0#0#0#0#0#0#0#0##2#0#0#0#0#1#0#0#0#"
   splits:
   - split: 2
@@ -12627,7 +12679,7 @@
     translated: "Unpredictable as gods and ghosts"
   - split: 4
     text: "五更鼓角声悲壮，三峡星河影动摇。一剑若中，伤口剑意余留，难以疗愈。"
-    translated: "The gong sounds of the fifth watch were somber and majestic, while stars over the Three Gorges swayed in their reflections. A single strike with a sword would leave an injury that retained its lethal intent, difficult to heal."
+    translated: "At the fifth watch, the sound of gongs and horns was solemnly grand. The stars in the Three Gorges seemed to sway with their reflections. If struck by a single jian, the wound would retain its sword essence, making it difficult to heal."
   - split: 11
     text: "身前4米直线"
     translated: "A straight line of 4 meters ahead"
@@ -12638,7 +12690,7 @@
     translated: "As stars in the river sway"
   - split: 4
     text: "黄沙百战穿金甲，不破楼兰终不还。剑可无视防具，直击敌人肺腑，给予重创。"
-    translated: "Through a hundred battles in the yellow sands he forged golden armor, yet without breaking through Loulan's defenses, he could not return. The sword can disregard armor and strike directly at an enemy's vital organs, delivering a severe blow."
+    translated: "After a hundred battles in the yellow sands and wearing golden armor, he would not return until he had broken Loulan. The sword can disregard armor, striking directly at an enemy's vital organs to deliver a devastating blow."
   - split: 11
     text: "自身周围1.5米圆形"
     translated: "A circular area within 1.5 meters of oneself."
@@ -13186,7 +13238,7 @@
     translated: "Breaking the pots and sinking the boats"
   - split: 4
     text: "破釜沉舟，置死地而后生，竭力一击，刀劲四溅。"
-    translated: "Breaking the pots and sinking the boats; putting oneself in a desperate situation to achieve survival; exerting all strength for one strike, with the blade's force scattering in all directions."
+    translated: "Breaking the pots and sinking the boats, he found himself in a desperate situation with no way back; putting all his strength into one strike, the blade's force erupted outward."
   - split: 11
     text: "身前1.5米180度扇形"
     translated: "A fan‑shaped area extending 180 meters before 1.5."
@@ -13885,7 +13937,7 @@
     translated: "Clearing away clouds as a gale passes"
   - split: 4
     text: "风卷残云暮雪晴，江烟洗尽柳条轻。"
-    translated: "The wind sweeps away the remnants of clouds; at dusk, snow clears. The river's mist is washed clean as the willow branches sway gently."
+    translated: "The wind scatters the remaining clouds; at dusk, snow clears into calm by Xueqing. The river mist washes away, leaving the willow branches light and delicate."
   - split: 11
     text: "身前5米直线"
     translated: "A straight line of 5 meters in front."
@@ -14027,7 +14079,7 @@
     translated: "All in Gamble"
   - split: 4
     text: "冠枪朝凤阙，涤荡万千，乾坤一掷。"
-    translated: "Wielding the spear towards Phoenix Palace, clearing through ten thousand layers, an all‑in gamble."
+    translated: "The Spear of the Crown targets the Phoenix Gate, sweeping across thousands. An all‑in gamble!"
   - split: 11
     text: "前方直线5米"
     translated: "Straight ahead is 5 meters"
@@ -16800,7 +16852,7 @@
     translated: "Blown away by the wind"
   - split: 4
     text: "风卷残云暮雪晴，江烟洗尽柳条轻。"
-    translated: "The wind sweeps away the lingering clouds; as snow clears in the evening light. The river's mist is washed clean, leaving the willow branches light and delicate."
+    translated: "The wind scatters the remaining clouds; at dusk, snow clears into calm by Xueqing. The river mist washes away, leaving the willow branches light and delicate."
 - raw: "1951020#0#紫凤流云#7#九州生气风雷新，紫凤东去暮流云。#qiang103#2666#2#2#0#0#0#0#0#spell_103_go#sfx_xinfa_212&0&true&true#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#3#0#0.0#0.0#0#1951021#0#0#0#0#0#0##0#0#0#0#72010|72020|72030#0#0#0#0#"
   splits:
   - split: 2
@@ -17151,7 +17203,7 @@
     translated: "Fiery Trial"
   - split: 4
     text: "一刃汇千击，太玄之息，谓太初之真。"
-    translated: "One strike gathers a thousand blows; the breath of Taiyuan is called the true essence of Primordial Origin."
+    translated: "One strike unites a thousand blows, the breath of Taixuan; it is said to be the true essence of Primordial Origin."
   - split: 11
     text: "身前4.3米直线"
     translated: "A straight line of 4.3 meters ahead."
@@ -18107,7 +18159,7 @@
     translated: "Unpredictable as gods and ghosts"
   - split: 4
     text: "五更鼓角声悲壮，三峡星河影动摇。一剑若中，伤口剑意余留，难以疗愈。"
-    translated: "The bugle sounds mournfully at the fifth watch; the starry river in the Three Gorges trembles. If struck by a single jian, the wound leaves lingering intent of the blade, making it hard to heal."
+    translated: "At the fifth watch, the sound of gongs and horns was solemnly grand. The stars in the Three Gorges seemed to sway with their reflections. If struck by a single jian, the wound would retain its sword essence, making it difficult to heal."
   - split: 11
     text: "身前1.5米、2米、2.5米、3米半径1米圆形"
     translated: "A circular area with a radius of 1 meters, located at 1.5 meters ahead, 2 meters to the left, 2.5 meters behind, and 3 meters to the right."
@@ -18118,7 +18170,7 @@
     translated: "Formulate strategies to take the initiative"
   - split: 4
     text: "黄沙百战穿金甲，不破楼兰终不还。剑可无视防具，直击敌人肺腑，给予重创。"
-    translated: "Amidst a hundred battles in the golden armor of Huoshan, it is not until Lo‑lang is breached that one can return. The sword can penetrate armor and strike directly at an enemy's vital organs, inflicting critical damage."
+    translated: "After a hundred battles in the yellow sands and wearing golden armor, he would not return until he had broken Loulan. The sword can disregard armor, striking directly at an enemy's vital organs to deliver a devastating blow."
   - split: 11
     text: "自身周围1.5米圆形"
     translated: "A circular area within 1.5 meters of oneself."
@@ -19469,7 +19521,7 @@
     translated: "One Yang"
   - split: 4
     text: "初境者可隔空点人三丈大穴，中者如遭火针刺骨，半身气滞；臻境后指风隐现赤芒，可穿透三层玄铁甲，封敌任督要脉."
-    translated: "Novices can target a large wound three zhang away with their palms, causing excruciating pain to the victim as if pierced by red‑hot needles straight into the bone, leaving them half‑paralyzed. Once they reach mastery, their fingertips emit an invisible red glow that can pierce through armor made of three layers of dark steel and seal off the enemy's vital meridian pathways."
+    translated: "At the initial stage, practitioners can target an opponent at a distance of thirty feet, creating large wounds; if hit, it feels as though fire needles are piercing the bones, causing stagnation in half the body. Upon reaching maturity, their fingers emit hidden red beams that can penetrate three layers of dark steel armor and block an enemy's vital meridian points."
   - split: 11
     text: "身前直线3米"
     translated: "A straight line extending 3 meters in front."
@@ -19480,7 +19532,7 @@
     translated: "Shao Ze"
   - split: 4
     text: "剑气自手太阳小肠经少泽穴迸发，初时细若游丝，破空无声，三丈内可洞穿柳叶而不惊飞鸟。中招者初觉肌肤微凉，三息后寒气透骨，手足僵麻如坠冰窟。"
-    translated: "The sword energy from the hand surged through the Great Yang Small Intestine Meridian and erupted at the Shao Ze point. Initially fine like a spider's thread, it pierced the air silently and could penetrate willow leaves without disturbing the birds within three zhang. Those struck initially felt their skin grow slightly cool, but after three breaths, the cold seeped into their bones, causing their limbs to become numb as if they were trapped in an icy cavern."
+    translated: "The sword energy emanating from the hand flowed through the Great Yang Small Intestine Meridian and burst forth at the Shao Ze Acupoint. At first, it was as fine as spider silk, silently piercing the air; within three feet, it could penetrate mulberry leaves without alarming a bird in flight. Those struck by this energy initially felt a slight coolness on their skin; after three breaths, the chill seeped into their bones, causing their limbs to become numb and stiff as if submerged in an icy cave."
   - split: 11
     text: "身前直线6米"
     translated: "Straight ahead 6 meters"
@@ -19491,7 +19543,7 @@
     translated: "Little Charge"
   - split: 4
     text: "剑气化虹，轻灵迅疾，以内力凝剑风，贯敌三焦经脉。根据内攻属性造成伤害，并击穿目标的部分内防。"
-    translated: "Sword energy transforms into a rainbow, swift and agile; with inner power condensing the sword wind to penetrate the enemy's three jiao meridians. It inflicts damage based on its internal attack attribute and penetrates part of the target's internal defense."
+    translated: "The sword energy transformed into a rainbow, swift and agile. It condensed the sword wind with inner power to penetrate through the enemy's three burner meridians. Based on its internal attack attribute, it inflicted damage and pierced through part of the target's internal defense."
   - split: 11
     text: "身前直线7米"
     translated: "A straight line of 7 meters ahead"
@@ -19502,7 +19554,7 @@
     translated: "Pass through the pass"
   - split: 4
     text: "气锁玄关，沉浑如铁，封敌气海要穴，使其形滞神僵。定身命中目标。"
-    translated: "Seal the mystical gateway with a surge of energy as dense as iron, targeting and locking onto your opponent's vital Qi sea point. This immobilizes their form and paralyzes their spirit. Securely pin down the intended target."
+    translated: "Seal the Mystical Gate with Qi, firm as iron, block the enemy's vital acupoints in their lung and energy centers, rendering them motionless and numb. Successfully immobilize the target."
   - split: 11
     text: "身前直线7米"
     translated: "A straight line of 7 meters ahead"
@@ -19513,7 +19565,7 @@
     translated: "Ming Dynasty"
   - split: 4
     text: "气撼山河，刚猛无俦，罡风卷地十丈，破阵摧坚首选。击退身前敌人。"
-    translated: "The wind shakes the mountains and rivers; its force unparalleled. A gale sweeps across ten yards of earth, ideal for breaking formations and shattering defenses. It repels enemies that approach from the front."
+    translated: "A force that shakes mountains and rivers, unmatched in its hardness and strength. A gust of wind sweeps across the ground ten paces wide, breaking formations and crushing fortifications. It is the premier choice for repelling enemies ahead."
   - split: 11
     text: "身前直线7米"
     translated: "A straight line of 7 meters ahead"
@@ -19524,7 +19576,7 @@
     translated: "Shang Yang"
   - split: 4
     text: "气贯周天，连环不绝，催动内劲暴涨，剑指所向披靡。短暂提升自身输出。"
-    translated: "Breath flows through the cosmos in an unbroken chain, unleashing internal power that surges dramatically. With sword pointed forward, opposition is effortlessly scattered. Results in a brief boost to personal output."
+    translated: "Breathing fills the heavens, an unbroken chain of energy, rapidly enhancing internal power. Directing one's intent with a sword, overpowering all resistance. Briefly boosts personal attack output."
   - split: 11
     text: "身前直线7米"
     translated: "A straight line of 7 meters ahead"
@@ -19535,7 +19587,7 @@
     translated: "Lesser Commercial Official"
   - split: 4
     text: "气断生死，石破天惊，碎敌疗愈生机，反哺持剑之人。击破目标身死的定身效果，使目标无法获得治疗，同时自身获得内攻、命中加成。"
-    translated: "Separate life and death with a surge of energy; break through rock in shock; shatter enemies and bring about healing vitality. This benefits those who wield the sword. It ensures that once a target is struck and falls, they are immobilized and unable to receive healing, while simultaneously granting the wielder an internal attack boost and increased accuracy."
+    translated: "Separate life and death with a breath; shatter the heavens in astonishment. Shatter enemies to heal and revive vitality, benefiting those who wield the sword. The immobilization effect of defeating an enemy results in their inability to receive healing, while simultaneously granting oneself internal attack benefits and increased hit rate."
   - split: 11
     text: "身前直线7米"
     translated: "A straight line of 7 meters ahead"
@@ -20806,7 +20858,7 @@
     translated: "One cut, a thousand strikes"
   - split: 4
     text: "一刃汇千击，太玄之息，谓太初之真。"
-    translated: "One strike gathers a thousand blows; the breath of Taiyuan is called the true essence of Primordial Origin."
+    translated: "One strike unites a thousand blows, the breath of Taixuan; it is said to be the true essence of Primordial Origin."
   - split: 11
     text: "身前4.3米直线"
     translated: "A straight line of 4.3 meters ahead."
@@ -20891,7 +20943,7 @@
     translated: "Vast sea"
   - split: 4
     text: "天发杀机，移星易宿；地发杀机，龙蛇起陆；人发杀机，天地反覆。杀气贯长虹，或不止一剑之力。"
-    translated: "When the heavens release a killing intent, stars shift and change position; when the earth releases a killing intent, dragons and serpents rise from the land. When humans unleash a killing intent, heaven and earth turn upside down. The deadly energy pierces across the rainbow, sometimes not with the force of just one sword strike."
+    translated: "The heavens unleash deathly intent, shifting stars and lodging new dwellings; the earth releases a deadly force, where dragons and serpents rise from the land. When humans unleash this fatal energy, heaven and earth turn upside down. The murderous aura pierces through the great rainbow, with power that may exceed the strength of a single sword strike."
   - split: 11
     text: "身前2米，半径2米圆形"
     translated: "A circular area with a radius of 2 meters, located 2 meters ahead."
@@ -20979,7 +21031,7 @@
     translated: "All in Gamble"
   - split: 4
     text: "冠枪朝凤阙，涤荡万千，乾坤一掷。"
-    translated: "Wielding the spear towards Phoenix Palace, clearing through ten thousand layers, an all‑in gamble."
+    translated: "The Spear of the Crown targets the Phoenix Gate, sweeping across thousands. An all‑in gamble!"
   - split: 11
     text: "前方直线5米"
     translated: "Straight ahead is 5 meters"
@@ -23451,7 +23503,7 @@
     translated: "True meaning of Dragon‑Subduing"
   - split: 4
     text: "此功以降龙为基，讲究先降后驭，内力叠加如龙脉连绵，以“刚猛无俦、后发制人”为要旨，内力雄浑如怒涛叠浪。"
-    translated: "This skill is based on Dragon Subduing and emphasizes the principle of subdue first, then control. The inner power builds up like a continuous dragon vein, embodying the essence of being unmatched in strength and striking decisively. Its inner force is as powerful and overwhelming as successive waves of a raging torrent."
+    translated: "This technique is based on Dragon‑Subduing, emphasizing first subduing then controlling. The inner power layers like continuous dragon veins, focusing on the principle of unmatched ferocity and seizing victory with a later move. The inner power flows robustly like successive waves of an angry tide."
 - raw: "10060014#0#北冥气域#0#取“海纳百川”之意，修习者需以丹田为海，周身穴窍为川，纳万物精气为己用，然若根基不稳，反遭反噬，经脉尽毁。#quan_1043#0#1#0####0#####0#0#0#0#0#31640200#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###8#0#0#4#0##0#4#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0##0###4#0##0.0##1##0#0#"
   splits:
   - split: 2
@@ -23459,7 +23511,7 @@
     translated: "Northern Abyssal Realm"
   - split: 4
     text: "取“海纳百川”之意，修习者需以丹田为海，周身穴窍为川，纳万物精气为己用，然若根基不稳，反遭反噬，经脉尽毁。"
-    translated: "Embracing the meaning of embracing all streams into the ocean, the practitioner must use their dantian as the sea and meridian points throughout the body as rivers, absorbing the essence of myriad things for personal use. However, if one's foundation is unstable, they risk being consumed by it, resulting in the complete destruction of their meridians."
+    translated: "Embracing the meaning of embracing all streams into the ocean, practitioners should use their dantian as the ocean and meridians throughout the body as rivers. They must absorb the essences of myriad things for personal use; however, if their foundation is unstable, they risk suffering a backlash that could destroy their meridians entirely."
 - raw: "10060015#0#惊天变#0#沉气凝神，气势翻涌，引动天地异象。罡气如魔神开天，气爆连环。#quan_1050#0#1#0####0#####0#0#0#0#0#100600150#100600151#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0###8#0#0#4#0##0#4#0#0##0#0#-1#0#0.0#0.0#0#0#0#0#0##0###4#0##0.0##1##0#0#"
   splits:
   - split: 2
@@ -23618,7 +23670,7 @@
     translated: "Desolate conflagration"
   - split: 4
     text: "破釜沉舟，置死地而后生，竭力一击，刀劲四溅。"
-    translated: "Breaking the pots and sinking the boats, creating a situation of death to seek life afterward, exerting all strength in one strike‑sword force scattering in four directions."
+    translated: "Breaking the pots and sinking the boats, he found himself in a desperate situation with no way back; putting all his strength into one strike, the blade's force erupted outward."
 - raw: "30103830#0#决明#3#杀心弥身，生死不畏，刀自癫狂人亦狂。#dao97#2706#0#2#0#0#0#0#0#spell_11007_go#sfx_main_hero_11007&0&false#0#0#180#2#0#0#70#0#0#0#0#0#0#0#0#0#1155#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#0#5#0#-1#3#1.2#70.0#0#0#0#0#0#0#0#0##0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 2
@@ -23675,7 +23727,7 @@
     translated: "One cut, a thousand strikes"
   - split: 4
     text: "一刃汇千击，太玄之息，谓太初之真。"
-    translated: "One strike unites a thousand blows, a breath of Tai Xuan; it is called the true essence of Primordial Origin."
+    translated: "One strike unites a thousand blows, the breath of Taixuan; it is said to be the true essence of Primordial Origin."
   - split: 11
     text: "身前4.3米直线"
     translated: "A straight line of 4.3 meters ahead."
@@ -24050,7 +24102,7 @@
     translated: "Indicate a position"
   - split: 4
     text: "指法招式，烟水苍茫斜阳烬，玉阶无尘越云泽。"
-    translated: "Fighting techniques and forms, the smoke of water is a vast twilight glow; jade steps are dust‑free, traversing beyond the cloud‑covered marshes."
+    translated: "Finger techniques and moves, the smoke and water blend into a slanted sunset glow, while the jade steps remain dust‑free above the clouds in Yue Lake."
   - split: 11
     text: "身前6米直线"
     translated: "Straight line of 6 meters ahead"
@@ -24061,7 +24113,7 @@
     translated: "Zhi Gui Zhen"
   - split: 4
     text: "指法招式，分行百里，苍涯神错，江汉渺渺。"
-    translated: "Fist techniques cover a hundred miles; Cyan Void's divine deception; Jianghan stretches far and wide."
+    translated: "The technique of finger skills is so precise that it can cover a hundred miles. The azure horizon reveals divine illusions, and the Yangtze River stretches endlessly"
   - split: 11
     text: "身前6米直线"
     translated: "Straight line of 6 meters ahead"

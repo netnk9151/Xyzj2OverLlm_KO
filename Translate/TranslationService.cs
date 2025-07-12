@@ -29,11 +29,10 @@ public static class TranslationService
             //new() {Path = "custom_data.txt", Output = true, OutputRawResource = true},
             //new() {Path = "born_points.txt", Output = true},
             //new() {Path = "emoji.txt", PackageOutput = true},
-         
-            new() {Path = "living_assemblyskill.txt", PackageOutput = true },
-            new() {Path = "living_assemblyskill_zhenshijianghu.txt", PackageOutput = true },
-            new() {Path = "questprototype.txt", PackageOutput = true },
+            
             new() {Path = "achievement.txt", PackageOutput = true},
+            new() {Path = "achievement_xianejianghu.txt", PackageOutput = true},
+            new() {Path = "achievement_zhenshijianghu.txt", PackageOutput = true},
             new() {Path = "buildprototype.txt", PackageOutput = true},
             new() {Path = "cardinfo.txt", PackageOutput = true},
             new() {Path = "chuanwenprototype.txt", PackageOutput = true},
@@ -61,6 +60,8 @@ public static class TranslationService
             new() {Path = "keylist.txt", PackageOutput = true},
             new() {Path = "loadingpicture.txt", PackageOutput = true},
             new() {Path = "loadingtips.txt", PackageOutput = true},
+            new() {Path = "living_assemblyskill.txt", PackageOutput = true },
+            new() {Path = "living_assemblyskill_zhenshijianghu.txt", PackageOutput = true },            
             new() {Path = "makerplayer_prototype.txt", PackageOutput = true},
             new() {Path = "mapinfo.txt", PackageOutput = true},
             new() {Path = "map_area.txt", PackageOutput = true},
@@ -84,6 +85,7 @@ public static class TranslationService
             new() {Path = "pve_data.txt", PackageOutput = true},
             new() {Path = "qinggong_node.txt", PackageOutput = true},
             new() {Path = "questjiemi.txt", PackageOutput = true},
+            new() {Path = "questprototype.txt", PackageOutput = true },
             new() {Path = "randomname.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNamePrompt",
                 EnableGlossary = false, EnableBasePrompts = false, RemoveNumbers = true, NameCleanupRoutines = true},
             new() {Path = "randomnamenew.txt", PackageOutput = true, AdditionalPromptName = "FileRandomNameNewPrompt",
@@ -385,12 +387,25 @@ public static class TranslationService
                     }
                 }
                 else
-                    newCount++;
+                {
+                    // Try matching on split instead of line incase they changed line format
+                    foreach (var split in line.Splits)
+                    {
+                        var found2 = fileLines
+                            .Select(x => x.Splits.FirstOrDefault(s => s.Text == split.Text))
+                            .FirstOrDefault(s => s != null);
+
+                        if (found2 != null)
+                            split.Translated = found2.Translated;
+                        else
+                            newCount++;
+                    }
+                }
             }
 
             Console.WriteLine($"New Lines {textFileToTranslate.Path}: {newCount}");
 
-            if (newCount > 0 || exportLines.Count != fileLines.Count)
+            //if (newCount > 0 || exportLines.Count != fileLines.Count) //Always Write because they might have changed format
             {
                 var serializer = Yaml.CreateSerializer();
                 File.WriteAllText(outputFile, serializer.Serialize(exportLines));
@@ -425,7 +440,7 @@ public static class TranslationService
 
             foreach (var line in lines)
             {
-                foreach(var split in line.Splits)
+                foreach (var split in line.Splits)
                 {
                     if (!cache.ContainsKey(split.Text))
                         cache.Add(split.Text, split.Translated);
@@ -533,10 +548,10 @@ public static class TranslationService
                 {
                     if (string.IsNullOrEmpty(split.Text) || !split.SafeToTranslate)
                         return;
-                    
+
                     var cacheHit = translationCache.ContainsKey(split.Text)
                         // We use this for name files etc which will be in cache
-                        && textFileToTranslate.EnableGlossary; 
+                        && textFileToTranslate.EnableGlossary;
 
                     if (string.IsNullOrEmpty(split.Translated)
                         || forceRetranslation
@@ -1047,7 +1062,7 @@ public static class TranslationService
                 basePrompt.AppendLine(config.Prompts["DynamicCloseColorPrompt"]);
 
             if (raw.Contains("·"))
-                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);        
+                basePrompt.AppendLine(config.Prompts["DynamicSegement1Prompt"]);
 
             if (raw.Contains("<"))
             {

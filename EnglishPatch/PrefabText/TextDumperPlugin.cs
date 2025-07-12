@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
+using EnglishPatch.DynamicStrings;
 using HarmonyLib;
 using SweetPotato;
 using System;
@@ -21,7 +22,7 @@ public class TextDumperPlugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
 
     //Do not want dumper outside of development 
-    public static bool Enabled = false;
+    public static bool Enabled = StringDumperPlugin.Enabled;
 
     private void Awake()
     {

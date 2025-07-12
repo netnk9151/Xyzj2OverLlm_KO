@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.XR;
 using XUnity.ResourceRedirector;
 
 namespace EnglishPatch.Sprites
@@ -18,7 +19,7 @@ namespace EnglishPatch.Sprites
         private Dictionary<string, byte[]> _cachedReplacements = [];
         private List<string> _cachedSpriteNames = [];
         private string _spritesPath;
-        public static bool Enabled = false;
+        public static bool Enabled = !SpriteReplacerV2Plugin.Enabled;
 
         private void Awake()
         {
@@ -155,19 +156,26 @@ namespace EnglishPatch.Sprites
                 var shouldMatch = _cachedSpriteNames.Contains(child?.name) || _cachedSpriteNames.Contains(child.sprite?.name);
                 //var spritePath = child.GetObjectPath();
 
-                //Logger.LogMessage($"Sprite found: {spritePath}");
-
                 var spriteKey = PrepareSpriteKey(parentAssetName, child.sprite.name);
 
-                if (_cachedReplacements.TryGetValue(spriteKey, out var replacementTexture))
-                {
-                    child.sprite.texture.LoadImage(replacementTexture, false);
+                if (_cachedReplacements.TryGetValue(spriteKey, out var replacementBytes))
+                { 
+                    var originalTexture = child.sprite.texture;
+                    var texture = new Texture2D(originalTexture.width, originalTexture.height, originalTexture.format, false);
+                    texture.LoadImage(replacementBytes);
+
+                    // Ensure the rect fits within the new texture dimensions 
+                    var rect = child.sprite.rect;
+                    if (rect.width > texture.width || rect.height > texture.height)
+                    {
+                        Logger.LogWarning($"{spriteKey}: Texture dimensions are smaller than sprite rect, resizing");
+                        rect.width = Mathf.Min(rect.width, texture.width);
+                        rect.height = Mathf.Min(rect.height, texture.height);
+                    }
+
+                    child.sprite = Sprite.Create(texture, rect, child.sprite.pivot, child.sprite.pixelsPerUnit); 
                 }
-                //else if (shouldMatch)
-                //    Logger.LogError($"Did not match SpriteKey: {spriteKey}");
             }
-            //else
-            //Logger.LogMessage($"No Sprite: {spritePath}");
         }
 
         //private void ProcessTexture(AssetLoadedContext context, string fullPath)
