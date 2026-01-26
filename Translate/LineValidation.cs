@@ -1,11 +1,7 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Globalization;
-using System.Numerics;
+﻿using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 using Translate.Utility;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Translate;
 
@@ -14,6 +10,9 @@ public static partial class LineValidation
     public const string ChineseCharPattern = @".*\p{IsCJKUnifiedIdeographs}.*";
     public const string ChinesePlaceholderPattern = @"\{[a-zA-Z]*\s*\p{IsCJKUnifiedIdeographs}+\}";
     public const string PlaceholderMatchPattern = @"(\{[^{}]+\})";
+
+    // If you use Regexes in hot paths, compile them for performance
+    public static readonly Regex ChineseCharPatternCompiled = new Regex(ChineseCharPattern, RegexOptions.Compiled);
 
     public static string PrepareRaw(string raw, StringTokenReplacer? tokenReplacer)
     {
@@ -102,7 +101,8 @@ public static partial class LineValidation
                 .Replace("’", "'")
                 .Replace("‘", "'")
                 .Replace("—", "-")
-                .Replace("-", "\u2011"); //Change Hyphens to non breaking hyphens
+                .Replace("-", "\u2011") //Change Hyphens to non breaking hyphens
+                .Replace("{‑1}", "{-1}"); // Change special {-1} non breaking hyphen back to normal hyphen
 
             //Strip .'s
             //if (result.EndsWith('.') && !raw.EndsWith(".") && !result.EndsWith(".."))
@@ -369,7 +369,8 @@ public static partial class LineValidation
         }
 
         if (raw.Contains('<') && raw != "<商贩>")
-            response &= HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags);
+            if (!HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags))
+                response = false;
 
         if (textFile.NameCleanupRoutines)
         {
@@ -389,7 +390,7 @@ public static partial class LineValidation
 
     public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)
     {
-        return string.Format(config.Prompts["BaseCorrectionPrompt"], raw, result, validationResult.CorrectionPrompt); ;
+        return string.Format(config.Prompts["BaseCorrectionPrompt"], raw, result, validationResult.CorrectionPrompt);
     }
 
     public static List<string> FindMarkup(string input)

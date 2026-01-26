@@ -1,8 +1,8 @@
-- raw: "1#13#1#2004#1#前往村长家#0#0#0#0#0###0##0###0#0#0#0#0#101000#963184#0#32042&1#0#0#0#0#0#0#0#0#"
+- raw: "1#13#1#2004#1#前往村长家（选中任务目标获取指引）#0#0#0#0#0###0##0###0#0#0#0#0#101000#963184#0#32042&1#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
-    text: "前往村长家"
-    translated: "Go to the village chief's house"
+    text: "前往村长家（选中任务目标获取指引）"
+    translated: "Proceed to the village chief's house (select the task target to obtain guidance)."
 - raw: "2#20#1#0&96|80024|1#1#打扫院子#0#1#5725#0#0#32042##0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -202,7 +202,7 @@
   splits:
   - split: 5
     text: "在升仙湖采三株乌草"
-    translated: "Ascend to Mount Xian Lake and collect three stalks of Black Grass."
+    translated: "Collect three plants of Black Grass from the Immortal Ascent Lake."
 - raw: "1206#13#1#5411#13#将乌草交于李承誉#0#1205#3302#5411|989523#37001|3###0##13###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -367,7 +367,7 @@
   splits:
   - split: 5
     text: "准备好后返回长旌军营地"
-    translated: "Ready after preparations, return to the Long Standard Army camp."
+    translated: "Return to the Long Banner Army encampment once ready."
 - raw: "2302#13#1#15002#24#与段鸿鸣交谈#0#2301#1038#####0##22###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -657,7 +657,7 @@
   splits:
   - split: 5
     text: "回长旌军营地"
-    translated: "Return to the Long Standard Army encampment"
+    translated: "Return to the Long Banner Army camp"
 - raw: "4902#13#1#15014#50#询问王虎嘉和帝秘窟一事#0#4901#1084#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -1103,7 +1103,7 @@
   - split: 5
     text: "前往码头集合"
     translated: "Gather at the port"
-- raw: "9804#16#1#15038|15039|20723|20724|20725#99#清理追兵#0#9802#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "9804#16#1#20723|20724|20725#99#清理追兵#0#9802#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "清理追兵"
@@ -5653,7 +5653,7 @@
   splits:
   - split: 5
     text: "于是我决定在云鹤村仔细搜寻线索，没想到在途中遇到了万事通大叔。<color=&&8d5429>他透露近日有一伙可疑人在金光圃花田聚集，这或许是我找到线索的关键。</color>"
-    translated: "So I decided to carefully search for clues in Cloud Crane Village. Unexpectedly, on my way there, I encountered Uncle Wan Shi Tong. <color=&&8d5429>He revealed that recently a suspicious group had gathered at the Jin Guang Pu Flower Garden. This might be the key to finding the clue.</color>"
+    translated: "So I decided to carefully search for clues in Cloud Crane Village. Unexpectedly, on my way there, I encountered Uncle Wan Shi Tong. <color=&&8d5429>He revealed that a suspicious group had been gathering at the Golden Grove flower fields recently; this might be the key to finding the clue I've been looking for.</color>"
   - split: 16
     text: "去花田里瞧瞧"
     translated: "Let's go take a look at the flower fields"
@@ -5661,12 +5661,12 @@
   splits:
   - split: 5
     text: "于是我决定在云鹤村仔细搜寻线索，没想到在途中遇到了万事通大叔。他透露近日有一伙可疑人在金光圃花田聚集，这或许是我找到线索的关键。"
-    translated: "So I decided to carefully search for clues in Cloud Crane Village. Unexpectedly, on the way, I encountered Uncle Wan Shi Tong. He revealed that recently a suspicious group had gathered at Jin Guang Pu Flower Field, which might be the key to finding my clue."
+    translated: "So I decided to carefully search for clues in Cloud Crane Village. Unexpectedly, on my way there, I encountered Uncle Wan Shi Tong. He revealed that recently a group of suspicious individuals had gathered at the flower garden in Golden Grove. This could be key to finding the clue I was looking for."
 - raw: "370105#20#1#0&24|973530|1#3701#我迅速赶到金光圃花田，果然发现了那伙可疑人物。从他们的谈话中得知，<color=&&8d5429>云鹤村市集的桔子堆可能隐藏着某个宝物。</color>#0##0#####0##0#看看桔子堆藏着什么##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "我迅速赶到金光圃花田，果然发现了那伙可疑人物。从他们的谈话中得知，<color=&&8d5429>云鹤村市集的桔子堆可能隐藏着某个宝物。</color>"
-    translated: "I quickly made my way to the Jin Guang Pu flower garden and indeed found that group of suspicious individuals. From their conversation, I learned that <color=&&8d5429>the piles of mandarin oranges at the Cloud Crane Village market might be hiding some treasure.</color>"
+    translated: "I quickly made my way to the Golden Grove flower field and indeed found those suspicious individuals. From their conversation, I learned that <color=&&8d5429>there might be a hidden treasure within the piles of mandarin oranges at the Cloud Crane Village market.</color>"
   - split: 16
     text: "看看桔子堆藏着什么"
     translated: "See what's hidden in the pile of oranges"
@@ -5674,7 +5674,7 @@
   splits:
   - split: 5
     text: "我迅速赶到金光圃花田，果然发现了那伙可疑人物。从他们的谈话中得知，云鹤村市集的桔子堆可能隐藏着某个宝物。"
-    translated: "I quickly arrived at the Golden Light Orchard's flower field and indeed found those suspicious individuals. From their conversation, I learned that a pile of mandarin oranges at the Cloud Crane Village market might be hiding some treasure."
+    translated: "I quickly made my way to the Golden Grove flower field and indeed found the suspicious group. From their conversation, I learned that there might be a treasure hidden among the piles of mandarin oranges at the Cloud Crane Village market."
 - raw: "370107#20#1#0&24|973643|1#3701#我立刻前往桔子堆进行搜索，最终在一堆桔子中找到了一个隐藏的手镯……<color=&&8d5429>毫无疑问，这就是邢泰失去的手镯！</color>#0##0#####0##0#归还邢泰丢失的手镯##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -5757,7 +5757,7 @@
   splits:
   - split: 5
     text: "路过金光圃时，我在花田中发现了一个严重受伤的人。<color=&&8d5429>他的伤势十分严重，需要使用金疮药来治疗。</color>"
-    translated: "As I passed by the Jin Guang Pu, I found a seriously injured person in the flower garden. <color=&&8d5429>Their injuries were quite severe and needed to be treated with golden wound ointment.</color>"
+    translated: "While passing through Golden Grove, I found a severely injured person in the flower field. <color=&&8d5429>Their injuries were quite serious and required treatment with wound‑healing medicine.</color>"
   - split: 16
     text: "治疗乌孙行"
     translated: "Treating the Usun Journey"
@@ -5765,7 +5765,7 @@
   splits:
   - split: 5
     text: "路过金光圃时，我在花田中发现了一个严重受伤的人。他的伤势十分严重，需要使用金疮药来治疗。我费了好大的力气，终于找到了一些金疮药，并成功地将他的伤势治愈。"
-    translated: "While passing by Jinguangpu, I discovered a severely injured person in the flower garden. His injuries were quite serious and required wound medicine for treatment. After much effort, I managed to find some wound medicine and successfully healed his injuries"
+    translated: "While passing through Golden Grove, I found a severely injured person in the flower fields. His injuries were quite serious and required medicinal salve for treatment. After much effort, I finally located some medicinal salve and successfully healed his wounds."
 - raw: "370403#20#1#0&24|957538|1#3704#这位受伤的人名叫乌孙行，他告诉我了他受伤的原因，并交给了我半张羊皮纸。他告诉我，<color=&&8d5429>追杀他的花安现在正在云鹤村附近，并且他身上还携带着另外半张羊皮纸。</color>#0##0#####0##0#取得另外半张藏宝图##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -5783,7 +5783,7 @@
   splits:
   - split: 5
     text: "根据藏宝图上的坐标指示，<color=&&8d5429>我确定宝藏的位置应该在升仙湖旁的小桥处。</color>"
-    translated: "According to the coordinates indicated on the treasure map, <color=&&8d5429>I am certain that the treasure's location should be at the small bridge beside the Shengxian Lake.</color>"
+    translated: "Based on the coordinates indicated on the treasure map, <color=&&8d5429>I am certain that the treasure's location should be at the small bridge next to Immortal Ascent Lake.</color>"
   - split: 16
     text: "拿取宝藏"
     translated: "Acquire the treasure"
@@ -5791,7 +5791,7 @@
   splits:
   - split: 5
     text: "根据藏宝图上的坐标指示，我确定宝藏的位置应该在升仙湖旁的小桥处。我按照指示来到那里，终于顺利地找到了宝藏，并将其成功取得。"
-    translated: "According to the coordinates on the treasure map, I determined that the treasure should be located near the Xianchuan Lake by a small bridge. Following the instructions, I arrived there and successfully found and retrieved the treasure"
+    translated: "According to the coordinates on the treasure map, I determined that the treasure should be located by the small bridge next to Immortal Ascent Lake. Following the instructions, I arrived at the location and successfully found and retrieved the treasure."
 - raw: "370701#20#1#0&30|972492|1#3707#司昌盛养了一条名叫二黄的狗，这只狗极为与众不同，尽管它是一只狗，却像一只猫一样喜爱吃鱼。<color=&&8d5429>它对草鱼、鲫鱼、鲤鱼、鲶鱼、香鱼的热爱让人觉得十分神奇。</color>#0##0#####0##0#去找二黄##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -5863,20 +5863,20 @@
   splits:
   - split: 5
     text: "从郑婶那里路过时，听到她再次夸耀她孩子年幼时的事迹，其中涉及到了飞炼瀑。据她所说，<color=&&8d5429>这个地方对修行和刀法练习很有益处。</color>"
-    translated: "Passing by Aunt Zheng's place, I heard her again boast about her child's youthful exploits, including the Feilian Waterfall. According to her, <color=&&8d5429>this place is beneficial for cultivation and practicing blade techniques.</color>"
+    translated: "As I passed by Aunt Zheng's house, I heard her again boasting about her children's achievements when they were young, one of which involved the Flying Forge Falls. According to her,<color=&&8d5429>this place is beneficial for cultivation and practicing blade techniques.</color>"
   - split: 16
     text: "去飞炼瀑下修炼"
-    translated: "Go to Fly‑Purifying Waterfall to practice cultivation"
+    translated: "Go to the Flying Forge Falls for cultivation."
 - raw: "371002#20#1#0&24|988578|1#3710#从郑婶那里路过时，听到她再次夸耀她孩子年幼时的事迹，其中涉及到了飞炼瀑。据她所说，这个地方对修行和刀法练习很有益处。被这个消息吸引，我决定前往飞炼瀑修炼一番。果然，这次的旅行不枉费，我在那里得到了很多修行和刀法方面的收获。#0#371001#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "从郑婶那里路过时，听到她再次夸耀她孩子年幼时的事迹，其中涉及到了飞炼瀑。据她所说，这个地方对修行和刀法练习很有益处。被这个消息吸引，我决定前往飞炼瀑修炼一番。果然，这次的旅行不枉费，我在那里得到了很多修行和刀法方面的收获。"
-    translated: "Passing by Aunt Zheng's place, I heard her once again boast about the feats of her children when they were young, one of which involved Feiliansipu. According to her, this location is beneficial for training and practicing blade techniques. Attracted by this news, I decided to go to Feiliansipu for some training. Indeed, this trip was not in vain; there I gained much in the areas of training and blade techniques."
+    translated: "As I passed by Aunt Zheng's place, I heard her once again boasting about the exploits of her child in their youth, which involved Flying Forge Falls. According to her, this location is beneficial for cultivation and practicing blade techniques. Attracted by this information, I decided to go to Flying Forge Falls to practice cultivation. Indeed, my journey was worth it, as I gained a lot in terms of cultivation and blade technique there."
 - raw: "371101#20#1#0&30|972550|1#3711#甄寅家的公猪公主走失在清然林中，作为云鹤村的一员，我觉得我应该尽力帮忙。<color=&&8d5429>决定先去清然林中搜寻公主的踪迹，希望能找到她。</color>#0##2483#####0##0#找到公主##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "甄寅家的公猪公主走失在清然林中，作为云鹤村的一员，我觉得我应该尽力帮忙。<color=&&8d5429>决定先去清然林中搜寻公主的踪迹，希望能找到她。</color>"
-    translated: "Zhen Yin's Young Lady has gone missing in the Qing Ran Forest. As a member of Cloud Crane Village, I feel that I should do my best to help.<color=&&8d5429>First, I will search for the Young Lady's whereabouts in the Qing Ran Forest and hope to find her.</color>"
+    translated: "The prince of the Zhengyin family has gone missing in the Serene Forest. As a member of Cloud Crane Village, I feel that I should do my best to help. <color=&&8d5429>I've decided to first search for the princess's tracks in the Serene Forest and hope to find her.</color>"
   - split: 16
     text: "找到公主"
     translated: "Find the young lady"
@@ -5884,12 +5884,12 @@
   splits:
   - split: 5
     text: "甄寅家的公猪公主走失在清然林中，既然同是云鹤村村民，那么此忙我便能帮就帮，一番搜寻果然在清然林中发现了公主的踪迹。"
-    translated: "The Zhuang pig of the Zhen Yin family, a young lady from Cloud Crane Village, went missing in the Qingshan Forest. As fellow villagers, I decided to help and indeed managed to locate her tracks after searching for a while in the forest."
+    translated: "The prince from the Zhangyin family went missing in Serene Forest. As fellow villagers of Cloud Crane Village, I couldn't help but lend a hand. Sure enough, after searching around, we found traces of the young lady's whereabouts in the forest."
 - raw: "371103#20#1#0&24|962995|1#3711#在清然林中，我发现了公主的踪迹，<color=&&8d5429>但很快发现她被偷猪贼带走了。决心不让公主受到伤害，我与偷猪贼展开了激烈的战斗。</color>#0##0#####0##0#击败偷猪贼##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "在清然林中，我发现了公主的踪迹，<color=&&8d5429>但很快发现她被偷猪贼带走了。决心不让公主受到伤害，我与偷猪贼展开了激烈的战斗。</color>"
-    translated: "In the serene Qing Ran forest, I discovered traces of the young lady's presence, <color=&&8d5429>but quickly realized she had been taken by a bandit. Determined not to let harm come to her, I engaged in a fierce battle with the bandit.</color>"
+    translated: "In the Serene Forest, I discovered traces of the young lady's whereabouts, <color=&&8d5429>but quickly found that she had been taken by a bandit. Determined not to let harm come to her, I engaged in a fierce battle with the bandit.</color>"
   - split: 16
     text: "击败偷猪贼"
     translated: "Defeat the pig‑thieving bandit"
@@ -5897,7 +5897,7 @@
   splits:
   - split: 5
     text: "在清然林中，我发现了公主的踪迹，但很快发现她被偷猪贼带走了。决心不让公主受到伤害，我与偷猪贼展开了激烈的战斗。"
-    translated: "In the serene Qingran Forest, I discovered traces of the young lady but soon realized she had been taken by a bandit. Determined not to let harm come to her, I engaged in a fierce battle with the bandit."
+    translated: "In the Serene Forest, I found traces of the Young Lady's presence but soon discovered that she had been taken by a bandit. Determined not to let the Young Lady come to harm, I engaged in a fierce battle with the bandit."
 - raw: "371105#20#1#0&27|32480|0#3711#经过一番激斗，我最终战胜了偷猪贼，成功救回了公主。现在，我将带着公主回去，交给甄寅大哥。相信这下甄寅大叔的烦恼也会解决了。#0##0#####0##0#将公主交给甄寅##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6024,15 +6024,15 @@
   splits:
   - split: 5
     text: "<color=&&8d5429>在云鹤村市集听到有关金光圃河边的传闻后，你决定前往那里查看。</color>"
-    translated: "<color=&&8d5429>In the market of Cloud Crane Village, you hear rumors about the banks of Jin Guang Pu River and decide to go there to investigate.</color>"
+    translated: "<color=&&8d5429>In the market of Cloud Crane Village, you hear rumors about Golden Grove by the river and decide to go there to investigate.</color>"
   - split: 16
     text: "去金光圃河边"
-    translated: "Go to the riverbank near Jin Guangpu"
+    translated: "Go to the riverbank of Golden Grove"
 - raw: "371602#20#1#0&24|990313|1#3716#在云鹤村市集听到有关金光圃河边的传闻后，你决定前往那里查看。到达金光圃后，你发现有三位江湖人士身中剧毒，他们似乎被人下了毒手。#0#371601#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "在云鹤村市集听到有关金光圃河边的传闻后，你决定前往那里查看。到达金光圃后，你发现有三位江湖人士身中剧毒，他们似乎被人下了毒手。"
-    translated: "After hearing rumors about the Jin Guangpu Riverbank at the Cloud Crane Village market, you decide to go there and investigate. Upon arriving at Jin Guangpu, you discover three figures from the Jianghu who are suffering from severe poisoning, as if someone has poisoned them deliberately."
+    translated: "After hearing rumors about Golden Grove by the river at the market in Cloud Crane Village, you decide to go there and check it out. Upon arriving at Golden Grove, you discover three Jianghu figures who have been poisoned severely; it appears they've been poisoned intentionally."
 - raw: "371603#20#1#0&24|990305|1#3716##0##0#####0##0#替众人解毒##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 16
@@ -6052,7 +6052,7 @@
   splits:
   - split: 5
     text: "幸好得知陀学智等人在村北门口的猪艚里藏了解毒丸。我急忙前往猪艚，并经过一番搜索，终于找到了解毒丸。现在，我需要迅速返回金光圃河边，帮助这些江湖人士解毒。"
-    translated: "Fortunately, I learned that Dao Xu Zhi and others hid the antidote pills in a pig cart at the north gate of the village. I quickly went to the pig cart and, after searching for some time, finally found the antidotes. Now, I need to swiftly return to the banks of the Jin Guang Pu River to help these Jianghu figures with the antidote."
+    translated: "Fortunately, I learned that Brother Tu and his associates had hidden antidote pills in a pigpen at the north gate of the village. I hurried over to the pigpen and, after some searching, finally found the antidote pills. Now, I need to quickly return to the banks of Golden Grove River to help these Jianghu people with the antidotes."
 - raw: "371607#20#1#0&24|973713|1#3716##0##0#####0##0#听众人交谈##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 16
@@ -6062,7 +6062,7 @@
   splits:
   - split: 5
     text: "回到金光圃河边后，我成功地为众人解毒。他们感激地表达了谢意，并告诉他们此行的目的是为了追寻虞令羽的宝藏。他们还提到，在虞令羽的墓地上，他们曾看到一位姑娘正在祭拜。"
-    translated: "Upon returning to the banks of the Jin Guangpu River, I successfully administered an antidote for everyone. They expressed their gratitude and shared that the purpose of their journey was to seek out Yu Lingyu's treasure. They also mentioned seeing a girl paying respects at Yu Lingyu's grave."
+    translated: "After returning to the shore of Golden Grove, I successfully detoxified everyone. They gratefully expressed their thanks and told us that they were searching for Yu Lingyu's treasure on this journey. They also mentioned that they had seen a girl worshipping at Yu Lingyu's tomb."
 - raw: "371701#20#1#0&24|990273|1#3717#路过云鹤村市集时，偶然听到乐鸿博等人喝醉后吹牛，无意中透露了他们从不夜京购得情报和钥匙的事情。我意识到这是一个宝贵的机会，如果想得到那把钥匙，<color=&&8d5429>可以与他们建立良好的关系求取，或者选择与他们决斗并夺取钥匙。</color>#0##0#####0##0#得到钥匙与情报##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6083,7 +6083,7 @@
     translated: "After rescuing Da Xu Zhi and others, a girl was found worshipping Yu Lingyu on the mound. <color=&&8d5429>Perhaps I should go see who this person is.</color>"
   - split: 16
     text: "去虞令羽之墓查探"
-    translated: "Go investigate Yulingyu's tomb"
+    translated: "Visit Yu Lingyu's tomb to investigate"
 - raw: "371802#20#1#0&24|990289|1#3718#救下陀学智等人后，发现坟山上有一位祭拜虞令羽的姑娘，而她就是步琪。#0#371801#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6145,15 +6145,15 @@
   splits:
   - split: 5
     text: "从村长夫人那里听说飞炼瀑附近的竹林湖边有一位江湖侠客出现，<color=&&8d5429>对此感到好奇，于是打算前往湖边探寻。</color>"
-    translated: "I heard from the village head's wife that a Jianghu wanderer appeared near the Bamboo Forest Lake by Fly Refining Falls. <color=&&8d5429>I was curious about this and decided to go to the lakeside to investigate.</color>"
+    translated: "Hearing from the village head's wife about a Jianghu Wanderer appearing near the Bamboo Forest by the lake adjacent to Flying Forge Falls, I felt curious and decided to go to the lakeside to investigate. <color=&&8d5429></color>"
   - split: 16
     text: "去飞炼瀑竹林湖边"
-    translated: "Go to the Pukuzhilin Lake by the flying furnace"
+    translated: "Go to the Bamboo Grove by Flying Forge Falls."
 - raw: "372102#20#1#0&24|972465|1#3721#从村长夫人那里听说飞炼瀑附近的竹林湖边有一位江湖侠客出现，对此感到好奇，于是打算前往湖边探寻。果然，在湖边你发现了村长夫人所提到的江湖侠客。#0#372101#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "从村长夫人那里听说飞炼瀑附近的竹林湖边有一位江湖侠客出现，对此感到好奇，于是打算前往湖边探寻。果然，在湖边你发现了村长夫人所提到的江湖侠客。"
-    translated: "You heard from the village chief's wife that a Jianghu wanderer had appeared near Fly‑Refined Waterfall in the bamboo forest by Lake Bamboo. Intrigued, you decided to go to the lakeside to investigate. As expected, you found the Jianghu wanderer mentioned by the village chief's wife at the lakeside."
+    translated: "Upon hearing from the village chief's wife about a Jianghu Wanderer appearing near the Bamboo Forest by Flying Forge Falls, you feel curious and decide to head there. Indeed, upon reaching the lakeside, you discover the Jianghu Wanderer mentioned by the village chief's wife."
 - raw: "372103#20#1#0&24|972465|1#3721##0##0#####0##0#尽力抵抗夏寅的攻击##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 16
@@ -6186,7 +6186,7 @@
   splits:
   - split: 5
     text: "路过云鹤村市集时听到李承誉嘀咕，说是他兄弟李三问因为江湖醉喝光了心情不好，向李承誉口打听后得知，原来龙蛇寨的山贼将抢走的江湖醉藏在龙蛇寨宝库之中。"
-    translated: "While passing through the Cloud Crane Village market, Li Chengyu overheard mumbling that his brother, Li Sanwen, had drunk all of Jianghu Drunken and was in a foul mood. After asking around, he discovered that the bandits from Longshe Fort had hidden the stolen bottles of Jianghu Drunken in their treasure vault."
+    translated: "While passing through the market in Cloud Crane Village, I overheard Li Chengyu muttering that his brother, Li Sanwen, was upset because he had drunk too much of Jianghu Zhi and was feeling down. After asking around, Li Chengyu found out that the bandits from Dragon Snake Fort had hidden the stolen Jianghu Zhi in their treasure vault."
 - raw: "372203#20#1#0&24|970572|1#3722##0##0#####0##0#得到江湖醉##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 16
@@ -6198,7 +6198,7 @@
   splits:
   - split: 5
     text: "从龙蛇寨宝窟中得到了江湖醉，将江湖醉交给李三问应当就能让心情重新振作起来。"
-    translated: "Receiving the Jianghu Zui from the Dragon and Snake Fortress treasure trove and giving it to Li Sanwen should help lift one's spirits again."
+    translated: "By obtaining the Jianghu Elixir from the Dragon Snake Fort's treasure trove and giving it to Li Sanwen, one should be able to regain their spirits."
   - split: 16
     text: "交给李三问江湖醉"
     translated: "Entrust to Li Sanwen, drunk in the Jianghu."
@@ -6206,12 +6206,12 @@
   splits:
   - split: 5
     text: "从龙蛇寨宝窟中得到了江湖醉，带着江湖醉回到村中，将其交给了李三问。李三问得到江湖醉后，心情重新振作起来。"
-    translated: "Having obtained the Jianghu Zui from the Dragon and Snake Den's treasure trove, I returned to the village with it and gave it to Li Sanwen. Upon receiving the Jianghu Zui, Li Sanwen's spirits were revived."
+    translated: "From the Dragon Snake Fort treasure trove, I obtained a Jianghu Potion. Returning to the village with the Jianghu Potion, I gave it to Li Sanwen. Upon receiving the Jianghu Potion, Li Sanwen's spirits were revived."
 - raw: "372301#20#1#0&30|971281|1#3723#在清然林的竹林上上听到了名叫秦一的江湖人士谈论在云鹤村中寻找霞璃的事情，似乎是在<color=&&8d5429>云鹤村中寻找霞璃。</color>#971253##0#####0##0#找郑婶和村长问问##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "在清然林的竹林上上听到了名叫秦一的江湖人士谈论在云鹤村中寻找霞璃的事情，似乎是在<color=&&8d5429>云鹤村中寻找霞璃。</color>"
-    translated: "In the bamboo grove of Qingran Forest, I overheard a person from the Jianghu named Qin Yi discussing the matter of searching for Xia Li in Cloud Crane Village. It seemed to be about <color=&&8d5429>searching for Xia Li in Cloud Crane Village.</color>"
+    translated: "In the bamboo grove of Serene Forest, a Jianghu figure named Qin Yi was heard discussing the search for Xia Li in Cloud Crane Village, as if he were <color=&&8d5429>in Cloud Crane Village searching for Xia Li.</color>"
   - split: 16
     text: "找郑婶和村长问问"
     translated: "Go find Auntie Zheng and the village head to ask them"
@@ -6219,7 +6219,7 @@
   splits:
   - split: 5
     text: "在清然林的竹林上上听到了名叫秦一的江湖人士谈论在云鹤村中寻找霞璃的事情，似乎是在在云鹤村中寻找霞璃。"
-    translated: "In the bamboo groves of Qingran Forest, someone overheard a person known as Qin Yi from the Jianghu discussing their search for Xi Li in Cloud Crane Village. It seemed they were looking for Xi Li in Cloud Crane Village."
+    translated: "In the bamboo grove of Serene Forest, I overheard a Jianghu figure named Qin Yi discussing someone searching for Xiali in Cloud Crane Village. It seemed they were indeed looking for Xiali within Cloud Crane Village."
 - raw: "372303#20#1#0&24|971251|1#3723#经过一番探查，获得了一些线索，<color=&&8d5429>发现甄寅似乎了解有关霞璃的信息。</color>#0##0#####0##0#去找甄寅##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6237,7 +6237,7 @@
   splits:
   - split: 5
     text: "在升仙湖的湖边，瞧见蒙浪倒在地上昏迷不醒，简单看了一下，<color=&&8d5429>救治蒙浪需要醒脑丸。</color>"
-    translated: "At the shores of Shengxian Lake, I saw Meng Lang lying unconscious on the ground. After a quick look, <color=&&8d5429>I realized that treating Meng Lang required awakening pills.</color>"
+    translated: "On the shore of Immortal Ascent Lake, I saw Meng Lang lying unconscious on the ground. After a quick look, <color=&&8d5429>I realized that treating Meng Lang required an awakening pill.</color>"
   - split: 16
     text: "救治蒙浪"
     translated: "Treating Master Meng Lang"
@@ -6245,7 +6245,7 @@
   splits:
   - split: 5
     text: "在升仙湖的湖边，瞧见蒙浪倒在地上昏迷不醒，简单看了一下，救治蒙浪需要高超的医术。"
-    translated: "At the shores of Shengxian Lake, I saw Mong Lang lying unconscious on the ground. A quick glance revealed that healing Mong Lang required exceptional medical skills"
+    translated: "At the edge of Immortal Ascent Lake, I saw Meng Lang lying unconscious on the ground. Upon a quick glance, it was clear that reviving Meng Lang would require superior medical skills."
 - raw: "372501#20#1#0&72|30520|30520001|1#3725#从万事通大叔发来的飞鸽传书中听说，有人在<color=&&8d5429>云鹤村的茅草堆</color>鬼鬼祟祟的不知道在做些什么。#0##3879#####0##0#去各个茅草堆瞧瞧##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6289,20 +6289,20 @@
   splits:
   - split: 5
     text: "从山贼头目身上的亲笔信中发现，<color=&&8d5429>伯子越似乎和龙蛇寨</color>有关系。"
-    translated: "From the autograph letter of the bandit chief, it was discovered that <color=&&8d5429>Master Yu seems to have a connection with Dragon and Snake Camp.</color>"
+    translated: "From the personal letter written by the bandit leader, it seems that <color=&&8d5429>Bo Ziyue is somehow related to Dragon Snake Fort.</color>"
   - split: 16
     text: "去见伯子越"
-    translated: "Go see Brother Yu"
+    translated: "Go see Bo Ziyue"
 - raw: "372802#20#1#0&24|961059|1#3728#从山贼头目身上的亲笔信中发现，伯子越似乎和龙蛇寨有关系。#0#372801#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "从山贼头目身上的亲笔信中发现，伯子越似乎和龙蛇寨有关系。"
-    translated: "It was discovered from a handwritten letter found on the body of the bandit leader that Brother Xu apparently has connections with Longshe Fort"
+    translated: "From the autograph letter taken from the bandit leader's person, it appears that Bo Ziyue seems to have a connection with Dragon Snake Fort."
 - raw: "372803#20#1#0&24|954363|1#3728#在村里做好准备后去见伯子越。#0##0#####0##0#找冯尔真王铁任天游等人寻求帮助##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "在村里做好准备后去见伯子越。"
-    translated: "After making preparations in the village, go to see Uncle Xiyou"
+    translated: "After making preparations in the village, go to see Brother Bo Ziyue."
   - split: 16
     text: "找冯尔真王铁任天游等人寻求帮助"
     translated: "Seek help from Feng Erzhen, Wang Tie, and Ren Tianyou."
@@ -6310,7 +6310,7 @@
   splits:
   - split: 5
     text: "一切准备就绪，去清然林找伯子越。"
-    translated: "Everything is ready; go to Qingshan Forest to find Brother Yue"
+    translated: "Everything is ready; let's go to the Serene Forest to find Brother Bo Ziyue."
 - raw: "372901#20#1#0&72|30520|30520003|1#3729#万事通大叔飞鸽传书言明村中有门名叫养剑术的独门秘术，但万事通似乎也并不清楚其中原委，他指明让我们<color=&&8d5429>去寻找村长</color>。#0##0#####0##0#去找村长了解情况##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6328,12 +6328,12 @@
   splits:
   - split: 16
     text: "去虞令羽之墓祭拜"
-    translated: "Visit the tomb of Brother Yu to offer sacrifices"
+    translated: "Visit Yu Lingyu's tomb to pay respects"
 - raw: "372904#20#1#0&24|957506|1#3729#虞令羽…日后我定要成为他这般无二的厉害人物！#0#372903#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "虞令羽…日后我定要成为他这般无二的厉害人物！"
-    translated: "Yu Ling Yu... One day, I must become as unrivaled and formidable a person as he is!"
+    translated: "Yu Lingyu... In the future, I must become someone as exceptional and unparalleled as him!"
 - raw: "373001#20#1#0&24|942188|1#3730#成为内门弟子后从王溪那得知山庄有祭圣传统#0##0#####0##0#前往砚溪山庄西侧拜见先贤##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6377,20 +6377,20 @@
   splits:
   - split: 5
     text: "万事通告知东西被龙蛇寨二当家截胡，这群恶人无恶不作，<color=&&8d5429>平日里就在龙蛇寨附近的房子上居住。</color>"
-    translated: "Wan Shi Tong informs that the goods were intercepted by the Second Boss of Long She Zhai. This group of villains does no evil, <color=&&8d5429>and in their everyday lives, they reside in houses near Long She Zhai.</color>"
+    translated: "Wan Shi Tong reports that the east and west were intercepted by the Second Boss of Dragon Snake Fort. These villains are without any sense of morality; <color=&&8d5429>they reside in the houses around Dragon Snake Fort during the day.</color>"
   - split: 16
     text: "前往龙蛇寨寻找宝物"
-    translated: "Embark on a quest to the Dragon‑Snake Encampment in search of treasures"
+    translated: "Embark on a journey to the Dragon Snake Fort in search of treasures."
 - raw: "373204#20#1#0&27|93842|0;27|93843|0;27|93844|0;27|93845|0;27|93846|0;27|93847|0#3732#万事通告知东西被龙蛇寨二当家截胡，这群恶人无恶不作，平日里就在龙蛇寨附近的房子上居住，将这群家伙收拾之后，还没有发现被抢走的宝物。#939786#373203#0#####0##0###1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "万事通告知东西被龙蛇寨二当家截胡，这群恶人无恶不作，平日里就在龙蛇寨附近的房子上居住，将这群家伙收拾之后，还没有发现被抢走的宝物。"
-    translated: "Wan Shi Tong informs that the East and West were intercepted by the Second Boss of Long She Zhai. This group of villains is up to no good; during the day, they reside in houses near Long She Zhai, but even after dealing with them, the stolen treasure hasn't been recovered yet."
+    translated: "Wan Shi Tong reports that the Second Boss of Dragon Snake Fort intercepted supplies from the east and west. These bandits are up to no good; they typically reside in houses near Dragon Snake Fort and have yet to be dealt with, let alone discover the stolen treasures."
 - raw: "373205#20#1#0&24|939812|1#3732#万事通告知东西被龙蛇寨二当家截胡，这群恶人无恶不作，平日里就在龙蛇寨附近的房子上居住，来到这里之后才发现，原来是万事通把我给骗了！#0#373203#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "万事通告知东西被龙蛇寨二当家截胡，这群恶人无恶不作，平日里就在龙蛇寨附近的房子上居住，来到这里之后才发现，原来是万事通把我给骗了！"
-    translated: "Wan Shi Tong informs that the Second Boss of Long She Zhai has intercepted the east‑west path. This group of evil people are without scruples and usually live in houses near Long She Zhai; after arriving here, it turns out they were misled by Wan Shi Tong to believe I was someone else!"
+    translated: "Wan Shi Tong informed us that the east and west routes were intercepted by the Second Boss of Dragon Snake Fort. These villains are up to no good; they usually reside in houses near Dragon Snake Fort. Upon arriving here, we discovered that it was actually Wan Shi Tong who deceived me!"
 - raw: "373206#20#1#0&24|939812|1#3732#原来一切竟然是被万事通骗了，此事一定要<color=&&8d5429>回去找万事通要个说法！</color>#0##0#####0##0#回去质问万事通##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -6529,20 +6529,20 @@
   splits:
   - split: 5
     text: "将麻婆豆腐交给李味道之后，他传授给了我一个名为扫雪烹茶的秘法，<color=&&8d5429>并请求我们前往千奇坊寻找至尊皇帝炒饭配方的线索。</color>"
-    translated: "After Li Weidao received the mapo tofu, he taught me a secret method called Sweeping Snow Brewed Tea. <color=&&8d5429>He requested that we go to Qiqi Hall in search of clues for the recipe of the Imperial Emperor Fried Rice.</color>"
+    translated: "After giving the Mapo Tofu to Li Weidao, he taught me a secret technique called Sweeping Snow Brew Tea. <color=&&8d5429>He then requested that we go to Thousand Wonders Workshop to find clues about the Supreme Emperor Fried Rice recipe.</color>"
   - split: 16
     text: "去千奇坊寻找至尊皇帝炒饭的线索"
-    translated: "Go to Qianqi Fang to find clues about the Emperor's Supreme Fried Rice"
+    translated: "Go to the Thousand Wonders Workshop to search for clues about the Emperor's Supreme Fried Rice."
 - raw: "380208#20#1#0&24|952977|1#3802#将麻婆豆腐交给李味道之后，他传授给了我一个名为扫雪烹茶的秘法，并请求我们前往千奇坊寻找至尊皇帝炒饭配方的线索。#0#380207#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "将麻婆豆腐交给李味道之后，他传授给了我一个名为扫雪烹茶的秘法，并请求我们前往千奇坊寻找至尊皇帝炒饭配方的线索。"
-    translated: "After Li Weidao received the Mapo Tofu, he imparted to me a secret technique called Sweeping Snow and Brewing Tea and requested that we go to Qiqi Fang in search of clues for the Supreme Emperor Fried Rice recipe"
+    translated: "After Li Weidao received the Mapo Tofu from me, he imparted to me a secret method called Sweeping Snow Brewing Tea and asked us to go to Thousand Wonders Workshop to find clues for the Imperial Supreme Fried Rice formula."
 - raw: "380209#20#1#0&24|952977|1#3802#在千奇坊一番调查之后，<color=&&8d5429>总算得知屈画似乎了解其中的一些事情。</color>#0##0#####0##0#去找屈画##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "在千奇坊一番调查之后，<color=&&8d5429>总算得知屈画似乎了解其中的一些事情。</color>"
-    translated: "After a thorough investigation by Qianqifang, <color=&&8d5429>it was finally discovered that Qu Hua seemed to know something about it.</color>"
+    translated: "After a thorough investigation at the Thousand Wonders Workshop, they finally found out that Qu Hua seemed to know something about it. <color=&&8d5429></color>"
   - split: 16
     text: "去找屈画"
     translated: "Go find Qu Hua"
@@ -6550,7 +6550,7 @@
   splits:
   - split: 5
     text: "在千奇坊一番调查之后，总算得知屈画似乎了解其中的一些事情。"
-    translated: "After a thorough investigation in Qiqifang, it was finally discovered that Qu Huasi seemed to have some knowledge about the matter"
+    translated: "After a thorough investigation at the Thousand Wonders Workshop, it was finally learned that Qu Hua seemed to have some knowledge of the matter."
 - raw: "380211#20#1#0&24|952974|1#3802#屈画告诉我要想知道这些事情，<color=&&8d5429>只需要从他那里购买三个千机盒。</color>#0##0#####0##0#购买三个千机盒后再询问屈画##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -9648,7 +9648,7 @@
   splits:
   - split: 5
     text: "当我探查到机杼传承所在，就在龙蛇寨附近，大概<color=&&8d5429>(1044,1360)</color>的位置"
-    translated: "When I investigated and discovered the whereabouts of the Machine Spindle's inheritance, it was located near Longshe Village, approximately in position <color=&&8d5429>(1044,1360)</color>."
+    translated: "When I discovered the location of the Weaving Mill legacy, it was near Dragon Snake Fort, approximately <color=&&8d5429>(1044,1360)</color> away."
   - split: 16
     text: "获得机杼传承"
     translated: "Obtain the inheritance of the Jade Loom"
@@ -9656,12 +9656,12 @@
   splits:
   - split: 5
     text: "当我探查到机杼传承所在，就在龙蛇寨附近，大概在<color=&&8d5429>(1044,1360)</color>的位置"
-    translated: "When I discovered the location of the machine loom's transmission, it was near the Dragon and Snake Camp, roughly around <color=&&8d5429>(1044,1360)</color>."
+    translated: "When I investigated where the loom legacy was located, it seemed to be near Dragon Snake Fort, approximately in the <color=&&8d5429>(1044,1360)</color> area."
 - raw: "397007#20#1#0&24|944904|1#3970#已经知道传承所在，我便赶往龙蛇寨附近<color=&&8d5429>(1044,1360)</color>查看，以获得机杼传承#0##0#####0##0#获得机杼传承##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "已经知道传承所在，我便赶往龙蛇寨附近<color=&&8d5429>(1044,1360)</color>查看，以获得机杼传承"
-    translated: "I already know where the legacy is located, so I went to look around near Dragon and Snake Camp on <color=&&8d5429>(1044,1360)</color> in order to obtain the Weaver's Legacy."
+    translated: "Knowing where the legacy is located, I hurried to the area near Dragon Snake Fort on <color=&&8d5429>(1044,1360)</color> to investigate and acquire the loom legacy."
   - split: 16
     text: "获得机杼传承"
     translated: "Obtain the inheritance of the Jade Loom"
@@ -9669,7 +9669,7 @@
   splits:
   - split: 5
     text: "已经知道传承所在，我便赶往龙蛇寨附近<color=&&8d5429>(1044,1360)</color>查看，最后获得了机杼传承。"
-    translated: "Having discovered the location of the legacy, I hastened to the vicinity of Longshe Encampment on <color=&&8d5429>(1044,1360)</color> to investigate and ultimately obtained the Jiangzhe Legacy."
+    translated: "Having learned the location of the lineage, I hurried to near Dragon Snake Fort to investigate <color=&&8d5429>(1044,1360)</color>, ultimately acquiring the loom heritage."
 - raw: "397101#20#1#0&18|1|68|200000|>=#3971#包里也算小有钱了，听闻不夜京御者附近有人在卖岛契，或许我可以去看看。#0#0#0#0#0###0##0#不夜京御者处寻商人##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -12108,6 +12108,236 @@
   - split: 5
     text: "与陆峥交谈"
     translated: "Speak with Lu Zheng"
+- raw: "3900101#19#1#698.35,337.6582,1417.671,1#39001#前往钓龙湖畔#0##39001#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往钓龙湖畔"
+    translated: "Head to the shores of Dragon Fishing Lake."
+- raw: "3900102#13#1#132072#39001#前往湖心岛#0#3900101#39002#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往湖心岛"
+    translated: "Head towards the island in the middle of the lake."
+- raw: "3900103#19#1#646.6015,337.0507,1368.763,1#39001#前往驱逐强盗#0#3900102#39003#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往驱逐强盗"
+    translated: "Head towards expelling the bandits"
+- raw: "3900104#5#1#132073|132074|132075|132076#39001#击败强盗#0#3900103#39004#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败强盗"
+    translated: "Defeat the bandits"
+- raw: "3900201#19#1#961.8265,249.2013,905.5686,1#39002#进城休整#0##39005#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进城休整"
+    translated: "Rest in the city"
+- raw: "3900202#13#1#132078#39002#前往锦绣坊#0#3900201#39006#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往锦绣坊"
+    translated: "Go to Jinxiufang"
+- raw: "3900203#13#1#132079#39002#前往红妆苑#0#3900202#39007#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往红妆苑"
+    translated: "Head to the Crimson Adornment Court"
+- raw: "3900204#13#1#132079#39002#跟随陈花匠#0#3900203#39008#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "跟随陈花匠"
+    translated: "Follow Chen Huajiang"
+- raw: "3900301#13#1#132079#39003#询问内情#0##39009#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "询问内情"
+    translated: "Inquiring about internal details"
+- raw: "3900302#19#1#-108.9974,260.8964,-3.527428,1#39003#离开红妆苑#0#3900301#39010#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开红妆苑"
+    translated: "Leaving the Crimson Adornment Court"
+- raw: "3900303#19#1#-124.051,223.2193,-92.79166,79.54998#39003#前往山下房子#0#3900302#39011#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往山下房子"
+    translated: "Go to the house at the foot of the mountain."
+- raw: "3900304#13#1#132080#39003#查找线索#0#3900303#39012#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查找线索"
+    translated: "Search for clues"
+- raw: "3900401#19#1#531.0114,301.8862,199.8544,1#39004#前往天上山#0##39013#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往天上山"
+    translated: "Heading to Heavenly Mountain"
+- raw: "3900402#5#1#132082|132083|132084|132085|132086|132087|132088|132089|132090#39004#击败任纵横#0#3900401#39014#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败任纵横"
+    translated: "Defeat Ren Zongheng"
+- raw: "3900501#13#1#132091#39005#古玩探宝#0##39016#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "古玩探宝"
+    translated: "Antique Treasure Hunting"
+- raw: "3900502#19#1#284.4195,223.1248,653.6456,1#39005#出城忆事#0#3900501#39017#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "出城忆事"
+    translated: "Remembering past events upon leaving the city"
+- raw: "3900503#19#1#416.0915,267.4602,499.7878,1#39005#前往瑶华原#0#3900502#39018#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往瑶华原"
+    translated: "Head to the Jade Blossom Field"
+- raw: "3900504#13#1#132092#39005#查看线索#0#3900503#39019#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看线索"
+    translated: "Review the clues"
+- raw: "3900601#13#1#25592#39006#前往砚溪山庄#0##39020#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往砚溪山庄"
+    translated: "Heading to Ink Stream Mountain Villa"
+- raw: "3900602#13#1#6091#39006#前往丐门#0#3900601#39021#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往丐门"
+    translated: "Heading to the Beggar Sect"
+- raw: "3900603#19#1#489.2405,255.6772,393.1248,1#39006#离开丐门#0#3900602#39022#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开丐门"
+    translated: "Leaving the Beggar Sect"
+- raw: "3900604#19#1#563.3055,229.3042,607.1214,1#39006#前往九曜津#0#3900603#39023#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往九曜津"
+    translated: "Heading to the Nine Luminaries Crossing"
+- raw: "3900605#19#1#595.2468,237.4249,559.8602,1#39006#引走来敌#0#3900604#39024#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "引走来敌"
+    translated: "Lure away the enemy"
+- raw: "3900606#5#1#132094|132095|132096|132097#39006#击败黑衣人#0#3900605#39025#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "3900607#19#1#570.0283,231.894,578.2128,1#39006#离开九曜津#0#3900606#39026#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开九曜津"
+    translated: "Leaving the Nine Luminaries Crossing"
+- raw: "3900701#19#1#562.4849,229.3042,607.3237,1#39007#返回客栈#0##39027#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回客栈"
+    translated: "Return to the inn"
+- raw: "3900702#19#1#424.3994,269.5254,467.9395,1#39007#前往切磋#0#3900701#39028#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往切磋"
+    translated: "Travel to exchange skills"
+- raw: "3900703#5#1#132098#39007#击败荆守#0#3900702#39029#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败荆守"
+    translated: "Defeat Jiang Shou"
+- raw: "3900801#13#1#132100#39008#返回客栈#0##39030#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回客栈"
+    translated: "Return to the inn"
+- raw: "3900802#13#1#132098#39008#村口分别#0#3900801#39031#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "村口分别"
+    translated: "Separately at the village entrance"
+- raw: "3900803#19#1#638.5506,230.117,630.3047,1#39008#重新启程#0#3900802#39032#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "重新启程"
+    translated: "Begin anew on the journey"
+- raw: "3900901#19#1#781.6688,247.5438,348.2674,1#39009#前往法华村#0##39034#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往法华村"
+    translated: "Head to Dharma Blossom Village"
+- raw: "3900902#13#1#132104#39009#前往客栈#0#3900901#39035#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往客栈"
+    translated: "Head to the inn"
+- raw: "3900903#13#1#132107#39009#客栈休整#0#3900902#39036#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "客栈休整"
+    translated: "Rest at the inn"
+- raw: "3900904#19#1#774.313,245.3968,299.8776,1#39009#离开客栈#0#3900903#39037#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开客栈"
+    translated: "Leaving the inn"
+- raw: "3901001#19#1#799.6115,233.5982,438.8353,1#39010#回到豫京#0##39038#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回到豫京"
+    translated: "Return to the Yu Capital"
+- raw: "3901002#13#1#132108#39010#询问掌柜#0#3901001#39039#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "询问掌柜"
+    translated: "Ask the shopkeeper"
+- raw: "3901003#13#1#132109#39010#前往码头#0#3901002#39040#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往码头"
+    translated: "Heading to the port"
+- raw: "3901004#19#1#785.6491,233.5982,461.1736,1#39010#再见赵师傅#0#3901003#39041#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "再见赵师傅"
+    translated: "Goodbye, Master Zhao"
+- raw: "3901005#13#1#132114#39010#前往武馆#0#3901004#39042#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往武馆"
+    translated: "Head to the martial arts hall"
+- raw: "3901006#19#1#727.2886,236.1747,516.2514,1#39010#离开武馆#0#3901005#39043#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开武馆"
+    translated: "Leaving the Martial Arts Hall"
+- raw: "3901101#19#1#709.9739,234.2321,570.5711,1#39011#离开云潇山庄#0##39044#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开云潇山庄"
+    translated: "Leaving Cloudy Breeze Mountain Villa"
+- raw: "3901102#5#1#132115|132116|132117|132118#39011#击败义安帮众人#0#3901101#39045#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败义安帮众人"
+    translated: "Defeat all the members of the Yi'an Gang."
+- raw: "3901103#5#1#132119#39011#击败雷豹#0#3901102#39046#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败雷豹"
+    translated: "Defeat the Thunder Leopard"
+- raw: "3901104#5#1#132114#39011#击败赵千钧#0#3901103#39047#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败赵千钧"
+    translated: "Defeat Zhao Qianjun"
+- raw: "3901105#19#1#812.1927,234.2935,562.8423,1#39011#前往梧桐树下#0#3901104#39048#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往梧桐树下"
+    translated: "Go to the wutong tree"
 - raw: "3999003#20#1#0&83|1#3999##0##0#####0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits: []
 - raw: "4001001#13#1#6848#40010#与许意华对话#931126#0#0#0#0###0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
@@ -12660,7 +12890,7 @@
   - split: 5
     text: "前往采集精铁矿"
     translated: "Travel to collect refined iron ore"
-- raw: "4003205#13#1#165182#40032#与叶无声对话#923755#4003204#0#0####0##0##0#0#0#0#0#0#100108#0#0#165183&0|165184&0|165185&0|165187&1#0#0#0#0#0#0#0#0#"
+- raw: "4003205#13#1#165182#40032#与叶无声对话#0#4003204#0#0####0##0##0#0#0#0#0#0#101000#923755#3000|510001|8#165183&0|165184&0|165185&0|165187&1#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "与叶无声对话"
@@ -12790,7 +13020,7 @@
   - split: 5
     text: "与许鸿煊论道"
     translated: "Discussing philosophy with Xu Hongxuan"
-- raw: "4003606#13#1#45262#40036#与许鸿煊对话#923354#4003605#40184#0#0##34118|1#0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "4003606#13#1#45262#40036#与许鸿煊对话#923354#4003605#40654#0#0##34118|1#0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "与许鸿煊对话"
@@ -13265,7 +13495,7 @@
   - split: 5
     text: "击败张虎等人"
     translated: "Defeat Zhang Hu and others"
-- raw: "4005809#19#1#412.6241,254.7824,403.1706,1#40058#到达目的地#0#4005808#0#0#0##34207|1#0##0##0#0#0#0#0#0#101000#909181#3000|510001|8#165265&0|165263&0|165264&0#205031&238.776&224.9&732.35&178.908##0#0#0#0#0#40184#"
+- raw: "4005809#19#1#412.6241,254.7824,403.1706,1#40058#到达目的地#0#4005808#0#0#0##34207|1#0##0##0#0#0#0#0#0#101000#909181#3000|510001|8#165265&0|165263&0|165264&0#205031&238.776&224.9&732.35&178.908##0#0#0#0#0#40656#"
   splits:
   - split: 5
     text: "到达目的地"
@@ -13709,12 +13939,12 @@
   splits:
   - split: 5
     text: "前往无心地宫口"
-    translated: "Head toward the entrance of Wuxin's Secret Garden."
+    translated: "Heading to the entrance of the Wuxin Underground Palace."
 - raw: "4007310#19#1#1119.833,346.471,1304.485,1#40073#进入无心地宫#0#4007309#0#0#0###0##0##0#0#0#0#0#0#101000#897681#0#0#0#0#1128.749&346.471&1303.903&196.3201&1#0#0#0##40294#"
   splits:
   - split: 5
     text: "进入无心地宫"
-    translated: "Enter the Realm of Wu Xing"
+    translated: "Entering the Wuxin Underground Palace"
 - raw: "4007401#19#1#1380.575,252.6149,719.2841,1#40074#跟随白无瑕#0#0#0#0#0###0##0##0#0#0#0#0#0#101000#897639#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -13745,7 +13975,7 @@
   - split: 5
     text: "找到鲁三通"
     translated: "Find Lu Santong"
-- raw: "4007407#19#1#1225.823,270.7195,896.7427,1#40074#发现司徒雷#0#4007406#0#0#0###0##0##0#0#0#0#0#0#101000#897553#3000|51000|8#165406&0#0#165407&1#0#0#0#0#0#0#"
+- raw: "4007407#19#1#1234.345,270.6501,893.343,1#40074#发现司徒雷#0#4007406#0#0#0###0##0##0#0#0#0#0#0#101000#897553#1000|51000|8#165406&0#0#165407&1#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "发现司徒雷"
@@ -14294,7 +14524,7 @@
   splits:
   - split: 5
     text: "前往天狼帮"
-    translated: "Head to the Tianlang Gang"
+    translated: "Head to the Heavenly Wolf Gang"
 - raw: "4008806#19#1#1518.386,329.7981,1399.229,1#40088#出城探险#0#4008805#40327#####0##0##0#0#0#0#0#0#0############"
   splits:
   - split: 5
@@ -14685,6 +14915,2766 @@
   - split: 5
     text: "成为《天下英雄谱》榜一"
     translated: "Becoming number one on the Record of Heroes of the World."
+- raw: "4009901#13#1#1088#40099#客栈求助#0##0#####0##0##0#0#0#0#0#0#101000#893287#3000|51000|8##########"
+  splits:
+  - split: 5
+    text: "客栈求助"
+    translated: "Seek assistance at the inn"
+- raw: "4009902#19#1#1609.147,327.209,1402.125,1#40099#前往寒水湖#0#4009901#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#160291&1|160293&1##160291&1#######"
+  splits:
+  - split: 5
+    text: "前往寒水湖"
+    translated: "Head towards Han Shui Lake"
+- raw: "4009903#5#1#160291#40099#击败寒水棕熊#0#4009902#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#160300&1#########"
+  splits:
+  - split: 5
+    text: "击败寒水棕熊"
+    translated: "Defeat the Coldwater Palm Bear"
+- raw: "4009904#2#1#37819|1#40099#采集冰湖莼菜#0#4009903#0###1608.122,327.270,1401.995##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采集冰湖莼菜"
+    translated: "Harvest ice lake water spinach"
+- raw: "4009905#13#1#1088#40099#交付冰湖莼菜#893284#4009904#0##37819|1##37840|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "交付冰湖莼菜"
+    translated: "Deliver the Ice Lake Water Spinach"
+- raw: "4010001#13#1#160292#40100#武师挑衅#893282##0#####0##0##0#0#0#0#0#0#101000#####160292&0#######"
+  splits:
+  - split: 5
+    text: "武师挑衅"
+    translated: "Wushu master provokes"
+- raw: "4010002#16#1#160292#40100#击败武师#893277#4010001#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败武师"
+    translated: "Defeat the martial artists"
+- raw: "4010003#13#1#1088#40100#与云烟对话#893275#4010002#0####37841|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与云烟对话"
+    translated: "Dialogue with Cloud Mist"
+- raw: "4010101#13#1#1088#40101#书画失窃#0##0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#160293&1|160294&1|160295&1#160293&1528.591&328.9883&1406.27&263.7505######893271##"
+  splits:
+  - split: 5
+    text: "书画失窃"
+    translated: "Artwork theft"
+- raw: "4010102#19#1#1497.822,336.247498,1441.853,3#40101#追踪神秘买家#0#4010101#0#####0##0##0#0#0#0#0#0#101000#####160294&1|160295&1#######"
+  splits:
+  - split: 5
+    text: "追踪神秘买家"
+    translated: "Tracking the Mysterious Buyer"
+- raw: "4010103#5#1#160294|160295#40101#夺回书画#0#4010102#0####37842|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "夺回书画"
+    translated: "Retrieve the paintings"
+- raw: "4010104#13#1#1088#40101#与云烟对话#893258#4010103#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与云烟对话"
+    translated: "Dialogue with Cloud Mist"
+- raw: "4010201#13#1#15041#40102#与伙计对话#0##0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#160295&1|160296&1|160297&1|160298&1|160299&1##160295&1|160296&1|160297&1|160298&1|160299&1#####893254##"
+  splits:
+  - split: 5
+    text: "与伙计对话"
+    translated: "Talking with a buddy"
+- raw: "4010202#5#1#160296|160297|160298|160299#40102#肃清来敌#0#4010201#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "肃清来敌"
+    translated: "Expel the enemy forces"
+- raw: "4010203#13#1#1088#40102#来自云烟的谢意#893250#4010202#25150####37843|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "来自云烟的谢意"
+    translated: "Gratitude from among the clouds of mist"
+- raw: "4010301#19#1#1333.401,252.0424,562.7544,1#40103#前往豫京城外#0##40398#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往豫京城外"
+    translated: "Heading to the outskirts of the Yu Capital."
+- raw: "4010302#5#1#165627|165628|165629#40103#击败黑衣人#0#4010301#0#####0##0##0#0#0#0#0#0#101000###165632&1|165633&1#########"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "4010303#13#1#165632#40103#帮上官淑收集散落#0#4010302#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165634&1|170109&1#########"
+  splits:
+  - split: 5
+    text: "帮上官淑收集散落"
+    translated: "Help Shangguan Shu collect the scattered items"
+- raw: "4010304#13#1#170109#40103#与上官淑对话#0#4010303#0#####0##0##0#0#0#0#0#0#101000#893227#3000|51000|8#165634&0|165632&0|165633&0#######893210##"
+  splits:
+  - split: 5
+    text: "与上官淑对话"
+    translated: "Talking to Shangguan Shu"
+- raw: "4010305#19#1#1446.354,253.0125,474.9667,1#40103#返回豫京#0#4010304#40399#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回豫京"
+    translated: "Return to the Yu Capital"
+- raw: "4010306#16#1#165635|165636|165637#40103#击败护卫#0#4010305#0#####0##0##0#0#0#0#0#0#101000#893192#2000|51000|8#165635&0|165636&0|165637&0#########"
+  splits:
+  - split: 5
+    text: "击败护卫"
+    translated: "Defeat the guards"
+- raw: "4010401#19#1#1475.2,253.0408,480.925,1#40104#前往豫京城内#0##40400#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往豫京城内"
+    translated: "Head into the Yu Capital city"
+- raw: "4010402#16#1#165639|165640#40104#击败土匪#0#4010401#0#####0##0##0#0#0#0#0#0#101000#893185#2000|51000|8#165639&0|165640&0#########"
+  splits:
+  - split: 5
+    text: "击败土匪"
+    translated: "Defeat the bandits"
+- raw: "4010403#19#1#1474.686,253.0408,474.5136,1#40104#到旁边接受治疗#0#4010402#40401#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到旁边接受治疗"
+    translated: "Approach to receive treatment"
+- raw: "4010404#19#1#1519.631,257.5018,419.3508,1#40104#前往茶楼#0#4010403#40402#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往茶楼"
+    translated: "Head to the teahouse"
+- raw: "4010405#5#1#165645|165646|165647|165648#40104#击败刺客#0#4010404#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败刺客"
+    translated: "Defeat the assassin"
+- raw: "4010406#13#1#170109#40104#与上官淑对话#0#4010405#40403#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与上官淑对话"
+    translated: "Talking to Shangguan Shu"
+- raw: "4010501#19#1#1570.548,257.4944,434.2845,2#40105#前去寻找与上官淑#0##40404#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前去寻找与上官淑"
+    translated: "Go in search of Shangguan Shu"
+- raw: "4010502#19#1#1377.14,245.3559,273.0147,1#40105#前往桃隐村#0#4010501#40405#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往桃隐村"
+    translated: "Head to Hidden Peach Village"
+- raw: "4010503#19#1#1433.29,244.8604,321.0984,1#40105#前往村口#0#4010502#0#####0##0##0#0#0#0#0#0#101000#893078####165652&0|165653&0|165654&0#######"
+  splits:
+  - split: 5
+    text: "前往村口"
+    translated: "Go to the village entrance"
+- raw: "4010504#16#1#165652|165653|165654#40105#击败黑衣人#0#4010503#40406#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "4010601#19#1#1542,257.3997,346,1#40106#前往豫京城北#893043##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往豫京城北"
+    translated: "Heading to the north of Yu Capital"
+- raw: "4010602#19#1#1856.145,317.0558,322.2119,1#40106#前往盘山道#0#4010601#40407#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往盘山道"
+    translated: "Heading to Winding Mountain Road"
+- raw: "4010603#5#1#165655|165656|165657#40106#击败敌人#0#4010602#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4010604#19#1#1857.647,320.3592,293.4992,1#40106#潜入盘山道内#0#4010603#0#####0##0##0#0#0#0#0#0#101000#893021####165659&0|165660&0#######"
+  splits:
+  - split: 5
+    text: "潜入盘山道内"
+    translated: "Infiltrate within the Winding Mountain Road"
+- raw: "4010605#16#1#165659|165660#40106#击败护卫#0#4010604#40408#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败护卫"
+    translated: "Defeat the guards"
+- raw: "4010606#16#1#165659|165660|165658#40106#击败赵崇明等人#0#4010605#40409#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败赵崇明等人"
+    translated: "Defeat Zhao Chongming and others"
+- raw: "4010607#19#1#1436.762,258.9466,504.1411,1#40106#返回豫京城#0#4010606#40410#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回豫京城"
+    translated: "Return to the Yu Capital city"
+- raw: "4010701#19#1#1897.779,327.3116,1396.501,1#40107#前往关外#0##0#####0##0##0#0#0#0#0#0#101000#892663##165662&1#########"
+  splits:
+  - split: 5
+    text: "前往关外"
+    translated: "Heading to the frontier"
+- raw: "4010702#19#1#1897.979,327.8432,1401.843,1#40107#向村民打听#0#4010701#0#####0##0##0#0#0#0#0#0#101000#892658##165663&1#######892656##"
+  splits:
+  - split: 5
+    text: "向村民打听"
+    translated: "Ask around the villagers"
+- raw: "4010703#13#1#165663#40107#与老翁交谈#0#4010702#0#####0##0##0#0#0#0#0#0#101000#892654#2000|51000|8#165662&0|165663&0#########"
+  splits:
+  - split: 5
+    text: "与老翁交谈"
+    translated: "Speaking with the old man"
+- raw: "4010704#19#1#1915.91,305.4091,1523.813,1#40107#前往镇西#0#4010703#40411#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往镇西"
+    translated: "Proceed westward to the county town"
+- raw: "4010705#5#1#165665|165666|165667|165668#40107#击败敌人#0#4010704#40412#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4010706#5#1#165664#40107#击败血手堂主#0#4010705#40442#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败血手堂主"
+    translated: "Defeat the Sect Leader of the Blood Hand Sect."
+- raw: "4010801#19#1#506.5209,243.2702,534.9026,1#40108#前往砚溪山庄#0##40413#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往砚溪山庄"
+    translated: "Heading to Ink Stream Mountain Villa"
+- raw: "4010802#5#1#165669|165670|165671#40108#击败敌人#0#4010801#0#####0##0##0#0#0#0#0#0#101000#892600#3000|89258|3########892582##"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4010805#19#1#442.4671,253.3955,379.1492,1#40108#继续上路#0#4010802#40414#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "继续上路"
+    translated: "Proceed on your way"
+- raw: "4010806#13#1#165672#40108#与铁拳门首领对话#0#4010805#0#####0##0##0#0#0#0#0#0#101000#892563####165672&1|165673&1|165674&1#######"
+  splits:
+  - split: 5
+    text: "与铁拳门首领对话"
+    translated: "Conversing with the leader of the Iron Fist Sect."
+- raw: "4010807#5#1#165672|165673|165674#40108#击败敌人#0#4010806#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4010808#19#1#442.4671,253.3955,379.1492#40108#与司青寒对话#892551#4010807#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与司青寒对话"
+    translated: "Speaking with Master Si Qinghan"
+- raw: "4010809#19#1#373.985,253.2315,368.5365,1#40108#继续前行#0#4010808#0#####0##0##0#0#0#0#0#0#101000#892543##165675&1#########"
+  splits:
+  - split: 5
+    text: "继续前行"
+    translated: "Press on"
+- raw: "4010810#19#1#289.0731,265.3099,292.0346,1#40108#与陆修远对话#0#4010809#40415#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与陆修远对话"
+    translated: "Conversing with Lu Xiuyuan"
+- raw: "4010901#19#1#285.7235,258.1154,403.8428,1#40109#前往山庄内部#0##40417#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往山庄内部"
+    translated: "Proceed into the manor"
+- raw: "4010902#5#1#165676|165677|165678|165679#40109#击败敌人#0#4010901#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4010903#19#1#285.7235,258.1154,403.8428#40109#与司青寒对话#892477#4010902#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与司青寒对话"
+    translated: "Speaking with Master Si Qinghan"
+- raw: "4010904#19#1#326.2619,259.4253,413.27,1#40109#继续向前探索#892473#4010903#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "继续向前探索"
+    translated: "Continue exploring further ahead"
+- raw: "4010905#19#1#323.0714,264.7807,410.1753,1#40109#发现神秘信件#0#4010904#0#####0##0##0#0#0#0#0#0#101000#892462#3000|89245|6########892455#40443#"
+  splits:
+  - split: 5
+    text: "发现神秘信件"
+    translated: "Discovered a mysterious letter"
+- raw: "4011001#19#1#288.9732,265.3099,292.163,2#40110#与陆修远汇合#0##40418#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与陆修远汇合"
+    translated: "Join forces with Lu Xiuyuan"
+- raw: "4011002#19#1#374.173,253.2315,369.5426,1#40110#前往祭坛#0#4011001#40419#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往祭坛"
+    translated: "Go to the altar"
+- raw: "4011003#5#1#165680|165681|165682|165683#40110#击败敌人#0#4011002#40420#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011004#19#1#304.3044,255.5425,368.8969,1#40110#找到宋清风#0#4011003#40421#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "找到宋清风"
+    translated: "Find Song Qingfeng"
+- raw: "4011005#5#1#165685|165686|165687|165688#40110#击败敌人#0#4011004#0#####0##0##0#0#0#0#0#0#101000#####165684&0#######"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011006#16#1#165684#40110#击败宋清风#0#4011005#40422#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败宋清风"
+    translated: "Defeat Song Qingfeng"
+- raw: "4011007#19#1#264.3232,264.8864,369.1904,1#40110#前往庄内#0#4011006#40423#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往庄内"
+    translated: "Proceed to the estate's interior"
+- raw: "4011101#19#1#951.9016,248.5529,779.644,1#40111#前往刺绣大会#0##40424#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往刺绣大会"
+    translated: "Attend the Embroidery Conference"
+- raw: "4011102#5#1#165694|165695|165696|165697#40111#击败蒙面人#0#4011101#40425#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败蒙面人"
+    translated: "Defeat the masked man"
+- raw: "4011103#19#1#949.8173,249.2149,803.6724,1#40111#前往城西客栈#0#4011102#40426#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往城西客栈"
+    translated: "Head to the inn in the western part of the city."
+- raw: "4011104#19#1#941.7087,252.659,801.6706,1#40111#到客栈对面房顶#0#4011103#40427#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到客栈对面房顶"
+    translated: "Opposite the inn on the rooftop"
+- raw: "4011105#19#1#955.3512,249.2148,820.3412,1#40111#上前查看#0#4011104#0#####0##0##0#0#0#0#0#0#101000##2000|51000|8#165699&1|165700&1#######892295##"
+  splits:
+  - split: 5
+    text: "上前查看"
+    translated: "Approach to inspect"
+- raw: "4011106#19#1#956.0381,252.0271,800.6094,1#40111#返回客栈#0#4011105#0#####0##0##0#0#0#0#0#0#101000#892287##165690&1|165700&0|165701&1|165702&1|165703&1#########"
+  splits:
+  - split: 5
+    text: "返回客栈"
+    translated: "Return to the inn"
+- raw: "4011107#19#1#966.5151,248.5738,807.3469,1#40111#到客栈后面#0#4011106#0#####0##0##0#0#0#0#0#0#101000#892270####165701&0|165702&0|165703&0#######"
+  splits:
+  - split: 5
+    text: "到客栈后面"
+    translated: "Behind the inn"
+- raw: "4011108#16#1#165701|165702|165703#40111#击败敌人#0#4011107#0#####0##0##0#0#0#0#0#0#101000##3000|89226|3#165702&0|165703&0|165704&1#165701&996.472&246.5623&822.8013&261.8005########"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011109#19#1#996.3613,246.5623,819.9661,1#40111#跟踪杀手#0#4011108#0#####0##0##0#0#0#0#0#0#101000#892262#2000|51000|8#165705&1|165706&1|165707&1##165705&0|165706&0|165707&0|165701&0|165704&0#######"
+  splits:
+  - split: 5
+    text: "跟踪杀手"
+    translated: "Tracker Assassin"
+- raw: "4011110#16#1#165705|165706|165707|165701#40111#击败敌人#0#4011109#40428#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011201#19#1#951.9016,248.5529,779.644,1#40112#前往刺绣大会#0##40429#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往刺绣大会"
+    translated: "Attend the Embroidery Conference"
+- raw: "4011202#19#1#853.0864,245.8466,707.7635,1#40112#前往蓬莱村#0#4011201#40430#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往蓬莱村"
+    translated: "Head to Penglai Village"
+- raw: "4011203#16#1#165708|165709|165710#40112#击败敌人#0#4011202#40431#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011204#19#1#747.0891,249.3023,892.8428,1#40112#前往枰栌城南#0#4011203#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165711&1#165692&747.843&249.3023&892.11&232.3005######892218##"
+  splits:
+  - split: 5
+    text: "前往枰栌城南"
+    translated: "Head to the south of Pinglu City"
+- raw: "4011205#19#1#699.155,239.2167,832.5312,1#40112#前往小石镇#0#4011204#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165712&1#165692&698.4165&239.1847&831.9987&124.8005|165711&699.7991&239.1403&831.4993&121.5505######892204##"
+  splits:
+  - split: 5
+    text: "前往小石镇"
+    translated: "Head to Little Stone Town"
+- raw: "4011206#19#1#718.8904,236.3178,775.3711,1#40112#前往安全屋#0#4011205#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165713&1|165712&0#165692&719.785&236.3178&775.6663&147.5504|165711&720.1766&236.3178&774.3085&136.8004######892196##"
+  splits:
+  - split: 5
+    text: "前往安全屋"
+    translated: "Head to the safe house"
+- raw: "4011301#19#1#719.4564,236.3178,777.3656,1#40113#前往小石镇#0##40432#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往小石镇"
+    translated: "Head to Little Stone Town"
+- raw: "4011302#19#1#1158.283,354.6007,1437.526,1#40113#前往云鹤村外#0#4011301#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8##165692&1157.697&354.6804&1436.792&317.5504######892166##"
+  splits:
+  - split: 5
+    text: "前往云鹤村外"
+    translated: "Heading towards the outskirts of Cloud Crane Village."
+- raw: "4011303#19#1#1072.476,367.1732,1506.849,1#40113#前往马府房外#0#4011302#40433#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往马府房外"
+    translated: "Head to the courtyard of Ma's mansion"
+- raw: "4011304#1#1#892090#40113#上前查看废墟#0#4011303#0###1067.517,368.6165,1519.958##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "上前查看废墟"
+    translated: "Approach and examine the ruins"
+- raw: "4011401#19#1#1070.363,368.6165,1517.685,1#40114#准备离开马府#0##0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165714&0|165715&0|165716&0|165717&0|165718&0|165719&0#165692&1070.78&368.6351&1519.492&162.0503|1&1070.363&368.6165&1517.685&32.0503######892069##"
+  splits:
+  - split: 5
+    text: "准备离开马府"
+    translated: "Preparing to leave Ma Family Residence"
+- raw: "4011402#19#1#1092.643,375.2008,1406.041,1#40114#前往后山#0#4011401#40437#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往后山"
+    translated: "Head towards the rear mountain"
+- raw: "4011403#5#1#165721|165722|165723#40114#击败敌人#0#4011402#0#####0##0##0#0#0#0#0#0#101000#892042#3000|89202|9##########"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011404#19#1#1797.584,316.8866,1438.665,1#40114#前往星陨荒#0#4011403#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165724&1#165692&1796.716&316.9044&1437.96&134.3003######892028##"
+  splits:
+  - split: 5
+    text: "前往星陨荒"
+    translated: "Heading to the Starfall Wasteland"
+- raw: "4011405#2#1#34625|1#40114#打开宝箱#0#4011404#40438###1789.566,319.1608,1427.584##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "打开宝箱"
+    translated: "Open the treasure chest"
+- raw: "4011406#19#1#1548.102,336.0388,1657.533,1#40114#跟随寒鸦#0#4011405#40439#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "跟随寒鸦"
+    translated: "Follow the Raven of Frost"
+- raw: "4011407#16#1#165725#40114#击败敌人#0#4011406#40440#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011408#19#1#718.8904,236.3178,775.3711,1#40114#回到小石镇#0#4011407#40441#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回到小石镇"
+    translated: "Return to Little Stone Town"
+- raw: "4011501#13#1#165728#40115#与天机阁成员对话#891808##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与天机阁成员对话"
+    translated: "Speaking with members of Tianji Pavilion"
+- raw: "4011502#19#1#1589.656,275.8139,879.2324,1#40115#前往飞鸿原#0#4011501#40451#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往飞鸿原"
+    translated: "Proceed to the Flying Swan Plain"
+- raw: "4011503#19#1#1504.004,265.7086,1064.57,1#40115#跟踪柳如烟#0#4011502#40452#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "跟踪柳如烟"
+    translated: "Track down Liu Ruyan"
+- raw: "4011504#16#1#55650#40115#击败柳如烟#891700#4011503#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败柳如烟"
+    translated: "Defeat Liu Ruyan"
+- raw: "4011601#13#1#7021#40116#前去送信#891691##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前去送信"
+    translated: "Go deliver a letter"
+- raw: "4011602#19#1#1581.306,257.3589,398.2611,1#40116#前往正气楼#0#4011601#0#####0##0##0#0#0#0#0#0#101000##3000|89168|9#35556&1#########"
+  splits:
+  - split: 5
+    text: "前往正气楼"
+    translated: "Proceed to Zhenqi Building"
+- raw: "4011603#13#1#35556#40116#向乔立询问#891688#4011602#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "向乔立询问"
+    translated: "Inquire of Brother Qiao Li"
+- raw: "4011604#19#1#1518.537,253.7456,299.445,1#40116#前往正气楼营地#0#4011603#40453#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往正气楼营地"
+    translated: "Head towards Zhenqi Lou Campsite"
+- raw: "4011605#13#1#165738#40116#拜访林风#0#4011604#40454#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "拜访林风"
+    translated: "Visit Lin Feng"
+- raw: "4011606#19#1#210.2956,224.0431,90.06441,1#40116#前往十二连环坞#0#4011605#40455#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往十二连环坞"
+    translated: "Head to the Twelve‑linked Fortress"
+- raw: "4011607#16#1#165741|165742#40116#击败坞卒#0#4011606#40456#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败坞卒"
+    translated: "Defeat the fort guards"
+- raw: "4011608#16#1#165743|165744|165745#40116#击败坞丁#0#4011607#40457#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败坞丁"
+    translated: "Defeat Wu Ding"
+- raw: "4011609#19#1#241.7608,226.4313,59.53761,1#40116#拜访杨虹#0#4011608#0#####0##0##0#0#0#0#0#0#101000#891644#3000|8916|40#165377&1#######891639##"
+  splits:
+  - split: 5
+    text: "拜访杨虹"
+    translated: "Visit Yang Hong"
+- raw: "4011610#13#1#165377#40116#找到钟大嘴#0#4011609#0#####0##0##0#0#0#0#0#0#101000#891631##165747&1#########"
+  splits:
+  - split: 5
+    text: "找到钟大嘴"
+    translated: "Find Zhang Dazui"
+- raw: "4011611#19#1#258.6006,224.679,680.7604,1#40116#找到白先生#0#4011610#0#####0##0##0#0#0#0#0#0#101000#891618#3000|89161|4#165748&1|165749&1#######891613##"
+  splits:
+  - split: 5
+    text: "找到白先生"
+    translated: "Found Master Bai"
+- raw: "4011612#19#1#386.6505,230.3454,603.7972,1#40116#离开淮陵#0#4011611#0#####0##0##0#0#0#0#0#0#101000#891609####165748&1|165749&1#######"
+  splits:
+  - split: 5
+    text: "离开淮陵"
+    translated: "Leaving Huailing"
+- raw: "4011613#5#1#165748|165749#40116#击败敌人#0#4011612#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011701#19#1#1422.12,257.3997,416.9163,1#40117#前往烟雨阁#0##40458#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往烟雨阁"
+    translated: "Proceed to Yanyuge"
+- raw: "4011702#19#1#1433.322,248.8877,630.5472,1#40117#前往嵩室山#0#4011701#40459#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往嵩室山"
+    translated: "Travel to Songshi Mountain"
+- raw: "4011703#19#1#1422.12,257.3997,416.9163,1#40117#返回烟雨阁#0#4011702#40460#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回烟雨阁"
+    translated: "Return to Yanyuge"
+- raw: "4011801#19#1#1404.039,252.3358,539.3287,1#40118#休整一月#0##40461#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "休整一月"
+    translated: "Rest for a month"
+- raw: "4011802#16#1#165750|165751|165752|165753#40118#击败杀手#0#4011801#0#####0##0##0#0#0#0#0#0#101000##3000|89153|6#165750&0|165751&0|165752&0|165753&0#########"
+  splits:
+  - split: 5
+    text: "击败杀手"
+    translated: "Defeat the assassin"
+- raw: "4011803#19#1#1451.457,253.0765,488.8217,1#40118#逃进豫京城#891535#4011802#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "逃进豫京城"
+    translated: "Fled into the Yu Capital"
+- raw: "4011804#19#1#1422.12,257.3997,416.9163,1#40118#返回烟雨阁#0#4011803#0#####0##0##0#0#0#0#0#0#101000#891532#3000|89152|3##########"
+  splits:
+  - split: 5
+    text: "返回烟雨阁"
+    translated: "Return to Yanyuge"
+- raw: "4011805#19#1#1440.243,257.528,418.16661#40118#前往烟雨阁外#0#4011804#40462#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往烟雨阁外"
+    translated: "Go outside Yanyu Ge"
+- raw: "4011806#5#1#165754|165755|165756#40118#击败敌人#0#4011805#0#####0##0##0#0#0#0#0#0#101000#891512####165747&1#######"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4011807#5#1#165747#40118#击杀白先生#0#4011806#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8##55650&1421.229&257.3997&416.0614&50.20053########"
+  splits:
+  - split: 5
+    text: "击杀白先生"
+    translated: "Kill Mr. Bai."
+- raw: "4011808#19#1#1422.12,257.3997,416.9163,1#40118#返回烟雨阁#891508#4011807#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回烟雨阁"
+    translated: "Return to Yanyuge"
+- raw: "4011901#13#1#1084#40119#与高枫芸交谈#891492##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与高枫芸交谈"
+    translated: "Talk to Gao Fengyun"
+- raw: "4011902#13#1#1084#40119#与高枫芸交谈#891490#4011901#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与高枫芸交谈"
+    translated: "Talk to Gao Fengyun"
+- raw: "4011903#13#1#1084#40119#与高枫芸交谈#891487#4011902#25152#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与高枫芸交谈"
+    translated: "Talk to Gao Fengyun"
+- raw: "4011904#19#1#749.028198,247.789169,303.116516,1#40119#前往法华村#891484#4011903#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往法华村"
+    translated: "Head to Dharma Blossom Village"
+- raw: "4011905#13#1#160303#40119#与老丈对话#891481#4011904#25153#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与老丈对话"
+    translated: "Speaking with the elder gentleman"
+- raw: "4011906#5#1#160304|160305|160306#40119#击杀散兵#0#4011905#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀散兵"
+    translated: "Eliminate the stray soldiers"
+- raw: "4011907#13#1#160303#40119#与老丈对话#891474#4011906#25154####5000001|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与老丈对话"
+    translated: "Speaking with the elder gentleman"
+- raw: "4011908#13#1#1084#40119#与高枫芸交谈#891469#4011907#25152#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与高枫芸交谈"
+    translated: "Talk to Gao Fengyun"
+- raw: "4011909#13#1#160303#40119#与老丈对话#891466#4011908#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与老丈对话"
+    translated: "Speaking with the elder gentleman"
+- raw: "4012001#19#1#217.144409,225.921875,681.112122,1#40120#到达淮陵酒店#891461##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达淮陵酒店"
+    translated: "Arrive at the Huailing Hotel"
+- raw: "4012002#19#1#216.304001,225.921875,690.139282,1#40120#前往淮陵酒店后院#891454#4012001#25156#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往淮陵酒店后院"
+    translated: "Proceed to the courtyard of the Huailing Hotel."
+- raw: "4012003#16#1#160309#40120#击败护卫#0#4012002#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败护卫"
+    translated: "Defeat the guards"
+- raw: "4012004#13#1#160308#40120#与鬼手对话#891450#4012003#25157#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与鬼手对话"
+    translated: "Conversing with the Shadow Hand"
+- raw: "4012006#16#1#160310#40120#击败蒙面人#891436#4012004#25158####5000002|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败蒙面人"
+    translated: "Defeat the masked man"
+- raw: "4012007#13#1#160308#40120#与鬼手对话#891435#4012006#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与鬼手对话"
+    translated: "Conversing with the Shadow Hand"
+- raw: "4012101#19#1#689.100342,262.18457,1022.17865,1#40121#前往枰栌城郊茅屋#891430##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往枰栌城郊茅屋"
+    translated: "Proceed to the thatched cottage on the outskirts of Pinglu City."
+- raw: "4012102#13#1#160311#40121#与樵夫对话#891427#4012101#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与樵夫对话"
+    translated: "Conversing with a woodsman"
+- raw: "4012103#19#1#410.99295,262.849182,914.070801,1#40121#前往密林深处#891421#4012102#25159####5000003|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往密林深处"
+    translated: "Head into the depths of the dense forest."
+- raw: "4012104#5#1#160313|160314#40121#击杀巡逻兵#891412#4012103#25175#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀巡逻兵"
+    translated: "Eliminate the patrol soldier"
+- raw: "4012105#19#1#368.555054,271.979187,923.486755,1#40121#前往云岫坞#891411#4012104#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往云岫坞"
+    translated: "Head towards Yunxu Cave"
+- raw: "4012106#19#1#354.881897,271.979187,908.46936,1#40121#继续探索#891406#4012105#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "继续探索"
+    translated: "Continue exploring"
+- raw: "4012107#13#1#160315#40121#方副将交谈#891403#4012106#25163#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "方副将交谈"
+    translated: "Commander Fang talks with his deputy"
+- raw: "4012201#13#1#160315#40122#继续与方副将交谈#891385##25160#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "继续与方副将交谈"
+    translated: "Continue speaking with Deputy General Fang"
+- raw: "4012202#19#1#680.484802,262.776215,1031.46289,1#40122#前往茅屋#891380#4012201#25161#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往茅屋"
+    translated: "Go to the thatched hut"
+- raw: "4012203#5#1#160317|160318|160319#40122#击败燕国士兵#0#4012202#25176#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败燕国士兵"
+    translated: "Defeat the soldiers of the Yan Kingdom"
+- raw: "4012204#19#1#689.206726,262.18457,1020.90082,1#40122#到达茅屋#891379#4012203#25162#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达茅屋"
+    translated: "Arrive at the thatched hut"
+- raw: "4012301#5#1#160320#40123#击杀燕武#891371##25164####5000006|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀燕武"
+    translated: "Eliminate Yan Wu"
+- raw: "4012401#19#1#90.8394775,225.930237,1496.1344#40124#前往清风寨#891357##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往清风寨"
+    translated: "Head to Qingfeng Zhai"
+- raw: "4012402#13#1#160323#40124#面见李老将军#891350#4012401#0##5000004|1###0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "面见李老将军"
+    translated: "Meeting with Elderly General Li"
+- raw: "4012403#19#1#-49.9779472,236.871338,1616.43994,1#40124#前往灵芝坡#0#4012402#25173#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往灵芝坡"
+    translated: "Go to Lingzhi Slope"
+- raw: "4012404#5#1#160324#40124#击杀灵芝守护兽#0#4012403#25177#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀灵芝守护兽"
+    translated: "Slay the Lingzhi Guardian Beast"
+- raw: "4012405#2#1#9074|1#40124#采集获取灵芝#0#4012404#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采集获取灵芝"
+    translated: "Collecting or obtaining lingzhi mushrooms"
+- raw: "4012406#19#1#403.525085,246.610916,1185.52551,1#40124#前往云岫坞附近瀑布处#0#4012405#25178#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往云岫坞附近瀑布处"
+    translated: "Head to the waterfall near Yunxiu Cave"
+- raw: "4012407#2#1#29013|1#40124#获取泉水#891342#4012406#0##9074|1&29013|1##5000007|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "获取泉水"
+    translated: "Obtain spring water"
+- raw: "4012408#13#1#160323#40124#返回清风寨#891341#4012407#25165##5000007|1###0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回清风寨"
+    translated: "Return to Qingfeng Zhai"
+- raw: "4012501#19#1#785.91272,249.016052,936.590637,1#40125#前往城南#891332##25166#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往城南"
+    translated: "Heading south to the city"
+- raw: "4012502#19#1#803.975708,249.016052,942.377502,1#40125#围困赵康#891328#4012501#25167#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "围困赵康"
+    translated: "Siege Zhao Kang"
+- raw: "4012503#16#1#160328|160329|160330|160331#40125#击败赵康及护卫#891323#4012502#25168#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败赵康及护卫"
+    translated: "Defeat Zhao Kang and his guards"
+- raw: "4012601#13#1#160323#40126#与李老将军对话#891321##25169#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与李老将军对话"
+    translated: "Conversing with Elder General Li"
+- raw: "4012602#16#1#160332#40126#击败赵勇#891310#4012601#25174#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败赵勇"
+    translated: "Defeat Zhao Yong"
+- raw: "4012603#13#1#1084#40126#与高枫芸交谈#891304#4012602#25152#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与高枫芸交谈"
+    translated: "Talk to Gao Fengyun"
+- raw: "4012701#19#1#955.440308,249.214874,806.682495,1#40127#潜入都城#0##25170#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "潜入都城"
+    translated: "Infiltrate the capital city"
+- raw: "4012702#5#1#160346|160347|160348#40127#击杀护卫#0#4012701#25171#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀护卫"
+    translated: "Kill the guard"
+- raw: "4012703#5#1#160345#40127#击杀赵康#891288#4012702#25172##5000001|1&5000002|1&5000003|1&5000006|1##34700|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀赵康"
+    translated: "Kill Zhao Kang"
+- raw: "4012801#13#1#165757#40128#询问镇民#889618##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "询问镇民"
+    translated: "Ask the villagers"
+- raw: "4012802#19#1#1353.218,224.0139,138.6376,1#40128#前往争吵地点#0#4012801#40463#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往争吵地点"
+    translated: "Proceed to the site of the argument"
+- raw: "4012803#19#1#1357.247,223.9263,142.0762,1#40128#进入张大户院中#0#4012802#40464#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进入张大户院中"
+    translated: "Entering Zhang Dahu's estate"
+- raw: "4012804#5#1#165760|165761|165762|165763#40128#击败家丁#889591#4012803#0####180011|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败家丁"
+    translated: "Defeat the household servants"
+- raw: "4012805#13#1#165758#40128#与潘金莲对话#0#4012804#40465##180011|1###0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与潘金莲对话"
+    translated: "Speaking with Pan Jinlian"
+- raw: "4012806#19#1#1355.688,224.0286,133.3167,1#40128#前往潘金莲的住所#0#4012805#0#####0##0##0#0#0#0#0#0#101000#889577##165764&1|165765&1#########"
+  splits:
+  - split: 5
+    text: "前往潘金莲的住所"
+    translated: "Go to Pan Jinlian's residence"
+- raw: "4012807#19#1#1321.808,224.0822,149.7624,1#40128#在茶馆歇息#889548#4012806#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "在茶馆歇息"
+    translated: "Resting in the tea house"
+- raw: "4012808#13#1#165758#40128#去找潘金莲#0#4012807#0#####0##0##0#0#0#0#0#0#101000#889539##165764&0|165765&0|165759&0#########"
+  splits:
+  - split: 5
+    text: "去找潘金莲"
+    translated: "Go find Pan Jinlian"
+- raw: "4012809#19#1#1367.097,223.9263,149.3048,1#40128#潜入张大户家#0#4012808#40466#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "潜入张大户家"
+    translated: "Infiltrate Zhang's household"
+- raw: "4012810#19#1#1361.489,229.3532,147.8125,1#40128#进入书房#0#4012809#40467#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进入书房"
+    translated: "Enter the study"
+- raw: "4012901#5#1#165769|165768#40129#击败护院#0##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败护院"
+    translated: "Defeat the guards"
+- raw: "4012902#19#1#1355.688,224.0286,133.3167,1#40129#前往潘金莲的住所#0#4012901#40468#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往潘金莲的住所"
+    translated: "Go to Pan Jinlian's residence"
+- raw: "4012903#5#1#165770|165771|165772#40129#击败大护院#0#4012902#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8##165758&1294.619&224.8529&163.3474&182.2996########"
+  splits:
+  - split: 5
+    text: "击败大护院"
+    translated: "Defeat the Grand Guardian"
+- raw: "4012904#19#1#1294.464,224.8428,161.9061,1#40129#逃离张大户家#0#4012903#0#####0##0##0#0#0#0#0#0#101000#889491#3000|88926|4#165758&0#########"
+  splits:
+  - split: 5
+    text: "逃离张大户家"
+    translated: "Escaping from Zhang Dahu's household"
+- raw: "4012905#19#1#738.284,236.1747,531.6347,1#40129#前往茶馆#0#4012904#40469####34703|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往茶馆"
+    translated: "Head to the tea house"
+- raw: "4013001#5#1#165769|165768#40130#击败护院#0##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败护院"
+    translated: "Defeat the guards"
+- raw: "4013002#19#1#1356.252,223.9305,136.9034,1#40130#前往潘金莲的住所#0#4013001#40470#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往潘金莲的住所"
+    translated: "Go to Pan Jinlian's residence"
+- raw: "4013003#16#1#165776|165777|165778#40130#击败捕头#0#4013002#40471#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败捕头"
+    translated: "Defeat the Chief Hunter"
+- raw: "4013101#19#1#1313.362,225.5417,168.9809,1#40131#前往东海镇酒馆#0##40473#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往东海镇酒馆"
+    translated: "Head to the tavern in Eastern Sea Town."
+- raw: "4013102#19#1#1441.567,246.2258,261.6798,1#40131#前往桃隐村#0#4013101#0#####0##0##0#0#0#0#0#0#101000#889399##165781&0|165782&0|165758&1#165758&1402.657&246.1631&258.2296&10.3006########"
+  splits:
+  - split: 5
+    text: "前往桃隐村"
+    translated: "Head to Hidden Peach Village"
+- raw: "4013103#19#1#1402.899,246.092,260.8791,1#40131#前往武植家#0#4013102#0#####0##0##0#0#0#0#0#0#101000#889397##165784&1#########"
+  splits:
+  - split: 5
+    text: "前往武植家"
+    translated: "Go to the Wu Shi household"
+- raw: "4013104#19#1#1386.088,246.08,279.1604,1#40131#离开武植家#0#4013103#0#####0##0##0#0#0#0#0#0#101000#888974##165785&1|165786&1|165787&1#########"
+  splits:
+  - split: 5
+    text: "离开武植家"
+    translated: "Leaving the Wuxi household"
+- raw: "4013105#19#1#1480.337,255.8383,266.8904,1#40131#前往山上#0#4013104#0#####0##0##0#0#0#0#0#0#101000#####165785&1|165786&1|165787&1#######"
+  splits:
+  - split: 5
+    text: "前往山上"
+    translated: "Go up to the mountain"
+- raw: "4013106#5#1#165785|165786|165787#40131#击杀狼群#0#4013105#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀狼群"
+    translated: "Slay the wolf pack"
+- raw: "4013107#19#1#1386.088,246.08,279.1604,1#40131#回到村庄#0#4013106#0#####0##0##0#0#0#0#0#0#101000#888972##165788&1#########"
+  splits:
+  - split: 5
+    text: "回到村庄"
+    translated: "Return to the village"
+- raw: "4013108#19#1#1399.7,246.092,266.1131,1#40131#返回武植家#0#4013107#40474#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回武植家"
+    translated: "Return to the Wu Shi family"
+- raw: "4013109#13#1#165784#40131#与赵大爷交谈#0#4013108#0#####0##0##0#0#0#0#0#0#101000#889385##165788&0#########"
+  splits:
+  - split: 5
+    text: "与赵大爷交谈"
+    translated: "Talk with Uncle Zhao"
+- raw: "4013110#19#1#1520.054,257.5018,418.4667,1#40131#前往豫京#0#4013109#40475#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往豫京"
+    translated: "Heading to the Yu Capital"
+- raw: "4013111#19#1#1402.899,246.092,260.8791,1#40131#前往寻找潘金莲#0#4013110#40476#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往寻找潘金莲"
+    translated: "Go in search of Pan Jinlian"
+- raw: "4013201#19#1#1017.788,223.8296,211.1191,1#40132#前往不夜京码头#0##0#####0##0##0#0#0#0#0#0#101000##3000|89102|8##########"
+  splits:
+  - split: 5
+    text: "前往不夜京码头"
+    translated: "Heading to the Evernight Capital port"
+- raw: "4013202#19#1#1286.621,223.7676,114.7062,1#40132#前往东海镇码头#0#4013201#0#####0##0##0#0#0#0#0#0#101000##3000|89102|7########891026##"
+  splits:
+  - split: 5
+    text: "前往东海镇码头"
+    translated: "Head to the port in Eastern Sea Town."
+- raw: "4013203#19#1#1684.61,223.7423,-120.3154,1#40132#前往合气岛废弃码头#0#4013202#0#####0##0##0#0#0#0#0#0#101000##3000|89102|4#165791&1|165792&1|165793&1|165794&1|165795&1|165796&1|165797&1|165798&1|91387&0#######891023##"
+  splits:
+  - split: 5
+    text: "前往合气岛废弃码头"
+    translated: "Proceed to the abandoned port on Qi Harmony Island."
+- raw: "4013204#19#1#1662.338,224.1503,-135.7429,1#40132#上船#0#4013203#40479#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "上船"
+    translated: "Boarding the ship"
+- raw: "4013205#16#1#165799#40132#击败黑衣人头目#0#4013204#40480#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人头目"
+    translated: "Defeat the leader of the Black‑Clothed Men"
+- raw: "4013206#16#1#165801|165802|165803|165800#40132#击败敌人#0#4013205#40481#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4013301#19#1#879.4915,227.5878,-116.8581,1#40133#前往一气屿#0##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往一气屿"
+    translated: "Head to One Qi Island"
+- raw: "4013302#19#1#903.2953,223.91,-122.6626,1#40133#进入神武将军墓(解密神武将军)#0#4013301#0#####0##0##0#0#0#0#0#0#101000#890987###########"
+  splits:
+  - split: 5
+    text: "进入神武将军墓(解密神武将军)"
+    translated: "Enter the Tomb of General Shenwu (Decrypt the General Shenwu)."
+- raw: "4013303#19#1#916.4697,225.315,-93.47653,1#40133#穿过机关#0#4013302#40482#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "穿过机关"
+    translated: "Pass through the mechanism"
+- raw: "4013304#13#1#165805#40133#与孙婆婆交谈#0#4013303#40483#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与孙婆婆交谈"
+    translated: "Talking to Grandma Sun"
+- raw: "4013305#19#1#914.8263,225.315,-81.96169,2#40133#安抚玉蜂#0#4013304#40484#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "安抚玉蜂"
+    translated: "Soothe the Jade Bee"
+- raw: "4013306#19#1#1036.674,223.9059,-62,1#40133#前往乘船离去#0#4013305#40485#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往乘船离去"
+    translated: "Head towards boarding the boat to depart"
+- raw: "4013307#16#1#165806|165807|165808#40133#击败敌人#0#4013306#40486#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4013308#19#1#894.715,228.2818,-132.437,1#40133#埋葬孙婆婆#0#4013307#40487#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "埋葬孙婆婆"
+    translated: "Burying Grandma Sun"
+- raw: "4013309#19#1#908.406,226.195,-78.50072,1#40133#返回古墓#0#4013308#40488####34705|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回古墓"
+    translated: "Return to the Ancient Tomb"
+- raw: "4013401#13#1#165804#40134#与龙儿对话#0##40489#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与龙儿对话"
+    translated: "Talking with Little Dragon"
+- raw: "4013402#13#1#165804#40134#与龙儿交谈#0#4013401#40490#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与龙儿交谈"
+    translated: "Talk to Long'er"
+- raw: "4013403#19#1#872.5548,226.1342,-115.1353,1#40134#前往古墓外#0#4013402#0#####0##0##0#0#0#0#0#0#101000##3000|89085|0########890849##"
+  splits:
+  - split: 5
+    text: "前往古墓外"
+    translated: "Proceed to the outside of the ancient tomb."
+- raw: "4013404#19#1#446.9927,223.456,-2.061057,1#40134#前往胜景林#0#4013403#40491#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往胜景林"
+    translated: "Heading to the Scenic Forest"
+- raw: "4013405#16#1#165809#40134#击败闻人篷斐#0#4013404#40492#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败闻人篷斐"
+    translated: "Defeat Wen Ren Pengfei"
+- raw: "4013501#19#1#566.4248,223.1698,25.21063,1#40135#逃离#0##40493#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "逃离"
+    translated: "Fleeing"
+- raw: "4013502#5#1#165810|165811|165812#40135#击败敌人#0#4013501#0#####0##0##0#0#0#0#0#0#101000#####165813&1|165814&1|165815&1#######"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4013503#5#1#165813|165814|165815#40135#击败敌人#0#4013502#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4013504#19#1#872.1213,224.0221,-89.83826,1#40135#返回古墓#0#4013503#40494#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回古墓"
+    translated: "Return to the Ancient Tomb"
+- raw: "4013505#19#1#909.1975,226.508,-83.16862,1#40135#翻阅古籍#0#4013504#40495#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "翻阅古籍"
+    translated: "Peruse ancient texts"
+- raw: "4013506#19#1#767.0215,341.7683,1267.408,1#40135#前往四圣峰#890788#4013505#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往四圣峰"
+    translated: "Heading to the Four Sacred Peaks"
+- raw: "4013507#2#1#54907|1#40135#采摘断肠草#0#4013506#40496###771.1898,341.7478,1275.042##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采摘断肠草"
+    translated: "Picking Plum Blossoms of Heart‑Breaking Sorrow"
+- raw: "4013508#5#1#165816#40135#击杀幻境沈星海#890783#4013507#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀幻境沈星海"
+    translated: "Defeat Illusionist Shen Xinghai in the Phantom Realm."
+- raw: "4013509#19#1#908.1124,225.315,-74.81704,1#40135#返回古墓#0#4013508#40497#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回古墓"
+    translated: "Return to the Ancient Tomb"
+- raw: "4013601#13#1#160349#40136#与王老三交谈#888962##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与王老三交谈"
+    translated: "Talk with Wang Lao San"
+- raw: "4013602#13#1#160350#40136#与老铁头交谈#888954#4013601#0####5000011|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与老铁头交谈"
+    translated: "Talking to Old Ironhead"
+- raw: "4013603#13#1#160351#40136#与慧能交谈#888947#4013602#0####5000012|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与慧能交谈"
+    translated: "Talking to Huineng"
+- raw: "4013701#19#1#1183.27161,391.230469,1822.95715,1#40137#到达废宅附近#888943##25180#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达废宅附近"
+    translated: "Arrive near the abandoned house"
+- raw: "4013702#5#1#160352|160353#40137#击败怪物#0#4013701#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败怪物"
+    translated: "Defeat the monster"
+- raw: "4013703#13#1#160354#40137#与张二郎交谈#888940#4013702#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与张二郎交谈"
+    translated: "Talk to Zhang Erlang"
+- raw: "4013704#19#1#1151.0177,400.760834,1854.29688,1#40137#到达废宅#888936#4013703#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达废宅"
+    translated: "Arrived at the dilapidated mansion"
+- raw: "4013705#2#1#5000008|1#40137#寻找并采集魂稳草#0#4013704#25181###1115.39136,405.416687,1859.1189#5000013|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "寻找并采集魂稳草"
+    translated: "Seeking out and collecting soul‑stabilizing herb"
+- raw: "4013706#5#1#160355#40137#击败黑沙寨弟子#888927#4013705#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑沙寨弟子"
+    translated: "Defeat a disciple from the Black Sand Stronghold."
+- raw: "4013801#13#1#160354#40138#和张二郎交谈#888924##0##5000013|1###0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和张二郎交谈"
+    translated: "Talk to Zhang Erlang"
+- raw: "4013802#13#1#160356#40138#和李大夫交谈#888919#4013801#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和李大夫交谈"
+    translated: "Converse with Brother Li, the doctor"
+- raw: "4013803#19#1#1238.74634,394.939056,1795.45178,1#40138#搜寻静心草#0#4013802#25188#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "搜寻静心草"
+    translated: "Seeking Quietude Herb"
+- raw: "4013804#5#1#160357|160358#40138#清理野兽#0#4013803#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "清理野兽"
+    translated: "Clearing Beasts"
+- raw: "4013805#2#1#5000009|1#40138#搜寻采集获得静心草#0#4013804#25182###1224.48218,395.383026,1793.63623##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "搜寻采集获得静心草"
+    translated: "Obtained ginseng through searching and collecting"
+- raw: "4013806#19#1#1286.18213,356.674896,1752.22937,1#40138#返回医馆#888914#4013805#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回医馆"
+    translated: "Return to the Medical Pavilion"
+- raw: "4013901#19#1#1288.14124,358.524078,1713.56165,1#40139#前往黑沙寨#888907##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往黑沙寨"
+    translated: "Heading to Black Sand Stronghold"
+- raw: "4013902#13#1#160362#40139#和王昆交谈#888903#4013901#25183#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和王昆交谈"
+    translated: "Talk with Wang Kun"
+- raw: "4013903#5#1#160363|160364#40139#击败黑沙弟子#888898#4013902#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑沙弟子"
+    translated: "Defeat the disciple of Black Sand"
+- raw: "4013904#13#1#160356#40139#回医馆和李大夫交谈#888897#4013903#0##5000008|1&5000009|1###0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回医馆和李大夫交谈"
+    translated: "Return to the medical pavilion and talk with Li, the doctor."
+- raw: "4014001#19#1#1335.09924,415.211914,2034.1427,1#40140#寻找张猎户#888885##25184#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "寻找张猎户"
+    translated: "Seeking Zhang the Hunter"
+- raw: "4014002#5#1#160366#40140#击杀黑沙寨弟子#0#4014001#25189#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀黑沙寨弟子"
+    translated: "Slay a disciple of the Black Sand Stronghold."
+- raw: "4014003#13#1#160354#40140#与张二郎交谈#888872#4014002#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与张二郎交谈"
+    translated: "Talk to Zhang Erlang"
+- raw: "4014101#19#1#129.539978,223.254929,509.065216,1#40141#前往无涯岛#888862##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往无涯岛"
+    translated: "Heading to Boundless Island"
+- raw: "4014102#19#1#47.8472939,231.89447,399.843567,1#40141#寻找魂经#0#4014101#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "寻找魂经"
+    translated: "Seeking the Soul Manual"
+- raw: "4014103#2#1#5000010|1#40141#获得魂经#888857#4014102#25186###47.8472939,231.89447,399.843567##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "获得魂经"
+    translated: "Acquire a soul manual"
+- raw: "4014104#13#1#160362#40141#与王昆对话#888855#4014103#25185#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与王昆对话"
+    translated: "Talking to Wang Kun"
+- raw: "4014105#5#1#160362#40141#击败王昆#888850#4014104#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败王昆"
+    translated: "Defeat Wang Kun"
+- raw: "4014106#13#1#160369#40141#与玄机子对话#888849#4014105#25187##5000010|1&5000012|1##34709|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与玄机子对话"
+    translated: "Conversing with Zixi, the Master of the Secret Art."
+- raw: "4014201#19#1#868.7188,223.9059,-87.12857,1#40142#出墓#0##40498#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "出墓"
+    translated: "Resurrecting from the grave"
+- raw: "4014202#13#1#20457#40142#前往六扇门#0#4014201#0#####0##0##0#0#0#0#0#0#101000#890746#3000|89074|4########890743##"
+  splits:
+  - split: 5
+    text: "前往六扇门"
+    translated: "Head to the Six Gates"
+- raw: "4014203#19#1#514.6625,277.5754,124.3874,1#40142#前往胜景林#0#4014202#0#####0##0##0#0#0#0#0#0#101000#890737#3000|89072|8#165809&1#165809&456.4901&223.8241&15.00344&359.1498######890727##"
+  splits:
+  - split: 5
+    text: "前往胜景林"
+    translated: "Heading to the Scenic Forest"
+- raw: "4014204#19#1#456.8469,224.0471,17.80011,1#40142#前往击杀闻人篷斐#0#4014203#40499#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往击杀闻人篷斐"
+    translated: "Go to assassinate Wenren Pengfei"
+- raw: "4014205#5#1#165809#40142#击杀闻人篷斐#0#4014204#40500#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀闻人篷斐"
+    translated: "Eliminate Wenren Pengfei"
+- raw: "4014206#16#1#165817#40142#击败沈星海#0#4014205#40501#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败沈星海"
+    translated: "Defeat Shen Xinghai"
+- raw: "4014207#5#1#165818#40142#击杀沈星海#0#4014206#40502#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀沈星海"
+    translated: "Kill Shen Xinghai"
+- raw: "4014208#19#1#866.7209,223.9059,-86.80724,1#40142#回到一气屿#0#4014207#40503#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回到一气屿"
+    translated: "Return to Yi Qi Yu"
+- raw: "4014301#13#1#15032#40143#与白霜茗对话#0##0#####0##0##0#0#0#0#0#0#101000#888842#3000|51000|8##15032&1730.272&266.1994&557.4274&352.5001########"
+  splits:
+  - split: 5
+    text: "与白霜茗对话"
+    translated: "Talking to Bai Shuangming"
+- raw: "4014302#19#1#1730.272,266.1994,557.4274,1#40143#前往岭花谷#0#4014301#40504#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往岭花谷"
+    translated: "Proceed to Ridge Flower Valley"
+- raw: "4014303#19#1#1454,329.9719,1435,1#40143#前往不周岭的路上#888819#4014302#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往不周岭的路上"
+    translated: "On the way to Unbroken Ridge"
+- raw: "4014304#19#1#1492.374,334.7225,1553.295,1#40143#达到不周岭#0#4014303#40505#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "达到不周岭"
+    translated: "Arrive at Unbroken Ridge"
+- raw: "4014305#16#1#165820|165821|165822#40143#击败敌人#0#4014304#0#####0##0##0#0#0#0#0#0#101000#888505#3000|51000|8#165820&0165821&0|165822&0#########"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4014306#19#1#1514.692,336.1451,1619.448,1#40143#到达神石谷#888801#4014305#40506#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达神石谷"
+    translated: "Arrive at the Shenshigou Valley"
+- raw: "4014307#16#1#165827|165828#40143#击败黑沙寨帮众#0#4014306#0#####0##0##0#0#0#0#0#0#101000#888771####165826&0#######"
+  splits:
+  - split: 5
+    text: "击败黑沙寨帮众"
+    translated: "Defeat the followers of the Black Sand Stronghold."
+- raw: "4014308#16#1#165826#40143#击败赵铁鹰#0#4014307#0#####0##0##0#0#0#0#0#0#101000#888770#########888750##"
+  splits:
+  - split: 5
+    text: "击败赵铁鹰"
+    translated: "Defeat Zhao Tiying"
+- raw: "4014309#13#1#165826#40143#与赵铁鹰对话#0#4014308#40507#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与赵铁鹰对话"
+    translated: "Speaking with Zhao Tieying"
+- raw: "4014310#19#1#1386.902,342.1977,1752.753,1#40143#前往黑沙寨#0#4014309#0#####0##0##0#0#0#0#0#0#101000#888746##165829&1#########"
+  splits:
+  - split: 5
+    text: "前往黑沙寨"
+    translated: "Heading to Black Sand Stronghold"
+- raw: "4014311#19#1#1342.934,344.6924,1716.741,1#40143#前往为崔振炀诊断#0#4014310#40508#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往为崔振炀诊断"
+    translated: "Heading to diagnose for Cui Zhenyang"
+- raw: "4014312#19#1#1315.193,358.4374,1733.392,1#40143#前往客房#0#4014311#40509#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往客房"
+    translated: "Go to the guest room"
+- raw: "4014313#19#1#1313.696,358.4074,1700.057,1#40143#去找崔振炀#888705#4014312#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "去找崔振炀"
+    translated: "Go find Cui Zhenyang"
+- raw: "4014314#19#1#1350.542,344.4842,1691.234,1#40143#在黑沙寨中闲逛#0#4014313#40510#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "在黑沙寨中闲逛"
+    translated: "Wandering around in the Black Sand Stronghold"
+- raw: "4014315#19#1#1443.443,337.9294,1755.707,1#40143#离开黑沙寨#888669#4014314#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开黑沙寨"
+    translated: "Leaving the Black Sand Stronghold"
+- raw: "4014401#19#1#1686.318,260.6097,552.5112,1#40144#回到岭花谷#0##0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165830&1|165831&1|165832&1#######888649##"
+  splits:
+  - split: 5
+    text: "回到岭花谷"
+    translated: "Return to Ridge Flower Valley"
+- raw: "4014402#19#1#1693.127,260.4874,555.2554,1#40144#上前查看#0#4014401#40511#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "上前查看"
+    translated: "Approach to inspect"
+- raw: "4014403#13#1#15032#40144#前往劝说白霜茗#0#4014402#0#####0##0##0#0#0#0#0#0#101000#888627#3000|88861|8########888499##"
+  splits:
+  - split: 5
+    text: "前往劝说白霜茗"
+    translated: "Go to persuade Bai Shuangming"
+- raw: "4014404#19#1#1693.127,260.4874,555.2554,1#40144#救治陈远山#0#4014403#40512#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "救治陈远山"
+    translated: "Treat Chen Yuanshan"
+- raw: "4014405#19#1#968.9649,478.502,2133.669,1#40144#前往云漫谷#888600#4014404#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往云漫谷"
+    translated: "Head to Yunmang Valley"
+- raw: "4014406#19#1#1033.494,478.5643,2176.094,1#40144#寻找冰晶草#0#4014405#40513#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "寻找冰晶草"
+    translated: "Seeking Ice Crystal Grass"
+- raw: "4014407#16#1#165833|165834|165835#40144#击败敌人#0#4014406#0#####0##0##0#0#0#0#0#0#101000###165833&0|165834&0|165835&0#########"
+  splits:
+  - split: 5
+    text: "击败敌人"
+    translated: "Defeat the enemy"
+- raw: "4014408#2#1#5000014|1#40144#采集冰晶草#0#4014407#0###1038.485,478.5856,2176.12##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采集冰晶草"
+    translated: "Collecting ice crystal grass"
+- raw: "4014501#19#1#974.0219,479.2464,2138.042,1#40145#离开云漫谷#0##40514#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开云漫谷"
+    translated: "Leave Yumang Gu"
+- raw: "4014502#5#1#165837|165838#40145#击败玄冥教教徒#0#4014501#40515#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败玄冥教教徒"
+    translated: "Defeat the disciples of the Xuanming Sect"
+- raw: "4014503#5#1#165836#40145#击败玄冥教主#0#4014502#0#####0##0##0#0#0#0#0#0#101000#888557#3000|51000|8#165826&0#165830&1693.094&260.5068&553.5304&317.2502########"
+  splits:
+  - split: 5
+    text: "击败玄冥教主"
+    translated: "Defeat the Xuanmeng Sect Master"
+- raw: "4014504#19#1#1693.127,260.4874,555.2554,1#40145#回到岭花谷#0#4014503#40516####34708|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回到岭花谷"
+    translated: "Return to Ridge Flower Valley"
+- raw: "4014601#19#1#285.7354,223.0694,654.0115,1#40146#前往淮陵#0##40517#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往淮陵"
+    translated: "Heading to Huailing"
+- raw: "4014602#13#1#32054#40146#向店小二打听消息#888245#4014601#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "向店小二打听消息"
+    translated: "Ask the waiter in the shop for information."
+- raw: "4014603#19#1#169.7894,225.9219,679.0795,1#40146#前往新月楼#0#4014602#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165840&1|165841&1#######888236##"
+  splits:
+  - split: 5
+    text: "前往新月楼"
+    translated: "Head to the New Moon Tower"
+- raw: "4014604#19#1#200.8777,225.9219,675.3074,1#40146#寻找李婆婆#888229#4014603#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "寻找李婆婆"
+    translated: "Looking for Grandma Li"
+- raw: "4014701#19#1#124.2223,223.5509,595.1865,1#40147#前往哑师住处#0##40518#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往哑师住处"
+    translated: "Go to the residence of the mute teacher."
+- raw: "4014702#19#1#122.5465,223.5509,589.7622,1#40147#前往搜寻#0#4014701#0#####0##0##0#0#0#0#0#0#101000##3000|88818|5########888082##"
+  splits:
+  - split: 5
+    text: "前往搜寻"
+    translated: "Set out on a search"
+- raw: "4014801#19#1#190.0229,224.8999,642.2913,1#40148#返回饭店#0##0#####0##0##0#0#0#0#0#0#101000#888184##25120&1#########"
+  splits:
+  - split: 5
+    text: "返回饭店"
+    translated: "Return to the hotel"
+- raw: "4014802#13#1#25120#40148#前往枰栌打听绘骨斋#0#4014801#0#####0##0##0#0#0#0#0#0#101000#888167##165842&1|165843&1#########"
+  splits:
+  - split: 5
+    text: "前往枰栌打听绘骨斋"
+    translated: "Go to Pinglu to inquire about Huguzhai"
+- raw: "4014803#19#1#895.9159,249.3419,810.6913,1#40148#听文人们谈话#888160#4014802#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "听文人们谈话"
+    translated: "Eavesdropping on scholars' conversations"
+- raw: "4014901#19#1#958.4747,249.2029,900.8201,1#40149#前往绘骨斋#888155##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往绘骨斋"
+    translated: "Head to Huiguzhai"
+- raw: "4014902#19#1#950.5815,249.2029,894.3998,1#40149#搜寻第一个房子#0#4014901#40519#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "搜寻第一个房子"
+    translated: "Search for the first house"
+- raw: "4014903#19#1#957.4781,249.2029,887.2368,1#40149#搜寻第二个房子#0#4014902#40520#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "搜寻第二个房子"
+    translated: "Search for a second house"
+- raw: "4014904#16#1#165844|165845|165846#40149#击败面具人#0#4014903#40521#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败面具人"
+    translated: "Defeat the Masked Man"
+- raw: "4014905#19#1#953.1131,249.203,883.7304,1#40149#前往正厅#0#4014904#40522#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往正厅"
+    translated: "Proceed to the main hall"
+- raw: "4014906#5#1#165847#40149#击杀无面人#0#4014905#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀无面人"
+    translated: "Defeat the Faceless One"
+- raw: "4014907#19#1#959.7042,249.2029,899.4176,1#40149#离开绘骨斋#0#4014906#40523####34706|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开绘骨斋"
+    translated: "Leaving Huoguzhai"
+- raw: "4015001#19#1#1402.982,257.9723,777.0428,1#40150#和燕风云对话#888036##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和燕风云对话"
+    translated: "Talking with Yan Fengyun"
+- raw: "4015002#19#1#1390.988,267.2495,859.5246,1#40150#前往玉沙关#0#4015001#40528#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往玉沙关"
+    translated: "Heading to Jade Sand Pass"
+- raw: "4015003#19#1#1391.224,266.4313,886.5688,1#40150#前往玉沙关外#0#4015002#40529#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往玉沙关外"
+    translated: "Heading to the outskirts of Jade Sand Pass."
+- raw: "4015004#5#1#165850|165851|165852|165853|165854|165855|165856|165857#40150#击杀穆特士兵#0#4015003#40530#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀穆特士兵"
+    translated: "Eliminate the Mu Te soldiers"
+- raw: "4015101#19#1#1402.501,262.9265,824.733,1#40151#返回关内#0##40531#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回关内"
+    translated: "Return to the Central Plain"
+- raw: "4015102#19#1#-171.9882,224.9923,525.4752,1#40151#前往三十六洞#887987#4015101#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往三十六洞"
+    translated: "Head to the Thirty‑Six Caves"
+- raw: "4015103#19#1#-180.4713,227.4229,503.8535,1#40151#到达柳慕生住所#0#4015102#40532#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达柳慕生住所"
+    translated: "Arrive at Li Museng's residence"
+- raw: "4015201#19#1#364.3921,272.0055,913.4078,1#40152#到达镇子#0##40533#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达镇子"
+    translated: "Arrive at the town"
+- raw: "4015202#19#1#365.7795,271.9978,907.6811,1#40152#探查水缸#887924#4015201#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "探查水缸"
+    translated: "Examine the water barrel"
+- raw: "4015203#19#1#409.2071,263.1557,914.9769,1#40152#前往瀑布#0#4015202#0#####0##0##0#0#0#0#0#0#101000#887904#3000|88789|5########887894##"
+  splits:
+  - split: 5
+    text: "前往瀑布"
+    translated: "Go to the waterfall"
+- raw: "4015204#2#1#5000015|1#40152#采摘蛇涎果#0#4015203#40534###427.6075,258.652,932.6204,307.5498##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采摘蛇涎果"
+    translated: "Picking snake's saliva fruit"
+- raw: "4015205#19#1#354.6296,271.9792,906.64361,1#40152#返回陈医师家#0#4015204#0##5000015|1###0##0##0#0#0#0#0#0#101000#887880#########887866##"
+  splits:
+  - split: 5
+    text: "返回陈医师家"
+    translated: "Return to Dr. Chen's home."
+- raw: "4015301#19#1#382.355,269.2584,926.6711,1#40153#离开镇子#0##40535#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开镇子"
+    translated: "Leaving the town"
+- raw: "4015302#16#1#165861#40153#击杀毒秀才#0#4015301#40536####34711|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀毒秀才"
+    translated: "Defeat the poisonous scholar"
+- raw: "4015401#19#1#1075.713,368.6165,1517.59,1#40154#前往六婶家#887823##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往六婶家"
+    translated: "Heading to Auntie Liu's house"
+- raw: "4015402#13#1#2004#40154#与村长对话#887810#4015401#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与村长对话"
+    translated: "Speaking to the Village Head"
+- raw: "4015403#19#1#1075.713,368.6165,1517.59,1#40154#返回六婶家#0#4015402#0#####0##0##0#0#0#0#0#0#101000#887797#3000|51000|8########887785##"
+  splits:
+  - split: 5
+    text: "返回六婶家"
+    translated: "Return to Auntie Liu's house"
+- raw: "4015501#19#1#1068.844,365.0247,1480.332,1#40155#前往井边#0##40538#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往井边"
+    translated: "Go to the well side"
+- raw: "4015502#19#1#1068.486,357.6812,1483.608,1#40155#进入井内#0#4015501#40539####34710|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进入井内"
+    translated: "Enter the well"
+- raw: "4015503#19#1#1075.713,368.6165,1517.59,1#40155#返回六婶家#887740#4015502#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回六婶家"
+    translated: "Return to Auntie Liu's house"
+- raw: "4015504#19#1#1079.625,368.6165,1515.04,1#40155#躲藏到房子后面#0#4015503#40540#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "躲藏到房子后面"
+    translated: "Hide behind the house"
+- raw: "4015505#19#1#1074.332,366.4389,1504.928,1#40155#前往门口#0#4015504#40541#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往门口"
+    translated: "Go to the entrance"
+- raw: "4015601#19#1#1075.713,368.6165,1517.59,1#40156#返回六婶家#0##0#####0##0##0#0#0#0#0#0#101000#887725#3000|51000|8##########"
+  splits:
+  - split: 5
+    text: "返回六婶家"
+    translated: "Return to Auntie Liu's house"
+- raw: "4015701#13#1#2003#40157#和六婶对话#0##40542#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和六婶对话"
+    translated: "Speaking to Auntie Liu"
+- raw: "4015801#19#1#1074.332,366.4389,1504.928,1#40158#前往院门口#887668##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往院门口"
+    translated: "Proceed to the entrance of the clinic"
+- raw: "4015802#19#1#1152.342,404.1642,1565.05,1#40158#前往决战之地#0#4015801#40543#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往决战之地"
+    translated: "Proceed to the battleground"
+- raw: "4015803#5#1#165866|165867|165868#40158#击杀血刀众#0#4015802#0#####0##0##0#0#0#0#0#0#101000#887656####165864&1#######"
+  splits:
+  - split: 5
+    text: "击杀血刀众"
+    translated: "Defeat the Blood Saber Followers"
+- raw: "4015804#5#1#165864#40158#击杀毒龙尊者#0#4015803#40544#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀毒龙尊者"
+    translated: "Defeat the Venerable Poison Dragon"
+- raw: "4015901#19#1#1074.332,366.4389,1504.928,1#40159#准备出发#887611##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "准备出发"
+    translated: "Prepare to depart"
+- raw: "4015902#19#1#1152.342,404.1642,1565.05,1#40159#前往天门山#0#4015901#40545#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往天门山"
+    translated: "Proceeding to Heavenly Gate Mountain"
+- raw: "4015903#5#1#165870|165871|165872#40159#击败血刀众#887599#4015902#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败血刀众"
+    translated: "Defeat the Blood Saber Followers"
+- raw: "4015904#19#1#1113.002,415.0745,1582.161,1#40159#前往悬崖边上#0#4015903#40546#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往悬崖边上"
+    translated: "Go to the edge of the cliff"
+- raw: "4015905#5#1#165864#40159#击败毒龙尊者#0#4015904#40547#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败毒龙尊者"
+    translated: "Defeat the Venerable Poison Dragon"
+- raw: "4015906#19#1#1082.872,372.0245,1593.534,1#40159#前往崖下#0#4015905#40548#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往崖下"
+    translated: "Head down to the cliff below"
+- raw: "4016001#19#1#1675.075,263.0024,518.1541,1#40160#上前查看#0##40550#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "上前查看"
+    translated: "Approach to inspect"
+- raw: "4016002#19#1#1758.38,270.5135,589.51,1#40160#前往水月宫#0#4016001#40551#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往水月宫"
+    translated: "Proceed to the Water Moon Temple"
+- raw: "4016003#19#1#1759.424,270.867,599.5568,1#40160#前往炼药房#887533#4016002#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往炼药房"
+    translated: "Head to the alchemy lab"
+- raw: "4016004#19#1#1755.311,269.4845,581.2901,1#40160#逃到院子里#0#4016003#40552#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "逃到院子里"
+    translated: "Fled into the courtyard"
+- raw: "4016101#13#1#165874#40161#与姥姥对话#887522##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与姥姥对话"
+    translated: "Talking to Grandma"
+- raw: "4016102#13#1#165865#40161#与灵儿对话#0#4016101#40553#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与灵儿对话"
+    translated: "Speaking with Ling'er"
+- raw: "4016103#19#1#1795.121,298.5294,665.1975,1#40161#前往指引位置#887496#4016102#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往指引位置"
+    translated: "Proceed to the designated location"
+- raw: "4016104#19#1#1854.596,298.991,522.5661,1#40161#前往新的指引位置#0#4016103#0#####0##0##0#0#0#0#0#0#101000#887491#3000|88748|7########887486##"
+  splits:
+  - split: 5
+    text: "前往新的指引位置"
+    translated: "Proceed to the new waypoint location"
+- raw: "4016105#19#1#1859.477,299.4279,523.4088,1#40161#进入房子#0#4016104#0#####0##0##0#0#0#0#0#0#101000#887483#3000|88748|0########887479##"
+  splits:
+  - split: 5
+    text: "进入房子"
+    translated: "Enter the house"
+- raw: "4016106#19#1#1856.931,298.991,521.4454,1#40161#离开房子#0#4016105#40554#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开房子"
+    translated: "Leaving the house"
+- raw: "4016107#16#1#165876|165877|165878|165879#40161#击败护花使者#0#4016106#0#####0##0##0#0#0#0#0#0#101000#887467#3000|51000|8#165876&0|165877&0|165878&0|165879&0#########"
+  splits:
+  - split: 5
+    text: "击败护花使者"
+    translated: "Defeat the Guardian of the Blossoms"
+- raw: "4016201#19#1#1644,261.4076,489,1#40162#和岭花谷众人告别#0##40555#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "和岭花谷众人告别"
+    translated: "Farewell to everyone in Ridge Flower Valley"
+- raw: "4016202#16#1#165880|165881|165882#40162#击败拜日教徒#0#4016201#40556#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败拜日教徒"
+    translated: "Defeat the followers of Bajiquan"
+- raw: "4016203#19#1#195.3343,280.6265,1592.454,1#40162#前往重天外滩#0#4016202#40557#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往重天外滩"
+    translated: "Head to the Bund in Chongtian"
+- raw: "4016204#16#1#165883#40162#击败笑面虎#0#4016203#0#####0##0##0#0#0#0#0#0#101000##3000|51000|8#165883&0#######887412##"
+  splits:
+  - split: 5
+    text: "击败笑面虎"
+    translated: "Defeat Laughing Tiger"
+- raw: "4016301#19#1#188.2898,325.2758,1617.812,1#40163#前往拜日教总坛#0##40558#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往拜日教总坛"
+    translated: "Visit the Temple of the Sun God"
+- raw: "4016302#19#1#187.2823,327.2527,1625.258,1#40163#前往祭坛上#0#4016301#0#####0##0##0#0#0#0#0#0#101000#887394####165885&0|165886&0|165887&0#######"
+  splits:
+  - split: 5
+    text: "前往祭坛上"
+    translated: "Go to the altar"
+- raw: "4016303#16#1#165885|165886|165887#40163#击败拜日教徒#0#4016302#40559#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败拜日教徒"
+    translated: "Defeat the followers of Bajiquan"
+- raw: "4016304#16#1#165884#40163#击败拜日教主#0#4016303#0#####0##0##0#0#0#0#0#0#101000#887381#3000|88737|6#165874&1#165874&188.0261&327.2527&1628.631&21.45023######887375##"
+  splits:
+  - split: 5
+    text: "击败拜日教主"
+    translated: "Defeat the Beidai Sect's Patriarch"
+- raw: "4016305#19#1#188.2177,327.2527,1629.476,1#40163#前往祭坛#0#4016304#40560#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往祭坛"
+    translated: "Go to the altar"
+- raw: "4016306#19#1#1758.38,270.5135,589.51,1#40163#返回水月宫#0#4016305#0####34712|1#0##0##0#0#0#0#0#0#101000#887360#3000|88735|8########887357##"
+  splits:
+  - split: 5
+    text: "返回水月宫"
+    translated: "Return to the Water Moon Monastery"
+- raw: "4016401#19#1#712.3806,236.3178,783.5897,1#40164#前往小石镇酒馆#0##40561#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往小石镇酒馆"
+    translated: "Head to the tavern in Little Stone Town."
+- raw: "4016402#16#1#165826|165906|165907#40164#击败赵铁鹰等人#0#4016401#40562#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败赵铁鹰等人"
+    translated: "Defeat Zhao Tieying et al"
+- raw: "4016501#13#1#165826#40165#与赵铁鹰对话#0##40563#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与赵铁鹰对话"
+    translated: "Speaking with Zhao Tieying"
+- raw: "4016601#13#1#25058#40166#与流云弟子对话#0##40565#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与流云弟子对话"
+    translated: "Speaking with a disciple of Liuyun"
+- raw: "4016602#13#1#25070#40166#与关长威对话#0#4016601#40566#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与关长威对话"
+    translated: "Speaking with Brother Guan Changwei"
+- raw: "4016701#13#1#165975#40167#与黑沙寨弟子交谈#0##0#####0##0##0#0#0#0#0#0#101000#887275##165826&1|150459&1#165826&1331.678&345.7954&1702.855&88.7001|150459&1332.545&345.8263&1704.522&198.4502########"
+  splits:
+  - split: 5
+    text: "与黑沙寨弟子交谈"
+    translated: "Talk to a disciple from the Black Sand Stronghold."
+- raw: "4016702#13#1#165826#40167#与赵铁鹰对话#0#4016701#0#####0##0##0#0#0#0#0#0#101000#887272#3000|51000|8##165826&1314.023&358.4074&1700.197&174.9501########"
+  splits:
+  - split: 5
+    text: "与赵铁鹰对话"
+    translated: "Speaking with Zhao Tieying"
+- raw: "4016703#13#1#150472#40167#面见崔振炀#887272#4016702#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "面见崔振炀"
+    translated: "Meet with Cui Zhenyang"
+- raw: "4016704#19#1#1369.698,344.4042,1717.012,1#40167#前往演武场#0#4016703#40567#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往演武场"
+    translated: "Head to the training grounds"
+- raw: "4016705#16#1#150459#40167#击败张源#0#4016704#40568#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败张源"
+    translated: "Defeat Zhang Yuan"
+- raw: "4016706#16#1#150460#40167#击败李治顺#0#4016705#40569#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败李治顺"
+    translated: "Defeat Li Zhishun"
+- raw: "4016707#16#1#150461#40167#击败吴不用#0#4016706#40570#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败吴不用"
+    translated: "Defeat Wu Buyong"
+- raw: "4016801#13#1#150472#40168#与崔振炀对话#0##0#####0##0##0#0#0#0#0#0#101000#887233#3000|88722|0########887219##"
+  splits:
+  - split: 5
+    text: "与崔振炀对话"
+    translated: "Talking to Cui Zhenyang"
+- raw: "4016901#19#1#1482.159,261.6666,1013.134,1#40169#前往雁州#887206#4016801#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往雁州"
+    translated: "Heading to Yan Prefecture"
+- raw: "4016902#13#1#25251#40169#询问小二#0#4016901#0#####0##0##0#0#0#0#0#0#101000#887205##165892&1#########"
+  splits:
+  - split: 5
+    text: "询问小二"
+    translated: "Ask the waiter"
+- raw: "4016903#13#1#165892#40169#找到陈文渊#887196#4016902#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "找到陈文渊"
+    translated: "Find Chen Wenyuan"
+- raw: "4016904#19#1#1810,327.3116,1510,1#40169#深入关外#0#4016903#40571#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "深入关外"
+    translated: "Venture deeply into the Wilds"
+- raw: "4016905#5#1#165916|165917|165918|165919#40169#击杀沙匪#0#4016904#0#####0##0##0#0#0#0#0#0#101000#887163#3000|51000|8#165893&0#########"
+  splits:
+  - split: 5
+    text: "击杀沙匪"
+    translated: "Defeat the sand bandits"
+- raw: "4017001#19#1#2009.67,361.7051,1708.94,1#40170#前往玉簪池#0##40572#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往玉簪池"
+    translated: "Head to Yuzanchi"
+- raw: "4017002#16#1#165920|165921|165922|165923#40170#击败穆特将领#0#4017001#40573#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败穆特将领"
+    translated: "Defeat the General Mu Te"
+- raw: "4017003#16#1#165924#40170#击败守护神虎#0#4017002#40574#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败守护神虎"
+    translated: "Defeat the guardian tiger spirit"
+- raw: "4017004#19#1#2073.008,340.6518,1751.794,1#40170#跟踪守护神虎#0#4017003#0#####0##0##0#0#0#0#0#0#101000#887132##165925&1|165926&1#########"
+  splits:
+  - split: 5
+    text: "跟踪守护神虎"
+    translated: "Track and Protect Guardian Hu"
+- raw: "4017005#1#1#887131#40170#获得前三卷天魔策#0#4017004#0###2075.2,349.5381,1757.1##0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "获得前三卷天魔策"
+    translated: "Acquired the first three volumes of Tianmo Zhe."
+- raw: "4017006#5#1#165927|165928|165929|165930#40170#击杀穆特长老#0#4017005#0#####0##0##0#0#0#0#0#0#101000###165931&1|165932&1|165892&1#########"
+  splits:
+  - split: 5
+    text: "击杀穆特长老"
+    translated: "Kill Mu Te, the Elder"
+- raw: "4017101#1#1#887117#40171#拾取破碎玉牌#0##0#####0##0##0#0#0#0#0#0#101000###165931&0|165932&0|165925&0|165926&0#########"
+  splits:
+  - split: 5
+    text: "拾取破碎玉牌"
+    translated: "Pick up the broken jade card"
+- raw: "4017102#13#1#165892#40171#前往陈文渊处#887116#4017101#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往陈文渊处"
+    translated: "Go to Chen Wen Yuan's place"
+- raw: "4017103#13#1#150472#40171#返回黑沙寨#0#4017102#0#####0##0##0#0#0#0#0#0#101000#887104#3000|88710|0#165892&0|165962&1#######887099##"
+  splits:
+  - split: 5
+    text: "返回黑沙寨"
+    translated: "Return to Black Sand Stronghold"
+- raw: "4017201#13#1#165898#40172#与坞卒交谈#0##39051#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与坞卒交谈"
+    translated: "Talking to the fort guards"
+- raw: "4017202#13#1#155285#40172#与梅珠芹交谈#0#4017201#39052#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与梅珠芹交谈"
+    translated: "Speak with Mei Zhuqin"
+- raw: "4017203#13#1#155310#40172#与鹰眼老七交谈#0#4017202#39053#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与鹰眼老七交谈"
+    translated: "Talk to Hawkeye Old Seven"
+- raw: "4017204#13#1#155285#40172#与梅珠芹交谈#0#4017203#39054#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与梅珠芹交谈"
+    translated: "Speak with Mei Zhuqin"
+- raw: "4017205#13#1#155314#40172#与李靖琪交谈#0#4017204#39055#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与李靖琪交谈"
+    translated: "Talk to Li Jingqi"
+- raw: "4017206#13#1#155313#40172#与柯湘交谈#0#4017205#39056#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与柯湘交谈"
+    translated: "Talk to Ke Xiang"
+- raw: "4017207#5#1#155315#40172#击败干穆荟#0#4017206#39057#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败干穆荟"
+    translated: "Defeat Gan Muhui"
+- raw: "4017301#13#1#155310#40173#与鹰眼老七交谈#0##39058#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与鹰眼老七交谈"
+    translated: "Talk to Hawkeye Old Seven"
+- raw: "4017302#13#1#155285#40173#与梅珠芹交谈#0#4017301#39059#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与梅珠芹交谈"
+    translated: "Speak with Mei Zhuqin"
+- raw: "4017401#19#1#373.3345,246.5359,36.40886,1#40174#前往祖师闭关之所#0##39060#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往祖师闭关之所"
+    translated: "Visit the place where the Patriarch secluded himself."
+- raw: "4017402#19#1#366.7821,261.1806,98.33516,1#40174#离开十二连环坞#0#4017401#39061#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开十二连环坞"
+    translated: "Leaving the Twelve‑linked Fortress"
+- raw: "4017403#5#1#165899#40174#击败黑衣人#0#4017402#39062#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "4017501#19#1#458.6819,269.1573,91.15049,1#40175#到达山下#0##39063#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达山下"
+    translated: "Arrive at the foot of the mountain"
+- raw: "4017502#19#1#490.4879,318.9829,104.4869,1#40175#到达封顶#0#4017501#39064#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达封顶"
+    translated: "Reached peak level"
+- raw: "4017503#19#1#458.6819,269.1573,91.15049,1#40175#到达山下#0#4017502#39065#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达山下"
+    translated: "Arrive at the foot of the mountain"
+- raw: "4017504#5#1#165899#40175#击败黑衣人#0#4017503#39066#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "4017601#13#1#155310#40176#返回连环坞#0##39067#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回连环坞"
+    translated: "Return to Lianhualou"
+- raw: "4017602#19#1#337.6279,247.9119,25.75577,1#40176#前往梅家宅邸#0#4017601#39068#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往梅家宅邸"
+    translated: "Proceed to the Mei family residence"
+- raw: "4017603#5#1#165900|165901|165902#40176#击败梅家弟子#0#4017602#39069#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败梅家弟子"
+    translated: "Defeat the disciples of the Mei family"
+- raw: "4017604#5#1#165895|165903|165908|165909#40176#击败梅长风#0#4017603#39070#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败梅长风"
+    translated: "Defeat Mei Changfeng"
+- raw: "4017701#13#1#165891#40177#与阴九鳐交谈#0##39071#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与阴九鳐交谈"
+    translated: "Talking to Yin Jiuli"
+- raw: "4017702#13#1#165896#40177#与丁老怪对话#0#4017701#39072#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与丁老怪对话"
+    translated: "Speaking with Uncle Ding, the Mysterious One"
+- raw: "4017703#5#1#165913|165914|165933#40177#击败舵手#0#4017702#39073#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败舵手"
+    translated: "Defeat the helmsman"
+- raw: "4017801#13#1#165896#40178#与丁老怪对话#0##39074#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与丁老怪对话"
+    translated: "Speaking with Uncle Ding, the Mysterious One"
+- raw: "4017802#13#1#165891#40178#与阴九鳐交谈#0#4017801#39075#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与阴九鳐交谈"
+    translated: "Talking to Yin Jiuli"
+- raw: "4017901#19#1#2155.267,227.4025,163.8286,1#40179#到达隐山村#0##39076#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到达隐山村"
+    translated: "Arrive at Hidden Mountain Village"
+- raw: "4017902#13#1#165939#40179#跟随村长#0#4017901#39077#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "跟随村长"
+    translated: "Follow the village head"
+- raw: "4017903#19#1#2186.923,230.1834,181.4987,1#40179#前往住处休息#0#4017902#39078#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往住处休息"
+    translated: "Head back home to rest"
+- raw: "4018001#19#1#2176.371,230.1834,185.2931,1#40180#与老妇交谈#0##39079#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与老妇交谈"
+    translated: "Speaking with the old woman"
+- raw: "4018002#19#1#2215.071,223.4918,196.8526,1#40180#前往废弃码头#0#4018001#39080#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往废弃码头"
+    translated: "Head to the abandoned port"
+- raw: "4018003#19#1#2282.032,223.4347,215.066,1#40180#前往船上#0#4018002#39081#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往船上"
+    translated: "Head toward the ship"
+- raw: "4018004#5#1#165897#40180#击杀玄冥老人#0#4018003#39082#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀玄冥老人"
+    translated: "Kill Xuanming Laoren"
+- raw: "4018005#13#1#165940#40180#获得十二天魔策残卷#0#4018004#39083#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "获得十二天魔策残卷"
+    translated: "Obtain a fragment of the Twelve‑Day Demon Strategy Scroll."
+- raw: "4018101#19#1#2215.071,223.4918,196.8526,1#40181#返回废弃码头#0##39084#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回废弃码头"
+    translated: "Return to the abandoned port"
+- raw: "4018102#5#1#165935|165936|165937#40181#击败土匪#0#4018101#39085#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败土匪"
+    translated: "Defeat the bandits"
+- raw: "4018103#5#1#165938#40181#击败黑衣人#0#4018102#39086#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败黑衣人"
+    translated: "Defeat the Shadowed One"
+- raw: "4018104#13#1#165896#40181#与丁老怪对话#0#4018103#39087#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与丁老怪对话"
+    translated: "Speaking with Uncle Ding, the Mysterious One"
+- raw: "4018201#19#1#1602,282.0266,854,1#40182#前往关外#0##40580#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往关外"
+    translated: "Heading to the frontier"
+- raw: "4018301#16#1#150472#40183#击败崔振炀#0##40581#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败崔振炀"
+    translated: "Defeat Cui Zhenyang"
+- raw: "4018302#16#1#155310#40183#击败鹰眼老七#0#4018301#40582#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败鹰眼老七"
+    translated: "Defeat Hawkeye Old Seven"
+- raw: "4018303#16#1#165896#40183#击败丁老怪#0#4018302#40583#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败丁老怪"
+    translated: "Defeat Old Ding"
+- raw: "4018401#19#1#1597.24,280.524,860.536,1#40184#准备离开战场#0##40584#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "准备离开战场"
+    translated: "Preparing to leave the battlefield"
+- raw: "4018402#16#1#25070|205031|205032#40184#击败关长威等人#0#4018401#40585#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败关长威等人"
+    translated: "Defeat Guan Zhangwei and others"
+- raw: "4018501#13#1#155310#40185#劝和三位掌门#0##40586####34719|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "劝和三位掌门"
+    translated: "Advocate for peace among the three sect leaders."
+- raw: "4018601#16#1#150472|155310|165896#40186#击败崔振炀等人#886546##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败崔振炀等人"
+    translated: "Defeat Cui Zhenyang and others"
+- raw: "4018701#19#1#1597.24,280.524,860.536,1#40187#准备离开战场#0##40587#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "准备离开战场"
+    translated: "Preparing to leave the battlefield"
+- raw: "4018702#16#1#25070|205031|205032#40187#击败朱玉瑾等人#0##40588####34719|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败朱玉瑾等人"
+    translated: "Defeat Zhu Yujin and others"
+- raw: "4018801#16#1#150472|155310|165896#40188#击败丁老怪等人#0##40589####34719|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败丁老怪等人"
+    translated: "Defeat Ding Laoguai and others"
+- raw: "4018901#13#1#165942#40189#与玄霜阁主对话#0##39088#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与玄霜阁主对话"
+    translated: "Speaking with the Master of Xuanshuang Hall"
+- raw: "4018902#5#1#165942#40189#打败玄霜阁主#0#4018901#39089#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "打败玄霜阁主"
+    translated: "Defeat the Xuan Shuang Ge Zong"
+- raw: "4019001#13#1#165943#40190#与赤焰宗主对话#0##39090#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与赤焰宗主对话"
+    translated: "Speaking with the Sect Leader of Chiyan"
+- raw: "4019002#13#1#165956#40190#采集熔火之心#0#4019001#39091#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "采集熔火之心"
+    translated: "Collect the Heart of Molten Fire"
+- raw: "4019003#13#1#165943#40190#给予熔火之心#0#4019002#39092##37443|1###0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "给予熔火之心"
+    translated: "Grant the Heart of Molten Flame"
+- raw: "4019101#19#1#1352.171,372.205,1574.092,1#40191#前往无影门#0##39093#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往无影门"
+    translated: "Proceed to the Shadowless Gate"
+- raw: "4019102#5#1#165955#40191#击杀陈七获得暗影秘卷#0#4019101#39094#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀陈七获得暗影秘卷"
+    translated: "Defeated Chen Qi to obtain the Secret Scroll of Shadow."
+- raw: "4019103#13#1#165944#40191#给予暗影秘卷#0#4019102#39095##37442|1###0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "给予暗影秘卷"
+    translated: "Grant the Shadow Secret Scroll"
+- raw: "4019201#19#1#159.6914,222.9736,228.9912,1#40192#前往星河剑派#0##39096#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往星河剑派"
+    translated: "Journey to the Xinghe Sword Sect"
+- raw: "4019202#5#1#165958#40192#击败星河大弟子#0#4019201#39097#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败星河大弟子"
+    translated: "Defeat a Grand Disciple of Xinghe"
+- raw: "4019203#5#1#165945#40192#击败星河门主#0#4019202#39098#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败星河门主"
+    translated: "Defeat the Sect Leader of Xinghe Gate"
+- raw: "4019301#19#1#214.0749,223.6259,352.416,1#40193#前往惊涛盟#0##39099#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往惊涛盟"
+    translated: "Proceed to Jingtao Covenant"
+- raw: "4019302#5#1#165952|165953|165954#40193#击杀海盗获得定海珠#0#4019301#39100#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀海盗获得定海珠"
+    translated: "Defeated the pirates and acquired the Dinghai Pearl."
+- raw: "4019303#13#1#165948#40193#给予定海珠#0#4019302#39101##37441|1###0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "给予定海珠"
+    translated: "Bestow the Pearl of Determining the Sea"
+- raw: "4019401#19#1#192.6545,251.5312,188.342,1#40194#前往忘机楼#0##39102#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往忘机楼"
+    translated: "Head to Wangji Lou"
+- raw: "4019402#1#1#886143#40194#下赢五子棋#0#4019401#39103#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "下赢五子棋"
+    translated: "Winning a game of Go by five points."
+- raw: "4019501#19#1#1605.577,241.9786,119.0174,1#40195#前往铁衣帮#0##39104#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往铁衣帮"
+    translated: "Head to the Tieyi Brotherhood"
+- raw: "4019601#19#1#1688.119,255.9029,192.2143,1#40196#前往百草谷#0##39105#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往百草谷"
+    translated: "Go to Bai Cao Gou"
+- raw: "4019602#2#1#9036|1#40196#获得决明子#0#4019601#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "获得决明子"
+    translated: "Obtain Cassia Seed"
+- raw: "4019603#13#1#165947#40196#给予决明子#0#4019602#39106##9036|1###0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "给予决明子"
+    translated: "Bestow upon them Scutellaria baicalensis"
+- raw: "4019701#19#1#1778.103,225.1588,-133.2704,1#40197#前往血衣门#0##39107#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往血衣门"
+    translated: "Head toward Xueyi Sect"
+- raw: "4019702#5#1#165950#40197#击败血衣门主#0#4019701#39108#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败血衣门主"
+    translated: "Defeat the Blood Robes Sect Leader"
+- raw: "4019801#5#1#165968#40198#击败吴三疤#0##0####180012|1#0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败吴三疤"
+    translated: "Defeat Wu Sanba"
+- raw: "4019901#19#1#789.9102,501.406,1996.302,1#40199#报名参加大会#885820##0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "报名参加大会"
+    translated: "Register to attend the conference"
+- raw: "4019902#19#1#770.4785,521.6904,2092.393,1#40199#找客栈休息#0#4019901#40594#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "找客栈休息"
+    translated: "Find a guesthouse to rest"
+- raw: "4019903#19#1#822.6498,519.9,2110.296,1#40199#前往参加32进16比武#0#4019902#40604#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加32进16比武"
+    translated: "Travel to attend the 32th Level Martial Arts Competition in 16."
+- raw: "4019904#16#1#165982|165983|165984#40199#在混战中获胜#0#4019903#40605#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "在混战中获胜"
+    translated: "Victory in the melee"
+- raw: "4019907#19#1#656.7134,493.4721,2049.125,1#40199#找一处地方练武#0#4019904#40595#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "找一处地方练武"
+    translated: "Find a place to practice martial arts"
+- raw: "4019908#19#1#627.9036,465.6526,2044.423,1#40199#到山涧中找回那张画卷#0#4019907#40596#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "到山涧中找回那张画卷"
+    translated: "Retrieve that scroll from the mountain stream"
+- raw: "4019909#19#1#656.7134,493.4721,2049.125,1#40199#返回崖上#0#4019908#40597#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "返回崖上"
+    translated: "Return to the cliff"
+- raw: "4019910#19#1#770.4785,521.6904,2092.393,1#40199#回到客栈#0#4019909#40598#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "回到客栈"
+    translated: "Return to the inn"
+- raw: "4020001#19#1#822.6498,519.9,2110.296,1#40200#前往参加16进8比武#0##40606#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加16进8比武"
+    translated: "Proceed to participate in the martial arts competition held at 16 on 8."
+- raw: "4020002#16#1#165985|165986#40200#在比武中获胜#0#4020001#40607#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "在比武中获胜"
+    translated: "Winning in a martial contest"
+- raw: "4020003#19#1#859.8661,519.3528,2110.422,1#40200#在遥雪峰闲逛#0#4020002#40599#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "在遥雪峰闲逛"
+    translated: "Wandering around at Distant Snow Peak"
+- raw: "4020004#19#1#880.7755,519.3529,2116.897,1#40200#与苏枕月交谈#885767#4020003#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与苏枕月交谈"
+    translated: "Talking to Su Zhenyue"
+- raw: "4020101#19#1#822.6498,519.9,2110.296,1#40201#前往参加8进4比武#0##40608#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加8进4比武"
+    translated: "Travel to participate in the martial arts tournament on 8 of 4."
+- raw: "4020102#16#1#165980#40201#击败吴道然#0#4020101#40609#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败吴道然"
+    translated: "Defeat Wu Dao Ran"
+- raw: "4020103#19#1#770.2532,520.7899,2072.992,1#40201#与吴道然交谈#0#4020102#40600#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与吴道然交谈"
+    translated: "Speaking with Wu Dao Ran"
+- raw: "4020104#19#1#770.4785,521.6904,2092.393,1#40201#前往客栈#885736#4020103#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往客栈"
+    translated: "Head to the inn"
+- raw: "4020201#19#1#822.6498,519.9,2110.296,1#40202#前往参加4进2比武#0##40610#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加4进2比武"
+    translated: "Heading to participate in the 4 entry 2 martial arts tournament."
+- raw: "4020202#16#1#165981#40202#击败苏枕月#885700#4020201#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败苏枕月"
+    translated: "Defeat Su Zhenyue"
+- raw: "4020203#19#1#774.938,521.6904,2096.415,1#40202#前往吴道然的住处#0#4020202#40601#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往吴道然的住处"
+    translated: "Go to Wu Daoran's residence"
+- raw: "4020301#19#1#882.5378,519.3528,2115.196,1#40203#前往明月崖#0##40602#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往明月崖"
+    translated: "Head to Bright Moon Cliff"
+- raw: "4020302#19#1#822.6498,519.9,2110.296,1#40203#前往参加武林大会决赛#0#4020301#40611#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加武林大会决赛"
+    translated: "Heading to participate in the martial world championship finals."
+- raw: "4020303#16#1#165987#40203#击败沈沧澜#0#4020302#40612#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败沈沧澜"
+    translated: "Defeat Shen Canglan"
+- raw: "4020304#19#1#882.5378,519.3528,2115.196,1#40203#前往明月崖#0#4020303#40603#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往明月崖"
+    translated: "Head to Bright Moon Cliff"
+- raw: "4020401#19#1#659.4205,422.2381,1717.218,1#40204#前往参加晋升大典#0##40613#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020402#16#1#165988#40204#击败亲传弟子#0#4020401#40614#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020403#16#1#155356#40204#击败本诣#0#4020402#40615#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败本诣"
+    translated: "Defeat this one and come back"
+- raw: "4020404#16#1#155354#40204#击败阿那罗#885249#4020403#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败阿那罗"
+    translated: "Defeat Anala"
+- raw: "4020501#19#1#580.3816,258.1094,403.8559,1#40205#前往参加晋升大典#0##40616#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020502#16#1#165989#40205#击败亲传弟子#0#4020501#40617#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020503#16#1#75042#40205#击败郎士博#0#4020502#40618#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败郎士博"
+    translated: "Defeat Lord Liushibo"
+- raw: "4020504#16#1#121205#40205#击败苏含笑#885209#4020503#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败苏含笑"
+    translated: "Defeat Su Hanxiao"
+- raw: "4020601#19#1#1315.051,358.4074,1699.752,1#40206#前往参加晋升大典#0##40619#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020602#16#1#165990#40206#击败亲传弟子#0#4020601#40620#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020603#16#1#150477#40206#击败康姐#0#4020602#40621#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败康姐"
+    translated: "Defeat Kang Jie"
+- raw: "4020604#16#1#150472#40206#击败崔振炀#885169#4020603#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败崔振炀"
+    translated: "Defeat Cui Zhenyang"
+- raw: "4020701#19#1#1146.741,283.758,1010.055,1#40207#前往参加晋升大典#0##40622#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020702#16#1#165991#40207#击败亲传弟子#0#4020701#40623#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020703#16#1#165992#40207#击败剑斋长老#0#4020702#40624#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败剑斋长老"
+    translated: "Defeat the Elder of the Sword Pavilion"
+- raw: "4020704#16#1#5655#40207#击败江常煦#885129#4020703#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败江常煦"
+    translated: "Defeat Jiang Changxu"
+- raw: "4020801#19#1#1365.768,252.8709,629.7471,1#40208#前往参加晋升大典#0##40625#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020802#16#1#165993#40208#击败亲传弟子#0#4020801#40626#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020803#16#1#75101#40208#击败汪溪#0#4020802#40627#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败汪溪"
+    translated: "Defeat Wang Xi"
+- raw: "4020804#16#1#155234#40208#击败莫靖#885089#4020803#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败莫靖"
+    translated: "Defeat Mo Jing"
+- raw: "4020901#19#1#1239.051,274.4471,359.8885,1#40209#前往参加晋升大典#0##40628#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4020902#16#1#165994#40209#击败亲传弟子#0#4020901#40629#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4020903#16#1#75038#40209#击败金师#0#4020902#40630#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败金师"
+    translated: "Defeat the Gold Master"
+- raw: "4020904#16#1#45262#40209#击败许鸿煊#885049#4020903#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败许鸿煊"
+    translated: "Defeat Xu Hongxuan"
+- raw: "4021001#19#1#860.9454,251.7849,818.3224,1#40210#前往参加晋升大典#0##40631#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021002#16#1#165995#40210#击败亲传弟子#0#4021001#40632#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021003#16#1#165996#40210#击败流云长老#0#4021002#40633#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败流云长老"
+    translated: "Defeat Elder Liuyun"
+- raw: "4021004#16#1#25070#40210#击败关长威#885009#4021003#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败关长威"
+    translated: "Defeat Guan Zhaowei"
+- raw: "4021101#19#1#253.1159,226.4556,69.97831,1#40211#前往参加晋升大典#0##40634#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021102#16#1#165997#40211#击败亲传弟子#0#4021101#40635#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021103#16#1#165998#40211#击败连环坞长老#0#4021102#40636#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败连环坞长老"
+    translated: "Defeat the Senior of the Linked Pavilions"
+- raw: "4021104#16#1#155310#40211#击败鹰眼老七#884969#4021103#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败鹰眼老七"
+    translated: "Defeat Hawkeye Old Seven"
+- raw: "4021201#19#1#883.1426,249.8909,931.8119,1#40212#前往参加晋升大典#0##40637#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021202#16#1#165999#40212#击败亲传弟子#0#4021201#40638#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021203#16#1#55553#40212#击败连霞吉米#0#4021202#40639#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败连霞吉米"
+    translated: "Defeat Li Xia Jiemi"
+- raw: "4021204#16#1#150395#40212#击败谷夫人#884929#4021203#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败谷夫人"
+    translated: "Defeat Lady Gu"
+- raw: "4021301#19#1#1552.14,257.9898,606.5983,1#40213#前往参加晋升大典#0##40640#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021302#16#1#166000#40213#击败亲传弟子#0#4021301#40641#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021303#16#1#88117#40213#击败行觉#0#4021302#40642#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败行觉"
+    translated: "Defeat Xing Jue"
+- raw: "4021304#16#1#10142#40213#击败永释#884889#4021303#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败永释"
+    translated: "Defeat Yong Shi"
+- raw: "4021401#19#1#880.6199,381.5198,1469.126,1#40214#前往参加晋升大典#0##40643#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021402#16#1#166001#40214#击败亲传弟子#0#4021401#40644#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021403#16#1#121202#40214#击败长老#0#4021402#40645#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败长老"
+    translated: "Defeat the Elder"
+- raw: "4021404#16#1#10143#40214#击败季凛#884849#4021403#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败季凛"
+    translated: "Defeat Ji Lin"
+- raw: "4021501#19#1#334.1402,253.2719,368.8235,1#40215#前往参加晋升大典#0##40646#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021502#16#1#166002#40215#击败亲传弟子#0#4021501#40647#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021503#16#1#75020#40215#击败萧信雄#0#4021502#40648#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败萧信雄"
+    translated: "Defeat Xiao Xinxiong"
+- raw: "4021504#16#1#10144#40215#击败晏洵#884809#4021503#0#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败晏洵"
+    translated: "Defeat Yan Xun"
+- raw: "4021601#19#1#224.2075,224.1313,737.3492,1#40216#前往参加晋升大典#0##40649#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往参加晋升大典"
+    translated: "Attend the promotion ceremony"
+- raw: "4021602#16#1#166003#40216#击败亲传弟子#0#4021601#40650#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败亲传弟子"
+    translated: "Defeat a disciple personally trained by them"
+- raw: "4021603#16#1#75128#40216#击败昌灵准#0#4021602#40651#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败昌灵准"
+    translated: "Defeat Changling first"
+- raw: "4021604#16#1#205031#40216#击败朱玉瑾#0#4021603#40652#####0##0##0#0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败朱玉瑾"
+    translated: "Defeat Zhu Yujin"
+- raw: "4021701#13#1#132143#40217#与结义老人对话#0##39112#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与结义老人对话"
+    translated: "Talking to the sworn brother elder"
+- raw: "4021702#19#1#228.8597,226.0272,839.5544,1#40217#离开此处#0#4021701#39113#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "离开此处"
+    translated: "Leave this place"
+- raw: "4021801#19#1#1510.529,257.5659,451.1495,1#40218#前往福兴镖局#0##39114#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "前往福兴镖局"
+    translated: "Head to the Great Prosperity Escort Agency"
+- raw: "4021802#13#1#132120#40218#与周奎对话#0#4021801#39115#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与周奎对话"
+    translated: "Talking with Zhou Kui"
+- raw: "4021901#13#1#132123#40219#与镖师对话#0##39116#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与镖师对话"
+    translated: "Talking to a guard"
+- raw: "4021902#5#1#132124|132125|132126|132127|132128#40219#阻拦劫镖人#0#4021901#39117#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "阻拦劫镖人"
+    translated: "Intervene in a robbery of a caravan convoy."
+- raw: "4021903#19#1#1507.293,257.4879,443.3787,1#40219#返回镖局#0#4021902#39118#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "返回镖局"
+    translated: "Return to the Escort Bureau"
+- raw: "4021904#5#1#132122#40219#击败赵振#0#4021903#39119#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "击败赵振"
+    translated: "Defeat Zhao Zhen"
+- raw: "4021905#19#1#228.558,224.8662,844.5575,1#40219#返回结义老人处#0#4021904#39120#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "返回结义老人处"
+    translated: "Return to the place of the sworn brothers."
+- raw: "4022001#13#1#132143#40220#与结义老人对话#0##39121#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与结义老人对话"
+    translated: "Talking to the sworn brother elder"
+- raw: "4022002#19#1#228.8597,226.0272,839.5544,1#40220#离开此处#0#4022001#39122#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "离开此处"
+    translated: "Leave this place"
+- raw: "4022101#19#1#251.8554,223.2569,648.4503,1#40221#寻找程武#0##39123#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "寻找程武"
+    translated: "Looking for Cheng Wu"
+- raw: "4022102#5#1#132130|132131|132132|132133#40221#击败血刀鬼卒#0#4022101#39124#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "击败血刀鬼卒"
+    translated: "Defeat the Blood Blade Fiend Soldiers"
+- raw: "4022103#5#1#132134#40221#击败霍青#0#4022102#39125#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "击败霍青"
+    translated: "Defeat Huo Qing"
+- raw: "4022104#13#1#132129#40221#与程武对话#0#4022103#39126#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与程武对话"
+    translated: "Conversing with Brother Cheng Wu"
+- raw: "4022105#19#1#228.558,224.8662,844.5575,1#40221#返回结义老人处#0#4022104#39127#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "返回结义老人处"
+    translated: "Return to the place of the sworn brothers."
+- raw: "4022201#13#1#132143#40222#与结义老人对话#0##39128#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "与结义老人对话"
+    translated: "Talking to the sworn brother elder"
+- raw: "4022301#19#1#1489.88,263.4955,963.9058,1#40223#到达雁州#0##39129#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "到达雁州"
+    translated: "Arrive at Yan Prefecture"
+- raw: "4022302#19#1#1509.093,262.0005,980.0306,1#40223#查探马市#0#4022301#39130#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "查探马市"
+    translated: "Investigate Ma City"
+- raw: "4022303#19#1#1501.406,262.0005,995.523,1#40223#查探酒商#0#4022302#39131#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "查探酒商"
+    translated: "Investigate the wine merchant"
+- raw: "4022304#19#1#1509.093,262.0005,980.0306,1#40223#返回马市#0#4022303#39132#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "返回马市"
+    translated: "Return to the Horse Market"
+- raw: "4022305#5#1#132138|132139|132140|132141|132142#40223#击败劫匪#0#4022304#39133#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "击败劫匪"
+    translated: "Defeat the bandits"
+- raw: "4022306#19#1#228.558,224.8662,844.5575,1#40223#返回结义老人处#0#4022305#39134#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits:
+  - split: 5
+    text: "返回结义老人处"
+    translated: "Return to the place of the sworn brothers."
 - raw: "5003901#19#1#881.6461,249.95,944.4983,1#50039#前往市集#0#5003907#0#0#0###0##0##0#0#0#0#0#0#101000#896662#3000|51000|8#180236&1|180237&1|180238&1#180236&839.6893&249.22&946.0592&111.3368|180237&838.5388&249.22&944.6183&102.8367|180238&840.0725&249.22&944.5274&117.3367#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -15250,7 +18240,7 @@
   - split: 5
     text: "随处逛逛"
     translated: "Wander around aimlessly"
-- raw: "15104003#20#1#0&72|88228|88228080|1#15104#查看飞鸽#900941#15104002#0#####0##0###0#0#0#0#0#0############"
+- raw: "15104003#20#1#0&72|88228|88228080|1#15104#查看飞鸽#900941#15104002#0#####0##0##0#0#0#0#0#0#0############"
   splits:
   - split: 5
     text: "查看飞鸽"
@@ -15295,92 +18285,92 @@
   - split: 5
     text: "和路行世对话"
     translated: "Dialogue of the Wayfarer and the World"
-- raw: "15109001#19#1#1465.353,337.0317,1748.484#15109#走为上计#0#0#0#0#0###0##0###0#0#0#0#0#101000#900664#0#0#0#0#1469.133&337.0448&1740.129&68.58724&150546|1469.677&337.0448&1739.069&36.58726&150547|1470.644&337.0448&1738.617&30.58726&150548#0#0#0#0#0#"
+- raw: "15109001#19#1#1465.353,337.0317,1748.484#15109#走为上计#0#0#0#0#0###0##0##0#0#0#0#0#0#101000#900664#0#0#0#0#1469.133&337.0448&1740.129&68.58724&150546|1469.677&337.0448&1739.069&36.58726&150547|1470.644&337.0448&1738.617&30.58726&150548#0#0#0#0#0#"
   splits:
   - split: 5
     text: "走为上计"
     translated: "Fleeing is the best option"
-- raw: "15109002#19#1#1471.282,337.0448,1740.22#15109#溜走#0#15109001#0#0#0###0##0###0#0#0#0#0#101000#900662#0#0#0#0#0#0#0#0#0#15224#"
+- raw: "15109002#19#1#1471.282,337.0448,1740.22#15109#溜走#0#15109001#0#0#0###0##0##0#0#0#0#0#0#101000#900662#0#0#0#0#0#0#0#0#0#15224#"
   splits:
   - split: 5
     text: "溜走"
     translated: "Make a getaway"
-- raw: "15109003#19#1#1468.856,341.7422,1713.41#15109#找人#0#15109002#0#0#0###0##0###0#0#0#0#0#101000#900650#3000|510001|8#0#150549&1454.64&338.6849&1710.211&85.58688#0#0#0#0#0#0#0#"
+- raw: "15109003#19#1#1468.856,341.7422,1713.41#15109#找人#0#15109002#0#0#0###0##0##0#0#0#0#0#0#101000#900650#3000|510001|8#0#150549&1454.64&338.6849&1710.211&85.58688#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "找人"
     translated: "Looking for someone"
-- raw: "15109004#19#1#1454.64,338.6849,1710.211#15109#跟随采花大盗#0#15109003#0#0#0###0##0###0#0#0#0#0#101000#900631#3000|510001|8#0#150549&1427.743&337.7996&1701.407&199.0871#0#0#0#0#0#0#0#"
+- raw: "15109004#19#1#1454.64,338.6849,1710.211#15109#跟随采花大盗#0#15109003#0#0#0###0##0##0#0#0#0#0#0#101000#900631#3000|510001|8#0#150549&1427.743&337.7996&1701.407&199.0871#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "跟随采花大盗"
     translated: "Follow the Flower‑Picking Bandit"
-- raw: "15109005#19#1#1427.743,337.7996,1701.407#15109#学习品鉴方法#0#15109004#0#0#0###0##0###0#0#0#0#0#101000#900628#3000|510001|8#150549&0|150550&0#0#0#0#0#0#0#0#0#"
+- raw: "15109005#19#1#1427.743,337.7996,1701.407#15109#学习品鉴方法#0#15109004#0#0#0###0##0##0#0#0#0#0#0#101000#900628#3000|510001|8#150549&0|150550&0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "学习品鉴方法"
     translated: "Learning how to appreciate"
-- raw: "15110001#13#1#88225#15110#对话袁婉君#0#0#0#0#0###0##0###0#0#0#0#0#101000#902126#2000|510001|8#0#88225&745.2208&261.6938&954.2925&40.99956#0#0#0#0#0#0#0#"
+- raw: "15110001#13#1#88225#15110#对话袁婉君#0#0#0#0#0###0##0##0#0#0#0#0#0#101000#902126#2000|510001|8#0#88225&745.2208&261.6938&954.2925&40.99956#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "对话袁婉君"
     translated: "Dialogue with Yuan Wanjun"
-- raw: "15110002#19#1#745.9555,261.6938,954.3189#15110#找到袁婉君#0#15110001#0#0#0###0##0###0#0#0#0#0#101000#900609#3000|9005|94#0#0#0#0#0#0#0#0#0#"
+- raw: "15110002#19#1#745.9555,261.6938,954.3189#15110#找到袁婉君#0#15110001#0#0#0###0##0##0#0#0#0#0#0#101000#900609#3000|9005|94#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "找到袁婉君"
     translated: "Find Yuan Wanjun"
-- raw: "15110003#13#1#88225#15110#对话袁婉君#900593#15110002#0#####0##0###0#0#0#0#0#0#0#0#0#0#0#######"
+- raw: "15110003#13#1#88225#15110#对话袁婉君#900593#15110002#0#####0##0##0#0#0#0#0#0#0#0#0#0#0#0#######"
   splits:
   - split: 5
     text: "对话袁婉君"
     translated: "Dialogue with Yuan Wanjun"
-- raw: "15110004#13#1#88225#15110#陪袁婉君练剑#900571#15110003#0#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "15110004#13#1#88225#15110#陪袁婉君练剑#900571#15110003#0#0#0###0##0##0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "陪袁婉君练剑"
     translated: "Practice swordsmanship with Yuan Wanjun"
-- raw: "15110005#13#1#88225#15110#细看#0#15110004#0#0#0###0##0###0#0#0#0#0#101000#900561#3000|9005|43#0#88225&735.1853&278.994&1038.647&195.3371#0#0#0#0#0#0#0#"
+- raw: "15110005#13#1#88225#15110#细看#0#15110004#0#0#0###0##0##0#0#0#0#0#0#101000#900561#3000|9005|43#0#88225&735.1853&278.994&1038.647&195.3371#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "细看"
     translated: "Look closely"
-- raw: "15110006#19#1#735.1853,278.994,1038.647,1#15110#追上袁婉君#0#15110005#0#0#0###0##0###0#0#0#0#0#101000#900542#3000|9005|33#0#0#0#0#0#0#0#0#0#"
+- raw: "15110006#19#1#735.1853,278.994,1038.647,1#15110#追上袁婉君#0#15110005#0#0#0###0##0##0#0#0#0#0#0#101000#900542#3000|9005|33#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "追上袁婉君"
     translated: "Catch up to Yuan Wanjun"
-- raw: "15110007#13#1#88225#15110#表明爱意#0#15110006#0#0#0###0##0###0#0#0#0#0#101000#900532#3000|510001|8#0#1&734.7733&274.9196&1042.693&296.5872|88225&734.3599&275.1755&1043.464&231.5874#0#0#0#0#0#0#0#"
+- raw: "15110007#13#1#88225#15110#表明爱意#0#15110006#0#0#0###0##0##0#0#0#0#0#0#101000#900532#3000|510001|8#0#1&734.7733&274.9196&1042.693&296.5872|88225&734.3599&275.1755&1043.464&231.5874#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "表明爱意"
     translated: "Express affection"
-- raw: "15110008#19#1#734.7733,274.9196,1042.693#15110#查看情况#0#15110007#0#0#0###0##0###0#0#0#0#0#101000#900524#3000|9005|13#0#0#0#0#0#0#0#0#0#"
+- raw: "15110008#19#1#734.7733,274.9196,1042.693#15110#查看情况#0#15110007#0#0#0###0##0##0#0#0#0#0#0#101000#900524#3000|9005|13#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "查看情况"
     translated: "Assess the situation"
-- raw: "15110009#13#1#88225#15110#对话袁婉君#0#15110008#0#0#0###0##0###0#0#0#0#0#101000#900512#3000|510001|8#0#150551&1|150552&1|150553&1#0#0#0#0#0#0#0#"
+- raw: "15110009#13#1#88225#15110#对话袁婉君#0#15110008#0#0#0###0##0##0#0#0#0#0#0#101000#900512#3000|510001|8#0#150551&1|150552&1|150553&1#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "对话袁婉君"
     translated: "Dialogue with Yuan Wanjun"
-- raw: "15110010#13#1#88225#15110#对话袁婉君#0#15110009#0#0#0###0##0###0#0#0#0#0#101000#900497#0#0#0#150551&1|150552&1|150553&1#0#0#0#0#0#0#"
+- raw: "15110010#13#1#88225#15110#对话袁婉君#0#15110009#0#0#0###0##0##0#0#0#0#0#0#101000#900497#0#0#0#150551&1|150552&1|150553&1#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "对话袁婉君"
     translated: "Dialogue with Yuan Wanjun"
-- raw: "15110011#16#1#150551|150552|150553#15110#击杀狼#0#15110010#0#0#0###0##0###0#0#0#0#0#101000#0#0#0#0#0#0#0#0#0#0#0#"
+- raw: "15110011#16#1#150551|150552|150553#15110#击杀狼#0#15110010#0#0#0###0##0##0#0#0#0#0#0#101000#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "击杀狼"
     translated: "Kill the wolf"
-- raw: "15110012#13#1#88225#15110#对话袁婉君#0#15110011#0#####0##0###0#0#0#0#0#101000#900495#3000|510001|8#150554&0#88225&128.7191&227.5661&664.1659&87.74249########"
+- raw: "15110012#13#1#88225#15110#对话袁婉君#0#15110011#0#####0##0##0#0#0#0#0#0#101000#900495#3000|510001|8#150554&0#88225&128.7191&227.5661&664.1659&87.74249########"
   splits:
   - split: 5
     text: "对话袁婉君"
     translated: "Dialogue with Yuan Wanjun"
-- raw: "15110013#19#1#734.4996,274.8324,1042.494#15110#思考#0#15110012#0#####0##0###0#0#0#0#0#101000#900473##########15225#"
+- raw: "15110013#19#1#734.4996,274.8324,1042.494#15110#思考#0#15110012#0#####0##0##0#0#0#0#0#0#101000#900473##########15225#"
   splits:
   - split: 5
     text: "思考"
@@ -15605,6 +18595,201 @@
   - split: 5
     text: "与曲吟秋对话"
     translated: "Speaking with Qu Yinqiu"
+- raw: "35001001#19#1#526.0349,227.9546,17.63352,1#35001#前往村中查看#0##35001#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往村中查看"
+    translated: "Go check out the village"
+- raw: "35002001#5#1#132002|132003|132004#35001#击败饿狼帮喽啰#0#35001001#35002#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败饿狼帮喽啰"
+    translated: "Defeat the ruffians of the E'lang Gang"
+- raw: "35003001#5#1#132012|132013|132014#35001#击败饿狼帮小头目#0#35002001#35003#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败饿狼帮小头目"
+    translated: "Defeat a mid‑level lieutenant of the E'lang Gang."
+- raw: "35004001#5#1#132016|132017|132018|132019#35001#击败饿狼帮头目#0#35003001#35004#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败饿狼帮头目"
+    translated: "Defeat the leader of the E'lang Gang"
+- raw: "35005001#13#1#132020#35001#与沈云飞交谈#0#35004001#35005#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "与沈云飞交谈"
+    translated: "Talk to Shen Yunfei"
+- raw: "35006001#19#1#526.264,227.9546,21.88768,1#35001#查看丢失的粮食#892913#35005001#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看丢失的粮食"
+    translated: "View the lost grain"
+- raw: "35007001#19#1#669.3739,223.1698,89.75652,1#35001#前往黑市#892905#35006001#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往黑市"
+    translated: "Go to the black market"
+- raw: "35008001#19#1#673.3151,224.1664,104.6368,1#35001#进入黑市#0#35007001#35008#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进入黑市"
+    translated: "Enter the black market"
+- raw: "35009001#13#1#132023#35001#打探消息#0#35008001#35009#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "打探消息"
+    translated: "Gather intelligence"
+- raw: "35010001#5#1#132026|132027#35001#击杀饿狼帮#0#35009001#35010#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀饿狼帮"
+    translated: "Slay the Hungry Wolf Gang"
+- raw: "35011001#5#1#132024|132025#35001#击杀诡心阁头目#0#35010001#35011#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀诡心阁头目"
+    translated: "Defeat the leader of Gu Xin Ge"
+- raw: "36001001#19#1#331.3712,226.9731,1277.554,1#36001#前往梨花山庄#0##36001#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往梨花山庄"
+    translated: "Head to Lihua Mansion"
+- raw: "36002001#13#1#132031#36001#进入山庄查看#0#36001001#36002#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "进入山庄查看"
+    translated: "Enter the villa to investigate"
+- raw: "36003001#13#1#132069#36001#查看尸体#892852#36002001#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看尸体"
+    translated: "Examine the body"
+- raw: "36004001#13#1#132030#36001#前往药王谷#0#36003001#36004#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往药王谷"
+    translated: "Journey to the Valley of the Medicine King."
+- raw: "36005001#5#1#132030#36001#打败谷主#892821#36004001#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "打败谷主"
+    translated: "Defeat the Guild Master"
+- raw: "36006001#19#1#93.79926,225.9302,1499.633,1#36001#离开药王谷#0#36005001#36006#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "离开药王谷"
+    translated: "Leaving Yaowang Valley"
+- raw: "36007001#19#1#49.11861,243.536,1656.763,1#36001#前往黑鸦谷#0#36006001#36007#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往黑鸦谷"
+    translated: "Head to Black Crow Valley"
+- raw: "36008001#5#1#132032|132033|132034#36001#击杀血影遗徒#0#36007001#36008#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀血影遗徒"
+    translated: "Slay the Blood Shadow Disciples"
+- raw: "36009001#19#1#129.7452,309.2559,1605.132,1#36001#前往血影门#0#36008001#36009#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往血影门"
+    translated: "Head to Blood Shadow Gate"
+- raw: "36010001#5#1#132035|132036|132037#36001#击败血影首领#0#36009001#36010#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败血影首领"
+    translated: "Defeat the leader of Blood Shadow"
+- raw: "37001001#19#1#194.8669,224.8999,555.901,1#37001#打探消息#0##37001#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "打探消息"
+    translated: "Gather intelligence"
+- raw: "37002001#19#1#52.30339,229.2749,485.1362,1#37001#前往张家#0#37001001#37002#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往张家"
+    translated: "Go to Zhang's home"
+- raw: "37003001#13#1#132041#37001#查看线索1#0#37002001#37003#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看线索1"
+    translated: "Review clue 1"
+- raw: "37004001#13#1#132042#37001#查看线索2#0#37003001#37004#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看线索2"
+    translated: "View clue 2"
+- raw: "37005001#13#1#132070#37001#查看尸体#0#37004001#37005#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看尸体"
+    translated: "Examine the body"
+- raw: "37006001#19#1#196.9813,225.912,659.2324,1#37001#前往当铺#0#37005001#37006#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往当铺"
+    translated: "Heading to the pawnshop"
+- raw: "37007001#5#1#132045|132046|132047#37001#击杀诡心阁护法#0#37006001#37007#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀诡心阁护法"
+    translated: "Defeat the Guardian of Guixin Hall"
+- raw: "37008001#13#1#132048#37001#查看线索#0#37007001#37008#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "查看线索"
+    translated: "Review the clues"
+- raw: "37009001#5#1#132044#37001#击杀诡心阁长老#0#37008001#37009#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀诡心阁长老"
+    translated: "Eliminate the scheming Elder of the Guixin Hall."
+- raw: "38001001#19#1#235.9831,312.6158,1598.35,1#38001#前往诡心阁#0##38001#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往诡心阁"
+    translated: "Head to the Enigmatic Pavilion"
+- raw: "38002001#19#1#185.3538,325.2758,1618.231,1#38001#前往诡心阁深处#0#38001001#38002#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "前往诡心阁深处"
+    translated: "Proceed to the depths of the Guixin Hall."
+- raw: "38003001#5#1#132049|132050|132051|132052#38001#击杀诡心阁手下#0#38002001#38003#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀诡心阁手下"
+    translated: "Eliminate the agents of the Guild of Deceitful Hearts."
+- raw: "38004001#5#1#132053|132054|132055|132056|132057#38001#击杀诡心阁手下#0#38003001#38004#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击杀诡心阁手下"
+    translated: "Eliminate the agents of the Guild of Deceitful Hearts."
+- raw: "38005001#19#1#237.3708,312.6158,1599.934,1#38001#逃出诡心阁#0#38004001#38005#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "逃出诡心阁"
+    translated: "Escape from the Labyrinth of Deceit"
+- raw: "38006001#1#1#892692#38001#村中养伤#0#38005001#0#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "村中养伤"
+    translated: "Care for the injured in the village"
+- raw: "38007001#1#1#892689#38001#决战山巅#0#38006001#38006#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "决战山巅"
+    translated: "The Final Battle on the Mountain Peak"
+- raw: "38008001#5#1#132061#38001#击败沈云飞#0#38007001#38007#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败沈云飞"
+    translated: "Defeat Shen Yunfei"
+- raw: "38009001#5#1#132062#38001#击败沈云飞#0#38008001#38008#####0##0###0#0#0#0#0#0############"
+  splits:
+  - split: 5
+    text: "击败沈云飞"
+    translated: "Defeat Shen Yunfei"
 - raw: "40001001#13#1#93016#400001#与老叟交谈#937308##0#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 5
@@ -18903,6 +22088,8 @@
   - split: 5
     text: "前往山顶"
     translated: "Ascend to the summit"
+- raw: "99999991#20#1#0&24|926734|1#9999999##0#0#40447#0#0###0##0###0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#"
+  splits: []
 - raw: "100500011#13#1#205005#100501#和镇府将军对话#0##50501#####0##0###0#0#0#1#0#0############"
   splits:
   - split: 5
@@ -19983,7 +23170,7 @@
   - split: 5
     text: "对话司空摘星"
     translated: "Engage in conversation with Sikong Zhexing"
-- raw: "101016902#19#1#1317.08,358.4374,1728.195,2#1010169#前往仓库#0#101016901#0#0#0###0##0##0#0#0#0#0#0#101000#0#3000|8996|21#0#150459&1310.656&358.4374&1724.034&106.5579#150459&0#0#0#0#0#0#0#"
+- raw: "101016902#19#1#1317.08,358.4374,1728.195,2#1010169#前往仓库#0#101016901#0#0#0###0##0##0#0#0#0#0#0#101000#0#3000|8996|21#0#150459&1311.152&358.4374&1720.965&11.89991#150459&0#0#0#0#0#0#0#"
   splits:
   - split: 5
     text: "前往仓库"
@@ -22213,7 +25400,7 @@
   - split: 5
     text: "对话小孩"
     translated: "Discussing a Child"
-- raw: "150860131#19#1#1315.101,358.4074,1699.696#15086#对话寨主#909282#150860121#20139#####0##0###0#0#0#0#0#0############"
+- raw: "150860131#19#1#1315.101,358.4074,1699.696#15086#对话寨主#909282#150860121#40657#####0##0###0#0#0#0#0#0############"
   splits:
   - split: 5
     text: "对话寨主"
@@ -22308,7 +25495,7 @@
   - split: 5
     text: "把梨花针给老妪"
     translated: "Give the plum blossom needle to the old matron"
-- raw: "150920051#19#1#662.0365,373.9421,1554.904#15092#给老人捡东西#907540#150920041#0#####0##0###0#0#0#0#0#101000###150492&0#########"
+- raw: "150920051#19#1#662.0365,373.9421,1554.904#15092#给老人捡东西#907540#150920041#0#####0##0###0#0#0#0#0#101000###150492&0|150372&1#150372&556.5572&375.4254&1553.141&65.75071########"
   splits:
   - split: 5
     text: "给老人捡东西"
@@ -22458,7 +25645,7 @@
   - split: 5
     text: "交代"
     translated: "Provide a detailed explanation"
-- raw: "150960111#13#1#5661#15096#对话路长老#906416#150960101#0#####0##0###0#0#0#0#0#0############"
+- raw: "150960111#13#1#5661#15096#对话路长老#0#150960101#0#####0##0###0#0#0#0#0#101000#906416##150504&1#########"
   splits:
   - split: 5
     text: "对话路长老"
@@ -22925,17 +26112,17 @@
   - split: 5
     text: "潜入墙内（击败士兵）"
     translated: "Enter Inside (Defeat Soldiers)"
-- raw: "200160091#16#1#155054|155055|155056|155057#20016#击败护卫#932867#200160081#0#####0#0#0#0#0#0#0#0#0#0#100106##155038&1|155039&1##########"
+- raw: "200160091#16#1#155054|155055|155056|155057#20016#击败护卫#932867#200160081#0#####0#0#0#0#0#0#0#0#0#0#100106##155038&1##########"
   splits:
   - split: 5
     text: "击败护卫"
     translated: "Defeat the guards"
-- raw: "200160101#16#1#155038#20016#击败章武帝#932865#200160091#0#####0#0#0#0#0#0#0#0#0#0#100108###155038&0|155039&1#########"
+- raw: "200160101#16#1#155038#20016#击败章武帝#932865#200160091#0#####0#0#0#0#0#0#0#0#0#0#101000###155038&0|155039&1##155039&1#######"
   splits:
   - split: 5
     text: "击败章武帝"
     translated: "Defeat Emperor Zhangwu"
-- raw: "200160111#16#1#155039#20016#处决章武帝#0#200160101#0#####0#0#0#0#0#0#0#0#0#0#0############"
+- raw: "200160111#5#1#155039#20016#处决章武帝#0#200160101#0#####0#0#0#0#0#0#0#0#0#0#0############"
   splits:
   - split: 5
     text: "处决章武帝"
@@ -22954,7 +26141,7 @@
   splits:
   - split: 5
     text: "前往困魔池"
-    translated: "Go to the Quelling Demon Pond"
+    translated: "Proceed to the Demon‑Trapping Pool"
 - raw: "200170041#19#1#861.020203,385.343048,1495.7655#20017#与老剑神对话#932776#200170031#0#####0#0#0#0#0#0#0#0#0#0#100106##155045&0##########"
   splits:
   - split: 5
@@ -23335,7 +26522,7 @@
   - split: 5
     text: "与小印子交谈"
     translated: "Speak with Xiao Yinzi"
-- raw: "200420011#13#1#155123#20042#与曹公公交谈#0##0#####0#0#0#0#0#0#0#0#0#0#20099#929417#3000|510001|8#155137&1#155123&1451.75598&259.912903&375.011841&52.2|1&1452.93713&259.912903&376.131805&-130#155137&0#######"
+- raw: "200420011#13#1#155123#20042#与曹公公交谈#0##0#####0#0#0#0#0#0#0#0#0#0#101000#929417#3000|510001|8#155137&1#155123&1451.75598&259.912903&375.011841&52.2|1&1452.93713&259.912903&376.131805&-130#155137&0#######"
   splits:
   - split: 5
     text: "与曹公公交谈"
@@ -23345,7 +26532,7 @@
   - split: 5
     text: "击败刺客"
     translated: "Defeat the assassin"
-- raw: "200420031#13#1#155137#20042#拷问刺客#929403#200420021#0#####0#0#0#0#0#0#0#0#0#0#100108###155137&0#########"
+- raw: "200420031#13#1#155137#20042#拷问刺客#0#200420021#0#####0#0#0#0#0#0#0#0#0#0#101000#929403#3000|510001|8#155137&0#########"
   splits:
   - split: 5
     text: "拷问刺客"
@@ -24135,7 +27322,7 @@
   - split: 5
     text: "击败莫靖"
     translated: "Defeat Mo Jing"
-- raw: "200680041#13#1#155234#20068#与莫靖对话#921515#200680031#20142#####0#0#0#0#0#0#0#0#0#0#0############"
+- raw: "200680041#13#1#155234#20068#与莫靖对话#921515#200680031#40658#####0#0#0#0#0#0#0#0#0#0#0############"
   splits:
   - split: 5
     text: "与莫靖对话"
@@ -24780,7 +27967,7 @@
   - split: 5
     text: "调和柯湘与李靖琪"
     translated: "Mediate between Ke Xiang and Li Jingqi"
-- raw: "201020161#13#1#155310#20102#继任坞主#0#201020151#0####34112|1#0#0#0#0#0#0#0#0#0#0#101000#909000#3000|510001|8##155311&297.5663&225.0919&39.29471&242.2312|155312&248.5796&224.5446&39.1097&335.2312|155313&268.2988&224.5446&53.85756&238.481|155314&263.2917&224.6069&43.3711&146.4812|155315&257.6067&224.5446&32.75371&326.4811|155285&290.9585&228.2953&71.82337&232.981#######20140#"
+- raw: "201020161#13#1#155310#20102#继任坞主#0#201020151#0####34112|1#0#0#0#0#0#0#0#0#0#0#101000#909000#3000|510001|8##155311&297.5663&225.0919&39.29471&242.2312|155312&248.5796&224.5446&39.1097&335.2312|155313&268.2988&224.5446&53.85756&238.481|155314&263.2917&224.6069&43.3711&146.4812|155315&257.6067&224.5446&32.75371&326.4811|155285&290.9585&228.2953&71.82337&232.981#######40655#"
   splits:
   - split: 5
     text: "继任坞主"
@@ -25195,7 +28382,7 @@
   - split: 5
     text: "击败游僧三人"
     translated: "Defeat the three wandering monks"
-- raw: "201270071#13#1#155354#20127#向住持阿那罗回禀#906642#201270061#20140####34342|1#0#0#0#0#0#0#0#0#0#0#0############"
+- raw: "201270071#13#1#155354#20127#向住持阿那罗回禀#906642#201270061#40653####34342|1#0#0#0#0#0#0#0#0#0#0#0############"
   splits:
   - split: 5
     text: "向住持阿那罗回禀"

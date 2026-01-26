@@ -10,7 +10,7 @@ public static class MinimapPatch
 {
     static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
     {
-        var from = AccessTools.Method(typeof(SweetPotato.Tools), nameof(SweetPotato.Tools.GetGameTimeDate));
+        var from = AccessTools.Method(typeof(SweetPotato.Tools), nameof(SweetPotato.Tools.GetGameTimeDate), [typeof(double)]);
         var to = AccessTools.Method(typeof(MinimapPatch), "MyGetGameTimeDate");
         return Transpilers.MethodReplacer(instructions, from, to);
     }
@@ -27,6 +27,6 @@ public static class MinimapPatch
         var shortMonth = dateTime.ToString("MMM");
 
         //MainView.RefreshDateTimeText uses 年 and put the first half into year display and second half below
-        return $"JY{year}年{day}\n{shortMonth}\n{SweetPotato.Tools.SHI_CHENG_STR[hour / 2]}";
+        return $"JY{year}{LocalString.year}{day}\n{shortMonth}\n{LocalStringArray.DI_ZHI[hour / 2]}";        
     }   
 }

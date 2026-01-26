@@ -706,6 +706,48 @@
     translated: "Immerse in the Imperial Edicts of the Evernight Capital."
 - raw: "776#271.735#1039#0#0#0#0#0######0#7010|1#0##0#0#0##0#0#0##0##0#0#0##0#0#0##0#0#0#0###0#0#"
   splits: []
+- raw: "10001#谋取宝贝#0#0#0#0#0#0######0#800116|1&800117|1&800118|1&800119|1&800120|1&800121|1&800122|1&800123|1#0##0#0#110#1#1##0#{E}，宝贝在此人手上，实在是暴殄天物，无论用何种手段，须得夺到手中！#0##0#0#0##0#0#0#得到{E}身上的宝物（{IsCanFinish:0:1}/1)##0#拿到宝物#0###0##"
+  splits:
+  - split: 1
+    text: "谋取宝贝"
+    translated: "Seeking to Acquire Treasure"
+  - split: 24
+    text: "{E}，宝贝在此人手上，实在是暴殄天物，无论用何种手段，须得夺到手中！"
+    translated: "{E}, having such a treasure in someone else's hands is truly squandering a heavenly gift. No matter what means are necessary, it must be taken into your possession!"
+  - split: 34
+    text: "得到{E}身上的宝物（{IsCanFinish:0:1}/1)"
+    translated: "Obtained the treasure from {E}'s body ({IsCanFinish:0:1}/1)"
+  - split: 37
+    text: "拿到宝物"
+    translated: "Acquired the treasure"
+- raw: "10002#谋取宝贝#0#0#0#0#0#0######0#800116|1&800117|1&800118|1&800119|1&800120|1&800121|1&800122|1&800123|1#0##0#0#110#1#1##0#宝贝竟被{E}拿到，但身处江湖，身怀珍宝便是危险，用点手段便是我的了！#0##0#0#0##0#0#0#得到{E}身上的宝物（{IsCanFinish:0:1}/1)##0#抢夺珍宝#0###0##"
+  splits:
+  - split: 1
+    text: "谋取宝贝"
+    translated: "Seeking to Acquire Treasure"
+  - split: 24
+    text: "宝贝竟被{E}拿到，但身处江湖，身怀珍宝便是危险，用点手段便是我的了！"
+    translated: "The treasure has been taken by {E}, but being in the Jianghu with such a precious item is dangerous. I'll use some means to claim it for myself!"
+  - split: 34
+    text: "得到{E}身上的宝物（{IsCanFinish:0:1}/1)"
+    translated: "Obtained the treasure from {E}'s body ({IsCanFinish:0:1}/1)"
+  - split: 37
+    text: "抢夺珍宝"
+    translated: "Plundering treasures"
+- raw: "10003#谋取宝贝#0#0#0#0#0#0######0#800116|1&800117|1&800118|1&800119|1&800120|1&800121|1&800122|1&800123|1#0##0#0#110#1#1##0#{E}，此人手无缚鸡之力，竟拍得珍宝，这样的宝贝还需我来保管！#0##0#0#0##0#0#0#得到{E}身上的宝物（{IsCanFinish:0:1}/1)##0#谋取宝物#0###0##"
+  splits:
+  - split: 1
+    text: "谋取宝贝"
+    translated: "Seeking to Acquire Treasure"
+  - split: 24
+    text: "{E}，此人手无缚鸡之力，竟拍得珍宝，这样的宝贝还需我来保管！"
+    translated: "{E}, this person has no strength even to bind a chicken together, yet they acquired such a treasure. I must protect such a precious item!"
+  - split: 34
+    text: "得到{E}身上的宝物（{IsCanFinish:0:1}/1)"
+    translated: "Obtained the treasure from {E}'s body ({IsCanFinish:0:1}/1)"
+  - split: 37
+    text: "谋取宝物"
+    translated: "Scheme to acquire treasure"
 - raw: "30007#《重霄掌》#0#0#0#952335#952330#952331##65043|99##0&24|952358|1##0#7001|2&7002|2#0##0#0#25#0|1|37339#0##0##0##0#0#0##0#0#0#获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})#将{I}交给{A}#0#《重霄掌》#0###0#0#"
   splits:
   - split: 1
@@ -927,7 +969,7 @@
   - split: 37
     text: "夺回金条"
     translated: "Reclaim the gold bars"
-- raw: "30026#覆灭三家#0#0#0#950713#950708#950709##64332|1#0&41|90226#0&24|950732|1##0#7001|2&7002|2#0##0#0#7#90225#0##0##0##0#0#0##0#0#0#击败目标点{m_WaitEntrustKillNpcOriginSwapointId}处的王李郑三家（{WaitEntrustTargetItemMatchCount}/{WaitEntrustKillNpcSwapointIdCount}）#回禀{A}#0#覆灭三家#0###0#0#"
+- raw: "30026#覆灭三家#0#0#0#950713#950708#950709##64332|1#0&41|90225#0&24|950732|1##0#7001|2&7002|2#0##0#0#7#90225#0##0##0##0#0#0##0#0#0#击败目标点{m_WaitEntrustKillNpcOriginSwapointId}处的王李郑三家（{WaitEntrustTargetItemMatchCount}/{WaitEntrustKillNpcSwapointIdCount}）#回禀{A}#0#覆灭三家#0###0#0#"
   splits:
   - split: 1
     text: "覆灭三家"
@@ -1052,7 +1094,7 @@
     translated: "Give {I} to {A}"
   - split: 37
     text: "飞炼瀑药草"
-    translated: "Alchemic Ascension Herb"
+    translated: "Herb of the Flying Forge Falls"
 - raw: "37502#飞瀑清泉#0#0#0#952412#952406#952407##18146|1##0&24|952415|1##0#7001|2&7002|2#0#0#0#0#25#0|1|36502#0#0#0##0##0#0#0##0#0#0#获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})#将{I}交给{A}#0#飞炼瀑清泉#0###0#0#"
   splits:
   - split: 1
@@ -1066,7 +1108,7 @@
     translated: "Give {I} to {A}"
   - split: 37
     text: "飞炼瀑清泉"
-    translated: "Fei Lian Pu Qing Quan"
+    translated: "Flying Forge Falls Clear Spring"
 - raw: "100001#缺味佳肴#0#0#0#0#0#0######0#8005|1&8011|1&8013|1#0##0#0#107#9011|1#1##0#前些日子出任务受了伤不宜出门，偏又想吃些鱼。特设此令以征三条太公鱼。#0##0#0#0##0#0#0#获得{I}（{NeedItemInfoCount}/{N})#回禀{AA}#0#缺味佳肴#0##94|20&91|20#0#0#"
   splits:
   - split: 1
@@ -2162,7 +2204,7 @@
     translated: "The prize purse of the arena"
   - split: 24
     text: "新练就的枪法枪舞惊鸿，回风飒沓，没准还能与那长旌军一较高下！我不愧是这一届最优秀的弟子，现在便高价征五个{I}，下次擂台赛便以这些枪套作彩头！"
-    translated: "The newly mastered spear art and its dance‑like movements are breathtaking, with the wind swirling in a rush. It might even stand up to a test against the Long Standard Army! I do not disappoint as this generation's most outstanding disciple; now I will hire five of you at a high price, {I}, using these spear sets as rewards for the next tournament!"
+    translated: "The newly mastered spear technique and dance are breathtaking; the swirling winds suggest it might even match up to the Long Banner Army. As the most outstanding disciple of this generation, I'm now offering a high price for five {I}s, using these spears as prizes in the next tournament showdown!"
   - split: 34
     text: "获得{I}（{NeedItemInfoCount}/{N})"
     translated: "Obtained {I} ({NeedItemInfoCount}/{N})"
@@ -3430,7 +3472,7 @@
   - split: 37
     text: "隐世珍宝"
     translated: "A Hidden World's Treasure"
-- raw: "180113#清扫战场·一波#0#0#0#0#0#0#0##0&24|988551|1#0&24|899534|1##0##0##50433#0#108##1#楚军招募官#0#此次的任务是，清剿被大部队清扫过的边缘战场，要小心暗处的敌人。击杀战场上的一波敌人，不要脱离战场太远。注意，敌人的位置有时候并不固定！#0##0#0#0##0#0#0#留在战场上，清剿敌军##0#新兵·清扫战场#0###0#0#"
+- raw: "180113#清扫战场·一波#0#0#0#0#0#0#0##0&24|988551|1#0&26|1|1|2|chujun##0##0##50433#0#108##1#楚军招募官#0#此次的任务是，清剿被大部队清扫过的边缘战场，要小心暗处的敌人。击杀战场上的一波敌人，不要脱离战场太远。注意，敌人的位置有时候并不固定！#0##0#0#0##0#0#0#留在战场上，清剿敌军##0#新兵·清扫战场#0###0#0#"
   splits:
   - split: 1
     text: "清扫战场·一波"
@@ -3515,7 +3557,7 @@
   - split: 37
     text: "游骑校尉·万夫莫开"
     translated: "Ranger Escort Commander · Wan Fu Mo Kai"
-- raw: "180119#清扫战场·一波#0#0#0#0#0#0#0##0&24|988551|1#0&24|899472|1##0##0##50439#0#108##1#齐军招募官#0#此次的任务是，清剿被大部队清扫过的边缘战场，要小心暗处的敌人。击杀战场上的一波敌人，不要脱离战场太远。注意，敌人的位置有时候并不固定！#0##0#0#0##0#0#0#留在战场上，清剿敌军##0#新兵·清扫战场#0###0#0#"
+- raw: "180119#清扫战场·一波#0#0#0#0#0#0#0##0&24|988551|1#0&26|1|1|2|qijun##0##0##50439#0#108##1#齐军招募官#0#此次的任务是，清剿被大部队清扫过的边缘战场，要小心暗处的敌人。击杀战场上的一波敌人，不要脱离战场太远。注意，敌人的位置有时候并不固定！#0##0#0#0##0#0#0#留在战场上，清剿敌军##0#新兵·清扫战场#0###0#0#"
   splits:
   - split: 1
     text: "清扫战场·一波"
@@ -4292,21 +4334,21 @@
   splits:
   - split: 1
     text: "委托引导到龙蛇寨（云鹤村）"
-    translated: "Commissioned to guide to Longshe Encampment. (Cloud Crane Village)"
+    translated: "Commission guide to Dragon Snake Fort (Cloud Crane Village)."
   - split: 34
     text: "到达目标点{GetZhiYingTargetPos}并观察龙蛇寨（{IsCanFinish:0:1}/1）"
-    translated: "Arrive at the target location {GetZhiYingTargetPos} and observe Longshe Encampment ({IsCanFinish:0:1}/1)."
+    translated: "Arrive at the target point {GetZhiYingTargetPos} and observe the Dragon Snake Fort ({IsCanFinish:0:1}/1)."
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
   - split: 37
     text: "探查龙蛇寨"
-    translated: "Investigate the Dragon‑Snake Encampment"
+    translated: "Investigate Dragon Snake Fort"
 - raw: "220104#委托得出示道具段鸿鸣（长旌军）#1#1200#0#950913#950900#950902##80105|1#0&34|725.7465|293.5366|1149.5|2|0|950901###0#7001|2&7006|1#0##0#0#10#725.7465|293.5366|1149.5|2|0|950901#0##0##21##0#0#0##0#0#0#到达目标点{GetZhiYingTargetPos}并观察周围（{IsCanFinish:0:1}/1）#回禀{A}#1#探明地点#0###0#0#"
   splits:
   - split: 1
     text: "委托得出示道具段鸿鸣（长旌军）"
-    translated: "The commission requires the presentation of equipment by Duan Hongming (from the Long Standard Army)."
+    translated: "The commission requires presenting the item to Brother Duan Hongming (Long Banner Army)."
   - split: 34
     text: "到达目标点{GetZhiYingTargetPos}并观察周围（{IsCanFinish:0:1}/1）"
     translated: "Reach the target location {GetZhiYingTargetPos} and observe your surroundings ({IsCanFinish:0:1}/1)."
@@ -4348,7 +4390,7 @@
   splits:
   - split: 1
     text: "委托寻茶（长旌军江湖故事）"
-    translated: "Commission to Seek Tea (Long Standard Army Jianghu Tales)"
+    translated: "Commission to Search for Tea (Long Banner Army Jianghu Tales)"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -4362,7 +4404,7 @@
   splits:
   - split: 1
     text: "委托寻茶（长旌军江湖故事）"
-    translated: "Commission to Seek Tea (Long Standard Army Jianghu Tales)"
+    translated: "Commission to Search for Tea (Long Banner Army Jianghu Tales)"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -6262,7 +6304,7 @@
   splits:
   - split: 1
     text: "龙蛇寨-陈鸣"
-    translated: "Dragon and Snake Camp ‑ Chen Ming"
+    translated: "Dragon Snake Fort ‑ Chen Ming"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -9496,7 +9538,7 @@
   splits:
   - split: 1
     text: "誓盟碑1"
-    translated: "Oath Alliance Monument 1"
+    translated: "Alliance Oath Monument 1"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -9507,7 +9549,7 @@
   splits:
   - split: 1
     text: "誓盟碑3"
-    translated: "Oath Alliance Monument 3"
+    translated: "Alliance Oath Monument 3"
   - split: 34
     text: "{WaitLifeSkillUseAttritypeName}｛WaitLifeSkillUseAttritypeCount}次（{HaveWaitLifeSkillUseAttritypeCount}/{WaitLifeSkillUseAttritypeCount})"
     translated: "{WaitLifeSkillUseAttritypeName} {WaitLifeSkillUseAttritypeCount} times ({HaveWaitLifeSkillUseAttritypeCount}/{WaitLifeSkillUseAttritypeCount})"
@@ -10420,7 +10462,7 @@
   splits:
   - split: 1
     text: "拜访长旌军"
-    translated: "Visit the Long Standard Army"
+    translated: "Visit the Long Banner Army"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Converse with {E} ({IsCanFinish:0:1}/1)"
@@ -10429,7 +10471,7 @@
     translated: "Report to {A}"
   - split: 37
     text: "拜访长旌军"
-    translated: "Visit the Long Standard Army"
+    translated: "Visit the Long Banner Army"
 - raw: "360015#拜访楚军#1#1200#0#952156#952149#952147##65020|30####0#7001|2&7006|1#0##0#0#24#952153|75067#0##0##0##0#0#0##0#0#0#与{E}交谈（{IsCanFinish:0:1}/1）#回禀{A}#1#拜访楚军#0###0#0#"
   splits:
   - split: 1
@@ -10644,7 +10686,7 @@
   splits:
   - split: 1
     text: "拜访爻光谷"
-    translated: "Visit the Light of Divination Valley"
+    translated: "Visit Trigram Light Valley"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Converse with {E} ({IsCanFinish:0:1}/1)"
@@ -10653,7 +10695,7 @@
     translated: "Report to {A}"
   - split: 37
     text: "拜访爻光谷"
-    translated: "Visit the Light of Divination Valley"
+    translated: "Visit Trigram Light Valley"
 - raw: "360031#拜访福兴镖局#1#1200#0#952156#952149#952147##65038|30####0#7001|2&7006|1#0##0#0#24#952153|75123#0##0##0##0#0#0##0#0#0#与{E}交谈（{IsCanFinish:0:1}/1）#回禀{A}#1#拜访福兴镖局#0###0#0#"
   splits:
   - split: 1
@@ -12691,7 +12733,7 @@
     translated: "Reading to Forge Alliances"
   - split: 34
     text: "阅读｛I}｛N}次（{WaitEntrustTargetItemMatchCount}/{N})"
-    translated: "Read {I}{N} times ({WaitEntrustTargetItemMatchCount}/{N})"
+    translated: "Read {I} {N} times ({WaitEntrustTargetItemMatchCount}/{N})"
   - split: 35
     text: "回禀{E}"
     translated: "Report to {E}"
@@ -15365,7 +15407,7 @@
   splits:
   - split: 1
     text: "莲花渡1"
-    translated: "Lotus Bridge 1"
+    translated: "Lotus Ferry 1"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15376,7 +15418,7 @@
   splits:
   - split: 1
     text: "莲花渡2"
-    translated: "Lotus Bridge 2"
+    translated: "Lotus Ferry 2"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15387,7 +15429,7 @@
   splits:
   - split: 1
     text: "莲花渡3"
-    translated: "Lotus Bridge 3"
+    translated: "Lotus Ferry 3"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
     translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
@@ -15398,7 +15440,7 @@
   splits:
   - split: 1
     text: "莲花渡4"
-    translated: "Lotus Bridge 4"
+    translated: "Lotus Ferry 4"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15409,7 +15451,7 @@
   splits:
   - split: 1
     text: "莲花渡5"
-    translated: "Lotus Bridge 5"
+    translated: "Lotus Ferry 5"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15420,7 +15462,7 @@
   splits:
   - split: 1
     text: "莲花渡6"
-    translated: "Lotus Bridge to 6"
+    translated: "Lotus Ferry 6"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -15431,7 +15473,7 @@
   splits:
   - split: 1
     text: "莲花渡7"
-    translated: "Lotus Bridge 7"
+    translated: "Lotus Ferry 7"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -15442,7 +15484,7 @@
   splits:
   - split: 1
     text: "莲花渡9"
-    translated: "Lotus Bridge 9"
+    translated: "Lotus Ferry 9"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
     translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
@@ -15453,10 +15495,10 @@
   splits:
   - split: 1
     text: "莲花渡10"
-    translated: "Lotus Crossing 10"
+    translated: "Lotus Ferry 10"
   - split: 34
     text: "阅读｛I}｛N}次（{WaitEntrustTargetItemMatchCount}/{N})"
-    translated: "Read {I}{N} times ({WaitEntrustTargetItemMatchCount}/{N})"
+    translated: "Read {I} {N} times ({WaitEntrustTargetItemMatchCount}/{N})"
   - split: 35
     text: "回禀{E}"
     translated: "Report to {E}"
@@ -15464,7 +15506,7 @@
   splits:
   - split: 1
     text: "莲花渡11"
-    translated: "Lotus Bridge 11"
+    translated: "Lotus Ferry 11"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
     translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
@@ -15475,7 +15517,7 @@
   splits:
   - split: 1
     text: "莲花渡12"
-    translated: "Lotus Crossing 12"
+    translated: "Lotus Ferry 12"
   - split: 34
     text: "{WaitLifeSkillUseAttritypeName}｛WaitLifeSkillUseAttritypeCount}次（{HaveWaitLifeSkillUseAttritypeCount}/{WaitLifeSkillUseAttritypeCount})"
     translated: "{WaitLifeSkillUseAttritypeName}: Wait {WaitLifeSkillUseAttritypeCount} times ({HaveWaitLifeSkillUseAttritypeCount}/{WaitLifeSkillUseAttritypeCount})"
@@ -15940,7 +15982,7 @@
     translated: "Primordial Origin Sword Sect 9"
   - split: 34
     text: "阅读｛I}｛N}次（{WaitEntrustTargetItemMatchCount}/{N})"
-    translated: "Read {I}{N} times ({WaitEntrustTargetItemMatchCount}/{N})"
+    translated: "Read {I} {N} times ({WaitEntrustTargetItemMatchCount}/{N})"
   - split: 35
     text: "回禀{E}"
     translated: "Report to {E}"
@@ -16050,7 +16092,7 @@
     translated: "Flowing Cloud Escort Agency 3"
   - split: 34
     text: "阅读｛I}｛N}次（{WaitEntrustTargetItemMatchCount}/{N})"
-    translated: "Read {I}{N} times ({WaitEntrustTargetItemMatchCount}/{N})"
+    translated: "Read {I} {N} times ({WaitEntrustTargetItemMatchCount}/{N})"
   - split: 35
     text: "回禀{E}"
     translated: "Report to {E}"
@@ -16474,7 +16516,7 @@
   splits:
   - split: 1
     text: "长旌军1"
-    translated: "Long Standard Army 1"
+    translated: "Long Banner Army 1"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -16485,7 +16527,7 @@
   splits:
   - split: 1
     text: "长旌军2"
-    translated: "Long Standard Army 2"
+    translated: "Long Banner Army 2"
   - split: 34
     text: "获得{I}（{HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
     translated: "Obtained {I} ({HaveWaitEntrustTargetItemCount}/{WaitEntrustTargetItemCount})"
@@ -16496,7 +16538,7 @@
   splits:
   - split: 1
     text: "长旌军3"
-    translated: "Long Standard Army 3"
+    translated: "Long Banner Army 3"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
     translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
@@ -16507,7 +16549,7 @@
   splits:
   - split: 1
     text: "长旌军4"
-    translated: "Long Standard Army 4"
+    translated: "Long Banner Army 4"
   - split: 34
     text: "与{E}交谈（{IsCanFinish:0:1}/1）"
     translated: "Talk to {E} ({IsCanFinish:0:1}/1)"
@@ -16518,7 +16560,7 @@
   splits:
   - split: 1
     text: "长旌军5"
-    translated: "Long Standard Army 5"
+    translated: "Long Banner Army 5"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
     translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
@@ -17089,7 +17131,7 @@
   splits:
   - split: 1
     text: "长旌军悬赏"
-    translated: "Long Standard Army offers a reward"
+    translated: "Long Banner Army Rewards Announcement"
   - split: 24
     text: "维护世间太平，乃军伍之中不二之选，故发布此令通缉江洋大盗{E}。"
     translated: "To maintain peace in the world, he is an unparalleled choice among the ranks of the army. Therefore, this edict is issued to apprehend the notorious bandit {E}."
@@ -17103,7 +17145,7 @@
   splits:
   - split: 1
     text: "长旌军悬赏"
-    translated: "Long Standard Army offers a reward"
+    translated: "Long Banner Army Rewards Announcement"
   - split: 24
     text: "正所谓兵马未动，粮草先行，特征些{I}供军中使用。"
     translated: "As it is often said, When troops are not yet mobilized, logistics must move first. To this end, a certain amount of {I} has been provided for use in the military."
@@ -17117,7 +17159,7 @@
   splits:
   - split: 1
     text: "长旌军悬赏"
-    translated: "Long Standard Army offers a reward"
+    translated: "Long Banner Army Rewards Announcement"
   - split: 24
     text: "军中机密过多，常记录在{I}中，前些时日军中着火失了窃，其中就有{I}，经查明在{E}手中，特寻英杰夺回，若是落到穆特手中，少不得又是一番腥风血雨！"
     translated: "There are too many military secrets, often recorded in {I}. Recently, a fire broke out at the camp and several were lost to theft, including {I}. It has been confirmed that they are now in the hands of {E}. We urgently seek brave heroes to recover them. If they fall into Mu Te's hands, it will inevitably lead to another round of bloodshed!"
@@ -17131,7 +17173,7 @@
   splits:
   - split: 1
     text: "长旌军悬赏"
-    translated: "Long Standard Army offers a reward"
+    translated: "Long Banner Army Rewards Announcement"
   - split: 24
     text: "{E}手中的{I}，对于我军来说有大用，因此请人夺来{I}。"
     translated: "The {I} in {E}'s hands is very useful for our army, so please have someone seize it from {I}."
@@ -17145,7 +17187,7 @@
   splits:
   - split: 1
     text: "长旌军悬赏"
-    translated: "Long Standard Army offers a reward"
+    translated: "Long Banner Army Rewards Announcement"
   - split: 24
     text: "军中尚武之风尤盛，本月冠军{E}特寻豪杰与他切磋。"
     translated: "The martial spirit within the military is particularly strong this month. The champion {E} has specifically sought out a hero to spar with him."
@@ -19993,7 +20035,7 @@
     translated: "{E}, remnants of a cult with malevolent intentions and sinister thoughts. Should any honorable warrior be able to eliminate this remnant of the cult, we vow to offer substantial rewards without fail."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20010,7 +20052,7 @@
     translated: "{E}, a descendant of the Poison Clan, is cunning and ruthless. Should any righteous hero manage to eliminate this scion of the Poison Clan, we promise a generous reward and will not break our word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20027,7 +20069,7 @@
     translated: "{E}, who shows no respect for anyone and dares to challenge the martial sect, deserves to be executed. Should any brave warrior discipline this little thief, I solemnly promise a generous reward and vow not to break my word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20044,7 +20086,7 @@
     translated: "{E}, spreading slanderous rumors about the sect and tarnishing its reputation is simply unacceptable. If any honorable warrior teaches this little thief a lesson, I promise to reward them handsomely without fail."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20061,7 +20103,7 @@
     translated: "{E} pretends to be a disciple of our sect, which tarnishes the sect's reputation and cannot be tolerated. If any gallant hero can slay this petty thief, we promise a generous reward and will not break our word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20078,7 +20120,7 @@
     translated: "{E} has infiltrated the sect's treasury to steal celestial and earthly treasures. Such a petty thief cannot be allowed to escape. Should any hero succeed in eliminating this lowly creature, we pledge a substantial reward and will not renege on our promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20095,7 +20137,7 @@
     translated: "{E} took advantage of the moment when clan disciples went out for training and suddenly attacked, killing many. If any hero could slay this band of rodents, a solemn promise of great reward was made; there would be no reneging on that pledge."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20112,7 +20154,7 @@
     translated: "{E} deceived the disciples of the sect, manipulating their emotions to such an extent that a disciple took their own life. This act is gravely wrong and extremely evil. Any righteous warrior who can eliminate this despicable group shall receive a generous reward as promised."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20248,7 +20290,7 @@
     translated: "{E}, with a wolf's heart and dog's liver, serpent‑like nature. Having betrayed the martial sect, committing treason of the highest order. If any honorable warrior can slay this traitor, they vow to reward you handsomely, no matter what, never breaking their promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20265,7 +20307,7 @@
     translated: "{E}, rebellious and plotting treason. They murdered fellow members, forgot kindness, and betrayed trust. If there is a martial artist who can defeat this traitor, I solemnly promise a significant reward and will not break my word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20282,7 +20324,7 @@
     translated: "{E}, utterly depraved and treacherous, harboring blades behind their smile. To slaughter fellow members of the sect‑how vile! Should any hero be able to eradicate this traitor, a vow of substantial reward is promised; there will be no breaking of this promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20401,7 +20443,7 @@
     translated: "{E}, with a wolf's heart and dog's liver, serpent‑like nature. Having betrayed the martial sect, committing treason of the highest order. If any honorable warrior can slay this traitor, they vow to reward you handsomely, no matter what, never breaking their promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20418,7 +20460,7 @@
     translated: "{E}, rebellious and plotting treason. They murdered fellow members, forgot kindness, and betrayed trust. If there is a martial artist who can defeat this traitor, I solemnly promise a significant reward and will not break my word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20435,7 +20477,7 @@
     translated: "{E}, utterly depraved and treacherous, harboring blades behind their smile. To slaughter fellow members of the sect‑how vile! Should any hero be able to eradicate this traitor, a vow of substantial reward is promised; there will be no breaking of this promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20809,7 +20851,7 @@
     translated: "{E}, this person has repeatedly thwarted our good deeds at the Profound Celestial Sect. Eliminate them swiftly."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20826,7 +20868,7 @@
     translated: "{E}, this person has dared to conspire with their faction to thwart our plan. They are marked for death, no exceptions!"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20843,7 +20885,7 @@
     translated: "{E}, this person has killed several of our disciples multiple times. We must swiftly bring them to justice at once!"
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20860,7 +20902,7 @@
     translated: "{E} looks down upon others, provoking the clan to rebellion. Such a traitor deserves death. Any honorable swordsman who kills this little villain will be rewarded handsomely; I solemnly pledge not to break my word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20877,7 +20919,7 @@
     translated: "{E} spreading slander about our martial arts sect and tarnishing its reputation is unacceptable. Should any righteous hero be able to defeat this rogue, a vow of generous reward will be honored without fail."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20894,7 +20936,7 @@
     translated: "{E} pretends to be a disciple of our sect, which tarnishes the sect's reputation and cannot be tolerated. If any gallant hero can slay this petty thief, we promise a generous reward and will not break our word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20911,7 +20953,7 @@
     translated: "{E} has infiltrated the sect's treasury to steal celestial and earthly treasures. Such a petty thief cannot be allowed to escape. Should any hero succeed in eliminating this lowly creature, we pledge a substantial reward and will not renege on our promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20928,7 +20970,7 @@
     translated: "{E} took advantage of the moment when clan disciples went out for training and suddenly attacked, killing many. If any hero could slay this band of rodents, a solemn promise of great reward was made; there would be no reneging on that pledge."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -20945,7 +20987,7 @@
     translated: "{E} deceived the disciples of the sect, manipulating their emotions to such an extent that a disciple took their own life. This act is gravely wrong and extremely evil. Any righteous warrior who can eliminate this despicable group shall receive a generous reward as promised."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21081,7 +21123,7 @@
     translated: "{E}, with a wolf's heart and dog's liver, has betrayed the martial sect in an act of egregious rebellion. Anyone who captures this traitor will be rewarded handsomely; I solemnly swear not to break my promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21098,7 +21140,7 @@
     translated: "{E}, rebellious and plotting treason. The appointed executioner will slay this traitor, swearing a solemn oath to reward handsomely for the deed, with no breach of promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21115,7 +21157,7 @@
     translated: "{E}, this person betrayed our school and did not hesitate to kill fellow disciples. We cannot tolerate this! Have a disciple execute this villain."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21132,7 +21174,7 @@
     translated: "{E}, this person betrayed our school and did not hesitate to kill fellow disciples. We cannot tolerate this! Have a disciple execute this villain."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21234,7 +21276,7 @@
     translated: "{E}, cunning and deceitful, with a very high opinion of themselves. They roam the Jianghu, plundering at will. Should any righteous warrior be able to slay this evil scoundrel, we pledge substantial reward and swear not to renege on our promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21251,7 +21293,7 @@
     translated: "{E}, a person with a dark heart and ruthless hands, surrounded by hidden dangers. They oppress the people like beasts, causing harm throughout the region. If any righteous hero can slay this villain, they promise a substantial reward and vow never to break their word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21268,7 +21310,7 @@
     translated: "{E}, cunning and deceitful, with a deep and calculating mind. Extremely vicious, their crimes are boundless. Should any righteous hero be able to eliminate this villain, we promise a substantial reward and vow not to break our word."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21285,7 +21327,7 @@
     translated: "{E}, cunning and deceitful, sinister and crafty. Foul and ruthless to an extreme degree, merely speaking of them causes dread. Should a hero be able to eliminate this villain, a promise of substantial reward is made, with the vow never to renege on it."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -21302,7 +21344,7 @@
     translated: "{E}, whose misdeeds are countless and who has lost all sense of morality, is beyond redemption with tenfold evil. Should any hero be able to eliminate this villain, we pledge a substantial reward and will not renege on our promise."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Robbery and murder of {E} ({IsCanFinish:0:1}/1)"
+    translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -24169,10 +24211,10 @@
     translated: "Yu Shu"
   - split: 24
     text: "邻里间来了位叫做{E}的行走，此人在金光圃间为非作歹无恶不作，小女没有办法只得求人替天行道。"
-    translated: "In the neighborhood, a troublemaker named {E} has appeared. This person causes mischief and is up to no good in Jin Guang Pu without any restraint. The young woman had no choice but to seek someone to uphold justice on her behalf."
+    translated: "A troublemaker by the name of {E} has arrived among our neighbors. This person causes chaos and commits all sorts of misdeeds in Golden Grove, leaving my daughter with no choice but to seek help from others to right these wrongs."
   - split: 34
     text: "前往金光圃劫杀{E}（{IsCanFinish:0:1}/1)"
-    translated: "Head to Jin Guang Pu to assassinate {E} ({IsCanFinish:0:1}/1)."
+    translated: "Proceed to raid {E} at the Golden Grove ({IsCanFinish:0:1}/1)."
   - split: 35
     text: "回禀{AA}"
     translated: "Report to {AA}"
@@ -24409,7 +24451,7 @@
     translated: "What remains?"
   - split: 24
     text: "常来莲花渡作恶的{E}身受重伤，我桃花坞已查明其所在之处，请天下英雄豪杰共除之。"
-    translated: "The villainous {E}, who frequently commits evil deeds at Lotus Blossom Ferry, has been severely injured. Peach Blossom Cove has located their whereabouts, and we call upon heroes from across the land to join forces in eliminating them."
+    translated: "The villainous {E}, who often came to Lotus Ferry to cause trouble and was severely injured, has been located by Peach Blossom Cove. We seek the assistance of heroes from all over the world to eliminate him together."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1)"
     translated: "Raid Kill {E} ({IsCanFinish:0:1}/1)"
@@ -25806,7 +25848,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25820,7 +25862,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25834,7 +25876,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25848,7 +25890,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25862,7 +25904,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25876,7 +25918,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25890,7 +25932,7 @@
     translated: "Sect: Foster brother(s) promoted to (2) level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25926,7 +25968,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25940,7 +25982,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25954,7 +25996,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25968,7 +26010,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25982,7 +26024,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -25996,7 +26038,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26010,7 +26052,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26024,7 +26066,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26038,7 +26080,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26052,7 +26094,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26066,7 +26108,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26080,7 +26122,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26094,7 +26136,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26108,7 +26150,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26122,7 +26164,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26136,7 +26178,7 @@
     translated: "School of martial arts: Directly transmitted disciple ascends (2 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26150,7 +26192,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26164,7 +26206,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26178,7 +26220,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26192,7 +26234,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26206,7 +26248,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26220,7 +26262,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26234,7 +26276,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26248,7 +26290,7 @@
     translated: "Martial arts sect: Disciple advances to (3) level."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26284,7 +26326,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26298,7 +26340,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26312,7 +26354,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26326,7 +26368,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26340,7 +26382,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26354,7 +26396,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26368,7 +26410,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26382,7 +26424,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26396,7 +26438,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26410,7 +26452,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26424,7 +26466,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26438,7 +26480,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26452,7 +26494,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26466,7 +26508,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26480,7 +26522,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26494,7 +26536,7 @@
     translated: "Martial arts sect: Directly transmitted disciple promoted to (3) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26508,7 +26550,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26522,7 +26564,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26536,7 +26578,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26550,7 +26592,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26564,7 +26606,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26578,7 +26620,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26592,7 +26634,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26606,7 +26648,7 @@
     translated: "Martial arts sect: Disciple to Close the Door Promoted to (4) Level"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26642,7 +26684,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26656,7 +26698,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26670,7 +26712,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26684,7 +26726,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26698,7 +26740,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26712,7 +26754,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26726,7 +26768,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26740,7 +26782,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26754,7 +26796,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26768,7 +26810,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26782,7 +26824,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26796,7 +26838,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26810,7 +26852,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26824,7 +26866,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26838,7 +26880,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26852,7 +26894,7 @@
     translated: "School of martial arts: Mentor's disciple promoted to (4 level)."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26866,7 +26908,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26880,7 +26922,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26894,7 +26936,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26908,7 +26950,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26922,7 +26964,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26936,7 +26978,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26950,7 +26992,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -26964,7 +27006,7 @@
     translated: "Sect: Disciple promoted to (5) level upon closing the door."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27000,7 +27042,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27014,7 +27056,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27028,7 +27070,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27042,7 +27084,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27056,7 +27098,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27070,7 +27112,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27084,7 +27126,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27098,7 +27140,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27112,7 +27154,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27126,7 +27168,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27140,7 +27182,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27154,7 +27196,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27168,7 +27210,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27182,7 +27224,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27196,7 +27238,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27210,7 +27252,7 @@
     translated: "Martial arts sect: Hereditary disciple promoted to (5) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27224,7 +27266,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27238,7 +27280,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27252,7 +27294,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27266,7 +27308,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27280,7 +27322,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27294,7 +27336,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27308,7 +27350,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27322,7 +27364,7 @@
     translated: "School of martial arts: Disciple advances to level (7)."
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27358,7 +27400,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27372,7 +27414,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27386,7 +27428,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27400,7 +27442,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27414,7 +27456,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27428,7 +27470,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27442,7 +27484,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27456,7 +27498,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27470,7 +27512,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27484,7 +27526,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27498,7 +27540,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27512,7 +27554,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27526,7 +27568,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27540,7 +27582,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27554,7 +27596,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27568,7 +27610,7 @@
     translated: "Martial sect: Hereditary disciple promoted to (7) level."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -27610,7 +27652,7 @@
     translated: "Martial arts sect: Martial sect examination"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "将{I}交给{A}"
     translated: "Give {I} to {A}"
@@ -28128,7 +28170,7 @@
     translated: "The trial of the external martial arts instructors"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -28142,7 +28184,7 @@
     translated: "Internal School Martial Arts Trial"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -28156,7 +28198,7 @@
     translated: "Gatehouse Martial Arts Test"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -28170,7 +28212,7 @@
     translated: "Mentor's trial of direct transmission"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "回禀{A}"
     translated: "Report to {A}"
@@ -28935,7 +28977,7 @@
     translated: "The prestige of our martial sect must be spread far and wide. You are to traverse the Jianghu, propagating our sect's martial arts knowledge. It has come to my attention that there is someone who is beginning to show great potential. Go meet them for a sparring match to showcase our sect's formidable prowess!"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -28986,7 +29028,7 @@
     translated: "The temple sect has recently been troubled by some troublemakers. You are to patrol inside and outside the temple; if you encounter any of them, engage in a duel and defeat him."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29139,7 +29181,7 @@
     translated: "The prestige of our martial sect must be spread far and wide. You are to traverse the Jianghu, propagating our sect's martial arts knowledge. It has come to my attention that there is someone who is beginning to show great potential. Go meet them for a sparring match to showcase our sect's formidable prowess!"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29190,7 +29232,7 @@
     translated: "The temple sect has recently been troubled by some troublemakers. You are to patrol inside and outside the temple; if you encounter any of them, engage in a duel and defeat him."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29309,7 +29351,7 @@
     translated: "The prestige of our martial sect must be spread far and wide. You are to traverse the Jianghu, propagating our sect's martial arts knowledge. It has come to my attention that there is someone who is beginning to show great potential. Go meet them for a sparring match to showcase our sect's formidable prowess!"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29360,7 +29402,7 @@
     translated: "The temple sect has recently been troubled by some troublemakers. You are to patrol inside and outside the temple; if you encounter any of them, engage in a duel and defeat him."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29479,7 +29521,7 @@
     translated: "The prestige of our martial sect must be spread far and wide. You are to traverse the Jianghu, propagating our sect's martial arts knowledge. It has come to my attention that there is someone who is beginning to show great potential. Go meet them for a sparring match to showcase our sect's formidable prowess!"
   - split: 34
     text: "与{E}切磋并获胜（{WaitEntrustTargetNpcId:0:1}/1)"
-    translated: "Engage in sparring with {E} and emerge victorious ({WaitEntrustTargetNpcId:0:1}/1)."
+    translated: "Sparring with {E} and emerging victorious ({WaitEntrustTargetNpcId:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"
@@ -29530,7 +29572,7 @@
     translated: "The temple sect has recently been troubled by some troublemakers. You are to patrol inside and outside the temple; if you encounter any of them, engage in a duel and defeat him."
   - split: 34
     text: "劫杀{E}（{IsCanFinish:0:1}/1）"
-    translated: "Assault {E} ({IsCanFinish:0:1}/1)"
+    translated: "Ambush and Kill {E} ({IsCanFinish:0:1}/1)"
   - split: 35
     text: "前往宗门考核处完成"
     translated: "Proceed to the Sect Headquarters for the Evaluation"

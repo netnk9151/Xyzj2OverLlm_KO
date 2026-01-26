@@ -278,7 +278,7 @@
   - split: 2
     text: "剑术达到50"
     translated: "Swordsmanship reaches the level of 50"
-- raw: "4000202#4000201#前往陆轩(880,1390)处，进行加入门派奇遇。#0&18|1|35|50|>=#1#880.78,1390.56#"
+- raw: "4000202#4000201#前往陆轩(880,1390)处，进行加入门派奇遇。##1#880.78,1390.56#"
   splits:
   - split: 2
     text: "前往陆轩(880,1390)处，进行加入门派奇遇。"
@@ -288,12 +288,12 @@
   - split: 2
     text: "佛学达到200"
     translated: "Buddhism reaches 200"
-- raw: "4000302#4000301#前往间解(1512,1397)处，进行加入门派奇遇。#0&18|1|43|200|>=#1#1512,1397#"
+- raw: "4000302#4000301#前往间解(1512,1397)处，进行加入门派奇遇。##1#1512,1397#"
   splits:
   - split: 2
     text: "前往间解(1512,1397)处，进行加入门派奇遇。"
     translated: "Proceed to location (1512,1397) for a sect encounter."
-- raw: "4000303#4000301#完成入寺问道奇遇后，前往嵩室山守门弟子(1479,606)处，加入门派。#0&3|37666|1#1#1479606#"
+- raw: "4000303#4000301#完成入寺问道奇遇后，前往嵩室山守门弟子(1479,606)处，加入门派。##1#1479606#"
   splits:
   - split: 2
     text: "完成入寺问道奇遇后，前往嵩室山守门弟子(1479,606)处，加入门派。"
@@ -303,7 +303,7 @@
   - split: 2
     text: "儒学达到200"
     translated: "Confucianism has reached 200"
-- raw: "4000402#4000401#前往王溪(318,365)处，进行加入门派奇遇。#0&18|1|44|200|>=#1#318.898,365.336#"
+- raw: "4000402#4000401#前往王溪(318,365)处，进行加入门派奇遇。##1#318.898,365.336#"
   splits:
   - split: 2
     text: "前往王溪(318,365)处，进行加入门派奇遇。"
@@ -318,7 +318,7 @@
   - split: 2
     text: "经历过绝剑门成为掌门的晋升剧情。"
     translated: "Having experienced the ascension to sect leader after becoming a member of the Sword Breaker Gate."
-- raw: "4003103#4003101#前往许鸿煊(1254,355)处，进行门派融合奇遇。#0&24|923354|1;24|921515|1#1#1254355#"
+- raw: "4003103#4003101#前往许鸿煊(1254,355)处，进行门派融合奇遇。##1#1254355#"
   splits:
   - split: 2
     text: "前往许鸿煊(1254,355)处，进行门派融合奇遇。"
@@ -328,11 +328,46 @@
   - split: 2
     text: "刀法达到50"
     translated: "Blade art has reached 50"
-- raw: "4003502#4003501#前往谢峰(869,822)处，进行加入门派奇遇。#0&18|1|34|50|>=#1#869.962,822.116#"
+- raw: "4003502#4003501#前往谢峰(869,822)处，进行加入门派奇遇。##1#869.962,822.116#"
   splits:
   - split: 2
     text: "前往谢峰(869,822)处，进行加入门派奇遇。"
     translated: "Head to Xie Feng's (869,822) location for the adventure of joining a sect."
+- raw: "4004101#4004101#佛学达到50##0##"
+  splits:
+  - split: 2
+    text: "佛学达到50"
+    translated: "Buddhism has reached 50"
+- raw: "4004102#4004101#前往澄心(736,1748)，进行加入门派奇遇。##1#736.685,1748.92#"
+  splits:
+  - split: 2
+    text: "前往澄心(736,1748)，进行加入门派奇遇。"
+    translated: "Travel to Cheng Xin (736,1748) for a chance encounter in joining the Sect."
+- raw: "4004103#4004101#完成奇遇后前往本诣(657,1719)处，加入门派。##1#657.982,1719.5#"
+  splits:
+  - split: 2
+    text: "完成奇遇后前往本诣(657,1719)处，加入门派。"
+    translated: "After completing the adventure, proceed to (657,1719) and join the sect."
+- raw: "4004201#4004201#前往重伤的丐门弟子(278,662)处，进行加入门派奇遇。##1#278.014,662.3#"
+  splits:
+  - split: 2
+    text: "前往重伤的丐门弟子(278,662)处，进行加入门派奇遇。"
+    translated: "Travel to the severely injured Beggar Sect disciple (278,662) and engage in a sect joining encounter."
+- raw: "4004301#4004301#道德低于50##0##"
+  splits:
+  - split: 2
+    text: "道德低于50"
+    translated: "Morality below 50"
+- raw: "4004302#4004301#阅读飞鸽后前往子邪(223,1376)处，加入门派##1#223.423,1376.81#"
+  splits:
+  - split: 2
+    text: "阅读飞鸽后前往子邪(223,1376)处，加入门派"
+    translated: "After reading Flying Pigeon, proceed to the (223,1376) location to join the sect."
+- raw: "4004401#4004401#前往林震天(240,721)处，进行加入门派奇遇。##1#240.153,721.797#"
+  splits:
+  - split: 2
+    text: "前往林震天(240,721)处，进行加入门派奇遇。"
+    translated: "Travel to the location of Brother Lin Zhentian (240,721) for a chance encounter to join a sect."
 - raw: "4004501#4004501#巧手达到50#0#0#0#"
   splits:
   - split: 2
@@ -348,12 +383,12 @@
   - split: 2
     text: "炼器达到50"
     translated: "Refinement reaches level 50"
-- raw: "4004504#4004501#前往唐儒(426,1579)处，进行解锁机关师身份奇遇。#0&18|1|52|50|>=;18|1|46|50|>=;18|1|51|50|>=#1#426.279,1579.07#"
+- raw: "4004504#4004501#前往唐儒(426,1579)处，进行解锁机关师身份奇遇。##1#426.279,1579.07#"
   splits:
   - split: 2
     text: "前往唐儒(426,1579)处，进行解锁机关师身份奇遇。"
     translated: "Proceed to the location of Tang Ru (426,1579) for an adventure involving unlocking the identity as a mechanism master."
-- raw: "4004505#4004501#前往唐如隋(599,1568)处，进行加入门派奇遇。#0&24|928482|1#1#599.954,1568.7#"
+- raw: "4004505#4004501#前往唐如隋(599,1568)处，进行加入门派奇遇。##1#599.954,1568.7#"
   splits:
   - split: 2
     text: "前往唐如隋(599,1568)处，进行加入门派奇遇。"
@@ -363,26 +398,31 @@
   - split: 2
     text: "前往路人(1512,389)处，进行加入门派奇遇。"
     translated: "Go to location (1512,389) and initiate an adventure to join a sect."
-- raw: "4004701#4004701#前往许鸿煊(1204,418)处，进行加入门派奇遇。#0&24|954276|1#1#1204.42,418.467#"
+- raw: "4004701#4004701#前往莫千山(1230,445)处，进行加入门派奇遇。##1#1230.1,445.153#"
   splits:
   - split: 2
-    text: "前往许鸿煊(1204,418)处，进行加入门派奇遇。"
-    translated: "Go to the place of Xu Hongxuan (1204,418) and have an encounter for joining a sect."
-- raw: "4004801#4004801#前往下山的村民(1450,682)处，进行加入门派奇遇。#0&24|954276|1#1#1450.49,682.776#"
+    text: "前往莫千山(1230,445)处，进行加入门派奇遇。"
+    translated: "Travel to the location at Mo Qianshan (1230,445), and experience an encounter related to joining a sect."
+- raw: "4004801#4004801#前往下山的村民(1450,682)处，进行加入门派奇遇。##1#1450.49,682.776#"
   splits:
   - split: 2
     text: "前往下山的村民(1450,682)处，进行加入门派奇遇。"
     translated: "Visit the location of villager (1450,682) going down the mountain to undertake an adventure for joining a sect."
+- raw: "4004802#4004801#完成奇遇后前往云肖毅(1363,624)处，加入门派。##1#1363.49,624.265#"
+  splits:
+  - split: 2
+    text: "完成奇遇后前往云肖毅(1363,624)处，加入门派。"
+    translated: "After the adventure, proceed to (1363,624), where Yun Xiaoyi is located, and join the sect."
 - raw: "4004901#4004901#诡辞达到120#0#0#0#"
   splits:
   - split: 2
     text: "诡辞达到120"
     translated: "Deception has been achieved by 120"
-- raw: "4004902#4004901#前往谷夫人(883,931)处，进行加入门派奇遇。#0&18|1|47|120|>=#1#883.078,931.028#"
+- raw: "4004902#4004901#前往春晴(859,967)处，进行加入门派奇遇。##1#858.689,967.244#"
   splits:
   - split: 2
-    text: "前往谷夫人(883,931)处，进行加入门派奇遇。"
-    translated: "Go to the location of Lady Gu (883,931) for a Sect Adventure related to joining the sect."
+    text: "前往春晴(859,967)处，进行加入门派奇遇。"
+    translated: "Proceed to the location of Chun Qing (859,967) for an encounter related to joining a sect."
 - raw: "10730011#1073001#你救下被劫匪围攻的骆图和牛韦#0&1|1073001|0#1#1078,1248#"
   splits:
   - split: 2
@@ -787,7 +827,7 @@
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>天机老头</color>处有概率获得"
-    translated: "You may have a chance to obtain at <color=&&00ff00ff>Tianji Laotou</color>."
+    translated: "There is a chance to obtain at <color=&&00ff00ff>Tianji Old Man</color>."
 - raw: "34112001#34112#在<color=&&00ff00ff>昭月祭坛</color>探索有概率获得##0##"
   splits:
   - split: 2
@@ -842,7 +882,7 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>百殊刀</color>听闻在<color=&&00ff00ff>长旌军贡献堂主</color>身上可以获得。"
-    translated: "It is said that the <color=&&00ff00ff>Hundred Divergent Blades</color> can be obtained from the <color=&&00ff00ff>Long Standard Army Contribution Hall Master</color>."
+    translated: "It is said that the Hundred Divergent Blades can be obtained from the Contributions Hall Master of the Long Banner Army."
 - raw: "34121004#34121#<color=&&00ff00ff>八方藏刀诀</color>听闻在<color=&&00ff00ff>武馆教头（雁州）</color>身上可以获得。#1&3|34106|1;3|34100|1;3|34422|1;3|34109|1#0#0#"
   splits:
   - split: 2
@@ -982,7 +1022,7 @@
   splits:
   - split: 2
     text: "惊武回风拳也许在迦南遗址里"
-    translated: "The Surprise Wind Returning Fist might also be found at the Canaanite Ruins."
+    translated: "Surprise Wind Returning Fist might also be found in the Canaan Ruins."
 - raw: "34303001#34303#在<color=&&00ff00ff>昭月宗贡献堂主</color>处有概率获得##0##"
   splits:
   - split: 2
@@ -1017,7 +1057,7 @@
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>爻光谷贡献堂主</color>处有概率获得"
-    translated: "At the <color=&&00ff00ff>Light of Divination Valley Contribution Hall Master</color>, there is a chance to obtain."
+    translated: "At the <color=&&00ff00ff>Trigram Light Valley Contributions Hall Master</color>, there is a chance to receive."
 - raw: "34310001#34310#江湖游历中奇遇获得##0##"
   splits:
   - split: 2
@@ -1052,12 +1092,12 @@
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>天机老头</color>处有概率获得"
-    translated: "You may have a chance to obtain at <color=&&00ff00ff>Tianji Laotou</color>."
+    translated: "There is a chance to obtain at <color=&&00ff00ff>Tianji Old Man</color>."
 - raw: "34316001#34316#在<color=&&00ff00ff>爻光谷</color>探索有概率获得##0##"
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>爻光谷</color>探索有概率获得"
-    translated: "Exploring the <color=&&00ff00ff>Light of Divination Valley</color> has a chance to yield results."
+    translated: "Exploring in <color=&&00ff00ff>Trigram Light Valley</color> has a chance to obtain."
 - raw: "34317001#34317#江湖游历中奇遇获得##0##"
   splits:
   - split: 2
@@ -1297,7 +1337,7 @@
   splits:
   - split: 2
     text: "在<color=&&00ff00ff>时辰清然林商人</color>处有概率获得"
-    translated: "There is a chance to obtain from <color=&&00ff00ff>Shengran Lin Shangren</color>."
+    translated: "At <color=&&00ff00ff>Serene Forest Merchant's</color> place, there is a chance to obtain."
 - raw: "34424001#34424#在<color=&&00ff00ff>武馆教头（枰栌）</color>处有概率获得##0##"
   splits:
   - split: 2
@@ -1632,7 +1672,7 @@
   splits:
   - split: 2
     text: "<color=&&00ff00ff>杨家霸王枪</color>听闻在<color=&&00ff00ff>长旌军营地附近（718,1087）</color>处可以获得。"
-    translated: "The <color=&&00ff00ff>Yang Family Imperial Spear</color> is said to be obtainable at the <color=&&00ff00ff>Long Standard Army encampment nearby(718,1087)</color>."
+    translated: "The Yang Family's King Spear is said to be obtainable in the vicinity of <color=&&00ff00ff>Long Banner Army Camp (718,1087)</color>."
 - raw: "34480005#34480#<color=&&00ff00ff>锻武堪禅</color>听闻在<color=&&00ff00ff>嵩室山贡献堂主</color>身上可以获得。#1&3|34200|1;3|34215|1;3|34214|1;3|34205|1#0#0#"
   splits:
   - split: 2
@@ -2062,12 +2102,12 @@
   splits:
   - split: 2
     text: "在云鹤村仔细搜寻线索的途中遇到了万事通大叔,<color=&&DEB887>他透露有一伙可疑人正在金光圃花田聚集。</color>"
-    translated: "While carefully searching for clues in Cloud Crane Village, I encountered Uncle Wan Shi Tong. <color=&&DEB887>He revealed that a group of suspicious people were gathering at the Jinguangpu Flower Fields.</color>"
+    translated: "While carefully searching for clues in Cloud Crane Village, I encountered Uncle Wan Shi Tong. <color=&&DEB887>He revealed that a group of suspicious people were gathering at the flower fields in Golden Grove.</color>"
 - raw: "60001002#60001#从金光圃花田发现了那伙可疑人物的偷听中得知,<color=&&DEB887>云鹤村市集的桔子堆可能隐藏着某个宝物。</color>#0&24|973530|1#1#1105,1496#"
   splits:
   - split: 2
     text: "从金光圃花田发现了那伙可疑人物的偷听中得知,<color=&&DEB887>云鹤村市集的桔子堆可能隐藏着某个宝物。</color>"
-    translated: "From the eavesdropping in the flower field of Jin Guang Pu, we learned that a suspicious group discovered something: <color=&&DEB887>The pile of oranges at Cloud Crane Village's market might be hiding some treasure.</color>"
+    translated: "From eavesdropping on a suspicious group at the Golden Grove flower fields, we learned that <color=&&DEB887>the pile of tangerines at Cloud Crane Village's market might be hiding a treasure.</color>"
 - raw: "60002001#60002#听闻葡萄酒乃西域之物,干红之纯实,干白之清爽实在美味,<color=&&DEB887>或许常混迹西域之人能有此物。</color>#0&24|988859|1#0#0#"
   splits:
   - split: 2
@@ -2117,12 +2157,12 @@
   splits:
   - split: 2
     text: "据郑婶所说,<color=&&DEB887>飞炼瀑对修行和刀法练习很有益处。</color>"
-    translated: "According to Aunt Zheng, <color=&&DEB887>the Flying Refining Waterfall is very beneficial for cultivation and practicing the Blade Art.</color>"
+    translated: "According to Auntie Zheng, <color=&&DEB887>Flying Forge Falls is very beneficial for training and practicing blade techniques.</color>"
 - raw: "60008001#60008#听甄寅所述,<color=&&DEB887>似乎在清然林中有公主的踪迹。</color>#0&30|972550|1#0##"
   splits:
   - split: 2
     text: "听甄寅所述,<color=&&DEB887>似乎在清然林中有公主的踪迹。</color>"
-    translated: "Hearing what Zhen Yin described, <color=&&DEB887>, it seems there is a trace of the princess in Qianran Forest.</color>"
+    translated: "It seems, according to Zhen Yin's account, that there are traces of a princess in the Serene Forest."
 - raw: "60009001#60009#需要准备香。<color=&&DEB887>可以找云鹤村的杂货商,看看是否有香可供购买。</color>#0&24|990393|1#0##"
   splits:
   - split: 2
@@ -2147,7 +2187,7 @@
   splits:
   - split: 2
     text: "在云鹤村市集听到一些村里的传闻,<color=&&DEB887>发现金光圃的河边有几个打扮像江湖人士的人。</color>"
-    translated: "At the market in Cloud Crane Village, I heard some rumors from the locals. <color=&&DEB887>I discovered that several individuals dressed like people of the Jianghu were spotted by the riverside near Jinguangpu.</color>"
+    translated: "At the market in Cloud Crane Village, I overheard some village rumors: <color=&&DEB887>It seems there are several people dressed like Jianghu practitioners by the riverbank of Golden Grove.</color>"
 - raw: "60010004#60010#在云鹤村市集听到一些村里的传闻,<color=&&DEB887>偶然发现乐鸿博无意中透露了他们从不夜京购得情报和钥匙的事情。</color>#0&24|990273|1#0##"
   splits:
   - split: 2
@@ -2187,7 +2227,7 @@
   splits:
   - split: 2
     text: "向李承誉口打听后得知,<color=&&DEB887>原来龙蛇寨的山贼将抢走的江湖醉藏在龙蛇寨宝库之中。</color>"
-    translated: "After asking Master Li Chengyu, they learned that the bandits from Longshe Camp had hidden the stolen Jianghu Zixiang in the treasure vault of Longshe Camp."
+    translated: "After questioning Brother Li Chengyu, it was revealed that <color=&&DEB887>the bandits from Dragon Snake Fort had hidden the stolen Jianghu treasures in the fort's treasury.</color>"
 - raw: "60020001#60020#村长果然知晓养剑术,此乃虞令羽的不二绝学,只是虞令羽失踪已久,养剑术也不翼而飞,<color=&&DEB887>其墓安置在坟山,如此英雄人物我应当去好好祭拜才是！</color>#0&24|957518|1#0##"
   splits:
   - split: 2
@@ -2197,12 +2237,12 @@
   splits:
   - split: 2
     text: "万事通告知东西被龙蛇寨二当家截胡,这群恶人无恶不作,<color=&&DEB887>平日里就在龙蛇寨附近的房子上居住。</color>"
-    translated: "Wan Shi Tong informs that the East and West were intercepted by the Second Boss of Long She Zhai. This group of villains are without any sense of shame, <color=&&DEB887>living in houses around Long She Zhai during the day.</color>"
+    translated: "Wan Shi Tong informs that the goods heading east and west have been intercepted by the Second Boss of Dragon Snake Fort. These villains are without scruples, <color=&&DEB887>usually residing in houses near Dragon Snake Fort.</color>"
 - raw: "60021002#60021#来到龙蛇寨之后才发现,原来是万事通把我给骗了！此事一定要<color=&&DEB887>回去找万事通要个说法！</color>#0&24|939812|1#0##"
   splits:
   - split: 2
     text: "来到龙蛇寨之后才发现,原来是万事通把我给骗了！此事一定要<color=&&DEB887>回去找万事通要个说法！</color>"
-    translated: "Upon arriving at the Longshe Camp, I discovered that it was Wan Shi Tong who had deceived me! This matter must be settled by going back and confronting Wan Shi Tong. <color=&&DEB887>I must get an explanation from him!</color>"
+    translated: "Upon arriving at the Dragon Snake Fort, I discovered that it was Wan Shi Tong who had deceived me! This matter must be resolved by <color=&&DEB887>returning to find an explanation from Wan Shi Tong.</color>"
 - raw: "60021003#60021#听到万事通说将<color=&&DEB887>宝物藏到了村里大佛头顶</color>,我倒要看看是什么宝贝。#0&24|939794|1#0##"
   splits:
   - split: 2
@@ -2222,12 +2262,12 @@
   splits:
   - split: 2
     text: "将麻婆豆腐交给李味道之后,他传授给了我一个名为扫雪烹茶的秘法,<color=&&DEB887>并请求我们前往千奇坊寻找至尊皇帝炒饭配方的线索。</color>"
-    translated: "After Li Weidao received the Mapo Tofu, he passed on to me a secret technique called Sweeping Snow for Brewing Tea. <color=&&DEB887>He then requested that we seek clues for the Supreme Emperor Fried Rice recipe at Qianqi Hall.</color>"
+    translated: "After Li Weidao received the Mapo Tofu, he taught me a secret technique called Saoxue Pengcha. <color=&&DEB887>He then asked us to go to Thousand Wonders Workshop to find clues for the Supreme Emperor Fried Rice formula.</color>"
 - raw: "60024003#60024#在千奇坊一番调查之后,<color=&&DEB887>总算得知屈画似乎了解其中的一些事情。</color>#0&24|952977|1#0##"
   splits:
   - split: 2
     text: "在千奇坊一番调查之后,<color=&&DEB887>总算得知屈画似乎了解其中的一些事情。</color>"
-    translated: "After a thorough investigation in Qiqifang, <color=&&DEB887>it was finally discovered that Qu Hua seemed to know something about it.</color>"
+    translated: "After an investigation at the Thousand Wonders Workshop, it was finally discovered that Qu Hua seemed to know something about it. <color=&&DEB887></color>"
 - raw: "60024004#60024#屈画告诉我要想知道这些事情,<color=&&DEB887>只需要从他那里购买三个千机盒。</color>#0&24|952974|1#0##"
   splits:
   - split: 2
@@ -2652,7 +2692,7 @@
   splits:
   - split: 2
     text: "我对墨学有所感悟，若想精进武学，还需前往龙蛇寨附近山上寻color=&&00ff00ff>机杼人偶(1044,1360)</color>。最好是墨学达到三百再去。"
-    translated: "I've gained some insights into Mohism. If you wish to advance in martial arts, you need to go to the mountains near Longshe Village and find the color=&&00ff00ff>machine‑knitted dolls (1044,1360)</color>. It would be best if your understanding of Mohism reaches three hundred before going."
+    translated: "I have gained some insights into Mohism. If I want to further my martial arts, I need to go to the mountains near Dragon Snake Fort and find a color=&&00ff00ff>wooden dummy(1044,1360)</color>. It is best to reach three hundred in Mohism before going."
 - raw: "60091001#60091#包里也算小有钱了，听闻不夜京御者附近有人在卖岛契，或许我可以去看看。#0&18|1|68|200000|>=#0##"
   splits:
   - split: 2

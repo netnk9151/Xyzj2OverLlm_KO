@@ -926,7 +926,7 @@
   - split: 1
     text: "称号"
     translated: "Title"
-- raw: "801#跟随特效2#1#9#0#1#0#0##sfx_shizhuang_2|Sfx_Bottom##0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#0#0##0#0#0#0##4#0##0.0#0.0###"
+- raw: "801#跟随特效2#1#9#0#1#0#0##sfx_shizhuang_2|Sfx_Bottom##0##0#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#801#0##0#0#0#801##4#0##0.0#0.0###"
   splits:
   - split: 1
     text: "跟随特效2"
@@ -1032,6 +1032,16 @@
   - split: 1
     text: "称号8"
     translated: "Title 8"
+- raw: "827#称号9#1#9#0#1#0#0##sfx_chenghao_9##0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#827#0##0#0#0#827##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "称号9"
+    translated: "Title 9"
+- raw: "828#称号10#1#9#0#1#0#0##sfx_chenghao_10##0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#828#0##0#0#0#828##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "称号10"
+    translated: "Title 10"
 - raw: "900#难度1-自身#1#9#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#10#0#0#0##0#1#0#0#0#0#0#0#0#900#0#0#0#0#0#900##5#0#901|902|903|904#0.0#0.0###"
   splits:
   - split: 1
@@ -6737,7 +6747,7 @@
   - split: 33
     text: "获得50%的吸取真气效果"
     translated: "Obtain a 50% absorption of True Qi effect."
-- raw: "17120#势沉#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#20#0#0#2##0#1#0#0#势沉#造成伤害时，附加自身当前生命值0.2%的伤害#buffnew_ziqidonglai#0#0#17120#2#0#0#0#0#17120##4#0#0#0.0#0.0###"
+- raw: "17120#势沉#1#30#0#1#-1#0####0##1#0#0#10000##0#0#2#0#1#1#0#0#2##0#1#0#0#势沉#造成伤害时，附加自身当前生命值0.01%的伤害#buffnew_ziqidonglai#0#0#17120#2##0#0#0#17120##4#0##0.0#0.0###"
   splits:
   - split: 1
     text: "势沉"
@@ -6746,9 +6756,9 @@
     text: "势沉"
     translated: "Weighty presence"
   - split: 33
-    text: "造成伤害时，附加自身当前生命值0.2%的伤害"
-    translated: "When dealing damage, inflict additional damage equal to 0.2% of your current health."
-- raw: "17130#巨力#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#50#0#0#2##0#1#0#0#巨力#造成伤害时，附加自身当前生命值0.5%的伤害#buffnew_ziqidonglai#0#0#17130#3#0#0#0#0#17130##4#0#0#0.0#0.0###"
+    text: "造成伤害时，附加自身当前生命值0.01%的伤害"
+    translated: "When causing damage, add 0.01% of one's current health."
+- raw: "17130#巨力#1#30#0#1#-1#0####0##1#0#0#10000##0#0#2#0#1#2#0#0#2##0#1#0#0#巨力#造成伤害时，附加自身当前生命值0.02%的伤害#buffnew_ziqidonglai#0#0#17130#3##0#0#0#17130##4#0##0.0#0.0###"
   splits:
   - split: 1
     text: "巨力"
@@ -6757,9 +6767,9 @@
     text: "巨力"
     translated: "Great Strength"
   - split: 33
-    text: "造成伤害时，附加自身当前生命值0.5%的伤害"
-    translated: "When dealing damage, deal additional damage equal to 0.5% of your current health."
-- raw: "17140#催杀#1#30#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#1#100#0#0#2##0#1#0#0#催杀#造成伤害时，附加自身当前生命值1%的伤害#buffnew_ziqidonglai#0#0#17140#4#0#0#0#0#17140##4#0#0#0.0#0.0###"
+    text: "造成伤害时，附加自身当前生命值0.02%的伤害"
+    translated: "When causing damage, inflict additional harm equal to 0.02% of your current health."
+- raw: "17140#催杀#1#30#0#1#-1#0####0##1#0#0#10000##0#0#2#0#1#3#0#0#2##0#1#0#0#催杀#造成伤害时，附加自身当前生命值0.03%的伤害#buffnew_ziqidonglai#0#0#17140#4##0#0#0#17140##4#0##0.0#0.0###"
   splits:
   - split: 1
     text: "催杀"
@@ -6768,8 +6778,8 @@
     text: "催杀"
     translated: "Coercive assassination"
   - split: 33
-    text: "造成伤害时，附加自身当前生命值1%的伤害"
-    translated: "When inflicting damage, deal additional harm equal to 1% of your current health."
+    text: "造成伤害时，附加自身当前生命值0.03%的伤害"
+    translated: "When causing harm, deal additional damage equal to 0.03% of your current health."
 - raw: "17150#武力#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#4#10#0#1#0#0#0#0#0#1109##0#1#0#0#武力#造成暴击时，自身内外攻增加10%，持续5秒#buffnew_ziqidonglai#0#0#17150#2#0#0#0#0#17150##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -7320,7 +7330,7 @@
   - split: 33
     text: "造成伤害时使目标受到伤害提升10%，持续10秒"
     translated: "When causing damage, the target's damage received increases by 10%, lasting for 10 seconds."
-- raw: "17566#八方式#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#2#0#0#0#100200071##0#1#0#0#八方式#造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高7层#buffnew_ziqidonglai#0#0#100200070#0#0#0#0#0#100200070#0#4#0#0#0.0#0.0###"
+- raw: "17566#八方式#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#2#0#0#0#100200071##0#1#0#0#八方式#造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高3层#buffnew_ziqidonglai#0#0#100200070#0#0#0#0#0#100200070#0#4#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "八方式"
@@ -7329,8 +7339,8 @@
     text: "八方式"
     translated: "Eight Directions Style"
   - split: 33
-    text: "造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高7层"
-    translated: "When causing damage, it can reduce the target's damage output by 10% for 5 seconds, stacks are allowed, with a maximum of 7 layers."
+    text: "造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高3层"
+    translated: "When inflicting damage, the target's damage dealt is reduced by 10% for 5 seconds. This effect can stack and stacks up to a maximum of 3 layers."
 - raw: "17567#月落留影-增伤#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#2#10#0#0#0#0#0#0#0#111723##0#1#0#0#凝月#每次受伤获得3%伤害增加，可叠加15层，持续5秒#buffnew_tongti#0#0#1117202#0#0#0#0#0#1117202##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -8379,14 +8389,14 @@
   - split: 33
     text: "刚状态，该状态下会克制毒，会给处于毒状态目标有额外伤害，基础伤害克制"
     translated: "Hard State: In this state, it counters poison and deals extra damage to targets in a poison condition. It also provides basic damage resistance against poison."
-- raw: "20051#刚-触发#1#4#0#1#6000#0#0###0##1#0#0#10000#0#0#0#1#0#0#5#1076#0#0##0#0#0#0#爆伤#增加暴击几率5%，持续时间6秒，可叠加10层。#newbuff_gang#0#0#20051#2##0#1#10#20051##0#0##0.0#0.0###"
+- raw: "20051#刚-触发#1#4#0#1#6000#0#0###0##1#0#0#10000#0#0#0#1#0#0#5#1076#0#0##0#0#0#0#猛攻#增加暴击几率5%，持续时间6秒，可叠加10层。#newbuff_gang#0#0#20051#2##0#1#10#20051##0#0##0.0#0.0###"
   splits:
   - split: 1
     text: "刚-触发"
     translated: "Hard ‑ Triggered"
   - split: 32
-    text: "爆伤"
-    translated: "Explosive Injury"
+    text: "猛攻"
+    translated: "Full‑on assault"
   - split: 33
     text: "增加暴击几率5%，持续时间6秒，可叠加10层。"
     translated: "Increase critical hit chance by 5%, lasting for 6 seconds, stackable up to 10 layers."
@@ -8573,16 +8583,16 @@
   - split: 1
     text: "心狠手辣"
     translated: "Heartless and ruthless"
-- raw: "20360#睚眦必报#1#15#0#1#0#0####0##0#0.0#0.0#10000#2#15000#0#1#0#0#0#0#0#1408#20362#20363#1#0#0####0#0#20360#0##0#0#0#20360##0#0#20361#0.0#0.0###"
+- raw: "20360#睚眦必报#1#15#0#1#0#0####0##0#0.0#0.0#10000#2#15000#0#1#0#2#0#0#0#20362##0#1#0#0####0#0#20360#0##0#0#0#20360##0#0#20361#0.0#0.0###"
   splits:
   - split: 1
     text: "睚眦必报"
     translated: "An eye for an eye"
-- raw: "20361#0#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#2#15000#0#0#0#0#0#0#0#1409##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
+- raw: "20361#0#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#2#15000#0#0#0#6#0#0#0#20363##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
   splits: []
-- raw: "20362#0#1#30#0#0#10000#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#0#0#0##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
+- raw: "20362#0#1#30#0#0#10000#0#0#0#1#0#0#0#0#0#10000#0#0#0#0#0#2#20#0#0#0##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
   splits: []
-- raw: "20363#0#0#30#0#0#10000#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#15#0#0#0##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
+- raw: "20363#0#0#30#0#0#10000#0#0#0#1#0#0#0#0#0#10000#0#0#0#0#0#2#15#0#0#0##0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0##0#0#0#0.0#0.0###"
   splits: []
 - raw: "20370#深藏不露#1#15#0#1#0#0###4#0##0#0.0#0.0#10000#1048576#360000#0#0#0#0#0#0#0#1402##0#1#0#0####0#0#20370#0##0#0#0#20370##1#0#20371#0.0#0.0###"
   splits:
@@ -8623,12 +8633,12 @@
   splits: []
 - raw: "20412##1#23#0#1#8000#0####0##0#0.0#0.0#10000#0#0#0#1#0#0#20#0#0#0#1020|1021|1022|1023#0#1#0#0####0#0#20412#0##0#0#0#20412##0#0##0.0#0.0###"
   splits: []
-- raw: "20420#神功大成#1#15#0#1#0#0####0##0#0.0#0.0#10000#0#0#0#1#0#0#0#0#0#1407##0#1#0#0####0#0#20420#0##0#0#0#20420##1#0#20421#0.0#0.0###"
+- raw: "20420#神功大成#1#15#0#1#0#0####0##0#0.0#0.0#10000#2147483648#0#0#1#0#5#50#0#0#4#20|21#0#1#0#0####0#0#20420#0##0#0#0#20420##1#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "神功大成"
     translated: "Mastery of divine skill achieved"
-- raw: "20421#0#1#55#0#1#0#0#0#0#0#0#0#0#0#0#10000#2147483648#0#0#0#0#5#50#0#0#0#20|21#0#1#0#0#0#0#0#0#0#20421#0#0#0#0#0#20421##0#0#0#0.0#0.0###"
+- raw: "20421#0#1#55#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#5#50#0#0#4#20|21#0#1#0#0#0#0#0#0#0#20421#0#0#0#0#0#20421##0#0#0#0.0#0.0###"
   splits: []
 - raw: "20430#白马追风#1#56#0#1#0#0####0##0#0.0#0.0#10000#0#0#0#1#0#0#0#0#0#0##0#1#0#0####0#0#20430#0##0#0#0#20430##0#0##0.0#0.0###"
   splits:
@@ -8763,6 +8773,31 @@
   - split: 1
     text: "心无杂念"
     translated: "A mind without distractions"
+- raw: "20680#慧根天成-感悟获取增加#1#24#0#1#-1#0####0##0#0#0#10000##0#0#1#0#0#3#1070#10000#0##0#1#0#0####0#0#20680#0##0#0#0#20680##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "慧根天成-感悟获取增加"
+    translated: "Naturally intelligent mind ‑ Insight gain increased"
+- raw: "20690#命定之人#1#4#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#15#1000#0#0##0#1#0#0####0#0#20690#0##0#0#0#20690##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "命定之人"
+    translated: "Person destined by fate"
+- raw: "20700#断金之利#1#23#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#3#0#0#0#1020|1021#0#1#0#0####0#0#20700#0##0#0#0#20700##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "断金之利"
+    translated: "The sharpness that cuts through gold"
+- raw: "20710#生死同袍#1#23#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#3#0#0#0#1022|1023#0#1#0#0####0#0#20710#0##0#0#0#20710##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "生死同袍"
+    translated: "Companions in life and death"
+- raw: "20720#灵犀相映#1#23#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#3#0#0#0#1024|1026#0#1#0#0####0#0#20720#0##0#0#0#20720##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "灵犀相映"
+    translated: "Mutual spiritual resonance"
 - raw: "30010#月德篇#1#47#0#1#0#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#1##0#1#0#0#月德篇#从炎鸿时期传承下来的旷世奇功，据说拥有掌控和驯服各种灵兽的力量。习得该宝典能够驯服兔子。#0#0#0#30010#0#0#0#0#0#30010##4#30010#0#0.0#0.0###"
   splits:
   - split: 1
@@ -15277,7 +15312,7 @@
   - split: 1
     text: "剑雨-眩晕"
     translated: "Sword Rain ‑ Dizziness"
-- raw: "109130#不须归#1#9#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#0#0#0#0#1#0#0#0#0##1275#1#0#0#剑绝八荒#每十次攻击会在目标处生成一座持续3秒的剑阵，剑阵附带御风途效果#buffnew_ziqidonglai#0#0#109130#0#0#0#1#10#109130##2#0#0#0.0#0.0###"
+- raw: "109130#不须归#1#9#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#0#0#0#0#1#0#0#0#0##1275#1#0#0#剑绝八荒#每十次攻击会在自身脚下生成一座持续3秒的剑阵，剑阵附带御风途效果#buffnew_ziqidonglai#0#0#109130#0#0#0#1#10#109130##2#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "不须归"
@@ -15286,8 +15321,8 @@
     text: "剑绝八荒"
     translated: "Swordmaster of the Eight Corners of the World."
   - split: 33
-    text: "每十次攻击会在目标处生成一座持续3秒的剑阵，剑阵附带御风途效果"
-    translated: "Every ten attacks generate a sword formation at the target's location that lasts for 3 seconds, accompanied by a wind‑blocking effect."
+    text: "每十次攻击会在自身脚下生成一座持续3秒的剑阵，剑阵附带御风途效果"
+    translated: "Every ten attacks generate a sword formation under the caster's feet that lasts for 3 seconds. The sword formation has an airborne movement effect."
 - raw: "109131#不须归#0#13#0#1#3000#0#0#sfx_buff_jianzhen#0#0#0#0#0#0#10000#0#0#0#2#0#1#1#1000#3#1276##0#1#0#0#0#0#0#0#0#109131#0#0#0#0#0#109131##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -18854,10 +18889,10 @@
   splits:
   - split: 1
     text: "墨染尘心"
-    translated: "Smudged by Ink, Heart Adrift"
+    translated: "Ink‑Stained Heart"
   - split: 32
     text: "墨染尘心"
-    translated: "Smudged by Ink, Heart Adrift"
+    translated: "Ink‑Stained Heart"
   - split: 33
     text: "提升凝元叠加层数2层，同时被攻击有20%叠加一次凝元，调息5秒。"
     translated: "Enhance the Ning Yuan layer count by 2 layers, and when attacked, there is a 20% chance to add an additional Ning Yuan. Enter meditative state for 5 seconds."
@@ -18865,7 +18900,7 @@
   splits:
   - split: 1
     text: "墨染尘心-护盾"
-    translated: "Smudge‑stained heart ‑ Shield"
+    translated: "Ink‑Stained Heart ‑ A shield"
 - raw: "196250#点墨#1#31#0#1#-1#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#50148#1#0#0##0#1#0#0#点墨#在点墨状态下，提升凝元叠加层数3层，攻击与被攻击都有20%几率触发砌柔。#buffnew_ziqidonglai#0#0#196250#0#0#0#0#0#196250##5#0#196251|196252#0.0#0.0###"
   splits:
   - split: 1
@@ -22371,7 +22406,7 @@
   - split: 33
     text: "每次攻击附加自身最大生命值*0.1的伤害"
     translated: "Each attack inflicts damage equal to 0.1 times your maximum health."
-- raw: "200510#六合#1#15#0#1#0#0#0#0#1|2|0|10|1#0#0#1#0#0#10000#1048576#300000#0#0#0#0#0#0#0#0##0#1#0#0#六合#生命值低于10%时在免疫伤害15秒，每三分钟可触发一次#buffnew_zhihuan#0#0#200510#0#0#0#0#0#200510#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#4#0#0#0.0#0.0###"
+- raw: "200510#六合#1#15#0#1#0#0#0#0#1|2|0|10|1#0#0#1#0#0#10000#1048576#180000#0#0#0#0#0#0#0#1292##0#1#0#0#六合#生命值低于10%时在免疫伤害15秒，每三分钟可触发一次#buffnew_zhihuan#0#0#200510#0#0#0#0#0#200510#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#4#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "六合"
@@ -22382,7 +22417,7 @@
   - split: 33
     text: "生命值低于10%时在免疫伤害15秒，每三分钟可触发一次"
     translated: "When health drops below 10%, immunity to damage is granted for 15 seconds, and it can be triggered once every three minutes."
-- raw: "200511#六合#1#45#0#1#10000#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#0#0#0#0#0#200511#0#0#0#0#0#200511#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
+- raw: "200511#六合#1#45#0#1#15000#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#0#0#0#0#0#200511#0#0#0#0#0#200511#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "六合"
@@ -22605,12 +22640,12 @@
   splits:
   - split: 1
     text: "一炁归元-伤害"
-    translated: "Return to the origin in one qi ‑ Harm"
+    translated: "Qi Unification ‑ Harm"
 - raw: "1001001#一炁归元-附伤#0#1#2#1#0#0##0#0#0#0#0#3.5#1.2#10000#0#0#0#0#2#10#20#21#0#0##109101#40#8#100#归元#招式命中敌人时额外造成一段伤害，自身每拥有一层气，额外的这段伤害会增加10%。#0#0#0#1001001#0#0#0#0#0#1001001#0#0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "一炁归元-附伤"
-    translated: "Return to the primal qi ‑ Healing wounds."
+    translated: "Qi Unification ‑ Afflicting injury"
   - split: 32
     text: "归元"
     translated: "Return to the Origin"
@@ -22621,7 +22656,7 @@
   splits:
   - split: 1
     text: "一炁归元-伤害"
-    translated: "Return to the origin in one qi ‑ Harm"
+    translated: "Qi Unification ‑ Harm"
 - raw: "1001100#混元无始-伤害#0#1#3#1#0#0#sound_jian_hurt3#0#0#0#0#0#1.8#135.0#10000#0#0#0#0#0#0#20#21#0#0##0#80#5#100#0#0#0#0#0#1001100#0#sfx_hero_main_11_hit#0#0#0#1001100#0#0#0#0#1.5#0.0###"
   splits:
   - split: 1
@@ -24706,6 +24741,32 @@
   - split: 33
     text: "封锁目标经脉，目标内外攻、命中、诛心、要害均减少8%，持续10秒。"
     translated: "Block target meridians; reduce target's external attack, hit rate, heartbreak, and vital points by 8% for 10 seconds."
+- raw: "1053000#玄甲剑盾-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#300#120#100####0#0#1053000#0#sfx_npc_jian_hit#0#0#0#1053000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄甲剑盾-伤害"
+    translated: "Celestial armor sword shield ‑ Harm"
+- raw: "1053001#玄甲剑盾-减伤#1#10#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#20#0#0#0##0#1#0#0#剑佑#5秒内，减少20%受到的伤害，期间每受到一次伤害再释放一次剑气。#buffnew_luanzhan#0#0#1053001#0##0#0#0#1053001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄甲剑盾-减伤"
+    translated: "Dark Armor Sword Shield ‑ Reduce harm"
+  - split: 32
+    text: "剑佑"
+    translated: "Sword Guardian"
+  - split: 33
+    text: "5秒内，减少20%受到的伤害，期间每受到一次伤害再释放一次剑气。"
+    translated: "Within 5 seconds, reduce the damage taken by 20%. During this time, release additional jianqi for each instance of damage received."
+- raw: "1053002#玄甲剑盾-剑气#1#15#0#1#5000#0####0##0#0#0#10000#2#100#0#0#0#0#0#0#0#105301##0#1#0#0####0#0#1053002#0##0#0#0#1053002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄甲剑盾-剑气"
+    translated: "Mystic Armor Sword and Shield ‑ Essence of the Sword"
+- raw: "1053003#玄甲剑盾-位移#0#4#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#150#233#0#0##0#1#0#0####0#0#1053003#0##0#0#0#1053003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄甲剑盾-位移"
+    translated: "Dark Armor Sword Shield ‑ Displacement"
 - raw: "1100000#破釜沉舟-伤害#0#1#3#1#999#0#sound_jian_hurt2###0##0#1.5#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#50#140#100####0#0#1100000#1#sfx_hero_main_dao_hit#0#0#0#1100000#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0##3.0#0.0###"
   splits:
   - split: 1
@@ -26323,6 +26384,58 @@
   - split: 33
     text: "定身范围内敌人，持续3秒"
     translated: "Restrict movement within range of enemies for 3 seconds."
+- raw: "1125000#双劫缚-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#153#53#100####0#0#1125000#0#sfx_hero_main_dao_hit#0#0#0#1125000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-伤害"
+    translated: "Dual Binding Curses ‑ Harm"
+- raw: "1125001#双劫缚-伤害#0#1#2#1#0#0####0##0#3.0#1.5#10000##0#0#0#0#0#20#21#0#0##0#153#53#100####0#0#1125001#0#sfx_hero_main_dao_hit#0#0#0#1125001#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-伤害"
+    translated: "Dual Binding Curses ‑ Harm"
+- raw: "1125002#双劫缚-麻痹#1#20#0#0#1500#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0#影缚#麻痹敌人5秒，对有麻痹效果的目标造成伤害时额外附加自身刀法*0.5与刚属性*0.1的伤害##0#0#1125002#0##0#0#0#1125002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-麻痹"
+    translated: "Dual Binding Curses ‑ Wow"
+  - split: 32
+    text: "影缚"
+    translated: "Shadow Bondage"
+  - split: 33
+    text: "麻痹敌人5秒，对有麻痹效果的目标造成伤害时额外附加自身刀法*0.5与刚属性*0.1的伤害"
+    translated: "Stun the enemy for 5 seconds. When dealing damage to a target affected by the stun, inflict additional damage equal to your Blade Art * 0.5 and Hard attribute * 0.1."
+- raw: "1125003#双劫缚-额外伤害#1#30#0#1#10000#0###2|1125005#0##0#0#0#10000##0#0#2#0#1#1000#0#0#30##0#1#0#0####0#0#1125003#0##0#0#0#1125003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-额外伤害"
+    translated: "Dual Binding Curses ‑ Extra Damage"
+- raw: "1125004#双劫缚-额外伤害#1#30#0#1#10000#0###2|1125005#0##0#0#0#10000##0#0#2#0#1#5000#0#0#34##0#1#0#0####0#0#1125004#0##0#0#0#1125004##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-额外伤害"
+    translated: "Dual Binding Curses ‑ Extra Damage"
+- raw: "1125005#双劫缚-标记#1#15#0#0#10000#0##sfx_main_hero_longyin_huohua##0##0#0#0#10000#1073741826#10#0#0#0#0#0#0#0#112501##0#1#0#0####0#0#1125005#0##0#0#0#1125005##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "双劫缚-标记"
+    translated: "Dual Binding Curses ‑ Marked"
+- raw: "1126000#神刀·拔刀斩-伤害#0#1#0#0#0#0#SFX_Char_Weapon_Hurt_04###0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#100#400#100####0#0#1126000#0#sfx_hero_main_dao_hit#0#0#0#1126000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "神刀·拔刀斩-伤害"
+    translated: "Divine Sword · Draw Blade Slash ‑ Harm"
+- raw: "1126001#神刀·拔刀斩-斩杀#0#1#0#0#0#0####0##0#0#0#10000##0#0#5#0#0#50#0#0#0##2#1#0#0#斩杀#额外造成自身已损失生命值50%的伤害##0#0#1126001#0##0#0#0#1126001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "神刀·拔刀斩-斩杀"
+    translated: "Divine Sword · Draw Blade Slash ‑ Kill"
+  - split: 32
+    text: "斩杀"
+    translated: "Kill"
+  - split: 33
+    text: "额外造成自身已损失生命值50%的伤害"
+    translated: "Causing additional damage to oneself equivalent to 50% of their already lost health."
 - raw: "1200000#龙叩首-伤害#0#1#3#1#0#0#sound_qiang_hurt2#0#0#0#0#0#2.4#90.0#10000#0#0#0#0#0#0#20#21#0#0##0#180#12#100#0#0#0#0#0#1200000#0#sfx_hero_main_qiang_hit#0#0#0#1200000#0#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -27334,6 +27447,63 @@
   - split: 1
     text: "武穆十三枪-破防"
     translated: "Martial Muzhi Thirteen Spears ‑ Fallen apart at the seams"
+- raw: "1221000#燎原贯日-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#102#0#100####0#0#1221000#0#sfx_hero_main_qiang_hit#0#0#0#1221000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原贯日-伤害"
+    translated: "Raging across the plains like a wildfire ‑ Harm"
+- raw: "1221001#燎原贯日-天火燎原#1#4#0#0#20000#0####0##0#0#0#10000##0#0#1#0#0#-10#1000#0#0##0#1#0#0#天火燎原#穿刺路线上的所有敌人最大生命值减少10%，持续20秒。##0#0#1221001#0##0#0#0#1221001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原贯日-天火燎原"
+    translated: "Raging across the plains like a wildfire ‑ Fire ravaging across the heavens"
+  - split: 32
+    text: "天火燎原"
+    translated: "Wildfire spreads across the heavens"
+  - split: 33
+    text: "穿刺路线上的所有敌人最大生命值减少10%，持续20秒。"
+    translated: "All enemies on the stabbing route have their maximum health reduced by 10%, lasting for 20 seconds."
+- raw: "1221002#燎原贯日-位移#0#4#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#500#333#0#0##0#1#0#0####0#0#1221002#0##0#0#0#1221002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原贯日-位移"
+    translated: "Raging across the plains like a wildfire ‑ Displacement"
+- raw: "1222000#燎原百八式-伤害#0#1#3#1#0#0#SFX_Char_Weapon_Hurt_03###0##0#3.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#100#0#100####0#0#1222000#0#sfx_hero_main_qiang_hit#0#0#0#1222000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-伤害"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Harm"
+- raw: "1222001#燎原百八式-长虹-定身#1#20#0#0#2000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0#长虹#定身目标，且自身持续回复血量5秒内回复自身阳*5，对目标施加3层灼阳##0#0#1222001#0##0#0#0#1222001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-长虹-定身"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Changhong ‑ Restrain movement"
+  - split: 32
+    text: "长虹"
+    translated: "Changhong"
+  - split: 33
+    text: "定身目标，且自身持续回复血量5秒内回复自身阳*5，对目标施加3层灼阳"
+    translated: "Stun target and continuously restore health for 5 seconds, regaining self Yang * 5. Apply 3 layers of Scorched Yang to the target."
+- raw: "1222002#燎原百八式-长虹-回血#1#2#0#1#5000#1000####0##0#0#0#10000##0#0#2#0#0#50000#0#0#29##0#1#0#0####0#0#1222002#0##0#0#0#1222002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-长虹-回血"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Changhong ‑ Restore vitality"
+- raw: "1222003#燎原百八式-伤害#0#1#3#1#0#0#SFX_Char_Weapon_Hurt_03###0##0#2.5#180.0#10000##0#0#0#0#0#20#21#0#0##0#50#0#100####0#0#1222003#0#sfx_hero_main_qiang_hit#0#0#0#1222003#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-伤害"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Harm"
+- raw: "1222004#燎原百八式-伤害#0#1#3#1#0#0#SFX_Char_Weapon_Hurt_03###0##0#2.5#180.0#10000##0#0#0#0#0#20#21#0#0##0#50#0#100####0#0#1222004#0#sfx_hero_main_qiang_hit#0#0#0#1222004#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-伤害"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Harm"
+- raw: "1222005#燎原百八式-伤害#0#1#0#0#0#0#SFX_Char_Weapon_Hurt_03###0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#300#0#100####0#0#1222005#0#sfx_hero_main_qiang_hit#0#0#0#1222005#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "燎原百八式-伤害"
+    translated: "Liao‑Yuan Hundred‑Eighteen Form ‑ Harm"
 - raw: "1300000#猛虎式-伤害#0#1#6#1#0#0#sound_quan_hurt2#0#0#0#0#0#1.0#1.0#10000#0#0#0#0#0#0#20#21#0#0##0#110#25#100#0#0#0#0#0#1300000#0#sfx_hero_main_quan_hit#0#0#0#1300000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -30545,6 +30715,42 @@
   - split: 1
     text: "凤舞九天-灼烧"
     translated: "Phoenix Dances in the Nine Heavens ‑ Scorching"
+- raw: "1349000#万罡破-伤害1#0#1#0#0#0#0#SFX_Char_Punch_Hurt_05###0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#60#0#100####0#0#1349000#0#sfx_hero_main_quan_hit#0#0#0#1349000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-伤害1"
+    translated: "Ten‑thousand calamities shattered ‑ Harm 1"
+- raw: "1349001#万罡破-伤害2#0#1#0#0#0#0#SFX_Char_Punch_Hurt_05###0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#240#0#100####0#0#1349001#0#sfx_hero_main_quan_hit#0#0#0#1349001#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-伤害2"
+    translated: "Ten‑thousand calamities shattered ‑ Harm 2"
+- raw: "1349002#万罡破-锁定位移#0#15#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#400#0#299#400##50#1#0#0####0#0#1349002#0##0#0#0#1349002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-锁定位移"
+    translated: "Ten‑thousand calamities shattered ‑ Lock position shift"
+- raw: "1349003#万罡破-碎玉#0#13#0#1#9000#0##sfx_main_hero_wanjiequan_xuanfeng##0##0#0#0#10000##0#0#0#0#2#1#300#30#134901##0#1#0#0#碎玉#生成一道持久的风暴，对其中敌人持续造成刚属性*0.2的伤害并且减少目标20%内外防御##0#0#1349003#0##0#0#0#1349003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-碎玉"
+    translated: "Ten‑thousand calamities shattered ‑ Crushed Jade"
+  - split: 32
+    text: "碎玉"
+    translated: "Crushed Jade"
+  - split: 33
+    text: "生成一道持久的风暴，对其中敌人持续造成刚属性*0.2的伤害并且减少目标20%内外防御"
+    translated: "Generate a lasting storm that continuously inflicts 0.2 hard attribute damage to enemies within it and reduces their internal and external defense by 20%."
+- raw: "1349010#万罡破-碎玉-伤害#0#1#3#1#0#0#SFX_Char_Punch_Hurt_05###0##0#1.5#180.0#10000##0#0#2#0#0#2000#0#0#30##0#1#0#0####0#0#1349010#0#sfx_hero_main_quan_hit#0#0#0#1349010##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-碎玉-伤害"
+    translated: "Ten‑thousand calamities shattered ‑ Crushed Jade ‑ Harm"
+- raw: "1349011#万罡破-碎玉-破防#1#23#3#1#1000#0####0##0#1.5#180.0#10000##0#0#1#0#0#-20#0#0#0#1022|1023#0#1#0#0####0#0#1349011#0##0#0#0#1349011##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万罡破-碎玉-破防"
+    translated: "Ten‑thousand calamities shattered ‑ Crushed Jade ‑ Fallen apart at the seams"
 - raw: "1505000#魔息#1#15#0#1#0#0#0#0#4#0#0#1#0#0#10000#1048576#2000#0#0#0#0#0#0#0#1278##0#1#0#0#魔息#战斗中每2秒对周围2米敌人造成自身内力*2的伤害并且回复自身内力*0.2的真气值。#buffnew_suijia#0#0#1505000#0#0#0#0#0#1505000##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -31709,6 +31915,95 @@
   - split: 1
     text: "吞天纳地-运功"
     translated: "Swallowing up heaven and earth ‑ Cultivating energy."
+- raw: "1526100#北冥固元-运功#0#19#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#-3000#0#0#3##0#1#0#0####0#0#1526100#0##0#0#0#1526100##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-运功"
+    translated: "Northern Abyssal Primordial Element ‑ Channeling"
+- raw: "1526101#北冥固元-运功#1#23#3#1#30000#0####0##0#2.0#180.0#10000##0#0#1#0#0#-10#0#0#0#1020|1021#0#1#0#0####0#0#1526101#0##0#0#0#1526101##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-运功"
+    translated: "Northern Abyssal Primordial Element ‑ Channeling"
+- raw: "1526102#北冥固元-运功#1#23#0#1#30000#0##sfx_main_hero_120590##0##0#0#0#10000##0#0#1#0#0#10#0#0#0#1022|1023#0#1#0#0####0#0#1526102#0##0#0#0#1526102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-运功"
+    translated: "Northern Abyssal Primordial Element ‑ Channeling"
+- raw: "1526103#北冥固元-负山#1#15#0#1#0#0####0##0#0#0#10000#1073741826#1000#0#0#0#0#0#0#0#152612##0#1#0#0#负山#每次受伤增加自身3%内外防御，持续5秒，叠加上限10层，1秒调息#buffnew_gangti#0#0#1526103#0##0#0#0#1526103##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-负山"
+    translated: "The Northern Abyss, the Primordial Source ‑ Shoulder the mountain"
+  - split: 32
+    text: "负山"
+    translated: "Bear the mountain's burden"
+  - split: 33
+    text: "每次受伤增加自身3%内外防御，持续5秒，叠加上限10层，1秒调息"
+    translated: "Each time injured, increase own 3% internal and external defense by 5 seconds, stacking limit of 10 layers. Enter recovery pose for 1 seconds."
+- raw: "1526104#北冥固元-负山#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#3#1022#0#0##0#1#0#0#负山#获得3%内外防御增加#buffnew_gangti#0#0#1526104#0##0#1#10#1526104##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-负山"
+    translated: "The Northern Abyss, the Primordial Source ‑ Shoulder the mountain"
+  - split: 32
+    text: "负山"
+    translated: "Bear the mountain's burden"
+  - split: 33
+    text: "获得3%内外防御增加"
+    translated: "Obtain 3% increase in internal and external defense."
+- raw: "1526105#北冥固元-负山#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#3#1023#0#0##0#1#0#0####0#0#1526105#0##0#1#10#1526105##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "北冥固元-负山"
+    translated: "The Northern Abyss, the Primordial Source ‑ Shoulder the mountain"
+- raw: "1526200#化血摧岳-运功#0#19#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#-3000#0#0#3##0#1#0#0####0#0#1526200#0##0#0#0#1526200##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-运功"
+    translated: "Turn Blood into a Mountain‑Breaking Force ‑ Channeling"
+- raw: "1526201#化血摧岳-运功#1#23#3#1#30000#0####0##0#2.0#180.0#10000##0#0#1#0#0#-10#0#0#0#1022|1023#0#1#0#0####0#0#1526201#0##0#0#0#1526201##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-运功"
+    translated: "Turn Blood into a Mountain‑Breaking Force ‑ Channeling"
+- raw: "1526202#化血摧岳-运功#1#23#0#1#30000#0####0##0#0#0#10000##0#0#1#0#0#10#0#0#0#1020|1021#0#1#0#0####0#0#1526202#0##0#0#0#1526202##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-运功"
+    translated: "Turn Blood into a Mountain‑Breaking Force ‑ Channeling"
+- raw: "1526203#化血摧岳-化血#1#15#0#1#0#0####0##0#0#0#10000#1#1000#0#0#0#0#0#0#0#152622##0#1#0#0#化血#每次造成伤害增加自身2%内外攻，持续5秒，叠加上限10层，1秒调息#buffnew_gangyong#0#0#1526203#0##0#0#0#1526203##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-化血"
+    translated: "Blood transmutation shatters the mountains ‑ Poisonous blood"
+  - split: 32
+    text: "化血"
+    translated: "Poisonous blood"
+  - split: 33
+    text: "每次造成伤害增加自身2%内外攻，持续5秒，叠加上限10层，1秒调息"
+    translated: "Each time damage is dealt, increase self 2% in external attack, lasting for 5 seconds, stacking up to a maximum of 10 layers. Cooldown lasts for 1 seconds."
+- raw: "1526204#化血摧岳-化血#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#2#1020#0#0##0#1#0#0#化血#获得2%内外攻击增加#buffnew_gangyong#0#0#1526204#0##0#1#10#1526204##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-化血"
+    translated: "Blood transmutation shatters the mountains ‑ Poisonous blood"
+  - split: 32
+    text: "化血"
+    translated: "Poisonous blood"
+  - split: 33
+    text: "获得2%内外攻击增加"
+    translated: "Obtain a 2% increase in internal and external attack."
+- raw: "1526205#化血摧岳-伤害#0#1#6#1#0#0####0##0#4.0#4.0#10000##0#0#0#0#0#20#21#0#0##0#8#65#100####0#0#1526205#0#sfx_hero_main_quan_hit#0#0#0#1526205#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-伤害"
+    translated: "Decimate blood to crush mountains ‑ Harm"
+- raw: "1526206#化血摧岳-化血#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#2#1021#0#0##0#1#0#0####0#0#1526206#0##0#1#10#1526206##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "化血摧岳-化血"
+    translated: "Blood transmutation shatters the mountains ‑ Poisonous blood"
 - raw: "1527000#无名心法-运功#1#26#0#1#30000#0####0##0#0#0#10000#0#0#0#1#0#0#10#1003#10000#0##0#1#0#0####0#0#1527000#0##0#0#0#1527000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -32002,6 +32297,90 @@
   - split: 1
     text: "乾坤挪移-倒转"
     translated: "Shifting of Heaven and Earth ‑ Reversal"
+- raw: "1536000#魔相神功-业力#1#15#0#1#0#0###4#0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1435##0#1#0#0#业力#战斗中，每次攻击叠加一层业力，最多叠加30层，每层业力减少自身1%的闪避，但是可以获得1%吸血与1%伤害增加效果#buffnew_liuhuo#0#0#1536000#0##0#0#0#1536000##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-业力"
+    translated: "Moxiang Shen Gong ‑ Reincarnational Karma"
+  - split: 32
+    text: "业力"
+    translated: "Reincarnational Karma"
+  - split: 33
+    text: "战斗中，每次攻击叠加一层业力，最多叠加30层，每层业力减少自身1%的闪避，但是可以获得1%吸血与1%伤害增加效果"
+    translated: "In battle, each attack adds one layer of karmic energy, stacking up to a maximum of 30 layers. Each layer reduces the attacker's own dodge by 1%, but grants 1% lifesteal and increases damage dealt by 1%."
+- raw: "1536001#魔相神功-业力#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#-1#1075#0#0##0#1#0#0#业力#减少自身1%的闪避，获得1%吸血与1%伤害增加效果#buffnew_liuhuo#0#0#1536001#0##0#1#30#1536001##1#0#1536002|1536003#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-业力"
+    translated: "Moxiang Shen Gong ‑ Reincarnational Karma"
+  - split: 32
+    text: "业力"
+    translated: "Reincarnational Karma"
+  - split: 33
+    text: "减少自身1%的闪避，获得1%吸血与1%伤害增加效果"
+    translated: "Reduce your own 1% dodge and gain 1% life‑steal and 1% increased damage effect."
+- raw: "1536002#魔相神功-业力#1#8#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#1##0#1#0#0####0#0#1536002#0##0#1#30#1536002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-业力"
+    translated: "Moxiang Shen Gong ‑ Reincarnational Karma"
+- raw: "1536003#魔相神功-业力#1#9#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#1#0#0#0##0#1#0#0####0#0#1536003#0##0#1#30#1536003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-业力"
+    translated: "Moxiang Shen Gong ‑ Reincarnational Karma"
+- raw: "1536004#魔相神功-运功#0#1#3#1#0#0#SFX_Char_Punch_Hurt_Heavy###0##0#4.0#180.0#10000##0#0#1#2#100#300#0#0#0##1536001#1#0#0####0#0#1536004#0#sfx_npc_quan_hit#0#0#0#1536004#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-运功"
+    translated: "Moxiang Shen Gong ‑ Channeling"
+- raw: "1536005#魔相神功-运功#1#1#0#1#10000#1000####0##0#0#0#10000##0#0#2#0#0#100#0#0#0##0#1#0#0####0#0#1536005#0##0#0#0#1536005##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "魔相神功-运功"
+    translated: "Moxiang Shen Gong ‑ Channeling"
+- raw: "1537000#紫气天罗-天罗地网#1#21#0#1#0#0####0##1#3.0#0#10000##0#0#0#0#0#0#0#0#0#1537001|1537002#0#1#0#0#天罗地网#周围敌人降低25%移动速度和增加20%受到伤害#buffnew_lenque#0#0#1537000#0##0#0#0#1537000##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-天罗地网"
+    translated: "Purple Mist Heavenly Net ‑ A net cast across heaven and earth"
+  - split: 32
+    text: "天罗地网"
+    translated: "Inextricable net of heaven and earth"
+  - split: 33
+    text: "周围敌人降低25%移动速度和增加20%受到伤害"
+    translated: "Enemies in the vicinity reduce movement speed by 25% and increase damage taken by 20%."
+- raw: "1537001#紫气天罗-天罗地网#1#4#0#1#0#0####0##2#0#0#10000##0#0#1#0#0#-25#1090#0#0##0#1#0#0#天罗地网#降低25%移动速度和增加20%受到伤害#buffnew_lenque#0#0#1537001#0##0#0#0#1537001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-天罗地网"
+    translated: "Purple Mist Heavenly Net ‑ A net cast across heaven and earth"
+  - split: 32
+    text: "天罗地网"
+    translated: "Inextricable net of heaven and earth"
+  - split: 33
+    text: "降低25%移动速度和增加20%受到伤害"
+    translated: "Reduce 25% movement speed and increase 20% damage taken."
+- raw: "1537002#紫气天罗-天罗地网#1#11#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#20#0#0#0##0#1#0#0####0#0#1537002#0##0#0#0#1537002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-天罗地网"
+    translated: "Purple Mist Heavenly Net ‑ A net cast across heaven and earth"
+- raw: "1537003#紫气天罗-运功#1#20#3#1#1000#0####0##0#3.0#180.0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1537003#0##0#0#0#1537003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-运功"
+    translated: "Purple Mist Heavenly Net ‑ Channeling"
+- raw: "1537004#紫气天罗-运功#0#1#3#1#0#0#SFX_Char_Punch_Hurt_Heavy###0##0#3.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#0#420#0####0#0#1537004#0#sfx_npc_quan_hit#0#0#0#1537004#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-运功"
+    translated: "Purple Mist Heavenly Net ‑ Channeling"
+- raw: "1537005#紫气天罗-运功#1#16#3#1#1000#0####0##0#3.0#180.0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1537005#0##0#0#0#1537005##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫气天罗-运功"
+    translated: "Purple Mist Heavenly Net ‑ Channeling"
 - raw: "1600000#飞花摘叶-伤害#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#5#40#100#寒光#额外造成2次伤害#0#0#0#1600000#0#sfx_main_hero_Anqi_hit#0#0#0#1600000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -32663,6 +33042,27 @@
   - split: 33
     text: "施展招式时真气与葵花神功内力冲突造成内伤，自身内力减少50%，造成伤害减少40%，持续5秒"
     translated: "When executing the technique, the true qi conflicts with the Kuihua Shen Gong's inner power, causing internal injuries. Personal inner power decreases by 50%, reducing damage dealt by 40%, lasting for 5 seconds."
+- raw: "1614200#葵花定魂针-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#5#105#100####0#0#1614200#0#sfx_main_hero_160360_Hit#0#0#0#1614200#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "葵花定魂针-伤害"
+    translated: "Dewdrop Heart Needle ‑ Harm"
+- raw: "1614201#葵花定魂针-定魂#0#1#0#0#0#0####0##0#0#0#10000##0#0#2#0#0#30000#0#0#7##0#1#0#0#定魂#额外造成自身内力*3的伤害，且定身敌人3秒##0#0#1614201#0##0#0#0#1614201##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "葵花定魂针-定魂"
+    translated: "Demonic Needle of Peony Flower Immortalization ‑ Settle one's spirit"
+  - split: 32
+    text: "定魂"
+    translated: "Seal the Soul"
+  - split: 33
+    text: "额外造成自身内力*3的伤害，且定身敌人3秒"
+    translated: "Inflicts additional damage to the user's own Inner Power of *3 and immobilizes the enemy for 3 seconds."
+- raw: "1614202#葵花定魂针-定魂#1#20#0#0#3000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#1614202#0##0#0#0#1614202##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "葵花定魂针-定魂"
+    translated: "Demonic Needle of Peony Flower Immortalization ‑ Settle one's spirit"
 - raw: "1615000#暴雨梨花针#0#1#0#0#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#0#0#0#20#21#0#0##0#12#53#100#0#0#0#0#0#1601200#0#sfx_main_hero_Anqi_Jin_hit#0#0#0#1601200#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -32861,6 +33261,223 @@
   - split: 33
     text: "此招式命中目标身上定身效果时，造成额外50%伤害"
     translated: "When this technique hits its target with a binding effect, it causes additional 50% damage."
+- raw: "1624000#千棘气诀-伤害#0#1#6#1#0#0####0##0#1.0#1.5#10000##0#0#0#0#0#20#21#0#0##0#100#320#100####0#0#1624000#0#sfx_main_hero_Anqi_hit#0#0#0#1624000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-伤害"
+    translated: "Thousand Thorn Qi Technique ‑ Harm"
+- raw: "1624001#千棘气诀-凝气#0#1#6#1#0#0####0##0#1.0#1.5#10000##0#0#2#0#0#3000#0#0#1##0#1#0#0#凝气#额外造成自身最大真气*0.3的伤害##0#0#1624001#0##0#0#0#1624001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-凝气"
+    translated: "Thousand Thorn Qi Technique ‑ Concentrate one's qi"
+  - split: 32
+    text: "凝气"
+    translated: "Concentrate one's qi"
+  - split: 33
+    text: "额外造成自身最大真气*0.3的伤害"
+    translated: "Additional damage to one's own maximum True Qi of *0.3."
+- raw: "1624002#千棘气诀-伤害#0#1#6#1#0#0####0##0#3.0#1.5#10000##0#0#0#0#0#20#21#0#0##0#100#320#100####0#0#1624002#0#sfx_main_hero_Anqi_hit#0#0#0#1624002#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-伤害"
+    translated: "Thousand Thorn Qi Technique ‑ Harm"
+- raw: "1624003#千棘气诀-伤害#0#1#6#1#0#0####0##0#5.0#1.5#10000##0#0#0#0#0#20#21#0#0##0#100#320#100####0#0#1624003#0#sfx_main_hero_Anqi_hit#0#0#0#1624003#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-伤害"
+    translated: "Thousand Thorn Qi Technique ‑ Harm"
+- raw: "1624004#千棘气诀-伤害#0#1#6#1#0#0####0##0#7.0#1.5#10000##0#0#0#0#0#20#21#0#0##0#100#320#100####0#0#1624004#0#sfx_main_hero_Anqi_hit#0#0#0#1624004#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-伤害"
+    translated: "Thousand Thorn Qi Technique ‑ Harm"
+- raw: "1624005#千棘气诀-凝气#0#1#6#1#0#0####0##0#3.0#1.5#10000##0#0#2#0#0#3000#0#0#1##0#1#0#0#凝气#额外造成自身最大真气*0.3的伤害##0#0#1624005#0##0#0#0#1624005##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-凝气"
+    translated: "Thousand Thorn Qi Technique ‑ Concentrate one's qi"
+  - split: 32
+    text: "凝气"
+    translated: "Concentrate one's qi"
+  - split: 33
+    text: "额外造成自身最大真气*0.3的伤害"
+    translated: "Additional damage to one's own maximum True Qi of *0.3."
+- raw: "1624006#千棘气诀-凝气#0#1#6#1#0#0####0##0#5.0#1.5#10000##0#0#2#0#0#3000#0#0#1##0#1#0#0#凝气#额外造成自身最大真气*0.3的伤害##0#0#1624006#0##0#0#0#1624006##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-凝气"
+    translated: "Thousand Thorn Qi Technique ‑ Concentrate one's qi"
+  - split: 32
+    text: "凝气"
+    translated: "Concentrate one's qi"
+  - split: 33
+    text: "额外造成自身最大真气*0.3的伤害"
+    translated: "Additional damage to one's own maximum True Qi of *0.3."
+- raw: "1624007#千棘气诀-凝气#0#1#6#1#0#0####0##0#7.0#1.5#10000##0#0#2#0#0#3000#0#0#1##0#1#0#0#凝气#额外造成自身最大真气*0.3的伤害##0#0#1624007#0##0#0#0#1624007##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘气诀-凝气"
+    translated: "Thousand Thorn Qi Technique ‑ Concentrate one's qi"
+  - split: 32
+    text: "凝气"
+    translated: "Concentrate one's qi"
+  - split: 33
+    text: "额外造成自身最大真气*0.3的伤害"
+    translated: "Additional damage to one's own maximum True Qi of *0.3."
+- raw: "1624100#千棘凝真-运功#1#15#0#1#30000#0##sfx_main_hero_xixing2##0##0#0#0#10000#1#500#0#0#0#0#0#0#0#162412##0#1#0#0####0#0#1624100#0#sfx_main_hero_Anqi_Lan_hit#0#0#0#1624100#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-运功"
+    translated: "Thousand Prickles Perfect the Realness ‑ Channeling"
+- raw: "1624101#千棘凝真-运功#0#9#0#1#15000#0###sfx_main_hero_zaoheding_Trail#0#sfx_main_hero_Anqi_Lan_hit#0#7.0#180.0#10000#0#0#0#1#1#1#700#120#0#0#1624102#1#0#0#0####0#0#1624101#3#sfx_main_hero_Anqi_hit#0#0#0#1624101#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-运功"
+    translated: "Thousand Prickles Perfect the Realness ‑ Channeling"
+- raw: "1624102#千棘凝真-运功#0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#30#0#0####0#0#1624102#0##0#0#0#1624102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-运功"
+    translated: "Thousand Prickles Perfect the Realness ‑ Channeling"
+- raw: "1624103#千棘凝真-千棘#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1624104&200#0#1#0#0#千棘#暗器万宗附带一次50外攻威力的枣核钉攻击##0#0#1624103#0##0#0#0#1624103##1#501#1624106|1624107#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-千棘"
+    translated: "Thousand Spines Perfect Essence Technique ‑ Thousand Thorns"
+  - split: 32
+    text: "千棘"
+    translated: "Thousand Thorns"
+  - split: 33
+    text: "暗器万宗附带一次50外攻威力的枣核钉攻击"
+    translated: "Hidden Weapon Myriad Skills grant a single 50 external attack with the power of a Walnut Nail strike."
+- raw: "1624104##0#25#0#1#0#0###sfx_main_hero_zaoheding_Trail#0#sfx_main_hero_Anqi_Lan_hit#0#0#0#10000##0#0#0#0#0#1000#750#3#0#1624105#0#0#0#0####0#0#1624104#0##0#0#0#1624104##0#0##0.0#0.0###"
+  splits: []
+- raw: "1624105##0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#50#0#0####0#0#1624105#0#sfx_main_hero_Anqi_hit#0#0#0#1624105#hurt_anqi#0#0##0.0#0.0###"
+  splits: []
+- raw: "1624106#千棘凝真-千棘#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1624104&200#0#1#0#0####0#0#1624106#0##0#0#0#1624106##0#502##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-千棘"
+    translated: "Thousand Spines Perfect Essence Technique ‑ Thousand Thorns"
+- raw: "1624107#千棘凝真-千棘#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1624104&333#0#1#0#0####0#0#1624107#0##0#0#0#1624107##0#503##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "千棘凝真-千棘"
+    translated: "Thousand Spines Perfect Essence Technique ‑ Thousand Thorns"
+- raw: "1625000#九幽冰篆-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#50#370#100####0#0#1625000#0#sfx_main_hero_Anqi_Lan_hit#0#0#0#1625000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九幽冰篆-伤害"
+    translated: "Nine Netherworld Ice Seal Script ‑ Harm"
+- raw: "1625001#九幽冰篆-九幽#0#13#0#1#10#0##sfx_main_hero_shengsitie_Hit##0##0#0#0#10000##0#0#2#0#2#1#1#1#162501##0#1#0#0#九幽#命中目标后向目标周围再造成一次自身阴属性*0.3的爆炸伤害##0#0#1625001#0##0#0#0#1625001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九幽冰篆-九幽"
+    translated: "Nine Netherworld Ice Seal Script ‑ Nine Yin"
+  - split: 32
+    text: "九幽"
+    translated: "Nine Yang Darkness"
+  - split: 33
+    text: "命中目标后向目标周围再造成一次自身阴属性*0.3的爆炸伤害"
+    translated: "Upon hitting the target, inflict an additional explosion of your own Yin attribute damage amounting to *0.3* on the surrounding area."
+- raw: "1625002#九幽冰篆-九幽-伤害#0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#2#0#0#3000#0#0#28##0#1#0#0####0#0#1625002#0##0#0#0#1625002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九幽冰篆-九幽-伤害"
+    translated: "Nine Netherworld Ice Seal Script ‑ Nine Yama ‑ Harm"
+- raw: "1625100#玄冥双生-运功#1#15#0#1#30000#0##sfx_main_hero_xixing3##0##0#0#0#10000#1#500#0#0#0#0#0#0#0#162512##0#1#0#0####0#0#1625100#0##0#0#0#1625100##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-运功"
+    translated: "Xuanmeng Twin Stars ‑ Channeling"
+- raw: "1625101#玄冥双生-运功#0#9#0#1#15000#0###sfx_main_hero_xixing3_Trail#0#sfx_main_hero_Anqi_Lan_hit#0#7.0#180.0#10000#0#0#0#1#1#1#700#120#0#0#1625102#1#0#0#0####0#0#1625101#3#sfx_main_hero_Anqi_hit#0#0#0#1625101#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-运功"
+    translated: "Xuanmeng Twin Stars ‑ Channeling"
+- raw: "1625102#玄冥双生-运功#0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#0#30#0####0#0#1625102#0##0#0#0#1625102##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-运功"
+    translated: "Xuanmeng Twin Stars ‑ Channeling"
+- raw: "1625103#玄冥双生-冰篆#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1625104&200#0#1#0#0#冰篆#暗器万宗附带一次50内攻威力的冰晶攻击##0#0#1625103#0##0#0#0#1625103##1#501#1625106|1625107#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-冰篆"
+    translated: "Dark Eternity Twin Existences ‑ Ice Seal Script"
+  - split: 32
+    text: "冰篆"
+    translated: "Ice Seal Script"
+  - split: 33
+    text: "暗器万宗附带一次50内攻威力的冰晶攻击"
+    translated: "Hidden weapon Myriad Skills includes a single instance of 50 internal attack power with an ice crystal attack."
+- raw: "1625104##0#25#0#1#0#0###sfx_main_hero_xixing3_Trail#0#sfx_main_hero_Anqi_Lan_hit#0#0#0#10000##0#0#0#0#0#1000#750#3#0#1625105#0#0#0#0####0#0#1625104#0##0#0#0#1625104##0#0##0.0#0.0###"
+  splits: []
+- raw: "1625105##0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#0#50#0####0#0#1625105#0#sfx_main_hero_Anqi_hit#0#0#0#1625105#hurt_anqi#0#0##0.0#0.0###"
+  splits: []
+- raw: "1625106#玄冥双生-冰篆#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1625104&200#0#1#0#0####0#0#1625106#0##0#0#0#1625106##0#502##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-冰篆"
+    translated: "Dark Eternity Twin Existences ‑ Ice Seal Script"
+- raw: "1625107#玄冥双生-冰篆#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#1625104&333#0#1#0#0####0#0#1625107#0##0#0#0#1625107##0#503##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玄冥双生-冰篆"
+    translated: "Dark Eternity Twin Existences ‑ Ice Seal Script"
+- raw: "1626000#小李飞刀-伤害#0#1#0#0#0#0####0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#350#70#100####0#0#1626000#0#sfx_main_hero_Anqi_hit#0#0#0#1626000#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "小李飞刀-伤害"
+    translated: "Little Li throws the knife ‑ Harm"
+- raw: "1626001#小李飞刀-寒星#0#13#0#1#10#0####0##0#0#0#10000##0#0#2#0#2#1#1#1#162601##0#1#0#0#寒星#命中目标后会再生成多把小飞刀向敌人追踪攻击，造成自身刚属性*0.1的伤害##0#0#1626001#0##0#0#0#1626001##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "小李飞刀-寒星"
+    translated: "Little Li throws the knife ‑ Cold Star"
+  - split: 32
+    text: "寒星"
+    translated: "Cold Star"
+  - split: 33
+    text: "命中目标后会再生成多把小飞刀向敌人追踪攻击，造成自身刚属性*0.1的伤害"
+    translated: "After hitting the target, multiple small throwing knives will be generated to track and attack the enemy, causing damage equal to the wielder's Hard attribute multiplied by 0.1."
+- raw: "1626002#小李飞刀-寒星-飞刀#0#9#0#1#15000#0###sfx_main_hero_160350_Trail#0#sfx_hero_main_11_hit#0#7.0#180.0#10000#0#0#0#1#1#1#700#120#0#0#1626003#1#0#0#0####0#0#1626002#3##0#0#0#1626002#0#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "小李飞刀-寒星-飞刀"
+    translated: "Little Li throws the knife ‑ Cold Star ‑ A flying blade"
+- raw: "1626003#小李飞刀-寒星-飞刀-伤害#0#1#3#1#0#0####0##0#2.0#180.0#10000##0#0#2#0#0#1000#0#0#30##0#1#0#0####0#0#1626003#0##0#0#0#1626003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "小李飞刀-寒星-飞刀-伤害"
+    translated: "Little Li throws the knife ‑ Cold Star ‑ A flying blade ‑ Harm"
+- raw: "1627000#黑血神针-位移#0#15#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#800#0#165#700##100#1#0#0####0#0#1627000#0##0#0#0#1627000##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "黑血神针-位移"
+    translated: "Black Blood Divine Needle ‑ Displacement"
+- raw: "1627001#黑血神针-伤害#0#1#0#0#0#0#SFX_Char_Affected_Sword_05###0##0#0#0#10000##0#0#0#0#0#20#21#0#0##0#420#0#100####0#0#1627001#0#sfx_main_hero_Anqi_hit#0#0#0#1627001#hurt&10000&dead|dead_1|dead_3|dead_5&2000|2000|2000|2000#0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "黑血神针-伤害"
+    translated: "Black Blood Divine Needle ‑ Harm"
+- raw: "1627002#黑血神针-虚影#1#4#0#1#10000#0####0##0#0#0#10000##0#0#1#0#0#30#1090#0#0##0#1#0#0#虚影#自身获得30%移动速度与10%闪避增加效果#buffnew_shanxian#0#0#1627002#0##0#0#0#1627002##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "黑血神针-虚影"
+    translated: "Black Blood Divine Needle ‑ A phantom shadow"
+  - split: 32
+    text: "虚影"
+    translated: "A phantom shadow"
+  - split: 33
+    text: "自身获得30%移动速度与10%闪避增加效果"
+    translated: "Self‑gain of 30% increased movement speed and 10% dodge increase effect."
+- raw: "1627003#黑血神针-虚影#1#4#0#1#10000#0####0##0#0#0#10000##0#0#1#0#0#10#1075#0#0##0#1#0#0####0#0#1627003#0##0#0#0#1627003##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "黑血神针-虚影"
+    translated: "Black Blood Divine Needle ‑ A phantom shadow"
 - raw: "3028410#阴寒功#0#1#0#0#0#0#sound_quan_hurt2##0#0#0#0#0#0#10000#0#0#0#2#0#0#15000#0#0#28##0#1#0#0#0#0#0#0#0#3028410#0##0#0#0#3028410#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -37421,15 +38038,15 @@
     translated: "Ink Sword Style"
   - split: 33
     text: "施展机杼剑法时触发墨染尘心，持续10秒，调息20秒。墨染尘心：持续时间内，增加机杼*0.5的内外防，每5次命中目标给自己叠加一个免疫一次伤害的气盾。"
-    translated: "Upon executing the Jiuzhu Sword Technique, activate Mo Ran Chen Xin for 10 seconds and recover breath for 20 seconds. Mo Ran Chen Xin: During the duration, increase the internal and external defense of the machine loom by *0.5. Each time it hits a target, it stacks an immunity shield that protects against one instance of damage on yourself for 5 occurrences."
+    translated: "When activating the Loom Weaving Sword Technique, it triggers Ink‑Stained Heart for 10 seconds and takes 20 seconds to recover breath. Ink‑Stained Heart: During the duration, increase the internal and external defense of *0.5, and each time you hit the target 5 times, apply a damage immunity shield to yourself that stacks once."
 - raw: "100100071#墨染尘心#1#23#0#1#10000#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#0#0#5000#0#0#46#22|23#0#1#0#0#墨染尘心#在持续时间内，目标获得双防增加机杼*0.5的防御值，每5次命中目标给自己叠加一个免疫一次伤害的气盾。#buffnew_ziqidonglai#0#0#100100071#0#0#0#0#0#100100071##0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "墨染尘心"
-    translated: "Smudged by Ink, Heart Adrift"
+    translated: "Ink‑Stained Heart"
   - split: 32
     text: "墨染尘心"
-    translated: "Smudged by Ink, Heart Adrift"
+    translated: "Ink‑Stained Heart"
   - split: 33
     text: "在持续时间内，目标获得双防增加机杼*0.5的防御值，每5次命中目标给自己叠加一个免疫一次伤害的气盾。"
     translated: "During the specified duration, the target gains a defensive boost of *0.5* from Double Defense. Every 5 hit on the target grants themselves an additional layer of a shield that grants immunity to one instance of damage."
@@ -37437,7 +38054,7 @@
   splits:
   - split: 1
     text: "墨染尘心"
-    translated: "Smudged by Ink, Heart Adrift"
+    translated: "Ink‑Stained Heart"
 - raw: "100100080#伤剑诀#1#8#0#1#-1#0##0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#20##0#1#0#0#伤剑诀#攻击附加20%吸血，力道内力增加魔学*0.1，根骨减少其他学识*1%的百分比，受到伤害增加20%。#buffnew_ziqidonglai#0#0#100100080#0#0#0#0#0#100100080##5#0#100100081|100100082|100100083|100100084|100100085|100100086#0.0#0.0###"
   splits:
   - split: 1
@@ -37789,7 +38406,7 @@
   - split: 33
     text: "所有刀系技能在每次造成伤害的时候增加佛学*0.2的伤害。"
     translated: "All blade skills increase damage by a Buddhist multiplier of *0.2 each time they inflict harm."
-- raw: "100200070#八方式#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#2#0#0#0#100200071##0#1#0#0#八方式#造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高7层#buffnew_ziqidonglai#0#0#100200070#0#0#0#0#0#100200070#0#4#0#0#0.0#0.0###"
+- raw: "100200070#八方式#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#2#0#0#0#100200071##0#1#0#0#八方式#造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高3层#buffnew_ziqidonglai#0#0#100200070#0#0#0#0#0#100200070#0#4#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "八方式"
@@ -37798,9 +38415,9 @@
     text: "八方式"
     translated: "Eight Directions Style"
   - split: 33
-    text: "造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高7层"
-    translated: "When causing damage, it can reduce the target's damage output by 10% for 5 seconds, stacks are allowed, with a maximum of 7 layers."
-- raw: "100200071#八方式-降低伤害#1#9#1#1#5000#0##0#0#0#0#2#0#0#10000#0#0#0#1#0#0#-10#0#0#0##0#1#0#0#八方#造成伤害降低10%，持续5秒，可叠加，最高7层#buffnew_ziqidonglai#0#0#100200071#0#0#0#1#3#100200071##0#0#0#0.0#0.0###"
+    text: "造成伤害时可以使目标造成伤害降低10%，持续5秒，可叠加，最高3层"
+    translated: "When causing damage, this effect reduces the target's damage by 10% for 5 seconds, can stack, and up to a maximum of 3 layers."
+- raw: "100200071#八方式-降低伤害#1#9#1#1#5000#0##0#0#0#0#2#0#0#10000#0#0#0#1#0#0#-10#0#0#0##0#1#0#0#八方#造成伤害降低10%，持续5秒，可叠加，最高3层#buffnew_ziqidonglai#0#0#100200071#0#0#0#1#3#100200071##0#0#0#0.0#0.0###"
   splits:
   - split: 1
     text: "八方式-降低伤害"
@@ -37809,8 +38426,8 @@
     text: "八方"
     translated: "From all directions"
   - split: 33
-    text: "造成伤害降低10%，持续5秒，可叠加，最高7层"
-    translated: "Causes damage to decrease by 10%, lasting for 5 seconds, stackable, up to a maximum of 7 layers."
+    text: "造成伤害降低10%，持续5秒，可叠加，最高3层"
+    translated: "Causes damage to be reduced by 10%, lasting for 5 seconds, can stack, up to a maximum of 3 layers."
 - raw: "100200080#抱刀听风#1#5#0#1#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#30#50#0#50##0#1#0#0#抱刀听风#受到攻击时，30%反震受到伤害的50%给敌人。#buffnew_ziqidonglai#0#0#100200080#0#0#0#0#0#100200080##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -38074,6 +38691,22 @@
   - split: 1
     text: "降龙劲-强固"
     translated: "Dragon‑Subduing Force ‑ Robust"
+- raw: "100300103#降龙劲#1#15#0#1#-1#0####0##1#0#0#10000#1#10000#0#0#0#0#0#0#0#302911##0#1#0#0#降龙劲#每十秒，你的下一次攻击会触发一次基于你最大生命值的嗜血伤害。嗜血伤害：附带20%吸血，对身前2米直线范围内敌人造成伤害。#buffnew_ziqidonglai#0#0#100300103#0##0#0#0#100300103##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "降龙劲"
+    translated: "Dragon‑Subduing Force"
+  - split: 32
+    text: "降龙劲"
+    translated: "Dragon‑Subduing Force"
+  - split: 33
+    text: "每十秒，你的下一次攻击会触发一次基于你最大生命值的嗜血伤害。嗜血伤害：附带20%吸血，对身前2米直线范围内敌人造成伤害。"
+    translated: "Every ten seconds, your next attack will trigger a bleed effect based on your maximum health. The bleed damage is: Accompanied by 20% bloodsucking effect, dealing damage to enemies within a straight‑line range of 2 meters in front."
+- raw: "100300104#降龙劲-嗜血伤害#0#23#2#1#0#0#SFX_Char_Weapon_Hurt_01###0##0#2.0#1.2#10000##0#0#2#0#0#10#0#0#0##20#1#0#0####0#0#100300104#0##0#0#0#100300104##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "降龙劲-嗜血伤害"
+    translated: "Dragon‑Subduing Force ‑ Bloodthirsty damage"
 - raw: "100300110#寸劲#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1#10#0#0#0#0#0#0#0#1272##0#1#0#0#寸劲#造成伤害时，使敌人进入可叠加的易损状态。#buffnew_ziqidonglai#0#0#100300110#0#0#0#0#0#100300110##5#0#100300112#0.0#0.0###"
   splits:
   - split: 1
@@ -38794,6 +39427,753 @@
   - split: 1
     text: "万法森罗入神"
     translated: "Ten Thousand Laws, enter the void"
+- raw: "100500290#云岫归山#1#15#0#1#0#0####0##0#0#0#30#1073741826#500#0#0#0#0#0#0#0#1410##0#1#0#0#云岫化劲#每次被攻击时，有30%几率恢复5%的真气；战斗中对目标造成伤害时生成自身护盾，护盾值为当前真气值的10%，可叠加5层。#buffnew_fozhubiyou#0#0#100500290#0##0#0#0#100500290##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "云岫归山"
+    translated: "Cloudy Peaks Return to the Mountain"
+  - split: 32
+    text: "云岫化劲"
+    translated: "Cloudy Grotto's Transforming Force"
+  - split: 33
+    text: "每次被攻击时，有30%几率恢复5%的真气；战斗中对目标造成伤害时生成自身护盾，护盾值为当前真气值的10%，可叠加5层。"
+    translated: "Each time you are attacked, there is a 30% chance to recover 5% of your True Qi; while inflicting damage on the target in battle, you generate a shield equal to 10% of your current True Qi value, which can stack up to 5 layers."
+- raw: "100500291#云岫归山#0#19#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#500#0#0#1##0#1#0#0####0#0#100500291#0##0#0#0#100500291##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "云岫归山"
+    translated: "Cloudy Peaks Return to the Mountain"
+- raw: "100500292#云岫归山#1#15#0#1#0#0###4#0##0#0#0#10000#1#1000#0#0#0#0#0#0#0#1411##0#1#0#0####0#0#100500292#0##0#0#0#100500292##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "云岫归山"
+    translated: "Cloudy Peaks Return to the Mountain"
+- raw: "100500293#云岫归山#1#6#0#1#10000#0##sfx_buff_hudun_last|Self_n##0##0#0#0#10000##0#0#2#0#0#1000#0#0#3##0#1#0#0####0#0#100500293#0##0#3#5#100500293##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "云岫归山"
+    translated: "Cloudy Peaks Return to the Mountain"
+- raw: "100500300#佩兰入梦#1#21#0#1#0#0####0##1#3.0#0#10000##0#0#0#0#0#0#0#0#0#100500301#0#1#0#0#暗香流转#自身周围3米内敌人获得“醉梦”印记，降低其15%命中；受到周围敌人攻击时有20%几率对周围造成一次闪避*10%的伤害，每秒可触发一次#buffnew_jingli#0#0#100500300#0##0#0#0#100500300##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "佩兰入梦"
+    translated: "Peilan enters the dream"
+  - split: 32
+    text: "暗香流转"
+    translated: "Fragrance wafts through the darkness"
+  - split: 33
+    text: "自身周围3米内敌人获得“醉梦”印记，降低其15%命中；受到周围敌人攻击时有20%几率对周围造成一次闪避*10%的伤害，每秒可触发一次"
+    translated: "Within a 3 meter radius around oneself, enemies gain the Dreamy Drunkenness mark and have their hit rate reduced by 15%. When attacked by nearby enemies, there is a 20% chance to inflict damage with a dodge effect of *10% on them once per second."
+- raw: "100500301#佩兰入梦#1#4#3#1#0#0####0##2#3.0#180.0#10000##0#0#1#0#0#-15#1074#0#0##0#1#0#0#醉梦#降低15%命中#buffnew_duzong#0#0#100500301#0##0#0#0#100500301##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "佩兰入梦"
+    translated: "Peilan enters the dream"
+  - split: 32
+    text: "醉梦"
+    translated: "Drunk Dream"
+  - split: 33
+    text: "降低15%命中"
+    translated: "Reduce 15% Hit Rate"
+- raw: "100500302#佩兰入梦#1#15#0#1#0#0####0##0#0#0#20#1073741826#1000#0#0#0#0#0#0#0#1412##0#1#0#0####0#0#100500302#0##0#0#0#100500302##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "佩兰入梦"
+    translated: "Peilan enters the dream"
+- raw: "100500303#佩兰入梦#0#1#3#1#0#0####0##0#3.0#180.0#10000##0#0#2#0#0#1000#0#0#75##0#1#0#0####0#0#100500303#0##0#0#0#100500303##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "佩兰入梦"
+    translated: "Peilan enters the dream"
+- raw: "100500310#红袖影缠#1#15#0#1#0#0####0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#100500311##0#1#0#0#千针蚀骨#命中目标时降低目标5%移动速度并且造成持续流血效果（每秒损失攻击者柔属性*0.1的气血，持续5秒），最多可叠加10层#buffnew_zhongshang#0#0#100500310#0##0#0#0#100500310##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "红袖影缠"
+    translated: "Crimson sleeve shadows entwine"
+  - split: 32
+    text: "千针蚀骨"
+    translated: "Bone‑chiseling thousand needles"
+  - split: 33
+    text: "命中目标时降低目标5%移动速度并且造成持续流血效果（每秒损失攻击者柔属性*0.1的气血，持续5秒），最多可叠加10层"
+    translated: "When hitting the target, reduce the target's movement speed by 5% and inflict a sustained bleeding effect (causing the target to lose lifeforce equal to the attacker's Soft attribute multiplied by 0.1 per second for 5 seconds), with up to 10 layers of stacking possible."
+- raw: "100500311#红袖影缠#1#4#1#1#5000#0####0##0#0#0#10000##0#0#1#0#0#-5#1090#0#0##0#1#0#0#蚀骨#降低5%移动速度并且持续流血#buffnew_zhongshang#0#0#100500311#0##0#1#10#100500311##1#0#100500312#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "红袖影缠"
+    translated: "Crimson sleeve shadows entwine"
+  - split: 32
+    text: "蚀骨"
+    translated: "Erode bones"
+  - split: 33
+    text: "降低5%移动速度并且持续流血"
+    translated: "Reduce 5% movement speed and inflict continuous bleeding."
+- raw: "100500312#红袖影缠#1#1#1#1#5000#1000####0##0#0#0#10000##0#0#2#0#0#1000#0#0#31##0#1#0#0####0#0#100500312#0##0#1#10#100500312##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "红袖影缠"
+    translated: "Crimson sleeve shadows entwine"
+- raw: "100500320#尘烟渡火#1#15#0#1#0#0####0##0#0#0#10000#1073741826#1000#0#0#0#0#0#0#0#1413##0#1#0#0#苦业#每次受到伤害后，叠加一层「苦业」。「苦业」层数达到8层或者自身生命值小于30%时，获得3秒金身（免疫控制与伤害），每300秒触发一次#buffnew_jinseaoyi#0#0#100500320#0##0#0#0#100500320##1#0#100500323#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "尘烟渡火"
+    translated: "Dust and Smoke Cross Through Fire"
+  - split: 32
+    text: "苦业"
+    translated: "Hardship Karma"
+  - split: 33
+    text: "每次受到伤害后，叠加一层「苦业」。「苦业」层数达到8层或者自身生命值小于30%时，获得3秒金身（免疫控制与伤害），每300秒触发一次"
+    translated: "After taking damage each time, accumulate one layer of 'Ku Yeb'. When the layers of 'Ku Yeb' reach 8 or own health drops below 30%, gain immunity to control and damage (Golden Body) for 3 seconds, triggering once every 300 seconds."
+- raw: "100500321#尘烟渡火#1#9#0#1#8000#0####0##0#0#0#10000##300000#0#0#0#1#0#0#0#0##1414#1#0#0#苦业#达到8层后获得3秒金身（免疫控制与伤害），每300秒触发一次#buffnew_tianji#0#0#100500321#0##0#5#8#100500321##2#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "尘烟渡火"
+    translated: "Dust and Smoke Cross Through Fire"
+  - split: 32
+    text: "苦业"
+    translated: "Hardship Karma"
+  - split: 33
+    text: "达到8层后获得3秒金身（免疫控制与伤害），每300秒触发一次"
+    translated: "Upon reaching level 8, obtain 3 seconds of golden body (immunity to control and damage); triggers once every 300 seconds."
+- raw: "100500322#尘烟渡火#1#45#0#1#3000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#100500322#0##0#0#0#100500322##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "尘烟渡火"
+    translated: "Dust and Smoke Cross Through Fire"
+- raw: "100500323#尘烟渡火#1#15#0#1#0#0###1|2|0|30|1#0##0#0#0#10000#1048576#300000#0#0#0#0#0#0#0#1414##0#1#0#0####0#0#100500323#0##0#0#0#100500323##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "尘烟渡火"
+    translated: "Dust and Smoke Cross Through Fire"
+- raw: "100500330#万川映月#1#15#0#1#0#0###0|42|600|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#100500331##0#1#0#0#空明#自身道学大于600，对目标造成伤害时削减目标300内外防、200御心、200化解，持续8秒；自身佛学大于600，对目标造成伤害时削减10%目标造成伤害，持续8秒；自身儒学大于600，对目标造成伤害时对目标施加易损效果，增加10%目标受到伤害，持续8秒。#buffnew_jinhua#0#0#100500330#0##0#0#0#100500330##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+  - split: 32
+    text: "空明"
+    translated: "Kong Ming"
+  - split: 33
+    text: "自身道学大于600，对目标造成伤害时削减目标300内外防、200御心、200化解，持续8秒；自身佛学大于600，对目标造成伤害时削减10%目标造成伤害，持续8秒；自身儒学大于600，对目标造成伤害时对目标施加易损效果，增加10%目标受到伤害，持续8秒。"
+    translated: "When one's Taoist knowledge is greater than 600, it reduces the target's external defense and internal resistance by 300, discipline by 200, and counters by 200 for 8 seconds upon dealing damage. When one's Buddhist knowledge is greater than 600, it reduces the target's inflicted damage by 10% for 8 seconds upon dealing damage. When one's Confucian knowledge is greater than 600, it applies a vulnerability effect to the target, increasing the damage received by 10% for 8 seconds upon dealing damage."
+- raw: "100500331#万川映月#1#23#1#1#8000#0####0##0#0#0#10000##0#0#1#0#0#-300#0#0#0#22|23#0#1#0#0####0#0#100500331#0##0#0#0#100500331##1#0#100500332#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500332#万川映月#1#23#1#1#8000#0####0##0#0#0#10000##0#0#1#0#0#-200#0#0#0#25|27#0#1#0#0####0#0#100500332#0##0#0#0#100500332##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500333#万川映月#1#15#0#1#0#0###0|43|600|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#100500334##0#1#0#0####0#0#100500333#0##0#0#0#100500333##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500334#万川映月#1#9#1#1#8000#0####0##0#0#0#10000##0#0#1#0#0#-10#0#0#0##0#1#0#0####0#0#100500334#0##0#0#0#100500334##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500335#万川映月#1#15#0#1#0#0###0|44|600|0#0##0#0#0#10000#1#1000#0#0#0#2#0#0#0#100500336##0#1#0#0####0#0#100500335#0##0#0#0#100500335##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500336#万川映月#1#11#1#1#8000#0####0##0#0#0#10000##0#0#1#0#0#10#0#0#0##0#1#0#0####0#0#100500336#0##0#0#0#100500336##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "万川映月"
+    translated: "Ten thousand streams reflect the moon"
+- raw: "100500340#玉女心经#1#15#0#1#0#0###4#0##0#0#0#10000#1048576#1000#0#0#0#0#0#0#0#1415##0#1#0#0#素心流转#战斗中，每秒获得10点闪避值与5点阴属性，上限90层；生命值低于40%时，冻结周围敌人，300秒触发一次。#buffnew_nijing#0#0#100500340#0##0#0#0#100500340##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玉女心经"
+    translated: "Jade Maiden Heart Scripture"
+  - split: 32
+    text: "素心流转"
+    translated: "Transferring of Xushin School Techniques"
+  - split: 33
+    text: "战斗中，每秒获得10点闪避值与5点阴属性，上限90层；生命值低于40%时，冻结周围敌人，300秒触发一次。"
+    translated: "In battle, gain 10 dodge points and 5 Yin attribute per second, with a maximum of 90 layers; when health drops below 40%, freeze nearby enemies, triggering once every 300 seconds."
+- raw: "100500341#玉女心经#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#10#75#0#0##0#1#0#0#素心#获得10点闪避值与5点阴属性，上限90层#buffnew_nijing#0#0#100500341#0##0#1#90#100500341##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玉女心经"
+    translated: "Jade Maiden Heart Scripture"
+  - split: 32
+    text: "素心"
+    translated: "Suxin"
+  - split: 33
+    text: "获得10点闪避值与5点阴属性，上限90层"
+    translated: "Gain 10 points of dodge and 5 points of Yin attribute; maximum limit at layer 90."
+- raw: "100500342#玉女心经#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#5#28#0#0##0#1#0#0####0#0#100500342#0##0#1#90#100500342##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玉女心经"
+    translated: "Jade Maiden Heart Scripture"
+- raw: "100500343#玉女心经#1#15#0#1#0#0###1|2|0|40|1#0##0#0#0#10000#1048576#300000#0#0#0#0#0#0#0#1416##0#1#0#0####0#0#100500343#0##0#0#0#100500343##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玉女心经"
+    translated: "Jade Maiden Heart Scripture"
+- raw: "100500344#玉女心经#1#20#3#1#4000#0##sfx_main_hero_130530_bing##0##0#3.0#180.0#10000##0#0#0#0#0#0#0#0#0##0#1#0#0####0#0#100500344#0##0#0#0#100500344##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "玉女心经"
+    translated: "Jade Maiden Heart Scripture"
+- raw: "100500350#怀璧归宗#1#5#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#100#20#0#30##0#1#0#0#点玉生莲#受击时，减少20%伤害，且将30%伤害返还给攻击者#buffnew_tanshang#0#0#100500350#0##0#0#0#100500350##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "怀璧归宗"
+    translated: "Return the jade to its ancestral home"
+  - split: 32
+    text: "点玉生莲"
+    translated: "Pluck jade, sprout lotus"
+  - split: 33
+    text: "受击时，减少20%伤害，且将30%伤害返还给攻击者"
+    translated: "When hit, reduce damage by 20%, and return 30% of the damage to the attacker."
+- raw: "100500360#紫微帝辉#1#9#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#12#0#0#0##0#1#0#0#倾天#获得8%的伤害减免和12%伤害增加；每降低30%的生命值，攻击时获得持续5秒效果：15%吸血效果#buffnew_tunna#0#0#100500360#0##0#0#0#100500360##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+  - split: 32
+    text: "倾天"
+    translated: "Poured from Heaven"
+  - split: 33
+    text: "获得8%的伤害减免和12%伤害增加；每降低30%的生命值，攻击时获得持续5秒效果：15%吸血效果"
+    translated: "Gain 8% damage reduction and 12% damage increase; gain a lasting effect for 5 seconds when attacking upon reducing health by 30%: 15% bloodsucking effect"
+- raw: "100500361#紫微帝辉#1#10#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#8#0#0#0##0#1#0#0####0#0#100500361#0##0#0#0#100500361##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500362#紫微帝辉#1#15#0#1#0#0###1|2|0|70|1#0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1417##0#1#0#0####0#0#100500362#0##0#0#0#100500362##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500363#紫微帝辉#1#15#0#1#0#0###1|2|0|40|1#0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1418##0#1#0#0####0#0#100500363#0##0#0#0#100500363##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500364#紫微帝辉#1#15#0#1#0#0###1|2|0|10|1#0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1419##0#1#0#0####0#0#100500364#0##0#0#0#100500364##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500365#紫微帝辉#1#8#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#15##0#1#0#0####0#0#100500365#0##0#0#0#100500365##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500366#紫微帝辉#1#8#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#15##0#1#0#0####0#0#100500366#0##0#0#0#100500366##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500367#紫微帝辉#1#8#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#15##0#1#0#0####0#0#100500367#0##0#0#0#100500367##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "紫微帝辉"
+    translated: "Zi Wei Di Hui"
+- raw: "100500370#九宫渡厄#1#15#0#1#0#0###4#0##0#0#0#10000#1048576#10000#0#0#0#0#0#0#0#1420##0#1#0#0#活爻死门#战斗中，每10秒可以抵抗一次攻击，且周围敌人减少80%治疗效果#buffnew_siji#0#0#100500370#0##0#0#0#100500370##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九宫渡厄"
+    translated: "Nine Palaces Cross‑Calamity"
+  - split: 32
+    text: "活爻死门"
+    translated: "Active Hexagram, Inauspicious Gate"
+  - split: 33
+    text: "战斗中，每10秒可以抵抗一次攻击，且周围敌人减少80%治疗效果"
+    translated: "In battle, every 10 seconds you can resist one attack and nearby enemies reduce your healing effect by 80%."
+- raw: "100500371#九宫渡厄#1#12#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#5#1#0#1##0#1#0#0#活爻#抵抗即将到来的一次攻击#buffnew_tieguzz#0#0#100500371#0##0#0#0#100500371##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九宫渡厄"
+    translated: "Nine Palaces Cross‑Calamity"
+  - split: 32
+    text: "活爻"
+    translated: "Active Hexagram"
+  - split: 33
+    text: "抵抗即将到来的一次攻击"
+    translated: "Resist the impending attack"
+- raw: "100500372#九宫渡厄#1#21#0#1#0#0####0##1#3.0#0#10000##0#0#0#0#0#0#0#0#0#100500373#0#1#0#0####0#0#100500372#0##0#0#0#100500372##4#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九宫渡厄"
+    translated: "Nine Palaces Cross‑Calamity"
+- raw: "100500373#九宫渡厄#1#49#0#1#0#0####0##2#0#0#10000##0#0#0#0#0#0#0#0#80##0#1#0#0#死门#减少80%治疗效果#buffnew_duyan#0#0#100500373#0##0#0#0#100500373##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "九宫渡厄"
+    translated: "Nine Palaces Cross‑Calamity"
+  - split: 32
+    text: "死门"
+    translated: "Gates of Death"
+  - split: 33
+    text: "减少80%治疗效果"
+    translated: "Reduce 80% healing effect"
+- raw: "100500380#三千魂引#1#15#0#1#0#0###1|2|0|30|1#0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1421##0#1#0#0#镇魄#当气血跌至30%时，攻击时获得持续5秒效果：造成伤害的30%转化为真气值，附加自身内力*2额外伤害#buffnew_xijing#0#0#100500380#0##0#0#0#100500380##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三千魂引"
+    translated: "Three Thousand Soul Calls"
+  - split: 32
+    text: "镇魄"
+    translated: "Soul Quelling"
+  - split: 33
+    text: "当气血跌至30%时，攻击时获得持续5秒效果：造成伤害的30%转化为真气值，附加自身内力*2额外伤害"
+    translated: "When lifeforce drops to 30%, gain a continuous effect for 5 seconds while attacking: Damage dealt is converted into 30% True Qi value and deals additional damage equal to the user's own Inner Power multiplied by 2."
+- raw: "100500381#三千魂引#1#33#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#1#0#0#30##0#1#0#0#玄光#造成伤害的30%转化为真气值，附加自身内力*2额外伤害#buffnew_zhiqi#0#0#100500381#0##0#0#0#100500381##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三千魂引"
+    translated: "Three Thousand Soul Calls"
+  - split: 32
+    text: "玄光"
+    translated: "Mysterious Radiance"
+  - split: 33
+    text: "造成伤害的30%转化为真气值，附加自身内力*2额外伤害"
+    translated: "The 30% of damage inflicted is converted into True Qi value, with additional extra damage amounting to self's Inner Power * 2."
+- raw: "100500382#三千魂引#1#30#0#1#5000#0####0##0#0#0#10000##0#0#2#0#1#20000#0#0#7##0#1#0#0####0#0#100500382#0##0#0#0#100500382##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "三千魂引"
+    translated: "Three Thousand Soul Calls"
+- raw: "100500390#天长地久#1#15#0#1#0#0####0##0#0#0#30#512#100#0#0#0#0#0#0#0#1422##0#1#0#0#天长地久#每次击杀一名敌人后，有30%几率恢复自身15%生命值；受到的所有伤害减少30%#buffnew_guixi#0#0#100500390#0##0#0#0#100500390##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天长地久"
+    translated: "As long as heaven and earth endure"
+  - split: 32
+    text: "天长地久"
+    translated: "As long as heaven and earth endure"
+  - split: 33
+    text: "每次击杀一名敌人后，有30%几率恢复自身15%生命值；受到的所有伤害减少30%"
+    translated: "Each time an enemy is defeated, there is a 30% chance to restore 15% of your own health; all received damage is reduced by 30%."
+- raw: "100500391#天长地久#0#3#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#15#0#0#0##0#1#0#0####0#0#100500391#0##0#0#0#100500391##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天长地久"
+    translated: "As long as heaven and earth endure"
+- raw: "100500392#天长地久#1#10#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#30#0#0#0##0#1#0#0####0#0#100500392#0##0#0#0#100500392##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天长地久"
+    translated: "As long as heaven and earth endure"
+- raw: "100500400#不死印法#1#15#0#1#0#0###1|2|0|10|1#0##0#0#0#10000#1048576#300000#0#0#0#0#0#0#0#1423##0#1#0#0#以生入灭#生命值低于10%时，立即恢复30%生命与50%真气，清除所有负面状态，在接下来的10秒内造成伤害提升20%，调息300秒;每次受到攻击时，回复2%最大内力。#buffnew_gangqi#0#0#100500400#0##0#0#0#100500400##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+  - split: 32
+    text: "以生入灭"
+    translated: "From birth into extinction"
+  - split: 33
+    text: "生命值低于10%时，立即恢复30%生命与50%真气，清除所有负面状态，在接下来的10秒内造成伤害提升20%，调息300秒;每次受到攻击时，回复2%最大内力。"
+    translated: "When health drops below 10%, immediately restore 30% health and 50% True Qi, clear all negative statuses, and for the next 10 seconds increase damage by 20%; meditate for 300 seconds. Each time you are attacked, recover 2% of maximum Inner Power."
+- raw: "100500401#不死印法#0#3#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#3000#0#0#0##0#1#0#0####0#0#100500401#0##0#0#0#100500401##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+- raw: "100500402#不死印法#0#19#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#5000#0#0#1##0#1#0#0####0#0#100500402#0##0#0#0#100500402##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+- raw: "100500403#不死印法#0#10#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#4#0#0#2##99#1#0#0####0#0#100500403#0##0#0#0#100500403##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+- raw: "100500404#不死印法#1#9#0#1#10000#0####0##0#0#0#10000##0#0#0#0#0#20#0#0#0##0#1#0#0#以生入灭#造成伤害提升20%#buffnew_hudw#0#0#100500404#0##0#0#0#100500404##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+  - split: 32
+    text: "以生入灭"
+    translated: "From birth into extinction"
+  - split: 33
+    text: "造成伤害提升20%"
+    translated: "Causes a 20% increase in damage inflicted"
+- raw: "100500405#不死印法#1#15#0#1#0#0####0##0#0#0#10000#1073741826#100#0#0#0#0#0#0#0#1424##0#1#0#0####0#0#100500405#0##0#0#0#100500405##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+- raw: "100500406#不死印法#0#19#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#200#0#0#1##0#1#0#0####0#0#100500406#0##0#0#0#100500406##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "不死印法"
+    translated: "Indelible Seal Technique"
+- raw: "100500410#天山折梅#1#15#0#1#0#0####0##0#0#0#30#1#100#0#0#0#2#0#0#0#100500411##0#1#0#0#傲雪#每次命中敌人时，有30%概率对目标造成25%内攻比例的伤害；每次攻击命中目标增加自身5%内攻，最多增加60%，持续5秒#buffnew_qiankun#0#0#100500410#0##0#0#0#100500410##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天山折梅"
+    translated: "Pluck Plum Blossoms on Mount Tian Shan"
+  - split: 32
+    text: "傲雪"
+    translated: "Pride in Snow"
+  - split: 33
+    text: "每次命中敌人时，有30%概率对目标造成25%内攻比例的伤害；每次攻击命中目标增加自身5%内攻，最多增加60%，持续5秒"
+    translated: "Each time you hit an enemy, there is a 30% chance to inflict damage on the target equal to 25% of your internal attack power; each successful attack increases your own internal attack by 5%, up to a maximum increase of 60%, lasting for 5 seconds."
+- raw: "100500411#天山折梅#0#1#1#1#0#0####0##0#0#0#10000##0#0#2#0#0#2500#0#0#21##0#1#0#0####0#0#100500411#0##0#0#0#100500411##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天山折梅"
+    translated: "Pluck Plum Blossoms on Mount Tian Shan"
+- raw: "100500412#天山折梅#1#15#0#1#0#0####0##0#0#0#10000#1#100#0#0#0#0#0#0#0#1425##0#1#0#0####0#0#100500412#0##0#0#0#100500412##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天山折梅"
+    translated: "Pluck Plum Blossoms on Mount Tian Shan"
+- raw: "100500413#天山折梅#1#4#0#1#5000#0####0##0#0#0#10000##0#0#1#0#0#5#1021#0#0##0#1#0#0#傲雪#增加自身5%内攻，最多增加60%，持续5秒#buffnew_qiankun#0#0#100500413#0##0#1#12#100500413##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天山折梅"
+    translated: "Pluck Plum Blossoms on Mount Tian Shan"
+  - split: 32
+    text: "傲雪"
+    translated: "Pride in Snow"
+  - split: 33
+    text: "增加自身5%内攻，最多增加60%，持续5秒"
+    translated: "Increase your own 5% internal attack by up to 60%, lasting for 5 seconds."
+- raw: "100500420#天魔大法#1#15#0#1#0#0###1|2|0|35|1#0##0#0#0#10000#1048576#30000#0#0#0#0#0#0#0#1426##0#1#0#0#禁忌#生命低于35%时：提升所有伤害30%，并反伤60%，持续6秒，调息30秒。#buffnew_hudw#0#0#100500420#0##0#0#0#100500420##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天魔大法"
+    translated: "Tianmo Great Method"
+  - split: 32
+    text: "禁忌"
+    translated: "Taboo"
+  - split: 33
+    text: "生命低于35%时：提升所有伤害30%，并反伤60%，持续6秒，调息30秒。"
+    translated: "When health drops below 35%: Increase all damage dealt by 30% and apply a counter‑damage effect of 60%, lasting for 6 seconds. Enter the state of regaining energy for 30 seconds."
+- raw: "100500421#天魔大法#1#9#0#1#6000#0####0##0#0#0#10000##0#0#0#0#0#30#0#0#0##0#1#0#0#禁忌#提升所有伤害30%，并反伤60%，持续6秒#buffnew_hudw#0#0#100500421#0##0#0#0#100500421##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天魔大法"
+    translated: "Tianmo Great Method"
+  - split: 32
+    text: "禁忌"
+    translated: "Taboo"
+  - split: 33
+    text: "提升所有伤害30%，并反伤60%，持续6秒"
+    translated: "Increase all damage by 30% and retaliate with 60% damage, lasting for 6 seconds."
+- raw: "100500422#天魔大法#1#5#0#1#6000#0####0##0#0#0#10000##0#0#0#0#0#100#0#0#60##0#1#0#0####0#0#100500422#0##0#0#0#100500422##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天魔大法"
+    translated: "Tianmo Great Method"
+- raw: "100500430#剑罡同流#1#15#0#1#0#0####0##0#0#0#25#1#100#0#0#0#0#0#0#0#1427##0#1#0#0#斩楼兰#命中时有25%的概率生成1层“罡脉”（最多5层）；无论多少层数，无视目标外防10%，持续10秒。满层时对周围敌人造成外攻威力为120的一次伤害，并消耗全部层数。#buffnew_zuiji#0#0#100500430#0##0#0#0#100500430##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑罡同流"
+    translated: "Sword techniques flowing together"
+  - split: 32
+    text: "斩楼兰"
+    translated: "Slash Loulan"
+  - split: 33
+    text: "命中时有25%的概率生成1层“罡脉”（最多5层）；无论多少层数，无视目标外防10%，持续10秒。满层时对周围敌人造成外攻威力为120的一次伤害，并消耗全部层数。"
+    translated: "On a hit, there is a 25% chance to generate up to 5 layers of “Gang Mai” (up to 1 layer). Regardless of the number of layers, it ignores the target's external defense by 10% for 10 seconds. Once full, it deals damage equal to an external attack power of 120 to nearby enemies and consumes all layers."
+- raw: "100500431#剑罡同流#1#31#0#1#10000#0####0##0#0#0#10000##0#0#0#0#1#50273#1#0#0##1428#1#0#0#罡脉#无视目标外防10%，持续10秒#buffnew_zuiji#0#0#100500431#0##0#5#5#100500431##2#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑罡同流"
+    translated: "Sword techniques flowing together"
+  - split: 32
+    text: "罡脉"
+    translated: "Gangmai"
+  - split: 33
+    text: "无视目标外防10%，持续10秒"
+    translated: "Ignore target's external defense 10%, lasting for 10 seconds."
+- raw: "100500432#剑罡同流#0#1#3#1#0#0####0##0#3.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#120#0#0####0#0#100500432#0##0#0#0#100500432##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "剑罡同流"
+    translated: "Sword techniques flowing together"
+- raw: "100500440#天地交征阴阳大悲赋#1#15#0#1#0#0####0##0#0#0#10000#513#2000#0#0#0#0#0#0#0#1429##0#1#0#0#逆乱#攻击命中目标或造成击杀时，获得“魂片”一枚（上限20），每2秒可获得一次。每枚魂片增加2%吸血与2%伤害。受伤时，有30%概率消耗10枚魂片生成20%最大生命值的护盾，魂片持续60秒。#buffnew_cunyang#0#0#100500440#0##0#0#0#100500440##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+  - split: 32
+    text: "逆乱"
+    translated: "Chaos Unleashed"
+  - split: 33
+    text: "攻击命中目标或造成击杀时，获得“魂片”一枚（上限20），每2秒可获得一次。每枚魂片增加2%吸血与2%伤害。受伤时，有30%概率消耗10枚魂片生成20%最大生命值的护盾，魂片持续60秒。"
+    translated: "When attacking a target or dealing a killing blow, you gain one Soul Fragment (up to 20), which can be obtained every 2 seconds. Each Soul Fragment increases the lifesteal by 2% and damage by 2%. When injured, there is a 30% chance to consume 10 Soul Fragments to generate a shield worth 20% of your maximum health, with the Soul Fragments lasting for 60 seconds."
+- raw: "100500441#天地交征阴阳大悲赋#1#8#0#1#60000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#2##0#1#0#0#魂片#增加2%吸血与2%伤害，可叠加20层#buffnew_cunyang#0#0#100500441#0##0#1#20#100500441##1#0#100500442#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+  - split: 32
+    text: "魂片"
+    translated: "Soul Slice"
+  - split: 33
+    text: "增加2%吸血与2%伤害，可叠加20层"
+    translated: "Increase 2% blood absorption and 2% damage; can stack up to 20 layers."
+- raw: "100500442#天地交征阴阳大悲赋#1#9#0#1#60000#0####0##0#0#0#10000##0#0#0#0#0#2#0#0#0##0#1#0#0####0#0#100500442#0##0#1#20#100500442##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+- raw: "100500443#天地交征阴阳大悲赋#1#15#0#1#0#0####0##0#0#0#30#1073741826#1000#0#0#0#0#0#0#0#1430##0#1#0#0####0#0#100500443#0##0#0#0#100500443##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+- raw: "100500444#天地交征阴阳大悲赋#0#28#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#100500441#10#0#100500445##0#1#0#0####0#0#100500444#0##0#0#0#100500444##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+- raw: "100500445#天地交征阴阳大悲赋#1#6#0#1#10000#0####0##0#0#0#10000##0#0#2#0#0#2000#0#0#0##0#1#0#0####0#0#100500445#0##0#0#0#100500445##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天地交征阴阳大悲赋"
+    translated: "The Great Lament of the Union of Heaven and Earth in the Campaign between Yin and Yang"
+- raw: "100500450#天心莲花#1#15#0#1#0#0####0##0#0#0#10000#1#3000#0#0#0#2#0#0#0#100500451##0#1#0#0#莲生#命中目标时叠加“瞳印”，降低该目标命中与要害10%，每3秒可叠加一次，3层时触发“凝视”造成短时失衡，移动速度与闪避均降30%，持续3s#buffnew_cifeihun#0#0#100500450#0##0#0#0#100500450##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天心莲花"
+    translated: "Heart of Heaven Lotus Flower"
+  - split: 32
+    text: "莲生"
+    translated: "Lotus is Born"
+  - split: 33
+    text: "命中目标时叠加“瞳印”，降低该目标命中与要害10%，每3秒可叠加一次，3层时触发“凝视”造成短时失衡，移动速度与闪避均降30%，持续3s"
+    translated: "When hitting a target, stack Pupil Mark to reduce the target's hit rate and vital point by 10% each time. Can be stacked once every 3 seconds; when reaching 3 layers, triggers Gaze, causing temporary disarray with movement speed and dodge both reduced by 30%, lasting for 3 seconds."
+- raw: "100500451#天心莲花#1#23#1#1#10000#0####0##2#0#0#10000##0#0#1#0#0#-10#0#0#0#1074|1026#1432#1#0#0#瞳印#命中与要害降低10%，持续十秒#buffnew_cifeihun#0#0#100500451#0##0#5#3#100500451##2#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天心莲花"
+    translated: "Heart of Heaven Lotus Flower"
+  - split: 32
+    text: "瞳印"
+    translated: "Pupil imprint"
+  - split: 33
+    text: "命中与要害降低10%，持续十秒"
+    translated: "Hit rate and vital point reduction by 10% for ten seconds."
+- raw: "100500452#天心莲花#1#4#0#1#3000#0####0##2#0#0#10000##0#0#1#0#0#-30#1090#0#0##0#1#0#0#凝视#移动速度与闪避降低30%，持续3s#buffnew_cifeihun#0#0#100500452#0##0#0#0#100500452##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天心莲花"
+    translated: "Heart of Heaven Lotus Flower"
+  - split: 32
+    text: "凝视"
+    translated: "Gazing intently"
+  - split: 33
+    text: "移动速度与闪避降低30%，持续3s"
+    translated: "Movement speed and dodge reduced by 30%, lasting for 3 seconds."
+- raw: "100500453#天心莲花#1#4#0#1#3000#0####0##2#0#0#10000##0#0#1#0#0#-30#1075#0#0##0#1#0#0####0#0#100500453#0##0#0#0#100500453##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "天心莲花"
+    translated: "Heart of Heaven Lotus Flower"
+- raw: "100500460#子午罡灭情道#1#15#0#1#0#0####0##0#0#0#10000#1#3000#0#0#0#2#0#0#0#100500461##0#1#0#0#灭情#对同一目标连续命中3次，每隔3秒计算一次命中次数，目标损失5%当前生命值，所有治疗效果对其降低15%。#buffnew_banruo#0#0#100500460#0##0#0#0#100500460##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "子午罡灭情道"
+    translated: "Ziwu Gang Mie Qing Dao"
+  - split: 32
+    text: "灭情"
+    translated: "Extinction of emotion"
+  - split: 33
+    text: "对同一目标连续命中3次，每隔3秒计算一次命中次数，目标损失5%当前生命值，所有治疗效果对其降低15%。"
+    translated: "Hits the same target 3 times consecutively. Every 3 seconds, count one hit time. The target loses 5% of its current health and all healing effects on it are reduced by 15%."
+- raw: "100500461#子午罡灭情道#1#9#1#1#10000#0####0##0#0#0#10000##0#0#0#0#1#0#0#0#0##1433#1#0#0####0#0#100500461#0##0#5#3#100500461##2#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "子午罡灭情道"
+    translated: "Ziwu Gang Mie Qing Dao"
+- raw: "100500462#子午罡灭情道#0#1#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#500#0#0#2##0#1#0#0####0#0#100500462#0##0#0#0#100500462##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "子午罡灭情道"
+    translated: "Ziwu Gang Mie Qing Dao"
+- raw: "100500463#子午罡灭情道#1#49#0#1#5000#0####0##2#0#0#10000##0#0#0#0#0#0#0#0#15##0#1#0#0#灭情#所有治疗效果降低15%。#buffnew_duzong#0#0#100500463#0##0#0#0#100500463##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "子午罡灭情道"
+    translated: "Ziwu Gang Mie Qing Dao"
+  - split: 32
+    text: "灭情"
+    translated: "Extinction of emotion"
+  - split: 33
+    text: "所有治疗效果降低15%。"
+    translated: "All healing effects reduced by 15%"
+- raw: "100500470#补天诀#1#15#0#1#0#0####0##0#0#0#10000#1073741826#8000#0#0#0#0#0#0#0#1434##0#1#0#0#神韵#当角色遭受攻击时生成持续3秒的护体效果，护体可吸收下一次攻击并解除控制效果。调息8秒。#buffnew_mianyi#0#0#100500470#0##0#0#0#100500470##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "补天诀"
+    translated: "Breath of Heaven Technique"
+  - split: 32
+    text: "神韵"
+    translated: "Shen Yun"
+  - split: 33
+    text: "当角色遭受攻击时生成持续3秒的护体效果，护体可吸收下一次攻击并解除控制效果。调息8秒。"
+    translated: "When the character is attacked, a protective effect lasting 3 seconds is generated. The protection can absorb the next attack and dispel control effects. Recenter for 8 seconds."
+- raw: "100500471#补天诀#1#15#0#1#0#0###3|16&3|17&3|19&3|20#0##0#0#0#50#1048576#8000#0#0#0#0#0#0#0#1434##0#1#0#0####0#0#100500471#0##0#0#0#100500471##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "补天诀"
+    translated: "Breath of Heaven Technique"
+- raw: "100500472#补天诀#1#12#0#1#3000#0####0##0#0#0#10000##0#0#0#0#0#5#1#0#1##0#1#0#0#护体#抵抗即将而来的一次攻击#buffnew_mianyi#0#0#100500472#0##0#0#0#100500472##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "补天诀"
+    translated: "Breath of Heaven Technique"
+  - split: 32
+    text: "护体"
+    translated: "Guarding one's body"
+  - split: 33
+    text: "抵抗即将而来的一次攻击"
+    translated: "Resist the impending attack"
+- raw: "100500473#补天诀#0#10#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#2#0#0#0#16|17|19|20#0#1#0#0####0#0#100500473#0##0#0#0#100500473##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "补天诀"
+    translated: "Breath of Heaven Technique"
+- raw: "100500480#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500491&1500#0#1#0#0#魔心#神刀·拔刀斩增强：额外造成自身20%已损失比例血量的伤害;燎原百八式增强：造成额外的3层灼阳;魔相神功增强：运功时清除自身可清除的减益效果;紫气天罗增强：运功时额外造成一段内攻威力120伤害;黑血神针增强：自身获得额外70诛心和70要害;天魔大法增强：反伤效果增强20%;剑罡同流增强：额外造成一次150外攻威力的伤害;天地交征阴阳大悲赋增强：护盾在受伤时可额外获得;天心莲花增强：凝视额外降低5%要害与5%命中;子午罡灭情道增强：额外降低60%治疗;补天诀增强：回复自身15%生命值#buffnew_zibao#0#0#100500480#0##0#0#0#100500480##1#112600#100500481|100500482|100500483|100500484|100500485|100500486|100500487|100500488|100500489|100500490#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+  - split: 32
+    text: "魔心"
+    translated: "Mo Xin"
+  - split: 33
+    text: "神刀·拔刀斩增强：额外造成自身20%已损失比例血量的伤害;燎原百八式增强：造成额外的3层灼阳;魔相神功增强：运功时清除自身可清除的减益效果;紫气天罗增强：运功时额外造成一段内攻威力120伤害;黑血神针增强：自身获得额外70诛心和70要害;天魔大法增强：反伤效果增强20%;剑罡同流增强：额外造成一次150外攻威力的伤害;天地交征阴阳大悲赋增强：护盾在受伤时可额外获得;天心莲花增强：凝视额外降低5%要害与5%命中;子午罡灭情道增强：额外降低60%治疗;补天诀增强：回复自身15%生命值"
+    translated: "God Sword · Draw Blade Slash Enhancement: Inflicts additional damage equal to 20% of your own current health loss; enhanced by Liao Yuan's Hundred‑Eight Form: Causes additional 3 layers of scorching Yang; enhances the Demon Form Divine Skill: During cultivation, one can clear any removable detrimental effects from oneself; Purple Qi Tianlao enhancement: While channeling energy, it additionally inflicts a segment of internal attack damage with power 120; enhanced by Black Blood Divine Needle: Self gains an additional 70 Mind Attack and 70 Vital Point; the Tianmo Dafa is enhanced: Increased counter‑damage effect by 20%; Enhanced synergy with Jian Gang technique: Inflicts additional damage with the power of one 150 external attack; enhances the effects of the Great Sorrow Bestowal from the Quest for Yin and Yang Harmony: The shield gains additional power upon taking damage; enhanced by Tianxin Lianhua: Gaze at a reduction of 5% on vital points and 5% on hit rate; enhance the flow of Ziwu Gang's destructive path: Reduce healing by 60%; enhance with Bu Tian Jue: Regain 15% of own health"
+- raw: "100500481#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#101040&2533|101040&2533|101040&2533#0#1#0#0####0#0#100500481#0##0#0#0#100500481##0#122200##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500482#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500492&0#0#1#0#0####0#0#100500482#0##0#0#0#100500482##0#153600##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500483#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500493&800#0#1#0#0####0#0#100500483#0##0#0#0#100500483##0#153700##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500484#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500494&0#0#1#0#0####0#0#100500484#0##0#0#0#100500484##0#162700##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500485#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500495&0#0#1#0#0####0#0#100500485#0##0#0#0#100500485##0#1426##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500486#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500496&0#0#1#0#0####0#0#100500486#0##0#0#0#100500486##0#1428##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500487#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500497&0#0#1#0#0####0#0#100500487#0##0#0#0#100500487##0#1430##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500488#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500498&0#0#1#0#0####0#0#100500488#0##0#0#0#100500488##0#1432##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500489#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500501&0#0#1#0#0####0#0#100500489#0##0#0#0#100500489##0#1433##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500490#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#100500502&0#0#1#0#0####0#0#100500490#0##0#0#0#100500490##0#1434##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法"
+    translated: "Demon Seed in Tao's Heart Technique"
+- raw: "100500491#道心种魔大法-神刀·拔刀斩修改#0#1#0#0#0#0####0##0#0#0#10000##0#0#5#0#0#20#0#0#0##2#1#0#0####0#0#100500491#0##0#0#0#100500491##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-神刀·拔刀斩修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Divine Blade · Drawing the Sword and Slashing Modification"
+- raw: "100500492#道心种魔大法-魔相神功#0#10#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#4#0#0#2##99#1#0#0####0#0#100500492#0##0#0#0#100500492##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-魔相神功"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Moxiang Shen Gong"
+- raw: "100500493#道心种魔大法-紫气天罗#0#1#3#1#0#0####0##0#3.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#0#120#0####0#0#100500493#0##0#0#0#100500493##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-紫气天罗"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Purple Mist Heavenly Net"
+- raw: "100500494#道心种魔大法-黑血神针#1#23#0#1#10000#0####0##0#0#0#10000##0#0#1#0#0#70#0#0#0#24|26#0#1#0#0####0#0#100500494#0##0#0#0#100500494##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-黑血神针"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Black Blood Divine Needle"
+- raw: "100500495#道心种魔大法-天魔大法修改#1#5#0#1#6000#0####0##0#0#0#10000##0#0#0#0#0#100#0#0#20##0#1#0#0####0#0#100500495#0##0#0#0#100500495##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-天魔大法修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Tianmo Dao Fa xiugai"
+- raw: "100500496#道心种魔大法-剑罡同流修改#0#1#3#1#0#0####0##0#3.0#180.0#10000##0#0#0#0#0#20#21#0#0##0#150#0#0####0#0#100500496#0##0#0#0#100500496##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-剑罡同流修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Modify sword channels flowing together"
+- raw: "100500497#道心种魔大法-天地交征阴阳大悲赋修改#1#6#0#1#10000#0####0##0#0#0#10000##0#0#2#0#0#2000#0#0#0##0#1#0#0####0#0#100500497#0##0#0#0#100500497##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-天地交征阴阳大悲赋修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Tian Di Jiao Zheng Yin Yang Da Bei Fu Modification"
+- raw: "100500498#道心种魔大法-天心莲花修改#1#4#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#-5#1026#0#0##0#1#0#0####0#0#100500498#0##0#0#0#100500498##1#0#100500499#0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-天心莲花修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Tianxin Lianhua Modified"
+- raw: "100500499#道心种魔大法-天心莲花修改#1#4#0#1#0#0####0##0#0#0#10000##0#0#1#0#0#-5#1074#0#0##0#1#0#0####0#0#100500499#0##0#0#0#100500499##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-天心莲花修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Tianxin Lianhua Modified"
+- raw: "100500500#弃用#1#15#0#1#0#0####0##0#0#0#10000#1#3000#0#0#0#2#0#0#0#100500501##0#1#0#0####0#0#100500500#0##0#0#0#100500500##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "弃用"
+    translated: "Discontinue"
+- raw: "100500501#道心种魔大法-子午罡灭情道修改#1#49#0#1#5000#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#60##0#1#0#0####0#0#100500501#0##0#0#0#100500501##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-子午罡灭情道修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Modify the Ziwu Gongsuoqing Dao"
+- raw: "100500502#道心种魔大法-补天诀修改#0#3#0#1#0#0####0##0#0#0#10000##0#0#2#0#0#1500#0#0#0##0#1#0#0####0#0#100500502#0##0#0#0#100500502##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "道心种魔大法-补天诀修改"
+    translated: "Demon Seed in Tao's Heart Technique ‑ Enhancement of the Heaven‑Repairing Technique"
+- raw: "100500503#弃用#1#12#0#1#3000#0####0##0#0#0#10000##0#0#0#0#0#5#1#0#1##0#1#0#0#护体#抵抗即将而来的一次攻击#buffnew_mianyi#0#0#100500503#0##0#0#0#100500503##0#0##0.0#0.0###"
+  splits:
+  - split: 1
+    text: "弃用"
+    translated: "Discontinue"
+  - split: 32
+    text: "护体"
+    translated: "Guarding one's body"
+  - split: 33
+    text: "抵抗即将而来的一次攻击"
+    translated: "Resist the impending attack"
 - raw: "100600000#伤心小箭#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1#5000#0#0#0#2#0#0#0#100600001##0#1#0#0#断肠红#对目标造成伤害时附加一次外攻威力为85，内功威力为200的额外伤害，调息2秒#buffnew_jianse#0#0#100600000#0#0#0#0#0#100600000#hurt_zhongji#0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -39243,7 +40623,7 @@
     translated: "Counterattack"
   - split: 33
     text: "在受到攻击时会释放反击技能"
-    translated: "When under attack, it releases counterattack skills"
+    translated: "When attacked, it releases a counterattack skill"
 - raw: "110190000#江湖刀法-格挡-反击-伤害#0#1#3#1#999#0#sound_dao_hurt2###0##0#1.7#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#15#5#0### #0#0#110190000#1#sfx_npc_dao_hit#0#0#0#110190000#hurt_zhongji#0#0##10.0#0.0###"
   splits:
   - split: 1
@@ -39344,7 +40724,7 @@
     translated: "Counterattack"
   - split: 33
     text: "在受到攻击时会释放反击技能"
-    translated: "When under attack, it releases counterattack skills"
+    translated: "When attacked, it releases a counterattack skill"
 - raw: "120190000#江湖拳法-格挡-反击-伤害#0#1#3#1#999#0#sound_quan_hurt2###0##0#1.7#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#40#40#0### #0#0#120190000#1#sfx_npc_quan_hit#0#0#0#120190000#hurt_zhongji#0#0##10.0#0.0###"
   splits:
   - split: 1
@@ -39445,7 +40825,7 @@
     translated: "Counterattack"
   - split: 33
     text: "在受到攻击时会释放反击技能"
-    translated: "When under attack, it releases counterattack skills"
+    translated: "When attacked, it releases a counterattack skill"
 - raw: "130190000#江湖枪法-格挡-反击-伤害#0#1#3#1#999#0#sound_qiang_hurt2###0##0#2.0#90.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#40#40#0### #0#0#130190000#1#sfx_npc_qiang_hit#0#0#0#130190000#hurt_zhongji#0#0##10.0#0.0###"
   splits:
   - split: 1

@@ -7,38 +7,8 @@ namespace Translate.Tests;
 
 public class TranslationWorkflowTests
 {
-    const string workingDirectory = "../../../../Files";
-    const string gameFolder = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\";
-
-    [Fact(DisplayName = "1. SplitDbAssets")]
-    public void SplitDbAssets()
-    {
-        TranslationService.SplitDbAssets(workingDirectory);
-    }
-
-    [Fact(DisplayName = "2. ExportAssetsIntoTranslated")]
-    public void ExportAssetsIntoTranslated()
-    {
-        TranslationService.ExportTextAssetsToCustomFormat(workingDirectory);
-    }
-
-    [Fact(DisplayName = "2. ExportDumpedIntoTranslated")]
-    public void ExportDumpedIntoTranslated()
-    {
-        TranslationService.ExportDumpedPrefabToCustomFormat(workingDirectory);
-    }
-
-    [Fact(DisplayName = "2. ExportDumpedDyanmicIntoTranslated")]
-    public void ExportDumpedDyanmicIntoTranslated()
-    {
-        TranslationService.ExportDynamicStringsToCustomFormat(workingDirectory);
-    }
-
-    [Fact(DisplayName = "2.5 MergeFilesIntoTranslated")]
-    public async Task MergeFilesIntoTranslated()
-    {
-        await TranslationService.MergeFilesIntoTranslatedAsync(workingDirectory);
-    }
+    public const string WorkingDirectory = "../../../../Files";
+    public const string GameFolder = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\";
 
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
@@ -64,115 +34,26 @@ public class TranslationWorkflowTests
         {
             int remaining = await UpdateCurrentTranslationLines(false);
             int iterations = 0;
-            while (remaining > 0 && iterations < 3)
+            while (remaining > 0 && iterations < 10)
             {
-                await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
+                await TranslationService.TranslateViaLlmAsync(WorkingDirectory, false);
                 remaining = await UpdateCurrentTranslationLines(false);
                 iterations++;
             }
 
-            await PackageFinalTranslation();
+            await FileOutputWorkflowTests.PackageFinalTranslation();
         }
         else
-            await TranslationService.TranslateViaLlmAsync(workingDirectory, false);
-    }
-
-    [Fact(DisplayName = "6. Package to Game Files")]
-    public async Task PackageFinalTranslation()
-    {
-        await TranslationService.PackageFinalTranslationAsync(workingDirectory);
-
-        var sourceDirectory = $"{workingDirectory}/Mod/{ModHelper.ContentFolder}";
-        var modDirectory = $"{gameFolder}/下一站江湖Ⅱ_Data/StreamingAssets/Mod/{ModHelper.ContentFolder}";
-        var resourceDirectory = $"{gameFolder}/BepInEx/resources";
-
-        if (Directory.Exists(modDirectory))
-            Directory.Delete(modDirectory, true);
-
-        TranslationService.CopyDirectory(sourceDirectory, modDirectory);
-
-        File.Copy($"{workingDirectory}/Mod/db1.txt", $"{resourceDirectory}/db1.txt", true);
-        foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
-            File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{resourceDirectory}/{file.Path}", true);
-
-        //await PackageRelease();
-    }
-
-    [Fact(DisplayName = "5. Copy Sprites")]
-    public async Task CopySprites()
-    {
-        await TranslationService.PackageFinalTranslationAsync(workingDirectory);
-
-        var sourceDirectory = $@"G:\xzyj2-sprites/completed";
-        var spritesDirectory = $"{gameFolder}/BepInEx/sprites";
-
-        if (Directory.Exists(spritesDirectory))
-            Directory.Delete(spritesDirectory, true);
-
-        TranslationService.CopyDirectory(sourceDirectory, spritesDirectory);
-    }
-
-    [Fact(DisplayName = "7. Zip Release")]
-    public async Task ZipRelease()
-    {
-        var version = ModHelper.CalculateVersionNumber();
-
-        string releaseFolder = $"{gameFolder}/ReleaseFolder/Files";
-
-        File.Copy($"{workingDirectory}/Mod/db1.txt", $"{releaseFolder}/BepInEx/resources/db1.txt", true);
-        File.Copy($"{workingDirectory}/Mod/Formatted/dumpedPrefabText.txt", $"{releaseFolder}/BepInEx/resources/dumpedPrefabText.txt", true);
-        File.Copy($"{gameFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", $"{releaseFolder}/BepInEx/Plugins/FanslationStudio.EnglishPatch.dll", true);
-        File.Copy($"{gameFolder}/BepInEx/Plugins/FanslationStudio.SharedAssembly.dll", $"{releaseFolder}/BepInEx/Plugins/FanslationStudio.SharedAssembly.dll", true);
-        //File.Copy($"{gameFolder}/BepInEx/Translation/en/Text/resizer.txt", $"{releaseFolder}/BepInEx/Translation/en/Text/resizer.txt", true);
-
-        foreach (var file in TranslationService.GetTextFilesToSplit().Where(t => t.TextFileType != TextFileType.RegularDb))
-            File.Copy($"{workingDirectory}/Mod/Formatted/{file.Path}", $"{releaseFolder}/BepInEx/resources/{file.Path}", true);
-
-        List<string> copyDirs = ["sprites", "resizers"];
-        foreach (var copyDir in copyDirs)
-        {
-            var newDirectory = $"{releaseFolder}/BepInEx/{copyDir}";
-            if (Directory.Exists(newDirectory))
-                Directory.Delete(newDirectory, true);
-
-            TranslationService.CopyDirectory($"{gameFolder}/BepInEx/{copyDir}", newDirectory);
-        }
-
-        ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
-
-        await Task.CompletedTask;
-    }
-
-    [Fact(DisplayName = "0. Check File Lines Match")]
-    public void CheckFileLinesMatch()
-    {
-        var config = Configuration.GetConfiguration(workingDirectory);
-        var badFiles = new List<string>();
-
-        foreach (var textFile in TranslationService.GetTextFilesToSplit())
-        {
-            var file = $"{workingDirectory}/Raw/Export/{textFile.Path}";
-            var convertedFile = $"{workingDirectory}/Converted/{textFile.Path}";
-
-            var deserializer = Yaml.CreateDeserializer();
-
-            var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(file));
-            var convertedLines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText(convertedFile)); ;
-
-            if (lines.Count != convertedLines.Count)
-                badFiles.Add($"Bad File: {Path.GetFileName(file)} Export: {lines.Count} Converted: {convertedLines.Count} ");
-
-            Assert.Empty(badFiles);
-        }
+            await TranslationService.TranslateViaLlmAsync(WorkingDirectory, false);
     }
 
     [Fact(DisplayName = "0. Reset All Flags")]
     public async Task ResetAllFlags()
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = Configuration.GetConfiguration(WorkingDirectory);
         var serializer = Yaml.CreateSerializer();
 
-        await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             foreach (var line in fileLines)
                 foreach (var split in line.Splits)
@@ -185,51 +66,31 @@ public class TranslationWorkflowTests
 
     public static async Task<int> UpdateCurrentTranslationLines(bool resetFlag)
     {
-        var config = Configuration.GetConfiguration(workingDirectory);
+        var config = Configuration.GetConfiguration(WorkingDirectory);
         var totalRecordsModded = 0;
         var logLines = new ConcurrentBag<string>();
 
-        string[] fullFileRetrans = [
-            //"horoscope.txt",
-            //"randomname.txt",
-            //"randomnamenew.txt"
-        ];
-
-        // Use this when we've changed a glossary value that doesnt check hallucination
-        var newGlossaryStrings = new List<string>
-        {
-            //"羽士",
-            //"[发现宝箱]",
-            //"[石化]",
-            //"[开心]",
-            //"[不知所措]",
-            //"[疑问]",
-            //"[担忧]",
-            //"[生气]",
-            //"[哭泣]",
-            //"[惊讶]",
-            //"[发怒]",
-            //"[抓狂]",
-            //"[委屈]",
+        string[] fullFileRetrans = [];
+        var newGlossaryStrings = new List<string>{};
+        var badRegexes = new List<string>{ 
+            //"<size=[^>]+>" 
         };
 
-        var badRegexes = new List<string>
-        {
-            //"·", //Figure out split before doing this
-            //@"\(.*，.*\)" //Put back for big files
-            //@"\|",
-        };
+        // Compile regexes once for reuse
+        var compiledBadRegexes = badRegexes.Select(r => new Regex(r, RegexOptions.Compiled)).ToList();
+        var chineseCharRegex = new Regex(LineValidation.ChineseCharPattern, RegexOptions.Compiled);
 
-        //await TranslationService.IterateTranslatedFilesInParallelAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
-        //Use non-parallel for debugging
-        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFile, fileLines) =>
+        // Use parallelization for file iteration
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFile, fileLines) =>
         {
             var serializer = Yaml.CreateSerializer();
-
             int recordsModded = 0;
 
-            foreach (var line in fileLines)
+            // Use Parallel.For for splits if thread-safe
+            Parallel.ForEach(fileLines, line =>
             {
+                // Only one StringTokenReplacer per line
+                var tokenReplacer = new StringTokenReplacer();
                 foreach (var split in line.Splits)
                 {
                     // Reset all the retrans flags
@@ -239,16 +100,16 @@ public class TranslationWorkflowTests
                     if (fullFileRetrans.Contains(textFile.Path))
                     {
                         split.FlaggedForRetranslation = true;
-                        recordsModded++;
+                        Interlocked.Increment(ref recordsModded);
                         continue;
                     }
 
-                    if (UpdateSplit(logLines, newGlossaryStrings, badRegexes, split, textFile, config))
-                        recordsModded++;
+                    if (UpdateSplitOptimized(logLines, newGlossaryStrings, compiledBadRegexes, split, textFile, config, chineseCharRegex, tokenReplacer))
+                        Interlocked.Increment(ref recordsModded);
                 }
-            }
+            });
 
-            Interlocked.Add(ref totalRecordsModded, recordsModded); // Use atomic operation for updating totalRecordsModded
+            Interlocked.Add(ref totalRecordsModded, recordsModded);
             if (recordsModded > 0 || resetFlag)
             {
                 Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
@@ -257,29 +118,48 @@ public class TranslationWorkflowTests
         });
 
         Console.WriteLine($"Total Lines: {totalRecordsModded} records");
-        File.WriteAllLines($"{workingDirectory}/TestResults/LineValidationLog.txt", logLines);
+        File.WriteAllLines($"{WorkingDirectory}/TestResults/LineValidationLog.txt", logLines);
 
         return totalRecordsModded;
     }
 
-    public static bool UpdateSplit(ConcurrentBag<string> logLines, List<string> newGlossaryStrings, List<string> badRegexes, TranslationSplit split, TextFileToSplit textFile,
-        LlmConfig config)
+    public static bool UpdateSplitOptimized(
+        ConcurrentBag<string> logLines,
+        List<string> newGlossaryStrings,
+        List<Regex> compiledBadRegexes,
+        TranslationSplit split,
+        TextFileToSplit textFile,
+        LlmConfig config,
+        Regex chineseCharRegex,
+        StringTokenReplacer tokenReplacer)
     {
-        var pattern = LineValidation.ChineseCharPattern;
         bool modified = false;
         bool cleanWithGlossary = true;
-
-        //////// Quick Validation here
 
         if (!split.SafeToTranslate)
             return false;
 
+        if (textFile.TextFileType == TextFileType.LocalTextString)
+        {
+            if (TranslationService.IsGameObjectReference(split.Text))
+            {
+                if (split.Text != split.Translated)
+                {
+                    split.Translated = split.Text;
+                    split.ResetFlags();
+                    return true;
+                }
+                else
+                    return false;
+            }
+        }
+
         // If it is already translated or just special characters return it
-        var tokenReplacer = new StringTokenReplacer();
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
         var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, textFile, tokenReplacer);
         var preparedResultRaw = LineValidation.CleanupLineBeforeSaving(preparedRaw, preparedRaw, textFile, tokenReplacer);
-        if (!Regex.IsMatch(preparedRaw, pattern) && split.Translated != cleanedRaw && split.Translated != preparedResultRaw)
+
+        if (!chineseCharRegex.IsMatch(preparedRaw) && split.Translated != cleanedRaw && split.Translated != preparedResultRaw)
         {
             logLines.Add($"Already Translated {textFile.Path} \n{split.Translated}");
             split.Translated = preparedResultRaw;
@@ -297,9 +177,9 @@ public class TranslationWorkflowTests
             }
         }
 
-        foreach (var badRegex in badRegexes)
+        foreach (var badRegex in compiledBadRegexes)
         {
-            if (Regex.IsMatch(split.Text, badRegex))
+            if (badRegex.IsMatch(split.Text))
             {
                 logLines.Add($"Bad Regex {textFile.Path} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
@@ -318,7 +198,7 @@ public class TranslationWorkflowTests
                 split.SafeToTranslate = false;
                 return true;
             }
-        }
+        }       
 
         // Add Manual Translations in that are missing
         if (textFile.EnableGlossary)
@@ -348,14 +228,6 @@ public class TranslationWorkflowTests
             return true;
         }
 
-        // Temp force retrans of splits because of changes in calcs
-        //foreach (var splitCharacters in TranslationService.SplitCharactersList)
-        //    if (preparedRaw.Contains(splitCharacters))
-        //    {
-        //        split.FlaggedForRetranslation = true;
-        //        return true;
-        //    }
-
         if (MatchesBadWords(split.Translated))
         {
             split.FlaggedForRetranslation = true;
@@ -370,23 +242,7 @@ public class TranslationWorkflowTests
             modified = CheckHallucinationGlossary(config, split, modified, textFile);
         }
 
-        // Characters
-        //if (preparedRaw.Contains("?")
-        //    && !split.Translated.Contains("?"))
-        //{
-        //    Console.WriteLine($"Missing ? {outputFile} Replaces: \n{split.Translated}");
-        //    split.FlaggedForRetranslation = true;
-        //    modified = true;
-        //}
-
-        //if (preparedRaw.Contains("!")
-        //    && !split.Translated.Contains("!"))
-        //{
-        //    Console.WriteLine($"Missing ! {outputFile} Replaces: \n{split.Translated}");
-        //    split.FlaggedForRetranslation = true;
-        //    modified = true;
-        //}
-
+        // Characters  
         if (preparedRaw.EndsWith("...")
             && preparedRaw.Length < 15
             && !split.Translated.EndsWith("...")
@@ -407,7 +263,6 @@ public class TranslationWorkflowTests
             modified = true;
         }
 
-
         // Trim line
         if (split.Translated.Trim().Length != split.Translated.Length)
         {
@@ -415,14 +270,6 @@ public class TranslationWorkflowTests
             split.Translated = split.Translated.Trim();
             modified = true;
         }
-
-        // Add . into Dialogue
-        //if (outputFile.EndsWith("stringlang.txt") && char.IsLetter(split.Translated[^1]) && preparedRaw != split.Translated)
-        //{
-        //    logLines.Add($"Needed full stop:{textFile.Path} \n{split.Translated}");
-        //    split.Translated += '.';
-        //    modified = true;
-        //}
 
         // Clean up Diacritics -- Use a new tokenizer because the translated isnt generated off the prep raw
         var cleanedUp = LineValidation.CleanupLineBeforeSaving(split.Translated, preparedRaw, textFile, new StringTokenReplacer());
@@ -547,7 +394,7 @@ public class TranslationWorkflowTests
     {
         HashSet<string> words =
         [
-            "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado", 
+            "hiu", "tut", "thut", "oi", "avo", "porqe", "obrigado",
             "knight", "knights", "knight-at-arms", "knights-errant",
             "nom", "esto", "tem", "mais", "com", "ver", "nos", "sobre", "vermos",
             "dar", "nam", "J'ai", "je", "veux", "pas", "ele", "una", "keqi", "shiwu",

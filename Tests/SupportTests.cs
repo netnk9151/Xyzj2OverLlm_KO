@@ -167,7 +167,7 @@ public class SupportTests
         var sects = new List<string>();
         var places = new List<string>();
 
-        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             if (outputFile.EndsWith("buildprototype.txt"))
             {
@@ -220,30 +220,30 @@ public class SupportTests
         File.WriteAllLines($"{workingDirectory}/TestResults/ExportGlossary.yaml", glossary);
     }
 
-    [Fact]
-    public void GetEmojiNames()
-    {
-        var emojiNames = new List<string>();
+    //[Fact]
+    //public void GetEmojiNames()
+    //{
+    //    var emojiNames = new List<string>();
 
-        var deserializer = Yaml.CreateDeserializer();
-        var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText($"{workingDirectory}/Converted/emoji.txt"));
+    //    var deserializer = Yaml.CreateDeserializer();
+    //    var lines = deserializer.Deserialize<List<TranslationLine>>(File.ReadAllText($"{workingDirectory}/Converted/emoji.txt"));
 
-        foreach (var line in lines)
-        {
-            if (line.Splits.Count == 0)
-                continue;
+    //    foreach (var line in lines)
+    //    {
+    //        if (line.Splits.Count == 0)
+    //            continue;
 
-            var emojiCode = $"\"[{line.Splits[0].Text}]\",";
+    //        var emojiCode = $"\"[{line.Splits[0].Text}]\",";
 
-            if (!emojiNames.Contains(emojiCode))
-                emojiNames.Add(emojiCode);
+    //        if (!emojiNames.Contains(emojiCode))
+    //            emojiNames.Add(emojiCode);
 
-            //TODO: Token replace these and then remove emoji from the replacement list
-            //First check theres nothing in Dynamic strings
-        }
+    //        //TODO: Token replace these and then remove emoji from the replacement list
+    //        //First check theres nothing in Dynamic strings
+    //    }
 
-        File.WriteAllLines($"{workingDirectory}/TestResults/ExportEmoji.yaml", emojiNames);
-    }
+    //    File.WriteAllLines($"{workingDirectory}/TestResults/ExportEmoji.yaml", emojiNames);
+    //}
 
     [Fact]
     public void TestDLCPrototype()
@@ -310,7 +310,7 @@ public class SupportTests
 
         var sects = new List<string>();
 
-        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             if (outputFile.EndsWith("condition_group.txt"))
             {
@@ -352,7 +352,7 @@ public class SupportTests
         var placeholders = new List<string>();
         var pattern = LineValidation.PlaceholderMatchPattern;
 
-        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             foreach (var line in fileLines)
             {
@@ -382,7 +382,7 @@ public class SupportTests
 
         var forTheGlossary = new List<string>();
 
-        await TranslationService.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
         {
             foreach (var line in fileLines)
             {
