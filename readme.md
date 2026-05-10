@@ -28,7 +28,16 @@
 ### 작업 방법 안내 (추가 예정)
 
 
+### 추가 파일 안내
+parser.py: input.txt 파일에서 text: "원문" 다음에 바로 다음 번역해야 할 대상이 나오는 경우를 추려내는 용도
 
+retranslateremover.py: 입력한 경로의 파일에서 retranslate 플래그가 활성화 된 부분을 지우는 용도
+
+search.py: 입력한 경로의 yaml 파일 중 yaml 파일 규격을 따르지 않는 부분이 있는지 찾는 용도
+
+syntaxsearch.py: 입력한 경로 내 .txt, .yaml, .yml 확장자 파일 중 현재 프로그램의 규격에 맞지 않는 부분이 있는 걸 찾는 용도
+
+unicodetochinese.bat : 입력한 유니코드가 어떤 한자인지 알려주는 프로그램
 
 
 
