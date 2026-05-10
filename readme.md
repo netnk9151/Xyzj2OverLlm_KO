@@ -21,7 +21,7 @@
 
 # 제보
 
-[네이버 소요객잔][(https://cafe.naver.com/beemu)]
+[네이버 소요객잔](https://cafe.naver.com/beemu)
 
 
   
