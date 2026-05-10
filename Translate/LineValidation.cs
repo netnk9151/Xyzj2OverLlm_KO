@@ -33,7 +33,8 @@ public static partial class LineValidation
             .Replace("？", "?")
             .Replace("、", ",")
             .Replace("，", ",")
-            .Replace("！", "!");
+            .Replace("！", "!")
+            .Replace("<TEMP_SPLIT>", ""); //This is just fkn wierd
 
         //if (raw.Contains("<"))
         //    raw = HtmlTagValidator.TrimHtmlTagsInContent(raw);
@@ -183,6 +184,8 @@ public static partial class LineValidation
 
         if (string.IsNullOrEmpty(raw))
             response = false;
+
+        raw = raw.Replace("<TEMP_SPLIT>", ""); //This is just fkn wierd - oh its actually an escaped #
 
         var invalidPhrases = new[]
         {

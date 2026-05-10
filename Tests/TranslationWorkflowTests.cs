@@ -97,6 +97,15 @@ public class TranslationWorkflowTests
                     if (resetFlag)
                         split.ResetFlags(false);
 
+                    if (textFile.TextFileType == TextFileType.DynamicStrings && 
+                        split.SafeToTranslate &&
+                        line.Raw.Contains("LegionZoneGameSDK"))
+                    {
+                        split.SafeToTranslate = false;
+                        Interlocked.Increment(ref recordsModded);
+                        continue;
+                    }
+
                     if (fullFileRetrans.Contains(textFile.Path))
                     {
                         split.FlaggedForRetranslation = true;
@@ -152,6 +161,12 @@ public class TranslationWorkflowTests
                 else
                     return false;
             }
+
+            //if (split.Text.Contains("<TEMP_SPLIT>"))
+            //{
+            //    split.FlaggedForRetranslation = true;
+            //    return true;
+            //}
         }
 
         // If it is already translated or just special characters return it
@@ -198,7 +213,15 @@ public class TranslationWorkflowTests
                 split.SafeToTranslate = false;
                 return true;
             }
-        }       
+        }  
+        else
+        {
+            if (split.Text.Contains(".exe"))
+            {
+                split.SafeToTranslate = false;
+                return true;
+            }
+        }
 
         // Add Manual Translations in that are missing
         if (textFile.EnableGlossary)
