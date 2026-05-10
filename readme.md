@@ -8,7 +8,7 @@
 
 설치 방법:
 
-[한패 파일][(https://github.com/netnk9151/Xyzj2OverLlm_KO/releases/tag/Korean)]을 받아 하일참강호가 설치된 곳에 압축풀기.
+[한패 파일](https://github.com/netnk9151/Xyzj2OverLlm_KO/releases/tag/Korean)을 받아 하일참강호가 설치된 곳에 압축풀기.
 
 예) Steam\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ
 
