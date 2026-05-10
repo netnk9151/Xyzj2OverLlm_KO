@@ -42,17 +42,41 @@ public class LlmConfig
 public static class Configuration
 {
     public static LlmConfig GetConfiguration(string workingDirectory)
-    {       
+    {
         var deserializer = Yaml.CreateDeserializer();
-        var response = deserializer.Deserialize<LlmConfig>(File.ReadAllText($"{workingDirectory}/Config.yaml", Encoding.UTF8));
+
+        // 1. Config.yaml 로드 (프로그램 실행을 위한 필수 설정)
+        var configText = File.ReadAllText($"{workingDirectory}/Config.yaml", Encoding.UTF8);
+        var response = deserializer.Deserialize<LlmConfig>(configText);
+
+        if (response == null)
+        {
+            throw new Exception("Config.yaml 파일을 로드할 수 없습니다. 파일 내용을 확인해주세요.");
+        }
 
         response.WorkingDirectory = workingDirectory;
         response.Prompts = CachePrompts(workingDirectory);
-        response.GlossaryLines = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/Glossary.yaml", Encoding.UTF8));
-        response.ManualTranslations = deserializer.Deserialize<List<GlossaryLine>>(File.ReadAllText($"{workingDirectory}/ManualTranslations.yaml", Encoding.UTF8));
 
-        foreach(var line in response.GlossaryLines)
-            line.Result = line.Result.Replace("-", "\u2011"); //Change Hyphens to non breaking hyphens
+        // 2. Glossary.yaml 로드 
+        // 파일 내용을 읽은 후, Deserialize 결과가 null이면 빈 리스트(new List<GlossaryLine>())를 할당함
+        var glossaryText = File.ReadAllText($"{workingDirectory}/Glossary.yaml", Encoding.UTF8);
+        response.GlossaryLines = deserializer.Deserialize<List<GlossaryLine>>(glossaryText) ?? new List<GlossaryLine>();
+
+        // 3. ManualTranslations.yaml 로드
+        // 마찬가지로 파일이 비어있어 null이 반환될 경우를 대비해 빈 리스트를 할당함
+        var manualText = File.ReadAllText($"{workingDirectory}/ManualTranslations.yaml", Encoding.UTF8);
+        response.ManualTranslations = deserializer.Deserialize<List<GlossaryLine>>(manualText) ?? new List<GlossaryLine>();
+
+        // 4. GlossaryLines 데이터 가공 (내용이 있을 때만 실행됨)
+        // response.GlossaryLines가 위에서 null 방어를 했기 때문에 foreach에서 에러가 나지 않음
+        foreach (var line in response.GlossaryLines)
+        {
+            // line 자체가 null이 아니고, line.Result 값이 null이 아닐 때만 Replace 수행
+            if (line?.Result != null)
+            {
+                line.Result = line.Result.Replace("-", "\u2011"); // Change Hyphens to non-breaking hyphens
+            }
+        }
 
         return response;
     }

@@ -97,7 +97,7 @@ public static class TranslationService
 
         // Create an HttpClient instance
         using var client = new HttpClient();
-        client.Timeout = TimeSpan.FromSeconds(300);
+        client.Timeout = TimeSpan.FromSeconds(900);
 
         if (config.ApiKeyRequired)
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", config.ApiKey);

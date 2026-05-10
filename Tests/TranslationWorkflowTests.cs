@@ -8,7 +8,7 @@ namespace Translate.Tests;
 public class TranslationWorkflowTests
 {
     public const string WorkingDirectory = "../../../../Files";
-    public const string GameFolder = "G:\\SteamLibrary\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\";
+    public const string GameFolder = "F:\\Program Files (x86)\\Steam\\steamapps\\common\\下一站江湖Ⅱ\\下一站江湖Ⅱ\\";
 
     [Fact(DisplayName = "3. ApplyRulesToCurrentTranslation")]
     public async Task ApplyRulesToCurrentTranslation()
@@ -173,7 +173,8 @@ public class TranslationWorkflowTests
         var preparedRaw = LineValidation.PrepareRaw(split.Text, tokenReplacer);
         var cleanedRaw = LineValidation.CleanupLineBeforeSaving(split.Text, split.Text, textFile, tokenReplacer);
         var preparedResultRaw = LineValidation.CleanupLineBeforeSaving(preparedRaw, preparedRaw, textFile, tokenReplacer);
-
+		//한자 병기를 하더라도 건너뛰지 않게 함. 다시 되돌리려면 주석 처리한 내용을 원상복구 시킬 것.
+		/*
         if (!chineseCharRegex.IsMatch(preparedRaw) && split.Translated != cleanedRaw && split.Translated != preparedResultRaw)
         {
             logLines.Add($"Already Translated {textFile.Path} \n{split.Translated}");
@@ -181,7 +182,7 @@ public class TranslationWorkflowTests
             split.ResetFlags();
             return true;
         }
-
+		*/
         foreach (var glossary in newGlossaryStrings)
         {
             if (preparedRaw.Contains(glossary))

@@ -42,14 +42,14 @@ public static class LlmHelpers
             var requestBody = new
             {
                 model = config.Model,
-                temperature = 0.1,
-                max_tokens = 1000,
-                top_p = 1.0,
-                top_k = 20,
-                min_p = 0.05,
+                temperature = 1,
+                max_tokens = 8192,
+                top_p = 0.95,
+                top_k = 64,
+                min_p = 0,
                 frequency_penalty = 0,
                 presence_penalty = 0,
-                stream = false,
+                stream = true,
                 messages
             };
 

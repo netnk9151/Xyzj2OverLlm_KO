@@ -19,7 +19,7 @@ public class TextResizerTests
     {
         var inputFolder = $"{workingDirectory}/Resizers";
         inputFolder = Path.GetFullPath(inputFolder);
-        var outputFolder = @"G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\resizers";
+        var outputFolder = @"F:\Program Files (x86)\Steam\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\resizers";
 
         if (Directory.Exists(outputFolder))
         {
@@ -70,7 +70,7 @@ public class TextResizerTests
     //[Fact]
     //public void BackupResizersTest()
     //{
-    //    var folder = $@"G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\resizers/";
+    //    var folder = $@"F:\Program Files (x86)\Steam\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\resizers/";
     //    var outputFolder = $"{workingDirectory}/Resizers";
     //    if (Directory.Exists(outputFolder))
     //        Directory.Delete(outputFolder, true);

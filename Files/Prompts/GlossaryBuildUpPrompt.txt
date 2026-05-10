@@ -14,8 +14,8 @@ If there are no matches - do not return anything.
 If there are matches - For each match, you need to provide the following details:
 - Criteria: The criterion that the text fits.
 - Original Text: The original Chinese text.
-- Translated Text: The translated text in English.
-- Transliterated Text: The pinyin or transliterated text.
+- Translated Text: The translated text in Korean.
+- Transliterated Text: The transliterated text in Korean.
 
 You MUST NOT use any other criterion.
 You MUST respond in VALID Json

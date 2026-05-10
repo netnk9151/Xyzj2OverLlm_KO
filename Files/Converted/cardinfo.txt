@@ -2,1574 +2,1574 @@
   splits:
   - split: 1
     text: "以雌守雄"
-    translated: "To guard a male by becoming a female"
+    translated: "암컷으로써 수컷을 지키다"
   - split: 15
     text: "对对手单个角色造成自身{2&0}%最大辩力的伤害"
-    translated: "Deal damage to a single opponent equal to {2&0}% of your maximum debate power."
+    translated: "상대방 캐릭터 하나에게 자신의 {2&0}% 최대 변력에 해당하는 피해를 입힙니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "2#刚柔并济#0#1#0#0#1|1#0#100&0#1#10007#0#0#20&0#1#对对手单个角色造成自身{2&0}%最大辩力的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "刚柔并济"
-    translated: "A harmonious balance of strength and gentleness"
+    translated: "강유겸전"
   - split: 15
     text: "对对手单个角色造成自身{2&0}%最大辩力的伤害"
-    translated: "Deal damage to a single opponent equal to {2&0}% of your maximum debate power."
+    translated: "상대방 캐릭터 하나에게 자신의 {2&0}% 최대 변력에 해당하는 피해를 입힙니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "3#与时迁移#0#1#0#0#2|2#0#100&0|100&0#1#10065|5003#0#0#50&0|0&0#4#提升自身{2&0}%最大辩力，自身添加迁移论点。#无#0#0#0#4#100003#0#0#0#0#1#"
   splits:
   - split: 1
     text: "与时迁移"
-    translated: "Adapt to changing times"
+    translated: "시의 흐름에 따라 변하다"
   - split: 15
     text: "提升自身{2&0}%最大辩力，自身添加迁移论点。"
-    translated: "Enhance your own {2&0}% maximum debate power, adding migratory arguments to yourself."
+    translated: "자신의 최대 변론력을 {2&0}% 향상시키고, 자신에게 이주 논점을 추가합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "4#应物变化#0#1#1#0#0|0#6#100&0#1#10046#0#0#-50&0#0#回复自身{2&0}%最大辩力的辩力#造成对手任意角色退场#0#0#0|16&=&3&0|15&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "应物变化"
-    translated: "Adaptation to circumstances"
+    translated: "물질 변화에 대응함"
   - split: 15
     text: "回复自身{2&0}%最大辩力的辩力"
-    translated: "Reversal power back to self {2&0}% of maximum defense skill."
+    translated: "자신의 최대 변력 {2&0}%만큼 변력을 회복합니다"
   - split: 16
     text: "造成对手任意角色退场"
-    translated: "Cause any opponent's character to leave at will"
+    translated: "상대방의 캐릭터를 임의로 퇴장시킵니다"
 - raw: "5#虚无为本#0#1#1#0#1|1#10#100&0#1#10065#0#0#15&0#0#提升自身{2&0}%最大辩力#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "虚无为本"
-    translated: "Embrace Nothingness as the Foundation"
+    translated: "허무를 근본으로 삼다"
   - split: 15
     text: "提升自身{2&0}%最大辩力"
-    translated: "Increase maximum defense power by {2&0}%"
+    translated: "자신의 최대 변력 {2&0}%을 증가합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "6#因循为用#0#1#1#0#2|2#10#100&0#1#10065#0#0#15&0#0#提升自身{2&0}%最大辩力#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "因循为用"
-    translated: "Acting according to convention"
+    translated: "구습을 답습하여 사용함"
   - split: 15
     text: "提升自身{2&0}%最大辩力"
-    translated: "Increase maximum defense power by {2&0}%"
+    translated: "자신의 최대 변력 {2&0}%을 증가합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "7#因时为业#0#1#1#0#3|3#1#100&0#1#10046#0#0#-30&0#0#回复自身{2&0}%最大辩力的辩力#我方首回合#1#0#0|6&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "因时为业"
-    translated: "Act according to the times"
+    translated: "때를 업으로 삼다"
   - split: 15
     text: "回复自身{2&0}%最大辩力的辩力"
-    translated: "Reversal power back to self {2&0}% of maximum defense skill."
+    translated: "자신의 최대 변력 {2&0}%만큼 변력을 회복합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "8#时变是守#0#1#1#0#4|4#5#100&0|100&0#1#10100|10101#0#0#0&0|-50&0#0#将自身辩力回复至{2&1}%#自身承受造成退场的攻击，本轮论辩限制使用一次#1#0#0|16&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "时变是守"
-    translated: "Time shifts, guarding"
+    translated: "시변은 수입니다"
   - split: 15
     text: "将自身辩力回复至{2&1}%"
-    translated: "Restore personal defense power to {2&1}%"
+    translated: "자신의 변력을 {2&1}%로 회복합니다"
   - split: 16
     text: "自身承受造成退场的攻击，本轮论辩限制使用一次"
-    translated: "Endure the attack that causes one to withdraw and use a one‑time restriction in this round of debate"
+    translated: "자신이 받는 퇴장 유발 공격, 이번 라운드 논변 중 1회로 제한하여 사용합니다."
 - raw: "11#抱朴含真#0#2#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "抱朴含真"
-    translated: "Embrace simplicity, embody truth"
+    translated: "포박함진"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "12#清静无为#0#2#0#0#1|1#0#100&0|100&0#1#10002|10001#0#0#20&0|110&0#0#减少自身{2&0}%辩力，对对手单个角色造成{1&1}倍利辞的伤害#无#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "清静无为"
-    translated: "Tranquility in non‑action"
+    translated: "청정무위"
   - split: 15
     text: "减少自身{2&0}%辩力，对对手单个角色造成{1&1}倍利辞的伤害"
-    translated: "Reduce personal {2&0}% credibility to inflict {1&1} times more damage to an opponent's single character."
+    translated: "자신의 변력 {2&0}%를 감소시키고, 상대방의 단일 캐릭터에게 {1&1}배의 이사 피해를 입힙니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "13#七返灵砂#0#2#0#0#2|2#0#100&0#1#10111#0#0#30&0#3#提升自身{2&0}%增伤#无#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "七返灵砂"
-    translated: "Seven Reversions Elixir"
+    translated: "칠반영사"
   - split: 15
     text: "提升自身{2&0}%增伤"
-    translated: "Enhance personal damage by {2&0}%"
+    translated: "자신{2&0}% 피해 증가 상승"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "14#周天运转#0#2#1#0#0|0#2#100&0|100&0#1#10111|10110#0#0#20&0|20&0#0#提升自身{2&0}%增伤，提升自身{2&0}%利辞#我方回合结束时自身辩力≤60#1#0#0|1&<&61&0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "周天运转"
-    translated: "Cycle of heaven revolves"
+    translated: "주천운전"
   - split: 15
     text: "提升自身{2&0}%增伤，提升自身{2&0}%利辞"
-    translated: "Increase personal damage by {2&0}%, enhance self‑referential eloquence by {2&0}%."
+    translated: "자신의 {2&0}% 피해량을 증가시키고, 자신의 {2&0}% 치명타 확률을 증가시킵니다."
   - split: 16
     text: "我方回合结束时自身辩力≤60"
-    translated: "At the end of our turn, if our defense power is less than or equal to 60."
+    translated: "아군 차례 종료 시 자신 변력≤60"
 - raw: "15#世运得命#0#2#1#0#1|1#1#100&0#1#10032#0#0#1&0#0#增加自身{2&0}行动力#我方首回合#1#0#0|6&=&0&0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "世运得命"
-    translated: "Destined to receive fortune in this life"
+    translated: "세운득명"
   - split: 15
     text: "增加自身{2&0}行动力"
-    translated: "Increase one's own action power in {2&0}"
+    translated: "자신의 {2&0} 행동력을 증가합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "16#壶中日月#0#2#1#0#2|2#10#100&0#1#10110#0#0#10&0#0#提升自身{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "壶中日月"
-    translated: "Days and months within a pot"
+    translated: "호중일월"
   - split: 15
     text: "提升自身{2&0}%利辞"
-    translated: "Enhance one's own {2&0}% proficiency in rhetoric"
+    translated: "자신의 {2&0}% 이득을 높입니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "17#银海生花#0#2#1#0#3|3#10#100&0#1#10111#0#0#10&0#0#提升自身{2&0}%增伤#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "银海生花"
-    translated: "Silver Sea Blooms Flowers"
+    translated: "은해생화"
   - split: 15
     text: "提升自身{2&0}%增伤"
-    translated: "Enhance personal damage by {2&0}%"
+    translated: "자신{2&0}% 피해 증가 상승"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "18#知白守黑#0#2#1#0#4|4#6#100&0|100&0#1#10110|10111#0#0#20&0|20&0#0#提升自身{2&0}%增伤，提升自身{2&1}%利辞#造成对方任意角色退场#0#0#0|16&=&3&0|15&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "知白守黑"
-    translated: "Knowing white, preserve black"
+    translated: "지백수흑"
   - split: 15
     text: "提升自身{2&0}%增伤，提升自身{2&1}%利辞"
-    translated: "Increase personal damage by {2&0}%, enhance own persuasiveness by {2&1}%."
+    translated: "자신의 {2&0}% 피해량을 증가시키고, 자신의 {2&1}% 예리함을 증가시킵니다."
   - split: 16
     text: "造成对方任意角色退场"
-    translated: "Forcing an opponent's character to leave at any time"
+    translated: "상대방의 임의의 캐릭터를 퇴장시킵니다"
 - raw: "21#动合无形#0#3#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "动合无形"
-    translated: "Acting in harmony without form"
+    translated: "동합무형"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "22#其实易行#0#3#0#0#1|1#0#100&0|100&0#1#10001|5022#0#0#50&0|0&0#2#对对手单个角色造成{1&0}倍利辞的伤害，对对手单个角色添加易行论点#无#0#0##4#100022#0#0#0#0#1#"
   splits:
   - split: 1
     text: "其实易行"
-    translated: "Actually, it's easy to do"
+    translated: "사실 이행입니다"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害，对对手单个角色添加易行论点"
-    translated: "Inflicts {1&0} times lethal damage to a single opponent's character, and adds Easy Debate Argument to that opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득 피해를 입히고, 상대방 단일 캐릭터에게 이행논점을 부여합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "23#其辞难知#0#3#0#0#2|2#0#100&0#1#5023#0#0#0&0#4#对我方全体添加难知论点#无#0#0##4#100023#0#0#0#0#1#"
   splits:
   - split: 1
     text: "其辞难知"
-    translated: "Its meaning is difficult to discern"
+    translated: "그 말의 뜻을 알기 어렵습니다"
   - split: 15
     text: "对我方全体添加难知论点"
-    translated: "Introduce a challenging argument for our entire team"
+    translated: "아군 전체에게 난지론점을 추가합니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "24#无成应执#0#3#1#0#0|0#3#100&0#1#10070#0#0#50&0#0#对攻击者进行反击，造成造成{1&0}倍利辞的伤害#自身受到攻击#1#0#0|15&=&0&0|16&=&3&0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "无成应执"
-    translated: "You Cheng should take charge"
+    translated: "무성응집"
   - split: 15
     text: "对攻击者进行反击，造成造成{1&0}倍利辞的伤害"
-    translated: "Counterattack the attacker, causing damage amounting to {1&0} times the benefit."
+    translated: "공격자에게 반격하여 {1&0}배의 이사의 피해를 입힙니다"
   - split: 16
     text: "自身受到攻击"
-    translated: "Suffering an attack oneself"
+    translated: "자신이 공격받음"
 - raw: "25#无常而形#0#3#1#0#1|1#10#100&0#1#10065#0#0#15&0#0#提升自身{2&0}%最大辩力。#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "无常而形"
-    translated: "Constantly changing form"
+    translated: "무상하며 형체가 없음"
   - split: 15
     text: "提升自身{2&0}%最大辩力。"
-    translated: "Enhance personal maximum persuasion power by {2&0}%"
+    translated: "자신의 최대 변력 {2&0}%를 증가시킵니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "26#不为物先#0#3#1#0#2|2#1#100&0#1#10046#0#0#-15&0#0#回复自身{2&0}%最大辩力的辩力#我方首回合#0#0#0|6&=&0&0#4#100026#0#0#0#0#1#"
   splits:
   - split: 1
     text: "不为物先"
-    translated: "Not putting anything before oneself"
+    translated: "물질에 얽매이지 않음"
   - split: 15
     text: "回复自身{2&0}%最大辩力的辩力"
-    translated: "Reversal power back to self {2&0}% of maximum defense skill."
+    translated: "자신의 최대 변력 {2&0}%만큼 변력을 회복합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "27#不为物后#0#3#1#0#3|3#10#100&0#1#10065#0#0#10&0#0#提升自身{2&0}%减伤#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "不为物后"
-    translated: "Not to be behind others"
+    translated: "물질에 휘둘리지 않음"
   - split: 15
     text: "提升自身{2&0}%减伤"
-    translated: "Increase personal damage reduction by {2&0}%"
+    translated: "자신{2&0}%의 피해 감소를 높입니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "28#大道无形#0#3#1#0#4|4#3#100&0#1#10070#0#0#50&0#0#有{0&0}&几率对攻击者进行反击，造成造成{1&0}倍利辞的伤害#我方角色受到攻击#0#0#0|15&=&2&0|16&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "大道无形"
-    translated: "Great Way is formless"
+    translated: "대도는 형체가 없습니다"
   - split: 15
     text: "有{0&0}&几率对攻击者进行反击，造成造成{1&0}倍利辞的伤害"
-    translated: "There is a {0&0}% chance to retaliate against attackers, causing {1&0} times more damage."
+    translated: "{0&0}&의 확률로 공격자에게 반격하여, {1&0}배의 피해를 입힙니다"
   - split: 16
     text: "我方角色受到攻击"
-    translated: "Our character is under attack"
+    translated: "아군 캐릭터가 공격을 받았습니다"
 - raw: "101#一念三千#0#101#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害。#无#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "一念三千"
-    translated: "One thought, three thousand miles"
+    translated: "일념삼천"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害。"
-    translated: "Deals {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "102#缘起缘灭#0#101#0#0#1|1#0#100&0|100&0#1#10001|10052#0#0#50&0|0&0#2#对对手单个角色造成{1&0}倍利辞的伤害，我方单个随机角色添加持续一轮次的单个随机论点。#无#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "缘起缘灭"
-    translated: "Beginnings and endings are all a matter of fate"
+    translated: "인연의 발생과 소멸"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害，我方单个随机角色添加持续一轮次的单个随机论点。"
-    translated: "Inflict {1&0} times the liability damage to a single opponent character, and add a random argument that lasts for one round to a single random ally character."
+    translated: "적군 단일 캐릭터에게 {1&0}배의 이득의 피해를 입히며, 아군 단일 무작위 캐릭터에게 1회 지속되는 단일 무작위 논점을 추가합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "103#辩才无碍#0#101#0#0#2|2#0#100&0#1#10053#0#0#0&0#3#我方全体角色添加持续一轮次的单个随机论点。#无#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "辩才无碍"
-    translated: "Unfettered in eloquence"
+    translated: "변재무애"
   - split: 15
     text: "我方全体角色添加持续一轮次的单个随机论点。"
-    translated: "Each of our team's characters gains a single random point per turn that lasts for the duration of one round"
+    translated: "아군 전체 캐릭터에게 1라운드 동안 지속되는 무작위 논거 하나를 부여합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "104#入灭化生#0#101#1#0#0|0#8#10&0#1#10052#0#0#0&0#0#{0&0}%几率对我方随机角色添加持续一轮次的随即论点。#任意角色论点添加时#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "入灭化生"
-    translated: "To bring forth life through annihilation"
+    translated: "입멸화생"
   - split: 15
     text: "{0&0}%几率对我方随机角色添加持续一轮次的随即论点。"
-    translated: "{0&0}% chance to randomly grant a random ally a temporary debate point for one round."
+    translated: "{0&0}% 확률로 아군 무작위 캐릭터에게 1턴 동안 지속되는 무작위 논점을 부여합니다."
   - split: 16
     text: "任意角色论点添加时"
-    translated: "When adding a point from any character"
+    translated: "임의의 캐릭터 논점을 추가할 때"
 - raw: "105#八风不动#0#101#1#0#1|1#7#100&0#1#10114#0#0#10&0#0#提升我方随机角色{2&0}%利辞#任意角色论点消失时#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "八风不动"
-    translated: "The eight winds do not move"
+    translated: "팔풍부동"
   - split: 15
     text: "提升我方随机角色{2&0}%利辞"
-    translated: "Enhance {2&0}'s random character role by {}%"
+    translated: "아군 무작위 캐릭터의 이치{2&0}%를 상승시킵니다"
   - split: 16
     text: "任意角色论点消失时"
-    translated: "When any character's point of view disappears"
+    translated: "임의의 캐릭터 논점이 사라질 때"
 - raw: "106#此中三昧#0#101#1#0#2|2#7#100&0#1#10114#0#0#10&0#0#提升我方随机角色{2&0}%利辞#任意角色论点消失时#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "此中三昧"
-    translated: "This Three Samadhis"
+    translated: "이 안의 삼매"
   - split: 15
     text: "提升我方随机角色{2&0}%利辞"
-    translated: "Enhance {2&0}'s random character role by {}%"
+    translated: "아군 무작위 캐릭터의 이치{2&0}%를 상승시킵니다"
   - split: 16
     text: "任意角色论点消失时"
-    translated: "When any character's point of view disappears"
+    translated: "임의의 캐릭터 논점이 사라질 때"
 - raw: "107#恒河沙数#0#101#1#0#3|3#10#100&0#1#10114#0#0#10&0#0#提升我方随机角色{2&0}%利辞#任意角色论点消失时#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "恒河沙数"
-    translated: "Number as vast as the sands of the Ganges"
+    translated: "항하사수"
   - split: 15
     text: "提升我方随机角色{2&0}%利辞"
-    translated: "Enhance {2&0}'s random character role by {}%"
+    translated: "아군 무작위 캐릭터의 이치{2&0}%를 상승시킵니다"
   - split: 16
     text: "任意角色论点消失时"
-    translated: "When any character's point of view disappears"
+    translated: "임의의 캐릭터 논점이 사라질 때"
 - raw: "108#回头是岸#0#101#1#0#4|4#8#50&0#1#10091#0#0#1&0#0#有{0&0}%几率移除该论点#任意角色论点添加时#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "回头是岸"
-    translated: "There is always an opportunity to turn back"
+    translated: "회두시안"
   - split: 15
     text: "有{0&0}%几率移除该论点"
-    translated: "There is a {0&0}% chance to remove this argument."
+    translated: "{0&0}%의 확률로 해당 논점을 제거합니다"
   - split: 16
     text: "任意角色论点添加时"
-    translated: "When adding a point from any character"
+    translated: "임의의 캐릭터 논점을 추가할 때"
 - raw: "111#兆载永劫#0#111#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "兆载永劫"
-    translated: "For countless eons"
+    translated: "조재영겁"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "112#拈花一笑#0#111#0#0#1|1#0#100&0#1#5116#0#0#0&0#2#对手全体添加三谛论点#无#0#0##4#100116#0#0#0#0#1#"
   splits:
   - split: 1
     text: "拈花一笑"
-    translated: "With a smile, they scatter flowers"
+    translated: "염화일소"
   - split: 15
     text: "对手全体添加三谛论点"
-    translated: "Apply the Threefold Doctrine to all opponents"
+    translated: "적 전체에게 삼제론점을 추가합니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "113#法轮常转#0#111#0#0#2|2#0#100&0#1#10047#0#0#-20&0#5#回复我方全体角色{2&0}%最大辩力的辩力#无#0#0##4#100113#0#0#0#0#1#"
   splits:
   - split: 1
     text: "法轮常转"
-    translated: "The Wheel of Dharma Turns Unceasingly"
+    translated: "법륜상전"
   - split: 15
     text: "回复我方全体角色{2&0}%最大辩力的辩力"
-    translated: "Return to our team's {2&0}% maximum persuasion strength of persuasion strength."
+    translated: "우리 측 전체 캐릭터의 최대 변력의 {2&0}%에 해당하는 변력을 회복합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "114#香象绝流#0#111#1#0#0|0#3#10&0#1#10202#0#0#1&0#0#攻击者有{0&0}%几率下个回合无法行动#我方角色受到攻击#0#0#0|15&=&2&0|16&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "香象绝流"
-    translated: "Fragrant Elephant's Unparalleled Technique"
+    translated: "향상절류"
   - split: 15
     text: "攻击者有{0&0}%几率下个回合无法行动"
-    translated: "The attacker has a {0&0}% chance of being unable to act next turn."
+    translated: "공격자는 {0&0}%의 확률로 다음 턴에 행동할 수 없습니다."
   - split: 16
     text: "我方角色受到攻击"
-    translated: "Our character is under attack"
+    translated: "아군 캐릭터가 공격을 받았습니다"
 - raw: "115#无常无我#0#111#1#0#1|1#10#100&0#1#10113#0#0#5&0#0#对手全体减少{2&0}%利辞#论辩开始#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "无常无我"
-    translated: "The impermanence of existence, without a self"
+    translated: "무상무아"
   - split: 15
     text: "对手全体减少{2&0}%利辞"
-    translated: "Opponent's entire force reduces {2&0}% effectiveness"
+    translated: "적 전체의 이직률을 {2&0}% 감소시킵니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "116#三谛圆融#0#111#1#0#2|2#1#100&0#1#10032#0#0#1&0#0#增加自身{2&0}行动力#我方首回合#1#0#0|6&=&0&0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "三谛圆融"
-    translated: "Threefold Truths in Harmony"
+    translated: "삼제원융"
   - split: 15
     text: "增加自身{2&0}行动力"
-    translated: "Increase one's own action power in {2&0}"
+    translated: "자신의 {2&0} 행동력을 증가합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "117#镜花水月#0#111#1#0#3|3#10#100&0#1#10112#0#0#5&0#0#我方全体提升{2&0}%减伤#论辩开始#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "镜花水月"
-    translated: "Mirage in a mirror"
+    translated: "경화수월"
   - split: 15
     text: "我方全体提升{2&0}%减伤"
-    translated: "All on our side increase overall damage reduction by {2&0}%."
+    translated: "아군 전체의 피해 감소량이 {2&0}% 증가합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "118#菩义众生#0#111#1#0#4|4#9#100&0#1#5118#0#0#0&0#0#对对手全体角色添加感化论点#我方首回合#1#0#0|6&=&0&0#4#100118#0#0#0#0#1#"
   splits:
   - split: 1
     text: "菩义众生"
-    translated: "All sentient beings filled with compassion"
+    translated: "보리중생"
   - split: 15
     text: "对对手全体角色添加感化论点"
-    translated: "Add a persuasive argument to sway all opponents"
+    translated: "상대방 전체 캐릭터에게 감화 논점을 추가합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "201#一曰礼乐#0#201#0#0#0|0#0#100&0#1#10001#0#0#50&0#2#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "一曰礼乐"
-    translated: "Rites and music"
+    translated: "일왈예악입니다"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "202#二曰仁义#0#201#0#0#1|1#0#100&0|100&0#1#10001|5202#0#0#50&0|0&0#4#对对手单个角色造成{1&0}倍利辞的伤害，对对手单个角色添加逾节论点#无#0#0#0#4#100202#0#0#0#0#1#"
   splits:
   - split: 1
     text: "二曰仁义"
-    translated: "1. Benevolence and Righteousness"
+    translated: "둘째는 인의입니다"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害，对对手单个角色添加逾节论点"
-    translated: "Inflicts {1&0} times lethal damage to a single enemy character and applies Excessive Argument to that enemy character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이익 피해를 입히고, 상대방 단일 캐릭터에게 유절논점을 부여합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "203#三曰廉洁#0#201#0#0#2|2#0#100&0|100&0#1#10001|5203#0#0#50&0|0&0#4#对对手单个角色造成{1&0}倍利辞的伤害，对我方全体角色添加守耻论点#无#0#0#0#4#100203#0#0#0#0#1#"
   splits:
   - split: 1
     text: "三曰廉洁"
-    translated: "Day three: integrity"
+    translated: "셋째는 청렴입니다"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害，对我方全体角色添加守耻论点"
-    translated: "Inflicts {1&0} times lethal damage to a single opponent, adds Honor Restraint argument to all friendly characters."
+    translated: "적의 단일 캐릭터에게 {1&0}배의 이득의 피해를 입히고, 아군 전체 캐릭터에게 수치론점을 부여합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "204#四曰耻荣#0#201#1#0#0|0#4#100&0#1#10034#0#0#1&0#0#增加攻击者{2&0}行动力#我方角色攻击时#0#0#0|16&=&2&0|15&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "四曰耻荣"
-    translated: "Fourthly, shame and honor"
+    translated: "사일치영"
   - split: 15
     text: "增加攻击者{2&0}行动力"
-    translated: "Increase attacker {2&0}'s action power"
+    translated: "공격자의 행동력을 {2&0}만큼 증가합니다"
   - split: 16
     text: "我方角色攻击时"
-    translated: "When our character attacks:"
+    translated: "아군 캐릭터가 공격할 때"
 - raw: "205#礼不逾节#0#201#1#0#1|1#10#100&0#1#10110#0#0#50&0#0#自身提升{2&0}%利辞#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "礼不逾节"
-    translated: "Show respect, but don't go overboard"
+    translated: "예의를 지켜 절도를 넘지 않습니다"
   - split: 15
     text: "自身提升{2&0}%利辞"
-    translated: "Self‑enhancement by {2&0}%"
+    translated: "자신을 {2&0}% 강화합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "206#义不自进#0#201#1#0#2|2#1#100&0#1#10035#0#0#1&0#0#我方提升{2&0}行动力#我方首回合#1#0#0|6&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "义不自进"
-    translated: "Unwilling to advance of one's own accord"
+    translated: "의불자진"
   - split: 15
     text: "我方提升{2&0}行动力"
-    translated: "We have enhanced {2&0}'s motivation"
+    translated: "아군의 {2&0} 행동력을 높입니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "207#廉不蔽恶#0#201#1#0#3|3#10#100&0#1#10121#0#0#50&0#0#自身提升{2&0}%增伤#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "廉不蔽恶"
-    translated: "He is not blinded by evil"
+    translated: "청렴함으로 악을 가리지 않습니다"
   - split: 15
     text: "自身提升{2&0}%增伤"
-    translated: "Self‑improvement {2&0}% damage increase"
+    translated: "자신에게 {2&0}%의 피해 증가 버프를 부여합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "208#耻不从枉#0#201#1#0#4|4#3#100&0#1#10035#0#0#1&0#0#增加受击者{2&0}行动力#我方角色受到攻击#0#0#0|15&=&2&0|16&=&3&0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "耻不从枉"
-    translated: "Shame does not follow deviation"
+    translated: "치불종왕"
   - split: 15
     text: "增加受击者{2&0}行动力"
-    translated: "Increase action points of target {2&0}"
+    translated: "피격자 {2&0}의 행동력을 증가합니다"
   - split: 16
     text: "我方角色受到攻击"
-    translated: "Our character is under attack"
+    translated: "아군 캐릭터가 공격을 받았습니다"
 - raw: "211#移风易俗#0#211#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "移风易俗"
-    translated: "Transform customs and change the times"
+    translated: "풍속을 고치고 관습을 바꿉니다"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "212#君子务本#0#211#0#0#1|1#0#25&0#1#10032#0#0#1&0#0#有{0&0}%几率增加自身{2&0}行动力#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "君子务本"
-    translated: "A gentleman focuses on his roots"
+    translated: "군자는 본질에 힘써야 합니다"
   - split: 15
     text: "有{0&0}%几率增加自身{2&0}行动力"
-    translated: "There is a {0&0}% chance of increasing one's own action power by {2&0}."
+    translated: "{0&0}%의 확률로 자신의 {2&0} 행동력을 증가시킵니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "213#本立道生#0#211#0#0#2|2#0#100&0#1#10001#0#0#330&0#6#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "本立道生"
-    translated: "The fundamental principle gives rise to life"
+    translated: "본립도생"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "214#游必有方#0#211#1#0#0|0#1#100&0|100&0#1#10033|10033#0#0#-1&0|-1&0#0#自身添加有方论点#我方首回合，本轮论辩限制使用一次#1#0#0|6&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "游必有方"
-    translated: "There is always a plan in play"
+    translated: "유필유방"
   - split: 15
     text: "自身添加有方论点"
-    translated: "Self‑added points of debate"
+    translated: "자신이 추가한 방론의 논점"
   - split: 16
     text: "我方首回合，本轮论辩限制使用一次"
-    translated: "Our side goes first this round, and the debate restriction for this turn is one use"
+    translated: "우리 측 첫 번째 턴입니다. 이번 라운드 논쟁에서는 한 번만 사용할 수 있습니다."
 - raw: "215#述而不作#0#211#1#0#1|1#10#100&0#1#10032#0#0#1&0#0#自身提升{2&0}行动力#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "述而不作"
-    translated: "Speaking without claiming credit"
+    translated: "술이부작"
   - split: 15
     text: "自身提升{2&0}行动力"
-    translated: "Enhance one's own action power {2&0}"
+    translated: "자신의 {2&0} 행동력 증가"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "216#信而好古#0#211#1#0#2|2#10#100&0#1#10110#0#0#10&0#0#提升自身{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "信而好古"
-    translated: "Trust in antiquity"
+    translated: "신이호고"
   - split: 15
     text: "提升自身{2&0}%利辞"
-    translated: "Enhance one's own {2&0}% proficiency in rhetoric"
+    translated: "자신의 {2&0}% 이득을 높입니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "217#见贤思齐#0#211#1#0#3|3#10#100&0#1#10111#0#0#10&0#0#提升自身{2&0}%增伤#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "见贤思齐"
-    translated: "Emulate the virtuous"
+    translated: "현자를 보면 그와 같아지기를 생각하십시오"
   - split: 15
     text: "提升自身{2&0}%增伤"
-    translated: "Enhance personal damage by {2&0}%"
+    translated: "자신{2&0}% 피해 증가 상승"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "218#有教无类#0#211#1#0#4|4#4#100&0#1#10110#0#0#5&0#0#自身提升{2&0}利辞#我方角色攻击时#0#0#0|16&=&2&0|15&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "有教无类"
-    translated: "Teach all, without exception"
+    translated: "교육에는 차별이 없습니다"
   - split: 15
     text: "自身提升{2&0}利辞"
-    translated: "Self‑improvement of {2&0} by strategic retreat"
+    translated: "자신 능력치 {2&0} 증가"
   - split: 16
     text: "我方角色攻击时"
-    translated: "When our character attacks:"
+    translated: "아군 캐릭터가 공격할 때"
 - raw: "221#望闻问切#0#221#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "望闻问切"
-    translated: "Look, listen, ask, and diagnose"
+    translated: "망문문절"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "222#悬壶济世#0#221#0#0#1|1#0#100&0|100&0|100&0#1#10041|10042|10042#0#0#-50&0|-40&0|-30&0#3#回复我方单个角色{1&0}倍利辞的辩力，并对我方进行两次随机治疗，每次治疗效果下降。#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "悬壶济世"
-    translated: "Pouring a gourd to save the world"
+    translated: "현후제세"
   - split: 15
     text: "回复我方单个角色{1&0}倍利辞的辩力，并对我方进行两次随机治疗，每次治疗效果下降。"
-    translated: "Reduce the argumentative power of a single character {1&0} on our side, and perform two random healings on our side, with decreased effectiveness for each healing."
+    translated: "아군 단일 캐릭터에게 {1&0}배의 이득을 주는 변론을 수행하고, 아군에게 무작위로 두 번의 치료를 실시합니다. 각 치료 효과는 점차 감소합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "223#生生不息#0#221#0#0#2|2#0#100&0#1#10047#0#0#-30&0#6#回复我全体角色{2&0}%最大辩力的辩力#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "生生不息"
-    translated: "Endless cycle of life"
+    translated: "생생불식"
   - split: 15
     text: "回复我全体角色{2&0}%最大辩力的辩力"
-    translated: "Respond to me with all roles having {2&0}% maximum persuasion power."
+    translated: "모든 캐릭터의 {2&0}% 최대 변력에 해당하는 변력을 회복합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "224#仁心仁术#0#221#1#0#0|0#1#100&0#1#5224#0#0#0&0#0#我方全体角色添加仁心论点。#我方首回合#1#0#0|6&=&0&0#4#100224#0#0#0#0#1#"
   splits:
   - split: 1
     text: "仁心仁术"
-    translated: "Compassionate heart, benevolent action"
+    translated: "인심인술"
   - split: 15
     text: "我方全体角色添加仁心论点。"
-    translated: "All characters on our side have added a point regarding benevolence"
+    translated: "우리 측 전체 캐릭터에 인심론 논점을 추가합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "225#死骨更肉#0#221#1#0#1|1#10#100&0#1#10115#0#0#5&0#0#我方全体角色提升{2&0}%利辞#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "死骨更肉"
-    translated: "From bones to flesh"
+    translated: "사골갱육"
   - split: 15
     text: "我方全体角色提升{2&0}%利辞"
-    translated: "All characters on our side gain a {2&0}% increase in efficacy."
+    translated: "우리 측 전체 캐릭터의 {2&0}% 이득이 상승합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "226#枯骨生肉#0#221#1#0#2|2#10#100&0#1#10066#0#0#10&0#0#提升我方全体角色{2&0}%最大辩力#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "枯骨生肉"
-    translated: "From bones to flesh"
+    translated: "고골생육"
   - split: 15
     text: "提升我方全体角色{2&0}%最大辩力"
-    translated: "Increase maximum persuasion power of all our side characters by {2&0}%."
+    translated: "아군 전체 캐릭터의 최대 변력 {2&0}%를 증가시킵니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "227#着手成春#0#221#1#0#3|3#10#100&0#1#10047#0#0#-10&0#0#回复我方全体角色{2&0}%最大辩力的辩力#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "着手成春"
-    translated: "Embark on the journey of spring"
+    translated: "착수성춘"
   - split: 15
     text: "回复我方全体角色{2&0}%最大辩力的辩力"
-    translated: "Return to our team's {2&0}% maximum persuasion strength of persuasion strength."
+    translated: "우리 측 전체 캐릭터의 최대 변력의 {2&0}%에 해당하는 변력을 회복합니다."
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "228#杏林春暖#0#221#1#0#4|4#1#100&0#1#10110#0#0#0&0#0#我方全体角色添加春暖论点#我方偶数回合#0#0#0|8&%&2&0|6&=&0&0#4#100228#0#0#0#0#1#"
   splits:
   - split: 1
     text: "杏林春暖"
-    translated: "The peach blossoms bloom in a springtime warmth"
+    translated: "행림춘난"
   - split: 15
     text: "我方全体角色添加春暖论点"
-    translated: "Our team's characters will incorporate the Spring Warmth argument"
+    translated: "우리 측 전체 캐릭터에게 춘난 논점을 추가합니다"
   - split: 16
     text: "我方偶数回合"
-    translated: "Our team has even‑numbered turns"
+    translated: "우리 측 짝수 차례입니다"
 - raw: "301#比岁不登#0#301#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "比岁不登"
-    translated: "Not thriving as one should, year after year"
+    translated: "예년보다 수확이 적음"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "302#寓兵于农#0#301#0#0#1|1#0#100&0#1#5302#0#0#0&0#2#我方单个角色添加愚兵论点#无#0#0#0#4#100302#0#0#0#0#1#"
   splits:
   - split: 1
     text: "寓兵于农"
-    translated: "Militarize agriculture"
+    translated: "둔병어농"
   - split: 15
     text: "我方单个角色添加愚兵论点"
-    translated: "Adding the Strategem of the Fools point to an individual character from our side"
+    translated: "우리 측 단일 캐릭터에게 우병론 논점을 추가합니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "303#岁稔年丰#0#301#0#0#2|2#0#100&0|100&0#1#5303|5304#0#0#0&0|0&0#4#我方全体角色添加岁稔论点，自身添加年丰论点#无#0#0#0#4#100303|100304#0#0#0#0#1#"
   splits:
   - split: 1
     text: "岁稔年丰"
-    translated: "Many years of abundance"
+    translated: "풍년이 듭니다"
   - split: 15
     text: "我方全体角色添加岁稔论点，自身添加年丰论点"
-    translated: "Our party's entire cast adds years of experience arguments, while themselves add yearly abundance points"
+    translated: "우리 측 전체 캐릭터에게 세임 논점을 추가하고, 자신에게 연풍 논점을 추가합니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "304#雪中送炭#0#301#1#0#0|0#1#25&0#1#10037#0#0#1&0#0#有{0&0}%几率增加我方随机角色{2&0}行动力#我方回合开始#0#0#0|6&=&0&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "雪中送炭"
-    translated: "Help in one's hour of greatest need"
+    translated: "설중송탄"
   - split: 15
     text: "有{0&0}%几率增加我方随机角色{2&0}行动力"
-    translated: "There is a {0&0}% chance to increase the action points of our side's random character, {2&0}."
+    translated: "{0&0}%의 확률로 아군 무작위 캐릭터의 {2&0} 행동력을 증가시킵니다."
   - split: 16
     text: "我方回合开始"
-    translated: "It's our turn to go"
+    translated: "우리 측 차례가 시작됩니다"
 - raw: "305#服田力穑#0#301#1#0#1|1#10#100&0#1#10115#0#0#5&0#0#我方全体角色提升{2&0}%利辞#论辩开始#1#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "服田力穑"
-    translated: "Master Fu Ti Li Se"
+    translated: "복전력색"
   - split: 15
     text: "我方全体角色提升{2&0}%利辞"
-    translated: "All characters on our side gain a {2&0}% increase in efficacy."
+    translated: "우리 측 전체 캐릭터의 {2&0}% 이득이 상승합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "306#穰穰满家#0#301#1#0#2|2#10#100&0#1#10115#0#0#5&0#0#我方全体角色提升{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "穰穰满家"
-    translated: "Prosperous and abundant throughout the household"
+    translated: "풍요로움이 가득한 집"
   - split: 15
     text: "我方全体角色提升{2&0}%利辞"
-    translated: "All characters on our side gain a {2&0}% increase in efficacy."
+    translated: "우리 측 전체 캐릭터의 {2&0}% 이득이 상승합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "307#崇本抑末#0#301#1#0#3|3#10#100&0#1#10115#0#0#5&0#0#我方全体角色提升{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "崇本抑末"
-    translated: "Emphasize fundamentals, neglect frills"
+    translated: "본을 숭상하고 말단을 억제함"
   - split: 15
     text: "我方全体角色提升{2&0}%利辞"
-    translated: "All characters on our side gain a {2&0}% increase in efficacy."
+    translated: "우리 측 전체 캐릭터의 {2&0}% 이득이 상승합니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "308#齐民要术#0#301#1#0#4|4#4#50&0#1#10116#0#0#15&0#0#有{0&0}%几率增加我方攻击者{2&0}%增伤#我方角色攻击时#0#0#0|16&=&2&0|15&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "齐民要术"
-    translated: "Qimin Yaoshu"
+    translated: "제민요술"
   - split: 15
     text: "有{0&0}%几率增加我方攻击者{2&0}%增伤"
-    translated: "There's a {0&0}% chance to increase our attacker's damage by {2&0}%."
+    translated: "{0&0}% 확률로 아군 공격자의 피해량이 {2&0}% 증가합니다"
   - split: 16
     text: "我方角色攻击时"
-    translated: "When our character attacks:"
+    translated: "아군 캐릭터가 공격할 때"
 - raw: "311#招木先伐#0#301#0#0#0|0#0#100&0#1#10001#0#0#50&0#1#对对手单个角色造成{1&0}倍利辞的伤害#无#0#0#0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "招木先伐"
-    translated: "Summon Wood to chop first"
+    translated: "초목선벌"
   - split: 15
     text: "对对手单个角色造成{1&0}倍利辞的伤害"
-    translated: "Deal {1&0} times critical damage to a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 {1&0}배의 이득의 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "312#天志明鬼#0#301#0#0#1|1#0#100&0|100&0#1#10006|10023#0#0#110&0|10&0#0#对对手单个随机角色造成{1&0}倍利辞的伤害并扣除我方全体队友{2&1}最大辩力的辩力。#无#0#0#0#4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "天志明鬼"
-    translated: "Tian Zhi Ming's ghost"
+    translated: "천지명귀"
   - split: 15
     text: "对对手单个随机角色造成{1&0}倍利辞的伤害并扣除我方全体队友{2&1}最大辩力的辩力。"
-    translated: "Inflict {1&0}‑times the opponent's random character's repel damage on them and deduct the maximum repel power of all our team members by {2&1}."
+    translated: "적 상대방 단일 무작위 캐릭터에게 {1&0}배의 이사 피해를 입히고 아군 전체 팀원의 최대 변력의 {2&1}만큼 변력을 감소시킵니다."
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "313#倾危缴绕#0#301#0#0#2|2#0#100&0#1#10111#0#0#40&0#4#提升自身{2&0}%增伤#无#0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "倾危缴绕"
-    translated: "Perilous twists and turns"
+    translated: "경위교요"
   - split: 15
     text: "提升自身{2&0}%增伤"
-    translated: "Enhance personal damage by {2&0}%"
+    translated: "자신{2&0}% 피해 증가 상승"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "314#百变千面#0#301#1#0#0|0#1#100&0#1#5314#0#0#0&0#0#自身添加百变论点。#我方首回合#1#0#0|6&=&0&0#4#100314#0#0#0#0#1#"
   splits:
   - split: 1
     text: "百变千面"
-    translated: "Master of a Thousand Faces"
+    translated: "백변천면"
   - split: 15
     text: "自身添加百变论点。"
-    translated: "Craft arguments to support your own multifaceted perspective"
+    translated: "자신에게 백변 논점을 추가합니다"
   - split: 16
     text: "我方首回合"
-    translated: "We go first this round"
+    translated: "우리 측 첫 번째 차례입니다"
 - raw: "315#锦衣夜行#0#301#1#0#1|1#10#100&0#1#10110#0#0#10&0#0#提升自身{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "锦衣夜行"
-    translated: "Silk‑clad night wanderers"
+    translated: "금의야행"
   - split: 15
     text: "提升自身{2&0}%利辞"
-    translated: "Enhance one's own {2&0}% proficiency in rhetoric"
+    translated: "자신의 {2&0}% 이득을 높입니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "316#染丝之变#0#301#1#0#2|2#10#100&0#1#10110#0#0#10&0#0#提升自身{2&0}%利辞#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "染丝之变"
-    translated: "The transformation of silkworms into silk"
+    translated: "염사의 변"
   - split: 15
     text: "提升自身{2&0}%利辞"
-    translated: "Enhance one's own {2&0}% proficiency in rhetoric"
+    translated: "자신의 {2&0}% 이득을 높입니다"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "317#兼以易别#0#301#1#0#3|3#10#100&0#1#10111#0#0#10&0#0#提升自身{2&0}%增伤#论辩开始#1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "兼以易别"
-    translated: "Also, to part ways easily"
+    translated: "또한 이별을 쉽게 하기 위함입니다"
   - split: 15
     text: "提升自身{2&0}%增伤"
-    translated: "Enhance personal damage by {2&0}%"
+    translated: "자신{2&0}% 피해 증가 상승"
   - split: 16
     text: "论辩开始"
-    translated: "Debate begins"
+    translated: "논쟁을 시작합니다"
 - raw: "318#神机万变#0#301#1#0#4|4#6#100&0#1#10006#0#0#110&0#0#对对手单个随机角色造成{1&0}倍利辞的伤害#我方角色死亡#0#0#0|16&=&2&0|15&=&3&0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "神机万变"
-    translated: "Godlike Machinations of a Thousand Changes"
+    translated: "신기만변"
   - split: 15
     text: "对对手单个随机角色造成{1&0}倍利辞的伤害"
-    translated: "Inflict {1&0} times lethal damage to a randomly selected opponent's character."
+    translated: "상대방의 무작위 캐릭터 하나에게 {1&0}배의 이득의 피해를 입힙니다."
   - split: 16
     text: "我方角色死亡"
-    translated: "Our character has died"
+    translated: "아군 캐릭터가 사망했습니다"
 - raw: "999#测试#0#0#1#0#2|2#1#100&0#1#10032#0#0#5&0#0###1#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "测试"
-    translated: "Test"
+    translated: "테스트"
 - raw: "4901#因循#0#0#0#0#0#0#100&0#1#10007#0#0#10&0#0#对对手单个角色造成自身10%最大辩力的伤害##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "因循"
-    translated: "Follow routine"
+    translated: "구습을 따르다"
   - split: 15
     text: "对对手单个角色造成自身10%最大辩力的伤害"
-    translated: "Inflict damage on a single opponent equal to 10% of your own maximum debating power."
+    translated: "상대방 단일 캐릭터에게 자신의 10% 최대 변력에 해당하는 피해를 입힙니다."
 - raw: "4902#守黑#0#0#0#0#0#0#100&0|100&0#1#10102|10103#0#0#0&0|-1&0#0#将生命值设置为1%##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "守黑"
-    translated: "Guard the darkness"
+    translated: "수흑"
   - split: 15
     text: "将生命值设置为1%"
-    translated: "Set health to 1%"
+    translated: "생명력을 1%로 설정합니다"
 - raw: "4903#难知#0#0#0#0#0#0#100&0#1#10070#0#0#50&0#0#造成0.5倍利辞的伤害##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "难知"
-    translated: "It is difficult to know"
+    translated: "난지"
   - split: 15
     text: "造成0.5倍利辞的伤害"
-    translated: "Causing 0.5‑fold damage to the body's vital energy."
+    translated: "0.5배의 리사의 피해를 입힙니다"
 - raw: "4904#无念#0#0#0#0#0#0#100&0#1#10021#0#0#5&0#0#扣除自身5%最大辩力##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "无念"
-    translated: "Unmindful"
+    translated: "무념"
   - split: 15
     text: "扣除自身5%最大辩力"
-    translated: "Subtracting 5% of their maximum persuasion power"
+    translated: "자신의 최대 변력 5%를 차감합니다"
 - raw: "4907#感化#0#0#0#0#0#0#100&0#1#10203#0#0#1&0#0###0#0##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "感化"
-    translated: "Reform"
+    translated: "감화"
 - raw: "4908#三谛#0#0#0#0#0#0#100&0#1#10004#2#0#50&0#0#对自身攻击一次，受到添加论点者0.5倍利辞的伤害。##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "三谛"
-    translated: "Three Truths"
+    translated: "삼제"
   - split: 15
     text: "对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "Inflicts damage on itself once, receiving 0.5 times more of the added argumentative harm."
+    translated: "자신을 한 번 공격하며, 논거를 추가한 자 0.5배의 이사의 피해를 입습니다."
 - raw: "4909#常转#0#0#0#0#0#0#100&0#1#10004#2#0#50&0#0#对自身攻击一次，受到添加论点者0.5倍利辞的伤害。##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "常转"
-    translated: "Often busy"
+    translated: "상전"
   - split: 15
     text: "对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "Inflicts damage on itself once, receiving 0.5 times more of the added argumentative harm."
+    translated: "자신을 한 번 공격하며, 논거를 추가한 자 0.5배의 이사의 피해를 입습니다."
 - raw: "4910#逾节#0#0#0#0#0#0#100&0#1#10032#0#0#1&0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "逾节"
-    translated: "Exceeding the limit"
+    translated: "축하드립니다"
 - raw: "4911#仁心#0#0#0#0#0#0#100&0#1#10046#0#0#5&0#0#回复自身5%最大辩力的辩力。##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "仁心"
-    translated: "Compassion"
+    translated: "인심"
   - split: 15
     text: "回复自身5%最大辩力的辩力。"
-    translated: "Return to one's own 5% maximum persuasion power."
+    translated: "자신의 5% 최대 변력을 회복합니다"
 - raw: "4912#春暖#0#0#0#0#0#0#100&0#1#10046#0#0#5&0#0#回复自身5%最大辩力的辩力。##0#0#0#4#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "春暖"
-    translated: "As spring warms"
+    translated: "춘난"
   - split: 15
     text: "回复自身5%最大辩力的辩力。"
-    translated: "Return to one's own 5% maximum persuasion power."
+    translated: "자신의 5% 최대 변력을 회복합니다"
 - raw: "4913#年丰#0#0#0#0#0#0#100&0#1#10005#0#0#50&0#0#对对手单个角色造成0.5倍利辞的伤害#无#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "年丰"
-    translated: "Year of Abundance"
+    translated: "풍년"
   - split: 15
     text: "对对手单个角色造成0.5倍利辞的伤害"
-    translated: "Inflicts 0.5 times lici damage on a single opponent's character."
+    translated: "상대방 단일 캐릭터에게 0.5배의 이자 피해를 입힙니다"
   - split: 16
     text: "无"
-    translated: "None"
+    translated: "없음"
 - raw: "4914#百变#0#0#1#0#0|0#0#100|100#1#10110|10023#0#0#50|20#0#自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。##0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "百变"
-    translated: "Shape‑shifting"
+    translated: "백변"
   - split: 15
     text: "自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。"
-    translated: "When attacking oneself, there is a 50% chance to increase one's own 50% persuasion and reduce the maximum persuasion of all allies on our side by 20%."
+    translated: "자신이 공격할 때 50%의 확률로 자신의 50% 이득을 높이고, 아군 전체의 최대 변력을 20%만큼 차감하는 변력을 소모합니다."
 - raw: "4999#未配置被动#0#0#0#0##0##0##0#0##0###0#0##0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "未配置被动"
-    translated: "Not configured passively"
+    translated: "패시브가 설정되지 않았습니다"
 - raw: "5003#迁移（自身）#0#0#0#0#0#0#100#2#100003#0#0#0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "迁移（自身）"
-    translated: "Relocate (self)"
+    translated: "이전(자신)"
 - raw: "5006#因循（自身）#0#0#0#0#0#0#100#2#100006#0#0#0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "因循（自身）"
-    translated: "Being complacent (about oneself)"
+    translated: "타성에 젖은 (자신)"
 - raw: "5018#守黑（自身）#0#0#0#0#0#0#100#2#100018#0#0#0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "守黑（自身）"
-    translated: "Guard (themselves)"
+    translated: "수흑(본인)"
 - raw: "5022#易行（单个对手）#0#0#0#0#0#0#100#2#100022#0#0#0#0##请选择一个对手角色添加易行论点#0#0#0#2#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "易行（单个对手）"
-    translated: "Master Yi (Single Opponent)"
+    translated: "쉬운 상대(단일 상대)"
   - split: 16
     text: "请选择一个对手角色添加易行论点"
-    translated: "Choose an opponent character to add Yi Xing's argument"
+    translated: "상대 캐릭터를 선택하여 논거를 추가해 주세요"
 - raw: "5023#难知（我方全体）#0#0#0#0#0#0#100#2#100023#0#0#0#0###0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "难知（我方全体）"
-    translated: "Unknowing (the entire our side)"
+    translated: "난지(아군 전체)"
 - raw: "5026#无念（攻击者）#0#0#0#0#0#0#100#2#100026#0#0#0#0###0#0#0#12#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "无念（攻击者）"
-    translated: "Nameless (Attacker)"
+    translated: "무념(공격자)"
 - raw: "5113#常转（对手全体）#0#0#0#0#0#0#100#2#100113#0#0#0#0###0#0#0#0#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "常转（对手全体）"
-    translated: "Charng Zhuan (to opponents)"
+    translated: "상시 전환(적 전체)"
 - raw: "5116#三谛（随机对手）#0#0#0#0#0#0#100#2#100116#0#0#0#0###0#0#0#14#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "三谛（随机对手）"
-    translated: "Threefold Truth (Random Opponent)"
+    translated: "삼제(랜덤 상대)"
 - raw: "5118#感化（对手全体）#0#0#0#0#0#0#100#2#100118#0#0#0#0###0#0#0#0#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "感化（对手全体）"
-    translated: "Inspire (everyone)"
+    translated: "감화(적 상대 전체)"
 - raw: "5202#逾节（单个对手）#0#0#0#0#0#0#100#2#100202#0#0#0#0##请选择一个对手角色添加渝节论点#0#0#0#2#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "逾节（单个对手）"
-    translated: "Exceeding limits (single opponent)"
+    translated: "월절(단일 상대)"
   - split: 16
     text: "请选择一个对手角色添加渝节论点"
-    translated: "Select an opponent character to add a Yuzhou argument"
+    translated: "상대 캐릭터를 선택하여 유절 논점을 추가해 주세요"
 - raw: "5203#守耻（我方全体）#0#0#0#0#0#0#100#2#100203#0#0#0#0###0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "守耻（我方全体）"
-    translated: "Preserve Honor (All of Us)"
+    translated: "수치(아군 전체)"
 - raw: "5213#道生（对手全体）#0#0#0#0#0#0#100#2#100213#0#0#0#0###0#0#0#0#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "道生（对手全体）"
-    translated: "Life begets life (to all opponents)"
+    translated: "도생(상대 전체)"
 - raw: "5224#仁心（我方全体）#0#0#0#0#0#0#100#2#100224#0#0#0#0###0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "仁心（我方全体）"
-    translated: "Compassion (All of Us on Our Side)"
+    translated: "인심(아군 전체)"
 - raw: "5228#春暖（我方全体）#0#0#0#0#0#0#100#2#100228#0#0#0#0###0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "春暖（我方全体）"
-    translated: "Spring's warmth (our entire group)"
+    translated: "춘난(우리 편 전체)"
 - raw: "5302#寓兵（单个队友）#0#0#0#0#0#0#100#2#100302#0#0#0#0##请选择一个我方角色添加寓兵论点#0#0#0#3#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "寓兵（单个队友）"
-    translated: "Comrade‑in‑arms (individual squad member)"
+    translated: "우병(단일 아군)"
   - split: 16
     text: "请选择一个我方角色添加寓兵论点"
-    translated: "Select one of our characters to add a 'Military Deployment Argument' point"
+    translated: "아군 캐릭터를 선택하여 어병론점을 추가해 주세요"
 - raw: "5303#岁稔（我方全体）#0#0#0#0#0#0#100#2#100303#0#0#0#0###0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "岁稔（我方全体）"
-    translated: "Our entire group, including the elderly (all of us), is present"
+    translated: "풍년(아군 전체)"
 - raw: "5304#年丰（自身）#0#0#0#0#0#0#100#2#100304#0#0#0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "年丰（自身）"
-    translated: "Year Abundant (of oneself)"
+    translated: "년풍(자신)"
 - raw: "5314#百变（自身）#0#0#0#0#0#0#100#2#100314#0#0#0#0###0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "百变（自身）"
-    translated: "Transmutable (Self)"
+    translated: "백변(자신)"
 - raw: "10001#攻击对手单个角色（伤害=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个敌方 伤害=自身利辞#请选择一个对手角色进行攻击#0#0#0#2#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击对手单个角色（伤害=利辞）"
-    translated: "Attack an opponent's single character (damage equals words spoken)"
+    translated: "상대방의 단일 캐릭터를 공격합니다(피해량=리사)"
   - split: 15
     text: "目标=单个敌方 伤害=自身利辞"
-    translated: "Target = Single Enemy, Damage = Self‑Injury"
+    translated: "대상=단일 적군, 피해량=자신의 무공 수치"
   - split: 16
     text: "请选择一个对手角色进行攻击"
-    translated: "Select an opponent to attack"
+    translated: "공격할 상대 캐릭터를 선택해 주세요"
 - raw: "10002#扣除自身辩力（伤害=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 伤害=辩力百分比##0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "扣除自身辩力（伤害=最大辩力百分比）"
-    translated: "Subtract their own resistance (damage equals a percentage of their maximum resistance)"
+    translated: "자신의 변력(피해량=최대 변력의 백분율)을 차감합니다"
   - split: 15
     text: "目标=自身 伤害=辩力百分比"
-    translated: "Target = Self; Damage = Percentage of Defense Power"
+    translated: "대상=자신, 피해량=변력 백분율"
 - raw: "10003#攻击全体对手角色（伤害=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个敌方 伤害=自身利辞##0#0#0#0#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击全体对手角色（伤害=利辞）"
-    translated: "Attack all opponent characters (damage = Li Ci)"
+    translated: "모든 적 캐릭터를 공격합니다 (피해량=리사)"
   - split: 15
     text: "目标=单个敌方 伤害=自身利辞"
-    translated: "Target = Single Enemy, Damage = Self‑Injury"
+    translated: "대상=단일 적군, 피해량=자신의 무공 수치"
 - raw: "10004#攻击自身（伤害=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个敌方 伤害=自身利辞#请选择一个对手角色进行攻击#0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击自身（伤害=利辞）"
-    translated: "Attack oneself (harm equals benefit)"
+    translated: "자신을 공격합니다(피해량=리츠)"
   - split: 15
     text: "目标=单个敌方 伤害=自身利辞"
-    translated: "Target = Single Enemy, Damage = Self‑Injury"
+    translated: "대상=단일 적군, 피해량=자신의 무공 수치"
   - split: 16
     text: "请选择一个对手角色进行攻击"
-    translated: "Select an opponent to attack"
+    translated: "공격할 상대 캐릭터를 선택해 주세요"
 - raw: "10005#攻击被攻击角色（伤害=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=被攻击者 伤害=自身利辞##0#0#0#11#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击被攻击角色（伤害=利辞）"
-    translated: "Attack the character being attacked (damage = rhetoric)"
+    translated: "공격 대상 캐릭터를 공격합니다(피해량=리차)"
   - split: 15
     text: "目标=被攻击者 伤害=自身利辞"
-    translated: "Target = Attacker, Damage = Self's Advantage"
+    translated: "대상=피격자 데미지=자신 이득"
 - raw: "10006#攻击对手单个随机角色（伤害=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个敌方 伤害=自身利辞#请选择一个对手角色进行攻击#0#0#0#14#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击对手单个随机角色（伤害=利辞）"
-    translated: "Attack a random character of the opponent (damage = Li Ci)"
+    translated: "적의 무작위 캐릭터 하나를 공격합니다(피해량=이사)"
   - split: 15
     text: "目标=单个敌方 伤害=自身利辞"
-    translated: "Target = Single Enemy, Damage = Self‑Injury"
+    translated: "대상=단일 적군, 피해량=자신의 무공 수치"
   - split: 16
     text: "请选择一个对手角色进行攻击"
-    translated: "Select an opponent to attack"
+    translated: "공격할 상대 캐릭터를 선택해 주세요"
 - raw: "10007#攻击对手单个角色（伤害=最大辩力）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=单个敌方 伤害=目标最大辩力#请选择一个对手角色进行攻击#0#0#0#2#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "攻击对手单个角色（伤害=最大辩力）"
-    translated: "Attack a single opponent's character (damage = maximum defense power)"
+    translated: "상대방의 단일 캐릭터를 공격합니다(피해량=최대 변력)"
   - split: 15
     text: "目标=单个敌方 伤害=目标最大辩力"
-    translated: "Target = Single Enemy; Damage = Target's Maximum Health"
+    translated: "대상=단일 적, 피해량=대상 최대 변력"
   - split: 16
     text: "请选择一个对手角色进行攻击"
-    translated: "Select an opponent to attack"
+    translated: "공격할 상대 캐릭터를 선택해 주세요"
 - raw: "10021#扣除自身辩力（伤害=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 伤害=辩力百分比##0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "扣除自身辩力（伤害=最大辩力百分比）"
-    translated: "Subtract their own resistance (damage equals a percentage of their maximum resistance)"
+    translated: "자신의 변력(피해량=최대 변력의 백분율)을 차감합니다"
   - split: 15
     text: "目标=自身 伤害=辩力百分比"
-    translated: "Target = Self; Damage = Percentage of Defense Power"
+    translated: "대상=자신, 피해량=변력 백분율"
 - raw: "10022#扣除自身辩力（伤害=当前生命）#0#0#0#0#0#0#100#0#0#0#0#0#0#目标=自身 伤害=辩力百分比##0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "扣除自身辩力（伤害=当前生命）"
-    translated: "Subtracting one's defensive power (damage equals current health)."
+    translated: "자신의 변력(피해량=현재 생명력)을 차감합니다"
   - split: 15
     text: "目标=自身 伤害=辩力百分比"
-    translated: "Target = Self; Damage = Percentage of Defense Power"
+    translated: "대상=자신, 피해량=변력 백분율"
 - raw: "10023#扣除我方全体辩力（伤害=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 伤害=辩力百分比##0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "扣除我方全体辩力（伤害=最大辩力百分比）"
-    translated: "Subtract our side's total defense power (damage = maximum defense percentage)"
+    translated: "아군 전체의 변력(피해량=최대 변력의 백분율)을 차감합니다"
   - split: 15
     text: "目标=自身 伤害=辩力百分比"
-    translated: "Target = Self; Damage = Percentage of Defense Power"
+    translated: "대상=자신, 피해량=변력 백분율"
 - raw: "10031#增加我方单个角色行动力#0#0#0#0#0#0#100#0#0#0#100#0#0#目标=单个队友#请选择一个我方角色增加行动力#0#2#0#3#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加我方单个角色行动力"
-    translated: "Enhance my character's action power"
+    translated: "아군 단일 캐릭터의 행동력을 증가합니다"
   - split: 15
     text: "目标=单个队友"
-    translated: "Target = A single team member"
+    translated: "대상=단일 아군"
   - split: 16
     text: "请选择一个我方角色增加行动力"
-    translated: "Select an ally character to increase action points"
+    translated: "아군 캐릭터 중 행동력을 증가시킬 캐릭터를 선택하십시오"
 - raw: "10032#增加减少自身行动力#0#0#0#0#0#0#100#0#0#0#100#0#0###0#2#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加减少自身行动力"
-    translated: "Increase or decrease one's own action power"
+    translated: "자신의 행동력을 증가하거나 감소합니다"
 - raw: "10033#减少对手单个角色行动力#0#0#0#0#0#0#100#0#0#0#100#0#0#目标=单个队友#请选择一个对手角色减少行动力#0#2#0#3#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "减少对手单个角色行动力"
-    translated: "Reduce enemy's single character action power"
+    translated: "상대방 캐릭터 한 명의 행동력을 감소시킵니다"
   - split: 15
     text: "目标=单个队友"
-    translated: "Target = A single team member"
+    translated: "대상=단일 아군"
   - split: 16
     text: "请选择一个对手角色减少行动力"
-    translated: "Select an opponent character to reduce their action power"
+    translated: "대항할 캐릭터를 선택하여 행동력을 감소시키세요"
 - raw: "10034#增加减少攻击者行动力#0#0#0#0#0#0#100#0#0#0#100#0#0###0#2#0#12#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加减少攻击者行动力"
-    translated: "Increase or decrease the attacker's action power"
+    translated: "공격자의 행동력을 증가 또는 감소시킵니다"
 - raw: "10035#增加减少我方全体行动力#0#0#0#0#0#0#100#0#0#0#100#0#0###0#2#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加减少我方全体行动力"
-    translated: "Increase or decrease our team's collective action power"
+    translated: "아군 전체의 행동력을 증가 또는 감소시킵니다"
 - raw: "10036#增加减少受击者行动力#0#0#0#0#0#0#100#0#0#0#100#0#0###0#2#0#11#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加减少受击者行动力"
-    translated: "Increase or decrease the action points of the target"
+    translated: "피격자의 행동력을 증가 또는 감소시킵니다"
 - raw: "10037#增加减少我方随机角色行动力#0#0#0#0#0#0#100#0#0#0#100#0#0###0#2#0#15#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加减少我方随机角色行动力"
-    translated: "Adjust increase or decrease our side's random character action points"
+    translated: "아군 무작위 캐릭터의 행동력을 증가 또는 감소시킵니다"
 - raw: "10041#恢复我方单个角色（恢复量=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个队友 恢复量=利辞#请选择一个我方角色进行回复#0#0#0#3#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复我方单个角色（恢复量=利辞）"
-    translated: "Restore my faction's individual character (restoration amount = Li Ci)"
+    translated: "아군 단일 캐릭터를 회복합니다(회복량=리사)"
   - split: 15
     text: "目标=单个队友 恢复量=利辞"
-    translated: "Target: One teammate. Recovery amount: Li Ci"
+    translated: "대상=단일 아군 회복량=리사"
   - split: 16
     text: "请选择一个我方角色进行回复"
-    translated: "Select a character on our side to respond"
+    translated: "응답할 아군 캐릭터를 선택해 주세요"
 - raw: "10042#恢复我方单个随机角色（恢复量=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=单个随机队友 恢复量=利辞##0#0#0#15#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复我方单个随机角色（恢复量=利辞）"
-    translated: "Restore a random allied character (restore amount = Li Ci)"
+    translated: "아군 무작위 캐릭터 1명의 HP를 회복합니다 (회복량=이차)"
   - split: 15
     text: "目标=单个随机队友 恢复量=利辞"
-    translated: "Target = a random individual from the team; recovery amount = Li Ci's"
+    translated: "대상=무작위 아군 1명 회복량=이차"
 - raw: "10043#恢复我方全体角色（恢复量=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=全体队友 恢复量=利辞##0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复我方全体角色（恢复量=利辞）"
-    translated: "Restore all our characters (restoration amount = Li Ci)"
+    translated: "우리 측 전체 캐릭터를 회복합니다(회복량=리사)"
   - split: 15
     text: "目标=全体队友 恢复量=利辞"
-    translated: "Target = All Team Members, Recovery Amount = Li Ci's"
+    translated: "대상=전체 아군 회복량=리사"
 - raw: "10044#恢复被攻击者（恢复量=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=自身 恢复量=利辞##0#0#0#11#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复被攻击者（恢复量=利辞）"
-    translated: "Restore the attacker (amount restored = attack value)"
+    translated: "피격자 회복(회복량=이차)"
   - split: 15
     text: "目标=自身 恢复量=利辞"
-    translated: "Target = Self, Recovery Amount = Li Ci"
+    translated: "목표=자신 회복량=리사"
 - raw: "10045#恢复自身（恢复量=利辞）#0#0#0#0#0#0#100#0#0#0#3#0#0#目标=自身 恢复量=利辞##0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复自身（恢复量=利辞）"
-    translated: "Restore oneself (amount of restoration equals Li Ci)"
+    translated: "자신 회복(회복량=리사)"
   - split: 15
     text: "目标=自身 恢复量=利辞"
-    translated: "Target = Self, Recovery Amount = Li Ci"
+    translated: "목표=자신 회복량=리사"
 - raw: "10046#回复自身辩力（恢复量=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 伤害=辩力百分比##0#0#0#4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "回复自身辩力（恢复量=最大辩力百分比）"
-    translated: "Self‑recovery of force (recovery amount = percentage of maximum force)"
+    translated: "자신의 변력 회복(회복량=최대 변력의 백분율)"
   - split: 15
     text: "目标=自身 伤害=辩力百分比"
-    translated: "Target = Self; Damage = Percentage of Defense Power"
+    translated: "대상=자신, 피해량=변력 백분율"
 - raw: "10047#恢复我方全体角色（恢复量=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=全体队友 恢复量=辩力百分比##0#0#0#1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复我方全体角色（恢复量=最大辩力百分比）"
-    translated: "Restore all our team members (restoration amount = maximum debate power percentage)"
+    translated: "아군 전체 캐릭터를 회복합니다. (회복량 = 최대 변력의 백분율)"
   - split: 15
     text: "目标=全体队友 恢复量=辩力百分比"
-    translated: "Target = All Team Members; Recovery Amount = Hundred Percent of Defense Power"
+    translated: "대상=전체 아군 회복량=변력 백분율"
 - raw: "10048#恢复我方单个角色（恢复量=最大辩力百分比）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=单个队友 恢复量=辩力百分比#请选择一个我方角色进行回复#0#0#0#3#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "恢复我方单个角色（恢复量=最大辩力百分比）"
-    translated: "Restore a single ally (restoration amount = maximum persuasion percentage)"
+    translated: "우리 측 단일 캐릭터를 회복합니다 (회복량 = 최대 변력의 퍼센트)"
   - split: 15
     text: "目标=单个队友 恢复量=辩力百分比"
-    translated: "Target = Single Team Member; Recovery Amount = Percentage of Biaoli"
+    translated: "대상=단일 아군 회복량=변력 백분율"
   - split: 16
     text: "请选择一个我方角色进行回复"
-    translated: "Select a character on our side to respond"
+    translated: "응답할 아군 캐릭터를 선택해 주세요"
 - raw: "10052#我方随即角色添加随机buff#0#0#0#0#0#0#100#2#99999#0#0#0#0###0#0##15#0#2#0#0#0#1#"
   splits:
   - split: 1
     text: "我方随即角色添加随机buff"
-    translated: "Our team immediately adds a random buff to the role"
+    translated: "우리 측 캐릭터에게 즉시 무작위 버프를 추가합니다"
 - raw: "10053#我方全体角色添加随机buff#0#0#0#0#0#0#100#2#99999#0#0#0#0###0#0##1#0#2#0#0#0#1#"
   splits:
   - split: 1
     text: "我方全体角色添加随机buff"
-    translated: "Grant a random buff to all characters on our team"
+    translated: "아군 전체 캐릭터에게 무작위 버프를 부여합니다"
 - raw: "10065#增加自身最大辩力#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 增加=辩力##0#1##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加自身最大辩力"
-    translated: "Maximize one's own defensive power"
+    translated: "자신의 최대 변론력을 증가합니다"
   - split: 15
     text: "目标=自身 增加=辩力"
-    translated: "Objective: Enhance personal argumentative skills"
+    translated: "목표=자신, 증가=변력"
 - raw: "10066#增加我方全体最大辩力#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身 增加=辩力##0#1##1#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "增加我方全体最大辩力"
-    translated: "Maximize our team's overall persuasive power"
+    translated: "아군 전체의 최대 변력을 증가합니다"
   - split: 15
     text: "目标=自身 增加=辩力"
-    translated: "Objective: Enhance personal argumentative skills"
+    translated: "목표=자신, 증가=변력"
 - raw: "10070#对攻击自己的人进行反击（伤害=利辞）#0#0#1#0#0#0#100#0#0#0#3#0#0#目标=攻击自己的目标 伤害=自身利辞##0#0##12##0#0#0#0#1#"
   splits:
   - split: 1
     text: "对攻击自己的人进行反击（伤害=利辞）"
-    translated: "To retaliate against those who attack you (harm equals benefit)"
+    translated: "자신을 공격하는 대상에게 반격합니다(피해량=이차)"
   - split: 15
     text: "目标=攻击自己的目标 伤害=自身利辞"
-    translated: "Target = Attack one's own target. Damage = Self‑interest"
+    translated: "목표=자신을 공격하는 목표, 피해=자신의 이득"
 - raw: "10090#移除自身随机debuff#0#0#0#0#0#0#100#3##0#100#0#0###0#2##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "移除自身随机debuff"
-    translated: "Remove self‑inflicted random debuff"
+    translated: "자신의 무작위 디버프를 제거합니다"
 - raw: "10091#移除被添加buff者buff#0#0#0#0#0#0#100#3##0#100#0#0###0#3##11##0#0#0#0#1#"
   splits:
   - split: 1
     text: "移除被添加buff者buff"
-    translated: "Remove buffs from the buffed targets"
+    translated: "버프가 적용된 대상의 버프를 제거합니다"
 - raw: "10100#将濒死者血量设置为0#0#0#0#0#0#0#100#0#0#4#0#0#0#目标=濒死者，恢复=当前生命值 回复量=最大生命值##0#0##12#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "将濒死者血量设置为0"
-    translated: "Set the blood volume of those near death to 0."
+    translated: "빈사 상태인 대상의 체력을 0으로 설정합니다"
   - split: 15
     text: "目标=濒死者，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target = Dying individuals; Recovery = Restore current health points. Amount restored = Maximum health value."
+    translated: "목표=빈사 상태, 회복=현재 체력, 회복량=최대 체력"
 - raw: "10101#对濒死者治疗（最大生命值）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=濒死者，恢复=当前生命值 回复量=最大生命值##0#0##12#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "对濒死者治疗（最大生命值）"
-    translated: "Life Restoration (Maximum Health Recovery)"
+    translated: "빈사 상태인 대상 치료(최대 생명력)"
   - split: 15
     text: "目标=濒死者，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target = Dying individuals; Recovery = Restore current health points. Amount restored = Maximum health value."
+    translated: "목표=빈사 상태, 회복=현재 체력, 회복량=최대 체력"
 - raw: "10102#将自身血量设置为0#0#0#0#0#0#0#100#0#0#4#0#0#0#目标=自身，恢复=当前生命值 回复量=最大生命值##0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "将自身血量设置为0"
-    translated: "Set your health to 0"
+    translated: "자신의 체력을 0으로 설정합니다"
   - split: 15
     text: "目标=自身，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target=self, restore=current health points. Recovery amount=maximal health points."
+    translated: "대상=자신, 회복=현재 생명력, 회복량=최대 생명력"
 - raw: "10103#对自身治疗（最大生命值）#0#0#0#0#0#0#100#0#0#0#1#0#0#目标=自身，恢复=当前生命值 回复量=最大生命值##0#0##4#0#0#0#0#0#1#"
   splits:
   - split: 1
     text: "对自身治疗（最大生命值）"
-    translated: "Treat oneself (Max Health Points)"
+    translated: "자신 치료(최대 생명력)"
   - split: 15
     text: "目标=自身，恢复=当前生命值 回复量=最大生命值"
-    translated: "Target=self, restore=current health points. Recovery amount=maximal health points."
+    translated: "대상=자신, 회복=현재 생명력, 회복량=최대 생명력"
 - raw: "10110#增减自身利辞#0#0#0#0#0#0#100#0##0#3#0#0#目标=自身 增加=利辞力##0#3##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减自身利辞"
-    translated: "Enhance or diminish one's own interests at will"
+    translated: "자신의 이득을 더하거나 줄이는 말"
   - split: 15
     text: "目标=自身 增加=利辞力"
-    translated: "Objective: Increase own persuasive ability"
+    translated: "대상=자신 증가=이차력"
 - raw: "10111#增减自身增伤#0#0#0#0#0#0#100#0##0#100#0#0###0#5##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减自身增伤"
-    translated: "Enhance or diminish one's own damage amplification"
+    translated: "자신의 피해량을 증감합니다"
 - raw: "10112#增增自身减伤#0#0#0#0#0#0#100#0##0#100#0#0###0#4##4##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增增自身减伤"
-    translated: "Enhance personal damage reduction"
+    translated: "자신의 피해 감소 수치를 증가합니다"
 - raw: "10113#增减对手全体利辞#0#0#0#0#0#0#100#0##0#3#0#0###0#3##0##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减对手全体利辞"
-    translated: "Enhance benefits or reduce losses for the entire opposing team"
+    translated: "상대방 전체의 이력을 증감합니다"
 - raw: "10114#增减随即我方利辞#0#0#0#0#0#0#100#0##0#3#0#0#目标=自身 增加=利辞力##0#3##15##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减随即我方利辞"
-    translated: "Adjustments will be made promptly to benefit our side"
+    translated: "증감 무작위 아군 이득"
   - split: 15
     text: "目标=自身 增加=利辞力"
-    translated: "Objective: Increase own persuasive ability"
+    translated: "대상=자신 증가=이차력"
 - raw: "10115#增减我方全体利辞#0#0#0#0#0#0#100#0##0#3#0#0###0#3##1##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减我方全体利辞"
-    translated: "Adjust to benefit our entire team"
+    translated: "아군 전체의 이로운 효과를 증감합니다"
 - raw: "10116#增减攻击者增伤#0#0#0#0#0#0#100#0##0#100#0#0###0#5##12##0#0#0#0#1#"
   splits:
   - split: 1
     text: "增减攻击者增伤"
-    translated: "Increase or decrease damage against attackers"
+    translated: "공격자 공격력 증가량 증감"
 - raw: "10201#控制随机对手#0#0#0#0#0#0#100#0##0#8#0#0###0#8##14##0#0#0#0#1#"
   splits:
   - split: 1
     text: "控制随机对手"
-    translated: "Control Random Opponent"
+    translated: "랜덤 상대 제어"
 - raw: "10202#控制攻击者#0#0#0#0#0#0#100#0##0#8#0#0###0#8##12##0#0#0#0#1#"
   splits:
   - split: 1
     text: "控制攻击者"
-    translated: "Control the attacker"
+    translated: "공격자 제어"
 - raw: "10203#控制攻击者#0#0#0#0#0#0#100#0##0#8#0#0###0#8##11##0#0#0#0#1#"
   splits:
   - split: 1
     text: "控制攻击者"
-    translated: "Control the attacker"
+    translated: "공격자 제어"
 - raw: "100003#迁移#0#0#0#1#0#0#100#0#0#0#0#20#0#迁移：提升自身20%增伤。##0#0##0#5#6#0#0#0#1#"
   splits:
   - split: 1
     text: "迁移"
-    translated: "Relocation"
+    translated: "이주"
   - split: 15
     text: "迁移：提升自身20%增伤。"
-    translated: "Migration: Enhance personal 20% increased damage"
+    translated: "이전: 자신의 20% 피해 증가량을 높입니다"
 - raw: "100006#因循#0#0#0#1#0#0#100#0#0#0#0#0#0#因循：受到伤害时增加一层，叠加到五层时对对手单个角色造成自身10%最大辩力的伤害。##0#0##0#0#99#3#4901#5#1#"
   splits:
   - split: 1
     text: "因循"
-    translated: "Follow routine"
+    translated: "구습을 따르다"
   - split: 15
     text: "因循：受到伤害时增加一层，叠加到五层时对对手单个角色造成自身10%最大辩力的伤害。"
-    translated: "Indulging in procrastination: When damaged, gain one layer; when stacked to five layers, deal damage equal to 10% of your maximum debating power to a single target."
+    translated: "관습을 따름: 피해를 입을 때마다 1중첩이 추가되며, 5중첩에 도달하면 상대 캐릭터 1인에게 자신의 최대 변력10%에 해당하는 피해를 입힙니다."
 - raw: "100018#守黑#0#0#0#1#0#5#100#0#4902#0#0#0#0#守黑：论点持有者承受造成退场的攻击时将生命值设置为1%。##0#0#0|16&=&0&0#0#0#6#0#0#0#1#"
   splits:
   - split: 1
     text: "守黑"
-    translated: "Guard the darkness"
+    translated: "수흑"
   - split: 15
     text: "守黑：论点持有者承受造成退场的攻击时将生命值设置为1%。"
-    translated: "Guardian of Shadows: When a debater who holds a point receives an attack that causes them to leave, their health points will be set to 1%."
+    translated: "수흑: 논점 보유자가 퇴장을 초래하는 공격을 받을 시 생명력을 1%로 설정합니다."
 - raw: "100022#易行#0#0#0#2#0#0#100#0#0#0#0#-15#0#易行：减少自身15%增伤。##0#0##0#5#6#0#0#0#1#"
   splits:
   - split: 1
     text: "易行"
-    translated: "Unburdened by difficulty"
+    translated: "이행"
   - split: 15
     text: "易行：减少自身15%增伤。"
-    translated: "Wander freely: Reduce personal 15% damage boost"
+    translated: "이행: 자신의 15% 추가 피해량이 감소합니다"
 - raw: "100023#难知#0#0#0#1#0#0#100#0##0#0#15#0#难知：提升自身15%减伤。##0#0##0#4#6#0#0#0#1#"
   splits:
   - split: 1
     text: "难知"
-    translated: "It is difficult to know"
+    translated: "난지"
   - split: 15
     text: "难知：提升自身15%减伤。"
-    translated: "Difficult to know: Enhance personal 15% damage reduction."
+    translated: "난지: 자신의 15% 피해 감소를 증가합니다"
 - raw: "100026#无念#0#0#0#2#0#4#100#0#4904#0#0#0#0#无念：攻击时扣除自身5%最大辩力。##0#0#0|16&=&0&0#0#0#6#0#0#0#1#"
   splits:
   - split: 1
     text: "无念"
-    translated: "Unmindful"
+    translated: "무념"
   - split: 15
     text: "无念：攻击时扣除自身5%最大辩力。"
-    translated: "Without regrets: Reduces own maximum defense by 5% upon attacking."
+    translated: "무념: 공격 시 자신의 최대 변력 5%를 소모합니다"
 - raw: "100113#常转#0#0#0#2#0#1#100#0#4909#2#0#0#0#常转：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。##0#0#0|6&=&0&0#0#0#2#0#0#0#1#"
   splits:
   - split: 1
     text: "常转"
-    translated: "Often busy"
+    translated: "상전"
   - split: 15
     text: "常转：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "Often change: At the start of your turn, you attack yourself once and receive 0.5‑times amplified verbal damage."
+    translated: "상전: 턴 시작 시 자신에게 1회 공격하며, 논점을 추가한 대상으로부터 0.5배의 이사의 피해를 받습니다."
 - raw: "100116#三谛#0#0#0#2#0#1#100#0#4908#2#0#0#0#三谛：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。##0#0#0|6&=&0&0#0#0#2#0#0#0#1#"
   splits:
   - split: 1
     text: "三谛"
-    translated: "Three Truths"
+    translated: "삼제"
   - split: 15
     text: "三谛：回合开始时对自身攻击一次，受到添加论点者0.5倍利辞的伤害。"
-    translated: "The Threefold Truth: At the start of your turn, you attack yourself once and take damage equivalent to 0.5 times the added points."
+    translated: "삼제: 턴 시작 시 자신에게 1회 공격하며, 논점을 추가한 자의 0.5배에 달하는 이사의 피해를 입습니다."
 - raw: "100118#感化#0#0#0#2#0#0#100#0#0#0#0#0#0#感化：论点持有者攻击时层数增加一，达到三层后使论点持有者在下个回合无法行动。##0#0#0|16&=&0&0#0#0#99#4#4907#3#1#"
   splits:
   - split: 1
     text: "感化"
-    translated: "Reform"
+    translated: "감화"
   - split: 15
     text: "感化：论点持有者攻击时层数增加一，达到三层后使论点持有者在下个回合无法行动。"
-    translated: "Reformative influence: When a point holder attacks, their level increases by one. Once they reach level three, the point holder cannot act in the next round."
+    translated: "감화: 논점 보유자가 공격할 때마다 층수가 1씩 증가하며, 3층에 도달하면 다음 차례에 논점 보유자가 행동할 수 없습니다."
 - raw: "100202#逾节#0#0#0#2#0#0#25#0#4910#0#0#0#0#逾节：受到攻击时有25%几率减少1行动力。##0#0#0|15&=&0&0#0#0#6#0#0#0#1#"
   splits:
   - split: 1
     text: "逾节"
-    translated: "Exceeding the limit"
+    translated: "축하드립니다"
   - split: 15
     text: "逾节：受到攻击时有25%几率减少1行动力。"
-    translated: "Exceeding limits: When attacked, there is a 25% chance to reduce 1 action points."
+    translated: "경축할 일: 공격받을 시 25% 확률로 행동력을 1만큼 감소시킵니다"
 - raw: "100203#守耻#0#0#0#1#0#0#100#0#0#0#0#-15#0#守耻：减少自身15%减伤。##0#0##0#4#6#0#0#0#1#"
   splits:
   - split: 1
     text: "守耻"
-    translated: "Uphold honor"
+    translated: "수치"
   - split: 15
     text: "守耻：减少自身15%减伤。"
-    translated: "Uphold one's honor: Reduces damage taken by 15%."
+    translated: "수치: 자신의 15% 피해 감소량이 감소합니다"
 - raw: "100213#道生#0#0#0#1#0#0#100#0#0#0#0#-15#0#道生：减少自身15%利辞。##0#0##0#3#6#0#0#0#1#"
   splits:
   - split: 1
     text: "道生"
-    translated: "Way gives birth"
+    translated: "도생"
   - split: 15
     text: "道生：减少自身15%利辞。"
-    translated: "Dao sheng: Reduce self 15% in rhetoric"
+    translated: "도생: 자신의 15% 이득을 감소시킵니다"
 - raw: "100214#有方#0#0#0#1#0#0#100#4#0#0#0#50#0#有方：下一次攻击，增伤提升50%，攻击后消失。##1#0##0#5#6#0#0#0#1#"
   splits:
   - split: 1
     text: "有方"
-    translated: "It has a solution"
+    translated: "유방"
   - split: 15
     text: "有方：下一次攻击，增伤提升50%，攻击后消失。"
-    translated: "It has a way to do it: Next attack: increase damage by 50%, disappear after attacking."
+    translated: "유방: 다음 공격의 피해량이 50% 증가하며, 공격 후 효과가 사라집니다."
 - raw: "100224#仁心#0#0#0#1#0#4#100#0#4911#0#0#0#0#仁心：被攻击时回复自身5%最大辩力的辩力。##0#0#0|16&=&1&0|15&=&0&0#0#5#6#0#0#0#1#"
   splits:
   - split: 1
     text: "仁心"
-    translated: "Compassion"
+    translated: "인심"
   - split: 15
     text: "仁心：被攻击时回复自身5%最大辩力的辩力。"
-    translated: "Compassionate heart: When attacked, restores 5% of their maximum Defense."
+    translated: "인심: 피격 시 자신의 최대 변력의 5%만큼 변력을 회복합니다."
 - raw: "100228#春暖#0#0#0#1#0#4#100#0#4912#0#0#0#0#春暖：被攻击时回复自身5%最大辩力的辩力。##0#0#0|16&=&1&0|15&=&0&0#0#5#4#0#0#0#1#"
   splits:
   - split: 1
     text: "春暖"
-    translated: "As spring warms"
+    translated: "춘난"
   - split: 15
     text: "春暖：被攻击时回复自身5%最大辩力的辩力。"
-    translated: "Spring warmth: Upon being attacked, restore 5% of your maximum eloquence to yourself."
+    translated: "춘난: 공격받을 시 자신의 최대 변력의 5%만큼 변력을 회복합니다."
 - raw: "100302#寓兵#0#0#0#1#0#0#100#0#0#0#0#30#0#寓兵：提升自身30%利辞。##0#0##0#3#6#0#0#0#1#"
   splits:
   - split: 1
     text: "寓兵"
-    translated: "Hide soldiers"
+    translated: "유병"
   - split: 15
     text: "寓兵：提升自身30%利辞。"
-    translated: "Reside in military strategy: Enhance your self‑promotion by 30%."
+    translated: "우병: 자신의 30% 이득을 높입니다"
 - raw: "100303#岁稔#0#0#0#1#0#0#100#0#0#0#0#30#0#岁稔：提升自身30%利辞。##0#0##0#3#6#0#0#0#1#"
   splits:
   - split: 1
     text: "岁稔"
-    translated: "Years of experience"
+    translated: "풍년"
   - split: 15
     text: "岁稔：提升自身30%利辞。"
-    translated: "Aged and experienced: Enhance your own 30% persuasive ability."
+    translated: "풍년: 자신의 30% 이득을 높입니다"
 - raw: "100304#年丰#0#0#0#1#0#4#100#0#4913#0#0#0#0#年丰：持有岁稔论点角色（自身除外）攻击时攻击一次，造成0.5倍利辞的伤害。##0#0#0|16&=&1&0|16&=&2&0|15&=&3&0|18&=&100303&0#0#3#6#0#0#0#1#"
   splits:
   - split: 1
     text: "年丰"
-    translated: "Year of Abundance"
+    translated: "풍년"
   - split: 15
     text: "年丰：持有岁稔论点角色（自身除外）攻击时攻击一次，造成0.5倍利辞的伤害。"
-    translated: "Year of Abundance: When holding the Centuries of Accumulation argument, attack once to deal damage amounting to 0.5 times your Wisdom. (Not applicable against yourself.)"
+    translated: "풍년: 세념 논점을 보유한 캐릭터(본인 제외)가 공격할 때 1회 공격하여, 0.5배의 이사의 피해를 입힙니다."
 - raw: "100314#百变#0#0#0#1#0#4#50#0#4914#0#0#0#0#百变：自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。##0#0#0|16&=&0&0|15&=&3&0#4#0#99#0#0#0#1#"
   splits:
   - split: 1
     text: "百变"
-    translated: "Shape‑shifting"
+    translated: "백변"
   - split: 15
     text: "百变：自身攻击时有50%的几率提升自身50%利辞并扣除我方全体队友20%最大辩力的辩力。"
-    translated: "A hundred transformations: When attacking oneself, there is a 50% chance to increase one's own 50% rhetoric and deduct 20% of the maximum rhetoric from all allies on our side."
+    translated: "백변: 자신이 공격할 때 50%의 확률로 자신의 50% 이득을 높이고, 아군 전체 동료의 최대 변력의 20%만큼 변력을 차감합니다."

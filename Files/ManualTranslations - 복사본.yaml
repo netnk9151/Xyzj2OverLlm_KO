@@ -1,0 +1,3502 @@
+﻿- raw: 开启
+  result: Open
+  direct: open start
+  literal: kai qi
+- raw: 开始
+  result: Enable
+- raw: 高
+  result: High
+- raw: <color=#d18b57>条件未满足</color>
+  result: <color=#d18b57>Condition not met</color>
+- raw: "<nobr>装备上可替换主角模型，对话立绘和泡泡表情"
+  result: Equip to replace protagonist model, dialogue portrait, and bubble expression
+- raw: 任务五分支一，对话士兵
+  result: Mission 5 Branch 1 Talk to Soldier
+  badtrans: true
+  direct: Task Five Branch One, Talk Soldier
+  literal: renwu wu fenzhi yi, duihua shibing
+- raw: 每次伤害附带自身道学*1.1，持续7秒
+  result: Each hit adds Taoism ×1.1, lasts 7 seconds
+  badtrans: true
+  direct: each time damage carries own Daoism *1.1, lasts 7 seconds
+  literal: mei ci shang hai fu dai zi shen dao xue *1.1, chi xu 7 miao
+- raw: 如果自身有剑玄效果，攻击对目标施加道意，目标自身道学低于350，受到伤害增加20%，持续6秒
+  result: If under Profound Sword, attacks apply Tao Intent; if target's Taoism is below 350, they take 20% more damage for 6 seconds
+  badtrans: true
+  direct: If self has Sword Profound effect, attack applies Dao Intent to target, target’s own Daoism lower than 350, receives 20% more damage, lasts 6 seconds
+  literal: Ru guo zi shen you jian xuan xiao guo, gong ji dui mu biao shi jia dao yi, mu biao zi shen dao xue di yu 350, shou dao shang hai zeng jia 20%, chi xu 6 miao
+- raw: 谢王上。
+  result: Thank you, Your Majesty
+  badtrans: true
+  direct: thank king
+  literal: xie wang shang
+- raw: 你可算来了，这是从楚国宗和那儿来的信。
+  result: You're finally here. This is a letter from Zong He of Chu Kingdom.
+  badtrans: true
+  direct: you finally came, this is from Chu State Zong He's place letter
+  literal: ni ke suan lai le, zhe shi cong chu guo zong he na er lai de xin
+- raw: 孙先生并未透露捭阖谷消息，但仅仅只是防范于未然，便杀他灭口吗？
+  result: Mister Sun didn't reveal anything about Baihe Valley, was it really necessary to kill him just for a precaution?
+  badtrans: true
+  direct: Mr. Sun did not reveal Baihe Valley news, but just to guard against possible trouble, then kill him to silence?
+  literal: sun xian sheng bing wei tou lu bai he gu xiao xi, dan jin jin zhi shi fang fan yu wei ran, bian sha ta mie kou ma?
+- raw: 捭！阖！谷！
+  result: Bai! He! Valley!
+  badtrans: true
+  direct: open! close! valley!
+  literal: bai! he! gu!
+- raw: 挑起争端。
+  result: Stir up conflict
+  badtrans: true
+  direct: provoke dispute
+  literal: tiao qi zheng duan
+- raw: 陆兄说来听听。
+  result: Brother Lu, let's hear what you have to say.
+  badtrans: true
+  direct: Brother Lu speak let (me) listen
+  literal: lu xiong shuo lai ting ting
+- raw: 多半是这样的。
+  result: Most likely, that's the case
+  badtrans: true
+  direct: most likely is like this
+  literal: duo ban shi zhe yang de
+- raw: ）拒绝了。
+  result: ) was rejected
+  badtrans: true
+  direct: ) rejected
+  literal: ) ju jue le
+- raw: ">的请求被（"
+  result: ">'s request was ("
+  badtrans: true
+- raw: ）已送达。
+  result: ) has been delivered
+  badtrans: true
+  direct: ) has been delivered
+  literal: ) yi song da
+- raw: ）了！
+  result: ) is done!
+  badtrans: true
+  direct: ) finished!
+  literal: ) le!
+- raw: 报——————
+  result: Report‑‑‑‑‑‑
+  badtrans: true
+  direct: report——————
+  literal: bao——————
+- raw: 可恶！
+  result: Damn it!
+  badtrans: true
+  direct: detestable!
+  literal: ke wu!
+- raw: "选择对应人物可解除跟随。<color=00FF00>（注：选择解除跟随后人物无法重新跟随主角，请确保解除跟随时已完成跟随人物相关的主线或支线）</color>"
+  result: "Selecting the corresponding character will cancel following. <color=00FF00>(Note: Once a follower is removed, they cannot follow the protagonist again. Please ensure any related main or side quests are completed before canceling.)</color>"
+  badtrans: true
+- raw: 你思索了下，决定以残烛的名号进行残烛派来的任务）
+  result: After thinking it over, you decide to carry out the mission sent by Can Zhu under the name of Can Zhu.)
+  badtrans: true
+  direct: you thought for a moment, decided to use Canzhu's name to carry out Canzhu-sent mission)
+  literal: ni si suo le xia, jue ding yi can zhu de ming hao jin xing can zhu pai lai de ren wu)
+- raw: ）来否则的话应该会得到一个好成绩。
+  result: ) otherwise, it should lead to a good result.
+  badtrans: true
+  direct: ) otherwise, should get a good result
+  literal: ) lai fou ze de hua ying gai hui de dao yi ge hao cheng ji
+- raw: ）的话应该会非常顺利才是。
+  result: ) if so, it should go very smoothly.
+  badtrans: true
+  direct: ) if so should be very smooth indeed
+  literal: ) de hua ying gai hui fei chang shun li cai shi
+- raw: ）应该会很合适吧。
+  result: ) it should be quite suitable, right?
+  badtrans: true
+  direct: ) should be very suitable, right?
+  literal: ) ying gai hui hen he shi ba
+- raw: 关于这件事的的话……（
+  result: As for this matter... (
+  badtrans: true
+  direct: regarding this matter's words... (
+  literal: guan yu zhe jian shi de de hua... (
+- raw: 还有说将军因段将军之死记恨燕国，意图报复燕国权贵。
+  result: Some even say the general resents Yan for General Duan's death and intends to take revenge on the Yan nobility.
+  badtrans: true
+  direct: also say general because of Duan general's death bears grudge against Yan, intends to retaliate against Yan aristocrats
+  literal: hai you shuo jiang jun yin duan jiang jun zhi si ji hen yan guo, yi tu bao fu yan guo quan gui
+- raw: 还有还有，王上不喜将军和起义军出身一般，打算卸磨杀驴。
+  result: And furthermore, the king dislikes that the general and the rebel army come from similar backgrounds, planning to discard the donkey after the mill is unloaded.
+  badtrans: true
+  direct: and also, king doesn't like general and rebel army come from same background, planning to unload mill and kill donkey
+  literal: hai you hai you, wang shang bu xi jiang jun he qi yi jun chu shen yi ban, da suan xie mo sha lv
+- raw: 还有………说将军自诩段将军亲信，瞧不起起义军，拉拢起义军只是想找人当垫背的。
+  result: And also... saying that the general prides himself as General Duan's trusted confidant, looks down on the rebel army, and is only trying to recruit them to find someone to take the blame.
+  badtrans: true
+  direct: and also... saying general prides himself Duan general trusted confidant, looks down on rebel army, recruit rebel army only want find someone to take the blame
+  literal: hai you………shuo jiang jun zi xu duan jiang jun qin xin, qiao bu qi qi yi jun, la long qi yi jun zhi shi xiang zhao ren dang dian bei de
+- raw: 孙才英！背后编排上峰，我看你是越来越放肆了！
+  result: Sun Caiying! Plotting against your superiors behind their back, it seems you're becoming more and more audacious!
+  badtrans: true
+  direct: Sun Caiying! Behind arranging upper level, I see you are becoming more and more insolent!
+  literal: sun cai ying! bei hou bian pai shang feng, wo kan ni shi yue lai yue fang si le!
+- raw: 你可要改国名？
+  result: Are you planning to change the country's name?
+  badtrans: true
+  direct: you planning to change country name?
+  literal: ni ke yao gai guo ming?
+- raw: ………也罢。此事待我回去先报给宗主再说吧。
+  result: ... Fine. I'll report this to the sect leader when I return and discuss it then.
+  badtrans: true
+  direct: ...... alright. This matter wait for me return first report to sect leader then speak
+  literal: ....... ye ba. ci shi dai wo hui qu xian bao gei zong zhu zai shuo ba
+- raw: 那你把段前辈的遗体埋葬在何处？说起来他也算是我的授业恩师。
+  result: So where did you bury Senior Duan's body? Come to think of it, he was also my mentor.
+  badtrans: true
+  direct: Then you put Duan senior's corpse buried where? Speaking of it, he also counts as my teaching benefactor.
+  literal: Nà nǐ bǎ Duàn qiánbèi de yítǐ máizàng zài hé chù? Shuō qǐlái tā yě suàn shì wǒ de shòuyè ēnshī.
+- raw: 可村中百姓……怎么办？
+  result: But what about the villagers... what should we do?
+  badtrans: true
+  direct: But village middle common people... how to do?
+  literal: Ke cun zhong bǎi xìng... zěn me bàn?
+- raw: 段氏旧藏，藏有昔年传承，包括……六脉全篇
+  result: The Duan family's old collection, containing the ancient inheritance, including... the complete text of the Six Meridians
+  badtrans: true
+  direct: Duan family old collection, contain past years' inheritance, including... Six Meridians full text
+  literal: Duan shi jiu cang, cang you xi nian chuán chéng, bāokuò... liù mài quán piān
+- raw: 孔子如何看待“己所不欲”？
+  result: "How did Confucius view 'What you do not want for yourself'?"
+  badtrans: true
+  direct: Confucius how look at 'what oneself not want'?
+  literal: Kongzi ruhe kanding ji suo bu yu?
+- raw: 捭阖
+  result: Baihe
+  badtrans: true
+  direct: Open and Close
+  literal: Bai he
+- raw: 他们还说，除非身死，否则绝不让我军踏进城门半步。
+  result: They also said that unless they die, they will never let our army set foot inside the city.
+  badtrans: true
+  direct: they also said, unless die, otherwise absolutely not let our army step into city gate half step
+  literal: ta men hai shuo, chu fei shen si, fou ze jue bu rang wo jun ta jin cheng men ban bu
+- raw: 正是知道了才闹着呢，说……说王爷和将军是乱臣贼子。
+  result: That's exactly why they're causing a stir, they're saying... saying the prince and the general are traitors.
+  badtrans: true
+  direct: exactly knew then making a fuss, saying... saying prince and general are chaotic ministers and thieves
+  literal: zheng shi zhi dao le cai nao zhe ne, shuo... shuo wang ye he jiang jun shi luan chen zei zi
+- raw: 后来得了将军消息，打算进城才发现进不去。
+  result: Later, after receiving word from the general, we tried to enter the city but realized we couldn't.
+  badtrans: true
+  direct: later got general news, planned enter city only discovered can't enter
+  literal: hou lai de le jiang jun xiao xi, da suan jin cheng cai fa xian jin bu qu
+- raw: 怎么乱糟糟的？
+  result: Why is there such a mess?
+  badtrans: true
+  direct: how messy messy
+  literal: zen me luan zao zao de
+- raw: （化境）
+  result: (Trancendant)
+  badtrans: true
+  direct: transformation realm
+  literal: hua jing
+- raw: "段:"
+  result: "Node:"
+  badtrans: true
+  direct: "section:"
+  literal: "duan:"
+- raw: 你让我赌吗，就像章武帝赌我会不会叛乱一样。
+  result: Are you asking me to gamble, like Emperor Zhangwu gambling whether I'd rebel?
+  badtrans: true
+  direct: you let me gamble? just like Emperor Zhangwu gamble I will not rebel same.
+  literal: ni rang wo du ma, jiu xiang Zhangwu Di du wo hui bu hui pan luan yi yang.
+- raw: 哪成想深略居然自尽了。
+  result: Who would've thought Shen Lue would actually take his own life?
+  badtrans: true
+  direct: who would think Shenlue actually self-ended.
+  literal: na cheng xiang shen lüe ju ran zi jin le.
+- raw: 这次的后续效果比原定计划更好，深略便以此为由狮子大张口讨要更多好处，与捭阖谷内部起了冲突。
+  result: The aftermath this time turned out better than the original plan, so Shen Lue used it as an excuse to make outrageous demands for more benefits, which led to conflict within Baihe Valley.
+  badtrans: true
+  direct: this time's follow-up outcome compared to original plan better, Shenlue then used this as reason lion big open mouth ask more benefits, with Bai He Valley inside started conflict.
+  literal: zhe ci de hou xu xiao guo bi yuan ding ji hua geng hao, shen lüe bian yi ci wei you shi zi da zhang kou tao yao geng duo hao chu, yu bai he gu nei bu qi le chong tu.
+- raw: 还说你不是捭阖谷的人。
+  result: And you still claim you're not from Baihe Valley.
+  badtrans: true
+  direct: still say you not are Bai He Valley's person.
+  literal: hai shuo ni bu shi bai he gu de ren.
+- raw: 你们……好你个大雪山，居然还自导自演！我真是瞎了眼才帮了你们！
+  result: You... damn you, Great Snow Mountain! You even staged the whole thing yourselves! I must've been blind to help you!
+  badtrans: true
+  direct: you... good you big snow mountain, actually even self-direct self-act! I really was blind only then helped you!
+  literal: nimen... hao ni ge da xue shan, jujran hai zi dao zi yan! wo zhen shi xia le yan cai bang le nimen!
+- raw: 卫王交代越快越好。
+  result: The Prince of Wei said the sooner, the better.
+  badtrans: true
+  direct: The King of Wei instructs the sooner, the better.
+  literal: Wèi wáng jiāodài yuè kuài yuè hǎo.
+- raw: 什么人敢来坏老子斛律巍的事，欠打！
+  result: Who dares mess with Lord Hulu Wei's business? You're asking for a beating!
+  badtrans: true
+  direct: What person dares come ruin your father Hulu Wei's business—deserves a beating!
+  literal: Shénme rén gǎn lái huài lǎozi Húlǜ Wēi de shì, qiàn dǎ!
+- raw: 少林轻功绝学，谁谓河广，一苇杭之。练成后身轻如燕，来去无影无踪，无迹可寻。
+  result: The Shaolin's supreme lightness skill, who says the river is wide? A single reed can cross it. Once perfected, the body becomes as light as a swallow, coming and going without a trace, leaving no sign behind.
+  badtrans: true
+  direct: Shaolin's lightness skill, who says the river is wide? A single reed can cross it. After training, the body is as light as a swallow, coming and going without shadow, no trace to be found.
+  literal: Shàolín qīng gōng jué xué, shuí wèi hé guǎng, yī wěi háng zhī. Liàn chéng hòu shēn qīng rú yàn, lái qù wú yǐng wú zōng, wú jì kě xún.
+- raw: 好，那王爷先回王府吧，得空我再拜会。
+  result: Alright, then the prince should return to the manor first. I'll visit when I have the time.
+  badtrans: true
+  direct: Okay, then Prince should return to the manor first, when free I will visit.
+  literal: Hǎo, nà wáng yé xiān huí wáng fǔ ba, dé kòng wǒ zài bài huì.
+- raw: 你不会。
+  result: "That's not going to happen"
+  badtrans: true
+  direct: You do not know how.
+  literal: Ni bu hui.
+- raw: 王爷就不怕，我军入驻，你沦为阶下囚？
+  result: Aren't you afraid that after my army moves in and you will become a prisoner?
+  badtrans: true
+  direct: Prince, aren't you afraid? My army occupies, you become a prisoner of war?
+  literal: Wangye jiu bu pa, wo jun ruzhu, ni lun wei jiexia qiu?
+- raw: 卫王这是？
+  result: What is the Prince of Wei doing here?
+  badtrans: true
+  direct: Prince of Wei this is?
+  literal: Wei Wang zhe shi?
+- raw: 只要将军您准备好一声令下，兄弟们随时可以出发！
+  result: As soon as you're ready to give the order, general, the brothers are ready to set out anytime!
+  badtrans: true
+  direct: As long as general you ready a single order, brothers anytime can set out!
+  literal: Zhi yao jiang jun nin zhun bei hao yi sheng ling xia, xiong di men sui shi ke yi chu fa!
+- raw: 好，那届时的庆功宴上，我定要将军备上最好的酒，同诸位不醉不归！
+  result: Good! At the victory banquet then, I'll have the best wine prepared for the general, and we shall all drink without end!
+  badtrans: true
+  direct: Good, at that time's celebration banquet, I will surely have general prepare the best wine, with everyone not drunk not return!
+  literal: Hao, na jie shi de qing gong yan shang, wo ding yao jiang jun bei shang zui hao de jiu, tong zhu wei bu zui bu gui!
+- raw: 来日方长，到时候我自会告知将军。
+  result: There's plenty of time; when the time comes, I will inform the general myself.
+  badtrans: true
+  direct: Future days still long, at that time I will personally inform the general.
+  literal: Lai ri fang chang, dao shi hou wo zi hui gao zhi jiang jun.
+- raw: 好！将军既有此心，我便不会将人才拒之门外。
+  result: Good! Since the general has such intent, I will not turn away talent.
+  badtrans: true
+  literal: Hao! Jiang jun ji you ci xin, wo bian bu hui jiang ren cai ju zhi men wai.
+- raw: 老朽虽远离朝堂，但门生弟子多在朝堂之上，他们虽然对宗和所行之事早有不满，但为人臣之道，仍然不得已做了诸多伤害贵军之事，如今天下已定，还望将军予以保全。
+  result: Though I have long been away from court, many of my disciples still serve there. They have long been discontent with Zong He's actions, but as loyal subjects, they had no choice but to commit many acts that harmed your army. Now that peace has been restored, I hope the general can show them mercy.
+- raw: 我在帮段将军收尸体时才发现这玉佩，却与我的玉佩各为一半。  
+  result: I only discovered this jade pendant when I was helping collect General Duan's body. It's split in half, and one half matches my own pendant.  
+  badtrans: true  
+  direct: I while helping General Duan collect corpses just discovered this jade pendant, but with my jade pendant each is half.  
+  literal: wo zai bang Duan jiangjun shou shitian shi cai faxian zhe yupei, que yu wo de yupei ge wei yiban.
+- raw: 不错。  
+  result: That's right 
+  badtrans: true  
+  direct: not bad.  
+  literal: bu cuo.
+- raw: 你走吧，我自有分寸。  
+  result: You go ahead, I know my limits
+  badtrans: true  
+  direct: you go, I myself have measure.  
+  literal: ni zou ba, wo zi you fencun.
+- raw: 小子，你说交就交吗？  
+  result: Kid, you think I will just hand it over because you say so?  
+  badtrans: true  
+  direct: boy, you say hand over then hand over?  
+  literal: xiaozi, ni shuo jiao jiu jiao ma?
+- raw: 是又如何？  
+  result: So what if I did?  
+  badtrans: true  
+  direct: is then how?  
+  literal: shi you ruhe?
+- raw: 你们是谁？  
+  result: Who are you?  
+  badtrans: true  
+  direct: you all are who?  
+  literal: nimen shi shei?
+- raw: 没有没有，多谢你了。  
+  result: No, no, not at all. Thank you!  
+  badtrans: true  
+  direct: no no, many thanks to you.  
+  literal: meiyou meiyou, duo xie ni le.
+- raw: 他一般不在市集就在城郊处。  
+  result: If he is not at the markets, he will usually be at the outskirts of town.  
+  badtrans: true  
+  direct: he usually not at market then at city outskirts place.  
+  literal: ta yiban bu zai shiji jiu zai chengjiao chu.
+- raw: 这位小哥，我们想打探一下，昨日在附近你有见到有人拾取地上物品吗？  
+  result: Young man, we'd like to ask did you happen to see anyone picking something up off the ground around here yesterday?  
+  badtrans: true  
+  direct: this young man, we want inquire a bit, yesterday nearby you have see anyone pick up ground item?  
+  literal: zhe wei xiao ge, women xiang datan yixia, zuori zai fujin ni you jiandao you ren shiqu di shang wupin ma?
+- raw: 我们快追上去问问，这小贼在集市寻找下手机会，对过往行人会上心许多。  
+  result: We can catch up and ask them; this little thief is looking for a chance at the market, and will pay much more attention to passersby.  
+  badtrans: true  
+  direct: we quickly chase up to ask, this little thief at market looking for chance, to passing pedestrians will care much more.  
+  literal: women kuai zhui shang qu wen wen, zhe xiaozei zai shiji xunzhao xia shouji hui, dui guowang xingren hui shangxin xu duo.
+- raw: 不错，秦姑娘去市集找过了吗？  
+  result: That's right, Miss Qin, have you been to the market to look for it?  
+  badtrans: true  
+  direct: not bad, Miss Qin go market look for it already?  
+  literal: bu cuo, Qin guniang qu shiji zhao guo le ma?
+- raw: 是你们？  
+  result: Is it you?  
+  badtrans: true  
+  direct: is it you all?  
+  literal: shi nimen?
+- raw: 那秦姑娘想一想，可能是在何处遗落的。  
+  result: Miss Qin, think for a moment, it might be where you left it.  
+  badtrans: true  
+  direct: then Miss Qin think a moment, maybe at where lost it.  
+  literal: na Qin guniang xiang yixiang, keneng shi zai hechu yiluo de.
+- raw: "(点头）……嗯嗯嗯嗯！"
+  result: (Nods) ...mm mm mm mm!  
+  badtrans: true  
+  direct: (nods) ...mm mm mm mm!  
+  literal: (diantou) ...en en en en!
+- raw: 精通棋艺的高人在哪……  
+  result: Where is the master who excels in the art of chess...?  
+  badtrans: true  
+  direct: master who excels in chess skill where...?  
+  literal: jingtong qiyi de gaoren zai na...
+- raw: 大侠好像有心事？怎么...改变世界的大人物也有想不通的事吗？  
+  result: It seems like the hero has something on his mind? How is it... even someone who changes the world has things they can't figure out?  
+  badtrans: true  
+  direct: hero seems to have something on mind? how... change world big person also has things they can't understand?  
+  literal: daxia haoxiang you xinshi? zenme... gaibian shijie de da renwu ye you xiang bu tong de shi ma?
+- raw: 小伙子，你不觉得柳大夫语气很奇怪吗？就像在交代遗言一样。  
+  result: Young man, don't you think Doctor Liu's tone is quite strange? It's as if he's giving his last words.  
+  badtrans: true  
+  direct: young man, you not think Dr. Liu's tone very strange? like giving his last words.  
+  literal: xiaohuizi, ni bu juede Liu daifu yuxi hen qiguai ma? jiu xiang zai jiaodai yi yan yiyang.
+- raw: 不错，这事……我还不知道怎么和百里大哥说……  
+  result: That's right, this matter... I still don't know how to talk to Senior Brother Baili about it...  
+  badtrans: true  
+  direct: not bad, this matter... I still don't know how with Brother Baili say...  
+  literal: bu cuo, zhe shi... wo hai bu zhidao zenme he Baili dage shuo...
+- raw: 我便是这里的村长啊，我听王白...也就是带您入村的那人所言，您需要白医师的药方，我这就赶不及地亲自送来了。  
+  result: I'm the village chief here. I heard from Wang Bai... the one who brought you into the village, that you need Doctor Bai's prescription. I rushed here personally with it as fast as I could.  
+  badtrans: true  
+  direct: I am here's village head ah, I heard from Wang Bai... also the one who brought you into village said, you need Dr Bai's prescription, I now hurry and personally sent it.  
+  literal: wo bian shi zheli de cunzhang a, wo ting Wang Bai... ye jiushi dai nin ru cun de na ren suoyan, nin xuyao Bai yishi de yaofang, wo zhe jiu gan buji de qinzi songlai le.
+- raw: 虽说鱼虾成群，但有人干扰如何能钓上凤尾鱼……  
+  result: Though the fish and shrimp may be plentiful, how can one catch a phoenix tail fish with someone causing interference...?  
+  badtrans: true  
+  direct: though fish and shrimp form groups, but with someone disturbing how can catch phoenix-tail fish...?  
+  literal: suishuo yuxia chengqun, dan you ren ganrao ruhe neng diao shang fengweiyu...
+- raw: 听说前些时日周诺还因为无惜夫人有了新欢大闹了一场。怎么一下子就……  
+  result: I heard that not long ago, Zhou Nuo caused quite a scene because Lady Wuxi had a new lover. How did things suddenly just...?  
+  badtrans: true  
+  direct: heard some days ago Zhou Nuo still because Lady Wuxi had new love made big scene. how suddenly just...?  
+  literal: tingshuo qianxie shiri Zhou Nuo hai yinwei Wu Xi furen you le xinhuan danao le yi chang. zenme yixiazi jiu...
+- raw: 或许我不应当持有此物，是还给张音师还是卖给淮陵的淮官人呢…  
+  result: Perhaps I shouldn't keep this item. Should I return it to Master Zhang Yin, or sell it to that official from Huailing...?  
+  badtrans: true  
+  direct: maybe I should not hold this thing, return to Master Zhang Yin or sell to Huailing's Huai official...?  
+  literal: huoxu wo bu yingdang chi you ci wu, shi huan gei Zhang Yin shi haishi mai gei Huailing de Huai guanren ne...
+- raw: 多谢大人，那...那我们先告辞了。  
+  result: Thank you, my lord. Then... we'll take our leave for now.  
+  badtrans: true  
+  direct: many thanks lord, then... then we first take leave.  
+  literal: duo xie daren, na... na women xian gaoci le.
+- raw: 老大说，这批货绝对不能漏掉，所以兄弟们都提前做了准备，不过奇怪的是，这趟活儿并没有想象中困难，相反，很轻易的...就得手了。  
+  result: The boss said we absolutely couldn't miss this shipment, so the brothers all got ready in advance. But strangely, the job wasn't as hard as we thought. In fact, it went down pretty easily...  
+  badtrans: true  
+  direct: boss said, this batch of goods absolutely cannot miss, so the brothers all prepared in advance, but strange thing is, this job wasn't as difficult as imagined, on the contrary, very easily... succeeded.  
+  literal: laoda shuo, zhe pi huo juedui bu neng lou diao, suoyi xiongdi men dou tiqian zuo le zhunbei, buguo qiguai de shi, zhe tang huor bing meiyou xiangxiang zhong kunnan, xiangfan, hen qingyi de... jiu deshou le.
+- raw: 大...大战若发，生灵涂炭，自然需要从长计议，这也是岳院长的遗志。  
+  result: If... if a great war breaks out, it will bring misery to the people, so of course we must plan carefully. This was also Dean Yue's final wish.  
+  badtrans: true  
+  direct: big... if war starts, living beings will suffer, naturally must make long-term plans, this is also Dean Yue's last will.  
+  literal: da... dazhan ruo fa, shengling tutan, ziran xuyao congchang jiyi, zhe ye shi Yue yuanzhang de yizhi.
+- raw: 谢...谢谢你这些年来的照顾。  
+  result: Th... Thank you for taking care of me all these years.  
+  badtrans: true  
+  direct: thank... thank you these years of care.  
+  literal: xie... xiexie ni zhexie nian lai de zhaogu.
+- raw: （...不行，我得去弄个清楚。）  
+  result: (...No, I need to go find out the truth.)  
+  badtrans: true  
+  direct: (...not okay, I must go make it clear.)  
+  literal: (...bu xing, wo dei qu nong ge qingchu.)
+- raw: 至于{P}，出门在外，希望你们能多多照应。  
+  result: As for {P}, while you're out, I hope you can take good care of each other.  
+  badtrans: true  
+  direct: as for {P}, out of door in outside, hope you all can look after more.  
+  literal: zhi yu {P}, chumen zaiwai, xiwang nimen neng duoduo zhaoying.
+- raw: 小芸的想法？  
+  result: Xiao Yun's thoughts?  
+  badtrans: true  
+  direct: Xiaoyun's idea?  
+  literal: Xiao Yun de xiangfa?
+- raw: 莫非你与小芸……  
+  result: Could it be that you and Xiao Yun...  
+  badtrans: true  
+  direct: could it be that you and Xiaoyun...  
+  literal: mo fei ni yu Xiao Yun...
+- raw: 老爷息怒。  
+  result: Master, please calm down
+  badtrans: true  
+  direct: master, stop anger.  
+  literal: laoye xi nu.
+- raw: 爹！  
+  result: Father!  
+  badtrans: true  
+  direct: father!  
+  literal: die!
+- raw: 若我记得不错……这应该是景王之女，就是当今楚皇的宁贵妃所赠。  
+  result: "If my memory serves me correctly... this belongs to be the daughter of the King Jing, namely the Noble Consort Ning who is currently bestowed upon the Chu Emperor."
+- raw: 段军被围困三月有余，求援应当是早就收到了，却在段军全军覆没之际才出现。  
+  result: The Duan army was besieged for over three months, reinforcements should have arrived long ago, yet they only appeared when the entire Duan army was already wiped out.  
+  badtrans: true  
+  direct: Duan army was besieged over three months, request for aid should have been received long ago, yet appeared only when Duan army was completely destroyed.  
+  literal: Duan jun bei weikun san yue you yu, qiuyuan yingdang shi zao jiu shou dao le, que zai Duan jun quan jun fumie zhi ji cai chuxian.
+- raw: 将军的意思是，是景王？  
+  result: General, are you saying... it's King Jing?  
+  badtrans: true  
+  direct: General's meaning is, is King Jing?  
+  literal: jiangjun de yisi shi, shi Jing Wang?
+- raw: 景王不信段将军？  
+  result: King Jing did not trust General Duan?  
+  badtrans: true  
+  direct: King Jing not trust General Duan?  
+  literal: Jing Wang bu xin Duan jiangjun?
+- raw: 我说的难道不对吗，景王如此做，难道不会寒了高将军的心吗？若是他下一个起疑心的是您呢？  
+  result: Am I wrong in saying this? If King Jing acts this way, won't it chill General Gao's heart? What if you're the next one he starts to suspect?  
+  badtrans: true  
+  direct: what I said is it not right, King Jing doing this, will it not chill General Gao's heart? what if the next one he grows suspicious of is you?  
+  literal: wo shuo de nandao bu dui ma, Jing Wang ruci zuo, nandao bu hui han le Gao jiangjun de xin ma? ruo shi ta xia yi ge qi yixin de shi nin ne?
+- raw: 那我就却之不恭了。  
+  result: Then I shall respectfully accept  
+  badtrans: true  
+  direct: then I refuse it would be impolite  
+  literal: na wo jiu que zhi bu gong le
+- raw: 村民  
+  result: Villager
+  badtrans: true  
+  direct: village people  
+  literal: cun min
+- raw: 打手  
+  result: Thug  
+  badtrans: true  
+  direct: hit hand  
+  literal: da shou
+- raw: （灵均？别睡了，快出来。我与高姑娘在此地逗留太久，对现在的情况不是很清楚，给我些消息。）  
+  result: (Ling Jun? Stop sleeping, come out. Miss Gao and I have lingered here too long, we're not very clear on the current situation. Give me some news.)  
+  badtrans: true  
+- raw: （谢了。）  
+  result: (Much appreciated)  
+- raw: 可覆巢之下无完卵。昔日，我们同去的法华村还有……还有于我有恩的云鹤村，都已被卷入其中。若这些纷争动荡继续蔓延开来，这里的安宁又能持续多久呢？  
+  result: But when the nest is overturned, no egg is left unbroken. In the past, both Dharma Blossom Village, where we once went together, and Cloud Crane Village, which once showed me kindness, have been caught up in conflict. If this unrest continues to spread, how much longer can peace remain here?  
+- raw: 你方才也说了，覆巢之下无完卵。若想保他们真正的岁岁无忧，你要对抗的可不同以往我们遇到的那些山贼强盗。  
+  result: You just said it yourself, when the nest is overturned, no egg is left unbroken. If you truly want to keep them safe year after year, the enemy you'll face is nothing like the bandits and thieves we've dealt with before.  
+- raw: 现在回答  
+  result: Answer now  
+  badtrans: true  
+  direct: now answer  
+  literal: xianzai huida
+- raw: 华昊
+  result: Hua Hao
+  badtrans: true
+  direct: Hua Hao
+  literal: Hua Hao
+- raw: 诡手说完，那怪人便除掉了那名弟子。
+  result: After Gui Shou finished speaking, he eliminated his disciple.
+  badtrans: true
+- raw: 你怎么知道，死的一定是我们？
+  result: How do you know that we will definitely be the ones who die?
+- raw: "{E}此人受凌云门之托盗走了我派情报，望能有门人或侠士速速追回！"
+  result: "{E}, This person was entrusted by Soaring Cloud Sect to steal our sect's information. We hope that a disciple or hero can quickly retrieve it!"
+- raw: “杂之广义，无所不包”乃我派之根基，兼收百家之长又有何错？书院弟子不是向来以仁为己任么？今日为何如此咄咄逼人？
+  result: "The broad meaning of 'inclusiveness, embracing all' is the foundation of our sect. What is wrong with learning from the strengths of a hundred schools? Isn't it the duty of the academy disciples to uphold benevolence? Why are you being so aggressive today?"
+- raw: 一张泛旧的纸页，上面记载了碎铁
+  result: An old paper page that Sui Tie recorded on it
+- raw: 一张泛旧的纸页，上面记载了碎铁·雷火金丸配方
+  result: An old paper page that Sui Tie recorded on it · Thunderfire Golden Pill Formula
+  badtrans: true
+  direct: One sheet of old paper, on it recorded Broken Iron
+  literal: Yi zhang fan jiu de zhi ye, shangmian jizai le sui tie
+- raw: 白长老  
+  result: Elder Bai  
+  badtrans: true  
+  direct: White Elder  
+  literal: Bai Zhanglao 
+- raw: 你也要找木行？  
+  result: Do you also want to find Mu Xing?  
+  badtrans: true  
+  direct: You Also Want to Find Wood Walk?  
+  literal: Ni Ye Yao Zhaomu Xing?  
+- raw: 替翁城铭报仇  
+  result: Replace Weng Chengming in his revenge
+  badtrans: true  
+  direct: Replace Elder City Ming to Report Revenge  
+  literal: Ti Weng Cheng Ming Bao Chou  
+- raw: 那翁问玉究竟是如何身死！  
+  result: That elder asked how Weng Wenyu ultimately died!  
+  badtrans: true  
+  direct: That Elder Asked How Weng Wenyu Ultimately Was Dead!  
+  literal: Na Weng Wen Yu Jiujing Shi Ruo He Shen Si!  
+- raw: 读取  
+  result: Read  
+  badtrans: true  
+  direct: Read Fetch  
+  literal: Duqu  
+- raw: 嫡传-未加入  
+  result: Direct Inheritance ‑ Not Joined
+  badtrans: true  
+  direct: Direct Transmission - Not Joined  
+  literal: Dichuan - Wei Jiaru  
+- raw: 研习  
+  result: Study  
+  badtrans: true  
+  direct: Research and Study  
+  literal: Study  
+- raw: <color=#d65b5b>(未学会)</color>  
+  result: <color=#d65b5b>(Not Learned)</color>  
+  badtrans: true  
+- raw: <color=#868686>五脏</color>  
+  result: <color=#868686>Five Viscera</color>  
+  badtrans: true  
+- raw: <color=#a1a1a1>(未打通)</color>  
+  result: <color=#a1a1a1>(Blocked)</color>  
+  badtrans: true  
+- raw: <color=#868686>经脉</color>  
+  result: <color=#868686>Meridians</color>  
+  badtrans: true  
+- raw: 宗门大殿，一派之根本。又称云霄殿，昔日华美辉煌，今朝残破不堪。岁月如刀，刻剥着它昔日的光彩，如今只剩下尘封的废墟。<color=FFD700>大殿提供了宗门名声上限，也体现了宗门的整体等级。</color>  
+  result: The Sect Hall is the foundation of a sect. Also known as the Cloudsky Hall, it was once magnificent but now lies in ruins. Time carves away its former glory, leaving only a dust‑covered relic. <color=FFD700>The hall determines the sect's reputation cap and reflects its overall rank.</color> 
+  badtrans: true  
+- raw: 那你现在放人，我要带她走，婚事你去向张家退掉。  
+  result: Then release her now. I'm taking her with me. Call off the marriage with the Zhang family.  
+  badtrans: true  
+  direct: Then you now release person, I want take her leave, marriage you go to Zhang family cancel.  
+  literal: Then you now release person, I want take her leave, marriage you go to Zhang family cancel.  
+- raw: （眼睛一亮）这玉一看可价值不菲啊，姑娘真是出手阔绰。  
+  result: (Eyes light up) This jade looks quite valuable. Miss, you are truly generous.  
+  badtrans: true  
+  direct: (Eyes light up) This jade at a glance is worth not cheap, girl really spends lavishly.  
+  literal: (Eyes light up) This jade at a glance is worth not cheap, girl really spends lavishly.  
+- raw: 原来是这样。说来，晚辈还有一事恳求夫人相助。  
+  result: I see. Speaking of which, junior still has one more request for you, madam.  
+  badtrans: true  
+  direct: So it is like this. Speaking, junior still has one matter beg madam assist.  
+  literal: So it is like this. Speaking, junior still has one matter beg madam assist.  
+- raw: 那便有劳了。  
+  result: Then I'll trouble you
+  badtrans: true  
+  direct: That then have trouble.  
+  literal: That then have trouble.  
+- raw: 多谢几位照料了。  
+  result: Many thanks for all your care
+  badtrans: true  
+  direct: Many thanks several take care.  
+  literal: Many thanks several take care.  
+- raw: 有苏花是下策  
+  result: Yousu flower was a backup strategy  
+  badtrans: true  
+  direct: Have Su Hua is bad strategy  
+  literal: You Suhua is bad strategy  
+- raw: 我原本便是想来告知你们此事，没想到白大夫已经查明了。那蛊可是也找到化解之法了吗？  
+  result: I originally intended to inform you of this matter, but I didn't expect Doctor Bai to have already investigated it. Has a way to neutralize the Gu been found as well?
+  badtrans: true  
+  direct: I originally intended to inform you of this matter, but I didn't expect Doctor Bai to have already investigated it. Has a way to neutralize the Gu been found as well?  
+  literal: Wo yuanben bian shi xiang lai gaozhi nimen cishi, mei xiangdao Bai daifu yijing chaming le. Na Gu keshi ye zhaodao huajie zhi fa le ma?  
+- raw: 事实上，这次与蛊还不太一样。我曾在西南山野见过有苏花，所以知道它有使人陷入昏睡的作用。  
+  result: In fact, this time is not quite the same as Gu. I once saw Yousu flowers in the southwestern mountains and fields, so I know they have the effect of making people fall into a deep sleep.    
+  badtrans: true  
+  direct: In fact, this time is not quite the same as Gu. I once saw Yousu flowers in the southwestern mountains and fields, so I know they have the effect of making people fall into a deep sleep.  
+  literal: Shishishang, zhe ci yu Gu hai bu tai yiyang. Wo ceng zai xinan shanye jianguo Yousu hua, suoyi zhidao ta you shiren xianru hunshui de zuoyong.  
+- raw: "记得叫大伙销毁有苏花时小心些，一定要掩好口鼻。"  
+  result: "Remember to tell everyone to be careful when destroying Yousu Flowers, and make sure to cover your mouth and nose."  
+  badtrans: true  
+  direct: "Remember tell everyone destroy Yousu Flower time be careful, must cover good mouth nose."  
+  literal: "Ji de jiao da huo xiao hui You Su hua shi xiao xin xie, yi ding yao yan hao kou bi."  
+- raw: "咳咳……没什么功夫，逃跑倒是有一手。"  
+  result: "Cough... She doesn't have much kung fu, but escaping is something she's good at."  
+  badtrans: true  
+  direct: "Cough cough... No kung fu, running away indeed have a hand."  
+  literal: "Ke ke... Mei shen me gong fu, tao pao dao shi you yi shou."  
+- raw: 洛柔不知撒下了一把什么，使众人难以往前。  
+  result: "Luo Rou unknowingly scattered something, making it difficult for everyone to move forward."  
+  badtrans: true  
+  direct: "Luo Rou not know scattered down what, making crowd hard to move forward."  
+  literal: "Luo Rou bu zhi sa xia le yi ba shen me, shi zhong ren nan yi wang qian."  
+- raw: "怎么可能！中了大量有苏花粉竟然还能醒来？"  
+  result: "How is that possible! You were exposed to a large amount of Yousu pollen and still managed to wake up?"  
+  badtrans: true  
+  direct: "How possible! Hit by large amount of Yousu Flower powder, surprisingly still can wake up?"  
+  literal: "Zen me ke neng! Zhong le da liang You Su hua fen jing ran hai neng xing lai?"  
+- raw: "怎么可能！你中了大量有苏花粉竟然还能醒来？"  
+  result: "How is that possible! You were exposed to a large amount of Yousu pollen and still managed to wake up?"  
+  badtrans: true  
+  direct: "How possible! You hit by large amount of Yousu Flower powder, surprisingly still can wake up?"  
+  literal: "Zen me ke neng! Ni zhong le da liang You Su hua fen jing ran hai neng xing lai?"  
+- raw: "因我而死……？"  
+  result: "Die because of me...?"  
+  badtrans: true  
+  direct: "Because of me die...?"  
+  literal: "Yin wo er si...?"  
+- raw: "只要你不死，往后你身边的人都会因你而死。"  
+  result: "As long as you don't die, the people around you will die because of you."  
+  badtrans: true  
+  direct: "As long as you not die, in the future people around you all will die because of you."  
+  literal: "Zhi yao ni bu si, wang hou ni shen bian de ren dou hui yin ni er si."  
+- raw: "不光是你的朋友。今晚吹笛的人也是你吧？"  
+  result: "Not only your friend. The person playing the flute that night was you, right?"  
+  badtrans: true  
+  direct: "Not only your friend. Tonight blow flute person also you, right?"  
+  literal: "Bu guang shi ni de peng you. Jin wan chui di de ren ye shi ni ba?"  
+- raw: 喂……  
+  result: "Hey..."  
+  badtrans: true  
+  direct: "Feed..."  
+  literal: "Wei..."  
+- raw: "断不会认错。"  
+  result: "I am definitely sure"  
+  badtrans: true  
+  direct: "Definitely won't recognize wrong."  
+  literal: "Duan bu hui ren cuo."  
+- raw: "我对蛊毒一类研究并不多。但明日谷里的前辈来了，或许会有方法。现在我们只能强制控制住这些病人，避免再次暴动。"  
+  result: "I haven't studied Gu poison much. But when the elder from the valley arrives tomorrow, there might be a solution. For now, we can only forcibly restrain these patients to prevent another outbreak."  
+  badtrans: true  
+  direct: "I to Gu poison kind research not much. But tomorrow valley inside elder come, perhaps will have method. Now we only can forcibly control these patients, avoid again riot."  
+  literal: "Wo dui Gu du yi lei yan jiu bing bu duo. Dan ming ri gu li de qian bei lai le, huo xu hui you fang fa. Xian zai wo men zhi neng qiang zhi kong zhi zhu zhe xie bing ren, bi mian zai ci bao dong."  
+- raw: "蛊？"  
+  result: "Gu?"  
+  badtrans: true  
+  direct: "Gu?"  
+  literal: "Gu?"
+- raw: "（眉头紧皱）他们，他们应当是中了蛊……"  
+  result: "(Furrows brows) They... they must have been afflicted by Gu poison..."  
+  badtrans: true  
+  direct: "(Furrows brows) They, they should be hit by Gu..."  
+  literal: "(Mei tou jin zhou) Ta men, ta men ying dang shi zhong le Gu..."  
+- raw: "就是这里了！"  
+  result: "This is the place!"  
+  badtrans: true  
+  direct: "Exactly here!"  
+  literal: "Jiu shi zhe li le!"  
+- raw: "来了！"  
+  result: "Coming!"  
+  badtrans: true  
+  direct: "Arrived!"  
+  literal: "Lai le!"  
+- raw: "抱歉，来三间上房。"  
+  result: "Apologies, three upper rooms, please"  
+  badtrans: true  
+  direct: "Sorry, come three upper rooms."  
+  literal: "Bao qian, lai san jian shang fang."  
+- raw: "原是这样。"  
+  result: "So that's how it is"  
+  badtrans: true  
+  direct: "Originally is like this."  
+  literal: "Yuan shi zhe yang."  
+- raw: "有苏？花中绝色？有点意思。"  
+  result: "Yousu? A peerless beauty among flowers? Interesting."  
+  badtrans: true  
+  direct: "You Su? Among flowers absolute beauty? A bit interesting."  
+  literal: "You Su? Hua zhong jue se? You dian yi si."  
+- raw: "心思倒还挺细。那么你与我云潇山庄非亲非故，为何要帮我？"  
+  result: "You seem quite thoughtful. Then, you and my Cloudy Breeze Mountain Villa are not related by blood or by friendship, why would you want to help me?"  
+  badtrans: true  
+  direct: "Thoughts quite still fine. Then you with my Yunxiao Mountain Manor not close not distant, why want to help me?"  
+  literal: "Xin si dao hai ting xi. Na me ni yu wo Yun Xiao Shan Zhuang fei qin fei gu, wei he yao bang wo?"  
+- raw: 徐无名？哼，顾家的小子，怎得来趟南楚连自己的姓都不要了？  
+  result: Xu Wuming? Hmph, boy from the Gu family, why did you come to Southern Chu and even abandon your own surname?  
+  badtrans: true  
+  direct: Xu Wuming? Hmph, Gu family's boy, how come to Nan Chu even his own surname not want?  
+  literal: Xu Wu Ming? Hng, Gu jia de xiao zi, zen de lai tang Nan Chu lian zi ji de xing dou bu yao le?  
+- raw: 晚辈顾……徐无名，见过雪河夫人。  
+  result: Junior Gu... Xu Wuming, greets Lady Xuehe.  
+  badtrans: true  
+  direct: Junior Gu... Xu Wuming, has seen Madam Xuehe.  
+  literal: Wan bei Gu... Xu Wu Ming, jian guo Xue He fu ren.  
+- raw: "酒味？"  
+  result: "Scent of alcohol?"  
+  badtrans: true  
+  direct: "Wine flavor?"  
+  literal: "Jiu wei?"  
+- raw: 交给我吧！  
+  result: Leave it to me!  
+  badtrans: true  
+  direct: Give to me!  
+  literal: Jiao gei wo ba!  
+- raw: 只要生活过得去……咳咳……着实气人！  
+  result: As long as life is manageable... Ahem... really frustrating!  
+  badtrans: true  
+  direct: As long as life passable... cough cough... really anger people!  
+  literal: Zhi yao sheng huo guo de qu... ke ke... zhe shi qi ren!  
+- raw: 还不是我家婆娘那事！  
+  result: It's still about my wife's matter! 
+  badtrans: true  
+  direct: Still not my wife that matter!  
+  literal: Hai bu shi wo jia po ni na shi!  
+- raw: 大名鼎鼎还称不上……  
+  result: Not exactly famous...  
+  badtrans: true  
+  direct: Big name still not call...  
+  literal: Da ming ding ding hai cheng bu shang...  
+- raw: 葬军地观赏骷髅
+  result: Zang Jundi Guanshang Kuluo
+  badtrans: true
+  direct: Burial army land observe skeleton
+  literal: Zàng jūn dì guān shǎng kūlóu
+- raw: 宝藏图宝箱
+  result: Treasure Map Chest
+  badtrans: true
+  direct: Treasure map treasure chest
+  literal: Bǎo cáng tú bǎo xiāng
+- raw: 宝箱
+  result: Treasure Chest
+  badtrans: true
+  direct: Treasure box
+  literal: Bǎo xiāng
+- raw: 捭阖之覆
+  result: Baihe Reversal
+  badtrans: true
+  direct: Open close's reversal
+  literal: Bǎi hé zhī fù
+- raw: 捭阖众
+  result: Baihe Crowd
+  badtrans: true
+  direct: Open close masses
+  literal: Bǎi hé zhòng
+- raw: 手下留情！  
+  result: Show mercy!  
+  badtrans: true  
+  direct: Hand under leave mercy!  
+  literal: Shou xia liu qing!  
+- raw: 能将那王吾绳之以法不知是多少京城百姓之幸，如此善报也不知当如何报答阁下才好。  
+  result: Bringing Wang Wu to justice is a great fortune for the people of the capital; I don't know how to repay you for such kindness.
+  badtrans: true  
+  direct: Able to bring that Wang Ling to justice, not know how much capital people's fortune, such good reward also not know how to repay you properly.  
+  literal: Neng jiang na Wang Wu sheng zhi yi fa bu zhi shi duoshao jingcheng baixing zhi xing, ruci shanbao ye bu zhi dang ruhe baoda gexia cai hao.  
+- raw: 报答就不必了，我行事只求问心无愧。  
+  result: No need to repay me, I just act with a clear conscience.  
+  badtrans: true  
+  direct: Repay not necessary, I act only seek heart no shame.  
+  literal: Baoda jiu bubi le, wo xingshi zhi qiu wenxin wukui.  
+- raw: 咳咳，他，他们……他们去打酒了，你再给我们上一盘葫芦头、肉末烧茄子！  
+  result: "Ahem, they... they went to get some alcohol. Can you bring us another plate of hulu tou and minced meat braised eggplant?"
+  badtrans: true  
+  direct: Cough cough, he, they... they went to fight alcohol, you again give us serve one plate gourd head, minced meat braised eggplant!  
+  literal: Ke ke, ta, tamen... tamen qu da jiu le, ni zai gei women shang yi pan hulu tou, roumo shao qiezi!  
+- raw: 不周将军如此高义！我{P}拜过！  
+  result: General Buzhou has such high righteousness! I {P} pay my respects!  
+  badtrans: true  
+  direct: Not Round General Such High Righteousness! I {P} Bowed!  
+  literal: Buzhou Jiangjun Ruci Gao Yi! Wo {P} Bai Guo!  
+- raw: 极罡刃  
+  result: Extreme Force Blade  
+  badtrans: true  
+  direct: Extreme Gang Blade  
+  literal: Jigan Ren  
+- raw: 已打通  
+  result: Unblocked  
+  badtrans: true  
+  direct: Already Opened  
+  literal: Yi Datong  
+- raw: 消耗修为：  
+  result: "Consume Cultivation:"
+  badtrans: true  
+  direct: Consume Cultivation
+  literal: Xiaohao Xiuwei
+- raw: 不管他们
+  result: Do not care about them
+  badtrans: true
+  direct: Bu guan ta men
+  literal: Bu guan ta men
+- raw: 或跃于渊诀
+  result: Leaping into the Abyss Secret
+  badtrans: true
+  direct: Huo Yue Yu Yuan Jue
+  literal: Huo Yue Yu Yuan Jue
+- raw: 墨羽非攻
+  result: Black Feather Does Not Attack
+  badtrans: true
+  direct: Mo Yu Fei Gong
+  literal: Mo Yu Fei Gong
+- raw: 柳絮之墓  
+  result: Tomb of Liu Xu  
+  badtrans: true  
+  direct: Liu Xu's Tomb  
+  literal: Liu Xu zhi mu  
+- raw: 一股山雨欲来的压抑感让人窒息，只见洪素手持长剑，剑尖稳稳地指向了芦苇居士的颈部。  
+  result: A suffocating sense of impending storm filled the air as Hong Su held a long sword, its tip steadily aimed at Hermit Lu Wei's neck.  
+  badtrans: true  
+  direct: A feeling of mountain rain about to come suppressed made one suffocate, only saw Hong Su holding long sword, sword tip steadily pointing at Lu Wei Hermit's neck.  
+  literal: Yi gu shan yu yu lai de yayi gan rang ren zhixi, zhi jian Hong Su shou chi chang jian, jian jian wen wen de zhixiang le Lu Wei Jushi de jingbu.  
+- raw: ……呵，是你师父，芦苇居士故意让他听到的。  
+  result: ...Heh, it was your master, Hermit Lu Wei, who purposely let him hear that.  
+  badtrans: true  
+  direct: ...Heh, it is your master, Lu Wei Hermit purposely let him hear.  
+  literal: …He, shi ni shifu, Lu Wei Jushi guyi rang ta tingdao de.  
+- raw: 还没说完，我，同时也是洪素和宋忆的杀父仇人。  
+  result: I haven't finished speaking. I am, at the same time, the murderer of Hong Su and Song Yi's father.  
+  badtrans: true  
+  direct: Not yet finished speaking, I, at the same time, am Hong Su and Song Yi's father killer.  
+  literal: Hai mei shuo wan, wo, tongshi ye shi Hong Su he Song Yi de sha fu chouren.  
+- raw: 哦……你是代帮洪素问的吧。  
+  result: Oh... you're asking on behalf of Hong Su, right?  
+  badtrans: true  
+  direct: Oh... you are on behalf of Hong Su asking, right?  
+  literal: O... ni shi dai bang Hong Su wen de ba.  
+- raw: 芦苇居士  
+  result: Hermit Lu Wei  
+  badtrans: true  
+  direct: Lu Wei Hermit  
+  literal: Lu Wei Jushi  
+- raw: 您可是芦苇居士？  
+  result: Are you the Hermit Lu Wei?  
+  badtrans: true  
+  direct: You are not the Lu Wei Hermit?  
+  literal: Nin kě shì Lu Wei Jushi?  
+- raw: （有些点尚存疑虑，还是找芦苇居士本人问清楚吧）  
+  result: (Some points are still unclear, it's better to ask Hermit Lu Wei himself.)  
+  badtrans: true  
+  direct: (Some points still have doubts, better find Lu Wei Hermit himself to ask clearly.)  
+  literal: (Youxie dian shang cun yilv, haishi zhao Lu Wei Jushi benren wen qingchu ba)  
+- raw: 芦苇居士他不顾众人反对，执意要把独门秘籍传授给吊儿郎当的弟子楚无敌。宋忆眼见势头不对，就去投靠楚无敌了呗。  
+  result: Ignoring everyone's objections, Hermit Lu Wei insisted on passing his secret techniques to the carefree Chu Wudi. Seeing the shift in power, Song Yi sided with him.  
+  badtrans: true  
+  direct: Lu Wei Hermit he ignored everyone's opposition, insisted on passing unique manual to careless disciple Chu Wudi. Song Yi seeing momentum was wrong, then went to follow Chu Wudi.  
+  literal: Lu Wei Jushi ta bugu zhongren fandui, zhiyi yao ba dumen miji chuanshou gei diao'erlangdang de dizi Chu Wudi. Song Yi yanjian shitou bu dui, jiu qu toukao Chu Wudi le bei.  
+- raw: 据说他们三个师出同门，是那位芦苇居士的弟子。  
+  result: It's said that the three of them trained under the same master, the Hermit Lu Wei.  
+  badtrans: true  
+  direct: It is said they three came from the same school, are that Lu Wei Hermit's disciples.  
+  literal: Jushuo tamen sange shichu tongmen, shi na wei Lu Wei Jushi de dizi.  
+- raw: 不然你以为芦苇居士，他为何会传授独门武功给原本资质平平的楚无敌，而不是天赋异禀的洪素？  
+  result: Then why do you think Master Lu Wei taught his unique martial arts to the mediocre Chu Wudi instead of the gifted Hong Su?  
+  badtrans: true  
+  direct: Otherwise you think Lu Wei Hermit, he why would teach unique martial arts to originally mediocre Chu Wudi, and not gifted Hong Su?  
+  literal: Bur an ni yiwei Lu Wei Jushi, ta weihe hui chuanshou dumen wugong gei yuanben zizi pingping de Chu Wudi, er bushi tianfu yibing de Hong Su?  
+- raw: 楚无敌昔日那副吊儿郎当游手好闲的样子你还记得吧？  
+  result: Do you still remember how Chu Wudi used to be so lazy and carefree?  
+  badtrans: true  
+  direct: Chu Wudi past that kind of careless idle appearance you still remember right?  
+  literal: Chu Wudi xiri na fu diao'erlangdang youshouhaoxian de yangzi ni hai jide ba?  
+- raw: 啧，就知道你会问，张员外还会亏待了你不成？拿去！  
+  result: Tsk, I knew you'd ask. Would Master Zhang really shortchange you? Take it!  
+  badtrans: true  
+  direct: Tsk, just knew you would ask. Patron Zhang still would mistreat you not? Take it!  
+  literal: Ze, jiu zhidao ni hui wen, Zhang yuanwai hai hui kui dai le ni bu cheng? Na qu!  
+- raw: 在他的撮合下，我和宋忆感情一直很好，并且立下誓言：出师后，就成亲。  
+  result: Thanks to his matchmaking, Song Yi and I have always been close and vowed to marry after completing our training.  
+  badtrans: true  
+  direct: Under his matchmaking, I and Song Yi feelings always very good, and made a vow After finishing apprenticeship, then marry.  
+  literal: Zai ta de cuohe xia, wo he Song Yi ganqing yizhi hen hao, bingqie lixia shiyan chushi hou, jiu chengqin.  
+- raw: 没错没错！就是这般态度，他们也让我别再过问了。  
+  result: Exactly! That's their attitude, and they told me to stay out of it.  
+  badtrans: true  
+  direct: No wrong no wrong! Exactly this kind of attitude, they also let me not ask anymore.  
+  literal: Mei cuo mei cuo! Jiushi zhe ban taidu, tamen ye rang wo bie zai guowen le.  
+- raw: 朋友妻，不可欺。你为何要做这等事？  
+  result: A friend's wife is not to be wronged. Why would you do this?  
+  badtrans: true  
+  direct: Friend's wife, cannot deceive. You why want do this kind of thing?  
+  literal: Pengyou qi, bu ke qi. Ni weihe yao zuo zhe deng shi?  
+- raw: 你是谁？
+  result: Who are you?
+  badtrans: true
+  direct: You are who?
+  literal: Ni shi shui?
+- raw: 残烛手起刀落，杀死了对方。
+  result: Can Zhu, with a swift hand and falling knife, killed the opponent.
+  badtrans: true
+  direct: Cán zhú shǒu qǐ dāo luò, shā sǐ le duìfāng.
+  literal: Cán zhú shǒu qǐ dāo luò, shā sǐ le duìfāng.
+- raw: 杀了他们
+  result: Kill them
+  badtrans: true
+  direct: Kill them.
+  literal: Shā le tāmen
+- raw: 陆锦还没听完，迅速冲了出去。见此，你也跟了出去。
+  result: Lu Jin hadn't finished listening yet, quickly rushing out. Seeing this, you also followed.
+  badtrans: true
+  direct: Lu Jin still hadn't finished hearing, quickly rushed out. Seeing this, you also followed out.
+  literal: Lù Jǐn hái méi tīng wán, xùn sù chōng le chūqù. Jiàn cǐ, nǐ yě gēn le chūqù.
+- raw: 这就吃完了？
+  result: Is it finished already?
+  badtrans: true
+  direct: This already eaten finished?
+  literal: Zhè jiù chī wán le?
+- raw: 如今被发现了恐怕日后事情可不少。
+  result: Now that we have been discovered, things in the future might be quite troublesome.
+  badtrans: true
+  direct: Now discovered fear future things can be many.
+  literal: Rújīn bèi fāxiàn le kǒngpà rìhòu shìqíng kě bù shǎo.
+- raw: 讨厌。
+  result: Annoying
+  badtrans: true
+  direct: Hate.
+  literal: Taoyan.
+- raw: 在外人面前说什么呢，也不害臊。
+  result: What are you saying in front of others? Aren't you embarrassed?
+  badtrans: true
+  direct: In front of outsiders say what, also not ashamed.
+  literal: Zai wairen mianqian shuo shenme ne, ye bu haizao.
+- raw: 哈哈哈！不还是被我追到手了吗！
+  result: Hahaha! Didn't I still manage to win you over?
+  badtrans: true
+  direct: Hahaha! Not still was chased into my hands?
+  literal: Hahaha! Bu haishi bei wo zhui dao shou le ma!
+- raw: 没有，刚才那人从前也是娘子的追求者，自从我们在一起之后便退隐江湖隐居起来了。
+  result: No, that person was once also your suitor. Since we got together, we retreated from the Jianghu and gone into seclusion.
+  badtrans: true
+  direct: No, just now that person before also was lady's suitor, since we together after then retired from Jianghu secluded up.
+  literal: Meiyou, gangcai na ren congqian ye shi niangzi de zhuiqiu zhe, zicong women zai yiqi zhihou bian tuiyin jianghu yinjv qilai le.
+- raw: 飞尘！你没事吧！
+  result: Feichen! Are you okay?
+  badtrans: true
+  direct: Feichen! You no problem?
+  literal: Feichen! Ni mei shi ba!
+- raw: 何苦，勉强不来的。
+  result: Why bother? You can't force it.
+  badtrans: true
+  direct: Why suffer, forcing not come.
+  literal: Heku, mianqiang bu lai de.
+- raw: 所以其实还是很疼你的嘛。
+  result: So actually, they still care about you a lot.
+  badtrans: true
+  direct: So actually still very dote on you ma.
+  literal: Suoyi qishi haishi hen teng ni de ma.
+- raw: （小声）家务事，咱们先看着。
+  result: (Whispering) It's a family matter, let's just watch for now.
+  badtrans: true
+  direct: (Small voice) Household matter, we first watch.
+  literal: (Xiao sheng) Jiawu shi, zanmen xian kan zhe.
+- raw: 我？说……说什么？
+  result: Me? Say... say what?
+  badtrans: true
+  direct: I? Say... say what?
+  literal: Wo? Shuo... shuo shenme?
+- raw: "你们这是？"
+  result: What are you doing?
+  badtrans: true
+  direct: You this is?
+  literal: Nimen zhe shi?
+- raw: "你是?"
+  result: Who are you?
+  badtrans: true
+  direct: You are?
+  literal: Ni shi?
+- raw: 我………
+  result: I...
+  badtrans: true
+  direct: I...
+  literal: Wo...
+- raw: 鸡
+  result: Chicken
+  badtrans: true
+  direct: Chicken
+  literal: Ji
+- raw: 牛
+  result: Cow
+  badtrans: true
+  direct: Cow
+  literal: Niu
+- raw: 说说吧，怎么回事。
+  result: Tell me, what's going on?
+  badtrans: true
+  direct: Speak speak, what happened?
+  literal: Shuo shuo ba, zen me hui shi.
+- raw: 帮厨
+  result: Assistant cook
+  badtrans: true
+  direct: Help kitchen
+  literal: Bang Chu
+- raw: 大厨
+  result: Head chef
+  badtrans: true
+  direct: Big chef
+  literal: Da Chu
+- raw: 名厨
+  result: Famous chef
+  badtrans: true
+  direct: Famous kitchen
+  literal: Ming Chu
+- raw: 相交意气
+  result: Bond of friendship
+  badtrans: true
+  direct: Mutual connection of spirit
+  literal: Xiang Jiao Yi Qi
+
+- raw: 一旁围在村民旁的黑衣人拖住一位村民挥刀斩去！
+  result: A man in black, standing beside the villagers, grabbed one of them and swung his blade to strike!
+  badtrans: true
+  direct: One side surrounding by villagers, black-clad person dragged a villager and swung knife to chop away!
+  literal: Yi Pang Wei Zai Cun Min Pang De Hei Yi Ren Tuo Zhu Yi Wei Cun Min Hui Dao Zhan Qu!
+- raw: "庄子如何解释“真人之息以踵”？"
+  result: How does Zhuangzi explain 'The breath of the Immortal follows the heel'?
+  badtrans: true
+- raw: 刑泰一把从你手中夺过手镯，只一到手便喜形于色，哈哈大笑起来。
+  result: Xing Tai snatched the bracelet from your hand, and as soon as he held it, his face lit up with joy, bursting into laughter.
+  badtrans: true
+  direct: Xing Tai one grab from your hand snatched bracelet, just once in hand immediately joy shown on face, ha ha big laugh.
+  literal: Xing Tai Yi Ba Cong Ni Shou Zhong Duo Guo Shou Zhuo, Zhi Yi Dao Shou Bian Xi Xing Yu Se, Ha Ha Da Xiao Qi Lai.
+- raw: 说起来……我今早在路过万事通附近的时候有个人险些将我撞到，不知道这其中是否有什么关系！待会我可得去问问万事通才是！
+  result: "Speaking of which... I almost got bumped into by someone this morning when I passed by the area near Wan Shi Tong. I wonder if there's any connection! I should go ask Wan Shi Tong later!"
+  badtrans: true
+  direct: Speaking up... I this morning when passing by Wan Shi Tong vicinity someone almost bumped into me, don't know if there's any relation! Later I must go ask Wan Shi Tong!
+  literal: Shuo Qi Lai... Wo Jin Zao Zai Lu Guo Wan Shi Tong Fu Jin De Shi Hou You Ge Ren Xian Xie Jiang Wo Zhuang Dao, Bu Zhi Dao Zhe Qi Zhong Shi Fou You Shen Me Guan Xi! Dai Hui Wo Ke De Qu Wen Wen Wan Shi Tong Cai Shi!
+- raw: 有关“大小二乘”，孰为正解？
+  result: "Regarding 'Great Waiter Cheng', which interpretation is correct?"
+- raw: 冲灵所窍
+  result: Spirit Pathway
+  badtrans: true
+  direct: Chong Ling Suo Qiao
+  literal: Chong Ling Suo Qiao
+- raw: 领悟条件
+  result: Comprehension Condition
+  badtrans: true
+  direct: Understand Condition
+  literal: Ling Wu Tiao Jian
+- raw: 人傀
+  result: Human Puppet
+  badtrans: true
+  direct: Ren Kui
+  literal: Ren Kui
+- raw: 为何会这样问？
+  result: Why would you ask this?
+  badtrans: true
+  direct: Wei he hui zhe yang wen
+  literal: Wei he hui zhe yang wen
+- raw: 直接抢夺
+  result: Take by force
+  badtrans: true
+  direct: Zhi Jie Qiang Duo
+  literal: Zhi Jie Qiang Duo
+- raw: 不管它
+  result: Let it be
+  badtrans: true
+  direct: Bu Guan Ta
+  literal: Bu Guan Ta
+- raw: 蛊魅易惑
+  result: Poison deceives easily
+  badtrans: true
+  direct: Gu Mei Yi Huo
+  literal: Gu Mei Yi Huo
+- raw: 安心走吧。
+  result: Go with peace of mind
+  badtrans: true
+  direct: An xin zou ba.
+  literal: An xin zou ba.
+- raw: 你是？
+  result: Who are you?
+  badtrans: true
+  direct: Ni shi?
+  literal: Ni shi?
+- raw: 给我住手！
+  result: Stop right there!
+  badtrans: true
+  direct: Gei wo zhu shou!
+  literal: Gei wo zhu shou!
+- raw: 洗练  
+  result: Refine  
+  badtrans: true  
+  direct: Wash and train  
+  literal: Xi lian  
+- raw: 牛皮  
+  result: Bullhide  
+  badtrans: true  
+  direct: Cowhide  
+  literal: Niu Pi  
+- raw: 下阵  
+  result: Withdraw from battle  
+  badtrans: true  
+  direct: Step down from formation  
+  literal: Xia zhen  
+- raw: "打坐完成可获得     "
+  result: Meditation Rewards
+  badtrans: true  
+  direct: Completing meditation grants  
+  literal: Da zuo wancheng ke huode  
+- raw: 功体运转  
+  result: Cultivation
+  badtrans: true  
+  direct: Cultivation body operation  
+  literal: Gongti yunzhuan  
+- raw: 也好。关涿你要一块吗？  
+  result: Alright. Guan Zhuo, do you want a piece too?  
+  badtrans: true  
+  direct: Okay. Guan Zhuo, do you want a piece?  
+  literal: Ye hao. Guan Zhuo ni yao yi kuai ma?  
+- raw: 蜀道穿云立，巴山裂石击。  
+  result: The Sichuan Path pierces the clouds, the Ba Mountains split rocks with their strikes.  
+  badtrans: true  
+  direct: Shu Path stands piercing clouds, Ba Mountains strike splitting rocks.  
+  literal: Shu dao chuan yun li, Ba shan lie shi ji.  
+- raw: 余晖谭石像西  
+  result: Sunset Reflecting on Tan's Stone Statue in the West  
+  badtrans: true  
+  direct: Afterglow Tan stone statue west  
+  literal: Yuhui Tan shixiang xi  
+- raw: 金半两野外  
+  result: Jin Banliang Wilderness  
+  badtrans: true  
+  direct: Jin Banliang Wilds  
+  literal: Jin Banliang Yewai 
+- raw: 陈易野外  
+  result: Chen Yi Wilderness  
+  badtrans: true  
+  direct: Chen Yi Wilds  
+  literal: Chen Yi Yewai  
+- raw: 对话npc  
+  result: Talk to NPC  
+  badtrans: true  
+  direct: Dialogue NPC  
+  literal: Duihua NPC  
+- raw: 多闻
+  result: Well-informed
+  badtrans: true
+  direct: Duo wen
+  literal: Duo wen
+- raw: 米摊
+  result: Rice stall
+  badtrans: true
+  direct: Mi tan
+  literal: Mi tan
+- raw: 南人
+  result: Southerner
+  badtrans: true
+  direct: Nan ren
+  literal: Nan ren
+- raw: "在对抗有优势火力的敌人时，兵家的常用战术是："
+  result: "The common tactic used by military strategists when facing an enemy with superior firepower is:"
+  badtrans: true
+  direct: Zai dui kang you you shi huo li de di ren shi, bing jia de chang yong zhan shu shi
+  literal: Zai dui kang you you shi huo li de di ren shi, bing jia de chang yong zhan shu shi
+- raw: 缝纫中的“锁边”是指什么？
+  result: What does 'overlocking' refer to in sewing?
+  badtrans: true
+  direct: Feng ren zhong de 'suo bian' shi zhi shen me?
+  literal: Feng ren zhong de 'suo bian' shi zhi shen me?
+- raw: 缝纫中的“锁线”是指什么？
+  result: What does 'locking stitch' refer to in sewing?
+  badtrans: true
+  direct: Feng ren zhong de 'suo xian' shi zhi shen me?
+  literal: Feng ren zhong de 'suo xian' shi zhi shen me?
+- raw: 中国古代丝绸之路的开辟对纺织技术有何影响？
+  result: What impact did the opening of the ancient Silk Road have on textile technology in China?
+  badtrans: true
+  direct: Zhong guo gu dai si chou zhi lu de kai pi dui fang zhi ji shu you he ying xiang?
+  literal: Zhong guo gu dai si chou zhi lu de kai pi dui fang zhi ji shu you he ying xiang?
+- raw: 老子在《道德经》中如何定义“道”？
+  result: How does Laozi define 'Dao' in the Tao Te Ching?
+  badtrans: true
+  direct: Lao zi zai 'Dao De Jing' zhong ru he ding yi 'dao'?
+  literal: Lao zi zai 'Dao De Jing' zhong ru he ding yi 'dao'?
+- raw: 老子如何解释“柔弱胜刚强”？
+  result: How does Laozi explain 'Softness and weakness overcome strength and firmness'?
+  badtrans: true
+  direct: Lao zi ru he jie shi 'rou ruo sheng gang qiang'?
+  literal: Lao zi ru he jie shi 'rou ruo sheng gang qiang'?
+- raw: 道可名
+  result: Dao that can be named
+  badtrans: true
+  direct: Dao ke ming
+  literal: Dao ke ming
+- raw: 游刃
+  result: Move Effortlessly
+  badtrans: true
+  direct: You ren
+  literal: You ren
+- raw: 武灭
+  result: Martial destruction
+  badtrans: true
+  direct: Wu mie
+  literal: Wu mie
+- raw: 《庄子》中“庖丁解牛”故事的核心是什么？
+  result: What is the core of the 'Cook Ding cutting the ox' story in the Zhuangzi?
+  badtrans: true
+- raw: 《庄子》中“无待之乐”指的是什么？
+  result: What does 'the joy of no dependence' refer to in the Zhuangzi?
+  badtrans: true
+- raw: 茅山派的“龙脉”理论指的是什么？
+  result: What does the 'Dragon vein' theory of the Maoshan sect refer to?
+  badtrans: true
+- raw: 全真派在修炼中提到的“五气”指的是什么？
+  result: What do the 'Five Energies' mentioned in the cultivation of the Quanzhen sect refer to?
+  badtrans: true
+- raw: 全真派与道教的“丹道”有何关系？
+  result: What is the relationship between the Quanzhen sect and the Taoist 'Elixir Way'?
+  badtrans: true
+- raw: 孟子如何描述“求其放心”？
+  result: How does Mencius describe 'seeking peace of mind'?
+  badtrans: true
+- raw: 《大学》中的“八条目”包括哪些？
+  result: What are the 'Eight Articles' in the 'Great Learning'?
+  badtrans: true
+- raw: 气血上限
+  result: Max Lifeforce
+  badtrans: true
+  direct: Qi xue shang xian
+  literal: Qi xue shang xian
+- raw: 真气上限
+  result: Max True Qi
+  badtrans: true
+  direct: Zhen qi shang xian
+  literal: Zhen qi shang xian
+- raw: 进货时间
+  result: Restocking time
+  badtrans: true
+  direct: Jin huo shi jian
+  literal: Jin huo shi jian
+- raw: 你是何人？
+  result: Who are you?
+  badtrans: true
+  direct: Ni shi he ren?
+  literal: Ni shi he ren?
+- raw: 跟随空军打窝的钓鱼佬
+  result: Fisherman following the Air Force to bait the spot
+  badtrans: true
+  direct: Gen sui kong jun da wo de diao yu lao
+  literal: Gen sui kong jun da wo de diao yu lao
+- raw: 酒令
+  result: Toastmaster
+  badtrans: true
+  direct: Jiu ling
+  literal: Jiu ling
+- raw: 昨日在那悟我刀法的人，就是你吧？
+  result: The one who was studying my blade technique yesterday—was that you?
+  badtrans: true
+  direct: Zuo ri zai na wu wo dao fa de ren, jiu shi ni ba?
+  literal: Zuo ri zai na wu wo dao fa de ren, jiu shi ni ba?
+- raw: 步婶
+  result: Aunt Bu
+  badtrans: true
+  direct: Bu shen
+  literal: Bu shen
+
+
+
+
+
+# Skills
+- raw: <color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>
+  result: <color=#E7BF87>Northern Abyss Fist:</color><color=#DADBD5> After switching to the <color=#FF9971>Fist</color> style, increase Critical Attribute by 10% for 5 seconds and reduce damage taken by 5%.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Bei Ming Xuan Quan:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Quan</color> taolu hou 5 miao nei tisheng 10% Yaohai shuxing, jianshao 5% suo shou shanghai.</color>
+  literal: <color=#E7BF87>Bei Ming Xuan Quan:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Quan</color> taolu hou 5 miao nei tisheng 10% Yaohai shuxing, jianshao 5% suo shou shanghai.</color>
+
+- raw: <color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>
+  result: <color=#E7BF87>Soaring Dragon Spear:</color><color=#DADBD5> After switching to the <color=#FF9971>Spear</color> style, increase External Attack attribute by 10% for 5 seconds and gain a shield equal to 5% of max HP.</color>
+  badtrans: true
+  direct: <color=#E7BF87>You Long Hua Qiang:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Qiang</color> taolu hou 5 miao nei tisheng 10% Wai Gong shuxing, huode qixue zuidazhi 5% de hudun.</color>
+  literal: <color=#E7BF87>You Long Hua Qiang:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Qiang</color> taolu hou 5 miao nei tisheng 10% Wai Gong shuxing, huode qixue zuidazhi 5% de hudun.</color>
+
+- raw: <color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>
+  result: <color=#E7BF87>Blade's Resolute Heart:</color><color=#DADBD5> After switching to the <color=#FF9971>Blade</color> style, increase Internal Attack attribute by 10% for 5 seconds and gain 5% damage reflection.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Ren Xia Dao Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Dao</color> taolu hou 5 miao nei tisheng 10% Nei Gong shuxing, huode 5% fanshang.</color>
+  literal: <color=#E7BF87>Ren Xia Dao Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Dao</color> taolu hou 5 miao nei tisheng 10% Nei Gong shuxing, huode 5% fanshang.</color>
+
+- raw: <color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>
+  result: <color=#E7BF87>Heroic Sword Heart:</color><color=#DADBD5> After switching to the <color=#FF9971>Sword</color> style, increase Heart-Piercing attribute by 10% for 5 seconds and restore 5% of damage dealt as health when attacking a target.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Xia Dan Jian Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Jian</color> taolu hou 5 miao nei tisheng 10% Zhuxin shuxing, zai gongji mubiao shi huifu shanghai 5% de shengmingzhi.</color>
+  literal: <color=#E7BF87>Xia Dan Jian Xin:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>Jian</color> taolu hou 5 miao nei tisheng 10% Zhuxin shuxing, zai gongji mubiao shi huifu shanghai 5% de shengmingzhi.</color>
+
+- raw: <color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>
+  result: <color=#E7BF87>Thousand Phantom Arsenal:</color><color=#DADBD5> After switching to the <color=#FF9971>Hidden Weapon</color> style, increase Critical Attribute by 10% for 2 seconds, restore 1% True Qi, and increase damage dealt by 5%.</color>
+  badtrans: true
+  direct: <color=#E7BF87>Qian Huan Wan Qi:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>An Qi</color> taolu hou 2 miao nei tisheng 10% Yaohai, huifu 1% Zhen Qi bing tisheng 5% zaoche shanghai.</color>
+  literal: <color=#E7BF87>Qian Huan Wan Qi:</color><color=#DADBD5> Qiehuan dao <color=#FF9971>An Qi</color> taolu hou 2 miao nei tisheng 10% Yaohai, huifu 1% Zhen Qi bing tisheng 5% zaoche shanghai.</color>
+
+- raw: "当前任职位：<color=#f1c36b>头牌</color>，收益加成：<color=#da914b>2倍</color><color=#a8a8a8>预计收益</color>"
+  result: "Current Position: <color=#f1c36b>Top Performer</color>, Earnings Bonus: <color=#da914b>2x</color><color=#a8a8a8>Estimated Earnings</color>"
+  badtrans: true
+  direct: "Dangqian ren zhiwei: <color=#f1c36b>Toupai</color>, shouyi jiacheng: <color=#da914b>2 bei</color><color=#a8a8a8>Yuji shouyi</color>"
+  literal: "Dangqian ren zhiwei: <color=#f1c36b>Toupai</color>, shouyi jiacheng: <color=#da914b>2 bei</color><color=#a8a8a8>Yuji shouyi</color>"
+
+- raw: "当前任职位：<color=#{0}>{1}</color>，收益加成：<color=#da914b>{2}倍</color><color=#a8a8a8>预计收益</color>"
+  result: "Current Position: <color=#{0}>{1}</color>, Earnings Bonus: <color=#da914b>{2}x</color><color=#a8a8a8>Estimated Earnings</color>"
+  badtrans: true
+  direct: "Dangqian ren zhiwei: <color=#{0}>{1}</color>, shouyi jiacheng: <color=#da914b>{2} bei</color><color=#a8a8a8>Yuji shouyi</color>"
+  literal: "Dangqian ren zhiwei: <color=#{0}>{1}</color>, shouyi jiacheng: <color=#da914b>{2} bei</color><color=#a8a8a8>Yuji shouyi</color>"
+
+  # Prototypes & Debugging
+- raw: "随机角色guid:{0}，protoGuid:{1}的门派随到了“不夜京”，错误"
+  result: "The randomly assigned character with guid:{0} and protoGuid:{1} has been placed in the 'Evernight Capital' sect, error."
+  badtrans: true
+  direct: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
+  literal: "Suiji jueze guid:{0}, protoGuid:{1} de menpai sui dao le 'Bu Ye Jing', cuo wu"
+
+- raw: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误 " 
+  result: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error.  "
+  badtrans: true  
+  direct: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+  literal: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+
+- raw: "{E}丹道博大精深，我炼丹十次，只觉其中需胆大心细，对于药材比例的理解更要专注，差之毫厘谬以千里！"
+  result: "{E} The art of alchemy is profound. After refining elixirs ten times, I realize it requires both boldness and meticulousness. Understanding the correct proportions of materials demands even more focus. A small mistake could lead to a huge difference!"
+  badtrans: true
+  direct: "{E} Dan dao bodajingshen, wo liandan shici, zhi jue qizhong xu dan da xin xi, dui yu yao cai bili de lijie geng yao zhuanzhu, cha zhi haoli miu yi qianli!"
+  literal: "{E} Dan dao bodajingshen, wo liandan shici, zhi jue qizhong xu dan da xin xi, dui yu yao cai bili de lijie geng yao zhuanzhu, cha zhi haoli miu yi qianli!"
+
+- raw: 意外收到了{1}赠送的{0}，令我颇为惊喜。
+  result: I was pleasantly surprised to unexpectedly receive {0} gifted by {1}.
+  badtrans: true
+  direct: Yiwai shoudao le {1} zengsong de {0}, ling wo pō wéi jīngxǐ.
+  literal: Yiwai shoudao le {1} zengsong de {0}, ling wo pō wéi jīngxǐ.
+
+- raw: "{P}少侠慢走，往后{P}少侠便是我麓山书院上宾，还请{P}日后有空可来做客。"
+  result: "Young hero {P}, please take care, and in the future, {P} will be an esteemed guest at my Mount Lu Academy. Please feel free to visit when you have time."
+  badtrans: true
+  direct: "{P} Shaoxia manzou, wanghou {P} Shaoxia bian shi wo Lushan shuyuan shangbin, hai qing {P} rihou you kong ke lai zuo ke."
+  literal: "{P} Shaoxia manzou, wanghou {P} Shaoxia bian shi wo Lushan shuyuan shangbin, hai qing {P} rihou you kong ke lai zuo ke."
+
+- raw: "{P}是吧，你的实力我认可，功夫是杀人技，高手过招，既分胜负，也决生死，我两只有一个能活，你可做好准备了？"
+  result: "{P}, right? I acknowledge your strength. Kung fu is a deadly skill, and when masters fight, there's not only a winner and a loser, but also life and death. Only one of us can live. Are you ready for this?"
+  badtrans: true
+  direct: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
+  literal: "{P} shi ba, ni de shili wo renke, gongfu shi sharen ji, gaoshou guo zhao, ji fen shengfu, ye jue shengsi, wo liang zhi you yi ge neng huo, ni ke zuo hao zhunbei le?"
+
+- raw: "角色guid:{0}，proGuid:{1}非男非女，m_NpcPrototypeBase.id:{2}配置错误" 
+  result: "Character guid:{0}, proGuid:{1} is neither male nor female, m_NpcPrototypeBase.id:{2} configuration error."
+  badtrans: true  
+  direct: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu  "
+  literal: "Juese guid:{0}, proGuid:{1} fei nan fei nv, m_NpcPrototypeBase.id:{2} peizhi cuowu"  
+
+- raw: "角色proGuid:{0}的m_NpcFight.spellContainer中技能id:{1}套路与角色套路:{2}不符合"
+  result: "The skill id:{1} in m_NpcFight.spellContainer of character proGuid:{0} does not match the character's style:{2}."
+  badtrans: true  
+  direct: "Juese proGuid:{0} de m_NpcFight.spellContainer zhong jineng id:{1} taolu yu juese taolu:{2} bu fuhe"  
+  literal: "Juese proGuid:{0} de m_NpcFight.spellContainer zhong jineng id:{1} taolu yu juese taolu:{2} bu fuhe"  
+
+- raw: "角色proGuid:{0}的m_NpcFight没有或者没配置m_NpcFight.spellContainer"  
+  result: "The character proGuid:{0}'s m_NpcFight does not exist or has not configured m_NpcFight.spellContainer."  
+  badtrans: true  
+  direct: "Juese proGuid:{0} de m_NpcFight mei you huo zhe mei peizhi m_NpcFight.spellContainer"  
+  literal: "Juese proGuid:{0} de m_NpcFight mei you huo zhe mei peizhi m_NpcFight.spellContainer"  
+
+
+# Special
+- raw: 支
+  result: Branch
+  badtrans: true
+  direct: Zhi
+  literal: Zhi
+- raw: 建安二十七年  
+  result: Jian'an Year 27  
+  badtrans: true  
+  direct: Jian An ershiqi nian  
+  literal: Jian An ershiqi nian  
+- raw: 赠送  
+  result: Gift  
+  badtrans: true  
+  direct: Zeng Song  
+  literal: Zeng Song  
+- raw: 总舵  
+  result: Main Headquarters  
+  badtrans: true  
+  direct: Zong Duo  
+  literal: Zong Duo 
+- raw: 修为  
+  result: Cultivation  
+  badtrans: true  
+  direct: Xiu Wei  
+  literal: Xiu Wei  
+- raw: 铜钱  
+  result: Money
+  badtrans: true  
+  direct: Tong Qian  
+  literal: Tong Qian  
+- raw: 门派争霸  
+  result: Sect Competition  
+  badtrans: true  
+  direct: Men Pai Zheng Ba  
+  literal: Men Pai Zheng Ba  
+- raw: 风云人物  
+  result: Prominent Figures 
+  badtrans: true  
+  direct: Feng Yun Ren Wu  
+  literal: Feng Yun Ren Wu  
+- raw: 天材地宝  
+  result: Heavenly Treasures
+  badtrans: true  
+  direct: Tian Cai Di Bao  
+  literal: Tian Cai Di Bao  
+- raw: "<color=#2EDFA3>扣除</color>"  
+  result: "<color=#2EDFA3>Deduct</color>"
+  badtrans: true  
+  direct: Kou Chu  
+  literal: Kou Chu  
+- raw: 秒  
+  result: Second
+  badtrans: true  
+  direct: Miao  
+  literal: Miao
+- raw: 运功  
+  result: Channeling
+  badtrans: true  
+  direct: Yun Gong  
+  literal: Yun Gong  
+- raw: 万法森罗  
+  result: Ten Thousand Laws  
+  badtrans: true  
+  direct: Wan Fa Sen Luo  
+  literal: Wan Fa Sen Luo  
+- raw: 堪武  
+  result: Martial  
+  badtrans: true  
+  direct: Kan Wu  
+  literal: Kan Wu  
+- raw: 开启中......  
+  result: Opening...  
+  badtrans: true  
+  direct: Opening in progress...  
+  literal: Kaiqi zhong......  
+- raw: 采集中......  
+  result: Collecting...  
+  badtrans: true  
+  direct: Gathering in progress...  
+  literal: Caiji zhong......  
+- raw: 侠窟机关  
+  result: Outlaws' Den Mechanism
+  badtrans: true  
+  literal: Xia Ku 
+- raw: 镖师模板  
+  result: Escort Master Mo Ban 
+  badtrans: true  
+  direct: Escort Master Template  
+  literal: Biao Shi Moban  
+- raw: 镖师王华  
+  result: Escort Master Wang Hua  
+  badtrans: true  
+  direct: Escort Master Wang Hua  
+  literal: Biao Shi Wang Hua 
+- raw: 镖师王刚  
+  result: Escort Master Wang Gang  
+  badtrans: true  
+  direct: Escort Master Wang Gang  
+  literal: Biao Shi Wang Gang  
+- raw: 镖师杨青  
+  result: Escort Master Yang Qing  
+  badtrans: true  
+  direct: Escort Master Yang Qing  
+  literal: Biao Shi Yang Qing  
+- raw: 惊风苍隐录  
+  result: Chronicle of Surprising Winds and the Azure Concealment  
+  badtrans: true  
+  direct: The Chronicle of Surprising Winds and Azure Hiding  
+  literal: Jingfeng Cangyin Lu  
+- raw: 门派善用兵器  
+  result: Sect's Mastery of Weapons  
+  badtrans: true  
+  direct: Sect Good at Using Weapons  
+  literal: Menpai Shanyong Bingqi  
+- raw: 门派擅长特性  
+  result: Sect's Specialty Traits  
+  badtrans: true  
+  direct: Sect's Strengths and Characteristics  
+  literal: Menpai Shanchang Texing  
+- raw: 不万能风  
+  result: Imperfect Wind  
+  badtrans: true  
+  direct: Not-All-Powerful Wind  
+  literal: Bu Wanneng Feng  
+- raw: 孟启在哪  
+  result: Where is Meng Qi?  
+  badtrans: true  
+  direct: Where is Meng Qi?  
+  literal: Meng Qi Zai Na?  
+- raw: 夜叉藤  
+  result: Demon Vine
+  badtrans: true  
+  direct: Demon Vine  
+  literal: Yasha Teng 
+- raw: 驯化  
+  result: Taming  
+  badtrans: true  
+  direct: Domestication  
+  literal: Xunhua  
+- raw: 下蛊  
+  result: Curse  
+  badtrans: true  
+  direct: To Apply Poison  
+  literal: Xia Gu  
+- raw: 的委托  
+  result: Commission of  
+  badtrans: true  
+  direct: The Entrustment of  
+  literal: De Weituo  
+- raw: 领悟
+  result: Comprehension
+  badtrans: true
+  direct: Ling Wu
+  literal: Ling Wu
+- raw: 已覆盖快速存档栏
+  result: Quick Save Slot Overwritten
+  badtrans: true
+  direct: Yi Fu Gai Kuai Su Cun Dang Lan
+  literal: Yi Fu Gai Kuai Su Cun Dang Lan
+- raw: 神农氏
+  result: Shennong Clan
+  badtrans: true
+  direct: Shen Nong Shi
+  literal: Shen Nong Shi
+- raw: 汉高祖
+  result: Emperor Gao of Han
+  badtrans: true
+  direct: Han Gao Zu
+  literal: Han Gao Zu
+- raw: "原贴内容："
+  result: "Original Post Content:"
+  badtrans: true
+  direct: Yuan Tie Nei Rong
+  literal: Yuan Tie Nei Rong
+- raw: 一般对话组
+  result: General Conversation Group
+  badtrans: true
+  direct: Yi Ban Dui Hua Zu
+  literal: Yi Ban Dui Hua Zu
+- raw: 垂钓
+  result: Fishing
+- raw: 品阶  
+  result: Rank  
+  badtrans: true  
+  direct: Grade  
+  literal: Pin jie  
+- raw: 五行详情  
+  result: Five Elements Details  
+  badtrans: true  
+  direct: Five Elements Details  
+  literal: Wu xing xiang qing  
+- raw: 武林新秀  
+  result: Wulin Rising Star  
+  badtrans: true  
+  direct: Martial Arts New Talent  
+  literal: Wu lin xin xiu  
+- raw: "在《论语》中，“己所不欲，勿施于人”的含义是？"
+  result: What is the meaning of 'Do not impose on others what you do not desire' in the Analects?  
+  badtrans: true  
+  direct: In the Analects, what is the meaning of "What you do not want, do not impose on others"?  
+  literal: Zai "Lun Yu" zhong, "Ji suo bu yu, wu shi yu ren" de han yi shi?  
+- raw: 前辈未必太看得起在下了。  
+  result: Senior, you may think too highly of me.  
+  badtrans: true  
+  direct: Elder may not think too highly of me.  
+  literal: Qian bei wei bi tai kan de qi zai xia le.  
+- raw: 宝贝？村子里？  
+  result: Treasure? In the village?  
+  badtrans: true  
+  direct: Baby? In the village?  
+  literal: Bao bei? Cun zi li? 
+- raw: "<size=26>已持有:</size>"
+  result: "<size=16>Holding:</size>"
+- raw: 墨  
+  result: Mo
+  badtrans: true  
+  direct: Ink  
+  literal: Mo  
+- raw: 委  
+  result: Commission  
+  badtrans: true  
+  direct: Entrust  
+  literal: Wei  
+- raw: 传说  
+  result: Legend  
+  badtrans: true  
+  direct: Legend  
+  literal: Chuan shuo  
+- raw: 开叙<color=00FF00>先角后羽</color>，再<color=00FF00>响徵二声</color>，<color=00FF00>引商宫</color>。如是，渐渐明月吹，恻恻鹤行吟。  
+  result: Begin by playing <color=00FF00>First Jiao, Then Yu</color>, followed by <color=00FF00>Two Echoing Sounds of Zhi</color>, and <color=00FF00>Lead to the Shang Gong</color> (musical scale). After this, gradually, the bright moon blows, and the crane moves in a mournful tune.  
+  badtrans: true  
+  direct: Start by narrating <color=00FF00>First Jiao, Then Yu</color>, then <color=00FF00>Two Echoing Sounds of Zhi</color>, <color=00FF00>Lead to Shang Gong</color>. After that, slowly the bright moon blows, and the mournful crane moves and sings.  
+  literal: Kai xu <color=00FF00>xian jiao hou yu</color>, zai <color=00FF00>xiang zhi er sheng</color>, <color=00FF00>yin shang gong</color>. Ru shi, jian jian ming yue chui, ce ce he xing yin.  
+- raw: 宫  
+  result: Gong
+- raw: 商  
+  result: Shang
+- raw: 角  
+  result: Jiao
+- raw: 徵  
+  result: Zhi
+- raw: 羽  
+  result: Yu
+- raw: 锋锐  
+  result: Sharpness  
+  badtrans: true  
+  direct: Sharp Edge  
+  literal: Feng rui  
+- raw: 代为  
+  result: Commission
+  badtrans: true  
+  direct: Act on behalf of  
+  literal: Dai wei  
+- raw: 满孤容  
+  result: Man Gu Rong  
+  badtrans: true  
+  direct: Man Gu Rong  
+  literal: Man gu rong  
+- raw: 获取林野钓竿和鱼饵
+  result: Obtain Forest Fishing Rod and Fishing Bait
+  badtrans: true
+  direct: Huoqu Linye Diao Gan he Yu Er
+  literal: Huoqu Linye Diao Gan he Yu Er
+- raw: 这个石碑似乎可以控制什么东西转动的样子，这后面的话，石碑为上……一个石头露出头……到底是什么意思！  
+  result: This stone tablet seems to control something that rotates, and the words behind it suggest the stone tablet is supreme... A stone is sticking out... What does it mean!  
+  badtrans: true  
+  direct: Zhege shibei shìhū kěyǐ kòngzhì shénme dōngxi zhuàndòng de yàngzi, zhè hòumiàn de huà, shibei wèi shàng… yīgè shítou lùchū tóu… dào dǐ shì shénme yìsi!  
+  literal: Zhege shibei shihū keyi kongzhi shenme dongxi zhuandong de yangzi, zhe houmian de hua, shibei wei shang… yige shitou luchu tou… daodi shi shenme yisi!  
+- raw: 这个石碑似乎可以控制什么东西转动的样子，这后面的话，石碑为上……骈肋重耳应有功……到底是什么意思！  
+  result: This stone tablet seems to control something that rotates, and the words behind it suggest the stone tablet is supreme... 'The paired ribs and heavy ears should have merit'... What does it mean!  
+  badtrans: true  
+  direct: Zhege shibei shìhū kěyǐ kòngzhì shénme dōngxi zhuàndòng de yàngzi, zhè hòumiàn de huà, shibei wèi shàng… pián lèi zhòng ěr yīng yǒu gōng… dào dǐ shì shénme yìsi!  
+  literal: Zhege shibei shihū keyi kongzhi shenme dongxi zhuandong de yangzi, zhe houmian de hua, shibei wei shang… pian lei zhong er ying you gong… daodi shi shenme yisi!  
+- raw: “义”是“仁”的延伸和体现，是人们对于仁爱、仁心、仁德的实践和表达。
+  result: Yi is the extension and embodiment of Ren, representing people's practice and expression of benevolence, kindness, and virtue.
+  badtrans: true
+  direct: Yi shi Ren de yanshen he tixian, shi renmen duiyu ren'ai, renxin, rende de shijian he biaoda.
+  literal: Yi shi Ren de yanshen he tixian, shi renmen duiyu ren'ai, renxin, rende de shijian he biaoda.
+- raw: 金拍得
+  result: Gold Auctioned
+  badtrans: true
+  direct: Jin pai de
+  literal: Jin pai de
+- raw: 《道德经》中的“上善若水”是什么意思？
+  result: "What does 'The greatest good is like water' mean in the 'Tao Te Ching'?"
+  badtrans: true
+  direct: Dao De Jing zhong de shang shan ruo shui shi shenme yisi?
+  literal: Dao De Jing zhong de shang shan ruo shui shi shenme yisi?
+- raw: 《道德经》中“人法地，地法天，天法道，道法自然”指什么？
+  result: "What does the phrase 'People follow the Earth, the Earth follows Heaven, Heaven follows the Tao, and the Tao follows Nature' mean in the Tao Te Ching?"
+  badtrans: true
+  direct: Zhuangzi zhong 'Ren fa di, di fa tian, tian fa dao, dao fa ziran' zhi shenme?
+  literal: Tao Te Ching zhong 'Ren fa di, di fa tian, tian fa dao, dao fa ziran' zhi shenme?
+- raw: 不云潜  
+  result: Bu Yun Qian  
+  badtrans: true  
+  direct: Not Cloud Hidden  # Its a fish
+  literal: Bu Yun Qian  
+- raw: 赏  
+  result: Bounty  
+  badtrans: true  
+  direct: Reward  
+  literal: Shang  
+- raw: 奇  
+  result: Strange
+  badtrans: true  
+  direct: Strange  
+  literal: Qi  
+- raw: 切磋  
+  result: Spar  
+  badtrans: true  
+  direct: Spar
+  literal: Qiecuo 
+- raw: 贡士  
+  result: Gongshi  
+  badtrans: true  
+  direct: Gongshi  
+  literal: Gongshi  
+- raw: 趁虚  
+  result: Exploit Opening
+  badtrans: true  
+  direct: Exploit  
+  literal: Chenxu  
+- raw: 易损  
+  result: Fragile  
+  badtrans: true  
+  direct: Fragile  
+  literal: Yisun  
+- raw: "兵家对于战争中的道德和规则的看法是："
+  result: "The military perspective on the morality and rules of war is:"
+  badtrans: true
+  direct: Bing jia dui yu zhan zheng zhong de dao de he gui ze de kan fa shi
+  literal: Bing jia dui yu zhan zheng zhong de dao de he gui ze de kan fa shi
+- raw: 伤威
+  result: Damage Reputation
+  badtrans: true
+  direct: Shang wei
+  literal: Shang wei
+- raw: 迦南地宫化境决
+  result: Canaan Underground Palace Transformation Decision
+  badtrans: true
+  direct: Jia nan di gong hua jing jue
+  literal: Jia nan di gong hua jing jue
+- raw: 尧光谷剧情二
+  result: Yao Guang Valley Plot 2
+  badtrans: true
+  direct: Yao guang gu ju qing er
+  literal: Yao guang gu ju qing er
+- raw: 庄子如何定义“道”？
+  result: How does Zhuangzi define 'Dao'?
+  badtrans: true
+  direct: Zhuang zi ru he ding yi 'dao'?
+  literal: Zhuang zi ru he ding yi 'dao'?
+- raw: 《庄子》中的“朝三暮四”有什么寓意？
+  result: What is the meaning of 'morning three, evening four' in Zhuangzi?
+  badtrans: true
+- raw: 南宗派的修行者如何看待生命与长生？
+  result: How do practitioners of the Southern School view life and immortality?
+  badtrans: true
+  direct: Nan zong pai de xiu xing zhe ru he kan dai sheng ming yu chang sheng?
+  literal: Nan zong pai de xiu xing zhe ru he kan dai sheng ming yu chang sheng?
+- raw: 选项二文本
+  result: Option Two Text
+  badtrans: true
+  direct: Xuan xiang er wen ben
+  literal: Xuan xiang er wen ben
+- raw: 封将军的意思是？
+  result: What does 'appointing a general' mean?
+  badtrans: true
+  direct: Feng jiang jun de yi si shi?
+  literal: Feng jiang jun de yi si shi?
+- raw: 劫杀
+  result: Robbery and murder
+  badtrans: true
+  direct: Jie sha
+  literal: Jie sha
+- raw: "<color=#BF5F95>劫杀</color>"
+  result: "<color=#BF5F95>Robbery and murder</color>"
+  badtrans: true
+  direct: Jie sha
+  literal: Jie sha
+- raw: 比武
+  result: Martial arts competition
+  badtrans: true
+  direct: Bi wu
+  literal: Bi wu
+- raw: 比斗
+  result: Fight
+  badtrans: true
+  direct: Bi dou
+  literal: Bi dou
+- raw: 锤炼
+  result: Temper
+  badtrans: true
+  direct: Chui lian
+  literal: Chui lian
+- raw: 退出门派
+  result: Leave the sect
+  badtrans: true
+  direct: Tui chu men pai
+  literal: Tui chu men pai
+- raw: "<color=#BF5F95>切磋</color>"  
+  result: "<color=#BF5F95>Spar</color>"  
+  badtrans: true  
+  direct: Spar
+  literal: Qiecuo 
+- raw: 巧取
+  result: Cleverly Steal
+  badtrans: true
+  direct: Qiao qu
+  literal: Qiao qu
+- raw: 出示
+  result: Show
+  badtrans: true
+  direct: Chu shi
+  literal: Chu shi
+- raw: 因循
+  result: Follow routine
+  badtrans: true
+  direct: Yin xun
+  literal: Yin xun
+- raw: 参悟
+  result: Comprehend
+  badtrans: true
+  direct: Can wu
+  literal: Can wu
+- raw: 结仇
+  result: Make an enemy
+  badtrans: true
+  direct: Jie chou
+  literal: Jie chou
+- raw: 增筑
+  result: Increase construction
+  badtrans: true
+  direct: Zeng zhu
+  literal: Zeng zhu
+- raw: 斩工时佛挡杀佛水电
+  result: During work, one must be a sword that cleaves through obstacles; otherwise, it's akin to a Buddhist killing off another, disrupting progress and efficiency.
+  badtrans: true
+  direct: Zhan gong shi fo dang sha fo shui dian
+  literal: Zhan gong shi fo dang sha fo shui dian
+- raw: 对话张星星
+  result: Dialogue with Zhang Xingxing
+  badtrans: true
+  direct: Dui hua Zhang Xingxing
+  literal: Dui hua Zhang Xingxing
+- raw: 遁玄
+  result: Escape into mystery
+  badtrans: true
+  direct: Dun xuan
+  literal: Dun xuan
+- raw: 望尘切磋胜
+  result: Strive to surpass by observing and learning
+  badtrans: true
+  direct: Wang chen qie cuo sheng
+  literal: Wang chen qie cuo sheng
+- raw: 破浪
+  result: Break through the waves
+  badtrans: true
+  direct: Po lang
+  literal: Po lang
+- raw: 木桶
+  result: Wooden barrel
+  badtrans: true
+  direct: Mu tong
+  literal: Mu tong
+- raw: 走马
+  result: Gallop
+  badtrans: true
+  direct: Zou ma
+  literal: Zou ma
+- raw: 远行
+  result: Long journey
+  badtrans: true
+  direct: Yuan xing
+  literal: Yuan xing
+- raw: 状元
+  result: Top scholar
+  badtrans: true
+  direct: Zhuang yuan
+  literal: Zhuang yuan
+
+# Questions
+- raw: 戒定慧
+  result: Morality Concentration Wisdom
+  badtrans: true
+  direct: Jie Ding Hui
+  literal: Jie Ding Hui
+- raw: 贪嗔痴
+  result: Desire Anger Delusion
+  badtrans: true
+  direct: Tan Chen Chi
+  literal: Tan Chen Chi
+- raw: 眼耳鼻
+  result: Eyes Ears Nose
+  badtrans: true
+  direct: Yan Er Bi
+  literal: Yan Er Bi
+
+# Look like names
+- raw: 辛呈
+  result: Xin Cheng
+  badtrans: true
+  direct: Xin Cheng
+  literal: Xin Cheng
+- raw: 流光  
+  result: Liu Guang
+  badtrans: true  
+  direct: Liu Guang  
+  literal: Liu Guang 
+- raw: 碎铁  
+  result: Sui Tie
+  badtrans: true  
+  direct: Sui Tie  
+  literal: Sui Tie  
+- raw: 刺锋  
+  result: Ci Feng 
+  badtrans: true  
+  direct: Ci Feng  
+  literal: Ci Feng   
+- raw: 渊银  
+  result: Yuan Yin
+  badtrans: true  
+  direct: Yuan Yin  
+  literal: Yuan Yin
+- raw: 陈廉商人
+  result: Chen Honest Merchant
+  badtrans: true
+  direct: Chen Honest Merchant
+  literal: Chen Lian Shang Ren
+- raw: 墨家特技NPC
+  result: Mohist Special Techniques NPC
+  badtrans: true
+  direct: Ink Family Special Skills
+  literal: Mo Jia Te Ji
+- raw: 墨家交互
+  result: Mohist Interaction
+  badtrans: true
+  direct: Ink Family Interaction
+  literal: Mo Jia Jiao Hu
+- raw: 玄门像
+  result: Xuanmen Statue
+  badtrans: true
+  direct: Mysterious Gate Statue
+  literal: Xuan Men Xiang
+- raw: 黄老板
+  result: Huang Boss
+  badtrans: true
+  direct: Huang Boss
+  literal: Huang Lao Ban
+- raw: 府邸下人
+  result: Mansion Servant
+  badtrans: true
+  direct: Mansion Lower Person
+  literal: Fu Di Xia Ren
+- raw: 段恒工具人
+  result: Duan Heng Tool Person
+  badtrans: true
+  direct: Duan Heng Tool Person
+  literal: Duan Heng Gong Ju Ren
+- raw: 何二哥
+  result: Second Brother He
+  badtrans: true
+  direct: He Second Brother
+  literal: He Er Ge
+- raw: 铁掌王五
+  result: Iron Palm Wang Wu
+  badtrans: true
+  direct: Iron Palm King Five
+  literal: Tie Zhang Wang Wu
+- raw: 成大婶
+  result: Great Aunt Cheng
+  badtrans: true
+  direct: Cheng Aunt
+  literal: Cheng Da Shen
+
+
+# Character names with non breaking spaces
+- raw: 沈雁弓
+  result: "Shen\u00A0Yangong"
+- raw: 梁潇
+  result: "Liang\u00A0Xiao"
+- raw: 玉玲珑
+  result: "Yu\u00A0Linglong"
+  allowalt: 
+    - White Jade
+- raw: 杨若水
+  result: "Yang\u00A0Ruoshui"
+
+# Names
+- raw: 金石开
+  result: Jin Shikai
+  badtrans: true
+  direct: Metal-stone-open
+  literal: Jīn Shí Kāi
+- raw: 方磨弈
+  result: Fang Moyi
+  badtrans: true
+  direct: square - grind - game
+  literal: fang mo yi
+- raw: 奇斯年  
+  result: Qi Sinian  
+  badtrans: true  
+  direct: Qi Si Nian  
+  literal: Qi Si Nian  
+- raw: 业雅懿  
+  result: Ye Yayi  
+  badtrans: true  
+  direct: Ye Ya Yi  
+  literal: Ye Ya Yi  
+- raw: 问采  
+  result: Wen Cai  
+  badtrans: true  
+  direct: Wen Cai  
+  literal: Wen Cai  
+- raw: 力秋柳  
+  result: Li Qiuliu  
+  badtrans: true  
+  direct: Li Qiu Liu  
+  literal: Li Qiu Liu  
+- raw: 贵范  
+  result: Gui Fan  
+  badtrans: true  
+  direct: Gui Fan  
+  literal: Gui Fan  
+- raw: 掌夏柳  
+  result: Zhang Xialiu  
+  badtrans: true  
+  direct: Zhang Xia Liu  
+  literal: Zhang Xia Liu  
+- raw: 怀金枝  
+  result: Huai Jinzhi  
+  badtrans: true  
+  direct: Huai Jin Zhi  
+  literal: Huai Jin Zhi  
+- raw: 车香旋  
+  result: Che Xiangxuan  
+  badtrans: true  
+  direct: Che Xiang Xuan  
+  literal: Che Xiang Xuan  
+- raw: 阙承教  
+  result: Que Chengjiao  
+  badtrans: true  
+  direct: Que Cheng Jiao  
+  literal: Que Cheng Jiao  
+- raw: 鄀意  
+  result: Ruo Yi  
+  badtrans: true  
+  direct: Hidden Intention  
+  literal: Ruò Yì  
+- raw: 盛河图  
+  result: Sheng Hetu  
+  badtrans: true  
+  direct: Prosperous River Diagram  
+  literal: Sheng He Tu  
+- raw: 戴河图  
+  result: Dai Hetu  
+  badtrans: true  
+  direct: Wear River Diagram  
+  literal: Dai He Tu  
+- raw: 王令  
+  result: Wang Ling  
+  badtrans: true  
+  direct: King Decree  
+  literal: Wang Ling  
+- raw: 恨千断  
+  result: Hen Qianduan  
+  badtrans: true  
+  direct: Hate Thousand Cut  
+  literal: Hen Qianduan  
+- raw: 闻宸阳  
+  result: Wen Chenyang  
+  badtrans: true  
+  direct: Hear Imperial Sun  
+  literal: Wenchen Yang  
+- raw: 度飞语  
+  result: Du Feiyu
+  badtrans: true  
+  direct: Measure Fly Words  
+  literal: Dufei Yu  
+- raw: 布诗
+  result: Bu Shi
+  badtrans: true
+  direct: Cloth Poem
+  literal: Bù Shī
+- raw: 花不迟
+  result: Hua Buchi
+  badtrans: true
+  direct: Flowers not late
+  literal: Hua Bu Chi
+- raw: 邋遢男子
+  result: Untidy man
+  badtrans: true
+  direct: Untidy man
+  literal: La Ta Nan Zi
+- raw: 乌雅宣朗
+  result: Wuya Xuanlang
+  badtrans: true
+  direct: Wuya Declare Bright
+  literal: Wuya Xuan Lang
+- raw: 安海宁
+  result: An Haining
+  badtrans: true
+  direct: Peaceful sea tranquility
+  literal: An Hai Ning
+- raw: 谢访
+  result: Xie Fang
+  badtrans: true
+  direct: Thank visit
+  literal: Xie Fang
+- raw: 澄清
+  result: Cheng Qing
+  badtrans: true
+  direct: Clear up
+  literal: Cheng Qing
+- raw: 澄心
+  result: Cheng Xin
+  badtrans: true
+  direct: Clear heart
+  literal: Cheng Xin
+- raw: 澄静
+  result: Cheng Jing
+  badtrans: true
+  direct: Clear and quiet
+  literal: Cheng Jing
+- raw: 白儒水
+  result: Bai Ru Shui
+  badtrans: true
+  direct: White Scholar Water
+  literal: Bai Ru Shui
+- raw: 步府侍卫长
+  result: Bu Mansion Guards Chief
+  badtrans: true
+  direct: Foot Mansion Guard Chief
+  literal: Bu Fu Shi Wei Chang
+- raw: 周炎
+  result: Zhou Yan
+  badtrans: true
+  direct: Zhou Flame
+  literal: Zhou Yan
+- raw: 段天恒
+  result: Duan Tianheng
+  badtrans: true
+  direct: Duan Sky Constant
+  literal: Duan Tian Heng
+- raw: 随秋白
+  result: Sui Qiubai
+  badtrans: true
+  direct: Sui Autumn White
+  literal: Sui Qiu Bai
+- raw: 于大海
+  result: Yu Dahai
+  badtrans: true
+  direct: Yu Great Sea
+  literal: Yu Da Hai
+- raw: 李虎
+  result: Li Hu
+  badtrans: true
+  direct: Li Tiger
+  literal: Li Hu
+- raw: 唐元庆
+  result: Tang Yuanqing
+  badtrans: true
+  direct: Tang Original Celebration
+  literal: Tang Yuan Qing
+- raw: 吴老
+  result: Wu Lao
+  badtrans: true
+  direct: Wu Old
+  literal: Wu Lao
+- raw: 刘伯
+  result: Liu Bo
+  badtrans: true
+  direct: Liu Elder
+  literal: Liu Bo
+- raw: 张伯
+  result: Zhang Bo
+  badtrans: true
+  direct: Zhang Elder
+  literal: Zhang Bo
+- raw: 刘知章
+  result: Liu Zhizhang
+  badtrans: true
+  direct: Liu Know Chapter
+  literal: Liu Zhi Zhang
+- raw: 包梓
+  result: Bao Zi
+  badtrans: true
+  direct: Bao Catalpa
+  literal: Bao Zi
+- raw: 张崇
+  result: Zhang Chong
+  badtrans: true
+  direct: Zhang 崇
+  literal: Zhang Chong
+- raw: 祝表西
+  result: Zhu Biaoxi
+  badtrans: true
+  direct: Zhu Watch West
+  literal: Zhu Biao Xi
+- raw: 扬剑鸣
+  result: Yang Jianming
+  badtrans: true
+  direct: Raise Sword Ring
+  literal: Yang Jian Ming
+- raw: 候青石
+  result: Hou Qingshi
+  badtrans: true
+  direct: Hou Green Stone
+  literal: Hou Qing Shi
+- raw: 黄川洛
+  result: Huang Chuanluo
+  badtrans: true
+  direct: Huang River Luo
+  literal: Huang Chuan Luo
+- raw: 韩春雷
+  result: Han Chunlei
+  badtrans: true
+  direct: Han Spring Thunder
+  literal: Han Chun Lei
+- raw: 曹武進
+  result: Cao Wujin
+  badtrans: true
+  direct: Cao Martial Advance
+  literal: Cao Wu Jin
+- raw: 韩清扬
+  result: Han Qingyang
+  badtrans: true
+  direct: Han Clear Rise
+  literal: Han Qing Yang
+- raw: 唐禹
+  result: Tang Yu
+  badtrans: true
+  direct: Tang Imperial
+  literal: Tang Yu
+- raw: 孙立
+  result: Sun Li
+  badtrans: true
+  direct: Sun Stand
+  literal: Sun Li
+- raw: 王布
+  result: Wang Bu
+  badtrans: true
+  direct: Wang Cloth
+  literal: Wang Bu
+- raw: 李当
+  result: Li Dang
+  badtrans: true
+  direct: Li When
+  literal: Li Dang
+- raw: 李绾人
+  result: Li Wanren
+  badtrans: true
+  direct: Li Tied Person
+  literal: Li Wan Ren
+- raw: 锐克
+  result: Rui Ke
+  badtrans: true
+  direct: Sharp Defeat
+  literal: Rui Ke
+- raw: 方世玉
+  result: Fang Shiyu
+  badtrans: true
+  direct: Fang World Jade
+  literal: Fang Shi Yu
+- raw: 安剑南
+  result: An Jiannan
+  badtrans: true
+  direct: An Sword South
+  literal: An Jian Nan
+- raw: 李长空
+  result: Li Changkong
+  badtrans: true
+  direct: Li Long Sky
+  literal: Li Chang Kong
+- raw: 啸犸
+  result: Xiao Ma
+  badtrans: true
+  direct: Howl Mammoth
+  literal: Xiao Ma
+- raw: 血暴
+  result: Xue Bao
+  badtrans: true
+  direct: Blood Violence
+  literal: Xue Bao
+
+- raw: 芙蓉王
+  result: Furong Wang
+  badtrans: true
+  direct: Lotus King
+  literal: Fu Rong Wang
+- raw: 熊二
+  result: Xiong Er
+  badtrans: true
+  direct: Bear Two
+  literal: Xiong Er
+- raw: 甄言飞
+  result: Zhen Yanfei
+  badtrans: true
+  direct: Zhen Words Fly
+  literal: Zhen Yan Fei
+- raw: 高宇恒
+  result: Gao Yuheng
+  badtrans: true
+  direct: Gao Universe Constant
+  literal: Gao Yu Heng
+- raw: 公明凡
+  result: Gong Mingfan
+  badtrans: true
+  direct: Public Bright Ordinary
+  literal: Gong Ming Fan
+- raw: 方元栀
+  result: Fang Yuanzhi
+  badtrans: true
+  direct: Fang Original Gardenia
+  literal: Fang Yuan Zhi
+- raw: 唐元侁
+  result: Tang Yuanqi
+  badtrans: true
+  direct: Tang Original Scholar
+  literal: Tang Yuan Qi
+- raw: 李大成
+  result: Li Dacheng
+  badtrans: true
+  direct: Li Great Achievement
+  literal: Li Da Cheng
+- raw: 熊江
+  result: Xiong Jiang
+  badtrans: true
+  direct: Bear River
+  literal: Xiong Jiang
+- raw: 杜田田
+  result: Du Tiantian
+  badtrans: true
+  direct: Du Field Field
+  literal: Du Tian Tian
+- raw: 鸿煊
+  result: Hong Xuan
+  badtrans: true
+  direct: Grand Prosperity
+  literal: Hong Xuan
+- raw: 步晨
+  result: Bu Chen
+  badtrans: true
+  direct: Step Morning
+  literal: Bu Chen
+- raw: 张二志
+  result: Zhang Erzhi
+  badtrans: true
+  direct: Zhang Second Will
+  literal: Zhang Er Zhi
+- raw: 严峻
+  result: Yan Jun
+  badtrans: true
+  direct: Severe Rugged
+  literal: Yan Jun
+- raw: 王妄
+  result: Wang Wang
+  badtrans: true
+  direct: King Delusion
+  literal: Wang Wang
+- raw: 姜朝
+  result: Jiang Chao
+  badtrans: true
+  direct: Jiang Dynasty
+  literal: Jiang Chao
+- raw: 黄吾
+  result: Huang Wu
+  badtrans: true
+  direct: Huang I
+  literal: Huang Wu
+- raw: 伯子明
+  result: Bo Ziming
+  badtrans: true
+  direct: Elder Son Bright
+  literal: Bo Zi Ming
+- raw: 伯子诚
+  result: Bo Zicheng
+  badtrans: true
+  direct: Elder Son Sincere
+  literal: Bo Zi Cheng
+- raw: 山太一
+  result: Shan Taiyi
+  badtrans: true
+  direct: Mountain Great One
+  literal: Shan Tai Yi
+- raw: 本冲田
+  result: Ben Chongtian
+  badtrans: true
+  direct: Ben冲田
+  literal: Ben Chong Tian
+- raw: 蒋思聪
+  result: Jiang Siong
+  badtrans: true
+  direct: Jiang Think Intelligent
+  literal: Jiang Si Cong
+- raw: 养平宁
+  result: Yang Pingning
+  badtrans: true
+  direct: Nurture Peaceful Tranquility
+  literal: Yang Ping Ning
+- raw: 马启
+  result: Ma Qi
+  badtrans: true
+  direct: Ma Start
+  literal: Ma Qi
+- raw: 李玉博
+  result: Li Yubo
+  badtrans: true
+  direct: Li Jade 博
+  literal: Li Yu Bo
+- raw: 张琛
+  result: Zhang Chen
+  badtrans: true
+  direct: Zhang Precious
+  literal: Zhang Chen
+- raw: 刘城
+  result: Liu Cheng
+  badtrans: true
+  direct: Liu City
+  literal: Liu Cheng
+- raw: 关长威
+  result: Guan Changwei
+  badtrans: true
+  direct: Guan Long威
+  literal: Guan Chang Wei
+- raw: 杨柳月
+  result: Yang Liuyue
+  badtrans: true
+  direct: Willow Moon
+  literal: Yang Liu Yue
+- raw: 江寻
+  result: Jiang Xun
+  badtrans: true
+  direct: River Search
+  literal: Jiang Xun
+- raw: 小木
+  result: Xiao Mu
+  badtrans: true
+  direct: Little Wood
+  literal: Xiao Mu
+- raw: 桃笛
+  result: Peach Flute
+  badtrans: true
+  direct: Peach Flute
+  literal: Tao Di
+- raw: 郭禹番
+  result: Guo Yufan
+  badtrans: true
+  direct: Guo Yü Foreign
+  literal: Guo Yu Fan
+- raw: 柳陈皮
+  result: Liu Chenpi
+  badtrans: true
+  direct: Willow Aged Peel
+  literal: Liu Chen Pi
+- raw: 萧康文
+  result: Xiao Kangwen
+  badtrans: true
+  direct: Xiao Peaceful Culture
+  literal: Xiao Kang Wen
+- raw: 萧庄衍
+  result: Xiao Zhuangyan
+  badtrans: true
+  direct: Xiao Manor Expansion
+  literal: Xiao Zhuang Yan
+- raw: 萧庄辞
+  result: Xiao Zhuangci
+  badtrans: true
+  direct: Xiao Manor Farewell
+  literal: Xiao Zhuang Ci
+- raw: 王生
+  result: Wang Sheng
+  badtrans: true
+  direct: Wang Life
+  literal: Wang Sheng
+- raw: 张山庆
+  result: Zhang Shanqing
+  badtrans: true
+  direct: Zhang Mountain Celebration
+  literal: Zhang Shan Qing
+- raw: 文扶风
+  result: Wen Fufeng
+  badtrans: true
+  direct: Wen Support Wind
+  literal: Wen Fu Feng
+- raw: 豆芃
+  result: Dou Peng
+  badtrans: true
+  direct: Bean Green
+  literal: Dou Peng
+- raw: 唐离穗
+  result: Tang Lisui
+  badtrans: true
+  direct: Tang Leave Tassel
+  literal: Tang Li Sui
+- raw: 姚红
+  result: Yao Hong
+  badtrans: true
+  direct: Yao Red
+  literal: Yao Hong
+- raw: 闻常礼
+  result: Wen Changli
+  badtrans: true
+  direct: Hear Constant Etiquette
+  literal: Wen Chang Li
+- raw: 闻常信
+  result: Wen Changxin
+  badtrans: true
+  direct: Hear Constant Belief
+  literal: Wen Chang Xin
+- raw: 张风生
+  result: Zhang Fengsheng
+  badtrans: true
+  direct: Zhang Wind Life
+  literal: Zhang Feng Sheng
+- raw: 黄世宗
+  result: Huang Shizong
+  badtrans: true
+  direct: Huang World Ancestor
+  literal: Huang Shi Zong
+- raw: 方珏
+  result: Fang Jue
+  badtrans: true
+  direct: Fang Jade
+  literal: Fang Jue
+- raw: 远涉
+  result: Yuan She
+  badtrans: true
+  direct: Yuan She
+  literal: Yuan She
+- raw: 本初
+  result: Ben Chu
+  badtrans: true
+  direct: Ben Chu
+  literal: Ben Chu
+- raw: 了痕
+  result: Liao Hen
+  badtrans: true
+  direct: Liao Hen
+  literal: Liao Hen
+- raw: 陆老头
+  result: Lu Laotou
+  badtrans: true
+  direct: Lu Lao Tou
+  literal: Lu Lao Tou
+- raw: 古诉
+  result: Gu Su
+  badtrans: true
+  direct: Gu Su
+  literal: Gu Su
+- raw: 素怀
+  result: Su Huai
+  badtrans: true
+  direct: Su Huai
+  literal: Su Huai
+- raw: 高哥
+  result: Gao Ge
+  badtrans: true
+  direct: Gao Ge
+  literal: Gao Ge
+- raw: 宋三
+  result: Song San
+  badtrans: true
+  direct: Song San
+  literal: Song San
+- raw: 李老三
+  result: Li Laosan
+  badtrans: true
+  direct: Li Lao San
+  literal: Li Lao San
+- raw: 小玥
+  result: Xiao Yue
+  badtrans: true
+  direct: Xiao Yue
+  literal: Xiao Yue
+- raw: 永诚
+  result: Yong Cheng
+  badtrans: true
+  direct: Yong Cheng
+  literal: Yong Cheng
+- raw: 妙深
+  result: Miao Shen
+  badtrans: true
+  direct: Miao Shen
+  literal: Miao Shen
+- raw: 鲍赫
+  result: Bao He
+  badtrans: true
+  direct: Bao He
+  literal: Bao He
+- raw: 薄煜云
+  result: Bo Yunyun
+  badtrans: true
+  direct: Bo Yu Yun
+  literal: Bo Yu Yun
+- raw: 冠文斌
+  result: Guan Wenbin
+  badtrans: true
+  direct: Guan Wen Bin
+  literal: Guan Wen Bin
+- raw: 牧乃
+  result: Mu Nai
+  badtrans: true
+  direct: Mu Nai
+  literal: Mu Nai
+- raw: 年运华
+  result: Nian Yunhua
+  badtrans: true
+  direct: Nian Yun Hua
+  literal: Nian Yun Hua
+- raw: 孟辰
+  result: Meng Chen
+  badtrans: true
+  direct: Meng Chen
+  literal: Meng Chen
+- raw: 召毅
+  result: Zhao Yi
+  badtrans: true
+  direct: Zhao Yi
+  literal: Zhao Yi
+- raw: 粟博
+  result: Su Bo
+  badtrans: true
+  direct: Su Bo
+  literal: Su Bo
+- raw: 白瑾
+  result: Bai Jin
+  badtrans: true
+  direct: Bai Jin
+  literal: Bai Jin
+- raw: 年云天
+  result: Nian Yuntian
+  badtrans: true
+  direct: Nian Yun Tian
+  literal: Nian Yun Tian
+- raw: 跋辰
+  result: Ba Chen
+  badtrans: true
+  direct: Ba Chen
+  literal: Ba Chen
+- raw: 冷梅
+  result: Leng Mei
+  badtrans: true
+  direct: Leng Mei
+  literal: Leng Mei
+- raw: 伯瀚
+  result: Bo Han
+  badtrans: true
+  direct: Bo Han
+  literal: Bo Han
+- raw: 都夕彦
+  result: Du Xiyan
+  badtrans: true
+  direct: Du Xi Yan
+  literal: Du Xi Yan
+- raw: 段景天
+  result: Duan Jingtian
+  badtrans: true
+  direct: Duan Jing Tian
+  literal: Duan Jing Tian
+- raw: 寇崇卜
+  result: Kou Chongbu
+  badtrans: true
+  direct: Kou Chong Bu
+  literal: Kou Chong Bu
+- raw: 童杰
+  result: Tong Jie
+  badtrans: true
+  direct: Tong Jie
+  literal: Tong Jie
+- raw: 童宇
+  result: Tong Yu
+  badtrans: true
+  direct: Tong Yu
+  literal: Tong Yu
+- raw: 冉干
+  result: Ran Gan
+  badtrans: true
+  direct: Ran Gan
+  literal: Ran Gan
+- raw: 一经
+  result: Yi Jing
+  badtrans: true
+  direct: Yi Jing
+  literal: Yi Jing
+- raw: 姬恩
+  result: Ji En
+  badtrans: true
+  direct: Ji En
+  literal: Ji En
+- raw: 查新
+  result: Cha Xin
+  badtrans: true
+  direct: Cha Xin
+  literal: Cha Xin
+- raw: 朱天宇
+  result: Zhu Tianyu
+  badtrans: true
+  direct: Zhu Tian Yu
+  literal: Zhu Tian Yu
+- raw: 樊星
+  result: Fan Xing
+  badtrans: true
+  direct: Fan Xing
+  literal: Fan Xing
+- raw: 古空
+  result: Gu Kong
+  badtrans: true
+  direct: Gu Kong
+  literal: Gu Kong
+- raw: 侯逸
+  result: Hou Yi
+  badtrans: true
+  direct: Hou Yi
+  literal: Hou Yi
+- raw: 牧尘
+  result: Mu Chen
+  badtrans: true
+  direct: Mu Chen
+  literal: Mu Chen
+- raw: 公孙封
+  result: Gongsun Feng
+  badtrans: true
+  direct: Gongsun Feng
+  literal: Gongsun Feng
+- raw: 查帆
+  result: Cha Fan
+  badtrans: true
+  direct: Cha Fan
+  literal: Cha Fan
+- raw: 原修
+  result: Yuan Xiu
+  badtrans: true
+  direct: Yuan Xiu
+  literal: Yuan Xiu
+- raw: 云台
+  result: Yun Tai
+  badtrans: true
+  direct: Yun Tai
+  literal: Yun Tai
+- raw: 颛锡梅
+  result: Zhuang Ximei
+  badtrans: true
+  direct: Zhuang Xi Mei
+  literal: Zhuang Xi Mei
+- raw: 周楠和
+  result: Zhou Nianhe
+  badtrans: true
+  direct: Zhou Nan He
+  literal: Zhou Nan He
+- raw: 隋风
+  result: Sui Feng
+  badtrans: true
+  direct: Sui Feng
+  literal: Sui Feng
+- raw: 召润玉
+  result: Zhao Runyu
+  badtrans: true
+  direct: Zhao Run Yu
+  literal: Zhao Run Yu
+- raw: 丰言光
+  result: Feng Yangguang
+  badtrans: true
+  direct: Feng Yan Guang
+  literal: Feng Yan Guang
+- raw: 丰司深
+  result: Feng Sichen
+  badtrans: true
+  direct: Feng Si Shen
+  literal: Feng Si Shen
+- raw: 禾以宸
+  result: He Yichen
+  badtrans: true
+  direct: He Yi Chen
+  literal: He Yi Chen
+- raw: 势新荣
+  result: Shi Xinrong
+  badtrans: true
+  direct: Shi Xin Rong
+  literal: Shi Xin Rong
+- raw: 祝俊远
+  result: Zhu Junyuan
+  badtrans: true
+  direct: Zhu Jun Yuan
+  literal: Zhu Jun Yuan
+- raw: 郑乐生
+  result: Zheng Lesheng
+  badtrans: true
+  direct: Zheng Le Sheng
+  literal: Zheng Le Sheng
+- raw: 妙云
+  result: Miao Yun
+  badtrans: true
+  direct: Miao Yun
+  literal: Miao Yun
+- raw: 如涉
+  result: Ru She
+  badtrans: true
+  direct: Ru She
+  literal: Ru She
+- raw: 一义
+  result: Yi Yi
+  badtrans: true
+  direct: Yi Yi
+  literal: Yi Yi
+- raw: 妙越
+  result: Miao Yue
+  badtrans: true
+  direct: Miao Yue
+  literal: Miao Yue
+- raw: 全乾
+  result: Quan Qian
+  badtrans: true
+  direct: Quan Qian
+  literal: Quan Qian
+- raw: 间识
+  result: Jian Shi
+  badtrans: true
+  direct: Jian Shi
+  literal: Jian Shi
+- raw: 全展
+  result: Quan Zhan
+  badtrans: true
+  direct: Quan Zhan
+  literal: Quan Zhan
+- raw: 无剑
+  result: Wu Jian
+  badtrans: true
+  direct: Wu Jian
+  literal: Wu Jian
+- raw: 间默
+  result: Jian Mo
+  badtrans: true
+  direct: Jian Mo
+  literal: Jian Mo
+- raw: 如全
+  result: Ru Quan
+  badtrans: true
+  direct: Ru Quan
+  literal: Ru Quan
+- raw: 间云
+  result: Jian Yun
+  badtrans: true
+  direct: Jian Yun
+  literal: Jian Yun
+- raw: 一觉
+  result: Yi Jue
+  badtrans: true
+  direct: Yi Jue
+  literal: Yi Jue
+- raw: 无韦
+  result: Wu Wei
+  badtrans: true
+  direct: Wu Wei
+  literal: Wu Wei
+- raw: 许包
+  result: Xu Bao
+  badtrans: true
+  direct: Xu Bao
+  literal: Xu Bao
+- raw: 随秋双
+  result: Sui Qiushuang
+  badtrans: true
+  direct: Sui Qiu Shuang
+  literal: Sui Qiu Shuang
+- raw: 元知
+  result: Yuan Zhi
+  badtrans: true
+  direct: Yuan Zhi
+  literal: Yuan Zhi
+- raw: 宋书意
+  result: Song Shuyi
+  badtrans: true
+  direct: Song Shu Yi
+  literal: Song Shu Yi
+- raw: 行慈
+  result: Xing Ci
+  badtrans: true
+  direct: Practice kindness
+  literal: Xing ci
+- raw: 相蒲
+  result: Xiang Pu
+  badtrans: true
+  direct: Xiang pu
+  literal: Xiang pu
+- raw: 全通
+  result: Quan Tong
+  badtrans: true
+  direct: Quan tong
+  literal: Quan tong
+- raw: 苗善和  
+  result: Miao Shanhe  
+  badtrans: true  
+  direct: Miao Shanhe  
+  literal: Miao Shanhe  
+- raw: 栋堂  
+  result: Dong Tang  
+  badtrans: true  
+  direct: Dongtang  
+  literal: Dongtang  
+- raw: 居民  
+  result: Resident  
+  badtrans: true  
+  direct: Resident  
+  literal: Jumin  
+- raw: 出长逸  
+  result: Chu Changyi  
+  badtrans: true  
+  direct: Go out, long ease  
+  literal: Chu chang yi  
+- raw: 万剑归  
+  result: Wan Jiangui  
+  badtrans: true  
+  direct: Ten thousand swords return  
+  literal: Wan jian gui  
+- raw: 苦不苦  
+  result: Ku Buku
+  badtrans: true  
+  direct: Ku bu ku  
+  literal: Ku bu ku  
+- raw: 步琪  
+  result: Bu Qi  
+  badtrans: true  
+  direct: Step Jade  
+  literal: Bu Qi  
+- raw: 向秋柏  
+  result: Xiang Qiubai  
+  badtrans: true  
+  direct: Toward Autumn Cypress  
+  literal: Xiang Qiubai  
+- raw: 乌孙行  
+  result: Wu Sunxing  
+  badtrans: true  
+  direct: Black Grandson Walk  
+  literal: Wu Sun Xing  
+- raw: 花安  
+  result: Hua An  
+  badtrans: true  
+  direct: Flower Peace  
+  literal: Hua An  
+- raw: 碧宇  
+  result: Biyu  
+  badtrans: true  
+  direct: Jade Sky  
+  literal: Bi Yu  
+- raw: 任柯  
+  result: Ren Ke  
+  badtrans: true  
+  direct: Trust Branch  
+  literal: Ren Ke  
+- raw: 陀学智  
+  result: Tuo Xuezhi  
+  badtrans: true  
+  direct: Tuo Study Wisdom  
+  literal: Tuo Xue Zhi  
+- raw: 金半两  
+  result: Jin Banliang  
+  badtrans: true  
+  direct: Gold Half Tael  
+  literal: Jin Ban Liang  
+- raw: 李味道  
+  result: Li Weidao  
+  badtrans: true  
+  direct: Plum Flavor  
+  literal: Li Weidao  
+- raw: 东门木  
+  result: Dong Menmu  
+  badtrans: true  
+  direct: East Gate Wood  
+  literal: Dong Men Mu  
+- raw: 空明  
+  result: Kong Ming  
+  badtrans: true  
+  direct: Empty Brightness  
+  literal: Kong Ming  
+- raw: 镜观  
+  result: Jing Guan  
+  badtrans: true  
+  direct: Mirror Observation  
+  literal: Jing Guan  
+- raw: 全罡  
+  result: Quan Gang  
+  badtrans: true  
+  direct: Complete Magnetic Field  
+  literal: Quan Gang  
+- raw: 卧竹  
+  result: Wo Zhu  
+  badtrans: true  
+  direct: Reclining Bamboo  
+  literal: Wo Zhu  
+- raw: 澄道  
+  result: Cheng Dao  
+  badtrans: true  
+  direct: Clear Path  
+  literal: Cheng Dao  
+
+
+
+
+
+- raw: 廉冯  
+  result: Lian Feng  
+  badtrans: true  
+  direct: Lian Feng  
+  literal: Lian Feng  
+- raw: 冯安然  
+  result: Feng Anran  
+  badtrans: true  
+  direct: Feng Anran  
+  literal: Feng Anran  
+- raw: 明照
+  result: Ming Zhao
+  badtrans: true
+  direct: Ming Zhao
+  literal: Ming Zhao
+- raw: 龙咎鹫
+  result: Long Jiu Jiu
+  badtrans: true
+  direct: Long Jiu Jiu
+  literal: Long Jiu Jiu
+- raw: 封于
+  result: Feng Yu
+  badtrans: true
+  direct: Feng Yu
+  literal: Feng Yu
+- raw: 公输梦
+  result: Gong Shu Meng
+  badtrans: true
+  direct: Gong Shu Meng
+  literal: Gong Shu Meng
+- raw: 年清
+  result: Nian Qing
+  badtrans: true
+  direct: Nian Qing
+  literal: Nian Qing
+- raw: 常盼春
+  result: Chang Pan Chun
+  badtrans: true
+  direct: Chang Pan Chun
+  literal: Chang Pan Chun
+- raw: 全忆之
+  result: Quan Yi Zhi
+  badtrans: true
+  direct: Quan Yi Zhi
+  literal: Quan Yi Zhi
+- raw: 魔君姜世离
+  result: Demon Lord Jiang Shili
+  badtrans: true
+  direct: Mo Jun Jiang Shi Li
+  literal: Mo Jun Jiang Shi Li
+- raw: 行尘
+  result: Xingchen
+  badtrans: true
+  direct: Xing Chen
+  literal: Xing Chen
+- raw: 伯子越
+  result: Bo Ziyue
+  badtrans: true
+  direct: Bo Zi Yue
+  literal: Bo Zi Yue
+- raw: 杭飞双
+  result: Hang Feishuang
+  badtrans: true
+  direct: Hang Fei Shuang
+  literal: Hang Fei Shuang
+- raw: 杨老丐
+  result: Old Beggar Yang
+  badtrans: true
+  direct: Yang Lao Gai
+  literal: Yang Lao Gai
+- raw: 郑管家
+  result: Steward Zheng
+  badtrans: true
+  direct: Zheng Guan Jia
+  literal: Zheng Guan Jia
+- raw: 明寒烟
+  result: Ming Hanyan
+  badtrans: true
+  direct: Ming Han Yan
+  literal: Ming Han Yan
+- raw: 蒙鱼
+  result: Meng Yu
+  badtrans: true
+  direct: Meng Yu
+  literal: Meng Yu
+- raw: 绝夙
+  result: Jue Su
+  badtrans: true
+  direct: Jue Su
+  literal: Jue Su
+- raw: 陈管家
+  result: Steward Chen
+  badtrans: true
+  direct: Chen Guan Jia
+  literal: Chen Guan Jia
+- raw: 张音师
+  result: Master Zhang
+  badtrans: true
+  direct: Zhang Yin Shi
+  literal: Zhang Yin Shi
+- raw: 古云
+  result: Gu Yun
+  badtrans: true
+  direct: Gu Yun
+  literal: Gu Yun
+- raw: 张术
+  result: Zhang Shu
+  badtrans: true
+  direct: Zhang Shu
+  literal: Zhang Shu
+- raw: 闻者彰
+  result: Wen Zhezhang
+  badtrans: true
+  direct: Wen Zhe Zhang
+  literal: Wen Zhe Zhang
+- raw: 叹书生
+  result: Sighing Scholar
+  badtrans: true
+  direct: Tan Shu Sheng
+  literal: Tan Shu Sheng
+- raw: 关塞暮
+  result: Guan Saimu
+  badtrans: true
+  direct: Guan Sai Mu
+  literal: Guan Sai Mu
+- raw: 黄及
+  result: Huang Ji
+  badtrans: true
+  direct: Huang Ji
+  literal: Huang Ji
+- raw: 贱妾
+  result: Lowly Concubine
+  badtrans: true
+  direct: Jian Qie
+  literal: Jian Qie
+- raw: 祝青柳
+  result: Zhu Qingliu
+  badtrans: true
+  direct: Zhu Qing Liu
+  literal: Zhu Qing Liu
+- raw: 燕北飞
+  result: Yan Beifei
+  badtrans: true
+  direct: Yan Bei Fei
+  literal: Yan Bei Fei
+- raw: 战凝
+  result: Zhan Ning
+  badtrans: true
+  direct: Zhan Ning
+  literal: Zhan Ning
+- raw: 业向
+  result: Ye Xiang
+  badtrans: true
+  direct: Ye Xiang
+  literal: Ye Xiang
+- raw: 没药
+  result: Mo Yao
+  badtrans: true
+  direct: Mo Yao
+  literal: Mo Yao
+- raw: 候盛  
+  result: Hou Sheng  
+  badtrans: true  
+  direct: Hou Sheng  
+  literal: Hou Sheng  
+- raw: 赵二狗  
+  result: Zhao Ergou  
+  badtrans: true  
+  direct: Zhao Er Gou  
+  literal: Zhao er gou  
+- raw: 无  
+  result: None  
+  badtrans: true  
+  direct: None  
+  literal: Wu  
+
+# Relationships
+- raw: 拜师
+  result: Apprentice to a Master
+  badtrans: true
+  direct: Bai Shi
+  literal: Bai Shi
+
+# Skill Levels
+- raw: 初学
+  result: Beginner
+  badtrans: true
+  direct: Chu Xue
+  literal: Chu Xue
+- raw: 精通
+  result: Proficient
+  badtrans: true
+  direct: Jing Tong
+  literal: Jing Tong
+- raw: 化境
+  result: Transcendent
+  badtrans: true
+  direct: Hua Jing
+  literal: Hua Jing
+
+ # Earthly Branches
+- raw: 子
+  result: Zi
+- raw: 丑
+  result: Chou
+- raw: 寅
+  result: Yin
+- raw: 卯
+  result: Mao
+- raw: 辰
+  result: Chen
+- raw: 巳
+  result: Si
+- raw: 午
+  result: Wu
+- raw: 未
+  result: Wei
+- raw: 申
+  result: Shen
+- raw: 酉
+  result: You
+- raw: 戌
+  result: Xu
+- raw: 亥
+  result: Hai
+
+# Realms
+- raw: 略通拳脚
+  result: Basic Martial Skill
+  badtrans: true
+  direct: Slightly Mastered Fist and Feet
+  literal: Lue Tong Quan Jiao
+- raw: 初窥门径
+  result: First Glimpse of the Path
+  badtrans: true
+  direct: First Peep at the Doorway
+  literal: Chu Kui Men Jing
+- raw: 融会贯通
+  result: Integrate Understanding
+  badtrans: true
+  direct: Blend and Connect Completely
+  literal: Rong Hui Guan Tong
+- raw: 登堂入室
+  result: Entering the Hall
+  badtrans: true
+  direct: Ascend to the Hall, Enter the Room
+  literal: Deng Tang Ru Shi
+- raw: 炉火纯青
+  result: Perfected Skill
+  badtrans: true
+  direct: Furnace Fire, Perfect Blue
+  literal: Lu Huo Chun Qing
+- raw: 出神入化
+  result: Transcendent Mastery
+  badtrans: true
+  direct: Entering the Divine, Reaching the Marvelous
+  literal: Chu Shen Ru Hua
+- raw: 登峰造极
+  result: Reaching the Pinnacle
+  badtrans: true
+  direct: Ascend the Peak, Create the Extreme
+  literal: Deng Feng Zao Ji
+- raw: 一代宗师
+  result: Sage of an Era
+  badtrans: true
+  direct: One Generation, Grandmaster
+  literal: Yi Dai Zong Shi
+- raw: 绝世高手
+  result: Peerless Expert
+  badtrans: true
+  direct: World's Greatest Master
+  literal: Jue Shi Gao Shou
+- raw: 独步江湖
+  result: Unrivaled in the Jianghu
+  badtrans: true
+  direct: Walk Alone in the Jianghu
+  literal: Du Bu Jiang Hu
+- raw: 天下无双
+  result: No Equal Under Heaven
+  badtrans: true
+  direct: No Equal Under Heaven
+  literal: Tian Xia Wu Shuang
+- raw: 武林传说
+  result: Wulin Legend
+  badtrans: true
+  direct: Martial Forest Legend
+  literal: Wu Lin Chuan Shuo
+- raw: 陆地神仙
+  result: Earthly Immortal
+  badtrans: true
+  direct: Land Immortal
+  literal: Lu Di Shen Xian
+
+# Martial Arts Tiers
+- raw: 艳新觉  
+  result: Vivid New Awareness  
+  badtrans: true  
+  direct: Gorgeous New Perceive  
+  literal: Yanxin Jue  
+- raw: 参悟武学  
+  result: Comprehend Martial Arts  
+  badtrans: true  
+  direct: Comprehend Martial Study  
+  literal: Canwu Wuxue  
+- raw: 人阶武学  
+  result: Mortal Tier Martial Arts
+  badtrans: true  
+  direct: Human Rank Martial Study  
+  literal: Renjie Wuxue  
+- raw: 地阶武学  
+  result: Earth Tier Martial Arts
+  badtrans: true  
+  direct: Earth Rank Martial Study  
+  literal: Dijie Wuxue  
+- raw: 天阶武学  
+  result: Heaven Tier Martial Arts
+  badtrans: true  
+  direct: Heaven Rank Martial Study  
+  literal: Tianjie Wuxue  
+
+# Items
+- raw: 魁星
+  result: Leader Star
+  badtrans: true
+  direct: leader star
+  literal: kui xing
+- raw: 镇毒
+  result: Poison Suppression
+  badtrans: true
+  direct: suppress poison
+  literal: zhen du
+- raw: 狂澜
+  result: Raging Waves
+  badtrans: true
+  direct: frenzied waves
+  literal: kuang lan
+- raw: 九歌
+  result: Nine Songs
+  badtrans: true
+  direct: nine songs
+  literal: jiu ge
+- raw: 三问
+  result: Three Questions
+  badtrans: true
+  direct: three inquiries
+  literal: san wen
+- raw: 申脉
+  result: Shen Meridian
+  badtrans: true
+  direct: Shen pulse
+  literal: shen mai
+- raw: 鹤年
+  result: Crane Year
+  badtrans: true
+  direct: crane year
+  literal: he nian
+- raw: 青婴
+  result: Qing Ying
+  badtrans: true
+  direct: green infant
+  literal: qing ying
+- raw: 回罡
+  result: Hui Gang
+  badtrans: true
+  direct: return polar star
+  literal: hui gang
+- raw: 晴明
+  result: Qing Ming
+  badtrans: true
+  direct: clear bright
+  literal: qing ming
+- raw: 百会
+  result: Baihui
+  badtrans: true
+  direct: hundred gatherings
+  literal: bai hui  (a specific acupuncture point)
+- raw: 元重
+  result: Yuan Zhong
+  badtrans: true
+  direct: origin heavy
+  literal: yuan zhong
+- raw: 宁蚀
+  result: Ning Shi
+  badtrans: true
+  direct: peaceful corrosion
+  literal: ning shi
+- raw: 水还
+  result: Water Return
+  badtrans: true
+  direct: water return
+  literal: shui huan
+- raw: 西极
+  result: Western Extremity
+  badtrans: true
+  direct: western extreme
+  literal: xi ji
+- raw: 雪蚕
+  result: Snow Silkworm
+  badtrans: true
+  direct: snow silkworm
+  literal: xue can
+- raw: 千寿
+  result: Thousand Longevity
+  badtrans: true
+  direct: thousand longevity
+  literal: qian shou
+- raw: 会阴
+  result: Meeting Yin
+  badtrans: true
+  direct: meeting yin
+  literal: hui yin
+- raw: 火灵
+  result: Fire Spirit
+  badtrans: true
+  direct: fire spirit
+  literal: huo ling
+- raw: 青岚
+  result: Green Mist
+  badtrans: true
+  direct: green mist
+  literal: qing lan
+- raw: 遥骨
+  result: Distant Bone
+  badtrans: true
+  direct: distant bone
+  literal: yao gu
+- raw: 云霖
+  result: Cloud Rain
+  badtrans: true
+  direct: cloud rain
+  literal: yun lin
+- raw: 阳明
+  result: Bright Sun
+  badtrans: true
+  direct: bright sun
+  literal: yang ming
+- raw: 五枢
+  result: Five Pivots
+  badtrans: true
+  direct: five pivots
+  literal: wu shu
+- raw: 狮心
+  result: Lion Heart
+  badtrans: true
+  direct: lion heart
+  literal: shi xin
+- raw: 炎止
+  result: Flame Stop
+  badtrans: true
+  direct: flame stop
+  literal: yan zhi
+- raw: 气冲
+  result: Qi Surge
+  badtrans: true
+  direct: qi rush
+  literal: qi chong
+- raw: 悬冰
+  result: Hanging Ice
+  badtrans: true
+  direct: suspended ice
+  literal: xuan bing
+- raw: 八珍
+  result: Eight Treasures
+  badtrans: true
+  direct: eight treasures
+  literal: ba zhen
+- raw: 陨星
+  result: Falling Star
+  badtrans: true
+  direct: meteor
+  literal: yun xing
+- raw: 苑梦
+  result: Garden Dream
+  badtrans: true
+  direct: garden dream
+  literal: yuan meng
+- raw: 水蕴
+  result: Water Essence
+  badtrans: true
+  direct: water accumulation
+  literal: shui yun
+- raw: 金门
+  result: Golden Gate
+  badtrans: true
+  direct: golden gate
+  literal: jin men
+- raw: 流朱
+  result: Flowing Vermilion
+  badtrans: true
+  direct: flowing vermilion
+  literal: liu zhu
+- raw: 化缠
+  result: Transforming Bind
+  badtrans: true
+  direct: transforming entanglement
+  literal: hua chan
+- raw: 乌涉
+  result: Black Crossing
+  badtrans: true
+  direct: black crossing
+  literal: wu she
+- raw: 筑宾
+  result: Establishing Guests
+  badtrans: true
+  direct: build guests
+  literal: zhu bin
+- raw: 天刑
+  result: Divine Punishment
+  badtrans: true
+  direct: heaven punishment
+  literal: tian xing
+- raw: 蝉岭
+  result: Cicada Ridge
+  badtrans: true
+  direct: cicada ridge
+  literal: chan ling
+- raw: 太微
+  result: Great Subtlety
+  badtrans: true
+  direct: great subtlety
+  literal: tai wei
+- raw: 气运
+  rawSimplified: 气运
+  rawTraditional: 氣運
+  result: Luck
+  badtrans: true
+  direct: energy luck
+  literal: qi yun

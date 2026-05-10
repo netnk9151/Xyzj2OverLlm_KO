@@ -1,6 +1,6 @@
-﻿# 하일참강호 2 한국어 패치 (제작 중)
+﻿# Next Stop - Jianghu 2 English Patch
 
-설치 안내:
+Install guide:
 
 Extract the [Latest Release](https://github.com/joshfreitas1984/Xyzj2OverLlm/releases) into your `<Game Folder>` folder where 下一站江湖Ⅱ.exe is.
 
