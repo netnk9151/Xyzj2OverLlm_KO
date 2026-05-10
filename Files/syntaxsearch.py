@@ -2,7 +2,7 @@ import yaml
 import os
 
 # 경로 설정 시 앞에 r을 붙여서 \ 문제를 방지합니다.
-search_path = r"F:\kobold\openlumara\openlumara\sandbox\Xyzj2OverLlm-master\Files\Converted"
+search_path = r"F:\Xyzj2OverLlm-master\Files\Converted"
 
 def scan_directory(path):
     print(f"🔍 스캔 시작: {path}")
