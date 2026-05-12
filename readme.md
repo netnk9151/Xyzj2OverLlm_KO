@@ -25,7 +25,9 @@
 
 
   
-### 작업 방법 안내 (추가 예정)
+### 작업 방법 안내
+
+이 [링크](https://github.com/netnk9151/Xyzj2OverLlm_KO/blob/master/%ED%95%9C%ED%8C%A8%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4.md) 참조
 
 
 ### 추가 파일 안내
